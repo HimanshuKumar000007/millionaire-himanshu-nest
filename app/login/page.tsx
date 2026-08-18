@@ -397,6 +397,14 @@ function LoginFormContent() {
                     required
                     className="h-10 text-xs rounded-xl border-gray-300 focus:border-[#4F46E5]"
                   />
+                  <div className="flex justify-end pt-0.5">
+                    <Link
+                      href="/forgot-password"
+                      className="text-[11px] font-bold text-[#4F46E5] hover:text-[#3730A3] hover:underline transition-all"
+                    >
+                      Forgot password?
+                    </Link>
+                  </div>
                 </div>
 
                 <Button
