@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { motion } from "motion/react";
+import { motion, type Variants } from "motion/react";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { Card, CardTitle, CardContent } from "@/components/ui/card";
 import { Target, Sliders, LineChart, Repeat } from "lucide-react";
@@ -29,7 +29,7 @@ const pillars = [
   },
 ];
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -37,7 +37,7 @@ const containerVariants = {
   },
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, y: 24 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
 };

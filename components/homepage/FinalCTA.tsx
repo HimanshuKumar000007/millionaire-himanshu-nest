@@ -5,7 +5,7 @@ import { useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { ScientificBackground } from "@/components/shared/ScientificBackground";
 import { ArrowRight, Sparkles, Compass, ShieldCheck } from "lucide-react";
-import { motion, useInView } from "motion/react";
+import { motion, useInView, type Variants } from "motion/react";
 
 interface FinalCTAProps {
   onOpenAssessment: () => void;
@@ -18,7 +18,7 @@ export function FinalCTA({ onOpenAssessment }: FinalCTAProps) {
   const headingText = "Your NEST preparation starts with knowing where you stand.";
   const words = headingText.split(" ");
 
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -26,7 +26,7 @@ export function FinalCTA({ onOpenAssessment }: FinalCTAProps) {
     },
   };
 
-  const wordVariants = {
+  const wordVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { type: "spring", damping: 12, stiffness: 100 } },
   };
