@@ -1,0 +1,100 @@
+{
+  "id": "bio-xi-u1-c1-l11",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit I — Diversity of Living Organisms",
+  "unitNumber": 1,
+  "chapter": "The Living World",
+  "chapterNumber": 1,
+  "chapterSlug": "the-living-world",
+  "slug": "lesson-11-practice-module",
+  "title": "Quick Revision & NEST Practice Module",
+  "topic": "Self-Assessment Practice",
+  "topics": [
+    "Quick Revision Summary",
+    "NEST Single-Correct Question 1 (Hyperthermophile)",
+    "NEST Single-Correct Question 2 (Herbarium Label)",
+    "NEST Multiple-Select Question 3 (Nomenclature & Systematics)",
+    "NEST Multiple-Select Question 4 (Defining Properties of Life)"
+  ],
+  "order": 11,
+  "readingTimeMinutes": 6,
+  "estimatedTimeMinutes": 6,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "draft",
+  "quickSummary": "Complete self-assessment module for Chapter 1. Test your understanding with 2 Single-Correct Questions (SCQs) and 2 Multiple-Select Questions (MSQs) with instant answer reveal and NEST-level explanations.",
+  "summary": "Complete self-assessment module for Chapter 1. Test your understanding with 2 Single-Correct Questions (SCQs) and 2 Multiple-Select Questions (MSQs) with instant answer reveal and NEST-level explanations.",
+  "conceptBreakdown": [
+    {
+      "heading": "Section 11: Self-Assessment Practice Module",
+      "title": "Section 11: Self-Assessment Practice Module",
+      "summaryBox": {
+        "title": "Practice Module Overview",
+        "takeaway": "Solve these 4 NEST-pattern questions (2 SCQs and 2 MSQs) to verify your mastery of Chapter 1 concepts before taking the chapter quiz."
+      },
+      "content": "Below are 4 high-yield NEST & INBO level practice questions covering the entire depth of Chapter 1. Check your answers directly with detailed explanations.",
+      "practiceQuestions": [
+        {
+          "id": "nest-practice-q1",
+          "questionType": "SCQ",
+          "questionText": "Q1. An unknown hyperthermophilic prokaryote isolated from a deep-sea hydrothermal vent possesses a cell wall lacking peptidoglycan. Biochemical analysis reveals that its membrane lipids consist of branched isoprenoid chains linked to glycerol by ether bonds, forming a continuous monolayer. To which domain does this organism belong, and what will its 16S rRNA sequence show?",
+          "options": [
+            { "id": "a", "text": "A. Domain Bacteria; sequence identical to Escherichia coli." },
+            { "id": "b", "text": "B. Domain Archaea; sequence showing closer homology to Domain Eukarya SSU rRNA than to Domain Bacteria." },
+            { "id": "c", "text": "C. Domain Eukarya; sequence indicating a primitive eukaryotic cell lacking a nucleus." },
+            { "id": "d", "text": "D. Domain Monera; sequence matching blue-green algae." }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Ether linkages, branched isoprenoid tetraether monolayers, lack of peptidoglycan, and hyperthermophilic extremophile lifestyle are diagnostic traits of Domain Archaea. Woese's molecular clock analysis showed that Archaea 16S rRNA shares a more recent evolutionary ancestor with Eukarya 18S rRNA than with Bacteria 16S rRNA."
+        },
+        {
+          "id": "nest-practice-q2",
+          "questionType": "SCQ",
+          "questionText": "Q2. Which of the following parameters is strictly RECORDED on a standard Herbarium Sheet label?",
+          "options": [
+            { "id": "a", "text": "A. Height and DBH (Diameter at Breast Height) of the collected plant specimen." },
+            { "id": "b", "text": "B. Anatomical arrangement of vascular bundles in the stem." },
+            { "id": "c", "text": "C. Local name, Scientific name, Family name, Date, Locality, and Collector's name." },
+            { "id": "d", "text": "D. Absolute chlorophyll concentration per unit leaf surface area." }
+          ],
+          "correctAnswer": "c",
+          "explanation": "Standard Herbarium labels (7 × 12 cm) record Date, Locality, Collector's Name, Vernacular/English Name, Botanical Name, and Family. Structural metrics such as overall plant height, internal anatomy, and physiological concentrations are NOT recorded on the label."
+        },
+        {
+          "id": "nest-practice-q3",
+          "questionType": "MSQ",
+          "questionText": "Q3. Select the statements that represent VALID scientific facts regarding Biological Nomenclature and Evolutionary Systematics: (Select all correct options)",
+          "options": [
+            { "id": "a", "text": "A. The name Gorilla gorilla is a validly published binomial name under the ICZN." },
+            { "id": "b", "text": "B. The name Brassica oleracea var. capitata represents a tautonym strictly forbidden under the ICNafp." },
+            { "id": "c", "text": "C. A Paraphyletic group includes a common ancestor and all of its evolutionary descendants without exception." },
+            { "id": "d", "text": "D. An Isotype represents an exact duplicate specimen of the Holotype collected from the same location, on the same date, by the same collector." }
+          ],
+          "correctAnswer": ["a", "d"],
+          "explanation": "• A is correct: Gorilla gorilla is a tautonym, which is permitted in zoological nomenclature (ICZN).\n• B is incorrect: Brassica oleracea var. capitata is a trinomial (variety name), not a tautonym (Rosa rosa would be a botanical tautonym).\n• C is incorrect: A group containing an ancestor and ALL descendants is Monophyletic. A Paraphyletic group excludes some descendants.\n• D is correct: By definition, an Isotype is a duplicate specimen of the Holotype collected simultaneously from the same source."
+        },
+        {
+          "id": "nest-practice-q4",
+          "questionType": "MSQ",
+          "questionText": "Q4. Which of the following features qualify as DEFINING PROPERTIES of life? (Select all correct options)",
+          "options": [
+            { "id": "a", "text": "A. Intrinsic accumulation of mass via intussusception." },
+            { "id": "b", "text": "B. Isolated metabolic conversion of substrate to product performed within a cell-free in-vitro buffer system." },
+            { "id": "c", "text": "C. Cellular organization of structural components bounded by biological membranes." },
+            { "id": "d", "text": "D. Consciousness and physiological response to external chemical or physical environmental stimuli." }
+          ],
+          "correctAnswer": ["c", "d"],
+          "explanation": "• A is incorrect: Growth (mass increase) occurs in non-living systems (extrinsic) and is confounded with reproduction in unicellular organisms.\n• B is incorrect: An in-vitro reaction is a living reaction, but the isolated cell-free system itself is not a living organism.\n• C is correct: Cellular organization is present in all living organisms and absent in non-living matter without exception.\n• D is correct: All living organisms sense and respond to their environment (consciousness)."
+        }
+      ]
+    }
+  ],
+  "quickRevision": [
+    "Q1: Archaea = ether linkages + 16S rRNA sister to Eukarya.",
+    "Q2: Herbarium label = Date, Locality, Local/Scientific Name, Family, Collector (Height is NOT recorded).",
+    "Q3: Gorilla gorilla = Valid ICZN tautonym; Isotype = exact duplicate of Holotype.",
+    "Q4: Cellular Organization & Consciousness = Defining Properties of Life."
+  ]
+}

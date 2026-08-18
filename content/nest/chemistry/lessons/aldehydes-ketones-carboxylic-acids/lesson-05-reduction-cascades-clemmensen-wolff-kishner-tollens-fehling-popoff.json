@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u17-c8-l05",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVII \u2014 Aldehydes, Ketones and Carboxylic Acids",
+  "unitNumber": 17,
+  "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+  "chapterNumber": 8,
+  "chapterSlug": "aldehydes-ketones-carboxylic-acids",
+  "slug": "lesson-05-reduction-cascades-clemmensen-wolff-kishner-tollens-fehling-popoff",
+  "title": "Reduction Cascades & Mild/Harsh Oxidation Profiles",
+  "topic": "Deoxygenation & Diagnostic Oxidations",
+  "topics": [
+    "5.1 Deoxygenation Reductions (>C=O \u2500\u2500\u25ba >CH\u2082)",
+    "Clemmensen Reduction (Zn-Hg / Conc. HCl; Acidic Environment & Incompatibility with Acid-Sensitive Groups)",
+    "Wolff-Kishner Reduction (NH\u2082NH\u2082 / KOH in Ethylene Glycol, \u0394; Basic Environment)",
+    "5.2 Oxidation Profiles: Tollens' Test (Silver Mirror) vs Fehling's Test (Cu\u2082O Brick-Red Ppt)",
+    "Benzaldehyde Negative Fehling's Exception & Formic Acid Positive Tollens'/Fehling's Anomaly",
+    "Popoff\u2019s Rule for Harsh Oxidative Cleavage of Unsymmetrical Ketones"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "aldehydes-ketones-carboxylic-acids",
+  "quickSummary": "Clemmensen (Zn-Hg/HCl) deoxygenates in acidic conditions (avoid for acid-sensitive groups); Wolff-Kishner (NH\u2082NH\u2082/KOH) operates in basic conditions. Tollens' oxidizes both aliphatic and aromatic aldehydes to silver mirrors (2 Ag\u2070 \u2193). Fehling's oxidizes ALIPHATIC aldehydes only (benzaldehyde is negative). Popoff's rule keeps >C=O with the smaller alkyl group during harsh ketone oxidation.",
+  "summary": "Master carbonyl deoxygenation pathways, Tollens' and Fehling's diagnostic boundaries, and Popoff's ketone cleavage rule.",
+  "conceptBreakdown": [
+    {
+      "heading": "5.1 Deoxygenation Reductions: Clemmensen vs Wolff-Kishner",
+      "title": "5.1 Deoxygenation Reductions: Clemmensen vs Wolff-Kishner",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Acidic vs Basic Deoxygenation",
+        "takeaway": "Clemmensen (Zn-Hg/HCl) = Acidic (avoids base-sensitive groups). Wolff-Kishner (NH\u2082NH\u2082/KOH) = Basic (avoids acid-sensitive groups like -OH, ethers, alkenes)."
+      },
+      "codeSnippet": "                       DEOXYGENATION REDUCTION MODES\n                                     \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                                                       \u25bc\n  CLEMMENSEN REDUCTION                                    WOLFF-KISHNER REDUCTION\n  \u251c\u2500\u2500 Reagent: **$\\text{Zn-Hg} / \\text{Conc. HCl}$**             \u251c\u2500\u2500 Reagent: **$\\text{NH}_2\\text{NH}_2 / \\text{KOH in Ethylene Glycol, } \\Delta$**\n  \u251c\u2500\u2500 Environment: **ACIDIC**                             \u251c\u2500\u2500 Environment: **BASIC**\n  \u2514\u2500\u2500 Avoid for acid-sensitive groups (*alkenes, esters*) \u2514\u2500\u2500 Avoid for base-sensitive groups (*halides, esters*)",
+      "content": "Both methods deoxygenate carbonyl groups ($>\\text{C=O}$) into methylene groups ($>\\text{CH}_2$). Choice depends entirely on whether the molecule contains acid-sensitive or base-sensitive functional groups."
+    },
+    {
+      "heading": "5.2 Oxidation Profiles & Popoff's Rule",
+      "title": "5.2 Oxidation Profiles & Popoff's Rule",
+      "type": "paragraph",
+      "codeSnippet": "                       ALDEHYDE OXIDATION DIAGNOSTICS\n                                     \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                                                       \u25bc\n  TOLLENS' TEST (Silver Mirror)                           FEHLING'S TEST (Red Precipitate)\n  Reagent: Ammoniacal $\\text{AgNO}_3$ ($[\\text{Ag(NH}_3)_2]^+$)    Reagent: Fehling A ($\\text{CuSO}_4$) + Fehling B (Rochelle Salt)\n  \u251c\u2500\u2500 Oxidizes BOTH Aliphatic & Aromatic Aldehydes        \u251c\u2500\u2500 Oxidizes **ALIPHATIC Aldehydes ONLY**\n  \u2514\u2500\u2500 Yields **$\\text{2 Ag}^0 \\downarrow$ (Silver Mirror)**   \u2514\u2500\u2500 Yields **$\\text{Cu}_2\\text{O} \\downarrow$ (Brick-Red Precipitate)**\n                                                              \u2514\u2500\u2500 *(Benzaldehyde gives NEGATIVE Fehling's test!)*\n\nPOPOFF'S RULE:\nDuring oxidative cleavage of unsymmetrical ketones (HNO\u2083/\u0394), the >C=O group remains preferentially with the smaller alkyl group:\nCH\u2083-CO-CH\u2082CH\u2082CH\u2083 \u2500\u2500\u25ba CH\u2083COOH + CH\u2083CH\u2082COOH",
+      "content": "- **Tollens' Reagent**: Oxidizes both aliphatic and aromatic aldehydes to silver mirror ($2\\text{Ag}^0\\downarrow$).\n- **Fehling's Reagent**: Oxidizes aliphatic aldehydes to brick-red $\\text{Cu}_2\\text{O}\\downarrow$; aromatic aldehydes (e.g. Benzaldehyde) give a NEGATIVE test.\n- **Popoff's Rule**: In harsh oxidative cleavage of unsymmetrical ketones, the keto group remains with the smaller alkyl fragment."
+    }
+  ],
+  "quickRevision": [
+    "Clemmensen reduction uses Zn-Hg / conc. HCl (acidic medium).",
+    "Wolff-Kishner uses NH\u2082NH\u2082 / KOH in ethylene glycol (basic medium).",
+    "Tollens' test oxidizes aliphatic AND aromatic aldehydes (Ag mirror).",
+    "Fehling's test oxidizes ALIPHATIC aldehydes ONLY (Cu\u2082O red ppt; PhCHO fails).",
+    "Popoff's rule: >C=O stays with the smaller alkyl group during oxidation."
+  ],
+  "keyFormulae": [
+    "\\text{Popoff: } \\text{CH}_3\\text{COCH}_2\\text{CH}_2\\text{CH}_3 \\xrightarrow{\\text{HNO}_3, \\Delta} \\text{CH}_3\\text{COOH} + \\text{CH}_3\\text{CH}_2\\text{COOH}"
+  ]
+}

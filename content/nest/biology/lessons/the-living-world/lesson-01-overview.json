@@ -1,0 +1,80 @@
+{
+  "id": "bio-xi-u1-c1-l01",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit I — Diversity of Living Organisms",
+  "unitNumber": 1,
+  "chapter": "The Living World",
+  "chapterNumber": 1,
+  "chapterSlug": "the-living-world",
+  "slug": "lesson-01-overview",
+  "title": "What is Life? Defining vs. Non-Defining Characteristics",
+  "topic": "Properties of Life",
+  "topics": [
+    "Defining Properties of Life",
+    "Intrinsic vs Extrinsic Growth",
+    "Reproduction & Sterility Exceptions",
+    "In-Vivo vs In-Vitro Metabolism",
+    "Cellular Organization",
+    "Consciousness & Coma Edge Case"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 6,
+  "estimatedTimeMinutes": 6,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "heroImage": "/images/living_world_globe.jpg",
+  "quickSummary": "In high-level competitive examinations such as NEST and INBO, life is evaluated via thermodynamic, cellular, and evolutionary criteria. A property is a DEFINING PROPERTY if and only if: (1) It is present in ALL living organisms without exception, and (2) It is NEVER present in non-living objects.",
+  "summary": "In high-level competitive examinations such as NEST and INBO, life is evaluated via thermodynamic, cellular, and evolutionary criteria. A property is a DEFINING PROPERTY if and only if: (1) It is present in ALL living organisms without exception, and (2) It is NEVER present in non-living objects.",
+  "conceptBreakdown": [
+    {
+      "heading": "What is Life? Defining vs. Non-Defining Characteristics",
+      "title": "What is Life? Defining vs. Non-Defining Characteristics",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary Box",
+        "takeaway": "Life is evaluated via metabolic, cellular, and thermodynamic parameters. A defining property must be present in ALL living organisms without exception and ABSENT in all non-living matter."
+      },
+      "codeSnippet": "PROPERTIES OF LIFE\n                                    │\n         ┌──────────────────────────┴──────────────────────────┐\n         ▼                                                     ▼\nCHARACTERISTIC FEATURES                                DEFINING PROPERTIES\n(Exceptions exist OR present                           (Present in ALL living,\n in non-living entities)                                ABSENT in ALL non-living)\n ├── Growth (Intrinsic vs Extrinsic)                    ├── Cellular Organization\n └── Reproduction (Sterility / Asexual)                 ├── Metabolism (In-vivo Systems)\n                                                        └── Consciousness & Self-Regulation",
+      "content": "In high-level competitive examinations such as NEST and INBO, life is not defined by a single static property, but rather evaluated through thermodynamic, cellular, and evolutionary criteria. To determine whether a biological parameter constitutes a Defining Property of life, it must meet two strict non-negotiable conditions:\n\n1. It must be present in ALL living organisms without exception.\n2. It must NEVER be present in non-living objects.\n\nIf an attribute fails either condition, it is classified merely as a Characteristic Feature, not a defining property."
+    },
+    {
+      "heading": "1.1 Growth",
+      "title": "1.1 Growth",
+      "type": "paragraph",
+      "content": "Growth is defined as a twin characteristic: an increase in mass and an increase in number of individuals.\n\n• Intrinsic vs. Extrinsic Growth: Non-living objects such as mountains, boulders, and sand dunes grow by accretion—the accumulation of material on their external surface (extrinsic growth / accretion). Living organisms exhibit intrinsic growth (intussusception), synthesized from within via metabolic assimilation.\n\n• Cell Division Sync in Unicellular Organisms: In unicellular organisms (e.g., Amoeba, Escherichia coli), growth and reproduction are mutually inclusive events. Increasing cell size leads directly to cell division; thus, 'growth' cannot be decoupled from 'reproduction.'\n\n• Conclusion: Growth is a characteristic feature, NOT a defining property, because extrinsic growth occurs in non-living systems and intrinsic growth is confounded with reproduction in unicellular organisms."
+    },
+    {
+      "heading": "1.2 Reproduction",
+      "title": "1.2 Reproduction",
+      "type": "paragraph",
+      "content": "Reproduction is the biological process by which an organism produces offspring structurally and functionally similar to itself.\n\n• Modes: Sexual (generates genetic variation through meiosis and syngamy) and Asexual (binary fission, budding in yeast/hydra, true regeneration in Planaria [flatworms], fragmentation in filamentous algae, protonema of mosses, and fungi).\n\n• The Sterility Exception: Many living organisms cannot reproduce under natural or controlled conditions:\n  - Hybrid sterility: Mules (male donkey × female horse), Hinny (male horse × female donkey), Ligers (male lion × female tiger—sterile in males).\n  - Social caste sterility: Worker bees in eusocial insect colonies (Apis mellifera).\n  - Physiological sterility: Infertile human couples.\n\n• Conclusion: Reproduction is a characteristic feature, NOT a defining property, because living organisms exist that do not reproduce, even though non-living matter never reproduces."
+    },
+    {
+      "heading": "1.3 Metabolism",
+      "title": "1.3 Metabolism",
+      "type": "paragraph",
+      "content": "Metabolism is the sum total of all chemical reactions occurring within a living system, categorized into anabolism (constructive, endergonic processes) and catabolism (destructive, exergonic processes).\n\n• In-Vivo vs. In-Vitro Systems: Metabolic reactions can be isolated and performed in a test tube (in-vitro, cell-free systems). An in-vitro isolated metabolic reaction (e.g., conversion of glucose to glucose-6-phosphate by hexokinase in a cell-free buffer) is not a living organism, but it is unquestionably a living reaction.\n\n• Conclusion: Metabolism is a defining property of life. No non-living object exhibits metabolism. When metabolic reactions are conducted in-vitro, the reaction is living, but the system itself lacks life unless enclosed within a cellular boundary."
+    },
+    {
+      "heading": "1.4 Cellular Organization",
+      "title": "1.4 Cellular Organization",
+      "type": "paragraph",
+      "content": "Living organisms are composed of one or more cells bounded by lipid membranes that isolate an internal microenvironment from the external thermodynamic environment, maintaining localized low entropy (via continuous energy expenditure).\n\n• Conclusion: Cellular organization is an absolute defining property of life. Viruses, viroids, and prions represent acellular biological entities at the threshold of life, lacking independent cellular organization and metabolic machinery outside host cells."
+    },
+    {
+      "heading": "1.5 Consciousness and Response to Stimuli",
+      "title": "1.5 Consciousness and Response to Stimuli",
+      "type": "paragraph",
+      "content": "Consciousness is the ability of an organism to sense its physical, chemical, or biological environment and respond appropriately via physiological or behavioral adaptations.\n\n• Universal Photoperiodism: Photoperiod affects reproduction in seasonal breeders, both plants (short-day, long-day plants) and animals.\n• Chemical Sensing: Prokaryotes sense and respond to chemical gradients (chemotaxis) using membrane receptor proteins.\n• Self-Consciousness: The capability to be aware of oneself. This is restricted exclusively to humans.\n• Medical Edge Case (Comatose Patients): A patient lying in a coma supported by life-support systems (brain-dead) lacks self-consciousness and overt response to environmental cues, yet their tissues maintain cellular metabolism and self-regulation.\n\n• Conclusion: Consciousness is a defining property of life. Self-consciousness is not a defining property of all life, as it is limited to higher primates/humans."
+    }
+  ],
+  "quickRevision": [
+    "Growth & Reproduction = Characteristic Features only.",
+    "Metabolism, Cellular Organization & Consciousness = Defining Properties.",
+    "In-vitro metabolic reaction = Living reaction, NOT a living organism.",
+    "Comatose patient has cellular metabolism but lacks self-consciousness."
+  ]
+}

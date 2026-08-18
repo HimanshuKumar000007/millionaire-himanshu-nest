@@ -1,0 +1,36 @@
+{
+  "id": "bio-xi-u5-c14-l04",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Breathing and Exchange of Gases",
+  "chapterNumber": 14,
+  "chapterSlug": "breathing-and-exchange-of-gases",
+  "slug": "lesson-04-spirometric-respiratory-volumes-and-capacities",
+  "title": "Spirometric Respiratory Volumes & Capacities Analysis",
+  "topic": "TV, IRV, ERV, RV, IC, EC, FRC, VC, TLC & Spirometry Measurement Limits",
+  "order": 4,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "TV (500 mL), IRV (2500–3000 mL), ERV (1000–1100 mL), RV (1100–1200 mL). Vital Capacity = ERV + TV + IRV (3500–4500 mL). RV, FRC, and TLC CANNOT be measured by standard spirometry!",
+  "summary": "TV (500 mL), IRV (2500–3000 mL), ERV (1000–1100 mL), RV (1100–1200 mL). Vital Capacity = ERV + TV + IRV (3500–4500 mL). RV, FRC, and TLC CANNOT be measured by standard spirometry!",
+  "conceptBreakdown": [
+    {
+      "heading": "Spirometric Respiratory Volumes & Capacities Analysis",
+      "title": "Spirometric Respiratory Volumes & Capacities Analysis",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "TV (500 mL), IRV (2500–3000 mL), ERV (1000–1100 mL), RV (1100–1200 mL). Vital Capacity = ERV + TV + IRV (3500–4500 mL). RV, FRC, and TLC CANNOT be measured by standard spirometry!"
+      },
+      "codeSnippet": "SPIROMETRIC LUNG VOLUMES & CAPACITIES\n                      \n   6000 mL ┌────────────────────────────────────────────────────────┐\n          │                                 [ IRV ]                │\n   3500 mL ├─────────────────────────────────/\\────────────────────┤ ◄── Total Lung\n          │  TV (500 mL)                   /  \\                    │     Capacity\n   3000 mL ├──────────────/\\────/\\────────/    \\──/\\────/\\─────────┤     (TLC)\n          │             \\/    \\/                \\/    \\/           │\n   2300 mL ├──────────────────────────────────────────\\             │\n          │                                           \\  [ ERV ]   │\n   1200 mL ├────────────────────────────────────────────\\──────────┤\n          │                                  [ RV ]                │\n      0 mL └────────────────────────────────────────────────────────┘",
+      "content": "### 4.1 Respiratory Volumes & Capacities Diagnostic Matrix\n\n| Volume / Capacity | Abbreviation | Normal Adult Value | Definition & Calculation Formula |\n| :--- | :--- | :--- | :--- |\n| **Tidal Volume** | **TV** | $\\approx 500\\text{ mL}$ | Air inspired or expired during quiet breathing ($6000\\text{--}8000\\text{ mL/min}$). |\n| **Inspiratory Reserve Volume** | **IRV** | $2500\\text{--}3000\\text{ mL}$ | Additional maximal air inspired forcibly beyond normal tidal inspiration. |\n| **Expiratory Reserve Volume** | **ERV** | $1000\\text{--}1100\\text{ mL}$ | Additional maximal air expired forcibly beyond normal tidal expiration. |\n| **Residual Volume** | **RV** | $1100\\text{--}1200\\text{ mL}$ | Air remaining in lungs after maximal forced expiration. **Cannot be measured by spirometry!** |\n| **Inspiratory Capacity** | **IC** | $3000\\text{--}3500\\text{ mL}$ | Total air inspired after normal tidal expiration ($\\text{IC} = \\text{TV} + \\text{IRV}$). |\n| **Expiratory Capacity** | **EC** | $1500\\text{--}1600\\text{ mL}$ | Total air expired after normal tidal inspiration ($\\text{EC} = \\text{TV} + \\text{ERV}$). |\n| **Functional Residual Capacity** | **FRC** | $2100\\text{--}2300\\text{ mL}$ | Air remaining in lungs after normal tidal expiration ($\\text{FRC} = \\text{ERV} + \\text{RV}$). **Cannot be measured by spirometry!** |\n| **Vital Capacity** | **VC** | $3500\\text{--}4500\\text{ mL}$ | Maximum air expired after maximal forced inspiration ($\\text{VC} = \\text{ERV} + \\text{TV} + \\text{IRV}$). |\n| **Total Lung Capacity** | **TLC** | $5700\\text{--}6000\\text{ mL}$ | Total air in lungs at maximal forced inspiration ($\\text{TLC} = \\text{VC} + \\text{RV}$). **Cannot be measured by spirometry!** |\n\n> [!CAUTION]\n> **Spirometry Limit Trap**: Any lung capacity containing Residual Volume (RV)—namely **RV, FRC, and TLC**—CANNOT be directly measured with a spirometer.",
+      "contentMarkdown": "### 4.1 Respiratory Volumes & Capacities Diagnostic Matrix\n\n| Volume / Capacity | Abbreviation | Normal Adult Value | Definition & Calculation Formula |\n| :--- | :--- | :--- | :--- |\n| **Tidal Volume** | **TV** | $\\approx 500\\text{ mL}$ | Air inspired or expired during quiet breathing ($6000\\text{--}8000\\text{ mL/min}$). |\n| **Inspiratory Reserve Volume** | **IRV** | $2500\\text{--}3000\\text{ mL}$ | Additional maximal air inspired forcibly beyond normal tidal inspiration. |\n| **Expiratory Reserve Volume** | **ERV** | $1000\\text{--}1100\\text{ mL}$ | Additional maximal air expired forcibly beyond normal tidal expiration. |\n| **Residual Volume** | **RV** | $1100\\text{--}1200\\text{ mL}$ | Air remaining in lungs after maximal forced expiration. **Cannot be measured by spirometry!** |\n| **Inspiratory Capacity** | **IC** | $3000\\text{--}3500\\text{ mL}$ | Total air inspired after normal tidal expiration ($\\text{IC} = \\text{TV} + \\text{IRV}$). |\n| **Expiratory Capacity** | **EC** | $1500\\text{--}1600\\text{ mL}$ | Total air expired after normal tidal inspiration ($\\text{EC} = \\text{TV} + \\text{ERV}$). |\n| **Functional Residual Capacity** | **FRC** | $2100\\text{--}2300\\text{ mL}$ | Air remaining in lungs after normal tidal expiration ($\\text{FRC} = \\text{ERV} + \\text{RV}$). **Cannot be measured by spirometry!** |\n| **Vital Capacity** | **VC** | $3500\\text{--}4500\\text{ mL}$ | Maximum air expired after maximal forced inspiration ($\\text{VC} = \\text{ERV} + \\text{TV} + \\text{IRV}$). |\n| **Total Lung Capacity** | **TLC** | $5700\\text{--}6000\\text{ mL}$ | Total air in lungs at maximal forced inspiration ($\\text{TLC} = \\text{VC} + \\text{RV}$). **Cannot be measured by spirometry!** |\n\n> [!CAUTION]\n> **Spirometry Limit Trap**: Any lung capacity containing Residual Volume (RV)—namely **RV, FRC, and TLC**—CANNOT be directly measured with a spirometer."
+    }
+  ]
+}

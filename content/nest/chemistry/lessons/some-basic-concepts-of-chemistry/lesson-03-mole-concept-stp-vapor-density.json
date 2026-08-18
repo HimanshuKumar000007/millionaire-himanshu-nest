@@ -1,0 +1,60 @@
+{
+  "id": "chem-xi-u1-c1-l03",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit I \u2014 Some Basic Concepts of Chemistry",
+  "unitNumber": 1,
+  "chapter": "Some Basic Concepts of Chemistry",
+  "chapterNumber": 1,
+  "chapterSlug": "some-basic-concepts-of-chemistry",
+  "slug": "lesson-03-mole-concept-stp-vapor-density",
+  "title": "The Mole Concept, Molar Volume & Vapor Density Mechanics",
+  "topic": "Mole Concept & Molar Mass",
+  "topics": [
+    "The 2019 SI Redefined Mole (N_A)",
+    "The Mole Conversion Triad",
+    "IUPAC Current STP (22.71 L) vs Old STP (22.414 L)",
+    "Vapor Density Mechanics (VD = M/2.016)",
+    "Average Molar Mass of Gas Mixtures (M\u0304)"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "mole-concept",
+  "quickSummary": "The mole is the SI base unit containing exactly 6.02214076 \u00d7 10\u00b2\u00b3 entities. At IUPAC STP (0\u00b0C, 1 bar), 1 mole of ideal gas occupies 22.71 L. Vapor density relative to H\u2082 provides the golden relation M \u2248 2 \u00d7 VD.",
+  "summary": "Understand the three interconversion pathways of the mole, IUPAC STP standards, and gas density mechanics.",
+  "conceptBreakdown": [
+    {
+      "heading": "3. The Mole Concept & Conversion Triad",
+      "title": "3. The Mole Concept & Conversion Triad",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "The Mole Triad Formulae",
+        "takeaway": "n = w / M (Mass) = N / N_A (Count) = V_STP / V_m (Gas Volume)."
+      },
+      "codeSnippet": "THE MOLE CONVERSION TRIAD\n                                        \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                              \u25bc                              \u25bc\n  MASS INTERCONVERSION          PARTICLE COUNT                 GAS MOLAR VOLUME\n  $$n = \\frac{w}{M}$$           $$n = \\frac{N}{N_A}$$          $$n = \\frac{V_{\\text{STP}}}{V_m}$$\n  ($w = \\text{mass in g}$)      ($N = \\text{count}$)           ($V_m = 22.71\\text{ L at IUPAC STP}$)",
+      "content": "Since the 2019 SI redefinition, 1 mole contains exactly 6.02214076 \u00d7 10\u00b2\u00b3 elementary entities (N_A).\n\n\u2022 **Mass Path**: $n = \\frac{w}{M}$ where $w$ is mass in grams and $M$ is molar mass in g/mol.\n\u2022 **Particle Count Path**: $n = \\frac{N}{N_A}$ where $N$ is count of atoms, molecules, or ions.\n\u2022 **Gas Volume Path**: $n = \\frac{V_{\\text{STP}}}{V_m}$ where $V_m$ is molar volume at STP."
+    },
+    {
+      "heading": "3.1 Standard Temperature and Pressure (STP) Definitions",
+      "title": "3.1 Standard Temperature and Pressure (STP) Definitions",
+      "type": "paragraph",
+      "content": "\u2022 **IUPAC Current STP (Since 1982)**: $T = 273.15\\text{ K } (0^\\circ\\text{C})$, $P = 1.0\\text{ bar } (10^5\\text{ Pa})$.\n  $$\\mathbf{V_m = 22.7109\\text{ L/mol} = 22.71\\text{ dm}^3\\text{/mol}}$$\n\n\u2022 **Old Classical STP (Pre-1982)**: $T = 273.15\\text{ K } (0^\\circ\\text{C})$, $P = 1.0\\text{ atm } (101.325\\text{ kPa})$.\n  $$\\mathbf{V_m = 22.414\\text{ L/mol} = 22.4\\text{ dm}^3\\text{/mol}}$$\n\n\u2022 **SATP (Standard Ambient T & P)**: $T = 298.15\\text{ K } (25^\\circ\\text{C})$, $P = 1.0\\text{ bar}$.\n  $$\\mathbf{V_m = 24.789\\text{ L/mol}}$$"
+    },
+    {
+      "heading": "3.2 Vapor Density (VD) Mechanics",
+      "title": "3.2 Vapor Density (VD) Mechanics",
+      "type": "paragraph",
+      "content": "Vapor Density is the density of a gas relative to Hydrogen gas under identical T and P:\n\n$$\\text{VD} = \\frac{d_{\\text{gas}}}{d_{\\text{H}_2}} = \\frac{M_{\\text{gas}}}{2.016} \\implies \\mathbf{Molar Mass (M) \\approx 2 \\times Vapor Density (VD)}$$\n\n\u2022 **Average Molar Mass of Gas Mixtures (M\u0304)**:\n$$\\mathbf{\\bar{M} = \\frac{\\sum (n_i M_i)}{\\sum n_i} = \\frac{\\sum (V_i M_i)}{\\sum V_i} = \\sum (x_i M_i)}$$"
+    }
+  ],
+  "quickRevision": [
+    "Current IUPAC STP (1 bar) molar volume = 22.71 L/mol.",
+    "Legacy STP (1 atm) molar volume = 22.414 L/mol.",
+    "Molar Mass = 2 \u00d7 Vapor Density (VD)."
+  ]
+}

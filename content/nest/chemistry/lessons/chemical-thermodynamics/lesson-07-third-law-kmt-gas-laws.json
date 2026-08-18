@@ -1,0 +1,63 @@
+{
+  "id": "chem-xi-u5-c5-l07",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit V \u2014 Chemical Thermodynamics",
+  "unitNumber": 5,
+  "chapter": "Chemical Thermodynamics",
+  "chapterNumber": 5,
+  "chapterSlug": "chemical-thermodynamics",
+  "slug": "lesson-07-third-law-kmt-gas-laws",
+  "title": "Third Law of Thermodynamics, Residual Entropy & Kinetic Molecular Theory",
+  "topic": "Third Law & Kinetic Molecular Theory",
+  "topics": [
+    "Third Law of Thermodynamics (lim_(T\u21920 K) S = 0)",
+    "Absolute Standard Entropy (S\u00b0 = \u222b (C_p/T) dT)",
+    "Residual Entropy (S_res = k_B ln W in CO, N\u2082O, Ice)",
+    "Ideal Gas Laws (PV = nRT, PM = dRT) & Graham's Effusion Law",
+    "Maxwell-Boltzmann Speeds (v_mp, v_avg, v_rms & Speed Ratios)"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "third-law-thermodynamics",
+  "quickSummary": "The Third Law sets absolute zero entropy for perfectly crystalline pure solids. Residual entropy arises from frozen lattice disorder (CO, Ice). Kinetic molecular theory defines molecular speeds: v_rms > v_avg > v_mp (ratio 1.225 : 1.128 : 1.000).",
+  "summary": "Master the Third Law, residual entropy calculations, Graham's law, and Maxwell-Boltzmann molecular speeds.",
+  "conceptBreakdown": [
+    {
+      "heading": "7.1 Third Law of Thermodynamics & Residual Entropy",
+      "title": "7.1 Third Law of Thermodynamics & Residual Entropy",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Third Law & S_res",
+        "takeaway": "lim_(T\u21920 K) S = 0 for perfectly crystalline solids. Disordered crystals retain S_res = k_B ln W."
+      },
+      "content": "\u2022 **Third Law Postulate**: *The entropy of a perfectly crystalline, pure substance approaches zero at absolute zero temperature ($0\\text{ K}$)*.\n\u2022 **Residual Entropy**: Non-zero entropy observed at $0\\text{ K}$ due to frozen orientational microstates ($W > 1$):\n$$\\mathbf{S_{\\text{residual}} = k_B \\ln W}$$\n- $\\text{CO}$: $W=2 \\implies S_{\\text{res}} = R \\ln 2$\n- $\\text{N}_2\\text{O}$: $W=2 \\implies S_{\\text{res}} = R \\ln 2$\n- $\\text{Ice} (\\text{H}_2\\text{O}(s))$: $W=1.5 \\implies S_{\\text{res}} = R \\ln 1.5 \\approx 3.4\\text{ J/mol}\\cdot\\text{K}$"
+    },
+    {
+      "heading": "7.2 Graham's Law & Maxwell-Boltzmann Molecular Speeds",
+      "title": "7.2 Graham's Law & Maxwell-Boltzmann Molecular Speeds",
+      "type": "paragraph",
+      "codeSnippet": "MAXWELL-BOLTZMANN SPEED DISTRIBUTION\n   v_mp = \u221a(2RT/M)      (Most Probable Speed)\n   v_avg = \u221a(8RT/\u03c0M)    (Average Speed)\n   v_rms = \u221a(3RT/M)     (Root Mean Square Speed)\n   \n   Ratio: v_mp : v_avg : v_rms = \u221a2 : \u221a(8/\u03c0) : \u221a3 \u2248 1.000 : 1.128 : 1.225",
+      "content": "\u2022 **Graham\u2019s Law of Effusion**: $\\mathbf{\\frac{r_1}{r_2} = \\sqrt{\\frac{M_2}{M_1}} = \\sqrt{\\frac{d_2}{d_1}}}$\n\u2022 **Average Kinetic Energy**:\n$$\\text{Per Mole: } \\mathbf{E_k = \\frac{3}{2} R T} \\quad \\vert \\quad \\text{Per Molecule: } \\mathbf{\\epsilon_k = \\frac{3}{2} k_B T}$$"
+    }
+  ],
+  "quickRevision": [
+    "Third Law: S = 0 at 0 K for perfect crystals.",
+    "Residual entropy: S_res = R ln 2 for CO and N\u2082O; R ln(1.5) for Ice.",
+    "Graham's Law: r\u2081/r\u2082 = \u221a(M\u2082/M\u2081).",
+    "v_rms > v_avg > v_mp (1.225 : 1.128 : 1.000).",
+    "Average kinetic energy depends ONLY on absolute temperature T."
+  ],
+  "keyFormulae": [
+    "S_res = k_B ln W",
+    "v_rms = \u221a(3RT / M)",
+    "v_avg = \u221a(8RT / \u03c0M)",
+    "v_mp = \u221a(2RT / M)",
+    "r\u2081 / r\u2082 = \u221a(M\u2082 / M\u2081)"
+  ]
+}

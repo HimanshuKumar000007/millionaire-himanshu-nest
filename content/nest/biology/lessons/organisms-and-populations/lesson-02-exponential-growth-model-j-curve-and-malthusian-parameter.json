@@ -1,0 +1,51 @@
+{
+  "id": "bio-xii-u10-c11-l02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit X — Ecology",
+  "unitNumber": 10,
+  "chapter": "Organisms and Populations",
+  "chapterNumber": 11,
+  "chapterSlug": "organisms-and-populations",
+  "slug": "lesson-02-exponential-growth-model-j-curve-and-malthusian-parameter",
+  "title": "Exponential Growth Model: J-Curve & Malthusian Parameter",
+  "topic": "Population Balance Equation, dN/dt = rN, Intrinsic Growth Rate r, & Doubling Time",
+  "order": 2,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Exponential population growth occurs under unlimited resource conditions, yielding a J-shaped curve. Fundamental equation: N_(t+1) = N_t + [(B + I) - (D + E)]. Differential form: dN/dt = (b - d)N = rN, where r is the Intrinsic Rate of Natural Increase (Malthusian parameter). Integral equation: N_t = N_0 * e^(rt). Doubling time: t_double = ln(2) / r ≈ 0.693 / r.",
+  "summary": "Exponential population growth occurs under unlimited resource conditions, yielding a J-shaped curve. Fundamental equation: N_(t+1) = N_t + [(B + I) - (D + E)]. Differential form: dN/dt = (b - d)N = rN, where r is the Intrinsic Rate of Natural Increase (Malthusian parameter). Integral equation: N_t = N_0 * e^(rt). Doubling time: t_double = ln(2) / r ≈ 0.693 / r.",
+  "conceptBreakdown": [
+    {
+      "heading": "Population Dynamic Equation & Exponential J-Curve",
+      "title": "Population Dynamic Equation & Exponential J-Curve",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "When resources are unlimited, population size increases exponentially according to dN/dt = rN (integral form: N_t = N_0 * e^(rt)), yielding a steep J-shaped growth curve governed by the intrinsic growth rate r."
+      },
+      "codeSnippet": "POPULATION DYNAMICS MATRIX\n                           \n                         NATALITY (B)    IMMIGRATION (I)\n                              │                 │\n                              ▼                 ▼\n                       ┌──────────────────────────────┐\n                       │   POPULATION DENSITY (N)     │\n                       └──────────────────────────────┘\n                              ▲                 ▲\n                              │                 │\n                         MORTALITY (D)   EMIGRATION (E)",
+      "content": "### 2.1 The Fundamental Population Balance Equation\n- Population density ($N$) at time $t+1$ is determined by four dynamic parameters:\n  $$N_{t+1} = N_t + [(B + I) - (D + E)]$$\n  - **Natality ($B$)** & **Immigration ($I$)**: Parameters that **INCREASE** population density.\n  - **Mortality ($D$)** & **Emigration ($E$)**: Parameters that **DECREASE** population density.\n\n### 2.2 Exponential Growth Model (J-Shaped Geometric Expansion)\n- Occurs in an idealized, non-limiting environment where resources (food, space, nesting territories) are unlimited.\n- **Differential Form**:\n  $$\\mathbf{\\frac{dN}{dt} = (b - d)N = rN}$$\n- **Integral Form**:\n  $$\\mathbf{N_t = N_0 e^{rt}}$$\n  - $N_t = \\text{Population density at time } t$\n  - $N_0 = \\text{Initial population density at time } 0$\n  - $r = (b - d) = \\text{\\textbf{Intrinsic Rate of Natural Increase (Malthusian Parameter)}}$\n  - $e = \\text{Base of natural logarithms } (\\approx 2.71828)$\n\n### 2.3 The Intrinsic Rate of Natural Increase ($r$)\n- $r$ is an inherent measure of the biotic potential of a species under unconstrained conditions:\n  - Norway Rat: $r = 0.015$\n  - Flour Beetle (*Tribolium*): $r = 0.12$\n  - Human population in India (1981): $r = 0.0205$\n- **Population Doubling Time ($t_{\\text{double}}$)**:\n  $$\\mathbf{t_{\\text{double}} = \\frac{\\ln 2}{r} \\approx \\frac{0.693}{r}}$$"
+    },
+    {
+      "heading": "Environmental Stochasticity & Boom-Bust Cycles",
+      "title": "Environmental Stochasticity & Boom-Bust Cycles",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Exponential populations often overshoot environmental carrying limits, leading to catastrophic boom-and-bust crashes seen in algal blooms and locust plagues."
+      },
+      "content": "Because unlimited growth cannot persist indefinitely in finite biospheres, exponential populations routinely overshoot habitat thresholds, leading to sudden mass die-offs and population crashes (Boom-and-Bust cycles seen in algal blooms, aphids, and migratory locusts)."
+    },
+    {
+      "heading": "Allee Effect at Low Densities",
+      "title": "Allee Effect at Low Densities",
+      "type": "paragraph",
+      "content": "In severely depleted populations, per capita growth rate declines at very low densities due to difficulties in finding mates, breakdown of cooperative foraging, and inbreeding depression (Allee Effect)."
+    }
+  ]
+}

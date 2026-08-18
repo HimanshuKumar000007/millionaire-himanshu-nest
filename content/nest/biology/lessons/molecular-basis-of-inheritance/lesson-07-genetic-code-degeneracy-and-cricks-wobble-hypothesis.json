@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c5-l07",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Molecular Basis of Inheritance",
+  "chapterNumber": 5,
+  "chapterSlug": "molecular-basis-of-inheritance",
+  "slug": "lesson-07-genetic-code-degeneracy-and-cricks-wobble-hypothesis",
+  "title": "The Genetic Code & Crick's Wobble Hypothesis",
+  "topic": "Triplet Code, Degeneracy, AUG Start, Stop Codons, & Inosine Wobble",
+  "order": 7,
+  "readingTimeMinutes": 15,
+  "estimatedTimeMinutes": 15,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Genetic code: 64 triplet codons (61 sense codons + 3 stop codons: UAA Ochre, UAG Amber, UGA Opal). Properties: degenerate (redundant), unambiguous, non-overlapping, universal. AUG = start + Methionine. Crick's Wobble hypothesis: 5' Inosine on tRNA anticodon pairs with U, C, or A at 3' mRNA codon.",
+  "summary": "Genetic code: 64 triplet codons (61 sense codons + 3 stop codons: UAA Ochre, UAG Amber, UGA Opal). Properties: degenerate (redundant), unambiguous, non-overlapping, universal. AUG = start + Methionine. Crick's Wobble hypothesis: 5' Inosine on tRNA anticodon pairs with U, C, or A at 3' mRNA codon.",
+  "conceptBreakdown": [
+    {
+      "heading": "The Genetic Code & Crick's Wobble Hypothesis",
+      "title": "The Genetic Code & Crick's Wobble Hypothesis",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "The Genetic Code is a triplet code (64 codons: 61 sense + 3 nonsense/stop: UAA, UAG, UGA). Core properties: Degeneracy (20 amino acids coded by 61 codons), Unambiguous (each codon codes for only 1 amino acid), and Universal. AUG is dual-function (start codon + Met). Crick's Wobble Hypothesis allows relaxed non-Watson-Crick base pairing at the 3' base of the mRNA codon."
+      },
+      "codeSnippet": "GENETIC CODE PROPERTIES\n                                      │\n     ┌──────────────────┬─────────────┴─────────────┬──────────────────┐\n     ▼                  ▼                           ▼                  ▼\nTRIPLET CODE       DEGENERATE / REDUNDANT      UNAMBIGUOUS         UNIVERSAL\n3 nt = 1 Codon     61 codons code for          One specific codon  Same code across all\n(64 total codons)  20 amino acids.             codes for ONLY ONE  organisms (with minor\n                   (Multiple codons per AA)    amino acid.         mitochondrial exceptions).",
+      "content": "### 7.1 Salient Features of the Genetic Code\n1. **Triplet Nature**: $3\\text{ consecutive nucleotides}$ in mRNA constitute $1\\text{ codon}$ ($4^3 = 64\\text{ codons}$). Marshall Nirenberg, Severo Ochoa, and Har Gobind Khorana deciphered the code.\n2. **61 Sense Codons & 3 Stop Codons**:\n   - **Start Codon**: **AUG** (codes for Methionine in eukaryotes; N-formylmethionine in prokaryotes).\n   - **Stop / Nonsense Codons**: **UAA (Ochre), UAG (Amber), and UGA (Opal)**.\n3. **Degeneracy (Redundancy)**: Most amino acids are specified by more than one codon (e.g., Leucine, Serine, and Arginine each have $6\\text{ codons}$). Tryptophan (UGG) and Methionine (AUG) have only one codon each.\n4. **Unambiguous & Non-Overlapping**: A given codon codes for one and only one amino acid, read continuously without punctuation.\n\n### 7.2 Crick’s Wobble Hypothesis (1966)\n- Explains how $30\\text{--}40\\text{ distinct tRNA species}$ can decode all 61 sense codons.\n\n```\n                       WOBBLE PAIRING AT 3rd CODON BASE\n                       \n     5' ─────── mRNA Codon:   G  ─  C  ─  [ U / C / A ] (3rd Base Wobble)\n                               │     │        │\n     3' ─── tRNA Anticodon:   C  ─  G  ─  [  INOSINE  ] (1st Base Anticodon)\n```\n\n- **Mechanics**: Steric constraints are relaxed exclusively at the **$3'$ base of the mRNA codon** and **$5'$ base of the tRNA anticodon**.\n  - An **Inosine ($\\text{I}$)** residue at the $5'$ position of the anticodon forms flexible hydrogen bonds with **$\\text{U}$, $\\text{C}$, or $\\text{A}$** at the $3'$ position of the codon."
+    },
+    {
+      "heading": "Non-Standard Genetic Code Exceptions",
+      "title": "Non-Standard Genetic Code Exceptions",
+      "type": "paragraph",
+      "content": "Minor exceptions exist in mitochondrial genomes and ciliates: in human mitochondria, UGA codes for Tryptophan (instead of stop) and AUA codes for Methionine (instead of Isoleucine)."
+    },
+    {
+      "heading": "21st and 22nd Genetically Encoded Amino Acids",
+      "title": "21st and 22nd Genetically Encoded Amino Acids",
+      "type": "paragraph",
+      "content": "Selenocysteine (21st amino acid) is inserted at specific UGA codons via SECIS RNA stem-loop elements, and Pyrrolysine (22nd amino acid) is inserted at UAG in certain methanogenic archaea."
+    }
+  ]
+}

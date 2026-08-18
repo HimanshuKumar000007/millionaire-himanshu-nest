@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c4-l03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Principles of Inheritance and Variation",
+  "chapterNumber": 4,
+  "chapterSlug": "principles-of-inheritance-and-variation",
+  "slug": "lesson-03-incomplete-dominance-and-co-dominance-genetics",
+  "title": "Incomplete Dominance & Co-Dominance Genetics",
+  "topic": "Antirrhinum majus 1:2:1, Co-dominance, & Extensions to Mendelism",
+  "order": 3,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Incomplete Dominance (Antirrhinum majus / Mirabilis jalapa): F1 pink flowers, F2 phenotypic ratio equals genotypic ratio (1 Red : 2 Pink : 1 White = 1:2:1). Co-dominance: both alleles express fully in F1 heterozygotes (ABO Blood Group I^A I^B).",
+  "summary": "Incomplete Dominance (Antirrhinum majus / Mirabilis jalapa): F1 pink flowers, F2 phenotypic ratio equals genotypic ratio (1 Red : 2 Pink : 1 White = 1:2:1). Co-dominance: both alleles express fully in F1 heterozygotes (ABO Blood Group I^A I^B).",
+  "conceptBreakdown": [
+    {
+      "heading": "Incomplete Dominance & Co-Dominance Genetics",
+      "title": "Incomplete Dominance & Co-Dominance Genetics",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Incomplete Dominance occurs when the F1 hybrid displays an intermediate phenotype between parental extremes (e.g. Snapdragon flower color). The F2 phenotypic ratio matches the genotypic ratio: 1 Red : 2 Pink : 1 White (1:2:1). Co-dominance occurs when both alleles express equally and simultaneously in the heterozygote (e.g. ABO Blood Group IA IB expressing both Antigen A and Antigen B)."
+      },
+      "codeSnippet": "EXTENSIONS TO MENDELISM\n                                     │\n     ┌───────────────────────────────┼───────────────────────────────┐\n     ▼                               ▼                               ▼\nINCOMPLETE DOMINANCE            CO-DOMINANCE                    MULTIPLE ALLELISM\nF1 phenotype is intermediate    Both alleles express fully      >2 alleles govern a trait in\nbetween parental extremes.      in the F1 heterozygote.         a population (ABO Blood).\n├── Antirrhinum majus           ├── ABO Blood Group (IA IB)     ├── Population-level trait\n└── Phenotypic Ratio: 1:2:1     └── Phenotypic Ratio: 1:2:1     └── Genotypes = n(n+1)/2",
+      "content": "### 3.1 Incomplete Dominance (Snapdragon & 4 O'Clock Plant)\n- **Cross**: True-breeding red-flowered (*Antirrhinum majus* / Snapdragon or *Mirabilis jalapa*) and white-flowered plants yield **pink-flowered** $F_1$ hybrids ($Rr$).\n\n$$F_1 \\text{ Selfing } (Rr \\times Rr) \\longrightarrow F_2 \\text{ Phenotypic Ratio} = \\mathbf{1:2:1} \\text{ (1 Red : 2 Pink : 1 White)}$$\n\n$$F_2 \\text{ Genotypic Ratio} = \\mathbf{1:2:1} \\text{ (1 } RR : 2 Rr : 1 rr)$$\n\n- **Key Takeaway**: In incomplete dominance, the **Phenotypic Ratio matches the Genotypic Ratio (1:2:1)**, overriding the classical Mendelian $3:1$ ratio.\n\n### 3.2 Co-dominance Mechanics\n- In co-dominance, there is no intermediate blending; **both alleles of a heterozygote express their respective gene products simultaneously and with equal strength**.\n- *Example*: Human $I^A I^B$ blood group heterozygotes have RBCs presenting both Antigen A ($\\text{N}$-acetylgalactosamine) and Antigen B (galactose) on their surfaces."
+    },
+    {
+      "heading": "Molecular Basis of Incomplete Dominance",
+      "title": "Molecular Basis of Incomplete Dominance",
+      "type": "paragraph",
+      "content": "In Antirrhinum, the R allele encodes a functional anthocyanin pigment synthase enzyme; homozygous RR produces 100% pigment (Red), heterozygous Rr produces 50% pigment (Pink), and rr produces 0% pigment (White)."
+    },
+    {
+      "heading": "MN Blood Group System",
+      "title": "MN Blood Group System",
+      "type": "paragraph",
+      "content": "Human MN blood grouping exhibits pure co-dominance: LM and LN alleles produce M and N glycoprotein antigens; heterozygotes (LM LN) express both antigens without dominance or recessiveness."
+    }
+  ]
+}

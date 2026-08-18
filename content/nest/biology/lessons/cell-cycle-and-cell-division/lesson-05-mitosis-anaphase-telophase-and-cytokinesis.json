@@ -1,0 +1,50 @@
+{
+  "id": "bio-xi-u3-c10-l05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Cell Cycle and Cell Division",
+  "chapterNumber": 10,
+  "chapterSlug": "cell-cycle-and-cell-division",
+  "slug": "lesson-05-mitosis-anaphase-telophase-and-cytokinesis",
+  "title": "Mitosis: Anaphase, Telophase, & Cytokinesis Mechanisms",
+  "topic": "Anaphase A/B, Centromere Shapes, Animal Cleavage Furrow vs Plant Phragmoplast, & Syncytium",
+  "topics": [
+    "Anaphase Onset & Centromere Splitting",
+    "Anaphase A (Kinetochore Shortening) vs Anaphase B (Polar Microtubule Elongation)",
+    "Chromosome Shapes at Anaphase: V (Metacentric), L (Submetacentric), J (Acrocentric), I (Telocentric)",
+    "Telophase: Chromatin Decondensation & Nuclear Envelope Reassembly",
+    "Cytokinesis: Animal Centripetal Cleavage Furrow (Actin-Myosin II Ring)",
+    "Cytokinesis: Plant Centrifugal Cell Plate (Phragmoplast & Golgi Pectin Vesicles)",
+    "Syncytium Formation (Multinucleate State / Liquid Endosperm of Coconut)"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "During Anaphase, centromeres split simultaneously and sister chromatids are pulled toward opposite poles by Anaphase A and B forces, displaying V, L, J, and I shapes. Telophase reverses prophase by decondensing chromatin and reforming nuclear envelopes. Animal cytokinesis proceeds centripetally (outside-to-inside) via an actin-myosin contractile ring. Plant cytokinesis proceeds centrifugally (inside-to-outside) via Golgi vesicles fusing along the phragmoplast to form the middle lamella. Karyokinesis without cytokinesis generates a syncytium.",
+  "summary": "During Anaphase, centromeres split simultaneously and sister chromatids are pulled toward opposite poles by Anaphase A and B forces, displaying V, L, J, and I shapes. Telophase reverses prophase by decondensing chromatin and reforming nuclear envelopes. Animal cytokinesis proceeds centripetally (outside-to-inside) via an actin-myosin contractile ring. Plant cytokinesis proceeds centrifugally (inside-to-outside) via Golgi vesicles fusing along the phragmoplast to form the middle lamella. Karyokinesis without cytokinesis generates a syncytium.",
+  "conceptBreakdown": [
+    {
+      "heading": "3.3 Anaphase & Telophase Dynamics",
+      "title": "3.3 Anaphase & Telophase Dynamics",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Anaphase splits centromeres; reveals V/L/J/I shapes. Animal cytokinesis = Centripetal (furrow). Plant cytokinesis = Centrifugal (cell plate phragmoplast)."
+      },
+      "content": "• **Anaphase**: Centromeres split simultaneously; sister chromatids separate into individual daughter chromosomes moving toward opposite poles.\n  - **Anaphase A**: Shortening of kinetochore microtubules pulls chromosomes poleward.\n  - **Anaphase B**: Elongation of overlapping polar microtubules pushes spindle poles further apart.\n  - **Chromosome Shapes**: Centromere leads toward pole with trailing arms: **V-shape** (*Metacentric*), **L-shape** (*Submetacentric*), **J-shape** (*Acrocentric*), **I-shape** (*Telocentric*).\n• **Telophase**: Chromosomes decondense into diffuse chromatin; nuclear membranes, nucleoli, and Golgi bodies reassemble around daughter nuclei."
+    },
+    {
+      "heading": "3.4 Cytokinesis Mechanisms in Animals vs Plants",
+      "title": "3.4 Cytokinesis Mechanisms in Animals vs Plants",
+      "type": "paragraph",
+      "codeSnippet": "CYTOKINESIS MECHANISMS\n                                      │\n         ┌────────────────────────────┴────────────────────────────┐\n         ▼                                                         ▼\n  ANIMAL CYTOKINESIS (Cleavage Furrow)                      PLANT CYTOKINESIS (Cell Plate)\n  ├── **Centripetal Direction** (Outside ──► Inside)        ├── **Centrifugal Direction** (Inside ──► Outside)\n  └── Driven by **Actin-Myosin II Contractile Ring**        └── Driven by **Phragmoplast** & Golgi Vesicles",
+      "content": "• **Animal Cells (Cleavage Furrow)**: An equatorial **Actin-Myosin II contractile ring** constricts the plasma membrane inward in a **Centripetal (outside-to-inside)** direction.\n• **Plant Cells (Cell Plate)**: Rigid cell walls prevent furrowing. Golgi-derived vesicles containing calcium/magnesium pectate align along microtubules forming the **Phragmoplast**, growing in a **Centrifugal (inside-to-outside)** direction to form the **Middle Lamella / Cell Plate**.\n• **Syncytium**: Repeated nuclear divisions (karyokinesis) without cytoplasmic cleavage (cytokinesis) produce a multinucleated protoplasmic mass (*e.g., liquid endosperm of coconut, coenocytic fungi*)."
+    }
+  ]
+}

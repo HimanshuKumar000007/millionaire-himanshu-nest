@@ -1,0 +1,56 @@
+{
+  "id": "bio-xi-u3-c10-l01",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Cell Cycle and Cell Division",
+  "chapterNumber": 10,
+  "chapterSlug": "cell-cycle-and-cell-division",
+  "slug": "lesson-01-cell-cycle-framework-and-interphase-dynamics",
+  "title": "The Cell Cycle Framework & Interphase Dynamics",
+  "topic": "G1, S, G2 Sub-Stages, DNA Replication vs Ploidy Invariance, & G0 Quiescent State",
+  "topics": [
+    "Cell Cycle Overview (Interphase 95% vs M-Phase)",
+    "Temporal Duration (Human Epithelial ~24 h vs Yeast ~90 min)",
+    "The Quiescent State (G0 Phase - Cardiac Myocytes, Neurons)",
+    "G1 Phase Molecular Events (RNA & Protein Synthesis, 2n, 2C)",
+    "S Phase Nuclear ($2C \\rightarrow 4C$) & Cytoplasmic Centriole Duplication",
+    "G2 Phase Pre-Mitotic Preparations & Tubulin Synthesis (2n, 4C)"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "The eukaryotic cell cycle comprises Interphase (95% duration: G1, S, G2) and M-Phase. Mature non-dividing cells exit G1 into the metabolically active G0 quiescent state. G1 involves active RNA and protein synthesis (2n, 2C). In S-phase, nuclear DNA doubles (2C -> 4C) while chromosome count remains strictly constant (2n), and the cytoplasmic centriole pair duplicates. G2 synthesizes tubulin and prepares the cell for mitotic entry (2n, 4C).",
+  "summary": "The eukaryotic cell cycle comprises Interphase (95% duration: G1, S, G2) and M-Phase. Mature non-dividing cells exit G1 into the metabolically active G0 quiescent state. G1 involves active RNA and protein synthesis (2n, 2C). In S-phase, nuclear DNA doubles (2C -> 4C) while chromosome count remains strictly constant (2n), and the cytoplasmic centriole pair duplicates. G2 synthesizes tubulin and prepares the cell for mitotic entry (2n, 4C).",
+  "conceptBreakdown": [
+    {
+      "heading": "1. The Eukaryotic Cell Cycle Framework",
+      "title": "1. The Eukaryotic Cell Cycle Framework",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Interphase represents 95% of cell cycle time. In S-phase, DNA doubles from 2C to 4C while chromosome number remains constant (2n)."
+      },
+      "codeSnippet": "THE EUKARYOTIC CELL CYCLE\n                                       │\n         ┌─────────────────────────────┴─────────────────────────────┐\n         ▼                                                           ▼\n   INTERPHASE (95% Duration)                                  M-PHASE (Mitotic Phase)\n(Preparatory Growth & DNA Replication)                     (Nuclear & Cytoplasmic Division)\n ├── G₁ Phase (Gap 1 - Cell Growth)                         ├── Karyokinesis (Pro/Meta/Ana/Telo)\n ├── S Phase (Synthesis - DNA Replication)                  └── Cytokinesis (Cell Cleavage)\n └── G₂ Phase (Gap 2 - Protein Synthesis)",
+      "content": "The **Cell Cycle** is an ordered, genetically coordinated sequence of events whereby a cell duplicates its genome, synthesizes its structural constituents, and divides into two daughter cells.\n\n### Temporal Variations\n• **Cultured Human Cells**: $\\approx 24\\text{ hours}$ ($G_1 \\approx 10\\text{ h}, S \\approx 8\\text{ h}, G_2 \\approx 4\\text{ h}, M \\approx 1\\text{ h}$).\n• **Budding Yeast (*Saccharomyces cerevisiae*)**: $\\approx 90\\text{ minutes}$."
+    },
+    {
+      "heading": "1.1 The Quiescent State ($G_0$ Phase)",
+      "title": "1.1 The Quiescent State ($G_0$ Phase)",
+      "type": "paragraph",
+      "content": "Mature differentiated cells in adult animals that do not undergo division (such as **cardiac myocytes** and **mature neurons**) exit the $G_1$ phase into an inactive metabolic state termed the **$G_0$ Phase (Quiescent Stage)**.\n• Cells in $G_0$ remain **metabolically active and functionally differentiated**, but no longer proliferate unless stimulated by specific mitogenic growth factors (*e.g., liver parenchymal cells during tissue injury and regeneration*)."
+    },
+    {
+      "heading": "1.2 Interphase Molecular Sub-Stages",
+      "title": "1.2 Interphase Molecular Sub-Stages",
+      "type": "paragraph",
+      "codeSnippet": "INTERPHASE MOLECULAR EVENTS\n                          \n   G₁ PHASE ──────────────► High RNA & Protein Synthesis; Organelle Duplication\n                            (2n Chromosomes, 2C DNA Content)\n                                       │\n   S PHASE ───────────────► **DNA REPLICATION** (Nuclear) + **CENTRIOLE DUPLICATION** (Cytoplasm)\n                            (2n Chromosomes, 4C DNA Content)\n                                       │\n   G₂ PHASE ──────────────► Tubulin Synthesis; Preparation for Mitosis\n                            (2n Chromosomes, 4C DNA Content)",
+      "content": "1. **$G_1$ Phase (Gap 1 / Post-Mitotic Phase)**: High synthesis of mRNA, non-histone proteins, nucleotides, and ATP. Mitochondria and other organelles duplicate ($2n, 2C$).\n2. **$S$ Phase (Synthesis Phase)**:\n   $$\\Large \\mathbf{\\text{DNA Content: } 2C \\longrightarrow 4C}$$\n   $$\\Large \\mathbf{\\text{Chromosome Number: } 2n \\longrightarrow 2n \\text{ (UNCHANGED)}}$$\n   - **Nuclear Event**: Semi-conservative DNA replication; synthesis of basic histone proteins.\n   - **Cytoplasmic Event**: Duplication of the **Centrosome / Centriole Pair** in animal cells.\n3. **$G_2$ Phase (Gap 2 / Pre-Mitotic Phase)**: Synthesis of $\\alpha$- and $\\beta$-Tubulin proteins for mitotic spindle assembly; chloroplasts and mitochondria multiply ($2n, 4C$)."
+    }
+  ]
+}

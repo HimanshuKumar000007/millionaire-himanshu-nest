@@ -1,0 +1,64 @@
+{
+  "id": "chem-xii-u12-c3-l04",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XII \u2014 Chemical Kinetics",
+  "unitNumber": 12,
+  "chapter": "Chemical Kinetics",
+  "chapterNumber": 3,
+  "chapterSlug": "chemical-kinetics",
+  "slug": "lesson-04-first-order-kinetics-radioactivity-parallelism",
+  "title": "First-Order Reaction Kinetics & Radioactivity Parallelism",
+  "topic": "First-Order Kinetics & Nuclear Decay",
+  "topics": [
+    "First-Order Definition: Rate = -d[A]/dt = k [A]",
+    "Integrated Rate Law: ln([A]_0/[A]_t) = kt and k = (2.303/t) log\u2081\u2080([A]_0/[A]_t)",
+    "Exponential Decay Form: [A]_t = [A]_0 e^(-kt)",
+    "First-Order Graphical Plots (ln[A]_t vs t slope = -k; log\u2081\u2080[A]_t vs t slope = -k/2.303)",
+    "Half-Life: t_1/2 = ln 2 / k = 0.693147 / k (INDEPENDENT of [A]_0)",
+    "Fractional Timelines: [A]_t = [A]_0 (1/2)^n, t_75% = 2\u00b7t_1/2, t_87.5% = 3\u00b7t_1/2, t_99.9% \u2248 10\u00b7t_1/2",
+    "Radioactive Decay Parallelism (\u03bb = 0.693 / t_1/2)"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "chemical-kinetics",
+  "quickSummary": "First-order rate is proportional to [A]: Rate = k[A]. Integrated: ln([A]\u2080/[A]_t) = kt \u27f9 k = (2.303/t) log\u2081\u2080([A]\u2080/[A]_t). Exponential: [A]_t = [A]\u2080 e^(-kt). Half-life: t_1/2 = 0.693/k (independent of [A]\u2080). Fractional: t_75% = 2\u00b7t_1/2, t_99.9% \u2248 10\u00b7t_1/2. All radioactive decay is first-order.",
+  "summary": "Master first-order integrated kinetics, concentration-independent half-life, fractional completion calculations, and radioactive decay parallelism.",
+  "conceptBreakdown": [
+    {
+      "heading": "4. First-Order Reaction Kinetics & Integrated Rate Law",
+      "title": "4. First-Order Reaction Kinetics & Integrated Rate Law",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "First-Order Integrated Kinetics",
+        "takeaway": "ln([A]\u2080/[A]_t) = kt; [A]_t = [A]\u2080 e^(-kt). Plot of ln[A]_t vs t has slope = -k; plot of log\u2081\u2080[A]_t vs t has slope = -k / 2.303."
+      },
+      "codeSnippet": "                       FIRST-ORDER INTEGRATED KINETICS\n                       \n   Differential Rate Law:  $-\\frac{d[A]}{[A]} = k \\cdot dt$\n   Integration:            $$\\mathbf{\\ln \\left( \\frac{[A]_0}{[A]_t} \\right) = k t} \\implies \\mathbf{k = \\frac{2.303}{t} \\log_{10} \\left( \\frac{[A]_0}{[A]_t} \\right)}$$\n   Exponential Form:       $$\\mathbf{[A]_t = [A]_0 e^{-kt}}$$\n\n                        FIRST-ORDER GRAPHICAL PLOTS\n                        \n        ln [A]_t \u25b2                              log\u2081\u2080 [A]_t \u25b2\n                 \u2502 * (y-intercept = ln [A]\u2080)                 \u2502 * (y-intercept = log\u2081\u2080 [A]\u2080)\n                 \u2502  \\                                        \u2502  \\\n                 \u2502   \\  Slope = -k                           \u2502   \\  Slope = -k / 2.303\n                 \u2502    \\\n               0 \u2514\u2500\u2500\u2500\u2500\u2500*\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba Time (t)              0 \u2514\u2500\u2500\u2500\u2500\u2500*\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba Time (t)",
+      "content": "A First-Order Reaction is one where the reaction rate is directly proportional to the first power of reactant concentration:\n$$\\text{Reaction: } A \\longrightarrow \\text{Products} \\quad \\implies \\quad \\text{Rate} = -\\frac{d[A]}{dt} = k [A]$$\n\n$$\\mathbf{\\ln \\left( \\frac{[A]_0}{[A]_t} \\right) = k t} \\implies \\mathbf{k = \\frac{2.303}{t} \\log_{10} \\left( \\frac{[A]_0}{[A]_t} \\right)} \\quad \\text{and} \\quad \\mathbf{[A]_t = [A]_0 e^{-kt}}$$"
+    },
+    {
+      "heading": "4.1 Half-Life & Fractional Completion for First-Order",
+      "title": "4.1 Half-Life & Fractional Completion for First-Order",
+      "type": "paragraph",
+      "codeSnippet": "                        FIRST-ORDER FRACTIONAL TIMELINES\n                        \n   Amount Remaining ($[A]_t$) after $n$ half-lives:  $$\\mathbf{[A]_t = [A]_0 \\left( \\frac{1}{2} \\right)^n = [A]_0 \\left( \\frac{1}{2} \\right)^{t / t_{1/2}}}$$\n   \n   \u251c\u2500\u2500 $t_{75\\%}   = t_{3/4}  = 2 \\times t_{1/2}$  ($75\\%$ completed, $25\\%$ remaining)\n   \u251c\u2500\u2500 $t_{87.5\\%} = t_{7/8}  = 3 \\times t_{1/2}$  ($87.5\\%$ completed, $12.5\\%$ remaining)\n   \u2514\u2500\u2500 $t_{99.9\\%} \\approx 10 \\times t_{1/2}$     ($99.9\\%$ completed, $0.1\\%$ remaining)\n\n  - Radioactive Decay Parallelism: All natural and artificial nuclear decay processes strictly follow first-order kinetics (\\lambda = \\frac{0.693}{t_{1/2}}).",
+      "content": "Setting $[A]_t = \\frac{[A]_0}{2}$ in the integrated rate law:\n$$\\mathbf{t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693147}{k}}$$\n\n- **Key Invariance Property**: The half-life ($t_{1/2}$) of a first-order reaction is completely **INDEPENDENT of initial concentration $[A]_0$**.\n- **Radioactive Decay Parallelism**: All natural and artificial nuclear decay processes strictly follow first-order kinetics ($\\lambda = \\frac{0.693}{t_{1/2}}$)."
+    }
+  ],
+  "quickRevision": [
+    "k = (2.303/t) log\u2081\u2080([A]\u2080/[A]_t) and [A]_t = [A]\u2080 e^(-kt).",
+    "t_1/2 = 0.693147 / k (independent of [A]\u2080).",
+    "[A]_t = [A]\u2080 (1/2)^n = [A]\u2080 (1/2)^(t/t_1/2).",
+    "t_75% = 2\u00b7t_1/2; t_87.5% = 3\u00b7t_1/2; t_99.9% \u2248 10\u00b7t_1/2.",
+    "All nuclear decay processes strictly follow first-order kinetics."
+  ],
+  "keyFormulae": [
+    "k = \\frac{2.303}{t} \\log_{10} \\left( \\frac{[A]_0}{[A]_t} \\right), \\quad [A]_t = [A]_0 e^{-kt}",
+    "t_{1/2} = \\frac{0.693}{k}, \\quad [A]_t = [A]_0 \\left( \\frac{1}{2} \\right)^{t / t_{1/2}}",
+    "t_{75\\%} = 2 t_{1/2}, \\quad t_{99.9\\%} \\approx 10 t_{1/2}"
+  ]
+}

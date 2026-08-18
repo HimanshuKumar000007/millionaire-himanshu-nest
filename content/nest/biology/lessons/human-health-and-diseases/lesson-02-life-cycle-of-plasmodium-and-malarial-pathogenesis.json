@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u8-c7-l02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VIII — Biology in Human Welfare",
+  "unitNumber": 8,
+  "chapter": "Human Health and Diseases",
+  "chapterNumber": 7,
+  "chapterSlug": "human-health-and-diseases",
+  "slug": "lesson-02-life-cycle-of-plasmodium-and-malarial-pathogenesis",
+  "title": "Life Cycle of Plasmodium & Malarial Pathogenesis",
+  "topic": "Dual-Host Schizogony, Hemozoin Toxin, & Anopheles Vector Transmission",
+  "order": 2,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Plasmodium dual-host cycle: Human (intermediate host: asexual schizogony in liver cells, then erythrocytic schizogony in RBCs releasing Hemozoin toxin that causes recurring chills and high fever). Mosquito (definitive host: sexual syngamy in midgut, motile ookinete, oocyst sporogony, sporozoites stored in salivary glands).",
+  "summary": "Plasmodium dual-host cycle: Human (intermediate host: asexual schizogony in liver cells, then erythrocytic schizogony in RBCs releasing Hemozoin toxin that causes recurring chills and high fever). Mosquito (definitive host: sexual syngamy in midgut, motile ookinete, oocyst sporogony, sporozoites stored in salivary glands).",
+  "conceptBreakdown": [
+    {
+      "heading": "Life Cycle of Plasmodium: Dual-Host Mechanics",
+      "title": "Life Cycle of Plasmodium: Dual-Host Mechanics",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Plasmodium completes a digenetic life cycle: (1) Human Host: asexual schizogony in hepatocytes followed by erythrocyte invasion and lysis with Hemozoin release (causing fever and chills); (2) Female Anopheles: sexual syngamy in stomach midgut, ookinete, oocyst, and sporogony releasing sporozoites into salivary glands."
+      },
+      "codeSnippet": "PLASMODIUM DUAL-HOST LIFE CYCLE\n                        \n    HUMAN HOST (Asexual Cycle / Intermediate)      MOSQUITO HOST (Sexual Cycle / Definitive)\n    \n  Anopheles bite injects SPOROZOITES            Female Anopheles ingests GAMETOCYTES\n                 │                                                │\n  Liver Schizogony (Exo-erythrocytic)               Syngamy in Mosquito Midgut Stomach\n                 │                                                │\n  Erythrocytic Schizogony (RBCs)                    Ookinete ──► Oocyst ──► Sporogony\n                 │                                                │\n  RBC Rupture releases HEMOZOIN TOXIN            SPOROZOITES migrate to Salivary Glands\n  (Causes cyclic high fever & chills)                             │\n                 │                                                ▼\n  Forms Gametocytes (n) ─────────────────────────► Injected into Human Blood",
+      "content": "### 2.1 Asexual Cycle in Human Host (Intermediate Host)\n1. **Inoculation**: Female *Anopheles* mosquito injects motile, spindle-shaped **Sporozoites** into human blood with its saliva during a blood meal.\n2. **Exo-Erythrocytic (Hepatic) Schizogony**: Sporozoites enter liver cells (hepatocytes) within 30 minutes, reproducing asexually to generate thousands of **Merozoites**, which burst hepatocytes.\n3. **Erythrocytic Schizogony**: Merozoites invade Red Blood Cells (RBCs) $\\rightarrow$ Trophozoite (Signet Ring stage) $\\rightarrow$ Amoeboid stage $\\rightarrow$ Schizont.\n4. **Hemozoin Release**: Digestion of hemoglobin by trophozoites converts toxic free heme into insoluble crystalline **Hemozoin**. Synchronous bursting of RBCs releases merozoites and Hemozoin into blood, triggering cyclic high fever spikes and shaking chills every $48\\text{--}72\\text{ hours}$.\n5. **Gametocytogenesis**: A fraction of merozoites differentiate inside RBCs into male (microgametocytes) and female (macrogametocytes) **Gametocytes**.\n\n### 2.2 Sexual Cycle in Mosquito Host (Definitive Host)\n1. **Ingestion**: Female *Anopheles* mosquito sucks human blood containing mature gametocytes.\n2. **Syngamy (Fertilization)**: In the mosquito midgut lumen, microgametes fertilize macrogametes to form a diploid zygote that matures into a motile **Ookinete**.\n3. **Oocyst & Sporogony**: Ookinete penetrates the peritrophic membrane and gut wall, encysting on the outer stomach wall as an **Oocyst**. The oocyst undergoes asexual sporogony, generating thousands of **Sporozoites**.\n4. **Salivary Gland Migration**: Mature oocyst ruptures, releasing sporozoites into hemolymph, which migrate to and lodge in the **Salivary Glands**, ready for inoculation into the next host."
+    },
+    {
+      "heading": "Plasmodium Species Differentiation",
+      "title": "Plasmodium Species Differentiation",
+      "type": "paragraph",
+      "content": "Plasmodium falciparum causes malignant, severe tertian malaria with high mortality due to cytoadherence in cerebral capillaries; P. vivax and P. ovale cause benign tertian malaria (48h cycle); P. malariae causes quartan malaria (72h cycle)."
+    },
+    {
+      "heading": "Sir Ronald Ross Discovery",
+      "title": "Sir Ronald Ross Discovery",
+      "type": "paragraph",
+      "content": "Sir Ronald Ross (1897, Secunderabad, India) discovered the transmission of malaria by female Anopheles mosquitoes by identifying oocysts on the mosquito stomach wall, winning the 1902 Nobel Prize in Medicine."
+    }
+  ]
+}

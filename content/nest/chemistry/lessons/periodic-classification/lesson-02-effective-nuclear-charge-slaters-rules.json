@@ -1,0 +1,62 @@
+{
+  "id": "chem-xi-u3-c3-l02",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit III \u2014 Classification of Elements and Periodicity in Properties",
+  "unitNumber": 3,
+  "chapter": "Classification of Elements and Periodicity",
+  "chapterNumber": 3,
+  "chapterSlug": "periodic-classification",
+  "slug": "lesson-02-effective-nuclear-charge-slaters-rules",
+  "title": "Effective Nuclear Charge (Z_eff) & Slater's Screening Rules",
+  "topic": "Effective Nuclear Charge & Slater's Rules",
+  "topics": [
+    "Electrostatic Shielding & Screening Effect",
+    "Effective Nuclear Charge Formula (Z_eff = Z - \u03c3)",
+    "Slater's Rules for s and p Valence Electrons",
+    "Slater's Rules for d and f Valence Electrons",
+    "Step-by-Step Calculation for Zinc (4s) & Iron (3d)",
+    "Subshell Penetration Power & Shielding Efficiency (s > p > d > f)"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "slater-rules",
+  "quickSummary": "Valence electrons experience a net nuclear attraction reduced by inner-electron repulsions: Z_eff = Z - \u03c3. Slater's rules quantitatively compute the screening constant \u03c3 for s, p, d, and f electrons.",
+  "summary": "Master effective nuclear charge calculations, Slater's grouping rules, and subshell penetration/shielding dynamics.",
+  "conceptBreakdown": [
+    {
+      "heading": "2.1 Effective Nuclear Charge Concept",
+      "title": "2.1 Effective Nuclear Charge Concept",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Z_eff & Shielding",
+        "takeaway": "Z_eff = Z - \u03c3. Core electrons cancel part of the nuclear charge. Shielding order: s > p > d > f; Penetration: s > p > d > f."
+      },
+      "content": "Electrons in multi-electron atoms experience electrostatic attraction to the positively charged nucleus, counterbalanced by electrostatic repulsion from inner-shell electrons (Screening / Shielding Effect):\n\n$$\\mathbf{Z_{\\text{eff}} = Z - \\sigma}$$\n\nwhere $Z$ is the actual nuclear charge (atomic number) and $\\sigma$ is the Slater Screening Constant."
+    },
+    {
+      "heading": "2.2 Slater's Rules for Calculating \u03c3",
+      "title": "2.2 Slater's Rules for Calculating \u03c3",
+      "type": "paragraph",
+      "codeSnippet": "SLATER'S RULES SHIELDING GROUPS\n                   \n   Group electrons: (1s)(2s,2p)(3s,3p)(3d)(4s,4p)(4d)(4f)(5s,5p)...",
+      "content": "**A. Target Electron in an s or p Orbital**:\n1. Electrons in groups to the right (higher principal shells) contribute **0.00** to $\\sigma$.\n2. Other electrons in the same $(ns, np)$ group contribute **0.35 each** (exception: in $1s$, other electron contributes **0.30**).\n3. All electrons in the $(n-1)$ shell contribute **0.85 each**.\n4. All electrons in $(n-2)$ and deeper inner shells contribute **1.00 each**.\n\n**B. Target Electron in a d or f Orbital**:\n1. Other electrons in the same $(nd)$ or $(nf)$ group contribute **0.35 each**.\n2. All electrons in groups to the left (inner shells + lower subshells) contribute **1.00 each**.\n\n\u2022 **Worked Example 1: 4s Electron in Zinc ($Z=30$)**:\n$$\\text{Zn}: (1s^2)(2s^2 2p^6)(3s^2 3p^6)(3d^{10})(4s^2)$$\n- Same group ($4s$): $1 \\text{ e}^- \\times 0.35 = 0.35$\n- $(n-1)$ shell ($n=3$): $18 \\text{ e}^- (3s^2 3p^6 3d^{10}) \\times 0.85 = 15.30$\n- $(n-2)$ and deeper ($n=1,2$): $10 \\text{ e}^- \\times 1.00 = 10.00$\n$$\\sigma = 0.35 + 15.30 + 10.00 = \\mathbf{25.65} \\implies \\mathbf{Z_{\\text{eff}} = 30 - 25.65 = 4.35}$$\n\n\u2022 **Worked Example 2: 3d Electron in Iron ($Z=26$)**:\n$$\\text{Fe}: (1s^2)(2s^2 2p^6)(3s^2 3p^6)(3d^6)(4s^2)$$\n- Higher groups ($4s^2$): $0.00$\n- Same group ($3d$): $5 \\text{ e}^- \\times 0.35 = 1.75$\n- Inner groups to the left ($1s,2s,2p,3s,3p = 18\\text{ e}^-$): $18 \\times 1.00 = 18.00$\n$$\\sigma = 1.75 + 18.00 = \\mathbf{19.75} \\implies \\mathbf{Z_{\\text{eff}} = 26 - 19.75 = 6.25}$$"
+    }
+  ],
+  "quickRevision": [
+    "Z_eff = Z - \u03c3.",
+    "For s/p electrons: same shell = 0.35 (1s = 0.30), (n-1) = 0.85, (n-2) and deeper = 1.00.",
+    "For d/f electrons: same group = 0.35, all inner groups to left = 1.00.",
+    "Penetration power: s > p > d > f; Shielding efficiency: s > p > d > f.",
+    "Z_eff increases across a period because Z increases by +1 while \u03c3 increases by +0.35."
+  ],
+  "keyFormulae": [
+    "Z_eff = Z - \u03c3",
+    "\u03c3_(s,p) = 0.35\u00b7n_same + 0.85\u00b7n_(n-1) + 1.00\u00b7n_inner",
+    "\u03c3_(d,f) = 0.35\u00b7n_same + 1.00\u00b7n_left"
+  ]
+}

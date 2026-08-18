@@ -1,0 +1,35 @@
+{
+  "id": "bio-xi-u5-c16-l09",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Digestion and Absorption",
+  "chapterNumber": 16,
+  "chapterSlug": "digestion-and-absorption",
+  "slug": "lesson-09-nutrient-absorption-and-chylomicron-pathway",
+  "title": "Nutrient Absorption Mechanics & The Chylomicron Pathway",
+  "topic": "SGLT1 Na+ Symport, GLUT5 Fructose, PepT1 Peptides, Micelles, & Chylomicrons in Lacteals",
+  "order": 9,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Enterocyte transport mechanics: SGLT1 (Secondary active Na+ symport), GLUT5 (fructose facilitated), GLUT2 basolateral exit, PepT1 peptide transport, and the Chylomicron pathway (SER re-esterification, Golgi packaging, Lacteal exocytosis, Thoracic duct).",
+  "summary": "Enterocyte transport mechanics: SGLT1 (Secondary active Na+ symport), GLUT5 (fructose facilitated), GLUT2 basolateral exit, PepT1 peptide transport, and the Chylomicron pathway (SER re-esterification, Golgi packaging, Lacteal exocytosis, Thoracic duct).",
+  "conceptBreakdown": [
+    {
+      "heading": "Nutrient Absorption Mechanics & The Chylomicron Pathway",
+      "title": "Nutrient Absorption Mechanics & The Chylomicron Pathway",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Glucose/Galactose enter via apical SGLT1 (Na+ symport); Fructose via GLUT5; all exit via GLUT2. Fatty acids/monoglycerides diffuse from micelles into enterocyte, re-esterify into Triglycerides in SER, package into Chylomicrons in Golgi, and enter Lacteals."
+      },
+      "codeSnippet": "FAT ABSORPTION & LACTEAL PATHWAY\n                       \n   Intestinal Lumen: Triglycerides + Bile Salts ──► Emulsified Micelles (4–8 nm)\n                                                             │\n   Enterocyte Apical Membrane ◄── Passive Diffusion of Monoglycerides & Fatty Acids\n               │\n   Smooth ER (SER): Re-esterified into Triglycerides\n               │\n   Golgi Body: Encased in Apolipoproteins + Cholesterol ──► Chylomicrons (0.1–1.0 µm)\n               │\n   Basolateral Exocytosis ──► Enters Lacteals (Lymphatic Capillaries)\n               │\n   Thoracic Duct ──► Discharges into Left Subclavian Vein ──► Systemic Circulation",
+      "content": "### 7.1 Carbohydrate & Protein Transporters\n- **Glucose & Galactose**: Enter apical membrane via **SGLT1** (Sodium-Glucose Linked Transporter 1) via Secondary Active Transport coupled to $\\text{Na}^+$ influx. Exit basolateral membrane into capillaries via **GLUT2** facilitated diffusion.\n- **Fructose**: Absorbed via apical **GLUT5** facilitated diffusion. Exits via GLUT2.\n- **Amino Acids**: Absorbed via $\\text{Na}^+$-dependent secondary active transporters; small peptides enter via **PepT1** ($\\text{H}^+$-peptide symporter).\n\n### 7.2 Fat Absorption & Chylomicron Pathway\n1. Luminal Micelles ($4\\text{--}8\\text{ nm}$) diffuse passively across enterocyte apical membrane.\n2. **Smooth Endoplasmic Reticulum (SER)** re-esterifies fatty acids and monoglycerides into **Triglycerides**.\n3. **Golgi Body** coats triglycerides with apolipoproteins and cholesterol to form **Chylomicrons ($0.1\\text{--}1.0\\ \\mu\\text{m}$)**.\n4. Chylomicrons are exocytosed into **Lacteals (lymphatic capillaries)**, travelling via the **Thoracic Duct** to enter systemic venous blood at the left subclavian vein."
+    }
+  ]
+}

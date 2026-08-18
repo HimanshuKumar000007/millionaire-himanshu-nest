@@ -1,0 +1,61 @@
+{
+  "id": "chem-xi-u6-c6-l07",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VI \u2014 Equilibrium",
+  "unitNumber": 6,
+  "chapter": "Equilibrium",
+  "chapterNumber": 6,
+  "chapterSlug": "equilibrium",
+  "slug": "lesson-07-buffer-solutions-henderson-hasselbalch",
+  "title": "Buffer Solutions & The Henderson-Hasselbalch Equation",
+  "topic": "Buffer Solutions",
+  "topics": [
+    "Buffer Solution Classes (Acidic & Basic Buffers)",
+    "The Henderson-Hasselbalch Equations (Acidic and Basic)",
+    "Maximum Buffer Capacity Condition (pH = pK_a)",
+    "Effective Buffering Range (pH = pK_a \u00b1 1)",
+    "Dilution Invariance and Buffer Resilience"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "buffer-solutions",
+  "quickSummary": "Buffers resist pH change. Acidic buffer: pH = pK_a + log([Salt]/[Acid]). Basic buffer: pOH = pK_b + log([Salt]/[Base]). Maximum buffer capacity occurs at pH = pK_a with an effective range of pK_a \u00b1 1.",
+  "summary": "Master buffer classifications, Henderson-Hasselbalch equations, buffer capacity, and operational buffer ranges.",
+  "conceptBreakdown": [
+    {
+      "heading": "7.1 Buffer Solution Classes & Mechanism",
+      "title": "7.1 Buffer Solution Classes & Mechanism",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Buffer Solutions",
+        "takeaway": "Acidic: Weak Acid + Salt with SB. Basic: Weak Base + Salt with SA. Resists pH change."
+      },
+      "codeSnippet": "BUFFER SOLUTION CLASSES\n                                      \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                                                         \u25bc\n   ACIDIC BUFFERS                                            BASIC BUFFERS\n   Weak Acid + Its Salt with Strong Base                      Weak Base + Its Salt with Strong Acid\n   (e.g., CH\u2083COOH + CH\u2083COONa)                                (e.g., NH\u2084OH + NH\u2084Cl)",
+      "content": "A Buffer Solution is a solution that resists drastic changes in $\\text{pH}$ upon the addition of small amounts of strong acid or strong base, or upon dilution."
+    },
+    {
+      "heading": "7.2 The Henderson-Hasselbalch Equations & Buffer Capacity",
+      "title": "7.2 The Henderson-Hasselbalch Equations & Buffer Capacity",
+      "type": "paragraph",
+      "content": "1. **For Acidic Buffers**:\n$$\\mathbf{\\text{pH} = \\text{p}K_a + \\log_{10} \\left( \\frac{[\\text{Conjugate Base / Salt}]}{[\\text{Weak Acid}]} \\right)}$$\n\n2. **For Basic Buffers**:\n$$\\mathbf{\\text{pOH} = \\text{p}K_b + \\log_{10} \\left( \\frac{[\\text{Conjugate Acid / Salt}]}{[\\text{Weak Base}]} \\right)} \\quad \\implies \\quad \\mathbf{\\text{pH} = \\text{p}K_w - \\text{pOH}}$$\n\n\u2022 **Maximum Buffer Capacity Condition**: A buffer exhibits maximum resistance to $\\text{pH}$ change when $[\\text{Salt}] = [\\text{Acid}]$ (or $[\\text{Base}]$):\n$$\\mathbf{\\text{pH}_{\\text{max capacity}} = \\text{p}K_a \\quad \\text{and} \\quad \\text{Effective Buffer Range } = \\mathbf{\\text{p}K_a \\pm 1}}$$"
+    }
+  ],
+  "quickRevision": [
+    "Acidic buffer: pH = pK_a + log([Salt]/[Acid]).",
+    "Basic buffer: pOH = pK_b + log([Salt]/[Base]).",
+    "Max buffer capacity at pH = pK_a.",
+    "Effective buffer range: pH = pK_a \u00b1 1.",
+    "Buffer pH is invariant to moderate dilution."
+  ],
+  "keyFormulae": [
+    "pH = pK_a + log\u2081\u2080([Salt] / [Acid])",
+    "pOH = pK_b + log\u2081\u2080([Salt] / [Base])",
+    "pH = pK_w - pOH"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "chem-xi-u2-c2-l02",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit II \u2014 Structure of Atom",
+  "unitNumber": 2,
+  "chapter": "Structure of Atom",
+  "chapterNumber": 2,
+  "chapterSlug": "atomic-structure",
+  "slug": "lesson-02-photoelectric-planck-quantum",
+  "title": "Electromagnetic Radiation, Planck's Quantum Theory & Photoelectric Effect",
+  "topic": "Quantum Hypothesis & Photoelectric Effect",
+  "topics": [
+    "Planck's Quantum Postulate (E = h\u03bd = hc/\u03bb)",
+    "Convenient Energy Conversion Formulae",
+    "Einstein's Photoelectric Equation (h\u03bd = \u03a6 + K_max = eV_s)",
+    "Work Function, Threshold Frequency & Wavelength",
+    "K_max vs Frequency Linear Graphical Dynamics",
+    "Three Laws of Photoelectric Emission"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 7,
+  "estimatedTimeMinutes": 7,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "photoelectric-effect",
+  "quickSummary": "Max Planck established that radiant energy is quantized in discrete packets (Quanta/Photons, E = h\u03bd). Einstein extended this to explain the Photoelectric Effect (h\u03bd = \u03a6 + K_max = eV_s), demonstrating particle-like behavior of light.",
+  "summary": "Master Planck's quantum theory, Einstein's photoelectric equation, threshold mechanics, stopping potential, and graphical interpretations.",
+  "conceptBreakdown": [
+    {
+      "heading": "2.1 Planck's Quantum Theory",
+      "title": "2.1 Planck's Quantum Theory",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Planck Quantum Postulate",
+        "takeaway": "Energy is emitted or absorbed in discrete packets called Quanta (Photons for light): E = h\u03bd = hc/\u03bb. h = 6.626 \u00d7 10\u207b\u00b3\u2074 J\u00b7s."
+      },
+      "content": "Max Planck (1900) resolved the ultraviolet catastrophe in black-body radiation by proposing that atoms emit or absorb radiant energy discontinuously in discrete packets called **Quanta** (or **Photons** for light):\n\n$$\\mathbf{E = h\\nu = \\frac{hc}{\\lambda} = hc\\bar{\\nu}}$$\n\nwhere $h = 6.62607015 \\times 10^{-34}\\text{ J}\\cdot\\text{s}$ (Planck's constant), $c = 2.9979 \\times 10^8\\text{ m/s}$, $\\nu$ is frequency, $\\lambda$ is wavelength, and $\\bar{\\nu} = \\frac{1}{\\lambda}$ is wave number.\n\n$$\\mathbf{E (\\text{eV}) \\approx \\frac{12400}{\\lambda (\\text{\\AA})} \\approx \\frac{1240}{\\lambda (\\text{nm})}}$$"
+    },
+    {
+      "heading": "2.2 The Photoelectric Effect (Einstein, 1905)",
+      "title": "2.2 The Photoelectric Effect (Einstein, 1905)",
+      "type": "paragraph",
+      "codeSnippet": "PHOTOELECTRIC EFFECT ENERGY BALANCE\n                       \n   Incident Photon Energy (h\u03bd) \u2500\u2500\u25ba Work Function (\u03a6 = h\u03bd\u2080) + Max Kinetic Energy (K_max)\n\n   E_photon = \u03a6 + K_max\n   h\u03bd = h\u03bd\u2080 + (1/2) m_e v_max\u00b2 = e V_s",
+      "content": "Ejection of electrons from a clean metal surface when illuminated by light of frequency $\\nu \\ge \\nu_0$ (threshold frequency):\n\n$$\\mathbf{h\\nu = \\Phi + K_{\\max} = h\\nu_0 + \\frac{1}{2} m_e v_{\\max}^2 = e V_s}$$\n\n\u2022 **Work Function ($\\Phi$)**: Characteristic minimum energy to liberate an electron from a metal surface into vacuum ($\\Phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$).\n\u2022 **Threshold Frequency ($\\nu_0$)**: Minimum frequency below which no photoemission occurs.\n\u2022 **Threshold Wavelength ($\\lambda_0$)**: Maximum wavelength capable of inducing emission ($\\lambda_0 = \\frac{hc}{\\Phi}$).\n\u2022 **Stopping Potential ($V_s$)**: Minimum negative anode potential to stop the fastest photoelectrons ($e V_s = K_{\\max}$).\n\n**Three Fundamental Photoelectric Laws**:\n1. $K_{\\max}$ depends strictly linearly on light frequency $\\nu$ ($K_{\\max} = h\\nu - \\Phi$), and is completely independent of light intensity.\n2. Rate of photoelectron ejection (photocurrent) is directly proportional to light intensity.\n3. Photoelectric ejection is instantaneous (delay $< 10^{-9}\\text{ s}$)."
+    }
+  ],
+  "quickRevision": [
+    "E (eV) \u2248 12400 / \u03bb (\u00c5) \u2248 1240 / \u03bb (nm).",
+    "Photoelectric equation: h\u03bd = \u03a6 + K_max = eV_s.",
+    "Work function \u03a6 = h\u03bd\u2080 = hc / \u03bb\u2080.",
+    "K_max vs frequency plot has slope = h, x-intercept = \u03bd\u2080, y-intercept = -\u03a6.",
+    "Light intensity governs photocurrent rate, NOT electron kinetic energy."
+  ],
+  "keyFormulae": [
+    "E = h\u03bd = hc / \u03bb",
+    "h\u03bd = \u03a6 + K_max = eV_s",
+    "\u03a6 = h\u03bd\u2080 = hc / \u03bb\u2080",
+    "K_max = h(\u03bd - \u03bd\u2080) = e V_s"
+  ]
+}

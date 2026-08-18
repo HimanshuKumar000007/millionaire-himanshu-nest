@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-20-04",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Chemical Coordination and Integration",
+  "chapterNumber": 20,
+  "chapterSlug": "chemical-coordination-and-integration",
+  "lessonNumber": 4,
+  "title": "Adenohypophyseal & Neurohypophyseal Hormones",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Medium",
+  "prerequisites": ["Pituitary anatomy", "Feedback regulation"],
+  "learningObjectives": [
+    "Detail the 6 Pars Distalis hormones (GH, TSH, ACTH, PRL, FSH, LH) and 1 Pars Intermedia hormone (MSH)",
+    "Explain the role of Oxytocin in labor (Ferguson reflex) and milk let-down",
+    "Describe Vasopressin/ADH insertion of Aquaporin-2 in renal collecting ducts"
+  ],
+  "content": "```\n                          PITUITARY GLAND (Hypophysis)\n                                       │\n         ┌─────────────────────────────┴─────────────────────────────┐\n         ▼                                                           ▼\n   ADENOHYPOPHYSIS                                            NEUROHYPOPHYSEAL\n   ├── Pars Distalis: GH, TSH, ACTH, Prolactin, FSH, LH      └── Pars Nervosa: Stores & releases\n   └── Pars Intermedia: Melanocyte Stimulating Hormone (MSH)      Oxytocin & Vasopressin (ADH)\n```\n\n### 4.1 Adenohypophyseal Hormones & Target Actions\n\n| Pituitary Hormone | Secretory Cell Type | Target Gland / Tissue | Primary Physiological Action |\n| :--- | :--- | :--- | :--- |\n| **Growth Hormone (GH / Somatotropin)** | Somatotrophs | Liver, Bones, Skeletal Muscle | Stimulates liver production of **IGF-1 (Somatomedin C)**; promotes somatic tissue growth, protein synthesis, and lipolysis |\n| **Thyroid Stimulating Hormone (TSH)** | Thyrotrophs | Thyroid Follicular Cells | Stimulates synthesis and secretion of thyroid hormones ($T_3$ and $T_4$) |\n| **Adrenocorticotropic Hormone (ACTH)** | Corticotrophs | Adrenal Cortex (*Zona Fasciculata*) | Stimulates synthesis and release of **Glucocorticoids (Cortisol)** |\n| **Prolactin (PRL)** | Lactotrophs | Mammary Glands | Stimulates mammary gland growth and milk synthesis *(inhibited by dopamine)* |\n| **Follicle Stimulating Hormone (FSH)** | Gonadotrophs | Ovarian Follicles / Sertoli Cells | Females: Growth of ovarian follicles; Males: Stimulates spermatogenesis |\n| **Luteinizing Hormone (LH / ICSH)** | Gonadotrophs | Corpus Luteum / Leydig Cells | Females: Triggers **Ovulation** and forms Corpus Luteum; Males: Stimulates Leydig cells to produce **Testosterone** |\n| **Melanocyte Stimulating Hormone (MSH)** | Pars Intermedia | Dermal Melanocytes | Acts on skin melanocytes to regulate melanin synthesis and pigmentation |\n\n### 4.2 Neurohypophyseal Hormones (Synthesized in Hypothalamus)\n- **Oxytocin**: Synthesized in hypothalamic Paraventricular Nuclei.\n  1. **Parturition**: Stimulates vigorous contractions of uterine smooth muscle during labor (**Ferguson Reflex**).\n  2. **Lactation**: Stimulates myoepithelial cell contraction in mammary alveoli for **Milk Ejection / Let-down Reflex**.\n- **Vasopressin / Antidiuretic Hormone (ADH)**: Synthesized in hypothalamic Supraoptic Nuclei. Inserts **Aquaporin-2** channels into kidney DCT and collecting ducts to promote water reabsorption and prevent diuresis.",
+  "conceptBreakdown": [
+    {
+      "heading": "IGF-1 / Somatomedin C Mediation",
+      "explanation": "Growth hormone (GH) exerts most of its systemic skeletal and chondrocyte growth-promoting actions indirectly via hepatic synthesis and secretion of Insulin-like Growth Factor 1 (IGF-1 / Somatomedin C)."
+    },
+    {
+      "heading": "Diabetes Insipidus vs Diabetes Mellitus",
+      "explanation": "Diabetes Insipidus is caused by neurogenic ADH deficiency or nephrogenic ADH receptor insensitivity, causing massive polyuria of dilute, sugar-free urine. Diabetes Mellitus involves insulin deficiency/resistance with hyperglycemia, glucosuria, and ketonuria."
+    }
+  ]
+}

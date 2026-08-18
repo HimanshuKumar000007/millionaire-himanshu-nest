@@ -1,0 +1,62 @@
+{
+  "id": "chem-xi-u4-c4-l07",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit IV \u2014 Chemical Bonding and Molecular Structure",
+  "unitNumber": 4,
+  "chapter": "Chemical Bonding and Molecular Structure",
+  "chapterNumber": 4,
+  "chapterSlug": "chemical-bonding",
+  "slug": "lesson-07-molecular-orbital-theory-homonuclear",
+  "title": "Molecular Orbital Theory (MOT): LCAO, s-p Mixing, Bond Order & Magnetism",
+  "topic": "Molecular Orbital Theory (MOT)",
+  "topics": [
+    "Hund & Mulliken MOT Foundations",
+    "LCAO Constructive (\u03c8_B) vs Destructive (\u03c8_AB) Interference",
+    "s-p Mixing for Z \u2264 7 (N\u2082, C\u2082, B\u2082) vs Z > 7 (O\u2082, F\u2082)",
+    "Bond Order Formula (BO = (N_b - N_a) / 2)",
+    "Oxygen Series (O\u2082\u207a, O\u2082, O\u2082\u207b, O\u2082\u00b2\u207b) & Paramagnetism",
+    "Nitrogen Series (N\u2082, N\u2082\u207a, N\u2082\u207b) & Heteronuclear CO\u207a Anomaly"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "molecular-orbital-theory",
+  "quickSummary": "MOT treats electrons as delocalized in molecular orbitals formed by LCAO. For Z \u2264 7 (N\u2082), s-p mixing pushes \u03c3 2p_z above \u03c0 2p_x,y. Bond order BO = (N_b - N_a)/2 governs stability, bond length, and paramagnetism.",
+  "summary": "Master MOT energy level ordering, s-p mixing, bond order calculations, and the oxygen/nitrogen diatomic series.",
+  "conceptBreakdown": [
+    {
+      "heading": "7.1 LCAO & s-p Mixing Energy Ordering",
+      "title": "7.1 LCAO & s-p Mixing Energy Ordering",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "MOT Energy Levels",
+        "takeaway": "Z \u2264 7 (N\u2082): \u03c0 2p_x,y < \u03c3 2p_z (s-p mixing). Z > 7 (O\u2082): \u03c3 2p_z < \u03c0 2p_x,y (no mixing). BO = (N_b - N_a)/2."
+      },
+      "codeSnippet": "MO ENERGY LEVEL ORDERING COMPARISON\n                   \n   FOR Z \u2264 7 (Li\u2082, B\u2082, C\u2082, N\u2082):  [s-p Mixing PRESENT]\n   \u03c31s < \u03c3*1s < \u03c32s < \u03c3*2s < (\u03c02p_x = \u03c02p_y) < \u03c32p_z < (\u03c0*2p_x = \u03c0*2p_y) < \u03c3*2p_z\n   \n   FOR Z > 7 (O\u2082, F\u2082, Ne\u2082):      [NO s-p Mixing]\n   \u03c31s < \u03c3*1s < \u03c32s < \u03c3*2s < \u03c32p_z < (\u03c02p_x = \u03c02p_y) < (\u03c0*2p_x = \u03c0*2p_y) < \u03c3*2p_z",
+      "content": "\u2022 In light homonuclear diatomics ($Z \\le 7$), small $2s-2p$ energy gap causes $s-p$ mixing, pushing $\\sigma 2p_z$ above $\\pi 2p_{x,y}$."
+    },
+    {
+      "heading": "7.2 Oxygen & Nitrogen Species Series Comparison",
+      "title": "7.2 Oxygen & Nitrogen Species Series Comparison",
+      "type": "paragraph",
+      "content": "1. **Oxygen Family Series**:\n\u2022 $\\mathbf{\\text{O}_2^+} (15\\ e^-)$: $BO = \\mathbf{2.5}$, Paramagnetic (1 unpaired $e^-$)\n\u2022 $\\mathbf{\\text{O}_2} (16\\ e^-)$: $BO = \\mathbf{2.0}$, **Paramagnetic (2 unpaired $e^-$ in $\\pi^* 2p$)**\n\u2022 $\\mathbf{\\text{O}_2^-} (17\\ e^-)$: $BO = \\mathbf{1.5}$, Paramagnetic (1 unpaired $e^-$)\n\u2022 $\\mathbf{\\text{O}_2^{2-}} (18\\ e^-)$: $BO = \\mathbf{1.0}$, Diamagnetic\n$$\\mathbf{\\text{Stability / Bond Energy: } \\text{O}_2^+ > \\text{O}_2 > \\text{O}_2^- > \\text{O}_2^{2-}}$$\n$$\\mathbf{\\text{Bond Length: } \\text{O}_2^{2-} > \\text{O}_2^- > \\text{O}_2 > \\text{O}_2^+}$$\n\n2. **Nitrogen Family Series**:\n\u2022 $\\mathbf{\\text{N}_2} (14\\ e^-)$: $BO = \\mathbf{3.0}$, Diamagnetic (Highest homonuclear $BO$)\n\u2022 $\\mathbf{\\text{N}_2^+} (13\\ e^-)$: $BO = \\mathbf{2.5}$, Paramagnetic (unpaired $e^-$ in bonding $\\sigma 2p_z$)\n\u2022 $\\mathbf{\\text{N}_2^-} (15\\ e^-)$: $BO = \\mathbf{2.5}$, Paramagnetic (unpaired $e^-$ in antibonding $\\pi^* 2p$)\n\n\u2022 **Heteronuclear Exception ($\\text{CO}^+$)**: Removing an electron from slightly antibonding $\\sigma 2s^*$ increases the bond order: $\\mathbf{BO(\\text{CO}^+) = 3.5}$ vs $BO(\\text{CO}) = 3.0$."
+    }
+  ],
+  "quickRevision": [
+    "BO = (N_b - N_a) / 2.",
+    "O\u2082 is Paramagnetic with 2 unpaired electrons in \u03c0* 2p.",
+    "O\u2082\u207a (2.5) > O\u2082 (2.0) > O\u2082\u207b (1.5) > O\u2082\u00b2\u207b (1.0).",
+    "N\u2082 has BO = 3.0 (diamagnetic).",
+    "CO\u207a has anomalous BO = 3.5."
+  ],
+  "keyFormulae": [
+    "BO = (N_b - N_a) / 2",
+    "Bond Strength \u221d BO",
+    "Bond Length \u221d 1 / BO"
+  ]
+}

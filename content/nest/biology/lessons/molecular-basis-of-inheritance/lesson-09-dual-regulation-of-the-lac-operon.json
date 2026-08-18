@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c5-l09",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Molecular Basis of Inheritance",
+  "chapterNumber": 5,
+  "chapterSlug": "molecular-basis-of-inheritance",
+  "slug": "lesson-09-dual-regulation-of-the-lac-operon",
+  "title": "Dual Regulation of the Lac Operon",
+  "topic": "Jacob & Monod Model, Negative Inducer Control, & Catabolite Repression",
+  "order": 9,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Lac operon (E. coli, Jacob & Monod 1961): polycistronic unit with i gene (repressor), promoter, operator, and structural genes z (beta-galactosidase), y (permease), and a (transacetylase). Dual regulation: Negative control via allolactose (inducer detaches repressor); Positive control via cAMP-CAP complex (low glucose stimulates maximal transcription).",
+  "summary": "Lac operon (E. coli, Jacob & Monod 1961): polycistronic unit with i gene (repressor), promoter, operator, and structural genes z (beta-galactosidase), y (permease), and a (transacetylase). Dual regulation: Negative control via allolactose (inducer detaches repressor); Positive control via cAMP-CAP complex (low glucose stimulates maximal transcription).",
+  "conceptBreakdown": [
+    {
+      "heading": "Dual Regulation of the Lac Operon (Jacob & Monod, 1961)",
+      "title": "Dual Regulation of the Lac Operon (Jacob & Monod, 1961)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "The Lac Operon governs lactose catabolism in E. coli. Consists of i gene (homotetrameric repressor), Promoter, Operator, and 3 structural genes: z (beta-galactosidase), y (permease), a (transacetylase). Negative regulation: allolactose (inducer) binds repressor, detaching it from the operator. Positive regulation: low glucose elevates cAMP, which binds CAP to promote maximal RNA polymerase binding."
+      },
+      "codeSnippet": "LAC OPERON GENE MAP\n                          \n   [ i Gene ] ── [ Promoter ] ── [ Operator ] ── [ z Gene ] ── [ y Gene ] ── [ a Gene ]\n   (Repressor)    (RNA Pol)       (Repressor)    (β-Gal)       (Permease)    (Transacetylase)",
+      "content": "### 9.1 Structural & Regulatory Genes of the *Lac* Operon\n1. **$i$ Gene**: Regulatory gene encoding the **Lac Repressor** protein (homotetramer), expressed constitutively.\n2. **$z$ Gene**: Encodes **$\\beta$-Galactosidase**, which cleaves lactose into glucose and galactose, and converts a small fraction to **allolactose** (the true inducer).\n3. **$y$ Gene**: Encodes **$\\beta$-Galactoside Permease**, increasing membrane permeability to lactose.\n4. **$a$ Gene**: Encodes **$\\beta$-Galactoside Transacetylase**, transferring acetyl groups to toxic $\\beta$-galactosides.\n\n### 9.2 Dual Regulatory Control\n\n```\n                        NEGATIVE CONTROL (INDUCER EFFECT)\n                        \n   NO LACTOSE (Repressed):\n   Repressor binds Operator ──► Blocks RNA Polymerase ──► Operon OFF (No Transcription)\n   \n   LACTOSE PRESENT (Induced):\n   Allolactose (Inducer) binds Repressor ──► Conformational Shift ──► Repressor detaches from Operator\n   ──► RNA Polymerase transcribes z, y, a ──► Operon ON\n```\n\n```\n                   POSITIVE CONTROL (CATABOLITE REPRESSION)\n                   \n   HIGH GLUCOSE (Low cAMP):\n   CAP / CRP remains INACTIVE ──► Weak RNA Pol binding ──► BASAL / LOW Transcription\n   \n   LOW GLUCOSE + HIGH LACTOSE (High cAMP):\n   cAMP binds CAP ──► Active cAMP-CAP Complex binds CAP site ──► MAXIMAL Operon Expression\n```"
+    },
+    {
+      "heading": "Gratuitous Inducer: IPTG",
+      "title": "Gratuitous Inducer: IPTG",
+      "type": "paragraph",
+      "content": "Isopropyl-beta-D-thiogalactopyranoside (IPTG) is a gratuitous inducer that binds and inactivates the Lac repressor without being metabolized by beta-galactosidase, keeping the operon continuously ON in laboratory research."
+    },
+    {
+      "heading": "Basal Leaky Expression of the Lac Operon",
+      "title": "Basal Leaky Expression of the Lac Operon",
+      "type": "paragraph",
+      "content": "A repressed Lac operon is never 100% OFF; a tiny basal level of permease and beta-galactosidase must be present in the cell membrane to allow the first few molecules of lactose to enter and be converted into allolactose."
+    }
+  ]
+}

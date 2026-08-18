@@ -1,0 +1,158 @@
+{
+  "id": "bio-xii-u9-c10",
+  "chapterNumber": 10,
+  "chapterTitle": "Biotechnology and its Applications",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unitNumber": 9,
+  "unitTitle": "Biotechnology",
+  "slug": "biotechnology-and-its-applications",
+  "estimatedReadingTimeMinutes": 174,
+  "difficulty": "High-Yield",
+  "status": "published",
+  "summary": "Covers applied medical, agricultural, environmental, and industrial biotechnology: Agricultural applications (Green Revolution limits, GMO advantages, Golden Rice provitamin A beta-carotene with daffodil psy and Erwinia crtI genes); Insect resistance in Bt crops (Bacillus thuringiensis crystalline protoxin, midgut alkaline pH solubilization, midgut protease activation, epithelial pore lysis, gene specificity: cry1Ac/cry2Ab for cotton bollworms, cry1Ab for corn borer); Pest resistance via RNA Interference (RNAi in transgenic tobacco against Meloidogyne incognita root-knot nematode via host dsRNA, Dicer 21-23 bp siRNA, and RISC mRNA degradation); Plant tissue culture (Cellular totipotency, MS medium, micropropagation producing somaclones, virus-free meristem culture, somatic hybridization using cellulase/pectinase protoplasts and PEG to generate Pomato); Medical biotechnology (Recombinant human insulin Humulin by Eli Lilly 1983: Chain A 21 AA and Chain B 30 AA expressed separately in E. coli and joined in-vitro by 2 disulfide bonds, mature insulin lacks C-peptide 31 AA); Gene therapy (1990 ADA deficiency SCID protocol in 4-year-old using retroviral vector in cultured T-cells requiring periodic re-infusions, permanent embryonic bone marrow cure); Molecular diagnostics (PCR, ELISA, 32P-labeled single-stranded probes where mutated genes fail to appear on X-ray film); Stem cell technology (ESCs from blastocyst ICM, Yamanaka iPSCs using Oct4/Sox2/Klf4/c-Myc); Transgenic animals (>95% mice, Rosie cow 1997 with 2.4 g/L human alpha-lactalbumin milk, alpha-1-antitrypsin for emphysema, disease models, polio vaccine safety); and Biosafety/Ethics (GEAC statutory mandate under MoEFCC, Biopiracy patent revocations: Basmati rice RiceTec, Turmeric, Neem).",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "id": "sec-10-01",
+      "title": "Agricultural Biotechnology: GMOs & Golden Rice",
+      "topic": "Green Revolution Limitations, GM Crop Advantages, & Provitamin A Biofortification",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "GM crops overcome Green Revolution chemical limits, providing abiotic resilience, pest resistance, and nutritional biofortification (Golden Rice enriched with Provitamin A beta-carotene)."
+      },
+      "codeSnippet": "ADVANTAGES OF GM CROPS\n                                       │\n     ┌──────────────────┬──────────────┴──────────────┬──────────────────┐\n     ▼                  ▼                             ▼                  ▼\nABIOTIC RESISTANCE   PEST RESISTANCE              NUTRITIONAL ENRICHMENT EFFICIENT MINERAL USE\n├── Cold & Salt      ├── Bt Cotton (Bollworms)    └── Golden Rice        └── Prevents early soil\n└── Drought & Heat   └── Bt Corn (Corn Borer)         (β-Carotene)           nutrient exhaustion",
+      "content": "### 1.1 GMOs & Golden Rice\n- **GM Crops**: Enhance abiotic stress resistance, pest tolerance, and nutrition.\n- **Golden Rice**: Biofortified with **$\\beta$-Carotene (Provitamin A)** using daffodil (*psy*) and *Erwinia* (*crtI*) genes to fight blindness."
+    },
+    {
+      "sectionNumber": 2,
+      "id": "sec-10-02",
+      "title": "Bt Crops: Cry Toxin Activation & Gene Specificity",
+      "topic": "Bacillus thuringiensis, Inactive Cry Protoxins, Alkaline Midgut Solubilization, & cry1Ac/cry2Ab/cry1Ab",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Bt Cry protoxins are solubilized by alkaline pH (>8.5) in insect midguts and cleaved into active pore-forming toxins. cry1Ac & cry2Ab control cotton bollworms; cry1Ab controls corn borer."
+      },
+      "codeSnippet": "Bt CRY TOXIN MIDGUT SOLUBILIZATION CASCADE\n                   \n   Inert Insecticidal Cry Protoxin Crystals synthesized in Bacillus thuringiensis\n                                          │\n   Ingested by Target Insect Larva ───────┘\n               │\n   Reaches Insect Midgut ──► ALKALINE pH solubilizes crystalline protoxin\n                                          │\n   Midgut Proteases cleave protoxin ──────┴──► ACTIVE CRY TOXIN\n                                                    │\n   Binds Cadherin Receptors on Midgut Epithelial Cells ──► Forms Pores & Causes Lysis\n                                                    │\n   Insect Gut Swells, Lyses, and Insect Dies of Septicemia",
+      "content": "### 2.1 Bt Cry Toxins\n- **Activation**: Inactive crystal protoxin $\\rightarrow$ solubilized in **alkaline midgut $\\text{pH}$** $\\rightarrow$ proteolytically cleaved $\\rightarrow$ creates lytic epithelial pores.\n- **Specificity**: `cry1Ac` & `cry2Ab` (Cotton bollworm); `cry1Ab` (Corn borer)."
+    },
+    {
+      "sectionNumber": 3,
+      "id": "sec-10-03",
+      "title": "Pest Resistance via RNA Interference (RNAi)",
+      "topic": "Meloidogyne incognita, Transgenic Tobacco, Sense & Anti-Sense RNA, Dicer, & RISC Complex",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "RNAi silences Meloidogyne incognita root-knot nematode in tobacco. Ingested host dsRNA is diced into 21-23 bp siRNAs, guiding RISC to degrade complementary nematode mRNA."
+      },
+      "codeSnippet": "RNA INTERFERENCE (RNAi) CASCADE\n                        \n   Agrobacterium vector inserts nematode-specific genes into Tobacco Genome\n                                          │\n   Plant transcribes BOTH Sense and Anti-sense RNA\n                                          │\n   Base-pairing forms Double-Stranded RNA (dsRNA) inside plant cells\n                                          │\n   Nematode feeds on transgenic tobacco root tissue ──► Ingests plant dsRNA\n                                          │\n   Endogenous Dicer Enzyme cleaves dsRNA into 21–23 bp siRNA (Small Interfering RNA)\n                                          │\n   siRNA incorporates into RISC (RNA-Induced Silencing Complex)\n                                          │\n   RISC uses single-stranded siRNA to target & DEGRADE complementary Nematode mRNA\n                                          │\n   Specific Nematode Gene Silenced ──► Nematode cannot survive in transgenic host!",
+      "content": "### 3.1 RNAi Mechanism\n- **Host dsRNA**: Transcribes sense and antisense strands $\\rightarrow$ forms **dsRNA**.\n- **Silencing**: Nematode ingests dsRNA $\\rightarrow$ **Dicer** cuts into siRNA $\\rightarrow$ **RISC** degrades nematode mRNA."
+    },
+    {
+      "sectionNumber": 4,
+      "id": "sec-10-04",
+      "title": "Plant Tissue Culture: Totipotency & Micropropagation",
+      "topic": "Gottlieb Haberlandt, Cellular Totipotency, Explant, MS Medium, & Somaclones",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Totipotency allows single plant cells/explants to regenerate into whole plants on MS medium (sucrose, inorganic salts, auxin/cytokinin). Micropropagation clones thousands of somaclones."
+      },
+      "codeSnippet": "TISSUE CULTURE PRINCIPLES\n                                       │\n         ┌─────────────────────────────┴─────────────────────────────┐\n         ▼                                                           ▼\n   CELLULAR TOTIPOTENCY                                      MICROPROPAGATION\n   The innate capacity of a single plant cell/explant to      Rapid in-vitro multiplication yielding\n   regenerate into a whole intact plant (Gottlieb Haberlandt). thousands of genetically identical Somaclones.",
+      "content": "### 4.1 Tissue Culture\n- **Totipotency**: Whole plant regeneration from explants (*Haberlandt*).\n- **Nutrients**: MS medium + Auxin/Cytokinin $\\rightarrow$ Callus $\\rightarrow$ **Somaclones**."
+    },
+    {
+      "sectionNumber": 5,
+      "id": "sec-10-05",
+      "title": "Meristem Culture & Somatic Hybridization (Pomato)",
+      "topic": "Virus-Free Plants, Protoplast Isolation, Cellulase/Pectinase, PEG Fusion, & Cybrids",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Meristem culture generates virus-free plants. Somatic hybridization strips cell walls using cellulase and pectinase, fusing naked protoplasts with PEG to create Pomato."
+      },
+      "codeSnippet": "SOMATIC HYBRIDIZATION WORKFLOW\n                        \n   Parent Plant A (Potato) ──► Enzymatic Wall Digestion (Cellulase + Pectinase) ──► Naked Protoplast A\n   Parent Plant B (Tomato) ──► Enzymatic Wall Digestion (Cellulase + Pectinase) ──► Naked Protoplast B\n                                                    │\n                               Protoplast Fusion induced by PEG (Polyethylene Glycol)\n                                                    │\n                               Regenerates Cell Wall ──► Callus ──► SOMATIC HYBRID (Pomato)",
+      "content": "### 5.1 Meristems & Protoplasts\n- **Virus-Free Plants**: Apical meristems divide faster than viruses.\n- **Somatic Hybrids**: Cellulase/Pectinase strip cell walls $\\rightarrow$ **PEG** fuses protoplasts (*Pomato*)."
+    },
+    {
+      "sectionNumber": 6,
+      "id": "sec-10-06",
+      "title": "Recombinant Human Insulin (Humulin & Eli Lilly)",
+      "topic": "Pro-Insulin vs Mature Insulin, C-Peptide Cleavage, Disulfide Bonds, & E. coli Recombinant Production",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Pro-insulin contains C-peptide (31 AA). Mature insulin lacks C-peptide and has Chain A (21 AA) & Chain B (30 AA) linked by 2 disulfide bonds. Eli Lilly synthesized chains A & B separately in E. coli and combined them in-vitro."
+      },
+      "codeSnippet": "PRO-INSULIN vs MATURE INSULIN\n                        \n   PRO-INSULIN (Inactive):   A-Chain (21 AA) ── [ C-PEPTIDE (31 AA) ] ── B-Chain (30 AA)\n                                                     │\n   MATURE INSULIN (Active):  A-Chain (21 AA) ═════════════════════════════ B-Chain (30 AA)\n                             (Linked by 2 Inter-chain Disulfide Bonds)",
+      "content": "### 6.1 Recombinant Insulin\n- **Structure**: Chain A ($21\\text{ AA}$) + Chain B ($30\\text{ AA}$) held by $2\\text{ disulfide bonds}$; **Mature insulin LACKS C-peptide**.\n- **Eli Lilly (1983)**: Expressed Chain A & B separately in *E. coli*, joined via disulfide bonds."
+    },
+    {
+      "sectionNumber": 7,
+      "id": "sec-10-07",
+      "title": "Gene Therapy: ADA Deficiency & SCID Protocol",
+      "topic": "Severe Combined Immunodeficiency, 1990 Clinical Trial, Retroviral cDNA Delivery, & Permanent Embryonic Cure",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "ADA deficiency causes SCID. The 1990 gene therapy used retroviral vectors to introduce ADA cDNA into cultured T-lymphocytes (requiring periodic re-infusions). Permanent cure requires embryonic bone marrow gene insertion."
+      },
+      "codeSnippet": "ADA DEFICIENCY & SCID PATHOLOGY\n                      \n   Mutation in ADA Gene on Chromosome 20 ──► Loss of Adenosine Deaminase enzyme\n                                                                │\n   Accumulation of toxic dATP inside Lymphocytes ◄──────────────┘\n                                │\n   Destruction of T- and B-Lymphocytes ──► Severe Combined Immunodeficiency (SCID)\n\n                        CLINICAL GENE THERAPY PROTOCOL (1990)\n                        \n   Harvest Lymphocytes from blood of 4-year-old SCID female patient\n                                          │\n   Culture Lymphocytes in-vitro\n                                          │\n   Introduce functional human ADA cDNA using a Disarmed Retroviral Vector\n                                          │\n   Re-infuse genetically engineered lymphocytes back into the patient\n                                          │\n   LIMITATION: Patient requires periodic re-infusions because lymphocytes are not immortal!",
+      "content": "### 7.1 Gene Therapy & SCID\n- **ADA Deficiency**: Toxic dATP destroys lymphocytes $\\rightarrow$ SCID.\n- **1990 Trial**: Retroviral *ADA* cDNA in T-cells (requires periodic re-infusions; permanent cure requires embryonic stem cells)."
+    },
+    {
+      "sectionNumber": 8,
+      "id": "sec-10-08",
+      "title": "Molecular Diagnostics: PCR, ELISA, & Nucleic Probes",
+      "topic": "Early Sub-Clinical Diagnosis, PCR Pathogen Detection, ELISA Principle, & Radioactive 32P Probes",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Molecular diagnostics detects sub-clinical disease: PCR (amplifies low viral DNA), ELISA (antigen-antibody binding), and 32P radioactive probes (mutated genes fail to hybridize and do not appear on X-ray film)."
+      },
+      "codeSnippet": "MOLECULAR DIAGNOSTIC TOOLS\n                                     │\n         ┌───────────────────────────┼───────────────────────────┐\n         ▼                           ▼                           ▼\nPOLYMERASE CHAIN REACTION (PCR)     ELISA ASSAY                 RADIOACTIVE NUCLEIC PROBES\n├── Amplifies ultra-low pathogen    ├── Antigen-Antibody        ├── Single-stranded ³²P-DNA/RNA\n│   DNA/RNA sequences               │   interaction test        │   probe hybridizes to DNA matrix\n└── Detects HIV in early asymptomatic├── Uses enzyme conjugate  └── Mutated genes DO NOT appear\n    patients & p53 mutations          (Peroxidase)                  on X-ray film (no match)",
+      "content": "### 8.1 Molecular Diagnostics\n- **PCR**: Detects early HIV and oncogene mutations.\n- **ELISA**: Antigen-antibody interaction.\n- **Autoradiography Probes**: Mutated genes **do not appear** on X-ray film."
+    },
+    {
+      "sectionNumber": 9,
+      "id": "sec-10-09",
+      "title": "Stem Cell Technology: ESCs & Yamanaka iPSCs",
+      "topic": "Potency Spectrum (Totipotent, Pluripotent, Multipotent), Blastocyst ICM, & Yamanaka Factors (Oct4, Sox2, Klf4, c-Myc)",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Stem cells span totipotent, pluripotent (ESCs from blastocyst ICM), and multipotent. Shinya Yamanaka (Nobel 2012) created iPSCs from adult somatic cells using Oct4, Sox2, Klf4, and c-Myc."
+      },
+      "codeSnippet": "STEM CELL POTENCY SPECTRUM\n                               │\n     ┌─────────────────────────┼─────────────────────────┐\n     ▼                         ▼                         ▼\n  TOTIPOTENT               PLURIPOTENT               MULTIPOTENT\n  ├── Zygote & early       ├── Embryonic Stem Cells  └── Adult Stem Cells\n  │   blastomeres          │   (ESCs from ICM)           (Hematopoietic stem\n  └── Can form whole       ├── iPSCs (Yamanaka)          cells in bone marrow)\n      fetus + placenta     └── Forms all 3 germ layers",
+      "content": "### 9.1 Stem Cells & iPSCs\n- **ESCs**: Pluripotent cells from Inner Cell Mass (ICM) of blastocysts.\n- **iPSCs**: Reprogrammed adult somatic cells using **Oct4, Sox2, Klf4, c-Myc** (*Yamanaka*)."
+    },
+    {
+      "sectionNumber": 10,
+      "id": "sec-10-10",
+      "title": "Transgenic Animals: Rosie Cow, Emphysema, & Disease Models",
+      "topic": "Transgenic Mice Models, Rosie the Cow (alpha-Lactalbumin), alpha-1-Antitrypsin, Vaccine Safety, & Toxicity Testing",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Transgenic animals (>95% mice) model diseases, test polio vaccines, and produce human proteins: Rosie cow (2.4 g/L alpha-lactalbumin) and alpha-1-antitrypsin for emphysema."
+      },
+      "codeSnippet": "TRANSGENIC ANIMAL APPLICATIONS\n                                       │\n     ┌──────────────────┬──────────────┴──────────────┬──────────────────┐\n     ▼                  ▼                             ▼                  ▼\nPHYSIOLOGICAL STUDIES   DISEASE MODELS              BIOLOGICAL PRODUCTS  VACCINE SAFETY\nInvestigating gene      Animal models for Human     ├── Rosie Cow        ├── Testing Polio\nregulation & growth     diseases (Cancer,           │   (α-lactalbumin)      vaccine safety\nfactors (IGF-1).        Alzheimer's, Cystic Fib.)   └── α₁-Antitrypsin       on transgenic\n                                                        (Treats Emphysema)   mice first",
+      "content": "### 10.1 Transgenic Animals\n- **Mice ($>95\\%$)**: Disease models and polio vaccine safety testing.\n- **Rosie Cow (1997)**: Milk contains $2.4\\text{ g/L}$ human **$\\alpha$-Lactalbumin**.\n- **$\\alpha_1$-Antitrypsin**: Produced in transgenic sheep milk to treat **Emphysema**."
+    },
+    {
+      "sectionNumber": 11,
+      "id": "sec-10-11",
+      "title": "Biosafety, GEAC, Biopiracy, & High-Yield Traps",
+      "topic": "GEAC Mandate, Biopiracy Cases (Basmati Rice, Turmeric, Neem), & Master Glossary",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "GEAC is an Indian statutory committee regulating GM safety. Biopiracy patent disputes on Basmati rice (RiceTec), Turmeric, and Neem were successfully revoked by India."
+      },
+      "content": "### 11.1 Biosafety, GEAC & Biopiracy\n- **GEAC**: Indian statutory committee under MoEFCC.\n- **Biopiracy**: Revoked patents on Basmati rice (*RiceTec*), Turmeric, and Neem."
+    }
+  ]
+}

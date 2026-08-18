@@ -1,0 +1,59 @@
+{
+  "id": "chem-xi-u9-c9-l03",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit IX \u2014 Hydrocarbons",
+  "unitNumber": 9,
+  "chapter": "Hydrocarbons",
+  "chapterNumber": 9,
+  "chapterSlug": "hydrocarbons",
+  "slug": "lesson-03-alkenes-geometry-ez-regioselectivity-elimination",
+  "title": "Alkenes: Double Bond Geometry (E/Z) & Elimination Regioselectivity",
+  "topic": "Alkenes & E/Z Isomerism",
+  "topics": [
+    "Alkene Structure (sp\u00b2 Hybridization, 1\u03c3 + 1\u03c0 bond, 1.34 \u00c5 length, 611 kJ/mol)",
+    "Geometrical Isomerism: E/Z Nomenclature and Cahn-Ingold-Prelog (CIP) Rules",
+    "Elimination Regioselectivity: Saytzeff (Zaitsev) Rule (more substituted, stable alkene)",
+    "Hofmann Elimination Rule (less substituted alkene with bulky bases / poor leaving groups)",
+    "Stereospecific Elimination: Anti-periplanar E2 geometry"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "hydrocarbons",
+  "quickSummary": "CIP rules assign E/Z configuration by atomic number. Saytzeff rule yields more substituted alkene with small bases; Hofmann rule yields less substituted alkene with bulky bases (t-BuO\u207b) or poor leaving groups (-NR\u2083\u207a, F\u207b).",
+  "summary": "Master alkene E/Z stereochemical nomenclature and elimination regioselectivity (Saytzeff vs Hofmann).",
+  "conceptBreakdown": [
+    {
+      "heading": "3.1 E/Z Geometrical Isomerism & CIP Rules",
+      "title": "3.1 E/Z Geometrical Isomerism & CIP Rules",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "CIP Rules",
+        "takeaway": "Higher atomic number = higher priority. Z-isomer = higher priority on same side; E-isomer = opposite sides."
+      },
+      "codeSnippet": "GEOMETRICAL ISOMERISM (E/Z)\n                                       \u2502\n   Cahn-Ingold-Prelog (CIP) Priority Rules \u2500\u2500\u25ba Assign priority by Atomic Number (Z)\n                                       \u2502\n   \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n   \u25bc                                                                       \u25bc\n   Z-ISOMER (Zusammen = Together)                                          E-ISOMER (Entgegen = Opposite)\n   Higher priority groups on SAME SIDE of C=C.                             Higher priority groups on OPPOSITE SIDES.",
+      "content": "\u2022 **CIP Priority Rules**: Priority is assigned based on atomic number ($Z$) of the atom directly attached to the $sp^2$ carbon ($-\\text{I} > -\\text{Br} > -\\text{Cl} > -\\text{OH} > -\\text{NH}_2 > -\\text{CH}_3 > -\\text{H}$).\n\u2022 **$Z$-Isomer (*Zusammen*)**: Both high-priority groups on the same side of the double bond.\n\u2022 **$E$-Isomer (*Entgegen*)**: High-priority groups on opposite sides."
+    },
+    {
+      "heading": "3.2 Elimination Regioselectivity: Saytzeff vs. Hofmann",
+      "title": "3.2 Elimination Regioselectivity: Saytzeff vs. Hofmann",
+      "type": "paragraph",
+      "codeSnippet": "ELIMINATION REGIOSELECTIVITY RULES\n\n\u2022 Saytzeff (Zaitsev) Rule: Major product is the more substituted, thermodynamically stable alkene (more \u03b1-H). Favored by good leaving groups (I\u207b, Br\u207b, Cl\u207b) and unhindered bases (EtO\u207b, OH\u207b).\n\u2022 Hofmann Rule: Major product is the less substituted, least hindered alkene. Favored by bulky bases (t-BuO\u207b) or poor leaving groups (-N\u207aR\u2083, F\u207b).",
+      "content": "Dehydrohalogenation ($E2$) regioselectivity depends on base size and leaving group character. Bulky bases like Potassium tert-butoxide ($t\\text{-BuOK}$) cannot easily abstract sterically hindered internal protons, forcing elimination of terminal protons to give the **Hofmann product**."
+    }
+  ],
+  "quickRevision": [
+    "Z = high priority on same side; E = opposite sides.",
+    "Saytzeff gives the more substituted alkene (more \u03b1-H).",
+    "Hofmann gives the less substituted alkene (bulky bases).",
+    "E2 elimination requires anti-periplanar conformation."
+  ],
+  "keyFormulae": [
+    "\\text{Alkene Stability: More substituted } (\\text{more } \\alpha\\text{-H}) \\implies \\text{Saytzeff Product}"
+  ]
+}

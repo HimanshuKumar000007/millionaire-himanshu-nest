@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c6-l07",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Evolution",
+  "chapterNumber": 6,
+  "chapterSlug": "evolution",
+  "slug": "lesson-07-hardy-weinberg-equilibrium-and-population-genetics",
+  "title": "Hardy-Weinberg Equilibrium & Population Genetics",
+  "topic": "Allelic & Genotypic Frequencies, p + q = 1, p^2 + 2pq + q^2 = 1, & 5 Evolutionary Forces",
+  "order": 7,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Hardy-Weinberg Principle (1908): in a large, randomly mating population free from evolutionary forces, allele frequencies (p + q = 1) and genotype frequencies (p^2 + 2pq + q^2 = 1) remain constant across generations. 5 forces disturb equilibrium: Gene Flow, Genetic Drift, Mutation, Recombination, and Natural Selection.",
+  "summary": "Hardy-Weinberg Principle (1908): in a large, randomly mating population free from evolutionary forces, allele frequencies (p + q = 1) and genotype frequencies (p^2 + 2pq + q^2 = 1) remain constant across generations. 5 forces disturb equilibrium: Gene Flow, Genetic Drift, Mutation, Recombination, and Natural Selection.",
+  "conceptBreakdown": [
+    {
+      "heading": "Hardy-Weinberg Principle & Mathematical Mechanics",
+      "title": "Hardy-Weinberg Principle & Mathematical Mechanics",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "The Hardy-Weinberg Principle (G.H. Hardy & Wilhelm Weinberg, 1908) states that allelic frequencies remain invariant in a large, randomly mating population without evolutionary disturbances. Allelic: p + q = 1; Genotypic: p^2 + 2pq + q^2 = 1. Five forces disturb equilibrium: Gene Flow, Genetic Drift, Mutation, Genetic Recombination, and Natural Selection."
+      },
+      "codeSnippet": "HARDY-WEINBERG MATHEMATICAL EQUATIONS\n                      \n   Allelic Frequency Equation:     p + q = 1\n   Genotypic Frequency Equation:   p² + 2pq + q² = 1\n   \n   where:\n   ├── p = f(A) (Frequency of Dominant Allele A)\n   ├── q = f(a) (Frequency of Recessive Allele a)\n   ├── p² = f(AA) (Frequency of Homozygous Dominant)\n   ├── 2pq = f(Aa) (Frequency of Heterozygotes)\n   └── q² = f(aa) (Frequency of Homozygous Recessive)",
+      "content": "### 7.1 Hardy-Weinberg Mathematical Equations\n- **Allele Frequencies**:\n  $$p + q = 1$$\n  where $p = f(A)$ (dominant allele) and $q = f(a)$ (recessive allele).\n- **Genotype Frequencies** (Binomial Expansion):\n  $$(p + q)^2 = p^2 + 2pq + q^2 = 1.0$$\n  - $p^2$: Frequency of homozygous dominant individuals ($AA$).\n  - $2pq$: Frequency of heterozygous carrier individuals ($Aa$).\n  - $q^2$: Frequency of homozygous recessive individuals ($aa$).\n\n### 7.2 Five Assumptions of Hardy-Weinberg Equilibrium\n1. Infinitely large population size.\n2. Random mating (panmixia).\n3. No net mutations ($A \\leftrightarrow a$).\n4. No gene flow (no immigration or emigration).\n5. No differential natural selection (all genotypes possess equal fitness, $w = 1.0$).\n\n### 7.3 Five Evolutionary Forces Disturbing Equilibrium\n\n```\n                      FACTORS DISTURBING HW EQUILIBRIUM\n                                      │\n     ┌──────────────────┬─────────────┼─────────────┬──────────────────┐\n     ▼                  ▼             ▼             ▼                  ▼\nGENE FLOW          GENETIC DRIFT   MUTATION     RECOMBINATION     NATURAL SELECTION\nGene migration     Random allele   Source of    Meiotic crossing  Differential\nbetween pools.     changes in      novel        over & independent reproductive\n                   SMALL pools.    alleles.     assortment.       fitness.\n```"
+    },
+    {
+      "heading": "Step-by-Step HW Numerical Protocol",
+      "title": "Step-by-Step HW Numerical Protocol",
+      "type": "paragraph",
+      "content": "Protocol for exam questions: 1. Identify homozygous recessive frequency q^2 from given affected individuals; 2. Calculate recessive allele frequency q = sqrt(q^2); 3. Compute dominant allele frequency p = 1 - q; 4. Determine heterozygous carriers using 2pq."
+    },
+    {
+      "heading": "Multiple Alleles in Hardy-Weinberg (ABO Blood Groups)",
+      "title": "Multiple Alleles in Hardy-Weinberg (ABO Blood Groups)",
+      "type": "paragraph",
+      "content": "For three alleles (p = I^A, q = I^B, r = i), allelic frequency is p + q + r = 1, and genotypic frequency expands trinomial (p + q + r)^2 = p^2 + q^2 + r^2 + 2pq + 2pr + 2qr = 1."
+    }
+  ]
+}

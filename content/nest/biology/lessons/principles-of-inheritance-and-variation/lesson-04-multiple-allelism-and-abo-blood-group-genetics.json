@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c4-l04",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Principles of Inheritance and Variation",
+  "chapterNumber": 4,
+  "chapterSlug": "principles-of-inheritance-and-variation",
+  "slug": "lesson-04-multiple-allelism-and-abo-blood-group-genetics",
+  "title": "Multiple Allelism & ABO Blood Group Genetics",
+  "topic": "ABO Locus, Glycosyltransferases, 6 Genotypes, & 4 Phenotypes",
+  "order": 4,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "ABO locus on Chromosome 9: 3 alleles (I^A, I^B, i). Genotypes = n(n+1)/2 = 6 possible genotypes yielding 4 phenotypes (A, B, AB, O). I^A and I^B are co-dominant, both dominant over recessive i.",
+  "summary": "ABO locus on Chromosome 9: 3 alleles (I^A, I^B, i). Genotypes = n(n+1)/2 = 6 possible genotypes yielding 4 phenotypes (A, B, AB, O). I^A and I^B are co-dominant, both dominant over recessive i.",
+  "conceptBreakdown": [
+    {
+      "heading": "Multiple Allelism & ABO Blood Group Genetics",
+      "title": "Multiple Allelism & ABO Blood Group Genetics",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Multiple alleles represent a population-level phenomenon where >2 allelic variants govern a single gene locus (n=3 for ABO on Chromosome 9). Total possible diploid genotypes = n(n+1)/2 = 6 genotypes resulting in 4 phenotypes (A, B, AB, O). IA and IB code for specific glycosyltransferase enzymes and are co-dominant with each other and completely dominant over i."
+      },
+      "codeSnippet": "ABO GENETICS MATRIX\n                           \n   ALLELE      ENZYME PRODUCT                          DOMINANCE RELATIONSHIP\n   I^A         N-acetylgalactosaminyltransferase       Completely dominant over i; Co-dominant with I^B\n   I^B         Galactosyltransferase                   Completely dominant over i; Co-dominant with I^A\n   i           Non-functional enzyme (No sugar added)  Recessive to both I^A and I^B",
+      "content": "Human ABO blood groups are controlled by the **$I$ gene** (located on **Chromosome 9**), which encodes a glycosyltransferase enzyme modifying the oligosaccharide chain on RBC membrane glycoproteins.\n\n### 4.1 ABO Genotype & Phenotype Matrix\n\n| Genotype | Surface Antigen | Plasma Antibody | Blood Phenotype |\n| :--- | :--- | :--- | :--- |\n| **$I^A I^A$ or $I^A i$** | Antigen A | Anti-B | **Group A** |\n| **$I^B I^B$ or $I^B i$** | Antigen B | Anti-A | **Group B** |\n| **$I^A I^B$** | **Both Antigen A & Antigen B** | **NONE** | **Group AB (Co-dominance!)** |\n| **$ii$** | **NONE** | **Both Anti-A & Anti-B** | **Group O** |\n\n### 4.2 Multiple Alleles Formula\n- In a diploid population with $n$ multiple alleles for a gene locus:\n\n$$\\text{Total Diploid Genotypes} = \\frac{n(n+1)}{2} = \\frac{3(3+1)}{2} = \\mathbf{6\\text{ Genotypes}}$$\n\n$$\\text{Homozygous Genotypes} = n = 3 \\quad (I^A I^A, I^B I^B, ii)$$\n\n$$\\text{Heterozygous Genotypes} = \\frac{n(n-1)}{2} = \\frac{3(2)}{2} = 3 \\quad (I^A I^B, I^A i, I^B i)$$"
+    },
+    {
+      "heading": "The Bombay Phenotype (H-antigen Epistasis)",
+      "title": "The Bombay Phenotype (H-antigen Epistasis)",
+      "type": "paragraph",
+      "content": "Homozygous recessive mutation (hh) at the FUT1 gene prevents synthesis of H-substance precursor; even individuals with IA or IB alleles test phenotypically as Blood Group O because antigens A and B cannot attach."
+    },
+    {
+      "heading": "Population vs Individual Allelic Scope",
+      "title": "Population vs Individual Allelic Scope",
+      "type": "paragraph",
+      "content": "While a population can have dozens of multiple alleles (e.g. self-incompatibility S-alleles in plants or eye-color in Drosophila), any individual diploid organism can inherit at most TWO alleles."
+    }
+  ]
+}

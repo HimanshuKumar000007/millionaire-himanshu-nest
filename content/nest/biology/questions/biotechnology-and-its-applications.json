@@ -1,0 +1,602 @@
+[
+  {
+    "id": "bio-xii-u9-c10-q01",
+    "questionNumber": 1,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Eli Lilly Recombinant Insulin Production",
+    "questionText": "In 1983, the American company Eli Lilly successfully produced recombinant human insulin (Humulin) using Escherichia coli. What was the specific technological breakthrough that enabled them to overcome the bacterial inability to process eukaryotic pro-insulin into mature insulin?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They inserted the complete human pro-insulin gene into E. coli and added human carboxypeptidase E to the fermentation tank."
+      },
+      {
+        "id": "B",
+        "text": "They synthesized two independent DNA sequences corresponding to Chain A and Chain B, expressed them separately in E. coli, and joined the purified chains in-vitro via disulfide bonds."
+      },
+      {
+        "id": "C",
+        "text": "They engineered E. coli to express human C-peptide alongside active insulin."
+      },
+      {
+        "id": "D",
+        "text": "They used a retroviral vector to splice C-peptide out of bacterial mRNA during transcription."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bacteria lack the post-translational proteolytic enzymes required to cleave C-peptide from pro-insulin. Eli Lilly bypassed this by synthesizing two separate DNA coding sequences corresponding to Chain A (21 AA) and Chain B (30 AA), expressing them in separate E. coli cultures, extracting and purifying the two chains, and linking them in-vitro by creating disulfide bonds."
+  },
+  {
+    "id": "bio-xii-u9-c10-q02",
+    "questionNumber": 2,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "RNAi Silencing via RISC Complex",
+    "questionText": "During host-delivered RNA interference (RNAi) for controlling the root-knot nematode Meloidogyne incognita in transgenic tobacco plants, what specific biochemical complex targets and degrades the nematode's essential mRNA inside the parasite's cells?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dicer-DNA Polymerase complex"
+      },
+      {
+        "id": "B",
+        "text": "Single-stranded siRNA incorporated into the RNA-Induced Silencing Complex (RISC)"
+      },
+      {
+        "id": "C",
+        "text": "Transgenic Cry1Ac protoxin crystals"
+      },
+      {
+        "id": "D",
+        "text": "Polyethylene Glycol (PEG) protoplast fusion complex"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In transgenic tobacco expressing dsRNA, the ingested dsRNA is processed by Dicer into small interfering RNAs (siRNA, 21–23 bp). Single-stranded siRNA incorporates into the RNA-Induced Silencing Complex (RISC), which uses the siRNA strand to bind and enzymatically degrade the complementary nematode mRNA."
+  },
+  {
+    "id": "bio-xii-u9-c10-q03",
+    "questionNumber": 3,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Bt Cry Protoxin Alkaline Gut Activation",
+    "questionText": "Why does the crystalline insecticidal Cry protein produced by Bacillus thuringiensis (Bt) remain non-toxic inside the bacterium, yet cause rapid midgut epithelial lysis when ingested by target cotton bollworms?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The bacterium maintains an acidic pH (1.8) that denatures the toxin, whereas the insect hemolymph is basic."
+      },
+      {
+        "id": "B",
+        "text": "The toxin exists as an inactive Protoxin in the bacterium, requiring the alkaline pH of the insect midgut to solubilize the crystal and proteolytically cleave it into active toxin."
+      },
+      {
+        "id": "C",
+        "text": "The bacterium lacks DNA polymerases needed to transcribe the cry gene."
+      },
+      {
+        "id": "D",
+        "text": "The Cry protein is activated only upon exposure to plant chlorophyll."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bt Cry toxin is synthesized as an inactive, insoluble Protoxin crystal. When ingested by insects, the alkaline pH (>8.5) of the insect midgut solubilizes the crystal, allowing midgut proteases to cleave the protoxin into an active Cry toxin that binds cadherin receptors on midgut cells to form lethal lytic pores."
+  },
+  {
+    "id": "bio-xii-u9-c10-q04",
+    "questionNumber": 4,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "ADA Gene Therapy for SCID",
+    "questionText": "In 1990, the first clinical gene therapy was administered to a 4-year-old girl suffering from Severe Combined Immunodeficiency (SCID). What specific enzyme was deficient in this patient, and why was the initial T-lymphocyte gene therapy non-permanent?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insulin deficiency; because retroviruses cannot infect human blood cells"
+      },
+      {
+        "id": "B",
+        "text": "Adenosine Deaminase (ADA) deficiency; because transferred genetically engineered T-lymphocytes have a finite lifespan and die over time"
+      },
+      {
+        "id": "C",
+        "text": "Alpha-1-Antitrypsin deficiency; because ADA cDNA degraded in plasma"
+      },
+      {
+        "id": "D",
+        "text": "Phenylalanine Hydroxylase deficiency; because the patient rejected the bone marrow graft"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "SCID in this patient was caused by Adenosine Deaminase (ADA) deficiency. Functional ADA cDNA was introduced into the patient's cultured T-lymphocytes using a retroviral vector and re-infused. Because lymphocytes are not immortal, they die over time, requiring periodic re-infusions."
+  },
+  {
+    "id": "bio-xii-u9-c10-q05",
+    "questionNumber": 5,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Virus-Free Meristem Culture",
+    "questionText": "A plant biotechnologist wishes to produce virus-free potato plants from a valuable parent stock heavily infected with Potato Virus Y. Which specific tissue should be excised and cultured in-vitro to regenerate virus-free somaclones?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Differentiated leaf lamina parenchyma"
+      },
+      {
+        "id": "B",
+        "text": "Apical or Axillary Shoot Meristem"
+      },
+      {
+        "id": "C",
+        "text": "Mature vascular cambium from the lower stem"
+      },
+      {
+        "id": "D",
+        "text": "Tuber storage parenchymal tissue"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Even in heavily virus-infected plants, the Apical and Axillary Shoot Meristems remain virus-free because cell division rates in meristems outpace viral replication rates, and high endogenous auxin concentrations inhibit viral multiplication."
+  },
+  {
+    "id": "bio-xii-u9-c10-q06",
+    "questionNumber": 6,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Alpha-1-Antitrypsin for Emphysema",
+    "questionText": "What human therapeutic protein is produced in the milk of transgenic sheep/goats to clinically treat patients suffering from hereditary Emphysema?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Human alpha-Lactalbumin"
+      },
+      {
+        "id": "B",
+        "text": "Human alpha-1-Antitrypsin (alpha-1-AT)"
+      },
+      {
+        "id": "C",
+        "text": "Human Serum Albumin"
+      },
+      {
+        "id": "D",
+        "text": "Tissue Plasminogen Activator (TPA)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Transgenic sheep and goats have been engineered to express the human gene for alpha-1-Antitrypsin (alpha-1-AT) in their milk. Alpha-1-AT is an essential protease inhibitor used clinically to treat hereditary Emphysema."
+  },
+  {
+    "id": "bio-xii-u9-c10-q07",
+    "questionNumber": 7,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Radioactive Nucleic Acid Probes Autoradiography",
+    "questionText": "In a molecular diagnostic assay using radioactive 32P-labeled single-stranded DNA probes and autoradiography, why do colonies carrying a MUTATED target gene fail to appear as dark bands on the exposed X-ray film?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mutated DNA destroys the X-ray film emulsion via alpha decay."
+      },
+      {
+        "id": "B",
+        "text": "The single-stranded 32P-probe fails to hybridize with the mutated gene due to lack of sequence complementarity."
+      },
+      {
+        "id": "C",
+        "text": "Mutated genes digest the radioactive probe using restriction endonucleases."
+      },
+      {
+        "id": "D",
+        "text": "Mutated genes emit light that cancels out radioactive decay."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Radioactive probes bind strictly to complementary target sequences. If a gene has undergone mutation, the single-stranded 32P-probe cannot hybridize with the mutated sequence. During autoradiography, unhybridized probe is washed away, so no radioactive signal is emitted, and the mutated gene fails to appear on film."
+  },
+  {
+    "id": "bio-xii-u9-c10-q08",
+    "questionNumber": 8,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Golden Rice Provitamin A Pathway",
+    "questionText": "Golden Rice is a genetically modified crop engineered to address widespread malnutrition in developing countries. Which vitamin precursor is synthesized in high amounts in the endosperm of Golden Rice, and what plant gene was introduced to complete this pathway?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vitamin C; Ascorbate Oxidase gene from Citrus"
+      },
+      {
+        "id": "B",
+        "text": "Provitamin A (beta-Carotene); Phytoene Synthase (psy) gene from Daffodil (Narcissus)"
+      },
+      {
+        "id": "C",
+        "text": "Vitamin B12; Cobalamin gene from Lactobacillus"
+      },
+      {
+        "id": "D",
+        "text": "Vitamin D; Ergosterol gene from Yeast"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Golden Rice is engineered to synthesize beta-Carotene (Provitamin A) in its endosperm. It contains the Phytoene Synthase (psy) gene from Daffodil (Narcissus pseudonarcissus) and the Phytoene Desaturase (crtI) gene from the bacterium Erwinia uredovora."
+  },
+  {
+    "id": "bio-xii-u9-c10-q09",
+    "questionNumber": 9,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Basmati Rice Biopiracy Case",
+    "questionText": "In 1997, an American company (RiceTec) was granted a controversial patent by the US Patent and Trademark Office on 'Basmati Rice Lines and Grains'. On what legal and scientific grounds did India successfully challenge this biopiracy patent?",
+    "options": [
+      {
+        "id": "A",
+        "text": "RiceTec proved that Basmati rice originated in South America."
+      },
+      {
+        "id": "B",
+        "text": "India proved prior art and traditional knowledge, showing that the patented strain was derived by crossing native Indian Basmati varieties with semi-dwarf lines."
+      },
+      {
+        "id": "C",
+        "text": "India proved that Basmati rice contains high levels of 2,4-D."
+      },
+      {
+        "id": "D",
+        "text": "RiceTec used disarmed retroviruses to engineer the rice."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "RiceTec claimed an invention by crossing native Indian Basmati with semi-dwarf rice lines. India (via CSIR and APEDA) submitted extensive historical and botanical evidence of prior art and traditional knowledge, proving India's 27 documented native Basmati varieties, leading to revocation of patent claims."
+  },
+  {
+    "id": "bio-xii-u9-c10-q10",
+    "questionNumber": 10,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Somatic Hybridization PEG Protoplast Fusion",
+    "questionText": "What chemical reagent is used to induce the physical fusion of isolated, naked plant protoplasts during Somatic Hybridization (e.g., generating Pomato)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ethidium Bromide (EtBr)"
+      },
+      {
+        "id": "B",
+        "text": "Polyethylene Glycol (PEG) or Electrofusion"
+      },
+      {
+        "id": "C",
+        "text": "Colchicine"
+      },
+      {
+        "id": "D",
+        "text": "Trichloroacetic Acid"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In somatic hybridization, after cell walls are digested with cellulase and pectinase, fusion of the isolated naked protoplasts is induced chemically using Polyethylene Glycol (PEG) or physically using high-voltage Electrofusion."
+  },
+  {
+    "id": "bio-xii-u9-c10-q11",
+    "questionNumber": 11,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Bt Cry Genes Target Specificity",
+    "questionText": "Which of the following specific cry genes isolated from Bacillus thuringiensis correctly match their target crop insect pests?",
+    "options": [
+      {
+        "id": "A",
+        "text": "cry1Ac -> Controls Cotton Bollworms"
+      },
+      {
+        "id": "B",
+        "text": "cry2Ab -> Controls Cotton Bollworms"
+      },
+      {
+        "id": "C",
+        "text": "cry1Ab -> Controls Corn Borer"
+      },
+      {
+        "id": "D",
+        "text": "cry1Ac -> Controls Human Ringworm Fungi"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: cry1Ac and cry2Ab control cotton bollworms (Helicoverpa); cry1Ab controls corn borer (Ostrinia). D is incorrect: Cry toxins target insect pests, not fungal pathogens."
+  },
+  {
+    "id": "bio-xii-u9-c10-q12",
+    "questionNumber": 12,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "RNAi Molecular Mechanism",
+    "questionText": "Select the valid statements regarding the mechanism of host-delivered RNA Interference (RNAi):",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is a conserved post-transcriptional gene silencing mechanism present in all eukaryotic organisms."
+      },
+      {
+        "id": "B",
+        "text": "Double-stranded RNA (dsRNA) is processed by the enzyme Dicer into 21–23 bp small interfering RNAs (siRNAs)."
+      },
+      {
+        "id": "C",
+        "text": "Single-stranded siRNA incorporates into the RNA-Induced Silencing Complex (RISC) to degrade complementary target mRNA."
+      },
+      {
+        "id": "D",
+        "text": "RNAi functions by inducing random point mutations in the nuclear DNA of host plant cells."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: RNAi is eukaryotic, uses Dicer to generate siRNAs, and incorporates into RISC to degrade complementary mRNA. D is incorrect: RNAi operates at the post-transcriptional mRNA level, not by mutating nuclear DNA."
+  },
+  {
+    "id": "bio-xii-u9-c10-q13",
+    "questionNumber": 13,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Mature Insulin vs Pro-Insulin",
+    "questionText": "Which of the following features distinguish mature human Insulin from Pro-insulin?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mature insulin consists of Chain A (21 AA) and Chain B (30 AA) held together by disulfide bonds."
+      },
+      {
+        "id": "B",
+        "text": "Pro-insulin contains an extra polypeptide segment called the C-Peptide (31 AA)."
+      },
+      {
+        "id": "C",
+        "text": "Mature functional insulin completely lacks the C-Peptide."
+      },
+      {
+        "id": "D",
+        "text": "Pro-insulin is the active glucose-lowering hormone secreted by the pituitary gland."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Mature insulin has chains A & B linked by disulfide bonds and lacks C-peptide; pro-insulin contains C-peptide. D is incorrect: Pro-insulin is an inactive zymogen precursor secreted by pancreatic beta-cells."
+  },
+  {
+    "id": "bio-xii-u9-c10-q14",
+    "questionNumber": 14,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Transgenic Animals Utilities",
+    "questionText": "Which of the following applications represent key utilities of Transgenic Animals in biomedical research?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Production of human proteins in milk (e.g., alpha-1-antitrypsin for emphysema, alpha-lactalbumin in Rosie cow)."
+      },
+      {
+        "id": "B",
+        "text": "Creating animal models for studying human genetic diseases (Cystic Fibrosis, Alzheimer's, Cancer)."
+      },
+      {
+        "id": "C",
+        "text": "Testing vaccine safety (e.g., testing polio vaccines on transgenic mice before human trials)."
+      },
+      {
+        "id": "D",
+        "text": "Production of inorganic synthetic polymers inside muscle tissue."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Transgenics produce human therapeutic proteins, serve as human disease models, and test vaccine safety. D is incorrect: Transgenics produce organic biological products, not synthetic inorganic polymers."
+  },
+  {
+    "id": "bio-xii-u9-c10-q15",
+    "questionNumber": 15,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "GEAC Mandate in India",
+    "questionText": "Select the correct options regarding the Genetic Engineering Appraisal Committee (GEAC) in India:",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is a statutory body under the Ministry of Environment, Forest and Climate Change."
+      },
+      {
+        "id": "B",
+        "text": "It evaluates the safety and validity of GM research in India."
+      },
+      {
+        "id": "C",
+        "text": "It approves the commercial release of GM crops for public use."
+      },
+      {
+        "id": "D",
+        "text": "It is an international agency operating under the World Health Organization in Geneva."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: GEAC is an Indian statutory committee regulating GM research and commercial approval. D is incorrect: GEAC is a national Indian committee under MoEFCC, not a WHO agency."
+  },
+  {
+    "id": "bio-xii-u9-c10-q16",
+    "questionNumber": 16,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Molecular Diagnostic Techniques",
+    "questionText": "Which of the following medical diagnostic techniques permit the detection of pathogens or genetic mutations at sub-clinical stages before symptoms appear?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Polymerase Chain Reaction (PCR)"
+      },
+      {
+        "id": "B",
+        "text": "Enzyme-Linked Immunosorbent Assay (ELISA)"
+      },
+      {
+        "id": "C",
+        "text": "Autoradiography using 32P-labeled single-stranded nucleic acid probes"
+      },
+      {
+        "id": "D",
+        "text": "Urine sugar Benedict's qualitative test"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: PCR, ELISA, and nucleic acid probes allow early sub-clinical molecular diagnosis. D is incorrect: Benedict's test detects advanced glucosuria after symptoms appear."
+  },
+  {
+    "id": "bio-xii-u9-c10-q17",
+    "questionNumber": 17,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Plant Tissue Culture Principles",
+    "questionText": "Select the correct statements regarding Plant Tissue Culture and Somaclonal Variation:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cellular Totipotency is the capacity of a single explant cell to generate a whole plant."
+      },
+      {
+        "id": "B",
+        "text": "Micropropagation produces genetically identical plants termed Somaclones."
+      },
+      {
+        "id": "C",
+        "text": "Meristem culture is used specifically to obtain virus-free plants from infected stock."
+      },
+      {
+        "id": "D",
+        "text": "Protoplasts are isolated by treating plant cells with concentrated hydrochloric acid."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Totipotency, somaclones via micropropagation, and virus-free meristem culture are accurate. D is incorrect: Protoplasts are isolated using enzymes (Cellulase and Pectinase), not hydrochloric acid."
+  },
+  {
+    "id": "bio-xii-u9-c10-q18",
+    "questionNumber": 18,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Biopiracy Target Bio-Resources",
+    "questionText": "Which of the following traditional Indian bio-resources have been targets of controversial foreign patent attempts (Biopiracy)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Basmati Rice"
+      },
+      {
+        "id": "B",
+        "text": "Turmeric (Curcuma longa)"
+      },
+      {
+        "id": "C",
+        "text": "Neem (Azadirachta indica)"
+      },
+      {
+        "id": "D",
+        "text": "Synthetic Nylon polymers"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Basmati Rice (RiceTec), Turmeric (wound-healing patent), and Neem (antifungal patent) were all famous biopiracy disputes successfully challenged by India. D is incorrect: Nylon is a synthetic man-made polymer."
+  },
+  {
+    "id": "bio-xii-u9-c10-q19",
+    "questionNumber": 19,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "ADA Clinical Trial Realities",
+    "questionText": "Which of the following statements regarding the 1990 ADA Gene Therapy protocol are TRUE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It was administered to a 4-year-old female patient with SCID."
+      },
+      {
+        "id": "B",
+        "text": "Functional ADA cDNA was introduced into cultured lymphocytes using a disarmed retroviral vector."
+      },
+      {
+        "id": "C",
+        "text": "The patient required periodic re-infusions of engineered lymphocytes because blood cells have a finite lifespan."
+      },
+      {
+        "id": "D",
+        "text": "The therapy provided a permanent, 100% lifetime cure after a single adult injection."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: The 1990 SCID trial used retroviral ADA cDNA in cultured T-cells, requiring periodic re-infusions. D is incorrect: The treatment was not permanent because mature T-lymphocytes die over time."
+  },
+  {
+    "id": "bio-xii-u9-c10-q20",
+    "questionNumber": 20,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Stem Cell Potency Classification",
+    "questionText": "Select the correct options regarding Stem Cell classification:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Embryonic Stem Cells (ESCs) are isolated from the Inner Cell Mass of the blastocyst and are pluripotent."
+      },
+      {
+        "id": "B",
+        "text": "Induced Pluripotent Stem Cells (iPSCs) are reprogrammed adult somatic cells."
+      },
+      {
+        "id": "C",
+        "text": "Shinya Yamanaka reprogrammed somatic cells into iPSCs using Oct4, Sox2, Klf4, and c-Myc transcription factors."
+      },
+      {
+        "id": "D",
+        "text": "Embryonic stem cells can be harvested only from mature adult bone marrow."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: ESCs come from the ICM of blastocysts; iPSCs are reprogrammed adult cells using Yamanaka factors (Nobel 2012). D is incorrect: Embryonic stem cells come from blastocysts/embryos, not adult bone marrow."
+  }
+]

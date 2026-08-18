@@ -1,0 +1,66 @@
+{
+  "id": "bio-xi-u2-c6-l09",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit II — Structural Organization in Plants and Animals",
+  "unitNumber": 2,
+  "chapter": "Anatomy of Flowering Plants",
+  "chapterNumber": 6,
+  "chapterSlug": "anatomy-of-flowering-plants",
+  "slug": "lesson-09-secondary-growth-cambium-periderm-bark",
+  "title": "Secondary Growth in Dicot Stems: Cambium, Periderm, & Bark",
+  "topic": "Vascular Cambial Ring, Secondary Xylem/Phloem, Periderm Formula, & Lenticels",
+  "topics": [
+    "Secondary Growth Definition (Gymnosperms & Dicots)",
+    "Intra-Stelar vs Extra-Stelar Secondary Growth",
+    "Intrafascicular + Interfascicular Cambium $\\rightarrow$ Complete Cambial Ring",
+    "Centripetal Secondary Xylem (Wood) vs Centrifugal Secondary Phloem",
+    "Phellogen (Cork Cambium), Phellem (Cork), & Phelloderm (Secondary Cortex)",
+    "Periderm Formula ($\\text{Periderm} = \\text{Phellem} + \\text{Phellogen} + \\text{Phelloderm}$)",
+    "Bark Architecture ($\\text{Bark} = \\text{Periderm} + \\text{All Phloem}$)",
+    "Lenticels & Complementary Cells for Gas Exchange"
+  ],
+  "order": 9,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Secondary growth increases organ girth. Intra-stelar growth occurs via the vascular cambial ring (formed by primary intrafascicular and dedifferentiated interfascicular cambium), producing secondary xylem internally (~10x faster) and secondary phloem externally. Extra-stelar growth occurs via Phellogen (cork cambium), cutting off suberized dead Phellem (cork) externally and living Phelloderm internally: $\\text{Periderm} = \\text{Phellem} + \\text{Phellogen} + \\text{Phelloderm}$. Bark comprises all tissues outside the vascular cambium. Lenticels facilitate gas exchange.",
+  "summary": "Secondary growth increases organ girth. Intra-stelar growth occurs via the vascular cambial ring (formed by primary intrafascicular and dedifferentiated interfascicular cambium), producing secondary xylem internally (~10x faster) and secondary phloem externally. Extra-stelar growth occurs via Phellogen (cork cambium), cutting off suberized dead Phellem (cork) externally and living Phelloderm internally: $\\text{Periderm} = \\text{Phellem} + \\text{Phellogen} + \\text{Phelloderm}$. Bark comprises all tissues outside the vascular cambium. Lenticels facilitate gas exchange.",
+  "conceptBreakdown": [
+    {
+      "heading": "7. Secondary Growth in Dicot Stems Overview",
+      "title": "7. Secondary Growth in Dicot Stems Overview",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Vascular cambium produces wood (sec. xylem) inside and sec. phloem outside. Phellogen produces Phellem (cork) outside and Phelloderm inside. Bark = Periderm + All Phloem."
+      },
+      "codeSnippet": "SECONDARY GROWTH MECHANISM\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n INTRA-STELAR SECONDARY GROWTH                            EXTRA-STELAR SECONDARY GROWTH\n (Vascular Cambium Activity)                              (Cork Cambium / Phellogen Activity)\n ├── Cuts off Secondary Xylem (Inside)                    ├── Cuts off Phellem / Cork (Outside)\n └── Cuts off Secondary Phloem (Outside)                  └── Cuts off Phelloderm (Inside)",
+      "content": "Secondary growth is the increase in lateral girth/diameter of plant organs resulting from the mitotic activity of secondary lateral meristems (Vascular Cambium and Cork Cambium). It occurs in gymnosperms and dicotyledons (*ABSENT in monocotyledons*)."
+    },
+    {
+      "heading": "7.1 Formation & Activity of the Vascular Cambial Ring",
+      "title": "7.1 Formation & Activity of the Vascular Cambial Ring",
+      "type": "paragraph",
+      "codeSnippet": "VASCULAR CAMBIUM RING FORMATION\n                                     │\n   Intrafascicular Cambium (Primary) + Interfascicular Cambium (Dedifferentiated Medullary Rays)\n                                     │\n                                     ▼\n                          CONTINUOUS CAMBIAL RING\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n   Inner Side (Centripetal)                                Outer Side (Centrifugal)\n   Cuts off **Secondary Xylem (Wood)**                     Cuts off **Secondary Phloem**\n   (10x faster activity)                                   (Pushed outward; primary phloem crushed)",
+      "content": "### Cambial Ring Assembly\n1. **Intrafascicular Cambium**: Primary meristematic strip situated between primary xylem and primary phloem inside open vascular bundles.\n2. **Interfascicular Cambium**: Cells of medullary rays adjacent to intrafascicular cambium undergo **dedifferentiation** to become meristematic.\n3. **Cambial Ring Activity**: The continuous ring divides periclinally:\n   - Cells cut off toward the interior (pith) differentiate into **Secondary Xylem** (accumulates as wood).\n   - Cells cut off toward the exterior (cortex) differentiate into **Secondary Phloem**.\n   - The cambium is significantly more active on its inner side (~10-fold); hence, secondary xylem accumulates much faster, crushing primary phloem and cortical layers outward."
+    },
+    {
+      "heading": "7.2 Extra-Stelar Secondary Growth: The Periderm & Bark",
+      "title": "7.2 Extra-Stelar Secondary Growth: The Periderm & Bark",
+      "type": "paragraph",
+      "codeSnippet": "PERIDERM TISSUE LAYERS\n                                     │\n         ┌───────────────────────────┼───────────────────────────┐\n         ▼                           ▼                           ▼\n  PHELLEM (Cork)              PHELLOGEN (Cork Cambium)    PHELLODERM (Sec. Cortex)\n  Outer suberized dead        Middle secondary lateral     Inner living parenchymatous\n  protective layers           meristem layer               storage layers",
+      "content": "As secondary xylem expands, the outer cortical and epidermal layers rupture under mechanical tension. To replace the damaged outer envelope, a new secondary lateral meristem called the **Cork Cambium (Phellogen)** develops in the outer cortical region.\n\n### Periderm Formula\n$$\\Large \\mathbf{\\text{PERIDERM} = \\text{PHELLEM} + \\text{PHELLOGEN} + \\text{PHELLODERM}}$$\n\n• **Phellem (Cork)**: Cells cut off externally by phellogen. Cells become dead at maturity with walls heavily impregnated with hydrophobic **suberin**, making cork impervious to water and gases.\n• **Phelloderm (Secondary Cortex)**: Living parenchymatous cells cut off internally by phellogen.\n\n### Bark Architecture\nA non-technical term describing all tissues situated outside the vascular cambium:\n$$\\Large \\mathbf{\\text{BARK} = \\text{PERIDERM} + \\text{PRIMARY \\& SECONDARY PHLOEM}}$$"
+    },
+    {
+      "heading": "Lenticel Architecture",
+      "title": "Lenticel Architecture",
+      "type": "paragraph",
+      "codeSnippet": "LENTICEL ARCHITECTURE\n                           \n    Suberized Phellem ──► Ruptured Epidermis ──► Loose Complementary Cells ──► Phellogen",
+      "content": "**Lenticels** are lens-shaped aerating openings in the periderm formed when phellogen cuts off loosely arranged, non-suberized parenchymatous cells (**complementary cells**) instead of cork. Lenticels facilitate vital gas exchange between internal stem tissues and the atmosphere."
+    }
+  ]
+}

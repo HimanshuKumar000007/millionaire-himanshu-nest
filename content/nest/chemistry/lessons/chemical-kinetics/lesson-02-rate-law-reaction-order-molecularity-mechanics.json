@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u12-c3-l02",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XII \u2014 Chemical Kinetics",
+  "unitNumber": 12,
+  "chapter": "Chemical Kinetics",
+  "chapterNumber": 3,
+  "chapterSlug": "chemical-kinetics",
+  "slug": "lesson-02-rate-law-reaction-order-molecularity-mechanics",
+  "title": "Rate Law, Reaction Order, & Molecularity Mechanics",
+  "topic": "Rate Law, Order & Molecularity",
+  "topics": [
+    "The Rate Law (Rate = k [A]^x [B]^y, Specific Reaction Rate k)",
+    "Reaction Order n = x + y (Experimental quantity; zero, integer, fraction, negative)",
+    "Molecularity (Theoretical integer 1, 2, 3 for elementary steps)",
+    "Order vs Molecularity Matrix",
+    "Units of Rate Constant k = (M)^(1-n) \u00b7 s\u207b\u00b9 = (mol/L)^(1-n) \u00b7 s\u207b\u00b9"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "chemical-kinetics",
+  "quickSummary": "Rate Law: Rate = k[A]^x[B]^y. Order n = x + y is experimental (zero, fractional, integer, negative). Molecularity is a theoretical positive integer (1, 2, 3) strictly for elementary steps. Units of k = (M)^(1-n) \u00b7 s\u207b\u00b9.",
+  "summary": "Master rate law derivations, experimental reaction order vs theoretical molecularity, and order-dependent units of k.",
+  "conceptBreakdown": [
+    {
+      "heading": "2. Rate Law, Reaction Order, & Molecularity Mechanics",
+      "title": "2. Rate Law, Reaction Order, & Molecularity Mechanics",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Order vs Molecularity",
+        "takeaway": "Order is an experimental quantity (zero, fraction, integer). Molecularity is a theoretical integer (1, 2, 3) for elementary steps."
+      },
+      "codeSnippet": "                           ORDER vs MOLECULARITY\n                                     \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                                                       \u25bc\n   REACTION ORDER ($n$)                                    MOLECULARITY\n   \u251c\u2500\u2500 Sum of concentration exponents ($n = x + y$)       \u251c\u2500\u2500 Total reacting species colliding\n   \u251c\u2500\u2500 **Experimental quantity**                          \u2502   simultaneously in an **Elementary Step**\n   \u251c\u2500\u2500 Can be zero, integer, fraction, or negative        \u251c\u2500\u2500 **Theoretical integer** ($1, 2, 3$)\n   \u2514\u2500\u2500 Applies to both elementary and complex pathways    \u2514\u2500\u2500 Applies strictly to elementary steps",
+      "content": "The Rate Law is an experimentally determined mathematical expression relating the reaction rate to the molar concentrations of reactants:\n$$\\text{Rate} = k [A]^x [B]^y$$\nwhere $k$ is the Rate Constant (Specific Reaction Rate), and $x, y$ are partial reaction orders with respect to $A$ and $B$."
+    },
+    {
+      "heading": "2.1 Units of Rate Constant (k)",
+      "title": "2.1 Units of Rate Constant (k)",
+      "type": "paragraph",
+      "codeSnippet": "                       RATE CONSTANT UNITS BY ORDER\n                       \n   Zero-Order ($n=0$):     $\\text{M}\\cdot\\text{s}^{-1} \\text{ or } \\text{mol}\\cdot\\text{L}^{-1}\\cdot\\text{s}^{-1}$\n   First-Order ($n=1$):    $\\text{s}^{-1} \\text{ or } \\text{min}^{-1}$ (Independent of concentration!)\n   Second-Order ($n=2$):   $\\text{M}^{-1}\\cdot\\text{s}^{-1} \\text{ or } \\text{L}\\cdot\\text{mol}^{-1}\\cdot\\text{s}^{-1}$\n   Third-Order ($n=3$):    $\\text{M}^{-2}\\cdot\\text{s}^{-1} \\text{ or } \\text{L}^2\\cdot\\text{mol}^{-2}\\cdot\\text{s}^{-1}$",
+      "content": "The SI units of the rate constant $k$ depend directly on the overall reaction order $n$:\n$$\\mathbf{\\text{Units of } k = (\\text{M})^{1-n} \\cdot \\text{s}^{-1} = (\\text{mol/L})^{1-n} \\cdot \\text{s}^{-1}}$$"
+    }
+  ],
+  "quickRevision": [
+    "Rate Law: Rate = k [A]^x [B]^y.",
+    "Order n = x + y is experimentally determined.",
+    "Molecularity is theoretical (1, 2, 3) for elementary steps.",
+    "Units of k = (M)^(1-n) \u00b7 s\u207b\u00b9 = (mol/L)^(1-n) \u00b7 s\u207b\u00b9.",
+    "For first-order, units of k are s\u207b\u00b9 (independent of concentration)."
+  ],
+  "keyFormulae": [
+    "\\text{Rate} = k [A]^x [B]^y, \\quad n = x + y",
+    "\\text{Units of } k = (\\text{mol/L})^{1-n} \\cdot \\text{s}^{-1} = (\\text{M})^{1-n} \\cdot \\text{s}^{-1}"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-20-09",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Chemical Coordination and Integration",
+  "chapterNumber": 20,
+  "chapterSlug": "chemical-coordination-and-integration",
+  "lessonNumber": 9,
+  "title": "Hormones of Heart, Kidney, & Gastrointestinal Tract",
+  "readingTimeMinutes": 12,
+  "status": "published",
+  "difficulty": "Medium",
+  "prerequisites": ["Cardiovascular system", "Renal physiology", "Digestion"],
+  "learningObjectives": [
+    "Explain the vasodilatory and natriuretic actions of Atrial Natriuretic Factor (ANF)",
+    "Describe renal Juxtaglomerular (JG) cell secretion of Erythropoietin (EPO) and Calcitriol",
+    "Detail gastrointestinal regulatory peptides: Gastrin, Secretin, CCK-PZ, and GIP"
+  ],
+  "content": "### 9.1 Hormones Secreted by Non-Endocrine Organs\n\n1. **Heart (Atrial Wall)**:\n   - **Atrial Natriuretic Factor (ANF)**: A 28-amino acid peptide hormone released by atrial cardiomyocytes in response to high atrial stretch (elevated blood volume/venous return).\n   - **Mechanism**: Promotes systemic vasodilation, relaxes vascular smooth muscle, inhibits Renin and Aldosterone release, and increases renal sodium and water excretion (**Natriuresis**), effectively lowering systemic blood pressure.\n2. **Kidneys (Juxtaglomerular Apparatus)**:\n   - **Erythropoietin (EPO)**: Glycoprotein hormone secreted by interstitial peritubular/JG cells in response to tissue hypoxia. Stimulates proliferation and differentiation of proerythroblasts in bone marrow, accelerating **Erythropoiesis**.\n   - **Calcitriol ($1,25\\text{-(OH)}_2\\text{D}_3$)**: Active steroid hormone form of Vitamin D produced via $1\\alpha$-hydroxylase activation in proximal tubular cells, enhancing active intestinal calcium and phosphate absorption.\n3. **Gastrointestinal Tract**:\n   - **Gastrin**: Secreted by G-cells in the gastric pyloric antrum; stimulates parietal cells to secrete hydrochloric acid ($\\text{HCl}$) and chief cells to secrete pepsinogen.\n   - **Secretin**: Secreted by S-cells in the duodenum in response to acidic chyme ($\\text{pH} < 4.5$); stimulates the exocrine pancreas to secrete watery, bicarbonate-rich fluid to neutralize acid.\n   - **Cholecystokinin (CCK / CCK-PZ)**: Secreted by I-cells in the duodenum and jejunum in response to amino acids and fatty acids; stimulates gall bladder contraction (discharging bile) and pancreatic acinar secretion of digestive enzymes.\n   - **Gastric Inhibitory Peptide (GIP / Glucose-Dependent Insulinotropic Peptide)**: Secreted by K-cells in the duodenum; inhibits gastric acid secretion and motility while augmenting glucose-stimulated insulin release.",
+  "conceptBreakdown": [
+    {
+      "heading": "ANF vs RAAS Antagonism",
+      "explanation": "ANF serves as the body's natural physiological antagonist to the Renin-Angiotensin-Aldosterone System (RAAS), preventing hypervolemia and severe arterial hypertension."
+    },
+    {
+      "heading": "Incretin Effect of GIP & GLP-1",
+      "explanation": "Oral glucose ingestion produces a significantly larger insulin spike than intravenous glucose infusion due to the rapid release of gut incretin hormones (GIP and GLP-1) from enteroendocrine cells."
+    }
+  ]
+}

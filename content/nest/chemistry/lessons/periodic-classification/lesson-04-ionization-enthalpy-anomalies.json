@@ -1,0 +1,62 @@
+{
+  "id": "chem-xi-u3-c3-l04",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit III \u2014 Classification of Elements and Periodicity in Properties",
+  "unitNumber": 3,
+  "chapter": "Classification of Elements and Periodicity",
+  "chapterNumber": 3,
+  "chapterSlug": "periodic-classification",
+  "slug": "lesson-04-ionization-enthalpy-anomalies",
+  "title": "Ionization Enthalpy (\u0394_i H): Trends, Subshell Anomalies & Successive IEs",
+  "topic": "Ionization Enthalpy & Anomalies",
+  "topics": [
+    "Definition of Ionization Enthalpy & Successive IE Progression",
+    "Factors Governing \u0394_i H (Size, Z_eff, Subshell Stability)",
+    "Period 2 Subshell Anomalies (Be > B and N > O)",
+    "Period 3 Subshell Anomalies (Mg > Al and P > S)",
+    "Group 13 Non-Monotonic Trend (B > Tl > Ga > Al > In)",
+    "Group 14 Trend & Lead vs Tin Anomaly (Pb > Sn)"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "ionization-enthalpy",
+  "quickSummary": "Ionization Enthalpy (\u0394_i H) increases across a period and decreases down a group, but displays sharp subshell anomalies in Period 2 (Be > B, N > O), Group 13 (B > Tl > Ga > Al > In), and Group 14 (Pb > Sn).",
+  "summary": "Master Ionization Enthalpy trends, governing quantum factors, subshell exchange stability anomalies, and group contraction impacts.",
+  "conceptBreakdown": [
+    {
+      "heading": "4.1 Ionization Enthalpy Definition & Factors",
+      "title": "4.1 Ionization Enthalpy Definition & Factors",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Ionization Enthalpy",
+        "takeaway": "Minimum energy to remove most loosely bound electron from isolated neutral gaseous atom. \u0394_i H\u2081 < \u0394_i H\u2082 < \u0394_i H\u2083 < ... < \u0394_i H_n."
+      },
+      "content": "Ionization enthalpy is endothermic ($\\Delta_i H > 0$):\n\n$$\\text{X}(g) \\xrightarrow{\\Delta_i H_1} \\text{X}^+(g) + e^- \\quad (\\Delta_i H_1 > 0)$$\n$$\\mathbf{\\Delta_i H_1 < \\Delta_i H_2 < \\Delta_i H_3 < \\dots < \\Delta_i H_n}$$\n\n\u2022 **Governing Factors**:\n1. **Atomic Size**: $\\Delta_i H \\propto \\frac{1}{r}$.\n2. **Effective Nuclear Charge**: $\\Delta_i H \\propto Z_{\\text{eff}}$.\n3. **Electronic Configuration Stability**: Extra stability of fully-filled ($s^2, p^6, d^{10}$) and half-filled ($p^3, d^5$) subshells."
+    },
+    {
+      "heading": "4.2 Subshell Anomalies in Periods & Groups",
+      "title": "4.2 Subshell Anomalies in Periods & Groups",
+      "type": "paragraph",
+      "codeSnippet": "PERIOD 2 IONIZATION ENTHALPY ANOMALIES\n                       \n   IE\u2081(Be) > IE\u2081(B):  Be (1s\u00b2 2s\u00b2) has fully-filled s-subshell & 2s penetration vs B (2p\u00b9).\n   IE\u2081(N) > IE\u2081(O):   N (2p\u00b3) possesses stable half-filled 2p\u00b3 subshell vs O (2p\u2074).\n\n   Period 2 Order: Li < B < Be < C < O < N < F < Ne\n   Period 3 Order: Na < Al < Mg < Si < S < P < Cl < Ar",
+      "content": "\u2022 **Period 2 Trend**: $\\mathbf{\\text{Li} < \\text{B} < \\text{Be} < \\text{C} < \\text{O} < \\text{N} < \\text{F} < \\text{Ne}}$\n- $\\text{Be} > \\text{B}$: $\\text{Be } (2s^2)$ has higher $2s$ penetration and fully-filled stability vs $\\text{B } (2p^1)$.\n- $\\text{N} > \\text{O}$: $\\text{N } (2p^3)$ has stable half-filled subshell with high exchange energy vs $\\text{O } (2p^4)$.\n\n\u2022 **Group 13 Trend**: Irregular due to $3d^{10}$ Scandide and $4f^{14}$ Lanthanide contractions:\n$$\\mathbf{\\text{B } (801) > \\text{Tl } (589) > \\text{Ga } (579) > \\text{Al } (577) > \\text{In } (558\\text{ kJ/mol})}$$\n\n\u2022 **Group 14 Trend**: Lead ($\\text{Pb}$) has higher $\\Delta_i H_1$ than Tin ($\\text{Sn}$) due to $4f^{14}$ Lanthanide contraction:\n$$\\mathbf{\\text{C} > \\text{Si} > \\text{Ge} > \\text{Pb } (715\\text{ kJ/mol}) > \\text{Sn } (708\\text{ kJ/mol})}$$"
+    }
+  ],
+  "quickRevision": [
+    "Successive IEs always increase: \u0394_i H\u2081 < \u0394_i H\u2082 < \u0394_i H\u2083.",
+    "Period 2 IE: Li < B < Be < C < O < N < F < Ne.",
+    "Period 3 IE: Na < Al < Mg < Si < S < P < Cl < Ar.",
+    "Group 13 IE: B > Tl > Ga > Al > In (Ga > Al and Tl > In due to contractions).",
+    "Group 14 IE: C > Si > Ge > Pb > Sn (Pb > Sn due to Lanthanide contraction)."
+  ],
+  "keyFormulae": [
+    "\u0394_i H \u221d Z_eff / r",
+    "Period 2 IE: Li < B < Be < C < O < N < F < Ne",
+    "Group 13 IE: B > Tl > Ga > Al > In"
+  ]
+}

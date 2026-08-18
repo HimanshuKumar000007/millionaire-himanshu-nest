@@ -1,0 +1,62 @@
+{
+  "id": "chem-xi-u5-c5-l05",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit V \u2014 Chemical Thermodynamics",
+  "unitNumber": 5,
+  "chapter": "Chemical Thermodynamics",
+  "chapterNumber": 5,
+  "chapterSlug": "chemical-thermodynamics",
+  "slug": "lesson-05-second-law-entropy-calculations",
+  "title": "Second Law of Thermodynamics (SLOT) & Universal Entropy Calculations",
+  "topic": "Entropy & Second Law",
+  "topics": [
+    "Entropy (S) & Clausius Definition (dS = \u03b4q_rev / T)",
+    "Second Law Postulate (\u0394S_total = \u0394S_sys + \u0394S_surr > 0)",
+    "Entropy of Phase Transitions (Fusion & Vaporization)",
+    "Entropy Changes in Ideal Gas State Transitions",
+    "Reversible vs Irreversible Total Entropy Balances"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "second-law-thermodynamics",
+  "quickSummary": "Entropy measures thermodynamic disorder (dS = \u03b4q_rev/T). The Second Law establishes that total universe entropy increases for spontaneous processes: \u0394S_total = \u0394S_sys + \u0394S_surr > 0, while \u0394S_total = 0 at reversible equilibrium.",
+  "summary": "Master entropy calculations for phase changes, ideal gas expansions, and reversible vs irreversible entropy balances.",
+  "conceptBreakdown": [
+    {
+      "heading": "5.1 Entropy Concept & Second Law Postulates",
+      "title": "5.1 Entropy Concept & Second Law Postulates",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Second Law & Entropy",
+        "takeaway": "dS = \u03b4q_rev / T. Spontaneous: \u0394S_total > 0; Equilibrium: \u0394S_total = 0."
+      },
+      "content": "\u2022 **Clausius Definition of Entropy**:\n$$\\mathbf{dS = \\frac{\\delta q_{\\text{rev}}}{T}}$$\n\u2022 **Second Law Criteria**:\n$$\\mathbf{\\Delta S_{\\text{total}} = \\Delta S_{\\text{system}} + \\Delta S_{\\text{surroundings}} > 0 \\quad (\\text{Spontaneous / Irreversible Process})}$$\n$$\\mathbf{\\Delta S_{\\text{total}} = \\Delta S_{\\text{system}} + \\Delta S_{\\text{surroundings}} = 0 \\quad (\\text{Equilibrium / Reversible Process})}$$"
+    },
+    {
+      "heading": "5.2 Entropy Formula Spectrum",
+      "title": "5.2 Entropy Formula Spectrum",
+      "type": "paragraph",
+      "codeSnippet": "ENTROPY FORMULA SPECTRUM\n                                     \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                           \u25bc                           \u25bc\n  PHASE TRANSITIONS           IDEAL GAS EXPANSION          ISOTHERMAL MIXING\n  \u0394_trans S = \u0394_trans H / T_trans  \u0394S = n C_v ln(T\u2082/T\u2081) + n R ln(V\u2082/V\u2081)  \u0394_mix S = -R \u03a3 n_i ln x_i",
+      "content": "1. **Phase Transitions**:\n$$\\mathbf{\\Delta_{\\text{vap}} S = \\frac{\\Delta_{\\text{vap}} H}{T_{\\text{bp}}} \\quad \\vert \\quad \\Delta_{\\text{fus}} S = \\frac{\\Delta_{\\text{fus}} H}{T_{\\text{mp}}}}$$\n\n2. **Ideal Gas State Changes**:\n$$\\mathbf{\\Delta S_{\\text{sys}} = n C_{v,m} \\ln \\left( \\frac{T_2}{T_1} \\right) + n R \\ln \\left( \\frac{V_2}{V_1} \\right) = n C_{p,m} \\ln \\left( \\frac{T_2}{T_1} \\right) - n R \\ln \\left( \\frac{P_2}{P_1} \\right)}$$\n- **Reversible Isothermal**: $\\Delta S_{\\text{sys}} = n R \\ln(V_2/V_1)$, $\\Delta S_{\\text{surr}} = -n R \\ln(V_2/V_1) \\implies \\mathbf{\\Delta S_{\\text{total}} = 0}$\n- **Irreversible Isothermal**: $\\Delta S_{\\text{sys}} = n R \\ln(V_2/V_1)$, $\\Delta S_{\\text{surr}} = -\\frac{P_{\\text{ext}}(V_2 - V_1)}{T} \\implies \\mathbf{\\Delta S_{\\text{total}} > 0}$"
+    }
+  ],
+  "quickRevision": [
+    "dS = \u03b4q_rev / T.",
+    "\u0394S_total > 0 for all spontaneous natural processes.",
+    "\u0394_vap S = \u0394_vap H / T_bp.",
+    "Reversible isothermal: \u0394S_total = 0.",
+    "Irreversible isothermal: \u0394S_total > 0."
+  ],
+  "keyFormulae": [
+    "dS = \u03b4q_rev / T",
+    "\u0394S_total = \u0394S_sys + \u0394S_surr \u2265 0",
+    "\u0394S_sys = n C_v ln(T\u2082/T\u2081) + n R ln(V\u2082/V\u2081)",
+    "\u0394_vap S = \u0394_vap H / T_bp"
+  ]
+}

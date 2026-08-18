@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u9-c10-l06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit IX — Biotechnology",
+  "unitNumber": 9,
+  "chapter": "Biotechnology and its Applications",
+  "chapterNumber": 10,
+  "chapterSlug": "biotechnology-and-its-applications",
+  "slug": "lesson-06-recombinant-human-insulin-humulin-and-eli-lilly",
+  "title": "Recombinant Human Insulin (Humulin & Eli Lilly)",
+  "topic": "Pro-Insulin vs Mature Insulin, C-Peptide Cleavage, Disulfide Bonds, & E. coli Recombinant Production",
+  "order": 6,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Recombinant Human Insulin (Humulin): Historically extracted from slaughtered cattle/pigs (causing severe allergies). Pro-insulin contains Chain A (21 AA) + C-Peptide (31 AA) + Chain B (30 AA). Mature active insulin LACKS C-peptide and consists of Chain A and Chain B linked by 2 inter-chain disulfide bonds. In 1983, Eli Lilly synthesized DNA for Chain A and Chain B separately in E. coli, extracted, purified, and joined them in-vitro via disulfide bonds.",
+  "summary": "Recombinant Human Insulin (Humulin): Historically extracted from slaughtered cattle/pigs (causing severe allergies). Pro-insulin contains Chain A (21 AA) + C-Peptide (31 AA) + Chain B (30 AA). Mature active insulin LACKS C-peptide and consists of Chain A and Chain B linked by 2 inter-chain disulfide bonds. In 1983, Eli Lilly synthesized DNA for Chain A and Chain B separately in E. coli, extracted, purified, and joined them in-vitro via disulfide bonds.",
+  "conceptBreakdown": [
+    {
+      "heading": "Pro-Insulin vs Mature Insulin & Eli Lilly Breakthrough",
+      "title": "Pro-Insulin vs Mature Insulin & Eli Lilly Breakthrough",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Pro-insulin is an inactive zymogen possessing an extra C-peptide (31 AA). Mature active insulin lacks C-peptide and contains Chain A (21 AA) and Chain B (30 AA) linked by two disulfide bonds. Eli Lilly synthesized chains A and B separately in E. coli and assembled Humulin in-vitro."
+      },
+      "codeSnippet": "PRO-INSULIN vs MATURE INSULIN\n                        \n   PRO-INSULIN (Inactive):   A-Chain (21 AA) ── [ C-PEPTIDE (31 AA) ] ── B-Chain (30 AA)\n                                                     │\n   MATURE INSULIN (Active):  A-Chain (21 AA) ═════════════════════════════ B-Chain (30 AA)\n                             (Linked by 2 Inter-chain Disulfide Bonds)",
+      "content": "### 6.1 Historical Context & Structural Biochemistry\n- **Pre-rDNA Limitations**: Insulin used for diabetes management was originally harvested from the pancreas of slaughtered cattle (bovine) and pigs (porcine). Animal insulin differed by minor amino acid substitutions, triggering severe immune hypersensitivity and allergic reactions in human patients.\n- **Structural Architecture of Human Insulin**:\n  1. **Pre-Pro-Insulin**: Initial translation product containing an $N$-terminal signal peptide ($24\\text{ AA}$), Chain B ($30\\text{ AA}$), C-peptide ($31\\text{ AA}$), and Chain A ($21\\text{ AA}$).\n  2. **Pro-Insulin (Inactive Zymogen)**: Synthesized in pancreatic $\\beta$-cells containing Chain A and Chain B interconnected by an extra stretching polypeptide segment called the **$\\text{C-Peptide}$ ($31\\text{ amino acids}$)**.\n  3. **Mature Functional Insulin (Active Hormone)**: Consists of **$51\\text{ amino acids}$** partitioned into two polypeptide chains:\n     - **Chain A**: $21\\text{ amino acids}$ ($1\\text{ intra-chain disulfide bond}$ between Cys6-Cys11).\n     - **Chain B**: $30\\text{ amino acids}$.\n     - The two chains are held together covalently by **two inter-chain Disulfide Bonds ($-\\text{S}-\\text{S}-$ links)** (between Cys7(A)-Cys7(B) and Cys20(A)-Cys19(B)).\n     - **CRITICAL INVARIANT**: **Mature functional insulin completely lacks the C-peptide** (which is proteolytically cleaved during packaging in the Golgi apparatus).\n\n### 6.2 The Eli Lilly Genetic Engineering Protocol (1983)\n- **The Major Challenge**: Prokaryotic bacteria (*E. coli*) lack the mammalian endopeptidase enzymes required to process eukaryotic pro-insulin by cleaving off the C-peptide.\n- **The Eli Lilly Strategy**:\n  1. Synthesized two distinct, artificial DNA coding oligonucleotides corresponding to **Chain A ($21\\text{ AA}$)** and **Chain B ($30\\text{ AA}$)** of human insulin.\n  2. Cloned the two synthetic DNA sequences separately into the $pBR322$ vector adjacent to the $\\beta$-galactosidase promoter.\n  3. Transformed into two separate cultures of ***Escherichia coli***.\n  4. Recombinant fusion proteins were extracted and purified from the bacterial lysates, and cyanogen bromide was used to cleave insulin chains from $\\beta$-galactosidase.\n  5. The purified Chain A and Chain B polypeptides were combined *in-vitro* under controlled redox conditions to form proper **inter-chain disulfide bonds**, generating pure, clinical-grade **HUMULIN**."
+    },
+    {
+      "heading": "C-Peptide as a Clinical Biomarker",
+      "title": "C-Peptide as a Clinical Biomarker",
+      "type": "paragraph",
+      "content": "Because C-peptide is co-secreted equimolarly with endogenous insulin from beta-cells, measuring serum C-peptide levels reliably distinguishes Type 1 Diabetes (absolute beta-cell failure, C-peptide near zero) from Type 2 Diabetes."
+    },
+    {
+      "heading": "Insulin Analogs via Protein Engineering",
+      "title": "Insulin Analogs via Protein Engineering",
+      "type": "paragraph",
+      "content": "Site-directed mutagenesis of Chain B produced rapid-acting monomeric insulin analogs (e.g., Insulin Lispro: ProB28LysB29 inversion) and long-acting basal analogs (e.g., Insulin Glargine: AsnA21Gly + two Arg residues at C-terminus of Chain B)."
+    }
+  ]
+}

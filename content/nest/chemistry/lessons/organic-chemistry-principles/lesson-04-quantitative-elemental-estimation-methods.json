@@ -1,0 +1,61 @@
+{
+  "id": "chem-xi-u8-c8-l04",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VIII \u2014 Organic Chemistry: Basic Principles and Techniques",
+  "unitNumber": 8,
+  "chapter": "Organic Chemistry Principles & Techniques",
+  "chapterNumber": 8,
+  "chapterSlug": "organic-chemistry-principles",
+  "slug": "lesson-04-quantitative-elemental-estimation-methods",
+  "title": "Quantitative Elemental Estimation: Dumas, Kjeldahl, Carius, & Liebig",
+  "topic": "Quantitative Elemental Estimation",
+  "topics": [
+    "Carbon & Hydrogen: Liebig Combustion (CuO \u2192 CO\u2082 in KOH, H\u2082O in CaCl\u2082)",
+    "Nitrogen: Dumas Method (Combustion with CuO in CO\u2082, N\u2082 gas over KOH at STP)",
+    "Nitrogen: Kjeldahl Method (Digestion with H\u2082SO\u2084 \u2192 NH\u2083 titration)",
+    "Kjeldahl Method Failure Rules (Nitro, Azo, Pyridine/Aromatic ring)",
+    "Halogens & Sulfur: Carius Method (AgX and BaSO\u2084 precipitates)",
+    "Phosphorus: Carius Estimation (Mg\u2082P\u2082O\u2087 or Phosphomolybdate)"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "organic-chemistry-principles",
+  "quickSummary": "Liebig: %C=(12/44)(m_CO2/w)100, %H=(2/18)(m_H2O/w)100. Dumas: %N=(28/22400)(V_STP/w)100. Kjeldahl: %N=(1.4\u00b7N\u00b7V)/w (fails for nitro, azo, pyridine). Carius: %S=(32/233)(m_BaSO4/w)100, %X=(M_X/M_AgX)(m_AgX/w)100.",
+  "summary": "Master quantitative elemental formulas for Carbon, Hydrogen, Nitrogen (Dumas and Kjeldahl), Halogens, Sulfur, and Phosphorus.",
+  "conceptBreakdown": [
+    {
+      "heading": "4.1 Quantitative Estimation Formulas",
+      "title": "4.1 Quantitative Estimation Formulas",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quantitative Formulas",
+        "takeaway": "%C=(12/44)(m_CO2/w)100; %H=(2/18)(m_H2O/w)100; Dumas %N=(28/22400)(V_STP/w)100; Kjeldahl %N=(1.4\u00b7N\u00b7V)/w; Carius %S=(32/233)(m_BaSO4/w)100."
+      },
+      "codeSnippet": "QUANTITATIVE ESTIMATION FORMULAS MATRIX\n\n\u2022 Carbon: % C = (12 / 44) \u00d7 (Mass of CO\u2082 / Mass of Sample) \u00d7 100\n\u2022 Hydrogen: % H = (2 / 18) \u00d7 (Mass of H\u2082O / Mass of Sample) \u00d7 100\n\u2022 Dumas Nitrogen: % N = (28 / 22400) \u00d7 (V_N2 at STP in mL / Mass of Sample) \u00d7 100\n\u2022 Kjeldahl Nitrogen: % N = (1.4 \u00d7 N_acid \u00d7 V_acid used for NH3 in mL) / (Mass of Sample in g)\n\u2022 Carius Halogen: % X = (M_X / M_AgX) \u00d7 (Mass of AgX / Mass of Sample) \u00d7 100\n\u2022 Carius Sulfur: % S = (32 / 233.36) \u00d7 (Mass of BaSO\u2084 / Mass of Sample) \u00d7 100\n\u2022 Carius Phosphorus: % P = (62 / 222) \u00d7 (Mass of Mg\u2082P\u2082O\u2087 / Mass of Sample) \u00d7 100",
+      "content": "1. **Liebig Method**: Organic compound combusted with $\\text{CuO}$. $\\text{CO}_2$ absorbed in conc. $\\text{KOH}$; $\\text{H}_2\\text{O}$ absorbed in anhydrous $\\text{CaCl}_2$.\n2. **Dumas Method**: Nitrogen converted to dry $\\text{N}_2$ gas collected over concentrated $\\text{KOH}$ solution at STP ($0^\\circ\\text{C}, 1\\text{ atm}$).\n3. **Kjeldahl Method**: Digested with conc. $\\text{H}_2\\text{SO}_4 \\to (\\text{NH}_4)_2\\text{SO}_4 \\xrightarrow{\\text{NaOH}} \\text{NH}_3 \\uparrow$ absorbed in known excess standard acid.\n4. **Carius Method**: Digested with fuming $\\text{HNO}_3$ in sealed Carius tube forming $\\text{AgX}$ for halogens, $\\text{BaSO}_4$ for sulfur, and $\\text{Mg}_2\\text{P}_2\\text{O}_7$ for phosphorus."
+    },
+    {
+      "heading": "4.2 Kjeldahl Method Structural Limitations (NEST Trap)",
+      "title": "4.2 Kjeldahl Method Structural Limitations (NEST Trap)",
+      "type": "paragraph",
+      "codeSnippet": "KJELDAHL FAILURE CONDITIONS\n\nThe Kjeldahl method FAILS for compounds containing Nitrogen in:\n1. Nitro groups (-NO\u2082, e.g., Nitrobenzene)\n2. Azo groups (-N=N-, e.g., Azobenzene)\n3. Stable aromatic heterocyclic rings (e.g., Pyridine, Quinoline, Pyrrole)\n\nReason: Nitrogen in these groups does not form (NH\u2084)\u2082SO\u2084 during digestion. Use Dumas method!",
+      "content": "The Kjeldahl method **FAILS** for Nitro compounds ($-\\text{NO}_2$), Azo compounds ($-\\text{N=N}-$), and Nitrogen present in a stable aromatic ring (*Pyridine, Quinoline, Pyrrole*) because nitrogen is not quantitatively converted into Ammonium Sulfate during acid digestion. The **Dumas method** must be utilized for such compounds."
+    }
+  ],
+  "quickRevision": [
+    "Dumas method collects dry N\u2082 gas over KOH solution.",
+    "Kjeldahl method measures NH\u2083 via acid neutralization.",
+    "Kjeldahl fails for nitrobenzene, azobenzene, and pyridine.",
+    "Carius method estimates S as BaSO\u2084 and halogens as AgX."
+  ],
+  "keyFormulae": [
+    "\\%\\text{ N (Dumas)} = \\frac{28}{22400} \\times \\frac{V_{\\text{N}_2 \\text{ (STP, mL)}}}{w} \\times 100",
+    "\\%\\text{ N (Kjeldahl)} = \\frac{1.4 \\times N \\times V_{(\\text{mL})}}{w_{(\\text{g})}}"
+  ]
+}

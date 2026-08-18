@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c4-l07",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Principles of Inheritance and Variation",
+  "chapterNumber": 4,
+  "chapterSlug": "principles-of-inheritance-and-variation",
+  "slug": "lesson-07-linkage-crossing-over-and-sturtevants-genetic-mapping",
+  "title": "Linkage, Crossing Over, & Genetic Mapping",
+  "topic": "Morgan's Crosses I & II, Sturtevant's cM, & Recombination Frequency",
+  "order": 7,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Linkage: physical association of genes on the same chromosome. Morgan Cross I (y & w): 98.7% parental, 1.3% recombinant (tight linkage). Cross II (w & m): 62.8% parental, 37.2% recombinant (loose linkage). Sturtevant: 1% recombination frequency (RF) = 1 centimorgan (cM). Max RF = 50%.",
+  "summary": "Linkage: physical association of genes on the same chromosome. Morgan Cross I (y & w): 98.7% parental, 1.3% recombinant (tight linkage). Cross II (w & m): 62.8% parental, 37.2% recombinant (loose linkage). Sturtevant: 1% recombination frequency (RF) = 1 centimorgan (cM). Max RF = 50%.",
+  "conceptBreakdown": [
+    {
+      "heading": "Linkage, Crossing Over, & Genetic Mapping",
+      "title": "Linkage, Crossing Over, & Genetic Mapping",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Linkage is the co-inheritance of genes located on the same chromosome due to physical proximity. Morgan's Drosophila Cross I (yellow body y and white eye w) showed tight linkage with 98.7% parental and 1.3% recombinant types. Cross II (white eye w and miniature wing m) showed loose linkage with 62.8% parental and 37.2% recombinant types. Alfred Sturtevant developed genetic mapping: 1% Recombination Frequency = 1 Map Unit = 1 centimorgan (cM)."
+      },
+      "codeSnippet": "LINKAGE vs RECOMBINATION\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n   TIGHT LINKAGE                                           LOOSE LINKAGE\n   Genes positioned close together.                        Genes positioned far apart.\n   ├── High Parental Phenotypes (~99%)                     ├── Higher Recombinants (up to 50%)\n   └── Low Recombinants (Morgan's Cross I: 1.3%)           └── Morgan's Cross II: 37.2%",
+      "content": "### 7.1 Morgan's Dihybrid Linkage Crosses in *Drosophila*\n\n```\n                     MORGAN'S LINKAGE CROSS COMPARISON\n                     \n   CROSS I (Yellow body y, White eye w):\n   ├── Parental Types  = 98.7%\n   └── Recombinants    = 1.3%  ──► Tightly linked on X-chromosome.\n   \n   CROSS II (White eye w, Miniature wing m):\n   ├── Parental Types  = 62.8%\n   └── Recombinants    = 37.2% ──► Loosely linked on X-chromosome.\n```\n\n### 7.2 Genetic Mapping by Alfred Sturtevant\n- Sturtevant recognized that **recombination frequency (RF) is directly proportional to the physical distance** separating two gene loci on a chromosome.\n\n$$\\text{Recombination Frequency (RF)} = \\frac{\\text{Number of Recombinant Progeny}}{\\text{Total Number of Progeny}} \\times 100$$\n\n$$\\mathbf{1\\%\\text{ Recombination}} = \\mathbf{1\\text{ Map Unit (m.u.)}} = \\mathbf{1\\text{ centimorgan (cM)}}$$\n\n```\n                            GENE MAPPING EXAMPLE\n                            \n   Given Recombination Frequencies:\n   ├── Gene A - Gene B = 10% (10 cM)\n   ├── Gene B - Gene C = 15% (15 cM)\n   └── Gene A - Gene C = 5%  (5 cM)\n   \n   Map Order: A ── (5 cM) ── C ─────── (15 cM) ─────── B\n              └──────────────── (10 cM) ──────────────┘\n```\n\n- **Maximum Recombination Threshold**: The maximum observable recombination frequency between two linked genes on a single chromosome is **$50\\%$**, above which the cross behaves indistinguishably from unlinked genes undergoing independent assortment."
+    },
+    {
+      "heading": "Coupling (Cis) vs Repulsion (Trans) Phases",
+      "title": "Coupling (Cis) vs Repulsion (Trans) Phases",
+      "type": "paragraph",
+      "content": "Bateson & Punnett observed that dominant alleles entering from the same parent tend to be inherited together (Coupling / Cis: AB/ab), whereas dominant alleles from opposite parents tend to separate (Repulsion / Trans: Ab/aB)."
+    },
+    {
+      "heading": "Interference and Coincidence in Three-Point Crosses",
+      "title": "Interference and Coincidence in Three-Point Crosses",
+      "type": "paragraph",
+      "content": "The Coefficient of Coincidence (C) is the ratio of Observed Double Crossovers to Expected Double Crossovers; positive interference ($I = 1 - C$) indicates that a crossover in one region suppresses nearby crossovers."
+    }
+  ]
+}

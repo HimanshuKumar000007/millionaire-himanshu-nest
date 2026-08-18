@@ -1,0 +1,64 @@
+{
+  "id": "bio-xi-u1-c2-l06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit I — Diversity of Living Organisms",
+  "unitNumber": 1,
+  "chapter": "Biological Classification",
+  "chapterNumber": 2,
+  "chapterSlug": "biological-classification",
+  "slug": "lesson-06-fungi-ultrastructure-lifecycle",
+  "title": "Kingdom Fungi: Ultrastructure, Physiology, & Life Cycles",
+  "topic": "Fungal Cytology & Sexual Cycles",
+  "topics": [
+    "Hyphal Architecture (Coenocytic vs Septate Mycelium)",
+    "Septal Pores (Woronin Bodies & Dolipore Parenthosomes)",
+    "Chitin Biochemistry & Glycogen Storage Reserves",
+    "The Spitzenkörper & Hyphal Tip Growth",
+    "Fungal Sexual Cycle (Plasmogamy, Dikaryophase n+n, Karyogamy, Meiosis)",
+    "Clamp Connection Dynamics in Basidiomycetes"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "High-Yield Advanced",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Kingdom Fungi comprises heterotrophic, chitin-walled eukaryotes storing energy as glycogen. Hyphae may be coenocytic or septate (with Woronin bodies in Ascomycetes or dolipore parenthosomes in Basidiomycetes). Sexual cycles proceed through Plasmogamy, an extended Dikaryophase (n+n), Karyogamy, and Meiosis.",
+  "summary": "Kingdom Fungi comprises heterotrophic, chitin-walled eukaryotes storing energy as glycogen. Hyphae may be coenocytic or septate (with Woronin bodies in Ascomycetes or dolipore parenthosomes in Basidiomycetes). Sexual cycles proceed through Plasmogamy, an extended Dikaryophase (n+n), Karyogamy, and Meiosis.",
+  "conceptBreakdown": [
+    {
+      "heading": "Kingdom Fungi: Ultrastructure, Physiology, & Life Cycles",
+      "title": "Kingdom Fungi: Ultrastructure, Physiology, & Life Cycles",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary Box",
+        "takeaway": "Fungi possess chitinous walls, glycogen reserves, and absorptive nutrition. Higher fungi feature an intermediate dikaryotic stage (n+n) maintained by clamp connections in Basidiomycetes."
+      },
+      "codeSnippet": "KINGDOM FUNGI\n                                     │\n         ┌───────────────────────────┼───────────────────────────┐\n         ▼                           ▼                           ▼\n   PHYCOMYCETES                ASCOMYCETES                 BASIDIOMYCETES\n  (Lower Fungi)                (Sac Fungi)                 (Club Fungi)\n  ├── Oomycetes (Cellulose)    ├── Ascospores (8)          ├── Basidiospores (4)\n  └── Zygomycetes (Chitin)     └── Ascocarps               └── Clamp Connections",
+      "content": "Kingdom Fungi (Eumycota) comprises achlorophyllous, heterotrophic, eukaryotic spore-bearing organisms exhibiting absorptive nutrition (Saprotrophs or Parasites)."
+    },
+    {
+      "heading": "6.1 Structural Architecture & Cytology",
+      "title": "6.1 Structural Architecture & Cytology",
+      "type": "paragraph",
+      "codeSnippet": "DOLIPORE SEPTUM ARCHITECTURE\n                        \n      Parenthosome Cap\n         ┌───┐\nHyphal ═══╡   ╞═══ Hyphal\nWall      │ O │   Wall (Barrel Swelling)\n         └───┘\n      Parenthosome Cap",
+      "content": "• The Mycelium: The vegetative body consists of microscopic, tubular filaments called Hyphae. A mass of interconnected hyphae forms a Mycelium.\n- Coenocytic Hyphae: Continuous, unseptated tubes containing multiple nuclei (found in lower fungi/Phycomycetes).\n- Septate Hyphae: Hyphae divided into cell-like compartments by transverse cross-walls (septa).\n\n• Septal Pore Architecture:\n1. Simple Septum: Found in Ascomycetes; central pore regulated by membrane-bound proteinaceous organelles called Woronin Bodies, which seal the pore upon hyphal damage.\n2. Dolipore Septum: Found in Basidiomycetes; barrel-shaped swelling of the septal wall covered on both sides by a perforated membrane cap called the Parenthosome.\n\n• Cell Wall Biochemistry: Primary constituent is Chitin (a linear polymer of β-1,4-linked N-acetylglucosamine), mixed with glucans (β-1,3 and β-1,6 glucans). Cell wall lacks cellulose (except in Oomycetes).\n• Storage Carbohydrate: Excess energy stored as Glycogen and lipid droplets (oil globules), never as starch.\n• Organelle Organizers: Tip growth in hyphae is directed by a specialized apical vesicle-rich organelle called the Spitzenkörper."
+    },
+    {
+      "heading": "6.2 Fungal Reproductive Strategies & Life Cycles",
+      "title": "6.2 Fungal Reproductive Strategies & Life Cycles",
+      "type": "paragraph",
+      "codeSnippet": "STAGES OF FUNGAL SEXUAL CYCLE\n                          \n       PLASMOGAMY              DIKARYOPHASE (n + n)            KARYOGAMY\n  Fusion of Protoplasts  ──►   Two Unfused Nuclei   ──►   Fusion of Nuclei\n   (Cytoplasmic Fusion)        Coexist per Cell           (Forms Diploid Zygote 2n)\n                                                                 │\n                                                                 ▼\n                                                              MEIOSIS\n                                                        Restores Haploid State (n)",
+      "content": "Fungal reproduction proceeds through three sequential phases during the sexual cycle:\n\n1. Plasmogamy: Fusion of protoplasts from two compatible haploid parent cells without immediate nuclear fusion.\n2. Dikaryophase (n+n): In higher fungi (Ascomycetes and Basidiomycetes), plasmogamy is not immediately followed by karyogamy. Instead, an intermediate dikaryotic stage (n+n) persists, wherein each cell contains two genetically distinct haploid nuclei coexisting and dividing synchronously.\n3. Karyogamy: Fusion of the two haploid nuclei to form a diploid zygotic nucleus (2n).\n4. Meiosis: Meiotic division of the diploid zygote to restore the haploid (n) spore condition."
+    },
+    {
+      "heading": "Clamp Connection Mechanism (Basidiomycetes)",
+      "title": "Clamp Connection Mechanism (Basidiomycetes)",
+      "type": "paragraph",
+      "codeSnippet": "CLAMP CONNECTION DYNAMICS\n                       \n  Backward Loop Hook (Clamp) Forms ──► Synchronous Mitosis of Nuclei (A & B)\n                                              │\n  Nucleus A Divides into Clamp ◄──────────────┴──► Nucleus B Divides in Main Axis\n                                              │\n  Septum Forms Across Clamp & Main Axis ──► Restores (A + B) Dikaryon in Both Cells",
+      "content": "A specialized lateral hyphal bypass structure in Basidiomycetes that ensures each newly divided cell in the dikaryotic hypha receives one copy of each distinct haploid nucleus (maintains the n+n state across cell generations)."
+    }
+  ]
+}

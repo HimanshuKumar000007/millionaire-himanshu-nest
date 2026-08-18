@@ -1,0 +1,60 @@
+{
+  "id": "chem-xi-u7-c7-l04",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VII \u2014 Redox Reactions",
+  "unitNumber": 7,
+  "chapter": "Redox Reactions",
+  "chapterNumber": 7,
+  "chapterSlug": "redox-reactions",
+  "slug": "lesson-04-balancing-redox-equations-ion-electron-method",
+  "title": "Balancing Redox Equations: Ion-Electron & Oxidation Number Methods",
+  "topic": "Redox Equation Balancing",
+  "topics": [
+    "Step-by-Step Ion-Electron (Half-Reaction) Balancing Protocol",
+    "Balancing in Acidic Medium (H\u2082O for O, H\u207a for H)",
+    "Balancing in Basic Medium (Neutralization of H\u207a with OH\u207b)",
+    "Oxidation Number Method Protocol",
+    "Charge Balancing and Electron Transfer Verification"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "redox-reactions",
+  "quickSummary": "Balance atoms other than O and H, add H\u2082O for O, H\u207a for H, e\u207b for charge. In basic medium, add OH\u207b equal to H\u207a to both sides to form H\u2082O.",
+  "summary": "Master the rigorous step-by-step ion-electron half-reaction method in acidic and basic media.",
+  "conceptBreakdown": [
+    {
+      "heading": "4.1 The Half-Reaction Balancing Protocol",
+      "title": "4.1 The Half-Reaction Balancing Protocol",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "7-Step Protocol",
+        "takeaway": "Split into half-reactions \u2192 Balance main atoms \u2192 Balance O with H\u2082O \u2192 Balance H with H\u207a \u2192 (If basic: add OH\u207b) \u2192 Balance charge with e\u207b \u2192 Equalize e\u207b and add."
+      },
+      "codeSnippet": "HALF-REACTION BALANCING PROTOCOL\n                     \n   Step 1: Write unbalanced skeleton equation in ionic form.\n   Step 2: Separate into Oxidation and Reduction Half-Reactions.\n   Step 3: Balance elements OTHER than O and H in each half-reaction.\n   Step 4: Balance O atoms by adding H\u2082O; balance H atoms by adding H\u207a.\n   Step 5: For Basic Medium: Add equal number of OH\u207b ions to BOTH sides as H\u207a present.\n   Step 6: Balance charge by adding Electrons (e\u207b).\n   Step 7: Multiply half-reactions by integers to equalize e\u207b gained and lost, then ADD.",
+      "content": "The Ion-Electron (Half-Reaction) method is the most reliable method for balancing complex redox reactions in aqueous solutions:\n\n1. **Skeleton Equation**: Identify species undergoing changes in oxidation states.\n2. **Split Half-Reactions**: Write separate oxidation and reduction half-reactions.\n3. **Balance Other Elements**: Balance all atoms except $\\text{O}$ and $\\text{H}$.\n4. **Balance Oxygen & Hydrogen**:\n   - In acidic medium: Add $\\text{H}_2\\text{O}$ to balance $\\text{O}$ atoms, and $\\text{H}^+$ to balance $\\text{H}$ atoms.\n   - In basic medium: Add equal number of $\\text{OH}^-$ ions to both sides to combine with $\\text{H}^+$ into $\\text{H}_2\\text{O}$.\n5. **Balance Charge**: Add electrons ($e^-$) to the more positive side.\n6. **Equalize & Add**: Multiply by integers so electrons cancel out completely."
+    },
+    {
+      "heading": "4.2 Worked Example: Dichromate + Iron(II) in Acidic Medium",
+      "title": "4.2 Worked Example: Dichromate + Iron(II) in Acidic Medium",
+      "type": "paragraph",
+      "codeSnippet": "DICHROMATE REDOX BALANCING\n\nReduction Half-Reaction:\nCr\u2082O\u2087\u00b2\u207b + 14 H\u207a + 6e\u207b \u2192 2 Cr\u00b3\u207a + 7 H\u2082O\n\nOxidation Half-Reaction:\n6 (Fe\u00b2\u207a \u2192 Fe\u00b3\u207a + e\u207b)\n\nNet Balanced Equation:\nCr\u2082O\u2087\u00b2\u207b + 6 Fe\u00b2\u207a + 14 H\u207a \u2192 2 Cr\u00b3\u207a + 6 Fe\u00b3\u207a + 7 H\u2082O",
+      "content": "Let us balance $\\text{Cr}_2\\text{O}_7^{2-} + \\text{Fe}^{2+} \\rightarrow \\text{Cr}^{3+} + \\text{Fe}^{3+}$ in acidic medium:\n\n1. **Reduction**: $\\text{Cr}_2\\text{O}_7^{2-} \\rightarrow 2\\text{Cr}^{3+}$. Balance O: add $7\\text{H}_2\\text{O}$. Balance H: add $14\\text{H}^+$. Balance charge: add $6e^-$ to left.\n   $$\\text{Cr}_2\\text{O}_7^{2-} + 14\\text{H}^+ + 6e^- \\rightarrow 2\\text{Cr}^{3+} + 7\\text{H}_2\\text{O}$$\n2. **Oxidation**: $\\text{Fe}^{2+} \\rightarrow \\text{Fe}^{3+} + e^-$. Multiply by 6.\n3. **Summation**:\n   $$\\mathbf{\\text{Cr}_2\\text{O}_7^{2-} + 6\\text{Fe}^{2+} + 14\\text{H}^+ \\rightarrow 2\\text{Cr}^{3+} + 6\\text{Fe}^{3+} + 7\\text{H}_2\\text{O}}$$"
+    }
+  ],
+  "quickRevision": [
+    "In acidic medium: Balance O with H\u2082O and H with H\u207a.",
+    "In basic medium: Neutralize H\u207a by adding OH\u207b to both sides.",
+    "Electrons must completely cancel upon summing half-reactions.",
+    "Total charge and atom counts on both sides must be identical."
+  ],
+  "keyFormulae": [
+    "\\text{Acidic Medium: } \\text{O} \\leftrightarrow \\text{H}_2\\text{O}, \\; \\text{H} \\leftrightarrow \\text{H}^+",
+    "\\text{Basic Medium: } \\text{H}^+ + \\text{OH}^- \\rightarrow \\text{H}_2\\text{O}"
+  ]
+}

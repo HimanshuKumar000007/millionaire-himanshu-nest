@@ -1,0 +1,930 @@
+[
+  {
+    "id": "chem-bond-001",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "Born-Haber Cycle Lattice Enthalpy",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Using the Born-Haber cycle data below, calculate the Lattice Enthalpy (U) of Potassium Chloride (KCl(s)):\n\u2022 Standard Enthalpy of Formation (\u0394_f H\u00b0): -436 kJ/mol\n\u2022 Sublimation Enthalpy of Potassium (\u0394_sub H): +89 kJ/mol\n\u2022 First Ionization Enthalpy of Potassium (\u0394_i H): +418 kJ/mol\n\u2022 Bond Dissociation Enthalpy of Cl\u2082(g) (\u0394_bond H): +244 kJ/mol\n\u2022 First Electron Gain Enthalpy of Chlorine (\u0394_eg H): -349 kJ/mol",
+    "options": [
+      {
+        "id": "A",
+        "text": "U = -716 kJ/mol",
+        "isCorrect": true,
+        "explanation": "\u0394_f H\u00b0 = \u0394_sub H + \u0394_i H + (1/2)\u0394_bond H + \u0394_eg H + U \u2192 -436 = 89 + 418 + 122 - 349 + U \u2192 U = -436 - 280 = -716 kJ/mol."
+      },
+      {
+        "id": "B",
+        "text": "U = -838 kJ/mol",
+        "isCorrect": false,
+        "explanation": "Did not divide \u0394_bond H by 2."
+      },
+      {
+        "id": "C",
+        "text": "U = -618 kJ/mol",
+        "isCorrect": false,
+        "explanation": "Sign error in \u0394_eg H."
+      },
+      {
+        "id": "D",
+        "text": "U = -524 kJ/mol",
+        "isCorrect": false,
+        "explanation": "Arithmetic error."
+      }
+    ],
+    "solutionExplanation": "1. Born-Haber Cycle equation:\n   \u0394_f H\u00b0 = \u0394_sub H + \u0394_i H + 1/2 \u0394_bond H + \u0394_eg H + U\n2. Substitute the given values:\n   -436 = 89 + 418 + 1/2(244) + (-349) + U\n   -436 = 89 + 418 + 122 - 349 + U\n   -436 = 280 + U \u27f9 U = -436 - 280 = -716 kJ/mol.",
+    "keyFormulae": [
+      "\u0394_f H\u00b0 = \u0394_sub H + \u0394_i H + 1/2 \u0394_bond H + \u0394_eg H + U"
+    ],
+    "hints": [
+      "Remember to use 1/2 of Cl\u2082 bond dissociation enthalpy for 1 mole of Cl atoms."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bond-002",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "Fajans' Rules Covalent Character",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Applying Fajans\u2019 Rules, arrange the following anhydrous metal chlorides in order of INCREASING covalent character (lowest covalent to highest covalent character): LiCl, BeCl\u2082, BCl\u2083, NaCl.",
+    "options": [
+      {
+        "id": "A",
+        "text": "NaCl < LiCl < BeCl\u2082 < BCl\u2083",
+        "isCorrect": true,
+        "explanation": "Polarising power \u03a6 = z\u207a/r\u208a. Na\u207a (+1, 1.02 \u00c5) < Li\u207a (+1, 0.76 \u00c5) < Be\u00b2\u207a (+2, 0.45 \u00c5) < B\u00b3\u207a (+3, 0.27 \u00c5). Covalent character increases."
+      },
+      {
+        "id": "B",
+        "text": "BCl\u2083 < BeCl\u2082 < LiCl < NaCl",
+        "isCorrect": false,
+        "explanation": "Reversed order (ionic character order)."
+      },
+      {
+        "id": "C",
+        "text": "LiCl < NaCl < BeCl\u2082 < BCl\u2083",
+        "isCorrect": false,
+        "explanation": "NaCl is more ionic / less covalent than LiCl."
+      },
+      {
+        "id": "D",
+        "text": "BeCl\u2082 < LiCl < NaCl < BCl\u2083",
+        "isCorrect": false,
+        "explanation": "Incorrect cation charge comparison."
+      }
+    ],
+    "solutionExplanation": "Fajans' Rules state that covalent character increases with decreasing cation radius and increasing cation charge (\u03a6 = z\u207a/r\u208a):\n\u2022 Na\u207a (z=+1, r=1.02 \u00c5) has lowest charge density \u2192 Most ionic / Least covalent\n\u2022 Li\u207a (z=+1, r=0.76 \u00c5) \u2192 More covalent than NaCl\n\u2022 Be\u00b2\u207a (z=+2, r=0.45 \u00c5) \u2192 Higher charge density\n\u2022 B\u00b3\u207a (z=+3, r=0.27 \u00c5) \u2192 Highest charge density (BCl\u2083 is purely covalent molecule).\nOrder: NaCl < LiCl < BeCl\u2082 < BCl\u2083.",
+    "keyFormulae": [
+      "\u03a6 = z\u207a / r\u208a",
+      "Covalent Character \u221d \u03a6"
+    ],
+    "hints": [
+      "Higher cation charge and smaller radius produce greater anion polarization."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bond-003",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "Dipole Moment Percentage Ionic Character",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Experimental measurements show that the dipole moment of Hydrogen Fluoride (HF) is \u03bc = 1.83 D and its bond length is d = 0.917 \u00c5 = 0.917 \u00d7 10\u207b\u2078 cm. What is the percentage ionic character of the H-F bond? (1 D = 10\u207b\u00b9\u2078 esu\u00b7cm; e = 4.80 \u00d7 10\u207b\u00b9\u2070 esu)",
+    "options": [
+      {
+        "id": "A",
+        "text": "41.6%",
+        "isCorrect": true,
+        "explanation": "\u03bc_ionic = (4.80 \u00d7 10\u207b\u00b9\u2070 esu) \u00d7 (0.917 \u00d7 10\u207b\u2078 cm) = 4.40 D. % Ionic = (1.83 / 4.40) \u00d7 100 = 41.6%."
+      },
+      {
+        "id": "B",
+        "text": "58.4%",
+        "isCorrect": false,
+        "explanation": "58.4% is the percentage covalent character."
+      },
+      {
+        "id": "C",
+        "text": "85.2%",
+        "isCorrect": false,
+        "explanation": "Incorrect dipole ratio calculation."
+      },
+      {
+        "id": "D",
+        "text": "18.3%",
+        "isCorrect": false,
+        "explanation": "Incorrect units."
+      }
+    ],
+    "solutionExplanation": "1. Calculate theoretical 100% ionic dipole moment \u03bc_ionic (q = e = 4.80 \u00d7 10\u207b\u00b9\u2070 esu):\n   \u03bc_ionic = q \u00d7 d = (4.80 \u00d7 10\u207b\u00b9\u2070 esu) \u00d7 (0.917 \u00d7 10\u207b\u2078 cm) = 4.4016 \u00d7 10\u207b\u00b9\u2078 esu\u00b7cm = 4.40 D\n2. Percentage Ionic Character:\n   % Ionic Character = (\u03bc_exp / \u03bc_ionic) \u00d7 100 = (1.83 D / 4.40 D) \u00d7 100 = 41.6%.",
+    "keyFormulae": [
+      "\u03bc = q \u00d7 d",
+      "% Ionic Character = (\u03bc_exp / \u03bc_ionic) \u00d7 100"
+    ],
+    "hints": [
+      "Calculate theoretical 100% ionic dipole moment first in Debye, then divide observed dipole by theoretical dipole."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bond-004",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "VSEPR Geometry of XeF\u2082",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the Steric Number (SN), hybridization of the central Xenon atom, and 3D molecular geometry of the Xenon Difluoride (XeF\u2082) molecule according to VSEPR theory?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SN = 4; sp\u00b3; Bent / V-shaped",
+        "isCorrect": false,
+        "explanation": "Xe has 8 valence electrons, not 2."
+      },
+      {
+        "id": "B",
+        "text": "SN = 5; sp\u00b3d; Linear shape (3 equatorial lone pairs)",
+        "isCorrect": true,
+        "explanation": "SN = 1/2 [8 + 2 - 0 + 0] = 5 \u2192 sp\u00b3d. 2 bp + 3 lp. 3 equatorial lone pairs force linear F-Xe-F geometry."
+      },
+      {
+        "id": "C",
+        "text": "SN = 6; sp\u00b3d\u00b2; Square Planar",
+        "isCorrect": false,
+        "explanation": "XeF\u2084 is square planar, not XeF\u2082."
+      },
+      {
+        "id": "D",
+        "text": "SN = 5; sp\u00b3d; Trigonal Pyramidal",
+        "isCorrect": false,
+        "explanation": "Trigonal pyramidal has 1 lone pair, not 3."
+      }
+    ],
+    "solutionExplanation": "1. Steric number formula for XeF\u2082:\n   SN = 1/2 [V + M - C + A] = 1/2 [8 + 2 - 0 + 0] = 5 \u27f9 sp\u00b3d Hybridization.\n2. Bond pairs = 2; Lone pairs = 5 - 2 = 3 lone pairs.\n3. According to Bent's Rule and VSEPR, the 3 lone pairs occupy equatorial positions (120\u00b0) to minimize repulsions. The 2 Fluorine atoms occupy axial positions (180\u00b0).\n4. Observed molecular shape is Linear (F-Xe-F = 180\u00b0).",
+    "keyFormulae": [
+      "SN = 1/2 [V + M - C + A] = 5",
+      "Shape: Linear (2 bp + 3 lp)"
+    ],
+    "hints": [
+      "Compute steric number for Xe with 8 valence electrons and 2 monovalent Fluorines."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bond-005",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "PCl\u2085 Axial vs Equatorial Bonds",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "In the Phosphorus Pentachloride (PCl\u2085) molecule (sp\u00b3d hybridization, Trigonal Bipyramidal geometry), why are the two axial P-Cl bonds (2.14 \u00c5) significantly longer and weaker than the three equatorial P-Cl bonds (2.02 \u00c5)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Axial bonds contain 50% s-character while equatorial bonds contain 0% s-character.",
+        "isCorrect": false,
+        "explanation": "Axial bonds contain 0% s-character (pd); equatorial contain 33.3% s-character (sp\u00b2)."
+      },
+      {
+        "id": "B",
+        "text": "Axial bond pairs experience greater electrostatic repulsion from three equatorial bond pairs at 90\u00b0 angles, compared to equatorial bond pairs which experience repulsions at 120\u00b0.",
+        "isCorrect": true,
+        "explanation": "Each axial pair suffers 3 90\u00b0 repulsions, whereas equatorial pairs suffer only 2 90\u00b0 repulsions."
+      },
+      {
+        "id": "C",
+        "text": "Equatorial chlorine atoms undergo p\u03c0-d\u03c0 back-bonding.",
+        "isCorrect": false,
+        "explanation": "No back-bonding in PCl\u2085."
+      },
+      {
+        "id": "D",
+        "text": "Axial bonds are formed by d_x\u00b2-y\u00b2 orbitals.",
+        "isCorrect": false,
+        "explanation": "Axial bonds use d_z\u00b2 orbitals."
+      }
+    ],
+    "solutionExplanation": "In TBP (sp\u00b3d) geometry, each axial bond pair suffers three 90\u00b0 repulsions from equatorial bond pairs, whereas equatorial pairs suffer only two 90\u00b0 repulsions (and two 120\u00b0 repulsions). To minimize this higher axial repulsion, the axial P-Cl bonds elongate (2.14 \u00c5 vs 2.02 \u00c5), making them weaker and more reactive.",
+    "keyFormulae": [
+      "TBP: Axial repulsion (three 90\u00b0 repulsions) > Equatorial repulsion (two 90\u00b0 repulsions)"
+    ],
+    "hints": [
+      "Count the number of 90\u00b0 repulsions experienced by an axial bond pair versus an equatorial bond pair."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bond-006",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "MOT Superoxide Anion O\u2082\u207b",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "According to Molecular Orbital Theory (MOT), what is the Molecular Orbital electronic configuration and Bond Order of the superoxide anion (O\u2082\u207b with 17 total e\u207b)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "BO = 2.5; Paramagnetic",
+        "isCorrect": false,
+        "explanation": "BO = 2.5 corresponds to O\u2082\u207a."
+      },
+      {
+        "id": "B",
+        "text": "BO = 1.5; Paramagnetic (1 unpaired e\u207b in \u03c0* 2p)",
+        "isCorrect": true,
+        "explanation": "N_b = 10, N_a = 7 \u2192 BO = (10 - 7)/2 = 1.5. 1 unpaired electron in \u03c0* 2p."
+      },
+      {
+        "id": "C",
+        "text": "BO = 1.0; Diamagnetic",
+        "isCorrect": false,
+        "explanation": "BO = 1.0 corresponds to peroxide O\u2082\u00b2\u207b."
+      },
+      {
+        "id": "D",
+        "text": "BO = 2.0; Diamagnetic",
+        "isCorrect": false,
+        "explanation": "BO = 2.0 corresponds to O\u2082."
+      }
+    ],
+    "solutionExplanation": "1. For O\u2082\u207b (17 e\u207b), Z > 7 MO energy level order applies:\n   \u03c3 1s\u00b2 \u03c3* 1s\u00b2 \u03c3 2s\u00b2 \u03c3* 2s\u00b2 \u03c3 2p_z\u00b2 (\u03c0 2p_x\u00b2 = \u03c0 2p_y\u00b2) (\u03c0* 2p_x\u00b2 = \u03c0* 2p_y\u00b9)\n2. N_b = 10 bonding e\u207b; N_a = 7 antibonding e\u207b.\n3. Bond Order BO = (10 - 7) / 2 = 1.5.\n4. Contains 1 unpaired electron in \u03c0* 2p_y \u27f9 Paramagnetic.",
+    "keyFormulae": [
+      "BO = (N_b - N_a) / 2",
+      "O\u2082\u207b (17 e\u207b): BO = 1.5 (Paramagnetic)"
+    ],
+    "hints": [
+      "Count bonding and antibonding electrons in the 17-electron configuration."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bond-007",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "MOT N\u2082\u207a vs N\u2082\u207b Comparison",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Which of the following species possesses a fractional bond order of 2.5 and exhibits PARAMAGNETISM with a single unpaired electron in a \u03c3 2p_z bonding molecular orbital?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O\u2082\u207a (15 e\u207b)",
+        "isCorrect": false,
+        "explanation": "In O\u2082\u207a, the unpaired electron lies in an antibonding \u03c0* 2p orbital."
+      },
+      {
+        "id": "B",
+        "text": "N\u2082\u207a (13 e\u207b)",
+        "isCorrect": true,
+        "explanation": "For N\u2082\u207a (13 e\u207b, Z \u2264 7), configuration is ... (\u03c0 2p_x = \u03c0 2p_y)\u2074 (\u03c3 2p_z)\u00b9. BO = 2.5. Unpaired electron is in bonding \u03c3 2p_z."
+      },
+      {
+        "id": "C",
+        "text": "N\u2082\u207b (13 e\u207b)",
+        "isCorrect": false,
+        "explanation": "In N\u2082\u207b (15 e\u207b), the unpaired electron lies in an antibonding \u03c0* 2p orbital."
+      },
+      {
+        "id": "D",
+        "text": "C\u2082\u207a (11 e\u207b)",
+        "isCorrect": false,
+        "explanation": "BO for C\u2082\u207a is 1.5."
+      }
+    ],
+    "solutionExplanation": "1. For N\u2082\u207a (13 e\u207b), Z \u2264 7 MO ordering applies (s-p mixing):\n   \u03c3 1s\u00b2 \u03c3* 1s\u00b2 \u03c3 2s\u00b2 \u03c3* 2s\u00b2 (\u03c0 2p_x\u00b2 = \u03c0 2p_y\u00b2) (\u03c3 2p_z)\u00b9\n2. N_b = 9, N_a = 4 \u27f9 BO = (9 - 4)/2 = 2.5.\n3. The single unpaired electron resides in the bonding \u03c3 2p_z MO.\n(Note: N\u2082\u207b also has BO = 2.5, but its unpaired electron lies in an antibonding \u03c0* 2p orbital).",
+    "keyFormulae": [
+      "N\u2082\u207a: (\u03c0 2p_x = \u03c0 2p_y)\u2074 (\u03c3 2p_z)\u00b9 \u2192 BO = 2.5"
+    ],
+    "hints": [
+      "Check which species with 13 electrons has its last electron in \u03c3 2p_z due to s-p mixing."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bond-008",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "Nitrophenol Hydrogen Bonding",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Why is o-Nitrophenol steam-volatile with a significantly lower boiling point (214\u00b0C) than its structural isomer p-Nitrophenol (279\u00b0C)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "o-Nitrophenol forms extensive intermolecular hydrogen bonds with water.",
+        "isCorrect": false,
+        "explanation": "p-Nitrophenol forms intermolecular H-bonds."
+      },
+      {
+        "id": "B",
+        "text": "o-Nitrophenol undergoes Intramolecular Hydrogen Bonding (chelation) within the single molecule, reducing intermolecular associations.",
+        "isCorrect": true,
+        "explanation": "Intramolecular H-bonding prevents association with neighboring molecules, lowering boiling point and enabling steam distillation."
+      },
+      {
+        "id": "C",
+        "text": "p-Nitrophenol possesses a zero dipole moment.",
+        "isCorrect": false,
+        "explanation": "p-Nitrophenol is polar."
+      },
+      {
+        "id": "D",
+        "text": "o-Nitrophenol contains an ionic sp\u00b3d\u00b3 bond.",
+        "isCorrect": false,
+        "explanation": "Nonsensical chemical statement."
+      }
+    ],
+    "solutionExplanation": "In o-Nitrophenol, the proximity of the -OH and -NO\u2082 groups allows the formation of an Intramolecular Hydrogen Bond (6-membered chelate ring) within the single molecule. This prevents the molecule from forming H-bonds with adjacent molecules. In p-Nitrophenol, the groups are far apart, forcing extensive Intermolecular Hydrogen Bonds between adjacent molecules, raising its boiling point and rendering it non-steam volatile.",
+    "keyFormulae": [
+      "Intramolecular H-Bond \u27f9 Chelate Ring \u27f9 Low BP & Steam Volatility"
+    ],
+    "hints": [
+      "Look at the spatial proximity of -OH and -NO\u2082 groups in the ortho position."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bond-009",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "Formal Charge in Ozone",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Using Formal Charge (FC = V - N - B/2), calculate the formal charge on the central Ozone oxygen atom (O(2)) in the predominant resonance structure of O\u2083 (O(1) = O(2) - O(3)):",
+    "options": [
+      {
+        "id": "A",
+        "text": "FC = 0",
+        "isCorrect": false,
+        "explanation": "FC on double-bonded O(1) is 0."
+      },
+      {
+        "id": "B",
+        "text": "FC = +1",
+        "isCorrect": true,
+        "explanation": "Central O(2) has V = 6, N = 2, B = 6 (3 bonds). FC = 6 - 2 - (6/2) = 6 - 2 - 3 = +1."
+      },
+      {
+        "id": "C",
+        "text": "FC = -1",
+        "isCorrect": false,
+        "explanation": "FC on single-bonded O(3) is -1."
+      },
+      {
+        "id": "D",
+        "text": "FC = +2",
+        "isCorrect": false,
+        "explanation": "Incorrect formal charge calculation."
+      }
+    ],
+    "solutionExplanation": "1. Lewis structure of O\u2083: Central oxygen (O(2)) forms a double bond with O(1) (2 shared pairs) and a dative single bond with O(3) (1 shared pair), retaining 1 lone pair (2 non-bonding e\u207b).\n2. For central O(2):\n   \u2022 Valence e\u207b (V) = 6\n   \u2022 Non-bonding e\u207b (N) = 2\n   \u2022 Bonding e\u207b (B) = 6 (3 bonds = 6 e\u207b)\n3. Formal Charge:\n   FC = 6 - 2 - 6/2 = 6 - 2 - 3 = +1.",
+    "keyFormulae": [
+      "FC = V - N - (B / 2) = 6 - 2 - 3 = +1"
+    ],
+    "hints": [
+      "The central oxygen has 1 lone pair and forms 3 total covalent bonds (1 double, 1 single)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bond-010",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "Participating d-Orbitals in Hybridization",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Which d-orbital participates in dsp\u00b2 hybridization to form a Square Planar complex like [Ni(CN)\u2084]\u00b2\u207b?",
+    "options": [
+      {
+        "id": "A",
+        "text": "d_z\u00b2",
+        "isCorrect": false,
+        "explanation": "d_z\u00b2 participates in sp\u00b3d hybridization."
+      },
+      {
+        "id": "B",
+        "text": "d_xy",
+        "isCorrect": false,
+        "explanation": "d_xy lobes point between the Cartesian axes."
+      },
+      {
+        "id": "C",
+        "text": "d_x\u00b2-y\u00b2",
+        "isCorrect": true,
+        "explanation": "dsp\u00b2 involves d_x\u00b2-y\u00b2 + s + p_x + p_y along the Cartesian x and y axes."
+      },
+      {
+        "id": "D",
+        "text": "d_xz",
+        "isCorrect": false,
+        "explanation": "d_xz is non-axial."
+      }
+    ],
+    "solutionExplanation": "Square planar geometry lies in the xy-plane with 4 ligands approaching directly along the Cartesian x and y axes. dsp\u00b2 hybridization involves d_x\u00b2-y\u00b2 + s + p_x + p_y. The d_x\u00b2-y\u00b2 orbital has its lobes pointing directly along the x and y axes, maximizing orbital overlap.",
+    "keyFormulae": [
+      "dsp\u00b2 = d_x\u00b2-y\u00b2 + s + p_x + p_y"
+    ],
+    "hints": [
+      "Square planar ligands lie on the x and y axes."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bond-011",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "sp\u00b3d Linear Species",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following species contain a central atom with sp\u00b3d hybridization and a LINEAR molecular shape (possessing 3 equatorial lone pairs)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Xenon Difluoride (XeF\u2082)",
+        "isCorrect": true,
+        "explanation": "SN = 5, 2 bp + 3 lp \u2192 Linear."
+      },
+      {
+        "id": "B",
+        "text": "Triiodide Anion (I\u2083\u207b)",
+        "isCorrect": true,
+        "explanation": "SN = 5, 2 bp + 3 lp \u2192 Linear."
+      },
+      {
+        "id": "C",
+        "text": "Dichloroidate Anion (ICl\u2082\u207b)",
+        "isCorrect": true,
+        "explanation": "SN = 5, 2 bp + 3 lp \u2192 Linear."
+      },
+      {
+        "id": "D",
+        "text": "Sulfur Tetrafluoride (SF\u2084)",
+        "isCorrect": false,
+        "explanation": "SF\u2084 has 4 bp + 1 lp = Seesaw."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: XeF\u2082, I\u2083\u207b, and ICl\u2082\u207b all have SN = 5 (sp\u00b3d hybridization) with 2 bp + 3 lp. According to Bent's Rule, the 3 lone pairs occupy equatorial positions (120\u00b0), forcing the 2 halogen atoms into axial positions (180\u00b0), yielding a Linear shape.\n\u2022 D is incorrect: SF\u2084 has 4 bp + 1 lp = Seesaw.",
+    "keyFormulae": [
+      "Linear sp\u00b3d species: XeF\u2082, I\u2083\u207b, ICl\u2082\u207b (2 bp + 3 lp)"
+    ],
+    "hints": [
+      "Look for central atoms with 2 bonds and 3 lone pairs."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-bond-012",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "MOT Homonuclear Diatomics",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding Molecular Orbital Theory (MOT) and homonuclear diatomic molecules: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "For N\u2082 (Z \u2264 7), s-p mixing pushes the \u03c3 2p_z MO higher in energy than the degenerate \u03c0 2p_x = \u03c0 2p_y MOs",
+        "isCorrect": true,
+        "explanation": "Standard s-p mixing behavior for Z \u2264 7."
+      },
+      {
+        "id": "B",
+        "text": "For O\u2082 (Z > 7), no significant s-p mixing occurs, so \u03c3 2p_z lies lower in energy than \u03c0 2p_x,y",
+        "isCorrect": true,
+        "explanation": "Standard ordering for Z > 7."
+      },
+      {
+        "id": "C",
+        "text": "C\u2082 contains two \u03c0-bonds and zero \u03c3-bonds in its ground state because its 4 valence electrons occupy (\u03c0 2p_x)\u00b2 (\u03c0 2p_y)\u00b2",
+        "isCorrect": true,
+        "explanation": "C\u2082 double bond consists purely of two \u03c0-bonds."
+      },
+      {
+        "id": "D",
+        "text": "B\u2082 is diamagnetic because all its 10 electrons are paired in bonding MOs",
+        "isCorrect": false,
+        "explanation": "B\u2082 has configuration ... (\u03c0 2p_x)\u00b9 (\u03c0 2p_y)\u00b9 with 2 unpaired electrons (Paramagnetic)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct MOT facts.\n\u2022 D is incorrect: B\u2082 (10 e\u207b) has configuration ... (\u03c0 2p_x)\u00b9 (\u03c0 2p_y)\u00b9, possessing 2 unpaired electrons; thus B\u2082 is PARAMAGNETIC.",
+    "keyFormulae": [
+      "Z \u2264 7: \u03c0 2p_x,y < \u03c3 2p_z",
+      "C\u2082 double bond = 2 \u03c0-bonds"
+    ],
+    "hints": [
+      "Recall Hund's rule for filling degenerate \u03c0 2p orbitals in B\u2082."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-bond-013",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "Fajans' Rules Factors",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "According to Fajans' Rules, which of the following factors INCREASE the degree of Covalent Character in an ionic bond? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Small cation radius (r\u208a)",
+        "isCorrect": true,
+        "explanation": "Increases polarising power."
+      },
+      {
+        "id": "B",
+        "text": "Large anion radius (r\u208b)",
+        "isCorrect": true,
+        "explanation": "Increases polarisability."
+      },
+      {
+        "id": "C",
+        "text": "High positive charge on the cation (z\u207a)",
+        "isCorrect": true,
+        "explanation": "Increases distortion field."
+      },
+      {
+        "id": "D",
+        "text": "Cation possessing a Pseudo-Noble Gas electronic configuration ((n-1)d\u00b9\u2070 ns\u2070)",
+        "isCorrect": true,
+        "explanation": "Poor d-shielding enhances polarising power."
+      }
+    ],
+    "solutionExplanation": "All four factors increase polarization (high polarising power of cation + high polarisability of anion), maximizing covalent character in the bond.",
+    "keyFormulae": [
+      "Covalent Character \u221d \u03a6 = z\u207a / r\u208a",
+      "Covalent Character \u221d r\u208b"
+    ],
+    "hints": [
+      "All conditions that increase electron cloud distortion favor covalency."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-bond-014",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "Net Dipole Moments",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following molecules possess a NET DIPOLE MOMENT (\u03bc_net > 0) due to non-canceling bond/lone-pair vector dipoles? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Water (H\u2082O)",
+        "isCorrect": true,
+        "explanation": "Bent shape: \u03bc = 1.85 D."
+      },
+      {
+        "id": "B",
+        "text": "Ammonia (NH\u2083)",
+        "isCorrect": true,
+        "explanation": "Trigonal pyramidal: \u03bc = 1.47 D."
+      },
+      {
+        "id": "C",
+        "text": "Sulfur Dioxide (SO\u2082)",
+        "isCorrect": true,
+        "explanation": "Bent shape: \u03bc = 1.62 D."
+      },
+      {
+        "id": "D",
+        "text": "Carbon Tetrafluoride (CF\u2084)",
+        "isCorrect": false,
+        "explanation": "Symmetric regular tetrahedron: \u03bc = 0."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: H\u2082O (bent, \u03bc=1.85 D), NH\u2083 (pyramidal, \u03bc=1.47 D), and SO\u2082 (bent, \u03bc=1.62 D) have asymmetric non-canceling dipole vectors.\n\u2022 D is incorrect: CF\u2084 is a symmetrical regular tetrahedron (sp\u00b3, \u03bc=0); its four C-F bond dipoles cancel completely.",
+    "keyFormulae": [
+      "\u03bc_net > 0 for H\u2082O, NH\u2083, SO\u2082"
+    ],
+    "hints": [
+      "Look for asymmetric geometries with non-zero resultant dipole vectors."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-bond-015",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "Hydrogen Bonding Effects",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding Hydrogen Bonding and its physical consequences: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intermolecular hydrogen bonding elevates boiling points, surface tension, and viscosity",
+        "isCorrect": true,
+        "explanation": "Molecules aggregate in liquid state."
+      },
+      {
+        "id": "B",
+        "text": "Intramolecular hydrogen bonding in o-nitrophenol forms a chelate ring, lowering its boiling point relative to p-nitrophenol",
+        "isCorrect": true,
+        "explanation": "Prevents intermolecular association."
+      },
+      {
+        "id": "C",
+        "text": "Ice has a lower density than liquid water at 0\u00b0C due to a 3D open-cage tetrahedral hydrogen-bonded crystal lattice",
+        "isCorrect": true,
+        "explanation": "Open cages create empty space."
+      },
+      {
+        "id": "D",
+        "text": "Hydrogen bonds are covalent bonds formed by sharing d-electrons between hydrogen and metals",
+        "isCorrect": false,
+        "explanation": "H-bonds are non-covalent electrostatic dipole-dipole attractions with F, O, N."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Intermolecular H-bonds raise boiling points; intramolecular H-bonds create chelate rings making compounds steam-volatile; ice has an open-cage structure making it less dense than water.\n\u2022 D is incorrect: H-bonds are non-covalent electrostatic dipole-dipole attractions involving hydrogen and highly electronegative small atoms (F, O, N).",
+    "keyFormulae": [
+      "Intermolecular H-bond \u27f9 High BP",
+      "Intramolecular H-bond \u27f9 Low BP"
+    ],
+    "hints": [
+      "Hydrogen bonding is electrostatic, not covalent."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-bond-016",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "Bent Shapes from SN 4",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following chemical species have a Steric Number SN = 4 and possess a BENT / ANGULAR molecular shape? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Water (H\u2082O)",
+        "isCorrect": true,
+        "explanation": "SN = 4 (sp\u00b3), 2 bp + 2 lp."
+      },
+      {
+        "id": "B",
+        "text": "Sulfur Dichloride (SCl\u2082)",
+        "isCorrect": true,
+        "explanation": "SN = 4 (sp\u00b3), 2 bp + 2 lp."
+      },
+      {
+        "id": "C",
+        "text": "Nitrogen Dioxide Anion (NO\u2082\u207b)",
+        "isCorrect": false,
+        "explanation": "NO\u2082\u207b has SN = 3 (sp\u00b2), 2 bp + 1 lp."
+      },
+      {
+        "id": "D",
+        "text": "Ozone (O\u2083)",
+        "isCorrect": false,
+        "explanation": "O\u2083 has SN = 3 (sp\u00b2), 2 bp + 1 lp."
+      }
+    ],
+    "solutionExplanation": "\u2022 A and B are correct: H\u2082O and SCl\u2082 both have SN = 4 (sp\u00b3) with 2 bp + 2 lp, yielding a Bent/Angular shape (104.5\u00b0).\n\u2022 C and D are incorrect: NO\u2082\u207b and O\u2083 have SN = 3 (sp\u00b2) with 2 bp + 1 lp (Bent shape derived from trigonal planar, not tetrahedral).",
+    "keyFormulae": [
+      "SN = 4, 2 bp + 2 lp \u27f9 Bent (H\u2082O, SCl\u2082)"
+    ],
+    "hints": [
+      "Count the steric number (bp + lp) on the central atom."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-bond-017",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "Oxygen Series MOT Properties",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding the stability, bond order, and magnetic properties of the Oxygen species series (O\u2082\u207a, O\u2082, O\u2082\u207b, O\u2082\u00b2\u207b): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "O\u2082\u207a has the highest bond order (BO = 2.5) and shortest bond length",
+        "isCorrect": true,
+        "explanation": "BO = 2.5."
+      },
+      {
+        "id": "B",
+        "text": "O\u2082\u00b2\u207b (peroxide ion) has the lowest bond order (BO = 1.0) and is DIAMAGNETIC",
+        "isCorrect": true,
+        "explanation": "BO = 1.0, all electrons paired."
+      },
+      {
+        "id": "C",
+        "text": "Both O\u2082 (BO = 2.0) and O\u2082\u207b (BO = 1.5) are PARAMAGNETIC",
+        "isCorrect": true,
+        "explanation": "O\u2082 has 2 unpaired e\u207b; O\u2082\u207b has 1 unpaired e\u207b."
+      },
+      {
+        "id": "D",
+        "text": "The bond dissociation energy order is: O\u2082\u00b2\u207b > O\u2082\u207b > O\u2082 > O\u2082\u207a",
+        "isCorrect": false,
+        "explanation": "Bond energy is directly proportional to BO: O\u2082\u207a > O\u2082 > O\u2082\u207b > O\u2082\u00b2\u207b."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: O\u2082\u207a (BO=2.5), O\u2082 (BO=2.0, 2 unpaired e\u207b), O\u2082\u207b (BO=1.5, 1 unpaired e\u207b), O\u2082\u00b2\u207b (BO=1.0, 0 unpaired e\u207b).\n\u2022 D is incorrect: Bond dissociation energy is directly proportional to BO. Correct order: O\u2082\u207a > O\u2082 > O\u2082\u207b > O\u2082\u00b2\u207b.",
+    "keyFormulae": [
+      "BO: O\u2082\u207a (2.5) > O\u2082 (2.0) > O\u2082\u207b (1.5) > O\u2082\u00b2\u207b (1.0)"
+    ],
+    "hints": [
+      "Higher bond order means stronger bond and shorter bond length."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-bond-018",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "Bent's Rule Applications",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "According to Bent's Rule, which of the following statements regarding trigonal bipyramidal (sp\u00b3d) molecules are TRUE? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "More electronegative fluorine atoms prefer axial positions in PCl\u2083F\u2082",
+        "isCorrect": true,
+        "explanation": "Axial positions have 0% s-character."
+      },
+      {
+        "id": "B",
+        "text": "Lone pairs of electrons prefer equatorial positions in SF\u2084 and ClF\u2083",
+        "isCorrect": true,
+        "explanation": "Equatorial positions have 33.3% s-character."
+      },
+      {
+        "id": "C",
+        "text": "Multiple bonds (P=O) prefer equatorial positions in POCl\u2083",
+        "isCorrect": true,
+        "explanation": "Multiple bonds prefer high s-character."
+      },
+      {
+        "id": "D",
+        "text": "Axial hybrid orbitals are formed by sp\u00b2 mixing, while equatorial orbitals are formed by pd mixing",
+        "isCorrect": false,
+        "explanation": "Equatorial = sp\u00b2; Axial = pd."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Bent's rule states electronegative atoms prefer axial sites (pd, 0% s), while lone pairs and multiple bonds prefer equatorial sites (sp\u00b2, 33.3% s).\n\u2022 D is incorrect: Equatorial orbitals are sp\u00b2 (33.3% s); Axial orbitals are pd (0% s).",
+    "keyFormulae": [
+      "Bent's Rule: Axial = pd (0% s), Equatorial = sp\u00b2 (33.3% s)"
+    ],
+    "hints": [
+      "Equatorial orbitals have higher s-character; axial orbitals have zero s-character."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-bond-019",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "Octet Rule Exceptions",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following molecules / ions violate the Classical Octet Rule? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sulfur Hexafluoride (SF\u2086 - Hypervalent, 12 e\u207b around S)",
+        "isCorrect": true,
+        "explanation": "Expanded octet."
+      },
+      {
+        "id": "B",
+        "text": "Boron Trifluoride (BF\u2083 - Hypovalent, 6 e\u207b around B)",
+        "isCorrect": true,
+        "explanation": "Incomplete octet."
+      },
+      {
+        "id": "C",
+        "text": "Nitric Oxide (NO - Odd-electron molecule, 11 valence e\u207b)",
+        "isCorrect": true,
+        "explanation": "Odd-electron molecule."
+      },
+      {
+        "id": "D",
+        "text": "Methane (CH\u2084 - Octet satisfied, 8 e\u207b around C)",
+        "isCorrect": false,
+        "explanation": "CH\u2084 has exactly 8 valence electrons."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: SF\u2086 (expanded octet/hypervalent), BF\u2083 (incomplete octet/hypovalent), and NO (odd-electron) are classic exceptions to the Octet Rule.\n\u2022 D is incorrect: CH\u2084 perfectly satisfies the octet rule (8 e\u207b).",
+    "keyFormulae": [
+      "Exceptions: Hypervalent (SF\u2086), Hypovalent (BF\u2083), Odd-electron (NO)"
+    ],
+    "hints": [
+      "Identify molecules with fewer than 8, greater than 8, or odd numbers of valence electrons."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-bond-020",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding and Molecular Structure",
+    "subtopic": "Sigma vs Pi Bonds",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements contrasting Sigma (\u03c3) and Pi (\u03c0) covalent bonds: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "A \u03c3-bond is formed by axial head-on orbital overlap along the internuclear axis",
+        "isCorrect": true,
+        "explanation": "Axial overlap."
+      },
+      {
+        "id": "B",
+        "text": "A \u03c0-bond is formed by lateral sideways orbital overlap perpendicular to the internuclear axis",
+        "isCorrect": true,
+        "explanation": "Lateral overlap."
+      },
+      {
+        "id": "C",
+        "text": "Free rotation of atoms is permitted around a single \u03c3-bond, but restricted around a double bond (\u03c3 + \u03c0)",
+        "isCorrect": true,
+        "explanation": "\u03c0-bonds prevent free rotation."
+      },
+      {
+        "id": "D",
+        "text": "A \u03c0-bond can exist independently without an underlying \u03c3-bond in stable isolated molecules",
+        "isCorrect": false,
+        "explanation": "Standard VBT requires a foundational \u03c3-bond before \u03c0-overlap can occur."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: \u03c3-bonds are axial, \u03c0-bonds are lateral, and \u03c0-bonds restrict free rotation (causing cis-trans isomerism).\n\u2022 D is incorrect: In almost all molecules, a \u03c0-bond forms only after a foundational \u03c3-bond is already established between two atoms.",
+    "keyFormulae": [
+      "\u03c3 = Axial overlap (stronger)",
+      "\u03c0 = Lateral overlap (restricts rotation)"
+    ],
+    "hints": [
+      "Recall that single bonds are sigma bonds; double bonds contain one sigma and one pi bond."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

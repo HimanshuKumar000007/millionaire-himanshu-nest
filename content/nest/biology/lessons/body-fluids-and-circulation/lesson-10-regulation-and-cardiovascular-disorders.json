@@ -1,0 +1,35 @@
+{
+  "id": "bio-xi-u5-c15-l10",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Body Fluids and Circulation",
+  "chapterNumber": 15,
+  "chapterSlug": "body-fluids-and-circulation",
+  "slug": "lesson-10-regulation-and-cardiovascular-disorders",
+  "title": "Regulation of Cardiac Activity & Circulatory Pathophysiology",
+  "topic": "Neural-Endocrine Control & Clinical Pathology",
+  "order": 10,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Autonomic (Sympathetic vs Vagus nerve) and endocrine (Adrenaline, Thyroxine) regulation of heart rate and stroke volume, alongside clinical pathology of Hypertension, Atherosclerosis, Angina Pectoris, Myocardial Infarction, Heart Failure, and Cardiac Arrest.",
+  "summary": "Autonomic (Sympathetic vs Vagus nerve) and endocrine (Adrenaline, Thyroxine) regulation of heart rate and stroke volume, alongside clinical pathology of Hypertension, Atherosclerosis, Angina Pectoris, Myocardial Infarction, Heart Failure, and Cardiac Arrest.",
+  "conceptBreakdown": [
+    {
+      "heading": "Regulation of Cardiac Activity & Circulatory Pathophysiology",
+      "title": "Regulation of Cardiac Activity & Circulatory Pathophysiology",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Cardiovascular center in Medulla Oblongata: Sympathetic nerves (Noradrenaline) increase HR/CO; Parasympathetic (Vagus, Acetylcholine) decreases HR. CAD/Atherosclerosis narrows arteries; Infarction is muscle death; Heart failure is reduced pumping."
+      },
+      "codeSnippet": "NEURO-ENDOCRINE CARDIA CONTROL\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n  AUTONOMIC NERVOUS SYSTEM (ANS)                           ENDOCRINE HORMONES\n  Center: **Medulla Oblongata**                           ├── Adrenal Medullary Hormones:\n  ├── Sympathetic Nerves (Noradrenaline)                  │   **Adrenaline & Noradrenaline**\n  │   ──► INCREASES HR, SV, and Cardiac Output            │   ──► Increases HR, contractility, & CO\n  └── Parasympathetic / Vagus Nerve (Acetylcholine)       └── Thyroxine ($\\text{T}_4$):\n      ──► DECREASES HR, conduction, & CO                       ──► Increases heart rate & sensitivity",
+      "content": "Cardiac activity is regulated intrinsically by nodal tissue (**Myogenic Autorhythmicity**), but modified by neural and endocrine systems.\n\n### 9.1 Pathophysiology of Cardiovascular Disorders\n\n| Circulatory Disorder | Etiology & Pathological Mechanism | Clinical & Diagnostic Manifestations |\n| :--- | :--- | :--- |\n| **Hypertension (High Blood Pressure)** | Persistent elevation of systemic arterial blood pressure above normal physiological levels ($>140/90\\text{ mmHg}$) | Systolic $>140\\text{ mmHg}$ or Diastolic $>90\\text{ mmHg}$ ($120/80$ is normal). Leads to heart disease, renal damage, and stroke |\n| **Coronary Artery Disease (CAD) / Atherosclerosis** | Deposition of **calcium, fat, cholesterol, and fibrous tissue** in the tunica intima of coronary arteries | Narrows arterial lumen, restricting blood flow to the myocardium; main cause of ischemia |\n| **Angina Pectoris** | Transient myocardial ischemia resulting from inadequate blood flow through stenotic coronary arteries | Acute, crushing substernal chest pain radiating to left arm; triggered by exertion, relieved by rest or nitroglycerin |\n| **Myocardial Infarction (Heart Attack)** | Sudden ischemic necrosis/death of a region of myocardium due to complete thrombotic occlusion of a coronary artery | Severe, persistent chest pain, elevated cardiac troponins ($\\text{cTnT / cTnI}$), and **ST-segment elevation** on ECG |\n| **Heart Failure (Congestive)** | Inability of the heart to pump blood effectively to meet metabolic demands of tissues | Main symptom is **lung congestion** (pulmonary edema) in left-sided failure; peripheral edema in right-sided failure |\n| **Cardiac Arrest** | Complete cessation of cardiac electrical and mechanical activity | Heart stops beating entirely; zero cardiac output; loss of consciousness |"
+    }
+  ]
+}

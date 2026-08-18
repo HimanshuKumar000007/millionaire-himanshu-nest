@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u9-c9-l02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit IX — Biotechnology",
+  "unitNumber": 9,
+  "chapter": "Biotechnology: Principles and Processes",
+  "chapterNumber": 9,
+  "chapterSlug": "biotechnology-principles-and-processes",
+  "slug": "lesson-02-restriction-endonucleases-nomenclature-and-palindromes",
+  "title": "Restriction Endonucleases: Nomenclature & Palindromes",
+  "topic": "Exonucleases vs Endonucleases, Hind II, Eco RI Nomenclature, & Sticky vs Blunt Ends",
+  "order": 2,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Restriction enzymes (molecular scissors): Exonucleases cut outer ends; Endonucleases cleave internal phosphodiester bonds at specific palindromic recognition sequences. First restriction enzyme: Hind II (1963, Haemophilus influenzae, 6-bp palindrome). Eco RI nomenclature (Escherichia coli RY 13, 1st enzyme). Sticky overhangs (Eco RI: 5'-G|AATTC-3') vs Blunt ends (Sma I: 5'-CCC|GGG-3').",
+  "summary": "Restriction enzymes (molecular scissors): Exonucleases cut outer ends; Endonucleases cleave internal phosphodiester bonds at specific palindromic recognition sequences. First restriction enzyme: Hind II (1963, Haemophilus influenzae, 6-bp palindrome). Eco RI nomenclature (Escherichia coli RY 13, 1st enzyme). Sticky overhangs (Eco RI: 5'-G|AATTC-3') vs Blunt ends (Sma I: 5'-CCC|GGG-3').",
+  "conceptBreakdown": [
+    {
+      "heading": "Restriction Endonucleases: Discovery, Nomenclature & Cleavage",
+      "title": "Restriction Endonucleases: Discovery, Nomenclature & Cleavage",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Restriction endonucleases function as molecular scissors, cutting internal phosphodiester bonds at specific palindromic sequences. Hind II was the first isolated restriction enzyme. Cleavage creates either cohesive sticky ends (staggered cut) or blunt ends (central cut)."
+      },
+      "codeSnippet": "RESTRICTION ENDONUCLEASES\n                                       │\n     ┌─────────────────────────────────┴─────────────────────────────────┐\n     ▼                                                                   ▼\n   RESTRICTION EXONUCLEASES                                 RESTRICTION ENDONUCLEASES\n   Cleave nucleotides from the EXTREME ENDS                 Cleave internal phosphodiester bonds at\n   of a DNA molecule (5' or 3' terminal).                   specific Palindromic Recognition Sequences.",
+      "content": "### 2.1 Discovery & Biological Function\n- **Innate Bacterial Defense**: Discovered by W. Arber, H. Smith, and D. Nathans (1978 Nobel Prize) in bacteria, where restriction enzymes cleave incoming foreign bacteriophage DNA, while host bacterial DNA is protected by site-specific methylation.\n- **First Isolated Enzyme (Hind II)**: Isolated in 1963 by Hamilton Smith from ***Haemophilus influenzae*** strain Rd. It recognizes and cleaves a specific 6-base pair palindromic sequence:\n  $$\\text{5'-G T Y }\\vert\\text{ R A C-3'} \\implies \\text{5'-G T (C/T) }\\vert\\text{ (A/G) A C-3'}$$\n\n### 2.2 Standard Nomenclature Rules (e.g., *Eco* RI)\n1. **First Letter (Capitalized)**: Genus name (*E* $\\rightarrow$ *Escherichia*).\n2. **Second & Third Letters (Lowercase)**: Species name (*co* $\\rightarrow$ *coli*).\n3. **Fourth Letter (Capitalized)**: Bacterial strain designation (*R* $\\rightarrow$ *RY 13* strain).\n4. **Roman Numeral**: Order of isolation/characterization from that strain (*I* $\\rightarrow$ first enzyme isolated).\n\n### 2.3 Palindromes & Sticky vs. Blunt Overhangs\n- **Palindromic Recognition Sequence**: A nucleic acid sequence that reads identical on both antiparallel strands in the $5' \\rightarrow 3'$ direction.\n\n```\n                      ECO RI PALINDROMIC CLEAVAGE (Sticky Ends)\n                      \n   5' ─── G ┬ A  A  T  T  C ─── 3'          5' ─── G                A  A  T  T  C ─── 3'\n            │                       ──►            │                │\n   3' ─── C  T  T  A  A ┴ G ─── 5'          3' ─── C  T  T  A  A                G ─── 5'\n         [Cut Site]                                 [STICKY OVERHANGS]\n\n                      SMA I CLEAVAGE (Blunt / Flush Ends)\n                      \n   5' ─── C  C  C ┬ G  G  G ─── 3'          5' ─── C  C  C        G  G  G ─── 3'\n                  │                 ──►            │              │\n   3' ─── G  G  G ┴ C  C  C ─── 5'          3' ─── G  G  G        C  C  C ─── 5'\n         [Cut Site]                                   [BLUNT / FLUSH ENDS]\n```\n\n- **Sticky Ends**: Staggered cuts leave single-stranded overhanging ends that spontaneously anneal via complementary hydrogen bonding, greatly accelerating ligation by **T4 DNA Ligase**."
+    },
+    {
+      "heading": "DNA Ligase Catalytic Mechanism",
+      "title": "DNA Ligase Catalytic Mechanism",
+      "type": "paragraph",
+      "content": "T4 DNA Ligase uses ATP energy to catalyze the formation of a covalent phosphodiester bond between the adjacent 3'-hydroxyl (-OH) and 5'-phosphate (-PO4) termini of nicked DNA duplexes."
+    },
+    {
+      "heading": "Alkaline Phosphatase",
+      "title": "Alkaline Phosphatase",
+      "type": "paragraph",
+      "content": "Calf Intestinal Alkaline Phosphatase (CIAP) removes 5'-terminal phosphate groups from linearized vector DNA, preventing unwanted self-ligation and recircularization of the empty vector."
+    }
+  ]
+}

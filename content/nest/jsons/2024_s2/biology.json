@@ -1,0 +1,1061 @@
+{
+  "exam": "NEST",
+  "year": 2024,
+  "session": 2,
+  "subject": "Biology",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": "bio-2024-s2-q01",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Biotechnology",
+      "subtopic": "PCR Primer Directionality & Annealing",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A researcher was trying to amplify a DNA fragment in vitro using a polymerase\nchain reaction (PCR). All the required components for the reaction except the Taq\nDNA polymerase were available. The experimenter decided to use DNA polymerase\nisolated from E. coli instead of Taq DNA polymerase. The E. coli polymerase was\nadded to the reaction at the extension step of each cycle of the PCR. In this scenario,\nfrom the options given below, the optimal temperature to be set in the extension step\nof the PCR is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "72 0C",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 2 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "37 0C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "25 0C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "92 0C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Biotechnology (PCR Primer Directionality & Annealing)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Biotechnology: PCR Primer Directionality & Annealing"
+      ],
+      "hints": [
+        "Recall key principles of Biotechnology and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "bio-2024-s2-q02",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "subtopic": "Circulatory System: Arteries, Veins, Capillaries",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The correct statement with respect to arteries, veins and capillaries is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Valves are absent in arteries, but present in veins and capillaries.",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 2 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "Pulse can be felt in veins and capillaries but not in arteries.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Valves are absent in arteries and capillaries but present in veins.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Pulse can be felt in arteries and veins but not in capillaries.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Human Physiology (Circulatory System: Arteries, Veins, Capillaries)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Human Physiology: Circulatory System: Arteries, Veins, Capillaries"
+      ],
+      "hints": [
+        "Recall key principles of Human Physiology and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "bio-2024-s2-q03",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Genetics & Pedigree",
+      "subtopic": "Pedigree Inheritance Pattern Analysis",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786978649/nest_pyqs/2024_s2/nest_2024_s2_bio_2024_s2_q03.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786978649/nest_pyqs/2024_s2/nest_2024_s2_bio_2024_s2_q03.png"
+      ],
+      "questionText": "In the given pedigree, circles represent females and squares represent males. Filled\nshapes indicate affected individuals, while unfilled shapes indicate unaffected indi-\nviduals. Based on the pedigree analysis, consider the statements (i) to (iv).\n(i) The inheritance pattern is autosomal recessive, and both I-2 and III-8 are car-\nriers.\n(ii) The inheritance pattern is autosomal recessive and the individual II-6 could be\nhomozygous for the normal allele or heterozygous for the disease allele.\n(iii) The inheritance pattern is autosomal recessive, and the individual II-2 is not a\ncarrier.\n(iv) The inheritance pattern is autosomal dominant and individual I-1 could be either\nhomozygous or heterozygous for the disease allele.\nThe correct statement/s about the pedigree analysis is/are:",
+      "options": [
+        {
+          "id": "a",
+          "text": "i and ii",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 2 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "only iii",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "ii and iii",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "only iv",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Genetics & Pedigree (Pedigree Inheritance Pattern Analysis)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Genetics & Pedigree: Pedigree Inheritance Pattern Analysis"
+      ],
+      "hints": [
+        "Recall key principles of Genetics & Pedigree and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "bio-2024-s2-q04",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Genetics",
+      "subtopic": "Dihybrid Cross: Leaf Colour & Plant Height",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786978650/nest_pyqs/2024_s2/nest_2024_s2_bio_2024_s2_q04.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786978650/nest_pyqs/2024_s2/nest_2024_s2_bio_2024_s2_q04.png"
+      ],
+      "questionText": "In a plant, alleles P and p govern leaf colour (purple or green) whereas C and c\ngovern shape of the leaf edge (sharp or rounded). A cross performed between two\nparent plants gave the following progeny.\nProgeny phenotype\nNumber of progeny\nPurple coloured; sharp edge\n321\nPurple coloured; rounded edge\n101\nGreen coloured; sharp edge\n310\nGreen coloured; rounded edge\n107\nBased on this information, the parental genotypes are:",
+      "options": [
+        {
+          "id": "a",
+          "text": "PpCc, ppCc",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 2 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "PPCC, ppcc",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "ppCC, ppcc",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "ppCc, PPCC",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Genetics (Dihybrid Cross: Leaf Colour & Plant Height)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Genetics: Dihybrid Cross: Leaf Colour & Plant Height"
+      ],
+      "hints": [
+        "Recall key principles of Genetics and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "bio-2024-s2-q05",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Biochemistry",
+      "subtopic": "Peptide Sequencing by Proteolytic Cleavage",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The amino acid sequence of an unknown peptide can be determined using a series of\nproteolytic digestions. An eight-mer peptide contains 1 alanine (ALA), 2 arginines\n(ARG), 1 methionine (MET), 1 serine (SER), 1 tyrosine (TYR) and 2 valines (VAL)\nwith ALA at the N-terminus and VAL at the C-terminus.\nThis peptide was di-\ngested with trypsin (cleaves the peptide bond C-terminus to a LYS or ARG) and\nchymotrypsin (cleaves the peptide bond N-terminus to an aromatic amino acid) in\ntwo separate reactions. The amino acid composition of each of the fragments obtained\nis given below:\nTrypsin digestion: fragment 1: SER, ALA, ARG; fragment 2: VAL; frag-\nment 3: TYR, ARG, MET, VAL\nChymotrypsin digestion: fragment 1: VAL, ARG, ALA, SER; fragment 2:\nVAL, TYR, ARG, MET\nThe correct amino acid sequence of the eight-mer peptide is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "ALA-SER-ARG-VAL-TYR-MET-ARG-VAL",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 2 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "ALA-ARG-SER-VAL-TYR-ARG-MET-VAL",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "ALA-SER-ARG-TYR-MET-VAL-ARG-VAL",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "ALA-SER-ARG-VAL-ARG-TYR-MET-VAL",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Biochemistry (Peptide Sequencing by Proteolytic Cleavage)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Biochemistry: Peptide Sequencing by Proteolytic Cleavage"
+      ],
+      "hints": [
+        "Recall key principles of Biochemistry and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "bio-2024-s2-q06",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Molecular Biology",
+      "subtopic": "Central Dogma & Reverse Information Flow",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The central dogma of molecular biology states that the information flow starts from\ngenome. Consider the following statements:\n(i) Mutation in the DNA-dependent RNA polymerase reverses direction of the in-\nformation flow.\n(ii) There is an amplification of the coded information from DNA to protein.\n(iii) The central dogma explains the flow of information in all known forms of life.\n(iv) The genome size determines the direction of the information flow.\nThe statements that are correct about the central dogma are:",
+      "options": [
+        {
+          "id": "a",
+          "text": "i and ii",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 2 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "ii and iii",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "iii and iv",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "i and iv",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Molecular Biology (Central Dogma & Reverse Information Flow)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Molecular Biology: Central Dogma & Reverse Information Flow"
+      ],
+      "hints": [
+        "Recall key principles of Molecular Biology and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "bio-2024-s2-q07",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Plant Physiology",
+      "subtopic": "Sun Leaves vs Shade Leaves Adaptations",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Following are the statements about sun leaves and shade leaves.\n(i) Chloroplasts are mostly restricted to palisade mesophyll cells in sun leaves but\nare evenly present in spongy and palisade mesophyll in shade leaves.\n(ii) The density of stomata is low in sun leaves and high in shade leaves.\n(iii) Starch accumulation in chloroplasts of sun leaves is higher compared to that in\nshade leaves.\n(iv) Sun leaves are larger and thinner, and shade leaves are smaller and thicker.\nThe option with correct combination of statements is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "ii and iv",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 2 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "i and iii",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "i and ii",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "iii and iv",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Plant Physiology (Sun Leaves vs Shade Leaves Adaptations)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Plant Physiology: Sun Leaves vs Shade Leaves Adaptations"
+      ],
+      "hints": [
+        "Recall key principles of Plant Physiology and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "bio-2024-s2-q08",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Ecology & Environment",
+      "subtopic": "Biodiversity Indices & Species Sampling",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "An experimenter attempting to measure the biodiversity of a region has made sev-\neral measurements in different sampling areas of the region and plotted those values\nin a graph. The biodiversity of a region can be correctly represented by plotting\n.",
+      "options": [
+        {
+          "id": "a",
+          "text": "number of different species vs different sampling areas",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 2 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "number of individuals of a species vs different sampling areas",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "number of primary producers in the region vs different sampling areas",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "ratio of number of land species to aquatic species vs different sampling\nareas",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Ecology & Environment (Biodiversity Indices & Species Sampling)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Ecology & Environment: Biodiversity Indices & Species Sampling"
+      ],
+      "hints": [
+        "Recall key principles of Ecology & Environment and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "bio-2024-s2-q09",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Microbiology",
+      "subtopic": "rRNA Phylogeny in Bacterial Taxonomy",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Ribosomal RNA (rRNA) sequence analysis can be used for the identification of bac-\nteria. An experimenter was analysing total cell lysate (homogenized mixture) of a\nplant tissue that is heavily infected with a bacterial pathogen. This lysate was used to\nprepare ribosome-enriched fraction (with large and small subunits dissociated), which\nwas subjected to density gradient ultracentrifugation. The resulting band pattern is\nshown in the figure.\nI\nII\nIII\nIV\nThe correct set of bands that the researcher can use for the pathogen identification is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Band I and III",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 2 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "Band II and III",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Band I and II",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Band III and IV",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Microbiology (rRNA Phylogeny in Bacterial Taxonomy)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Microbiology: rRNA Phylogeny in Bacterial Taxonomy"
+      ],
+      "hints": [
+        "Recall key principles of Microbiology and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "bio-2024-s2-q10",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Cell Physiology",
+      "subtopic": "Peroxisomal H2O2 Metabolism & Catalase",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Accumulation of H2O2 is harmful for the survival of eukaryotic cells. The level of\nH2O2 in the cell is kept under control by\n.",
+      "options": [
+        {
+          "id": "a",
+          "text": "glyoxisomes with the enzyme glutathione reductase",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 2 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "peroxisomes with the enzyme citrate lyase",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "peroxisomes with the enzyme catalase",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "glyoxisomes with the enzyme glyceraldehyde dehydrogenase",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Cell Physiology (Peroxisomal H2O2 Metabolism & Catalase)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Cell Physiology: Peroxisomal H2O2 Metabolism & Catalase"
+      ],
+      "hints": [
+        "Recall key principles of Cell Physiology and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "bio-2024-s2-q11",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Enzymology",
+      "subtopic": "Competitive vs Allosteric Enzyme Inhibitors",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786978651/nest_pyqs/2024_s2/nest_2024_s2_bio_2024_s2_q11.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786978651/nest_pyqs/2024_s2/nest_2024_s2_bio_2024_s2_q11.png"
+      ],
+      "questionText": "Depicted in the figure are three possibilities of substrate (white triangle) conversion\nto the product (gray triangle) by an enzyme (blue) in the presence of different kinds\nof reversible inhibitors. The corresponding interactions with specific inhibitors (black\nshapes) are depicted schematically, where the dotted double-headed arrow indicates\na reversible reaction and a blunt arrow (‘—|’) indicates inhibition. The Michaelis-\nMenton graphs (right side of the figure) show plots in absence (gray line) and presence\nof inhibitor (black line). Changes in Km and Vmax in each case are indicated. Based\non your evaluation of the three modes of inhibition shown in the figure, the correctly\nmatched combination of (i), (ii), (iii) and (P), (Q), (R) is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "(i) R; (ii) Q; (iii) P.",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 2 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "(i) Q; (ii) P; (iii) R.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "(i) P; (ii) R; (iii) Q.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "(i) R; (ii) P; (iii) Q.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Enzymology (Competitive vs Allosteric Enzyme Inhibitors)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Enzymology: Competitive vs Allosteric Enzyme Inhibitors"
+      ],
+      "hints": [
+        "Recall key principles of Enzymology and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "bio-2024-s2-q12",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Biotechnology",
+      "subtopic": "Recombinant Selection in TetR/AmpR Vector",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786978653/nest_pyqs/2024_s2/nest_2024_s2_bio_2024_s2_q12.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786978653/nest_pyqs/2024_s2/nest_2024_s2_bio_2024_s2_q12.png"
+      ],
+      "questionText": "In the plasmid vector map TetR denotes tetracycline resistance gene and AmpR\ndenotes ampicillin resistance gene. A SalI restriction enzyme-digested DNA fragment\ncontaining the gene of interest (insert) is ligated to the SalI-digested plasmid vector\nand then transformed into strain of E. coli that is sensitive to both antibiotics (test\nreaction).\nThe desired transformants (containing the recombinant plasmid) were\nobtained by plating this test reaction on tetracycline containing nutrient agar plates.\nAn appropriate control for the above experiment that can demonstrate complete\ndigestion of the plasmid vector by SalI is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ligation of BamH I-digested plasmid vector with the SalI-digested insert\nand transformed into E. coli followed by plating on ampicillin containing\nnutrient agar plate.",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 2 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "Ligation of SalI-digested plasmid vector alone, and transformed into E. coli\nfollowed by plating on ampicillin containing nutrient agar plate.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Unligated SalI-digested plasmid vector alone transformed into\nE. coli followed by plating on ampicillin containing nutrient agar\nplate.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Unligated SalI-digested plasmid vector alone transformed into E. coli fol-\nlowed by plating on tetracycline containing nutrient agar plate.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Biotechnology (Recombinant Selection in TetR/AmpR Vector)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Biotechnology: Recombinant Selection in TetR/AmpR Vector"
+      ],
+      "hints": [
+        "Recall key principles of Biotechnology and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "bio-2024-s2-q13",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Evolution & Behavior",
+      "subtopic": "Kin Selection & Hamilton's Rule in Mammals",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A small group of large mammals that consisted of closely-related kins migrate into\na new ecosystem. Despite inbreeding, the population is stable for many generations.\nHowever, due to a sudden appearance of a man-made geographical barrier, the group\nsplits into two smaller groups, P and Q. The population soon begins to decline within\nthe groups and conservationists decide to take action to increase population of these\nmammals within the newly divided ecosystems. The most appropriate intervention\nstrategy, from the following options, would be\n.",
+      "options": [
+        {
+          "id": "a",
+          "text": "to have separate breeding programs within group P and group Q",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 2 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "to create barriers to avoid predators",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "to move all the individuals in one group to the location of the other group",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "to create corridors to facilitate migration",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Evolution & Behavior (Kin Selection & Hamilton's Rule in Mammals)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Evolution & Behavior: Kin Selection & Hamilton's Rule in Mammals"
+      ],
+      "hints": [
+        "Recall key principles of Evolution & Behavior and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "bio-2024-s2-q14",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Microbiology & Health",
+      "subtopic": "Peptidoglycan Cell Wall in Pathogens",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A particular microbial pathogen that infects humans has a cell wall composed of\npeptidoglycan layer. An infection from this pathogen can easily be treated with an\nantibiotic that inhibits cell wall synthesis. A handwash containing this antibiotic\nwas popularly used. In subsequent years, resistance to the antibiotic emerged in this\npathogen. While one group evolved a modified cell wall, the other group evolved to\nsurvive without a cell wall. This type of selection is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Disruptive",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 2 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "Stabilising",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Directional",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Purifying",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Microbiology & Health (Peptidoglycan Cell Wall in Pathogens)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Microbiology & Health: Peptidoglycan Cell Wall in Pathogens"
+      ],
+      "hints": [
+        "Recall key principles of Microbiology & Health and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "bio-2024-s2-q15",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Evolution & Diversity",
+      "subtopic": "Photosynthetic Pigments & Endosymbiosis Phylogeny",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786978655/nest_pyqs/2024_s2/nest_2024_s2_bio_2024_s2_q15.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786978655/nest_pyqs/2024_s2/nest_2024_s2_bio_2024_s2_q15.png"
+      ],
+      "questionText": "The table shows the presence of photosynthetic pigments in bacterial and algal groups:\n\n| Group Classification | Prochlorophyta | Cyanophyta | Glaucophyta | Rhodophyta | Chlorophyta |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Photosynthetic Category** | Bacteria | Bacteria | Algae | Algae | Algae |\n| **Pigments** | Chlorophyll $a$ and Chlorophyll $b$ | Chlorophyll $a$ and Phycobilins | Chlorophyll $a$ and Phycobilins | Chlorophyll $a$ and Phycobilins | Chlorophyll $a$ and Chlorophyll $b$ |\n\nAll eukaryotic chloroplasts are derived from a common ancestor through a single primary endosymbiotic event. Assuming loss of gene(s) during the course of evolution, the phylogenetic tree that correctly represents the evolutionary relationship is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cladogram (A): Glaucophyta, Rhodophyta and Chlorophyta form monophyletic eukaryotic plastid lineage with Cyanophyta basal sister group.",
+          "isCorrect": true,
+          "explanation": "Primary endosymbiosis of a beta-cyanobacterium led to the Archaeplastida lineage containing Glaucophyta, Rhodophyta, and Chloroplastida/Chlorophyta."
+        },
+        {
+          "id": "b",
+          "text": "Cladogram (B)",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Cladogram (C)",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Cladogram (D)",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Evolution & Diversity (Photosynthetic Pigments & Endosymbiosis Phylogeny)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Evolution & Diversity: Photosynthetic Pigments & Endosymbiosis Phylogeny"
+      ],
+      "hints": [
+        "Recall key principles of Evolution & Diversity and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "bio-2024-s2-q16",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Cell Biology",
+      "subtopic": "Cryptophyta 4-Membrane Chloroplast Endosymbiosis",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Chloroplasts of certain algal taxa such as Cryptophyta are surrounded by four-\nmembrane envelope.\nThe most likely reason for the origin of four-membrane en-\nveloped chloroplast structure is\n.",
+      "options": [
+        {
+          "id": "a",
+          "text": "secondary endosymbiosis, where a photosynthetic eukaryote was\nengulfed by another eukaryote.",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 2 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "engulfment of the acquired chloroplast by host endoplasmic reticulum dur-\ning the course of evolution.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "fusion of the acquired chloroplast with host membrane vesicles during the\ncourse of evolution",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "acquisition of new genes to synthesize an additional membrane envelope\naround the acquired chloroplast",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Cell Biology (Cryptophyta 4-Membrane Chloroplast Endosymbiosis)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Cell Biology: Cryptophyta 4-Membrane Chloroplast Endosymbiosis"
+      ],
+      "hints": [
+        "Recall key principles of Cell Biology and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "bio-2024-s2-q17",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Immunology",
+      "subtopic": "Camel Heavy-Chain-Only IgG Subclasses",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786978660/nest_pyqs/2024_s2/nest_2024_s2_bio_2024_s2_q17.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786978660/nest_pyqs/2024_s2/nest_2024_s2_bio_2024_s2_q17.png"
+      ],
+      "questionText": "Camels have three different sub-classes of IgG (IgG1, IgG2 and IgG3), of which\nIgG2 and IgG3 are structurally different from the human IgG. A researcher purified\ncamel IgG1 and IgG3, and carried out gel electrophoresis that separates polypep-\ntides based on their molecular size. An IgG antibody purified from human serum is\nelectrophoresed on the same gel. A schematic of the observed band pattern on the\ngel is shown in the figure, wherein lane M depicts molecular weight marker positions\n(kDa); R: samples were treated with a reducing agent (such as β-mercaptoethanol);\nNR: no reducing agent was used. Based on this information, the correct structure of\ncamel IgG3 is",
+      "options": [
+        {
+          "id": "a",
+          "text": "two heavy chains bonded by disulfide bonds.",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 2 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "one heavy and one light chain bonded by disulfide bonds.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "two heavy and two light chains bonded by disulfide bonds.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "two light chains bonded by disulfide bonds.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Immunology (Camel Heavy-Chain-Only IgG Subclasses)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Immunology: Camel Heavy-Chain-Only IgG Subclasses"
+      ],
+      "hints": [
+        "Recall key principles of Immunology and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "bio-2024-s2-q18",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Microbial Ecology",
+      "subtopic": "Interspecies Bacterial Secondary Metabolites",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Interspecies interactions are well known among soil-dwelling bacteria belonging to\nthe genera Bacillus and Pseudomonas.\nWhen co-cultured, Pseudomonas chloro-\nraphis competes for space with Bacillus subtilis, infiltrates their colonies and kill\nthem. Killing of vegetative cells of B. subtilis by P. chlororaphis requires physical\ncontact and the type-VI secretion system (T6SS) to inject the toxins. B. subtilis\nundergo sporulation and use it as an escape/defense mechanism to avoid killing by\nP. chlororaphis. On the other hand, when P. chlororaphis are co-cultured with B.\namyloliquefaciens, colonies have distinct zones with no physical contact. In this sce-\nnario, P. chlororaphis utilizes a different secretion system, T2SS, to secrete secondary\nmetabolites that inhibit the growth of B. amyloliquefaciens. Bacillaene, a bacterio-\nstatic compound, is produced by B. amyloliquefaciens that antagonizes P. chloro-\nraphis. The interaction between P. chlororaphis with B. subtilis and P. chlororaphis\nwith B. amyloliquefaciens, respectively, represents:",
+      "options": [
+        {
+          "id": "a",
+          "text": "predation and competition.",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 2 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "commensalism and competition.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "competition and predation.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "commensalism and mutualism.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Microbial Ecology (Interspecies Bacterial Secondary Metabolites)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Microbial Ecology: Interspecies Bacterial Secondary Metabolites"
+      ],
+      "hints": [
+        "Recall key principles of Microbial Ecology and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "bio-2024-s2-q19",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Cell Evolution",
+      "subtopic": "Mitochondrial Endosymbiosis & Amitochondriate Eukaryotes",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Mitochondria are present in species P, but absent in Q, R and S. The species P, Q,\nR and S, respectively, are:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Slime mould, Blue-green algae, Eubacteria and Mycoplasma.",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 2 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "Blue-green algae, Slime mould, Eubacteria and Mycoplasma.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Plant, Slime mould, Eubacteria and Blue-green algae.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Mycoplasma, Eubacteria, Blue-green algae and Slime mould.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Cell Evolution (Mitochondrial Endosymbiosis & Amitochondriate Eukaryotes)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Cell Evolution: Mitochondrial Endosymbiosis & Amitochondriate Eukaryotes"
+      ],
+      "hints": [
+        "Recall key principles of Cell Evolution and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "bio-2024-s2-q20",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 2,
+      "shift": "Shift 2 (Afternoon)",
+      "subject": "Biology",
+      "topic": "Molecular Genetics",
+      "subtopic": "Bacteriophage Gene Cloning & Lysogeny",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A researcher has cloned a bacteriophage (phage) gene P into a bacterial vector under\nthe control of a phage promoter. To express this gene in bacteria, a particular strain\nof bacteria that carries a phage RNA polymerase is used. The phage RNA poly-\nmerase expression in turn can be induced by addition of an inducer to the medium.\nRifampicin specifically inhibits bacterial RNA polymerase and not phage RNA poly-\nmerase.\nChloramphenicol binds bacterial ribosomes and blocks protein synthesis.\nThe condition where the researcher will be able to express maximum amount of the\nprotein P in bacteria is\n.",
+      "options": [
+        {
+          "id": "a",
+          "text": "addition of the inducer and rifampicin",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 2 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "addition of the inducer and chloramphenicol",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "addition of rifampicin and chloramphenicol",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "addition of only rifampicin",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Session 2 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Biology\n- **Core Topic:** Molecular Genetics (Bacteriophage Gene Cloning & Lysogeny)\n- **Evaluation Criteria:** Verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Molecular Genetics: Bacteriophage Gene Cloning & Lysogeny"
+      ],
+      "hints": [
+        "Recall key principles of Molecular Genetics and apply step-by-step logic."
+      ]
+    }
+  ]
+}

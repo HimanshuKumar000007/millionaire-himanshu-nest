@@ -1,0 +1,922 @@
+[
+  {
+    "id": "chem-kin-001",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "Stoichiometric Rate Relations",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "For the thermal decomposition of 1.0 mole of Dinitrogen Pentoxide gas: 2N\u2082O\u2085(g) \u2500\u2500\u25ba 4NO\u2082(g) + O\u2082(g), the rate of disappearance of N\u2082O\u2085 is measured as 2.4 \u00d7 10\u207b\u2074 mol\u00b7L\u207b\u00b9\u00b7s\u207b\u00b9 at a given instant. What is the overall Rate of Reaction and the rate of appearance of Nitrogen Dioxide (NO\u2082), respectively?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rate = 2.4 \u00d7 10\u207b\u2074 M\u00b7s\u207b\u00b9; d[NO\u2082]/dt = 2.4 \u00d7 10\u207b\u2074 M\u00b7s\u207b\u00b9",
+        "isCorrect": false,
+        "explanation": "Did not divide rate of disappearance by stoichiometric coefficient 2."
+      },
+      {
+        "id": "B",
+        "text": "Rate = 1.2 \u00d7 10\u207b\u2074 M\u00b7s\u207b\u00b9; d[NO\u2082]/dt = 4.8 \u00d7 10\u207b\u2074 M\u00b7s\u207b\u00b9",
+        "isCorrect": true,
+        "explanation": "1. Stoichiometric rate relation: Rate = -(1/2) d[N\u2082O\u2085]/dt = +(1/4) d[NO\u2082]/dt = +d[O\u2082]/dt. 2. Given -d[N\u2082O\u2085]/dt = 2.4 \u00d7 10\u207b\u2074 M\u00b7s\u207b\u00b9: Overall Rate = (1/2) (2.4 \u00d7 10\u207b\u2074) = 1.2 \u00d7 10\u207b\u2074 M\u00b7s\u207b\u00b9. 3. Rate of appearance of NO\u2082: d[NO\u2082]/dt = 4 \u00d7 (Overall Rate) = 4 \u00d7 (1.2 \u00d7 10\u207b\u2074) = 4.8 \u00d7 10\u207b\u2074 M\u00b7s\u207b\u00b9."
+      },
+      {
+        "id": "C",
+        "text": "Rate = 4.8 \u00d7 10\u207b\u2074 M\u00b7s\u207b\u00b9; d[NO\u2082]/dt = 1.2 \u00d7 10\u207b\u2074 M\u00b7s\u207b\u00b9",
+        "isCorrect": false,
+        "explanation": "Swapped overall rate and rate of formation."
+      },
+      {
+        "id": "D",
+        "text": "Rate = 1.2 \u00d7 10\u207b\u2074 M\u00b7s\u207b\u00b9; d[NO\u2082]/dt = 2.4 \u00d7 10\u207b\u2074 M\u00b7s\u207b\u00b9",
+        "isCorrect": false,
+        "explanation": "Used stoichiometric coefficient 2 for NO\u2082 instead of 4."
+      }
+    ],
+    "solutionExplanation": "1. Stoichiometric rate relation:\n   Rate = -(1/2) d[N\u2082O\u2085]/dt = +(1/4) d[NO\u2082]/dt = +d[O\u2082]/dt\n2. Given -d[N\u2082O\u2085]/dt = 2.4 \u00d7 10\u207b\u2074 M\u00b7s\u207b\u00b9:\n   Overall Rate = (1/2) (2.4 \u00d7 10\u207b\u2074) = 1.2 \u00d7 10\u207b\u2074 M\u00b7s\u207b\u00b9\n3. Rate of appearance of NO\u2082:\n   d[NO\u2082]/dt = 4 \u00d7 (Overall Rate) = 4 \u00d7 (1.2 \u00d7 10\u207b\u2074) = 4.8 \u00d7 10\u207b\u2074 M\u00b7s\u207b\u00b9.",
+    "keyFormulae": [
+      "\\text{Rate} = -\\frac{1}{2} \\frac{d[\\text{N}_2\\text{O}_5]}{dt} = +\\frac{1}{4} \\frac{d[\\text{NO}_2]}{dt} = +\\frac{d[\\text{O}_2]}{dt}"
+    ],
+    "hints": [
+      "Divide disappearance rate by stoichiometric coefficient 2, then multiply by 4 to get appearance rate of NO\u2082."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-kin-002",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "First-Order Decay Time Calculation",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "A first-order reaction A \u2500\u2500\u25ba Products has a rate constant k = 3.465 \u00d7 10\u207b\u00b3 s\u207b\u00b9. How long will it take for the initial concentration [A]\u2080 = 0.80 M to decrease to [A]_t = 0.05 M?",
+    "options": [
+      {
+        "id": "A",
+        "text": "200 seconds",
+        "isCorrect": false,
+        "explanation": "200 seconds is 1 half-life (drops to 0.40 M)."
+      },
+      {
+        "id": "B",
+        "text": "400 seconds",
+        "isCorrect": false,
+        "explanation": "400 seconds is 2 half-lives (drops to 0.20 M)."
+      },
+      {
+        "id": "C",
+        "text": "800 seconds",
+        "isCorrect": true,
+        "explanation": "1. First-order half-life: t_1/2 = 0.693 / k = 0.693 / (3.465 \u00d7 10\u207b\u00b3) = 200 seconds. 2. Fractional reduction: [A]\u2080 = 0.80 M \u2500\u2500\u25ba 0.40 \u2500\u2500\u25ba 0.20 \u2500\u2500\u25ba 0.10 \u2500\u2500\u25ba 0.05 M. 3. Total half-lives n = 4: t = 4 \u00d7 t_1/2 = 4 \u00d7 200 s = 800 seconds."
+      },
+      {
+        "id": "D",
+        "text": "100 seconds",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      }
+    ],
+    "solutionExplanation": "1. First-order half-life:\n   t_1/2 = 0.693 / k = 0.693 / (3.465 \u00d7 10\u207b\u00b3) = 200 seconds\n2. Fractional reduction:\n   [A]\u2080 = 0.80 M \u2500\u2500\u25ba 0.40 \u2500\u2500\u25ba 0.20 \u2500\u2500\u25ba 0.10 \u2500\u2500\u25ba 0.05 M.\n3. Total half-lives n = 4:\n   t = 4 \u00d7 t_1/2 = 4 \u00d7 200 s = 800 seconds.",
+    "keyFormulae": [
+      "t_{1/2} = \\frac{0.693}{k}, \\quad t = n \\times t_{1/2}"
+    ],
+    "hints": [
+      "Calculate t_1/2 = 0.693 / k, then find n half-lives to go from 0.80 to 0.05."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-kin-003",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "Zero-Order Rate Constant and Completion",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "For a zero-order reaction A \u2500\u2500\u25ba Products with initial concentration [A]\u2080 = 0.50 M, the reaction is 50% complete in 25 minutes. What is the rate constant k and the time required for 80% completion (t_80%)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "k = 0.010 M\u00b7min\u207b\u00b9; t_80% = 40 minutes",
+        "isCorrect": true,
+        "explanation": "1. For zero-order, t_1/2 = [A]\u2080 / (2k) \u27f9 25 = 0.50 / (2k) \u27f9 50k = 0.50 \u27f9 k = 0.010 M\u00b7min\u207b\u00b9. 2. At 80% completion, [A]_t = [A]\u2080 - 0.80[A]\u2080 = 0.20[A]\u2080 = 0.10 M. 3. Integrated rate law: [A]_t = [A]\u2080 - kt \u27f9 0.10 = 0.50 - 0.010 \u00b7 t_80% \u27f9 0.010 \u00b7 t_80% = 0.40 \u27f9 t_80% = 0.40 / 0.010 = 40 minutes."
+      },
+      {
+        "id": "B",
+        "text": "k = 0.020 M\u00b7min\u207b\u00b9; t_80% = 50 minutes",
+        "isCorrect": false,
+        "explanation": "Calculation error in k."
+      },
+      {
+        "id": "C",
+        "text": "k = 0.010 M\u00b7min\u207b\u00b9; t_80% = 80 minutes",
+        "isCorrect": false,
+        "explanation": "Calculation error in t_80%."
+      },
+      {
+        "id": "D",
+        "text": "k = 0.005 M\u00b7min\u207b\u00b9; t_80% = 100 minutes",
+        "isCorrect": false,
+        "explanation": "Used first-order formula."
+      }
+    ],
+    "solutionExplanation": "1. For zero-order, t_1/2 = [A]\u2080 / (2k) \u27f9 25 = 0.50 / (2k) \u27f9 50k = 0.50 \u27f9 k = 0.010 M\u00b7min\u207b\u00b9.\n2. At 80% completion, [A]_t = [A]\u2080 - 0.80[A]\u2080 = 0.20[A]\u2080 = 0.10 M.\n3. Integrated rate law: [A]_t = [A]\u2080 - kt \u27f9 0.10 = 0.50 - 0.010 \u00b7 t_80% \u27f9 0.010 \u00b7 t_80% = 0.40 \u27f9 t_80% = 0.40 / 0.010 = 40 minutes.",
+    "keyFormulae": [
+      "k = \\frac{[A]_0}{2 t_{1/2}}, \\quad t = \\frac{[A]_0 - [A]_t}{k}"
+    ],
+    "hints": [
+      "For zero-order, rate is constant: k = 0.25 M / 25 min = 0.010 M/min."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-kin-004",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "Arrhenius Activation Energy Calculation",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "The rate constants of a certain chemical reaction are k\u2081 = 1.0 \u00d7 10\u207b\u00b3 s\u207b\u00b9 at 300 K and k\u2082 = 8.0 \u00d7 10\u207b\u00b3 s\u207b\u00b9 at 330 K. What is the activation energy (E_a) of this reaction in kJ/mol? (R = 8.314 J/mol\u00b7K, log\u2081\u2080 2 = 0.301, log\u2081\u2080 8 = 0.903)",
+    "options": [
+      {
+        "id": "A",
+        "text": "E_a = 57.6 kJ/mol",
+        "isCorrect": true,
+        "explanation": "1. Two-temperature Arrhenius equation: log\u2081\u2080(k\u2082 / k\u2081) = (E_a / 2.303 R) ((T\u2082 - T\u2081) / (T\u2081 T\u2082)). 2. Substitute values: log\u2081\u2080(8.0 \u00d7 10\u207b\u00b3 / 1.0 \u00d7 10\u207b\u00b3) = (E_a / (2.303 \u00d7 8.314)) ((330 - 300) / (300 \u00d7 330)). log\u2081\u2080(8) = (E_a / 19.147) (30 / 99000) \u27f9 0.903 = (E_a / 19.147) \u00d7 (1 / 3300) \u27f9 E_a = 0.903 \u00d7 19.147 \u00d7 3300 = 57056 J/mol \u2248 57.6 kJ/mol."
+      },
+      {
+        "id": "B",
+        "text": "E_a = 28.8 kJ/mol",
+        "isCorrect": false,
+        "explanation": "Used log 2 instead of log 8."
+      },
+      {
+        "id": "C",
+        "text": "E_a = 115.2 kJ/mol",
+        "isCorrect": false,
+        "explanation": "Multiplied by 2."
+      },
+      {
+        "id": "D",
+        "text": "E_a = 14.4 kJ/mol",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      }
+    ],
+    "solutionExplanation": "1. Two-temperature Arrhenius equation:\n   log\u2081\u2080(k\u2082 / k\u2081) = (E_a / 2.303 R) ((T\u2082 - T\u2081) / (T\u2081 T\u2082))\n2. Substitute values:\n   log\u2081\u2080(8.0 \u00d7 10\u207b\u00b3 / 1.0 \u00d7 10\u207b\u00b3) = (E_a / (2.303 \u00d7 8.314)) ((330 - 300) / (300 \u00d7 330))\n   log\u2081\u2080(8) = (E_a / 19.147) (30 / 99000) \u27f9 0.903 = (E_a / 19.147) \u00d7 (1 / 3300)\n   E_a = 0.903 \u00d7 19.147 \u00d7 3300 = 57056 J/mol = 57.06 kJ/mol \u2248 57.6 kJ/mol.",
+    "keyFormulae": [
+      "\\log_{10} \\left( \\frac{k_2}{k_1} \\right) = \\frac{E_a}{2.303 R} \\left( \\frac{T_2 - T_1}{T_1 T_2} \\right)"
+    ],
+    "hints": [
+      "Apply two-temperature Arrhenius equation with log(8) = 0.903."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-kin-005",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "Gas-Phase First-Order Kinetics",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "For the gas-phase first-order decomposition reaction: A(g) \u2500\u2500\u25ba 2B(g) + C(g), the initial pressure of A(g) is P\u2080 = 100 mmHg. After 20 minutes, the total system pressure becomes P_t = 220 mmHg. What is the first-order rate constant k in min\u207b\u00b9?",
+    "options": [
+      {
+        "id": "A",
+        "text": "k = 0.0458 min\u207b\u00b9",
+        "isCorrect": true,
+        "explanation": "1. Pressure stoichiometry at time t: Initial: A(g) [P\u2080] \u2500\u2500\u25ba 2B(g) [0] + C(g) [0]; Time t: A(g) [P\u2080 - x] \u2500\u2500\u25ba 2B(g) [2x] + C(g) [x]. 2. Total pressure P_t = (P\u2080 - x) + 2x + x = P\u2080 + 2x \u27f9 220 = 100 + 2x \u27f9 2x = 120 \u27f9 x = 60 mmHg. 3. Partial pressure of A at time t: P_A = P\u2080 - x = 100 - 60 = 40 mmHg. 4. First-order rate constant k = (2.303 / t) log\u2081\u2080(P\u2080 / P_A) = (2.303 / 20) log\u2081\u2080(100 / 40) = (2.303 / 20) log\u2081\u2080(2.5) = (2.303 / 20) \u00d7 0.3979 = 0.0458 min\u207b\u00b9."
+      },
+      {
+        "id": "B",
+        "text": "k = 0.0230 min\u207b\u00b9",
+        "isCorrect": false,
+        "explanation": "Calculation error in x."
+      },
+      {
+        "id": "C",
+        "text": "k = 0.0916 min\u207b\u00b9",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      },
+      {
+        "id": "D",
+        "text": "k = 0.0115 min\u207b\u00b9",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      }
+    ],
+    "solutionExplanation": "1. Pressure stoichiometry at time t:\n   Initial: A(g) [P\u2080] \u2500\u2500\u25ba 2B(g) [0] + C(g) [0]\n   Time t:  A(g) [P\u2080 - x] \u2500\u2500\u25ba 2B(g) [2x] + C(g) [x]\n2. Total pressure P_t = (P\u2080 - x) + 2x + x = P\u2080 + 2x \u27f9 220 = 100 + 2x \u27f9 2x = 120 \u27f9 x = 60 mmHg.\n3. Partial pressure of A at time t: P_A = P\u2080 - x = 100 - 60 = 40 mmHg.\n4. First-order rate constant k = (2.303 / t) log\u2081\u2080(P\u2080 / P_A) = (2.303 / 20) log\u2081\u2080(100 / 40) = (2.303 / 20) \u00d7 0.3979 = 0.0458 min\u207b\u00b9.",
+    "keyFormulae": [
+      "P_t = P_0 + 2x, \\quad k = \\frac{2.303}{t} \\log_{10} \\left( \\frac{P_0}{P_0 - x} \\right)"
+    ],
+    "hints": [
+      "Find x from total pressure P_t = P\u2080 + 2x, then find P_A = P\u2080 - x."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-kin-006",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "Initial Rate Method for Rate Law",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "For a multi-step complex reaction A + 2B \u2500\u2500\u25ba C, experimental initial rate data yields the following matrix: Exp 1: [A] = 0.1 M, [B] = 0.1 M \u27f9 Rate = 2.0 \u00d7 10\u207b\u00b3 M/s; Exp 2: [A] = 0.2 M, [B] = 0.1 M \u27f9 Rate = 4.0 \u00d7 10\u207b\u00b3 M/s; Exp 3: [A] = 0.2 M, [B] = 0.3 M \u27f9 Rate = 3.6 \u00d7 10\u207b\u00b2 M/s. What is the Rate Law, overall reaction order (n), and specific rate constant k?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rate = k [A] [B]\u00b2; n = 3; k = 2.0 M\u207b\u00b2\u00b7s\u207b\u00b9",
+        "isCorrect": true,
+        "explanation": "1. Let Rate = k [A]^x [B]^y. 2. Compare Exp 1 & 2 ([B] constant at 0.1 M): Rate\u2082 / Rate\u2081 = (4.0 \u00d7 10\u207b\u00b3) / (2.0 \u00d7 10\u207b\u00b3) = 2 = (0.2 / 0.1)^x = 2^x \u27f9 x = 1 (1st order in A). 3. Compare Exp 2 & 3 ([A] constant at 0.2 M): Rate\u2083 / Rate\u2082 = (3.6 \u00d7 10\u207b\u00b2) / (4.0 \u00d7 10\u207b\u00b3) = 9 = (0.3 / 0.1)^y = 3^y \u27f9 y = 2 (2nd order in B). 4. Overall Order n = x + y = 1 + 2 = 3. 5. Calculate k using Exp 1: 2.0 \u00d7 10\u207b\u00b3 = k (0.1)\u00b9 (0.1)\u00b2 = k (10\u207b\u00b3) \u27f9 k = 2.0 M\u207b\u00b2\u00b7s\u207b\u00b9."
+      },
+      {
+        "id": "B",
+        "text": "Rate = k [A]\u00b2 [B]; n = 3; k = 1.0 M\u207b\u00b2\u00b7s\u207b\u00b9",
+        "isCorrect": false,
+        "explanation": "Swapped exponents for A and B."
+      },
+      {
+        "id": "C",
+        "text": "Rate = k [A] [B]; n = 2; k = 0.2 M\u207b\u00b9\u00b7s\u207b\u00b9",
+        "isCorrect": false,
+        "explanation": "Assumed first-order in B."
+      },
+      {
+        "id": "D",
+        "text": "Rate = k [B]\u00b2; n = 2; k = 2.0 M\u207b\u00b9\u00b7s\u207b\u00b9",
+        "isCorrect": false,
+        "explanation": "Assumed zero-order in A."
+      }
+    ],
+    "solutionExplanation": "1. Let Rate = k [A]^x [B]^y.\n2. Compare Exp 1 & 2 ([B] constant at 0.1 M):\n   Rate\u2082 / Rate\u2081 = (4.0 \u00d7 10\u207b\u00b3) / (2.0 \u00d7 10\u207b\u00b3) = 2 = (0.2 / 0.1)^x = 2^x \u27f9 x = 1 (1st order in A)\n3. Compare Exp 2 & 3 ([A] constant at 0.2 M):\n   Rate\u2083 / Rate\u2082 = (3.6 \u00d7 10\u207b\u00b2) / (4.0 \u00d7 10\u207b\u00b3) = 9 = (0.3 / 0.1)^y = 3^y \u27f9 y = 2 (2nd order in B)\n4. Overall Order n = x + y = 1 + 2 = 3.\n5. Calculate k using Exp 1:\n   2.0 \u00d7 10\u207b\u00b3 = k (0.1)\u00b9 (0.1)\u00b2 = k (10\u207b\u00b3) \u27f9 k = 2.0 M\u207b\u00b2\u00b7s\u207b\u00b9.",
+    "keyFormulae": [
+      "\\text{Rate} = k [A]^x [B]^y, \\quad n = x + y"
+    ],
+    "hints": [
+      "Keep one concentration constant to find the partial order with respect to the other."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-kin-007",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "Catalytic Acceleration Factor",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "The activation energy of an uncatalyzed reaction is E_a = 83.14 kJ/mol at 300 K. Addition of a specific biological catalyst provides a new reaction pathway that lowers the activation energy to E_a' = 48.72 kJ/mol. By what factor (k_cat / k_uncat) is the reaction rate accelerated at 300 K? (R = 8.314 J/mol\u00b7K, e\u00b9\u00b3\u00b7\u2078 \u2248 10\u2076)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accelerated by a factor of 100",
+        "isCorrect": false,
+        "explanation": "Underestimated exponential acceleration."
+      },
+      {
+        "id": "B",
+        "text": "Accelerated by a factor of 10,000",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      },
+      {
+        "id": "C",
+        "text": "Accelerated by a factor of 1,000,000 (10\u2076)",
+        "isCorrect": true,
+        "explanation": "1. Rate constant ratio according to Arrhenius equation: k_cat / k_uncat = (A e^(-E_a'/RT)) / (A e^(-E_a/RT)) = e^((E_a - E_a')/RT). 2. \u0394E_a = E_a - E_a' = (83.14 - 48.72) \u00d7 10\u00b3 J/mol = 34.42 \u00d7 10\u00b3 J/mol = 34420 J/mol. 3. RT = 8.314 \u00d7 300 = 2494.2 J/mol. 4. Exponent: \u0394E_a / RT = 34420 / 2494.2 = 13.8. 5. Acceleration factor = e\u00b9\u00b3\u00b7\u2078 \u2248 10\u2076 (1 Million times faster!)."
+      },
+      {
+        "id": "D",
+        "text": "Rate remains unchanged",
+        "isCorrect": false,
+        "explanation": "Catalysts significantly accelerate rates."
+      }
+    ],
+    "solutionExplanation": "1. Rate constant ratio according to Arrhenius equation:\n   k_cat / k_uncat = (A e^(-E_a'/RT)) / (A e^(-E_a/RT)) = e^((E_a - E_a')/RT)\n2. \u0394E_a = E_a - E_a' = (83.14 - 48.72) \u00d7 10\u00b3 J/mol = 34.42 \u00d7 10\u00b3 J/mol = 34420 J/mol.\n3. RT = 8.314 \u00d7 300 = 2494.2 J/mol.\n4. Exponent: \u0394E_a / RT = 34420 / 2494.2 = 13.8.\n5. Acceleration factor = e\u00b9\u00b3\u00b7\u2078 \u2248 10\u2076 (1 Million times faster!).",
+    "keyFormulae": [
+      "\\frac{k_{\\text{cat}}}{k_{\\text{uncat}}} = e^{\\frac{\\Delta E_a}{RT}}"
+    ],
+    "hints": [
+      "Ratio of rate constants equals e^(\u0394E_a / RT)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-kin-008",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "Radioactive Decay Fraction",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "A nuclear medical isotope \u00b9\u00b3\u00b9I used for thyroid carcinoma treatment undergoes first-order radioactive decay with a half-life t_1/2 = 8.0 days. What fraction of the original radioactive \u00b9\u00b3\u00b9I sample remains active in a patient after 32 days?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/4 (25%)",
+        "isCorrect": false,
+        "explanation": "1/4 corresponds to 2 half-lives (16 days)."
+      },
+      {
+        "id": "B",
+        "text": "1/8 (12.5%)",
+        "isCorrect": false,
+        "explanation": "1/8 corresponds to 3 half-lives (24 days)."
+      },
+      {
+        "id": "C",
+        "text": "1/16 (6.25%)",
+        "isCorrect": true,
+        "explanation": "1. Number of half-lives elapsed n: n = t / t_1/2 = 32 days / 8.0 days = 4 half-lives. 2. Remaining active fraction: Fraction Remaining = (1/2)\u207f = (1/2)\u2074 = 1/16 = 6.25%."
+      },
+      {
+        "id": "D",
+        "text": "1/32 (3.125%)",
+        "isCorrect": false,
+        "explanation": "1/32 corresponds to 5 half-lives (40 days)."
+      }
+    ],
+    "solutionExplanation": "1. Number of half-lives elapsed n:\n   n = t / t_1/2 = 32 days / 8.0 days = 4 half-lives\n2. Remaining active fraction:\n   Fraction Remaining = (1/2)\u207f = (1/2)\u2074 = 1/16 = 6.25%.",
+    "keyFormulae": [
+      "\\text{Fraction Remaining} = \\left( \\frac{1}{2} \\right)^n = \\left( \\frac{1}{2} \\right)^{t / t_{1/2}}"
+    ],
+    "hints": [
+      "Count number of half-lives: 32 / 8 = 4 half-lives."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-kin-009",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "Reaction Enthalpy from Activation Energies",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "For an elementary reversible reaction A \u21cc B, the forward activation energy is E_a,f = 45.0 kJ/mol and the backward activation energy is E_a,b = 70.0 kJ/mol. What is the standard reaction enthalpy (\u0394_r H\u00b0) and thermodynamic nature of the forward reaction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\u0394_r H\u00b0 = +25.0 kJ/mol; Endothermic",
+        "isCorrect": false,
+        "explanation": "Sign error in \u0394H."
+      },
+      {
+        "id": "B",
+        "text": "\u0394_r H\u00b0 = -25.0 kJ/mol; Exothermic",
+        "isCorrect": true,
+        "explanation": "1. Thermodynamic relation between activation energies and reaction enthalpy: \u0394_r H\u00b0 = E_a,f - E_a,b. 2. Calculation: \u0394_r H\u00b0 = 45.0 - 70.0 = -25.0 kJ/mol. 3. Since \u0394_r H\u00b0 < 0 (negative), the forward reaction is Exothermic."
+      },
+      {
+        "id": "C",
+        "text": "\u0394_r H\u00b0 = -115.0 kJ/mol; Exothermic",
+        "isCorrect": false,
+        "explanation": "Added activation energies."
+      },
+      {
+        "id": "D",
+        "text": "\u0394_r H\u00b0 = +115.0 kJ/mol; Endothermic",
+        "isCorrect": false,
+        "explanation": "Added activation energies."
+      }
+    ],
+    "solutionExplanation": "1. Thermodynamic relation between activation energies and reaction enthalpy:\n   \u0394_r H\u00b0 = E_a,f - E_a,b\n2. Calculation:\n   \u0394_r H\u00b0 = 45.0 - 70.0 = -25.0 kJ/mol\n3. Since \u0394_r H\u00b0 < 0 (negative), the forward reaction is Exothermic.",
+    "keyFormulae": [
+      "\\Delta_r H^\\circ = E_{a,f} - E_{a,b}"
+    ],
+    "hints": [
+      "\u0394H = E_forward - E_backward."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-kin-010",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "n-th Order Half-Life Scaling",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "For an n-th order chemical reaction, how does the half-life (t_1/2) scale with initial reactant concentration [A]\u2080?",
+    "options": [
+      {
+        "id": "A",
+        "text": "t_1/2 \u221d [A]\u2080\u207f",
+        "isCorrect": false,
+        "explanation": "Incorrect scaling."
+      },
+      {
+        "id": "B",
+        "text": "t_1/2 \u221d [A]\u2080^(1-n)",
+        "isCorrect": true,
+        "explanation": "The general relationship between half-life and initial concentration for an n-th order reaction is: t_1/2 \u221d 1 / [A]\u2080^(n-1) = [A]\u2080^(1-n). For n=0 \u27f9 t_1/2 \u221d [A]\u2080\u00b9 (Directly proportional). For n=1 \u27f9 t_1/2 \u221d [A]\u2080\u2070 (Independent). For n=2 \u27f9 t_1/2 \u221d [A]\u2080\u207b\u00b9 (Inversely proportional)."
+      },
+      {
+        "id": "C",
+        "text": "t_1/2 \u221d [A]\u2080^(n-1)",
+        "isCorrect": false,
+        "explanation": "Inverted exponent."
+      },
+      {
+        "id": "D",
+        "text": "t_1/2 \u221d 1 / [A]\u2080^(1-n)",
+        "isCorrect": false,
+        "explanation": "Incorrect formula."
+      }
+    ],
+    "solutionExplanation": "The general relationship between half-life and initial concentration for an n-th order reaction is:\nt_1/2 \u221d 1 / [A]\u2080^(n-1) = [A]\u2080^(1-n)\n\u2022 For n=0 \u27f9 t_1/2 \u221d [A]\u2080\u00b9 (Directly proportional).\n\u2022 For n=1 \u27f9 t_1/2 \u221d [A]\u2080\u2070 (Independent).\n\u2022 For n=2 \u27f9 t_1/2 \u221d [A]\u2080\u207b\u00b9 (Inversely proportional).",
+    "keyFormulae": [
+      "t_{1/2} \\propto [A]_0^{1-n}"
+    ],
+    "hints": [
+      "For zero-order n=0, t_1/2 \u221d [A]\u2080; for first-order n=1, t_1/2 is independent."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-kin-011",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "Zero-Order Kinetics Facts",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following statements correctly characterize a ZERO-ORDER reaction (A \u2500\u2500\u25ba Products)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The reaction rate is completely independent of reactant concentration ([A]_t = [A]\u2080 - kt)",
+        "isCorrect": true,
+        "explanation": "Zero-order rate is constant (k), integrated law [A]_t = [A]\u2080 - kt."
+      },
+      {
+        "id": "B",
+        "text": "The half-life (t_1/2 = [A]\u2080 / 2k) is directly proportional to initial concentration [A]\u2080",
+        "isCorrect": true,
+        "explanation": "t_1/2 = [A]\u2080 / 2k."
+      },
+      {
+        "id": "C",
+        "text": "The time required for 100% completion is t_100% = 2 \u00d7 t_1/2",
+        "isCorrect": true,
+        "explanation": "Total completion t_100% = [A]\u2080 / k = 2 t_1/2."
+      },
+      {
+        "id": "D",
+        "text": "The units of the rate constant k are s\u207b\u00b9",
+        "isCorrect": false,
+        "explanation": "Units of k for zero-order are M\u00b7s\u207b\u00b9 or mol\u00b7L\u207b\u00b9\u00b7s\u207b\u00b9 (s\u207b\u00b9 applies to first-order)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Zero-order rate is constant (k), integrated law [A]_t = [A]\u2080 - kt, t_1/2 = [A]\u2080 / 2k, and total completion t_100% = [A]\u2080 / k = 2 t_1/2.\n\u2022 D is incorrect: Units of k for zero-order are M\u00b7s\u207b\u00b9 or mol\u00b7L\u207b\u00b9\u00b7s\u207b\u00b9. (s\u207b\u00b9 applies to first-order).",
+    "keyFormulae": [
+      "[A]_t = [A]_0 - k t, \\quad t_{1/2} = \\frac{[A]_0}{2k}, \\quad t_{100\\%} = 2 t_{1/2}"
+    ],
+    "hints": [
+      "Zero-order rate is constant and completion time is exactly 2 half-lives."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-kin-012",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "First-Order Kinetics Facts",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding FIRST-ORDER reaction kinetics (A \u2500\u2500\u25ba Products): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The half-life (t_1/2 = 0.693 / k) is completely independent of initial concentration [A]\u2080",
+        "isCorrect": true,
+        "explanation": "Core characteristic of first-order kinetics."
+      },
+      {
+        "id": "B",
+        "text": "A plot of ln [A]_t versus time t yields a straight line with slope equal to -k",
+        "isCorrect": true,
+        "explanation": "ln [A]_t = ln [A]\u2080 - kt has slope -k."
+      },
+      {
+        "id": "C",
+        "text": "The time required for 75% completion (t_75%) is equal to two half-lives (2 \u00d7 t_1/2)",
+        "isCorrect": true,
+        "explanation": "t_75% = 2 t_1/2."
+      },
+      {
+        "id": "D",
+        "text": "A first-order reaction reaches 100% completion in time t = 2/k",
+        "isCorrect": false,
+        "explanation": "A first-order reaction approaches 100% completion asymptotically (t_100% = \u221e)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: t_1/2 is independent of [A]\u2080; ln [A]_t = ln [A]\u2080 - kt has slope -k; t_75% = 2 t_1/2.\n\u2022 D is incorrect: A first-order reaction approaches 100% completion asymptotically (t_100% = \u221e).",
+    "keyFormulae": [
+      "t_{1/2} = \\frac{0.693}{k}, \\quad t_{75\\%} = 2 t_{1/2}"
+    ],
+    "hints": [
+      "First-order reactions take infinite time to reach 100% completion."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-kin-013",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "Pseudo-First-Order Reactions",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following chemical reactions represent PSEUDO-FIRST-ORDER systems? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acid-catalyzed inversion of cane sugar: C\u2081\u2082H\u2082\u2082O\u2081\u2081 + H\u2082O (Excess) \u2500\u2500[H\u207a]\u2500\u2500\u25ba Glucose + Fructose",
+        "isCorrect": true,
+        "explanation": "Water is present in massive excess, keeping its concentration constant."
+      },
+      {
+        "id": "B",
+        "text": "Acidic hydrolysis of ethyl acetate: CH\u2083COOC\u2082H\u2085 + H\u2082O (Excess) \u2500\u2500[H\u207a]\u2500\u2500\u25ba CH\u2083COOH + C\u2082H\u2085OH",
+        "isCorrect": true,
+        "explanation": "Water is present in massive excess, keeping its concentration constant."
+      },
+      {
+        "id": "C",
+        "text": "Radioactive decay of Radium-226",
+        "isCorrect": false,
+        "explanation": "Radioactive decay is a true natural first-order reaction (not pseudo)."
+      },
+      {
+        "id": "D",
+        "text": "Alkaline saponification of ethyl acetate: CH\u2083COOC\u2082H\u2085 + NaOH \u2500\u2500\u25ba CH\u2083COONa + C\u2082H\u2085OH",
+        "isCorrect": false,
+        "explanation": "Alkaline saponification is a true second-order reaction (Rate = k [Ester] [NaOH])."
+      }
+    ],
+    "solutionExplanation": "\u2022 A and B are correct: Sugar inversion and acid ester hydrolysis are pseudo-first-order reactions because water is present in massive excess, keeping its concentration constant.\n\u2022 C is incorrect: Radioactive decay is a true natural first-order reaction (not pseudo).\n\u2022 D is incorrect: Alkaline saponification is a true second-order reaction (Rate = k [Ester] [NaOH]).",
+    "keyFormulae": [
+      "\\text{Pseudo-first-order: } \\text{Rate} = k' [A] [\\text{Excess } B] = k [A]"
+    ],
+    "hints": [
+      "Look for reactions where one reactant (water) is in large excess."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-kin-014",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "Arrhenius Equation Principles",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding the Arrhenius Equation (k = A e^(-E_a / RT)): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The pre-exponential factor A has the same units as the rate constant k",
+        "isCorrect": true,
+        "explanation": "e^(-E_a/RT) is dimensionless, so units of A match k."
+      },
+      {
+        "id": "B",
+        "text": "The term e^(-E_a / RT) represents the fraction of molecules possessing kinetic energy \u2265 E_a",
+        "isCorrect": true,
+        "explanation": "Boltzmann factor definition."
+      },
+      {
+        "id": "C",
+        "text": "Plotting log\u2081\u2080 k versus 1/T gives a straight line with slope equal to -E_a / (2.303 R)",
+        "isCorrect": true,
+        "explanation": "Standard linear form of Arrhenius equation."
+      },
+      {
+        "id": "D",
+        "text": "Higher activation energy (E_a) means the rate constant k is extremely sensitive to temperature changes",
+        "isCorrect": true,
+        "explanation": "Steeper slope on Arrhenius plot."
+      }
+    ],
+    "solutionExplanation": "All four options represent accurate physical and mathematical properties of the Arrhenius equation.",
+    "keyFormulae": [
+      "k = A e^{-E_a / RT}, \\quad \\log_{10} k = \\log_{10} A - \\frac{E_a}{2.303 R T}"
+    ],
+    "hints": [
+      "Review Arrhenius parameters: A, E_a, Boltzmann factor, and plot slope."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-kin-015",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "Catalyst Kinetic Effects",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following statements regarding Catalysts and Reaction Kinetics are TRUE? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "A catalyst lowers the activation energy of both forward (E_a,f) and backward (E_a,b) reactions by the exact same amount",
+        "isCorrect": true,
+        "explanation": "A catalyst lowers E_a equally in both directions."
+      },
+      {
+        "id": "B",
+        "text": "A catalyst increases the rate of reaction without altering the standard reaction enthalpy (\u0394_r H\u00b0)",
+        "isCorrect": true,
+        "explanation": "Leaves \u0394_r H\u00b0 and \u0394_r G\u00b0 unchanged."
+      },
+      {
+        "id": "C",
+        "text": "A catalyst increases the value of the equilibrium constant (K_eq) to favor product formation",
+        "isCorrect": false,
+        "explanation": "A catalyst NEVER changes K_eq; it merely decreases the time required to reach equilibrium."
+      },
+      {
+        "id": "D",
+        "text": "A catalyst speeds up both forward and reverse reaction rates equally",
+        "isCorrect": true,
+        "explanation": "Accelerates forward and reverse rates equally."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, D are correct: A catalyst lowers E_a equally in both directions, accelerates forward and reverse rates equally, and leaves \u0394_r H\u00b0 and \u0394_r G\u00b0 unchanged.\n\u2022 C is incorrect: A catalyst NEVER changes K_eq; it merely decreases the time required to reach equilibrium.",
+    "keyFormulae": [
+      "\\Delta E_{a,f} = \\Delta E_{a,b}, \\quad K_{\\text{eq}} = \\text{invariant}"
+    ],
+    "hints": [
+      "Catalysts change path and activation energy, not thermodynamic state functions or equilibrium constants."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-kin-016",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "Collision Theory Criteria",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding Collision Theory of chemical reactions: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reaction rate depends on the product of collision frequency (Z_AB), Boltzmann factor (e^(-E_a / RT)), and steric factor (P)",
+        "isCorrect": true,
+        "explanation": "Rate = P \u00b7 Z_AB \u00b7 e^(-E_a/RT)."
+      },
+      {
+        "id": "B",
+        "text": "Collisions are effective only if colliding species possess energy \u2265 Threshold Energy (E_T) AND proper spatial orientation",
+        "isCorrect": true,
+        "explanation": "Effective collisions require E \u2265 E_T and correct steric orientation P."
+      },
+      {
+        "id": "C",
+        "text": "The steric factor P accounts for the 3D spatial alignment of reacting molecules during collision",
+        "isCorrect": true,
+        "explanation": "Definition of steric factor P."
+      },
+      {
+        "id": "D",
+        "text": "All molecular collisions result in product formation",
+        "isCorrect": false,
+        "explanation": "Most collisions are ineffective because molecules lack sufficient activation energy or proper spatial alignment."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Rate = P \u00b7 Z_AB \u00b7 e^(-E_a/RT); effective collisions require E \u2265 E_T and correct steric orientation P.\n\u2022 D is incorrect: Most collisions are ineffective because molecules lack sufficient activation energy or proper spatial alignment.",
+    "keyFormulae": [
+      "\\text{Rate} = P \\cdot Z_{AB} \\cdot e^{-E_a / RT}"
+    ],
+    "hints": [
+      "Effective collisions require both energy criterion (E \u2265 E_T) and orientation criterion (steric factor P)."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-kin-017",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "Second-Order Rate Constant Units",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following units represent valid rate constant (k) units for a SECOND-ORDER reaction? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "L\u00b7mol\u207b\u00b9\u00b7s\u207b\u00b9",
+        "isCorrect": true,
+        "explanation": "Units of k = (M)^(1-n) \u00b7 s\u207b\u00b9. For n=2 \u27f9 (M)\u207b\u00b9\u00b7s\u207b\u00b9 = L\u00b7mol\u207b\u00b9\u00b7s\u207b\u00b9."
+      },
+      {
+        "id": "B",
+        "text": "M\u207b\u00b9\u00b7s\u207b\u00b9",
+        "isCorrect": true,
+        "explanation": "Equivalent to L\u00b7mol\u207b\u00b9\u00b7s\u207b\u00b9."
+      },
+      {
+        "id": "C",
+        "text": "atm\u207b\u00b9\u00b7s\u207b\u00b9",
+        "isCorrect": true,
+        "explanation": "Gas-phase second-order unit."
+      },
+      {
+        "id": "D",
+        "text": "mol\u00b7L\u207b\u00b9\u00b7s\u207b\u00b9",
+        "isCorrect": false,
+        "explanation": "mol\u00b7L\u207b\u00b9\u00b7s\u207b\u00b9 is the unit for a zero-order reaction."
+      }
+    ],
+    "solutionExplanation": "\u2022 Units of k = (M)^(1-n) \u00b7 s\u207b\u00b9. For n=2 \u27f9 (M)\u207b\u00b9\u00b7s\u207b\u00b9 = L\u00b7mol\u207b\u00b9\u00b7s\u207b\u00b9 or M\u207b\u00b9\u00b7s\u207b\u00b9. For gas-phase, atm\u207b\u00b9\u00b7s\u207b\u00b9.\n\u2022 D is incorrect: mol\u00b7L\u207b\u00b9\u00b7s\u207b\u00b9 is the unit for a zero-order reaction.",
+    "keyFormulae": [
+      "\\text{Units of } k = (\\text{M})^{1-n} \\cdot \\text{s}^{-1}"
+    ],
+    "hints": [
+      "Substitute n=2 into (mol/L)^(1-n) \u00b7 s\u207b\u00b9."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-kin-018",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "Trimolecular Elementary Reaction Facts",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "For an elementary trimolecular reaction 2A + B \u2500\u2500\u25ba C, which of the following statements are correct? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The molecularity of the reaction is equal to 3",
+        "isCorrect": true,
+        "explanation": "2 + 1 = 3 molecules colliding."
+      },
+      {
+        "id": "B",
+        "text": "The overall order of the reaction is equal to 3 (Rate = k [A]\u00b2 [B])",
+        "isCorrect": true,
+        "explanation": "For elementary steps, order equals molecularity."
+      },
+      {
+        "id": "C",
+        "text": "The probability of simultaneous 3-body collision is very low, making such reactions rare",
+        "isCorrect": true,
+        "explanation": "Kinetic reason why molecularity > 3 is practically non-existent."
+      },
+      {
+        "id": "D",
+        "text": "Molecularity can be deduced directly from the balanced elementary equation",
+        "isCorrect": true,
+        "explanation": "Applicable to elementary reactions."
+      }
+    ],
+    "solutionExplanation": "All four options represent accurate facts for elementary reactions (2+1=3 molecularity and order, low 3-body collision probability).",
+    "keyFormulae": [
+      "\\text{For Elementary Step: Order } = \\text{Molecularity}"
+    ],
+    "hints": [
+      "For elementary reactions, stoichiometric coefficients match reaction order."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-kin-019",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "Temperature Coefficient Facts",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding the Temperature Coefficient (TC) of a chemical reaction: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "TC = k_(T+10) / k_T \u2248 2 to 3",
+        "isCorrect": true,
+        "explanation": "Standard definition of temperature coefficient."
+      },
+      {
+        "id": "B",
+        "text": "Increasing temperature increases the fraction of molecules possessing energy \u2265 E_a (represented by the area under the Maxwell-Boltzmann curve beyond E_a)",
+        "isCorrect": true,
+        "explanation": "Maxwell-Boltzmann distribution explanation."
+      },
+      {
+        "id": "C",
+        "text": "The temperature coefficient implies that average kinetic energy doubles with every 10\u00b0C rise",
+        "isCorrect": false,
+        "explanation": "Average kinetic energy (E_k = (3/2)RT) is proportional to absolute T (K). A 10\u00b0C rise from 300 K to 310 K increases average E_k by only ~3.3%, NOT 100%! The rate doubles because the fraction of molecules crossing E_a increases dramatically."
+      },
+      {
+        "id": "D",
+        "text": "The primary reason for rate acceleration with temperature is the dramatic increase in the fraction of effective collisions (e^(-E_a/RT))",
+        "isCorrect": true,
+        "explanation": "Exponential increase in Boltzmann factor."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, D are correct: TC \u2248 2\u20133; T rise increases the fraction of molecules with E \u2265 E_a (the Boltzmann factor increases exponentially).\n\u2022 C is incorrect: Average kinetic energy (E_k = (3/2)RT) is proportional to absolute T (K). A 10\u00b0C rise from 300 K to 310 K increases average E_k by only ~3.3%, NOT 100%! The rate doubles because the fraction of molecules crossing E_a increases dramatically.",
+    "keyFormulae": [
+      "\\text{TC} = \\frac{k_{T+10}}{k_T} \\approx 2\\text{--}3"
+    ],
+    "hints": [
+      "Average kinetic energy is proportional to T (Kelvin), not rate."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-kin-020",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "subtopic": "First-Order Mathematical Relationships",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following mathematical relationships are correct for a FIRST-ORDER reaction (A \u2500\u2500\u25ba Products)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "[A]_t = [A]\u2080 e^(-kt)",
+        "isCorrect": true,
+        "explanation": "Exponential decay form."
+      },
+      {
+        "id": "B",
+        "text": "t_1/2 = 0.693 / k",
+        "isCorrect": true,
+        "explanation": "Half-life equation."
+      },
+      {
+        "id": "C",
+        "text": "t_99.9% \u2248 10 \u00d7 t_1/2",
+        "isCorrect": true,
+        "explanation": "t_99.9% = (2.303/k) log(1000) = (2.303 \u00d7 3)/k = 6.909/k \u2248 10 \u00d7 (0.693/k) = 10 t_1/2."
+      },
+      {
+        "id": "D",
+        "text": "log\u2081\u2080([A]\u2080 / [A]_t) = kt / 2.303",
+        "isCorrect": true,
+        "explanation": "Rearranged integrated rate law: log\u2081\u2080([A]\u2080 / [A]_t) = kt / 2.303."
+      }
+    ],
+    "solutionExplanation": "All four options represent mathematically exact equations and relationships for first-order reaction kinetics (t_99.9% = (2.303/k) log(1000) = (2.303 \u00d7 3)/k = 6.909/k \u2248 10 \u00d7 0.693/k = 10 t_1/2).",
+    "keyFormulae": [
+      "[A]_t = [A]_0 e^{-kt}, \\quad t_{1/2} = \\frac{0.693}{k}, \\quad t_{99.9\\%} \\approx 10 t_{1/2}"
+    ],
+    "hints": [
+      "Review first-order exponential, half-life, and 99.9% fractional completion equations."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

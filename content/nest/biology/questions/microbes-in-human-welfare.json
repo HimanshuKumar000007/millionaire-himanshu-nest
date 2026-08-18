@@ -1,0 +1,605 @@
+[
+  {
+    "id": "bio-xii-u8-c8-q01",
+    "questionNumber": 1,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Statins Mechanism",
+    "questionText": "An industrial biochemist isolates a bioactive compound from the yeast Monascus purpureus. Clinical trials confirm that this molecule effectively lowers serum LDL cholesterol in hypercholesterolemic patients. What is the specific enzymatic mechanism by which this bioactive molecule operates?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Irreversible covalent inhibition of Lipase in the small intestine"
+      },
+      {
+        "id": "B",
+        "text": "Competitive inhibition of HMG-CoA Reductase, the rate-limiting enzyme in hepatic cholesterol synthesis"
+      },
+      {
+        "id": "C",
+        "text": "Allosteric activation of LPL in adipose tissue"
+      },
+      {
+        "id": "D",
+        "text": "Direct degradation of intestinal chylomicrons"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The yeast Monascus purpureus produces Statins. Statins function as competitive inhibitors of HMG-CoA Reductase (3-hydroxy-3-methylglutaryl-coenzyme A reductase), which is the rate-limiting enzyme in the hepatic cholesterol biosynthetic pathway."
+  },
+  {
+    "id": "bio-xii-u8-c8-q02",
+    "questionNumber": 2,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Flocs in Sewage Treatment",
+    "questionText": "During secondary biological sewage treatment in an STP, primary effluent is continuously agitated in large aeration tanks containing vigorous growths of aerobic microbes termed 'Flocs'. What is the physical and biological constitution of a 'Floc'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anaerobic methanogenic bacteria encapsulated in suberized capsules"
+      },
+      {
+        "id": "B",
+        "text": "Masses of bacterial cells associated with fungal filaments to form mesh-like structures"
+      },
+      {
+        "id": "C",
+        "text": "Insoluble inorganic silica grit bound to algal cells"
+      },
+      {
+        "id": "D",
+        "text": "Ciliated protozoans bound to viral protein capsids"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In secondary sewage treatment aeration tanks, Flocs are biological masses consisting of aerobic bacterial cells held together by network-forming fungal filaments into mesh-like aggregates. They rapidly consume dissolved organic matter, lowering the Biochemical Oxygen Demand (BOD)."
+  },
+  {
+    "id": "bio-xii-u8-c8-q03",
+    "questionNumber": 3,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Streptokinase Clot Buster",
+    "questionText": "A cardiology team treats a 55-year-old patient who suffered an acute myocardial infarction caused by an intravascular blood clot in the left anterior descending coronary artery. Which genetically modified microbial enzyme is administered intravenously as a 'clot buster' to dissolve this thrombus?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cyclosporin A from Trichoderma polysporum"
+      },
+      {
+        "id": "B",
+        "text": "Streptokinase produced by Streptococcus species"
+      },
+      {
+        "id": "C",
+        "text": "Pectinase from Aspergillus niger"
+      },
+      {
+        "id": "D",
+        "text": "Statins from Monascus purpureus"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Streptokinase produced by Streptococcus bacteria is genetically modified and used clinically as a 'Clot Buster' to digest fibrin in intravascular blood clots in patients suffering myocardial infarction."
+  },
+  {
+    "id": "bio-xii-u8-c8-q04",
+    "questionNumber": 4,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Baculovirus Biocontrol Specificity",
+    "questionText": "In Integrated Pest Management (IPM) programs targeting organic crops, farmers utilize Baculoviruses belonging to the genus Nucleopolyhedrovirus. What unique ecological property makes these viral agents superior to broad-spectrum chemical insecticides?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They persist in soil for 50 years and kill all soil nematodes."
+      },
+      {
+        "id": "B",
+        "text": "They exhibit species-specific, narrow-spectrum insecticidal action with NO negative impacts on non-target plants, mammals, birds, or beneficial insects."
+      },
+      {
+        "id": "C",
+        "text": "They fix atmospheric nitrogen while killing pests."
+      },
+      {
+        "id": "D",
+        "text": "They convert crop cellulose into high-grade biogas during infection."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Baculoviruses (genus Nucleopolyhedrovirus) are ideal biocontrol agents in ecologically sensitive IPM programs because they are species-specific and narrow-spectrum, killing target arthropod pests without exerting adverse toxic effects on non-target plants, birds, mammals, fish, or beneficial pollinating insects."
+  },
+  {
+    "id": "bio-xii-u8-c8-q05",
+    "questionNumber": 5,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "BOD Interpretation",
+    "questionText": "A water sample collected from a downstream river receiving untreated industrial and municipal discharge is analyzed for water quality. The laboratory records a Biochemical Oxygen Demand (BOD) value of 450 mg O2/L. What does this high BOD value indicate regarding the pollution status and dissolved oxygen (DO) content of the river?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Low organic pollution; high dissolved oxygen content supporting aquatic life"
+      },
+      {
+        "id": "B",
+        "text": "High organic pollution load; rapid microbial consumption leading to severe depletion of dissolved oxygen"
+      },
+      {
+        "id": "C",
+        "text": "High concentration of inorganic heavy metals; zero microbial activity"
+      },
+      {
+        "id": "D",
+        "text": "Complete absence of bacterial and fungal populations"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Biochemical Oxygen Demand (BOD) measures the amount of dissolved oxygen required by aerobic microbes to oxidize organic matter in water. A high BOD value (450 mg/L) indicates a heavy organic pollution load, which drives intense microbial respiration that rapidly exhausts dissolved oxygen (DO)."
+  },
+  {
+    "id": "bio-xii-u8-c8-q06",
+    "questionNumber": 6,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Frankia Non-Legume Symbiont",
+    "questionText": "Which non-leguminous tree species forms a symbiotic root-nodule association with the nitrogen-fixing actinomycete endosymbiont Frankia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pisum sativum (Pea)"
+      },
+      {
+        "id": "B",
+        "text": "Alnus (Alder)"
+      },
+      {
+        "id": "C",
+        "text": "Azolla pinnata"
+      },
+      {
+        "id": "D",
+        "text": "Cicer arietinum (Chickpea)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "While Rhizobium forms symbiotic nitrogen-fixing nodules on leguminous plants (peas, beans), the filamentous actinomycete Frankia forms nitrogen-fixing root nodules on non-leguminous trees and shrubs such as Alnus (Alder) and Casuarina."
+  },
+  {
+    "id": "bio-xii-u8-c8-q07",
+    "questionNumber": 7,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Cyclosporin A Immunosuppressant",
+    "questionText": "What bioactive molecule produced by the fungus Trichoderma polysporum is routinely administered to patients undergoing organ transplantation, and what is its specific immunological target?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Statin; inhibits HMG-CoA reductase"
+      },
+      {
+        "id": "B",
+        "text": "Cyclosporin A; acts as an Immunosuppressive Agent that inhibits T-cell activation"
+      },
+      {
+        "id": "C",
+        "text": "Streptokinase; activates B-cell antibody production"
+      },
+      {
+        "id": "D",
+        "text": "Penicillin; destroys bacterial cell walls"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Cyclosporin A, isolated from the soil fungus Trichoderma polysporum, is an essential immunosuppressive drug used in organ transplantation to selectively inhibit T-lymphocyte activation, preventing cell-mediated graft rejection."
+  },
+  {
+    "id": "bio-xii-u8-c8-q08",
+    "questionNumber": 8,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Methanogens in Biogas",
+    "questionText": "In a Gobar Gas (Biogas) plant, cellulosic slurry undergoes multi-stage anaerobic digestion. Which specific group of obligate anaerobic archaebacteria dominates the final gas-producing phase in the concrete digester tank?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nitrifying bacteria (Nitrosomonas)"
+      },
+      {
+        "id": "B",
+        "text": "Methanogens (Methanobacterium)"
+      },
+      {
+        "id": "C",
+        "text": "Purple non-sulfur bacteria (Rhodospirillum)"
+      },
+      {
+        "id": "D",
+        "text": "Lactic Acid Bacteria (Lactobacillus)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The final stage of biogas production is carried out by Methanogens (such as Methanobacterium). These obligate anaerobic bacteria break down cellulosic organic material, generating a biogas mixture rich in Methane (CH4 ≈ 50–70%), CO2, and H2S."
+  },
+  {
+    "id": "bio-xii-u8-c8-q09",
+    "questionNumber": 9,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Glomus Phosphorus Absorption",
+    "questionText": "Which fungal genus forms endomycorrhizal associations with vascular plant roots, actively absorbing insoluble soil Phosphorus (Phosphate) and transferring it to the host plant?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rhizopus"
+      },
+      {
+        "id": "B",
+        "text": "Glomus"
+      },
+      {
+        "id": "C",
+        "text": "Aspergillus"
+      },
+      {
+        "id": "D",
+        "text": "Agaricus"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Fungi belonging to the genus Glomus form endomycorrhizal associations with plant roots, absorbing insoluble Phosphorus (Phosphate) from soil and transferring it to the plant."
+  },
+  {
+    "id": "bio-xii-u8-c8-q10",
+    "questionNumber": 10,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Bt Cry Toxin Specificity",
+    "questionText": "Why is the bio-pesticide Bacillus thuringiensis (Bt) completely harmless to the human digestive tract when ingested, whereas it causes fatal gut lysis in target caterpillar larvae?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Human gastric acid destroys the Cry protein, whereas insect blood converts it to sugar."
+      },
+      {
+        "id": "B",
+        "text": "Bt Cry protoxin requires an alkaline gut pH (present in insect midguts) for solubilization and activation, which is absent in the acidic human stomach (pH 1.8)."
+      },
+      {
+        "id": "C",
+        "text": "Human stomach cells lack DNA polymerases."
+      },
+      {
+        "id": "D",
+        "text": "Bt spores infect only plant chloroplasts."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bacillus thuringiensis produces inactive crystalline Cry Protoxins. In target insect larvae, the alkaline pH of the midgut solubilizes the crystal protoxin, allowing midgut proteases to cleave it into an active Cry toxin. In humans, the acidic gastric environment (pH 1.8) denatures the protoxin safely without activation."
+  },
+  {
+    "id": "bio-xii-u8-c8-q11",
+    "questionNumber": 11,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Microbial Organic Acids",
+    "questionText": "Which of the following organic acids correctly match their commercial microbial producer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Citric Acid -> Aspergillus niger (Fungus)"
+      },
+      {
+        "id": "B",
+        "text": "Acetic Acid -> Acetobacter aceti (Bacterium)"
+      },
+      {
+        "id": "C",
+        "text": "Butyric Acid -> Clostridium butylicum (Bacterium)"
+      },
+      {
+        "id": "D",
+        "text": "Lactic Acid -> Lactobacillus species (Bacterium)"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "All four options represent accurate commercial microbial sources for industrial organic acid production."
+  },
+  {
+    "id": "bio-xii-u8-c8-q12",
+    "questionNumber": 12,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Lactic Acid Bacteria in Food",
+    "questionText": "Select the valid statements regarding Lactic Acid Bacteria (LAB) in food processing:",
+    "options": [
+      {
+        "id": "A",
+        "text": "LAB ferment milk lactose into lactic acid, which coagulates casein protein to form curd."
+      },
+      {
+        "id": "B",
+        "text": "Curd formation by LAB enriches the nutritional quality of milk by increasing Vitamin B12 content."
+      },
+      {
+        "id": "C",
+        "text": "LAB play a beneficial probiotic role in the human GI tract by checking the growth of disease-causing pathogens."
+      },
+      {
+        "id": "D",
+        "text": "LAB produce large gas bubbles that create the holes in Swiss cheese."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: LAB ferment lactose to lactic acid, coagulate casein, enrich Vitamin B12, and suppress gut pathogens. D is incorrect: The large holes in Swiss cheese are produced by CO2 gas from the bacterium Propionibacterium shermanii, not LAB."
+  },
+  {
+    "id": "bio-xii-u8-c8-q13",
+    "questionNumber": 13,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Non-Distilled Alcoholic Beverages",
+    "questionText": "Which of the following alcoholic beverages are produced WITHOUT distillation of the fermented broth?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wine"
+      },
+      {
+        "id": "B",
+        "text": "Beer"
+      },
+      {
+        "id": "C",
+        "text": "Whisky"
+      },
+      {
+        "id": "D",
+        "text": "Brandy"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B"
+    ],
+    "explanation": "A and B are correct: Wine and Beer are non-distilled alcoholic beverages (4–14% alcohol). C and D are incorrect: Whisky, Brandy, and Rum are produced by distillation of the fermented broth (40–50%)."
+  },
+  {
+    "id": "bio-xii-u8-c8-q14",
+    "questionNumber": 14,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Secondary Sewage Treatment Steps",
+    "questionText": "Select the correct statements regarding Secondary Sewage Treatment in a WWTP:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Primary effluent is aerated in large tanks to promote the growth of aerobic microbial flocs."
+      },
+      {
+        "id": "B",
+        "text": "Flocs are mesh-like masses of bacterial cells held together by fungal filaments."
+      },
+      {
+        "id": "C",
+        "text": "Microbial digestion in aeration tanks dramatically REDUCES the Biochemical Oxygen Demand (BOD) of sewage."
+      },
+      {
+        "id": "D",
+        "text": "Bulk settled activated sludge is pumped into Anaerobic Sludge Digesters where methanogens produce Biogas."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "All four options represent true biological and physical steps of secondary wastewater treatment."
+  },
+  {
+    "id": "bio-xii-u8-c8-q15",
+    "questionNumber": 15,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Biocontrol Agents",
+    "questionText": "Which of the following organisms serve as biological control agents for agricultural pest and disease management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ladybird Beetles (controls Aphids)"
+      },
+      {
+        "id": "B",
+        "text": "Dragonflies (controls Mosquito larvae)"
+      },
+      {
+        "id": "C",
+        "text": "Trichoderma species (controls soil-borne root fungal pathogens)"
+      },
+      {
+        "id": "D",
+        "text": "Nucleopolyhedroviruses (controls specific insect pests)"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "All four organisms are established biocontrol agents used in Integrated Pest Management (IPM) to replace synthetic chemical pesticides."
+  },
+  {
+    "id": "bio-xii-u8-c8-q16",
+    "questionNumber": 16,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Nitrogen-Fixing Bio-Fertilizers",
+    "questionText": "Which of the following organisms function as Bio-Fertilizers by fixing atmospheric nitrogen (N2)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rhizobium (symbiotic in leguminous root nodules)"
+      },
+      {
+        "id": "B",
+        "text": "Azotobacter (free-living aerobic soil bacterium)"
+      },
+      {
+        "id": "C",
+        "text": "Anabaena azollae (endosymbiont in the aquatic fern Azolla)"
+      },
+      {
+        "id": "D",
+        "text": "Glomus (mycorrhizal fungus)"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Rhizobium, Azotobacter, and Anabaena azollae fix atmospheric nitrogen into ammonia. D is incorrect: Glomus is a mycorrhizal fungus that solubilizes and absorbs Phosphorus (Phosphate), not nitrogen."
+  },
+  {
+    "id": "bio-xii-u8-c8-q17",
+    "questionNumber": 17,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Penicillin Discovery & Nobel",
+    "questionText": "Select the correct options regarding the discovery and properties of Penicillin:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alexander Fleming discovered Penicillin in 1928 while working on Staphylococcus bacteria."
+      },
+      {
+        "id": "B",
+        "text": "Penicillin was produced by the contaminant mold Penicillium notatum."
+      },
+      {
+        "id": "C",
+        "text": "Ernest Chain and Howard Florey established the full therapeutic potential of Penicillin as an antibiotic."
+      },
+      {
+        "id": "D",
+        "text": "Fleming, Chain, and Florey were jointly awarded the Nobel Prize in 1945."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "All four options represent accurate historical facts regarding the discovery, development, and Nobel recognition of Penicillin."
+  },
+  {
+    "id": "bio-xii-u8-c8-q18",
+    "questionNumber": 18,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Industrial Enzymes",
+    "questionText": "Which of the following industrial enzymes correctly match their commercial applications?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lipases -> Added to laundry detergents to dissolve oily stains"
+      },
+      {
+        "id": "B",
+        "text": "Pectinases & Proteases -> Used to clarify commercial bottled fruit juices"
+      },
+      {
+        "id": "C",
+        "text": "Streptokinase -> Used as a 'clot buster' to dissolve blood clots in myocardial infarction patients"
+      },
+      {
+        "id": "D",
+        "text": "DNA Polymerase I -> Added to toothpaste to prevent dental caries"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Lipases (detergents), Pectinases/Proteases (juice clarification), and Streptokinase (clot buster) are accurate. D is incorrect: DNA Polymerase I is a DNA replication enzyme used in molecular biology laboratories."
+  },
+  {
+    "id": "bio-xii-u8-c8-q19",
+    "questionNumber": 19,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Biogas Composition",
+    "questionText": "Which gases are major components of the Biogas mixture produced by methanogenic digestion of cattle dung?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Methane (CH4 ≈ 50–70%)"
+      },
+      {
+        "id": "B",
+        "text": "Carbon Dioxide (CO2 ≈ 30–40%)"
+      },
+      {
+        "id": "C",
+        "text": "Hydrogen Sulfide (H2S) and Hydrogen (H2) in trace amounts"
+      },
+      {
+        "id": "D",
+        "text": "Pure Oxygen gas (O2 ≈ 90%)"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Biogas is an anaerobic gaseous mixture dominated by CH4 (50–70%) and CO2 (30–40%), with traces of H2S and H2. D is incorrect: Biogas is produced by obligate anaerobes; free oxygen is completely absent."
+  },
+  {
+    "id": "bio-xii-u8-c8-q20",
+    "questionNumber": 20,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Cyanobacteria Heterocysts & Paddy Biofertilizer",
+    "questionText": "Select the valid statements regarding the cyanobacteria Anabaena, Nostoc, and Oscillatoria:",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are autotrophic, photosynthetic prokaryotes."
+      },
+      {
+        "id": "B",
+        "text": "They possess specialized thick-walled cells called Heterocysts dedicated to nitrogen fixation."
+      },
+      {
+        "id": "C",
+        "text": "They serve as major bio-fertilizers in flooded rice paddy fields."
+      },
+      {
+        "id": "D",
+        "text": "They synthesize large amounts of Cyclosporin A to kill soil weeds."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Cyanobacteria are photosynthetic prokaryotes containing heterocysts that fix nitrogen and serve as primary bio-fertilizers in paddy fields. D is incorrect: Cyclosporin A is produced by the soil fungus Trichoderma polysporum, not cyanobacteria."
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "id": "bio-xi-u3-c9-l04",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Biomolecules",
+  "chapterNumber": 9,
+  "chapterSlug": "biomolecules",
+  "slug": "lesson-04-amino-acids-zwitterions-and-peptide-bond",
+  "title": "Amino Acids, Zwitterionic Chemistry, & Peptide Bond Geometry",
+  "topic": "Dipolar Zwitterions, Isoelectric Point (pI), Achiral Glycine, & Ramachandran Plot",
+  "topics": [
+    "General Amino Acid Structure ($\\alpha$-Carbon, Amino, Carboxyl, Variable $R$ Group)",
+    "Zwitterionic Equilibrium & Isoelectric Point ($\\text{pI} = \\frac{\\text{pK}_{a1} + \\text{pK}_{a2}}{2}$)",
+    "Glycine Achirality Exception",
+    "Standard Amino Acid Taxonomy (Non-polar, Polar Uncharged, Acidic, Basic)",
+    "Peptide Bond Formation & 40% Partial Double Bond Resonance Character",
+    "Planar Coplanar Peptide Units & Restricted Rotation",
+    "Torsional Angles: Phi ($\\phi, \\text{N}-\\text{C}_\\alpha$) and Psi ($\\psi, \\text{C}_\\alpha-\\text{C}$)",
+    "The Ramachandran Plot (G.N. Ramachandran, 1963)"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Amino acids are substituted methanes with an α-amino, α-carboxyl, hydrogen, and variable R group. At physiological pH, they exist as dipolar Zwitterions with net charge zero at their isoelectric point (pI). All 19 standard amino acids are chiral except Glycine (R = -H). Peptide bonds (-CO-NH-) have 40% partial double bond character, enforcing rigidity and coplanarity. Backbone rotation is restricted to torsional angles Phi (φ) and Psi (ψ), mapped on the Ramachandran Plot.",
+  "summary": "Amino acids are substituted methanes with an α-amino, α-carboxyl, hydrogen, and variable R group. At physiological pH, they exist as dipolar Zwitterions with net charge zero at their isoelectric point (pI). All 19 standard amino acids are chiral except Glycine (R = -H). Peptide bonds (-CO-NH-) have 40% partial double bond character, enforcing rigidity and coplanarity. Backbone rotation is restricted to torsional angles Phi (φ) and Psi (ψ), mapped on the Ramachandran Plot.",
+  "conceptBreakdown": [
+    {
+      "heading": "3. Amino Acid Structure & Zwitterionic Dissociation",
+      "title": "3. Amino Acid Structure & Zwitterionic Dissociation",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "At pI, amino acids are dipolar zwitterions. Glycine is achiral. Peptide bond has 40% double bond character, creating rigid planar peptide units mapped by Ramachandran angles."
+      },
+      "codeSnippet": "GENERAL AMINO ACID STRUCTURE\n                                   H\n                                   │\n                         H₂N ──── C ──── COOH\n                                   │\n                                   R  <-- Variable Side Chain",
+      "content": "Amino acids are organic compounds containing an amino group and an acidic carboxyl group substituted on the same $\\alpha$-carbon atom ($\\alpha$-amino acids).\n\n### Zwitterionic State & Isoelectric Point (pI)\nAt physiological $\\text{pH } (\\approx 7.4)$, the carboxyl group loses a proton ($-\\text{COO}^-$) and the amino group gains a proton ($-\\text{NH}_3^+$), forming a dipolar **Zwitterion**:\n$$\\Large \\mathbf{\\text{pI} = \\frac{\\text{pK}_{a1} (\\text{COOH}) + \\text{pK}_{a2} (\\text{NH}_3^+)}{2}}$$\n\n• **Chirality Exception**: All standard amino acids are chiral (optically active) **EXCEPT Glycine ($R = -\\text{H}$)**, which is symmetric and **achiral**."
+    },
+    {
+      "heading": "3.1 Amino Acid Classification",
+      "title": "3.1 Amino Acid Classification",
+      "type": "paragraph",
+      "codeSnippet": "AMINO ACID TAXONOMY\n                                     │\n         ┌───────────────────────────┼───────────────────────────┐\n         ▼                           ▼                           ▼\n   NON-POLAR / HYDROPHOBIC      POLAR UNCHARGED            CHARGED (Acidic / Basic)\n  ├── Glycine (Achiral)        ├── Cysteine (-SH)          ├── Acidic: Aspartate (-COO⁻)\n  ├── Alanine, Valine, Leucine ├── Serine, Threonine       ├── Acidic: Glutamate (-COO⁻)\n  ├── Proline (Imino acid)     ├── Asparagine, Glutamine   ├── Basic: Lysine (-NH₃⁺)\n  ├── Methionine (Sulfur)      └── Tyrosine                ├── Basic: Arginine (Guanidino)\n  └── Tryptophan (Indole)                                  └── Basic: Histidine (Imidazole)",
+      "content": "• **Non-Polar**: Glycine, Alanine, Valine, Leucine, Isoleucine, Proline (imino acid), Phenylalanine, Methionine, Tryptophan.\n• **Polar Uncharged**: Serine, Threonine, Cysteine (forms disulfide bonds), Asparagine, Glutamine, Tyrosine.\n• **Acidic (Negatively Charged)**: Aspartate, Glutamate.\n• **Basic (Positively Charged)**: Lysine, Arginine (guanidino group), Histidine (imidazole ring)."
+    },
+    {
+      "heading": "3.2 Peptide Bond Geometry & Ramachandran Plot",
+      "title": "3.2 Peptide Bond Geometry & Ramachandran Plot",
+      "type": "paragraph",
+      "codeSnippet": "PEPTIDE BOND FORMATION\n                            \n    R₁                       R₂                        R₁       H   R₂\n    │                        │                         │        │   │\n  H₂N─C─COOH  +  H─NH─C─COOH  ──[−H₂O]──►  H₂N─C──C ── N ── C─COOH\n      │               │                         │  ║   ║    │\n      H               H                         H  O   O    H\n                                                   [Peptide Bond]",
+      "content": "• **Resonance & Planarity**: Delocalization of the carbonyl $\\pi$-electrons gives the $\\text{C}-\\text{N}$ peptide bond **40% partial double bond character**. Hence, the six atoms of the peptide unit ($\\text{C}_\\alpha-\\text{C}=\\text{O}-\\text{N}-\\text{H}-\\text{C}_\\alpha$) are rigid, coplanar, and cannot freely rotate.\n• **Torsional Angles**: Rotation occurs exclusively around:\n  - **Phi ($\\phi$)**: Rotation angle around the $\\text{N}-\\text{C}_\\alpha$ bond.\n  - **Psi ($\\psi$)**: Rotation angle around the $\\text{C}_\\alpha-\\text{C}$ bond.\n• **The Ramachandran Plot (1963)**: A 2D steric plot of $\\phi$ versus $\\psi$ defining permissible conformational space for right-handed $\\alpha$-helices, $\\beta$-sheets, and collagen triple helices."
+    }
+  ]
+}

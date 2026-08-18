@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-19-10",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Neural Control and Coordination",
+  "chapterNumber": 19,
+  "chapterSlug": "neural-control-and-coordination",
+  "lessonNumber": 10,
+  "title": "Peripheral & Autonomic Nervous Systems (ANS)",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Medium",
+  "prerequisites": ["Spinal cord anatomy", "Neurotransmitter pharmacology"],
+  "learningObjectives": [
+    "Classify the 12 Cranial Nerves as Sensory, Motor, or Mixed",
+    "Describe the 31 pairs of Spinal Nerves and the monosynaptic stretch reflex arc",
+    "Contrast the Sympathetic (Thoracolumbar) and Parasympathetic (Craniosacral) divisions across target visceral organs"
+  ],
+  "content": "### 10.1 Peripheral Nerve Organization\n\n```\n                        PERIPHERAL NERVE DISTRIBUTION\n                                      │\n         ┌────────────────────────────┴────────────────────────────┐\n         ▼                                                         ▼\n  CRANIAL NERVES (12 Pairs in Amniotes)                   SPINAL NERVES (31 Pairs in Humans)\n  ├── I to XII (Sensory, Motor, or Mixed)                 ├── All 31 pairs are MIXED NERVES\n  └── Originates directly from Brain                      └── Attached to spinal cord via\n                                                              ├── Dorsal Root (Sensory / DRG)\n                                                              └── Ventral Root (Motor)\n```\n\n- **12 Cranial Nerve Pairs**:\n  - **Sensory (3)**: CN I (Olfactory), CN II (Optic), CN VIII (Vestibulocochlear).\n  - **Motor (5)**: CN III (Oculomotor), CN IV (Trochlear), CN VI (Abducens), CN XI (Accessory), CN XII (Hypoglossal).\n  - **Mixed (4)**: CN V (Trigeminal), CN VII (Facial), CN IX (Glossopharyngeal), CN X (Vagus).\n- **31 Spinal Nerve Pairs**: All 31 are **MIXED NERVES** (8 Cervical, 12 Thoracic, 5 Lumbar, 5 Sacral, 1 Coccygeal). Dorsal root carries afferent sensory fibers (DRG contains pseudounipolar cytons); Ventral root carries efferent motor fibers.\n\n### 10.2 Autonomic Nervous System: Sympathetic vs. Parasympathetic\n\n```\n                          AUTONOMIC NERVOUS SYSTEM (ANS)\n                                        │\n         ┌──────────────────────────────┴──────────────────────────────┐\n         ▼                                                             ▼\n  SYMPATHETIC DIVISION (\"Fight or Flight\")                     PARASYMPATHETIC DIVISION (\"Rest & Digest\")\n  ├── Thoracolumbar Outflow (T₁–L₂)                            ├── Craniosacral Outflow (CN III, VII, IX, X + S₂–S₄)\n  ├── Short pre-ganglionic; Long post-ganglionic               ├── Long pre-ganglionic; Short post-ganglionic\n  └── Post-ganglionic transmitter: Noradrenaline               └── Post-ganglionic transmitter: Acetylcholine\n```\n\n### 10.3 Visceral Target Organ Antagonism Matrix\n\n| Visceral Target Organ | Sympathetic Effect (\"Fight or Flight\") | Parasympathetic Effect (\"Rest & Digest\") |\n| :--- | :--- | :--- |\n| **Pupil of Eye (Iris)** | **Mydriasis** (Dilates pupil via radial muscle) | **Miosis** (Constricts pupil via circular muscle) |\n| **Heart Rate & Force** | **Increases** heart rate & force of contraction | **Decreases** heart rate & force (via Vagus X) |\n| **Bronchioles (Lungs)** | **Bronchodilation** (Expands airways for airflow) | **Bronchoconstriction** (Constricts airways) |\n| **GI Tract & Motility** | **Inhibits** peristalsis & gastric secretions | **Stimulates** peristalsis & digestive secretions |\n| **Salivary Glands** | Secretes small volume of thick, viscous saliva | Secretes large volume of watery, enzyme-rich saliva |\n| **Urinary Bladder** | Relaxes Detrusor muscle; constricts sphincter | Contracts Detrusor muscle; relaxes sphincter (**Micturition**) |\n| **Systemic Arterioles** | **Vasoconstriction** (Raises systemic BP) | No direct innervation (except erectile tissue) |",
+  "conceptBreakdown": [
+    {
+      "heading": "Monosynaptic Knee-Jerk Reflex Arc",
+      "explanation": "Tapping the patellar tendon stretches quadriceps muscle spindles -> primary Ia afferent fires -> enters spinal cord via dorsal root -> monosynaptically excites alpha-motor neuron in ventral horn -> efferent action potential via ventral root contracts quadriceps -> leg kicks forward."
+    },
+    {
+      "heading": "Sympathetic Adrenal Medulla Exception",
+      "explanation": "Sympathetic preganglionic fibers directly innervate chromaffin cells of the adrenal medulla (modified postganglionic sympathetic neurons) releasing 80% Epinephrine and 20% Norepinephrine directly into systemic blood."
+    }
+  ]
+}

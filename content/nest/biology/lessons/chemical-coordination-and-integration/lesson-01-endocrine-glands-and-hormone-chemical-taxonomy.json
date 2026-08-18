@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-20-01",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Chemical Coordination and Integration",
+  "chapterNumber": 20,
+  "chapterSlug": "chemical-coordination-and-integration",
+  "lessonNumber": 1,
+  "title": "Endocrine Glands, Signalling, & Chemical Taxonomy",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Medium",
+  "prerequisites": ["Cell biology", "Lipid and amino acid chemistry"],
+  "learningObjectives": [
+    "Define hormones as non-nutrient intercellular chemical messengers produced in trace quantities",
+    "Classify hormones into 4 chemical categories: Peptides/Proteins, Steroids, Iodothyronines, and Amino Acid Derivatives",
+    "Predict hormone receptor location based on lipid vs. water solubility"
+  ],
+  "content": "Hormones are non-nutrient, intercellular chemical messengers produced in trace quantities by ductless Endocrine Glands and secreted directly into systemic circulation to regulate distant target organ physiology.\n\n```\n                           CHEMICAL CLASSES OF HORMONES\n                                         │\n     ┌──────────────────┬────────────────┴────────────────┬──────────────────┐\n     ▼                  ▼                                 ▼                  ▼\nPEPTIDE / PROTEIN    STEROID HORMONES                IODOTHYRONINES      AMINO ACID DERIVATIVES\n├── Insulin, Glucagon├── Derived from Cholesterol     ├── T₃ (Triiodo)    ├── Epinephrine (Tyrosine)\n├── Pituitary/Hypo. ├── Cortisol, Aldosterone         └── T₄ (Thyroxine)  ├── Norepinephrine (Tyrosine)\n└── PTH, Calcitonin  └── Testosterone, Estrogens                           └── Melatonin (Tryptophan)\n```\n\n### 1.1 Chemical Taxonomy Matrix\n\n| Chemical Category | Biochemical Precursor | Key Representative Hormones | Solubility & Receptor Location |\n| :--- | :--- | :--- | :--- |\n| **Peptides & Polypeptides** | Amino acid polymers | Insulin, Glucagon, Pituitary Hormones (GH, TSH, ACTH, FSH, LH, Oxytocin, ADH), PTH, Calcitonin, Thymosins, ANF, Secretin, CCK | Water-soluble; Hydrophilic; **Membrane-Bound Surface Receptors** |\n| **Steroid Hormones** | **Cholesterol** (CPPP core) | Cortisol, Aldosterone, Testosterone, Progesterone, Estradiol (Estrogen) | Lipid-soluble; Hydrophobic; **Intracellular / Nuclear Receptors** |\n| **Iodothyronines** | Iodinated **Tyrosine** residues | $T_3$ (Triiodothyronine) and $T_4$ (Tetraiodothyronine / Thyroxine) | Lipid-soluble; Hydrophobic; **Nuclear Receptors** |\n| **Amino Acid Derivatives** | Single Amino Acids (**Tyrosine** or **Tryptophan**) | **Catecholamines:** Epinephrine (Adrenaline), Norepinephrine (from Tyrosine); **Melatonin** (from Tryptophan) | Water-soluble; Hydrophilic; **Membrane-Bound Surface Receptors** |",
+  "conceptBreakdown": [
+    {
+      "heading": "Hydrophilic vs Lipophilic Transport in Blood",
+      "explanation": "Hydrophilic peptide and catecholamine hormones dissolve freely in plasma water. Lipophilic steroid and thyroid hormones travel in systemic circulation largely bound to plasma carrier proteins (e.g., Albumin, Thyroid-Binding Globulin TBG, Corticosteroid-Binding Globulin CBG)."
+    },
+    {
+      "heading": "Steroid Precursor: The CPPP Ring",
+      "explanation": "All steroid hormones are synthesized from cholesterol via the Cyclopentanoperhydrophenanthrene (CPPP) four-ring steroid nucleus in the smooth endoplasmic reticulum and mitochondria."
+    }
+  ]
+}

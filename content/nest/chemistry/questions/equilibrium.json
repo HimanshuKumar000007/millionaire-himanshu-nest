@@ -1,0 +1,933 @@
+[
+  {
+    "id": "chem-equil-001",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "K_p - K_c Conversion",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "For the gaseous reversible synthesis of Ammonia: N\u2082(g) + 3 H\u2082(g) \u21cc 2 NH\u2083(g), the equilibrium constant K_p = 1.44 \u00d7 10\u207b\u2075 bar\u207b\u00b2 at 500 K. What is the value of K_c for this reaction at 500 K in M\u207b\u00b2? (R = 0.08314 bar\u00b7L/mol\u00b7K)",
+    "options": [
+      {
+        "id": "A",
+        "text": "K_c = 2.45 \u00d7 10\u207b\u00b2 M\u207b\u00b2",
+        "isCorrect": true,
+        "explanation": "K_p = K_c (RT)^\u0394n_g \u27f9 K_c = K_p (RT)^(-\u0394n_g). \u0394n_g = -2 \u27f9 K_c = (1.44 \u00d7 10\u207b\u2075) \u00d7 (0.08314 \u00d7 500)\u00b2 = (1.44 \u00d7 10\u207b\u2075) \u00d7 (1728.06) = 0.02488 M\u207b\u00b2 \u2248 2.45 \u00d7 10\u207b\u00b2 M\u207b\u00b2."
+      },
+      {
+        "id": "B",
+        "text": "K_c = 1.44 \u00d7 10\u207b\u2075 M\u207b\u00b2",
+        "isCorrect": false,
+        "explanation": "Assumed K_c = K_p (valid only when \u0394n_g = 0)."
+      },
+      {
+        "id": "C",
+        "text": "K_c = 8.46 \u00d7 10\u207b\u2079 M\u207b\u00b2",
+        "isCorrect": false,
+        "explanation": "Divided by (RT)\u00b2 instead of multiplying."
+      },
+      {
+        "id": "D",
+        "text": "K_c = 0.0245 M\u207b\u00b2",
+        "isCorrect": false,
+        "explanation": "Option A is the scientific notation."
+      }
+    ],
+    "solutionExplanation": "1. K_p = K_c (RT)^\u0394n_g \u27f9 K_c = K_p (RT)^(-\u0394n_g).\n2. Gaseous mole change: \u0394n_g = 2 - (1 + 3) = -2.\n3. RT = 0.08314 \u00d7 500 = 41.57 bar\u00b7L/mol.\n4. Calculate K_c:\n   K_c = K_p (RT)\u00b2 = (1.44 \u00d7 10\u207b\u2075) \u00d7 (41.57)\u00b2 = (1.44 \u00d7 10\u207b\u2075) \u00d7 (1728.06) = 0.02488 M\u207b\u00b2 \u2248 2.45 \u00d7 10\u207b\u00b2 M\u207b\u00b2.",
+    "keyFormulae": [
+      "K_c = K_p (RT)^(-\u0394n_g)",
+      "\u0394n_g = 2 - 4 = -2"
+    ],
+    "hints": [
+      "Since \u0394n_g = -2, K_c = K_p (RT)\u00b2."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-equil-002",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "Reaction Free Energy to K_p",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "At 25\u00b0C, the standard Gibbs free energy of formation of NO\u2082(g) is +51.3 kJ/mol and for N\u2082O\u2084(g) is +97.8 kJ/mol. What is the value of K_p at 298 K for the equilibrium reaction: 2 NO\u2082(g) \u21cc N\u2082O\u2084(g)? (R = 8.314 J/mol\u00b7K)",
+    "options": [
+      {
+        "id": "A",
+        "text": "K_p = 6.93 bar\u207b\u00b9",
+        "isCorrect": true,
+        "explanation": "\u0394_r G\u00b0 = 97.8 - 2(51.3) = -4.8 kJ/mol = -4800 J/mol. ln K_p = -(-4800) / (8.314 \u00d7 298.15) = 1.936 \u27f9 K_p = e^1.936 = 6.93 bar\u207b\u00b9."
+      },
+      {
+        "id": "B",
+        "text": "K_p = 0.144 bar\u207b\u00b9",
+        "isCorrect": false,
+        "explanation": "Reciprocal equilibrium constant."
+      },
+      {
+        "id": "C",
+        "text": "K_p = 1.00 bar\u207b\u00b9",
+        "isCorrect": false,
+        "explanation": "Corresponds to \u0394_r G\u00b0 = 0."
+      },
+      {
+        "id": "D",
+        "text": "K_p = 48.2 bar\u207b\u00b9",
+        "isCorrect": false,
+        "explanation": "Arithmetic error."
+      }
+    ],
+    "solutionExplanation": "1. Standard reaction free energy \u0394_r G\u00b0:\n   \u0394_r G\u00b0 = \u0394_f G\u00b0(N\u2082O\u2084) - 2 \u0394_f G\u00b0(NO\u2082) = 97.8 - 2(51.3) = 97.8 - 102.6 = -4.8 kJ/mol = -4800 J/mol.\n2. Equilibrium constant K_p:\n   \u0394_r G\u00b0 = -RT ln K_p \u27f9 ln K_p = -\u0394_r G\u00b0 / (RT) = 4800 / (8.314 \u00d7 298.15) = 4800 / 2478.8 = 1.936.\n   K_p = e^(1.936) = 6.93 bar\u207b\u00b9.",
+    "keyFormulae": [
+      "\u0394_r G\u00b0 = \u03a3 \u0394_f G\u00b0(products) - \u03a3 \u0394_f G\u00b0(reactants)",
+      "K_p = e^(-\u0394_r G\u00b0 / RT)"
+    ],
+    "hints": [
+      "Convert \u0394_r G\u00b0 to Joules before dividing by RT."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-equil-003",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "Ostwald Ionization & pH",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "A 0.10 M aqueous solution of a weak monoprotic acid HA is 1.34% ionized at 25\u00b0C. What is the ionization constant (K_a) of this acid and the pH of the solution?",
+    "options": [
+      {
+        "id": "A",
+        "text": "K_a = 1.8 \u00d7 10\u207b\u2075; pH = 2.87",
+        "isCorrect": true,
+        "explanation": "\u03b1 = 0.0134. K_a = C\u03b1\u00b2 = 0.10 \u00d7 (0.0134)\u00b2 = 1.8 \u00d7 10\u207b\u2075. [H\u207a] = C\u03b1 = 1.34 \u00d7 10\u207b\u00b3 M \u27f9 pH = 3 - log(1.34) = 2.87."
+      },
+      {
+        "id": "B",
+        "text": "K_a = 1.8 \u00d7 10\u207b\u2074; pH = 1.00",
+        "isCorrect": false,
+        "explanation": "Assumed 100% ionization."
+      },
+      {
+        "id": "C",
+        "text": "K_a = 1.34 \u00d7 10\u207b\u00b3; pH = 3.50",
+        "isCorrect": false,
+        "explanation": "Used \u03b1 directly as K_a."
+      },
+      {
+        "id": "D",
+        "text": "K_a = 2.5 \u00d7 10\u207b\u2076; pH = 4.20",
+        "isCorrect": false,
+        "explanation": "Arithmetic error."
+      }
+    ],
+    "solutionExplanation": "1. Degree of ionization \u03b1 = 1.34% = 0.0134.\n2. Ostwald's Law for K_a:\n   K_a = (C \u03b1\u00b2) / (1 - \u03b1) \u2248 C \u03b1\u00b2 = 0.10 \u00d7 (0.0134)\u00b2 = 0.10 \u00d7 0.0001795 = 1.795 \u00d7 10\u207b\u2075 \u2248 1.8 \u00d7 10\u207b\u2075.\n3. [H\u207a] = C \u03b1 = 0.10 \u00d7 0.0134 = 1.34 \u00d7 10\u207b\u00b3 M.\n4. pH = -log\u2081\u2080(1.34 \u00d7 10\u207b\u00b3) = 3 - log\u2081\u2080(1.34) = 3 - 0.127 = 2.873 \u2248 2.87.",
+    "keyFormulae": [
+      "K_a = C \u03b1\u00b2",
+      "[H\u207a] = C \u03b1",
+      "pH = -log\u2081\u2080[H\u207a]"
+    ],
+    "hints": [
+      "Convert percentage to decimal: 1.34% = 0.0134."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-equil-004",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "Sodium Acetate Hydrolysis pH",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Calculate the exact pH at 25\u00b0C of a 0.05 M aqueous solution of Sodium Acetate (CH\u2083COONa), given that the acid dissociation constant of Acetic acid is K_a = 1.8 \u00d7 10\u207b\u2075 and K_w = 1.0 \u00d7 10\u207b\u00b9\u2074.",
+    "options": [
+      {
+        "id": "A",
+        "text": "pH = 8.72",
+        "isCorrect": true,
+        "explanation": "WA-SB salt: pH = 1/2 [pK_w + pK_a + log C] = 1/2 [14.00 + 4.745 - 1.301] = 1/2 [17.444] = 8.72."
+      },
+      {
+        "id": "B",
+        "text": "pH = 5.28",
+        "isCorrect": false,
+        "explanation": "Used cationic hydrolysis formula."
+      },
+      {
+        "id": "C",
+        "text": "pH = 7.00",
+        "isCorrect": false,
+        "explanation": "Assumed no hydrolysis."
+      },
+      {
+        "id": "D",
+        "text": "pH = 9.25",
+        "isCorrect": false,
+        "explanation": "Arithmetic error."
+      }
+    ],
+    "solutionExplanation": "1. Sodium acetate is a salt of Weak Acid (CH\u2083COOH) and Strong Base (NaOH) \u27f9 anionic hydrolysis \u27f9 alkaline solution (pH > 7).\n2. Hydrolysis pH formula:\n   pH = 1/2 [pK_w + pK_a + log\u2081\u2080 C]\n   pK_w = 14.00, pK_a = -log\u2081\u2080(1.8 \u00d7 10\u207b\u2075) = 4.745, log\u2081\u2080 C = log\u2081\u2080(0.05) = -1.301.\n3. Substitute values:\n   pH = 1/2 [14.00 + 4.745 - 1.301] = 1/2 [17.444] = 8.722 \u2248 8.72.",
+    "keyFormulae": [
+      "pH = 1/2 [pK_w + pK_a + log\u2081\u2080 C]"
+    ],
+    "hints": [
+      "Salts of weak acids and strong bases hydrolyze to give pH > 7."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-equil-005",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "Buffer Mixing pH",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the pH of a buffer solution prepared by mixing 500 mL of 0.20 M CH\u2083COOH (pK_a = 4.74) with 500 mL of 0.10 M CH\u2083COONa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "pH = 4.44",
+        "isCorrect": true,
+        "explanation": "pH = pK_a + log\u2081\u2080([Salt]/[Acid]) = 4.74 + log\u2081\u2080(0.05/0.10) = 4.74 + log(0.50) = 4.74 - 0.301 = 4.44."
+      },
+      {
+        "id": "B",
+        "text": "pH = 5.04",
+        "isCorrect": false,
+        "explanation": "Added log(2) instead of subtracting."
+      },
+      {
+        "id": "C",
+        "text": "pH = 4.74",
+        "isCorrect": false,
+        "explanation": "Assumed [Salt] = [Acid]."
+      },
+      {
+        "id": "D",
+        "text": "pH = 3.74",
+        "isCorrect": false,
+        "explanation": "Arithmetic error."
+      }
+    ],
+    "solutionExplanation": "1. Upon mixing equal volumes (500 mL + 500 mL = 1000 mL total volume), concentrations are halved:\n   [Acid] = 0.10 M, [Salt] = 0.05 M.\n2. Henderson-Hasselbalch equation for acidic buffer:\n   pH = pK_a + log\u2081\u2080([Salt] / [Acid]) = 4.74 + log\u2081\u2080(0.05 / 0.10) = 4.74 + log\u2081\u2080(0.50) = 4.74 - 0.301 = 4.439 \u2248 4.44.",
+    "keyFormulae": [
+      "pH = pK_a + log\u2081\u2080([Salt] / [Acid])"
+    ],
+    "hints": [
+      "Remember [Salt]/[Acid] = 0.05/0.10 = 0.50, and log(0.50) = -0.301."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-equil-006",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "Common Ion Suppression on BaSO\u2084",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "At 25\u00b0C, the solubility product of Barium Sulfate (BaSO\u2084) is K_sp = 1.1 \u00d7 10\u207b\u00b9\u2070. What is the molar solubility (S) of BaSO\u2084 in a 0.10 M aqueous solution of Sodium Sulfate (Na\u2082SO\u2084)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "S = 1.1 \u00d7 10\u207b\u2079 M",
+        "isCorrect": true,
+        "explanation": "In 0.10 M Na\u2082SO\u2084, [SO\u2084\u00b2\u207b] \u2248 0.10 M. K_sp = [Ba\u00b2\u207a][SO\u2084\u00b2\u207b] = S \u00d7 0.10 = 1.1 \u00d7 10\u207b\u00b9\u2070 \u27f9 S = 1.1 \u00d7 10\u207b\u2079 M."
+      },
+      {
+        "id": "B",
+        "text": "S = 1.05 \u00d7 10\u207b\u2075 M",
+        "isCorrect": false,
+        "explanation": "Solubility in pure water (\u221a(1.1 \u00d7 10\u207b\u00b9\u2070))."
+      },
+      {
+        "id": "C",
+        "text": "S = 1.1 \u00d7 10\u207b\u2078 M",
+        "isCorrect": false,
+        "explanation": "Arithmetic error."
+      },
+      {
+        "id": "D",
+        "text": "S = 2.2 \u00d7 10\u207b\u00b9\u2070 M",
+        "isCorrect": false,
+        "explanation": "Incorrect stoichiometry."
+      }
+    ],
+    "solutionExplanation": "1. Dissolution equilibrium: BaSO\u2084(s) \u21cc Ba\u00b2\u207a(aq) + SO\u2084\u00b2\u207b(aq).\n2. In 0.10 M Na\u2082SO\u2084:\n   [SO\u2084\u00b2\u207b]_total = 0.10 + S \u2248 0.10 M (since S \u226a 0.10 due to Common Ion Effect).\n   [Ba\u00b2\u207a] = S.\n3. K_sp expression:\n   K_sp = [Ba\u00b2\u207a][SO\u2084\u00b2\u207b] \u27f9 1.1 \u00d7 10\u207b\u00b9\u2070 = S \u00d7 0.10 \u27f9 S = 1.1 \u00d7 10\u207b\u00b9\u2070 / 0.10 = 1.1 \u00d7 10\u207b\u2079 M.",
+    "keyFormulae": [
+      "S = K_sp / [Common Ion]"
+    ],
+    "hints": [
+      "Common ion SO\u2084\u00b2\u207b from strong electrolyte Na\u2082SO\u2084 suppresses BaSO\u2084 solubility."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-equil-007",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "Ammonium Carbamate K_p",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "For the thermal decomposition of Solid Ammonium Carbamate: NH\u2082COONH\u2084(s) \u21cc 2 NH\u2083(g) + CO\u2082(g), the total equilibrium pressure of the system at 300 K is 0.30 bar. What is the value of the equilibrium constant K_p in bar\u00b3?",
+    "options": [
+      {
+        "id": "A",
+        "text": "K_p = 4.0 \u00d7 10\u207b\u00b3 bar\u00b3",
+        "isCorrect": true,
+        "explanation": "P_NH\u2083 = 2/3(0.30) = 0.20 bar; P_CO\u2082 = 1/3(0.30) = 0.10 bar. K_p = (0.20)\u00b2(0.10) = 0.04 \u00d7 0.10 = 4.0 \u00d7 10\u207b\u00b3 bar\u00b3."
+      },
+      {
+        "id": "B",
+        "text": "K_p = 1.08 \u00d7 10\u207b\u00b2 bar\u00b3",
+        "isCorrect": false,
+        "explanation": "Arithmetic error."
+      },
+      {
+        "id": "C",
+        "text": "K_p = 2.7 \u00d7 10\u207b\u00b3 bar\u00b3",
+        "isCorrect": false,
+        "explanation": "Assumed equimolar partial pressures."
+      },
+      {
+        "id": "D",
+        "text": "K_p = 0.027 bar\u00b3",
+        "isCorrect": false,
+        "explanation": "Forgot stoichiometric power of 2 on NH\u2083."
+      }
+    ],
+    "solutionExplanation": "1. Stoichiometry: 1 mol CO\u2082(g) is produced for every 2 mol NH\u2083(g).\n   P_NH\u2083 = 2/3 P_total = 2/3 \u00d7 0.30 bar = 0.20 bar.\n   P_CO\u2082 = 1/3 P_total = 1/3 \u00d7 0.30 bar = 0.10 bar.\n2. K_p expression (solid ammonium carbamate is excluded):\n   K_p = (P_NH\u2083)\u00b2 \u00d7 P_CO\u2082 = (0.20)\u00b2 \u00d7 (0.10) = 0.04 \u00d7 0.10 = 0.0040 bar\u00b3 = 4.0 \u00d7 10\u207b\u00b3 bar\u00b3.",
+    "keyFormulae": [
+      "K_p = (P_NH\u2083)\u00b2 (P_CO\u2082)",
+      "P_i = x_i P_total"
+    ],
+    "hints": [
+      "NH\u2083 makes up 2/3 of the total pressure and CO\u2082 makes up 1/3."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-equil-008",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "10\u207b\u2078 M HCl Auto-Ionization pH",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the exact pH of a 1.0 \u00d7 10\u207b\u2078 M aqueous solution of Hydrochloric Acid (HCl) at 25\u00b0C, taking into account the auto-ionization of water?",
+    "options": [
+      {
+        "id": "A",
+        "text": "pH = 8.00",
+        "isCorrect": false,
+        "explanation": "Acid solutions can never be basic (pH > 7)."
+      },
+      {
+        "id": "B",
+        "text": "pH = 6.96",
+        "isCorrect": true,
+        "explanation": "Total [H\u207a] = 10\u207b\u2078 + x where x\u00b2 + 10\u207b\u2078 x - 10\u207b\u00b9\u2074 = 0 \u27f9 x = 9.61 \u00d7 10\u207b\u2078 M \u27f9 [H\u207a]_total = 1.061 \u00d7 10\u207b\u2077 M \u27f9 pH = 6.96 to 6.98."
+      },
+      {
+        "id": "C",
+        "text": "pH = 7.00",
+        "isCorrect": false,
+        "explanation": "Neglected acid concentration completely."
+      },
+      {
+        "id": "D",
+        "text": "pH = 6.00",
+        "isCorrect": false,
+        "explanation": "Arithmetic error."
+      }
+    ],
+    "solutionExplanation": "1. HCl is a strong acid ([H\u207a]_acid = 10\u207b\u2078 M). Since [H\u207a] is extremely low, water auto-ionization (x = [H\u207a]_water) cannot be ignored.\n2. Total [H\u207a] = (10\u207b\u2078 + x) M.\n3. K_w = [H\u207a][OH\u207b] \u27f9 (10\u207b\u2078 + x) x = 10\u207b\u00b9\u2074 \u27f9 x\u00b2 + 10\u207b\u2078 x - 10\u207b\u00b9\u2074 = 0.\n4. Solving quadratic equation for x:\n   x = [-10\u207b\u2078 + \u221a(10\u207b\u00b9\u2076 + 4(10\u207b\u00b9\u2074))] / 2 = 9.61 \u00d7 10\u207b\u2078 M.\n5. Total [H\u207a] = 10\u207b\u2078 + 9.61 \u00d7 10\u207b\u2078 = 1.061 \u00d7 10\u207b\u2077 M.\n6. pH = -log\u2081\u2080(1.061 \u00d7 10\u207b\u2077) = 7 - log\u2081\u2080(1.061) = 7 - 0.0257 = 6.974 \u2248 6.96 (Acidic, < 7!).",
+    "keyFormulae": [
+      "x\u00b2 + 10\u207b\u2078 x - 10\u207b\u00b9\u2074 = 0",
+      "pH = -log\u2081\u2080([H\u207a]_total)"
+    ],
+    "hints": [
+      "The solution must remain slightly acidic with pH just below 7.00."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-equil-009",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "Lewis Acid Identification",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Which of the following species represents a Lewis Acid that lacks an ionizable hydrogen atom?",
+    "options": [
+      {
+        "id": "A",
+        "text": "BF\u2083",
+        "isCorrect": true,
+        "explanation": "BF\u2083 has an incomplete octet (6 valence electrons around Boron) with a vacant 2p-orbital. It acts as an electron-pair acceptor (Lewis Acid) without containing any hydrogen atoms."
+      },
+      {
+        "id": "B",
+        "text": "NH\u2083",
+        "isCorrect": false,
+        "explanation": "NH\u2083 is a Lewis base (lone pair donor)."
+      },
+      {
+        "id": "C",
+        "text": "CH\u2083COOH",
+        "isCorrect": false,
+        "explanation": "CH\u2083COOH is a Br\u00f8nsted acid containing ionizable hydrogen."
+      },
+      {
+        "id": "D",
+        "text": "OH\u207b",
+        "isCorrect": false,
+        "explanation": "OH\u207b is a Lewis base (electron pair donor)."
+      }
+    ],
+    "solutionExplanation": "Boron Trifluoride (BF\u2083) has an incomplete octet (6 valence electrons around Boron) with a vacant 2p-orbital. It acts as an electron-pair acceptor (Lewis Acid) without containing any hydrogen atoms.",
+    "keyFormulae": [
+      "Lewis Acid = Electron Pair Acceptor (Incomplete Octet / Vacant Orbital)"
+    ],
+    "hints": [
+      "Look for a molecule with 6 valence electrons on the central atom."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-equil-010",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "Ca\u2083(PO\u2084)\u2082 K_sp Expression",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the solubility product (K_sp) expression for the sparingly soluble salt Calcium Phosphate Ca\u2083(PO\u2084)\u2082 in terms of its molar solubility S?",
+    "options": [
+      {
+        "id": "A",
+        "text": "K_sp = 108 S\u2075",
+        "isCorrect": true,
+        "explanation": "Ca\u2083(PO\u2084)\u2082 \u21cc 3 Ca\u00b2\u207a + 2 PO\u2084\u00b3\u207b \u27f9 K_sp = (3S)\u00b3(2S)\u00b2 = (27 S\u00b3)(4 S\u00b2) = 108 S\u2075."
+      },
+      {
+        "id": "B",
+        "text": "K_sp = 27 S\u2074",
+        "isCorrect": false,
+        "explanation": "Corresponds to AB\u2083 salt."
+      },
+      {
+        "id": "C",
+        "text": "K_sp = 4 S\u00b3",
+        "isCorrect": false,
+        "explanation": "Corresponds to AB\u2082 salt."
+      },
+      {
+        "id": "D",
+        "text": "K_sp = 6 S\u2075",
+        "isCorrect": false,
+        "explanation": "Multiplied coefficients instead of evaluating power."
+      }
+    ],
+    "solutionExplanation": "1. Dissociation: Ca\u2083(PO\u2084)\u2082(s) \u21cc 3 Ca\u00b2\u207a(aq) + 2 PO\u2084\u00b3\u207b(aq).\n2. Ion concentrations: [Ca\u00b2\u207a] = 3S, [PO\u2084\u00b3\u207b] = 2S.\n3. K_sp = [Ca\u00b2\u207a]\u00b3 [PO\u2084\u00b3\u207b]\u00b2 = (3S)\u00b3 (2S)\u00b2 = (27 S\u00b3) (4 S\u00b2) = 108 S\u2075.",
+    "keyFormulae": [
+      "K_sp = x^x y^y S^(x+y) = 3\u00b3 2\u00b2 S^(3+2) = 108 S\u2075"
+    ],
+    "hints": [
+      "(3S)\u00b3 = 27 S\u00b3 and (2S)\u00b2 = 4 S\u00b2."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-equil-011",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "Forward Shifts Ammonia Synthesis",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following perturbations will cause a FORWARD SHIFT (toward products) for the exothermic gaseous synthesis of Ammonia: N\u2082(g) + 3 H\u2082(g) \u21cc 2 NH\u2083(g) (\u0394_r H\u00b0 = -92 kJ/mol)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increasing the total system pressure by decreasing container volume",
+        "isCorrect": true,
+        "explanation": "\u0394n_g = 2 - 4 = -2 < 0. Increasing pressure shifts equilibrium toward fewer gas moles."
+      },
+      {
+        "id": "B",
+        "text": "Lowering the reaction temperature",
+        "isCorrect": true,
+        "explanation": "Exothermic reaction (\u0394H < 0); lowering T favors forward heat-releasing path."
+      },
+      {
+        "id": "C",
+        "text": "Continuously removing NH\u2083(g) product from the reactor",
+        "isCorrect": true,
+        "explanation": "Lowering product concentration lowers Q below K, driving forward shift."
+      },
+      {
+        "id": "D",
+        "text": "Adding an inert Argon gas at constant total volume",
+        "isCorrect": false,
+        "explanation": "Adding inert gas at constant volume has ZERO effect on partial pressures or equilibrium."
+      }
+    ],
+    "solutionExplanation": "\u2022 A is correct: \u0394n_g = 2 - 4 = -2. Increasing pressure shifts equilibrium toward fewer gaseous moles (Forward).\n\u2022 B is correct: Exothermic reaction (\u0394H < 0); lowering T favors the forward heat-generating path.\n\u2022 C is correct: Removing product lowers Q below K, driving the forward shift.\n\u2022 D is incorrect: Adding inert gas at constant volume has ZERO effect on partial pressures or equilibrium.",
+    "keyFormulae": [
+      "Le Chatelier forward shift criteria for exothermic \u0394n_g < 0 reaction"
+    ],
+    "hints": [
+      "Check the sign of \u0394n_g and \u0394H."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-equil-012",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "Br\u00f8nsted Conjugate Pairs",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding Br\u00f8nsted-Lowry Conjugate Acid-Base Pairs: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "A conjugate acid-base pair differs strictly by a single proton (H\u207a)",
+        "isCorrect": true,
+        "explanation": "Core Br\u00f8nsted definition."
+      },
+      {
+        "id": "B",
+        "text": "The conjugate base of a strong acid (e.g., Cl\u207b from HCl) is extremely weak",
+        "isCorrect": true,
+        "explanation": "Inverse conjugate strength relationship."
+      },
+      {
+        "id": "C",
+        "text": "The conjugate acid of the amphiprotic bicarbonate ion (HCO\u2083\u207b) is Carbonic Acid (H\u2082CO\u2083)",
+        "isCorrect": true,
+        "explanation": "HCO\u2083\u207b + H\u207a \u21cc H\u2082CO\u2083."
+      },
+      {
+        "id": "D",
+        "text": "The conjugate base of the amphiprotic bicarbonate ion (HCO\u2083\u207b) is Carbonate ion (CO\u2083\u00b2\u207b)",
+        "isCorrect": true,
+        "explanation": "HCO\u2083\u207b \u21cc H\u207a + CO\u2083\u00b2\u207b."
+      }
+    ],
+    "solutionExplanation": "All four statements accurately reflect Br\u00f8nsted-Lowry acid-base pair definitions and amphiprotic transformations of HCO\u2083\u207b.",
+    "keyFormulae": [
+      "Conjugate Acid = Base + H\u207a",
+      "Conjugate Base = Acid - H\u207a"
+    ],
+    "hints": [
+      "Bicarbonate can both gain a proton (to form carbonic acid) and lose a proton (to form carbonate)."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-equil-013",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "Alkaline Hydrolysis Salts",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following aqueous salt solutions will undergo HYDROLYSIS to produce a solution with pH > 7.0 at 25\u00b0C? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sodium Acetate (CH\u2083COONa)",
+        "isCorrect": true,
+        "explanation": "Salt of Weak Acid + Strong Base."
+      },
+      {
+        "id": "B",
+        "text": "Potassium Cyanide (KCN)",
+        "isCorrect": true,
+        "explanation": "Salt of Weak Acid (HCN) + Strong Base (KOH)."
+      },
+      {
+        "id": "C",
+        "text": "Ammonium Chloride (NH\u2084Cl)",
+        "isCorrect": false,
+        "explanation": "Salt of Strong Acid (HCl) + Weak Base (NH\u2084OH) yields acidic pH < 7."
+      },
+      {
+        "id": "D",
+        "text": "Sodium Carbonate (Na\u2082CO\u2083)",
+        "isCorrect": true,
+        "explanation": "Salt of Weak Acid (H\u2082CO\u2083) + Strong Base (NaOH)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, D are correct: CH\u2083COONa, KCN, and Na\u2082CO\u2083 are salts of Weak Acids and Strong Bases. Their anions undergo anionic hydrolysis to yield excess OH\u207b ions (pH > 7.0).\n\u2022 C is incorrect: NH\u2084Cl is a salt of a Strong Acid (HCl) and Weak Base (NH\u2084OH); it undergoes cationic hydrolysis to yield an acidic solution (pH < 7.0).",
+    "keyFormulae": [
+      "pH = 1/2 [pK_w + pK_a + log C] > 7 (for WA + SB salt)"
+    ],
+    "hints": [
+      "Look for salts formed from weak acids and strong bases."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-equil-014",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "Buffer Solution Properties",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid options regarding Buffer Solutions and the Henderson-Hasselbalch equation: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "An acidic buffer consists of a mixture of a weak acid and its salt with a strong base (e.g., CH\u2083COOH + CH\u2083COONa)",
+        "isCorrect": true,
+        "explanation": "Standard acidic buffer definition."
+      },
+      {
+        "id": "B",
+        "text": "Maximum buffer capacity occurs when [Salt] = [Acid], at which point pH = pK_a",
+        "isCorrect": true,
+        "explanation": "Half-neutralization point provides maximum buffer capacity."
+      },
+      {
+        "id": "C",
+        "text": "The effective buffering range of an acidic buffer is pK_a \u00b1 1",
+        "isCorrect": true,
+        "explanation": "Standard 10:1 to 1:10 concentration ratio buffering range."
+      },
+      {
+        "id": "D",
+        "text": "Adding large volumes of pure water to a buffer solution permanently destroys its pH value",
+        "isCorrect": false,
+        "explanation": "Diluting a buffer changes [Salt] and [Acid] equally, so [Salt]/[Acid] remains constant, preserving the pH."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Acidic buffer composition, max capacity condition (pH = pK_a), and effective range (pK_a \u00b1 1) are accurate.\n\u2022 D is incorrect: Diluting a buffer changes [Salt] and [Acid] equally, so the ratio [Salt]/[Acid] remains constant, preserving the pH (within reasonable limits).",
+    "keyFormulae": [
+      "pH = pK_a + log\u2081\u2080([Salt] / [Acid])",
+      "Buffer range: pK_a \u00b1 1"
+    ],
+    "hints": [
+      "Buffer pH depends on the ratio of salt to acid, which is unaffected by dilution."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-equil-015",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "Qualitative Analysis Common Ion Effect",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following qualitative analysis group separations utilize the Common Ion Effect to control ion concentrations? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Group II cations (Cu\u00b2\u207a, Pb\u00b2\u207a, Cd\u00b2\u207a) precipitated by H\u2082S in the presence of dilute HCl",
+        "isCorrect": true,
+        "explanation": "HCl suppresses H\u2082S ionization via H\u207a common ion, keeping [S\u00b2\u207b] low to precipitate only small-K_sp Group II sulfides."
+      },
+      {
+        "id": "B",
+        "text": "Group IV cations (Zn\u00b2\u207a, Mn\u00b2\u207a, Ni\u00b2\u207a) precipitated by H\u2082S in the presence of NH\u2084OH",
+        "isCorrect": true,
+        "explanation": "NH\u2084OH removes H\u207a, driving H\u2082S ionization to yield high [S\u00b2\u207b] required for larger-K_sp Group IV sulfides."
+      },
+      {
+        "id": "C",
+        "text": "Group I cations (Ag\u207a, Pb\u00b2\u207a) precipitated as chlorides using HCl",
+        "isCorrect": false,
+        "explanation": "Direct precipitation without weak electrolyte suppression."
+      },
+      {
+        "id": "D",
+        "text": "Group III cations (Fe\u00b3\u207a, Al\u00b3\u207a) precipitated as hydroxides using NH\u2084OH + NH\u2084Cl",
+        "isCorrect": true,
+        "explanation": "NH\u2084Cl suppresses NH\u2084OH ionization via NH\u2084\u207a common ion, keeping [OH\u207b] low to precipitate only Group III hydroxides."
+      }
+    ],
+    "solutionExplanation": "\u2022 A is correct: HCl suppresses H\u2082S ionization via H\u207a common ion, keeping [S\u00b2\u207b] low to precipitate only small-K_sp Group II sulfides.\n\u2022 B is correct: NH\u2084OH neutralizes H\u207a, driving H\u2082S ionization to yield high [S\u00b2\u207b] required for larger-K_sp Group IV sulfides.\n\u2022 D is correct: NH\u2084Cl suppresses NH\u2084OH ionization via NH\u2084\u207a common ion, keeping [OH\u207b] low to precipitate only Group III hydroxides.\n\u2022 C is incorrect: Group I is direct chloride precipitation without buffer suppression.",
+    "keyFormulae": [
+      "Group II: H\u2082S + HCl (Common Ion H\u207a)",
+      "Group III: NH\u2084OH + NH\u2084Cl (Common Ion NH\u2084\u207a)"
+    ],
+    "hints": [
+      "Common ion effect is used to selectively keep reagent ion concentration low enough for selective precipitation."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-equil-016",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "Temperature Dependence of K",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding the Temperature Dependence of Equilibrium Constants: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The van 't Hoff equation is ln(K\u2082/K\u2081) = (\u0394_r H\u00b0/R) (1/T\u2081 - 1/T\u2082)",
+        "isCorrect": true,
+        "explanation": "Standard van 't Hoff isochore."
+      },
+      {
+        "id": "B",
+        "text": "For an endothermic reaction (\u0394_r H\u00b0 > 0), K increases as temperature increases",
+        "isCorrect": true,
+        "explanation": "Heating endothermic reaction shifts forward, increasing K."
+      },
+      {
+        "id": "C",
+        "text": "For an exothermic reaction (\u0394_r H\u00b0 < 0), K decreases as temperature increases",
+        "isCorrect": true,
+        "explanation": "Heating exothermic reaction shifts backward, decreasing K."
+      },
+      {
+        "id": "D",
+        "text": "Catalysts increase K at high temperatures and decrease K at low temperatures",
+        "isCorrect": false,
+        "explanation": "Catalysts NEVER alter K at any temperature."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: The van 't Hoff equation and endothermic/exothermic temperature shifts are accurate.\n\u2022 D is incorrect: Catalysts NEVER alter K at any temperature.",
+    "keyFormulae": [
+      "ln(K\u2082/K\u2081) = (\u0394_r H\u00b0/R) (1/T\u2081 - 1/T\u2082)"
+    ],
+    "hints": [
+      "Remember catalysts affect only the rate of reaction, never K."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-equil-017",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "Polyprotic Acids K_a Hierarchy",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following diprotic or triprotic acid solutions exhibit successive ionization behavior where K_a1 \u226b K_a2 \u226b K_a3? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Phosphoric Acid (H\u2083PO\u2084)",
+        "isCorrect": true,
+        "explanation": "Triprotic acid with K_a1 \u226b K_a2 \u226b K_a3."
+      },
+      {
+        "id": "B",
+        "text": "Sulfurous Acid (H\u2082SO\u2083)",
+        "isCorrect": true,
+        "explanation": "Diprotic acid with K_a1 \u226b K_a2."
+      },
+      {
+        "id": "C",
+        "text": "Carbonic Acid (H\u2082CO\u2083)",
+        "isCorrect": true,
+        "explanation": "Diprotic acid with K_a1 \u226b K_a2."
+      },
+      {
+        "id": "D",
+        "text": "Hydrochloric Acid (HCl)",
+        "isCorrect": false,
+        "explanation": "HCl is a monoprotic acid."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: H\u2083PO\u2084, H\u2082SO\u2083, and H\u2082CO\u2083 are polyprotic acids with K_a1 \u226b K_a2 \u226b K_a3.\n\u2022 D is incorrect: HCl is a monoprotic acid.",
+    "keyFormulae": [
+      "Polyprotic ionization hierarchy: K_a1 \u226b K_a2 \u226b K_a3"
+    ],
+    "hints": [
+      "Look for acids with more than one ionizable hydrogen."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-equil-018",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "K_sp & Precipitation Properties",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding the solubility product (K_sp) and precipitation of sparingly soluble salts: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "For Ag\u2082CrO\u2084, K_sp = 4 S\u00b3",
+        "isCorrect": true,
+        "explanation": "Ag\u2082CrO\u2084 (A\u2082B type) \u27f9 K_sp = (2S)\u00b2(S) = 4 S\u00b3."
+      },
+      {
+        "id": "B",
+        "text": "For Al(OH)\u2083, K_sp = 27 S\u2074",
+        "isCorrect": true,
+        "explanation": "Al(OH)\u2083 (AB\u2083 type) \u27f9 K_sp = (S)(3S)\u00b3 = 27 S\u2074."
+      },
+      {
+        "id": "C",
+        "text": "Precipitation occurs when the Ionic Product Q_sp > K_sp",
+        "isCorrect": true,
+        "explanation": "Supersaturation condition."
+      },
+      {
+        "id": "D",
+        "text": "Addition of a common ion increases the molar solubility S of a sparingly soluble salt",
+        "isCorrect": false,
+        "explanation": "Common ion DECREASES (suppresses) molar solubility."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Ag\u2082CrO\u2084 (AB\u2082) \u27f9 K_sp = 4S\u00b3; Al(OH)\u2083 (AB\u2083) \u27f9 K_sp = 27S\u2074; Precipitation requires supersaturation (Q_sp > K_sp).\n\u2022 D is incorrect: Addition of a common ion DECREASES (suppresses) the molar solubility S.",
+    "keyFormulae": [
+      "Ag\u2082CrO\u2084: K_sp = 4 S\u00b3",
+      "Al(OH)\u2083: K_sp = 27 S\u2074",
+      "Q_sp > K_sp \u27f9 Precipitation"
+    ],
+    "hints": [
+      "Common ion effect always suppresses solubility."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-equil-019",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "Lewis Bases Identification",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following species function as LEWIS BASES (electron-pair donors)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ammonia (NH\u2083)",
+        "isCorrect": true,
+        "explanation": "Possesses a non-bonding lone pair on Nitrogen."
+      },
+      {
+        "id": "B",
+        "text": "Water (H\u2082O)",
+        "isCorrect": true,
+        "explanation": "Possesses two non-bonding lone pairs on Oxygen."
+      },
+      {
+        "id": "C",
+        "text": "Cyanide anion (CN\u207b)",
+        "isCorrect": true,
+        "explanation": "Possesses lone pairs and negative charge."
+      },
+      {
+        "id": "D",
+        "text": "Boron Trifluoride (BF\u2083)",
+        "isCorrect": false,
+        "explanation": "BF\u2083 has an incomplete octet and acts as a Lewis Acid."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: NH\u2083, H\u2082O, and CN\u207b possess non-bonding lone pairs and act as Lewis bases.\n\u2022 D is incorrect: BF\u2083 has an incomplete octet (vacant 2p orbital) and acts as a Lewis Acid (electron-pair acceptor).",
+    "keyFormulae": [
+      "Lewis Base: Lone pair donor (Nucleophile)"
+    ],
+    "hints": [
+      "Lewis bases have available lone pairs of electrons."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-equil-020",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "subtopic": "pH Scale & Water Auto-Ionization",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding the pH scale and auto-ionization of water: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "pH = -log\u2081\u2080 [H\u207a] and pOH = -log\u2081\u2080 [OH\u207b]",
+        "isCorrect": true,
+        "explanation": "Standard logarithmic definitions."
+      },
+      {
+        "id": "B",
+        "text": "At 25\u00b0C, pH + pOH = 14.00",
+        "isCorrect": true,
+        "explanation": "pK_w = 14.00 at 25\u00b0C."
+      },
+      {
+        "id": "C",
+        "text": "As temperature increases above 25\u00b0C, K_w increases, so the pH of pure neutral water drops below 7.0",
+        "isCorrect": true,
+        "explanation": "Endothermic ionization increases K_w, dropping neutral pH."
+      },
+      {
+        "id": "D",
+        "text": "Pure water at 60\u00b0C (pH \u2248 6.5) is acidic because [H\u207a] > [OH\u207b]",
+        "isCorrect": false,
+        "explanation": "Pure water at 60\u00b0C is STILL NEUTRAL because [H\u207a] = [OH\u207b]."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: pH definitions, pK_w = 14 at 25\u00b0C, and endothermic auto-ionization dropping neutral pH at higher T are true.\n\u2022 D is incorrect: Pure water at 60\u00b0C is STILL NEUTRAL because [H\u207a] = [OH\u207b] (both equal 10\u207b\u2076\u00b7\u2075 M). Neutrality means [H\u207a] = [OH\u207b], NOT strictly pH = 7.0.",
+    "keyFormulae": [
+      "Neutrality condition: [H\u207a] = [OH\u207b]"
+    ],
+    "hints": [
+      "Neutrality is defined by [H\u207a] = [OH\u207b], regardless of temperature."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

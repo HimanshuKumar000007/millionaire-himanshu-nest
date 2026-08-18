@@ -1,0 +1,68 @@
+{
+  "id": "chem-xi-u5-c5-l01",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit V \u2014 Chemical Thermodynamics",
+  "unitNumber": 5,
+  "chapter": "Chemical Thermodynamics",
+  "chapterNumber": 5,
+  "chapterSlug": "chemical-thermodynamics",
+  "slug": "lesson-01-systems-state-functions-flot",
+  "title": "Thermodynamic Systems, State vs Path Functions & The First Law (FLOT)",
+  "topic": "Systems, Properties & First Law",
+  "topics": [
+    "Open, Closed & Isolated Thermodynamic Systems",
+    "State Functions (\u222e dX = 0) vs Path Functions (q, w)",
+    "Extensive vs Intensive Properties & Ratios (V_m = V/n, d = m/V)",
+    "First Law of Thermodynamics (\u0394U = q + w)",
+    "IUPAC Thermodynamic Sign Conventions"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "first-law-thermodynamics",
+  "quickSummary": "Thermodynamic systems are classified by boundary permeability (open, closed, isolated). The First Law states energy conservation: \u0394U = q + w. State functions (U, H, S, G) depend only on initial/final states, while heat and work are path functions.",
+  "summary": "Master thermodynamic system classifications, state vs path variables, extensive/intensive properties, and First Law energy conservation.",
+  "conceptBreakdown": [
+    {
+      "heading": "1.1 System Classifications & Boundary Properties",
+      "title": "1.1 System Classifications & Boundary Properties",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "System Classifications",
+        "takeaway": "Open: exchanges matter & energy; Closed: exchanges energy only; Isolated: exchanges neither."
+      },
+      "codeSnippet": "THERMODYNAMIC SYSTEM TYPES\n                                     \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                               \u25bc                               \u25bc\n  OPEN SYSTEM                    CLOSED SYSTEM                   ISOLATED SYSTEM\n  Exchanges BOTH matter          Exchanges ENERGY only;          Exchanges NEITHER matter\n  and energy with surroundings.  matter boundary is sealed.     nor energy with surroundings.\n  (*e.g., Open beaker of water*) (*e.g., Sealed metallic flask*) (*e.g., Perfect thermos flask*)",
+      "content": "Thermodynamics evaluates energy transformations, heat-work conversions, and macro-system spontaneity across three primary system types:\n\u2022 **Open System**: Exchanges both matter and energy with surroundings (e.g., open beaker of boiling water).\n\u2022 **Closed System**: Exchanges energy only; matter boundary is sealed (e.g., sealed metallic cylinder).\n\u2022 **Isolated System**: Exchanges neither matter nor energy with surroundings (e.g., perfect thermos flask)."
+    },
+    {
+      "heading": "1.2 State Functions vs Path Functions & Property Types",
+      "title": "1.2 State Functions vs Path Functions & Property Types",
+      "type": "paragraph",
+      "codeSnippet": "PROPERTY CLASSIFICATION\n                                       \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                                                           \u25bc\n  EXTENSIVE PROPERTIES                                        INTENSIVE PROPERTIES\n  Depend on total mass, size, or quantity                     Independent of mass, size, or quantity\n  \u251c\u2500\u2500 Mass (m), Volume (V)                                    \u251c\u2500\u2500 Temperature (T), Pressure (P), Density (d)\n  \u251c\u2500\u2500 Mole count (n), Heat Capacity (C)                       \u251c\u2500\u2500 Molar Heat Capacity (C_m), Molar Volume (V_m)\n  \u2514\u2500\u2500 Internal Energy (U), Enthalpy (H),                     \u2514\u2500\u2500 Refractive index, Surface tension, Viscosity,\n      Entropy (S), Free Energy (G)                                Standard Cell Potential (E\u00b0_cell), pH",
+      "content": "\u2022 **State Functions**: Values depend solely on the current thermodynamic state ($\\oint dX = 0$). Examples: $T, P, V, U, H, S, G, A$.\n\u2022 **Path Functions**: Values depend explicitly on the specific pathway taken ($\\oint \\delta X \\neq 0$). Examples: Heat ($q$) and Work ($w$).\n\u2022 **Intensive Ratio Law**: The ratio of any two extensive properties is always intensive:\n$$\\mathbf{\\text{Molar Volume } V_m = \\frac{V}{n} \\quad \\vert \\quad \\text{Density } d = \\frac{m}{V} \\quad \\vert \\quad \\text{Molar Heat Capacity } C_m = \\frac{C}{n}}$$"
+    },
+    {
+      "heading": "1.3 The First Law of Thermodynamics (FLOT)",
+      "title": "1.3 The First Law of Thermodynamics (FLOT)",
+      "type": "paragraph",
+      "content": "The First Law of Thermodynamics is energy conservation applied to thermodynamic systems:\n\n$$\\mathbf{\\Delta U = q + w \\quad \\text{or} \\quad dU = \\delta q + \\delta w}$$\n\n\u2022 **IUPAC Sign Conventions**:\n- Heat absorbed by system: $q > 0$ (Endothermic)\n- Heat released by system: $q < 0$ (Exothermic)\n- Work done ON system (Compression, $dV < 0$): $w > 0$\n- Work done BY system (Expansion, $dV > 0$): $w < 0$"
+    }
+  ],
+  "quickRevision": [
+    "First Law of Thermodynamics: \u0394U = q + w.",
+    "State functions (U, H, S, G) have \u222e dX = 0.",
+    "Path functions (q, w) have \u222e \u03b4X \u2260 0.",
+    "Extensive / Extensive = Intensive (e.g. V/n = V_m, m/V = d).",
+    "Expansion work done by system: w < 0."
+  ],
+  "keyFormulae": [
+    "\u0394U = q + w",
+    "V_m = V / n",
+    "d = m / V"
+  ]
+}

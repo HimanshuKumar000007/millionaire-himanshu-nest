@@ -1,0 +1,94 @@
+[
+  {
+    "id": "q-bio-c6-001",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Anatomy of Flowering Plants",
+    "chapterNumber": 6,
+    "chapterSlug": "anatomy-of-flowering-plants",
+    "topic": "Monocot Stem Anatomy & Atactostele",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "Transverse sectioning of an unknown herbaceous stem reveals the following anatomical features: a sclerenchymatous hypodermis, a continuous mass of undifferentiated parenchymatous ground tissue lacking a distinct endodermis or pericycle, and numerous scattered vascular bundles. Each vascular bundle is conjoint, collateral, closed, encased in a sclerenchymatous sheath, and possesses a Y-shaped xylem arrangement featuring a prominent lysigenous cavity. What is the identity of this organ and its primary tissue system?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Dicot Stem (*Helianthus*); Eustele system", "isCorrect": false },
+      { "id": "b", "text": "Monocot Stem (*Zea mays*); Atactostele system", "isCorrect": true },
+      { "id": "c", "text": "Dicot Root (*Helianthus*); Exarch radial system", "isCorrect": false },
+      { "id": "d", "text": "Monocot Leaf (*Zea mays*); Isobilateral mesophyll system", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "A sclerenchymatous hypodermis, scattered closed vascular bundles (Atactostele), absence of phloem parenchyma, and Y-shaped xylem with a lysigenous protoxylem cavity are diagnostic hallmarks of a Monocot Stem (*Zea mays*).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c6-002",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Anatomy of Flowering Plants",
+    "chapterNumber": 6,
+    "chapterSlug": "anatomy-of-flowering-plants",
+    "topic": "Heartwood Histology & Tyloses",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "During dendrochronological analysis of an ancient dicotyledonous trunk, a plant anatomist isolates the innermost, dark-colored core of secondary xylem. Microscopic inspection demonstrates that its vessel lumens are completely blocked by balloon-like parenchymatous intrusions called tyloses, and its cell walls are heavily impregnated with hydrophobic tannins, resins, and gums. How is this wood region classified, and what is its physiological status?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Sapwood (Alburnum); actively conducts water and mineral sap", "isCorrect": false },
+      { "id": "b", "text": "Heartwood (Duramen); non-functional for conduction, provides mechanical strength", "isCorrect": true },
+      { "id": "c", "text": "Early Wood (Spring wood); highly active water conduction with wide vessel lumens", "isCorrect": false },
+      { "id": "d", "text": "Secondary Phloem; actively transports sucrose photosynthates", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "The dark, central, non-conducting region of secondary xylem blocked by tyloses and impregnated with resins/tannins is Heartwood (Duramen). It is non-functional for water transport and functions exclusively for mechanical support and decay resistance.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c6-003",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Anatomy of Flowering Plants",
+    "chapterNumber": 6,
+    "chapterSlug": "anatomy-of-flowering-plants",
+    "topic": "Dicot vs Monocot Root Anatomy",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionText": "Which of the following statements represent VALID anatomical facts contrasting Dicot Roots with Monocot Roots?",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Dicot roots feature diarch to hexarch vascular bundles, whereas monocot roots feature polyarch (>6) vascular bundles.", "isCorrect": true },
+      { "id": "b", "text": "Dicot roots possess a large, prominent parenchymatous pith, whereas monocot root pith is small or completely absent.", "isCorrect": false },
+      { "id": "c", "text": "The pericycle in dicot roots gives rise to both lateral roots and part of the secondary vascular cambium.", "isCorrect": true },
+      { "id": "d", "text": "Casparian strips composed of suberin are present on the endodermal walls of both dicot and monocot roots.", "isCorrect": true }
+    ],
+    "correctAnswer": ["a", "c", "d"],
+    "solutionExplanation": "• A is correct: Dicot roots have 2–6 xylem bundles (diarch-hexarch); monocot roots have >6 (polyarch).\n• B is incorrect: Monocot roots possess a large, well-developed pith; dicot root pith is tiny or absent.\n• C is correct: Dicot root pericycle is dual-function (lateral roots + secondary cambium); monocot pericycle forms only lateral roots.\n• D is correct: Casparian strips are a universal endodermal hallmark in roots.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c6-004",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Anatomy of Flowering Plants",
+    "chapterNumber": 6,
+    "chapterSlug": "anatomy-of-flowering-plants",
+    "topic": "Secondary Growth & Periderm Dynamics",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionText": "Select the correct statements regarding secondary growth and periderm dynamics in dicot stems:",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "The vascular cambial ring is formed by the fusion of primary intrafascicular cambium and secondary interfascicular cambium.", "isCorrect": true },
+      { "id": "b", "text": "Phellogen (cork cambium) cuts off suberized dead Phellem cells toward the outside and living Phelloderm cells toward the inside.", "isCorrect": true },
+      { "id": "c", "text": "Periderm comprises the combined layers of Phellem, Phellogen, and Phelloderm.", "isCorrect": true },
+      { "id": "d", "text": "Bark refers strictly to the suberized phellem layers and excludes all secondary phloem tissue.", "isCorrect": false }
+    ],
+    "correctAnswer": ["a", "b", "c"],
+    "solutionExplanation": "• A is correct: Interfascicular cambium arises by dedifferentiation of medullary ray cells to complete the ring.\n• B is correct: Phellogen cuts off Phellem (cork) externally and Phelloderm (secondary cortex) internally.\n• C is correct: Periderm = Phellem + Phellogen + Phelloderm.\n• D is incorrect: Bark includes ALL tissues outside the vascular cambium, which incorporates the periderm PLUS primary and secondary phloem.",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

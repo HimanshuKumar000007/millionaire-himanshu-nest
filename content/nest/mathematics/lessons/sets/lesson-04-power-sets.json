@@ -1,0 +1,36 @@
+{
+  "id": "math-sets-lesson-04",
+  "exam": "NEST",
+  "subject": "Mathematics",
+  "classLevel": "Class XI",
+  "unit": "Unit 1 — Sets and Functions",
+  "unitNumber": 1,
+  "chapter": "Sets",
+  "chapterNumber": 1,
+  "chapterSlug": "sets",
+  "lessonNumber": 4,
+  "order": 4,
+  "slug": "lesson-04-power-sets",
+  "title": "The Power Set 𝒫(A) & Combinatorics",
+  "topic": "Subsets & Venn diagrams",
+  "status": "published",
+  "estimatedTimeMinutes": 5,
+  "readingTimeMinutes": 5,
+  "diagramType": "sets",
+  "quickSummary": "The Power Set 𝒫(A) is the set of all subsets of A, having cardinality 2^|A|.",
+  "summary": "Master the definition of power sets, binary combinatorial proofs for power set cardinality 2^n, and Cantor's theorem.",
+  "coreConcepts": ["Power Set", "Binary Inclusion Proof", "Combinatorial Binomial Sum", "Cantor's Theorem"],
+  "conceptBreakdown": [
+    {
+      "heading": "4. Power Set Definition & Combinatorial Proof",
+      "title": "4. Power Set Definition & Combinatorial Proof",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Power Set Trap",
+        "takeaway": "𝒫(A ∪ B) is strictly larger than 𝒫(A) ∪ 𝒫(B) because it contains subsets with elements from both A and B."
+      },
+      "codeSnippet": "POWER SET CARDINALITY PROOF\n                       \n   Let |A| = n. Every subset X ⊆ A is formed by making a binary decision\n   for each of the n elements: either INCLUDE (1) or EXCLUDE (0) the element.\n   \n   Total Subsets = 2 × 2 × ... × 2 = 2^n\n   \n   Combinatorial Identity: sum_{k=0}^n C(n, k) = C(n, 0) + C(n, 1) + ... + C(n, n) = 2^n\n   where C(n, k) is the number of subsets of A containing exactly k elements.",
+      "content": "The **Power Set** of a set $A$, denoted $\\mathcal{P}(A)$ or $2^A$, is the set of all subsets of $A$:\n\n$$\\mathbf{\\mathcal{P}(A) = \\{X \\mid X \\subseteq A\\}}$$\n\n### Properties of Power Sets\n1. $\\emptyset \\in \\mathcal{P}(A)$ and $A \\in \\mathcal{P}(A)$ for any set $A$.\n2. $|\\mathcal{P}(A)| = 2^{|A|}$.\n3. $A \\subseteq B \\iff \\mathcal{P}(A) \\subseteq \\mathcal{P}(B)$.\n4. $\\mathcal{P}(A \\cap B) = \\mathcal{P}(A) \\cap \\mathcal{P}(B)$.\n5. $\\mathcal{P}(A) \\cup \\mathcal{P}(B) \\subseteq \\mathcal{P}(A \\cup B)$ *(Note: Equality does not hold in general!)*.\n6. **Cantor's Theorem**: For any set $A$, finite or infinite, $|A| < |\\mathcal{P}(A)|$."
+    }
+  ]
+}

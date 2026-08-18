@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u6-c1-l06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VI — Reproduction",
+  "unitNumber": 6,
+  "chapter": "Sexual Reproduction in Flowering Plants",
+  "chapterNumber": 1,
+  "chapterSlug": "sexual-reproduction-in-flowering-plants",
+  "slug": "lesson-06-pollen-pistil-interaction-and-double-fertilization",
+  "title": "Pollen-Pistil Interaction & Double Fertilization",
+  "topic": "Pollen Tube Pathways & Nawaschin Double Fertilization",
+  "order": 6,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Entry routes: Porogamy (micropyle), Chalazogamy (chalaza), Mesogamy (integuments). Double Fertilization (Nawaschin, 1898): Syngamy (n + n -> 2n Zygote) + Triple Fusion (n + 2n -> 3n PEN).",
+  "summary": "Entry routes: Porogamy (micropyle), Chalazogamy (chalaza), Mesogamy (integuments). Double Fertilization (Nawaschin, 1898): Syngamy (n + n -> 2n Zygote) + Triple Fusion (n + 2n -> 3n PEN).",
+  "conceptBreakdown": [
+    {
+      "heading": "Pollen-Pistil Interaction & Double Fertilization",
+      "title": "Pollen-Pistil Interaction & Double Fertilization",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Entry routes: Porogamy (micropyle, most common), Chalazogamy (chalaza), Mesogamy (integuments). Double fertilization (S.G. Nawaschin, 1898): (1) Syngamy: 1st male gamete (n) + Egg (n) -> Zygote (2n), and (2) Triple Fusion: 2nd male gamete (n) + 2 Polar Nuclei (2n) -> Primary Endosperm Nucleus PEN (3n)."
+      },
+      "codeSnippet": "DOUBLE FERTILIZATION\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n   SYNGAMY (Generative Fertilization)              TRIPLE FUSION (Vegetative Fertilization)\n   1st Male Gamete (n) + Egg Cell (n)              2nd Male Gamete (n) + 2 Polar Nuclei (n+n)\n               │                                   (or Central Cell Secondary Nucleus 2n)\n               ▼                                               │\n        Zygote (2n)                                            ▼\n               │                                 Primary Endosperm Nucleus (PEN, 3n)\n               ▼                                               │\n         Embryo (2n)                                           ▼\n                                                      Endosperm Tissue (3n)",
+      "content": "Pollen-Pistil Interaction encompasses all dynamic dialogue events from pollen deposition on the stigma up to pollen tube entry into the embryo sac.\n\n### 6.1 Pollen Tube Entry Routes\n\n```\n                        POLLEN TUBE ENTRY ROUTES\n                                    │\n         ┌──────────────────────────┼──────────────────────────┐\n         ▼                          ▼                          ▼\n     POROGAMY                   CHALAZOGAMY                MESOGAMY\n  Enters via Micropyle       Enters via Chalaza         Enters via Integuments\n  (Most common angiosperms)  (Casuarina, Juglans)       or Funicle (Cucurbita)\n```\n\n- Regardless of the ovule entry route (Porogamy, Chalazogamy, or Mesogamy), the pollen tube **ALWAYS enters the Embryo Sac through the Micropylar end** by penetrating one of the degenerate Synergids via the **Filiform Apparatus**.\n\n### 6.2 The Double Fertilization Event (S.G. Nawaschin, 1898)\n\n$$\\text{Syngamy: } n \\text{ (male gamete)} + n \\text{ (egg)} \\longrightarrow 2n \\text{ (zygote)}$$\n\n$$\\text{Triple Fusion: } n \\text{ (male gamete)} + 2n \\text{ (polar nuclei)} \\longrightarrow 3n \\text{ (PEN)}$$"
+    },
+    {
+      "heading": "LURE Chemotropic Peptides",
+      "title": "LURE Chemotropic Peptides",
+      "type": "paragraph",
+      "content": "Synergids secrete cysteine-rich defensin-like polypeptides called LURE peptides that act as species-specific chemotropic attractants, binding receptor-like kinases (RLKs) on the pollen tube tip to guide directional growth."
+    },
+    {
+      "heading": "Degenerating Synergid Discharge",
+      "title": "Degenerating Synergid Discharge",
+      "type": "paragraph",
+      "content": "The pollen tube tip bursts inside one of the synergids upon contact, releasing its two non-motile male gametes and tube nucleus directly into the synergid cytoplasm."
+    }
+  ]
+}

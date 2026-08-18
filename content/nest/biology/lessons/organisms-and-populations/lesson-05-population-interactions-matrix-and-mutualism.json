@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u10-c11-l05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit X — Ecology",
+  "unitNumber": 10,
+  "chapter": "Organisms and Populations",
+  "chapterNumber": 11,
+  "chapterSlug": "organisms-and-populations",
+  "slug": "lesson-05-population-interactions-matrix-and-mutualism",
+  "title": "Population Interactions Matrix & Mutualism (+/+)",
+  "topic": "Interaction Spectrum (+/+, -/-, +/-, +/0, -/0), Lichens, Mycorrhizae, & Fig-Wasp Symbiosis",
+  "order": 5,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Interspecific population interactions: Mutualism (+/+), Competition (-/-), Predation (+/-), Parasitism (+/-), Commensalism (+/0), Amensalism (-/0). Mutualism (+/+): Symbiotic partnership where both species derive mutual benefit: (1) Lichens (Phycobiont algae/cyanobacteria providing photosynthates + Mycobiont fungus providing absorption and shelter); (2) Mycorrhizae (Glomus fungus absorbing soil phosphorus for plant roots in exchange for carbohydrates); (3) Fig & Fig Wasp (Blastophaga wasp oviposits in Ficus inflorescence while pollinating flowers).",
+  "summary": "Interspecific population interactions: Mutualism (+/+), Competition (-/-), Predation (+/-), Parasitism (+/-), Commensalism (+/0), Amensalism (-/0). Mutualism (+/+): Symbiotic partnership where both species derive mutual benefit: (1) Lichens (Phycobiont algae/cyanobacteria providing photosynthates + Mycobiont fungus providing absorption and shelter); (2) Mycorrhizae (Glomus fungus absorbing soil phosphorus for plant roots in exchange for carbohydrates); (3) Fig & Fig Wasp (Blastophaga wasp oviposits in Ficus inflorescence while pollinating flowers).",
+  "conceptBreakdown": [
+    {
+      "heading": "Interspecific Interaction Spectrum & Mutualistic Symbioses",
+      "title": "Interspecific Interaction Spectrum & Mutualistic Symbioses",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Interspecific interactions span mutualism (+/+), competition (-/-), predation (+/-), parasitism (+/-), commensalism (+/0), and amensalism (-/0). Mutualistic symbioses like Lichens, Mycorrhizae, and Fig-Wasp represent tight co-evolved ecological partnerships."
+      },
+      "codeSnippet": "POPULATION INTERACTION SPECTRUM\n                        \n   INTERACTION TYPE               SPECIES A    SPECIES B     ECOLOGICAL NATURE\n   Mutualism                         +            +          Both species benefit mutually.\n   Competition                       -            -          Both species are harmed.\n   Predation                         +            -          Predator (+) kills Prey (-).\n   Parasitism                        +            -          Parasite (+) exploits Host (-).\n   Commensalism                      +            0          One benefits (+), Other neutral (0).\n   Amensalism                        -            0          One harmed (-), Other neutral (0).",
+      "content": "### 5.1 The Six Major Interspecific Interactions\n- Interactions between populations of two distinct species living together in a community are classified based on net fitness consequences ($+$, $-$, $0$):\n\n### 5.2 Mutualism ($+/+$): Obligate & Facultative Co-operation\n- **Definition**: An interspecific interaction wherein **both interacting species derive reciprocal biological, nutritional, or reproductive benefits**.\n\n```\n                            MUTUALISTIC EXAMPLES\n                                     │\n     ┌──────────────────┬────────────┴────────────┬──────────────────┐\n     ▼                  ▼                         ▼                  ▼\n  LICHENS            MYCORRHIZAE               FIG & FIG WASP     SEXUAL DECEIT\n  Fungus + Algae     Glomus Fungus +           Ficus + Blastophaga Ophrys Orchid +\n  (Phycobiont &      Plant Roots (Absorbs      Wasp (Obligate     Male Bee (Colletes)\n   Mycobiont)         Phosphorus)               egg-laying site)   (Pseudocopulation)\n```\n\n1. **Lichens (Fungus + Alga / Cyanobacterium)**:\n   - **Phycobiont (Algal Component)**: Photosynthesizes carbohydrates and organic nutrients.\n   - **Mycobiont (Fungal Component)**: Provides structural anchorage, moisture retention, and absorbs mineral nutrients.\n   - Lichens are highly sensitive bioindicators of **$\\text{SO}_2$ air pollution** (absent in industrial cities).\n\n2. **Mycorrhizae (Fungus + Vascular Plant Roots)**:\n   - Symbiosis between the fungal genus ***Glomus*** and the roots of higher plants (e.g., *Pinus*).\n   - **Fungal Benefit to Plant**: Extensively explores soil micropores, solubilizing and absorbing **Phosphorus** and other minerals; enhances drought tolerance and pathogen resistance.\n   - **Plant Benefit to Fungus**: Supplies essential carbohydrates and carbon metabolites.\n   - *Note*: *Pinus* seeds cannot germinate and establish without mycorrhizal association (**Obligate Symbiosis**).\n\n3. **Fig Tree (*Ficus*) & Fig Wasp (*Blastophaga*)**:\n   - Shows tight **one-to-one co-evolution**.\n   - The female wasp enters the closed syconium inflorescence of the fig to deposit her eggs into developing ovules while simultaneously cross-pollinating the female flowers.\n   - The fig fruit provides safe shelter for developing wasp larvae and sacrifices a portion of seeds as food for emerging larvae."
+    },
+    {
+      "heading": "Yucca Plant & Pronuba Moth Mutualism",
+      "title": "Yucca Plant & Pronuba Moth Mutualism",
+      "type": "paragraph",
+      "content": "The Yucca plant is pollinated exclusively by the female Pronuba moth (Tegeticula), which deposits its eggs directly into the floral ovary locule; neither partner can complete its life cycle without the other."
+    },
+    {
+      "heading": "Cheating and Mutualism Exploitation",
+      "title": "Cheating and Mutualism Exploitation",
+      "type": "paragraph",
+      "content": "Nectar robbers (e.g., certain bumblebees) bore holes into the base of floral spurs to extract nectar without contacting anthers or transferring pollen, breaking the mutualistic contract."
+    }
+  ]
+}

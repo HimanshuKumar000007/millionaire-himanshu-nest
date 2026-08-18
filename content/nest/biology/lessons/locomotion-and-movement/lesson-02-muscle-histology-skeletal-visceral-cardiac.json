@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-18-02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Locomotion and Movement",
+  "chapterNumber": 18,
+  "chapterSlug": "locomotion-and-movement",
+  "lessonNumber": 2,
+  "title": "Comparative Muscle Histology: Skeletal, Visceral, & Cardiac",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Medium",
+  "prerequisites": ["Mesoderm origin", "Intercellular junctions"],
+  "learningObjectives": [
+    "Contrast the microanatomy and nuclear profiles of Skeletal, Visceral, and Cardiac muscles",
+    "Describe the function of Intercalated Discs (Desmosomes and Gap Junctions) in cardiac syncytium",
+    "Compare fatigue kinetics and excitation-contraction systems across muscle tissues"
+  ],
+  "content": "Muscles are mesodermally derived tissues accounting for **$40\\text{--}50\\%$ of total adult human body weight**.\n\n```\n                               MUSCLE TISSUE TYPES\n                                        │\n         ┌──────────────────────────────┼──────────────────────────────┐\n         ▼                              ▼                              ▼\n  SKELETAL MUSCLE               VISCERAL / SMOOTH MUSCLE          CARDIAC MUSCLE\n  (Striated & Voluntary)         (Non-Striated & Involuntary)    (Striated & Involuntary)\n  ├── Attached to bones          ├── Walls of visceral organs    ├── Myocardium of Heart wall\n  ├── Syncytial (Multinucleate)  ├── Fusiform (Single Nucleus)   ├── Branched (Intercalated Discs)\n  └── Fast, fatigue-prone        └── Slow, non-fatiguing         └── Autorhythmic / Myogenic\n```\n\n### 2.1 Muscle Histology Comparison Matrix\n\n| Histological Trait | Skeletal Muscle | Visceral / Smooth Muscle | Cardiac Muscle |\n| :--- | :--- | :--- | :--- |\n| **Anatomical Location** | Attached to skeletal bones via collagenous **Tendons** | Walls of hollow internal visceral organs (*gut, blood vessels, uterus*) | Myocardium of the heart wall |\n| **Structural Appearance** | **Striated** (alternating light I-bands and dark A-bands) | **Non-Striated / Smooth** (lacks organized sarcomeres) | **Striated** (possesses regular sarcomeres) |\n| **Control Mechanism** | **Voluntary** (Somatic Nervous System) | **Involuntary** (Autonomic Nervous System) | **Involuntary** (Myogenic Autorhythmicity + ANS) |\n| **Cell Morphology** | Long, cylindrical, unbranched fibers | Spindle-shaped / Fusiform with tapering ends | Short, cylindrical, **branched** fibers |\n| **Nuclear Profile** | **Syncytial / Multinucleated** (nuclei positioned peripherally) | **Uninucleate** (single nucleus positioned centrally) | **Uninucleate** (single nucleus positioned centrally) |\n| **Special Junctions** | Absent; individual fibers insulated by endomysium | Gap junctions present in single-unit smooth muscle | **Intercalated Discs** containing **Desmosomes** and **Gap Junctions** |\n| **Sarcoplasmic Reticulum** | Highly developed terminal cisternae forming T-tubule triads | Poorly developed; relies on extracellular $\\text{Ca}^{2+}$ via caveolae | Moderately developed; T-tubule diads at Z-lines |\n| **Contraction & Fatigue** | Rapid contraction; **fatigues quickly** | Slow, sustained contractions; **fatigue-resistant** | Rhythmic, continuous contractions; **completely fatigue-resistant** |",
+  "conceptBreakdown": [
+    {
+      "heading": "Dual Architecture of Intercalated Discs",
+      "explanation": "Intercalated discs are step-like transverse junctions between adjacent cardiomyocytes containing: (1) Desmosomes (maculae adherentes) that physically anchor intermediate filaments to prevent separation during mechanical stress, and (2) Gap Junctions (nexus) that permit direct ionic flow, allowing the heart to function as a functional syncytium."
+    },
+    {
+      "heading": "Triads vs Diads",
+      "explanation": "Skeletal muscle features 'Triads' located at A-I band junctions, consisting of 1 central T-tubule flanked by 2 terminal cisternae of the SR. Cardiac muscle features 'Diads' located at Z-lines, consisting of 1 T-tubule paired with 1 SR terminal cisterna."
+    }
+  ]
+}

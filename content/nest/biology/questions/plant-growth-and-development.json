@@ -1,0 +1,500 @@
+[
+  {
+    "id": "q-bio-c13-001",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "Tissue Culture Organogenesis & Auxin:Cytokinin Ratio",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "A plant physiologist performs a tissue culture experiment using tobacco pith parenchyma. When the culture medium contains an Auxin-to-Cytokinin concentration ratio of 100:1, rapid proliferation of an undifferentiated cell mass occurs. What morphogenic transition will be observed if the researcher adjusts the hormone concentrations to an Auxin-to-Cytokinin ratio of 1:100?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Induction of intense root differentiation (Rhizogenesis)", "isCorrect": false },
+      { "id": "b", "text": "Induction of adventitious shoot bud differentiation (Caulogenesis)", "isCorrect": true },
+      { "id": "c", "text": "Complete suppression of all cell division and entry into G0 phase", "isCorrect": false },
+      { "id": "d", "text": "Immediate synthesis of α-amylase and seed coat scarification", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "According to the Skoog and Miller organogenesis model, a High Auxin : Low Cytokinin ratio promotes rooting (Rhizogenesis), whereas a Low Auxin : High Cytokinin ratio (1:100) shifts morphogenic fate to promote shoot bud differentiation (Caulogenesis).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c13-002",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "Photoperiodic Night Interruption & Phytochrome Action",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionText": "In a photoperiodism experiment, a Short-Day Plant (SDP) with a critical night length of 10 hours is exposed to a 12-hour light period followed by a 12-hour dark period. However, during the 6th hour of darkness, the plant is exposed to a 5-second flash of red light (660 nm). What will be the floral response of this plant?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "It will flower normally because total darkness exceeded 10 hours.", "isCorrect": false },
+      { "id": "b", "text": "It will fail to flower because the critical long night was interrupted by red light, converting inactive Pr to active Pfr.", "isCorrect": true },
+      { "id": "c", "text": "It will flower precociously due to rapid florigen accumulation.", "isCorrect": false },
+      { "id": "d", "text": "It will undergo immediate vernalization and produce male flowers only.", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Short-Day Plants are strictly Long-Night Plants; they require an uninterrupted dark period exceeding their critical night length. A flash of red light (660 nm) during the dark period converts inactive Pr into active Pfr, which resets the biological clock and inhibits flowering in SDPs.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c13-003",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "Gibberellin Aleurone Layer Cascade",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "During cereal seed germination, which specific tissue layer secretes α-amylase in response to Embryo-derived Gibberellins (GA3), and what transcription factor is de-repressed to activate α-amylase gene expression?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Scutellum; p53", "isCorrect": false },
+      { "id": "b", "text": "Aleurone Layer; GAMYB", "isCorrect": true },
+      { "id": "c", "text": "Pericarp; E2F", "isCorrect": false },
+      { "id": "d", "text": "Coleoptile; PIN1", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Gibberellins (GA3) synthesized by the germinating embryo diffuse into the Aleurone Layer of the endosperm, where they bind receptors that de-repress the GAMYB transcription factor, activating transcription and secretion of α-Amylase to hydrolyze endosperm starch.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c13-004",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "Submerged Rice Stem Elongation by Ethylene",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "A batch of deep-water rice plants experiencing seasonal flood submergence undergoes a sudden 5-fold acceleration in petiole and internodal stem elongation, allowing their upper leaves to remain above the rising water surface. Which phytohormone mediates this rapid submerged stem elongation response?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Abscisic Acid (ABA)", "isCorrect": false },
+      { "id": "b", "text": "Ethylene", "isCorrect": true },
+      { "id": "c", "text": "Cytokinin", "isCorrect": false },
+      { "id": "d", "text": "Indole-3-acetic acid (IAA)", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Submergence traps the gaseous hormone Ethylene inside deep-water rice tissues. Accumulated ethylene triggers rapid petiole and internodal stem elongation, keeping the photosynthetic leaf canopy above water.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c13-005",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "Geometric Growth Rate Kinetics Calculation",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionText": "A cell population undergoing geometric growth expands according to the equation W1 = W0 e^(rt). If an initial plant tissue mass of 10 grams expands to 80 grams over a period of 6 days of exponential growth, what is the relative growth rate (r) of the tissue in days⁻¹? (Take ln 2 ≈ 0.693)",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "0.115 day⁻¹", "isCorrect": false },
+      { "id": "b", "text": "0.3465 day⁻¹", "isCorrect": true },
+      { "id": "c", "text": "0.693 day⁻¹", "isCorrect": false },
+      { "id": "d", "text": "2.079 day⁻¹", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Given W0 = 10, W1 = 80, t = 6: W1/W0 = 80/10 = 8 = 2^3. e^(rt) = 8 => rt = ln(8) = 3 ln(2) = 3 x 0.693 = 2.079. r = 2.079 / 6 = 0.3465 day⁻¹.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c13-006",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "Auxin Biosynthetic Precursors",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "What is the biochemical precursor and essential trace metal ion required for the endogenous biosynthesis of Indole-3-acetic acid (IAA / Auxin) in plants?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "L-Methionine; Iron (Fe²⁺)", "isCorrect": false },
+      { "id": "b", "text": "L-Tryptophan; Zinc (Zn²⁺)", "isCorrect": true },
+      { "id": "c", "text": "Mevalonic Acid; Magnesium (Mg²⁺)", "isCorrect": false },
+      { "id": "d", "text": "Adenine; Copper (Cu²⁺)", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Auxin (IAA) is biosynthesized from the amino acid L-Tryptophan via indole-3-pyruvic acid in a pathway requiring Zinc (Zn²⁺) as an essential enzyme co-factor.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c13-007",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "Agricultural Applications of Gibberellins",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionText": "Which plant growth regulator is commonly sprayed on commercial sugarcane crops to increase stem length and boost sugar yield by up to 20 tonnes per acre?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Abscisic Acid (ABA)", "isCorrect": false },
+      { "id": "b", "text": "Gibberellin (GA3)", "isCorrect": true },
+      { "id": "c", "text": "Zeatin", "isCorrect": false },
+      { "id": "d", "text": "2,4-Dichlorophenoxyacetic acid (2,4-D)", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Spraying sugarcane fields with Gibberellins (GA3) stimulates dramatic internodal stem elongation, increasing total stem biomass and raising sugar yields significantly.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c13-008",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "ABA-Mediated Stomatal Closure",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionText": "When a plant experiences severe soil drought, roots synthesize Abscisic Acid (ABA) which translocates to leaves. How does ABA trigger rapid stomatal closure in guard cells?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "By activating H⁺-ATPase pumps to acidify guard cell cytoplasm", "isCorrect": false },
+      { "id": "b", "text": "By stimulating Ca²⁺ influx into cytosol, triggering massive efflux of K⁺ and Cl⁻ ions and loss of turgor", "isCorrect": true },
+      { "id": "c", "text": "By promoting Malate synthesis inside guard cell vacuoles", "isCorrect": false },
+      { "id": "d", "text": "By inducing rapid cell division in subsidiary cells", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "ABA binds guard cell membrane receptors, opening hyperpolarization-activated Ca²⁺ channels. Elevated cytosolic Ca²⁺ depolarizes the membrane and activates anion/cation channels, driving a massive efflux of K⁺ and Cl⁻ ions. Water leaves guard cells osmotically, leading to loss of turgor and stomatal closure.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c13-009",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "Anatomical Dedifferentiation in Secondary Growth",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "The phenomenon where mature, non-dividing cortical parenchyma cells regain mitotic division capacity to form the cork cambium (phellogen) during secondary growth is an example of:",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Primary Differentiation", "isCorrect": false },
+      { "id": "b", "text": "Dedifferentiation", "isCorrect": true },
+      { "id": "c", "text": "Redifferentiation", "isCorrect": false },
+      { "id": "d", "text": "Developmental Plasticity", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Mature, differentiated permanent cells (cortex parenchyma) regaining mitotic division potential to form secondary meristems (cork cambium) is Dedifferentiation. (When phellogen produces cork cells that lose division capacity, that is Redifferentiation).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c13-010",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "Selective Herbicides & Synthetic Auxins",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionText": "Which commercial synthetic phytohormone formulation is widely applied to agricultural crops as a selective herbicide to eliminate broad-leaved dicotyledonous weeds from monocotyledonous cereal fields?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "α-Naphthaleneacetic acid (NAA)", "isCorrect": false },
+      { "id": "b", "text": "2,4-Dichlorophenoxyacetic acid (2,4-D)", "isCorrect": true },
+      { "id": "c", "text": "Ethephon", "isCorrect": false },
+      { "id": "d", "text": "Kinetin", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "2,4-D is a synthetic auxin used extensively as a selective herbicide. Dicotyledonous weeds absorb 2,4-D rapidly and undergo lethal uncontrolled growth, whereas monocotyledonous cereal crops metabolize or exclude 2,4-D and remain unharmed.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c13-011",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "Auxin Physiological Actions",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "Which of the following physiological responses are driven by Auxins? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Induction of apical dominance by suppressing axillary bud outgrowth", "isCorrect": true },
+      { "id": "b", "text": "Cell elongation via activation of plasma membrane H⁺-ATPase proton pumps (Acid Growth Hypothesis)", "isCorrect": true },
+      { "id": "c", "text": "Delay of leaf senescence via the Richmond-Lang effect", "isCorrect": false },
+      { "id": "d", "text": "Promotion of adventitious root initiation in stem cuttings", "isCorrect": true }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "d"
+    ],
+    "solutionExplanation": "A, B, D are correct: Auxins mediate apical dominance, cell elongation via acid growth wall loosening, and root initiation in cuttings. C is incorrect: Delay of leaf senescence via nutrient mobilization (Richmond-Lang Effect) is a diagnostic role of Cytokinins, NOT auxins.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c13-012",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "Gibberellin Developmental Regulators",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "Which of the following developmental events are regulated by Gibberellins (GA)? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Induction of bolting (internodal elongation) in rosette plants like cabbage", "isCorrect": true },
+      { "id": "b", "text": "De-repression of GAMYB to induce α-Amylase synthesis in cereal aleurone layers", "isCorrect": true },
+      { "id": "c", "text": "Maintenance of seed dormancy during freezing winter conditions", "isCorrect": false },
+      { "id": "d", "text": "Elongation of grape stalks and improvement of apple fruit shape", "isCorrect": true }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "d"
+    ],
+    "solutionExplanation": "A, B, D are correct: Gibberellins promote bolting, induce aleurone α-amylase, and elongate grape stalks/fruit shapes. C is incorrect: Seed dormancy is maintained by Abscisic Acid (ABA), which is an antagonist to gibberellins.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c13-013",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "Ethylene Biosynthesis & Physiological Characteristics",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionText": "Select the valid statements regarding the gaseous phytohormone Ethylene: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "It is biosynthesized from L-Methionine via the intermediate 1-aminocyclopropane-1-carboxylic acid (ACC).", "isCorrect": true },
+      { "id": "b", "text": "It induces the \"Triple Response\" in etiolated seedlings (hypocotyl shortening, radial swelling, apical hook formation).", "isCorrect": true },
+      { "id": "c", "text": "Ethephon is an aqueous formulation that releases ethylene gas inside plant tissues.", "isCorrect": true },
+      { "id": "d", "text": "It suppresses female flower determination (pistillate) in monoecious cucumbers.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Ethylene is derived from Methionine via ACC, causes the triple response, and is commercially supplied as Ethephon. D is incorrect: Ethylene PROMOTES (increases) female flower determination in monoecious cucumbers, enhancing fruit yield.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c13-014",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "Abscisic Acid (ABA) Bioenergetics & Actions",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionText": "Which of the following conditions describe the Stress Hormone Abscisic Acid (ABA)? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "It is biosynthesized via oxidative cleavage of carotenoid xanthophylls (violaxanthin).", "isCorrect": true },
+      { "id": "b", "text": "It acts as a direct biochemical antagonist to Gibberellins (GA) in seed dormancy and amylase expression.", "isCorrect": true },
+      { "id": "c", "text": "It induces rapid stomatal closure by triggering K⁺ and Cl⁻ ion efflux from guard cells.", "isCorrect": true },
+      { "id": "d", "text": "It accelerates the malting process in barley brewing industries.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: ABA is derived from xanthophylls, antagonizes GA to maintain dormancy, and closes stomata. D is incorrect: Accelerating malting in barley is performed by Gibberellins (GA3), which induce amylase; ABA inhibits this process.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c13-015",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "Photoperiodism & Phytochrome Mechanics",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionText": "Select the correct statements regarding Photoperiodism and Phytochrome Action: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Short-Day Plants (SDP) require an uninterrupted dark night period exceeding a critical threshold to flower.", "isCorrect": true },
+      { "id": "b", "text": "The photoperiodic stimulus is perceived exclusively by mature photosynthetic leaves.", "isCorrect": true },
+      { "id": "c", "text": "Red light (660 nm) converts inactive Pr into biologically active Pfr.", "isCorrect": true },
+      { "id": "d", "text": "Florigen is a lipid-soluble steroid hormone synthesized in the shoot apical meristem.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: SDPs measure uninterrupted night length, leaves perceive photoperiod, and red light converts Pr -> Pfr. D is incorrect: Florigen is a protein (FT protein / Flowering Locus T) synthesized in leaves (NOT meristems) that translocates via phloem to the apex.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c13-016",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "Plant Plasticity & Heterophylly",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "Which of the following represent valid examples of Plant Plasticity and Heterophylly? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Developmental heterophylly in Cotton, Coriander, and Larkspur where juvenile and adult leaves differ in shape.", "isCorrect": true },
+      { "id": "b", "text": "Environmental heterophylly in Buttercup (Ranunculus flabellaris) where aquatic submerged leaves are dissected while aerial leaves are broad.", "isCorrect": true },
+      { "id": "c", "text": "Formation of a cell plate during cytokinesis in plant cells.", "isCorrect": false },
+      { "id": "d", "text": "Transition of shoot apical meristem into a floral meristem upon vernalization.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b"
+    ],
+    "solutionExplanation": "A and B are correct: Heterophylly in Cotton/Coriander (developmental) and Buttercup (environmental) are classic examples of Plasticity. C and D are incorrect: Cytokinesis and vernalization are general developmental processes, not examples of leaf plasticity/heterophylly.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c13-017",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "Senescence Regulation by Phytohormones",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionText": "Which phytohormones act as primary inhibitors of leaf senescence and defoliation? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Cytokinin (delays senescence via Richmond-Lang effect)", "isCorrect": true },
+      { "id": "b", "text": "Ethylene", "isCorrect": false },
+      { "id": "c", "text": "Auxin (prevents premature leaf drop at early stages)", "isCorrect": true },
+      { "id": "d", "text": "Abscisic Acid", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "c"
+    ],
+    "solutionExplanation": "A and C are correct: Cytokinins (Richmond-Lang effect) and Auxins (at early stages) prevent premature leaf senescence and abscission. B and D are incorrect: Ethylene and Abscisic Acid are primary promoters of senescence, defoliation, and abscission.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c13-018",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "Vernalization Mechanics & Sites",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionText": "Which of the following statements regarding Vernalization are TRUE? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Vernalization is the induction of flowering by a period of low temperature treatment (1–10°C).", "isCorrect": true },
+      { "id": "b", "text": "The cold stimulus is perceived strictly by actively dividing meristematic cells in the shoot apex or embryo.", "isCorrect": true },
+      { "id": "c", "text": "Vernalization prevents precocious reproductive development late in the growing season.", "isCorrect": true },
+      { "id": "d", "text": "Vernalization occurs exclusively in desert CAM plants.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Vernalization is cold induction (1–10°C), perceived by meristems/embryos, preventing premature winter flowering in winter annuals and biennials. D is incorrect: Vernalization is characteristic of winter annuals (wheat, barley) and biennials (cabbage, carrot), NOT desert CAM succulents.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c13-019",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "Geometric Growth Kinetics Features",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "Which of the following growth measurements are characteristic of Geometric Growth? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Equal cell division capacity retained by both daughter cells (2ⁿ progression).", "isCorrect": true },
+      { "id": "b", "text": "Growth curve displays Lag, Log/Exponential, and Stationary phases.", "isCorrect": true },
+      { "id": "c", "text": "Represented mathematically by Lt = L0 + rt.", "isCorrect": false },
+      { "id": "d", "text": "Displayed by embryonic cells during early cleavage and unicellular populations in unlimited media.", "isCorrect": true }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "d"
+    ],
+    "solutionExplanation": "A, B, D are correct: Geometric growth exhibits 2ⁿ proliferation, a sigmoidal S-curve (lag, log, stationary phases), and occurs in early embryos/microbes. C is incorrect: Lt = L0 + rt represents Arithmetic Growth (linear). Geometric growth is W1 = W0 e^(rt).",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c13-020",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Plant — Growth and Development",
+    "chapterNumber": 13,
+    "chapterSlug": "plant-growth-and-development",
+    "topic": "Seed Dormancy Breakage Mechanics",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionText": "Select the correct options regarding seed germination and dormancy breakage: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Scarification breaks physical seed dormancy by chipping impermeable seed coats.", "isCorrect": true },
+      { "id": "b", "text": "Stratification involves moist cold temperature treatment (0–5°C) to lower ABA and elevate GA levels.", "isCorrect": true },
+      { "id": "c", "text": "Imbibition is an active ATP-dependent process requiring high metabolic respiration.", "isCorrect": false },
+      { "id": "d", "text": "Red light (660 nm) promotes germination in photoblastic lettuce seeds by converting Pr to Pfr.", "isCorrect": true }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "d"
+    ],
+    "solutionExplanation": "A, B, D are correct: Scarification breaks seed coat dormancy, stratification uses cold moist treatment to shift ABA/GA balance, and red light activates photoblastic germination via Pfr. C is incorrect: Imbibition is a PASSIVE physical process (adsorption of water by dry hydrophilic seed colloids) that occurs independently of cellular respiration or ATP.",
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

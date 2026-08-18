@@ -1,0 +1,42 @@
+{
+  "id": "math-xi-u1-c2-l02",
+  "exam": "NEST",
+  "subject": "Mathematics",
+  "classLevel": "Class XI",
+  "unit": "Unit 1 — Sets and Functions",
+  "unitNumber": 1,
+  "chapter": "Relations and Functions",
+  "chapterNumber": 2,
+  "chapterSlug": "relations-and-functions",
+  "slug": "lesson-02-binary-relations",
+  "title": "Theory of Binary Relations",
+  "topic": "Domain, codomain & range",
+  "order": 2,
+  "estimatedTimeMinutes": 5,
+  "readingTimeMinutes": 5,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "relations-and-functions",
+  "quickSummary": "A binary relation R is any subset of A × B. Total relations = 2^(mn). Inverse relation R^(-1) swaps domain and range.",
+  "summary": "Master the anatomy of binary relations, domain, codomain, range, total counting of relations, and the inverse relation R^(-1).",
+  "conceptBreakdown": [
+    {
+      "heading": "2. Binary Relations, Domain, Range, and Codomain",
+      "title": "2. Binary Relations, Domain, Range, and Codomain",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Relation Anatomy",
+        "takeaway": "R ⊆ A × B. Dom(R) ⊆ A, Rng(R) ⊆ B (Codomain). Total relations from A to B = 2^(|A||B|)."
+      },
+      "codeSnippet": "ANATOMY OF A BINARY RELATION\n                                   │\n         ┌─────────────────────────┼─────────────────────────┐\n         ▼                         ▼                         ▼\n   DOMAIN, Dom(R)            RANGE, Rng(R)             CODOMAIN\n   Set of all 1st elements   Set of all 2nd elements   The entire target set B.\n   Dom(R) ⊆ A                Rng(R) ⊆ B                Notice: Rng(R) ⊆ B.",
+      "content": "Let $A$ and $B$ be two non-empty sets. A **Binary Relation** $R$ from $A$ to $B$ is any arbitrary subset of the Cartesian product $A \\times B$:\n$$\\mathbf{R \\subseteq A \\times B}$$\nIf $(a, b) \\in R$, we write $a \\, R \\, b$ ($a$ is related to $b$ by $R$).\n\n- **Domain ($\text{Dom}(R)$)**: The set of all first coordinates of elements in $R$:\n  $$\\text{Dom}(R) = \\{a \\in A \\mid \\exists b \\in B, (a, b) \\in R\\} \\subseteq A$$\n- **Range ($\text{Rng}(R)$)**: The set of all second coordinates of elements in $R$:\n  $$\\text{Rng}(R) = \\{b \\in B \\mid \\exists a \\in A, (a, b) \\in R\\} \\subseteq B$$\n- **Codomain**: The entire destination set $B$. Note that $\\text{Rng}(R) \\subseteq B$."
+    },
+    {
+      "heading": "2.1 Total Relations & Inverse Relation R⁻¹",
+      "title": "2.1 Total Relations & Inverse Relation R⁻¹",
+      "type": "paragraph",
+      "content": "### Total Number of Relations\nIf $|A| = m$ and $|B| = n$, then $|A \\times B| = mn$. Since any subset of $A \\times B$ is a valid relation, the total number of distinct relations from $A$ to $B$ equals the cardinality of the power set $\\mathcal{P}(A \\times B)$:\n$$\\mathbf{\\text{Total Relations from } A \\text{ to } B = 2^{|A \\times B|} = 2^{mn}}$$\n- **Non-Empty Relations**: $2^{mn} - 1$.\n\n### Inverse Relation ($R^{-1}$)\nLet $R \\subseteq A \\times B$ be a relation from $A$ to $B$. The **Inverse Relation** $R^{-1} \\subseteq B \\times A$ is defined as:\n$$\\mathbf{R^{-1} = \\{(b, a) \\in B \\times A \\mid (a, b) \\in R\\}}$$\n$$\\mathbf{\\text{Dom}(R^{-1}) = \\text{Rng}(R) \\quad \\text{and} \\quad \\text{Rng}(R^{-1}) = \\text{Dom}(R)}$$"
+    }
+  ]
+}

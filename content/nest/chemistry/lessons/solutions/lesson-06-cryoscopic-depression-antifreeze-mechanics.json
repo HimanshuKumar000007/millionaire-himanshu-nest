@@ -1,0 +1,58 @@
+{
+  "id": "chem-xii-u10-c1-l06",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit X \u2014 Solutions",
+  "unitNumber": 10,
+  "chapter": "Solutions",
+  "chapterNumber": 1,
+  "chapterSlug": "solutions",
+  "slug": "lesson-06-cryoscopic-depression-antifreeze-mechanics",
+  "title": "Colligative Properties II: Cryoscopic Depression (\u0394T_f)",
+  "topic": "Cryoscopic Freezing Point Depression",
+  "topics": [
+    "Freezing Point Depression Principle and Phase Diagram (\u0394T_f = T\u00b0_f - T_f = K_f \u00b7 m)",
+    "Thermodynamic Derivation of Cryoscopic Constant K_f = (R M_A (T\u00b0_f)\u00b2) / (1000 \u0394_fus H)",
+    "Automobile Antifreeze Solutions (Ethylene Glycol in Radiators; Ice Melting with NaCl/CaCl\u2082)"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "solutions",
+  "quickSummary": "Freezing point depression: \u0394T_f = K_f \u00b7 m. K_f = (R\u00b7M_A\u00b7(T\u00b0_f)\u00b2) / (1000\u00b7\u0394_fus H). Adding Ethylene Glycol to radiators prevents freezing in sub-zero climates; NaCl/CaCl\u2082 melts ice on roads.",
+  "summary": "Master freezing point depression calculations, thermodynamic K_f derivations, and antifreeze chemistry.",
+  "conceptBreakdown": [
+    {
+      "heading": "6.1 Freezing Point Depression (\u0394T_f) & K_f Derivation",
+      "title": "6.1 Freezing Point Depression (\u0394T_f) & K_f Derivation",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Cryoscopy",
+        "takeaway": "\u0394T_f = T\u00b0_f - T_f = K_f \u00b7 m. Solutions freeze at lower temperatures than pure solvents."
+      },
+      "codeSnippet": "FREEZING POINT DEPRESSION (\u0394T_f)\n\n\u0394T_f = T\u00b0_f - T_f = K_f \u00d7 m = K_f \u00d7 (w_B \u00d7 1000) / (M_B \u00d7 w_A in g)\n\nThermodynamic Formula for K_f:\nK_f = (R \u00d7 M_A \u00d7 (T\u00b0_f)\u00b2) / (1000 \u00d7 \u0394_fus H)\nUnits of K_f: K\u00b7kg/mol (Characteristic of solvent)",
+      "content": "\u2022 **Freezing Point Depression**: Adding a non-volatile solute lowers the freezing point of the solvent because the liquid vapor pressure curve intersects the solid vapor pressure curve at a lower temperature: $\\mathbf{\\Delta T_f = K_f \\cdot m}$.\n\u2022 **Thermodynamic Relation**: $K_f = \\frac{R M_A (T_f^\\circ)^2}{1000 \\Delta_{\\text{fus}} H}$."
+    },
+    {
+      "heading": "6.2 Antifreeze Chemistry & De-icing Roads",
+      "title": "6.2 Antifreeze Chemistry & De-icing Roads",
+      "type": "paragraph",
+      "codeSnippet": "ANTIFREEZE & DE-ICING APPLICATIONS\n\n1. Automobile Antifreeze: Adding Ethylene Glycol (HO-CH\u2082CH\u2082-OH, 35% v/v) depresses water's freezing point to -17.8\u00b0C (255.4 K), preventing radiator cracking.\n2. De-icing Roads: Spreading NaCl or CaCl\u2082 on snow depresses freezing point, melting ice at sub-zero temperatures (CaCl\u2082 produces 3 ions, more effective than NaCl).",
+      "content": "Ethylene glycol ($35\\%\\ v/v$) depresses the freezing point of water to $-17.8^\\circ\\text{C}$ ($255.4\\text{ K}$) and elevates the boiling point to $108.9^\\circ\\text{C}$, providing round-the-year engine protection."
+    }
+  ],
+  "quickRevision": [
+    "\u0394T_f = K_f \u00b7 m.",
+    "K_f = (R\u00b7M_A\u00b7(T\u00b0_f)\u00b2) / (1000\u00b7\u0394_fus H).",
+    "Ethylene glycol is used as automobile radiator antifreeze.",
+    "CaCl\u2082 is more effective than NaCl for de-icing (i=3 vs i=2)."
+  ],
+  "keyFormulae": [
+    "\\Delta T_f = K_f \\cdot m = K_f \\cdot \\frac{w_B \\times 1000}{M_B \\times w_A}",
+    "K_f = \\frac{R \\cdot M_A \\cdot (T_f^\\circ)^2}{1000 \\cdot \\Delta_{\\text{fus}} H}"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "bio-xi-u3-c10-l08",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Cell Cycle and Cell Division",
+  "chapterNumber": 10,
+  "chapterSlug": "cell-cycle-and-cell-division",
+  "slug": "lesson-08-meiosis-ii-and-comparative-division-mechanisms",
+  "title": "Meiosis II & Comparative Division Analysis",
+  "topic": "Anaphase II Centromere Splitting, 4 Haploid Gametes, & Mitosis vs Meiosis I vs Meiosis II",
+  "topics": [
+    "Meiosis II as Equational Division ($n, 2C \\rightarrow 4 \\times (n, C)$)",
+    "Prophase II & Metaphase II (Single Equatorial Plate)",
+    "Anaphase II: Centromeres SPLIT Simultaneously & Chromatid Separation",
+    "Telophase II & Cytokinesis II: 4 Genetically Unique Haploid Cells",
+    "Comprehensive Comparative Matrix: Mitosis vs Meiosis I vs Meiosis II"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Meiosis II is an equational division separating sister chromatids. In Metaphase II, chromosomes align on a single plate. In Anaphase II, centromeres split simultaneously, separating sister chromatids into individual daughter chromosomes. Telophase II and Cytokinesis II yield 4 genetically unique haploid gamete cells (n, C). Mitosis yields 2 identical diploid cells (2n); Meiosis I halves ploidy (2n -> n); Meiosis II halves DNA mass (2C -> C).",
+  "summary": "Meiosis II is an equational division separating sister chromatids. In Metaphase II, chromosomes align on a single plate. In Anaphase II, centromeres split simultaneously, separating sister chromatids into individual daughter chromosomes. Telophase II and Cytokinesis II yield 4 genetically unique haploid gamete cells (n, C). Mitosis yields 2 identical diploid cells (2n); Meiosis I halves ploidy (2n -> n); Meiosis II halves DNA mass (2C -> C).",
+  "conceptBreakdown": [
+    {
+      "heading": "5. Meiosis II Stages & Dynamics",
+      "title": "5. Meiosis II Stages & Dynamics",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Centromeres split in Anaphase II. Yields 4 unique haploid daughter cells (n, C)."
+      },
+      "codeSnippet": "MEIOSIS II STAGES\n                                   │\n  Prophase II ──► Metaphase II ──► Anaphase II ──► Telophase II\n  (Nuclear        (Single Plate)   (**Centromeres  (Yields 4\n  Breakdown)                       SPLIT**)        Haploid Cells)",
+      "content": "• **Prophase II**: Nuclear envelope breaks down again, chromosomes recondense.\n• **Metaphase II**: Chromosomes align along a **single equatorial plate** in each dyad cell.\n• **Anaphase II**: **Centromeres split simultaneously**; sister chromatids separate into daughter chromosomes migrating toward opposite poles ($n, 2C \\rightarrow n, C$).\n• **Telophase II & Cytokinesis II**: Nuclear envelopes reform around the four haploid chromosome sets, yielding **4 genetically non-identical haploid cells ($n, C$)**."
+    },
+    {
+      "heading": "5.1 Mitosis vs. Meiosis I vs. Meiosis II Comparison Matrix",
+      "title": "5.1 Mitosis vs. Meiosis I vs. Meiosis II Comparison Matrix",
+      "type": "paragraph",
+      "content": "| Feature | Mitosis | Meiosis I | Meiosis II |\n| :--- | :--- | :--- | :--- |\n| **Division Type** | **Equational** ($2n \\rightarrow 2n$) | **Reductional** ($2n \\rightarrow n$) | **Equational** ($n \\rightarrow n$) |\n| **Synapsis & Bivalents** | **ABSENT** | **PRESENT** (Zygotene) | **ABSENT** |\n| **Crossing Over** | **ABSENT** | **PRESENT** (Pachytene) | **ABSENT** |\n| **Metaphase Plate** | Single metaphase plate | **Double metaphase plate** | Single metaphase plate |\n| **Anaphase Action** | Centromeres split; sister chromatids separate | **Homologous chromosomes separate**; centromeres do NOT split | Centromeres split; sister chromatids separate |\n| **Daughter Cell Count** | 2 Genetically identical cells | 2 Haploid cells ($n, 2C$) | **4 Genetically unique haploid cells ($n, C$)** |"
+    }
+  ]
+}

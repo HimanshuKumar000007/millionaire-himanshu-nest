@@ -1,0 +1,36 @@
+{
+  "id": "bio-xi-u4-c13-l02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Plant — Growth and Development",
+  "chapterNumber": 13,
+  "chapterSlug": "plant-growth-and-development",
+  "slug": "lesson-02-phases-of-growth-and-kinetics",
+  "title": "Phases of Plant Growth & Mathematical Growth Rates",
+  "topic": "Meristematic, Elongation, Maturation Phases & Arithmetic vs Geometric Kinetics",
+  "order": 2,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Arithmetic growth is linear ($L_t = L_0 + rt$). Geometric growth yields a Sigmoid S-curve ($W_1 = W_0 e^{rt}$) with lag, log/exponential, and stationary phases.",
+  "summary": "Arithmetic growth is linear ($L_t = L_0 + rt$). Geometric growth yields a Sigmoid S-curve ($W_1 = W_0 e^{rt}$) with lag, log/exponential, and stationary phases.",
+  "conceptBreakdown": [
+    {
+      "heading": "Phases of Plant Growth & Mathematical Growth Rates",
+      "title": "Phases of Plant Growth & Mathematical Growth Rates",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Arithmetic growth is linear ($L_t = L_0 + rt$). Geometric growth yields a Sigmoid S-curve ($W_1 = W_0 e^{rt}$) with lag, log/exponential, and stationary phases."
+      },
+      "codeSnippet": "MATHEMATICAL GROWTH MODELS\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n   ARITHMETIC GROWTH                                      GEOMETRIC GROWTH\n   Only ONE daughter cell divides while                   BOTH daughter cells retain mitotic\n   the other differentiates.                              capacity ($2^n$ proliferation).\n   ├── Equation: $L_t = L_0 + rt$                         ├── Equation: $W_1 = W_0 e^{rt}$\n   └── Graph: **Linear Curve**                            └── Graph: **Sigmoidal (S) Curve**\n\n                        SIGMOIDAL (S) GROWTH CURVE\n                        \n           Size/Weight ▲                       Stationary Phase\n                       │                      /----------------\n                       │                     /\n                       │   Exponential /    /\n                       │   Log Phase       /\n                       │                  /\n                       │  Lag Phase      /\n                       └────────────────┴──────────────────────► Time",
+      "content": "Plant growth is an irreversible permanent increase in size, mass, or volume of an organ or cell, accompanied by metabolic synthetic processes.\n\n### Phases of Growth\n1. **Meristematic Phase**: Isodiametric, thin-walled, dense cytoplasm, prominent nuclei (*Root/Shoot apex*).\n2. **Elongation Phase**: Rapid vacuolation, cell enlargement, and new cell wall deposition.\n3. **Maturation Phase**: Maximal wall thickening, structural and functional differentiation.\n\n### 2.1 Arithmetic vs. Geometric Growth Models\n- **Arithmetic Growth**: $L_t = L_0 + rt$ where $L_t$ is length at time $t$, $L_0$ is initial length, and $r$ is the constant elongation rate per unit time.\n- **Geometric Growth**: $W_1 = W_0 e^{rt}$ where $W_1$ is final size/weight, $W_0$ is initial size, $r$ is relative growth rate (efficiency index), $t$ is time, and $e \\approx 2.718$.\n\n### 2.2 Absolute vs. Relative Growth Rates\n- **Absolute Growth Rate (AGR)**: Total growth per unit time ($AGR = \\frac{\\Delta W}{\\Delta t}$).\n- **Relative Growth Rate (RGR)**: Growth per unit time relative to initial size ($RGR = \\frac{AGR}{W_0}$).",
+      "contentMarkdown": "Plant growth is an irreversible permanent increase in size, mass, or volume of an organ or cell, accompanied by metabolic synthetic processes.\n\n### Phases of Growth\n1. **Meristematic Phase**: Isodiametric, thin-walled, dense cytoplasm, prominent nuclei (*Root/Shoot apex*).\n2. **Elongation Phase**: Rapid vacuolation, cell enlargement, and new cell wall deposition.\n3. **Maturation Phase**: Maximal wall thickening, structural and functional differentiation.\n\n### 2.1 Arithmetic vs. Geometric Growth Models\n- **Arithmetic Growth**: $L_t = L_0 + rt$ where $L_t$ is length at time $t$, $L_0$ is initial length, and $r$ is the constant elongation rate per unit time.\n- **Geometric Growth**: $W_1 = W_0 e^{rt}$ where $W_1$ is final size/weight, $W_0$ is initial size, $r$ is relative growth rate (efficiency index), $t$ is time, and $e \\approx 2.718$.\n\n### 2.2 Absolute vs. Relative Growth Rates\n- **Absolute Growth Rate (AGR)**: Total growth per unit time ($AGR = \\frac{\\Delta W}{\\Delta t}$).\n- **Relative Growth Rate (RGR)**: Growth per unit time relative to initial size ($RGR = \\frac{AGR}{W_0}$)."
+    }
+  ]
+}

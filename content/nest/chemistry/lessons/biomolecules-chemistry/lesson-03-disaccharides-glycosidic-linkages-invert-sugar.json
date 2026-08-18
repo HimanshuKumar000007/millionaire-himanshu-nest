@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u19-c10-l03",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XIX \u2014 Biomolecules",
+  "unitNumber": 19,
+  "chapter": "Biomolecules",
+  "chapterNumber": 10,
+  "chapterSlug": "biomolecules-chemistry",
+  "slug": "lesson-03-disaccharides-glycosidic-linkages-invert-sugar",
+  "title": "Disaccharides: Glycosidic Linkages, Reducing Status, & Invert Sugar",
+  "topic": "Disaccharides & Inversion of Cane Sugar",
+  "topics": [
+    "3. Disaccharide Structure & The Glycosidic Bond (Ether Linkage via Anomeric Carbon Condensation)",
+    "3.1 Disaccharide Comparison Matrix: Sucrose, Maltose, & Lactose",
+    "Sucrose: \u03b1-D-Glc-(1\u21922)-\u03b2-D-Fru, Both Anomeric Carbons Locked (NON-REDUCING SUGAR, No Mutarotation)",
+    "Maltose: \u03b1-D-Glc-(1\u21924)-\u03b1-D-Glc, Free C-1 Anomeric -OH (REDUCING SUGAR, Exhibits Mutarotation)",
+    "Lactose: \u03b2-D-Gal-(1\u21924)-\u03b1-D-Glc, Free C-1 Anomeric -OH (REDUCING SUGAR, Exhibits Mutarotation)",
+    "3.2 Inversion of Cane Sugar: Hydrolysis of Dextrorotatory Sucrose (+66.5\u00b0) to Levorotatory Invert Sugar (-19.85\u00b0)"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "biomolecules-chemistry",
+  "quickSummary": "Disaccharides are formed by glycosidic ether bonds. Sucrose [\u03b1-D-Glc-(1\u21922)-\u03b2-D-Fru] has both anomeric carbons locked and is a NON-REDUCING sugar (fails Fehling's/Tollens'). Maltose [\u03b1-(1\u21924)] and Lactose [\u03b2-(1\u21924)] have a free C-1 anomeric -OH and are REDUCING sugars. Hydrolysis of dextrorotatory sucrose (+66.5\u00b0) yields equimolar glucose (+52.7\u00b0) and fructose (-92.4\u00b0), producing levorotatory Invert Sugar (-19.85\u00b0).",
+  "summary": "Master glycosidic linkages, reducing vs non-reducing disaccharides, and the inversion of cane sugar.",
+  "conceptBreakdown": [
+    {
+      "heading": "3. Disaccharide Structure & Reducing Status",
+      "title": "3. Disaccharide Structure & Reducing Status",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Disaccharide Matrix",
+        "takeaway": "Sucrose: \u03b1,\u03b2-(1\u21922) \u2500\u2500\u25ba Non-Reducing. Maltose: \u03b1-(1\u21924) \u2500\u2500\u25ba Reducing. Lactose: \u03b2-(1\u21924) \u2500\u2500\u25ba Reducing."
+      },
+      "codeSnippet": "                           DISACCHARIDE COMPARISON\n                                      \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                  \u25bc                           \u25bc                  \u25bc\n  SUCROSE (Cane Sugar)  MALTOSE (Malt Sugar)        LACTOSE (Milk Sugar)\n  \u251c\u2500\u2500 $\\alpha$-D-Glc-(1$\\to$2)-$\\beta$-D-Fru           \u251c\u2500\u2500 $\\alpha$-D-Glc-(1$\\to$4)-$\\alpha$-D-Glc      \u251c\u2500\u2500 $\\beta$-D-Gal-(1$\\to$4)-$\\alpha$-D-Glc\n  \u251c\u2500\u2500 **Both Anomeric Locked**  \u251c\u2500\u2500 Free C-1 Anomeric       \u251c\u2500\u2500 Free C-1 Anomeric\n  \u2514\u2500\u2500 **NON-REDUCING SUGAR**    \u2514\u2500\u2500 **REDUCING SUGAR**      \u2514\u2500\u2500 **REDUCING SUGAR**",
+      "content": "Disaccharides consist of two monosaccharide units joined by a Glycosidic Bond. In Sucrose, both anomeric carbons are engaged in the bond, eliminating free hemiacetal/hemiketal groups, rendering it non-reducing. Maltose and Lactose retain a free anomeric carbon at C-1 on one ring, making them reducing sugars."
+    },
+    {
+      "heading": "3.2 Inversion of Cane Sugar (Sucrose)",
+      "title": "3.2 Inversion of Cane Sugar (Sucrose)",
+      "type": "paragraph",
+      "codeSnippet": "INVERSION OF SUGAR MECHANICS:\n\n$$\\text{Sucrose } (+66.5^\\circ) + \\text{H}_2\\text{O} \\xrightarrow{\\text{H}^+ \\text{ / Invertase}} \\text{D-(+)-Glucose } (+52.7^\\circ) + \\text{D-(-)-Fructose } (-92.4^\\circ)$$\n\n$$\\text{Net Optical Rotation of Invert Sugar} = \\frac{+52.7^\\circ + (-92.4^\\circ)}{2} = \\mathbf{-19.85^\\circ \\text{ (Levorotatory)}}$$\n\n\u2022 Optical rotation inverts from dextrorotatory (+) to levorotatory (-) because fructose levorotation (-92.4\u00b0) dominates over glucose dextrorotation (+52.7\u00b0).",
+      "content": "The resulting equimolar mixture of glucose and fructose is called Invert Sugar. Because it contains free open-chain forms of glucose and fructose, Invert Sugar is a powerful reducing sugar."
+    }
+  ],
+  "quickRevision": [
+    "Sucrose: \u03b1-D-Glc-(1\u21922)-\u03b2-D-Fru (Non-reducing; no mutarotation).",
+    "Maltose: \u03b1-D-Glc-(1\u21924)-\u03b1-D-Glc (Reducing; exhibits mutarotation).",
+    "Lactose: \u03b2-D-Gal-(1\u21924)-\u03b1-D-Glc (Reducing; exhibits mutarotation).",
+    "Sucrose (+66.5\u00b0) hydrolyzes to Glucose (+52.7\u00b0) + Fructose (-92.4\u00b0).",
+    "Invert sugar has net optical rotation of -19.85\u00b0 (Levorotatory)."
+  ],
+  "keyFormulae": [
+    "\\text{Invert Sugar Optical Rotation} = \\frac{+52.7^\\circ + (-92.4^\\circ)}{2} = -19.85^\\circ \\text{ (Levorotatory)}"
+  ]
+}

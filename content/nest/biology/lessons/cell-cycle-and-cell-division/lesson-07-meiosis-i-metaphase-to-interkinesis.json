@@ -1,0 +1,42 @@
+{
+  "id": "bio-xi-u3-c10-l07",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Cell Cycle and Cell Division",
+  "chapterNumber": 10,
+  "chapterSlug": "cell-cycle-and-cell-division",
+  "slug": "lesson-07-meiosis-i-metaphase-to-interkinesis",
+  "title": "Meiosis I: Metaphase I, Anaphase I Disjunction, & Interkinesis",
+  "topic": "Double Metaphase Plate, Independent Assortment, Homolog Separation Without Centromere Split, & Interkinesis",
+  "topics": [
+    "Metaphase I: Double Metaphase Plate & Bivalent Biorientation",
+    "Mendel's Law of Independent Assortment ($2^n$ Combinations)",
+    "Anaphase I Disjunction: Homologs Separate, Centromeres DO NOT Split",
+    "Telophase I & Cytokinesis I ($2n, 4C \\rightarrow n, 2C + n, 2C$)",
+    "Interkinesis Interphase (No DNA Replication / No S-Phase)"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "In Metaphase I, bivalents align on a double equatorial plate; independent orientation of homologues generates genetic diversity. In Anaphase I, homologous chromosomes separate (disjunction) to opposite poles. CRITICAL NEST TRAP: Centromeres DO NOT split during Anaphase I; sister chromatids remain attached at their centromeres. Telophase I yields two haploid dyad cells (n, 2C). Interkinesis is a brief interval between Meiosis I and II lacking an S-phase (no DNA replication).",
+  "summary": "In Metaphase I, bivalents align on a double equatorial plate; independent orientation of homologues generates genetic diversity. In Anaphase I, homologous chromosomes separate (disjunction) to opposite poles. CRITICAL NEST TRAP: Centromeres DO NOT split during Anaphase I; sister chromatids remain attached at their centromeres. Telophase I yields two haploid dyad cells (n, 2C). Interkinesis is a brief interval between Meiosis I and II lacking an S-phase (no DNA replication).",
+  "conceptBreakdown": [
+    {
+      "heading": "4.2 Meiosis I Progression (Metaphase I to Interkinesis)",
+      "title": "4.2 Meiosis I Progression (Metaphase I to Interkinesis)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Metaphase I = Double plate. Anaphase I = Homologs separate; centromeres do NOT split. Interkinesis lacks an S-phase (no DNA replication)."
+      },
+      "codeSnippet": "MEIOSIS I PROGRESSION\n                                      │\n  Metaphase I ──► Anaphase I ──► Telophase I ──► Interkinesis\n  (Double         (Homologs      (Dyads formed) (No DNA\n  Plate)          Separate)                      Replication)",
+      "content": "1. **Metaphase I**: Bivalents align on a **double equatorial metaphase plate**. Random orientation of maternal and paternal chromosomes produces independent assortment ($2^n$ unique gametic combinations, where $n = 23$ in humans $\\approx 8.4 \\times 10^6$ combinations).\n2. **Anaphase I (Disjunction)**: Homologous chromosomes are pulled toward opposite poles by kinetochore microtubule shortening.\n   - **CRITICAL NEST TRAP**: **Centromeres DO NOT split in Anaphase I!** Sister chromatids remain joined at their centromeres; only homologous pairs separate ($2n \\rightarrow n$).\n3. **Telophase I & Cytokinesis I**: Two haploid daughter cells are formed, each containing $n$ duplicated chromosomes ($n, 2C$).\n4. **Interkinesis**: A brief resting interphase before Meiosis II. **NO DNA replication occurs during Interkinesis** (S-phase is entirely absent)."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "chem-xii-u11-c2-l04",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XI \u2014 Electrochemistry",
+  "unitNumber": 11,
+  "chapter": "Electrochemistry",
+  "chapterNumber": 2,
+  "chapterSlug": "electrochemistry",
+  "slug": "lesson-04-electrolytic-conductance-molar-conductivity-cell-constants",
+  "title": "Electrolytic Conductance, Molar Conductivity (\u039b_m), & Cell Constants",
+  "topic": "Conductance, Conductivity & Cell Constants",
+  "topics": [
+    "Resistance (R), Conductance (G = 1/R), Conductivity / Specific Conductance (\u03ba = G \u00b7 G*)",
+    "Cell Constant (G* = l/A, units cm\u207b\u00b9 or m\u207b\u00b9)",
+    "Molar Conductivity Formula (\u039b_m = 1000 \u03ba / M, units S\u00b7cm\u00b2/mol)",
+    "Equivalent Conductivity Formula (\u039b_eq = 1000 \u03ba / N = \u039b_m / n-factor)"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "electrochemistry",
+  "quickSummary": "Conductance G = 1/R (Siemens S). Cell constant G* = l/A (cm\u207b\u00b9). Conductivity \u03ba = G\u00b7G* = G*/R (S/cm). Molar conductivity \u039b_m = (1000\u00b7\u03ba)/M (S\u00b7cm\u00b2/mol). Equivalent conductivity \u039b_eq = \u039b_m / n-factor.",
+  "summary": "Master electrolytic resistance, conductance, cell constant calculations, and molar/equivalent conductivity units.",
+  "conceptBreakdown": [
+    {
+      "heading": "4.1 Electrolytic Conductance & Cell Constant (G*)",
+      "title": "4.1 Electrolytic Conductance & Cell Constant (G*)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Conductance Equations",
+        "takeaway": "G = 1/R; G* = l/A (cm\u207b\u00b9); \u03ba = G\u00b7G* = G*/R (S/cm). Cell constant depends strictly on electrode geometry."
+      },
+      "codeSnippet": "ELECTROLYTIC CONDUCTANCE EQUATIONS\n\n\u2022 Resistance: R = \u03c1 (l / A)  [Units: \u03a9]\n\u2022 Conductance: G = 1 / R  [Units: Siemens (S) or \u03a9\u207b\u00b9]\n\u2022 Cell Constant: G* = l / A  [Units: cm\u207b\u00b9 or m\u207b\u00b9]\n\u2022 Conductivity (Specific Conductance): \u03ba = 1 / \u03c1 = G \u00d7 G* = G* / R  [Units: S/cm or S\u00b7m\u207b\u00b9]",
+      "content": "\u2022 **Conductance ($G$)**: The reciprocal of electrical resistance ($G = 1/R$, in Siemens $\\text{S}$).\n\u2022 **Cell Constant ($G^* = l/A$)**: The geometric ratio of distance between electrodes ($l$) to their surface area ($A$). Unit: $\\text{cm}^{-1}$ or $\\text{m}^{-1}$.\n\u2022 **Conductivity ($\\kappa$)**: Conductance of a $1\\text{ cm}^3$ cube of electrolytic solution: $\\mathbf{\\kappa = G \\cdot G^* = \\frac{G^*}{R}}$."
+    },
+    {
+      "heading": "4.2 Molar Conductivity (\u039b_m) & Equivalent Conductivity (\u039b_eq)",
+      "title": "4.2 Molar Conductivity (\u039b_m) & Equivalent Conductivity (\u039b_eq)",
+      "type": "paragraph",
+      "codeSnippet": "MOLAR & EQUIVALENT CONDUCTIVITY FORMULAS\n\n\u2022 Molar Conductivity (\u039b_m):\n  \u039b_m = (1000 \u00d7 \u03ba in S/cm) / M in mol/L  [Units: S\u00b7cm\u00b2/mol]\n\n\u2022 Equivalent Conductivity (\u039b_eq):\n  \u039b_eq = (1000 \u00d7 \u03ba in S/cm) / N in eq/L = \u039b_m / n-factor  [Units: S\u00b7cm\u00b2/eq]",
+      "content": "\u2022 **Molar Conductivity ($\\Lambda_m$)**: Conductance of a solution volume containing 1 mole of electrolyte placed between electrodes $1\\text{ cm}$ apart: $\\mathbf{\\Lambda_m = \\frac{1000 \\cdot \\kappa}{M}}$ (in $\\text{S}\\cdot\\text{cm}^2\\text{/mol}$).\n\u2022 **Relation to $\\Lambda_{eq}$**: $\\Lambda_{eq} = \\frac{\\Lambda_m}{n\\text{-factor}}$."
+    }
+  ],
+  "quickRevision": [
+    "G* = l/A (units cm\u207b\u00b9 or m\u207b\u00b9).",
+    "\u03ba = G \u00b7 G* = G* / R.",
+    "\u039b_m = (1000 \u00b7 \u03ba) / M (units S\u00b7cm\u00b2/mol).",
+    "\u039b_eq = \u039b_m / n-factor."
+  ],
+  "keyFormulae": [
+    "G^* = \\frac{l}{A}, \\quad \\kappa = \\frac{G^*}{R}",
+    "\\Lambda_m = \\frac{1000 \\cdot \\kappa}{M}, \\quad \\Lambda_{eq} = \\frac{\\Lambda_m}{n\\text{-factor}}"
+  ]
+}

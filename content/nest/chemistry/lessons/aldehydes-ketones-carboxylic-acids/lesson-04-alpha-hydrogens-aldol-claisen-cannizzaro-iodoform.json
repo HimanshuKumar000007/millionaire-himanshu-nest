@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u17-c8-l04",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVII \u2014 Aldehydes, Ketones and Carboxylic Acids",
+  "unitNumber": 17,
+  "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+  "chapterNumber": 8,
+  "chapterSlug": "aldehydes-ketones-carboxylic-acids",
+  "slug": "lesson-04-alpha-hydrogens-aldol-claisen-cannizzaro-iodoform",
+  "title": "Reactions of \u03b1-Hydrogens: Aldol, Claisen-Schmidt, Cannizzaro, & Iodoform",
+  "topic": "Enolate Chemistry & Named Reactions",
+  "topics": [
+    "Enolate Anion Resonance Stabilization & \u03b1-Hydrogen Acidity (pK_a \u2248 20)",
+    "4.1 Aldol Condensation Mechanism (dil. NaOH) yielding \u03b1,\u03b2-Unsaturated Carbonyls (Crotonaldehyde)",
+    "Claisen-Schmidt Reaction (Crossed Aldol: Benzaldehyde + Acetaldehyde \u2500\u2500\u25ba Cinnamaldehyde)",
+    "4.2 Cannizzaro Reaction (Self-Redox Disproportionation of Aldehydes Lacking \u03b1-H with 50% NaOH)",
+    "Crossed Cannizzaro: Formaldehyde (HCHO) is EXCLUSIVELY OXIDIZED to Formate (HCOO\u207b)",
+    "Haloform / Iodoform Diagnostic Test for Methyl Ketones (CH\u2083CO-) and Methyl Carbinols (CHI\u2083 \u2193)"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 11,
+  "estimatedTimeMinutes": 11,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "aldehydes-ketones-carboxylic-acids",
+  "quickSummary": "\u03b1-Hydrogens are acidic (pK_a ~20) due to enolate resonance. Aldol requires \u22651 \u03b1-H (dil. NaOH) forming \u03b1,\u03b2-unsaturated carbonyls. Cannizzaro requires 0 \u03b1-H (conc. 50% NaOH) yielding 1 mol alcohol + 1 mol carboxylate; in crossed Cannizzaro with HCHO, HCHO is exclusively oxidized to formate. Iodoform test yields yellow CHI\u2083 ppt with CH\u2083CO- or CH\u2083CH(OH)- groups.",
+  "summary": "Master enolate resonance, aldol and Claisen-Schmidt mechanisms, Cannizzaro disproportionation, and the iodoform diagnostic test.",
+  "conceptBreakdown": [
+    {
+      "heading": "4. Enolate Acidity & Aldol / Claisen-Schmidt Condensations",
+      "title": "4. Enolate Acidity & Aldol / Claisen-Schmidt Condensations",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Aldol vs Cannizzaro Criterion",
+        "takeaway": "HAS \u03b1-H (n \u2265 1) \u2500\u2500\u25ba Aldol (dil. NaOH). LACKS \u03b1-H (n = 0) \u2500\u2500\u25ba Cannizzaro (conc. 50% NaOH). In crossed Cannizzaro with HCHO, HCHO oxidizes to formate."
+      },
+      "codeSnippet": "                       $\\alpha$-HYDROGEN REACTIVITY SPECTRUM\n                                         \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                                                               \u25bc\n  HAS $\\alpha$-HYDROGEN ($n \\ge 1$)                              LACKS $\\alpha$-HYDROGEN ($n = 0$)\n  \u251c\u2500\u2500 **Aldol Condensation** (dilute $\\text{NaOH}$)               \u251c\u2500\u2500 **Cannizzaro Reaction** (conc. $50\\%\\text{ NaOH}$)\n  \u2514\u2500\u2500 **Haloform Test** ($\\text{CH}_3\\text{CO}-$ group)           \u2514\u2500\u2500 Self-Redox (1 mol Alcohol + 1 mol Carboxylate)",
+      "content": "- **Aldol Condensation**: 2 $\\text{CH}_3\\text{CHO} \\xrightarrow{\\text{dil. NaOH}} \\text{CH}_3\\text{CH(OH)CH}_2\\text{CHO} \\xrightarrow{\\Delta, -\\text{H}_2\\text{O}} \\mathbf{\\text{CH}_3\\text{-CH=CH-CHO (Crotonaldehyde)}}$.\n- **Claisen-Schmidt**: $\\text{PhCHO} + \\text{CH}_3\\text{CHO} \\xrightarrow{\\text{dil. NaOH}, \\Delta} \\mathbf{\\text{PhCH=CH-CHO (Cinnamaldehyde)}}$."
+    },
+    {
+      "heading": "4.2 Cannizzaro Reaction & Iodoform Test",
+      "title": "4.2 Cannizzaro Reaction & Iodoform Test",
+      "type": "paragraph",
+      "codeSnippet": "CANNIZZARO & IODOFORM REACTIONS:\n\n\u2022 Formaldehyde Disproportionation:  2 HCHO + Conc. KOH \u2500\u2500\u25ba CH\u2083OH + HCOOK\n\u2022 Benzaldehyde Disproportionation: 2 PhCHO + Conc. NaOH \u2500\u2500\u25ba PhCH\u2082OH (Benzyl Alcohol) + PhCOONa\n\u2022 Crossed Cannizzaro:               PhCHO + HCHO + Conc. NaOH \u2500\u2500\u25ba PhCH\u2082OH + HCOONa (Formate)\n\u2022 Iodoform Reaction:               CH\u2083-CO-R + 3I\u2082 + 4NaOH \u2500\u2500\u25ba CHI\u2083 \u2193 (Yellow Ppt) + R-COONa",
+      "content": "- **Cannizzaro Reaction**: Aldehydes lacking $\\alpha$-H ($\text{HCHO, PhCHO, } (\\text{CH}_3)_3\\text{C-CHO}$) disproportionate into alcohol and carboxylate salt.\n- **Crossed Cannizzaro**: Formaldehyde is oxidized exclusively to formate because hydride transfer from the formal adduct is fastest.\n- **Iodoform Test**: Methyl ketones ($\text{CH}_3\\text{CO-}$) and secondary methyl carbinols ($\text{CH}_3\\text{CH(OH)-}$) yield yellow $\text{CHI}_3 \\downarrow$."
+    }
+  ],
+  "quickRevision": [
+    "Aldol requires \u22651 \u03b1-hydrogen with dilute base.",
+    "Cannizzaro requires 0 \u03b1-hydrogens with concentrated (50%) base.",
+    "In crossed Cannizzaro with HCHO, HCHO is exclusively oxidized to formate.",
+    "Iodoform test yields yellow CHI\u2083 ppt with CH\u2083CO- or CH\u2083CH(OH)- groups."
+  ],
+  "keyFormulae": [
+    "\\text{Crossed Cannizzaro: } \\text{PhCHO} + \\text{HCHO} \\xrightarrow{\\text{Conc. NaOH}} \\text{PhCH}_2\\text{OH} + \\text{HCOONa}",
+    "\\text{Iodoform: } \\text{CH}_3\\text{COR} + 3\\text{I}_2 + 4\\text{NaOH} \\longrightarrow \\text{CHI}_3 \\downarrow + R\\text{COONa} + 3\\text{NaI} + 3\\text{H}_2\\text{O}"
+  ]
+}

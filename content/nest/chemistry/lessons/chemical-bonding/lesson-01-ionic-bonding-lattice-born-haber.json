@@ -1,0 +1,59 @@
+{
+  "id": "chem-xi-u4-c4-l01",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit IV \u2014 Chemical Bonding and Molecular Structure",
+  "unitNumber": 4,
+  "chapter": "Chemical Bonding and Molecular Structure",
+  "chapterNumber": 4,
+  "chapterSlug": "chemical-bonding",
+  "slug": "lesson-01-ionic-bonding-lattice-born-haber",
+  "title": "Ionic Bonding, Lattice Enthalpy & The Born-Haber Cycle",
+  "topic": "Ionic Bonding & Born-Haber Cycle",
+  "topics": [
+    "Electrovalent Bond Formation & Energetics",
+    "The Born-Haber Thermodynamic Cycle for NaCl",
+    "Hess's Law Heat Summation Energy Balance",
+    "Lattice Enthalpy (U) & Born-Land\u00e9 Equation",
+    "Ionic Charge & Inter-Ionic Distance Dependence"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "born-haber-cycle",
+  "quickSummary": "An ionic bond forms via complete electron transfer between an electropositive cation and electronegative anion. The Born-Haber thermodynamic cycle applies Hess's law to determine Lattice Enthalpy: \u0394_f H\u00b0 = \u0394_sub H + (1/2)\u0394_bond H + \u0394_i H + \u0394_eg H + U.",
+  "summary": "Master ionic bonding energetics, Born-Haber cycle calculations, and the Born-Land\u00e9 lattice enthalpy relationship.",
+  "conceptBreakdown": [
+    {
+      "heading": "1.1 The Born-Haber Thermodynamic Cycle",
+      "title": "1.1 The Born-Haber Thermodynamic Cycle",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Born-Haber Cycle",
+        "takeaway": "\u0394_f H\u00b0 = \u0394_sub H + 1/2 \u0394_bond H + \u0394_i H + \u0394_eg H + U. Lattice enthalpy U is always exothermic (U < 0)."
+      },
+      "codeSnippet": "BORN-HABER THERMODYNAMIC CYCLE (NaCl)\n                      \n   Na(s) + 1/2 Cl\u2082(g) \u2500\u2500\u2500[\u0394_f H\u00b0 = -411 kJ/mol]\u2500\u2500\u2500\u25ba NaCl(s)\n     \u2502         \u2502                                        \u25b2\n  [\u0394_sub H] [1/2 \u0394_bond H]                              \u2502\n     \u25bc         \u25bc                                        \u2502\n   Na(g)     Cl(g)                                      \u2502 [U (Lattice Energy)]\n     \u2502         \u2502                                        \u2502\n   [\u0394_i H]   [\u0394_eg H]                                   \u2502\n     \u25bc         \u25bc                                        \u2502\n   Na\u207a(g)  +  Cl\u207b(g) \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518",
+      "content": "According to Hess's Law of Constant Heat Summation, the standard enthalpy of formation ($\\Delta_f H^\\circ$) of an ionic solid is:\n\n$$\\mathbf{\\Delta_f H^\\circ = \\Delta_{\\text{sub}} H + \\frac{1}{2} \\Delta_{\\text{bond}} H + \\Delta_i H + \\Delta_{\\text{eg}} H + U}$$\n\n\u2022 $\\Delta_{\\text{sub}} H$: Sublimation enthalpy of metal ($\\text{Na}(s) \\rightarrow \\text{Na}(g) > 0$)\n\u2022 $\\Delta_{\\text{bond}} H$: Dissociation enthalpy of halogen gas ($\\text{Cl}_2(g) \\rightarrow 2\\text{Cl}(g) > 0$)\n\u2022 $\\Delta_i H$: Ionization enthalpy of metal ($\\text{Na}(g) \\rightarrow \\text{Na}^+(g) + e^- > 0$)\n\u2022 $\\Delta_{\\text{eg}} H$: Electron gain enthalpy of non-metal ($\\text{Cl}(g) + e^- \\rightarrow \\text{Cl}^-(g) < 0$)\n\u2022 $U$: Lattice Enthalpy of ionic crystal ($\\text{Na}^+(g) + \\text{Cl}^-(g) \\rightarrow \\text{NaCl}(s) < 0$)"
+    },
+    {
+      "heading": "1.2 Factors Governing Lattice Enthalpy (U)",
+      "title": "1.2 Factors Governing Lattice Enthalpy (U)",
+      "type": "paragraph",
+      "content": "Lattice enthalpy is the energy released when $1\\text{ mole}$ of an ionic crystal lattice is formed from its constituent gaseous ions (Born-Land\u00e9 Equation):\n\n$$\\mathbf{U \\propto -\\frac{z^+ \\cdot z^-}{r_+ + r^-}}$$\n\n1. **Magnitude of Ionic Charges ($z^+, z^-$)**: $U$ increases directly with ionic charges ($U_{\\text{MgO}} \\approx 4 \\times U_{\\text{NaCl}}$ because $z^+ z^- = 4$ for $\\text{MgO}$ vs $1$ for $\\text{NaCl}$).\n2. **Inter-ionic Distance ($r_+ + r^-$)**: $U$ increases as ionic radii decrease ($U_{\\text{LiF}} > U_{\\text{NaCl}} > U_{\\text{KBr}}$)."
+    }
+  ],
+  "quickRevision": [
+    "Born-Haber formula: \u0394_f H\u00b0 = \u0394_sub H + \u0394_i H + 1/2 \u0394_bond H + \u0394_eg H + U.",
+    "Lattice enthalpy U \u221d -(z\u207a \u00b7 z\u207b) / (r\u208a + r\u208b).",
+    "MgO lattice energy is ~4\u00d7 higher than NaCl due to charge multiplication (2\u00d72=4).",
+    "High lattice energy stabilizes ionic crystals and elevates melting points."
+  ],
+  "keyFormulae": [
+    "\u0394_f H\u00b0 = \u0394_sub H + 1/2 \u0394_bond H + \u0394_i H + \u0394_eg H + U",
+    "U \u221d -(z\u207a \u00b7 z\u207b) / (r\u208a + r\u208b)"
+  ]
+}

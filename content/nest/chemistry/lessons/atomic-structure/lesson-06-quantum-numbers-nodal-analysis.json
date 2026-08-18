@@ -1,0 +1,64 @@
+{
+  "id": "chem-xi-u2-c2-l06",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit II \u2014 Structure of Atom",
+  "unitNumber": 2,
+  "chapter": "Structure of Atom",
+  "chapterNumber": 2,
+  "chapterSlug": "atomic-structure",
+  "slug": "lesson-06-quantum-numbers-nodal-analysis",
+  "title": "Quantum Numbers, Orbital Geometries & Radial/Angular Nodal Analysis",
+  "topic": "Quantum Numbers & Nodal Surfaces",
+  "topics": [
+    "Principal Quantum Number (n)",
+    "Azimuthal Quantum Number (l) & Orbital Angular Momentum",
+    "Magnetic Quantum Number (m_l) & Subshell Orientations",
+    "Spin Quantum Number (m_s) & Spin Angular Momentum",
+    "Radial Nodes (n - l - 1) vs Angular Nodes (l)",
+    "Nodal Surfaces in s, p, and d Orbitals (Conical Nodes in 3d_z\u00b2)"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "quantum-numbers",
+  "quickSummary": "Four quantum numbers (n, l, m_l, m_s) define an electron's state in an atom. Nodal surfaces are regions where \u03c8\u00b2 = 0: Radial nodes = (n - l - 1), Angular nodes = l, and Total nodes = (n - 1).",
+  "summary": "Master the 4 quantum numbers, orbital geometries, angular momentum formulae, and exact radial/angular nodal calculations.",
+  "conceptBreakdown": [
+    {
+      "heading": "6.1 The Four Quantum Numbers",
+      "title": "6.1 The Four Quantum Numbers",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quantum Numbers Hierarchy",
+        "takeaway": "n (shell size/energy), l (subshell shape/angular momentum), m_l (spatial orientation), m_s (spin angular momentum)."
+      },
+      "content": "Solvable solutions to the Schr\u00f6dinger equation yield three spatial quantum numbers ($n, l, m_l$), and electron spin requires the fourth ($m_s$):\n\n1. **Principal ($n = 1, 2, 3, 4\\dots$)**: Determines shell size and major energy level. Max electrons per shell $= 2n^2$; total orbitals $= n^2$.\n2. **Azimuthal ($l = 0, 1, 2\\dots n-1$)**: Determines subshell geometry ($s, p, d, f$). Orbital Angular Momentum:\n$$\\mathbf{L = \\sqrt{l(l+1)} \\frac{h}{2\\pi} = \\sqrt{l(l+1)} \\hbar}$$\nMax electrons per subshell $= 2(2l+1)$. Total orbitals $= 2l+1$.\n3. **Magnetic ($m_l = -l\\dots 0\\dots +l$)**: Determines spatial orientation in a magnetic field. Total values $= 2l+1$.\n4. **Spin ($m_s = \\pm 1/2$)**: Determines intrinsic electron spin orientation. Spin Angular Momentum:\n$$\\mathbf{S = \\sqrt{s(s+1)} \\hbar = \\frac{\\sqrt{3}}{2} \\hbar}$$"
+    },
+    {
+      "heading": "6.2 Nodal Analysis & Orbital Geometries",
+      "title": "6.2 Nodal Analysis & Orbital Geometries",
+      "type": "paragraph",
+      "codeSnippet": "NODAL CLASSIFICATION SUMMARY\n                        \n   RADIAL NODES (Spherical)   \u2500\u2500\u25ba Radial wavefunction R(r) = 0.\n                                  Radial Nodes = n - l - 1\n                                  \n   ANGULAR NODES (Nodal Planes)\u2500\u2500\u25ba Angular wavefunction Y(\u03b8,\u03c6) = 0.\n                                  Angular Nodes = l\n                                  \n   TOTAL NODES                 \u2500\u2500\u25ba Total Nodes = Radial + Angular = n - 1",
+      "content": "\u2022 **Radial Nodes (Spherical Surfaces)**: $\\mathbf{n - l - 1}$.\n\u2022 **Angular Nodes (Nodal Planes / Cones)**: $\\mathbf{l}$.\n\u2022 **Total Nodes**: $\\mathbf{(n - l - 1) + l = n - 1}$.\n\n**Subshell Nodal Matrix**:\n\u2022 **$1s$ ($n=1, l=0$)**: $0$ radial, $0$ angular, $0$ total nodes.\n\u2022 **$2s$ ($n=2, l=0$)**: $1$ radial, $0$ angular, $1$ total node.\n\u2022 **$2p_x$ ($n=2, l=1$)**: $0$ radial, $1$ angular ($yz$-plane), $1$ total node.\n\u2022 **$3p_x$ ($n=3, l=1$)**: $1$ radial, $1$ angular ($yz$-plane), $2$ total nodes.\n\u2022 **$3d_{xy}$ ($n=3, l=2$)**: $0$ radial, $2$ angular ($xz$ and $yz$ planes), $2$ total nodes.\n\u2022 **$3d_{z^2}$ ($n=3, l=2$)**: $0$ radial, $2$ angular (**two conical nodal surfaces** at $\\theta = 54.74^\\circ$, zero planar nodes!), $2$ total nodes."
+    }
+  ],
+  "quickRevision": [
+    "Max electrons in shell = 2n\u00b2; Total orbitals = n\u00b2.",
+    "Orbital angular momentum L = \u221a(l(l+1)) \u210f (depends strictly on l).",
+    "Spin angular momentum S = (\u221a3/2) \u210f.",
+    "Radial nodes = n - l - 1; Angular nodes = l; Total nodes = n - 1.",
+    "3d_z\u00b2 orbital has 0 planar nodes and 2 conical nodal surfaces."
+  ],
+  "keyFormulae": [
+    "L = \u221a(l(l+1)) \u210f",
+    "S = \u221a(s(s+1)) \u210f = (\u221a3/2) \u210f",
+    "Radial Nodes = n - l - 1",
+    "Angular Nodes = l",
+    "Total Nodes = n - 1"
+  ]
+}

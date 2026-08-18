@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c5-l08",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Molecular Basis of Inheritance",
+  "chapterNumber": 5,
+  "chapterSlug": "molecular-basis-of-inheritance",
+  "slug": "lesson-08-translation-cascade-and-ribosomal-peptidyl-transferase",
+  "title": "Translation Cascade & Peptidyl Transferase Ribozyme",
+  "topic": "Aminoacylation, Ribosomal Sites (A, P, E), & 23S/28S rRNA Peptidyl Transferase",
+  "order": 8,
+  "readingTimeMinutes": 15,
+  "estimatedTimeMinutes": 15,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Translation cascade: 1. Aminoacylation (ATP + aminoacyl-tRNA synthetase), 2. Initiation (Shine-Dalgarno / Kozak sequence, fMet-tRNA in P-site), 3. Elongation (A-site entry, Peptidyl transferase 23S/28S rRNA peptide bond, EF-G translocation), 4. Termination (RF1/RF2 release factors).",
+  "summary": "Translation cascade: 1. Aminoacylation (ATP + aminoacyl-tRNA synthetase), 2. Initiation (Shine-Dalgarno / Kozak sequence, fMet-tRNA in P-site), 3. Elongation (A-site entry, Peptidyl transferase 23S/28S rRNA peptide bond, EF-G translocation), 4. Termination (RF1/RF2 release factors).",
+  "conceptBreakdown": [
+    {
+      "heading": "Translation Cascade & Peptidyl Transferase Ribozyme",
+      "title": "Translation Cascade & Peptidyl Transferase Ribozyme",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Translation synthesizes polypeptide chains from mRNA codons at the ribosome. Four sequential stages: (1) Aminoacylation / Charging of tRNA (ATP + Aminoacyl-tRNA Synthetase); (2) Initiation (small subunit binds mRNA, initiator tRNA occupies P-site); (3) Elongation (incoming aa-tRNA binds A-site, 23S/28S rRNA Peptidyl Transferase ribozyme catalyzes peptide bond, EF-G translocates ribosome); (4) Termination (Release factors bind stop codon)."
+      },
+      "codeSnippet": "TRANSLATION CASCADE STAGES\n                                       │\n  1. AMINOACYLATION ──► Activation of amino acid + Charging of tRNA (ATP + Aminoacyl-tRNA Synthetase)\n  2. INITIATION     ──► 30S/40S binds mRNA at Shine-Dalgarno / Kozak sequence; fMet-tRNA at P-site\n  3. ELONGATION     ──► A-site entry ──► Peptidyl Transferase Peptide Bond ──► EF-G Translocation\n  4. TERMINATION    ──► Release Factors (RF1/RF2) recognize Stop Codon ──► Polypeptide Released",
+      "content": "### 8.1 Four Stages of Protein Synthesis\n1. **Aminoacylation (tRNA Charging)**: Amino acid activated with $\\text{ATP}$ to form aminoacyl-AMP, transferred to $3'\\text{-OH}$ of tRNA catalyzed by **Aminoacyl-tRNA Synthetase** (consumes $\\text{ATP} \\rightarrow \\text{AMP} + \\text{PP}_i$).\n2. **Initiation**:\n   - Small ribosomal subunit ($30\\text{S}/40\\text{S}$) binds mRNA at the **Shine-Dalgarno sequence** ($5'\\text{-AGGAGG-3'}$ in prokaryotes) or Kozak sequence in eukaryotes.\n   - Initiator tRNA carrying $\\text{fMet}$ binds directly into the **P-site (Peptidyl site)**.\n   - Large subunit ($50\\text{S}/60\\text{S}$) docks to complete the initiation complex.\n3. **Elongation & Peptidyl Transferase Ribozyme**:\n   - **A-Site (Aminoacyl Site)** receives the next charged tRNA.\n   - **Peptidyl Transferase** (a ribozyme: **$23\\text{S}$ rRNA** in prokaryotes, **$28\\text{S}$ rRNA** in eukaryotes) forms a peptide bond between the amino acid at the P-site and that at the A-site.\n   - Translocation catalyzed by **EF-G (eEF-2)** shifts uncharged tRNA to the **E-site (Exit site)** for release.\n4. **Termination**: Stop codons ($UAA, UAG, UGA$) bind **Release Factors (RF1, RF2)**, triggering hydrolysis of the ester bond and releasing the completed polypeptide."
+    },
+    {
+      "heading": "Untranslated Regions (UTRs)",
+      "title": "Untranslated Regions (UTRs)",
+      "type": "paragraph",
+      "content": "UTRs are non-coding sequences present on mature mRNA located at both the 5'-end (before start codon) and 3'-end (after stop codon); they are essential for efficient ribosome binding and mRNA stability."
+    },
+    {
+      "heading": "Polysomes (Polyribosomes)",
+      "title": "Polysomes (Polyribosomes)",
+      "type": "paragraph",
+      "content": "Multiple ribosomes translating a single mRNA molecule simultaneously form a Polysome (Polyribosome), producing multiple copies of the same polypeptide efficiently."
+    }
+  ]
+}

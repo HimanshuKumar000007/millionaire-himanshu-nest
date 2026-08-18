@@ -1,0 +1,48 @@
+{
+  "id": "bio-xi-u4-c12-l08",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Respiration in Plants",
+  "chapterNumber": 12,
+  "chapterSlug": "respiration-in-plants",
+  "slug": "lesson-08-shuttle-systems-and-atp-balance-sheet",
+  "title": "Shuttle Systems & Theoretical Respiratory Balance Sheet",
+  "topic": "Malate-Aspartate vs Glycerol-3-Phosphate Shuttles & Modern P/O Stoichiometry",
+  "topics": [
+    "Impermeability of Inner Mitochondrial Membrane to Cytosolic NADH",
+    "Malate-Aspartate Shuttle (Heart, Liver, Kidneys; 2.5 ATP/NADH, Complex I Entry)",
+    "Glycerol-3-Phosphate Shuttle (Skeletal Muscle, Brain; 1.5 ATP/NADH, Complex II Entry)",
+    "Modern P/O Ratios (NADH = 2.5 ATP, FADH₂ = 1.5 ATP)",
+    "Theoretical Net ATP Balance Sheet per Glucose (30 vs 32 ATP)"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "The inner mitochondrial membrane is strictly impermeable to cytosolic NADH produced in glycolysis. Reducing equivalents are transported into the matrix via two shuttle systems: the Malate-Aspartate Shuttle (heart/liver/kidneys), which transfers electrons to matrix NAD⁺ (entering Complex I, yielding 2.5 ATP/NADH for a net of 32 ATP/glucose), and the Glycerol-3-Phosphate Shuttle (muscle/brain), which transfers electrons to membrane FAD (entering Complex II, yielding 1.5 ATP/NADH for a net of 30 ATP/glucose).",
+  "summary": "The inner mitochondrial membrane is strictly impermeable to cytosolic NADH produced in glycolysis. Reducing equivalents are transported into the matrix via two shuttle systems: the Malate-Aspartate Shuttle (heart/liver/kidneys), which transfers electrons to matrix NAD⁺ (entering Complex I, yielding 2.5 ATP/NADH for a net of 32 ATP/glucose), and the Glycerol-3-Phosphate Shuttle (muscle/brain), which transfers electrons to membrane FAD (entering Complex II, yielding 1.5 ATP/NADH for a net of 30 ATP/glucose).",
+  "conceptBreakdown": [
+    {
+      "heading": "7. Cytosolic NADH Shuttle Systems",
+      "title": "7. Cytosolic NADH Shuttle Systems",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Malate-Aspartate shuttle yields 2.5 ATP/NADH (32 ATP net per glucose). Glycerol-3-Phosphate shuttle yields 1.5 ATP/NADH (30 ATP net per glucose)."
+      },
+      "codeSnippet": "CYTOSOLIC NADH SHUTTLE SYSTEMS\n                                       │\n         ┌─────────────────────────────┴─────────────────────────────┐\n         ▼                                                           ▼\n  MALATE-ASPARTATE SHUTTLE                                   GLYCEROL-3-PHOSPHATE SHUTTLE\n  ├── Dominant in Heart, Liver, Kidneys                      ├── Dominant in Skeletal Muscle, Brain\n  ├── Transfers $e^-$ to Matrix $\\text{NAD}^+$               ├── Transfers $e^-$ to Membrane $\\text{FAD}$\n  ├── Enters at **Complex I**                                └── Enters at **Complex II / CoQ**\n  └── Yields **2.5 ATP per cytosolic NADH**                  └── Yields **1.5 ATP per cytosolic NADH**",
+      "content": "The inner mitochondrial membrane lacks a transport protein for $\\text{NADH}$. Consequently, the two cytosolic $\\text{NADH}$ molecules generated during glycolysis (Step 6) must transfer their electrons to matrix carriers via specialized shuttle mechanisms:\n\n1. **Malate-Aspartate Shuttle**:\n   - **Distribution**: Predominates in liver, kidney, and heart tissues.\n   - **Mechanism**: Cytosolic $\\text{NADH}$ reduces oxaloacetate to malate, which is transported into the matrix and re-oxidized by matrix Malate Dehydrogenase, reducing matrix $\\text{NAD}^+$ to $\\text{NADH}$.\n   - **Entry Point**: Electrons enter at **Complex I** ($10\\text{ H}^+$ pumped), yielding **$2.5\\text{ ATP}$** per cytosolic $\\text{NADH}$.\n2. **Glycerol-3-Phosphate Shuttle**:\n   - **Distribution**: Predominates in skeletal muscle, brain, and insect flight muscles.\n   - **Mechanism**: Cytosolic $\\text{NADH}$ reduces DHAP to Glycerol-3-Phosphate, which transfers electrons directly to a membrane-bound mitochondrial glycerol-3-phosphate dehydrogenase containing $\\text{FAD}$.\n   - **Entry Point**: Electrons bypass Complex I and enter at the **CoQ pool / Complex II level** ($6\\text{ H}^+$ pumped), yielding **$1.5\\text{ ATP}$** per cytosolic $\\text{NADH}$."
+    },
+    {
+      "heading": "7.1 Modern P/O Stoichiometry & Complete Respiratory Balance Sheet",
+      "title": "7.1 Modern P/O Stoichiometry & Complete Respiratory Balance Sheet",
+      "type": "paragraph",
+      "content": "### Modern P/O Bioenergetic Stoichiometry\n\n- $1\\text{ NADH}$ oxidized at Complex I $\\longrightarrow 10\\text{ H}^+$ pumped $\\longrightarrow 10/4 = \\mathbf{2.5\\text{ ATP}}$\n- $1\\text{ FADH}_2$ oxidized at Complex II $\\longrightarrow 6\\text{ H}^+$ pumped $\\longrightarrow 6/4 = \\mathbf{1.5\\text{ ATP}}$\n\n### Theoretical Net ATP Balance Sheet per Glucose Molecule\n\n| Stage | Reaction Step | Primary Product Yield | ATP Yield (Malate-Aspartate) | ATP Yield (Glycerol-P) |\n| :--- | :--- | :--- | :--- | :--- |\n| **Glycolysis** | Steps 7 & 10 (Substrate-Level) | $4\\text{ ATP}$ ($-\\ 2\\text{ ATP}$ in Prep) | $2\\text{ ATP}$ | $2\\text{ ATP}$ |\n| | Step 6 (GAPDH Oxidation) | $2\\text{ Cytosolic NADH}$ | $2 \\times 2.5 = \\mathbf{5\\text{ ATP}}$ | $2 \\times 1.5 = \\mathbf{3\\text{ ATP}}$ |\n| **Link Reaction** | PDC Oxidative Decarboxylation | $2\\text{ Matrix NADH}$ | $2 \\times 2.5 = \\mathbf{5\\text{ ATP}}$ | $2 \\times 2.5 = \\mathbf{5\\text{ ATP}}$ |\n| **TCA Cycle** | Step 5 (Substrate-Level) | $2\\text{ GTP (ATP)}$ | $2\\text{ ATP}$ | $2\\text{ ATP}$ |\n| | Steps 3, 4, 8 (Dehydrogenases) | $6\\text{ Matrix NADH}$ | $6 \\times 2.5 = \\mathbf{15\\text{ ATP}}$ | $6 \\times 2.5 = \\mathbf{15\\text{ ATP}}$ |\n| | Step 6 (Succinate Dehyd.) | $2\\text{ Matrix FADH}_2$ | $2 \\times 1.5 = \\mathbf{3\\text{ ATP}}$ | $2 \\times 1.5 = \\mathbf{3\\text{ ATP}}$ |\n| **TOTAL NET YIELD** | Complete Aerobic Oxidation | | **$32\\text{ ATP}$** | **$30\\text{ ATP}$** |"
+    }
+  ]
+}

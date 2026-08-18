@@ -1,0 +1,45 @@
+{
+  "id": "chem-xi-u1-c1-l08",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit I \u2014 Some Basic Concepts of Chemistry",
+  "unitNumber": 1,
+  "chapter": "Some Basic Concepts of Chemistry",
+  "chapterNumber": 1,
+  "chapterSlug": "some-basic-concepts-of-chemistry",
+  "slug": "lesson-08-nest-traps-and-glossary",
+  "title": "High-Yield NEST Misconceptions, Traps & Master Glossary",
+  "topic": "Stoichiometry & calculations",
+  "topics": [
+    "10 High-Yield NEST Traps",
+    "Chemical Reality & Exam Strategies",
+    "42-Term Master Glossary for Basic Chemistry"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "Advanced",
+  "source": "production",
+  "status": "published",
+  "diagramType": "basic-concepts-of-chemistry",
+  "quickSummary": "Review the 10 most common NEST exam traps regarding molarity vs molality, gas volumes at IUPAC STP, limiting reagent selection, and Berthollides, alongside the comprehensive 42-term chemistry glossary.",
+  "summary": "Solidify your conceptual foundations through high-yield NEST traps and master glossary terms.",
+  "conceptBreakdown": [
+    {
+      "heading": "9. High-Yield NEST Misconceptions & Traps Table",
+      "title": "9. High-Yield NEST Misconceptions & Traps Table",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Exam Trap Highlights",
+        "takeaway": "Molarity changes with T; IUPAC STP V_m is 22.71 L; LR is based on n/coeff; 1 amu = 1/12th \u00b9\u00b2C; H2SO4 has n-factor = 2."
+      },
+      "content": "\u2022 **Trap 1**: *Molarity is constant with temperature.* \u2192 Reality: Molarity decreases as T increases due to volume expansion.\n\u2022 **Trap 2**: *At STP, 1 mole is 22.4 L.* \u2192 Reality: Current IUPAC STP (1 bar, 0\u00b0C) is 22.71 L/mol.\n\u2022 **Trap 3**: *LR is smallest initial mass.* \u2192 Reality: LR is minimum of initial moles divided by coefficient ($n_i / \\text{coeff}$).\n\u2022 **Trap 4**: *Vapor density equals molar mass.* \u2192 Reality: $\\text{Molar Mass} = 2 \\times \\text{Vapor Density}$.\n\u2022 **Trap 5**: *1 amu is mass of 1 hydrogen atom.* \u2192 Reality: 1 u is 1/12th mass of neutral \u00b9\u00b2C atom (1.66054 \u00d7 10\u207b\u00b2\u2074 g).\n\u2022 **Trap 6**: *Definite proportions holds for Berthollides.* \u2192 Reality: Non-stoichiometric compounds violate Proust's Law.\n\u2022 **Trap 7**: *Mixing equal volumes of 1 M HCl and 1 M H\u2082SO\u2084 gives 1 M H\u207a.* \u2192 Reality: $[\\text{H}^+] = \\frac{1(1) + 2(1)}{1+1} = 1.5\\text{ M}$.\n\u2022 **Trap 8**: *Equal masses of O\u2082 and N\u2082 contain equal molecules.* \u2192 Reality: $M_{\\text{O}_2} = 32, M_{\\text{N}_2} = 28 \\implies n_{\\text{N}_2} > n_{\\text{O}_2}$."
+    }
+  ],
+  "quickRevision": [
+    "Always check 1 bar vs 1 atm for gas molar volume.",
+    "Account for acid basicity/n-factor in mixtures.",
+    "Molality is per kg of solvent, not solution."
+  ]
+}

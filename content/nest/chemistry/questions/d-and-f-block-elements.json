@@ -1,0 +1,924 @@
+[
+  {
+    "id": "chem-df-001",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "Spin-Only Magnetic Moment Calculation",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the calculated spin-only magnetic moment (\u03bc_s) in Bohr Magnetons (BM) for a high-spin aqueous complex of Vanadium in its +3 oxidation state (V\u00b3\u207a, Z=23)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\u03bc_s = 1.73 BM",
+        "isCorrect": false,
+        "explanation": "1.73 BM corresponds to n = 1 unpaired electron."
+      },
+      {
+        "id": "B",
+        "text": "\u03bc_s = 2.83 BM",
+        "isCorrect": true,
+        "explanation": "1. Neutral Vanadium (Z=23): [Ar] 3d\u00b3 4s\u00b2. 2. V\u00b3\u207a ion: Remove 2 from 4s and 1 from 3d \u27f9 [Ar] 3d\u00b2 4s\u2070. 3. Number of unpaired electrons n = 2. 4. Spin-only formula: \u03bc_s = \u221a(n(n+2)) = \u221a(2(4)) = \u221a8 = 2.828 BM \u2248 2.83 BM."
+      },
+      {
+        "id": "C",
+        "text": "\u03bc_s = 3.87 BM",
+        "isCorrect": false,
+        "explanation": "3.87 BM corresponds to n = 3 unpaired electrons (V\u00b2\u207a)."
+      },
+      {
+        "id": "D",
+        "text": "\u03bc_s = 4.90 BM",
+        "isCorrect": false,
+        "explanation": "4.90 BM corresponds to n = 4 unpaired electrons."
+      }
+    ],
+    "solutionExplanation": "1. Neutral Vanadium (Z=23): [Ar] 3d\u00b3 4s\u00b2.\n2. V\u00b3\u207a ion: Remove 2 electrons from 4s and 1 from 3d \u27f9 [Ar] 3d\u00b2 4s\u2070.\n3. Number of unpaired electrons n = 2.\n4. Spin-only magnetic moment formula:\n   \u03bc_s = \u221a(n(n+2)) = \u221a(2(2+2)) = \u221a8 = 2.828 BM \u2248 2.83 BM.",
+    "keyFormulae": [
+      "\\mu_s = \\sqrt{n(n+2)} \\text{ BM}"
+    ],
+    "hints": [
+      "Find the number of 3d electrons in V\u00b3\u207a (Z=23) and substitute n into \u221a(n(n+2))."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-df-002",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "Disproportionation of Cu\u207a(aq)",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Although Cu\u207a(aq) has a completely filled, stable 3d\u00b9\u2070 electronic configuration, it undergoes rapid, spontaneous disproportionation in aqueous solution: 2Cu\u207a(aq) \u2500\u2500\u25ba Cu\u00b2\u207a(aq) + Cu(s). What is the primary thermodynamic driving force for this reaction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "High second ionization enthalpy of Copper",
+        "isCorrect": false,
+        "explanation": "High \u0394_i H_2 opposes Cu\u00b2\u207a formation."
+      },
+      {
+        "id": "B",
+        "text": "The highly exothermic Hydration Enthalpy of Cu\u00b2\u207a(aq) (\u0394_hyd H = -2121 kJ/mol) which compensates for the second ionization energy",
+        "isCorrect": true,
+        "explanation": "The conversion of Cu\u207a \u2500\u2500\u25ba Cu\u00b2\u207a requires supplying \u0394_i H_2 (+1958 kJ/mol). However, Cu\u00b2\u207a(aq) has a much smaller ionic radius and higher charge density than Cu\u207a(aq), releasing a massive Hydration Enthalpy (\u0394_hyd H = -2121 kJ/mol) in water. This huge hydration energy release makes the overall disproportionation process thermodynamically favorable (E\u00b0_cell = +0.36 V)."
+      },
+      {
+        "id": "C",
+        "text": "Low lattice energy of metallic Copper",
+        "isCorrect": false,
+        "explanation": "Not the primary thermodynamic driving force."
+      },
+      {
+        "id": "D",
+        "text": "d-d transition stabilization of Cu\u207a",
+        "isCorrect": false,
+        "explanation": "Cu\u207a is 3d\u00b9\u2070 and undergoes no d-d transitions."
+      }
+    ],
+    "solutionExplanation": "The conversion of Cu\u207a \u2500\u2500\u25ba Cu\u00b2\u207a requires supplying the 2nd Ionization Enthalpy (+1958 kJ/mol). However, Cu\u00b2\u207a(aq) has a much smaller ionic radius and higher charge density than Cu\u207a(aq), releasing a massive Hydration Enthalpy (\u0394_hyd H = -2121 kJ/mol) in water. This huge hydration energy release far outweighs the second ionization enthalpy, making the overall disproportionation process thermodynamically favorable (E\u00b0_cell = +0.36 V).",
+    "keyFormulae": [
+      "2\\text{Cu}^+(aq) \\longrightarrow \\text{Cu}^{2+}(aq) + \\text{Cu}(s) \\quad (E^\\circ_{\\text{cell}} = +0.36\\text{ V})",
+      "\\Delta_{\\text{hyd}} H(\\text{Cu}^{2+}) = -2121\\text{ kJ/mol}"
+    ],
+    "hints": [
+      "Compare the hydration enthalpies of Cu\u00b2\u207a (-2121 kJ/mol) and Cu\u207a (-581 kJ/mol)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-df-003",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "KMnO\u2084 Neutral Medium Oxidation",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Potassium Permanganate (KMnO\u2084) acts as an oxidizing agent across acidic, neutral, and strongly basic media. How many moles of electrons are transferred per mole of KMnO\u2084 when it oxidizes Potassium Iodide (KI) in a NEUTRAL / FAINTLY ALKALINE solution, and what is the final iodine-containing product formed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5 moles of e\u207b; Product = I\u2082",
+        "isCorrect": false,
+        "explanation": "5 moles of e\u207b and I\u2082 are produced in ACIDIC medium, not neutral."
+      },
+      {
+        "id": "B",
+        "text": "3 moles of e\u207b; Product = IO\u2083\u207b (Iodate)",
+        "isCorrect": true,
+        "explanation": "1. In neutral/faintly alkaline medium (pH 7\u20139), MnO\u2084\u207b (+7) is reduced to MnO\u2082 (+4): MnO\u2084\u207b + 2H\u2082O + 3e\u207b \u2500\u2500\u25ba MnO\u2082 + 4OH\u207b \u27f9 n-factor = 3 (3 moles of e\u207b). 2. In neutral medium, Permanganate oxidizes Iodide (I\u207b) to Iodate (IO\u2083\u207b): MnO\u2084\u207b + I\u207b + H\u2082O \u2500\u2500\u25ba 2MnO\u2082\u2193 + IO\u2083\u207b."
+      },
+      {
+        "id": "C",
+        "text": "1 mole of e\u207b; Product = IO\u2084\u207b (Periodate)",
+        "isCorrect": false,
+        "explanation": "1 mole of e\u207b is transferred in strongly basic medium."
+      },
+      {
+        "id": "D",
+        "text": "2 moles of e\u207b; Product = I\u207b",
+        "isCorrect": false,
+        "explanation": "Incorrect stoichiometry."
+      }
+    ],
+    "solutionExplanation": "1. In neutral/faintly alkaline medium (pH 7\u20139), MnO\u2084\u207b (+7) is reduced to MnO\u2082 (+4):\n   MnO\u2084\u207b + 2H\u2082O + 3e\u207b \u2500\u2500\u25ba MnO\u2082 + 4OH\u207b \u27f9 n-factor = 3 (3 moles of e\u207b).\n2. In neutral medium, Permanganate oxidizes Iodide (I\u207b) to Iodate (IO\u2083\u207b):\n   MnO\u2084\u207b + I\u207b + H\u2082O \u2500\u2500\u25ba 2MnO\u2082\u2193 + IO\u2083\u207b (NOT I\u2082!).",
+    "keyFormulae": [
+      "\\text{Neutral: } \\text{MnO}_4^- + 2\\text{H}_2\\text{O} + 3e^- \\longrightarrow \\text{MnO}_2 + 4\\text{OH}^-",
+      "\\text{MnO}_4^- + \\text{I}^- + \\text{H}_2\\text{O} \\longrightarrow 2\\text{MnO}_2 \\downarrow + \\text{IO}_3^-"
+    ],
+    "hints": [
+      "In neutral/faintly alkaline medium, MnO\u2084\u207b reduces to MnO\u2082 (n=3) and oxidizes I\u207b to Iodate (IO\u2083\u207b)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-df-004",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "Manganese Atomization Enthalpy Anomaly",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Why does Manganese (Mn, Z=25) display an anomalously LOW Enthalpy of Atomization (\u0394_a H\u00b0 = 281 kJ/mol) compared to its neighbor Vanadium (V, 515 kJ/mol), despite possessing 5 unpaired d-electrons?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Manganese is a liquid at room temperature.",
+        "isCorrect": false,
+        "explanation": "Manganese is a solid metal."
+      },
+      {
+        "id": "B",
+        "text": "The stable half-filled 3d\u2075 subshell tightly localizes electrons, reducing d-d covalent orbital overlap in the metallic crystal lattice.",
+        "isCorrect": true,
+        "explanation": "Manganese has the ground-state configuration [Ar] 3d\u2075 4s\u00b2. The extra stability of the half-filled 3d\u2075 subshell holds the d-electrons tightly localized around individual nucleus centers. Consequently, these d-electrons participate weakly in inter-atomic covalent overlap, leading to weaker overall metallic bonding and an unexpectedly low enthalpy of atomization."
+      },
+      {
+        "id": "C",
+        "text": "Manganese lacks 4s valence electrons.",
+        "isCorrect": false,
+        "explanation": "Manganese has 4s\u00b2 electrons."
+      },
+      {
+        "id": "D",
+        "text": "4f Lanthanide contraction destabilizes the Manganese lattice.",
+        "isCorrect": false,
+        "explanation": "Lanthanide contraction occurs in 5d series, not 3d."
+      }
+    ],
+    "solutionExplanation": "Manganese has the ground-state configuration [Ar] 3d\u2075 4s\u00b2. The extra stability of the half-filled 3d\u2075 subshell holds the d-electrons tightly localized around individual nucleus centers. Consequently, these d-electrons participate weakly in inter-atomic covalent overlap, leading to weaker overall metallic bonding and an unexpectedly low enthalpy of atomization (281 kJ/mol).",
+    "keyFormulae": [
+      "\\text{Mn: } [\\text{Ar}] 3d^5 4s^2, \\quad \\Delta_a H^\\circ = 281\\text{ kJ/mol}"
+    ],
+    "hints": [
+      "Stable half-filled 3d\u2075 electrons are tightly held and overlap poorly with adjacent atoms."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-df-005",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "Chromate-Dichromate Equilibrium",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "A solution of Potassium Chromate (K\u2082CrO\u2084, bright yellow) turns deep orange upon the addition of dilute Sulfuric Acid (H\u2082SO\u2084). What chemical transformation occurs during this acidification, and what is the oxidation state of Chromium in the orange species?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oxidation of Cr(+3) to Cr(+6) forming CrO\u2083",
+        "isCorrect": false,
+        "explanation": "Chromium is already in +6 in K\u2082CrO\u2084."
+      },
+      {
+        "id": "B",
+        "text": "Conversion of Chromate (CrO\u2084\u00b2\u207b) to Dichromate (Cr\u2082O\u2087\u00b2\u207b); Oxidation state remains +6",
+        "isCorrect": true,
+        "explanation": "1. The chromate-dichromate equilibrium is pH-dependent: 2CrO\u2084\u00b2\u207b (Yellow) + 2H\u207a \u21cc Cr\u2082O\u2087\u00b2\u207b (Orange) + H\u2082O. 2. Acidification (+H\u207a) shifts equilibrium forward to form Dichromate (Cr\u2082O\u2087\u00b2\u207b, Orange). 3. This is an acid-base condensation reaction, NOT a redox reaction; Chromium remains in the +6 oxidation state in both species (d\u2070)."
+      },
+      {
+        "id": "C",
+        "text": "Reduction of Cr(+6) to Cr(+3) forming green Cr\u00b3\u207a",
+        "isCorrect": false,
+        "explanation": "No reducing agent was added."
+      },
+      {
+        "id": "D",
+        "text": "Formation of a peroxy complex CrO\u2085",
+        "isCorrect": false,
+        "explanation": "CrO\u2085 requires H\u2082O\u2082."
+      }
+    ],
+    "solutionExplanation": "1. The chromate-dichromate equilibrium is pH-dependent:\n   2CrO\u2084\u00b2\u207b (Yellow) + 2H\u207a \u21cc Cr\u2082O\u2087\u00b2\u207b (Orange) + H\u2082O\n2. Acidification (+H\u207a) shifts equilibrium forward to form Dichromate (Cr\u2082O\u2087\u00b2\u207b, Orange).\n3. This is an acid-base condensation reaction, NOT a redox reaction; Chromium remains in the +6 oxidation state in both species (d\u2070).",
+    "keyFormulae": [
+      "2\\text{CrO}_4^{2-} \\text{ (Yellow)} + 2\\text{H}^+ \\rightleftharpoons \\text{Cr}_2\\text{O}_7^{2-} \\text{ (Orange)} + \\text{H}_2\\text{O}"
+    ],
+    "hints": [
+      "Acid converts yellow CrO\u2084\u00b2\u207b to orange Cr\u2082O\u2087\u00b2\u207b without changing the +6 oxidation state."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-df-006",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "Lanthanide Colorless and Diamagnetic Ion",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Which of the following 4f Lanthanide ions is DIAMAGNETIC (n=0 unpaired electrons) and completely COLORLESS in aqueous solution?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eu\u00b3\u207a (Z=63)",
+        "isCorrect": false,
+        "explanation": "Eu\u00b3\u207a is [Xe] 4f\u2076 (n=6, paramagnetic, pale pink)."
+      },
+      {
+        "id": "B",
+        "text": "Gd\u00b3\u207a (Z=64)",
+        "isCorrect": false,
+        "explanation": "Gd\u00b3\u207a is [Xe] 4f\u2077 (n=7, strongly paramagnetic)."
+      },
+      {
+        "id": "C",
+        "text": "Lu\u00b3\u207a (Z=71)",
+        "isCorrect": true,
+        "explanation": "Lu (Z=71): [Xe] 4f\u00b9\u2074 5d\u00b9 6s\u00b2 \u27f9 Lu\u00b3\u207a = [Xe] 4f\u00b9\u2074 5d\u2070 6s\u2070. The 4f subshell is completely filled (4f\u00b9\u2074) with 0 unpaired electrons (n=0). Thus, Lu\u00b3\u207a is Diamagnetic and Colorless (no f-f transitions possible)."
+      },
+      {
+        "id": "D",
+        "text": "Ce\u00b3\u207a (Z=58)",
+        "isCorrect": false,
+        "explanation": "Ce\u00b3\u207a is [Xe] 4f\u00b9 (n=1, paramagnetic)."
+      }
+    ],
+    "solutionExplanation": "\u2022 Lu (Z=71): [Xe] 4f\u00b9\u2074 5d\u00b9 6s\u00b2 \u27f9 Lu\u00b3\u207a = [Xe] 4f\u00b9\u2074 5d\u2070 6s\u2070.\n\u2022 The 4f subshell is completely filled (4f\u00b9\u2074) with 0 unpaired electrons (n=0). Thus, Lu\u00b3\u207a is Diamagnetic and Colorless (no f-f transitions possible).",
+    "keyFormulae": [
+      "\\text{Lu}^{3+}: [\\text{Xe}] 4f^{14} \\quad (n=0, \\ \\text{Diamagnetic & Colorless})"
+    ],
+    "hints": [
+      "Look for completely filled 4f\u00b9\u2074 or empty 4f\u2070 configuration."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-df-007",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "Actinide Wide Oxidation States Range",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Why do Actinide elements (Th to Lr) display a much WIDER VARIETY of oxidation states (+3, +4, +5, +6, +7) than Lanthanide elements (Ce to Lu)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Actinides are non-metallic elements.",
+        "isCorrect": false,
+        "explanation": "Actinides are heavy metals."
+      },
+      {
+        "id": "B",
+        "text": "The energy gap between 5f, 6d, and 7s subshells in actinides is extremely small, allowing electrons from all three subshells to participate in bonding.",
+        "isCorrect": true,
+        "explanation": "In Actinides, the 5f, 6d, and 7s energy levels are of comparable energy, making the energy barrier for promoting electrons small. Hence, variable numbers of electrons from 5f, 6d, and 7s can participate in chemical bonding, yielding diverse oxidation states (+3 to +7). In Lanthanides, the 4f subshell is deeply buried and significantly lower in energy than 5d/6s."
+      },
+      {
+        "id": "C",
+        "text": "Lanthanides lack 6s valence electrons.",
+        "isCorrect": false,
+        "explanation": "Lanthanides possess 6s\u00b2 electrons."
+      },
+      {
+        "id": "D",
+        "text": "5f subshells shield nuclear charge perfectly.",
+        "isCorrect": false,
+        "explanation": "5f subshells exert very poor shielding."
+      }
+    ],
+    "solutionExplanation": "In Actinides, the 5f, 6d, and 7s energy levels are of comparable energy, making the energy barrier for promoting electrons small. Hence, variable numbers of electrons from 5f, 6d, and 7s can participate in chemical bonding, yielding diverse oxidation states (+3 to +7). In Lanthanides, the 4f subshell is deeply buried and significantly lower in energy than 5d/6s.",
+    "keyFormulae": [
+      "\\text{Small } 5f-6d-7s \\text{ energy gap} \\implies \\text{Wide OS (+3 to +7)}"
+    ],
+    "hints": [
+      "In actinides, the 5f, 6d, and 7s subshells are close in energy."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-df-008",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "Origin of Permanganate Color (LMCT)",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the cause of the deep purple color of the Permanganate anion (MnO\u2084\u207b), given that the central Manganese atom is in the +7 oxidation state with a completely empty 3d\u2070 subshell?",
+    "options": [
+      {
+        "id": "A",
+        "text": "d-d electronic transition between split t_2g and e_g orbitals",
+        "isCorrect": false,
+        "explanation": "d-d transitions are impossible in 3d\u2070 systems."
+      },
+      {
+        "id": "B",
+        "text": "Ligand-to-Metal Charge Transfer (LMCT) from Oxygen 2p orbitals to vacant Manganese 3d orbitals",
+        "isCorrect": true,
+        "explanation": "Mn\u2077\u207a in MnO\u2084\u207b has a 3d\u2070 configuration (zero d-electrons), so d-d transitions are impossible. The intense purple color arises from Ligand-to-Metal Charge Transfer (LMCT), where an electron is transiently promoted from an oxygen ligand non-bonding 2p orbital into a vacant manganese 3d orbital upon absorbing green light."
+      },
+      {
+        "id": "C",
+        "text": "f-f orbital transitions",
+        "isCorrect": false,
+        "explanation": "Manganese has no f-orbitals."
+      },
+      {
+        "id": "D",
+        "text": "Paramagnetic resonance of unpaired 4s electrons",
+        "isCorrect": false,
+        "explanation": "MnO\u2084\u207b is diamagnetic."
+      }
+    ],
+    "solutionExplanation": "Mn\u2077\u207a in MnO\u2084\u207b has a 3d\u2070 configuration (zero d-electrons), so d-d transitions are impossible. The intense purple color arises from Ligand-to-Metal Charge Transfer (LMCT), where an electron is transiently promoted from an oxygen ligand non-bonding 2p orbital into a vacant manganese 3d orbital upon absorbing green light.",
+    "keyFormulae": [
+      "\\text{MnO}_4^-: 3d^0 \\implies \\text{Color from Ligand-to-Metal Charge Transfer (LMCT)}"
+    ],
+    "hints": [
+      "In d\u2070 oxoanions (MnO\u2084\u207b, Cr\u2082O\u2087\u00b2\u207b), color arises from LMCT, not d-d transitions."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-df-009",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "Lanthanide Hydroxide Basicity Order",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Arranging the hydroxides La(OH)\u2083, Ce(OH)\u2083, Gd(OH)\u2083, and Lu(OH)\u2083 in order of DECREASING basic strength yields:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lu(OH)\u2083 > Gd(OH)\u2083 > Ce(OH)\u2083 > La(OH)\u2083",
+        "isCorrect": false,
+        "explanation": "Inverted order."
+      },
+      {
+        "id": "B",
+        "text": "La(OH)\u2083 > Ce(OH)\u2083 > Gd(OH)\u2083 > Lu(OH)\u2083",
+        "isCorrect": true,
+        "explanation": "1. Across the lanthanides (La\u00b3\u207a \u2500\u2500\u25ba Lu\u00b3\u207a), ionic radius decreases continuously due to Lanthanide Contraction. 2. According to Fajans' Rules, smaller cation radius (Lu\u00b3\u207a < La\u00b3\u207a) increases polarising power, making the Lu-OH bond more covalent. 3. Higher covalent character decreases OH\u207b dissociation in water. Therefore, La(OH)\u2083 is the MOST BASIC and Lu(OH)\u2083 is the LEAST BASIC."
+      },
+      {
+        "id": "C",
+        "text": "Gd(OH)\u2083 > La(OH)\u2083 > Lu(OH)\u2083 > Ce(OH)\u2083",
+        "isCorrect": false,
+        "explanation": "Incorrect sequence."
+      },
+      {
+        "id": "D",
+        "text": "All four hydroxides have identical basicity.",
+        "isCorrect": false,
+        "explanation": "Basicity decreases steadily across the series."
+      }
+    ],
+    "solutionExplanation": "1. Across the lanthanides (La\u00b3\u207a \u2500\u2500\u25ba Lu\u00b3\u207a), ionic radius decreases continuously due to Lanthanide Contraction.\n2. According to Fajans' Rules, smaller cation radius (Lu\u00b3\u207a < La\u00b3\u207a) increases polarising power, making the Lu-OH bond more covalent.\n3. Higher covalent character decreases OH\u207b dissociation in water. Therefore, La(OH)\u2083 is the MOST BASIC and Lu(OH)\u2083 is the LEAST BASIC.",
+    "keyFormulae": [
+      "\\text{Basicity: } \\text{La(OH)}_3 > \\text{Ce(OH)}_3 > \\text{Gd(OH)}_3 > \\text{Lu(OH)}_3"
+    ],
+    "hints": [
+      "Lanthanide contraction makes smaller Lu\u00b3\u207a more covalent, so Lu(OH)\u2083 is the least basic."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-df-010",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "Mischmetall Composition and Uses",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What alloy composed of \u2248 95% Lanthanide metals (Ce \u2248 50%), \u2248 5% Iron, and traces of S, C, Ca, and Al is used extensively in manufacturing lighter flints and armor-piercing bullets?",
+    "options": [
+      {
+        "id": "A",
+        "text": "German Silver",
+        "isCorrect": false,
+        "explanation": "German silver is Cu-Zn-Ni."
+      },
+      {
+        "id": "B",
+        "text": "Mischmetall",
+        "isCorrect": true,
+        "explanation": "Mischmetall is a well-known pyrophoric lanthanide alloy comprising \u2248 95% lanthanide metals (primarily Cerium \u2248 50% and Neodymium \u2248 25%), \u2248 5% Fe, and traces of carbon, sulfur, and calcium. It sparks easily when struck and is used in lighter flints and tracer bullets."
+      },
+      {
+        "id": "C",
+        "text": "Stainless Steel",
+        "isCorrect": false,
+        "explanation": "Stainless steel is Fe-Cr-Ni."
+      },
+      {
+        "id": "D",
+        "text": "Invar",
+        "isCorrect": false,
+        "explanation": "Invar is Fe-Ni."
+      }
+    ],
+    "solutionExplanation": "Mischmetall is a well-known pyrophoric lanthanide alloy comprising \u2248 95% lanthanide metals (primarily Cerium \u2248 50% and Neodymium \u2248 25%), \u2248 5% Fe, and traces of carbon, sulfur, and calcium. It sparks easily when struck and is used in lighter flints and tracer bullets.",
+    "keyFormulae": [
+      "\\text{Mischmetall: } 95\\% \\text{ Ln metals (Ce } \\approx 50\\%), \\ 5\\% \\text{ Fe, traces of S, C, Ca}"
+    ],
+    "hints": [
+      "Pyrophoric lanthanide alloy used in lighter flints is Mischmetall."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-df-011",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "Group 12 Pseudo-Transition Elements",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following elements are classified as Non-Transition / Pseudo-Transition elements because they possess completely filled d\u00b9\u2070 subshells in both their ground state and common oxidation states? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Zinc (Zn, Z=30)",
+        "isCorrect": true,
+        "explanation": "Zn ([Ar] 3d\u00b9\u2070 4s\u00b2 / Zn\u00b2\u207a: 3d\u00b9\u2070) has filled d\u00b9\u2070 in all states."
+      },
+      {
+        "id": "B",
+        "text": "Cadmium (Cd, Z=48)",
+        "isCorrect": true,
+        "explanation": "Cd ([Kr] 4d\u00b9\u2070 5s\u00b2 / Cd\u00b2\u207a: 4d\u00b9\u2070) has filled d\u00b9\u2070 in all states."
+      },
+      {
+        "id": "C",
+        "text": "Mercury (Hg, Z=80)",
+        "isCorrect": true,
+        "explanation": "Hg ([Xe] 4f\u00b9\u2074 5d\u00b9\u2070 6s\u00b2 / Hg\u00b2\u207a: 5d\u00b9\u2070) has filled d\u00b9\u2070 in all states."
+      },
+      {
+        "id": "D",
+        "text": "Copper (Cu, Z=29)",
+        "isCorrect": false,
+        "explanation": "Copper forms Cu\u00b2\u207a (3d\u2079), which has an incompletely filled 3d subshell and is a true transition element."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Zn ([Ar]3d\u00b9\u20704s\u00b2 / Zn\u00b2\u207a: 3d\u00b9\u2070), Cd ([Kr]4d\u00b9\u20705s\u00b2 / Cd\u00b2\u207a: 4d\u00b9\u2070), and Hg ([Xe]4f\u00b9\u20745d\u00b9\u20706s\u00b2 / Hg\u00b2\u207a: 5d\u00b9\u2070) have fully-filled d\u00b9\u2070 configurations in all states and are Group 12 pseudo-transition elements.\n\u2022 D is incorrect: Copper (Cu\u00b2\u207a: 3d\u2079) has an incompletely filled 3d subshell in its +2 state and is a true transition element.",
+    "keyFormulae": [
+      "\\text{Group 12 Pseudo-Transition: } \\text{Zn, Cd, Hg } (d^{10} \\text{ in all states})"
+    ],
+    "hints": [
+      "Group 12 elements (Zn, Cd, Hg) have d\u00b9\u2070 configurations in neutral and ionic states."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-df-012",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "Lanthanide Contraction Consequences",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding the Lanthanide Contraction and its chemical consequences: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "It results from the poor electrostatic shielding efficiency of 4f electrons.",
+        "isCorrect": true,
+        "explanation": "4f electrons have diffuse shapes and poor shielding power."
+      },
+      {
+        "id": "B",
+        "text": "Zirconium (Zr_4d) and Hafnium (Hf_5d) have almost identical atomic radii (\u2248 1.59 \u00c5).",
+        "isCorrect": true,
+        "explanation": "Lanthanide contraction offsets normal group size increase."
+      },
+      {
+        "id": "C",
+        "text": "The basic strength of lanthanide hydroxides decreases from La(OH)\u2083 to Lu(OH)\u2083.",
+        "isCorrect": true,
+        "explanation": "Decreasing cation size increases covalency."
+      },
+      {
+        "id": "D",
+        "text": "Separation of individual lanthanides from natural ores is extremely easy using simple fractional crystallization.",
+        "isCorrect": false,
+        "explanation": "Separation is extremely DIFFICULT because identical radii give them nearly identical chemical properties (requires ion-exchange chromatography)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Poor 4f shielding causes contraction, 4d/5d pairs (Zr/Hf) have identical radii, and decreasing radii increases Ln-OH covalency (reducing basicity).\n\u2022 D is incorrect: Separation of lanthanides is extremely DIFFICULT because their identical sizes give them nearly identical chemical properties (requires ion-exchange chromatography).",
+    "keyFormulae": [
+      "r(\\text{Zr}) \\approx r(\\text{Hf}) = 1.59\\text{ \\AA}, \\quad \\text{Basicity: } \\text{La(OH)}_3 > \\dots > \\text{Lu(OH)}_3"
+    ],
+    "hints": [
+      "Lanthanides are notoriously difficult to separate because of nearly identical ionic sizes."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-df-013",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "Colorless Transition Metal Ions",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following transition metal ions are COLORLESS in aqueous solution due to the absence of partially filled d-orbitals (d\u2070 or d\u00b9\u2070)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scandium (Sc\u00b3\u207a, 3d\u2070)",
+        "isCorrect": true,
+        "explanation": "d\u2070 system, no d-electrons for d-d transition."
+      },
+      {
+        "id": "B",
+        "text": "Titanium (Ti\u2074\u207a, 3d\u2070)",
+        "isCorrect": true,
+        "explanation": "d\u2070 system, colorless."
+      },
+      {
+        "id": "C",
+        "text": "Zinc (Zn\u00b2\u207a, 3d\u00b9\u2070)",
+        "isCorrect": true,
+        "explanation": "d\u00b9\u2070 system, completely filled, no d-d transition possible."
+      },
+      {
+        "id": "D",
+        "text": "Copper (Cu\u00b2\u207a, 3d\u2079)",
+        "isCorrect": false,
+        "explanation": "Cu\u00b2\u207a (3d\u2079) has 1 unpaired electron, undergoes d-d transitions, and is blue."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Sc\u00b3\u207a (3d\u2070), Ti\u2074\u207a (3d\u2070), and Zn\u00b2\u207a (3d\u00b9\u2070) lack partially filled d-orbitals for d-d electronic transitions, rendering them colorless.\n\u2022 D is incorrect: Cu\u00b2\u207a (3d\u2079) has 1 unpaired d-electron, undergoes d-d transitions, and is bright blue.",
+    "keyFormulae": [
+      "\\text{Colorless Ions: } d^0 (\\text{Sc}^{3+}, \\text{Ti}^{4+}) \\text{ and } d^{10} (\\text{Zn}^{2+}, \\text{Cu}^+)"
+    ],
+    "hints": [
+      "Ions with d\u2070 or d\u00b9\u2070 configurations cannot undergo d-d transitions."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-df-014",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "3d Standard Electrode Potentials",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding the standard reduction potentials (E\u00b0) of 3d transition series metals: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cr\u00b2\u207a (3d\u2074) is a strong reducing agent because it oxidizes to Cr\u00b3\u207a which has a stable t_2g\u00b3 configuration in water.",
+        "isCorrect": true,
+        "explanation": "E\u00b0(Cr\u00b3\u207a/Cr\u00b2\u207a) = -0.41 V."
+      },
+      {
+        "id": "B",
+        "text": "Mn\u00b3\u207a (3d\u2074) is a strong oxidizing agent because it reduces to Mn\u00b2\u207a which has a stable half-filled 3d\u2075 configuration.",
+        "isCorrect": true,
+        "explanation": "E\u00b0(Mn\u00b3\u207a/Mn\u00b2\u207a) = +1.57 V."
+      },
+      {
+        "id": "C",
+        "text": "Copper is the only 3d metal with a positive E\u00b0_M\u00b2\u207a/M = +0.34 V, so it does not release H\u2082 gas from dilute acids.",
+        "isCorrect": true,
+        "explanation": "High sum of enthalpy of sublimation and ionization energy is not compensated by hydration energy."
+      },
+      {
+        "id": "D",
+        "text": "Zn\u00b2\u207a/Zn has a positive E\u00b0 = +0.76 V.",
+        "isCorrect": false,
+        "explanation": "E\u00b0(Zn\u00b2\u207a/Zn) is NEGATIVE (-0.76 V)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Cr\u00b2\u207a is reducing (to t_2g\u00b3), Mn\u00b3\u207a is oxidizing (to 3d\u2075), and Cu has positive E\u00b0 (+0.34 V), failing to displace H\u2082 from acids.\n\u2022 D is incorrect: E\u00b0(Zn\u00b2\u207a/Zn) is NEGATIVE (-0.76 V).",
+    "keyFormulae": [
+      "E^\\circ(\\text{Mn}^{3+}/\\text{Mn}^{2+}) = +1.57\\text{ V}, \\quad E^\\circ(\\text{Cr}^{3+}/\\text{Cr}^{2+}) = -0.41\\text{ V}, \\quad E^\\circ(\\text{Cu}^{2+}/\\text{Cu}) = +0.34\\text{ V}"
+    ],
+    "hints": [
+      "Review E\u00b0 values: Mn\u00b3\u207a/Mn\u00b2\u207a is positive (+1.57 V), Cr\u00b3\u207a/Cr\u00b2\u207a is negative (-0.41 V), Cu\u00b2\u207a/Cu is positive (+0.34 V)."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-df-015",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "Interstitial Compounds Properties",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following features characterize Interstitial Compounds formed by transition metals? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Small non-metal atoms (H, C, N, B) occupy interstitial voids in the metal crystal lattice.",
+        "isCorrect": true,
+        "explanation": "Core definition of interstitial compounds."
+      },
+      {
+        "id": "B",
+        "text": "They are non-stoichiometric compounds (e.g., TiH_1.7, VH_0.56).",
+        "isCorrect": true,
+        "explanation": "Non-stoichiometric ratios."
+      },
+      {
+        "id": "C",
+        "text": "They exhibit higher melting points than pure parent metals and extreme hardness.",
+        "isCorrect": true,
+        "explanation": "Lattice distortion increases MP and hardness."
+      },
+      {
+        "id": "D",
+        "text": "They lose all metallic electrical conductivity and become electrical insulators.",
+        "isCorrect": false,
+        "explanation": "Interstitial compounds RETAIN their metallic electrical conductivity."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Interstitial compounds contain small atoms in voids, are non-stoichiometric, hard, and have high MPs.\n\u2022 D is incorrect: Interstitial compounds RETAIN their metallic electrical conductivity.",
+    "keyFormulae": [
+      "\\text{Interstitial Compounds: Non-stoichiometric, high MP, extreme hardness, RETAIN metallic conductivity}"
+    ],
+    "hints": [
+      "Interstitial compounds retain metallic conductivity."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-df-016",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "Potassium Permanganate Properties",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding Potassium Permanganate (KMnO\u2084): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pyrolusite ore (MnO\u2082) is fused with KOH in the presence of air to yield dark green Manganate (K\u2082MnO\u2084).",
+        "isCorrect": true,
+        "explanation": "2MnO\u2082 + 4KOH + O\u2082 \u2500\u2500\u25ba 2K\u2082MnO\u2084 + 2H\u2082O."
+      },
+      {
+        "id": "B",
+        "text": "Manganate ion (MnO\u2084\u00b2\u207b) is paramagnetic (3d\u00b9), whereas Permanganate ion (MnO\u2084\u207b) is diamagnetic (3d\u2070).",
+        "isCorrect": true,
+        "explanation": "MnO\u2084\u00b2\u207b has 1 unpaired electron (3d\u00b9); MnO\u2084\u207b has 0 unpaired electrons (3d\u2070)."
+      },
+      {
+        "id": "C",
+        "text": "In acidic medium, KMnO\u2084 acts as an oxidant with n-factor = 5 (MnO\u2084\u207b \u2500\u2500\u25ba Mn\u00b2\u207a).",
+        "isCorrect": true,
+        "explanation": "MnO\u2084\u207b + 8H\u207a + 5e\u207b \u2500\u2500\u25ba Mn\u00b2\u207a + 4H\u2082O."
+      },
+      {
+        "id": "D",
+        "text": "In neutral medium, KMnO\u2084 oxidizes Iodide (I\u207b) to Iodine gas (I\u2082).",
+        "isCorrect": false,
+        "explanation": "In neutral/faintly alkaline medium, KMnO\u2084 oxidizes I\u207b to Iodate (IO\u2083\u207b), NOT I\u2082."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Pyrolusite fusion yields green MnO\u2084\u00b2\u207b (3d\u00b9, paramagnetic); oxidation yields purple MnO\u2084\u207b (3d\u2070, diamagnetic); n=5 in acid.\n\u2022 D is incorrect: In neutral/faintly alkaline medium, KMnO\u2084 oxidizes I\u207b to Iodate (IO\u2083\u207b), NOT I\u2082.",
+    "keyFormulae": [
+      "\\text{MnO}_4^{2-} (3d^1, \\text{Paramagnetic}) \\quad \\text{vs} \\quad \\text{MnO}_4^- (3d^0, \\text{Diamagnetic})"
+    ],
+    "hints": [
+      "Remember that neutral KMnO\u2084 oxidizes I\u207b to IO\u2083\u207b (Iodate)."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-df-017",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "Anomalous Lanthanide Oxidation States",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following 4f Lanthanide ions exhibit anomalous stability in +2 or +4 oxidation states due to empty (4f\u2070), half-filled (4f\u2077), or fully-filled (4f\u00b9\u2074) subshells? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ce\u2074\u207a (4f\u2070)",
+        "isCorrect": true,
+        "explanation": "Noble gas [Xe] 4f\u2070 configuration."
+      },
+      {
+        "id": "B",
+        "text": "Eu\u00b2\u207a (4f\u2077)",
+        "isCorrect": true,
+        "explanation": "Half-filled stable 4f\u2077 configuration."
+      },
+      {
+        "id": "C",
+        "text": "Yb\u00b2\u207a (4f\u00b9\u2074)",
+        "isCorrect": true,
+        "explanation": "Fully-filled stable 4f\u00b9\u2074 configuration."
+      },
+      {
+        "id": "D",
+        "text": "Tb\u2074\u207a (4f\u2077)",
+        "isCorrect": true,
+        "explanation": "Half-filled stable 4f\u2077 configuration."
+      }
+    ],
+    "solutionExplanation": "All four ions achieve stable f-subshell configurations (Ce\u2074\u207a: 4f\u2070; Eu\u00b2\u207a: 4f\u2077; Yb\u00b2\u207a: 4f\u00b9\u2074; Tb\u2074\u207a: 4f\u2077).",
+    "keyFormulae": [
+      "\\text{Stable f-subshells: } 4f^0 (\\text{Ce}^{4+}), \\ 4f^7 (\\text{Eu}^{2+}, \\text{Tb}^{4+}), \\ 4f^{14} (\\text{Yb}^{2+})"
+    ],
+    "hints": [
+      "Check for 4f\u2070, 4f\u2077, and 4f\u00b9\u2074 electronic configurations."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-df-018",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "Potassium Dichromate Characteristics",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding Potassium Dichromate (K\u2082Cr\u2082O\u2087): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Synthesized from Chromite ore (FeCr\u2082O\u2084) by roasting with Na\u2082CO\u2083 in air.",
+        "isCorrect": true,
+        "explanation": "4FeCr\u2082O\u2084 + 8Na\u2082CO\u2083 + 7O\u2082 \u2500\u2500\u25ba 8Na\u2082CrO\u2084 + 2Fe\u2082O\u2083 + 8CO\u2082."
+      },
+      {
+        "id": "B",
+        "text": "In aqueous solution, yellow Chromate (CrO\u2084\u00b2\u207b) and orange Dichromate (Cr\u2082O\u2087\u00b2\u207b) exist in a pH-dependent equilibrium.",
+        "isCorrect": true,
+        "explanation": "2CrO\u2084\u00b2\u207b + 2H\u207a \u21cc Cr\u2082O\u2087\u00b2\u207b + H\u2082O."
+      },
+      {
+        "id": "C",
+        "text": "In acidic medium, Cr\u2082O\u2087\u00b2\u207b acts as an oxidant with n-factor = 6, reducing to green Cr\u00b3\u207a.",
+        "isCorrect": true,
+        "explanation": "Cr\u2082O\u2087\u00b2\u207b + 14H\u207a + 6e\u207b \u2500\u2500\u25ba 2Cr\u00b3\u207a + 7H\u2082O."
+      },
+      {
+        "id": "D",
+        "text": "Na\u2082Cr\u2082O\u2087 is used as a primary volumetric standard in titrations because it is less soluble than K\u2082Cr\u2082O\u2087.",
+        "isCorrect": false,
+        "explanation": "K\u2082Cr\u2082O\u2087 is used as the primary standard because it is non-deliquescent and less soluble; Na\u2082Cr\u2082O\u2087 is hygroscopic/deliquescent and cannot be weighed accurately."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Chromite ore roasting, pH-dependent chromate-dichromate equilibrium, and n=6 (green Cr\u00b3\u207a) in acid are accurate.\n\u2022 D is incorrect: K\u2082Cr\u2082O\u2087 is used as the primary standard because it is non-deliquescent and less soluble; Na\u2082Cr\u2082O\u2087 is deliquescent and cannot be weighed accurately.",
+    "keyFormulae": [
+      "\\text{Primary Standard: } \\text{K}_2\\text{Cr}_2\\text{O}_7 \\text{ (Non-deliquescent, stable weight)}"
+    ],
+    "hints": [
+      "K\u2082Cr\u2082O\u2087 is the primary standard because Na\u2082Cr\u2082O\u2087 absorbs water from air."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-df-019",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "Stable d\u2070 Species",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following transition metal species contain NO unpaired d-electrons (d\u2070 or d\u00b9\u2070) yet exist as stable chemical entities? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scandium ion (Sc\u00b3\u207a)",
+        "isCorrect": true,
+        "explanation": "Sc\u00b3\u207a is [Ar] 3d\u2070."
+      },
+      {
+        "id": "B",
+        "text": "Titanium(IV) oxide (TiO\u2082)",
+        "isCorrect": true,
+        "explanation": "Ti\u2074\u207a in TiO\u2082 is [Ar] 3d\u2070."
+      },
+      {
+        "id": "C",
+        "text": "Permanganate ion (MnO\u2084\u207b)",
+        "isCorrect": true,
+        "explanation": "Mn\u2077\u207a in MnO\u2084\u207b is [Ar] 3d\u2070."
+      },
+      {
+        "id": "D",
+        "text": "Dichromate ion (Cr\u2082O\u2087\u00b2\u207b)",
+        "isCorrect": true,
+        "explanation": "Cr\u2076\u207a in Cr\u2082O\u2087\u00b2\u207b is [Ar] 3d\u2070."
+      }
+    ],
+    "solutionExplanation": "All four species have central metals in d\u2070 configurations: Sc\u00b3\u207a (3d\u2070), Ti\u2074\u207a in TiO\u2082 (3d\u2070), Mn\u2077\u207a in MnO\u2084\u207b (3d\u2070), and Cr\u2076\u207a in Cr\u2082O\u2087\u00b2\u207b (3d\u2070).",
+    "keyFormulae": [
+      "d^0 \\text{ Species: } \\text{Sc}^{3+}, \\ \\text{TiO}_2, \\ \\text{MnO}_4^-, \\ \\text{Cr}_2\\text{O}_7^{2-}"
+    ],
+    "hints": [
+      "All four species have noble gas d\u2070 electron configurations."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-df-020",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "d- and f-Block Elements",
+    "subtopic": "Lanthanides vs Actinides Comparison",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements contrasting Actinides (5f) with Lanthanides (4f): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Actinides exhibit a wider range of oxidation states (+3 to +7) than Lanthanides (+3 dominant).",
+        "isCorrect": true,
+        "explanation": "Due to small 5f-6d-7s energy gap."
+      },
+      {
+        "id": "B",
+        "text": "5f electrons exert weaker shielding than 4f electrons, making Actinide contraction larger.",
+        "isCorrect": true,
+        "explanation": "Poorer 5f electrostatic shielding."
+      },
+      {
+        "id": "C",
+        "text": "All Actinide elements are radioactive.",
+        "isCorrect": true,
+        "explanation": "All 14 actinides from Th to Lr are radioactive."
+      },
+      {
+        "id": "D",
+        "text": "Actinides readily form oxocations such as UO\u2082\u00b2\u207a and NpO\u2082\u207a.",
+        "isCorrect": true,
+        "explanation": "High charge density and accessible 5f/6d orbitals facilitate oxocation bonding."
+      }
+    ],
+    "solutionExplanation": "All four statements accurately state the differences in oxidation state range, contraction magnitude, radioactivity, and oxocation formation between 5f and 4f series.",
+    "keyFormulae": [
+      "\\text{Actinides: Wide OS (+3 to +7), larger contraction, all radioactive, form oxocations (UO}_2^{2+}\\text{)}"
+    ],
+    "hints": [
+      "Review the 7-parameter Lanthanides vs Actinides comparative matrix."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

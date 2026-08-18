@@ -1,0 +1,922 @@
+[
+  {
+    "id": "chem-bio-001",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "Glucose Structure Elucidation",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "An unknown hexose sugar X undergoes reaction with excess Acetic Anhydride to form a Pentaacetate derivative. Oxidation of X with Bromine Water (Br\u2082/H\u2082O) yields a monocarboxylic acid Y (C\u2086H\u2081\u2082O\u2087). Oxidation of X with concentrated Nitric Acid (HNO\u2083) yields a dicarboxylic acid Z (C\u2086H\u2081\u2080O\u2088). What are the structural identities of X, Y, and Z, respectively?",
+    "options": [
+      {
+        "id": "A",
+        "text": "X = D-Fructose; Y = Gluconic acid; Z = Saccharic acid",
+        "isCorrect": false,
+        "explanation": "Fructose is a ketohexose and is not oxidized by mild bromine water."
+      },
+      {
+        "id": "B",
+        "text": "X = D-Glucose; Y = Gluconic acid; Z = Saccharic acid",
+        "isCorrect": true,
+        "explanation": "1. Forming a pentaacetate confirms 5 -OH groups. 2. Mild oxidation with Br\u2082/H\u2082O converts the C-1 aldehyde into a monocarboxylic acid \u27f9 Y = Gluconic Acid (confirms X is an aldohexose, D-Glucose). 3. Strong oxidation with conc. HNO\u2083 oxidizes BOTH the C-1 aldehyde AND the C-6 1\u00b0 alcohol (-CH\u2082OH) into a dicarboxylic acid \u27f9 Z = Saccharic Acid / Glucaric Acid."
+      },
+      {
+        "id": "C",
+        "text": "X = D-Glucose; Y = Saccharic acid; Z = Gluconic acid",
+        "isCorrect": false,
+        "explanation": "Y and Z are reversed."
+      },
+      {
+        "id": "D",
+        "text": "X = D-Galactose; Y = Galacturonic acid; Z = Saccharic acid",
+        "isCorrect": false,
+        "explanation": "Galactose yields mucic acid, not saccharic acid."
+      }
+    ],
+    "solutionExplanation": "1. Forming a pentaacetate confirms 5 -OH groups.\n2. Mild oxidation with Br\u2082/H\u2082O converts the C-1 aldehyde into a monocarboxylic acid \u27f9 Y = Gluconic Acid (confirms X is an aldohexose, D-Glucose).\n3. Strong oxidation with conc. HNO\u2083 oxidizes BOTH the C-1 aldehyde AND the C-6 1\u00b0 alcohol (-CH\u2082OH) into a dicarboxylic acid \u27f9 Z = Saccharic Acid / Glucaric Acid.",
+    "keyFormulae": [
+      "\\text{Glucose} \\xrightarrow{\\text{Br}_2/\\text{H}_2\\text{O}} \\text{Gluconic Acid (Monocarboxylic)}; \\quad \\text{Glucose} \\xrightarrow{\\text{Conc. } \\text{HNO}_3} \\text{Saccharic Acid (Dicarboxylic)}"
+    ],
+    "hints": [
+      "Br\u2082/H\u2082O oxidizes only the aldehyde at C-1 to gluconic acid; conc. HNO\u2083 oxidizes both C-1 and C-6 to saccharic acid."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bio-002",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "Mutarotation Equilibrium Percentage",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "At 25\u00b0C, the specific optical rotation of pure \u03b1-D-glucopyranose is [\u03b1]_D = +112.2\u00b0, and pure \u03b2-D-glucopyranose is [\u03b1]_D = +18.7\u00b0. When either pure anomer is dissolved in water, mutarotation occurs until the solution reaches an equilibrium specific rotation of [\u03b1]_D = +52.7\u00b0. What is the percentage abundance of the \u03b2-anomer at equilibrium?",
+    "options": [
+      {
+        "id": "A",
+        "text": "36.4%",
+        "isCorrect": false,
+        "explanation": "This is the percentage of the \u03b1-anomer."
+      },
+      {
+        "id": "B",
+        "text": "63.6%",
+        "isCorrect": true,
+        "explanation": "1. Let x be the fraction of \u03b1-anomer and (1-x) be the fraction of \u03b2-anomer at equilibrium. 2. Weighted average equation: +112.2 x + 18.7 (1 - x) = +52.7 \u27f9 93.5 x = 34.0 \u27f9 x = 34.0 / 93.5 = 0.3636 (36.4% \u03b1-anomer). 3. Percentage of \u03b2-anomer = 100% - 36.4% = 63.6%."
+      },
+      {
+        "id": "C",
+        "text": "50.0%",
+        "isCorrect": false,
+        "explanation": "The two anomers are not equimolar at equilibrium."
+      },
+      {
+        "id": "D",
+        "text": "81.3%",
+        "isCorrect": false,
+        "explanation": "Incorrect percentage."
+      }
+    ],
+    "solutionExplanation": "1. Let x be the fraction of \u03b1-anomer and (1-x) be the fraction of \u03b2-anomer at equilibrium.\n2. Weighted average optical rotation equation:\n   +112.2 x + 18.7 (1 - x) = +52.7\n   112.2 x + 18.7 - 18.7 x = 52.7 \u27f9 93.5 x = 34.0 \u27f9 x = 34.0 / 93.5 = 0.3636 (36.4% \u03b1-anomer)\n3. Percentage of \u03b2-anomer = 100% - 36.4% = 63.6%.",
+    "keyFormulae": [
+      "\\text{Weighted Average: } 112.2(x) + 18.7(1-x) = 52.7 \\implies \\beta\\text{-anomer} = 63.6\\%"
+    ],
+    "hints": [
+      "Set up the linear optical rotation equation: 112.2x + 18.7(1-x) = 52.7 and solve for (1-x)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bio-003",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "Sucrose Non-Reducing Status Rationale",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Why is Sucrose classified as a NON-REDUCING sugar, whereas Maltose and Lactose are classified as REDUCING sugars?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sucrose contains no fructose subunits.",
+        "isCorrect": false,
+        "explanation": "Sucrose contains a fructose subunit."
+      },
+      {
+        "id": "B",
+        "text": "In Sucrose, the glycosidic bond links C-1 (\u03b1) of Glucose directly to C-2 (\u03b2) of Fructose, locking both anomeric carbon atoms. In Maltose and Lactose, one anomeric carbon remains free.",
+        "isCorrect": true,
+        "explanation": "A sugar is reducing if it possesses a free, unlinked anomeric carbon capable of opening into an active aldehyde/ketone group. In Sucrose, the glycosidic bond connects the C-1 anomeric carbon of \u03b1-D-Glucose and the C-2 anomeric carbon of \u03b2-D-Fructose (\u03b1,\u03b2-(1\u21922) linkage), locking both anomeric positions. Maltose and Lactose retain a free hemiacetal anomeric carbon at C-1 on their second sugar unit, making them reducing."
+      },
+      {
+        "id": "C",
+        "text": "Sucrose contains an unbranched \u03b2-(1 \u2192 4) linkage that resists enzymatic cleavage.",
+        "isCorrect": false,
+        "explanation": "Sucrose contains an \u03b1,\u03b2-(1\u21922) linkage."
+      },
+      {
+        "id": "D",
+        "text": "Sucrose undergoes mutarotation rapidly in neutral water.",
+        "isCorrect": false,
+        "explanation": "Sucrose does not undergo mutarotation because both anomeric carbons are locked."
+      }
+    ],
+    "solutionExplanation": "A sugar is reducing if it possesses a free, unlinked anomeric carbon capable of opening into an active aldehyde/ketone group. In Sucrose, the glycosidic bond connects the C-1 anomeric carbon of \u03b1-D-Glucose and the C-2 anomeric carbon of \u03b2-D-Fructose (\u03b1,\u03b2-(1\u21922) linkage), locking both anomeric positions. Maltose and Lactose retain a free hemiacetal anomeric carbon at C-1 on their second sugar unit, making them reducing.",
+    "keyFormulae": [
+      "\\text{Sucrose Glycosidic Linkage: } \\alpha\\text{-D-Glc-(1}\\to\\text{2)-}\\beta\\text{-D-Fru (Both Anomerics Locked)}"
+    ],
+    "hints": [
+      "In sucrose, the anomeric carbons of both glucose (C-1) and fructose (C-2) are tied up in the glycosidic bond."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bio-004",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "Aspartic Acid Isoelectric Point Calculation",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "The diprotic amino acid Aspartic Acid (HOOC-CH\u2082-CH(NH\u2083\u207a)-COOH) possesses the following acid dissociation constants: pK_a1 (\u03b1-COOH) = 1.88, pK_a2 (\u03b2-COOH side chain) = 3.65, and pK_a3 (\u03b1-NH\u2083\u207a) = 9.60. What is the Isoelectric Point (pI) of Aspartic Acid?",
+    "options": [
+      {
+        "id": "A",
+        "text": "pI = 2.77",
+        "isCorrect": true,
+        "explanation": "1. Aspartic acid is an acidic amino acid containing two carboxyl groups and one amino group. 2. For acidic amino acids, the zwitterion with net charge = 0 forms between the two acidic pKa transitions (pK_a1 and pK_a2). 3. Isoelectric point formula: pI = (pK_a1 + pK_a2) / 2 = (1.88 + 3.65) / 2 = 5.53 / 2 = 2.765 \u2248 2.77."
+      },
+      {
+        "id": "B",
+        "text": "pI = 6.625",
+        "isCorrect": false,
+        "explanation": "Average of pK_a2 and pK_a3, which is for basic amino acids."
+      },
+      {
+        "id": "C",
+        "text": "pI = 5.74",
+        "isCorrect": false,
+        "explanation": "Average of pK_a1 and pK_a3."
+      },
+      {
+        "id": "D",
+        "text": "pI = 5.04",
+        "isCorrect": false,
+        "explanation": "Average of all three pKa values."
+      }
+    ],
+    "solutionExplanation": "1. Aspartic acid is an acidic amino acid containing two carboxyl groups and one amino group.\n2. For acidic amino acids, the zwitterion with net charge = 0 forms between the two acidic pKa transitions (pK_a1 and pK_a2).\n3. Isoelectric point formula for acidic amino acids:\n   pI = (pK_a1 + pK_a2) / 2 = (1.88 + 3.65) / 2 = 5.53 / 2 = 2.765 \u2248 2.77.",
+    "keyFormulae": [
+      "\\text{pI (Acidic Amino Acid)} = \\frac{\\text{p}K_{a1} + \\text{p}K_{a2}}{2} = \\frac{1.88 + 3.65}{2} = 2.77"
+    ],
+    "hints": [
+      "For an acidic amino acid, average the two lowest (most acidic) pKa values."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bio-005",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "Protein Structure Level Intact in Denaturation",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "When a globular protein is subjected to thermal denaturation by heating at 95\u00b0C, it loses its native biological activity. What specific structural level of the protein remains COMPLETELY INTACT following denaturation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Quaternary Structure (4\u00b0)",
+        "isCorrect": false,
+        "explanation": "Disrupted during denaturation."
+      },
+      {
+        "id": "B",
+        "text": "Tertiary Structure (3\u00b0)",
+        "isCorrect": false,
+        "explanation": "Disrupted during denaturation."
+      },
+      {
+        "id": "C",
+        "text": "Secondary Structure (2\u00b0)",
+        "isCorrect": false,
+        "explanation": "Disrupted during denaturation."
+      },
+      {
+        "id": "D",
+        "text": "Primary Structure (1\u00b0)",
+        "isCorrect": true,
+        "explanation": "Thermal denaturation disrupts weak non-covalent interactions (hydrogen bonds, salt bridges, hydrophobic interactions, disulfide tertiary bonds), destroying 2\u00b0, 3\u00b0, and 4\u00b0 spatial configurations. However, the covalent amide peptide bonds linking amino acids in the Primary Structure (1\u00b0) remain completely intact."
+      }
+    ],
+    "solutionExplanation": "Thermal denaturation disrupts weak non-covalent interactions (hydrogen bonds, salt bridges, hydrophobic interactions, disulfide tertiary bonds), destroying 2\u00b0, 3\u00b0, and 4\u00b0 spatial configurations. However, the covalent amide peptide bonds linking amino acids in the Primary Structure (1\u00b0) remain completely intact.",
+    "keyFormulae": [
+      "\\text{Denaturation: Disrupts } 2^\\circ, 3^\\circ, 4^\\circ \\text{ Structures}; \\quad 1^\\circ \\text{ (Peptide Bonds) Remains Intact}"
+    ],
+    "hints": [
+      "Covalent peptide bonds require enzymatic or harsh acid hydrolysis to break, so the primary sequence survives denaturation."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bio-006",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "Vitamin C Function & Scurvy",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "A patient presents with severe bleeding gums, petechial subcutaneous hemorrhages, delayed wound healing, and joint pain. Clinical history reveals a prolonged diet completely lacking fresh fruits and vegetables. What specific enzyme activity is impaired due to deficiency of the required vitamin co-factor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alcohol Dehydrogenase",
+        "isCorrect": false,
+        "explanation": "Requires NAD+/zinc."
+      },
+      {
+        "id": "B",
+        "text": "Prolyl and Lysyl Hydroxylases in Collagen Synthesis (Vitamin C deficiency)",
+        "isCorrect": true,
+        "explanation": "The symptoms describe Scurvy, caused by Vitamin C (Ascorbic Acid) deficiency. Ascorbic acid is the essential reducing co-factor for Prolyl Hydroxylase and Lysyl Hydroxylase enzymes. Impaired proline/lysine hydroxylation prevents triple-helical Collagen stabilization, causing blood vessel capillary fragility, bleeding gums, and poor wound healing."
+      },
+      {
+        "id": "C",
+        "text": "Pyruvate Decarboxylase",
+        "isCorrect": false,
+        "explanation": "Requires Thiamine (Vitamin B1)."
+      },
+      {
+        "id": "D",
+        "text": "HMG-CoA Reductase",
+        "isCorrect": false,
+        "explanation": "Rate-limiting enzyme in cholesterol synthesis."
+      }
+    ],
+    "solutionExplanation": "The symptoms describe Scurvy, caused by Vitamin C (Ascorbic Acid) deficiency. Ascorbic acid is the essential reducing co-factor for Prolyl Hydroxylase and Lysyl Hydroxylase enzymes. Impaired proline/lysine hydroxylation prevents triple-helical Collagen stabilization, causing blood vessel capillary fragility, bleeding gums, and poor wound healing.",
+    "keyFormulae": [
+      "\\text{Vitamin C (Ascorbic Acid)} \\longrightarrow \\text{Cofactor for Prolyl/Lysyl Hydroxylases} \\longrightarrow \\text{Triple-Helical Collagen Stability}"
+    ],
+    "hints": [
+      "Scurvy is caused by Vitamin C deficiency leading to defective collagen hydroxylation."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bio-007",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "Vitamin B2 Precursor & Cheilosis",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Which vitamin acts as the metabolic precursor for the coenzymes Flavin Mononucleotide (FMN) and Flavin Adenine Dinucleotide (FAD), and what characteristic symptom is produced by its deficiency?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vitamin B\u2081 (Thiamine); Beri-Beri",
+        "isCorrect": false,
+        "explanation": "Precursor for TPP."
+      },
+      {
+        "id": "B",
+        "text": "Vitamin B\u2082 (Riboflavin); Cheilosis (cracking at mouth corners)",
+        "isCorrect": true,
+        "explanation": "Vitamin B\u2082 (Riboflavin) is the biochemical precursor for the redox coenzymes FMN and FAD. Its deficiency causes Cheilosis (painful red cracking and fissuring at the angles of the mouth and lips), glossitis, and magenta tongue."
+      },
+      {
+        "id": "C",
+        "text": "Vitamin B\u2083 (Niacin); Pellagra",
+        "isCorrect": false,
+        "explanation": "Precursor for NAD+/NADP+."
+      },
+      {
+        "id": "D",
+        "text": "Vitamin B\u2086 (Pyridoxine); Convulsions",
+        "isCorrect": false,
+        "explanation": "Precursor for PLP."
+      }
+    ],
+    "solutionExplanation": "Vitamin B\u2082 (Riboflavin) is the biochemical precursor for the redox coenzymes FMN and FAD. Its deficiency causes Cheilosis (painful red cracking and fissuring at the angles of the mouth and lips), glossitis, and magenta tongue.",
+    "keyFormulae": [
+      "\\text{Vitamin B}_2 \\text{ (Riboflavin)} \\longrightarrow \\text{FMN / FAD} \\implies \\text{Deficiency: Cheilosis}"
+    ],
+    "hints": [
+      "Riboflavin is the precursor for FMN/FAD and deficiency causes cheilosis."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bio-008",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "Starch Glycosidic Linkages",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What type of glycosidic linkage connects the \u03b1-D-glucose units in the linear unbranched chains of Amylose and Amylopectin, and what linkage forms the branch points in Amylopectin?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Linear: \u03b2-(1 \u2192 4); Branches: \u03b2-(1 \u2192 6)",
+        "isCorrect": false,
+        "explanation": "Cellulose contains \u03b2-(1\u21924) bonds."
+      },
+      {
+        "id": "B",
+        "text": "Linear: \u03b1-(1 \u2192 4); Branches: \u03b1-(1 \u2192 6)",
+        "isCorrect": true,
+        "explanation": "Starch components contain \u03b1-D-glucose monomers. Linear unbranched chains in both Amylose and Amylopectin are linked by \u03b1-(1 \u2192 4) glycosidic bonds. The branch points in Amylopectin occur via \u03b1-(1 \u2192 6) glycosidic linkages every 24\u201330 glucose units."
+      },
+      {
+        "id": "C",
+        "text": "Linear: \u03b1-(1 \u2192 2); Branches: \u03b2-(1 \u2192 4)",
+        "isCorrect": false,
+        "explanation": "Incorrect linkages."
+      },
+      {
+        "id": "D",
+        "text": "Linear: \u03b2-(1 \u2192 3); Branches: \u03b1-(1 \u2192 4)",
+        "isCorrect": false,
+        "explanation": "Incorrect linkages."
+      }
+    ],
+    "solutionExplanation": "Starch components contain \u03b1-D-glucose monomers. Linear unbranched chains in both Amylose and Amylopectin are linked by \u03b1-(1 \u2192 4) glycosidic bonds. The branch points in Amylopectin occur via \u03b1-(1 \u2192 6) glycosidic linkages every 24\u201330 glucose units.",
+    "keyFormulae": [
+      "\\text{Starch: Linear Chain = } \\alpha\\text{-(1}\\to\\text{4); Branch Point = } \\alpha\\text{-(1}\\to\\text{6)}"
+    ],
+    "hints": [
+      "Linear glucan chains use \u03b1-(1\u21924); branches use \u03b1-(1\u21926)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bio-009",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "RNA Specific Nitrogenous Base",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Which pyrimidine nitrogenous base is present EXCLUSIVELY in RNA and replaces Thymine (5-methyluracil) found in DNA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adenine",
+        "isCorrect": false,
+        "explanation": "Purine present in both DNA and RNA."
+      },
+      {
+        "id": "B",
+        "text": "Guanine",
+        "isCorrect": false,
+        "explanation": "Purine present in both DNA and RNA."
+      },
+      {
+        "id": "C",
+        "text": "Cytosine",
+        "isCorrect": false,
+        "explanation": "Pyrimidine present in both DNA and RNA."
+      },
+      {
+        "id": "D",
+        "text": "Uracil",
+        "isCorrect": true,
+        "explanation": "Uracil (2,4-dioxy pyrimidine) is present exclusively in RNA. In DNA, Uracil is replaced by Thymine (5-methyluracil), which provides higher chemical stability against spontaneous cytosine deamination."
+      }
+    ],
+    "solutionExplanation": "Uracil (2,4-dioxy pyrimidine) is present exclusively in RNA. In DNA, Uracil is replaced by Thymine (5-methyluracil), which provides higher chemical stability against spontaneous cytosine deamination.",
+    "keyFormulae": [
+      "\\text{RNA: Cytosine (C), Uracil (U)}; \\quad \\text{DNA: Cytosine (C), Thymine (T)}"
+    ],
+    "hints": [
+      "Uracil is the demethylated analogue of thymine found in RNA."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bio-010",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "Amino Acid Electrophoresis Migration Direction",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "In an aqueous solution at pH 7.0, an amino acid with pI = 9.60 (such as Lysine) is placed in an electrophoresis apparatus between an Anode (+) and a Cathode (-). Toward which electrode will the amino acid migrate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Toward the Anode (+)",
+        "isCorrect": false,
+        "explanation": "Anions migrate toward the anode (when pH > pI)."
+      },
+      {
+        "id": "B",
+        "text": "Toward the Cathode (-)",
+        "isCorrect": true,
+        "explanation": "1. Since the solution pH (7.0) < pI (9.60), the environment is more acidic than the isoelectric point. 2. The amino acid accepts protons, existing predominantly as a positively charged Cation (H\u2083N\u207a-CH(R)-COOH). 3. Positively charged cations migrate toward the negatively charged Cathode (-)."
+      },
+      {
+        "id": "C",
+        "text": "It will remain stationary at the origin",
+        "isCorrect": false,
+        "explanation": "It remains stationary only when pH = pI."
+      },
+      {
+        "id": "D",
+        "text": "It will precipitate out as an insoluble gas",
+        "isCorrect": false,
+        "explanation": "Amino acids do not turn into gases."
+      }
+    ],
+    "solutionExplanation": "1. Since the solution pH (7.0) < pI (9.60), the environment is more acidic than the isoelectric point.\n2. The amino acid accepts protons, existing predominantly as a positively charged Cation (H\u2083N\u207a-CH(R)-COOH).\n3. Positively charged cations migrate toward the negatively charged Cathode (-).",
+    "keyFormulae": [
+      "\\text{pH} < \\text{pI} \\implies \\text{Cation (Net Positive Charge)} \\longrightarrow \\text{Migrates to Cathode (-)}"
+    ],
+    "hints": [
+      "When pH < pI, the amino acid is protonated into a cation and moves toward the cathode."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-bio-011",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "Reducing Sugars Classification",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following carbohydrates are classified as REDUCING SUGARS capable of reducing Tollens' and Fehling's reagents? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "D-Glucose",
+        "isCorrect": true,
+        "explanation": "Contains free aldehyde group in open-chain form."
+      },
+      {
+        "id": "B",
+        "text": "D-Fructose",
+        "isCorrect": true,
+        "explanation": "Enolizes in alkaline conditions to glucose/mannose (Lobry de Bruyn-Ekenstein)."
+      },
+      {
+        "id": "C",
+        "text": "Maltose",
+        "isCorrect": true,
+        "explanation": "Contains free C-1 hemiacetal -OH group on second glucose."
+      },
+      {
+        "id": "D",
+        "text": "Sucrose",
+        "isCorrect": false,
+        "explanation": "Non-reducing sugar; both anomeric carbons locked in glycosidic bond."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Glucose (1\u00b0 aldehyde), Fructose (enolizes in alkali to glucose/mannose), and Maltose (free C-1 hemiacetal -OH) are reducing sugars.\n\u2022 D is incorrect: Sucrose is a Non-Reducing sugar because both C-1 (Glc) and C-2 (Fru) anomeric carbons are locked in the glycosidic bond.",
+    "keyFormulae": [
+      "\\text{Reducing Sugars: Possess free anomeric } -\\text{OH (Glucose, Fructose, Maltose, Lactose)}"
+    ],
+    "hints": [
+      "Free anomeric carbon = reducing; locked anomeric carbons (sucrose) = non-reducing."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-bio-012",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "Glucose Chemical Reactions Facts",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid scientific facts regarding D-Glucose chemical reactions: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reaction with HI upon heating produces n-hexane, proving a straight 6-carbon chain.",
+        "isCorrect": true,
+        "explanation": "Prolonged heating with HI reduces all carbons to n-hexane."
+      },
+      {
+        "id": "B",
+        "text": "Oxidation with Bromine water (Br\u2082/H\u2082O) produces Gluconic acid, confirming the presence of an aldehyde (-CHO) group.",
+        "isCorrect": true,
+        "explanation": "Mild halogen oxidation selectively oxidizes aldehyde to carboxylic acid."
+      },
+      {
+        "id": "C",
+        "text": "Oxidation with concentrated HNO\u2083 produces Saccharic acid, confirming a primary alcohol (-CH\u2082OH) at C-6.",
+        "isCorrect": true,
+        "explanation": "Strong oxidant converts both C-1 and C-6 into carboxylic acids."
+      },
+      {
+        "id": "D",
+        "text": "Reaction with acetic anhydride produces a pentaacetate, proving the presence of 5 hydroxyl groups on different carbons.",
+        "isCorrect": true,
+        "explanation": "Forms a stable penta-O-acetyl derivative."
+      }
+    ],
+    "solutionExplanation": "All four statements accurately state the classic structural elucidation reactions of D-glucose.",
+    "keyFormulae": [
+      "\\text{Glucose Diagnostics: HI } \\to n\\text{-Hexane}; \\text{ Br}_2/\\text{H}_2\\text{O} \\to \\text{Gluconic}; \\text{ HNO}_3 \\to \\text{Saccharic}; \\text{ Ac}_2\\text{O} \\to \\text{Pentaacetate}"
+    ],
+    "hints": [
+      "All four are foundational reactions used by Emil Fischer in glucose structure elucidation."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-bio-013",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "Fat-Soluble Vitamins Classification",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following vitamins belong strictly to the FAT-SOLUBLE class? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vitamin A (Retinol)",
+        "isCorrect": true,
+        "explanation": "Fat-soluble vitamin stored in liver."
+      },
+      {
+        "id": "B",
+        "text": "Vitamin D (Calciferol)",
+        "isCorrect": true,
+        "explanation": "Fat-soluble vitamin regulating calcium metabolism."
+      },
+      {
+        "id": "C",
+        "text": "Vitamin E (\u03b1-Tocopherol)",
+        "isCorrect": true,
+        "explanation": "Fat-soluble membrane antioxidant."
+      },
+      {
+        "id": "D",
+        "text": "Vitamin C (Ascorbic Acid)",
+        "isCorrect": false,
+        "explanation": "Water-soluble vitamin excreted in urine."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Vitamins A, D, E, and K are fat-soluble vitamins stored in liver and adipose tissue.\n\u2022 D is incorrect: Vitamin C (Ascorbic acid) is a water-soluble vitamin excreted in urine.",
+    "keyFormulae": [
+      "\\text{Fat-Soluble: Vitamins A, D, E, K}; \\quad \\text{Water-Soluble: B-Complex, C}"
+    ],
+    "hints": [
+      "Vitamins A, D, E, K are fat-soluble; B-complex and C are water-soluble."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-bio-014",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "Amino Acid Properties & Stereochemistry",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding Amino Acid structural classification and properties: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Glycine is the only standard \u03b1-amino acid that lacks an asymmetric carbon and is optically inactive (achiral).",
+        "isCorrect": true,
+        "explanation": "Contains two -H atoms on \u03b1-carbon."
+      },
+      {
+        "id": "B",
+        "text": "Naturally occurring amino acids in human proteins belong exclusively to the L-configuration.",
+        "isCorrect": true,
+        "explanation": "-NH\u2082 on the left in Fischer projection."
+      },
+      {
+        "id": "C",
+        "text": "Valine, Leucine, and Isoleucine are essential branched-chain amino acids.",
+        "isCorrect": true,
+        "explanation": "Part of the PVT TIM HALL essential group."
+      },
+      {
+        "id": "D",
+        "text": "At its Isoelectric Point (pI), an amino acid carries a net positive charge of +2.",
+        "isCorrect": false,
+        "explanation": "At pI, the zwitterion has a NET CHARGE OF ZERO."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Glycine is achiral, natural proteins contain L-amino acids, and Valine/Leucine/Isoleucine are essential branched-chain amino acids.\n\u2022 D is incorrect: At its Isoelectric Point (pI), an amino acid exists as a Zwitterion with a NET CHARGE OF ZERO.",
+    "keyFormulae": [
+      "\\text{At Isoelectric Point (pI): Net Charge } = 0 \\text{ (Dipolar Zwitterion)}"
+    ],
+    "hints": [
+      "At pI, positive and negative charges balance to give net zero charge."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-bio-015",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "Tertiary Protein Structure Forces",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following forces/bonds stabilize the TERTIARY Structure (3\u00b0) of globular proteins? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Covalent Disulfide linkages (-S-S-) between Cysteine residues",
+        "isCorrect": true,
+        "explanation": "Covalent cross-links between distant cysteines."
+      },
+      {
+        "id": "B",
+        "text": "Electrostatic Ionic Salt Bridges between -COO\u207b and -NH\u2083\u207a side chains",
+        "isCorrect": true,
+        "explanation": "Ionic interactions between acidic and basic side chains."
+      },
+      {
+        "id": "C",
+        "text": "Hydrophobic interactions sequestering non-polar side chains internally",
+        "isCorrect": true,
+        "explanation": "Entropic burial of non-polar side chains."
+      },
+      {
+        "id": "D",
+        "text": "Hydrogen bonds between backbone and side-chain groups",
+        "isCorrect": true,
+        "explanation": "Dipole-dipole H-bonding across folded segments."
+      }
+    ],
+    "solutionExplanation": "All four interactions (disulfide bonds, salt bridges, hydrophobic forces, and hydrogen bonds) stabilize the 3D tertiary globular protein conformation.",
+    "keyFormulae": [
+      "3^\\circ \\text{ Forces: Disulfide (-S-S-), Salt Bridges, Hydrophobic Burial, Hydrogen Bonds}"
+    ],
+    "hints": [
+      "Tertiary structure is stabilized by covalent disulfide bridges and all non-covalent interactions."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-bio-016",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "Invert Sugar Physical & Chemical Properties",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding Invert Sugar: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is produced by the acid or enzymatic (invertase) hydrolysis of sucrose.",
+        "isCorrect": true,
+        "explanation": "Sucrose + H\u2082O \u2500\u2500\u25ba Glucose + Fructose."
+      },
+      {
+        "id": "B",
+        "text": "Parent sucrose is dextrorotatory (+66.5\u00b0), whereas the resulting equimolar mixture is levorotatory (-19.85\u00b0).",
+        "isCorrect": true,
+        "explanation": "Net optical rotation inverts to negative."
+      },
+      {
+        "id": "C",
+        "text": "The sign of optical rotation changes from + to - due to the high levorotation of D-fructose (-92.4\u00b0).",
+        "isCorrect": true,
+        "explanation": "Fructose levorotation (-92.4\u00b0) overrides glucose dextrorotation (+52.7\u00b0)."
+      },
+      {
+        "id": "D",
+        "text": "Invert sugar is non-reducing and fails to reduce Fehling's solution.",
+        "isCorrect": false,
+        "explanation": "Invert sugar contains free glucose and fructose, making it a REDUCING sugar mixture."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Invert sugar is formed by sucrose hydrolysis, inverts optical rotation from +66.5\u00b0 to -19.85\u00b0 because D-fructose (-92.4\u00b0) overrides D-glucose (+52.7\u00b0).\n\u2022 D is incorrect: Invert sugar contains free glucose and free fructose, making it a powerful REDUCING sugar mixture.",
+    "keyFormulae": [
+      "\\text{Invert Sugar Rotation: } \\frac{+52.7^\\circ + (-92.4^\\circ)}{2} = -19.85^\\circ \\text{ (Levorotatory Reducing Mixture)}"
+    ],
+    "hints": [
+      "Hydrolysis releases free monosaccharides which are reducing and levorotatory in combination."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-bio-017",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "Vitamin Deficiency Pathologies Matching",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following Vitamin Deficiency Pathologies are correctly matched? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vitamin B\u2081 (Thiamine) \u2500\u2500\u25ba Beri-Beri",
+        "isCorrect": true,
+        "explanation": "Classic B1 deficiency disease."
+      },
+      {
+        "id": "B",
+        "text": "Vitamin B\u2083 (Niacin) \u2500\u2500\u25ba Pellagra (Dermatitis, Diarrhea, Dementia)",
+        "isCorrect": true,
+        "explanation": "Classic 3 D's of B3 deficiency."
+      },
+      {
+        "id": "C",
+        "text": "Vitamin B\u2081\u2082 (Cyanocobalamin) \u2500\u2500\u25ba Pernicious Anemia",
+        "isCorrect": true,
+        "explanation": "Megaloblastic anemia due to lack of intrinsic factor."
+      },
+      {
+        "id": "D",
+        "text": "Vitamin K \u2500\u2500\u25ba Rickets and Osteomalacia",
+        "isCorrect": false,
+        "explanation": "Vitamin K deficiency causes delayed clotting. Vitamin D deficiency causes Rickets."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Thiamine \u2500\u2500\u25ba Beri-Beri; Niacin \u2500\u2500\u25ba Pellagra; B\u2081\u2082 \u2500\u2500\u25ba Pernicious anemia.\n\u2022 D is incorrect: Vitamin K deficiency causes delayed blood clotting time. Vitamin D deficiency causes Rickets and Osteomalacia.",
+    "keyFormulae": [
+      "\\text{Thiamine} \\to \\text{Beri-Beri}; \\quad \\text{Niacin} \\to \\text{Pellagra}; \\quad \\text{B}_{12} \\to \\text{Pernicious Anemia}; \\quad \\text{Vit D} \\to \\text{Rickets}"
+    ],
+    "hints": [
+      "Vitamin K is for blood clotting factors; Vitamin D is for bone mineralization."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-bio-018",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "Cellulose Structural Features",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding the structural features of Cellulose: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is an unbranched linear homopolymer of \u03b2-D-glucose monomers.",
+        "isCorrect": true,
+        "explanation": "Composed of 6000\u201310000 \u03b2-D-glucose units."
+      },
+      {
+        "id": "B",
+        "text": "Monomers are linked exclusively by \u03b2-(1 \u2192 4) glycosidic bonds.",
+        "isCorrect": true,
+        "explanation": "Linear \u03b2-(1\u21924) ether linkages."
+      },
+      {
+        "id": "C",
+        "text": "Parallel linear chains form extensive inter-chain hydrogen bonds, creating rigid microfibrils.",
+        "isCorrect": true,
+        "explanation": "Provides high tensile strength."
+      },
+      {
+        "id": "D",
+        "text": "Human amylase enzymes readily hydrolyze cellulose into glucose in the stomach.",
+        "isCorrect": false,
+        "explanation": "Humans lack cellulase enzymes to cleave \u03b2-(1\u21924) glycosidic bonds."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Cellulose is an unbranched \u03b2-(1\u21924) linear glucan stabilized by inter-chain H-bonds.\n\u2022 D is incorrect: Humans LACK cellulase enzymes capable of cleaving \u03b2-(1\u21924) bonds, making cellulose indigestible dietary fiber.",
+    "keyFormulae": [
+      "\\text{Cellulose: Linear } \\beta\\text{-(1}\\to\\text{4) Glucan Chains with Inter-chain H-Bonds}"
+    ],
+    "hints": [
+      "Humans cannot digest cellulose because our digestive enzymes only cleave \u03b1-glycosidic bonds."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-bio-019",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "Pyrimidine Nitrogenous Bases",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following nitrogenous bases belong to the PYRIMIDINE class? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cytosine (C)",
+        "isCorrect": true,
+        "explanation": "Single-ring 6-membered pyrimidine."
+      },
+      {
+        "id": "B",
+        "text": "Thymine (T)",
+        "isCorrect": true,
+        "explanation": "Single-ring 6-membered pyrimidine found in DNA."
+      },
+      {
+        "id": "C",
+        "text": "Uracil (U)",
+        "isCorrect": true,
+        "explanation": "Single-ring 6-membered pyrimidine found in RNA."
+      },
+      {
+        "id": "D",
+        "text": "Adenine (A)",
+        "isCorrect": false,
+        "explanation": "Double-ring 9-membered purine."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Cytosine, Thymine, and Uracil are single-ring 6-membered Pyrimidines.\n\u2022 D is incorrect: Adenine (and Guanine) are double-ring 9-membered Purines.",
+    "keyFormulae": [
+      "\\text{Pyrimidines: Cytosine (C), Thymine (T), Uracil (U)}; \\quad \\text{Purines: Adenine (A), Guanine (G)}"
+    ],
+    "hints": [
+      "Pyrimidines are CUT (Cytosine, Uracil, Thymine)."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-bio-020",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Biomolecules",
+    "subtopic": "Peptide Bond Geometry & Resonance",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding Peptide Bond geometry: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The -CO-NH- peptide bond has \u2248 40% partial double-bond character due to resonance.",
+        "isCorrect": true,
+        "explanation": "Delocalization between C=O and N lone pair."
+      },
+      {
+        "id": "B",
+        "text": "Rotation around the C-N peptide bond is restricted at room temperature.",
+        "isCorrect": true,
+        "explanation": "High rotational energy barrier prevents rotation."
+      },
+      {
+        "id": "C",
+        "text": "The six backbone atoms of the peptide unit lie in a flat, coplanar trans-configuration.",
+        "isCorrect": true,
+        "explanation": "Planar trans-conformation minimizes steric clashes."
+      },
+      {
+        "id": "D",
+        "text": "Peptide bonds are synthesized by dehydration condensation between amino acids.",
+        "isCorrect": true,
+        "explanation": "Reaction between \u03b1-COOH and \u03b1-NH\u2082 releasing H\u2082O."
+      }
+    ],
+    "solutionExplanation": "All four options represent accurate quantum, structural, and chemical facts regarding peptide bond planarity and synthesis.",
+    "keyFormulae": [
+      "\\text{Peptide Bond Resonance: } \\text{C}=\\text{O} \\cdots \\text{N}-\\text{H} \\longleftrightarrow \\text{C}-\\text{O}^-=\\text{N}^+-\\text{H} \\quad (40\\% \\text{ Double-Bond Character})"
+    ],
+    "hints": [
+      "Peptide bond is a rigid, planar trans amide linkage with 40% partial double-bond character."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

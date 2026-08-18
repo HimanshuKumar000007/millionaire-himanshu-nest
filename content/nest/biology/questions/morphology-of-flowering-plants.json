@@ -1,0 +1,94 @@
+[
+  {
+    "id": "q-bio-c5-001",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Morphology of Flowering Plants",
+    "chapterNumber": 5,
+    "chapterSlug": "morphology-of-flowering-plants",
+    "topic": "Family Solanaceae Floral Formula",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "Dissection of an unknown cultivated nightshade flower reveals the following structural parameters: 5 persistent sepals exhibiting valvate aestivation, 5 gamopetalous petals, 5 stamens fused directly to the corolla tube, and a bicarpellary syncarpous gynoecium with a superior ovary. Crucially, anatomical sectioning shows that the ovary is tilted at a 45° angle relative to the median plane and features a swollen axile placenta bearing numerous ovules. What is the correct floral formula for this plant?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "% \\; \\succ \\; \\mathbf{K}_{(5)} \\; \\mathbf{C}_{(5)} \\; \\mathbf{A}_{5} \\; \\mathbf{\\underline{G}}_{(2)}", "isCorrect": false },
+      { "id": "b", "text": "\\oplus \\; \\succ \\; \\mathbf{K}_{(5)} \\; \\overbrace{\\mathbf{C}_{(5)} \\; \\mathbf{A}_{5}} \\; \\mathbf{\\underline{G}}_{(2)}", "isCorrect": true },
+      { "id": "c", "text": "\\oplus \\; \\succ \\; \\mathbf{K}_{5} \\; \\mathbf{C}_{5} \\; \\mathbf{A}_{(5)} \\; \\mathbf{\\bar{G}}_{(2)}", "isCorrect": false },
+      { "id": "d", "text": "% \\; \\succ \\; \\mathbf{K}_{(5)} \\; \\overbrace{\\mathbf{C}_{(5)} \\; \\mathbf{A}_{5}} \\; \\mathbf{\\bar{G}}_{(2)}", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "The combination of actinomorphic symmetry (\\oplus), bisexual flower (\\succ), persistent gamosepalous valvate calyx (\\mathbf{K}_{(5)}), gamopetalous valvate corolla (\\mathbf{C}_{(5)}), epipetalous stamens (\\overbrace{\\mathbf{C}_{(5)} \\mathbf{A}_5}), and an obliquely placed bicarpellary syncarpous superior ovary with swollen axile placentation (\\mathbf{\\underline{G}}_{(2)}) is exclusively diagnostic of Family Solanaceae.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c5-002",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Morphology of Flowering Plants",
+    "chapterNumber": 5,
+    "chapterSlug": "morphology-of-flowering-plants",
+    "topic": "Arid Stem & Leaf Adaptations",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "An agricultural botanist analyzes four different plant specimens (A, B, C, D) exhibiting structural stem/leaf adaptations to arid environments: Specimen A has flattened green stem segments with multiple nodes where leaves are reduced to spines; Specimen B has lateral green branches consisting of only one internode; Specimen C has flattened green petioles replacing true fallen leaflets; Specimen D has fleshy underground stems with scale-covered eyes. How are these adaptations classified?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "A = Cladode, B = Phylloclade, C = Phyllode, D = Rhizome", "isCorrect": false },
+      { "id": "b", "text": "A = Phylloclade, B = Cladode, C = Phyllode, D = Stem Tuber", "isCorrect": true },
+      { "id": "c", "text": "A = Phyllode, B = Phylloclade, C = Cladode, D = Corm", "isCorrect": false },
+      { "id": "d", "text": "A = Stem Tendril, B = Cladode, C = Phylloclade, D = Bulb", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "• Specimen A = Phylloclade (green photosynthetic stem of unlimited growth with multiple nodes and internodes, e.g., Opuntia).\n• Specimen B = Cladode (green photosynthetic stem branch of limited growth comprising 1 or 2 internodes, e.g., Asparagus, Ruscus).\n• Specimen C = Phyllode (flattened, winged, photosynthetic petiole functioning as a leaf, e.g., Australian Acacia).\n• Specimen D = Stem Tuber (swollen underground stem tip bearing buds/'eyes' in the axils of scale leaves, e.g., Solanum tuberosum).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c5-003",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Morphology of Flowering Plants",
+    "chapterNumber": 5,
+    "chapterSlug": "morphology-of-flowering-plants",
+    "topic": "Floral Features of Solanaceae",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "questionText": "Which of the following statements correctly describe the floral structural features of Family Solanaceae? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "The androecium consists of 5 stamens that exhibit epipetalous adhesion to the gamopetalous corolla.", "isCorrect": true },
+      { "id": "b", "text": "The gynoecium is bicarpellary and syncarpous with a superior ovary placed obliquely at a 45° angle.", "isCorrect": true },
+      { "id": "c", "text": "Placentation is parietal with ovules borne on a false septum called the replum.", "isCorrect": false },
+      { "id": "d", "text": "The calyx consists of 5 sepals that are gamosepalous and characteristically persistent on the mature fruit.", "isCorrect": true }
+    ],
+    "correctAnswer": ["a", "b", "d"],
+    "solutionExplanation": "Statement a is correct: Solanaceae flowers feature 5 epipetalous stamens alternating with corolla lobes (\\overbrace{\\mathbf{C}_{(5)} \\mathbf{A}_5}).\nStatement b is correct: The gynoecium is bicarpellary, syncarpous, superior (\\mathbf{\\underline{G}}_{(2)}), and obliquely placed with a swollen axile placenta.\nStatement c is incorrect: Parietal placentation with a false septum (replum) is diagnostic of Brassicaceae (Mustard family), whereas Solanaceae exhibits swollen axile placentation.\nStatement d is correct: Persistent calyx (\\mathbf{K}_{(5)}) remains attached to the fruit (e.g., Solanum melongena, Physalis).",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c5-004",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Morphology of Flowering Plants",
+    "chapterNumber": 5,
+    "chapterSlug": "morphology-of-flowering-plants",
+    "topic": "Seed & Embryological Anatomy",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "questionText": "Select the correct options regarding seed and embryological anatomy: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "In monocot seeds (Zea mays), the shield-shaped single cotyledon is termed the Scutellum.", "isCorrect": true },
+      { "id": "b", "text": "The Coleoptile is a protective sheath covering the emerging radicle in monocot embryos.", "isCorrect": false },
+      { "id": "c", "text": "Castor (Ricinus communis) represents an endospermic / albuminous dicotyledonous seed exception.", "isCorrect": true },
+      { "id": "d", "text": "Pulvinus refers to the swollen leaf base capable of turgor-driven movement in leguminous plants.", "isCorrect": true }
+    ],
+    "correctAnswer": ["a", "c", "d"],
+    "solutionExplanation": "Statement a is correct: In grasses and cereals, the large, shield-shaped single cotyledon is called the Scutellum.\nStatement b is incorrect: Coleoptile encloses and protects the emerging Plumule (shoot apex); Coleorhiza encloses the Radicle (root apex).\nStatement c is correct: While most dicots are non-endospermic (exalbuminous), Castor (Ricinus communis) and Cotton are prominent endospermic dicot exceptions.\nStatement d is correct: Pulvinus is the swollen leaf base of legumes (Fabaceae) mediating turgor-dependent thigmonastic and nyctinastic movements (e.g., Mimosa pudica).",
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "id": "bio-xi-u1-c3-l09",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit I — Diversity of Living Organisms",
+  "unitNumber": 1,
+  "chapter": "Plant Kingdom",
+  "chapterNumber": 3,
+  "chapterSlug": "plant-kingdom",
+  "slug": "lesson-09-plant-life-cycles-alternation-generations",
+  "title": "Plant Life Cycles: Alternation of Generations & Exceptions",
+  "topic": "Haplontic, Diplontic, & Haplodiplontic Cycles",
+  "topics": [
+    "Alternation of Generations (Gametophyte n vs Sporophyte 2n)",
+    "Haplontic Life Cycle & Zygotic Meiosis (Volvox, Spirogyra)",
+    "Diplontic Life Cycle & Gametic Meiosis (Gymnosperms, Angiosperms, Fucus)",
+    "Haplodiplontic Life Cycle (Bryophytes, Pteridophytes, Ectocarpus, Polysiphonia, Kelps)"
+  ],
+  "order": 9,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Plants exhibit Haplontic (zygotic meiosis), Diplontic (gametic meiosis), or Haplodiplontic (sporic meiosis) cycles. High-yield exceptions: Fucus is Diplontic; Ectocarpus, Polysiphonia, and Kelps are Haplodiplontic.",
+  "summary": "Plants exhibit Haplontic (zygotic meiosis), Diplontic (gametic meiosis), or Haplodiplontic (sporic meiosis) cycles. High-yield exceptions: Fucus is Diplontic; Ectocarpus, Polysiphonia, and Kelps are Haplodiplontic.",
+  "conceptBreakdown": [
+    {
+      "heading": "9. Comparative Analysis of Plant Life Cycles & Alternation of Generations",
+      "title": "9. Comparative Analysis of Plant Life Cycles & Alternation of Generations",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "All embryophytes alternate between n gametophyte and 2n sporophyte phases. Watch out for algal life cycle exceptions on the NEST exam."
+      },
+      "codeSnippet": "TYPES OF PLANT LIFE CYCLES\n                                   │\n      ┌────────────────────────────┼────────────────────────────┐\n      ▼                            ▼                            ▼\n  HAPLONTIC                    DIPLONTIC                 HAPLODIPLONTIC\n (Gametophyte Dominant)       (Sporophyte Dominant)     (Alternating Phases)\n  ├── Zygotic Meiosis          ├── Gametic Meiosis       ├── Gametophyte Dominant: Bryophytes\n  └── Volvox, Spirogyra        └── Fucus, Seed Plants   └── Sporophyte Dominant: Pteridophytes",
+      "content": "All embryophytes exhibit **Alternation of Generations**: an alternation between a haploid gamete-producing phase (Gametophyte, $n$) and a diploid spore-producing phase (Sporophyte, $2n$)."
+    },
+    {
+      "heading": "9.1 Summary Matrix of Plant Life Cycles",
+      "title": "9.1 Summary Matrix of Plant Life Cycles",
+      "type": "paragraph",
+      "codeSnippet": "ALGAL LIFE CYCLE EXCEPTIONS\n                       \n    Standard Algae (Spirogyra/Volvox)  ──► HAPLONTIC Life Cycle\n    Fucus (Brown Alga)                ──► DIPLONTIC Life Cycle\n    Ectocarpus / Polysiphonia / Kelps ──► HAPLODIPLONTIC Life Cycle",
+      "content": "| Life Cycle Type | Dominant Phase | Dependent Phase | Meiotic Stage | Key Examples & Exceptions |\n| :--- | :--- | :--- | :--- | :--- |\n| **Haplontic** | Haploid Gametophyte ($n$) | Diploid Zygote ($2n$) only | **Zygotic Meiosis** (Zygote divides by meiosis immediately after syngamy) | *Volvox*, *Spirogyra*, *Chlamydomonas* |\n| **Diplontic** | Diploid Sporophyte ($2n$) | Single-celled or reduced Gametes ($n$) | **Gametic Meiosis** (Meiosis occurs during gametogenesis) | All Gymnosperms, Angiosperms, AND ***Fucus*** (Brown Alga - **CRITICAL EXCEPTION!**) |\n| **Haplodiplontic** | Equal or co-dominant alternating multicellular $n$ and $2n$ phases | Varies by division | **Sporic Meiosis** (Meiosis occurs during sporogenesis inside sporangia) | Bryophytes, Pteridophytes, AND ***Ectocarpus*, *Polysiphonia*, Kelps** (**CRITICAL ALGAL EXCEPTIONS!**) |"
+    }
+  ]
+}

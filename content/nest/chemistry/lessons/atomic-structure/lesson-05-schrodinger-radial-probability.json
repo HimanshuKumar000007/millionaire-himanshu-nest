@@ -1,0 +1,63 @@
+{
+  "id": "chem-xi-u2-c2-l05",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit II \u2014 Structure of Atom",
+  "unitNumber": 2,
+  "chapter": "Structure of Atom",
+  "chapterNumber": 2,
+  "chapterSlug": "atomic-structure",
+  "slug": "lesson-05-schrodinger-radial-probability",
+  "title": "The Wave Mechanical Atom: Schr\u00f6dinger Equation & Probability Densities",
+  "topic": "Schr\u00f6dinger Equation & Wave Mechanics",
+  "topics": [
+    "Time-Independent Schr\u00f6dinger Equation (\u0124\u03c8 = E\u03c8)",
+    "Hamiltonian Operator Breakdown",
+    "Physical Meaning of Wavefunction (\u03c8) vs Probability Density (\u03c8\u00b2)",
+    "Radial & Angular Wavefunction Factorization",
+    "Radial Probability Distribution Functions (4\u03c0r\u00b2R\u00b2dr)",
+    "Orbital Probability Profiles for 1s, 2s, and 2p"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "schrodinger-equation",
+  "quickSummary": "Erwin Schr\u00f6dinger formulated 3D quantum wave mechanics (\u0124\u03c8 = E\u03c8). Wavefunction amplitude \u03c8 has no direct physical meaning, but probability density \u03c8\u00b2 and radial distribution 4\u03c0r\u00b2R\u00b2dr define electron orbitals.",
+  "summary": "Master the Schr\u00f6dinger wave equation, Hamiltonian operator, probability density interpretations, and radial distribution plots.",
+  "conceptBreakdown": [
+    {
+      "heading": "5.1 Time-Independent Schr\u00f6dinger Equation (1926)",
+      "title": "5.1 Time-Independent Schr\u00f6dinger Equation (1926)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Schr\u00f6dinger Wave Equation",
+        "takeaway": "\u0124\u03c8 = E\u03c8. \u03c8 is wave amplitude (positive/negative); \u03c8\u00b2 is probability density (always real and non-negative)."
+      },
+      "content": "Treating the electron as a 3D stationary matter wave yields the Schr\u00f6dinger differential equation:\n\n$$\\mathbf{\\hat{H} \\psi = E \\psi}$$\n$$\\mathbf{\\frac{\\partial^2 \\psi}{\\partial x^2} + \\frac{\\partial^2 \\psi}{\\partial y^2} + \\frac{\\partial^2 \\psi}{\\partial z^2} + \\frac{8\\pi^2 m_e}{h^2} (E - V) \\psi = 0}$$\n\nwhere $\\hat{H} = \\hat{T} + \\hat{V} = -\\frac{\\hbar^2}{2m_e}\\nabla^2 + V$ is the Hamiltonian operator, $E$ is total energy, $V$ is potential energy, and $\\psi(x, y, z)$ is the Wavefunction.\n\n\u2022 **Physical Significance of $\\psi$ and $\\psi^2$**:\n1. $\\psi$ (Wavefunction): Mathematical amplitude of the electron wave. Has no direct physical meaning; can be positive or negative.\n2. $\\psi^2$ (or $|\\psi|^2$, Probability Density): Probability of finding the electron per unit volume at a given spatial point $(x,y,z)$. Always real, positive, and non-negative ($\\psi^2 \\ge 0$)."
+    },
+    {
+      "heading": "5.2 Radial Probability Distribution Functions",
+      "title": "5.2 Radial Probability Distribution Functions",
+      "type": "paragraph",
+      "codeSnippet": "RADIAL PROBABILITY DISTRIBUTIONS\n                      \n   1s ORBITAL                     2s ORBITAL                     2p ORBITAL\n   4\u03c0r\u00b2R\u00b2 \u25b2                       4\u03c0r\u00b2R\u00b2 \u25b2                       4\u03c0r\u00b2R\u00b2 \u25b2\n          \u2502   /\\                         \u2502   /\\    /\\                   \u2502     /\\\n          \u2502  /  \\                        \u2502  /  \\  /  \\                  \u2502    /  \\\n          \u2502 /    \\                       \u2502 /    \\/    \\                 \u2502   /    \\\n        0 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u25ba r           0 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u25ba r         0 \u2514\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u25ba r\n             r_max = a\u2080                      Radial Node                     r_max = 4a\u2080",
+      "content": "Factoring wavefunction in spherical coordinates: $\\psi(r, \\theta, \\phi) = R(r) \\cdot Y(\\theta, \\phi)$.\n\n\u2022 **Radial Probability Density**: $R^2(r)$ \u2014 probability density at distance $r$.\n\u2022 **Radial Probability Distribution Function ($4\\pi r^2 R^2 dr$)**: The total probability of finding the electron within a spherical shell of thickness $dr$ at distance $r$ from the nucleus.\n\n\u2022 **1s Orbital**: Starts at $0$ (at $r=0$), peaks at $r_{\\max} = a_0 = 0.529\\text{ \\AA}$ (most probable radius), and asymptotically approaches zero at $r \\rightarrow \\infty$. Zero radial nodes.\n\u2022 **2s Orbital**: Exhibits two peaks separated by $1$ radial node ($4\\pi r^2 R^2 = 0$). Major peak occurs at higher radial distance.\n\u2022 **2p Orbital**: Starts at zero, exhibits a single peak at $r_{\\max} = 4a_0$, with zero radial nodes."
+    }
+  ],
+  "quickRevision": [
+    "\u0124\u03c8 = E\u03c8 (Schr\u00f6dinger time-independent equation).",
+    "\u03c8 is wave amplitude; \u03c8\u00b2 represents probability density.",
+    "Radial distribution function = 4\u03c0r\u00b2 R\u00b2 dr.",
+    "1s maximum probability occurs at r = a\u2080 (0.529 \u00c5).",
+    "Radial nodes occur where R(r) = 0 and 4\u03c0r\u00b2R\u00b2 = 0."
+  ],
+  "keyFormulae": [
+    "\u0124\u03c8 = E\u03c8",
+    "\u2207\u00b2\u03c8 + (8\u03c0\u00b2m/h\u00b2)(E - V)\u03c8 = 0",
+    "\u03c8(r,\u03b8,\u03c6) = R(r) \u00b7 Y(\u03b8,\u03c6)",
+    "P(r) dr = 4\u03c0r\u00b2 R(r)\u00b2 dr"
+  ]
+}

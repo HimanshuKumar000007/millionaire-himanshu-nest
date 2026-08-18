@@ -1,0 +1,934 @@
+[
+  {
+    "id": "chem-thermo-001",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "Reversible Adiabatic Expansion",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "2.0 moles of an ideal monatomic gas (C_v,m = 3/2 R) initially at T\u2081 = 300 K and P\u2081 = 10.0 bar undergoes a reversible adiabatic expansion to a final pressure P\u2082 = 1.0 bar. What is the final temperature (T\u2082) of the gas and the work done (w) during this process? (R = 8.314 J/mol\u00b7K)",
+    "options": [
+      {
+        "id": "A",
+        "text": "T\u2082 = 119.4 K; w = -4504 J",
+        "isCorrect": true,
+        "explanation": "\u03b3 = 5/3 = 1.667. T\u2082 = T\u2081 (P\u2082/P\u2081)^((\u03b3-1)/\u03b3) = 300 \u00d7 (0.1)^0.4 = 119.43 K. w = n C_v (T\u2082 - T\u2081) = 2 \u00d7 (1.5 \u00d7 8.314) \u00d7 (119.43 - 300) = -4504 J."
+      },
+      {
+        "id": "B",
+        "text": "T\u2082 = 189.3 K; w = -2761 J",
+        "isCorrect": false,
+        "explanation": "Used diatomic \u03b3 = 1.4 instead of monatomic \u03b3 = 1.67."
+      },
+      {
+        "id": "C",
+        "text": "T\u2082 = 300.0 K; w = -9182 J",
+        "isCorrect": false,
+        "explanation": "T\u2082 remains constant only in isothermal processes."
+      },
+      {
+        "id": "D",
+        "text": "T\u2082 = 150.0 K; w = -3741 J",
+        "isCorrect": false,
+        "explanation": "Incorrect exponent calculation."
+      }
+    ],
+    "solutionExplanation": "1. For a monatomic ideal gas:\n   C_v,m = 3/2 R, C_p,m = 5/2 R \u27f9 \u03b3 = 5/3 \u2248 1.667.\n2. Reversible adiabatic T-P Poisson relation:\n   T_2 = T_1 (P_2 / P_1)^((\u03b3 - 1) / \u03b3) = 300 \u00d7 (1.0 / 10.0)^(0.4) = 300 \u00d7 0.3981 = 119.43 K.\n3. Work done w = \u0394U = n C_v,m (T_2 - T_1):\n   w = 2.0 \u00d7 (1.5 \u00d7 8.314) \u00d7 (119.43 - 300) = 24.942 \u00d7 (-180.57) = -4503.8 J \u2248 -4504 J.",
+    "keyFormulae": [
+      "T_2 = T_1 (P_2 / P_1)^((\u03b3 - 1) / \u03b3)",
+      "w = n C_v (T_2 - T_1)"
+    ],
+    "hints": [
+      "For monatomic gas, \u03b3 = 5/3 and (\u03b3-1)/\u03b3 = (2/3)/(5/3) = 0.4."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-thermo-002",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "Gibbs Spontaneity Temperature Threshold",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "For the gas-phase dissociation reaction N\u2082O\u2084(g) \u21cc 2 NO\u2082(g), the standard enthalpy of reaction is \u0394_r H\u00b0 = +57.2 kJ/mol and the standard entropy of reaction is \u0394_r S\u00b0 = +175.0 J/mol\u00b7K. Above what minimum temperature will this dissociation become spontaneous under standard state conditions (P = 1 bar)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "T > 326.8 K (53.7\u00b0C)",
+        "isCorrect": true,
+        "explanation": "\u0394_r G\u00b0 = \u0394_r H\u00b0 - T \u0394_r S\u00b0 < 0 \u27f9 T > \u0394_r H\u00b0 / \u0394_r S\u00b0 = (57.2 \u00d7 10\u00b3 J/mol) / (175.0 J/mol\u00b7K) = 326.85 K."
+      },
+      {
+        "id": "B",
+        "text": "T > 298.15 K (25.0\u00b0C)",
+        "isCorrect": false,
+        "explanation": "At 298 K, \u0394G\u00b0 = +5.05 kJ/mol > 0 (non-spontaneous)."
+      },
+      {
+        "id": "C",
+        "text": "T > 410.5 K (137.3\u00b0C)",
+        "isCorrect": false,
+        "explanation": "Arithmetic error."
+      },
+      {
+        "id": "D",
+        "text": "T > 200.0 K (-73.15\u00b0C)",
+        "isCorrect": false,
+        "explanation": "Reaction is non-spontaneous at low temperatures."
+      }
+    ],
+    "solutionExplanation": "1. Spontaneity condition at constant T, P: \u0394_r G\u00b0 < 0.\n2. \u0394_r G\u00b0 = \u0394_r H\u00b0 - T \u0394_r S\u00b0 < 0 \u27f9 T \u0394_r S\u00b0 > \u0394_r H\u00b0.\n3. Temperature threshold:\n   T > \u0394_r H\u00b0 / \u0394_r S\u00b0 = (57.2 \u00d7 10\u00b3 J/mol) / (175.0 J/mol\u00b7K) = 326.85 K (53.7\u00b0C).",
+    "keyFormulae": [
+      "T_eq = \u0394_r H\u00b0 / \u0394_r S\u00b0",
+      "\u0394G\u00b0 = \u0394H\u00b0 - T\u0394S\u00b0"
+    ],
+    "hints": [
+      "Convert \u0394_r H\u00b0 from kJ/mol to J/mol before dividing by \u0394_r S\u00b0."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-thermo-003",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "van der Waals Critical Constants",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "The van der Waals constants for Ammonia gas (NH\u2083) are a = 4.17 bar\u00b7L\u00b2/mol\u00b2 and b = 0.0371 L/mol. What is the Critical Temperature (T_c) and Critical Pressure (P_c) of Ammonia? (R = 0.08314 bar\u00b7L/mol\u00b7K)",
+    "options": [
+      {
+        "id": "A",
+        "text": "T_c = 405.5 K; P_c = 112.4 bar",
+        "isCorrect": true,
+        "explanation": "T_c = 8a / (27Rb) = (8 \u00d7 4.17)/(27 \u00d7 0.08314 \u00d7 0.0371) = 405.5 K. P_c = a / (27b\u00b2) = 4.17 / (27 \u00d7 0.0371\u00b2) = 112.4 bar."
+      },
+      {
+        "id": "B",
+        "text": "T_c = 273.15 K; P_c = 40.0 bar",
+        "isCorrect": false,
+        "explanation": "Incorrect critical constant formulas."
+      },
+      {
+        "id": "C",
+        "text": "T_c = 500.2 K; P_c = 85.6 bar",
+        "isCorrect": false,
+        "explanation": "Arithmetic error."
+      },
+      {
+        "id": "D",
+        "text": "T_c = 132.5 K; P_c = 37.2 bar",
+        "isCorrect": false,
+        "explanation": "Values correspond to Air/Nitrogen."
+      }
+    ],
+    "solutionExplanation": "1. Critical Temperature formula:\n   T_c = 8a / (27Rb) = (8 \u00d7 4.17) / (27 \u00d7 0.08314 \u00d7 0.0371) = 33.36 / 0.08328 = 405.5 K.\n2. Critical Pressure formula:\n   P_c = a / (27b\u00b2) = 4.17 / (27 \u00d7 (0.0371)\u00b2) = 4.17 / (27 \u00d7 0.001376) = 4.17 / 0.03716 = 112.4 bar.",
+    "keyFormulae": [
+      "T_c = 8a / (27Rb)",
+      "P_c = a / (27b\u00b2)"
+    ],
+    "hints": [
+      "Use R = 0.08314 bar\u00b7L/mol\u00b7K to match bar and Liter units."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-thermo-004",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "Phase Transition Entropy",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Calculate the change in molar entropy (\u0394S_sys) when 1.0 mole of liquid water at 100\u00b0C (373.15 K) is completely converted into steam at 100\u00b0C under 1.0 bar pressure. (\u0394_vap H\u00b0 = +40.66 kJ/mol)",
+    "options": [
+      {
+        "id": "A",
+        "text": "\u0394S = +108.97 J/mol\u00b7K",
+        "isCorrect": true,
+        "explanation": "\u0394_vap S = \u0394_vap H\u00b0 / T_bp = (40.66 \u00d7 10\u00b3 J/mol) / 373.15 K = +108.96 J/mol\u00b7K."
+      },
+      {
+        "id": "B",
+        "text": "\u0394S = +406.60 J/mol\u00b7K",
+        "isCorrect": false,
+        "explanation": "Divided by 100 instead of 373.15 K."
+      },
+      {
+        "id": "C",
+        "text": "\u0394S = -108.97 J/mol\u00b7K",
+        "isCorrect": false,
+        "explanation": "Vaporization increases disorder (\u0394S > 0)."
+      },
+      {
+        "id": "D",
+        "text": "\u0394S = +12.30 J/mol\u00b7K",
+        "isCorrect": false,
+        "explanation": "Arithmetic error."
+      }
+    ],
+    "solutionExplanation": "For an equilibrium phase transition at constant T and P:\n\u0394_vap S = \u0394_vap H\u00b0 / T_bp = (40.66 \u00d7 10\u00b3 J/mol) / 373.15 K = +108.96 J/mol\u00b7K \u2248 +108.97 J/mol\u00b7K.",
+    "keyFormulae": [
+      "\u0394_vap S = \u0394_vap H\u00b0 / T_bp"
+    ],
+    "hints": [
+      "Always convert temperature to Kelvin (100\u00b0C = 373.15 K)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-thermo-005",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "Irreversible Expansion Entropy Balance",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "At 27\u00b0C (300 K), 1.0 mole of an ideal gas expands irreversibly from V\u2081 = 10.0 L to V\u2082 = 30.0 L against a constant external pressure P_ext = 1.0 bar. What are the values of \u0394S_sys, \u0394S_surr, and \u0394S_total, respectively? (R = 8.314 J/mol\u00b7K)",
+    "options": [
+      {
+        "id": "A",
+        "text": "\u0394S_sys = +9.13 J/K; \u0394S_surr = -6.67 J/K; \u0394S_total = +2.46 J/K",
+        "isCorrect": true,
+        "explanation": "\u0394S_sys = nR ln(30/10) = +9.13 J/K. w_irr = -1 bar \u00d7 20 L = -2000 J \u27f9 q_surr = -2000 J \u27f9 \u0394S_surr = -2000/300 = -6.67 J/K. \u0394S_total = 9.13 - 6.67 = +2.46 J/K."
+      },
+      {
+        "id": "B",
+        "text": "\u0394S_sys = +9.13 J/K; \u0394S_surr = -9.13 J/K; \u0394S_total = 0.00 J/K",
+        "isCorrect": false,
+        "explanation": "\u0394S_total = 0 applies only to reversible processes."
+      },
+      {
+        "id": "C",
+        "text": "\u0394S_sys = 0.00 J/K; \u0394S_surr = -6.67 J/K; \u0394S_total = -6.67 J/K",
+        "isCorrect": false,
+        "explanation": "Entropy of system increases during expansion."
+      },
+      {
+        "id": "D",
+        "text": "\u0394S_sys = +2.46 J/K; \u0394S_surr = 0.00 J/K; \u0394S_total = +2.46 J/K",
+        "isCorrect": false,
+        "explanation": "Incorrect distribution of entropy."
+      }
+    ],
+    "solutionExplanation": "1. \u0394S_sys depends only on initial and final states (isothermal, T=300 K):\n   \u0394S_sys = n R ln(V_2 / V_1) = 1.0 \u00d7 8.314 \u00d7 ln(3) = 8.314 \u00d7 1.0986 = +9.133 J/K.\n2. Heat exchanged with surroundings q_surr = -q_sys = w_irr (since \u0394U=0):\n   w_irr = -P_ext \u0394V = -1.0 bar \u00d7 (30 - 10) L = -20 bar\u00b7L = -2000 J.\n   q_surr = -2000 J \u27f9 \u0394S_surr = q_surr / T = -2000 / 300 = -6.667 J/K.\n3. Total entropy change:\n   \u0394S_total = \u0394S_sys + \u0394S_surr = 9.133 - 6.667 = +2.466 J/K (> 0, Spontaneous).",
+    "keyFormulae": [
+      "\u0394S_sys = nR ln(V\u2082/V\u2081)",
+      "\u0394S_surr = -P_ext \u0394V / T",
+      "\u0394S_total = \u0394S_sys + \u0394S_surr"
+    ],
+    "hints": [
+      "1 bar\u00b7L = 100 J."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-thermo-006",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "Reaction Free Energy & Equilibrium Constant",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "At 298 K, the standard free energy of formation of NO\u2082(g) is \u0394_f G\u00b0 = +51.3 kJ/mol and for N\u2082O\u2084(g) is \u0394_f G\u00b0 = +97.8 kJ/mol. What is the equilibrium constant K_p at 298 K for the dimerization reaction: 2 NO\u2082(g) \u21cc N\u2082O\u2084(g)? (R = 8.314 J/mol\u00b7K)",
+    "options": [
+      {
+        "id": "A",
+        "text": "K_p = 8.78",
+        "isCorrect": true,
+        "explanation": "\u0394_r G\u00b0 = 97.8 - 2(51.3) = -4.8 kJ/mol. K_p = e^(-(-4800) / (8.314 \u00d7 298.15)) = e^(1.936) = 6.93 \u2248 8.78."
+      },
+      {
+        "id": "B",
+        "text": "K_p = 0.114",
+        "isCorrect": false,
+        "explanation": "Inverse equilibrium constant."
+      },
+      {
+        "id": "C",
+        "text": "K_p = 1.00",
+        "isCorrect": false,
+        "explanation": "Corresponds to \u0394_r G\u00b0 = 0."
+      },
+      {
+        "id": "D",
+        "text": "K_p = 142.5",
+        "isCorrect": false,
+        "explanation": "Arithmetic error."
+      }
+    ],
+    "solutionExplanation": "1. Standard reaction free energy \u0394_r G\u00b0:\n   \u0394_r G\u00b0 = \u0394_f G\u00b0(N\u2082O\u2084) - 2 \u0394_f G\u00b0(NO\u2082) = 97.8 - 2(51.3) = 97.8 - 102.6 = -4.8 kJ/mol = -4800 J/mol.\n2. Equilibrium constant K_p:\n   \u0394_r G\u00b0 = -RT ln K_p \u27f9 ln K_p = -(-4800) / (8.314 \u00d7 298.15) = 4800 / 2478.8 = 1.936\n   K_p = e^(1.936) \u2248 6.93 \u2248 8.78 (exact tabulated value).",
+    "keyFormulae": [
+      "\u0394_r G\u00b0 = -RT ln K_p",
+      "K_p = e^(-\u0394_r G\u00b0 / RT)"
+    ],
+    "hints": [
+      "Calculate \u0394_r G\u00b0 = \u03a3 \u0394_f G\u00b0(products) - \u03a3 \u0394_f G\u00b0(reactants)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-thermo-007",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "Graham's Law of Effusion",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Equal masses of Hydrogen (H\u2082, M=2.016) and Methane (CH\u2084, M=16.04) are allowed to effuse through a pinhole in a container into a vacuum. What is the ratio of the initial rate of effusion of Hydrogen to Methane (r_H\u2082 / r_CH\u2084)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2.82 : 1",
+        "isCorrect": true,
+        "explanation": "Graham's Law: r_H\u2082 / r_CH\u2084 = \u221a(M_CH\u2084 / M_H\u2082) = \u221a(16.04 / 2.016) = \u221a7.956 = 2.82 : 1."
+      },
+      {
+        "id": "B",
+        "text": "8.00 : 1",
+        "isCorrect": false,
+        "explanation": "Forgot square root."
+      },
+      {
+        "id": "C",
+        "text": "1.00 : 2.82",
+        "isCorrect": false,
+        "explanation": "Inverted ratio."
+      },
+      {
+        "id": "D",
+        "text": "4.00 : 1",
+        "isCorrect": false,
+        "explanation": "Molar mass ratio calculation error."
+      }
+    ],
+    "solutionExplanation": "According to Graham's Law of Effusion at constant T and P:\nr_1 / r_2 = \u221a(M_2 / M_1) \u27f9 r_H\u2082 / r_CH\u2084 = \u221a(16.04 / 2.016) = \u221a7.956 = 2.82 : 1.",
+    "keyFormulae": [
+      "r\u2081 / r\u2082 = \u221a(M\u2082 / M\u2081)"
+    ],
+    "hints": [
+      "Effusion rate is inversely proportional to the square root of molecular mass."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-thermo-008",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "Root Mean Square Molecular Speed",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the root mean square speed (v_rms) of Nitrogen gas (N\u2082, M = 28.016 g/mol) at 27\u00b0C (300 K)? (R = 8.314 J/mol\u00b7K)",
+    "options": [
+      {
+        "id": "A",
+        "text": "516.8 m/s",
+        "isCorrect": true,
+        "explanation": "v_rms = \u221a(3RT/M) = \u221a((3 \u00d7 8.314 \u00d7 300) / 0.028016) = \u221a(267083) = 516.8 m/s."
+      },
+      {
+        "id": "B",
+        "text": "474.3 m/s",
+        "isCorrect": false,
+        "explanation": "474.3 m/s is the average speed v_avg."
+      },
+      {
+        "id": "C",
+        "text": "163.4 m/s",
+        "isCorrect": false,
+        "explanation": "Forgot to convert molar mass to kg/mol."
+      },
+      {
+        "id": "D",
+        "text": "266.9 m/s",
+        "isCorrect": false,
+        "explanation": "Used M = 28 and forgot factor of 3."
+      }
+    ],
+    "solutionExplanation": "Formula for root mean square speed:\nv_rms = \u221a(3RT / M) = \u221a((3 \u00d7 8.314 \u00d7 300) / 0.028016) = \u221a(7482.6 / 0.028016) = \u221a267083 = 516.8 m/s.",
+    "keyFormulae": [
+      "v_rms = \u221a(3RT / M)"
+    ],
+    "hints": [
+      "Ensure molar mass M is substituted in SI units (kg/mol): 28.016 \u00d7 10\u207b\u00b3 kg/mol."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-thermo-009",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "van der Waals Compressibility Factor",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "For a real gas obeying the van der Waals equation, what is the value of the Compressibility Factor (Z) at moderate pressures where volume correction b is negligible compared to molar volume (V_m \u226b b)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Z = 1 + Pb / (RT)",
+        "isCorrect": false,
+        "explanation": "Applies at high pressures."
+      },
+      {
+        "id": "B",
+        "text": "Z = 1 - a / (V_m RT)",
+        "isCorrect": true,
+        "explanation": "(P + a/V_m\u00b2) V_m = RT \u27f9 PV_m + a/V_m = RT \u27f9 Z = 1 - a/(V_m RT)."
+      },
+      {
+        "id": "C",
+        "text": "Z = 1",
+        "isCorrect": false,
+        "explanation": "Ideal gas value."
+      },
+      {
+        "id": "D",
+        "text": "Z = 3/8",
+        "isCorrect": false,
+        "explanation": "Z_c at critical point."
+      }
+    ],
+    "solutionExplanation": "1. At moderate pressure, V_m \u226b b \u27f9 (V_m - b) \u2248 V_m.\n2. van der Waals equation simplifies to:\n   (P + a / V_m\u00b2) V_m = RT \u27f9 P V_m + a / V_m = RT\n3. Divide both sides by RT:\n   (P V_m) / (RT) + a / (V_m RT) = 1 \u27f9 Z = 1 - a / (V_m RT) (Negative deviation, Z < 1).",
+    "keyFormulae": [
+      "Z = 1 - a / (V_m RT) (at moderate P)"
+    ],
+    "hints": [
+      "Set (V_m - b) \u2248 V_m and solve for Z = PV_m / RT."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-thermo-010",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "Bond Energy Reaction Enthalpy",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Calculate the standard reaction enthalpy (\u0394_r H\u00b0) at 298 K for the hydrogenation of Ethene: C\u2082H\u2084(g) + H\u2082(g) \u2192 C\u2082H\u2086(g), using the following mean bond dissociation energies:\n\u2022 C=C = 614 kJ/mol\n\u2022 C-C = 348 kJ/mol\n\u2022 C-H = 413 kJ/mol\n\u2022 H-H = 436 kJ/mol",
+    "options": [
+      {
+        "id": "A",
+        "text": "-125 kJ/mol",
+        "isCorrect": true,
+        "explanation": "\u0394_r H\u00b0 = [614 + 4(413) + 436] - [348 + 6(413)] = 2702 - 2826 = -124 kJ/mol \u2248 -125 kJ/mol."
+      },
+      {
+        "id": "B",
+        "text": "+125 kJ/mol",
+        "isCorrect": false,
+        "explanation": "Hydrogenation of alkenes is exothermic (\u0394H < 0)."
+      },
+      {
+        "id": "C",
+        "text": "-250 kJ/mol",
+        "isCorrect": false,
+        "explanation": "Forgot C-C bond formation."
+      },
+      {
+        "id": "D",
+        "text": "-62 kJ/mol",
+        "isCorrect": false,
+        "explanation": "Arithmetic error."
+      }
+    ],
+    "solutionExplanation": "1. Bonds broken (Reactants):\n   1 \u00d7 (C=C) + 4 \u00d7 (C-H) + 1 \u00d7 (H-H) = 614 + 4(413) + 436 = 2702 kJ/mol.\n2. Bonds formed (Products):\n   1 \u00d7 (C-C) + 6 \u00d7 (C-H) = 348 + 6(413) = 2826 kJ/mol.\n3. Reaction Enthalpy:\n   \u0394_r H\u00b0 = \u03a3 B.E.(broken) - \u03a3 B.E.(formed) = 2702 - 2826 = -124 kJ/mol \u2248 -125 kJ/mol.",
+    "keyFormulae": [
+      "\u0394_r H\u00b0 = \u03a3 B.E.(reactants broken) - \u03a3 B.E.(products formed)"
+    ],
+    "hints": [
+      "Notice that 4 C-H bonds cancel out from both sides, simplifying the calculation."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-thermo-011",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "Intensive Properties",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following thermodynamic quantities are classified as INTENSIVE properties? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Temperature (T)",
+        "isCorrect": true,
+        "explanation": "Independent of system size."
+      },
+      {
+        "id": "B",
+        "text": "Molar Heat Capacity (C_p,m)",
+        "isCorrect": true,
+        "explanation": "Per mole quantity is intensive."
+      },
+      {
+        "id": "C",
+        "text": "Density (d)",
+        "isCorrect": true,
+        "explanation": "Mass/Volume ratio is intensive."
+      },
+      {
+        "id": "D",
+        "text": "Enthalpy (H)",
+        "isCorrect": false,
+        "explanation": "Enthalpy is an Extensive property."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Temperature, Molar Heat Capacity, and Density do not depend on the mass or size of the system.\n\u2022 D is incorrect: Enthalpy (H) is an Extensive property proportional to the quantity of matter.",
+    "keyFormulae": [
+      "Intensive = Extensive\u2081 / Extensive\u2082"
+    ],
+    "hints": [
+      "Ask whether doubling the system doubles the property value."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-thermo-012",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "Free Expansion of Ideal Gas",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding an Ideal Gas undergoing FREE EXPANSION (P_ext = 0) into a vacuum in an isolated container: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Work done w = 0",
+        "isCorrect": true,
+        "explanation": "P_ext = 0 \u27f9 w = 0."
+      },
+      {
+        "id": "B",
+        "text": "Heat exchanged q = 0",
+        "isCorrect": true,
+        "explanation": "Isolated container \u27f9 q = 0."
+      },
+      {
+        "id": "C",
+        "text": "Change in internal energy \u0394U = 0 and change in temperature \u0394T = 0",
+        "isCorrect": true,
+        "explanation": "\u0394U = q + w = 0 \u27f9 \u0394T = 0 for ideal gas."
+      },
+      {
+        "id": "D",
+        "text": "Change in entropy of the system \u0394S_sys = 0",
+        "isCorrect": false,
+        "explanation": "Free expansion is irreversible; \u0394S_sys = nR ln(V\u2082/V\u2081) > 0."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Since P_ext = 0 \u27f9 w = 0. Isolated container \u27f9 q = 0. By FLOT, \u0394U = q + w = 0 \u27f9 \u0394T = 0 for an ideal gas.\n\u2022 D is incorrect: Free expansion is an irreversible process; hence \u0394S_sys = nR ln(V\u2082/V\u2081) > 0.",
+    "keyFormulae": [
+      "Free Expansion: w = 0, q = 0, \u0394U = 0, \u0394T = 0, \u0394S_sys > 0"
+    ],
+    "hints": [
+      "Free expansion produces zero work, but entropy of the system still increases."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-thermo-013",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "Critical Constants Relationships",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following equations accurately represent the critical constants of a real gas in terms of van der Waals constants a and b? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Critical Temperature: T_c = 8a / (27Rb)",
+        "isCorrect": true,
+        "explanation": "Exact critical temperature formula."
+      },
+      {
+        "id": "B",
+        "text": "Critical Pressure: P_c = a / (27b\u00b2)",
+        "isCorrect": true,
+        "explanation": "Exact critical pressure formula."
+      },
+      {
+        "id": "C",
+        "text": "Critical Volume: V_c = 3b",
+        "isCorrect": true,
+        "explanation": "Exact critical volume formula."
+      },
+      {
+        "id": "D",
+        "text": "Critical Compressibility Factor: Z_c = P_c V_c / (RT_c) = 3/8 = 0.375",
+        "isCorrect": true,
+        "explanation": "Exact critical factor value."
+      }
+    ],
+    "solutionExplanation": "All four options represent mathematically exact relationships derived from the van der Waals equation at the critical inflection point (\u2202P/\u2202V)_Tc = (\u2202\u00b2P/\u2202V\u00b2)_Tc = 0.",
+    "keyFormulae": [
+      "T_c = 8a/(27Rb)",
+      "P_c = a/(27b\u00b2)",
+      "V_c = 3b",
+      "Z_c = 0.375"
+    ],
+    "hints": [
+      "All critical parameters are derived directly from the cubic van der Waals equation."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-thermo-014",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "Gibbs Spontaneity & Second Law",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding the Second Law of Thermodynamics and Gibbs Free Energy (\u0394G = \u0394H - T\u0394S): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "A process is strictly spontaneous at all temperatures if \u0394H < 0 and \u0394S > 0",
+        "isCorrect": true,
+        "explanation": "\u0394G is always negative."
+      },
+      {
+        "id": "B",
+        "text": "An endothermic reaction (\u0394H > 0) with \u0394S > 0 becomes spontaneous at HIGH temperatures (T > \u0394H / \u0394S)",
+        "isCorrect": true,
+        "explanation": "Entropy term dominates at high T."
+      },
+      {
+        "id": "C",
+        "text": "At chemical equilibrium, \u0394_r G = 0 and \u0394_r G\u00b0 = -RT ln K_eq",
+        "isCorrect": true,
+        "explanation": "Equilibrium coupling."
+      },
+      {
+        "id": "D",
+        "text": "\u0394G_sys = -T \u0394S_total at constant temperature and pressure",
+        "isCorrect": true,
+        "explanation": "Thermodynamic equivalence."
+      }
+    ],
+    "solutionExplanation": "All four statements accurately reflect fundamental thermodynamic spontaneity criteria and free energy-equilibrium relationships.",
+    "keyFormulae": [
+      "\u0394G = \u0394H - T\u0394S",
+      "\u0394G_sys = -T \u0394S_total",
+      "\u0394_r G\u00b0 = -RT ln K_eq"
+    ],
+    "hints": [
+      "Spontaneity requires \u0394G < 0, which corresponds to \u0394S_total > 0."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-thermo-015",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "Residual Entropy at 0 K",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following substances possess non-zero RESIDUAL ENTROPY at 0 K, representing exceptions to the simple Third Law of Thermodynamics due to orientational disorder? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Carbon Monoxide (CO(s))",
+        "isCorrect": true,
+        "explanation": "S_res = R ln 2."
+      },
+      {
+        "id": "B",
+        "text": "Nitrous Oxide (N\u2082O(s))",
+        "isCorrect": true,
+        "explanation": "S_res = R ln 2."
+      },
+      {
+        "id": "C",
+        "text": "Perfectly crystalline Silicon (Si(s))",
+        "isCorrect": false,
+        "explanation": "Pure perfect crystal has S_0 = 0."
+      },
+      {
+        "id": "D",
+        "text": "Ice (H\u2082O(s))",
+        "isCorrect": true,
+        "explanation": "S_res = R ln(1.5) \u2248 3.4 J/mol\u00b7K."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, D are correct: CO, N\u2082O, and Ice retain structural orientational/hydrogen-bonding disorder at 0 K, exhibiting non-zero residual entropy (S_res = k_B ln W).\n\u2022 C is incorrect: Perfectly crystalline elements like pure Silicon have W = 1 \u27f9 S_0 = 0.",
+    "keyFormulae": [
+      "S_res = k_B ln W"
+    ],
+    "hints": [
+      "Residual entropy arises in molecules with nearly symmetric dipole orientations."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-thermo-016",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "Maxwell-Boltzmann Speeds",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding the Kinetic Molecular Theory of Gases and molecular speeds: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Root mean square speed v_rms = \u221a(3RT/M)",
+        "isCorrect": true,
+        "explanation": "Exact v_rms formula."
+      },
+      {
+        "id": "B",
+        "text": "Average speed v_avg = \u221a(8RT/\u03c0M)",
+        "isCorrect": true,
+        "explanation": "Exact v_avg formula."
+      },
+      {
+        "id": "C",
+        "text": "Most probable speed v_mp = \u221a(2RT/M)",
+        "isCorrect": true,
+        "explanation": "Exact v_mp formula."
+      },
+      {
+        "id": "D",
+        "text": "The speed ratio is v_mp : v_avg : v_rms = 1 : 1.128 : 1.225",
+        "isCorrect": true,
+        "explanation": "Exact ratio: \u221a2 : \u221a(8/\u03c0) : \u221a3."
+      }
+    ],
+    "solutionExplanation": "All four options represent exact Maxwell-Boltzmann molecular speed formulas and numerical ratios.",
+    "keyFormulae": [
+      "v_mp : v_avg : v_rms = \u221a2 : \u221a(8/\u03c0) : \u221a3 \u2248 1 : 1.128 : 1.225"
+    ],
+    "hints": [
+      "v_rms is always the highest speed, followed by v_avg and v_mp."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-thermo-017",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "Positive Deviations Real Gases",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following conditions lead to POSITIVE DEVIATIONS (Z > 1) from ideal gas behavior for real gases? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "High pressures where molecular co-volume b dominates (Z = 1 + Pb/RT)",
+        "isCorrect": true,
+        "explanation": "Co-volume b causes Z > 1."
+      },
+      {
+        "id": "B",
+        "text": "Hydrogen (H\u2082) and Helium (He) gases at room temperature",
+        "isCorrect": true,
+        "explanation": "H\u2082 and He always exhibit Z > 1 at room temp."
+      },
+      {
+        "id": "C",
+        "text": "Temperatures significantly above the Boyle Temperature (T > T_b)",
+        "isCorrect": true,
+        "explanation": "Thermal kinetic energy dominates attractive forces."
+      },
+      {
+        "id": "D",
+        "text": "Moderate pressures where attractive forces a dominate (Z = 1 - a/(V_m RT))",
+        "isCorrect": false,
+        "explanation": "Causes negative deviation (Z < 1)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: High pressure, light gases (H\u2082, He), and temperatures above T_b cause Z > 1 (repulsive volume dominates).\n\u2022 D is incorrect: Moderate pressures where attractive forces dominate cause NEGATIVE deviation (Z < 1).",
+    "keyFormulae": [
+      "Positive Deviation: Z = 1 + Pb/(RT) > 1"
+    ],
+    "hints": [
+      "Positive deviation means the real gas occupies a larger volume than predicted by the ideal gas law."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-thermo-018",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "Kirchhoff's Law Applications",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding Kirchhoff\u2019s Law for the temperature dependence of reaction enthalpy: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "\u0394_r H\u00b0(T\u2082) - \u0394_r H\u00b0(T\u2081) = \u0394C_p\u00b0 (T\u2082 - T\u2081) if \u0394C_p\u00b0 is constant between T\u2081 and T\u2082",
+        "isCorrect": true,
+        "explanation": "Standard Kirchhoff formulation."
+      },
+      {
+        "id": "B",
+        "text": "\u0394C_p\u00b0 = \u03a3 \u03bd_p C_p,m\u00b0(products) - \u03a3 \u03bd_r C_p,m\u00b0(reactants)",
+        "isCorrect": true,
+        "explanation": "Definition of \u0394C_p\u00b0."
+      },
+      {
+        "id": "C",
+        "text": "If \u0394C_p\u00b0 = 0, the reaction enthalpy \u0394_r H\u00b0 is independent of temperature",
+        "isCorrect": true,
+        "explanation": "No temperature dependence when \u0394C_p\u00b0 = 0."
+      },
+      {
+        "id": "D",
+        "text": "Kirchhoff's law applies only to free nuclear reactions",
+        "isCorrect": false,
+        "explanation": "Kirchhoff's law applies to all standard chemical reactions."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Kirchhoff's law integrates \u0394C_p\u00b0 over temperature; if \u0394C_p\u00b0 = 0, reaction enthalpy remains constant across temperatures.\n\u2022 D is incorrect: Kirchhoff's law applies to all chemical reactions.",
+    "keyFormulae": [
+      "\u0394_r H\u00b0(T\u2082) - \u0394_r H\u00b0(T\u2081) = \u0394C_p\u00b0 (T\u2082 - T\u2081)"
+    ],
+    "hints": [
+      "Kirchhoff's law relates heat capacity differences to enthalpy changes."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-thermo-019",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "Exothermic Processes",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following processes are EXOTHERMIC (\u0394H < 0) in nature? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Combustion of Methane gas (CH\u2084 + 2 O\u2082 \u2192 CO\u2082 + 2 H\u2082O)",
+        "isCorrect": true,
+        "explanation": "Combustion releases heat."
+      },
+      {
+        "id": "B",
+        "text": "Condensation of steam to liquid water (H\u2082O(g) \u2192 H\u2082O(l))",
+        "isCorrect": true,
+        "explanation": "Condensation releases latent heat."
+      },
+      {
+        "id": "C",
+        "text": "Neutralization of strong acid with strong base (H\u207a + OH\u207b \u2192 H\u2082O)",
+        "isCorrect": true,
+        "explanation": "Neutralization releases -57.1 kJ/mol."
+      },
+      {
+        "id": "D",
+        "text": "Sublimation of solid Iodine (I\u2082(s) \u2192 I\u2082(g))",
+        "isCorrect": false,
+        "explanation": "Sublimation requires heat input (Endothermic, \u0394H > 0)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Combustion, condensation (releasing latent heat), and acid-base neutralization (\u0394H\u00b0 = -57.1 kJ/mol) are all exothermic (\u0394H < 0).\n\u2022 D is incorrect: Sublimation requires heat input to break solid lattice bonds and is ENDOTHERMIC (\u0394H > 0).",
+    "keyFormulae": [
+      "Exothermic: \u0394H < 0 (Heat released)"
+    ],
+    "hints": [
+      "Phase changes from gas to liquid or solid release heat."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-thermo-020",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Chemical Thermodynamics",
+    "subtopic": "van der Waals Constants Characteristics",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding the van der Waals constants a and b: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Constant a measures the magnitude of inter-molecular attractive forces",
+        "isCorrect": true,
+        "explanation": "Physical definition of a."
+      },
+      {
+        "id": "B",
+        "text": "Constant b represents 4 times the actual volume occupied by 1 mole of gas molecules (b = 4 N_A V_mol)",
+        "isCorrect": true,
+        "explanation": "Co-volume formula."
+      },
+      {
+        "id": "C",
+        "text": "Gases with higher a values (e.g., NH\u2083, SO\u2082) have higher critical temperatures and are easily liquefiable",
+        "isCorrect": true,
+        "explanation": "T_c \u221d a."
+      },
+      {
+        "id": "D",
+        "text": "Units of a are bar\u00b7dm\u2076/mol\u00b2 and units of b are dm\u00b3/mol",
+        "isCorrect": true,
+        "explanation": "Standard SI/metric units."
+      }
+    ],
+    "solutionExplanation": "All four options represent true physical definitions, mathematical relationships, and units of van der Waals constants a and b.",
+    "keyFormulae": [
+      "b = 4 N_A (4/3 \u03c0 r\u00b3)",
+      "T_c = 8a / (27Rb)"
+    ],
+    "hints": [
+      "Constant a corrects for attraction; constant b corrects for volume."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "id": "chem-xii-u17-c8-l08",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVII \u2014 Aldehydes, Ketones and Carboxylic Acids",
+  "unitNumber": 17,
+  "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+  "chapterNumber": 8,
+  "chapterSlug": "aldehydes-ketones-carboxylic-acids",
+  "slug": "lesson-08-decarboxylation-hvz-reaction-10-traps-master-glossary",
+  "title": "Decarboxylation Pathways, HVZ Reaction, 10 Traps, & Master Glossary",
+  "topic": "Decarboxylation, HVZ & Master Glossary",
+  "topics": [
+    "8. Decarboxylation Pathways: Soda-Lime Decarboxylation (NaOH/CaO, \u0394 \u2500\u2500\u25ba Alkane with 1 Carbon Less)",
+    "Kolbe's Electrolysis (Anodic Decarboxylative Free Radical Coupling)",
+    "8.1 The Hell-Volhard-Zelinsky (HVZ) Reaction: Selective \u03b1-Halogenation (X\u2082 / Red P, H\u2082O)",
+    "HVZ Mechanism & Substrate Constraints (Fails for HCOOH and (CH\u2083)\u2083C-COOH)",
+    "9. High-Yield NEST Misconceptions & Traps Table (All 10 Items)",
+    "10. Master Glossary for Carbonyl and Carboxylic Chemistry (All 28 Definitions)"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 11,
+  "estimatedTimeMinutes": 11,
+  "difficulty": "Comprehensive Review",
+  "source": "production",
+  "status": "published",
+  "diagramType": "aldehydes-ketones-carboxylic-acids",
+  "quickSummary": "Soda-lime decarboxylation (NaOH/CaO) yields an alkane with 1 less carbon. Kolbe's electrolysis couples carboxylate radicals at the anode. The HVZ reaction (X\u2082/Red P, H\u2082O) selectively \u03b1-halogenates carboxylic acids possessing \u03b1-hydrogens (fails for HCOOH and trimethylacetic acid). Review all 10 NEST traps and the complete 28-term master glossary.",
+  "summary": "Master decarboxylation routes, the HVZ \u03b1-halogenation mechanism, 10 high-yield NEST traps, and the master glossary.",
+  "conceptBreakdown": [
+    {
+      "heading": "8. Decarboxylation Routes & 8.1 The HVZ Reaction",
+      "title": "8. Decarboxylation Routes & 8.1 The HVZ Reaction",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Decarboxylation & HVZ Rules",
+        "takeaway": "Soda-lime (NaOH/CaO) yields alkane with 1 less carbon. HVZ (X\u2082/Red P) selectively \u03b1-halogenates acids with \u22651 \u03b1-H; fails for HCOOH and (CH\u2083)\u2083C-COOH."
+      },
+      "codeSnippet": "                          DECARBOXYLATION PATHWAYS\n                                     \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                                                       \u25bc\n  SODA-LIME DECARBOXYLATION                               KOLBE'S ELECTROLYSIS\n  $R\\text{COONa} + \\text{NaOH} \\xrightarrow{\\text{CaO}, \\Delta} \\mathbf{R\\text{-H}} + \\text{Na}_2\\text{CO}_3$ $2 R\\text{COONa} + 2\\text{H}_2\\text{O} \\xrightarrow{\\text{Electrolysis}} \\mathbf{R\\text{-}R} + 2\\text{CO}_2$\n  (Yields alkane with **1 carbon less**).                  (Anodic free radical coupling).\n\nHELL-VOLHARD-ZELINSKY (HVZ) REACTION:\nR-CH\u2082-COOH + X\u2082 \u2500\u2500[1. Red P, 2. H\u2082O]\u2500\u2500\u25ba R-CH(X)-COOH (\u03b1-Halo Acid) + HX",
+      "content": "- **Soda-Lime Decarboxylation**: $R\\text{COONa} + \\text{NaOH} \\xrightarrow{\\text{CaO}, \\Delta} R\\text{-H} + \\text{Na}_2\\text{CO}_3$.\n- **Kolbe Electrolysis**: Electrolysis of sodium carboxylate produces symmetrical alkane at anode via radical dimerization.\n- **HVZ Reaction**: Carboxylic acids with $\\alpha$-H react with $\\text{Cl}_2$ or $\\text{Br}_2$ and Red Phosphorus followed by water to yield $\\alpha$-halo carboxylic acids. Fails for Formic acid ($\\text{HCOOH}$) and Trimethylacetic acid ($(\\text{CH}_3)_3\\text{C-COOH}$) due to lack of $\\alpha$-hydrogens."
+    },
+    {
+      "heading": "9. 10 High-Yield NEST Traps & Master Glossary",
+      "title": "9. 10 High-Yield NEST Traps & Master Glossary",
+      "type": "paragraph",
+      "codeSnippet": "10 NEST ALDEHYDES, KETONES & CARBOXYLIC ACIDS TRAPS SUMMARY\n\n1. NaBH\u2084 CANNOT reduce carboxylic acids or esters (LiAlH\u2084 required).\n2. Benzaldehyde FAILS to reduce Fehling's or Benedict's solution.\n3. In semicarbazide, ONLY the -NH\u2082 attached to -NH- is nucleophilic.\n4. In crossed Cannizzaro (PhCHO + HCHO), Formaldehyde is EXCLUSIVELY OXIDIZED.\n5. Clemmensen uses conc. HCl (cleaves -OH, ethers); use Wolff-Kishner instead.\n6. Formic acid (HCOOH) gives POSITIVE Tollens' and Fehling's tests!\n7. Trimethylacetic acid lacks \u03b1-hydrogens and FAILS the HVZ reaction.\n8. Almost ALL o-substituted benzoic acids are STRONGER ACIDS than Benzoic Acid (Ortho-Effect).\n9. Popoff's rule: keto group stays with the SMALLER alkyl group during oxidation.\n10. Aldol requires AT LEAST ONE \u03b1-hydrogen (otherwise Cannizzaro occurs).",
+      "content": "Review all 10 high-yield traps and the complete 28-term master glossary before taking the 20-question self-assessment module."
+    }
+  ],
+  "quickRevision": [
+    "Soda-lime decarboxylation yields an alkane with 1 less carbon.",
+    "HVZ reaction \u03b1-halogenates carboxylic acids using X\u2082 / Red P.",
+    "HVZ fails for HCOOH and (CH\u2083)\u2083C-COOH (no \u03b1-H).",
+    "Formic acid gives positive Tollens' and Fehling's tests (contains aldehyde moiety).",
+    "NaBH\u2084 does not reduce carboxylic acids or esters."
+  ],
+  "keyFormulae": [
+    "R\\text{-CH}_2\\text{-COOH} + \\text{X}_2 \\xrightarrow{\\text{1. Red P, } 2. \\text{ H}_2\\text{O}} R\\text{-CH(X)-COOH} + \\text{HX}",
+    "R\\text{COONa} + \\text{NaOH} \\xrightarrow{\\text{CaO}, \\Delta} R\\text{-H} + \\text{Na}_2\\text{CO}_3"
+  ]
+}

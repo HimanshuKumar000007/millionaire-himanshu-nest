@@ -1,0 +1,50 @@
+{
+  "id": "bio-xi-u4-c11-l08",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Photosynthesis in Higher Plants",
+  "chapterNumber": 11,
+  "chapterSlug": "photosynthesis-in-higher-plants",
+  "slug": "lesson-08-crassulacean-acid-metabolism-cam-pathway",
+  "title": "Crassulacean Acid Metabolism (CAM Pathway)",
+  "topic": "Temporal Separation, Nocturnal Stomata Opening, Vacuolar Malic Acid Storage, & Xeric Adaptation",
+  "topics": [
+    "CAM Photosynthesis Overview (Pineapple, Agave, Cactus, Opuntia, Sedum)",
+    "Temporal Separation of Carbon Fixation vs C4 Spatial Separation",
+    "Nighttime Reactions: Scotoactive Stomatal Opening & PEPCase Malate Synthesis",
+    "Nocturnal Acidification: Vacuolar Storage of Malic Acid",
+    "Daytime Reactions: Stomatal Closure, Malate Decarboxylation, & RuBisCO C3 Fixation",
+    "Extreme Water-Use Efficiency in Xeric Environments"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "CAM plants (Crassulaceae, Cacti, Pineapple) survive extreme arid environments through temporal separation of carbon fixation. At night, scotoactive stomata open to minimize transpiration; PEPCase fixes CO2 into malate, stored as malic acid in large vacuoles (nocturnal acidification). During the day, stomata remain tightly closed; malic acid leaves the vacuole and is decarboxylated to release CO2, which is fixed by RuBisCO via the C3 Calvin cycle using light-generated ATP and NADPH.",
+  "summary": "CAM plants (Crassulaceae, Cacti, Pineapple) survive extreme arid environments through temporal separation of carbon fixation. At night, scotoactive stomata open to minimize transpiration; PEPCase fixes CO2 into malate, stored as malic acid in large vacuoles (nocturnal acidification). During the day, stomata remain tightly closed; malic acid leaves the vacuole and is decarboxylated to release CO2, which is fixed by RuBisCO via the C3 Calvin cycle using light-generated ATP and NADPH.",
+  "conceptBreakdown": [
+    {
+      "heading": "7. CAM Temporal Separation Framework",
+      "title": "7. CAM Temporal Separation Framework",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "CAM = Temporal separation (Night: Stomata open, PEPCase, Malic acid in vacuole; Day: Stomata closed, Decarboxylation, RuBisCO C3)."
+      },
+      "codeSnippet": "CAM TEMPORAL SEPARATION\n                                      │\n         ┌────────────────────────────┴────────────────────────────┐\n         ▼                                                         ▼\n   NIGHTTIME MECHANISM                                       DAYTIME MECHANISM\n   ├── Stomata OPEN (Prevents transpiration)                 ├── Stomata CLOSED (Prevents water loss)\n   ├── $\\text{CO}_2$ fixed by PEPCase ──► OAA ──► Malate      ├── Malate leaves vacuole ──► Decarboxylated\n   └── Malic Acid stored in **Large Vacuoles**                └── High internal $\\text{CO}_2$ fixed by RuBisCO ($C_3$)",
+      "content": "Crassulacean Acid Metabolism (**CAM**) operates in succulent desert plants (*Cacti, Agave, Pineapple, Opuntia, Sedum*) to achieve maximal water-use efficiency."
+    },
+    {
+      "heading": "7.1 Diurnal Biochemical Dynamics",
+      "title": "7.1 Diurnal Biochemical Dynamics",
+      "type": "paragraph",
+      "codeSnippet": "CAM PATHWAY CYCLE\n                        \n   NIGHT:  HCO₃⁻ + PEP ──[PEPCase]──► Malate ──► Vacuolar Storage (Malic Acid)\n   \n   DAY:    Malic Acid ──► Cytosol ──► Decarboxylation ──► CO₂ ──► RuBisCO ($C_3$) ──► Glucose",
+      "content": "• **Night (Scotoactive Phase)**: Stomata open when relative humidity is higher and temperatures are lower. $\\text{CO}_2$ is converted to $\\text{HCO}_3^-$ and fixed by **PEPCase** to form oxaloacetate, reduced to malate, and transported across the tonoplast into the central vacuole as **Malic Acid** (causing nighttime tissue acidification).\n• **Day (Photoactive Phase)**: Stomata remain closed to prevent transpiration water loss. Malate exits the vacuole into the cytosol and is decarboxylated, releasing high internal $\\text{CO}_2$ to be fixed by **RuBisCO in the Calvin ($C_3$) cycle** using solar ATP and NADPH."
+    }
+  ]
+}

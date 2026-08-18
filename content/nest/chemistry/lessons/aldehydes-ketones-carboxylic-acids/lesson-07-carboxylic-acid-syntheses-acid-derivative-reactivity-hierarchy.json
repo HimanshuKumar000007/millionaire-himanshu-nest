@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u17-c8-l07",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVII \u2014 Aldehydes, Ketones and Carboxylic Acids",
+  "unitNumber": 17,
+  "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+  "chapterNumber": 8,
+  "chapterSlug": "aldehydes-ketones-carboxylic-acids",
+  "slug": "lesson-07-carboxylic-acid-syntheses-acid-derivative-reactivity-hierarchy",
+  "title": "Synthesis of Carboxylic Acids & Acid Derivative Conversions",
+  "topic": "Carboxylic Acid Syntheses & Derivatives",
+  "topics": [
+    "7. Carboxylic Acid Syntheses: 1\u00b0 Alcohol Oxidation, Nitrile Hydrolysis, Grignard Dry Ice Route, Alkylbenzene Oxidation",
+    "Alkylbenzene Side-Chain Oxidation Rule (Requires at least 1 \u03b1-H on ring carbon)",
+    "7.1 Acid Derivative Reactivity Hierarchy (Acyl Chloride > Acid Anhydride > Ester > Amide)",
+    "Acid Chloride Preparation via SOCl\u2082 (Gaseous SO\u2082 and HCl Byproducts Advantage)",
+    "Fischer Esterification (Acid Catalyst, Reversible Equilibrium) & Amide Formation"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "aldehydes-ketones-carboxylic-acids",
+  "quickSummary": "Carboxylic acids are synthesized by oxidizing 1\u00b0 alcohols, hydrolyzing nitriles, reacting Grignards with dry ice (CO\u2082), or oxidizing alkylbenzenes. Acid derivative reactivity towards nucleophilic acyl substitution follows: Acyl Chloride > Acid Anhydride > Ester > Amide. SOCl\u2082 is preferred for acyl chlorides because byproducts (SO\u2082, HCl) are gases.",
+  "summary": "Master carboxylic acid synthetic routes, side-chain oxidation rules, and the acid derivative nucleophilic acyl substitution hierarchy.",
+  "conceptBreakdown": [
+    {
+      "heading": "7. Carboxylic Acid Synthetic Pathways",
+      "title": "7. Carboxylic Acid Synthetic Pathways",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Synthesis Routes",
+        "takeaway": "1. 1\u00b0 Alcohol oxidation (KMnO\u2084/H\u207a). 2. Nitrile hydrolysis (RCN + H\u2083O\u207a). 3. Grignard + CO\u2082. 4. Alkylbenzene oxidation (Ph-R \u2500\u2500\u25ba Ph-COOH if \u22651 \u03b1-H)."
+      },
+      "codeSnippet": "                         CARBOXYLIC ACID SYNTHESES\n                                     \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                  \u25bc                         \u25bc                  \u25bc\nPRIMARY ALCOHOL OXID.   NITRILE HYDROLYSIS        GRIGNARD DRY ICE   ALKYLBENZENE OXIDATION\n$\\text{R-CH}_2\\text{OH} \\xrightarrow{\\text{KMnO}_4/\\text{H}^+}$ $R\\text{-CN} \\xrightarrow{\\text{H}_3\\text{O}^+} R\\text{-CONH}_2$ $R\\text{MgX} + \\text{CO}_2 \\rightarrow$  $\\text{Ph-CH}_3 \\xrightarrow{\\text{KMnO}_4/\\text{KOH}, \\Delta}$\n$\\mathbf{R\\text{-COOH}}$               $\\xrightarrow{\\text{H}_3\\text{O}^+, \\Delta} \\mathbf{R\\text{-COOH}}$ $R\\text{COOMgX} \\xrightarrow{\\text{H}_3\\text{O}^+} \\mathbf{R\\text{-COOH}}\\mathbf{\\text{Ph-COOK} \\xrightarrow{\\text{H}^+} \\text{Ph-COOH}}$",
+      "content": "- **1\u00b0 Alcohol Oxidation**: Converted directly to carboxylic acids with acidified $\\text{KMnO}_4$.\n- **Nitrile Hydrolysis**: $R\\text{-CN} \\xrightarrow{\\text{H}_3\\text{O}^+} R\\text{-CONH}_2 \\xrightarrow{\\text{H}_3\\text{O}^+, \\Delta} R\\text{-COOH}$.\n- **Grignard + Dry Ice**: $R\\text{MgX} + \\text{CO}_2 \\to R\\text{-COOMgX} \\xrightarrow{\\text{H}_3\\text{O}^+} R\\text{-COOH}$.\n- **Alkylbenzene Oxidation**: Toluene, ethylbenzene, or isopropylbenzene oxidize to Benzoic acid ($\text{Ph-COOH}$) because they possess $\\alpha$-hydrogens. $t$-Butylbenzene lacks $\\alpha$-H and is unreactive."
+    },
+    {
+      "heading": "7.1 Acid Derivative Reactivity Hierarchy & Conversions",
+      "title": "7.1 Acid Derivative Reactivity Hierarchy & Conversions",
+      "type": "paragraph",
+      "codeSnippet": "                      ACID DERIVATIVE REACTIVITY HIERARCHY\n                      \n   $$\\mathbf{\\text{Acyl Chloride } (R\\text{COCl}) > \\text{Acid Anhydride } (R\\text{CO-O-COR}) > \\text{Ester } (R\\text{COOR'}) > \\text{Amide } (R\\text{CONH}_2)}$$\n\n\u2022 Acyl Chloride: RCOOH + SOCl\u2082 \u2500\u2500\u25ba RCOCl + SO\u2082 \u2191 + HCl \u2191 (Gaseous byproducts!)\n\u2022 Anhydride:     2 RCOOH \u2500\u2500[P\u2082O\u2085, \u0394]\u2500\u2500\u25ba (RCO)\u2082O + H\u2082O\n\u2022 Ester:         RCOOH + R'OH \u2500\u2500[Conc. H\u2082SO\u2084]\u21cb RCOOR' + H\u2082O (Fischer Esterification)\n\u2022 Amide:         RCOOH + NH\u2083 \u2500\u2500\u25ba RCOONH\u2084 \u2500\u2500[\u0394, -H\u2082O]\u2500\u2500\u25ba RCONH\u2082",
+      "content": "Reactivity in nucleophilic acyl substitution depends on leaving group ability ($\\text{Cl}^- > \\text{RCOO}^- > \\text{RO}^- > \\text{NH}_2^-$) and carbonyl electrophilicity. Thionyl chloride ($\\text{SOCl}_2$) is the superior reagent for acyl chlorides because both byproducts ($\\text{SO}_2$ and $\\text{HCl}$) escape as gases."
+    }
+  ],
+  "quickRevision": [
+    "Grignard + Dry Ice (CO\u2082) yields Carboxylic acids.",
+    "Alkylbenzenes with \u22651 \u03b1-H oxidize to Benzoic acid (t-butylbenzene fails).",
+    "Acid derivative reactivity: Acyl Chloride > Anhydride > Ester > Amide.",
+    "SOCl\u2082 is preferred for acyl chlorides because byproducts are gases (SO\u2082, HCl).",
+    "Fischer esterification is an acid-catalyzed reversible equilibrium."
+  ],
+  "keyFormulae": [
+    "R\\text{MgX} + \\text{CO}_2 \\xrightarrow{\\text{Dry Ether}} R\\text{COOMgX} \\xrightarrow{\\text{H}_3\\text{O}^+} R\\text{COOH}",
+    "R\\text{COOH} + \\text{SOCl}_2 \\longrightarrow R\\text{COCl} + \\text{SO}_2 \\uparrow + \\text{HCl} \\uparrow"
+  ]
+}

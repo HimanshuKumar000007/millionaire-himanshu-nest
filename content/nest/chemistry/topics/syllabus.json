@@ -1,0 +1,332 @@
+{
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "version": "NEST 2026",
+  "units": [
+    {
+      "unitNumber": 1,
+      "unitTitle": "Some Basic Concepts of Chemistry",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 1,
+          "chapterTitle": "Some Basic Concepts of Chemistry",
+          "slug": "some-basic-concepts-of-chemistry",
+          "topics": [
+            "Atomic and molecular masses",
+            "Mole concept & molar mass",
+            "Empirical & molecular formulas",
+            "Stoichiometry & calculations"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 2,
+      "unitTitle": "Structure of Atom",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 2,
+          "chapterTitle": "Structure of Atom",
+          "slug": "atomic-structure",
+          "topics": [
+            "Bohr's atomic model",
+            "de Broglie & Heisenberg uncertainty principle",
+            "Quantum numbers & orbital shapes",
+            "Aufbau, Pauli & Hund's rules"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 3,
+      "unitTitle": "Classification of Elements and Periodicity in Properties",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 3,
+          "chapterTitle": "Classification of Elements and Periodicity",
+          "slug": "periodic-classification",
+          "topics": [
+            "Periodic trends in atomic & ionic radii",
+            "Ionization enthalpy & electron gain enthalpy",
+            "Electronegativity trends"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 4,
+      "unitTitle": "Chemical Bonding and Molecular Structure",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 4,
+          "chapterTitle": "Chemical Bonding and Molecular Structure",
+          "slug": "chemical-bonding",
+          "topics": [
+            "Ionic & covalent bonds",
+            "VSEPR theory & molecular geometry",
+            "Hybridization (sp, sp2, sp3, d-hybridization)",
+            "Molecular Orbital Theory (MOT)"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 5,
+      "unitTitle": "Chemical Thermodynamics",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 5,
+          "chapterTitle": "Chemical Thermodynamics",
+          "slug": "chemical-thermodynamics",
+          "topics": [
+            "First law of thermodynamics (U, H, q, w)",
+            "Hess's law & enthalpy of reactions",
+            "Second law, Entropy & Gibbs free energy"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 6,
+      "unitTitle": "Equilibrium",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 6,
+          "chapterTitle": "Equilibrium",
+          "slug": "equilibrium",
+          "topics": [
+            "Law of mass action & Kc/Kp",
+            "Le Chatelier's principle",
+            "pH, buffers, hydrolysis & solubility product"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 7,
+      "unitTitle": "Redox Reactions",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 7,
+          "chapterTitle": "Redox Reactions",
+          "slug": "redox-reactions",
+          "topics": [
+            "Oxidation number concept",
+            "Balancing redox reactions"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 8,
+      "unitTitle": "Organic Chemistry: Basic Principles and Techniques",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 8,
+          "chapterTitle": "Organic Chemistry Principles & Techniques",
+          "slug": "organic-chemistry-principles",
+          "topics": [
+            "IUPAC nomenclature",
+            "Inductive, electromeric, resonance & hyperconjugation effects",
+            "Carbocations, carbanions & free radicals"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 9,
+      "unitTitle": "Hydrocarbons",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 9,
+          "chapterTitle": "Hydrocarbons",
+          "slug": "hydrocarbons",
+          "topics": [
+            "Alkanes (Conformations of ethane, halogenation)",
+            "Alkenes (Geometrical isomerism, Markovnikov addition)",
+            "Alkynes (Acidic character, addition reactions)",
+            "Aromatic Hydrocarbons (Benzene resonance & electrophilic substitution)"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 10,
+      "unitTitle": "Solutions",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 1,
+          "chapterTitle": "Solutions",
+          "slug": "solutions",
+          "topics": [
+            "Raoult's law & ideal/non-ideal solutions",
+            "Colligative properties (Vapor pressure, Boiling point, Freezing point, Osmotic pressure)",
+            "Van't Hoff factor"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 11,
+      "unitTitle": "Electrochemistry",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 2,
+          "chapterTitle": "Electrochemistry",
+          "slug": "electrochemistry",
+          "topics": [
+            "Nernst equation & cell potential",
+            "Kohlrausch's law & molar conductivity",
+            "Electrolysis & batteries"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 12,
+      "unitTitle": "Chemical Kinetics",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 3,
+          "chapterTitle": "Chemical Kinetics",
+          "slug": "chemical-kinetics",
+          "topics": [
+            "Rate of reaction & order/molecularity",
+            "Integrated rate equations (Zero & First order)",
+            "Arrhenius equation & activation energy"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 13,
+      "unitTitle": "d and f Block Elements",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 4,
+          "chapterTitle": "d and f Block Elements",
+          "slug": "d-and-f-block-elements",
+          "topics": [
+            "Transition metal properties & oxidation states",
+            "K2Cr2O7 & KMnO4 preparations",
+            "Lanthanide contraction"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 14,
+      "unitTitle": "Coordination Compounds",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 5,
+          "chapterTitle": "Coordination Compounds",
+          "slug": "coordination-compounds",
+          "topics": [
+            "IUPAC nomenclature of coordination compounds",
+            "Valence Bond Theory (VBT)",
+            "Crystal Field Theory (CFT) & isomerism"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 15,
+      "unitTitle": "Haloalkanes and Haloarenes",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 6,
+          "chapterTitle": "Haloalkanes and Haloarenes",
+          "slug": "haloalkanes-and-haloarenes",
+          "topics": [
+            "SN1 and SN2 reaction mechanisms",
+            "Electrophilic substitution in haloarenes"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 16,
+      "unitTitle": "Alcohols, Phenols and Ethers",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 7,
+          "chapterTitle": "Alcohols, Phenols and Ethers",
+          "slug": "alcohols-phenols-ethers",
+          "topics": [
+            "Identification of primary, secondary & tertiary alcohols",
+            "Acidity of phenol & electrophilic substitution",
+            "Ethers preparation & properties"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 17,
+      "unitTitle": "Aldehydes, Ketones and Carboxylic Acids",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 8,
+          "chapterTitle": "Aldehydes, Ketones and Carboxylic Acids",
+          "slug": "aldehydes-ketones-carboxylic-acids",
+          "topics": [
+            "Nucleophilic addition mechanism",
+            "Aldol condensation & Cannizzaro reaction",
+            "Acidity of carboxylic acids"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 18,
+      "unitTitle": "Amines",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 9,
+          "chapterTitle": "Amines",
+          "slug": "amines",
+          "topics": [
+            "Basicity of amines",
+            "Identification tests (Carbylamine, Hinsberg)",
+            "Diazonium salts synthetic applications"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 19,
+      "unitTitle": "Biomolecules",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 10,
+          "chapterTitle": "Biomolecules",
+          "slug": "biomolecules-chemistry",
+          "topics": [
+            "Carbohydrates (Glucose, Fructose, Sucrose, Starch)",
+            "Proteins & amino acids primary/secondary structure",
+            "Nucleic acids (DNA & RNA structure)"
+          ]
+        }
+      ]
+    }
+  ]
+}

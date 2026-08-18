@@ -1,0 +1,63 @@
+{
+  "id": "bio-xi-u1-c2-l09",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit I — Diversity of Living Organisms",
+  "unitNumber": 1,
+  "chapter": "Biological Classification",
+  "chapterNumber": 2,
+  "chapterSlug": "biological-classification",
+  "slug": "lesson-09-viruses-baltimore-classification",
+  "title": "Viruses & The Baltimore Classification System",
+  "topic": "Virology & Baltimore Groups",
+  "topics": [
+    "Discovery Milestones (Ivanowsky, Beijerinck, & Stanley)",
+    "Virion Architecture (Capsids, Capsomeres, & Envelope Spikes)",
+    "Bacteriophage Structural Anatomy (T4 Phage)",
+    "The 7 Baltimore Groups of Viral Genomes",
+    "Lytic vs Lysogenic Pathways (Prophage Induction)"
+  ],
+  "order": 9,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High-Yield Advanced",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Viruses are obligate intracellular nucleoprotein complexes containing DNA or RNA. The Baltimore classification categorizes viruses into 7 groups based on mRNA synthesis pathways. Bacteriophages follow lytic (virulent) or lysogenic (temperate prophage) cycles.",
+  "summary": "Viruses are obligate intracellular nucleoprotein complexes containing DNA or RNA. The Baltimore classification categorizes viruses into 7 groups based on mRNA synthesis pathways. Bacteriophages follow lytic (virulent) or lysogenic (temperate prophage) cycles.",
+  "conceptBreakdown": [
+    {
+      "heading": "Viruses & The Baltimore Classification System",
+      "title": "Viruses & The Baltimore Classification System",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary Box",
+        "takeaway": "Viruses are acellular obligate intracellular parasites. Genomes are categorized into 7 Baltimore groups depending on how (+)mRNA is transcribed."
+      },
+      "codeSnippet": "VIRUS DISCOVERY MILESTONES\n                            \n  Dmitri Ivanowsky (1892)  ──► Filterable agent passes through porcelain bacteria filters\n  M.W. Beijerinck (1898)   ──► \"Contagium vivum fluidum\" (Infectious living fluid)\n  Wendell Stanley (1935)   ──► Crystallized Tobacco Mosaic Virus (TMV); proved protein nature",
+      "content": "Viruses are non-cellular, obligate intracellular parasites that lack metabolic machinery, ribosomes, and ATP-generating pathways. Outside host cells, they exist as inert crystalline nucleoprotein complexes (virions)."
+    },
+    {
+      "heading": "9.1 Structural Architecture of Virions",
+      "title": "9.1 Structural Architecture of Virions",
+      "type": "paragraph",
+      "codeSnippet": "BACTERIOPHAGE STRUCTURAL ARCHITECTURE\n                      \n         ┌───────────┐\n         │ Icosahedral│  <-- Head (Contains dsDNA)\n         │   Head    │\n         └─────┬─────┘\n               │        <-- Collar / Neck\n               │\n            ======      <-- Contractile Sheath (Tail)\n               │\n           ┌───┴───┐    <-- Base Plate\n          /  / | \\  \\   <-- Tail Fibers (Recognition/Attachment)",
+      "content": "• Genetic Material: Contains EITHER DNA OR RNA, NEVER BOTH. Can be single-stranded (ss) or double-stranded (ds), linear or circular.\n• Capsid: Protein coat surrounding the nucleic acid, built from repeating protein subunits called Capsomeres.\n- Helical Symmetry: Capsomeres arranged in a hollow spiral cylinder (e.g., Tobacco Mosaic Virus - TMV; elongated rod $300\\text{ nm} \\times 18\\text{ nm}$, contains ssRNA + 2130 capsomeres).\n- Icosahedral Symmetry: Polyhedral shape with 20 triangular faces and 12 corners (e.g., Adenovirus, Poliovirus).\n- Complex Symmetry: Binal symmetry containing an icosahedral head and a helical contractile tail assembly (e.g., T-even Bacteriophages T2, T4).\n• Envelope: Lipid bilayer membrane surrounding the capsid in certain animal viruses (e.g., Influenza, HIV, SARS-CoV-2), studded with glycoprotein spikes (e.g., Hemagglutinin, Neuraminidase)."
+    },
+    {
+      "heading": "9.2 The Baltimore Classification System",
+      "title": "9.2 The Baltimore Classification System",
+      "type": "table",
+      "codeSnippet": "BALTIMORE VIRUS CLASSIFICATION\n                                    │\n    ┌──────────┬──────────┬─────────┴─────────┬──────────┬──────────┬──────────┐\n    ▼          ▼          ▼                   ▼          ▼          ▼          ▼\n Group I   Group II   Group III           Group IV    Group V    Group VI   Group VII\n (dsDNA)    (ssDNA)    (dsRNA)            ((+)ssRNA) ((-)ssRNA) (ssRNA-RT)  (dsDNA-RT)",
+      "content": "| Baltimore Group | Genome Type | Pathway to mRNA Synthesis | Key Examples |\n| :--- | :--- | :--- | :--- |\n| **Group I** | Double-Stranded DNA (dsDNA) | dsDNA $\\rightarrow$ mRNA | Herpesvirus, Poxvirus, Adenovirus, T4 Phage |\n| **Group II** | Single-Stranded DNA (ssDNA) | ssDNA $\\rightarrow$ dsDNA $\\rightarrow$ mRNA | Parvovirus B19, $\\phi X174$ Phage |\n| **Group III** | Double-Stranded RNA (dsRNA) | dsRNA $\\rightarrow$ mRNA (via Viral RNA Polymerase) | Reovirus, Rotavirus |\n| **Group IV** | Positive-Sense Single-Stranded RNA ((+)ssRNA) | Genome functions directly as mRNA $\\rightarrow$ polyprotein | Poliovirus, Hepatitis A & C, SARS-CoV-2 |\n| **Group V** | Negative-Sense Single-Stranded RNA ((-)ssRNA) | (-)ssRNA $\\xrightarrow{\\text{Viral RNA Replicase}}$ (+)mRNA | Influenza, Rabies, Ebola, Measles |\n| **Group VI** | Single-Stranded RNA with Reverse Transcriptase (ssRNA-RT) | ssRNA $\\xrightarrow{\\text{Reverse Transcriptase}}$ ssDNA $\\rightarrow$ dsDNA $\\xrightarrow{\\text{Integration}}$ mRNA | Retroviruses (**HIV-1**, HTLV-1) |\n| **Group VII** | Double-Stranded DNA with Reverse Transcriptase (dsDNA-RT) | dsDNA $\\rightarrow$ RNA Intermediate $\\xrightarrow{\\text{Reverse Transcriptase}}$ dsDNA | Hepatitis B Virus (Hepadnavirus) |"
+    },
+    {
+      "heading": "9.3 Viral Life Cycles: Lytic vs. Lysogenic Pathways",
+      "title": "9.3 Viral Life Cycles: Lytic vs. Lysogenic Pathways",
+      "type": "paragraph",
+      "codeSnippet": "LYTIC vs. LYSOGENIC CYCLES\n                           \n       ADSORPTION          Attaches to host surface receptors via tail fibers\n           │\n           ▼\n       PENETRATION         Injects viral genome into host cytoplasm\n           │\n           ├─────────────────────────────────────────┐\n           ▼                                         ▼\n     LYTIC PATHWAY                           LYSOGENIC PATHWAY\n     (Virulent Phage - T4)                   (Temperate Phage - Lambda λ)\n     ├── Host DNA Degradation                ├── Integration into Host Chromosome\n     ├── Viral Transcription & Translation   │   (Forms PROPHAGE)\n     ├── Assembly of Virions                 ├── Replicates along with Host Cell\n     └── Host Lysis & Virion Release         └── Induction via UV/Stress ──► Lytic",
+      "content": "• Lytic Cycle (Virulent Phage - e.g., T4): Immediate host takeover, chromosome degradation, synthesis of viral capsomeres, packaging into mature virions, and lysozyme-driven host cell lysis.\n\n• Lysogenic Cycle (Temperate Phage - e.g., Lambda λ): Phage DNA integrates into the host chromosome as a latent Prophage. Replicates passively with the bacterial host until environmental stressors (UV light) trigger excision into the lytic cascade."
+    }
+  ]
+}

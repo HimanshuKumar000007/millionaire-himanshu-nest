@@ -1,0 +1,62 @@
+{
+  "id": "chem-xii-u14-c5-l01",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XIV \u2014 Coordination Compounds",
+  "unitNumber": 14,
+  "chapter": "Coordination Compounds",
+  "chapterNumber": 5,
+  "chapterSlug": "coordination-compounds",
+  "slug": "lesson-01-werners-theory-complexes-vs-double-salts-ligand-classification",
+  "title": "Werner\u2019s Theory, Complex vs. Double Salt Taxonomy, & Ligand Classification",
+  "topic": "Werner's Theory & Ligand Taxonomy",
+  "topics": [
+    "Werner's Dual Valency Theory (1893): Primary Valency (Ionizable, Non-directional, Oxidation State) vs Secondary Valency (Non-ionizable, Directional, Coordination Number)",
+    "Double Salts (Mohr's Salt, Carnallite, Potash Alum) vs Coordination Complexes (K\u2084[Fe(CN)\u2086], [Cu(NH\u2083)\u2084]SO\u2084)",
+    "1.1 Ligand Denticity Classes (Monodentate, Bidentate: en, ox\u00b2\u207b, gly\u207b, dmg\u207b; Polydentate: EDTA\u2074\u207b)",
+    "Ambidentate Ligand Binding Modes (Nitrito -NO\u2082\u207b/-ONO\u207b, Thiocyanato -SCN\u207b/-NCS\u207b, Cyanido -CN\u207b/-NC\u207b)",
+    "The Chelate Effect (Thermodynamic Stability & Entropy Increase \u0394S\u00b0 > 0)"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "coordination-compounds",
+  "quickSummary": "Werner's Dual Valency: Primary valency is ionizable/non-directional (Oxidation State); Secondary valency is non-ionizable/directional (Coordination Number). Double salts dissociate completely into simple ions; coordination complexes retain complex ion integrity. Ligand denticity ranges from monodentate to hexadentate (EDTA\u2074\u207b). Ambidentate ligands bind via either of two donor atoms.",
+  "summary": "Master Werner's dual valency theory, double salt vs coordination complex differences, ligand denticity classes, and the chelate effect.",
+  "conceptBreakdown": [
+    {
+      "heading": "1. Werner\u2019s Dual Valency Theory & Complex Taxonomy",
+      "title": "1. Werner\u2019s Dual Valency Theory & Complex Taxonomy",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Werner's Dual Valency (1893)",
+        "takeaway": "Primary Valency = Ionizable, Non-directional, Oxidation State. Secondary Valency = Non-ionizable, Directional, Coordination Number & 3D Geometry."
+      },
+      "codeSnippet": "                         WERNER'S DUAL VALENCY THEORY (1893)\n                                       \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                                                           \u25bc\n  PRIMARY VALENCY                                            SECONDARY VALENCY\n  \u251c\u2500\u2500 Ionizable; satisfies negative charges                  \u251c\u2500\u2500 Non-ionizable; satisfied by neutral/anionic ligands\n  \u251c\u2500\u2500 Non-directional; corresponds to **Oxidation State**    \u251c\u2500\u2500 Directional; corresponds to **Coordination Number**\n  \u2514\u2500\u2500 Depicted as dashed lines in structures                 \u2514\u2500\u2500 Defines fixed 3D spatial geometry (Octahedral/Square)\n\n                     DOUBLE SALTS vs COORDINATION COMPLEXES\n                     \n   DOUBLE SALTS (*e.g., Mohr's Salt, Carnallite, Potash Alum*):\n   \u251c\u2500\u2500 Completely dissociate into individual constituent simple ions when dissolved in water.\n   \u2514\u2500\u2500 Lose their structural identity in aqueous solution (*e.g., $\\text{FeSO}_4\\cdot(\\text{NH}_4)_2\\text{SO}_4\\cdot 6\\text{H}_2\\text{O} \\rightarrow \\text{Fe}^{2+} + 2\\text{NH}_4^+ + 2\\text{SO}_4^{2-}$*).\n   \n   COORDINATION COMPLEXES (*e.g., $\\text{K}_4[\\text{Fe(CN)}_6], [\\text{Cu(NH}_3)_4]\\text{SO}_4$*):\n   \u251c\u2500\u2500 Do NOT dissociate into simple constituent ions in water; retain complex ion identity.\n   \u2514\u2500\u2500 Complex ion remains intact in aqueous solution (*e.g., $\\text{K}_4[\\text{Fe(CN)}_6] \\rightarrow 4\\text{K}^+ + [\\text{Fe(CN)}_6]^{4-}$*).",
+      "content": "Coordination chemistry evaluates metal-ligand complexes where a central metal ion acts as a Lewis acid (electron-pair acceptor) bound to surrounding neutral or anionic Ligands acting as Lewis bases (electron-pair donors) via coordinate covalent bonds."
+    },
+    {
+      "heading": "1.1 Ligand Denticity & Specialized Ligand Behavior",
+      "title": "1.1 Ligand Denticity & Specialized Ligand Behavior",
+      "type": "paragraph",
+      "codeSnippet": "                            LIGAND DENTICITY CLASSES\n                                       \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                  \u25bc                             \u25bc                  \u25bc\n MONODENTATE        BIDENTATE                     POLYDENTATE         AMBIDENTATE\n Binds via 1 donor  Binds via 2 donors            Binds via $>2$      Possesses 2 donor atoms;\n atom (*$\\text{Cl}^-, \\text{H}_2\\text{O}$*). (*en, $\\text{ox}^{2-}$, gly^-, dmg^-*).donors (**$\\text{EDTA}^{4-}$**).   binds via EITHER ONE.\n\n                        AMBIDENTATE BINDING MODES\n                        \n   Nitrito-$\\text{N}$ ($-\\text{NO}_2^-$)   vs   Nitrito-$\\text{O}$ ($-\\text{ONO}^-$)\n   Thiocyanato-$\\text{S}$ ($-\\text{SCN}^-$) vs   Thiocyanato-$\\text{N}$ ($-\\text{NCS}^-$)\n   Cyanido-$\\text{C}$ ($-\\text{CN}^-$)      vs   Cyanido-$\\text{N}$ ($-\\text{NC}^-$)",
+      "content": "Denticity is the number of donor atoms through which a ligand binds directly to a single central metal ion.\n- **Chelate Effect**: When a multidentate ligand binds a central metal ion to form a closed 5- or 6-membered ring structure (Chelate Ring), the thermodynamic stability of the complex increases dramatically ($\\Delta S^\\circ > 0$ due to increased total particle count upon ligand substitution)."
+    }
+  ],
+  "quickRevision": [
+    "Primary valency = Oxidation State (ionizable, non-directional).",
+    "Secondary valency = Coordination Number (non-ionizable, directional, defines geometry).",
+    "Double salts dissociate completely into simple ions; complexes retain complex ion integrity.",
+    "EDTA\u2074\u207b is a hexadentate ligand (2 N + 4 O donors).",
+    "Ambidentate ligands (-NO\u2082\u207b, -SCN\u207b, -CN\u207b) coordinate through either donor atom.",
+    "Chelate rings (5/6-membered) enhance stability through entropy gain (\u0394S\u00b0 > 0)."
+  ],
+  "keyFormulae": [
+    "\\text{Primary Valency} = \\text{Oxidation State}",
+    "\\text{Secondary Valency} = \\text{Coordination Number (CN)}"
+  ]
+}

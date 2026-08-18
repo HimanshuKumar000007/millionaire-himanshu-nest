@@ -1,0 +1,58 @@
+{
+  "id": "chem-xii-u11-c2-l08",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XI \u2014 Electrochemistry",
+  "unitNumber": 11,
+  "chapter": "Electrochemistry",
+  "chapterNumber": 2,
+  "chapterSlug": "electrochemistry",
+  "slug": "lesson-08-corrosion-mechanisms-traps-master-glossary",
+  "title": "Corrosion Mechanisms, 10 NEST Traps, & Master Glossary",
+  "topic": "Corrosion, Traps & Master Glossary",
+  "topics": [
+    "Electrochemical Mechanism of Rusting of Iron (Anodic Fe oxidation, Cathodic O\u2082 reduction, Hydrated Ferric Oxide Fe\u2082O\u2083\u00b7xH\u2082O)",
+    "Corrosion Prevention (Galvanization, Sacrificial Anodes with Mg/Zn, Cathodic Protection)",
+    "All 10 High-Yield NEST Traps & Misconceptions",
+    "Complete 37-Term Master Glossary for Electrochemistry"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "Comprehensive Review",
+  "source": "production",
+  "status": "published",
+  "diagramType": "electrochemistry",
+  "quickSummary": "Rusting is an electrochemical process: Anode Fe \u2500\u2500\u25ba Fe\u00b2\u207a + 2e\u207b, Cathode O\u2082 + 4H\u207a + 4e\u207b \u2500\u2500\u25ba 2H\u2082O (E\u00b0_cell = +1.67 V). Sacrificial protection uses active metals (Mg, Zn). Review all 10 NEST traps and 37 glossary definitions.",
+  "summary": "Master electrochemical corrosion mechanics, sacrificial protection, all 10 NEST traps, and complete glossary.",
+  "conceptBreakdown": [
+    {
+      "heading": "8.1 Electrochemical Mechanism of Rusting & Protection",
+      "title": "8.1 Electrochemical Mechanism of Rusting & Protection",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Rusting Cell",
+        "takeaway": "Anode: Fe \u2500\u2500\u25ba Fe\u00b2\u207a + 2e\u207b. Cathode: O\u2082 + 4H\u207a + 4e\u207b \u2500\u2500\u25ba 2H\u2082O. Rust is Fe\u2082O\u2083\u00b7xH\u2082O. Sacrificial anode (Mg/Zn) protects iron."
+      },
+      "codeSnippet": "RUSTING ELECTROCHEMICAL MECHANISM\n\n\u2022 Anodic Site:   2Fe(s) \u2500\u2500\u25ba 2Fe\u00b2\u207a(aq) + 4e\u207b  (E\u00b0 = -0.44 V)\n\u2022 Cathodic Site: O\u2082(g) + 4H\u207a(aq) + 4e\u207b \u2500\u2500\u25ba 2H\u2082O(l)  (E\u00b0 = +1.23 V)\n\u2022 Net Cell:      2Fe(s) + O\u2082(g) + 4H\u207a(aq) \u2500\u2500\u25ba 2Fe\u00b2\u207a(aq) + 2H\u2082O(l)  (E\u00b0_cell = +1.67 V)\n\u2022 Rust Formation: 4Fe\u00b2\u207a + O\u2082 + 4H\u2082O \u2500\u2500\u25ba 2Fe\u2082O\u2083 + 8H\u207a \u27f9 Fe\u2082O\u2083\u00b7xH\u2082O (Rust)",
+      "content": "\u2022 **Rusting Mechanism**: Iron acts as anode, dissolved $\\text{O}_2$ in moisture droplets acts as cathode. $\\text{H}^+$ is supplied by $\\text{H}_2\\text{CO}_3$ from atmospheric $\\text{CO}_2$.\n\u2022 **Cathodic Protection**: Underground pipelines are connected to sacrificial $\\mathbf{\\text{Mg}}$ or $\\mathbf{\\text{Zn}}$ blocks ($E^\\circ = -2.37\\text{ V}$ or $-0.76\\text{ V}$), which undergo preferential oxidation."
+    },
+    {
+      "heading": "8.2 10 High-Yield NEST Traps & Master Glossary",
+      "title": "8.2 10 High-Yield NEST Traps & Master Glossary",
+      "type": "paragraph",
+      "codeSnippet": "10 NEST TRAPS SUMMARY\n\n1. In Galvanic cells, Anode is NEGATIVE (-).\n2. Conductivity \u03ba DECREASES with dilution.\n3. E\u00b0_SHE is 0.000 V at ALL temperatures.\n4. Discharging lead battery DECREASES H\u2082SO\u2084 density.\n5. Mercury cell potential stays CONSTANT (1.35 V).\n6. 1 Faraday = 96485 C (charge of 1 MOLE of electrons).\n7. Cell constant G* units are cm\u207b\u00b9 or m\u207b\u00b9.\n8. Weak electrolytes CANNOT be extrapolated to zero concentration.\n9. Rusting requires BOTH O\u2082 AND moisture.\n10. Concentration cell has E\u00b0_cell = 0.",
+      "content": "Review all 10 NEST traps and master glossary terms before attempting the 20-question self-assessment test."
+    }
+  ],
+  "quickRevision": [
+    "Rusting: Net E\u00b0_cell = +1.67 V.",
+    "Rust formula is Fe\u2082O\u2083\u00b7xH\u2082O.",
+    "Mg and Zn act as sacrificial anodes for iron.",
+    "Review all 10 NEST traps thoroughly."
+  ],
+  "keyFormulae": [
+    "\\text{Rusting Net: } 2\\text{Fe} + \\text{O}_2 + 4\\text{H}^+ \\longrightarrow 2\\text{Fe}^{2+} + 2\\text{H}_2\\text{O} \\quad (E^\\circ = +1.67\\text{ V})"
+  ]
+}

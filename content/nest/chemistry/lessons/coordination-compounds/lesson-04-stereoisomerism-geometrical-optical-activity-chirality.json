@@ -1,0 +1,63 @@
+{
+  "id": "chem-xii-u14-c5-l04",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XIV \u2014 Coordination Compounds",
+  "unitNumber": 14,
+  "chapter": "Coordination Compounds",
+  "chapterNumber": 5,
+  "chapterSlug": "coordination-compounds",
+  "slug": "lesson-04-stereoisomerism-geometrical-optical-activity-chirality",
+  "title": "Stereoisomerism: Geometrical (cis/trans, fac/mer) & Optical Activity",
+  "topic": "Geometrical & Optical Stereoisomerism",
+  "topics": [
+    "Stereoisomerism Classes: Geometrical (Diastereomers) vs Optical (Enantiomers)",
+    "Why Tetrahedral Complexes (CN=4) CANNOT Exhibit Geometrical Isomerism",
+    "Square Planar Complexes (CN=4, dsp\u00b2): [MA\u2082B\u2082] (Cisplatin vs Transplatin), [M(AB)\u2082], [MABCD] (3 isomers)",
+    "Octahedral Geometrical Isomerism: [MA\u2084B\u2082] (cis/trans) and [MA\u2083B\u2083] (Facial fac vs Meridional mer)",
+    "4.2 Optical Activity & Chirality Criteria: Plane of Symmetry (\u03c3) and Center of Inversion (i)",
+    "Optical Resolution in Octahedral Systems: [M(aa)\u2083] (chiral), cis-[M(aa)\u2082B\u2082] (chiral), trans-[M(aa)\u2082B\u2082] (ACHIRAL due to \u03c3-plane!)"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "coordination-compounds",
+  "quickSummary": "Geometrical isomerism: cis/trans in square planar [MA\u2082B\u2082] and octahedral [MA\u2084B\u2082]; fac/mer in octahedral [MA\u2083B\u2083]. Tetrahedral complexes cannot show GI. Optical isomerism requires non-superimposable mirror images lacking planes of symmetry (\u03c3). [M(aa)\u2083] and cis-[M(aa)\u2082B\u2082] are chiral (optically active); trans-[M(aa)\u2082B\u2082] has a plane of symmetry and is ACHIRAL.",
+  "summary": "Master cis/trans, fac/mer geometrical isomerism and chirality/optical resolution rules in coordination compounds.",
+  "conceptBreakdown": [
+    {
+      "heading": "4. Stereoisomerism Classes & Geometrical Rules",
+      "title": "4. Stereoisomerism Classes & Geometrical Rules",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Geometrical Isomerism Architecture",
+        "takeaway": "Tetrahedral complexes CANNOT exhibit GI. Square planar [MA\u2082B\u2082] shows cis/trans. Octahedral [MA\u2083B\u2083] shows fac/mer."
+      },
+      "codeSnippet": "                            STEREOISOMERISM CLASSES\n                                       \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                                                           \u25bc\n  GEOMETRICAL ISOMERISM (Diastereomers)                      OPTICAL ISOMERISM (Enantiomers)\n  Different relative ligand arrangements.                    Non-superimposable mirror images.\n  \u251c\u2500\u2500 *cis* vs *trans* ($90^\\circ$ vs $180^\\circ$)           \u251c\u2500\u2500 Lacks plane of symmetry ($\\sigma$)\n  \u2514\u2500\u2500 *fac* vs *mer* ($[\\text{MA}_3\\text{B}_3]$ Octahedral)  \u2514\u2500\u2500 Chiral ($d$- and $l$-enantiomers)\n\n                      FACIAL (fac) vs MERIDIONAL (mer) ISOMERISM\n                      \n      FACIAL (*fac*)-ISOMER                      MERIDIONAL (*mer*)-ISOMER\n      Three identical ligands occupy the corners Three identical ligands lie in a single plane\n      of a single **triangular face** of the octahedron. encircling the central metal atom.",
+      "content": "- **Tetrahedral Complexes (CN = 4)**: CANNOT exhibit geometrical isomerism because all 4 positions are adjacent ($109.5^\\circ$) and equivalent.\n- **Square Planar ($dsp^2$)**: $[\\text{MA}_2\\text{B}_2]$ exists as *cis* ($90^\\circ$) and *trans* ($180^\\circ$) (*Cisplatin* $[\\text{Pt(NH}_3)_2\\text{Cl}_2]$ [anti-cancer] vs *Transplatin* [inactive]). $[\\text{MABCD}]$ yields 3 geometrical isomers.\n- **Octahedral ($[\\text{MA}_3\\text{B}_3]$)**: *Facial (fac)* (3 ligands on 1 triangular face) vs *Meridional (mer)* (3 ligands in 1 plane)."
+    },
+    {
+      "heading": "4.2 Optical Isomerism & Chirality in Octahedral Systems",
+      "title": "4.2 Optical Isomerism & Chirality in Octahedral Systems",
+      "type": "paragraph",
+      "codeSnippet": "                      OPTICAL RESOLUTION IN OCTAHEDRAL SYSTEMS\n                      \n   1. $[\\text{M(aa)}_3]$ (*e.g., $[\\text{Co(en)}_3]^{3+}$*): Completely CHIRAL; exists as $d$- and $l$-enantiomers.\n   2. *cis*-$[\\text{M(aa)}_2\\text{B}_2]$ (*e.g., cis-$[\\text{Co(en)}_2\\text{Cl}_2]^+$*): CHIRAL; exists as $d$- and $l$-enantiomers.\n   3. *trans*-$[\\text{M(aa)}_2\\text{B}_2]$ (*e.g., trans-$[\\text{Co(en)}_2\\text{Cl}_2]^+$*): Possesses a Plane of Symmetry ($\\sigma$) \n      \u2500\u2500\u25ba **ACHIRAL / OPTICALLY INACTIVE!** (Cannot be resolved).",
+      "content": "A complex is Optically Active if it lacks a plane of symmetry ($\\sigma$) or center of inversion ($i$).\n- **CRITICAL NEST TRAP**: *trans*-$[\\text{Co(en)}_2\\text{Cl}_2]^+$ has a horizontal/vertical plane of symmetry ($\\sigma$), making it strictly **ACHIRAL and optically inactive**! Only *cis*-$[\\text{Co(en)}_2\\text{Cl}_2]^+$ is chiral."
+    }
+  ],
+  "quickRevision": [
+    "Tetrahedral complexes CANNOT show geometrical isomerism.",
+    "Square planar [MA\u2082B\u2082] has cis (90\u00b0) and trans (180\u00b0) isomers.",
+    "Octahedral [MA\u2083B\u2083] shows fac and mer isomerism.",
+    "[M(aa)\u2083] (e.g., [Co(en)\u2083]\u00b3\u207a) is chiral and optically active.",
+    "cis-[M(aa)\u2082B\u2082] is chiral (optically active); trans-[M(aa)\u2082B\u2082] is achiral (optically inactive)."
+  ],
+  "keyFormulae": [
+    "\\text{Square Planar [MABCD]} \\implies 3 \\text{ Geometrical Isomers}",
+    "\\text{Octahedral [MA}_3\\text{B}_3] \\implies \\text{fac and mer Isomers}",
+    "\\text{trans-}[\\text{M(aa)}_2\\text{B}_2] \\implies \\text{Plane of Symmetry (}\\sigma\\text{)} \\implies \\text{Achiral}"
+  ]
+}

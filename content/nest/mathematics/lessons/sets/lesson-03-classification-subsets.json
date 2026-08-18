@@ -1,0 +1,42 @@
+{
+  "id": "math-sets-lesson-03",
+  "exam": "NEST",
+  "subject": "Mathematics",
+  "classLevel": "Class XI",
+  "unit": "Unit 1 — Sets and Functions",
+  "unitNumber": 1,
+  "chapter": "Sets",
+  "chapterNumber": 1,
+  "chapterSlug": "sets",
+  "lessonNumber": 3,
+  "order": 3,
+  "slug": "lesson-03-classification-subsets",
+  "title": "Set Classification & Subsets",
+  "topic": "Subsets & Venn diagrams",
+  "status": "published",
+  "estimatedTimeMinutes": 5,
+  "readingTimeMinutes": 5,
+  "diagramType": "sets",
+  "quickSummary": "Classification of sets into empty, universal, finite, infinite, and the fundamental properties of subsets.",
+  "summary": "Master the Empty set, Universal set, Finitude, Number Set hierarchy, Equality, and Subset inclusion properties.",
+  "coreConcepts": ["Empty Set", "Universal Set", "Finite vs Infinite", "Number Set Hierarchy", "Subset Inclusion"],
+  "conceptBreakdown": [
+    {
+      "heading": "3. Set Classification & Number Set Hierarchy",
+      "title": "3. Set Classification & Number Set Hierarchy",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Vacuous Truth",
+        "takeaway": "Because the empty set has no members, any implication starting with 'x ∈ ∅' is vacuously true. Hence ∅ ⊆ A for every set A."
+      },
+      "codeSnippet": "SPECIAL NUMBER SET HIERARCHY\n                      \n   $$\\mathbb{N} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R} \\subset \\mathbb{C}$$\n   \n   ├── $\\mathbb{N} = \\{1, 2, 3, \\dots\\}$ (Natural Numbers / Positive Integers)\n   ├── $\\mathbb{Z} = \\{\\dots, -2, -1, 0, 1, 2, \\dots\\}$ (Integers)\n   ├── $\\mathbb{Q} = \\left\\{\\frac{p}{q} \\;\\middle|\\; p, q \\in \\mathbb{Z}, q \\neq 0, \\gcd(p,q)=1\\right\\}$ (Rational Numbers)\n   └── $\\mathbb{R} = \\mathbb{Q} \\cup \\mathbb{I}$ (Real Numbers = Rationals $\\cup$ Irrationals)",
+      "content": "### 3.1 The Empty Set, Universal Set, and Finitude\n- **Empty Set (Null / Void Set, $\\emptyset$ or $\\{\\}$)**: The unique set containing no elements. $\\forall x, x \\notin \\emptyset$. Cardinality: $|\\emptyset| = 0$.\n- **Universal Set ($U$ or $\\Omega$)**: A contextual master set containing all possible objects under consideration in a given analytical scope.\n- **Finite vs. Infinite Sets**:\n  - A set $A$ is **Finite** if there exists a bijection $f: A \\to \\{1, 2, \\dots, n\\}$ for some $n \\in \\mathbb{N}_0$. The integer $n = |A|$ is the Cardinality.\n  - Otherwise, $A$ is **Infinite** (e.g., $\\mathbb{N}, \\mathbb{Z}, \\mathbb{Q}, \\mathbb{R}$)."
+    },
+    {
+      "heading": "3.2 Equality and Inclusion (Subsets)",
+      "title": "3.2 Equality and Inclusion (Subsets)",
+      "type": "paragraph",
+      "content": "- **Equal Sets ($A = B$)**: $A = B \\iff (\\forall x, x \\in A \\iff x \\in B) \\iff (A \\subseteq B \\text{ and } B \\subseteq A)$\n- **Subset ($A \\subseteq B$)**: $A \\subseteq B \\iff (\\forall x, x \\in A \\implies x \\in B)$\n- **Proper Subset ($A \\subsetneq B$)**: $A \\subsetneq B \\iff (A \\subseteq B \\text{ and } \\exists y \\in B \\text{ such that } y \\notin A)$\n\n#### Fundamental Theorem on the Empty Set:\nThe empty set $\\emptyset$ is a subset of every set $A$.\n*Proof*: The statement $\\emptyset \\subseteq A \\iff (\\forall x, x \\in \\emptyset \\implies x \\in A)$. Since $x \\in \\emptyset$ is false for all $x$, the material implication $(F \\implies P)$ is vacuously true. $\\blacksquare$"
+    }
+  ]
+}

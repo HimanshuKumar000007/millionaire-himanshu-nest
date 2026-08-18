@@ -1,0 +1,52 @@
+{
+  "id": "bio-xi-u3-c8-l08",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Cell — The Unit of Life",
+  "chapterNumber": 8,
+  "chapterSlug": "cell-the-unit-of-life",
+  "slug": "lesson-08-ribosomes-microbodies-peroxisomes-glyoxysomes",
+  "title": "Ribosomes & Specialized Microbodies",
+  "topic": "70S vs 80S Subunits, Ribozymes, Peroxisomes (Photorespiration), & Glyoxysomes",
+  "topics": [
+    "Ribosome Non-Membranous Nucleoprotein Nature (George Palade, 1955)",
+    "The Svedberg Unit ($S$) Non-Additive Sedimentation Principles",
+    "70S Ribosomes (30S: 16S rRNA + 50S: 23S, 5S rRNA)",
+    "80S Ribosomes (40S: 18S rRNA + 60S: 28S, 5.8S, 5S rRNA)",
+    "Peptidyl Transferase Ribozymes (23S in Prokaryotes; 28S in Eukaryotes)",
+    "Peroxisomes (Catalase, Flavin Oxidases, Photorespiration $C_2$ Cycle)",
+    "Glyoxysomes (Glyoxylate Cycle & Fatty Acid Gluconeogenesis in Seeds)",
+    "Sphaerosomes / Oleosomes (Lipid Storage & Cutin Synthesis)"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Ribosomes are non-membranous nucleoprotein translation machines. 70S ribosomes (30S + 50S; 16S, 23S, 5S rRNA) occur in prokaryotes and semi-autonomous organelles; 80S ribosomes (40S + 60S; 18S, 28S, 5.8S, 5S rRNA) occur in eukaryotic cytoplasm. Peptidyl transferase is a ribozyme (23S rRNA in 70S; 28S rRNA in 80S). Single-membrane microbodies include Peroxisomes (catalase H2O2 breakdown & C2 photorespiration), Glyoxysomes (glyoxylate cycle fatty acid conversion in oily seeds), and Sphaerosomes (plant lipid storage).",
+  "summary": "Ribosomes are non-membranous nucleoprotein translation machines. 70S ribosomes (30S + 50S; 16S, 23S, 5S rRNA) occur in prokaryotes and semi-autonomous organelles; 80S ribosomes (40S + 60S; 18S, 28S, 5.8S, 5S rRNA) occur in eukaryotic cytoplasm. Peptidyl transferase is a ribozyme (23S rRNA in 70S; 28S rRNA in 80S). Single-membrane microbodies include Peroxisomes (catalase H2O2 breakdown & C2 photorespiration), Glyoxysomes (glyoxylate cycle fatty acid conversion in oily seeds), and Sphaerosomes (plant lipid storage).",
+  "conceptBreakdown": [
+    {
+      "heading": "6. Ribosome Architecture & Svedberg Principles",
+      "title": "6. Ribosome Architecture & Svedberg Principles",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "70S = 30S + 50S; 80S = 40S + 60S. Peptidyl transferase is a Ribozyme (23S rRNA in 70S; 28S rRNA in 80S)."
+      },
+      "codeSnippet": "RIBOSOME ARCHITECTURE\n                                      │\n         ┌────────────────────────────┴────────────────────────────┐\n         ▼                                                         ▼\n  70S PROKARYOTIC RIBOSOME                                  80S EUKARYOTE RIBOSOME\n  (Sedimentation Coefficient $S = 70$)                     (Sedimentation Coefficient $S = 80$)\n  ├── 30S Small Subunit (16S rRNA + 21 proteins)           ├── 40S Small Subunit (18S rRNA + 33 proteins)\n  └── 50S Large Subunit (5S, 23S rRNA + 31 proteins)       └── 60S Large Subunit (5S, 5.8S, 28S rRNA + 49)",
+      "content": "Ribosomes (Palade particles) are non-membranous ribonucleoprotein complexes.\n\n### Subunit & rRNA Composition\n• **Svedberg Unit ($S$)**: Sedimentation coefficient in an ultracentrifuge reflecting mass, density, and 3D hydrodynamic shape ($30S + 50S = 70S$; $40S + 60S = 80S$).\n• **Ribozyme Activity**: Peptide bond formation during protein translation is catalyzed directly by the large subunit rRNA acting as a **Ribozyme**:\n  - **23S rRNA** in 70S ribosomes.\n  - **28S rRNA** in 80S ribosomes."
+    },
+    {
+      "heading": "6.1 Specialized Single-Membrane Microbodies",
+      "title": "6.1 Specialized Single-Membrane Microbodies",
+      "type": "paragraph",
+      "codeSnippet": "MICROBODY CLASSES\n                                     │\n         ┌───────────────────────────┼───────────────────────────┐\n         ▼                           ▼                           ▼\n    PEROXISOMES                 GLYOXYSOMES                 SPHAEROSOMES\n(Flavin Oxidases & Catalase)  (Glyoxylate Cycle Enzymes)   (Plant Lysosome Analog)\n ├── Photorespiration ($C_2$)   ├── Germinating Fatty Seeds ├── Lipid Storage & Cutin\n └── $\\beta$-oxidation of fats     (Castor, Sunflower)         │   Synthesis\n                                └── Converts Fats ──► Sugar  └── High Acid Phosphatase",
+      "content": "1. **Peroxisomes**:\n   - Contain flavin oxidases that generate toxic hydrogen peroxide ($\\text{H}_2\\text{O}_2$) and **Catalase**, which decomposes it: $\\text{H}_2\\text{O}_2 \\rightarrow \\text{H}_2\\text{O} + \\frac{1}{2}\\text{O}_2$.\n   - Cooperates in **Photorespiration ($C_2$ Cycle)** in $C_3$ plants (*Chloroplast $\\rightarrow$ Peroxisome $\\rightarrow$ Mitochondria*).\n   - Carries out $\\beta$-oxidation of long-chain fatty acids in animal hepatocytes and renal cells.\n2. **Glyoxysomes**:\n   - Present in germinating oil-rich endospermic seeds (*Castor, Sunflower*).\n   - Possess **Glyoxylate Cycle** enzymes (*Isocitrate Lyase, Malate Synthase*) to convert stored fatty acids into soluble glucose (**Gluconeogenesis**) before emergent leaves can photosynthesize.\n3. **Sphaerosomes (Oleosomes)**:\n   - Single-membrane spherical plant microbodies originating from the ER, dedicated to lipid storage, cutin synthesis, and lysosomal-like hydrolytic activity."
+    }
+  ]
+}

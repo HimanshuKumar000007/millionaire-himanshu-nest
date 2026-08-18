@@ -1,0 +1,62 @@
+{
+  "id": "chem-xi-u8-c8-l03",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VIII \u2014 Organic Chemistry: Basic Principles and Techniques",
+  "unitNumber": 8,
+  "chapter": "Organic Chemistry Principles & Techniques",
+  "chapterNumber": 8,
+  "chapterSlug": "organic-chemistry-principles",
+  "slug": "lesson-03-qualitative-elemental-analysis-lassaigne-tests",
+  "title": "Qualitative Elemental Analysis: Lassaigne\u2019s Sodium Fusion Tests",
+  "topic": "Qualitative Elemental Analysis",
+  "topics": [
+    "Preparation of Lassaigne's Extract (Sodium Fusion Extract - SFE)",
+    "Detection of Nitrogen (NaCN + FeSO\u2084/FeCl\u2083 \u2192 Fe\u2084[Fe(CN)\u2086]\u2083 Prussian Blue)",
+    "Detection of Sulfur (Na\u2082S + Sodium Nitroprusside \u2192 Na\u2084[Fe(CN)\u2085NOS] Purple/Violet)",
+    "Simultaneous Detection of Both N & S (NaSCN + Fe\u00b3\u207a \u2192 [Fe(SCN)]\u00b2\u207a Blood-Red Complex)",
+    "Detection of Halogens (AgCl white soluble, AgBr pale yellow, AgI yellow insoluble)",
+    "Detection of Phosphorus (Ammonium Phosphomolybdate Canary Yellow ppt)"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "organic-chemistry-principles",
+  "quickSummary": "Lassaigne's extract converts covalent N, S, X to NaCN, Na\u2082S, NaX. Nitrogen gives Prussian Blue Fe\u2084[Fe(CN)\u2086]\u2083. Sulfur gives purple nitroprusside complex. Both N & S form blood-red [Fe(SCN)]\u00b2\u207a without Prussian blue. Phosphorus gives canary yellow phosphomolybdate.",
+  "summary": "Master Lassaigne's sodium fusion extract preparation and qualitative detection of N, S, Halogens, and Phosphorus.",
+  "conceptBreakdown": [
+    {
+      "heading": "3.1 Sodium Fusion Extract (SFE) Formation",
+      "title": "3.1 Sodium Fusion Extract (SFE) Formation",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "SFE Principles",
+        "takeaway": "Converts covalent bonds to ionic sodium salts: Na + C + N \u2192 NaCN; 2Na + S \u2192 Na\u2082S; Na + X \u2192 NaX."
+      },
+      "codeSnippet": "LASSAIGNE'S EXTRACT QUALITATIVE TESTS\n                                       \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                  \u25bc                             \u25bc                  \u25bc\nNITROGEN TEST          SULFUR TEST                   HALOGEN TEST        BOTH N & S PRESENT\nNaCN + FeSO\u2084 \u2192         Na\u2082S + Sodium Nitroprusside   Acidify with HNO\u2083,  Forms NaSCN \u2192\nNa\u2084[Fe(CN)\u2086]           \u2192 Purple/Violet Color         add AgNO\u2083:          yields Blood-Red Color\n\u2192 Prussian Blue        (Na\u2084[Fe(CN)\u2085NOS]).            \u251c\u2500\u2500 AgCl (White)    ([Fe(SCN)]\u00b2\u207a) with\nFe\u2084[Fe(CN)\u2086]\u2083.                                       \u251c\u2500\u2500 AgBr (Pale Yell)Fe\u00b3\u207a (No Prussian blue!).\n                                                     \u2514\u2500\u2500 AgI (Yellow)",
+      "content": "To detect covalently bonded N, S, and halogens, the organic compound is fused with molten sodium metal:\n$$\\text{Na} + \\text{C} + \\text{N} \\xrightarrow{\\Delta} \\mathbf{\\text{NaCN}} \\quad \\vert \\quad 2\\text{Na} + \\text{S} \\xrightarrow{\\Delta} \\mathbf{\\text{Na}_2\\text{S}} \\quad \\vert \\quad \\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\mathbf{\\text{NaX}}$$"
+    },
+    {
+      "heading": "3.2 Specific Chemical Detection Reactions",
+      "title": "3.2 Specific Chemical Detection Reactions",
+      "type": "paragraph",
+      "codeSnippet": "QUALITATIVE DETECTION REACTIONS\n\n1. Nitrogen: 6 NaCN + FeSO\u2084 \u2192 Na\u2084[Fe(CN)\u2086] + Na\u2082SO\u2084\n   Na\u2084[Fe(CN)\u2086] + 4 Fe\u00b3\u207a \u2192 Fe\u2084[Fe(CN)\u2086]\u2083 \u2193 (Prussian Blue)\n2. Sulfur: Na\u2082S + Na\u2082[Fe(CN)\u2085NO] \u2192 Na\u2084[Fe(CN)\u2085NOS] (Purple/Violet)\n3. Both N & S: Na + C + N + S \u2192 NaSCN\n   Fe\u00b3\u207a + SCN\u207b \u2192 [Fe(SCN)]\u00b2\u207a (Blood-Red Complex, NO Prussian Blue!)\n4. Halogens: SFE boiled with conc. HNO\u2083, then AgNO\u2083 added:\n   \u2022 AgCl (White, soluble in NH\u2084OH)\n   \u2022 AgBr (Pale yellow, sparingly soluble in NH\u2084OH)\n   \u2022 AgI (Yellow, completely insoluble in NH\u2084OH)\n5. Phosphorus: Fused with Na\u2082O\u2082 \u2192 Na\u2083PO\u2084 \u2192 conc. HNO\u2083 + Ammonium Molybdate \u2192 Canary Yellow (NH\u2084)\u2083PO\u2084 \u00b7 12 MoO\u2083",
+      "content": "\u2022 **Nitrogen Test**: $\\text{NaCN}$ reacts with $\\text{FeSO}_4$ and $\\text{FeCl}_3$ in acid to produce insoluble **Prussian Blue / Ferriferrocyanide** ($\\mathbf{\\text{Fe}_4[\\text{Fe(CN)}_6]_3}$).\n\u2022 **Sulfur Test**: $\\text{Na}_2\\text{S}$ reacts with Sodium Nitroprusside to yield a transient **Purple / Violet coloration** ($\\mathbf{\\text{Na}_4[\\text{Fe(CN)}_5\\text{NOS}]}$).\n\u2022 **Both N and S Present (CRITICAL TRAP)**: Sodium Thiocyanate ($\\text{NaSCN}$) forms, which reacts with $\\text{Fe}^{3+}$ to yield a **Blood-Red coloration** ($[\\text{Fe(SCN)}]^{2+}$); **NO Prussian blue is produced!**\n\u2022 **Halogen Tests**: SFE is first boiled with conc. $\\text{HNO}_3$ to destroy $\\text{CN}^-$ and $\\text{S}^{2-}$ (preventing interference from $\\text{AgCN}$/$\\text{Ag}_2\\text{S}$), then treated with $\\text{AgNO}_3$."
+    }
+  ],
+  "quickRevision": [
+    "Nitrogen: Prussian Blue Fe\u2084[Fe(CN)\u2086]\u2083.",
+    "Sulfur: Purple Na\u2084[Fe(CN)\u2085NOS] with sodium nitroprusside.",
+    "Both N & S: Blood-red [Fe(SCN)]\u00b2\u207a (no Prussian blue formed).",
+    "Boiling with HNO\u2083 decomposes NaCN and Na\u2082S prior to the halogen test.",
+    "Phosphorus gives a canary yellow ammonium phosphomolybdate precipitate."
+  ],
+  "keyFormulae": [
+    "\\text{Prussian Blue: } \\text{Fe}_4[\\text{Fe(CN)}_6]_3",
+    "\\text{Blood-Red Complex: } [\\text{Fe(SCN)}]^{2+}"
+  ]
+}

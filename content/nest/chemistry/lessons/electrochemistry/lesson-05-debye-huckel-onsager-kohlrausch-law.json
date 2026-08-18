@@ -1,0 +1,59 @@
+{
+  "id": "chem-xii-u11-c2-l05",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XI \u2014 Electrochemistry",
+  "unitNumber": 11,
+  "chapter": "Electrochemistry",
+  "chapterNumber": 2,
+  "chapterSlug": "electrochemistry",
+  "slug": "lesson-05-debye-huckel-onsager-kohlrausch-law",
+  "title": "Debye-H\u00fcckel-Onsager Model & Kohlrausch\u2019s Law Applications",
+  "topic": "Kohlrausch's Law & Dilution Trends",
+  "topics": [
+    "Variation of \u03ba (decreases with dilution) and \u039b_m (increases with dilution)",
+    "Debye-H\u00fcckel-Onsager Linear Equation for Strong Electrolytes (\u039b_m = \u039b\u00b0_m - A\u221aC)",
+    "Kohlrausch's Law of Independent Migration of Ions (\u039b\u00b0_m(A_x B_y) = x \u03bb\u00b0_+ + y \u03bb\u00b0_-)",
+    "Applications: Limiting Molar Conductivity of Weak Electrolytes, Degree of Dissociation (\u03b1 = \u039b_m / \u039b\u00b0_m), and Sparingly Soluble Salt Solubility (S = 1000 \u03ba / \u039b\u00b0_m)"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "electrochemistry",
+  "quickSummary": "Conductivity \u03ba decreases on dilution (fewer ions per cm\u00b3). Molar conductivity \u039b_m increases on dilution. Strong electrolytes obey \u039b_m = \u039b\u00b0_m - A\u221aC. Kohlrausch's law: \u039b\u00b0_m = \u03a3 \u03bd_i \u03bb\u00b0_i. Used to find \u03b1 = \u039b_m/\u039b\u00b0_m and K_sp = S\u00b2 where S = (1000\u00b7\u03ba)/\u039b\u00b0_m.",
+  "summary": "Master dilution effects on conductance, Debye-H\u00fcckel-Onsager extrapolation, and Kohlrausch's Law calculations.",
+  "conceptBreakdown": [
+    {
+      "heading": "5.1 Dilution Trends & Debye-H\u00fcckel-Onsager Model",
+      "title": "5.1 Dilution Trends & Debye-H\u00fcckel-Onsager Model",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Dilution Trends",
+        "takeaway": "Conductivity \u03ba DECREASES with dilution (fewer ions per cm\u00b3). Molar conductivity \u039b_m INCREASES with dilution. Weak electrolytes cannot be extrapolated to \u221aC = 0."
+      },
+      "codeSnippet": "DEBYE-H\u00dcCKEL-ONSAGER EQUATION (STRONG ELECTROLYTES)\n\n\u039b_m = \u039b\u00b0_m - A \u221aC\n\n\u2022 Strong electrolytes (KCl, NaCl): Linear decrease with \u221aC; intercept at C=0 gives \u039b\u00b0_m.\n\u2022 Weak electrolytes (CH\u2083COOH): Non-linear steep curve near C=0; CANNOT be extrapolated!",
+      "content": "\u2022 **Conductivity ($\\kappa$)**: **Decreases with dilution** because the number of current-carrying ions per unit volume ($1\\text{ cm}^3$) decreases.\n\u2022 **Molar Conductivity ($\\Lambda_m$)**: **Increases with dilution** because inter-ionic attractions decrease (for strong electrolytes) or dissociation degree $\\alpha \\to 1.0$ (for weak electrolytes)."
+    },
+    {
+      "heading": "5.2 Kohlrausch's Law & Quantitative Applications",
+      "title": "5.2 Kohlrausch's Law & Quantitative Applications",
+      "type": "paragraph",
+      "codeSnippet": "KOHLRAUSCH'S LAW APPLICATIONS\n\n1. Weak Electrolyte \u039b\u00b0_m:\n   \u039b\u00b0_m(CH\u2083COOH) = \u039b\u00b0_m(CH\u2083COONa) + \u039b\u00b0_m(HCl) - \u039b\u00b0_m(NaCl)\n\n2. Degree of Dissociation & K_a:\n   \u03b1 = \u039b_m / \u039b\u00b0_m  \u27f9  K_a = (C \u03b1\u00b2) / (1 - \u03b1)\n\n3. Solubility of Sparingly Soluble Salts:\n   S (mol/L) = (1000 \u00d7 \u03ba) / \u039b\u00b0_m  \u27f9  K_sp = S\u00b2 (for AB salts like AgCl)",
+      "content": "\u2022 **Kohlrausch\u2019s Law**: At infinite dilution, each ion contributes independently to limiting molar conductivity:\n$$\\mathbf{\\Lambda_m^\\circ (A_x B_y) = x \\cdot \\lambda_m^\\circ (A^{y+}) + y \\cdot \\lambda_m^\\circ (B^{x-})}$$\n\u2022 **Degree of Ionization**: $\\mathbf{\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^\\circ}}$ and $K_a = \\frac{C \\alpha^2}{1 - \\alpha}$.\n\u2022 **Solubility of Sparingly Soluble Salts**: $\\mathbf{S = \\frac{1000 \\cdot \\kappa}{\\Lambda_m^\\circ}}$ (in $\\text{mol/L}$)."
+    }
+  ],
+  "quickRevision": [
+    "\u03ba decreases with dilution; \u039b_m increases with dilution.",
+    "Strong electrolytes: \u039b_m = \u039b\u00b0_m - A\u221aC.",
+    "Kohlrausch's law: \u039b\u00b0_m = x \u03bb\u00b0_+ + y \u03bb\u00b0_-.",
+    "\u03b1 = \u039b_m / \u039b\u00b0_m and S = (1000\u00b7\u03ba) / \u039b\u00b0_m."
+  ],
+  "keyFormulae": [
+    "\\Lambda_m = \\Lambda_m^\\circ - A \\sqrt{C}",
+    "\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^\\circ}, \\quad S = \\frac{1000 \\cdot \\kappa}{\\Lambda_m^\\circ}, \\quad K_{sp} = S^2"
+  ]
+}

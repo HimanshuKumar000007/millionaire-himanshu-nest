@@ -1,0 +1,82 @@
+[
+  {
+    "id": "q-bio-c2-001",
+    "exam": "NEST",
+    "subject": "Biology",
+    "topic": "Euglenoids & Mixotrophy",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "questionText": "An unknown photosynthetic unicellular microorganism isolated from a stagnant freshwater pool completely lacks a cell wall. Under electron microscopy, it exhibits a flexible proteinaceous pellicle beneath its plasma membrane, a prominent eyespot pigmented with astaxanthin, and stores carbohydrate reserves as paramylon bodies. When placed in continuous darkness, it survives by absorbing dissolved organic nutrients from its medium. To which taxonomic group does this organism belong?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Chrysophytes", "isCorrect": false },
+      { "id": "b", "text": "Dinoflagellates", "isCorrect": false },
+      { "id": "c", "text": "Euglenoids", "isCorrect": true },
+      { "id": "d", "text": "Xanthophytes", "isCorrect": false }
+    ],
+    "correctAnswer": "c",
+    "solutionExplanation": "The combination of lacking a cell wall, possessing a flexible proteinaceous pellicle, astaxanthin-pigmented eyespot, paramylon starch reserves (beta-1,3-glucan), and mixotrophic nutrition is diagnostic of Euglenoids.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c2-002",
+    "exam": "NEST",
+    "subject": "Biology",
+    "topic": "Cyanobacteria & Heterocysts",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "questionText": "Heterocysts of Nostoc fix atmospheric nitrogen using the oxygen-sensitive nitrogenase enzyme complex. Which physiological modification prevents the inactivation of nitrogenase inside the heterocyst?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "High expression of Photosystem II (PS-II) to generate excess NADPH via non-cyclic photophosphorylation.", "isCorrect": false },
+      { "id": "b", "text": "Complete absence of Photosystem II (PS-II) activity, eliminating metabolic O2 evolution.", "isCorrect": true },
+      { "id": "c", "text": "Presence of a thin, highly permeable cell wall facilitating rapid outward diffusion of oxygen.", "isCorrect": false },
+      { "id": "d", "text": "Replacement of nitrogenase with nitrogen-fixing ribozymes resistant to hyperoxia.", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Nitrogenase is irreversibly inactivated by molecular oxygen (O2). Heterocysts maintain an anaerobic environment by completely lacking Photosystem II (PS-II), which eliminates non-cyclic photophosphorylation and O2 evolution.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c2-003",
+    "exam": "NEST",
+    "subject": "Biology",
+    "topic": "Archaea vs Bacteria",
+    "difficulty": "Advanced",
+    "status": "published",
+    "questionText": "Which of the following features correctly distinguish Domain Archaea from Domain Bacteria? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Archaea membranes contain ether-linked, branched isoprenoid chains, whereas Bacteria membranes contain ester-linked unbranched fatty acids.", "isCorrect": true },
+      { "id": "b", "text": "Archaea cell walls contain peptidoglycan with N-acetylmuramic acid cross-linked by D-amino acids, whereas Bacteria lack peptidoglycan.", "isCorrect": false },
+      { "id": "c", "text": "Certain hyperthermophilic Archaea possess lipid tetraether monolayers that resist thermal denaturation at extreme temperatures.", "isCorrect": true },
+      { "id": "d", "text": "Archaea translation initiated with Formylmethionine (fMet), whereas Bacteria translation initiated with unformylated Methionine (Met).", "isCorrect": false }
+    ],
+    "correctAnswer": "a,c",
+    "solutionExplanation": "Archaea feature ether-linked phytanyl lipids and hyperthermophilic tetraether monolayers. Archaea lack peptidoglycan and initiate translation with Methionine (Met).",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c2-004",
+    "exam": "NEST",
+    "subject": "Biology",
+    "topic": "Sub-Viral Agents & Fungal Spores",
+    "difficulty": "Advanced",
+    "status": "published",
+    "questionText": "Select the statements that represent VALID scientific facts regarding sub-viral agents and fungi: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Viroids consist of naked, single-stranded circular RNA molecules completely lacking a protein capsid.", "isCorrect": true },
+      { "id": "b", "text": "Prions (PrPSc) are infectious proteins that contain small single-stranded DNA cores encoding reverse transcriptase.", "isCorrect": false },
+      { "id": "c", "text": "Ascomycetes form sexual ascospores endogenously within asci, whereas Basidiomycetes form basidiospores exogenously on basidial sterigmata.", "isCorrect": true },
+      { "id": "d", "text": "Lichens are extremely sensitive to atmospheric Sulfur Dioxide (SO2) pollution because SO2 destroys the phycobiont's chlorophyll.", "isCorrect": true }
+    ],
+    "correctAnswer": "a,c,d",
+    "solutionExplanation": "Viroids are naked circular RNA; Prions contain ZERO nucleic acid; Ascospores are endogenous while Basidiospores are exogenous; Lichen phycobionts are killed by SO2 pollution.",
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

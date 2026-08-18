@@ -1,0 +1,481 @@
+[
+  {
+    "id": "q-bio-c19-001",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "Depolarization Phase Inward Current",
+    "difficulty": "Medium",
+    "questionText": "An electrophysiologist uses a voltage-clamp setup on a giant squid axon. The membrane potential (Vm) is experimentally held at -70 mV in standard saline. When a supra-threshold depolarizing voltage step is applied, a massive inward current is recorded. Which specific ion movement and channel kinetic state account for this initial inward current during the depolarization phase of an action potential?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Efflux of K⁺ through open Voltage-Gated K⁺ Channels", "isCorrect": false },
+      { "id": "b", "text": "Influx of Na⁺ through open Activation Gates of Voltage-Gated Na⁺ Channels", "isCorrect": true },
+      { "id": "c", "text": "Efflux of Cl⁻ through open Ligand-Gated GABA_A Channels", "isCorrect": false },
+      { "id": "d", "text": "Influx of Ca²⁺ through V-type Proton Pumps", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Reaching threshold potential (-55 mV) triggers the rapid opening of Activation Gates of Voltage-Gated Na⁺ Channels. Because Na⁺ is concentrated in the ECF and the axoplasm is negatively charged, Na⁺ rushes rapidly INTO the cell (Na⁺ Influx), generating the steep inward depolarizing current.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c19-002",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "Nissl's Granules Distribution",
+    "difficulty": "Easy",
+    "questionText": "During a neuro-histology lab examination, a INBO student inspects a slide of a human multipolar motor neuron. Which anatomical region of the neuron will completely LACK basophilic Nissl's granules?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Cyton / Perikaryon cytoplasm", "isCorrect": false },
+      { "id": "b", "text": "Primary Dendritic branches", "isCorrect": false },
+      { "id": "c", "text": "Axon Hillock and Axon", "isCorrect": true },
+      { "id": "d", "text": "Nucleolus interior", "isCorrect": false }
+    ],
+    "correctAnswer": "c",
+    "solutionExplanation": "Nissl's granules consist of aggregated Rough Endoplasmic Reticulum (RER) and free ribosomes. They are abundant in the cyton/soma and primary dendrites, but are COMPLETELY ABSENT from the Axon Hillock and the entire Axon.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c19-003",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "Wernicke's Aphasia & Temporal Lobe",
+    "difficulty": "Medium",
+    "questionText": "A patient involved in a motor vehicle accident suffers a brain injury resulting in fluent but completely nonsensical speech production (word salad) and inability to understand spoken commands, despite retaining normal hearing mechanics. MRI reveals localized damage to the left temporal lobe. What specific functional brain area has been damaged?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Broca's Area in the inferior frontal gyrus", "isCorrect": false },
+      { "id": "b", "text": "Wernicke's Area in the superior temporal gyrus", "isCorrect": true },
+      { "id": "c", "text": "Primary Motor Cortex in the precentral gyrus", "isCorrect": false },
+      { "id": "d", "text": "Superior Colliculus in the dorsal midbrain", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Damage to Wernicke's Area (located in the left posterior superior temporal gyrus) causes Wernicke's / Receptive Aphasia. Patients retain motor speech production (fluent speech), but lose language comprehension, producing nonsensical 'word salad.' (Damage to Broca's area in the frontal lobe causes non-fluent/expressive aphasia).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c19-004",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "Tetrodotoxin (TTX) Action Potential Blockade",
+    "difficulty": "Hard",
+    "questionText": "The pufferfish toxin Tetrodotoxin (TTX) is a lethal neurotoxin that selectively binds and blocks the extracellular pore of Voltage-Gated Na⁺ Channels without affecting Voltage-Gated K⁺ Channels or the resting Na⁺/K⁺ ATPase pump. What will be the immediate biophysical effect of TTX on a peripheral nerve?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Vm will permanently lock at +30 mV in a state of continuous depolarization.", "isCorrect": false },
+      { "id": "b", "text": "The nerve will be completely unable to generate or propagate Action Potentials.", "isCorrect": true },
+      { "id": "c", "text": "The nerve will exhibit rapid saltatory conduction independent of Nodes of Ranvier.", "isCorrect": false },
+      { "id": "d", "text": "Vm will hyperpolarize directly to -120 mV.", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Because TTX selectively blocks Voltage-Gated Na⁺ Channels, no Na⁺ influx can occur upon stimulation. Consequently, the axon cannot depolarize to threshold or generate an Action Potential, resulting in complete conduction block and flaccid paralysis.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c19-005",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "Parkinson's Disease Substantia Nigra",
+    "difficulty": "Easy",
+    "questionText": "A 50-year-old male presents with resting tremors, muscle rigidity, a shuffling gait, and bradykinesia (slowness of movement). Neuro-chemical imaging demonstrates selective degeneration of dopaminergic neurons projecting from the Substantia Nigra to the Striatum. What neurodegenerative disease is this?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Alzheimer's Disease", "isCorrect": false },
+      { "id": "b", "text": "Multiple Sclerosis", "isCorrect": false },
+      { "id": "c", "text": "Parkinson's Disease", "isCorrect": true },
+      { "id": "d", "text": "Huntington's Chorea", "isCorrect": false }
+    ],
+    "correctAnswer": "c",
+    "solutionExplanation": "Selective loss of dopaminergic neurons in the Substantia Nigra (part of the basal ganglia) depletes dopamine in the striatum, causing the classic triad of Parkinson's Disease (resting tremor, rigidity, bradykinesia).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c19-006",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "Electrical Synapse Connexons",
+    "difficulty": "Medium",
+    "questionText": "What specific structural and functional features distinguish Electrical Synapses from Chemical Synapses in human physiology?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Electrical synapses use synaptic clefts 50 nm wide and transmit signals via Acetylcholine.", "isCorrect": false },
+      { "id": "b", "text": "Electrical synapses connect cells via hexameric Connexon gap junctions, enabling ultra-fast, bi-directional current flow.", "isCorrect": true },
+      { "id": "c", "text": "Electrical synapses exhibit a long synaptic delay of 2.0 ms due to Ca²⁺ exocytosis.", "isCorrect": false },
+      { "id": "d", "text": "Electrical synapses are restricted exclusively to the cerebral cortex prefrontal region.", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Electrical Synapses utilize Gap Junctions (Connexons) that physically bridge presynaptic and postsynaptic membranes (1.5 nm gap). Ions flow directly and passively across, enabling ultra-fast (<0.2 ms delay), bi-directional electrical continuity (found in cardiac myocardium and smooth muscle).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c19-007",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "Cerebrospinal Fluid (CSF) Flow Pathway",
+    "difficulty": "Medium",
+    "questionText": "Cerebrospinal Fluid (CSF) is continually produced by Choroid Plexuses inside brain ventricles. What is the correct sequential pathway of CSF flow from the Lateral Ventricles to the Subarachnoid Space?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Lateral Ventricles → Aqueduct of Sylvius → 3rd Ventricle → Foramen of Monro → 4th Ventricle → Subarachnoid Space", "isCorrect": false },
+      { "id": "b", "text": "Lateral Ventricles → Foramen of Monro → 3rd Ventricle → Aqueduct of Sylvius → 4th Ventricle → Foramina of Luschka & Magendie → Subarachnoid Space", "isCorrect": true },
+      { "id": "c", "text": "Lateral Ventricles → 4th Ventricle → Aqueduct of Sylvius → 3rd Ventricle → Subarachnoid Space", "isCorrect": false },
+      { "id": "d", "text": "Lateral Ventricles → Subarachnoid Space → Choroid Plexus → Central Canal", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "CSF flows from Lateral Ventricles (1st & 2nd) through the Foramen of Monro into the 3rd Ventricle, down the Aqueduct of Sylvius (midbrain) into the 4th Ventricle, and exits via the Foramina of Luschka and Magendie into the Subarachnoid Space.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c19-008",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "CNS vs PNS Myelination Glia",
+    "difficulty": "Easy",
+    "questionText": "Which specific neuroglial cells are responsible for synthesizing the Myelin Sheaths around axons in the Central Nervous System (CNS) versus the Peripheral Nervous System (PNS), respectively?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "CNS: Schwann Cells; PNS: Oligodendrocytes", "isCorrect": false },
+      { "id": "b", "text": "CNS: Astrocytes; PNS: Microglia", "isCorrect": false },
+      { "id": "c", "text": "CNS: Oligodendrocytes; PNS: Schwann Cells", "isCorrect": true },
+      { "id": "d", "text": "CNS: Ependymal Cells; PNS: Satellite Cells", "isCorrect": false }
+    ],
+    "correctAnswer": "c",
+    "solutionExplanation": "In the CNS, myelination is performed by Oligodendrocytes (a single oligodendrocyte can myelinate up to 50 central axon segments). In the PNS, myelination is performed by Schwann Cells (one Schwann cell wraps a single peripheral axon segment).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c19-009",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "Patellar Stretch Reflex Arc",
+    "difficulty": "Medium",
+    "questionText": "During a neurological reflex examination, a physician taps the patellar tendon, stretching the quadriceps muscle. Which sensory receptor and spinal root pathway mediate this monosynaptic stretch reflex?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Muscle Spindle receptor → Dorsal Root (Sensory) → Ventral Root (Motor) → Quadriceps contraction", "isCorrect": true },
+      { "id": "b", "text": "Golgi Tendon Organ → Ventral Root (Sensory) → Dorsal Root (Motor) → Hamstring contraction", "isCorrect": false },
+      { "id": "c", "text": "Pacinian Corpuscle → Sympathetic Trunk → White Ramus → Smooth muscle", "isCorrect": false },
+      { "id": "d", "text": "Free Nerve Ending → Cranial Nerve X → Cardiac deceleration", "isCorrect": false }
+    ],
+    "correctAnswer": "a",
+    "solutionExplanation": "The patellar tendon reflex is a monosynaptic stretch reflex. Stretching the muscle activates Muscle Spindles. Primary afferent fibers enter the spinal cord via the Dorsal Root (Sensory), synapse directly onto α-motor neurons in the ventral horn, which exit via the Ventral Root (Motor) to contract the quadriceps.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c19-010",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "Parasympathetic Vagus Nerve X Effects",
+    "difficulty": "Easy",
+    "questionText": "What is the effect of Parasympathetic stimulation via the Vagus Nerve (Cranial Nerve X) on the heart, bronchioles, and gastrointestinal motility?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Heart: Increases HR; Bronchioles: Dilates; GI: Inhibits motility", "isCorrect": false },
+      { "id": "b", "text": "Heart: Decreases HR; Bronchioles: Constricts; GI: Stimulates motility & secretions", "isCorrect": true },
+      { "id": "c", "text": "Heart: Increases HR; Bronchioles: Constricts; GI: Inhibits motility", "isCorrect": false },
+      { "id": "d", "text": "Heart: No effect; Bronchioles: Dilates; GI: Stimulates motility", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Parasympathetic ('Rest & Digest') stimulation via Acetylcholine release: Decreases Heart Rate (M₂ muscarinic receptors), causes Bronchoconstriction (M₃ receptors), and Stimulates GI motility and digestive secretions.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c19-011",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "Resting Membrane Potential Factors",
+    "difficulty": "Medium",
+    "questionText": "Which of the following statements correctly characterize the Resting Membrane Potential (Vm ≈ -70 mV) of a mammalian axon? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "At rest, the axolemma is 20–100× more permeable to K⁺ than to Na⁺ due to passive K⁺ leak channels.", "isCorrect": true },
+      { "id": "b", "text": "The primary active Na⁺/K⁺ ATPase pump maintains ionic gradients by pumping 3 Na⁺ OUT and 2 K⁺ IN per ATP hydrolyzed.", "isCorrect": true },
+      { "id": "c", "text": "High concentration of negatively charged intracellular proteins (A⁻) contributes to axoplasmic negativity.", "isCorrect": true },
+      { "id": "d", "text": "The resting potential Vm is equal to +60 mV, matching the Nernst equilibrium potential for Sodium (ENa).", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: High passive K⁺ leak permeability, electrogenic Na⁺/K⁺ ATPase (3 Na⁺ out / 2 K⁺ in), and fixed intracellular organic anions (A⁻) maintain Vm ≈ -70 mV. D is incorrect: Vm is -70 mV, lying close to EK (-90 mV), NOT +60 mV (ENa).",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c19-012",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "Action Potential & Saltatory Conduction Valid Traits",
+    "difficulty": "Medium",
+    "questionText": "Select the correct options regarding Action Potential mechanics and Saltatory Conduction: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Threshold depolarization (-55 mV) opens activation gates of Voltage-Gated Na⁺ Channels, causing rapid Na⁺ influx.", "isCorrect": true },
+      { "id": "b", "text": "Repolarization is driven by Voltage-Gated Na⁺ channel inactivation and opening of Voltage-Gated K⁺ Channels (K⁺ efflux).", "isCorrect": true },
+      { "id": "c", "text": "In myelinated axons, action potentials leap from one Node of Ranvier to the next, increasing conduction velocity up to 120 m/s.", "isCorrect": true },
+      { "id": "d", "text": "Saltatory conduction consumes significantly more ATP than continuous conduction in unmyelinated fibers.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Threshold opens Na⁺ channels (Na⁺ influx); repolarization is K⁺ efflux; saltatory conduction leaps between Nodes of Ranvier at high speeds. D is incorrect: Saltatory conduction CONSERVES ATP energy because Na⁺/K⁺ pumps operate only at the unmyelinated Nodes of Ranvier, not along the entire axon length.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c19-013",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "Inhibitory Neurotransmitters (IPSPs)",
+    "difficulty": "Easy",
+    "questionText": "Which of the following Neurotransmitters produce Inhibitory Postsynaptic Potentials (IPSPs) by opening ligand-gated Cl⁻ or K⁺ channels? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "GABA (γ-Aminobutyric acid)", "isCorrect": true },
+      { "id": "b", "text": "Glycine", "isCorrect": true },
+      { "id": "c", "text": "Glutamate", "isCorrect": false },
+      { "id": "d", "text": "Acetylcholine (at NMJ)", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b"
+    ],
+    "solutionExplanation": "A and B are correct: GABA (in brain) and Glycine (in spinal cord) open ligand-gated Cl⁻ channels, producing hyperpolarizing IPSPs. C and D are incorrect: Glutamate and Acetylcholine (at NMJ) open cation (Na⁺/Ca²⁺) channels, producing depolarizing EPSPs.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c19-014",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "Brainstem Components",
+    "difficulty": "Easy",
+    "questionText": "Which of the following structural components are included in the BRAINSTEM? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Midbrain", "isCorrect": true },
+      { "id": "b", "text": "Pons Varolii", "isCorrect": true },
+      { "id": "c", "text": "Medulla Oblongata", "isCorrect": true },
+      { "id": "d", "text": "Cerebellum", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: The Brainstem consists of Midbrain + Pons Varolii + Medulla Oblongata. D is incorrect: The Cerebellum is EXCLUDED from the brainstem.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c19-015",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "Limbic System Characteristics",
+    "difficulty": "Medium",
+    "questionText": "Select the valid statements regarding the Limbic System ('Emotional Brain'): (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "It comprises the Hippocampus, Amygdala, Olfactory Bulbs, and Hypothalamus.", "isCorrect": true },
+      { "id": "b", "text": "The Hippocampus plays a primary role in short-term to long-term memory consolidation and spatial navigation.", "isCorrect": true },
+      { "id": "c", "text": "The Amygdala is central to processing emotional responses such as fear, anger, and rage.", "isCorrect": true },
+      { "id": "d", "text": "The Limbic System is located in the dorsal midbrain corpora quadrigemina.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Limbic system includes Hippocampus (memory), Amygdala (fear/emotion), Olfactory bulbs, and Hypothalamus. D is incorrect: The Limbic system is located in the Forebrain (Prosencephalon) around the cerebral inner border, NOT the midbrain.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c19-016",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "Purely Sensory Cranial Nerves",
+    "difficulty": "Medium",
+    "questionText": "Which of the following Cranial Nerves are purely SENSORY in function? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Cranial Nerve I (Olfactory Nerve)", "isCorrect": true },
+      { "id": "b", "text": "Cranial Nerve II (Optic Nerve)", "isCorrect": true },
+      { "id": "c", "text": "Cranial Nerve VIII (Vestibulocochlear / Auditory Nerve)", "isCorrect": true },
+      { "id": "d", "text": "Cranial Nerve X (Vagus Nerve)", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Cranial Nerves I (Olfactory), II (Optic), and VIII (Vestibulocochlear) are purely Sensory. D is incorrect: Cranial Nerve X (Vagus) is a Mixed Nerve carrying both sensory and motor/parasympathetic fibers.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c19-017",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "Sympathetic Nervous System Traits",
+    "difficulty": "Medium",
+    "questionText": "Select the correct statements regarding the Sympathetic Division of the Autonomic Nervous System: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "It originates from the Thoracolumbar outflow (T₁–L₂ segments of the spinal cord).", "isCorrect": true },
+      { "id": "b", "text": "Pre-ganglionic fibers are short and release Acetylcholine; post-ganglionic fibers are long and release Noradrenaline.", "isCorrect": true },
+      { "id": "c", "text": "Activation causes Mydriasis (pupil dilation), Bronchodilation, and increased Heart Rate.", "isCorrect": true },
+      { "id": "d", "text": "It stimulates digestive peristalsis and gall bladder contraction during emergency situations.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Sympathetic has thoracolumbar outflow (T₁–L₂), short pre-ganglionic (ACh) / long post-ganglionic (Noradrenaline) fibers, and mediates 'Fight or Flight' responses. D is incorrect: Sympathetic stimulation INHIBITS digestive peristalsis and secretions (parasympathetic stimulates digestion).",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c19-018",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "Medulla Oblongata Functional Centers",
+    "difficulty": "Easy",
+    "questionText": "Which of the following functional centers are located within the Medulla Oblongata? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Cardiac Center (regulates heart rate)", "isCorrect": true },
+      { "id": "b", "text": "Vasomotor Center (regulates blood vessel diameter)", "isCorrect": true },
+      { "id": "c", "text": "Respiratory Rhythm Center (DRG / VRG)", "isCorrect": true },
+      { "id": "d", "text": "Primary Visual Cortex", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: The Medulla Oblongata contains vital autonomic centers: Cardiac, Vasomotor, Respiratory rhythm, and involuntary reflexes (vomiting, swallowing, coughing). D is incorrect: The Primary Visual Cortex is located in the Occipital Lobe of the Cerebrum.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c19-019",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "Chemical Synaptic Transmission Steps",
+    "difficulty": "Medium",
+    "questionText": "Which of the following events occur during Chemical Synaptic Transmission at a presynaptic terminal? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Action potential arrival opens Voltage-Gated Ca²⁺ Channels, causing rapid Ca²⁺ influx into the terminal.", "isCorrect": true },
+      { "id": "b", "text": "Cytosolic Ca²⁺ binds Synaptotagmin to trigger SNARE-mediated synaptic vesicle fusion with the presynaptic membrane.", "isCorrect": true },
+      { "id": "c", "text": "Neurotransmitters are discharged into the synaptic cleft (20–50 nm) via exocytosis.", "isCorrect": true },
+      { "id": "d", "text": "Neurotransmitters enter the postsynaptic cell cytoplasm directly through open Connexon gap junctions.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: AP opens presynaptic Ca²⁺ channels → Ca²⁺ influx → synaptotagmin/SNARE vesicle fusion → neurotransmitter exocytosis into cleft. D is incorrect: Direct entry through Connexon gap junctions occurs in Electrical Synapses, NOT chemical synapses. In chemical synapses, neurotransmitters bind surface receptors on the postsynaptic membrane.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c19-020",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "chapterNumber": 19,
+    "chapterSlug": "neural-control-and-coordination",
+    "topic": "Corpora Quadrigemina Midbrain Architecture",
+    "difficulty": "Easy",
+    "questionText": "Select the valid statements regarding the Corpora Quadrigemina of the Midbrain: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Located on the dorsal surface of the midbrain.", "isCorrect": true },
+      { "id": "b", "text": "Consists of 4 rounded optic/auditory reflex swellings: 2 Superior Colliculi and 2 Inferior Colliculi.", "isCorrect": true },
+      { "id": "c", "text": "Superior Colliculi process visual reflexes; Inferior Colliculi process auditory reflexes.", "isCorrect": true },
+      { "id": "d", "text": "Contains the Primary Motor Cortex for speech production.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Corpora Quadrigemina lies on the midbrain tectum, comprising 2 Superior Colliculi (visual tracking) and 2 Inferior Colliculi (auditory localization). D is incorrect: Broca's area (motor speech) is located in the Frontal Lobe of the Cerebrum.",
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u10-c11-l01",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit X — Ecology",
+  "unitNumber": 10,
+  "chapter": "Organisms and Populations",
+  "chapterNumber": 11,
+  "chapterSlug": "organisms-and-populations",
+  "slug": "lesson-01-population-attributes-and-age-pyramids",
+  "title": "Population Attributes & Age Pyramids",
+  "topic": "Natality, Mortality, Sex Ratio, Per Capita Rates, & Age Pyramid Morphologies",
+  "order": 1,
+  "readingTimeMinutes": 15,
+  "estimatedTimeMinutes": 15,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Population attributes: Group of individuals of same species sharing resources and interbreeding. Unlike individuals (having births/deaths), populations have vital rates: Natality (per capita birth rate b), Mortality (per capita death rate d), Sex ratio (females per 1000 males), and Age Pyramids (Triangular/Expanding with broad pre-reproductive base, Bell-shaped/Stable with equal pre-repro & repro, Urn-shaped/Declining with narrow pre-repro base).",
+  "summary": "Population attributes: Group of individuals of same species sharing resources and interbreeding. Unlike individuals (having births/deaths), populations have vital rates: Natality (per capita birth rate b), Mortality (per capita death rate d), Sex ratio (females per 1000 males), and Age Pyramids (Triangular/Expanding with broad pre-reproductive base, Bell-shaped/Stable with equal pre-repro & repro, Urn-shaped/Declining with narrow pre-repro base).",
+  "conceptBreakdown": [
+    {
+      "heading": "Population Attributes & Per Capita Rates",
+      "title": "Population Attributes & Per Capita Rates",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "A population possesses emergent demographic attributes absent in individual organisms: per capita birth rate (b), per capita death rate (d), sex ratio, and age distribution profiles."
+      },
+      "codeSnippet": "POPULATION ATTRIBUTES\n                                     │\n     ┌──────────────────┬────────────┴────────────┬──────────────────┐\n     ▼                  ▼                         ▼                  ▼\nNATALITY (Birth Rate)   MORTALITY (Death Rate)    SEX RATIO          AGE PYRAMIDS\nPer capita births per   Per capita deaths per     Ratio of females   Distribution of age\nunit time (b).          unit time (d).            per 1000 males.    groups (Pre/Rep/Post).",
+      "content": "### 1.1 Definition of an Ecological Population\n- A **Population** is a group of individuals belonging to the same species that occupy a defined geographic area at a specific time, utilize or compete for identical environmental resources, and have the potential to interbreed.\n\n### 1.2 Per Capita Population Calculations\n- Unlike an individual organism (which is born or dies), a population is characterized by statistical **Rates**:\n  - **Per Capita Natality Rate ($b$)**:\n    $$b = \\frac{\\Delta N_{\\text{births}}}{N_0 \\cdot \\Delta t}$$\n    *Example*: If a pond population of $20$ lotus plants increases to $28$ through vegetative reproduction in one year:\n    $$b = \\frac{28 - 20}{20} = \\mathbf{0.4\\text{ offspring per lotus plant per year}}$$\n  - **Per Capita Mortality Rate ($d$)**:\n    $$d = \\frac{\\Delta N_{\\text{deaths}}}{N_0 \\cdot \\Delta t}$$\n    *Example*: If in a laboratory culture of $40$ fruit flies (*Drosophila melanogaster*), $4$ individuals die during a week:\n    $$d = \\frac{4}{40} = \\mathbf{0.1\\text{ deaths per fruit fly per week}}$$\n  - **Sex Ratio**: Expressed as the number of females per $1000$ males in the population.\n\n### 1.3 Population Age Pyramids\n- Graphical representations plotting the percentage composition of individuals across three chronological cohorts:\n  1. **Pre-Reproductive** (juveniles / children).\n  2. **Reproductive** (sexually mature breeding adults).\n  3. **Post-Reproductive** (post-menopausal / senescent individuals).\n\n```\n                        AGE PYRAMID DIAGRAM SCHEMATIC\n                        \n    EXPANDING (Triangular)        STABLE (Bell-Shaped)        DECLINING (Urn-Shaped)\n          /\\                           /\\                          /  \\\n         /  \\                         /  \\                        /    \\\n        /    \\                       /    \\                      |      |\n       /      \\                     |      |                     |      |\n      /________\\                    |______|                      \\____/\n   [Broad Base: High Pre-Repro]  [Equal Pre & Repro]          [Narrow Base: Low Pre-Repro]\n```\n\n- **1. Triangular Pyramid (Expanding Population)**: Very broad base of pre-reproductive individuals; high birth rate; rapid exponential expansion potential.\n- **2. Bell-Shaped Pyramid (Stable / Stationary Population)**: Pre-reproductive and reproductive cohorts are almost identical in size; zero population growth ($r \\approx 0$).\n- **3. Urn-Shaped Pyramid (Declining / Shrinking Population)**: Very narrow pre-reproductive base; low birth rate; negative population growth rate."
+    },
+    {
+      "heading": "Ecological Density vs Crude Density",
+      "title": "Ecological Density vs Crude Density",
+      "type": "paragraph",
+      "content": "Crude density measures total individuals per unit total land area; Ecological (specific) density measures individuals per unit of actual habitable space available for colonization."
+    },
+    {
+      "heading": "Population Dispersion Patterns",
+      "title": "Population Dispersion Patterns",
+      "type": "paragraph",
+      "content": "Spatial distribution across habitats occurs as: (1) Clumped/Aggregated (most common, around patchy resources or social herds); (2) Uniform/Regular (high territorial competition or allelopathy); (3) Random (homogeneous environment with no strong attraction/repulsion)."
+    }
+  ]
+}

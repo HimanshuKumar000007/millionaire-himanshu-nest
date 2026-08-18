@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c6-l05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Evolution",
+  "chapterNumber": 6,
+  "chapterSlug": "evolution",
+  "slug": "lesson-05-evolutionary-theories-lamarckism-darwinism-and-de-vries",
+  "title": "Evolutionary Theories: Lamarckism, Darwinism, & De Vries",
+  "topic": "Inheritance of Acquired Characters, Natural Selection, & Saltation Mutation Theory",
+  "order": 5,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Lamarckism (1809): use & disuse, inheritance of acquired traits (disproved by August Weismann's 22-generation mouse tail experiment). Darwinism (1859): overproduction, struggle for existence, survival of the fittest, natural selection on small continuous variations. De Vries (1901): Mutation Theory based on Oenothera lamarckiana, proposing single-step large discontinuous mutations (Saltation).",
+  "summary": "Lamarckism (1809): use & disuse, inheritance of acquired traits (disproved by August Weismann's 22-generation mouse tail experiment). Darwinism (1859): overproduction, struggle for existence, survival of the fittest, natural selection on small continuous variations. De Vries (1901): Mutation Theory based on Oenothera lamarckiana, proposing single-step large discontinuous mutations (Saltation).",
+  "conceptBreakdown": [
+    {
+      "heading": "Comparative Analysis of Evolutionary Theories",
+      "title": "Comparative Analysis of Evolutionary Theories",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Lamarck proposed organ use/disuse and acquired inheritance (disproven by Weismann's germplasm theory). Darwin proposed natural selection operating on small, continuous, heritable variations. Hugo de Vries proposed that evolution proceeds through large, sudden, discontinuous, directionless mutations called Saltation."
+      },
+      "codeSnippet": "EVOLUTIONARY THEORIES\n                                     │\n     ┌───────────────────────────────┼───────────────────────────────┐\n     ▼                               ▼                               ▼\n  LAMARCKISM                      DARWINISM                       DE VRIES MUTATION\n  (1809 - Inheritance of          (1859 - Natural Selection)      (1901 - Saltation)\n   Acquired Characters)           ├── Overproduction & Struggle   ├── Single-step large mutation\n  └── Disproven by Weismann       └── Survival of Fittest (Gradual)└── Random and directionless",
+      "content": "### 5.1 Three Landmark Theories of Evolution\n\n| Feature | Jean-Baptiste Lamarck (1809) | Charles Darwin (1859) | Hugo de Vries (1901) |\n| :--- | :--- | :--- | :--- |\n| **Primary Mechanism** | Use & disuse of organs; internal vital force | **Natural Selection** acting on continuous variation | Large, sudden, discontinuous **Mutations (Saltation)** |\n| **Nature of Variations** | Acquired somatic modifications | Small, continuous, directional variations | Large, discrete, random, **directionless** mutations |\n| **Pace of Evolution** | Slow, gradual progression | Slow, continuous, **gradual transformation** | Rapid, discontinuous, **single-step speciation** |\n| **Key Experimental Model** | Giraffe neck elongation | Darwin's Finches (*Galapagos*); Wallace (*Malay Archipelago*) | Evening Primrose (*Oenothera lamarckiana*) |\n| **Rejection / Fate** | Disproven by August Weismann's **Germplasm Theory** (22 generations of tail-clipping in mice) | Modified into Modern Synthetic Theory (Neo-Darwinism) | Unified with genetics as source of novel raw alleles |\n\n### 5.2 Weismann’s Germplasm Theory\n- **August Weismann** removed tails of mice for 22 consecutive generations $\\longrightarrow$ Every single newborn generation was born with normal full-length tails.\n- **Conclusion**: Somatoplasm changes (somatic cells) are not transmitted to progeny; only changes in **Germplasm** (gametogenic germline cells) are heritable."
+    },
+    {
+      "heading": "Thomas Malthus' Influence on Darwin",
+      "title": "Thomas Malthus' Influence on Darwin",
+      "type": "paragraph",
+      "content": "Thomas Malthus' Essay on the Principle of Population (stating populations grow geometrically while food resources increase arithmetically) inspired Darwin's concepts of struggle for existence and survival of the fittest."
+    },
+    {
+      "heading": "Modern Synthetic Theory (Neo-Darwinism)",
+      "title": "Modern Synthetic Theory (Neo-Darwinism)",
+      "type": "paragraph",
+      "content": "Modern Synthesis (developed by Dobzhansky, Mayr, Simpson, and Huxley) reconciles Darwinian natural selection with Mendelian genetics, identifying mutation, gene recombination, genetic drift, migration, and reproductive isolation as fundamental evolutionary drivers."
+    }
+  ]
+}

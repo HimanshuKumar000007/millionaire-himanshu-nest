@@ -1,0 +1,96 @@
+[
+  {
+    "id": "bio-nest-2024-001",
+    "exam": "NEST",
+    "year": 2024,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "subtopic": "Taxonomical Hierarchy",
+    "paperName": "NEST 2024 Official Paper",
+    "section": "General Biology",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "development-example",
+    "questionType": "MCQ",
+    "questionText": "Which of the following taxonomical ranks contains organisms with the maximum number of common, shared characteristics?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Class",
+        "isCorrect": false,
+        "explanation": "Class is a higher taxonomic rank than Species, Genus, or Family, containing fewer shared traits."
+      },
+      {
+        "id": "b",
+        "text": "Species",
+        "isCorrect": true,
+        "explanation": "Species is the lowest and most fundamental taxonomic rank. Organisms belonging to the same species share the highest number of common characteristics and can interbreed to produce fertile offspring."
+      },
+      {
+        "id": "c",
+        "text": "Order",
+        "isCorrect": false,
+        "explanation": "Order is an intermediate rank above Family, so organisms share fewer common traits than at the species level."
+      },
+      {
+        "id": "d",
+        "text": "Phylum",
+        "isCorrect": false,
+        "explanation": "Phylum is a broad taxonomic rank near the top of the hierarchy, sharing very few specific traits."
+      }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "As one moves up the taxonomical hierarchy from Species to Kingdom, the number of common characteristics decreases. Conversely, as one moves down towards Species, the number of shared characteristics increases. Therefore, Species contains organisms with the maximum number of shared features.",
+    "keyFormulae": ["Hierarchy: Kingdom > Phylum > Class > Order > Family > Genus > Species"],
+    "hints": ["Consider which rank is the most specific level of classification."],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "bio-nest-2024-002",
+    "exam": "NEST",
+    "year": 2024,
+    "subject": "Biology",
+    "topic": "Biological Classification",
+    "subtopic": "Five Kingdom System",
+    "paperName": "NEST 2024 Official Paper",
+    "section": "General Biology",
+    "difficulty": "Core Foundation",
+    "status": "published",
+    "source": "development-example",
+    "questionType": "MCQ",
+    "questionText": "According to the Five Kingdom Classification proposed by R.H. Whittaker (1969), in which kingdom are unicellular eukaryotic organisms placed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Monera",
+        "isCorrect": false,
+        "explanation": "Monera includes unicellular prokaryotic organisms (bacteria, cyanobacteria)."
+      },
+      {
+        "id": "b",
+        "text": "Protista",
+        "isCorrect": true,
+        "explanation": "Kingdom Protista includes all unicellular eukaryotic organisms (amoeba, paramecium, euglena, diatoms)."
+      },
+      {
+        "id": "c",
+        "text": "Fungi",
+        "isCorrect": false,
+        "explanation": "Fungi mostly consists of multicellular heterotrophic eukaryotic organisms (mushrooms, molds), except unicellular yeast."
+      },
+      {
+        "id": "d",
+        "text": "Plantae",
+        "isCorrect": false,
+        "explanation": "Plantae includes multicellular autotrophic eukaryotic plants."
+      }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Whittaker's 5-kingdom classification places all unicellular eukaryotes under Kingdom Protista. Unicellular prokaryotes belong to Monera.",
+    "keyFormulae": ["Whittaker 5 Kingdoms: Monera, Protista, Fungi, Plantae, Animalia"],
+    "hints": ["Recall which kingdom bridges prokaryotes and multicellular eukaryotes."],
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

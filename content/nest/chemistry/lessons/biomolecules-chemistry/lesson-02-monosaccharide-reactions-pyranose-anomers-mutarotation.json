@@ -1,0 +1,62 @@
+{
+  "id": "chem-xii-u19-c10-l02",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XIX \u2014 Biomolecules",
+  "unitNumber": 19,
+  "chapter": "Biomolecules",
+  "chapterNumber": 10,
+  "chapterSlug": "biomolecules-chemistry",
+  "slug": "lesson-02-monosaccharide-reactions-pyranose-anomers-mutarotation",
+  "title": "Monosaccharide Structures: Glucose Reactions, Anomers, & Mutarotation",
+  "topic": "Glucose Reactions & Haworth Anomers",
+  "topics": [
+    "2.1 Chemical Reactions & Structure Elucidation of D-Glucose (HI, NH\u2082OH, HCN, Br\u2082/H\u2082O, Conc. HNO\u2083, Ac\u2082O)",
+    "Diagnostic Proofs: n-Hexane (Linear 6C), Gluconic Acid (Aldehyde), Saccharic Acid (C-6 1\u00b0 Alcohol), Pentaacetate (5 -OH)",
+    "2.2 Cyclic Pyranose Anomers: \u03b1-D-Glucopyranose (C-1 OH below ring plane) vs \u03b2-D-Glucopyranose (C-1 OH above ring plane)",
+    "Mutarotation Mechanics: Spontaneous Optical Rotation Equilibrium at +52.7\u00b0 (36.4% \u03b1, 63.6% \u03b2)",
+    "2.3 D-Fructose Fructofuranose Ring (C-2 Anomeric Carbon) & Lobry de Bruyn-Alberda van Ekenstein Enolization"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "biomolecules-chemistry",
+  "quickSummary": "D-Glucose reactions establish its straight 6C chain (HI), aldehyde group (Br\u2082/H\u2082O to gluconic acid), C-6 1\u00b0 alcohol (HNO\u2083 to saccharic acid), and 5 -OH groups (pentaacetate). Glucose forms a 6-membered pyranose ring with \u03b1 and \u03b2 anomers differing at C-1. Mutarotation reaches an equilibrium of +52.7\u00b0 (36.4% \u03b1, 63.6% \u03b2). D-Fructose reduces Tollens'/Fehling's reagents due to Lobry de Bruyn-Ekenstein enolization.",
+  "summary": "Master glucose structural elucidation reactions, Haworth pyranose anomer geometries, mutarotation, and fructose enolization.",
+  "conceptBreakdown": [
+    {
+      "heading": "2.1 Structure Elucidation of D-Glucose",
+      "title": "2.1 Structure Elucidation of D-Glucose",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Glucose Diagnostic Matrix",
+        "takeaway": "HI \u2500\u2500\u25ba n-Hexane (linear 6C). Br\u2082/H\u2082O \u2500\u2500\u25ba Gluconic acid (aldehyde). Conc. HNO\u2083 \u2500\u2500\u25ba Saccharic acid (C-6 1\u00b0 alcohol). Ac\u2082O \u2500\u2500\u25ba Pentaacetate (5 -OH groups)."
+      },
+      "codeSnippet": "                         GLUCOSE CHEMICAL REACTIONS\n                                     \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                  \u25bc                         \u25bc                  \u25bc\n  REDUCTION ($\\text{HI}, \\Delta$) OXIDATION ($\\text{Br}_2/\\text{H}_2\\text{O}$)  OXIDATION (Conc. $\\text{HNO}_3$) ACETYLATION ($\\text{Ac}_2\\text{O}$)\n  Yields **$n$-Hexane**     Yields **Gluconic Acid**  Yields **Saccharic Acid**  Yields **Pentaacetate**\n  (Proves 6-carbon      (Proves free              (Proves $1^\\circ$ alcohol  (Proves 5 $-\\text{OH}$\n   unbranched chain).   aldehyde group).          at C-6 and aldehyde).   groups on diff carbons).",
+      "content": "Review the full diagnostic reaction series for D-glucose, proving its 6-carbon straight chain, aldehyde carbonyl, primary alcohol at C-6, and 5 distinct hydroxyl groups."
+    },
+    {
+      "heading": "2.2 Cyclic Pyranose Anomers & Mutarotation",
+      "title": "2.2 Cyclic Pyranose Anomers & Mutarotation",
+      "type": "paragraph",
+      "codeSnippet": "                        HAWORTH PYRANOSE RING STRUCTURES\n                        \n        CH\u2082OH (C-6)                                CH\u2082OH (C-6)\n        \u2502                                          \u2502\n        O     H                                    O     OH (C-1 \u03b2)\n     \u250c\u2500\u2500\u2534\u2500\u2500\u2500\u2510                                   \u250c\u2500\u2500\u2534\u2500\u2500\u2500\u2510\n  H  \u2502      \u2502 OH (C-1 \u03b1)                     H  \u2502      \u2502 H\n  \u251c\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500                                 \u251c\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\n  OH \u2502      \u2502 H                                 OH \u2502      \u2502 H\n     \u2514\u2500\u2500\u252c\u2500\u2500\u2500\u2518                                      \u2514\u2500\u2500\u252c\u2500\u2500\u2500\u2518\n        H                                             H\n   \u03b1-D-Glucopyranose                            \u03b2-D-Glucopyranose\n   (MP = 146\u00b0C, [\u03b1]_D = +112\u00b0)                 (MP = 150\u00b0C, [\u03b1]_D = +19\u00b0)\n\n\u2022 Mutarotation: Spontaneous change in optical rotation until equilibrium reaches +52.7\u00b0 (36.4% \u03b1, 63.6% \u03b2).\n\u2022 Lobry de Bruyn-Ekenstein: Alkaline enolization isomerizes D-fructose into D-glucose and D-mannose via a 1,2-enediol.",
+      "content": "Intramolecular hemiacetal formation between the C-1 aldehyde and C-5 hydroxyl produces a 6-membered pyranose ring with two anomers at C-1: \u03b1 (OH down) and \u03b2 (OH up). Mutarotation is the spontaneous interconversion between anomers via open chain in solution."
+    }
+  ],
+  "quickRevision": [
+    "HI + \u0394 yields n-hexane (linear 6-carbon skeleton).",
+    "Br\u2082/H\u2082O oxidizes glucose to Gluconic acid (proves -CHO).",
+    "Conc. HNO\u2083 oxidizes glucose to Saccharic acid (proves C-6 1\u00b0 alcohol).",
+    "Acetic anhydride yields Glucose Pentaacetate (5 -OH groups).",
+    "\u03b1-Anomer has C-1 -OH DOWN; \u03b2-Anomer has C-1 -OH UP.",
+    "Equilibrium mutarotation specific rotation is +52.7\u00b0 (36.4% \u03b1, 63.6% \u03b2).",
+    "Fructose reduces Fehling's/Tollens' due to Lobry de Bruyn-Ekenstein enolization."
+  ],
+  "keyFormulae": [
+    "\\text{Mutarotation Equilibrium: } +112.2^\\circ(x) + 18.7^\\circ(1-x) = +52.7^\\circ \\implies x = 36.4\\% \\ (\\alpha), \\ 1-x = 63.6\\% \\ (\\beta)"
+  ]
+}

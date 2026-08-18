@@ -1,0 +1,60 @@
+{
+  "id": "chem-xi-u9-c9-l05",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit IX \u2014 Hydrocarbons",
+  "unitNumber": 9,
+  "chapter": "Hydrocarbons",
+  "chapterNumber": 9,
+  "chapterSlug": "hydrocarbons",
+  "slug": "lesson-05-oxidative-cleavage-ozonolysis-hydroxylation",
+  "title": "Oxidative Cleavage of Alkenes: Ozonolysis & Hydroxylation Dynamics",
+  "topic": "Alkene Oxidation & Ozonolysis",
+  "topics": [
+    "Syn-Dihydroxylation using Cold 1% Alkaline KMnO\u2084 (Baeyer's Reagent) and OsO\u2084",
+    "Anti-Dihydroxylation using Peroxyacids (RCO\u2083H) followed by H\u2083O\u207a",
+    "Reductive Ozonolysis (O\u2083 followed by Zn/H\u2082O or Me\u2082S; yields Aldehydes & Ketones)",
+    "Oxidative Ozonolysis (O\u2083 followed by H\u2082O\u2082; converts Aldehydes to Carboxylic Acids)",
+    "Stereospecific Halogenation: Anti-addition across Cis vs Trans alkenes (Meso vs Racemic)"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "hydrocarbons",
+  "quickSummary": "Baeyer's reagent gives syn-1,2-diols (purple disappears, brown MnO\u2082 forms). Reductive ozonolysis (Zn/H\u2082O) cleaves C=C into aldehydes/ketones; Oxidative (H\u2082O\u2082) oxidizes aldehydes to acids. Anti-addition of Br\u2082 on trans-alkene yields meso compound.",
+  "summary": "Master oxidative cleavage of alkenes via ozonolysis, dihydroxylation pathways, and stereospecific halogen additions.",
+  "conceptBreakdown": [
+    {
+      "heading": "5.1 Ozonolysis: Reductive vs Oxidative Cleavage",
+      "title": "5.1 Ozonolysis: Reductive vs Oxidative Cleavage",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Ozonolysis Types",
+        "takeaway": "Reductive (Zn/H\u2082O) \u2192 Aldehydes & Ketones. Oxidative (H\u2082O\u2082) \u2192 Carboxylic Acids & Ketones."
+      },
+      "codeSnippet": "REDUCTIVE OZONOLYSIS MECHANISM\n\nR\u2082C=CH-R' \u2500\u2500[1. O\u2083]\u2500\u2500\u25ba Molozonide \u2192 Ozonide \u2500\u2500[2. Zn/H\u2082O]\u2500\u2500\u25ba R\u2082C=O (Ketone) + R'CHO (Aldehyde) + ZnO\n\nOxidative Ozonolysis (H\u2082O\u2082):\nR'CHO is further oxidized by H\u2082O\u2082 to R'COOH (Carboxylic Acid).",
+      "content": "\u2022 **Reductive Ozonolysis**: $\\text{Zn}$ dust destroys $\\text{H}_2\\text{O}_2$ produced during hydrolysis, preserving aldehydes from over-oxidation ($R\\text{CH=CH}R' \\to R\\text{CHO} + R'\\text{CHO}$).\n\u2022 **Oxidative Ozonolysis**: Performed with $\\text{H}_2\\text{O}_2$, converting all aldehyde fragments quantitatively to carboxylic acids ($R\\text{CHO} \\to R\\text{COOH}$)."
+    },
+    {
+      "heading": "5.2 Hydroxylation & Stereospecific Halogen Additions",
+      "title": "5.2 Hydroxylation & Stereospecific Halogen Additions",
+      "type": "paragraph",
+      "codeSnippet": "STEREOSPECIFIC ADDITION RULES\n\n\u2022 Baeyer's Reagent (Cold alk. KMnO\u2084) / OsO\u2084 \u2500\u2500\u25ba Syn-Dihydroxylation (cis-1,2-diols)\n\u2022 Peroxyacid (RCO\u2083H) + H\u2083O\u207a \u2500\u2500\u25ba Anti-Dihydroxylation (trans-1,2-diols)\n\u2022 Br\u2082 / CCl\u2084 Anti-Addition:\n  \u251c\u2500\u2500 trans-2-butene + Anti Br\u2082 \u2500\u2500\u25ba meso-2,3-dibromobutane (Optically Inactive!)\n  \u2514\u2500\u2500 cis-2-butene + Anti Br\u2082   \u2500\u2500\u25ba (\u00b1) racemic-2,3-dibromobutane (dl-pair)",
+      "content": "Addition of $\\text{Br}_2$ to alkenes proceeds through a cyclic bromonium ion intermediate, resulting in strict **Anti-Addition**. Anti-addition to a *trans*-alkene yields the symmetrical *meso* compound; anti-addition to a *cis*-alkene yields a racemic pair."
+    }
+  ],
+  "quickRevision": [
+    "Reductive ozonolysis (Zn/H\u2082O) produces aldehydes/ketones.",
+    "Oxidative ozonolysis (H\u2082O\u2082) oxidizes aldehydes to carboxylic acids.",
+    "Baeyer's reagent gives syn-dihydroxylation (cis-diols).",
+    "trans-alkene + anti Br\u2082 addition = meso compound."
+  ],
+  "keyFormulae": [
+    "\\text{trans-alkene} + \\text{Anti-addition} \\longrightarrow \\text{meso-product}",
+    "\\text{cis-alkene} + \\text{Anti-addition} \\longrightarrow \\text{racemic }(dl)\\text{-pair}"
+  ]
+}

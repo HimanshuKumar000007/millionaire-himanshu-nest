@@ -1,0 +1,49 @@
+{
+  "id": "bio-xi-u3-c9-l05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Biomolecules",
+  "chapterNumber": 9,
+  "chapterSlug": "biomolecules",
+  "slug": "lesson-05-protein-structural-hierarchy",
+  "title": "Protein Structural Hierarchy: 1°, 2°, 3°, & 4° Organization",
+  "topic": "Alpha-Helices, Beta-Sheets, Disulfide Bridges, & Hemoglobin Quaternary Tetramer",
+  "topics": [
+    "Four Levels of Protein Structural Organization",
+    "Primary Structure ($1^\\circ$: Covalent Peptide Backbone, N- to C-Terminus)",
+    "Secondary Structure ($2^\\circ$: Backbone H-Bonds, 3.6 Residues/Turn $\\alpha$-Helix, $\\beta$-Pleated Sheets)",
+    "Tertiary Structure ($3^\\circ$: 3D Globular Conformation, Hydrophobic Interactions, Disulfide $-S-S-$ Bonds)",
+    "Biological Activity Requirement of Tertiary Structure",
+    "Quaternary Structure ($4^\\circ$: Multisubunit Oligomers, Adult Hemoglobin $\\alpha_2\\beta_2$ Tetramer)"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Protein architecture comprises 4 levels: 1) Primary (linear peptide sequence from N- to C-terminus), 2) Secondary (local folding stabilized strictly by backbone H-bonds: right-handed α-helix with 3.6 residues/turn and β-pleated sheets), 3) Tertiary (compact 3D globular architecture stabilized by hydrophobic packing, disulfide covalent crosslinks, ionic salt bridges; required for biological enzyme activity), and 4) Quaternary (spatial assembly of multiple subunits, e.g., adult hemoglobin HbA tetramer α2β2).",
+  "summary": "Protein architecture comprises 4 levels: 1) Primary (linear peptide sequence from N- to C-terminus), 2) Secondary (local folding stabilized strictly by backbone H-bonds: right-handed α-helix with 3.6 residues/turn and β-pleated sheets), 3) Tertiary (compact 3D globular architecture stabilized by hydrophobic packing, disulfide covalent crosslinks, ionic salt bridges; required for biological enzyme activity), and 4) Quaternary (spatial assembly of multiple subunits, e.g., adult hemoglobin HbA tetramer α2β2).",
+  "conceptBreakdown": [
+    {
+      "heading": "3.3 Levels of Protein Structural Hierarchy",
+      "title": "3.3 Levels of Protein Structural Hierarchy",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "1° = Sequence (peptide bonds). 2° = Local folding (H-bonds). 3° = 3D globular active shape (disulfide, hydrophobic, ionic). 4° = Multi-subunit complexes (e.g., HbA α2β2)."
+      },
+      "codeSnippet": "PROTEIN STRUCTURAL HIERARCHY\n                                     │\n     ┌───────────────────────────────┼───────────────────────────────┐\n     ▼                               ▼                               ▼\nPRIMARY STRUCTURE ($1^\\circ$)   SECONDARY STRUCTURE ($2^\\circ$) TERTIARY STRUCTURE ($3^\\circ$)\nLinear amino acid sequence      Local backbone folding          3D spatial folding\nlinked by peptide bonds.        stabilized by H-bonds.          stabilized by hydrophobic,\n                                ├── Right-handed $\\alpha$-Helix  disulfide, ionic interactions\n                                └── $\\beta$-Pleated Sheets      (Biologically active).",
+      "content": "Proteins are heteropolymers of amino acids folded into complex hierarchical 3D architectures."
+    },
+    {
+      "heading": "Detailed Levels of Protein Organization",
+      "title": "Detailed Levels of Protein Organization",
+      "type": "paragraph",
+      "content": "1. **Primary Structure ($1^\\circ$)**: The specific linear sequence of amino acids linked covalently by peptide bonds from the N-terminal amino acid to the C-terminal amino acid.\n2. **Secondary Structure ($2^\\circ$)**: Local spatial conformation of the polypeptide backbone stabilized **exclusively by Hydrogen Bonds** between backbone carbonyl oxygens ($\\text{C}=\\text{O}$) and amide nitrogens ($\\text{N}-\\text{H}$):\n   - **$\\alpha$-Helix**: Right-handed rod-like coil containing **3.6 amino acid residues per turn** with a pitch of $0.54\\text{ nm}$ ($5.4\\ \\text{\\AA}$). Hydrogen bonds form between residue $i$ and residue $i+4$.\n   - **$\\beta$-Pleated Sheets**: Extended polypeptide strands running parallel or anti-parallel, linked by inter-strand hydrogen bonds.\n3. **Tertiary Structure ($3^\\circ$)**: Bending, twisting, and folding of the polypeptide chain into a compact **3D globular conformation**. Stabilized by:\n   - **Hydrophobic interactions** (non-polar side chains buried internally).\n   - **Disulfide bonds** (covalent $-\\text{S}-\\text{S}-$ links between Cysteines).\n   - **Ionic / Salt bridges** (between $-\\text{COO}^-$ and $-\\text{NH}_3^+$ side chains).\n   - **Hydrogen bonds & van der Waals forces**.\n   - *Tertiary structure is strictly mandatory for biological enzymatic and immunological activity*.\n4. **Quaternary Structure ($4^\\circ$)**: The 3D spatial assembly of two or more individual polypeptide chains (protomers/subunits) into a single functional oligomer (*e.g., Adult Hemoglobin $\\text{HbA}$ is a tetramer of $2\\alpha$ and $2\\beta$ chains: $\\alpha_2\\beta_2$*)."
+    }
+  ]
+}

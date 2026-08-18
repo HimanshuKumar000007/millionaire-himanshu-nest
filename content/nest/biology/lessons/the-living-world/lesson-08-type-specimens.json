@@ -1,0 +1,78 @@
+{
+  "id": "bio-xi-u1-c1-l08",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit I — Diversity of Living Organisms",
+  "unitNumber": 1,
+  "chapter": "The Living World",
+  "chapterNumber": 1,
+  "chapterSlug": "the-living-world",
+  "slug": "lesson-08-type-specimens",
+  "title": "Nomenclature Type Specimen System",
+  "topic": "Nomenclatural Types",
+  "topics": [
+    "Holotype Primary Reference",
+    "Isotype Duplicate Specimen",
+    "Paratype Cited Material",
+    "Lectotype Selection",
+    "Neotype Replacement",
+    "Topotype Original Locality"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 4,
+  "estimatedTimeMinutes": 4,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "draft",
+  "quickSummary": "Taxonomic descriptions must be linked to concrete physical specimens archived in recognized herbaria or museums. The nomenclatural type system ensures unambiguous anchoring of species names.",
+  "summary": "Taxonomic descriptions must be linked to concrete physical specimens archived in recognized herbaria or museums. The nomenclatural type system ensures unambiguous anchoring of species names.",
+  "conceptBreakdown": [
+    {
+      "heading": "Card 8.1: The Nomenclature Type Specimen System",
+      "title": "Card 8.1: The Nomenclature Type Specimen System",
+      "summaryBox": {
+        "title": "Type Specimens Concept",
+        "takeaway": "Nomenclatural types anchor abstract scientific descriptions to real physical specimens preserved in herbaria or natural history museums worldwide."
+      },
+      "content": "Taxonomic descriptions must be anchored to concrete physical specimens. When a new species is published, specific type specimens must be designated:",
+      "listPills": [
+        {
+          "title": "Holotype",
+          "text": "The single physical specimen designated by the original author at the time of publishing the species description as the official nomenclatural type."
+        },
+        {
+          "title": "Isotype",
+          "text": "An exact duplicate specimen of the holotype collected from the same individual/population, at the same time, by the same collector (very common in botanical collections)."
+        },
+        {
+          "title": "Paratype",
+          "text": "Any specimen cited in the original protologue/description other than the holotype or isotype."
+        },
+        {
+          "title": "Lectotype",
+          "text": "A specimen chosen from the original collection material to serve as the single nomenclatural type when no holotype was originally designated, or if the original holotype was lost or destroyed."
+        },
+        {
+          "title": "Neotype",
+          "text": "A replacement specimen chosen to serve as the nomenclatural type when ALL original material (holotype, isotypes, syntypes) has been lost or destroyed."
+        },
+        {
+          "title": "Topotype",
+          "text": "A specimen collected from the exact original geographic type locality where the original type specimen was obtained."
+        },
+        {
+          "title": "Syntype",
+          "text": "Any one of two or more specimens cited by an author when no single holotype was designated in the original publication."
+        }
+      ]
+    }
+  ],
+  "quickRevision": [
+    "Holotype = primary designated specimen.",
+    "Isotype = exact duplicate of holotype collected at same time/place.",
+    "Lectotype = selected from original material if holotype lost/unassigned.",
+    "Neotype = replacement when ALL original material destroyed.",
+    "Topotype = collected from original type locality."
+  ]
+}

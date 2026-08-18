@@ -1,0 +1,158 @@
+{
+  "id": "bio-xii-u7-c4",
+  "chapterNumber": 4,
+  "chapterTitle": "Principles of Inheritance and Variation",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unitNumber": 7,
+  "unitTitle": "Genetics and Evolution",
+  "slug": "principles-of-inheritance-and-variation",
+  "estimatedReadingTimeMinutes": 165,
+  "difficulty": "High-Yield",
+  "status": "published",
+  "summary": "Covers classical Mendelian genetics, 7 Pisum sativum traits, Monohybrid and Dihybrid cross mechanics, Test cross, Incomplete dominance (Antirrhinum), Co-dominance & Multiple alleles (ABO blood groups), Pleiotropy & Polygenic inheritance, Sutton-Boveri Chromosome Theory, Morgan's Drosophila experiments, Linkage and Sturtevant's genetic mapping, Sex determination systems across taxa (including honeybee haplodiploidy), Pedigree analysis, Mendelian monogenic disorders (Sickle-cell, Thalassemia, PKU, Hemophilia), and Chromosomal aneuploidies (Down, Turner, Klinefelter syndromes).",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "id": "sec-04-01",
+      "title": "Mendel's Principles, Seven Traits, & Monohybrid Cross",
+      "topic": "Mendelian Hybridization, Pisum sativum 7 Contrasting Characters, & Law of Segregation",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Gregor Mendel (1856–1863) analyzed 7 contrasting traits on Chromosomes 1, 4, 5, 7 in Pisum sativum. Law of Dominance and Law of Segregation (Universal - purity of gametes). Monohybrid cross yields F2 phenotypic ratio 3:1 and genotypic ratio 1:2:1."
+      },
+      "codeSnippet": "MENDEL'S EXPERIMENTAL ADVANTAGES\n                                         │\n         ┌───────────────────────────────┼───────────────────────────────┐\n         ▼                               ▼                               ▼\n  SEVEN CONSTRASTING TRAITS      BISEXUAL / SELF-POLLINATING     SHORT LIFE CYCLE\n  Clear-cut qualitative          Easy to self-fertilize or       Yields large number of\n  either-or characters.          artificially cross-pollinate.   offspring per generation.",
+      "content": "### 1.1 Mendel's Principles of Inheritance\n- **Mendel's Pea Traits**: 7 pairs on chromosomes 1, 4, 5, and 7.\n- **Law of Segregation**: Alleles segregate cleanly during meiosis; universal with zero exceptions.\n- **Monohybrid Cross**: $TT \\times tt \\rightarrow F_1: Tt \\rightarrow F_2: 3:1$ phenotypic ratio, $1:2:1$ genotypic ratio."
+    },
+    {
+      "sectionNumber": 2,
+      "id": "sec-04-02",
+      "title": "Dihybrid Cross & Test Cross Mechanics",
+      "topic": "Law of Independent Assortment, Dihybrid 9:3:3:1, & Test Cross 1:1 and 1:1:1:1",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Dihybrid Cross (RRYY × rryy) yields F2 phenotypic ratio 9:3:3:1 with 9 distinct genotypes (1:2:1:2:4:2:1:2:1). Test cross crosses dominant phenotype with homozygous recessive parent (Monohybrid test cross = 1:1; Dihybrid test cross = 1:1:1:1)."
+      },
+      "codeSnippet": "TEST CROSS ARCHITECTURE\n                            \n      Homozygous Dominant (TT x tt)          Heterozygous Dominant (Tt x tt)\n            t       t                                     t       t\n        T  Tt      Tt                                 T  Tt      Tt\n        T  Tt      Tt                                 t  tt      tt\n      Ratio: 100% Dominant                          Ratio: 1:1 Dominant : Recessive",
+      "content": "### 2.1 Dihybrid Cross & Test Cross\n- **Dihybrid F2 Ratios**: $9:3:3:1$ phenotypic, $1:2:1:2:4:2:1:2:1$ genotypic.\n- **Test Cross**: Used to identify unknown dominant genotypes ($T\\_ \\times tt$)."
+    },
+    {
+      "sectionNumber": 3,
+      "id": "sec-04-03",
+      "title": "Incomplete Dominance & Co-Dominance Genetics",
+      "topic": "Antirrhinum majus 1:2:1 Ratio, Co-dominance, & Allelic Expression",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Incomplete dominance (Antirrhinum majus): F1 pink flowers, F2 phenotypic ratio equals genotypic ratio (1 Red : 2 Pink : 1 White = 1:2:1). Co-dominance: both alleles express equally in heterozygote."
+      },
+      "codeSnippet": "EXTENSIONS TO MENDELISM\n                                     │\n     ┌───────────────────────────────┼───────────────────────────────┐\n     ▼                               ▼                               ▼\nINCOMPLETE DOMINANCE            CO-DOMINANCE                    MULTIPLE ALLELISM\nF1 phenotype is intermediate    Both alleles express fully      >2 alleles govern a trait in\nbetween parental extremes.      in the F1 heterozygote.         a population (ABO Blood).\n├── Antirrhinum majus           ├── ABO Blood Group (IA IB)     ├── Population-level trait\n└── Phenotypic Ratio: 1:2:1     └── Phenotypic Ratio: 1:2:1     └── Genotypes = n(n+1)/2",
+      "content": "### 3.1 Non-Mendelian Extensions\n- **Incomplete Dominance**: F2 phenotypic ratio ($1:2:1$) matches genotypic ratio.\n- **Co-dominance**: Heterozygote expresses both alleles equally without intermediate blending."
+    },
+    {
+      "sectionNumber": 4,
+      "id": "sec-04-04",
+      "title": "Multiple Allelism & ABO Blood Group Genetics",
+      "topic": "ABO Locus on Chromosome 9, Glycosyltransferase Enzymes, 6 Genotypes, & 4 Phenotypes",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "ABO blood group is controlled by the I gene on Chromosome 9 with 3 alleles (IA, IB, i). Total genotypes = n(n+1)/2 = 6 genotypes resulting in 4 phenotypes (A, B, AB, O)."
+      },
+      "codeSnippet": "ABO GENETICS MATRIX\n                           \n   ALLELE      ENZYME PRODUCT                          DOMINANCE RELATIONSHIP\n   I^A         N-acetylgalactosaminyltransferase       Completely dominant over i; Co-dominant with I^B\n   I^B         Galactosyltransferase                   Completely dominant over i; Co-dominant with I^A\n   i           Non-functional enzyme (No sugar added)  Recessive to both I^A and I^B",
+      "content": "### 4.1 Multiple Allelism\n- **Formula**: $\\text{Diploid Genotypes} = n(n+1)/2 = 6$.\n- **ABO Phenotypes**: Group A ($I^A I^A, I^A i$), Group B ($I^B I^B, I^B i$), Group AB ($I^A I^B$), Group O ($ii$)."
+    },
+    {
+      "sectionNumber": 5,
+      "id": "sec-04-05",
+      "title": "Pleiotropy & Polygenic Quantitative Inheritance",
+      "topic": "Single Gene Multiple Phenotypes (PKU, Pea Starch) & Additive Polygenic Skin Color",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Pleiotropy: one gene influences multiple phenotypic traits (PKU, pea starch Bb). Polygenic inheritance: multiple additive genes control a single continuous trait (human skin color: 1:6:15:20:15:6:1 across 64 combinations)."
+      },
+      "codeSnippet": "PLEIOTROPY vs POLYGENIC INHERITANCE\n                                       │\n         ┌─────────────────────────────┴─────────────────────────────┐\n         ▼                                                           ▼\n   PLEIOTROPY                                              POLYGENIC INHERITANCE\n   ONE single gene influences MULTIPLE,                    MULTIPLE additive genes control\n   apparently unrelated phenotypic traits.                 a SINGLE continuous trait.\n   ├── Phenylketonuria (PKU)                               ├── Human Skin Color (A, B, C genes)\n   └── Starch grain size vs seed shape in Peas             └── Wheat Kernel Color (1:4:6:4:1)",
+      "content": "### 5.1 Pleiotropy & Polygenic Inheritance\n- **Pleiotropy**: PKU (PAH mutation causes retardation and hypopigmentation); Pea starch $Bb$ gene.\n- **Polygenic Inheritance**: Human skin color (3 additive gene pairs $A, B, C$ yielding Gaussian distribution)."
+    },
+    {
+      "sectionNumber": 6,
+      "id": "sec-04-06",
+      "title": "Chromosome Theory & Morgan's Drosophila Experiments",
+      "topic": "Sutton-Boveri Chromosome Theory & Drosophila Melanogaster Experimental Advantages",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Sutton and Boveri (1902) proposed Chromosome Theory of Inheritance. T.H. Morgan experimentally proved the theory using Drosophila melanogaster (2-week life cycle, 2n=8, clear sexual dimorphism)."
+      },
+      "codeSnippet": "GENE vs CHROMOSOME BEHAVIOR PARALLELISM\n                      \n   GENES (Mendelian Factors)                   CHROMOSOMES (Cytological Units)\n   ├── Occur in pairs in diploid cells         ├── Occur in homologous pairs in diploid cells\n   ├── Segregate at gamete formation (1/2)     ├── Homologs segregate at Anaphase I (1/2)\n   └── Independent assortment of gene pairs    └── Independent alignment at Metaphase I",
+      "content": "### 6.1 Chromosome Theory of Inheritance\n- **Parallelism**: Sutton-Boveri parallel behavior of genes and chromosomes.\n- **Morgan's Drosophila**: 2-week life cycle, high fecundity, clear sexual dimorphism, $2n=8$."
+    },
+    {
+      "sectionNumber": 7,
+      "id": "sec-04-07",
+      "title": "Linkage, Crossing Over, & Genetic Mapping",
+      "topic": "Morgan's Crosses I & II, Recombination Frequency, & Sturtevant's cM Gene Mapping",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Linkage is co-inheritance of genes on same chromosome. Morgan Cross I (y & w): 98.7% parental, 1.3% recombinant (tight linkage). Cross II (w & m): 62.8% parental, 37.2% recombinant (loose linkage). Sturtevant: 1% RF = 1 cM. Max RF = 50%."
+      },
+      "codeSnippet": "LINKAGE vs RECOMBINATION\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n   TIGHT LINKAGE                                           LOOSE LINKAGE\n   Genes positioned close together.                        Genes positioned far apart.\n   ├── High Parental Phenotypes (~99%)                     ├── Higher Recombinants (up to 50%)\n   └── Low Recombinants (Morgan's Cross I: 1.3%)           └── Morgan's Cross II: 37.2%",
+      "content": "### 7.1 Linkage & Gene Mapping\n- **Morgan's Crosses**: Cross I (y, w: $1.3\\%$ RF); Cross II (w, m: $37.2\\%$ RF).\n- **Sturtevant's Map Unit**: $1\\%\\text{ Recombination Frequency} = 1\\text{ cM}$. Maximum observable $\\text{RF} = 50\\%$."
+    },
+    {
+      "sectionNumber": 8,
+      "id": "sec-04-08",
+      "title": "Sex Determination Systems & Honeybee Haplodiploidy",
+      "topic": "XX-XY, XX-XO, ZZ-ZW Systems, & Parthenogenetic Haploid Drones in Honeybees",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Sex determination: XX-XY (Humans/Drosophila), XX-XO (Grasshopper), ZZ-ZW (Birds). Haplodiploidy in honeybees: Queen 2n=32, Drones n=16 (develop by parthenogenesis and produce sperm by MITOSIS)."
+      },
+      "codeSnippet": "SEX DETERMINATION SYSTEMS\n                                       │\n     ┌──────────────────┬──────────────┴──────────────┬──────────────────┐\n     ▼                  ▼                             ▼                  ▼\n  XX - XY SYSTEM     XX - XO SYSTEM                ZZ - ZW SYSTEM      HAPLODIPLOPIDY\n  Male Heterogametic Male Heterogametic           Female Heterogametic Females 2n; Males n\n  ├── Male: XY       ├── Male: XO (Henking X)     ├── Female: ZW       └── Parthenogenesis\n  └── Female: XX     └── Female: XX               └── Male: ZZ             (Honeybees)\n  (Humans, Drosophila)(Grasshoppers)              (Birds, Butterflies)",
+      "content": "### 8.1 Sex Determination Systems\n- **Male Heterogamety**: XX-XY (Humans, Drosophila), XX-XO (Grasshoppers).\n- **Female Heterogamety**: ZZ-ZW (Birds, Butterflies).\n- **Honeybee Haplodiploidy**: Drones are haploid ($n=16$) and produce sperm via mitosis."
+    },
+    {
+      "sectionNumber": 9,
+      "id": "sec-04-09",
+      "title": "Human Pedigree Analysis & Pattern Recognition",
+      "topic": "Standard Pedigree Symbols & Autosomal vs X-Linked Inheritance Rules",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Pedigree analysis: squares (males), circles (females), double lines (consanguineous mating). Autosomal Dominant (does not skip generations), Autosomal Recessive (skips generations), X-Linked Recessive (criss-cross inheritance, mostly males)."
+      },
+      "codeSnippet": "PEDIGREE SYMBOLS\n                         \n   Square       ──► Normal Male               Filled Square  ──► Affected Male\n   Circle       ──► Normal Female             Filled Circle  ──► Affected Female\n   Diamond      ──► Sex Unspecified           Filled Diamond ──► Affected Unspecified\n   Single Line  ──► Mating                    Double Line    ──► Consanguineous Mating (Relatives)",
+      "content": "### 9.1 Pedigree Pattern Recognition\n- **Autosomal Dominant**: Does not skip generations; equal male/female ratio.\n- **Autosomal Recessive**: Skips generations; carrier parents produce affected offspring.\n- **X-Linked Recessive**: Criss-cross inheritance; carrier mother passes to sons."
+    },
+    {
+      "sectionNumber": 10,
+      "id": "sec-04-10",
+      "title": "Mendelian Monogenic Disorders & Chromosomal Aneuploidies",
+      "topic": "Sickle-Cell Anemia, Thalassemia, PKU, Hemophilia, Down, Turner, & Klinefelter Syndromes",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Sickle-Cell Anemia: GAG -> GUG Glu6Val point mutation. Thalassemia: quantitative globin defect. PKU: inborn PAH defect. Hemophilia & Color Blindness: X-linked recessive. Aneuploidies: Down's (47,+21), Turner's (45,X0 - 0 Barr bodies), Klinefelter's (47,XXY - 1 Barr body)."
+      },
+      "codeSnippet": "SICKLE-CELL ANEMIA POINT MUTATION\n                       \n   Normal beta-Globin (HbA):   DNA: CTC ──► mRNA: GAG ──► Amino Acid: Glutamic Acid (Position 6)\n   Sickle beta-Globin (HbS):   DNA: CAC ──► mRNA: GUG ──► Amino Acid: VALINE (Position 6)",
+      "content": "### 10.1 Genetic Disorders Matrix\n- **Sickle-Cell Anemia**: Autosomal recessive $\\text{Glu}6\\text{Val}$ transversion point mutation.\n- **Thalassemia**: Quantitative globin chain deficiency.\n- **Down's Syndrome**: Trisomy 21 ($47, XX/XY, +21$).\n- **Turner's Syndrome**: Monosomy $45, X0$ (sterile female, 0 Barr bodies).\n- **Klinefelter's Syndrome**: Trisomy $47, XXY$ (sterile male, gynecomastia, 1 Barr body)."
+    },
+    {
+      "sectionNumber": 11,
+      "id": "sec-04-11",
+      "title": "Genetics Glossary & High-Yield NEST Traps",
+      "topic": "Master Genetics Glossary & 10 High-Yield Exam Traps",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Master genetics glossary with 50+ definitions and 10 high-yield NEST misconceptions and numerical invariant traps."
+      },
+      "content": "### 11.1 Master Genetics Glossary & Traps\n- **Independent Assortment Limit**: Applies only to unlinked genes.\n- **Thalassemia vs Sickle-Cell**: Quantitative defect vs Qualitative defect.\n- **Honeybee Drones**: Produce sperm by mitosis.\n- **Barr Body Formula**: $\\text{Barr Bodies} = \\text{Total } X - 1$."
+    }
+  ]
+}

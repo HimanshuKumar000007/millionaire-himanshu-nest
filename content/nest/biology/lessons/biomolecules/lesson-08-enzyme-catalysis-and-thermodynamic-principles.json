@@ -1,0 +1,49 @@
+{
+  "id": "bio-xi-u3-c9-l08",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Biomolecules",
+  "chapterNumber": 9,
+  "chapterSlug": "biomolecules",
+  "slug": "lesson-08-enzyme-catalysis-and-thermodynamic-principles",
+  "title": "Enzyme Catalysis & Thermodynamic Activation Energy",
+  "topic": "Biocatalysis, Ribozyme Exceptions, Activation Energy Barrier (ΔG‡), & Thermodynamic Invariance",
+  "topics": [
+    "Enzymes as Biological Catalysts (Biocatalysts)",
+    "The Ribozyme Exception (23S rRNA, RNase P, Spliceosomes)",
+    "Activation Energy ($\\Delta G^\\ddagger$) Lowering Mechanism",
+    "Transition State ($S^\\ddagger$) Stabilization",
+    "Thermodynamic Invariance: $\\Delta G$ and Equilibrium Constant ($K_{\\text{eq}}$) Unchanged",
+    "Lock-and-Key vs Induced Fit Models"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Enzymes are biocatalysts that accelerate chemical reaction rates without being consumed. Almost all enzymes are proteins except catalytic RNA Ribozymes. Enzymes lower the Activation Energy barrier (ΔG‡) required to reach the unstable Transition State (S‡). Enzymes do NOT change the net free energy of the reaction (ΔG) nor alter the equilibrium constant (Keq); they only accelerate the time required to attain equilibrium.",
+  "summary": "Enzymes are biocatalysts that accelerate chemical reaction rates without being consumed. Almost all enzymes are proteins except catalytic RNA Ribozymes. Enzymes lower the Activation Energy barrier (ΔG‡) required to reach the unstable Transition State (S‡). Enzymes do NOT change the net free energy of the reaction (ΔG) nor alter the equilibrium constant (Keq); they only accelerate the time required to attain equilibrium.",
+  "conceptBreakdown": [
+    {
+      "heading": "6. Nature of Enzymes & Catalytic RNA",
+      "title": "6. Nature of Enzymes & Catalytic RNA",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Enzymes accelerate reaction rates by lowering activation energy (ΔG‡). They do NOT alter ΔG or Keq. Ribozymes are non-protein RNA enzymes."
+      },
+      "codeSnippet": "ACTIVATION ENERGY ENERGY PROFILE\n                       \n         Free Energy (G)\n               ▲           Transition State (S‡)\n               │              / \\\n               │             /   \\  <-- Uncatalyzed Barrier\n               │            /  /\\ \\ <-- Catalyzed Barrier ($\\Delta G^\\ddagger$ Lowered)\n               │  Substrate/  /  \\ \\\n               │   (S)    ---/    \\---> Product (P)\n               │                          [$\\Delta G$ Unchanged]\n               └──────────────────────────────────────────►\n                               Reaction Progress",
+      "content": "Enzymes are biological catalysts (Biocatalysts) that speed up biochemical reactions by orders of magnitude without undergoing permanent chemical changes.\n\n### General Properties & Ribozyme Exception\n• **Proteinaceous Nature**: Most enzymes are globular proteins possessing tertiary and quaternary structures with specific **Active Sites**.\n• **Ribozymes (Non-Protein Catalysts)**: Specific RNA molecules with enzymatic properties (*e.g., 23S rRNA peptidyl transferase in prokaryotic ribosomes, RNase P, self-splicing group I/II introns*)."
+    },
+    {
+      "heading": "6.1 Thermodynamic Principles of Catalysis",
+      "title": "6.1 Thermodynamic Principles of Catalysis",
+      "type": "paragraph",
+      "content": "• **Lowering Activation Energy ($\\Delta G^\\ddagger$)**: Enzymes stabilize the high-energy, unstable **Transition State ($S^\\ddagger$)** by providing alternative reaction pathways with lower activation energy barriers.\n• **Thermodynamic Invariance**:\n  1. Enzymes do **NOT alter the standard free energy change ($\\Delta G$)** of the reaction.\n  2. Enzymes do **NOT alter the equilibrium constant ($K_{\\text{eq}}$)** or the final concentrations of reactants and products.\n  3. Enzymes merely accelerate the speed at which chemical equilibrium is reached."
+    }
+  ]
+}

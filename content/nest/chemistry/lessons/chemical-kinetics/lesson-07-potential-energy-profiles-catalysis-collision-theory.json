@@ -1,0 +1,63 @@
+{
+  "id": "chem-xii-u12-c3-l07",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XII \u2014 Chemical Kinetics",
+  "unitNumber": 12,
+  "chapter": "Chemical Kinetics",
+  "chapterNumber": 3,
+  "chapterSlug": "chemical-kinetics",
+  "slug": "lesson-07-potential-energy-profiles-catalysis-collision-theory",
+  "title": "Potential Energy Profiles, Activation Energy (E_a), & Catalytic Pathways",
+  "topic": "Potential Energy & Catalysis",
+  "topics": [
+    "Potential Energy Profiles: Exothermic (E_a,f < E_a,b; \u0394H < 0) vs Endothermic (E_a,f > E_a,b; \u0394H > 0)",
+    "Reaction Enthalpy Formula: \u0394_r H = E_a,f - E_a,b",
+    "Threshold Energy Formula: E_a = E_Threshold - E_Reactants",
+    "7.1 Action Mechanism of a Catalyst & Catalytic Invariance Rules",
+    "8. Collision Theory: Threshold Energy, Collision Frequency (Z_AB), & Steric Factor (P)"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "chemical-kinetics",
+  "quickSummary": "E_a = E_Threshold - E_Reactants. \u0394_r H = E_a,f - E_a,b. Exothermic: E_a,f < E_a,b. Endothermic: E_a,f > E_a,b. Catalysts lower E_a equally in both directions without altering \u0394H, \u0394G\u00b0, or K_eq. Collision theory: Rate = P \u00b7 Z_AB \u00b7 e^(-E_a/RT).",
+  "summary": "Master potential energy profiles, transition state theory, catalytic invariance rules, and collision theory equations.",
+  "conceptBreakdown": [
+    {
+      "heading": "7. Potential Energy Profiles, Activation Energy (E_a), & Catalytic Pathways",
+      "title": "7. Potential Energy Profiles, Activation Energy (E_a), & Catalytic Pathways",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Energy Profiles & Catalysis",
+        "takeaway": "\u0394_r H = E_a,f - E_a,b. Catalysts lower E_a equally for forward and reverse, leaving \u0394H, \u0394G\u00b0, and K_eq invariant."
+      },
+      "codeSnippet": "                      POTENTIAL ENERGY REACTION PROFILES\n                      \n   EXOTHERMIC REACTION ($\\Delta_r H < 0$)       ENDOTHERMIC REACTION ($\\Delta_r H > 0$)\n   \n   Energy \u25b2    Activated Complex (X\u2021)          Energy \u25b2    Activated Complex (X\u2021)\n          \u2502         /\\                                \u2502         /\\\n          \u2502        /  \\                               \u2502        /  \\\n          \u2502  R ---/    \\                              \u2502       /    \\--- P\n          \u2502             \\--- P                        \u2502  R ---/\n        0 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba             0 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba\n             $E_{a,f} < E_{a,b}$                           $E_{a,f} > E_{a,b}$\n             $\\Delta H = E_{a,f} - E_{a,b} < 0$            $\\Delta H = E_{a,f} - E_{a,b} > 0$\n\n$$\\mathbf{\\Delta_r H = E_{a,f} - E_{a,b}}$$\n$$\\mathbf{E_a = E_{\\text{Threshold}} - E_{\\text{Reactants}}}$$",
+      "content": "For a reaction to occur, colliding molecules must overcome an energy barrier called the Activation Energy ($E_a$) to reach an unstable, high-energy configuration termed the Activated Complex / Transition State ($X^\\ddagger$):\n$$\\mathbf{E_a = E_{\\text{Threshold}} - E_{\\text{Reactants}}}$$\n$$\\mathbf{\\Delta_r H = E_{a,f} - E_{a,b}}$$"
+    },
+    {
+      "heading": "7.1 Action Mechanism of a Catalyst & Collision Theory",
+      "title": "7.1 Action Mechanism of a Catalyst & Collision Theory",
+      "type": "paragraph",
+      "codeSnippet": "                     CATALYZED VS UNCATALYZED PATHWAY\n                     \n   Energy \u25b2          /---\\  <-- Uncatalyzed Pathway (High $E_a$)\n          \u2502         /     \\\n          \u2502        /  /\\   \\ <-- Catalyzed Pathway (Lower $E_a'$)\n          \u2502  R ---/  /  \\   \\--- P\n        0 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba Progress\n\n  - Catalytic Invariance Rules:\n    1. A catalyst lowers E_{a,f} and E_{a,b} by the exact same amount (\\Delta E_a).\n    2. A catalyst does NOT alter \\Delta_r H or \\Delta_r G^\\circ.\n    3. A catalyst does NOT alter the Equilibrium Constant (K_{\\text{eq}}); it merely decreases the time required to reach equilibrium.\n\n8. Collision Theory:\n   Rate = P \u00b7 Z_AB \u00b7 e^(-E_a / RT)\n   where Z_AB is collision frequency and P is the Steric/Probability Factor.",
+      "content": "### 7.1 Action Mechanism of a Catalyst\n- **Catalytic Invariance Rules**:\n  1. A catalyst lowers $E_{a,f}$ and $E_{a,b}$ by the exact same amount ($\\Delta E_a$).\n  2. A catalyst does **NOT** alter $\\Delta_r H$ or $\\Delta_r G^\\circ$.\n  3. A catalyst does **NOT** alter the Equilibrium Constant ($K_{\\text{eq}}$); it merely decreases the time required to reach equilibrium.\n\n### 8. Collision Theory: Threshold Energy, Collision Frequency, & Steric Factor (P)\nProposed by Trautz and Lewis (1916\u20131918), Collision Theory treats reactant molecules as hard spheres that must physically collide to react:\n$$\\mathbf{\\text{Rate} = P \\cdot Z_{AB} \\cdot e^{-E_a / RT}}$$\nwhere $Z_{AB}$ is Collision Frequency, $e^{-E_a/RT}$ is Boltzmann Factor, and $P$ is Steric Factor ($P \\le 1$)."
+    }
+  ],
+  "quickRevision": [
+    "E_a = E_Threshold - E_Reactants.",
+    "\u0394_r H = E_a,f - E_a,b.",
+    "Exothermic: E_a,f < E_a,b (\u0394H < 0).",
+    "Endothermic: E_a,f > E_a,b (\u0394H > 0).",
+    "Catalysts lower E_a equally in both directions without altering \u0394H, \u0394G\u00b0, or K_eq.",
+    "Rate = P \u00b7 Z_AB \u00b7 e^(-E_a / RT)."
+  ],
+  "keyFormulae": [
+    "E_a = E_{\\text{Threshold}} - E_{\\text{Reactants}}",
+    "\\Delta_r H = E_{a,f} - E_{a,b}",
+    "\\text{Rate} = P \\cdot Z_{AB} \\cdot e^{-E_a / RT}"
+  ]
+}

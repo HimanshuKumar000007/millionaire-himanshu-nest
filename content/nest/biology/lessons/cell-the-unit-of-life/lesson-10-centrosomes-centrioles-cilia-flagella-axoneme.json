@@ -1,0 +1,58 @@
+{
+  "id": "bio-xi-u3-c8-l10",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Cell — The Unit of Life",
+  "chapterNumber": 8,
+  "chapterSlug": "cell-the-unit-of-life",
+  "slug": "lesson-10-centrosomes-centrioles-cilia-flagella-axoneme",
+  "title": "Centrosomes, Centrioles, Cilia, & Flagellar Axonemes",
+  "topic": "Centriole 9+0 Cartwheel Triplets, Cilia/Flagella 9+2 Doublets, & Dynein Arm Bending",
+  "topics": [
+    "Microtubule Organizing Architecture Overview",
+    "Centrosome Structure & Pericentriolar Material (PCM)",
+    "Centriole Microanatomy (9+0 Peripheral Triplet Pattern, A-B-C Tubules, Cartwheel Hub & Radial Spokes)",
+    "Basal Body (Blepharoplast) Origin",
+    "Cilia vs Flagella Morphological Differences",
+    "Axoneme Ultrastructure (9+2 Peripheral Doublets + 2 Central Singlets, Central Sheath, Radial Spokes, Nexin)",
+    "Ciliary Dynein ATPase Cross-Bridging & Bending Mechanism"
+  ],
+  "order": 10,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Centrioles and basal bodies display a 9+0 pattern of 9 peripheral microtubule triplets (A, B, C tubules) connected to a central protein hub by radial spokes in a cartwheel structure (central singlets absent). Cilia and flagella display a 9+2 axoneme pattern (9 peripheral doublets linked by nexin and radial spokes surrounding 2 central singlets enclosed in a sheath). Ciliary bending is powered by ATP hydrolysis by inner and outer dynein arms.",
+  "summary": "Centrioles and basal bodies display a 9+0 pattern of 9 peripheral microtubule triplets (A, B, C tubules) connected to a central protein hub by radial spokes in a cartwheel structure (central singlets absent). Cilia and flagella display a 9+2 axoneme pattern (9 peripheral doublets linked by nexin and radial spokes surrounding 2 central singlets enclosed in a sheath). Ciliary bending is powered by ATP hydrolysis by inner and outer dynein arms.",
+  "conceptBreakdown": [
+    {
+      "heading": "8. Microtubule Architectural Patterns",
+      "title": "8. Microtubule Architectural Patterns",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Centrioles/Basal bodies = 9+0 triplets (cartwheel). Cilia/Flagella Axoneme = 9+2 doublets (dynein arms, nexin links, radial spokes)."
+      },
+      "codeSnippet": "MICROTUBULE ARCHITECTURAL ARRANGEMENT\n                    \n     CENTRIOLE / BASAL BODY Architecture ──► 9 + 0 Triplet Arrangement\n     CILIA / FLAGELLA AXONEME Architecture──► 9 + 2 Doublet Arrangement",
+      "content": "Centrosomes and cilia/flagella represent specialized microtubule-organizing centers and locomotory organelles."
+    },
+    {
+      "heading": "8.1 Centrosome & Centriole (9+0 Cartwheel Architecture)",
+      "title": "8.1 Centrosome & Centriole (9+0 Cartwheel Architecture)",
+      "type": "paragraph",
+      "codeSnippet": "CENTRIOLE CARTWHEEL CROSS-SECTION\n                         \n                            [ A-B-C Triplet ] ── (Nexin Link) ──► [ A-B-C Triplet ]\n                                   │\n                             (Radial Spoke)\n                                   │\n                                   ▼\n                           [ Central HUB ] (No central microtubules)",
+      "content": "• **Centrosome**: Animal organelle consisting of two perpendicular ($90^\\circ$) cylindrical **Centrioles** embedded in amorphous Pericentriolar Material (PCM).\n• **Centriole Microanatomy (9+0 Triplet Pattern)**:\n  - Composed of 9 evenly spaced peripheral triplets (A, B, C tubules) inclined at an angle. Central singlet microtubules are **ABSENT** ($9+0$).\n  - The complete A-tubule (13 protofilaments) shares walls with incomplete B and C tubules (10 protofilaments each).\n  - **Cartwheel Structure**: A central proteinaceous **Hub** connects via 9 **Radial Spokes** to the A-tubules of peripheral triplets. Adjacent triplets are linked by A-C nexin bridges.\n  - **Function**: Forms the **Basal Bodies (Blepharoplasts)** of cilia/flagella and nucleates the mitotic spindle in animal cells."
+    },
+    {
+      "heading": "8.2 Cilia & Flagella (9+2 Axoneme Architecture)",
+      "title": "8.2 Cilia & Flagella (9+2 Axoneme Architecture)",
+      "type": "paragraph",
+      "codeSnippet": "CILIA / FLAGELLA AXONEME DIAGRAM\n                       \n                                 [ Plasma Membrane ]\n                                         │\n                             ┌──────────────────────┐\n                             │ Outer Dynein Arm     │\n                             │ Inner Dynein Arm     │\n                             └──────────┬───────────┘\n                                        │\n                     (B-tubule) O O (A-tubule) <-- Peripheral Doublet (9 Pairs)\n                                \\   /\n                                 \\ / ──► Nexin Interdoublet Link\n                                  │\n                             Radial Spoke\n                                  │\n                                  ▼\n                           Central Sheath\n                             ( O   O ) <-- 2 Central Singlet Microtubules",
+      "content": "• **Axoneme Components**:\n  - **9 Peripheral Doublets**: Each doublet consists of an A-tubule and B-tubule.\n  - **2 Central Singlet Microtubules**: Enclosed within a protective proteinaceous **Central Sheath**.\n  - **Radial Spokes**: Connect peripheral doublets to the central sheath.\n  - **Nexin Links**: Elastic protein bridges connecting adjacent doublets.\n• **Ciliary Dynein ATPase Mechanism**: Outer and inner **Dynein Arms** projecting from the A-tubule hydrolyze ATP to walk along the adjacent B-tubule. Because interdoublet sliding is constrained by nexin links, the generated shear force is converted into synchronized ciliary bending/beating."
+    }
+  ]
+}

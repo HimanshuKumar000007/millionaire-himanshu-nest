@@ -1,0 +1,68 @@
+{
+  "id": "chem-xi-u6-c6-l08",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VI \u2014 Equilibrium",
+  "unitNumber": 6,
+  "chapter": "Equilibrium",
+  "chapterNumber": 6,
+  "chapterSlug": "equilibrium",
+  "slug": "lesson-08-solubility-product-common-ion-qualitative-analysis",
+  "title": "Solubility Product (K_sp), Common Ion Effect & Qualitative Analysis",
+  "topic": "K_sp & Qualitative Analysis",
+  "topics": [
+    "Solubility Product Constant (K_sp) Formulation for AxBy Salts",
+    "K_sp to Molar Solubility Formulas (AB: S\u00b2, AB\u2082: 4S\u00b3, AB\u2083: 27S\u2074, A\u2082B\u2083: 108S\u2075)",
+    "Precipitation Criteria (Q_sp < K_sp, Q_sp = K_sp, Q_sp > K_sp)",
+    "Common Ion Effect in Qualitative Group Separations (Group II vs Group IV Sulfides)",
+    "10 High-Yield NEST Misconceptions & Traps Table",
+    "30-Term Master Equilibrium Glossary"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "solubility-product",
+  "quickSummary": "K_sp = x^x y^y S^(x+y). Precipitation occurs when Q_sp > K_sp. Common ion effect controls sulfide concentration in qualitative analysis (Group II in HCl vs Group IV in NH\u2084OH). Includes 10 NEST traps and master glossary.",
+  "summary": "Master K_sp formulas, precipitation thresholds, qualitative cation group separations, exam traps, and glossary terms.",
+  "conceptBreakdown": [
+    {
+      "heading": "8.1 K_sp Formulation & Precipitation Criteria",
+      "title": "8.1 K_sp Formulation & Precipitation Criteria",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "K_sp Formulas",
+        "takeaway": "AB: S\u00b2; AB\u2082: 4S\u00b3; AB\u2083: 27S\u2074; A\u2082B\u2083: 108S\u2075. Precipitation occurs when Q_sp > K_sp."
+      },
+      "codeSnippet": "K_sp FORMULA BY SALT TYPE\n                       \n   Binary Salt (AB \u21cc A\u207a + B\u207b):         x=1, y=1 \u27f9 K_sp = S\u00b2 \u27f9 S = \u221a(K_sp)\n   Ternary Salt (AB\u2082 \u21cc A\u00b2\u207a + 2B\u207b):     x=1, y=2 \u27f9 K_sp = 4S\u00b3 \u27f9 S = (K_sp/4)^(1/3)\n   Quaternary Salt (AB\u2083 \u21cc A\u00b3\u207a + 3B\u207b):  x=1, y=3 \u27f9 K_sp = 27S\u2074 \u27f9 S = (K_sp/27)^(1/4)\n   Binary-Ternary (A\u2082B\u2083 \u21cc 2A\u00b3\u207a + 3B\u00b2\u207b): x=2, y=3 \u27f9 K_sp = 108S\u2075 \u27f9 S = (K_sp/108)^(1/5)",
+      "content": "\u2022 **Precipitation Prediction Rules**:\n- $Q_{\\text{sp}} < K_{\\text{sp}} \\implies$ **Unsaturated Solution** (No precipitate forms; more solute can dissolve).\n- $Q_{\\text{sp}} = K_{\\text{sp}} \\implies$ **Saturated Solution** at Dynamic Equilibrium.\n- $\\mathbf{Q_{\\text{sp}} > K_{\\text{sp}}} \\implies$ **Supersaturated Solution \u2500\u2500\u25ba PRECIPITATION OCCURS!**"
+    },
+    {
+      "heading": "8.2 Common Ion Effect & Qualitative Cation Separation",
+      "title": "8.2 Common Ion Effect & Qualitative Cation Separation",
+      "type": "paragraph",
+      "codeSnippet": "QUALITATIVE ANALYSIS GROUP SEPARATION\n                    \n   GROUP II CATION PRECIPITATION (Cu\u00b2\u207a, Pb\u00b2\u207a, Cd\u00b2\u207a as Sulfides):\n   \u251c\u2500\u2500 Reagent: H\u2082S(g) + Dilute HCl\n   \u2514\u2500\u2500 Mechanism: HCl \u2500\u2500\u25ba H\u207a + Cl\u207b suppresses H\u2082S ionization via H\u207a common ion.\n       [S\u00b2\u207b] is kept LOW, exceeding ONLY the small K_sp of Group II sulfides!\n       \n   GROUP IV CATION PRECIPITATION (Zn\u00b2\u207a, Mn\u00b2\u207a, Ni\u00b2\u207a as Sulfides):\n   \u251c\u2500\u2500 Reagent: H\u2082S(g) + NH\u2084OH + NH\u2084Cl\n   \u2514\u2500\u2500 Mechanism: OH\u207b removes H\u207a from H\u2082S, driving ionization.\n       [S\u00b2\u207b] becomes HIGH, exceeding the larger K_sp of Group IV sulfides!",
+      "content": "The Common Ion Effect is the suppression of the degree of dissociation of a weak electrolyte by the addition of a strong electrolyte containing a common ion."
+    },
+    {
+      "heading": "8.3 10 High-Yield NEST Equilibrium Traps",
+      "title": "8.3 10 High-Yield NEST Equilibrium Traps",
+      "type": "paragraph",
+      "content": "1. **Catalyst and $K_{eq}$**: Catalyst does NOT alter $K_{eq}$ or equilibrium yield; it lowers $E_a$ equally in both directions.\n2. **Inert Gas at Constant Volume**: Has ZERO effect on equilibrium position because partial pressures are unchanged.\n3. **Hot Neutral Water**: At $60^\\circ\\text{C}$, $K_w \\approx 10^{-13} \\implies$ neutral $\\text{pH} = 6.5$. Water is neutral because $[\\text{H}^+] = [\\text{OH}^-]$.\n4. **WA-WB Salt pH**: $\\text{pH} = \\frac{1}{2}[\\text{p}K_w + \\text{p}K_a - \\text{p}K_b]$ is completely independent of concentration $C$.\n5. **Buffer Capacity**: Buffers resist $\\text{pH}$ change up to their buffer capacity; effective range is $\\text{p}K_a \\pm 1$.\n6. **Solid Reactants**: Pure solids/liquids have unit activity ($1.0$) and are excluded from $K_c$ and $K_p$.\n7. **Common Ion Solubility**: $\\text{AgCl}$ solubility is drastically lower in $0.1\\text{ M NaCl}$ than in pure water.\n8. **Polyprotic Acid**: $K_{a1} \\gg K_{a2} \\gg K_{a3}$; for diprotic acid, $[\\text{A}^{2-}] \\approx K_{a2}$.\n9. **Precipitation Condition**: Precipitation occurs ONLY when $Q_{sp} > K_{sp}$.\n10. **Lewis Acids**: Lewis acids are electron-pair acceptors (e.g. $\\text{BF}_3$) and need not contain Hydrogen."
+    }
+  ],
+  "quickRevision": [
+    "K_sp = 108 S\u2075 for A\u2082B\u2083 salts (e.g. Bi\u2082S\u2083, Ca\u2083(PO\u2084)\u2082).",
+    "Precipitation occurs only when Q_sp > K_sp.",
+    "Group II: H\u2082S + HCl (low [S\u00b2\u207b] precipitates small K_sp sulfides).",
+    "Group IV: H\u2082S + NH\u2084OH (high [S\u00b2\u207b] precipitates larger K_sp sulfides).",
+    "Group III: NH\u2084OH + NH\u2084Cl (low [OH\u207b] precipitates Group III hydroxides)."
+  ],
+  "keyFormulae": [
+    "K_sp = x^x y^y S^(x+y)",
+    "Q_sp > K_sp \u27f9 Precipitation"
+  ]
+}

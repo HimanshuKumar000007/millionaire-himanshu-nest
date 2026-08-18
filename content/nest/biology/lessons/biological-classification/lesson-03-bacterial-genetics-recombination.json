@@ -1,0 +1,55 @@
+{
+  "id": "bio-xi-u1-c2-l03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit I — Diversity of Living Organisms",
+  "unitNumber": 1,
+  "chapter": "Biological Classification",
+  "chapterNumber": 2,
+  "chapterSlug": "biological-classification",
+  "slug": "lesson-03-bacterial-genetics-recombination",
+  "title": "Bacterial Reproduction & Genetic Recombination",
+  "topic": "Prokaryotic Reproduction & Parasexuality",
+  "topics": [
+    "Binary Fission & Mesosomal Attachment",
+    "Endospore Formation (Calcium Dipicolinate & SASPs)",
+    "Transformation (Griffith Experiment & Competence)",
+    "Conjugation (F-Factor Plasmid & Hfr Strains)",
+    "Transduction (Generalized vs Specialized via Bacteriophages)"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 7,
+  "estimatedTimeMinutes": 7,
+  "difficulty": "High-Yield Advanced",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Prokaryotes reproduce asexually by binary fission and form resistant endospores containing Calcium Dipicolinate. True eukaryotic syngamy is absent; genetic variation occurs through Horizontal Gene Transfer: Transformation, Conjugation (Sex Pilus/F-factor), and Transduction (bacteriophages).",
+  "summary": "Prokaryotes reproduce asexually by binary fission and form resistant endospores containing Calcium Dipicolinate. True eukaryotic syngamy is absent; genetic variation occurs through Horizontal Gene Transfer: Transformation, Conjugation (Sex Pilus/F-factor), and Transduction (bacteriophages).",
+  "conceptBreakdown": [
+    {
+      "heading": "Bacterial Reproduction & Genetic Recombination",
+      "title": "Bacterial Reproduction & Genetic Recombination",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary Box",
+        "takeaway": "Prokaryotes reproduce vegetatively by binary fission. Genetic variation is introduced via Horizontal Gene Transfer (Transformation, Conjugation, and Transduction) without true gametic syngamy."
+      },
+      "codeSnippet": "BACTERIAL GENETIC RECOMBINATION\n                                  │\n         ┌────────────────────────┼────────────────────────┐\n         ▼                        ▼                        ▼\n   TRANSFORMATION            CONJUGATION              TRANSDUCTION\n (Free DNA Uptake)       (Direct Cell Contact)     (Bacteriophage Vector)\n  ├── Griffith (1928)     ├── F-Factor Plasmid      ├── General Transduction\n  └── Competent Cells     └── Hfr Strain Crossing   └── Specialized Transduction",
+      "content": "Prokaryotes reproduce primarily via asexual division. True eukaryotic sexual reproduction (involving syngamy and meiosis) is absent. Instead, genetic variation is introduced through Horizontal Gene Transfer (HGT) / Para-sexual Recombination."
+    },
+    {
+      "heading": "3.1 Asexual Reproduction & Endospore Formation",
+      "title": "3.1 Asexual Reproduction & Endospore Formation",
+      "type": "paragraph",
+      "content": "• Binary Fission: Primary vegetative propagation mechanism under favorable nutrient conditions. The circular chromosome undergoes semi-conservative replication anchored to cell membrane mesosomes, followed by centripetal wall septation.\n\n• Endospores: Formed inside Gram-positive vegetative cells (*Bacillus*, *Clostridium*) under extreme nutrient starvation.\n- Resistance Factors: Endospores survive boiling (100°C for hours), gamma radiation, chemical disinfectants, and desiccation.\n- Biochemical Basis: The core contains Calcium Dipicolinate (Calcium-Dipicolinic Acid complex [Ca-DPA]), which dehydrates the spore cytoplasm (10–30% water content) and stabilizes DNA against thermal denaturation. High concentration of Small Acid-Soluble Spore Proteins (SASPs) bound to DNA."
+    },
+    {
+      "heading": "3.2 Mechanisms of Parasexual Recombination",
+      "title": "3.2 Mechanisms of Parasexual Recombination",
+      "type": "paragraph",
+      "codeSnippet": "CONJUGATION MECHANISMS\n                           \n    1. F⁺ × F⁻ CROSS\n       F⁺ Donor (Plasmid Free in Cytoplasm) + F⁻ Recipient ──► TWO F⁺ CELLS\n       \n    2. Hfr × F⁻ CROSS\n       Hfr Donor (F-Plasmid Integrated into Chromosome) + F⁻ Recipient\n       ──► Transfer of chromosomal genes; Recipient remains F⁻ (usually)",
+      "content": "A. Transformation:\n• Discovered by Frederick Griffith (1928) in *Streptococcus pneumoniae*; molecular basis proved by Avery, MacLeod, and McCarty (1944).\n• Process by which a physiologically competent bacterial cell takes up naked, extracellular DNA fragments from its surrounding liquid medium and integrates them into its chromosome via homologous recombination.\n\nB. Conjugation:\n• Discovered by Lederberg and Tatum (1946) in *Escherichia coli*.\n• Direct transfer of genetic material between two living bacterial cells through a physical conjugation bridge (Sex Pilus), encoded by the F-plasmid (Fertility Factor).\n• 1. F⁺ × F⁻ Cross: F⁺ donor transfers plasmid copy to F⁻ recipient; both become F⁺.\n• 2. Hfr × F⁻ Cross: High Frequency of Recombination donor transfers high-yield chromosomal genes; recipient typically remains F⁻.\n\nC. Transduction:\n• Discovered by Zinder and Lederberg (1952) in *Salmonella typhimurium*.\n• Transfer of bacterial host DNA from one cell to another mediated by a bacteriophage (viral) vector.\n1. Generalized Transduction: Occurs during the lytic cycle; random bacterial DNA fragments are accidentally packaged inside the phage capsid.\n2. Specialized Transduction: Occurs during the lysogenic cycle; temperate phage (e.g., Lambda phage) excises imprecisely from the host chromosome, carrying specific adjacent host genes (e.g., *gal* or *bio* operons) to the recipient cell."
+    }
+  ]
+}

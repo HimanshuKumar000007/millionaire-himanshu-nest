@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u8-c7-l01",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VIII — Biology in Human Welfare",
+  "unitNumber": 8,
+  "chapter": "Human Health and Diseases",
+  "chapterNumber": 7,
+  "chapterSlug": "human-health-and-diseases",
+  "slug": "lesson-01-pathogens-and-parasitic-human-diseases",
+  "title": "Pathogens & Parasitic Human Diseases: Spectrum & Vectors",
+  "topic": "Bacterial, Viral, Helminthic, Protozoan, & Fungal Pathologies",
+  "order": 1,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Infectious diseases caused by pathogens: Bacterial (Typhoid - S. typhi, Widal test; Pneumonia - S. pneumoniae/H. influenzae, alveoli fluid), Viral (Common cold - Rhinovirus, upper tract only; Dengue - Flavivirus/Aedes; Chikungunya - Alphavirus), Helminthic (Filariasis - Wuchereria/Culex; Ascariasis - Ascaris), Protozoan (Amoebiasis - Entamoeba/housefly), and Fungal (Ringworm - Microsporum/Trichophyton).",
+  "summary": "Infectious diseases caused by pathogens: Bacterial (Typhoid - S. typhi, Widal test; Pneumonia - S. pneumoniae/H. influenzae, alveoli fluid), Viral (Common cold - Rhinovirus, upper tract only; Dengue - Flavivirus/Aedes; Chikungunya - Alphavirus), Helminthic (Filariasis - Wuchereria/Culex; Ascariasis - Ascaris), Protozoan (Amoebiasis - Entamoeba/housefly), and Fungal (Ringworm - Microsporum/Trichophyton).",
+  "conceptBreakdown": [
+    {
+      "heading": "Human Pathogen Spectrum & Clinical Profiles",
+      "title": "Human Pathogen Spectrum & Clinical Profiles",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Pathogens encompass Bacteria (Typhoid, Pneumonia), Viruses (Rhinovirus, Dengue, Chikungunya), Protozoans (Entamoeba, Plasmodium), Helminths (Wuchereria, Ascaris), and Fungi (Ringworm). Key diagnostic indicators include the Widal test for typhoid, alveoli fluid in pneumonia, thrombocytopenia in dengue, and lymphatic elephantiasis in filariasis."
+      },
+      "codeSnippet": "HUMAN PATHOGEN CLASSES\n                                       │\n     ┌──────────────────┬──────────────┼──────────────┬──────────────────┐\n     ▼                  ▼              ▼              ▼                  ▼\n  BACTERIAL          VIRAL           PROTOZOAN      HELMINTHIC          FUNGAL\n  ├── Typhoid        ├── Common Cold ├── Malaria    ├── Filariasis      └── Ringworm\n  └── Pneumonia      ├── Dengue      └── Amoebiasis └── Ascariasis\n                     └── Chikungunya",
+      "content": "### 1.1 Bacterial Diseases\n- **Typhoid** (*Salmonella typhi*):\n  - Transmission: Contaminated food/water (fecal-oral route).\n  - Target: Small intestine; enters blood $\\rightarrow$ sustained high fever ($39\\text{--}40^\\circ\\text{C}$), stomach pain, constipation, intestinal perforation in severe cases.\n  - Diagnosis: **Widal Test** (detects agglutinating $O$ and $H$ antibodies).\n  - Classic carrier: Mary Mallon (\"Typhoid Mary\").\n- **Pneumonia** (*Streptococcus pneumoniae* and *Haemophilus influenzae*):\n  - Target: Pulmonary **Alveoli** become filled with fluid leading to severe respiratory difficulty, fever, chills, cough; severe cases show **cyanosis** (lips/fingernails turning gray-blue).\n\n### 1.2 Viral Diseases\n- **Common Cold** (*Rhinovirus*):\n  - Infects **Nose and Respiratory Passage, NOT the lungs**.\n  - Symptoms: Nasal congestion, discharge, sore throat, hoarseness, cough, lasting $3\\text{--}7\\text{ days}$.\n- **Dengue & Chikungunya** (Transmitted by female ***Aedes aegypti*** mosquitoes):\n  - Dengue (Flavivirus): \"Breakbone fever\", retro-orbital pain, severe **Thrombocytopenia** (critical drop in platelets).\n  - Chikungunya (Alphavirus): High fever with severe, debilitating, long-lasting **Polyarthralgia** (joint pain).\n\n### 1.3 Helminthic, Protozoan & Fungal Diseases\n- **Filariasis / Elephantiasis** (*Wuchereria bancrofti* / *W. malayi*):\n  - Vector: Female ***Culex*** mosquito. Chronic inflammation of **lymphatic vessels** of lower limbs and scrotum.\n- **Ascariasis** (*Ascaris lumbricoides*): Intestinal roundworm causing internal bleeding, muscular pain, anemia, and intestinal blockage.\n- **Amoebiasis** (*Entamoeba histolytica*): Large intestine parasite transmitted mechanically by **houseflies** (*Musca domestica*); causes stools with excess mucus and blood clots.\n- **Ringworm** (*Microsporum*, *Trichophyton*, *Epidermophyton*): Dry, scaly circular skin lesions with intense itching in warm skin folds (groin, toes)."
+    },
+    {
+      "heading": "Biological Control of Disease Vectors",
+      "title": "Biological Control of Disease Vectors",
+      "type": "paragraph",
+      "content": "Introducing larvivorous fish like Gambusia affinis into ponds and using Bacillus thuringiensis larvicides effectively eliminate mosquito larvae to control malaria, dengue, and filariasis vectors."
+    },
+    {
+      "heading": "Fomite-Borne Transmission",
+      "title": "Fomite-Borne Transmission",
+      "type": "paragraph",
+      "content": "Fomites (inanimate objects such as pens, books, keyboards, door handles, and utensils) transfer rhinovirus and fungal spores when touched by uninfected individuals."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "bio-xi-u1-c1-l06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit I — Diversity of Living Organisms",
+  "unitNumber": 1,
+  "chapter": "The Living World",
+  "chapterNumber": 1,
+  "chapterSlug": "the-living-world",
+  "slug": "lesson-06-hierarchy-suffixes",
+  "title": "Taxonomic Hierarchy, Standardized Suffixes, & Rank Systems",
+  "topic": "Taxonomic Hierarchy",
+  "topics": [
+    "Category (Abstract Rank) vs Taxon (Concrete Entity)",
+    "TAXONOMIC HIERARCHY Trends Moving Down",
+    "6.1 Standardized Taxonomic Suffixes (ICNafp vs ICZN)",
+    "6.2 Complete Exemplar Hierarchy Breakdowns (Human, Tiger, Potato, Wheat)"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 6,
+  "estimatedTimeMinutes": 6,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Organisms are organized into a mandatory hierarchical system of nested categories. A Category represents an abstract rank (e.g. Class); a Taxon refers to a concrete biological entity assigned to that rank (e.g. Mammalia).",
+  "summary": "Organisms are organized into a mandatory hierarchical system of nested categories. A Category represents an abstract rank (e.g. Class); a Taxon refers to a concrete biological entity assigned to that rank (e.g. Mammalia).",
+  "conceptBreakdown": [
+    {
+      "heading": "6. Taxonomic Hierarchy, Standardized Suffixes, & Rank Systems",
+      "title": "6. Taxonomic Hierarchy, Standardized Suffixes, & Rank Systems",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary Box",
+        "takeaway": "Organisms are organized into a mandatory nested hierarchy. Category = abstract rank (Class); Taxon = concrete biological entity (Mammalia). Moving down (Kingdom -> Species), shared traits and diagnostic precision INCREASE while organism count DECREASES."
+      },
+      "codeSnippet": "TAXONOMIC HIERARCHY\n                         \n  RANK / CATEGORY                                TRENDS MOVING DOWN\n     Kingdom             ▲                                │\n     Phylum / Division   │ Decreasing Inclusivity        │ Increasing Specificity\n     Class               │ Decreasing Number of Organisms │ Increasing Shared Traits\n     Order               │ Increasing Similarity          │ Increasing Diagnostic Precision\n     Family              │                                ▼\n     Genus               │\n     Species             │",
+      "content": "Organisms are organized into a mandatory hierarchical system of nested categories. A Category represents an abstract rank or level in the hierarchy, whereas a Taxon (plural: Taxa) refers to a concrete biological entity assigned to that rank.\n\nExample: \"Class\" is an abstract Category; \"Mammalia\" is a concrete Taxon."
+    },
+    {
+      "heading": "6.1 Standardized Taxonomic Suffixes (Nomenclatural Endings)",
+      "title": "6.1 Standardized Taxonomic Suffixes (Nomenclatural Endings)",
+      "type": "paragraph",
+      "content": "The International Code of Nomenclature for algae, fungi, and plants (ICNafp) mandates strict standardized suffix endings for taxonomic ranks. Animal nomenclature (ICZN) mandates endings primarily at the family level.\n\n| Taxonomic Rank | Botanical Ending (ICNafp) | Fungal Ending | Algal Ending | Zoological Ending (ICZN) |\n| :--- | :--- | :--- | :--- | :--- |\n| **Division / Phylum** | `-phyta` | `-mycota` | `-phyta` | Unstandardized |\n| **Subdivision / Subphylum** | `-phytina` | `-mycotina` | `-phytina` | Unstandardized |\n| **Class** | `-opsida` | `-mycetes` | `-phyceae` | Unstandardized |\n| **Subclass** | `-idae` | `-mycetidae` | `-phycidae` | Unstandardized |\n| **Order** | `-ales` | `-ales` | `-ales` | Unstandardized |\n| **Suborder** | `-ineae` | `-ineae` | `-ineae` | Unstandardized |\n| **Superfamily** | `-acea` | `-acea` | `-acea` | `-oidea` |\n| **Family** | `-aceae` | `-aceae` | `-aceae` | `-idae` |\n| **Subfamily** | `-oideae` | `-oideae` | `-oideae` | `-inae` |\n| **Tribe** | `-eae` | `-eae` | `-eae` | `-ini` |"
+    },
+    {
+      "heading": "6.2 Complete Exemplar Hierarchy Breakdowns",
+      "title": "6.2 Complete Exemplar Hierarchy Breakdowns",
+      "type": "paragraph",
+      "content": "| Rank | Human | Bengal Tiger | Potato | Bread Wheat |\n| :--- | :--- | :--- | :--- | :--- |\n| **Domain** | Eukarya | Eukarya | Eukarya | Eukarya |\n| **Kingdom** | Animalia | Animalia | Plantae | Plantae |\n| **Phylum / Division** | Chordata | Chordata | Angiospermae | Angiospermae |\n| **Class** | Mammalia | Mammalia | Dicotyledonae | Monocotyledonae |\n| **Order** | Primates | Carnivora | Solanales | Poales |\n| **Family** | Hominidae | Felidae | Solanaceae | Poaceae |\n| **Genus** | *Homo* | *Panthera* | *Solanum* | *Triticum* |\n| **Species** | *Homo sapiens* | *Panthera tigris* | *Solanum tuberosum* | *Triticum aestivum* |"
+    }
+  ],
+  "quickRevision": [
+    "Category = abstract rank; Taxon = concrete biological entity.",
+    "Moving down hierarchy: Specificity & shared traits increase; total species decrease.",
+    "Botanical endings: -phyta (division), -opsida (class), -ales (order), -aceae (family).",
+    "Zoological endings: -oidea (superfamily), -idae (family), -inae (subfamily)."
+  ]
+}

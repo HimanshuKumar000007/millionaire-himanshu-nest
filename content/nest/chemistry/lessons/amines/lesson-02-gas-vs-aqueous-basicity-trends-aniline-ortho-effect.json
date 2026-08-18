@@ -1,0 +1,62 @@
+{
+  "id": "chem-xii-u18-c9-l02",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVIII \u2014 Amines",
+  "unitNumber": 18,
+  "chapter": "Amines",
+  "chapterNumber": 9,
+  "chapterSlug": "amines",
+  "slug": "lesson-02-gas-vs-aqueous-basicity-trends-aniline-ortho-effect",
+  "title": "Gas vs. Aqueous Phase Basicity Trends & The Aniline Ortho-Effect",
+  "topic": "Amine Basicity & Substituent Effects",
+  "topics": [
+    "2. Amine Basicity Principles (pK_b = -log K_b, smaller pK_b = stronger base)",
+    "Factors Governing Aqueous Basicity: +I Inductive Effect, Hydration Energy, and Steric Hindrance",
+    "2.1 Basicity Trends Matrix: Gas Phase (3\u00b0 > 2\u00b0 > 1\u00b0 > NH\u2083) vs Aqueous Phase",
+    "Aqueous Methyl Substituted Order: (CH\u2083)\u2082NH (2\u00b0) > CH\u2083NH\u2082 (1\u00b0) > (CH\u2083)\u2083N (3\u00b0) > NH\u2083 (Order: 213)",
+    "Aqueous Ethyl Substituted Order: (C\u2082H\u2085)\u2082NH (2\u00b0) > (C\u2082H\u2085)\u2083N (3\u00b0) > C\u2082H\u2085NH\u2082 (1\u00b0) > NH\u2083 (Order: 231)",
+    "2.2 Aniline Resonance Delocalization (pK_b = 9.38 vs 4.75 for NH\u2083) & The Aniline Ortho-Effect"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "amines",
+  "quickSummary": "Gas phase basicity follows pure +I effect: 3\u00b0 > 2\u00b0 > 1\u00b0 > NH\u2083. Aqueous basicity balances +I, hydration, and sterics: Methyl order is 2\u00b0 > 1\u00b0 > 3\u00b0 > NH\u2083 (213); Ethyl order is 2\u00b0 > 3\u00b0 > 1\u00b0 > NH\u2083 (231). Aniline (pK_b = 9.38) is 10\u2076x weaker than NH\u2083 because its lone pair delocalizes across 5 canonical structures. The Ortho-Effect makes almost all o-substituted anilines weaker bases than aniline.",
+  "summary": "Master gas-phase and aqueous basicity hierarchies, aniline resonance deactivation, and the aniline ortho-effect.",
+  "conceptBreakdown": [
+    {
+      "heading": "2. Gas Phase vs Aqueous Phase Basicity Trends",
+      "title": "2. Gas Phase vs Aqueous Phase Basicity Trends",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Basicity Mnemonic Orders",
+        "takeaway": "Gas Phase: 3\u00b0 > 2\u00b0 > 1\u00b0 > NH\u2083 (pure +I). Aqueous Methyl: 2\u00b0 > 1\u00b0 > 3\u00b0 > NH\u2083 (213). Aqueous Ethyl: 2\u00b0 > 3\u00b0 > 1\u00b0 > NH\u2083 (231)."
+      },
+      "codeSnippet": "                 GAS PHASE BASICITY (Pure $+I$ Effect Dominates)\n                 \n                 $$\\mathbf{3^\\circ \\text{ Amine } (R_3N) > 2^\\circ \\text{ Amine } (R_2NH) > 1^\\circ \\text{ Amine } (RNH_2) > NH_3}$$\n\n               AQUEOUS PHASE BASICITY (Interplay of $+I$, Hydration, & Sterics)\n               \n   For Methyl Substitution ($R = -\\text{CH}_3$):       $$\\mathbf{(CH_3)_2NH \\ (2^\\circ) > CH_3NH_2 \\ (1^\\circ) > (CH_3)_3N \\ (3^\\circ) > NH_3 \\quad (\\text{Order: } 213)}$$\n   For Ethyl Substitution ($R = -\\text{C}_2\\text{H}_5$):    $$\\mathbf{(C_2H_5)_2NH \\ (2^\\circ) > (C_2H_5)_3N \\ (3^\\circ) > C_2H_5NH_2 \\ (1^\\circ) > NH_3 \\quad (\\text{Order: } 231)}$$",
+      "content": "Amines are basic due to nitrogen's lone pair. In the gas phase, $+I$ electron donation completely determines stability ($3^\\circ > 2^\\circ > 1^\\circ > \text{NH}_3$). In aqueous solution, solvation by hydrogen bonding ($\text{RNH}_3^+ > \text{R}_2\text{NH}_2^+ > \text{R}_3\text{NH}^+$) and steric hindrance combine with $+I$ to yield the classic 213 (methyl) and 231 (ethyl) orders."
+    },
+    {
+      "heading": "2.2 Aniline Resonance Delocalization & The Ortho-Effect",
+      "title": "2.2 Aniline Resonance Delocalization & The Ortho-Effect",
+      "type": "paragraph",
+      "codeSnippet": "                      ANILINE RESONANCE DELOCALIZATION\n                      \n   :NH\u2082               NH\u2082\u207a               NH\u2082\u207a               NH\u2082\u207a\n    \u2502                  \u2551                  \u2551                  \u2551\n   / \\   \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba    / \\\u207b   \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba   / \\    \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba   /\u207b \\\n  |   |              |   |              |\u207b  |              |   |\n   \\ /                \\ /                \\ /                \\ /\n\n\u2022 Aniline (pKb = 9.38) is 10\u2076x WEAKER than NH\u2083 (pKb = 4.75) due to 5 canonical resonance forms.\n\u2022 Ortho-Effect in Anilines: Almost ALL o-substituted anilines are WEAKER BASES than Aniline!\n  Basicity Order: p-Toluidine > m-Toluidine > Aniline > o-Toluidine\n  Nitroaniline Order: p-Nitroaniline > m-Nitroaniline > Aniline > o-Nitroaniline",
+      "content": "Aniline is a weak base because its lone pair is delocalized into the ring. Substituents modulate basicity ($+M/+I$ increase basicity; $-M/-I$ decrease basicity). In the *ortho* position, steric hindrance to protonation and loss of coplanarity make *ortho*-substituted anilines weaker bases than aniline."
+    }
+  ],
+  "quickRevision": [
+    "Gas phase: 3\u00b0 > 2\u00b0 > 1\u00b0 > NH\u2083 (pure +I).",
+    "Aqueous methyl: (CH\u2083)\u2082NH (2\u00b0) > CH\u2083NH\u2082 (1\u00b0) > (CH\u2083)\u2083N (3\u00b0) > NH\u2083 (213).",
+    "Aqueous ethyl: (C\u2082H\u2085)\u2082NH (2\u00b0) > (C\u2082H\u2085)\u2083N (3\u00b0) > C\u2082H\u2085NH\u2082 (1\u00b0) > NH\u2083 (231).",
+    "Aniline is 10\u2076x weaker than NH\u2083 due to 5-structure resonance delocalization.",
+    "Ortho-effect in anilines: o-Substituted anilines are weaker bases than aniline."
+  ],
+  "keyFormulae": [
+    "\\text{Aqueous Methyl: } 2^\\circ > 1^\\circ > 3^\\circ > \\text{NH}_3 \\quad (213)",
+    "\\text{Aqueous Ethyl: } 2^\\circ > 3^\\circ > 1^\\circ > \\text{NH}_3 \\quad (231)"
+  ]
+}

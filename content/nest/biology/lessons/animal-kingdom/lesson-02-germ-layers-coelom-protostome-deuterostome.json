@@ -1,0 +1,56 @@
+{
+  "id": "bio-xi-u1-c4-l02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit I — Diversity of Living Organisms",
+  "unitNumber": 1,
+  "chapter": "Animal Kingdom",
+  "chapterNumber": 4,
+  "chapterSlug": "animal-kingdom",
+  "slug": "lesson-02-germ-layers-coelom-protostome-deuterostome",
+  "title": "Germ Layers, Coelom Architecture, & Bilaterian Lineages",
+  "topic": "Diploblastic vs Triploblastic, Coelom Origin, & Protostome vs Deuterostome",
+  "topics": [
+    "Diploblastic vs Triploblastic Germ Layers",
+    "Acoelomate, Pseudocoelomate, & Eucoelomate (True Coelom)",
+    "Schizocoely vs Enterocoely",
+    "Protostome Lineage (Spiral & Determinate, Blastopore -> Mouth)",
+    "Deuterostome Lineage (Radial & Indeterminate, Blastopore -> Anus)"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Animals are diploblastic (ectoderm + endoderm + non-cellular mesoglea) or triploblastic (+ mesoderm). Body cavities include acoelomates (Platyhelminthes), pseudocoelomates (Nematoda), and eucoelomates (Schizocoels: Annelida/Arthropoda/Mollusca; Enterocoels: Echinodermata/Chordata).",
+  "summary": "Animals are diploblastic (ectoderm + endoderm + non-cellular mesoglea) or triploblastic (+ mesoderm). Body cavities include acoelomates (Platyhelminthes), pseudocoelomates (Nematoda), and eucoelomates (Schizocoels: Annelida/Arthropoda/Mollusca; Enterocoels: Echinodermata/Chordata).",
+  "conceptBreakdown": [
+    {
+      "heading": "1.2 Embryological Architecture & Coelom Origin",
+      "title": "1.2 Embryological Architecture & Coelom Origin",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "True coelom (eucoelom) is completely enclosed by mesoderm. Aschelminthes have a pseudocoel (mesodermal pouches in blastocoel), and Platyhelminthes have solid mesodermal parenchyma (acoelomate)."
+      },
+      "codeSnippet": "GERM LAYER ORGANIZATIONS\n\nDIPLOBLASTIC ARCHITECTURE              TRIPLOBLASTIC ARCHITECTURE\n\n   ┌───────────────────┐                  ┌───────────────────┐\n   │ Ectoderm          │                  │ Ectoderm          │\n   ├───────────────────┤                  ├───────────────────┤\n   │ Non-Cellular      │                  │ MESODERM          │\n   │ Mesoglea Gel      │                  │ (True Tissue)     │\n   ├───────────────────┤                  ├───────────────────┤\n   │ Endoderm          │                  │ Endoderm          │\n   └───────────────────┘                  └───────────────────┘",
+      "content": "### 1. Germ Layer Configuration\n• **Diploblastic**: Animals derived from two embryonic primary germ layers: outer **ectoderm** and inner **endoderm**, separated by an undifferentiated non-cellular gelatinous matrix called **mesoglea** (e.g., *Porifera*, *Cnidaria*, *Ctenophora*).\n• **Triploblastic**: Animals derived from three embryonic germ layers: outer **ectoderm**, middle **mesoderm**, and inner **endoderm** (e.g., *Platyhelminthes* through *Chordata*)."
+    },
+    {
+      "heading": "Coelom (Body Cavity) Architecture & Origin",
+      "title": "Coelom (Body Cavity) Architecture & Origin",
+      "type": "paragraph",
+      "codeSnippet": "COELOM ARCHITECTURES\n\nACOELOMATE                PSEUDOCOELOMATE             EUCOELOMATE (True Coelom)\n(No Cavity)               (False Cavity)              (Fully Mesodermal Lined)\n\n┌───────────────┐         ┌───────────────┐           ┌───────────────┐\n│ Ectoderm      │         │ Ectoderm      │           │ Ectoderm      │\n├───────────────┤         ├───────────────┤           ├───────────────┤\n│ Solid         │         │ Mesodermal    │           │ Somatopleure  │\n│ Parenchyma    │         │ Pouches       │           ├───────────────┤\n│ Mesoderm      │         ├───────────────┤           │ COELOMIC CAVITY│\n├───────────────┤         │ Persistent    │           ├───────────────┤\n│ Endoderm      │         │ Blastocoel    │           │ Splanchnopleure│\n└───────────────┘         ├───────────────┤           ├───────────────┤\n                          │ Endoderm      │           │ Endoderm      │\n                          └───────────────┘           └───────────────┘",
+      "content": "• **Acoelomate**: Body cavity is completely absent; the space between gut and outer body wall is filled with solid mesodermal parenchyma tissue (e.g., *Platyhelminthes*).\n• **Pseudocoelomate**: Body cavity is **not** lined continuously by mesoderm. Instead, mesoderm exists as scattered pouches within a persistent embryonic blastocoel (e.g., *Aschelminthes* / *Nematoda*).\n• **Eucoelomate (True Coelomate)**: Body cavity lined on both sides by mesoderm (outer parietal / somatopleuric mesoderm and inner visceral / splanchnopleuric mesoderm).\n  - **Schizocoelomate**: True coelom formed by the **splitting of solid mesodermal blocks** (e.g., *Annelida*, *Arthropoda*, *Mollusca*).\n  - **Enterocoelomate**: True coelom formed by **outpocketings of the embryonic archenteron** (primitive gut) (e.g., *Echinodermata*, *Hemichordata*, *Chordata*)."
+    },
+    {
+      "heading": "1.3 Protostome vs. Deuterostome Developmental Profiles",
+      "title": "1.3 Protostome vs. Deuterostome Developmental Profiles",
+      "type": "paragraph",
+      "codeSnippet": "BILATERIAN DEVELOPMENTAL LINES\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n   PROTOSTOMIA                                             DEUTEROSTOMIA\n (Mouth First)                                           (Anus First)\n  ├── Spiral & Determinate Cleavage                       ├── Radial & Indeterminate Cleavage\n  ├── Blastopore becomes MOUTH                            ├── Blastopore becomes ANUS\n  └── Schizocoelous Origin                                └── Enterocoelous Origin\n      (Annelids, Arthropods, Molluscs)                        (Echinoderms, Hemichordates, Chordates)",
+      "content": "| Trait | Protostome Lineage | Deuterostome Lineage |\n| :--- | :--- | :--- |\n| **Cleavage Pattern** | **Spiral** (spindle axes oblique to egg axis) and **Determinate / Mosaic** (cell fate fixed at cleavage) | **Radial** (spindle axes parallel/perpendicular) and **Indeterminate / Regulative** (totipotent early blastomeres) |\n| **Fate of Blastopore** | Blastopore develops into the **Mouth**; anus forms secondary opening | Blastopore develops into the **Anus**; mouth forms secondary opening |\n| **Coelom Formation** | **Schizocoely** (splitting of mesodermal masses) | **Enterocoely** (archenteric pouching) |\n| **Phylogenetic Phyla** | *Annelida*, *Arthropoda*, *Mollusca* | *Echinodermata*, *Hemichordata*, *Chordata* |"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "bio-xi-u3-c8-l05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Cell — The Unit of Life",
+  "chapterNumber": 8,
+  "chapterSlug": "cell-the-unit-of-life",
+  "slug": "lesson-05-endomembrane-system-er-golgi-trafficking",
+  "title": "The Endomembrane System: ER, Golgi Apparatus, & Vesicular Trafficking",
+  "topic": "RER (Ribophorins), SER (Lipids/Detox), Golgi Polarity, & COP I/COP II/Clathrin Vesicles",
+  "topics": [
+    "Endomembrane System Definition (ER, Golgi, Lysosomes, Vacuoles; Excludes Mitochondria/Plastids/Peroxisomes)",
+    "Rough Endoplasmic Reticulum (80S Ribosomes bound by Ribophorin I & II, Protein Synthesis & N-Glycosylation)",
+    "Smooth Endoplasmic Reticulum (Lipid/Steroid Synthesis, Cytochrome P450 Detoxification, Sarcoplasmic Reticulum $Ca^{2+}$)",
+    "Golgi Apparatus Polarity (Cis / Forming Face vs Trans / Maturing Face)",
+    "Golgi Functions: O-Glycosylation, Cell Plate / Pectin Synthesis, Acrosome Formation",
+    "Vesicle Coat Proteins: COP II (Anterograde), COP I (Retrograde), Clathrin"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "The Endomembrane System comprises organelles coordinated by vesicular transport (ER, Golgi, Lysosomes, Vacuoles; excludes Mitochondria, Plastids, and Peroxisomes). RER bears 80S ribosomes anchored by Ribophorins (protein synthesis and N-glycosylation). SER synthesizes lipids/steroids, detoxifies drugs via Cytochrome P450, and stores Ca2+ in sarcoplasmic reticulum. Golgi has cis (forming) and trans (maturing) faces, mediating O-glycosylation, cell plate synthesis, and acrosome formation via COP II (anterograde), COP I (retrograde), and Clathrin coats.",
+  "summary": "The Endomembrane System comprises organelles coordinated by vesicular transport (ER, Golgi, Lysosomes, Vacuoles; excludes Mitochondria, Plastids, and Peroxisomes). RER bears 80S ribosomes anchored by Ribophorins (protein synthesis and N-glycosylation). SER synthesizes lipids/steroids, detoxifies drugs via Cytochrome P450, and stores Ca2+ in sarcoplasmic reticulum. Golgi has cis (forming) and trans (maturing) faces, mediating O-glycosylation, cell plate synthesis, and acrosome formation via COP II (anterograde), COP I (retrograde), and Clathrin coats.",
+  "conceptBreakdown": [
+    {
+      "heading": "4. The Endomembrane System Overview",
+      "title": "4. The Endomembrane System Overview",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Endomembrane System = ER + Golgi + Lysosomes + Vacuoles. Mitochondria, Plastids, and Peroxisomes are strictly EXCLUDED because their functions are uncoordinated with vesicular trafficking."
+      },
+      "codeSnippet": "ENDOMEMBRANE VESICULAR TRAFFICKING\n                       \n   Rough ER (Translation) ──[COP II Vesicles]──► Cis-Golgi ──► Trans-Golgi\n                                                                    │\n   Lysosomes / Vacuoles ◄──[Clathrin Vesicles] ◄────────────────────┤\n                                                                    ▼\n   Plasma Membrane (Exocytosis) ◄───────────────────────────────────┘",
+      "content": "The Endomembrane System comprises eukaryotic membrane-bound organelles whose physiological functions are tightly coordinated through vesicular trafficking."
+    },
+    {
+      "heading": "4.1 Endoplasmic Reticulum (RER vs SER)",
+      "title": "4.1 Endoplasmic Reticulum (RER vs SER)",
+      "type": "paragraph",
+      "codeSnippet": "ROUGH ER vs SMOOTH ER\n                      \n   ROUGH ENDOPLASMIC RETICULUM (RER)       SMOOTH ENDOPLASMIC RETICULUM (SER)\n   ├── Studded with 80S Ribosomes          ├── Lacks Ribosomes\n   ├── Bound via **Ribophorin I & II**     ├── Tubular membrane network\n   ├── Site of Protein Synthesis,          ├── Site of **Lipid / Steroid Synthesis**\n   │   folding, & N-linked Glycosylation   │   (cholesterol, estrogen, testosterone)\n   └── Abundant in pancreatic acinar cells └── Detoxification via **Cytochrome P450**;\n                                               stores $\\text{Ca}^{2+}$ in **Sarcoplasmic Reticulum**",
+      "content": "• **Rough Endoplasmic Reticulum (RER)**: Flattened cisternae studded with 80S ribosomes anchored via glycoprotein receptors **Ribophorin I and Ribophorin II**. Site of secretory protein synthesis, folding, and core **N-linked glycosylation**.\n• **Smooth Endoplasmic Reticulum (SER)**: Interconnected tubular network lacking ribosomes. Functions:\n  1. **Lipid and Steroid Hormone Synthesis** (cholesterol, phospholipids, estrogens, androgens).\n  2. **Drug and Toxin Detoxification** via **Cytochrome P450** monooxygenases in hepatocytes.\n  3. **Calcium Storage & Release**: Specialized as the **Sarcoplasmic Reticulum** in skeletal muscle cells."
+    },
+    {
+      "heading": "4.2 Golgi Apparatus & Vesicle Coat Proteins",
+      "title": "4.2 Golgi Apparatus & Vesicle Coat Proteins",
+      "type": "paragraph",
+      "codeSnippet": "VESICLE COAT PROTEINS\n                          \n   COP II: Anterograde Transport ──► Endoplasmic Reticulum ──► Cis-Golgi\n   COP I:  Retrograde Transport  ──► Cis-Golgi ─────────────► Endoplasmic Reticulum\n   CLATHRIN: Trans-Golgi Target  ──► Trans-Golgi ───────────► Lysosomes / Endosomes",
+      "content": "Consists of parallel curved flattened cisternae exhibiting distinct morphological polarity:\n• **Cis Face (Forming / Convex Face)**: Oriented toward the ER; receives incoming transport vesicles.\n• **Trans Face (Maturing / Concave Face)**: Oriented toward the plasma membrane; buds off processed secretory vesicles and lysosomes.\n\n### Primary Golgi Functions\n1. **Post-Translational Modification**: Directs **O-linked glycosylation** of proteins and lipids into glycoproteins and glycolipids.\n2. **Cell Wall Matrix Synthesis**: Synthesizes non-cellulosic polysaccharides (pectin, hemicellulose) assembled into the **cell plate (phragmoplast)** during plant cytokinesis.\n3. **Acrosome Biogenesis**: Packages hydrolytic enzymes to form the sperm **Acrosome** cap."
+    }
+  ]
+}

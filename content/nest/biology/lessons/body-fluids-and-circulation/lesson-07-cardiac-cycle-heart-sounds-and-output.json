@@ -1,0 +1,35 @@
+{
+  "id": "bio-xi-u5-c15-l07",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Body Fluids and Circulation",
+  "chapterNumber": 15,
+  "chapterSlug": "body-fluids-and-circulation",
+  "slug": "lesson-07-cardiac-cycle-heart-sounds-and-output",
+  "title": "The Cardiac Cycle Mechanics, Heart Sounds, & Cardiac Output",
+  "topic": "Cardiac Biomechanics & Hemodynamics",
+  "order": 7,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Detailed 0.8-second cardiac cycle mechanics, Joint Diastole, Atrial Systole, Ventricular Systole, genesis of heart sounds (LUB / DUP), volumetric parameters (EDV, ESV, SV, CO), and the Frank-Starling Law.",
+  "summary": "Detailed 0.8-second cardiac cycle mechanics, Joint Diastole, Atrial Systole, Ventricular Systole, genesis of heart sounds (LUB / DUP), volumetric parameters (EDV, ESV, SV, CO), and the Frank-Starling Law.",
+  "conceptBreakdown": [
+    {
+      "heading": "The Cardiac Cycle Mechanics, Heart Sounds, & Cardiac Output",
+      "title": "The Cardiac Cycle Mechanics, Heart Sounds, & Cardiac Output",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Cardiac cycle lasts 0.8s. LUB = AV valve closure at start of ventricular systole; DUP = Semilunar valve closure at diastole. Stroke Volume = EDV - ESV = 120 - 50 = 70 mL. Cardiac Output = SV × HR ≈ 5.0 L/min."
+      },
+      "codeSnippet": "CARDIAC CYCLE TIMELINE (0.8 s)\n                        \n   0.0 s ─────── Joint Diastole (0.4 s) ─────── 0.4 s ── Atrial Systole (0.1 s) ── 0.5 s\n                                                                                         │\n   0.8 s ◄──────────────── Ventricular Systole (0.3 s) ──────────────────────────────────┘",
+      "content": "The **Cardiac Cycle** represents the sequential events of atrial and ventricular contraction (**Systole**) and relaxation (**Diastole**) during a single heartbeat. At a resting heart rate of $75\\text{ beats/min}$, one cardiac cycle lasts **$0.8\\text{ seconds}$**.\n\n### 6.1 Mechanical Phases of the Cardiac Cycle\n1. **Joint Diastole ($0.4\\text{ s}$)**: All 4 chambers relaxed; AV valves open; Semilunar valves closed; $70\\%$ passive ventricular filling.\n2. **Atrial Systole ($0.1\\text{ s}$)**: Atria contract; pumps remaining $30\\%$ blood into ventricles (Atrial Kick), reaching $\\text{EDV} \\approx 120\\text{ mL}$.\n3. **Ventricular Systole ($0.3\\text{ s}$)**: Isovolumetric contraction closes AV valves (**\"LUB\"**); Semilunar valves open, ejecting Stroke Volume ($\\text{SV} \\approx 70\\text{ mL}$).\n4. **Ventricular Diastole ($0.5\\text{ s}$)**: Ventricles relax; Semilunar valves close (**\"DUP\"**).\n\n### 6.2 Volumetric Bioenergetics & Cardiac Output\n$$\\text{Stroke Volume (SV)} = \\text{EDV} - \\text{ESV} = 120\\text{ mL} - 50\\text{ mL} = \\mathbf{70\\text{ mL}}$$\n$$\\text{Cardiac Output (CO)} = \\text{SV} \\times \\text{HR} = 70\\text{ mL} \\times 72\\text{ bpm} \\approx \\mathbf{5040\\text{ mL/min} (5.0\\text{ L/min})}$$\n- **Frank-Starling Law**: Within physiological limits, force of contraction is directly proportional to initial muscle fiber stretch (End-Diastolic Volume)."
+    }
+  ]
+}

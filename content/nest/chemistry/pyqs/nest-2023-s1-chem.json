@@ -1,0 +1,901 @@
+{
+  "exam": "NEST",
+  "year": 2023,
+  "session": 1,
+  "subject": "Chemistry",
+  "totalQuestions": 17,
+  "questions": [
+    {
+      "id": "chem-2023-s1-q18",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Inorganic Chemistry",
+      "subtopic": "Oxyacids of Phosphorus",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Pyrophosphoric acid ($\\text{H}_4\\text{P}_2\\text{O}_7$) and pyrophosphorous acid ($\\text{H}_4\\text{P}_2\\text{O}_5$) are oxyacids of phosphorus. The number of $\\text{P}-\\text{OH}$ bonds present in pyrophosphoric acid and pyrophosphorous acid, respectively are:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$4, 3$",
+          "isCorrect": false,
+          "explanation": "Pyrophosphorous acid has 2 P-OH bonds."
+        },
+        {
+          "id": "b",
+          "text": "$4, 4$",
+          "isCorrect": false,
+          "explanation": "Pyrophosphorous acid has P-H bonds."
+        },
+        {
+          "id": "c",
+          "text": "$4, 2$",
+          "isCorrect": true,
+          "explanation": "Pyrophosphoric acid: (HO)2(O)P-O-P(O)(OH)2 has four P-OH bonds. Pyrophosphorous acid: (HO)(H)(O)P-O-P(O)(H)(OH) has two P-OH bonds."
+        },
+        {
+          "id": "d",
+          "text": "$2, 4$",
+          "isCorrect": false,
+          "explanation": "Inverted values."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n- $\\text{H}_4\\text{P}_2\\text{O}_7$: $(\\text{HO})_2\\text{P}(=\\text{O})-\\text{O}-\\text{P}(=\\text{O})(\\text{OH})_2 \\implies 4\\,\\text{P}-\\text{OH}\\text{ bonds}$.\n- $\\text{H}_4\\text{P}_2\\text{O}_5$: $(\\text{HO})(\\text{H})\\text{P}(=\\text{O})-\\text{O}-\\text{P}(=\\text{O})(\\text{H})(\\text{OH}) \\implies 2\\,\\text{P}-\\text{OH}\\text{ bonds}$.",
+      "keyFormulae": [
+        "Inorganic Chemistry: Oxyacids of Phosphorus"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Inorganic Chemistry."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q19",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Chemical Bonding",
+      "subtopic": "VSEPR Molecular Geometry",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The pair of molecules having the same shape is:\n\n(1) $\\text{PF}_5$ and $\\text{BrF}_5$\n(2) $\\text{O}_3$ and $\\text{I}_3^-$\n(3) $\\text{BF}_3$ and $\\text{ClF}_3$\n(4) $\\text{XeO}_3$ and $\\text{PF}_3$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\text{PF}_5$ and $\\text{BrF}_5$",
+          "isCorrect": false,
+          "explanation": "PF5 is trigonal bipyramidal; BrF5 is square pyramidal."
+        },
+        {
+          "id": "b",
+          "text": "$\\text{O}_3$ and $\\text{I}_3^-$",
+          "isCorrect": false,
+          "explanation": "O3 is bent; I3^- is linear."
+        },
+        {
+          "id": "c",
+          "text": "$\\text{BF}_3$ and $\\text{ClF}_3$",
+          "isCorrect": false,
+          "explanation": "BF3 is trigonal planar; ClF3 is T-shaped."
+        },
+        {
+          "id": "d",
+          "text": "$\\text{XeO}_3$ and $\\text{PF}_3$",
+          "isCorrect": true,
+          "explanation": "Both XeO3 and PF3 have steric number 4 (3 bonding pairs + 1 lone pair) giving a Trigonal Pyramidal molecular geometry."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (4) / (D)**\n\n- $\\text{XeO}_3$: $3\\,\\sigma\\text{-bonds} + 1\\text{ lone pair} \\implies \\text{Trigonal Pyramidal}$.\n- $\\text{PF}_3$: $3\\,\\sigma\\text{-bonds} + 1\\text{ lone pair} \\implies \\text{Trigonal Pyramidal}$.",
+      "keyFormulae": [
+        "Chemical Bonding: VSEPR Molecular Geometry"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Chemical Bonding."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q20",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Inorganic Chemistry",
+      "subtopic": "Boron Compounds & Reactions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Boron on reaction with fluorine forms $P$, which on reaction with $\\text{NaH}$ at a high temperature produces $Q$ along with a sodium salt. The compound $P$ also reacts with $\\text{NH}_3$ to give an adduct $R$. However, when compound $Q$ is heated with $\\text{NH}_3$ at $450\\text{ K}$, it forms a cyclic compound $S$. The correct statement is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\text{B}-\\text{N}$ bond in $R$ is covalent in nature.",
+          "isCorrect": false,
+          "explanation": "The B-N bond in BF3.NH3 is a coordinate dative bond."
+        },
+        {
+          "id": "b",
+          "text": "All $\\text{B}-\\text{H}$ bonds in $Q$ are equivalent.",
+          "isCorrect": false,
+          "explanation": "B2H6 contains 4 terminal 2c-2e B-H bonds and 2 bridging 3c-2e B-H-B bonds."
+        },
+        {
+          "id": "c",
+          "text": "The shape of $S$ is tetrahedral.",
+          "isCorrect": false,
+          "explanation": "S is borazine (B3N3H6), which is planar hexagonal (inorganic benzene)."
+        },
+        {
+          "id": "d",
+          "text": "Compound $Q$ when dissolved in water gives an acid.",
+          "isCorrect": true,
+          "explanation": "Diborane (Q = B2H6) hydrolyzes completely in water to yield boric acid: B2H6 + 6 H2O -> 2 H3BO3 + 6 H2."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (4) / (D)**\n\n- $P = \\text{BF}_3, \\quad Q = \\text{B}_2\\text{H}_6, \\quad R = \\text{F}_3\\text{B}\\cdot\\text{NH}_3, \\quad S = \\text{B}_3\\text{N}_3\\text{H}_6\\text{ (Borazine)}$.\n- Hydrolysis: $\\text{B}_2\\text{H}_6 + 6\\text{H}_2\\text{O} \\rightarrow 2\\text{H}_3\\text{BO}_3\\text{ (Boric Acid)} + 6\\text{H}_2$.",
+      "keyFormulae": [
+        "Inorganic Chemistry: Boron Compounds & Reactions"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Inorganic Chemistry."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q21",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Inorganic Chemistry",
+      "subtopic": "Lanthanide Ionization Energies",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786982982/nest_pyqs/2023_s1/nest_2023_s1_page_13_img_1_44.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786982982/nest_pyqs/2023_s1/nest_2023_s1_page_13_img_1_44.png"
+      ],
+      "questionText": "Among the following graphs, the one that represents the correct trend in the third ionization energy of lanthanum and the lanthanides is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Graph (1) showing sharp local maxima at Eu and Yb.",
+          "isCorrect": true,
+          "explanation": "Europium ([Xe]4f7 6s2) and Ytterbium ([Xe]4f14 6s2) achieve stable half-filled (4f7) and completely-filled (4f14) configurations upon losing two electrons. Removing the 3rd electron from the stable 4f subshell requires exceptionally high energy, creating prominent spikes."
+        },
+        {
+          "id": "b",
+          "text": "Graph (2) showing monotonic continuous increase.",
+          "isCorrect": false,
+          "explanation": "Fails to account for extra stability of 4f7 and 4f14 configurations."
+        },
+        {
+          "id": "c",
+          "text": "Graph (3) showing a minimum at Gd.",
+          "isCorrect": false,
+          "explanation": "Incorrect shape."
+        },
+        {
+          "id": "d",
+          "text": "Graph (4) showing uniform regular oscillations.",
+          "isCorrect": false,
+          "explanation": "Incorrect shape."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- The 3rd ionization energy ($\\text{IE}_3$) exhibits pronounced maxima at $\\text{Eu}$ and $\\text{Yb}$ because their $+2$ ions have stable $4f^7$ and $4f^{14}$ configurations.",
+      "keyFormulae": [
+        "Inorganic Chemistry: Lanthanide Ionization Energies"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Inorganic Chemistry."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q22",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure & Quantum Chemistry",
+      "subtopic": "Helium Atom Ground State Energy",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The ground state electronic energy of He atom ($E_{\\text{He}}$) can be expressed in terms of the ground state energy of the hydrogen atom ($E_H$). If $x|E_H|$ is the electron-electron interaction energy, then the correct expression for $E_{\\text{He}}$ is (neglect the interaction between the nucleus and the electrons):",
+      "options": [
+        {
+          "id": "a",
+          "text": "$E_{\\text{He}} = 8E_H + x|E_H|$",
+          "isCorrect": false,
+          "explanation": "Repulsion makes total energy less negative, so it must be 8EH + x|EH| since EH is negative."
+        },
+        {
+          "id": "b",
+          "text": "$E_{\\text{He}} = 8E_H - x|E_H|$",
+          "isCorrect": true,
+          "explanation": "For He with Z=2, unperturbed 2-electron energy E0 = 2 * (Z^2 * EH) = 2 * 4 EH = 8 EH (where EH = -13.6 eV). Electron-electron repulsion +V_ee adds a positive contribution: E_He = 8 EH + (+x |EH|) = 8 EH - x EH."
+        },
+        {
+          "id": "c",
+          "text": "$E_{\\text{He}} = 4E_H + x|E_H|$",
+          "isCorrect": false,
+          "explanation": "Used Z=1."
+        },
+        {
+          "id": "d",
+          "text": "$E_{\\text{He}} = 4E_H - x|E_H|$",
+          "isCorrect": false,
+          "explanation": "Used Z=1."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (2) / (B)**\n\n- $E^{(0)} = 2 \\times Z^2 E_H = 8E_H$.\n- With electron-electron repulsion, $E_{\\text{He}} = 8E_H - x|E_H|$.",
+      "keyFormulae": [
+        "Atomic Structure & Quantum Chemistry: Helium Atom Ground State Energy"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Atomic Structure & Quantum Chemistry."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q23",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Solid State",
+      "subtopic": "Crystal Packing & Void Space",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Consider a metal crystal with simple cubic, fcc, and bcc structures. Assume that the nearest neighbour atoms (spheres) touch each other in the unit cells. The correct statement is:\n\n(1) The percentage of the void space in different crystal structures follow the order: fcc < bcc < simple cubic.\n(2) The number of atoms in the unit cell are 14, 9 and 8 for fcc, bcc and simple cubic structures, respectively.\n(3) The lowest percentage of the void space among the three crystal structures is approximately 48%.\n(4) The percentage of the void space in any of the above crystal structures will depend on the lattice parameter and hence cannot be predicted without the knowledge of the lattice parameter.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The percentage of the void space in different crystal structures follow the order: fcc < bcc < simple cubic.",
+          "isCorrect": true,
+          "explanation": "Packing efficiencies: fcc = 74% (void 26%), bcc = 68% (void 32%), simple cubic = 52.4% (void 47.6%). Void space order: fcc (26%) < bcc (32%) < sc (47.6%)."
+        },
+        {
+          "id": "b",
+          "text": "The number of atoms in the unit cell are 14, 9 and 8 for fcc, bcc and simple cubic structures, respectively.",
+          "isCorrect": false,
+          "explanation": "Effective number of atoms Z are 4, 2, and 1."
+        },
+        {
+          "id": "c",
+          "text": "The lowest percentage of the void space among the three crystal structures is approximately 48%.",
+          "isCorrect": false,
+          "explanation": "Lowest void space is in fcc (26%)."
+        },
+        {
+          "id": "d",
+          "text": "The percentage of the void space in any of the above crystal structures will depend on the lattice parameter and hence cannot be predicted without the knowledge of the lattice parameter.",
+          "isCorrect": false,
+          "explanation": "Void space percentage is constant and independent of lattice parameter a."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- $\\text{Packing Efficiency: } \\text{fcc (74\\%)} > \\text{bcc (68\\%)} > \\text{simple cubic (52.4\\%)}$.\n- $\\text{Void Space: } \\text{fcc (26\\%)} < \\text{bcc (32\\%)} < \\text{simple cubic (47.6\\%)}$.",
+      "keyFormulae": [
+        "Solid State: Crystal Packing & Void Space"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Solid State."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q24",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Thermodynamics",
+      "subtopic": "Enthalpy & Entropy Relations",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A certain amount ($n\\text{ moles}$) of a monoatomic ideal gas changes from an initial state $X(P_1, V_1, T_1)$ to a final state $Y(P_2, V_2, T_2)$. Let $\\Delta U, \\Delta H,$ and $\\Delta S$ represent the changes in internal energy, enthalpy, and entropy, respectively in this process. The correct expression is:\n\n(1) $\\Delta H = \\Delta U + P_2(V_2 - V_1)$\n(2) $\\Delta H = \\Delta U + P_2(V_2 - V_1) + V_2(P_2 - P_1)$\n(3) $\\Delta S = C_v \\ln(T_2/T_1) + nR \\ln(V_2/V_1)$\n(4) $\\Delta S = (3/2)(P_1V_1/T_1)\\ln(T_2/T_1) + (P_2V_2/T_2)\\ln(V_2/V_1)$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\Delta H = \\Delta U + P_2(V_2 - V_1)$",
+          "isCorrect": false,
+          "explanation": "Delta H = Delta U + Delta(PV) = Delta U + P2 V2 - P1 V1."
+        },
+        {
+          "id": "b",
+          "text": "$\\Delta H = \\Delta U + P_2(V_2 - V_1) + V_2(P_2 - P_1)$",
+          "isCorrect": false,
+          "explanation": "Algebraic error in Delta(PV)."
+        },
+        {
+          "id": "c",
+          "text": "$\\Delta S = C_v \\ln(T_2/T_1) + nR \\ln(V_2/V_1)$",
+          "isCorrect": true,
+          "explanation": "Fundamental thermodynamic formula for entropy change of an ideal gas: Delta S = n C_{v,m} ln(T2/T1) + nR ln(V2/V1) = C_v ln(T2/T1) + nR ln(V2/V1)."
+        },
+        {
+          "id": "d",
+          "text": "$\\Delta S = (3/2)(P_1V_1/T_1)\\ln(T_2/T_1) + (P_2V_2/T_2)\\ln(V_2/V_1)$",
+          "isCorrect": false,
+          "explanation": "Uses different state variables inconsistently."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n$$\\Delta S = C_v \\ln\\left(\\frac{T_2}{T_1}\\right) + nR \\ln\\left(\\frac{V_2}{V_1}\\right)$$",
+      "keyFormulae": [
+        "Thermodynamics: Enthalpy & Entropy Relations"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Thermodynamics."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q25",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Solutions & Colligative Properties",
+      "subtopic": "Elevation in Boiling Point & Degree of Dissociation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A mixture of $0.1\\text{ mol}$ of a weak acid $\\text{HX}$ and $0.2\\text{ mol}$ of another weak acid $\\text{HY}$ is dissolved in $1\\text{ kg}$ of water. The degrees of ionization of the two acids $\\text{HX}$ and $\\text{HY}$ in the final solution are $0.1$ and $0.2$, respectively. Assuming Raoult's law to be valid, the elevation of boiling point ($\\Delta T_b$), in terms of the boiling point elevation constant ($K_b$), is given by:\n\n(1) $\\Delta T_b = 0.25 K_b$\n(2) $\\Delta T_b = 0.35 K_b$\n(3) $\\Delta T_b = 0.30 K_b$\n(4) $\\Delta T_b = 0.32 K_b$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\Delta T_b = 0.25 K_b$",
+          "isCorrect": false,
+          "explanation": "Arithmetic error."
+        },
+        {
+          "id": "b",
+          "text": "$\\Delta T_b = 0.35 K_b$",
+          "isCorrect": true,
+          "explanation": "For HX: i1 = 1 + alpha1 = 1 + 0.1 = 1.1; effective molality = 0.1 * 1.1 = 0.11 m. For HY: i2 = 1 + alpha2 = 1 + 0.2 = 1.2; effective molality = 0.2 * 1.2 = 0.24 m. Total effective molality = 0.11 + 0.24 = 0.35 m. Delta T_b = m_total * K_b = 0.35 K_b."
+        },
+        {
+          "id": "c",
+          "text": "$\\Delta T_b = 0.30 K_b$",
+          "isCorrect": false,
+          "explanation": "Neglected ionization."
+        },
+        {
+          "id": "d",
+          "text": "$\\Delta T_b = 0.32 K_b$",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (2) / (B)**\n\n- $m_{\\text{eff}}(\\text{HX}) = 0.1(1 + 0.1) = 0.11\\text{ m}$.\n- $m_{\\text{eff}}(\\text{HY}) = 0.2(1 + 0.2) = 0.24\\text{ m}$.\n- $\\Delta T_b = (0.11 + 0.24)K_b = 0.35 K_b$.",
+      "keyFormulae": [
+        "Solutions & Colligative Properties: Elevation in Boiling Point & Degree of Dissociation"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Solutions & Colligative Properties."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q26",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry & Stereochemistry",
+      "subtopic": "Reaction Mechanisms & Retention of Configuration",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "When levorotatory 2-methylbutan-1-ol ($P$) is heated with concentrated $\\text{HCl}$, dextrorotatory 1-chloro-2-methylbutane ($Q$) is formed. The correct statement is:\n\n(1) $P$ and $Q$ have identical absolute configuration.\n(2) The reaction takes place at the asymmetric centre.\n(3) The reaction involves a carbocationic intermediate.\n(4) If the concentration of $P$ is doubled, keeping the concentration of $\\text{HCl}$ unchanged, the rate of the reaction does not change.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$P$ and $Q$ have identical absolute configuration.",
+          "isCorrect": true,
+          "explanation": "The reaction replaces -OH with -Cl at C1. No bonds to the chiral center at C2 are broken or formed, so the absolute configuration (R/S) at C2 remains strictly unchanged/identical, even though the optical rotation sign flips from (-) to (+)."
+        },
+        {
+          "id": "b",
+          "text": "The reaction takes place at the asymmetric centre.",
+          "isCorrect": false,
+          "explanation": "Asymmetric center is C2, while reaction occurs at C1."
+        },
+        {
+          "id": "c",
+          "text": "The reaction involves a carbocationic intermediate.",
+          "isCorrect": false,
+          "explanation": "Primary alcohol reacts via SN2 pathway without rearrangement."
+        },
+        {
+          "id": "d",
+          "text": "If the concentration of $P$ is doubled, keeping the concentration of $\\text{HCl}$ unchanged, the rate of the reaction does not change.",
+          "isCorrect": false,
+          "explanation": "Rate depends on alcohol concentration."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- The chiral carbon $\\text{C}_2$ does not participate in bond breaking/making $\\implies$ **identical absolute configuration**.",
+      "keyFormulae": [
+        "Organic Chemistry & Stereochemistry: Reaction Mechanisms & Retention of Configuration"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Organic Chemistry & Stereochemistry."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q27",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Organic Reaction Mechanisms",
+      "subtopic": "Acid-Catalyzed Dehydration & Alkene Stability",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983015/nest_pyqs/2023_s1/nest_2023_s1_page_16_img_3_64.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983015/nest_pyqs/2023_s1/nest_2023_s1_page_16_img_3_64.png"
+      ],
+      "questionText": "In the reaction shown below, the major hydrocarbon product is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Structure (1) - 2,3-dimethylbut-2-ene (most substituted alkene)",
+          "isCorrect": true,
+          "explanation": "Acid-catalyzed elimination with rearrangement yields the thermodynamically most stable tetrasubstituted alkene with 12 hyperconjugative alpha-hydrogens."
+        },
+        {
+          "id": "b",
+          "text": "Structure (2)",
+          "isCorrect": false,
+          "explanation": "Less substituted alkene."
+        },
+        {
+          "id": "c",
+          "text": "Structure (3)",
+          "isCorrect": false,
+          "explanation": "Terminal alkene."
+        },
+        {
+          "id": "d",
+          "text": "Structure (4)",
+          "isCorrect": false,
+          "explanation": "Unrearranged product."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- Dehydration with carbocation rearrangement $\\implies$ **2,3-dimethylbut-2-ene** (thermodynamic major product).",
+      "keyFormulae": [
+        "Organic Reaction Mechanisms: Acid-Catalyzed Dehydration & Alkene Stability"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Organic Reaction Mechanisms."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q28",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "subtopic": "Resonance Structures Criteria",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983015/nest_pyqs/2023_s1/nest_2023_s1_page_16_img_3_64.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983015/nest_pyqs/2023_s1/nest_2023_s1_page_16_img_3_64.png"
+      ],
+      "questionText": "Among the following pairs, the pairs that represent resonance structures are:\n\n(1) $P, Q$ and $R$\n(2) $Q, R$ and $S$\n(3) $Q$ and $S$\n(4) $R$ and $S$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$P, Q$ and $R$",
+          "isCorrect": false,
+          "explanation": "Check connectivity and atomic positions."
+        },
+        {
+          "id": "b",
+          "text": "$Q, R$ and $S$",
+          "isCorrect": false,
+          "explanation": "Check connectivity."
+        },
+        {
+          "id": "c",
+          "text": "$Q$ and $S$",
+          "isCorrect": true,
+          "explanation": "Pairs Q and S have identical sigma frameworks with differing pi-electron and lone pair distributions, satisfying all criteria for true resonance canonical structures."
+        },
+        {
+          "id": "d",
+          "text": "$R$ and $S$",
+          "isCorrect": false,
+          "explanation": "Nuclear positions differ."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n- Valid resonance structures require fixed atomic/nuclear positions and identical numbers of unpaired electrons $\\implies$ **$Q$ and $S$**.",
+      "keyFormulae": [
+        "Organic Chemistry: Resonance Structures Criteria"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Organic Chemistry."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q29",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Organic Synthesis",
+      "subtopic": "Multi-Step Organic Transformation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983016/nest_pyqs/2023_s1/nest_2023_s1_page_17_img_1_70.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983016/nest_pyqs/2023_s1/nest_2023_s1_page_17_img_1_70.png"
+      ],
+      "questionText": "In the reaction shown below, the product $P$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Structure (1)",
+          "isCorrect": true,
+          "explanation": "Addition of Grignard reagent to carbonyl followed by acid workup and oxidation yields ketone product P (propiophenone derivative)."
+        },
+        {
+          "id": "b",
+          "text": "Structure (2)",
+          "isCorrect": false,
+          "explanation": "Different oxidation state."
+        },
+        {
+          "id": "c",
+          "text": "Structure (3)",
+          "isCorrect": false,
+          "explanation": "Different alkyl group."
+        },
+        {
+          "id": "d",
+          "text": "Structure (4)",
+          "isCorrect": false,
+          "explanation": "Elimination product."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- Reaction sequence gives ketone product (Structure 1).",
+      "keyFormulae": [
+        "Organic Synthesis: Multi-Step Organic Transformation"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Organic Synthesis."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q30",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "s-Block Elements",
+      "subtopic": "Alkali Metal Oxides & Space Applications",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The reaction of the alkali metals with oxygen results in the formation of different alkali metal oxides, monoxides, peroxides and superoxides. These oxides have interesting chemical properties and applications. The ease of formation and stability of these oxides depend mainly on the charge and size of the alkali metals in relation to the size of the anions. In an application like in a space suit, a chemical may be used which gives oxygen and also absorbs carbon dioxide from exhalation. In this context, the correct statement(s) is(are):\n\n(1) The order of the stability of alkali metal monoxides is $\\text{Li}_2\\text{O} < \\text{Na}_2\\text{O} < \\text{K}_2\\text{O}$.\n(2) Superoxide formation decreases down the group.\n(3) $\\text{Na}_2\\text{O}_2$ on reaction with $\\text{CO}_2$ gives $\\text{Na}_2\\text{CO}_3$ and itself gets oxidized to oxygen.\n(4) Potassium superoxide can be used in a space suit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The order of the stability of alkali metal monoxides is $\\text{Li}_2\\text{O} < \\text{Na}_2\\text{O} < \\text{K}_2\\text{O}$.",
+          "isCorrect": false,
+          "explanation": "Li2O is the most stable monoxide due to high lattice energy."
+        },
+        {
+          "id": "b",
+          "text": "Superoxide formation decreases down the group.",
+          "isCorrect": false,
+          "explanation": "Superoxide stability increases down the group (K < Rb < Cs)."
+        },
+        {
+          "id": "c",
+          "text": "$\\text{Na}_2\\text{O}_2$ on reaction with $\\text{CO}_2$ gives $\\text{Na}_2\\text{CO}_3$ and itself gets oxidized to oxygen.",
+          "isCorrect": false,
+          "explanation": "Disproportionation of peroxide."
+        },
+        {
+          "id": "d",
+          "text": "Potassium superoxide can be used in a space suit.",
+          "isCorrect": true,
+          "explanation": "KO2 reacts with moisture and exhaled CO2 to regenerate O2: 4 KO2 + 2 CO2 -> 2 K2CO3 + 3 O2, making it standard for space suits and submarines."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (4) / (D)**\n\n- Potassium superoxide ($\\text{KO}_2$) is used in portable breathing apparatus and space suits to absorb $\\text{CO}_2$ and release $\\text{O}_2$.",
+      "keyFormulae": [
+        "s-Block Elements: Alkali Metal Oxides & Space Applications"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of s-Block Elements."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q31",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Coordination Chemistry (MSQ)",
+      "subtopic": "Crystal Field Theory & High/Low Spin Complexes",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Negatively charged monodentate strong field ligand ($X^-$) and weak field ligand ($Y^-$) form complexes $[\\text{Mn}X_6]^{4-}$ and $[\\text{Mn}Y_6]^{4-}$, respectively. The correct statement(s) is(are): *(Select all correct options)*\n\n(1) The magnetic moment of $[\\text{Mn}X_6]^{4-}$ is less than that of $[\\text{Mn}Y_6]^{4-}$.\n(2) $[\\text{Mn}Y_6]^{4-}$ is more stabilized than $[\\text{Mn}X_6]^{4-}$.\n(3) The $t_{2g}$ orbitals in $[\\text{Mn}X_6]^{4-}$ are stabilized by $2\\Delta_0$ as compared to degenerate $d$ orbitals.\n(4) $[\\text{Mn}Y_6]^{4-}$ is intense in colour as compared to $[\\text{Mn}X_6]^{4-}$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The magnetic moment of $[\\text{Mn}X_6]^{4-}$ is less than that of $[\\text{Mn}Y_6]^{4-}$.",
+          "isCorrect": true,
+          "explanation": "Mn2+ is d5. Strong field X- gives low-spin t2g^5 (1 unpaired e-, mu = 1.73 BM). Weak field Y- gives high-spin t2g^3 eg^2 (5 unpaired e-, mu = 5.92 BM). Thus mu(low-spin) < mu(high-spin)."
+        },
+        {
+          "id": "b",
+          "text": "$[\\text{Mn}Y_6]^{4-}$ is more stabilized than $[\\text{Mn}X_6]^{4-}$.",
+          "isCorrect": false,
+          "explanation": "Strong field complex has higher crystal field stabilization energy (CFSE)."
+        },
+        {
+          "id": "c",
+          "text": "The $t_{2g}$ orbitals in $[\\text{Mn}X_6]^{4-}$ are stabilized by $2\\Delta_0$ as compared to degenerate $d$ orbitals.",
+          "isCorrect": true,
+          "explanation": "In octahedral field, t2g is stabilized by -0.4 Delta_0 per electron. For 5 electrons: CFSE = 5 * (-0.4 Delta_0) = -2.0 Delta_0."
+        },
+        {
+          "id": "d",
+          "text": "$[\\text{Mn}Y_6]^{4-}$ is intense in colour as compared to $[\\text{Mn}X_6]^{4-}$.",
+          "isCorrect": false,
+          "explanation": "Both are centrosymmetric octahedral complexes; d-d transitions are Laporte forbidden."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (1) and (3) / (A) and (C)**\n\n- $\\text{Mn}^{2+} (d^5)$:\n  - Low spin $[\\text{Mn}X_6]^{4-}: t_{2g}^5 e_g^0 \\implies n = 1\\text{ unpaired } e^- \\implies \\mu = 1.73\\text{ BM}$; $\\text{CFSE} = 5(-0.4\\Delta_0) = -2\\Delta_0$.\n  - High spin $[\\text{Mn}Y_6]^{4-}: t_{2g}^3 e_g^2 \\implies n = 5\\text{ unpaired } e^- \\implies \\mu = 5.92\\text{ BM}$; $\\text{CFSE} = 0$.",
+      "keyFormulae": [
+        "Coordination Chemistry (MSQ): Crystal Field Theory & High/Low Spin Complexes"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Coordination Chemistry (MSQ)."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q32",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Chemical Bonding & Molecular Orbitals (MSQ)",
+      "subtopic": "Heteronuclear Diatomic MO Theory",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The bonding in the species $\\text{HeH}$ can be studied in a way similar to that of $\\text{H}_2$. The correct statement(s) is(are): *(Select all correct options)*\n\n(1) The dipole moment of $\\text{HeH}$ is larger than that of $\\text{H}_2^+$.\n(2) Among $\\text{HeH}, \\text{HeH}^+,$ and $\\text{HeH}_2^{2+}$, the species that is most stable is $\\text{HeH}_2^{2+}$.\n(3) Among $\\text{HeH}, \\text{HeH}^-,$ and $\\text{HeH}^+$, the system with the smallest bond length is $\\text{HeH}^+$.\n(4) $\\text{HeH}^+$ has a symmetrical distribution of electrons about the bond axis.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The dipole moment of $\\text{HeH}$ is larger than that of $\\text{H}_2^+$.",
+          "isCorrect": true,
+          "explanation": "H2+ is homonuclear with zero permanent dipole moment. Heteronuclear HeH has high permanent dipole moment due to electronegativity difference between He and H."
+        },
+        {
+          "id": "b",
+          "text": "Among $\\text{HeH}, \\text{HeH}^+,$ and $\\text{HeH}_2^{2+}$, the species that is most stable is $\\text{HeH}_2^{2+}$.",
+          "isCorrect": false,
+          "explanation": "HeH+ is the most stable 2-electron isoelectronic analogue of H2."
+        },
+        {
+          "id": "c",
+          "text": "Among $\\text{HeH}, \\text{HeH}^-,$ and $\\text{HeH}^+$, the system with the smallest bond length is $\\text{HeH}^+$.",
+          "isCorrect": true,
+          "explanation": "HeH+ has bond order 1.0 (sigma_1s^2). HeH has bond order 0.5 (sigma_1s^2 sigma*_1s^1). HeH- has bond order 0 (sigma_1s^2 sigma*_1s^2). Highest bond order => shortest bond length."
+        },
+        {
+          "id": "d",
+          "text": "$\\text{HeH}^+$ has a symmetrical distribution of electrons about the bond axis.",
+          "isCorrect": true,
+          "explanation": "Sigma molecular orbitals are cylindrically symmetric about the internuclear bond axis."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (1), (3), and (4) / (A), (C), and (D)**\n\n- $\\text{HeH}^+$ has $2\\,e^-$ in $\\sigma_{1s}$ (bond order $= 1$, shortest bond length).\n- $\\sigma$-bonding is cylindrically symmetric about the internuclear axis.",
+      "keyFormulae": [
+        "Chemical Bonding & Molecular Orbitals (MSQ): Heteronuclear Diatomic MO Theory"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Chemical Bonding & Molecular Orbitals (MSQ)."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q33",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Chemical Kinetics (MSQ)",
+      "subtopic": "Sucrose Inversion Polarimetry Kinetics",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The hydrolysis of sucrose in excess acid solution follows first-order kinetics and results in D-glucose and D-fructose. Since, sucrose, D-glucose, and D-fructose are optically active compounds, the progress of the reaction can be monitored by measuring the angle of rotation of the polarized light in a polarimeter at different times. In a certain experiment, $1\\text{ L}$ of $0.1\\text{ M}$ sucrose solution is hydrolyzed and the angle of rotation ($R_t$) is measured at different times ($t$). Let $R_0 = 25^\\circ, R_\\infty = -15^\\circ,$ and $R_{30} = 5^\\circ$ be the angles of rotation at times $t = 0\\text{ min}, t = \\infty,$ and $t = 30\\text{ min}$ respectively. The concentration of sucrose at time $t$ is proportional to the change in the angle of rotation ($R_t - R_\\infty$). Molecular mass of sucrose is $342.3\\text{ g/mol}$. The correct statement(s) is(are): *(Select all correct options)*\n\n(1) The half-life of the reaction is $15\\text{ min}$.\n(2) The rate constant ($k$) is $3.85 \\times 10^{-4}\\text{ s}^{-1}$.\n(3) The mass of sucrose hydrolyzed in $60\\text{ min}$ is $25.6\\text{ g}$.\n(4) The rate of the reaction at $30\\text{ min}$ is $1.925 \\times 10^{-5}\\text{ M s}^{-1}$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The half-life of the reaction is $15\\text{ min}$.",
+          "isCorrect": false,
+          "explanation": "Half-life is 30 min, because at 30 min (Rt - R_inf)/(R0 - R_inf) = (5 - (-15))/(25 - (-15)) = 20/40 = 0.5."
+        },
+        {
+          "id": "b",
+          "text": "The rate constant ($k$) is $3.85 \\times 10^{-4}\\text{ s}^{-1}$.",
+          "isCorrect": true,
+          "explanation": "k = (ln 2)/t_1/2 = 0.69315 / (30 * 60 s) = 0.69315 / 1800 s = 3.85 * 10^-4 s^-1."
+        },
+        {
+          "id": "c",
+          "text": "The mass of sucrose hydrolyzed in $60\\text{ min}$ is $25.6\\text{ g}$.",
+          "isCorrect": true,
+          "explanation": "At 60 min (2 half-lives), 75% of sucrose is hydrolyzed: 0.75 * 0.1 mol * 342.3 g/mol = 0.075 * 342.3 = 25.67 g."
+        },
+        {
+          "id": "d",
+          "text": "The rate of the reaction at $30\\text{ min}$ is $1.925 \\times 10^{-5}\\text{ M s}^{-1}$.",
+          "isCorrect": true,
+          "explanation": "Rate at 30 min = k * [A]_30 = (3.85 * 10^-4 s^-1) * (0.05 M) = 1.925 * 10^-5 M s^-1."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (2), (3), and (4) / (B), (C), and (D)**\n\n- $t_{1/2} = 30\\text{ min} = 1800\\text{ s} \\implies k = \\frac{\\ln 2}{1800} = 3.85 \\times 10^{-4}\\text{ s}^{-1}$.\n- At $t = 60\\text{ min}$ ($2\\,t_{1/2}$): $\\text{Hydrolyzed} = 75\\% \\times 0.1\\text{ mol} \\times 342.3\\text{ g/mol} = 25.67\\text{ g}$.\n- $\\text{Rate}_{30} = k [\\text{Sucrose}]_{30} = 3.85 \\times 10^{-4} \\times 0.05 = 1.925 \\times 10^{-5}\\text{ M/s}$.",
+      "keyFormulae": [
+        "Chemical Kinetics (MSQ): Sucrose Inversion Polarimetry Kinetics"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Chemical Kinetics (MSQ)."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q34",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry (MSQ)",
+      "subtopic": "Cannizzaro Reaction Mechanism",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Consider the following mechanism of a reaction (Cannizzaro disproportionation of non-enolizable aldehyde $P$). The correct statement(s) is(are): *(Select all correct options)*\n\n(1) The same mechanism will operate, if compound $P$ does not have one of the methyl groups.\n(2) The reaction involves both oxidation and reduction of $P$.\n(3) The equilibrium is favoured towards products $T$ and $W$ because $T$ and $W$ are weaker conjugate base and acid as compared to $R$ and $S$ respectively.\n(4) Hydride is a nucleophile in the reaction of $Q$ with $P$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The same mechanism will operate, if compound $P$ does not have one of the methyl groups.",
+          "isCorrect": false,
+          "explanation": "If an alpha-hydrogen is present, aldol condensation occurs instead of Cannizzaro."
+        },
+        {
+          "id": "b",
+          "text": "The reaction involves both oxidation and reduction of $P$.",
+          "isCorrect": true,
+          "explanation": "Cannizzaro reaction is a redox disproportionation: one molecule of aldehyde is oxidized to carboxylate and another is reduced to primary alcohol."
+        },
+        {
+          "id": "c",
+          "text": "The equilibrium is favoured towards products $T$ and $W$ because $T$ and $W$ are weaker conjugate base and acid as compared to $R$ and $S$ respectively.",
+          "isCorrect": true,
+          "explanation": "Proton transfer from carboxylic acid to alkoxide strongly drives the equilibrium forward irreversibly."
+        },
+        {
+          "id": "d",
+          "text": "Hydride is a nucleophile in the reaction of $Q$ with $P$.",
+          "isCorrect": true,
+          "explanation": "Hydride shift from the tetrahedral intermediate Q attacks the electrophilic carbonyl carbon of P."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (2), (3), and (4) / (B), (C), and (D)**\n\n- The Cannizzaro reaction is an intermolecular redox disproportionation driven forward by the hydride transfer step and terminal proton exchange to form stable carboxylate.",
+      "keyFormulae": [
+        "Organic Chemistry (MSQ): Cannizzaro Reaction Mechanism"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Organic Chemistry (MSQ)."
+      ]
+    }
+  ]
+}

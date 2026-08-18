@@ -1,0 +1,57 @@
+{
+  "id": "bio-xi-u4-c11-l07",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Photosynthesis in Higher Plants",
+  "chapterNumber": 11,
+  "chapterSlug": "photosynthesis-in-higher-plants",
+  "slug": "lesson-07-hatch-slack-c4-cycle-and-kranz-anatomy",
+  "title": "The Hatch-Slack Pathway (C₄ Cycle) & Kranz Anatomy",
+  "topic": "Spatial Separation, Mesophyll vs Bundle Sheath, PEPCase, PPDK, & Energetics (30 ATP)",
+  "topics": [
+    "C4 Evolutionary Adaptations (Maize, Sugarcane, Sorghum, Amaranthus)",
+    "Kranz Anatomy (Mesophyll Granal Cells vs Bundle Sheath Agranal Cells)",
+    "Primary Carbon Fixation by PEP Carboxylase (PEPCase) into Oxaloacetate (OAA)",
+    "Malate Transport via Plasmodesmata to Bundle Sheath",
+    "Decarboxylation by NADP-Malic Enzyme Concentrating CO2 around RuBisCO",
+    "PEP Regeneration by Pyruvate Phosphate Dikinase (PPDK, 2 ATP Equivalents)",
+    "Energetics: C3 (18 ATP) vs C4 (30 ATP per Glucose)"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "C4 plants exhibit Kranz anatomy, spatially separating carbon fixation across two cell types. Mesophyll cells lack RuBisCO and use PEP Carboxylase to fix HCO3- into 4C Oxaloacetic acid (OAA), reduced to Malate. Malate enters Bundle Sheath cells and is decarboxylated, releasing high concentrations of CO2 to saturate RuBisCO and abolish photorespiration. Pyruvate returns to mesophyll where PPDK regenerates PEP using 2 ATP equivalents. Net cost per glucose = 30 ATP + 12 NADPH.",
+  "summary": "C4 plants exhibit Kranz anatomy, spatially separating carbon fixation across two cell types. Mesophyll cells lack RuBisCO and use PEP Carboxylase to fix HCO3- into 4C Oxaloacetic acid (OAA), reduced to Malate. Malate enters Bundle Sheath cells and is decarboxylated, releasing high concentrations of CO2 to saturate RuBisCO and abolish photorespiration. Pyruvate returns to mesophyll where PPDK regenerates PEP using 2 ATP equivalents. Net cost per glucose = 30 ATP + 12 NADPH.",
+  "conceptBreakdown": [
+    {
+      "heading": "6. Kranz Anatomy Architecture",
+      "title": "6. Kranz Anatomy Architecture",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Mesophyll = PEPCase (Primary fixation, no RuBisCO). Bundle Sheath = RuBisCO (Calvin cycle, Agranal chloroplasts, concentrated CO2). Net = 30 ATP."
+      },
+      "codeSnippet": "KRANZ ANATOMY LAYOUT\n                           \n      MESOPHYLL CELLS (Outer Layer)           BUNDLE SHEATH CELLS (Inner Ring)\n      ├── Lacks RuBisCO                       ├── Rich in RuBisCO\n      ├── Contains **PEP Carboxylase**        ├── Thick non-porous cell walls\n      ├── Granal Chloroplasts                 ├── Large **Agranal Chloroplasts**\n      └── Performs Primary $\\text{CO}_2$ Fixation └── Performs Calvin Cycle ($C_3$)",
+      "content": "C4 plants (*Maize, Sugarcane, Sorghum, Amaranthus*) have evolved specialized **Kranz ('wreath') anatomy** to eliminate photorespiratory carbon loss."
+    },
+    {
+      "heading": "6.1 Hatch-Slack Biochemical Cycle",
+      "title": "6.1 Hatch-Slack Biochemical Cycle",
+      "type": "paragraph",
+      "codeSnippet": "HATCH-SLACK ($C_4$) PATHWAY FLOW\n                       \n       MESOPHYLL CELL                               BUNDLE SHEATH CELL\n  HCO₃⁻ + PEP (3C) ──[PEPCase]──► OAA (4C)\n                                   │\n                                Malate (4C) ──[Plasmodesmata]──► Malate (4C)\n                                                                    │\n                                                              [Decarboxylation]\n                                                                    │\n  Pyruvate (3C) ◄──[Plasmodesmata]───────────────────────────── CO₂ (1C) + Pyruvate (3C)\n       │                                                            │\n  [PPDK + 2 ATP]                                             Calvin Cycle (RuBisCO)\n       │                                                            │\n    PEP (3C)                                                 Glucose (6C)",
+      "content": "1. **Primary Fixation (Mesophyll)**: Hydrated $\\text{CO}_2$ ($\\text{HCO}_3^-$) is fixed onto **Phosphoenolpyruvate (PEP, 3C)** by **PEP Carboxylase (PEPCase)**, yielding **Oxaloacetic acid (OAA, 4C)**.\n2. **Transport & Decarboxylation**: OAA is reduced to Malate and shuttled into Bundle Sheath cells. Malic Enzyme decarboxylates malate, releasing $\\text{CO}_2$ and Pyruvate.\n3. **$\text{CO}_2$ Concentration Effect**: Elevated $\\text{CO}_2$ ($10\\times$ atmospheric) completely saturates RuBisCO, competitively suppressing its oxygenase reaction.\n4. **PEP Regeneration**: Pyruvate returns to mesophyll; **Pyruvate Phosphate Dikinase (PPDK)** regenerates PEP, consuming **$2\\text{ ATP equivalents}$** ($\\text{ATP} \\rightarrow \\text{AMP} + \\text{PP}_i$)."
+    },
+    {
+      "heading": "6.2 Energetics of $C_4$ vs. $C_3$",
+      "title": "6.2 Energetics of $C_4$ vs. $C_3$",
+      "type": "paragraph",
+      "content": "• **$C_3$ Plant Cost per Glucose**: $18\\text{ ATP} + 12\\text{ NADPH}$ ($3\\text{ ATP}/\\text{CO}_2$).\n• **$C_4$ Plant Cost per Glucose**: **$30\\text{ ATP} + 12\\text{ NADPH}$** ($5\\text{ ATP}/\\text{CO}_2$, accounting for $18\\text{ ATP}$ Calvin cycle $+ 12\\text{ ATP}$ PEP regeneration)."
+    }
+  ]
+}

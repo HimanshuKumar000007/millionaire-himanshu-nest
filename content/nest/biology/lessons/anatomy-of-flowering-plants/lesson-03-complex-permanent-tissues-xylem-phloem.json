@@ -1,0 +1,58 @@
+{
+  "id": "bio-xi-u2-c6-l03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit II — Structural Organization in Plants and Animals",
+  "unitNumber": 2,
+  "chapter": "Anatomy of Flowering Plants",
+  "chapterNumber": 6,
+  "chapterSlug": "anatomy-of-flowering-plants",
+  "slug": "lesson-03-complex-permanent-tissues-xylem-phloem",
+  "title": "Complex Permanent Tissues: Xylem & Phloem Elements",
+  "topic": "Tracheids vs Vessels, Endarch vs Exarch Xylem, & Sieve Tubes/Companion Cells",
+  "topics": [
+    "Complex Heterogeneous Tissue Definition",
+    "Xylem Elements (Tracheids, Vessels, Parenchyma, Fibers)",
+    "Vessel Perforation Plates & Gnetales Exception",
+    "Endarch (Stem Centrifugal) vs Exarch (Root Centripetal) Primary Xylem",
+    "Phloem Elements (Sieve Tubes, Companion Cells, Parenchyma, Bast Fibers)",
+    "Enucleate Living Sieve Tubes & Callose/P-Protein Plugs",
+    "Gymnosperm Sieve Cells & Albuminous (Strasburger) Cells"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Xylem conducts water unidirectionally: Tracheids (imperforate bordered pits; gymnosperms/ferns) and Vessels (perforated continuous tubes; diagnostic of angiosperms). Protoxylem is Endarch in stems (centrifugal) and Exarch in roots (centripetal). Phloem transports solutes bidirectionally: Sieve Tube elements are enucleate living cells metabolically sustained by sister Companion Cells; gymnosperms possess Albuminous cells and sieve cells.",
+  "summary": "Xylem conducts water unidirectionally: Tracheids (imperforate bordered pits; gymnosperms/ferns) and Vessels (perforated continuous tubes; diagnostic of angiosperms). Protoxylem is Endarch in stems (centrifugal) and Exarch in roots (centripetal). Phloem transports solutes bidirectionally: Sieve Tube elements are enucleate living cells metabolically sustained by sister Companion Cells; gymnosperms possess Albuminous cells and sieve cells.",
+  "conceptBreakdown": [
+    {
+      "heading": "2.2 A. Xylem (Water-Conducting Complex Tissue)",
+      "title": "2.2 A. Xylem (Water-Conducting Complex Tissue)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Angiosperms have vessels + tracheids; Gymnosperms have tracheids only (except Gnetales). Stems have Endarch xylem; Roots have Exarch xylem."
+      },
+      "codeSnippet": "XYLEM ELEMENTS\n                                   │\n         ┌─────────────────────────┼─────────────────────────┐\n         ▼                         ▼                         ▼\n     TRACHEIDS                 VESSELS / TRACHEAE       XYLEM PARENCHYMA & FIBERS\n (Imperforate, tapered)       (Perforated end-plates)  ├── Parenchyma: Living, storage\n ├── Pitted / Bordered pits   ├── Continuous tubes      └── Fibers: Dead, lignified\n └── Gymnosperms & Ferns      └── Angiosperms only          mechanical support",
+      "content": "Xylem conducts water and mineral nutrients unidirectionally from roots to aerial parts and provides rigid mechanical support.\n\n### Primary Xylem Elements\n1. **Tracheids**: Elongated, tube-like dead cells with thick, lignified walls and tapering, imperforate ends. Water moves between tracheids laterally through **Bordered Pits**. Primary water-conducting element in Gymnosperms and Pteridophytes.\n2. **Vessels (Tracheae)**: Long cylindrical structures formed by a vertical series of dead cells (vessel members) joined end-to-end. End walls feature **Perforation Plates** (simple or scalariform). Vessels are diagnostic of **Angiosperms** (*ABSENT in Gymnosperms, except Gnetales: Gnetum, Ephedra, Welwitschia*).\n3. **Primary Xylem Ontogeny**:\n   - **Protoxylem**: First-formed primary xylem with narrow tracheary elements (annular or spiral thickenings).\n   - **Metaxylem**: Later-formed primary xylem with broader tracheary elements (reticulate or pitted thickenings)."
+    },
+    {
+      "heading": "Protoxylem Arrangement: Endarch vs. Exarch",
+      "title": "Protoxylem Arrangement: Endarch vs. Exarch",
+      "type": "paragraph",
+      "codeSnippet": "PROTOXYLEM ARRANGEMENT PATTERNS\n                      \n      ENDARCH ARCHITECTURE (Stems)              EXARCH ARCHITECTURE (Roots)\n      \n      Periphery ──► Metaxylem                   Periphery ──► Protoxylem\n      Center    ──► Protoxylem                  Center    ──► Metaxylem",
+      "content": "• **Endarch Arrangement (Stems)**: Protoxylem lies toward the center (pith), Metaxylem lies toward the periphery. Development occurs **centrifugally** (inside $\\rightarrow$ outside).\n• **Exarch Arrangement (Roots)**: Protoxylem lies toward the periphery, Metaxylem lies toward the center. Development occurs **centripetally** (outside $\\rightarrow$ inside)."
+    },
+    {
+      "heading": "2.2 B. Phloem (Food-Conducting Complex Tissue)",
+      "title": "2.2 B. Phloem (Food-Conducting Complex Tissue)",
+      "type": "paragraph",
+      "codeSnippet": "PHLOEM ELEMENTS\n                                    │\n         ┌──────────────────────────┼──────────────────────────┐\n         ▼                          ▼                          ▼\n SIEVE TUBE ELEMENTS         COMPANION CELLS          PHLOEM PARENCHYMA & FIBERS\n (Enucleate at maturity)    (Parenchymatous)         ├── Parenchyma: Solute transport\n ├── Sieve Plates & P-Protein└── Maintains Sieve Tube └── Fibers (Bast): Dead, commercial\n └── Linked to Companion Cell    Pressure Gradient        (Jute, Flax, Hemp)",
+      "content": "Phloem transports organic solutes (sucrose, amino acids) bidirectionally from source to sink.\n\n### Primary Phloem Elements\n1. **Sieve Tube Elements**: Long, tube-like, living cells arranged vertically. End walls are perforated by sieve pores to form **Sieve Plates**.\n   - **Enucleate State**: Mature sieve tube elements lack a nucleus, vacuole tonoplast, and ribosomes, but remain living due to functional metabolic regulation by adjacent **Companion Cells**.\n   - **Phloem Protein (P-Protein) & Callose**: P-protein and carbohydrate callose form plugs at sieve plates upon injury to seal the phloem and prevent nutrient leakage.\n2. **Companion Cells**: Specialized parenchymatous cells ontogenetically derived from the same mother cell as their adjacent sieve tube element. Connected via dense **plasmodesmata**; they maintain the pressure gradient across sieve tubes.\n   - *Gymnosperm Equivalence*: Gymnosperms lack true companion cells and sieve tubes; they possess **Albuminous Cells (Strasburger cells)** and **Sieve Cells**.\n3. **Phloem Parenchyma**: Absent in most Monocotyledons.\n4. **Phloem Fibers (Bast Fibers)**: Sclerenchymatous dead fibers providing mechanical support; commercially harvested from *Corchorus* (Jute), *Linum* (Flax), and *Cannabis* (Hemp)."
+    }
+  ]
+}

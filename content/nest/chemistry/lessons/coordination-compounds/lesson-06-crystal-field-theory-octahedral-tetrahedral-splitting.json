@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u14-c5-l06",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XIV \u2014 Coordination Compounds",
+  "unitNumber": 14,
+  "chapter": "Coordination Compounds",
+  "chapterNumber": 5,
+  "chapterSlug": "coordination-compounds",
+  "slug": "lesson-06-crystal-field-theory-octahedral-tetrahedral-splitting",
+  "title": "Crystal Field Theory (CFT): Octahedral (\u0394_o) vs. Tetrahedral (\u0394_t)",
+  "topic": "Crystal Field Theory (CFT)",
+  "topics": [
+    "Crystal Field Theory (CFT) Foundations: Electrostatic Point-Charge Model (Bethe & van Vleck)",
+    "6.1 Octahedral Splitting (\u0394_o): e_g Doublet (+0.6 \u0394_o / +6 Dq) vs t_2g Triplet (-0.4 \u0394_o / -4 Dq)",
+    "Cartesian Axis Approach of Ligands (x, y, z) & Direct vs Inter-Axial Orbital Repulsion",
+    "6.2 Tetrahedral Splitting (\u0394_t): t_2 (+0.4 \u0394_t) vs e (-0.6 \u0394_t)",
+    "Mathematical Relationship: \u0394_t = (4/9) \u0394_o",
+    "High-Spin Rule for Tetrahedral Complexes (\u0394_t << P enforces high-spin)"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "coordination-compounds",
+  "quickSummary": "CFT treats metal-ligand bonds as purely electrostatic point charges. In octahedral fields, d-orbitals split into higher e_g doublet (+0.6 \u0394_o) and lower t_2g triplet (-0.4 \u0394_o). In tetrahedral fields, splitting is inverted: higher t_2 (+0.4 \u0394_t) and lower e (-0.6 \u0394_t). \u0394_t = (4/9) \u0394_o. Because \u0394_t << P, tetrahedral complexes are almost always high-spin.",
+  "summary": "Master Octahedral and Tetrahedral crystal field splitting patterns, orbital energy shifts, and the \u0394_t = (4/9) \u0394_o relationship.",
+  "conceptBreakdown": [
+    {
+      "heading": "6.1 Octahedral Crystal Field Splitting (\u0394_o)",
+      "title": "6.1 Octahedral Crystal Field Splitting (\u0394_o)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Octahedral Field Splitting",
+        "takeaway": "e_g doublet (d_x\u00b2-y\u00b2, d_z\u00b2) raised by +0.6 \u0394_o (+6 Dq). t_2g triplet (d_xy, d_yz, d_zx) lowered by -0.4 \u0394_o (-4 Dq)."
+      },
+      "codeSnippet": "                        OCTAHEDRAL CRYSTAL FIELD SPLITTING ($\\Delta_o$)\n                        \n                                       e_g Doublet ($d_{x^2-y^2}, d_{z^2}$)\n                                      \u250c\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2510  \u2500\u2500\u25ba $+0.6 \\Delta_o$ ($+6 Dq$)\n                                      \u2514\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2518\n                                          \u25b2\n   Degenerate 5 d-orbitals                \u2502 $\\Delta_o$ (Octahedral Splitting Energy)\n   \u250c\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2510                  \u25bc\n   \u2514\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2518              \u250c\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2510\n                                      \u2514\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2518 \u2500\u2500\u25ba $-0.4 \\Delta_o$ ($-4 Dq$)\n                                       t_{2g} Triplet ($d_{xy}, d_{yz}, d_{zx}$)",
+      "content": "In an Octahedral Ligand Field, ligands approach along Cartesian axes ($x, y, z$).\n- **$e_g$ Set ($d_{x^2-y^2}, d_{z^2}$)**: Lobes point directly at incoming ligands $\\rightarrow$ raised by $+0.6\\Delta_o$.\n- **$t_{2g}$ Set ($d_{xy}, d_{yz}, d_{zx}$)**: Lobes lie between axes $\\rightarrow$ lowered by $-0.4\\Delta_o$."
+    },
+    {
+      "heading": "6.2 Tetrahedral Crystal Field Splitting (\u0394_t)",
+      "title": "6.2 Tetrahedral Crystal Field Splitting (\u0394_t)",
+      "type": "paragraph",
+      "codeSnippet": "TETRAHEDRAL CRYSTAL FIELD SPLITTING (\u0394_t)\n\n\u2022 t\u2082 Set (d_xy, d_yz, d_zx): Raised by +0.4 \u0394_t\n\u2022 e Set (d_x\u00b2-y\u00b2, d_z\u00b2):   Lowered by -0.6 \u0394_t\n\nRelationship: \u0394_t = (4/9) \u0394_o\n\nHigh-Spin Rule: Because \u0394_t is always much smaller than the Pairing Energy (\u0394_t << P), Tetrahedral complexes are almost ALWAYS High-Spin!",
+      "content": "In a Tetrahedral Field, four ligands approach between axes. The energy splitting is inverted and smaller:\n$$\\mathbf{\\Delta_t = \\frac{4}{9} \\Delta_o}$$\nBecause $\\Delta_t \\ll P$, tetrahedral complexes are almost always high-spin."
+    }
+  ],
+  "quickRevision": [
+    "Octahedral: e_g is raised by +0.6 \u0394_o; t_2g is lowered by -0.4 \u0394_o.",
+    "Tetrahedral: t_2 is raised by +0.4 \u0394_t; e is lowered by -0.6 \u0394_t.",
+    "\u0394_t = (4/9) \u0394_o.",
+    "Tetrahedral complexes are almost always high-spin because \u0394_t << P."
+  ],
+  "keyFormulae": [
+    "\\Delta_t = \\frac{4}{9} \\Delta_o",
+    "\\text{Octahedral: } \\text{CFSE} = [-0.4 n_{t_{2g}} + 0.6 n_{e_g}] \\Delta_o"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "chem-xii-u16-c7-l05",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVI \u2014 Alcohols, Phenols and Ethers",
+  "unitNumber": 16,
+  "chapter": "Alcohols, Phenols and Ethers",
+  "chapterNumber": 7,
+  "chapterSlug": "alcohols-phenols-ethers",
+  "slug": "lesson-05-phenol-acidity-resonance-stabilization-substituent-effects",
+  "title": "Phenol Acidity: Resonance Stabilization & Substituent Effects",
+  "topic": "Phenol Acidity & Substituent Effects",
+  "topics": [
+    "Acidity Comparison (pK_a): Picric Acid (0.38) > Phenol (9.98) > Water (15.7) > Ethanol (16.0)",
+    "5.1 Resonance Stabilization of the Phenoxide Anion (Ph-O\u207b) vs Localized Alkoxide (R-O\u207b)",
+    "5.2 Substituent Effects: Electron-Withdrawing (-M/-I) Increase Acidity; Electron-Donating (+M/+I) Decrease Acidity",
+    "Nitrophenol Acidity Spectrum (pK_a): Picric Acid (0.38) > 2,4-Dinitro (4.0) > p-Nitro (7.15) > o-Nitro (7.23) > m-Nitro (8.35) > Phenol (9.98)",
+    "The Ortho- vs Para-Nitrophenol Paradox (Intramolecular H-Bonding in o-Nitrophenol hinders deprotonation & confers steam volatility)"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "alcohols-phenols-ethers",
+  "quickSummary": "Phenol (pK_a ~10) is 10\u2076 times more acidic than ethanol (pK_a ~16) because the phenoxide anion is resonance-stabilized. -M/-I groups (-NO\u2082) increase acidity (Picric acid pK_a = 0.38). p-Nitrophenol is more acidic than o-nitrophenol because o-nitrophenol forms intramolecular H-bonds (also making it steam-volatile).",
+  "summary": "Master phenoxide resonance stabilization, substituent electronic effects, and nitrophenol acidity rankings.",
+  "conceptBreakdown": [
+    {
+      "heading": "5. Phenoxide Resonance Stabilization & Acidity Hierarchy",
+      "title": "5. Phenoxide Resonance Stabilization & Acidity Hierarchy",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Acidity Hierarchy",
+        "takeaway": "Picric Acid (0.38) > Phenol (9.98) > Water (15.7) > Ethanol (16.0). Phenoxide is resonance-stabilized; alkoxide is destabilized by +I."
+      },
+      "codeSnippet": "                          ACIDITY COMPARISON ($\\text{p}K_a$)\n                          \n   $$\\text{Acidic Strength Order: } \\mathbf{\\text{Picric Acid } (0.38) > \\text{Phenol } (9.98) > \\text{Water } (15.7) > \\text{Ethanol } (16.0)}$$\n\n                    PHENOXIDE ANION RESONANCE CANONICALS\n                    \n   :O:\u207b               :O:                :O:                :O:\n    \u2502                  \u2551                  \u2551                  \u2551\n   / \\   \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba    / \\\u207b   \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba   / \\    \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba   /\u207b \\\n  |   |              |   |              |\u207b  |              |   |\n   \\ /                \\ /                \\ /                \\ /",
+      "content": "Phenols are $10^6$ times more acidic than aliphatic alcohols because the phenoxide anion ($\\text{Ph-O}^-$) delocalizes its negative charge into the aromatic ring across 4 resonance canonicals."
+    },
+    {
+      "heading": "5.2 Substituent Effects & The Nitrophenol Spectrum",
+      "title": "5.2 Substituent Effects & The Nitrophenol Spectrum",
+      "type": "paragraph",
+      "codeSnippet": "                   NITROPHENOL ACIDITY SPECTRUM ($\\text{p}K_a$)\n                   \n   2,4,6-Trinitrophenol (Picric Acid, 0.38) > 2,4-Dinitrophenol (4.0) > *p*-Nitrophenol (7.15) > *o*-Nitrophenol (7.23) > *m*-Nitrophenol (8.35) > Phenol (9.98)\n\n\u2022 o- vs p-Nitrophenol Paradox: p-Nitrophenol is slightly MORE acidic than o-nitrophenol because o-nitrophenol forms Intramolecular H-bonds hindering proton loss.\n\u2022 Steam Volatility: o-Nitrophenol has intramolecular H-bonds (steam volatile); p-nitrophenol has intermolecular H-bonds (higher BP, non-volatile)."
+    }
+  ],
+  "quickRevision": [
+    "Phenol is 10\u2076x more acidic than ethanol due to phenoxide resonance.",
+    "-NO\u2082 at o/p positions increases acidity via -M and -I effects.",
+    "Picric acid (2,4,6-trinitrophenol) has pK_a = 0.38 (strong acid).",
+    "p-Nitrophenol is slightly more acidic than o-nitrophenol.",
+    "o-Nitrophenol is steam-volatile due to intramolecular H-bonding."
+  ],
+  "keyFormulae": [
+    "\\text{Acidity: Picric Acid} > p\\text{-Nitrophenol} > o\\text{-Nitrophenol} > m\\text{-Nitrophenol} > \\text{Phenol} > \\text{Ethanol}"
+  ]
+}

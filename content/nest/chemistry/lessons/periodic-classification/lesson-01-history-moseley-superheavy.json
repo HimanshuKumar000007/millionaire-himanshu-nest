@@ -1,0 +1,67 @@
+{
+  "id": "chem-xi-u3-c3-l01",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit III \u2014 Classification of Elements and Periodicity in Properties",
+  "unitNumber": 3,
+  "chapter": "Classification of Elements and Periodicity",
+  "chapterNumber": 3,
+  "chapterSlug": "periodic-classification",
+  "slug": "lesson-01-history-moseley-superheavy",
+  "title": "Historical Evolution of Periodic Law, Moseley's Law & IUPAC Superheavy Nomenclature",
+  "topic": "Periodic Law & Superheavy Nomenclature",
+  "topics": [
+    "Dobereiner's Triads & Newlands' Octaves",
+    "Lothar Meyer Curves & Mendeleev's Periodic Table",
+    "Moseley's X-ray Experiment (\u221a\u03bd = a(Z - b))",
+    "Modern Periodic Law Based on Atomic Number Z",
+    "IUPAC Superheavy Element Nomenclature (Z > 100)",
+    "Systematic Roots, Suffixes & Official IUPAC Names"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 7,
+  "estimatedTimeMinutes": 7,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "moseleys-law",
+  "quickSummary": "The evolution of the periodic table progressed from Dobereiner, Newlands, and Mendeleev (atomic mass) to Henry Moseley's X-ray law (\u221a\u03bd = a(Z-b)), establishing Atomic Number Z as the fundamental periodic variable.",
+  "summary": "Master the historical progression of the periodic table, Moseley's X-ray frequency law, and systematic IUPAC nomenclature for superheavy elements (Z > 100).",
+  "conceptBreakdown": [
+    {
+      "heading": "1. Historical Milestones of the Periodic Table",
+      "title": "1. Historical Milestones of the Periodic Table",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Periodic Table Evolution",
+        "takeaway": "Dobereiner (Triads), Newlands (Octaves), Lothar Meyer (Atomic Volume), Mendeleev (Periodic Law based on Mass), Moseley (Modern Periodic Law based on Atomic Number Z)."
+      },
+      "codeSnippet": "HISTORICAL PERIODIC TABLE MILESTONES\n                                       \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                  \u25bc                             \u25bc                  \u25bc\nDOBEREINER'S TRIADS   NEWLANDS' OCTAVES            LOTHAR MEYER'S CURVES MENDELEEV'S TABLE\n(1829 - Atomic Mass)  (1865 - Every 8th element    (1869 - Atomic Volume (1869 - Periodic Law\nMean of 1st & 3rd.    resembles 1st; up to Ca).    plotted vs Mass).     based on Mass; Eka-elements).",
+      "content": "The classification of elements organizes chemical diversity into a systematic framework defined by electronic architecture:\n\n1. **Dobereiner's Triads (1829)**: Elements arranged in groups of three with similar properties. The atomic mass of the middle element is approximately the arithmetic mean of the other two (e.g., $\\text{Li} (7) + \\text{K} (39) / 2 = 23 = \\text{Na}$). Failed for heavier and transition elements.\n2. **Newlands' Law of Octaves (1865)**: Arranging elements by atomic mass revealed every eighth element resembled the first (like musical notes). Applicable strictly up to Calcium ($Z=20$).\n3. **Lothar Meyer's Curves (1869)**: Plotted atomic volume against atomic mass. Strongly electropositive alkali metals occupied curve peaks, alkaline earths occupied descending slopes, and halogens occupied ascending slopes.\n4. **Mendeleev's Periodic Table (1869)**: Formulated the classical Periodic Law: *The physical and chemical properties of elements are periodic functions of their Atomic Masses*. Successfully predicted undiscovered elements (**Eka-Aluminium $\\rightarrow$ Gallium**, **Eka-Silicon $\\rightarrow$ Germanium**, **Eka-Boron $\\rightarrow$ Scandium**). Suffered from anomalous pairs ($\\text{Ar}$ before $\\text{K}$, $\\text{Te}$ before $\\text{I}$) and lacked positions for isotopes."
+    },
+    {
+      "heading": "1.2 Moseley\u2019s Experiment & The Modern Periodic Law (1913)",
+      "title": "1.2 Moseley\u2019s Experiment & The Modern Periodic Law (1913)",
+      "type": "paragraph",
+      "codeSnippet": "MOSELEY'S X-RAY FREQUENCY LAW\n                       \n   Graph of \u221a\u03bd vs Atomic Mass (A) \u2500\u2500\u2500\u2500\u2500\u2500\u25ba NON-LINEAR CURVE\n   Graph of \u221a\u03bd vs Atomic Number (Z) \u2500\u2500\u2500\u2500\u25ba PERFECT STRAIGHT LINE\n\n   \u221a\u03bd = a(Z - b)",
+      "content": "Henry Moseley bombarded various metallic targets with high-energy cathode rays and measured the characteristic $K_\\alpha$ X-ray emission frequencies:\n\n$$\\mathbf{\\sqrt{\\nu} = a(Z - b)}$$\n\nwhere $\\nu$ is the frequency of emitted X-rays, $Z$ is the atomic number, $a$ is a proportionality constant, and $b$ is the screening constant ($b \\approx 1$ for $K_\\alpha$ lines).\n\n\u2022 **Modern Periodic Law**: *The physical and chemical properties of elements are periodic functions of their Atomic Numbers ($Z$)*, reflecting the underlying subshell electronic configurations."
+    },
+    {
+      "heading": "1.3 IUPAC Nomenclature for Superheavy Elements (Z > 100)",
+      "title": "1.3 IUPAC Nomenclature for Superheavy Elements (Z > 100)",
+      "type": "paragraph",
+      "content": "Superheavy elements ($Z > 100$) receive systematic temporary names derived directly from their atomic number digits with suffix **-ium**:\n\n\u2022 **Numerical Roots**: $0 = \\text{nil (n)}$, $1 = \\text{un (u)}$, $2 = \\text{bi (b)}$, $3 = \\text{tri (t)}$, $4 = \\text{quad (q)}$, $5 = \\text{pent (p)}$, $6 = \\text{hex (h)}$, $7 = \\text{sept (s)}$, $8 = \\text{oct (o)}$, $9 = \\text{enn (e)}$.\n\u2022 **Phonetic Rules**: $\\text{enn} + \\text{nil} = \\text{ennil}$; $\\text{bi} + \\text{ium} = \\text{bium}$; $\\text{tri} + \\text{ium} = \\text{trium}$.\n\n\u2022 **Examples**:\n- $Z = 104 \\implies \\text{un} + \\text{nil} + \\text{quad} + \\text{ium} = \\mathbf{\\text{Unnilquadium (Unq)}}$ (Official: Rutherfordium, $\\text{Rf}$).\n- $Z = 118 \\implies \\text{un} + \\text{un} + \\text{oct} + \\text{ium} = \\mathbf{\\text{Ununoctium (Uuo)}}$ (Official: Oganesson, $\\text{Og}$).\n- $Z = 119 \\implies \\text{un} + \\text{un} + \\text{enn} + \\text{ium} = \\mathbf{\\text{Ununennium (Uue)}}$."
+    }
+  ],
+  "quickRevision": [
+    "Mendeleev predicted Eka-Aluminium (Ga) and Eka-Silicon (Ge).",
+    "Moseley's law: \u221a\u03bd = a(Z - b) proves Z is the fundamental atomic variable.",
+    "Modern Periodic Law: Properties are periodic functions of Atomic Number Z.",
+    "IUPAC superheavy naming uses roots: nil(0), un(1), bi(2), tri(3), quad(4), pent(5), hex(6), sept(7), oct(8), enn(9) + ium."
+  ],
+  "keyFormulae": [
+    "\u221a\u03bd = a(Z - b)",
+    "IUPAC Name = Root\u2081 + Root\u2082 + Root\u2083 + ium"
+  ]
+}

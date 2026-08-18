@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u19-c10-l06",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XIX \u2014 Biomolecules",
+  "unitNumber": 19,
+  "chapter": "Biomolecules",
+  "chapterNumber": 10,
+  "chapterSlug": "biomolecules-chemistry",
+  "slug": "lesson-06-protein-structural-hierarchy-denaturation",
+  "title": "Protein Structural Hierarchy (1\u00b0, 2\u00b0, 3\u00b0, 4\u00b0) & Denaturation",
+  "topic": "Protein Structure & Denaturation Mechanics",
+  "topics": [
+    "6. Protein Structural Hierarchy Overview (Primary, Secondary, Tertiary, Quaternary)",
+    "6.1 Primary (1\u00b0: Linear Peptide Sequence), Secondary (2\u00b0: \u03b1-Helix & \u03b2-Pleated Sheets via Backbone H-Bonds)",
+    "Tertiary (3\u00b0: 3D Spatial Folding via Disulfide -S-S-, Salt Bridges, Hydrophobic Forces)",
+    "Quaternary (4\u00b0: Multi-Subunit Arrangement e.g., Hemoglobin \u03b1\u2082\u03b2\u2082 Tetramer)",
+    "6.2 Denaturation: Destruction of 2\u00b0, 3\u00b0, 4\u00b0 Structures Leaving 1\u00b0 Covalent Peptide Sequence COMPLETELY INTACT"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "biomolecules-chemistry",
+  "quickSummary": "Proteins have 4 structural levels: 1\u00b0 (covalent peptide sequence), 2\u00b0 (\u03b1-helix and \u03b2-pleated sheets via backbone H-bonds), 3\u00b0 (3D globular folding via disulfide -S-S-, salt bridges, hydrophobic forces), and 4\u00b0 (oligomeric subunit assembly). Denaturation destroys 2\u00b0, 3\u00b0, and 4\u00b0 structures, causing loss of biological activity, but leaves PRIMARY STRUCTURE (1\u00b0 peptide bonds) COMPLETELY INTACT.",
+  "summary": "Master protein structural hierarchy and denaturation mechanisms.",
+  "conceptBreakdown": [
+    {
+      "heading": "6. Four Structural Levels of Proteins",
+      "title": "6. Four Structural Levels of Proteins",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Protein Folding Hierarchy",
+        "takeaway": "1\u00b0: Peptide sequence. 2\u00b0: Backbone H-bonds (\u03b1-helix, \u03b2-sheet). 3\u00b0: 3D folding (-S-S-, salt bridges, hydrophobic). 4\u00b0: Subunit assembly (Hb \u03b1\u2082\u03b2\u2082)."
+      },
+      "codeSnippet": "                        PROTEIN STRUCTURAL HIERARCHY\n                                     \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                               \u25bc                               \u25bc\nPRIMARY STRUCTURE ($1^\\circ$)   SECONDARY STRUCTURE ($2^\\circ$) TERTIARY STRUCTURE ($3^\\circ$)\nLinear amino acid sequence      Local backbone folding          3D spatial folding\nlinked by peptide bonds.        stabilized by H-bonds.          stabilized by hydrophobic,\n                                \u251c\u2500\u2500 Right-handed $\\alpha$-Helix  disulfide, ionic interactions\n                                \u2514\u2500\u2500 $\\beta$-Pleated Sheets      (Biologically active).",
+      "content": "Review the 4 structural tiers from linear primary sequence to multi-subunit quaternary complexes like adult hemoglobin ($\u0007lpha_2\beta_2$ tetramer)."
+    },
+    {
+      "heading": "6.2 Denaturation of Proteins",
+      "title": "6.2 Denaturation of Proteins",
+      "type": "paragraph",
+      "codeSnippet": "                            DENATURATION EFFECTS\n                            \n   Native Active Globular Protein \u2500\u2500[Heat / pH Change]\u2500\u2500\u25ba Unfolded Inactive Polypeptide\n   \n   * CRITICAL NEST TRAP: Denaturation destroys $2^\\circ, 3^\\circ,$ and $4^\\circ$ structures,\n     BUT leaves the **PRIMARY STRUCTURE ($1^\\circ$ covalent peptide bonds) COMPLETELY INTACT**!\n   * Examples: Coagulation of egg white albumins upon boiling; Curdling of milk (lactic acid denatures casein).",
+      "content": "Denaturation unfolds the secondary, tertiary, and quaternary structures due to disruption of non-covalent interactions, but does NOT cleave covalent peptide bonds."
+    }
+  ],
+  "quickRevision": [
+    "Primary (1\u00b0): amino acid sequence held by covalent peptide bonds.",
+    "Secondary (2\u00b0): \u03b1-helix and \u03b2-sheet held by backbone H-bonds.",
+    "Tertiary (3\u00b0): 3D folding held by -S-S-, salt bridges, hydrophobic forces.",
+    "Quaternary (4\u00b0): spatial arrangement of multiple subunits (Hb \u03b1\u2082\u03b2\u2082).",
+    "Denaturation destroys 2\u00b0, 3\u00b0, 4\u00b0 structures.",
+    "PRIMARY STRUCTURE (1\u00b0 peptide bonds) REMAINS INTACT during denaturation."
+  ],
+  "keyFormulae": [
+    "\\text{Denaturation: Native Protein (Active 3D)} \\xrightarrow{\\text{Heat/pH}} \\text{Unfolded Polypeptide (1}^\\circ \\text{ Intact)}"
+  ]
+}

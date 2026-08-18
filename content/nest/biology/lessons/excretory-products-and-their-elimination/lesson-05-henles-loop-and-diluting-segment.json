@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-17-05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Excretory Products and their Elimination",
+  "chapterNumber": 17,
+  "chapterSlug": "excretory-products-and-their-elimination",
+  "lessonNumber": 5,
+  "title": "Loop of Henle Permeability Dynamics & Diluting Segment",
+  "readingTimeMinutes": 12,
+  "status": "published",
+  "difficulty": "Hard",
+  "prerequisites": ["Osmotic gradients", "NKCC2 cotransporter"],
+  "learningObjectives": [
+    "Contrast the differential permeability of descending vs ascending limbs of Henle's loop",
+    "Describe how Aquaporin-1 concentrates filtrate to 1200 mOsmol/L at the hairpin loop",
+    "Explain why the thick ascending limb functions as the 'diluting segment'"
+  ],
+  "content": "### 4.2 Segmental Permeability in the Loop of Henle\n\n1. **Descending Limb of Henle**:\n   - Thin squamous epithelium richly populated with constitutively open **Aquaporin-1 (AQP1)** channels.\n   - **Freely permeable to water ($\\text{H}_2\\text{O}$)**, but almost completely impermeable to electrolytes ($\\text{NaCl}$ and urea).\n   - As tubular fluid descends into the hypertonic medullary interstitium, water exits osmotically, progressively concentrating the tubular filtrate from $300\\text{ mOsmol/L}$ at the corticomedullary junction to **$1200\\text{ mOsmol/L}$** at the hairpin bend.\n\n2. **Ascending Limb of Henle (Diluting Segment)**:\n   - **COMPLETELY IMPERMEABLE TO WATER** due to tightly occluded intercellular junctions and lack of aquaporins.\n   - **Thin Ascending Segment**: Allows passive efflux of $\\text{NaCl}$ into the interstitium.\n   - **Thick Ascending Segment**: Actively pumps out $\\text{Na}^+, \\text{K}^+$, and $\\text{Cl}^-$ using apical **$\\text{Na}^+/\\text{K}^+/2\\text{Cl}^-$ (NKCC2) cotransporters** driven by basolateral $\\text{Na}^+/\\text{K}^+$ ATPases.\n   - Because solutes are vigorously pumped out without water following, the tubular fluid becomes progressively **Hypotonic ($200\\text{ mOsmol/L}$)** as it enters the DCT.",
+  "conceptBreakdown": [
+    {
+      "heading": "NKCC2 Cotransporter & Loop Diuretics",
+      "explanation": "The NKCC2 cotransporter actively transports 1 Na+, 1 K+, and 2 Cl- across the luminal membrane. Potent loop diuretics such as Furosemide (Lasix) reversibly inhibit NKCC2, preventing medullary interstitial hypertonicity and causing massive loss of water and electrolytes in urine."
+    },
+    {
+      "heading": "The 'Single Effect' of Henle's Loop",
+      "explanation": "At any horizontal level in the medulla, active transport in the thick ascending limb creates a 200 mOsmol/L gradient between tubular fluid and interstitium. Counter-current flow multiplies this horizontal gradient along the vertical axis from 300 to 1200 mOsmol/L."
+    }
+  ]
+}

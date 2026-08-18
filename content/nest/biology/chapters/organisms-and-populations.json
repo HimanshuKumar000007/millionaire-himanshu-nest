@@ -1,0 +1,158 @@
+{
+  "id": "bio-xii-u10-c11",
+  "chapterNumber": 11,
+  "chapterTitle": "Organisms and Populations",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unitNumber": 10,
+  "unitTitle": "Ecology",
+  "slug": "organisms-and-populations",
+  "estimatedReadingTimeMinutes": 173,
+  "difficulty": "High-Yield",
+  "status": "published",
+  "summary": "Covers foundational principles of population ecology, demographic attributes, mathematical growth models, life history evolution, and interspecific interaction dynamics: Population attributes (Natality b, Mortality d, Sex ratio, and Age pyramids: Triangular expanding with broad base, Bell-shaped stable, and Urn-shaped declining); Population dynamics equation (Nt+1 = Nt + [(B + I) - (D + E)]); Exponential growth (J-curve: dN/dt = rN, Nt = N0 * e^(rt), doubling time t_double = ln 2 / r ≈ 0.693 / r); Logistic growth (Verhulst-Pearl S-curve: dN/dt = rN[(K - N)/K], environmental resistance, Carrying capacity K, Asymptote at N = K where dN/dt = 0, and Maximum growth rate dN/dt_max at N = K/2); Life history strategies (r-selected opportunistic proliferators with many small offspring, Type III survivorship vs K-selected equilibrium competitors with few large offspring, high parental care, Type I survivorship); Interspecific population interactions matrix (+/+, -/-, +/-, +/0, -/0); Mutualism (+/+): Lichens, Glomus mycorrhizae, Fig & Blastophaga wasp, and Ophrys orchid pseudocopulation / sexual deceit with male bee Colletes enforcing co-evolution; Competition (-/-): Gause's Competitive Exclusion Principle (1934, Paramecium), Connell's Competitive Release (Balanus & Chthamalus barnacles), and MacArthur's Resource Partitioning (5 Warbler species coexisting on spruce trees); Predation (+/-): Trophic energy transfer, Prickly pear cactus Opuntia biological control by Cactoblastis moth, Robert Paine's Pisaster starfish removal proving keystone predator diversity maintenance, Monarch butterfly cardiac glycosides, and plant defenses; Parasitism (+/-): Ectoparasites, Cuscuta haustoria, Endoparasites, and Brood Parasitism (Cuckoo/Koel egg mimicry in Crow nests); Commensalism (+/0: Epiphytic orchid on mango, Barnacles on whales, Cattle Egret & cattle); and Amensalism (-/0: Penicillium antibiosis, Black Walnut Juglone allelopathy).",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "id": "sec-11-01",
+      "title": "Population Attributes & Age Pyramids",
+      "topic": "Natality, Mortality, Sex Ratio, Per Capita Rates, & Age Pyramid Morphologies",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "A population is characterized by statistical vital rates (per capita birth rate b, death rate d, sex ratio) and age pyramids (Triangular expanding, Bell-shaped stable, Urn-shaped declining)."
+      },
+      "codeSnippet": "POPULATION ATTRIBUTES\n                                     │\n     ┌──────────────────┬────────────┴────────────┬──────────────────┐\n     ▼                  ▼                         ▼                  ▼\nNATALITY (Birth Rate)   MORTALITY (Death Rate)    SEX RATIO          AGE PYRAMIDS\nPer capita births per   Per capita deaths per     Ratio of females   Distribution of age\nunit time (b).          unit time (d).            per 1000 males.    groups (Pre/Rep/Post).",
+      "content": "### 1.1 Population Attributes\n- **Vital Rates**: Natality ($b = \\Delta N_b / (N_0 \\Delta t)$), Mortality ($d = \\Delta N_d / (N_0 \\Delta t)$), and Sex Ratio.\n- **Age Pyramids**: Triangular (Expanding), Bell-shaped (Stable), Urn-shaped (Declining)."
+    },
+    {
+      "sectionNumber": 2,
+      "id": "sec-11-02",
+      "title": "Exponential Growth Model: J-Curve & Malthusian Parameter",
+      "topic": "Population Balance Equation, dN/dt = rN, Intrinsic Growth Rate r, & Doubling Time",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "When resources are unlimited, population growth is exponential (dN/dt = rN, Nt = N0 e^(rt)), yielding a J-shaped curve with doubling time t_double = 0.693 / r."
+      },
+      "codeSnippet": "POPULATION DYNAMICS MATRIX\n                           \n                         NATALITY (B)    IMMIGRATION (I)\n                              │                 │\n                              ▼                 ▼\n                       ┌──────────────────────────────┐\n                       │   POPULATION DENSITY (N)     │\n                       └──────────────────────────────┘\n                              ▲                 ▲\n                              │                 │\n                         MORTALITY (D)   EMIGRATION (E)",
+      "content": "### 2.1 Exponential Growth\n- **Balance Equation**: $N_{t+1} = N_t + [(B + I) - (D + E)]$.\n- **Formula**: $\\frac{dN}{dt} = rN \\implies N_t = N_0 e^{rt}$, where $r = (b - d)$ is the intrinsic growth rate."
+    },
+    {
+      "sectionNumber": 3,
+      "id": "sec-11-03",
+      "title": "Logistic Growth Model: S-Curve & Carrying Capacity (K)",
+      "topic": "Verhulst-Pearl Logistic Growth, dN/dt = rN(1 - N/K), Sigmoid Curve Phases, & Max Growth Rate at K/2",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "In finite environments, populations follow logistic growth (dN/dt = rN[(K-N)/K]). Growth levels off at Carrying Capacity (K); maximum growth rate occurs at N = K/2."
+      },
+      "codeSnippet": "EXPONENTIAL (J) vs LOGISTIC (S) CURVE\n                       \n            Pop Density (N) ▲             /  <-- Exponential Growth (dN/dt = rN)\n                            │            /\n                            │     K ────/----------------  <-- Carrying Capacity (K)\n                            │          /  /\n                            │         /  /   <-- Logistic Growth\n                            │        /  /        (dN/dt = rN[(K-N)/K])\n                            │  Lag  /  /\n                            └──────┴──┴─────────────────► Time (t)",
+      "content": "### 3.1 Logistic Growth\n- **Equation**: $\\frac{dN}{dt} = rN \\left( \\frac{K - N}{K} \\right)$.\n- **Phases**: Lag $\\rightarrow$ Log/Acceleration $\\rightarrow$ Deceleration $\\rightarrow$ Asymptote ($N = K$).\n- **Max Growth Rate**: Occurs at **$N = \\frac{K}{2}$**."
+    },
+    {
+      "sectionNumber": 4,
+      "id": "sec-11-04",
+      "title": "Life History Strategies: r-Selected vs K-Selected Species",
+      "topic": "Opportunistic Proliferators vs Equilibrium Competitors, Survivorship Curves (Type I, II, III), & Trade-Offs",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "r-Selected species produce many small offspring with low parental care (Type III survivorship); K-Selected species produce few large offspring with high care (Type I survivorship)."
+      },
+      "codeSnippet": "LIFE HISTORY STRATEGIES\n                                      │\n         ┌────────────────────────────┴────────────────────────────┐\n         ▼                                                         ▼\n   r-SELECTED SPECIES                                        K-SELECTED SPECIES\n   (Opportunistic Proliferators)                             (Equilibrium Competitors)\n   ├── Unstable, unpredictable habitats                      ├── Stable, predictable habitats\n   ├── High r, small body size                               ├── Low r, large body size\n   ├── Produces many small offspring                         ├── Produces few large offspring\n   └── Low/No parental care (Insects, Oysters)               └── High parental care (Elephants, Humans)",
+      "content": "### 4.1 Life History Strategies\n- **$r$-Selected**: Small, fast-breeding, many small offspring (*Insects, Oysters*).\n- **$K$-Selected**: Large, slow-breeding, few large offspring, high care (*Elephants, Humans*)."
+    },
+    {
+      "sectionNumber": 5,
+      "id": "sec-11-05",
+      "title": "Population Interactions Matrix & Mutualism (+/+)",
+      "topic": "Interaction Spectrum (+/+, -/-, +/-, +/0, -/0), Lichens, Mycorrhizae, & Fig-Wasp Symbiosis",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Mutualism (+/+) benefits both species: Lichens (algae + fungus), Mycorrhizae (Glomus absorbing phosphorus for roots), and Fig & Blastophaga wasp."
+      },
+      "codeSnippet": "POPULATION INTERACTION SPECTRUM\n                        \n   INTERACTION TYPE               SPECIES A    SPECIES B     ECOLOGICAL NATURE\n   Mutualism                         +            +          Both species benefit mutually.\n   Competition                       -            -          Both species are harmed.\n   Predation                         +            -          Predator (+) kills Prey (-).\n   Parasitism                        +            -          Parasite (+) exploits Host (-).\n   Commensalism                      +            0          One benefits (+), Other neutral (0).\n   Amensalism                        -            0          One harmed (-), Other neutral (0).",
+      "content": "### 5.1 Mutualism (+/+)\n- **Lichens**: Phycobiont + Mycobiont.\n- **Mycorrhizae**: *Glomus* fungus absorbs Phosphorus.\n- **Fig & Wasp**: *Ficus* + *Blastophaga* obligate oviposition & pollination."
+    },
+    {
+      "sectionNumber": 6,
+      "id": "sec-11-06",
+      "title": "Sexual Deceit in Ophrys & Co-Evolution",
+      "topic": "Mediterranean Orchid Ophrys, Pseudocopulation, Colletes/Campsoscolia Bees, & Tight Co-Evolutionary Pressure",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Ophrys orchids mimic female solitary bees (Colletes) on their petals, inducing male pseudocopulation for pollination, enforcing tight co-evolution."
+      },
+      "codeSnippet": "SEXUAL DECEIT IN OPHRYS\n                       \n   Ophrys Orchid Petal mimics Female Solitary Bee (Shape, Markings, Pheromone)\n                                       │\n   Attracts Male Bee (Colletes / Campsoscolia) ──► Attempts PSEUDOCOPULATION\n                                       │\n   Pollinia (Pollen Sacs) adhere to Male Bee's Head/Thorax\n                                       │\n   Male Bee visits another Ophrys ──► Transfers Pollinia ──► Successful Cross-Pollination!",
+      "content": "### 6.1 Sexual Deceit in Ophrys\n- **Pseudocopulation**: Petal mimics female bee shape, coloration, and pheromones.\n- **Co-Evolution**: Orchid must co-evolve if female bee markings alter."
+    },
+    {
+      "sectionNumber": 7,
+      "id": "sec-11-07",
+      "title": "Competition: Gause's Exclusion & Connell's Release",
+      "topic": "Interspecific Competition (-/-), Gause's Paramecium Experiment, & Connell's Barnacle Field Trials",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Gause's Exclusion states complete competitors cannot coexist in the same niche (Paramecium). Connell proved competitive release by removing dominant Balanus barnacles, allowing Chthamalus to expand."
+      },
+      "codeSnippet": "COMPETITIVE MECHANISMS\n                                     │\n     ┌───────────────────────────────┼───────────────────────────────┐\n     ▼                               ▼                               ▼\nGAUSE'S EXCLUSION PRINCIPLE      COMPETITIVE RELEASE             RESOURCE PARTITIONING\nSuperior competitor permanently  Species expands geographical     Competing species coexist by\neliminates inferior competitor   range when competitor is         dividing resources via different\nfrom shared niche (Paramecium).  experimentally removed (Connell).foraging times/zones (MacArthur).",
+      "content": "### 7.1 Competition (-/-)\n- **Gause (1934)**: *P. aurelia* excludes *P. caudatum*.\n- **Connell's Release**: Removing dominant *Balanus* lets *Chthamalus* expand."
+    },
+    {
+      "sectionNumber": 8,
+      "id": "sec-11-08",
+      "title": "MacArthur's Resource Partitioning in Warblers",
+      "topic": "Robert MacArthur (1958), 5 Warbler Species on Spruce Trees, Micro-Habitats, & Coexistence Mechanisms",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Resource partitioning avoids exclusion. Robert MacArthur proved 5 Warbler species coexisted on the same spruce tree by foraging in distinct micro-spatial canopy zones."
+      },
+      "codeSnippet": "RESOURCE PARTITIONING IN SPRUCE TREE CANOPY\n                         \n   Top Outer Canopy ──────► Cape May Warbler\n   Top Middle Canopy ─────► Blackburnian Warbler\n   Middle Interior ───────► Black-Throated Green Warbler\n   Lower Middle Canopy ───► Bay-Breasted Warbler\n   Base / Trunk Zone ─────► Yellow-Rumped (Myrtle) Warbler\n                                  │\n   [RESULT]: Coexistence of 5 competing species through Micro-Niche Differentiation!",
+      "content": "### 8.1 Resource Partitioning\n- **MacArthur (1958)**: 5 Warbler species divided spruce tree canopy into distinct micro-zones to coexist without competitive exclusion."
+    },
+    {
+      "sectionNumber": 9,
+      "id": "sec-11-09",
+      "title": "Predation: Paine's Pisaster Removal & Prey Defenses",
+      "topic": "Trophic Energy Transfer, Keystone Predators, Robert Paine's Starfish Experiment, & Monarch Butterfly Glycosides",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Predators maintain diversity: Robert Paine removed Pisaster starfish, causing extinction of >10 invertebrate species. Prey defenses include camouflage, Monarch butterfly cardiac glycosides, and thorns."
+      },
+      "codeSnippet": "ECOLOGICAL ROLES OF PREDATORS\n                                          │\n         ┌────────────────────────────────┼────────────────────────────────┐\n         ▼                                ▼                                ▼\n  TROPHIC ENERGY CONDUIT           PREY POPULATION CONTROL          MAINTAINING DIVERSITY\n  Transfers energy from producers  Prevents prey overpopulation     Suppresses dominant prey\n  to higher trophic levels.        and ecosystem collapse.          species to prevent exclusion.",
+      "content": "### 9.1 Predation (+/-)\n- **Keystone Predator**: Paine's *Pisaster* starfish removal caused $>10\\text{ invertebrate species}$ to go extinct.\n- **Prey Defenses**: Camouflage, thorns, and Monarch butterfly **Cardiac Glycosides** (from *Asclepias* milkweed)."
+    },
+    {
+      "sectionNumber": 10,
+      "id": "sec-11-10",
+      "title": "Parasitism: Cuscuta Haustoria & Brood Parasitism",
+      "topic": "Ectoparasites vs Endoparasites, Cuscuta Root Haustoria, Morphological Adaptations, & Cuckoo-Crow Egg Mimicry",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Parasitism (+/-) features loss of senses, adhesive suckers/hooks, and high fecundity. Cuscuta uses haustoria to siphon plant sap. Cuckoos exhibit brood parasitism with egg mimicry in Crow nests."
+      },
+      "codeSnippet": "PARASITISM ADAPTATIONS\n                                     │\n         ┌───────────────────────────┼───────────────────────────┐\n         ▼                           ▼                           ▼\n  PARASITIC MORPHOLOGY        REPRODUCTIVE CAPACITY        BROOD PARASITISM\n  ├── Loss of unneeded senses  ├── Enormous egg production  ├── Parasitic bird lays eggs\n  ├── Hooks/suckers for hold  └── Complex multi-host life      in host nest (Cuckoo/Crow).\n  └── Reduced gut/digestive       cycles (Plasmodium)       └── Eggs mimic host egg size/color.",
+      "content": "### 10.1 Parasitism (+/-)\n- **Cuscuta**: Ectoparasite lacking chlorophyll; penetrates host with **Haustoria**.\n- **Brood Parasitism**: Cuckoo (Koel) lays eggs mimicking Crow eggs."
+    },
+    {
+      "sectionNumber": 11,
+      "id": "sec-11-11",
+      "title": "Commensalism, Amensalism, & High-Yield Traps",
+      "topic": "Commensalism (+/0), Amensalism (-/0), Allelopathy (Juglone), & Master Glossary",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Commensalism (+/0): Orchid on Mango, Cattle Egret & Cattle. Amensalism (-/0): Penicillium antibiosis, Black Walnut Juglone allelopathy. Master glossary and 10 NEST diagnostic traps."
+      },
+      "content": "### 11.1 Commensalism & Amensalism\n- **Commensalism ($+/0$)**: Orchid on Mango branch; Barnacles on whales; Cattle Egret.\n- **Amensalism ($-/0$)**: *Penicillium* killing bacteria; Walnut *Juglone* allelopathy."
+    }
+  ]
+}

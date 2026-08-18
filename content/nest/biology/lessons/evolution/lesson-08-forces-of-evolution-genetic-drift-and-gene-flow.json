@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c6-l08",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Evolution",
+  "chapterNumber": 6,
+  "chapterSlug": "evolution",
+  "slug": "lesson-08-forces-of-evolution-genetic-drift-and-gene-flow",
+  "title": "Forces of Evolution: Genetic Drift & Gene Flow",
+  "topic": "Sewall Wright Effect, Founder Effect, Bottleneck Effect, & Gene Migration",
+  "order": 8,
+  "readingTimeMinutes": 15,
+  "estimatedTimeMinutes": 15,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Genetic drift (Sewall Wright Effect): random allele frequency changes in small populations. Modes: Founder Effect (small migrant group establishes new colony with distinct gene pool, e.g. Amish polydactyly) and Bottleneck Effect (drastic crash in population size due to disaster, e.g. Cheetahs). Gene flow: allele exchange between populations.",
+  "summary": "Genetic drift (Sewall Wright Effect): random allele frequency changes in small populations. Modes: Founder Effect (small migrant group establishes new colony with distinct gene pool, e.g. Amish polydactyly) and Bottleneck Effect (drastic crash in population size due to disaster, e.g. Cheetahs). Gene flow: allele exchange between populations.",
+  "conceptBreakdown": [
+    {
+      "heading": "Forces of Evolution: Genetic Drift & Gene Flow",
+      "title": "Forces of Evolution: Genetic Drift & Gene Flow",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Genetic drift refers to stochastic fluctuations in allele frequencies operating strictly in small populations. Two major modes: Founder Effect (colonization by a small random sample) and Bottleneck Effect (abrupt reduction in population size). Gene flow transfers alleles between populations via migration."
+      },
+      "codeSnippet": "GENETIC DRIFT MODES\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n  FOUNDER EFFECT                                          BOTTLENECK EFFECT\n  A small migrant group isolates to found a               A catastrophe drastically reduces population size;\n  new population with a distinct gene pool.               survivors randomly alter allele frequencies.\n  (*e.g., Amish population polydactyly*)                  (*e.g., Cheetah population crash*)",
+      "content": "### 8.1 Genetic Drift (Sewall Wright Effect)\n- **Definition**: Random, stochastic fluctuations in allele frequencies within a **small interbreeding population** occurring purely by chance events, independent of natural selection.\n- **Consequences**:\n  - Leads to loss (frequency = $0$) or fixation (frequency = $1.0$) of alleles over time.\n  - Reduces overall genetic heterozygosity and diversity within a population.\n\n### 8.2 Modes of Genetic Drift\n1. **Founder Effect**:\n   - Occurs when a small subset of individuals separates from a large parent population to colonize a new isolated habitat.\n   - The new population possesses a gene pool that is a non-representative sample of the original population.\n   - *Example*: High incidence of Ellis-van Creveld syndrome (polydactyly and dwarfism) in the Old Order Amish of Pennsylvania.\n2. **Bottleneck Effect**:\n   - Occurs when an environmental catastrophe (drought, flood, epidemic, hunting) drastically reduces population size to a tiny fraction of survivors.\n   - The surviving subset reproduces, rebuilding the population with drastically reduced genetic diversity.\n   - *Example*: Northern elephant seals and African cheetahs (virtually monomorphic MHC loci due to severe historical bottleneck).\n\n### 8.3 Gene Flow (Gene Migration)\n- Movement of alleles into or out of a population due to migration of fertile individuals or dispersal of gametes (pollen).\n- Increases genetic diversity within a recipient population while reducing genetic divergence between populations."
+    },
+    {
+      "heading": "Effective Population Size (Ne)",
+      "title": "Effective Population Size (Ne)",
+      "type": "paragraph",
+      "content": "Effective population size (Ne = 4*Nm*Nf / (Nm + Nf)) represents the number of breeding individuals in an idealized population, governing the magnitude of genetic drift and rate of inbreeding."
+    },
+    {
+      "heading": "Genetic Load and Inbreeding Depression",
+      "title": "Genetic Load and Inbreeding Depression",
+      "type": "paragraph",
+      "content": "Severe population bottlenecks lead to inbreeding, exposing deleterious recessive alleles in homozygous condition, increasing genetic load and causing inbreeding depression."
+    }
+  ]
+}

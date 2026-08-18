@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c5-l05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Molecular Basis of Inheritance",
+  "chapterNumber": 5,
+  "chapterSlug": "molecular-basis-of-inheritance",
+  "slug": "lesson-05-end-replication-problem-and-telomerase-mechanics",
+  "title": "End-Replication Problem & Telomerase Mechanics",
+  "topic": "Linear Chromosome Ends, Telomeres, & Ribonucleoprotein Telomerase",
+  "order": 5,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Linear eukaryotic chromosomes face the end-replication problem at lagging strand 5' ends upon primer removal. Telomeres (5'-TTAGGG-3' repeats in humans) protect chromosome ends. Telomerase is a specialized reverse transcriptase ribonucleoprotein carrying an internal RNA template (3'-CAAUCCCAAUC-5') that extends the 3' overhang.",
+  "summary": "Linear eukaryotic chromosomes face the end-replication problem at lagging strand 5' ends upon primer removal. Telomeres (5'-TTAGGG-3' repeats in humans) protect chromosome ends. Telomerase is a specialized reverse transcriptase ribonucleoprotein carrying an internal RNA template (3'-CAAUCCCAAUC-5') that extends the 3' overhang.",
+  "conceptBreakdown": [
+    {
+      "heading": "End-Replication Problem & Telomerase Mechanics",
+      "title": "End-Replication Problem & Telomerase Mechanics",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Linear eukaryotic chromosomes cannot replicate the extreme 5' end of lagging strands because removal of the terminal RNA primer leaves an unfillable gap. Telomerase (TERT + TERC) is a ribonucleoprotein reverse transcriptase with an intrinsic RNA template (3'-CAAUCCCAAUC-5') that extends the 3' overhang with repetitive 5'-TTAGGG-3' telomeric repeats."
+      },
+      "codeSnippet": "TELOMERASE REVERSE TRANSCRIPTION CASCADE\n                      \n   3' Overhang of Telomere DNA (5'-TTAGGG-3')\n                        │\n   Telomerase aligns internal RNA template (3'-CAAUCCCAAUC-5')\n                        │\n   Reverse Transcription extends 3' DNA overhang ──► Translocation ──► Primase/Pol δ fills complementary strand",
+      "content": "### 5.1 The End-Replication Problem\n- In linear eukaryotic chromosomes, DNA Polymerases require an upstream $3'\\text{-OH}$ primer to synthesize DNA.\n- When the terminal RNA primer on the lagging strand is removed by $5' \\rightarrow 3'$ exonucleases, there is no upstream $3'\\text{-OH}$ available for DNA polymerase to fill the resulting $8\\text{--}12\\text{ nucleotide}$ gap.\n- Consequently, chromosomes progressively shorten with each cell cycle (Hayflick limit and cellular senescence).\n\n### 5.2 Telomeres & Telomerase Ribonucleoprotein Complex\n- **Telomeres**: Specialized non-coding nucleoprotein caps at the ends of linear chromosomes containing tandem hexanucleotide repeats (**$\\text{5'-TTAGGG-3'}$** in vertebrates).\n- **Telomerase Complex Components**:\n  1. **TERC (Telomerase RNA Component)**: Serves as the internal template ($3'\\text{-CAAUCCCAAUC-5'}$).\n  2. **TERT (Telomerase Reverse Transcriptase)**: Catalytic protein subunit that reverse-transcribes the RNA template into DNA repeats, extending the $3'$ parental overhang.\n- **Significance in Biology & Medicine**:\n  - Highly active in germ cells, stem cells, and $\\approx 85\\text{--}90\\%$ of human **cancer cells** (conferring cellular immortality), but inactive in normal somatic cells."
+    },
+    {
+      "heading": "T-Loop and Shelterin Complex",
+      "title": "T-Loop and Shelterin Complex",
+      "type": "paragraph",
+      "content": "The single-stranded 3' telomeric G-rich overhang invades the double-stranded telomeric tract to form a protective T-loop stabilized by the 6-protein Shelterin complex (TRF1, TRF2, POT1, RAP1, TIN2, TPP1), preventing chromosome end-to-end fusions."
+    },
+    {
+      "heading": "Alternative Lengthening of Telomeres (ALT)",
+      "title": "Alternative Lengthening of Telomeres (ALT)",
+      "type": "paragraph",
+      "content": "A subset (10-15%) of human cancers lack telomerase and instead maintain telomere length through homologous recombination-based Alternative Lengthening of Telomeres (ALT)."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "bio-xi-u2-c7-l05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit II — Structural Organization in Plants and Animals",
+  "unitNumber": 2,
+  "chapter": "Structural Organisation in Animals",
+  "chapterNumber": 7,
+  "chapterSlug": "structural-organisation-in-animals",
+  "slug": "lesson-05-cardiovascular-system-heart-portal-systems",
+  "title": "Cardiovascular System: 3-Chambered Heart & Portal Circulation",
+  "topic": "Sinus Venosus (Dorsal), Conus Arteriosus (Ventral), Hepatic/Renal Portals, & Nucleated RBCs",
+  "topics": [
+    "Closed Incomplete Double Circulation Overview",
+    "3-Chambered Heart (2 Atria, 1 Ventricle with Muscular Trabeculae)",
+    "Sinus Venosus (Dorsal Triangular Chamber & Sinu-Atrial Node Pacemaker)",
+    "Conus Arteriosus (Ventral Chamber & Spiral Valve)",
+    "Hepatic Portal System (Digestive Tract $\\rightarrow$ Liver)",
+    "Renal Portal System (Hindlimbs $\\rightarrow$ Kidneys)",
+    "Blood Elements (Large Oval Nucleated Erythrocytes with Hemoglobin)"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "The circulatory system is closed and double-loop with a 3-chambered heart (2 atria, 1 muscular ventricle). Dorsal Sinus Venosus receives deoxygenated systemic blood (2 precavals, 1 postcaval) and houses the SAN pacemaker; ventral Conus Arteriosus carries blood into 3 arterial arches. Features both Hepatic (gut to liver) and Renal (hindlimbs to kidneys) Portal Systems. RBCs are large, biconvex, and nucleated.",
+  "summary": "The circulatory system is closed and double-loop with a 3-chambered heart (2 atria, 1 muscular ventricle). Dorsal Sinus Venosus receives deoxygenated systemic blood (2 precavals, 1 postcaval) and houses the SAN pacemaker; ventral Conus Arteriosus carries blood into 3 arterial arches. Features both Hepatic (gut to liver) and Renal (hindlimbs to kidneys) Portal Systems. RBCs are large, biconvex, and nucleated.",
+  "conceptBreakdown": [
+    {
+      "heading": "5. Cardiovascular System & Heart Anatomy",
+      "title": "5. Cardiovascular System & Heart Anatomy",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Sinus Venosus is DORSAL (receives 2 precavals + 1 postcaval; contains SAN pacemaker). Conus Arteriosus is VENTRAL. RBCs are nucleated and biconvex."
+      },
+      "codeSnippet": "FROG CARDIOVASCULAR SYSTEM\n                                       │\n         ┌─────────────────────────────┼─────────────────────────────┐\n         ▼                             ▼                             ▼\nTHREE-CHAMBERED HEART          BLOOD COMPONENTS              PORTAL CIRCULATORY SYSTEMS\n├── 2 Atria (Left & Right)     ├── Nucleated Oval RBCs        ├── Hepatic Portal System\n├── 1 Ventricle                ├── WBCs & Thrombocytes        │   (Gut ──► Liver)\n├── Sinus Venosus (Dorsal)     └── Plasma                     └── Renal Portal System\n└── Conus Arteriosus (Ventral)                                    (Hindlimbs ──► Kidneys)",
+      "content": "The circulatory system of *Rana tigrina* is closed, incomplete double circulation consisting of a 3-chambered heart, vascular trunks, lymphatics, and dual portal circuits.\n\n### Heart Chambers & Accessory Structures\n• **Two Atria**: Right atrium receives deoxygenated blood from the sinus venosus; left atrium receives oxygenated blood from pulmonary veins.\n• **Single Ventricle**: Thick-walled muscular pump with internal muscular ridges called **Trabeculae / Columnae Carneae**.\n• **Sinus Venosus (DORSAL)**: Triangular thin-walled chamber receiving 2 Precavals and 1 Postcaval vein; houses the cardiac pacemaker (**Sinu-Atrial Node / SAN**).\n• **Conus Arteriosus (VENTRAL)**: Stout muscular tube arising from the ventricle base with a **Spiral Valve** guiding blood into three pairs of arterial arches (Carotid, Systemic, Pulmocutaneous)."
+    },
+    {
+      "heading": "Dorsal vs. Ventral Cardiac Aspect",
+      "title": "Dorsal vs. Ventral Cardiac Aspect",
+      "type": "paragraph",
+      "codeSnippet": "DORSAL vs VENTRAL HEART\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n  DORSAL ASPECT                                           VENTRAL ASPECT\n  Sinus Venosus (Triangular)                              Conus Arteriosus\n  ├── Receives: 2 Precavals                               ├── Arises from Ventricle\n  └── Receives: 1 Postcaval                               └── Splits into 2 Trunci Arteriosi",
+      "content": "Anatomical orientation is critical: Sinus Venosus is dorsal; Conus Arteriosus is ventral."
+    },
+    {
+      "heading": "5.1 Hepatic & Renal Portal Systems",
+      "title": "5.1 Hepatic & Renal Portal Systems",
+      "type": "paragraph",
+      "codeSnippet": "RENAL PORTAL PATHWAY\n                           \n   Femoral & Sciatic Veins (Hindlimbs) ──► Renal Portal Vein ──► Kidneys\n                                                                    │\n   Heart (Sinus Venosus) ◄── Postcaval Vein ◄── Renal Veins ────────┘",
+      "content": "• **Hepatic Portal System**: Collects venous blood from stomach, intestine, pancreas, and spleen via the Hepatic Portal Vein and delivers it to the **Liver** for metabolic processing before entering the postcaval vein.\n• **Renal Portal System**: Collects blood from the hindlimbs via femoral and sciatic veins and routes it through the **Kidneys** before reaching the postcaval vein (*unique to non-mammalian vertebrates; absent in mammals*).\n• **Erythrocytes (RBCs)**: Large, oval, biconvex, and **NUCLEATED**, containing dissolved Hemoglobin."
+    }
+  ]
+}

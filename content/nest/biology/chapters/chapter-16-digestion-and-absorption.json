@@ -1,0 +1,655 @@
+{
+  "id": "bio-xi-u5-c16-chapter-master",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Digestion and Absorption",
+  "chapterNumber": 16,
+  "chapterSlug": "digestion-and-absorption",
+  "title": "CHAPTER 16: DIGESTION AND ABSORPTION (NEST & INBO MODULE)",
+  "description": "Master module covering Gut Wall Histology (Serosa, Muscularis, Submucosa, Mucosa), Auerbach's & Meissner's Plexuses, Dental Anatomy & Formulas, Salivary Glands & Ducts, Gastric Gland Histology (Oxyntic HCl/Intrinsic Factor & Pernicious Anemia), Liver & Bile Emulsification (Zero Enzymes), Pancreatic Zymogen Activation Cascade, Intestinal Crypts & Succus Entericus, GI Hormones Matrix (Gastrin, Secretin, CCK, GIP, Motilin), Stepwise Chemical Cleavage, SGLT1/GLUT5/PepT1 Transporters, Chylomicron Lacteal Pathway, Gross vs Physiological Calorific Values, PEM Disorders (Marasmus vs Kwashiorkor), High-Yield Traps, Master Glossary, and 20 NEST Practice Questions.",
+  "estimatedTotalTimeMinutes": 145,
+  "totalSections": 11,
+  "totalQuestions": 20,
+  "status": "published",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "id": "sec-16-01",
+      "title": "Histology of the Alimentary Canal & Neural Control Plexuses",
+      "topic": "Serosa, Muscularis (+ Oblique in stomach), Submucosa (Brunner's Glands), Mucosa, Auerbach's & Meissner's Plexuses",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Gut wall consists of 4 concentric tunics: Serosa, Muscularis (Auerbach's myenteric plexus controls motility), Submucosa (Meissner's plexus controls secretions; Brunner's glands in duodenum), and Mucosa. Stomach uniquely has an innermost oblique muscle layer."
+      },
+      "codeSnippet": "GUT WALL CONCENTRIC HISTOLOGY\n                                    │\n         ┌──────────────────────────┼──────────────────────────┐\n         ▼                          ▼                          ▼\n      SEROSA                   MUSCULARIS                  SUBMUCOSA\nOuter visceral peritoneum   Outer Longitudinal Layer    Loose connective tissue;\n(Simple squamous)           Inner Circular Layer        Vascular & neural supply\n                            *(+ Oblique in stomach)*     (Brunner's glands)\n                                                               │\n                                                               ▼\n                                                            MUCOSA\n                                                  Inner lining (Epithelium,\n                                                  Lamina propria, Muscularis)\n\n                        NEURAL PLEXUSES OF THE GUT\n                        \n   AUERBACH'S (MYENTERIC) PLEXUS             MEISSNER'S (SUBMUCOSAL) PLEXUS\n   ├── Located BETWEEN longitudinal          ├── Located in the SUBMUCOSA layer.\n   │   and circular muscle layers.           └── Controls local glandular secretions\n   └── Controls gastrointestinal motility        and mucosal blood flow.\n       (peristalsis).",
+      "content": "The human alimentary canal is a continuous muscular tube extending from the mouth to the anus. From the esophagus to the rectum, the gut wall comprises four fundamental concentric tissue layers (Tunics).\n\n### 1.1 Four Concentric Layers of the Gut Wall\n1. **Serosa**: Outermost thin layer formed by a simple squamous mesothelium combined with loose connective tissue (absent in the esophagus, replaced by fibrous adventitia).\n2. **Muscularis**: Composed of smooth muscle arranged into an outer longitudinal and an inner circular layer.\n   - *Stomach Exception*: Possesses an additional innermost oblique muscle layer situated internal to the circular layer to facilitate mechanical churning of chyme.\n3. **Submucosa**: Highly vascularized layer of loose connective tissue containing blood vessels, lymphatics, and nerves. Contains specialized compound tubular mucous glands (**Brunner’s Glands**) strictly in the Duodenum.\n4. **Mucosa**: Innermost nutrient-absorbing layer divided into:\n   - **Epithelium**: Simple columnar epithelium with goblet cells; forms gastric pits in the stomach and Villi / Crypts of Lieberkühn in the small intestine.\n   - **Lamina Propria**: Connective tissue core rich in capillaries and lymphoid tissue (Peyer’s Patches in the ileum).\n   - **Muscularis Mucosae**: Thin double smooth muscle layer causing localized mucosal movement."
+    },
+    {
+      "sectionNumber": 2,
+      "id": "sec-16-02",
+      "title": "Dental Anatomy, Oral Cavity, & Salivary Glands",
+      "topic": "Thecodont, Diphyodont, Heterodont Dentition, Formulas (Adult vs Milk), Enamel, Dentin, & Salivary Ducts",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Human dentition is Thecodont, Diphyodont, and Heterodont. Adult formula = (2.1.2.3/2.1.2.3)×2 = 32; Milk formula = (2.1.0.2/2.1.0.2)×2 = 20 (0 premolars). Enamel is secreted by Ameloblasts; Dentin by Odontoblasts. Parotid (Stensen's), Submandibular (Wharton's), Sublingual (Rivinus)."
+      },
+      "codeSnippet": "HUMAN DENTITION TRAITS\n                                      │\n         ┌────────────────────────────┼────────────────────────────┐\n         ▼                            ▼                            ▼\n     THECODONT                    DIPHYODONT                   HETERODONT\n  Teeth embedded in jaw      Two sets of teeth formed     Morphologically differentiated:\n  alveolar bone sockets.     during lifespan.             ├── Incisors (I - Cutting)\n                             ├── Primary Milk (20)        ├── Canines (C - Tearing)\n                             └── Permanent Adult (32)     ├── Premolars (PM - Grinding)\n                                                          └── Molars (M - Grinding)\n\n  - Adult Dentition: (2.1.2.3 / 2.1.2.3) × 2 = 32 Teeth\n  - Deciduous Milk Dentition: (2.1.0.2 / 2.1.0.2) × 2 = 20 Teeth (0 Premolars)",
+      "content": "### 2.1 Human Dentition Parameters\n- **Thecodont**: Each tooth is embedded in a deep alveolar bone socket of the jaw.\n- **Diphyodont**: Two sets of teeth formed across lifespan (deciduous milk teeth replaced by permanent adult teeth).\n- **Heterodont**: Four distinct morphological types (Incisors, Canines, Premolars, Molars).\n- **Dental Formulas**:\n  - Permanent Adult: $\\frac{2.1.2.3}{2.1.2.3} \\times 2 = \\mathbf{32\\text{ Teeth}}$\n  - Primary Deciduous Milk: $\\frac{2.1.0.2}{2.1.0.2} \\times 2 = \\mathbf{20\\text{ Teeth}}$ (Premolars and $3^{\\text{rd}}$ molars are absent in milk teeth).\n- **Dental Microanatomy**:\n  - **Enamel**: Hardest animal substance (96% hydroxyapatite calcium phosphate). Secreted by ectodermal **Ameloblasts**.\n  - **Dentin**: Bulk living tissue of tooth surrounding central pulp cavity. Secreted by neural crest **Odontoblasts**.\n\n### 2.2 Salivary Glands & Ducts (pH ≈ 6.8, 1.0–1.5 L/day)\n1. **Parotid Glands** (Cheek/Ear - largest): Drained by **Stensen's Duct** opening opposite upper 2nd molar.\n2. **Submandibular / Submaxillary Glands** (Angle of lower jaw): Drained by **Wharton's Duct**.\n3. **Sublingual Glands** (Under tongue - smallest): Drained by **Ducts of Rivinus**."
+    },
+    {
+      "sectionNumber": 3,
+      "id": "sec-16-03",
+      "title": "Gastric Gland Histology & Secretory Cascade",
+      "topic": "Chief Cells (Pepsinogen), Oxyntic Cells (HCl & Castle's Intrinsic Factor), & Pernicious Anemia",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Parietal/Oxyntic cells secrete HCl (pH 1.8 via H+/K+ ATPase) and Castle's Intrinsic Factor (vital for Vit B12 absorption in ileum). Chief/Peptic cells secrete Pepsinogen and Prorennin. Loss of parietal cells causes Pernicious Anemia."
+      },
+      "codeSnippet": "GASTRIC GLAND CELL TYPES\n                                       │\n     ┌─────────────────────────────────┼─────────────────────────────────┐\n     ▼                                 ▼                                 ▼\nCHIEF / PEPTIC CELLS              PARIETAL / OXYNTIC CELLS          MUCOUS NECK CELLS\n(Zymogenic)                       ├── Secretes Hydrochloric Acid    Secrete alkaline mucus\n├── Secretes Pepsinogen           │   (HCl, pH 1.8)                 and HCO₃⁻ to protect\n└── Secretes Prorennin            └── Secretes Castle's             gastric mucosal barrier\n    (Infant milk curdling)            Intrinsic Factor              from autolysis.",
+      "content": "The mucosal lining of the stomach contains vertical invaginations called Gastric Pits leading into tubular Gastric Glands.\n\n### 3.1 Oxyntic Cell Function & Pernicious Anemia\n- **Hydrochloric Acid ($\\text{HCl}$ Secretion)**: Secreted by active $\\text{H}^+/\\text{K}^+$ ATPase proton pumps in parietal cells. Lowers luminal $\\text{pH}$ to $1.5\\text{--}2.0$, killing ingested pathogens and autocatalytically cleaving inactive pepsinogen into active **Pepsin**.\n- **Castle’s Intrinsic Factor**: A glycoprotein secreted by parietal cells that binds dietary Vitamin $\\text{B}_{12}$ (Cyanocobalamin). The Intrinsic Factor-$\\text{B}_{12}$ complex is absorbed via receptor-mediated endocytosis specifically in the terminal ileum.\n  - **Pernicious Anemia**: Autoimmune destruction of parietal cells causes loss of Intrinsic Factor, halting Vitamin $\\text{B}_{12}$ absorption and causing severe megaloblastic anemia."
+    },
+    {
+      "sectionNumber": 4,
+      "id": "sec-16-04",
+      "title": "Liver, Biliary Tract, & Bile Physiology",
+      "topic": "Hepatic Lobules, Glisson's Capsule, Kupffer Cells, Bile Salts Emulsification, & Sphincter of Oddi",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Liver is largest gland (1.2–1.5 kg) with lobules wrapped in Glisson's capsule and phagocytic Kupffer cells. Bile contains ZERO digestive enzymes; bile salts physically emulsify fats into micelles (4–8 nm) to activate lipases. Hepatopancreatic duct is guarded by the Sphincter of Oddi."
+      },
+      "codeSnippet": "BILIARY TRACT DUCT SYSTEM\n                          \n   Right & Left Hepatic Ducts ──► Common Hepatic Duct + Cystic Duct (Gall Bladder)\n                                                             │\n   Common Bile Duct + Main Pancreatic Duct (Duct of Wirsung) ┘\n                           │\n   Hepatopancreatic Duct ──► Opens into Duodenum\n                           │\n   Guarded by the Sphincter of Oddi",
+      "content": "The liver is the largest internal gland ($\\approx 1.2\\text{--}1.5\\text{ kg}$).\n\n- **Structural & Functional Unit**: Hepatic Lobules, hexagonal columns of hepatocytes radiating around a central vein, wrapped in **Glisson’s Capsule**.\n- **Hepatic Sinusoids**: Contain fixed phagocytic macrophages called **Kupffer Cells** that digest worn-out erythrocytes and foreign debris.\n- **Bile Composition ($\\text{pH } 7.8\\text{--}8.6$)**:\n  - Bile Pigments: Bilirubin and Biliverdin (heme catabolism wastes).\n  - Bile Salts: Sodium Taurocholate and Sodium Glycocholate.\n  - **ZERO DIGESTIVE ENZYMES**: Bile contains no enzymes. It functions strictly to:\n    1. Emulsify large fat globules into microscopic **Micelles ($4\\text{--}8\\text{ nm}$)**.\n    2. Activate pancreatic lipases.\n    3. Neutralize acidic chyme entering the duodenum."
+    },
+    {
+      "sectionNumber": 5,
+      "id": "sec-16-05",
+      "title": "Pancreas & The Zymogen Activation Cascade",
+      "topic": "Pancreatic Juice, Enterokinase (Enteropeptidase), Trypsinogen, Chymotrypsinogen, & Carboxypeptidase",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Duodenal brush-border Enterokinase cleaves inactive Trypsinogen into active Trypsin. Active Trypsin then autocatalytically activates Chymotrypsinogen and Procarboxypeptidase. Pancreatic juice also contains Amylopsin, Steapsin, and Nucleases."
+      },
+      "codeSnippet": "PANCREATIC ZYMOGEN ACTIVATION CASCADE\n                     \n   Duodenal Epithelium ──► Secretes Enterokinase (Enteropeptidase)\n                                        │\n   Trypsinogen (Inactive) ──────────────┴──► TRYPSIN (Active)\n                                                 │\n         ┌───────────────────────────────────────┴───────────────────────────────────────┐\n         ▼                                                                               ▼\n   Chymotrypsinogen ──[Trypsin]──► Chymotrypsin                 Procarboxypeptidase ──[Trypsin]──► Carboxypeptidase",
+      "content": "The pancreas is a compound heterocrine gland. Its exocrine portion ($99\\%$) consists of Acinar Cells secreting alkaline Pancreatic Juice ($\\text{pH } 8.4$).\n\n### Zymogen Activation Cascade\n1. Duodenal brush-border enterocytes secrete **Enterokinase (Enteropeptidase)**.\n2. Enterokinase cleaves inactive **Trypsinogen** into active **Trypsin**.\n3. Active Trypsin then autocatalytically activates **Chymotrypsinogen** $\\rightarrow$ **Chymotrypsin** and **Procarboxypeptidase** $\\rightarrow$ **Carboxypeptidase**.\n\n- **Pancreatic Enzyme Inventory**: Trypsinogen, Chymotrypsinogen, Procarboxypeptidase, Pancreatic Amylase (Amylopsin), Pancreatic Lipase (Steapsin), and Nucleases (DNase & RNase)."
+    },
+    {
+      "sectionNumber": 6,
+      "id": "sec-16-06",
+      "title": "Intestinal Secretions: Crypts of Lieberkühn & Succus Entericus",
+      "topic": "Crypts of Lieberkühn, Paneth Cells, Stem Cells, Disaccharidases, Dipeptidases, & Brunner's Glands",
+      "readingTimeMinutes": 12,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Crypts of Lieberkühn contain Stem Cells and antimicrobial Paneth Cells (lysozyme). Succus Entericus (pH 7.8) contains Disaccharidases (Maltase, Lactase, Sucrase), Dipeptidases, Lipases, and Nucleosidases."
+      },
+      "content": "### 4.3 Intestinal Secretions (Succus Entericus)\n- **Crypts of Lieberkühn**: Simple tubular glands situated between intestinal villi bases containing:\n  - **Stem Cells**: Replenish the intestinal epithelial lining every $3\\text{--}5\\text{ days}$.\n  - **Paneth Cells**: Located at crypt bases; secrete antimicrobial **lysozyme** and zinc.\n- **Succus Entericus ($\\text{pH } 7.8$)**: Alkaline intestinal juice secreted by crypts and Brunner's glands ($1\\text{--}2\\text{ L/day}$). Contains Disaccharidases (**Maltase, Lactase, Sucrase**), Dipeptidases, Intestinal Lipases, and Nucleosidases / Nucleotidases."
+    },
+    {
+      "sectionNumber": 7,
+      "id": "sec-16-07",
+      "title": "Gastrointestinal Hormones & Neuro-Endocrine Integration",
+      "topic": "Gastrin, Secretin (First Hormone 1902), CCK-PZ, GIP Incretin, & Motilin",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Gastrin (G-cells) stimulates HCl; Secretin (S-cells, 1902) stimulates watery pancreatic HCO3-; CCK-PZ (I-cells) contracts gallbladder and releases zymogens; GIP (K-cells) inhibits motility and acts as an incretin to release insulin."
+      },
+      "codeSnippet": "GASTROINTESTINAL HORMONES MATRIX\n                      \n   GASTRIN (G-Cells) ──► Stimulates HCl & Pepsinogen secretion; increases gastric motility.\n   SECRETIN (S-Cells) ──► Stimulates watery HCO₃⁻ release from Pancreas; inhibits Gastrin.\n   CCK-PZ (I-Cells)   ──► Stimulates Gall Bladder contraction & Pancreatic enzyme release.\n   GIP (K-Cells)      ──► Inhibits Gastric Motility; stimulates Insulin release (Incretin).",
+      "content": "### Comprehensive GI Hormone Summary\n\n| GI Hormone | Source Location | Primary Physiological Stimulus | Target Organ & Specific Action |\n| :--- | :--- | :--- | :--- |\n| **Gastrin** | G-Cells in Gastric Antrum & Duodenum | Stomach distension, peptides, vagal stimulation | Stimulates Parietal cells ($\\text{HCl}$) and Chief cells (Pepsinogen); increases gastric motility |\n| **Secretin** | S-Cells in Duodenal Mucosa | Acidic chyme ($\\text{pH} < 4.5$) entering duodenum | Stimulates release of $\\text{HCO}_3^-$-rich watery pancreatic fluid; inhibits gastric acid secretion *(First hormone discovered - Bayliss & Starling, 1902)* |\n| **Cholecystokinin (CCK-PZ)** | I-Cells in Duodenal & Jejunal mucosa | Fatty acids and amino acids entering duodenum | Contracts Gall Bladder (releasing bile); stimulates Pancreatic Acini to release zymogens; relaxes Sphincter of Oddi |\n| **Gastric Inhibitory Peptide (GIP)** | K-Cells in Duodenum & Jejunum | Glucose and lipids in small intestine | Inhibits gastric acid secretion and motility; acts as an **Incretin** to stimulate pancreatic $\\beta$-cell insulin release |\n| **Motilin** | M-Cells in Duodenum & Jejunum | Fasting state (interdigestive period) | Initiates the **Migrating Motor Complex (MMC)** to sweep undigested debris through empty gut |"
+    },
+    {
+      "sectionNumber": 8,
+      "id": "sec-16-08",
+      "title": "Chemical Digestion & Enzymatic Cleavage Schemes",
+      "topic": "Carbohydrate, Protein, & Lipid Cleavage Cascade",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Starch is cleaved by Salivary (30%) & Pancreatic Amylases to Maltose/Dextrins; Proteins by Pepsin (pH 1.8), Trypsin, Chymotrypsin, and Peptidases to Amino Acids; Fats by Bile emulsification and Pancreatic Lipase to Fatty Acids and Glycerol."
+      },
+      "codeSnippet": "SUMMARY OF ENZYMATIC CLEAVAGE\n                        \n   1. CARBOHYDRATES:\n      Starch ──[Salivary Amylase (30%) + Pancreatic Amylase]──► Maltose + Isomaltose + α-Dextrins\n      Maltose ──[Maltase]──► Glucose + Glucose\n      Lactose ──[Lactase]──► Glucose + Galactose\n      Sucrose ──[Sucrase]──► Glucose + Fructose\n      \n   2. PROTEINS:\n      Proteins ──[Pepsin (pH 1.8)]──► Proteoses + Peptones\n      Proteoses/Peptones ──[Trypsin / Chymotrypsin]──► Large Peptides\n      Large Peptides ──[Carboxypeptidase / Aminopeptidase]──► Dipeptides\n      Dipeptides ──[Dipeptidases]──► Amino Acids\n      \n   3. FATS:\n      Triglycerides ──[Bile Emulsification]──► Emulsified Fats\n      Emulsified Fats ──[Pancreatic Lipase]──► Diglycerides ──► Monoglycerides ──► Fatty Acids + Glycerol",
+      "content": "### Stepwise Chemical Digestion Schemes\n- **Carbohydrates**: Salivary Amylase initiates $30\\%$ starch hydrolysis in oral cavity at $\\text{pH } 6.8$. Pancreatic Amylase completes digestion to maltose/isomaltose in duodenum. Brush-border disaccharidases yield free monosaccharides.\n- **Proteins**: Gastric Pepsin initiates digestion at $\\text{pH } 1.8$, yielding proteoses and peptones. Pancreatic endopeptidases (Trypsin, Chymotrypsin) and exopeptidases (Carboxypeptidases) generate dipeptides, which brush-border dipeptidases convert into free amino acids.\n- **Fats**: Bile physically emulsifies triglycerides into micelles. Pancreatic Lipase (Steapsin) hydrolyzes triglycerides into diglycerides, monoglycerides, and free fatty acids."
+    },
+    {
+      "sectionNumber": 9,
+      "id": "sec-16-09",
+      "title": "Nutrient Absorption Mechanics & The Chylomicron Pathway",
+      "topic": "SGLT1 Na+ Symport, GLUT5 Fructose, PepT1 Peptides, Micelles, & Chylomicrons in Lacteals",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Glucose/Galactose enter via apical SGLT1 (Na+ symport); Fructose via GLUT5; all exit via GLUT2. Fatty acids/monoglycerides diffuse from micelles into enterocyte, re-esterify into Triglycerides in SER, package into Chylomicrons in Golgi, and enter Lacteals."
+      },
+      "codeSnippet": "FAT ABSORPTION & LACTEAL PATHWAY\n                       \n   Intestinal Lumen: Triglycerides + Bile Salts ──► Emulsified Micelles (4–8 nm)\n                                                             │\n   Enterocyte Apical Membrane ◄── Passive Diffusion of Monoglycerides & Fatty Acids\n               │\n   Smooth ER (SER): Re-esterified into Triglycerides\n               │\n   Golgi Body: Encased in Apolipoproteins + Cholesterol ──► Chylomicrons (0.1–1.0 µm)\n               │\n   Basolateral Exocytosis ──► Enters Lacteals (Lymphatic Capillaries)\n               │\n   Thoracic Duct ──► Discharges into Left Subclavian Vein ──► Systemic Circulation",
+      "content": "### 7.1 Carbohydrate & Protein Transporters\n- **Glucose & Galactose**: Enter apical membrane via **SGLT1** (Sodium-Glucose Linked Transporter 1) via Secondary Active Transport coupled to $\\text{Na}^+$ influx. Exit basolateral membrane into capillaries via **GLUT2** facilitated diffusion.\n- **Fructose**: Absorbed via apical **GLUT5** facilitated diffusion. Exits via GLUT2.\n- **Amino Acids**: Absorbed via $\\text{Na}^+$-dependent secondary active transporters; small peptides enter via **PepT1** ($\\text{H}^+$-peptide symporter).\n\n### 7.2 Fat Absorption & Chylomicron Pathway\n1. Luminal Micelles ($4\\text{--}8\\text{ nm}$) diffuse passively across enterocyte apical membrane.\n2. **Smooth Endoplasmic Reticulum (SER)** re-esterifies fatty acids and monoglycerides into **Triglycerides**.\n3. **Golgi Body** coats triglycerides with apolipoproteins and cholesterol to form **Chylomicrons ($0.1\\text{--}1.0\\ \\mu\\text{m}$)**.\n4. Chylomicrons are exocytosed into **Lacteals (lymphatic capillaries)**, travelling via the **Thoracic Duct** to enter systemic venous blood at the left subclavian vein."
+    },
+    {
+      "sectionNumber": 10,
+      "id": "sec-16-10",
+      "title": "Bioenergetics, Calorific Values, & PEM Pathophysiology",
+      "topic": "Gross vs Physiological Calorific Values, Marasmus vs Kwashiorkor, Jaundice, & Vomiting",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Calorific values (Gross/Physiological): Carbs 4.1/4.0, Proteins 5.65/4.0, Fats 9.45/9.0 kcal/g. Marasmus is Protein + Calorie deficiency (<1 yr, no edema); Kwashiorkor is Protein-only deficiency (>1 yr, severe edema, pot belly, fatty liver)."
+      },
+      "codeSnippet": "PEM DISORDER DIFFERENTIAL\n                                    │\n         ┌──────────────────────────┴──────────────────────────┐\n         ▼                                                     ▼\n    MARASMUS                                              KWASHIORKOR\n (Protein + Calorie Deficiency)                        (Protein-Only Deficiency)\n ├── Infant <1 year old                                ├── Child >1 year old\n ├── Replacement of breast milk by poor food           ├── Replacement by high-carb/low-protein diet\n ├── Extreme emaciation, rib prominence                ├── Muscle wasting WITH Severe Edema\n └── ABSENCE OF EDEMA                                  └── 'Pot Belly' & dark scaly skin lesions",
+      "content": "### 8. Calorific Values Comparison\n\n| Food Substance | Gross Calorific Value (Bomb Calorimeter) | Physiological Fuel Value (Human Tissues) |\n| :--- | :--- | :--- |\n| **Carbohydrates** | $4.1\\text{ kcal/g}$ | **$4.0\\text{ kcal/g}$** |\n| **Proteins** | $5.65\\text{ kcal/g}$ | **$4.0\\text{ kcal/g}$** |\n| **Fats / Lipids** | $9.45\\text{ kcal/g}$ | **$9.0\\text{ kcal/g}$** |\n\n### 9.1 Protein-Energy Malnutrition (PEM) Differential\n\n| Clinical Parameter | Marasmus | Kwashiorkor |\n| :--- | :--- | :--- |\n| **Primary Etiology** | Simultaneous severe deficiency of **BOTH Protein AND Total Calories** | Severe deficiency of **Protein ALONE** (adequate calorie intake) |\n| **Age Group Affected** | Infants below $1\\text{ year}$ of age | Children between $1\\text{ and }5\\text{ years}$ of age |\n| **Physical Appearance** | Extreme emaciation; \"skin and bones\"; dry, thin, wrinkled skin; prominent ribs | Wasted muscles, but body parts show **marked Edema** (swelling); \"Pot belly\" |\n| **Subcutaneous Fat** | Completely depleted | Retained to some extent beneath edematous skin |\n| **Serum Albumin Level** | Moderately reduced | **Severely reduced** (causes collapse of oncotic pressure $\\rightarrow$ fluid leakage) |\n| **Liver Condition** | No fatty liver change | Characterized by **Fatty Liver** enlargement |"
+    },
+    {
+      "sectionNumber": 11,
+      "id": "sec-16-11",
+      "title": "Digestive System Master Glossary & High-Yield NEST Traps",
+      "topic": "35+ Definitive GI Terms & 10 Critical Exam Misconceptions",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Complete glossary covering GI histology, enzymes, zymogen activation cascades, transporters, and 10 high-yield NEST traps."
+      },
+      "content": "### High-Yield NEST Misconceptions & Exam Traps\n\n| Misconception / Trap | Biological Reality | Exam Tip / Context |\n| :--- | :--- | :--- |\n| *\"Bile contains powerful lipases that hydrolyze fats into fatty acids.\"* | Bile contains **ZERO digestive enzymes**. It emulsifies fats physically into micelles using bile salts. | Pancreatic lipase performs actual chemical hydrolysis. |\n| *\"Castle's Intrinsic Factor is secreted by chief cells in the stomach.\"* | Intrinsic Factor is secreted by **Parietal / Oxyntic Cells** (the same cells that produce $\\text{HCl}$). | Essential for Vitamin $\\text{B}_{12}$ absorption in the terminal ileum. |\n| *\"Chylomicrons enter the blood capillaries of intestinal villi directly.\"* | Chylomicrons are exocytosed into **Lacteals (lymphatic capillaries)** due to their large size ($0.1\\text{--}1\\ \\mu\\text{m}$). | They enter venous blood via the Thoracic Duct. |\n| *\"Secretin stimulates the release of enzyme-rich pancreatic juice.\"* | **Secretin** stimulates a watery, $\\text{HCO}_3^-$-rich fluid. **CCK-PZ** stimulates enzyme-rich pancreatic secretion. | Secretin was the first hormone discovered (1902). |\n| *\"Marasmus features extensive abdominal edema ('pot belly').\"* | **Marasmus lacks edema**. Severe peripheral edema (\"pot belly\") is diagnostic of **Kwashiorkor**. | Kwashiorkor = Protein deficiency alone; Marasmus = Protein + Calorie deficiency. |\n| *\"Enamel is secreted by neural crest odontoblasts.\"* | Enamel is secreted by ectodermal **Ameloblasts**. Dentin is secreted by **Odontoblasts**. | Enamel is the hardest animal substance. |\n| *\"Brunner's glands are located in the mucosal layer of the stomach.\"* | Brunner's glands are located in the **SUBMUCOSA of the Duodenum**. | Secretes alkaline mucus to neutralize acidic chyme. |\n| *\"Glucose and Galactose are absorbed by simple passive diffusion.\"* | They are absorbed via **Secondary Active Transport (SGLT1)** coupled to $\\text{Na}^+$ entry. | Fructose is absorbed via GLUT5 facilitated diffusion. |\n| *\"Adult humans possess 8 milk premolars during childhood.\"* | Primary milk dentition contains **ZERO premolars** ($\\frac{2.1.0.2}{2.1.0.2}$). Premolars develop only in permanent dentition. | Deciduous milk teeth formula $= 20$ teeth. |\n| *\"The physiological fuel value of protein is $5.65\\text{ kcal/g}$.\"* | $5.65\\text{ kcal/g}$ is the **Gross Calorific Value**. The **Physiological Fuel Value is $4.0\\text{ kcal/g}$**. | Nitrogenous wastes (urea) excreted in urine reduce net energy. |"
+    }
+  ],
+  "chapterCommonMistakes": [
+    "Bile contains lipases that hydrolyze fats (Reality: Bile contains zero enzymes; only bile salts that emulsify fats).",
+    "Castle's Intrinsic Factor is secreted by chief cells (Reality: Secreted by Parietal/Oxyntic cells).",
+    "Chylomicrons enter blood capillaries directly (Reality: Exocytosed into Lacteals due to 0.1–1.0 µm size).",
+    "Secretin stimulates enzyme-rich pancreatic juice (Reality: Secretin stimulates watery HCO3- fluid; CCK stimulates enzymes).",
+    "Marasmus features abdominal edema / pot belly (Reality: Marasmus lacks edema; edema is diagnostic of Kwashiorkor).",
+    "Enamel is secreted by odontoblasts (Reality: Enamel is secreted by Ameloblasts; Dentin by Odontoblasts).",
+    "Brunner's glands are located in the stomach mucosa (Reality: Located in the SUBMUCOSA of the Duodenum).",
+    "Glucose and Galactose are absorbed by simple diffusion (Reality: Absorbed via SGLT1 Na+ secondary active symport).",
+    "Primary milk teeth contain premolars (Reality: Primary milk dentition contains ZERO premolars).",
+    "The physiological fuel value of protein is 5.65 kcal/g (Reality: 5.65 is Gross Calorific Value; Physiological is 4.0 kcal/g)."
+  ],
+  "questions": [
+    {
+      "id": "q-bio-c16-001",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "Terminal Ileum Resection & Pernicious Anemia",
+      "difficulty": "Medium",
+      "questionText": "An individual undergoes surgical resection of the terminal ileum following severe Crohn's disease. Months later, laboratory evaluation reveals megaloblastic erythroblasts in the bone marrow and a marked reduction in serum hemoglobin. What specific biochemical defect accounts for this clinical presentation?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Impaired activation of Pepsinogen due to gastric parietal cell loss", "isCorrect": false },
+        { "id": "b", "text": "Failure to absorb the Intrinsic Factor-Vitamin B₁₂ complex due to loss of specific ileal receptors", "isCorrect": true },
+        { "id": "c", "text": "Destruction of duodenal S-cells preventing secretin release", "isCorrect": false },
+        { "id": "d", "text": "Inability to synthesize iron-binding Transferrin in the liver", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Vitamin B₁₂ bound to Castle's Intrinsic Factor is absorbed specifically in the terminal ileum via specialized cubam receptor-mediated endocytosis. Resection of the terminal ileum destroys the absorption site, causing Vitamin B₁₂ deficiency and severe megaloblastic / pernicious anemia.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c16-002",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "Enterokinase Zymogen Activation",
+      "difficulty": "Easy",
+      "questionText": "During duodenal digestion, the proenzyme Trypsinogen must be activated into Trypsin to initiate the protein cleavage cascade. What enzyme catalyzes this primary activation step, and where is it synthesized?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Enterokinase (Enteropeptidase); synthesized by duodenal brush-border enterocytes", "isCorrect": true },
+        { "id": "b", "text": "Pepsin; synthesized by gastric chief cells", "isCorrect": false },
+        { "id": "c", "text": "Chymotrypsin; synthesized by pancreatic acinar cells", "isCorrect": false },
+        { "id": "d", "text": "Carboxypeptidase; synthesized by Paneth cells", "isCorrect": false }
+      ],
+      "correctAnswer": "a",
+      "solutionExplanation": "Enterokinase (Enteropeptidase) is a specialized brush-border enzyme anchored to the duodenal mucosa. It selectively cleaves Lys-Ile peptide bonds in Trypsinogen to yield active Trypsin, which then autocatalytically activates all other pancreatic zymogens.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c16-003",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "PEM Diagnosis: Marasmus vs Kwashiorkor",
+      "difficulty": "Easy",
+      "questionText": "An infant under 1 year of age is brought to a clinic presenting with extreme muscle wasting, prominent ribs, dry wrinkled skin, and complete absence of subcutaneous fat. Significantly, the infant shows NO EDEMA in the abdomen or feet. What is the diagnosis, and what is the underlying nutritional etiology?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Kwashiorkor; Protein deficiency alone", "isCorrect": false },
+        { "id": "b", "text": "Marasmus; Simultaneous deficiency of BOTH protein and total calories", "isCorrect": true },
+        { "id": "c", "text": "Pernicious Anemia; Vitamin B₁₂ deficiency", "isCorrect": false },
+        { "id": "d", "text": "Pellagra; Niacin deficiency", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Extreme emaciation, rib prominence, loss of subcutaneous fat, and the absence of edema in an infant under 1 year old are diagnostic of Marasmus, caused by a combined deficiency of BOTH protein and total calories. (Kwashiorkor features marked edema).",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c16-004",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "Enterocyte Glucose Transporters (SGLT1 & GLUT2)",
+      "difficulty": "Medium",
+      "questionText": "A gastroenterologist records the transport mechanics of glucose across the apical and basolateral membranes of a human enterocyte. Which specific transport proteins mediate glucose entry into the enterocyte and glucose exit into blood capillaries, respectively?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Apical: GLUT5; Basolateral: SGLT1", "isCorrect": false },
+        { "id": "b", "text": "Apical: SGLT1 (Na⁺ Symport); Basolateral: GLUT2 (Facilitated Diffusion)", "isCorrect": true },
+        { "id": "c", "text": "Apical: GLUT2; Basolateral: Na⁺/K⁺ ATPase", "isCorrect": false },
+        { "id": "d", "text": "Apical: PepT1; Basolateral: GLUT5", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Glucose enters the enterocyte apical membrane via SGLT1 (Secondary Active Na⁺-glucose symport) driven by the Na⁺/K⁺ pump gradient. Glucose exits the basolateral membrane into capillaries via GLUT2 facilitated diffusion.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c16-005",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "Lipid Calorific Values (Gross vs Physiological)",
+      "difficulty": "Easy",
+      "questionText": "What is the physiological fuel value of 1 gram of pure dietary lipid (fat) compared to its gross calorific value measured in a bomb calorimeter?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Gross: 4.1 kcal/g; Physiological: 4.0 kcal/g", "isCorrect": false },
+        { "id": "b", "text": "Gross: 9.45 kcal/g; Physiological: 9.0 kcal/g", "isCorrect": true },
+        { "id": "c", "text": "Gross: 5.65 kcal/g; Physiological: 4.0 kcal/g", "isCorrect": false },
+        { "id": "d", "text": "Gross: 9.0 kcal/g; Physiological: 9.45 kcal/g", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "For lipids/fats, the Gross Calorific Value (bomb calorimeter) is 9.45 kcal/g, whereas the actual net Physiological Fuel Value obtained in human tissues is 9.0 kcal/g.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c16-006",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "Parotid Gland & Stensen's Duct",
+      "difficulty": "Easy",
+      "questionText": "Which paired salivary gland discharges its serous saliva into the vestibule of the oral cavity opposite the upper second molar tooth via Stensen's Duct?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Submandibular Gland", "isCorrect": false },
+        { "id": "b", "text": "Parotid Gland", "isCorrect": true },
+        { "id": "c", "text": "Sublingual Gland", "isCorrect": false },
+        { "id": "d", "text": "Infraorbital Gland", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "The Parotid Glands (largest salivary glands situated near the cheeks/ears) drain via Stensen's Ducts, which open into the oral cavity opposite the upper second molar teeth.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c16-007",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "Secretin Discovery & Pancreatic Action",
+      "difficulty": "Medium",
+      "questionText": "Which gastrointestinal peptide hormone was the FIRST hormone ever discovered in 1902 by Bayliss and Starling, and what is its primary target action on the exocrine pancreas?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Gastrin; stimulates HCl secretion", "isCorrect": false },
+        { "id": "b", "text": "Secretin; stimulates release of a watery, HCO₃⁻-rich fluid from pancreatic duct cells", "isCorrect": true },
+        { "id": "c", "text": "Cholecystokinin (CCK); contracts the gall bladder", "isCorrect": false },
+        { "id": "d", "text": "GIP; inhibits glucagon release", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Secretin was discovered by Bayliss and Starling in 1902 (first discovered hormone). Released by S-cells in response to acidic chyme (pH < 4.5), it stimulates pancreatic duct cells to secrete a large volume of watery fluid rich in bicarbonate (HCO₃⁻) to neutralize duodenal acid.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c16-008",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "Bile Salts Emulsification Function",
+      "difficulty": "Easy",
+      "questionText": "What is the primary function of Bile Salts (Sodium Taurocholate and Sodium Glycocholate) during the digestion of dietary lipids in the small intestine?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Hydrolyzing ester bonds in triglycerides to form free fatty acids", "isCorrect": false },
+        { "id": "b", "text": "Physical emulsification of large fat globules into microscopic Micelles (4–8 nm)", "isCorrect": true },
+        { "id": "c", "text": "Coating chylomicrons with apolipoproteins in enterocytes", "isCorrect": false },
+        { "id": "d", "text": "Phosphorylating glycerol into glycerol-3-phosphate", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Bile salts contain zero digestive enzymes. Their primary function is the physical emulsification of large fat droplets into microscopic Micelles (4–8 nm), expanding surface area for pancreatic lipase activity and facilitating lipid absorption across enterocyte membranes.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c16-009",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "Brunner's Glands Histology",
+      "difficulty": "Easy",
+      "questionText": "During histological inspection of a human gut biopsy, a pathologist identifies compound tubular mucous glands located strictly within the SUBMUCOSAL layer. What region of the GI tract is this biopsy from?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Cardiac Stomach", "isCorrect": false },
+        { "id": "b", "text": "Fundic Stomach", "isCorrect": false },
+        { "id": "c", "text": "Duodenum", "isCorrect": true },
+        { "id": "d", "text": "Terminal Ileum", "isCorrect": false }
+      ],
+      "correctAnswer": "c",
+      "solutionExplanation": "Brunner's Glands are specialized compound tubular mucous glands situated exclusively in the Submucosa of the Duodenum. They secrete alkaline mucus to protect the duodenal wall from acidic gastric chyme.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c16-010",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "Dentin Secretion by Odontoblasts",
+      "difficulty": "Easy",
+      "questionText": "Which primary dental cell type is derived from the neural crest and actively secretes Dentin surrounding the central pulp cavity throughout life?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Ameloblasts", "isCorrect": false },
+        { "id": "b", "text": "Odontoblasts", "isCorrect": true },
+        { "id": "c", "text": "Cementoblasts", "isCorrect": false },
+        { "id": "d", "text": "Chondrocytes", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Odontoblasts are neural crest-derived cells lining the pulp cavity that secrete Dentin. (Ectodermal Ameloblasts secrete Enamel during development).",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c16-011",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "Human Dentition Characteristics",
+      "difficulty": "Medium",
+      "questionText": "Which of the following features correctly characterize the Human Dental System? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Thecodont dentition (teeth firmly embedded in jaw bone sockets).", "isCorrect": true },
+        { "id": "b", "text": "Diphyodont dentition (milk teeth replaced by permanent adult teeth).", "isCorrect": true },
+        { "id": "c", "text": "Heterodont dentition (Incisors, Canines, Premolars, Molars).", "isCorrect": true },
+        { "id": "d", "text": "Primary milk teeth contain 8 premolars (2.1.2.0 / 2.1.2.0).", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Human dentition is thecodont, diphyodont, and heterodont. D is incorrect: Primary milk dentition contains ZERO premolars (2.1.0.2 / 2.1.0.2 = 20 teeth). Premolars develop only in permanent adult dentition.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c16-012",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "Parietal Cell Secretions & Pernicious Anemia",
+      "difficulty": "Medium",
+      "questionText": "Select the valid statements regarding gastric secretions and Parietal / Oxyntic Cells: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Parietal cells secrete Hydrochloric Acid (HCl) via active H⁺/K⁺ ATPase proton pumps.", "isCorrect": true },
+        { "id": "b", "text": "Parietal cells secrete Castle's Intrinsic Factor required for Vitamin B₁₂ absorption.", "isCorrect": true },
+        { "id": "c", "text": "Autoimmune destruction of parietal cells results in Pernicious Anemia.", "isCorrect": true },
+        { "id": "d", "text": "Parietal cells secrete Pepsinogen and Prorennin zymogens.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Parietal cells produce HCl and Intrinsic Factor; their destruction causes Vitamin B₁₂ deficiency and Pernicious Anemia. D is incorrect: Pepsinogen and Prorennin are secreted by Chief / Peptic cells, NOT parietal cells.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c16-013",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "Pancreatic Juice Enzyme Components",
+      "difficulty": "Easy",
+      "questionText": "Which of the following enzymes are components of Pancreatic Juice? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Enterokinase", "isCorrect": false },
+        { "id": "b", "text": "Trypsinogen", "isCorrect": true },
+        { "id": "c", "text": "Chymotrypsinogen", "isCorrect": true },
+        { "id": "d", "text": "Procarboxypeptidase", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "b",
+        "c",
+        "d"
+      ],
+      "solutionExplanation": "B, C, D are correct: Trypsinogen, Chymotrypsinogen, and Procarboxypeptidase are zymogens secreted by pancreatic acini. A is incorrect: Enterokinase (Enteropeptidase) is an intestinal enzyme synthesized by duodenal brush-border enterocytes, NOT the pancreas.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c16-014",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "Chylomicron Pathway of Lipid Absorption",
+      "difficulty": "Medium",
+      "questionText": "Select the correct options regarding the Chylomicron pathway of fat absorption: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Absorbed fatty acids and monoglycerides are re-esterified into triglycerides in the Smooth ER (SER) of enterocytes.", "isCorrect": true },
+        { "id": "b", "text": "Triglycerides, cholesterol, and apolipoproteins assemble into Chylomicrons (0.1–1 µm).", "isCorrect": true },
+        { "id": "c", "text": "Chylomicrons are exocytosed directly into blood capillaries of intestinal villi.", "isCorrect": false },
+        { "id": "d", "text": "Chylomicrons are exocytosed into specialized lymphatic capillaries called Lacteals.", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "solutionExplanation": "A, B, D are correct: SER re-esterifies fats, Golgi packages them into Chylomicrons, and Chylomicrons enter Lacteals due to their large size. C is incorrect: Chylomicrons cannot enter blood capillaries directly; they enter lymphatic lacteals and discharge into venous blood via the Thoracic Duct.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c16-015",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "GI Hormones & Target Actions",
+      "difficulty": "Medium",
+      "questionText": "Which of the following Gastrointestinal Hormones correctly match their target actions? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Gastrin → Stimulates gastric HCl and pepsinogen secretion", "isCorrect": true },
+        { "id": "b", "text": "Secretin → Stimulates bicarbonate-rich fluid secretion from pancreatic ducts", "isCorrect": true },
+        { "id": "c", "text": "Cholecystokinin (CCK) → Contracts gall bladder to release bile and stimulates pancreatic enzyme secretion", "isCorrect": true },
+        { "id": "d", "text": "GIP → Stimulates hyper-secretion of gastric acid and accelerates stomach emptying", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Gastrin stimulates acid, Secretin stimulates bicarbonate, CCK contracts gall bladder and releases zymogens. D is incorrect: GIP (Gastric Inhibitory Peptide) INHIBITS gastric secretion and motility, and acts as an incretin to release insulin.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c16-016",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "Kwashiorkor vs Marasmus Differential",
+      "difficulty": "Medium",
+      "questionText": "Which clinical manifestations distinguish Kwashiorkor from Marasmus? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Kwashiorkor features marked Edema (swelling) of limbs and abdomen ('pot belly').", "isCorrect": true },
+        { "id": "b", "text": "Kwashiorkor results from severe deficiency of Protein ALONE with adequate calorie intake.", "isCorrect": true },
+        { "id": "c", "text": "Kwashiorkor is characterized by severe Fatty Liver changes.", "isCorrect": true },
+        { "id": "d", "text": "Kwashiorkor affects infants strictly under 6 months of age.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Kwashiorkor features edema (due to severe hypoalbuminemia), protein-only deficiency, and fatty liver. D is incorrect: Kwashiorkor typically affects children over 1 year of age (after weaning). Marasmus affects infants under 1 year.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c16-017",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "Histology of Stomach Wall Layers",
+      "difficulty": "Easy",
+      "questionText": "Which of the following layers form part of the histological cross-section of the human stomach wall? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Serosa", "isCorrect": true },
+        { "id": "b", "text": "Muscularis with Outer Longitudinal, Middle Circular, and Innermost Oblique smooth muscle layers", "isCorrect": true },
+        { "id": "c", "text": "Submucosa", "isCorrect": true },
+        { "id": "d", "text": "Mucosa with gastric pits and simple columnar epithelium", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "solutionExplanation": "All four concentric layers are present in the stomach. The stomach muscularis uniquely features an innermost oblique layer in addition to longitudinal and circular layers.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c16-018",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "Carbohydrate Digestion & Absorption Mechanics",
+      "difficulty": "Medium",
+      "questionText": "Select the correct options regarding the digestion and absorption of carbohydrates: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Salivary Amylase hydrolyzes approximately 30% of starch into maltose in the oral cavity at pH 6.8.", "isCorrect": true },
+        { "id": "b", "text": "Glucose and Galactose enter enterocytes via SGLT1 secondary active Na⁺ symport.", "isCorrect": true },
+        { "id": "c", "text": "Fructose enters enterocytes via GLUT5 facilitated diffusion.", "isCorrect": true },
+        { "id": "d", "text": "Lactase hydrolyzes sucrose into glucose and fructose.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Salivary amylase cleaves 30% starch, SGLT1 transports glucose/galactose, GLUT5 transports fructose. D is incorrect: Lactase hydrolyzes lactose into glucose and galactose. Sucrase hydrolyzes sucrose into glucose and fructose.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c16-019",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "Liver & Bile Characteristics",
+      "difficulty": "Easy",
+      "questionText": "Which of the following statements regarding the Liver and Bile are TRUE? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "The liver is the largest internal gland, weighing 1.2–1.5 kg.", "isCorrect": true },
+        { "id": "b", "text": "Hepatic lobules are wrapped in Glisson's Capsule.", "isCorrect": true },
+        { "id": "c", "text": "Bile contains sodium taurocholate and sodium glycocholate which emulsify fats.", "isCorrect": true },
+        { "id": "d", "text": "Bile contains active trypsinogen and pancreatic lipase.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Liver weight, Glisson's capsule, and bile salt emulsification are true. D is incorrect: Bile contains ZERO digestive enzymes. Trypsinogen and lipase are in pancreatic juice.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c16-020",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Digestion and Absorption",
+      "chapterNumber": 16,
+      "chapterSlug": "digestion-and-absorption",
+      "topic": "Gastrointestinal Disorders Pathophysiology",
+      "difficulty": "Medium",
+      "questionText": "Select the correct options regarding digestive disorders: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Vomiting is a reflex action controlled by the vomiting center in the Medulla Oblongata.", "isCorrect": true },
+        { "id": "b", "text": "Jaundice is characterized by yellow pigmentation of sclera due to Bilirubin accumulation in serum.", "isCorrect": true },
+        { "id": "c", "text": "Diarrhoea reduces fluid and nutrient absorption, leading to dehydration.", "isCorrect": true },
+        { "id": "d", "text": "Constipation involves rapid, hyper-motile evacuation of unabsorbed liquid feces.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Vomiting center is in medulla; Jaundice is hyperbilirubinemia; Diarrhoea reduces nutrient absorption. D is incorrect: Constipation involves infrequent, difficult passage of dry, retained feces due to hypo-motility (diarrhoea is hyper-motile).",
+      "marks": 4,
+      "negativeMarks": 0
+    }
+  ]
+}

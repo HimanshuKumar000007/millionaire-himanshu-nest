@@ -1,0 +1,158 @@
+{
+  "id": "bio-xii-u7-c5",
+  "chapterNumber": 5,
+  "chapterTitle": "Molecular Basis of Inheritance",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unitNumber": 7,
+  "unitTitle": "Genetics and Evolution",
+  "slug": "molecular-basis-of-inheritance",
+  "estimatedReadingTimeMinutes": 170,
+  "difficulty": "High-Yield",
+  "status": "published",
+  "summary": "Explores the molecular architecture of heredity: Historical search for genetic material (Griffith, Avery-MacLeod-McCarty, Hershey-Chase), RNA World hypothesis and tRNA cloverleaf structure, Watson-Crick B-DNA geometry, Eukaryotic nucleosome chromatin packaging, Semiconservative replication (Meselson-Stahl) and replication fork enzymology, Telomerase, Transcription in prokaryotes vs eukaryotes and hnRNA post-transcriptional processing, Genetic code degeneracy and Crick's Wobble hypothesis, Translation cascade and 23S/28S rRNA peptidyl transferase ribozyme, Dual regulation of the Lac Operon, Human Genome Project (HGP), and Alec Jeffreys VNTR DNA Fingerprinting.",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "id": "sec-05-01",
+      "title": "Historical Search for Genetic Material: Griffith, Avery, & Hershey-Chase",
+      "topic": "Streptococcus Transformation, In-Vitro DNase Degradation, & T2 Bacteriophage 32P/35S Tracking",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Three experimental milestones identified DNA as genetic material: Griffith (1928) bacterial transformation, Avery, MacLeod, McCarty (1944) DNase inhibition proof, and Hershey & Chase (1952) radioactive 32P (DNA) vs 35S (protein) bacteriophage experiment."
+      },
+      "codeSnippet": "SEARCH FOR GENETIC MATERIAL\n                                   │\n     ┌─────────────────────────────┼─────────────────────────────┐\n     ▼                             ▼                             ▼\nGRIFFITH EXPERIMENT           AVERY, MACLEOD, MCCARTY      HERSHEY & CHASE\n(1928 - Transformation)       (1944 - Biochemical Proof)   (1952 - Equivocal Proof)\n├── Streptococcus pneumoniae ├── Tested Griffith's factor    ├── Bacteriophage T2\n├── S-Strain (Capsulated)     ├── DNase destroyed factor   ├── ³⁵S (Protein Coat)\n└── R-Strain (Non-capsulated)  └── DNA is genetic material  └── ³²P (DNA Core)",
+      "content": "### 1.1 Search for Genetic Material\n- **Griffith (1928)**: Heat-killed S-strain transforms live R-strain *S. pneumoniae*.\n- **Avery, MacLeod, McCarty (1944)**: DNase uniquely destroys the transforming principle.\n- **Hershey & Chase (1952)**: $^{32}\\text{P}$-DNA enters host bacterial pellet; $^{35}\\text{S}$-protein remains in supernatant."
+    },
+    {
+      "sectionNumber": 2,
+      "id": "sec-05-02",
+      "title": "The RNA World & tRNA Cloverleaf Structure",
+      "topic": "RNA World Hypothesis, 2'-OH Chemical Reactivity, & tRNA 2D/3D Architecture",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "RNA World hypothesis: primordial RNA functioned as genetic material and catalyst (Ribozyme). DNA evolved for stability. tRNA adapter: 2D cloverleaf (3'-CCA acceptor, Anticodon, DHU, TpsiC loops) folding into 3D L-shape."
+      },
+      "codeSnippet": "THE RNA WORLD HYPOTHESIS\n                                         │\n   RNA evolved as the primordial genetic material AND biological catalyst (Ribozymes).\n                                         │\n   DNA evolved from RNA through 2'-deoxy modification and Thymine substitution,\n   conferring superior chemical stability and double-stranded repair mechanisms.",
+      "content": "### 2.1 RNA World & tRNA\n- **Chemical Stability**: $2'\\text{-OH}$ makes RNA labile; DNA uses $2'$-deoxyribose and Thymine.\n- **tRNA Model**: $3'\\text{-CCA}$ acceptor stem, Anticodon loop, DHU loop, $\\text{T}\\psi\\text{C}$ loop, folding into tertiary L-shape."
+    },
+    {
+      "sectionNumber": 3,
+      "id": "sec-05-03",
+      "title": "B-DNA Double Helix & Chromatin Packaging Hierarchy",
+      "topic": "Watson-Crick B-DNA Geometry, Nucleosome Octamer Core, & 30 nm Solenoid Fiber",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "B-DNA: right-handed double helix, 2.0 nm diameter, 3.4 nm pitch, 10 bp/turn, 0.34 nm rise. Nucleosome: [(H2A-H2B)2 + (H3-H4)2] octamer with 147 bp DNA wrapped 1.65 turns + Histone H1 linker."
+      },
+      "codeSnippet": "B-DNA DOUBLE HELIX PARAMETERS\n                         \n   Strand Directionality    ──► Antiparallel strands (5' -> 3' and 3' -> 5')\n   Helical Handedness       ──► Right-handed double helix\n   Helical Diameter         ──► 2.0 nm (20 Å)\n   Helical Pitch (One Turn) ──► 3.4 nm (34 Å)\n   Base Pairs per Turn      ──► 10 base pairs (bp) per turn\n   Axial Rise per Base Pair ──► 0.34 nm (3.4 Å) between adjacent pairs\n   Base Pairing Hydrogen    ──► A = T (2 Hydrogen Bonds);\n   Bond Architecture            G = C (3 Hydrogen Bonds)",
+      "content": "### 3.1 DNA Structure & Packaging\n- **B-DNA Dimensions**: $2.0\\text{ nm}$ diameter, $3.4\\text{ nm}$ pitch, $10\\text{ bp/turn}$, $0.34\\text{ nm}$ axial rise.\n- **Nucleosome Packaging**: $147\\text{ bp}$ core DNA wrapped around histone octamer; $30\\text{ nm}$ solenoid fiber stabilized by H1."
+    },
+    {
+      "sectionNumber": 4,
+      "id": "sec-05-04",
+      "title": "Meselson-Stahl Experiment & Replication Machinery",
+      "topic": "Semiconservative Proof (15N/14N), Helicase, Gyrase, Primase, & DNA Pol III/I",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Meselson & Stahl (1958) proved semiconservative replication. Replication fork: DnaB helicase unwinds, SSBs stabilize, Gyrase relieves strain, Primase adds RNA primer, DNA Pol III synthesizes 5'->3', DNA Pol I removes primers via 5'->3' exonuclease, Ligase seals nicks."
+      },
+      "codeSnippet": "MESELSON & STAHL EXPERIMENT (1958)\n                      \n   Generation 0: Grown on ¹⁵NH₄Cl (Heavy) ──► Single Heavy Band (¹⁵N-¹⁵N)\n                                                     │\n   Generation 1: Transferred to ¹⁴NH₄Cl ──► Single Hybrid Intermediate Band (¹⁵N-¹⁴N)\n                                                     │\n   Generation 2: Continued on ¹⁴NH₄Cl    ──► 50% Hybrid Band (¹⁵N-¹⁴N) + 50% Light Band (¹⁴N-¹⁴N)",
+      "content": "### 4.1 DNA Replication Fork\n- **Meselson-Stahl**: Semiconservative replication in CsCl density gradients.\n- **Replication Fork Enzymes**: DnaB Helicase, DNA Gyrase, DnaG Primase, DNA Pol III (replicase), DNA Pol I ($5' \\rightarrow 3'$ exonuclease), and DNA Ligase."
+    },
+    {
+      "sectionNumber": 5,
+      "id": "sec-05-05",
+      "title": "End-Replication Problem & Telomerase Mechanics",
+      "topic": "Linear Lagging Strand Gap, Telomeric Hexanucleotide Repeats, & TERT/TERC Complex",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Linear chromosomes cannot replicate 5' lagging strand ends upon primer removal. Telomerase (reverse transcriptase ribonucleoprotein) uses internal RNA template (3'-CAAUCCCAAUC-5') to extend 3' overhang with 5'-TTAGGG-3' repeats."
+      },
+      "codeSnippet": "TELOMERASE REVERSE TRANSCRIPTION CASCADE\n                      \n   3' Overhang of Telomere DNA (5'-TTAGGG-3')\n                        │\n   Telomerase aligns internal RNA template (3'-CAAUCCCAAUC-5')\n                        │\n   Reverse Transcription extends 3' DNA overhang ──► Translocation ──► Primase/Pol δ fills complementary strand",
+      "content": "### 5.1 Telomeres & Telomerase\n- **End-Replication Problem**: RNA primer removal leaves unfillable 5' gap.\n- **Telomerase**: Ribonucleoprotein complex (TERT + TERC) extending telomeric $3'$ overhangs."
+    },
+    {
+      "sectionNumber": 6,
+      "id": "sec-05-06",
+      "title": "Prokaryotic vs Eukaryotic Transcription & hnRNA Processing",
+      "topic": "Sigma Factor Initiation, Eukaryotic RNA Pol I, II, III, 5'-Capping, 3'-Polyadenylation, & Splicing",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Transcription: 3'->5' template strand copied into 5'->3' RNA. Prokaryotes: single core RNA Pol + Sigma-70. Eukaryotes: RNA Pol I (rRNA), Pol II (hnRNA/mRNA), Pol III (tRNA/5S rRNA). hnRNA processing: 5'-Cap (7-mG), 3'-Poly-A tail, Spliceosome splicing."
+      },
+      "codeSnippet": "TRANSCRIPTION UNIT ARCHITECTURE\n                          \n   3' ───────────── [ PROMOTER ] ────── [ STRUCTURAL GENE ] ────── [ TERMINATOR ] ───────────── 5' (Template Strand)\n   5' ───────────── [  (-35/-10) ] ────── [  Coding Strand  ] ────── [  (Stop)    ] ───────────── 3' (Coding Strand)\n                                                 │\n                                                 ▼\n                                        5' ── mRNA ── 3'",
+      "content": "### 6.1 Transcription & Processing\n- **Polymerases**: Pol I (28S, 18S, 5.8S rRNA), Pol II (hnRNA), Pol III (tRNA, 5S rRNA).\n- **hnRNA Processing**: 5'-Capping ($7\\text{-mG}$), 3'-Polyadenylation (Poly-A tail), and Spliceosome intron removal."
+    },
+    {
+      "sectionNumber": 7,
+      "id": "sec-05-07",
+      "title": "The Genetic Code & Crick's Wobble Hypothesis",
+      "topic": "Triplet Nature, Degeneracy, AUG Start, Stop Codons, & 5' Inosine Anticodon Wobble",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "64 triplet codons (61 sense + 3 stop: UAA, UAG, UGA). Properties: degenerate, unambiguous, universal. AUG = start + Met. Crick's Wobble: 5' Inosine on tRNA anticodon base-pairs with U, C, or A at 3' codon."
+      },
+      "codeSnippet": "GENETIC CODE PROPERTIES\n                                      │\n     ┌──────────────────┬─────────────┴─────────────┬──────────────────┐\n     ▼                  ▼                           ▼                  ▼\nTRIPLET CODE       DEGENERATE / REDUNDANT      UNAMBIGUOUS         UNIVERSAL\n3 nt = 1 Codon     61 codons code for          One specific codon  Same code across all\n(64 total codons)  20 amino acids.             codes for ONLY ONE  organisms (with minor\n                   (Multiple codons per AA)    amino acid.         mitochondrial exceptions).",
+      "content": "### 7.1 Genetic Code & Wobble\n- **Features**: Triplet (61 sense + 3 stop), degenerate, unambiguous, universal.\n- **Wobble Hypothesis**: Flexible base-pairing at 3' codon base allows 1 tRNA to decode multiple degenerate codons."
+    },
+    {
+      "sectionNumber": 8,
+      "id": "sec-05-08",
+      "title": "Translation Cascade & Peptidyl Transferase Ribozyme",
+      "topic": "Aminoacylation, Ribosomal A/P/E Sites, 23S/28S rRNA Peptidyl Transferase, & EF-G",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Translation stages: (1) Aminoacylation (ATP + Synthetase); (2) Initiation (Shine-Dalgarno/Kozak, fMet-tRNA in P-site); (3) Elongation (A-site entry, 23S/28S rRNA Peptidyl Transferase ribozyme, EF-G translocation); (4) Termination (RF1/RF2 release factors)."
+      },
+      "codeSnippet": "TRANSLATION CASCADE STAGES\n                                       │\n  1. AMINOACYLATION ──► Activation of amino acid + Charging of tRNA (ATP + Aminoacyl-tRNA Synthetase)\n  2. INITIATION     ──► 30S/40S binds mRNA at Shine-Dalgarno / Kozak sequence; fMet-tRNA at P-site\n  3. ELONGATION     ──► A-site entry ──► Peptidyl Transferase Peptide Bond ──► EF-G Translocation\n  4. TERMINATION    ──► Release Factors (RF1/RF2) recognize Stop Codon ──► Polypeptide Released",
+      "content": "### 8.1 Protein Synthesis Cascade\n- **Stages**: Aminoacylation (charging), Initiation (Shine-Dalgarno), Elongation (A-site entry and EF-G translocation), and Termination (Release factors).\n- **Peptidyl Transferase**: Ribozyme ($23\\text{S}$ rRNA in prokaryotes; $28\\text{S}$ in eukaryotes) forming peptide bonds."
+    },
+    {
+      "sectionNumber": 9,
+      "id": "sec-05-09",
+      "title": "Dual Regulation of the Lac Operon",
+      "topic": "Jacob & Monod Model, i Gene Repressor, z/y/a Structural Genes, Inducer Allolactose, & cAMP-CAP",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Lac operon (E. coli, Jacob & Monod 1961): i gene (repressor), Promoter, Operator, z (beta-gal), y (permease), a (transacetylase). Dual control: Negative regulation by allolactose inducer; Positive regulation by cAMP-CAP complex under low glucose."
+      },
+      "codeSnippet": "LAC OPERON GENE MAP\n                          \n   [ i Gene ] ── [ Promoter ] ── [ Operator ] ── [ z Gene ] ── [ y Gene ] ── [ a Gene ]\n   (Repressor)    (RNA Pol)       (Repressor)    (β-Gal)       (Permease)    (Transacetylase)",
+      "content": "### 9.1 Lac Operon Regulation\n- **Structural Genes**: $z$ ($\\beta$-galactosidase), $y$ (permease), $a$ (transacetylase).\n- **Negative Control**: Allolactose inducer binds repressor, detaching it from operator (Operon ON).\n- **Positive Control**: Low glucose raises cAMP $\\rightarrow$ active cAMP-CAP complex stimulates maximal transcription."
+    },
+    {
+      "sectionNumber": 10,
+      "id": "sec-05-10",
+      "title": "Human & Rice Genome Projects & DNA Fingerprinting",
+      "topic": "HGP Findings (3.16B bp, <2% Coding), ESTs vs Sequence Annotation, & Alec Jeffreys VNTR Southern Blotting",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "HGP: 3.1647 billion bp, ~20,000–25,000 genes, <2% protein-coding DNA, Dystrophin largest gene (2.4 Mb), Chromosome 1 has 2,968 genes, Y has 231. DNA Fingerprinting (Alec Jeffreys): VNTR minisatellites (11–60 bp), Southern blotting, and radiolabeled probe hybridization."
+      },
+      "codeSnippet": "HGP SALIENT FINDINGS\n                          \n   Total Human Genome Size  ──► 3.1647 x 10⁹ base pairs (3.16 Billion bp)\n   Total Gene Count         ──► ~20,000--25,000 genes (Much lower than expected!)\n   Average Gene Size        ──► 3,000 bp (Largest: Dystrophin gene = 2.4 Million bp)\n   Protein-Coding DNA       ──► < 2% of the genome\n   Chromosome Extremes      ──► Chromosome 1 has MOST genes (2,968); Y Chromosome has FEWEST (231)\n   Nucleotide Identity      ──► 99.9% identical in all human beings\n   SNPs (Single Nucleotide) ──► 1.4 Million SNP locations identified",
+      "content": "### 10.1 HGP & DNA Fingerprinting\n- **HGP Metrics**: $3.1647 \\times 10^9\\text{ bp}$, $\\approx 20,000\\text{--}25,000\\text{ genes}$, $<2\\%$ coding.\n- **DNA Fingerprinting**: Variable Number of Tandem Repeats (VNTRs) minisatellites separated on agarose gel and probed via Southern blotting."
+    },
+    {
+      "sectionNumber": 11,
+      "id": "sec-05-11",
+      "title": "Molecular Genetics Glossary & High-Yield NEST Traps",
+      "topic": "Master Molecular Genetics Glossary & 10 High-Yield Exam Traps",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Master molecular genetics glossary with 50+ definitions and 10 high-yield NEST misconceptions and numerical invariant traps."
+      },
+      "content": "### 11.1 Master Molecular Genetics Glossary & Traps\n- **DNA Pol I vs III**: Pol III is main replicase; Pol I removes primers via $5' \\rightarrow 3'$ exonuclease.\n- **Template vs Coding Strand**: Template ($3' \\rightarrow 5'$) read by RNA Pol; Coding ($5' \\rightarrow 3'$) matches RNA sequence.\n- **Lac Operon Repressor**: Binding operator turns operon OFF; inducer detaches repressor to turn ON.\n- **Hershey-Chase Radioactivity**: $^{35}\\text{S}$ in supernatant; $^{32}\\text{P}$ in bacterial pellet."
+    }
+  ]
+}

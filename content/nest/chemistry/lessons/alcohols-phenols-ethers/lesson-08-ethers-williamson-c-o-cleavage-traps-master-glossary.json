@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u16-c7-l08",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVI \u2014 Alcohols, Phenols and Ethers",
+  "unitNumber": 16,
+  "chapter": "Alcohols, Phenols and Ethers",
+  "chapterNumber": 7,
+  "chapterSlug": "alcohols-phenols-ethers",
+  "slug": "lesson-08-ethers-williamson-c-o-cleavage-traps-master-glossary",
+  "title": "Ethers: Williamson Synthesis Constraints, C\u2013O Cleavage, 10 Traps, & Glossary",
+  "topic": "Ethers, 10 Traps & Master Glossary",
+  "topics": [
+    "8. Ethers Structure (C-O-C angle 111.7\u00b0) & Preparations (Alcohol dehydration at 413 K vs 443 K for ethene)",
+    "8.1 Williamson Ether Synthesis Constraints: R-X (1\u00b0 or Methyl) + R'O\u207bNa\u207a (S_N2); 3\u00b0 Halide gives E2 Alkene (Isobutene!)",
+    "8.2 Cleavage of C-O Bonds by HX (HI > HBr > HCl): 1\u00b0/2\u00b0 Alkyl (S_N2, I\u207b attacks smaller alkyl) vs 3\u00b0 Alkyl (S_N1, I\u207b attacks 3\u00b0 carbon)",
+    "Alkyl Aryl Ether (Anisole) Cleavage: Ph-O bond partial double bond resists cleavage \u2500\u2500\u25ba Phenol + CH\u2083I",
+    "9. High-Yield NEST Misconceptions & Traps Table (All 10 Items)",
+    "10. Master Glossary for Alcohols, Phenols, and Ethers (All 47 Definitions)"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "Comprehensive Review",
+  "source": "production",
+  "status": "published",
+  "diagramType": "alcohols-phenols-ethers",
+  "quickSummary": "Williamson synthesis requires 1\u00b0 alkyl halide + alkoxide (S_N2); 3\u00b0 halides give E2 elimination (isobutene). HI ether cleavage: 1\u00b0/2\u00b0 gives S_N2 (I\u207b on smaller alkyl); 3\u00b0 gives S_N1 (I\u207b on 3\u00b0 carbon); Anisole gives Phenol + CH\u2083I. Review all 10 NEST traps and the complete 47-term master glossary.",
+  "summary": "Master Williamson ether synthesis constraints, HI cleavage rules, 10 NEST traps, and the master glossary.",
+  "conceptBreakdown": [
+    {
+      "heading": "8. Williamson Synthesis Constraints & HI Cleavage",
+      "title": "8. Williamson Synthesis Constraints & HI Cleavage",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Ether Chemistry Rules",
+        "takeaway": "Williamson: Alkyl halide MUST be 1\u00b0 or Methyl. 3\u00b0 halide gives E2 alkene. HI Cleavage: 1\u00b0/2\u00b0 = S_N2 (I\u207b on smaller group); 3\u00b0 = S_N1 (I\u207b on 3\u00b0 group); Anisole = Phenol + CH\u2083I."
+      },
+      "codeSnippet": "                       WILLIAMSON SUBSTRATE CONSTRAINT\n                       \n   Target: Synthesis of *tert*-Butyl Methyl Ether [$(\\text{CH}_3)_3\\text{C-O-CH}_3$]\n   \n   PATHWAY A (Correct):   $\\text{CH}_3\\text{Br } (1^\\circ) + (\\text{CH}_3)_3\\text{C-O}^-\\text{Na}^+ \\xrightarrow{S_N2} \\mathbf{(\\text{CH}_3)_3\\text{C-O-CH}_3} + \\text{NaBr}$\n   \n   PATHWAY B (Incorrect): $(\\text{CH}_3)_3\\text{C-Br } (3^\\circ) + \\text{CH}_3\\text{O}^-\\text{Na}^+ \\xrightarrow{E2} \\mathbf{(\\text{CH}_3)_2\\text{C=CH}_2 \\text{ (2-Methylpropene)}} + \\text{MeOH}\n   \n   *RULE:* The alkyl halide MUST be $1^\\circ$ or Methyl. A $3^\\circ$ halide acts via $E2$ elimination!",
+      "content": "- **Williamson Synthesis**: $\\text{R-X} + \\text{R'O}^-\\text{Na}^+ \\to \\text{R-O-R'} + \\text{NaX}$. Halide must be $1^\\circ$; $3^\\circ$ halides give E2 alkene elimination.\n- **HI Cleavage Kinetics**:\n  1. $\\text{CH}_3\\text{-O-CH}_2\\text{CH}_3 + \\text{HI} \\xrightarrow{S_N2} \\mathbf{\\text{CH}_3\\text{I}} + \\text{CH}_3\\text{CH}_2\\text{OH}$\n  2. $(\\text{CH}_3)_3\\text{C-O-CH}_3 + \\text{HI} \\xrightarrow{S_N1} \\mathbf{(\\text{CH}_3)_3\\text{C-I}} + \\text{CH}_3\\text{OH}$\n  3. $\\text{C}_6\\text{H}_5\\text{-O-CH}_3 \\text{ (Anisole)} + \\text{HI} \\longrightarrow \\mathbf{\\text{C}_6\\text{H}_5\\text{OH \\text{ (Phenol)}}} + \\mathbf{\\text{CH}_3\\text{I}}$"
+    },
+    {
+      "heading": "9. 10 High-Yield NEST Traps & Master Glossary",
+      "title": "9. 10 High-Yield NEST Traps & Master Glossary",
+      "type": "paragraph",
+      "codeSnippet": "10 NEST ALCOHOLS, PHENOLS & ETHERS TRAPS SUMMARY\n\n1. Anisole + HI produces Phenol and Methyl Iodide (NOT iodobenzene and methanol).\n2. t-Butyl bromide + sodium methoxide yields 2-methylpropene via E2 (NOT ether).\n3. Lucas test: 3\u00b0 immediate, 1\u00b0 needs heat.\n4. Phenol (pKa ~10) is 10\u2076x more acidic than ethanol (pKa ~16).\n5. Reimer-Tiemann uses neutral dichlorocarbene (:CCl\u2082), NOT a carbocation.\n6. Methanol poisoning is treated by intravenous ethanol (competitive inhibitor).\n7. Bromine water + phenol yields a white ppt of 2,4,6-tribromophenol.\n8. Victor Meyer: 1\u00b0 = Red, 2\u00b0 = Blue, 3\u00b0 = Colorless.\n9. Ethanol at 413 K gives Diethyl ether; at 443 K gives Ethene.\n10. PCC stops 1\u00b0 alcohol oxidation at Aldehyde (stopping over-oxidation).",
+      "content": "Review all 10 high-yield traps and the complete 47-term master glossary before taking the 20-question self-assessment module."
+    }
+  ],
+  "quickRevision": [
+    "Williamson ether synthesis requires 1\u00b0 alkyl halide.",
+    "HI cleavage: 3\u00b0 alkyl ether gives 3\u00b0 alkyl iodide (S_N1).",
+    "Anisole + HI gives Phenol + CH\u2083I (Ph-O bond resists cleavage).",
+    "All 10 NEST traps and 47 master glossary terms reviewed."
+  ],
+  "keyFormulae": [
+    "\\text{Anisole} + \\text{HI} \\longrightarrow \\text{Phenol} + \\text{CH}_3\\text{I}",
+    "(\\text{CH}_3)_3\\text{C-O-CH}_3 + \\text{HI} \\longrightarrow (\\text{CH}_3)_3\\text{C-I} + \\text{CH}_3\\text{OH}"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "chem-xii-u15-c6-l02",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XV \u2014 Haloalkanes and Haloarenes",
+  "unitNumber": 15,
+  "chapter": "Haloalkanes and Haloarenes",
+  "chapterNumber": 6,
+  "chapterSlug": "haloalkanes-and-haloarenes",
+  "slug": "lesson-02-nucleophilic-substitution-sn1-vs-sn2-dynamics-comparison",
+  "title": "Nucleophilic Substitution Mechanisms: S_N1 vs. S_N2 Dynamics",
+  "topic": "S_N1 vs S_N2 Mechanisms",
+  "topics": [
+    "S_N1 Mechanism (Two-step pathway, Carbocation intermediate, Rate = k[R-X], Racemization)",
+    "S_N2 Mechanism (Concerted one-step pathway, 5-coordinate TBP transition state, Rate = k[R-X][Nu\u207b], 100% Walden Inversion)",
+    "2.1 Comprehensive S_N1 vs S_N2 8-Parameter Comparison Matrix",
+    "Substrate Reactivity Orders: S_N1 (Allyl \u2248 Benzyl > 3\u00b0 > 2\u00b0 > 1\u00b0) vs S_N2 (CH\u2083X > 1\u00b0 > 2\u00b0 > 3\u00b0; Neopentyl inert)",
+    "Solvent Effects: Polar Protic (favors S_N1) vs Polar Aprotic: DMSO, DMF, Acetone (favors S_N2)",
+    "Leaving Group Ability Trend: I\u207b > Br\u207b > Cl\u207b >> F\u207b"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "haloalkanes-and-haloarenes",
+  "quickSummary": "S_N1 is 2-step via planar carbocation (Rate = k[R-X], 3\u00b0 > 2\u00b0 > 1\u00b0, polar protic solvents, racemization). S_N2 is 1-step concerted via 5-coordinate transition state (Rate = k[R-X][Nu\u207b], CH\u2083X > 1\u00b0 > 2\u00b0 > 3\u00b0, polar aprotic solvents, 100% Walden inversion). Leaving group trend: I\u207b > Br\u207b > Cl\u207b >> F\u207b.",
+  "summary": "Master unimolecular (S_N1) and bimolecular (S_N2) nucleophilic substitution mechanisms, transition states, kinetics, and solvent dependencies.",
+  "conceptBreakdown": [
+    {
+      "heading": "2. S_N1 vs. S_N2 Reaction Profiles & Transition States",
+      "title": "2. S_N1 vs. S_N2 Reaction Profiles & Transition States",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Reaction Kinetics & Pathways",
+        "takeaway": "S_N1 = Two steps, carbocation, 1st order. S_N2 = Single concerted step, 5-coordinate TBP transition state, 2nd order, 100% Walden inversion."
+      },
+      "codeSnippet": "                       $S_N1$ vs $S_N2$ REACTION PROFILES\n                       \n   $S_N1$ MECHANISM (Two Steps via Carbocation):\n   Step 1 (RDS): $\\text{R-X} \\xrightarrow{\\text{Slow}} \\mathbf{\\text{R}^+ \\text{ (Carbocation)}} + \\text{X}^-$\n   Step 2 (Fast): $\\text{R}^+ + \\text{Nu}^- \\xrightarrow{\\text{Fast}} \\text{R-Nu} \\quad \\implies \\mathbf{\\text{Rate} = k [\\text{R-X}]}\n   \n   $S_N2$ MECHANISM (Concerted One Step via Transition State):\n   $\\text{Nu}^- + \\text{R-X} \\longrightarrow [\\text{Nu}\\cdots\\text{C}\\cdots\\text{X}]^\\ddagger \\longrightarrow \\mathbf{\\text{Nu-R} + \\text{X}^-} \\quad \\implies \\mathbf{\\text{Rate} = k [\\text{R-X}] [\\text{Nu}^-]}\n\n                      $S_N2$ WALDEN INVERSION TRANSITION STATE\n                      \n                         H                     H\n                         \u2502                     \u2502\n   Nu\u207b \u2500\u2500\u25ba  C \u2500\u2500 X  \u2500\u2500\u25ba  Nu \u22ef C \u22ef X  \u2500\u2500\u25ba  Nu \u2500 C   +  X\u207b\n           / \\           \u2502  / \\                / \\\n          H   H          H H   H              H   H\n     (Initial)       (5-Coordinate TBP)   (**100% Inversion**)",
+      "content": "Nucleophilic substitution in haloalkanes proceeds via two distinct mechanical pathways: Unimolecular ($S_N1$) and Bimolecular ($S_N2$)."
+    },
+    {
+      "heading": "2.1 Comprehensive S_N1 vs. S_N2 Comparison Matrix",
+      "title": "2.1 Comprehensive S_N1 vs. S_N2 Comparison Matrix",
+      "type": "paragraph",
+      "codeSnippet": "S_N1 vs S_N2 COMPARISON MATRIX\n\n1. Kinetics:        S_N1: 1st Order (Rate = k[R-X])       | S_N2: 2nd Order (Rate = k[R-X][Nu\u207b])\n2. Steps:           S_N1: 2 Steps (Carbocation R\u207a)        | S_N2: 1 Concerted Step (TBP X\u2021)\n3. Substrate Order: S_N1: 3\u00b0 > 2\u00b0 > 1\u00b0 (Carbocation stab) | S_N2: CH\u2083X > 1\u00b0 > 2\u00b0 > 3\u00b0 (Steric)\n4. Stereochemistry: S_N1: Racemization (partial inversion)| S_N2: 100% Complete Walden Inversion\n5. Nucleophile:     S_N1: Rate independent of [Nu\u207b]       | S_N2: Rate proportional to [Nu\u207b] strength\n6. Optimal Solvent: S_N1: Polar Protic (H\u2082O, EtOH)        | S_N2: Polar Aprotic (DMSO, DMF, Acetone)\n7. Leaving Group:   I\u207b > Br\u207b > Cl\u207b >> F\u207b in both mechanisms",
+      "content": "Review the full 8-parameter comparison between $S_N1$ and $S_N2$ pathways including steric hindrance (neopentyl bromide is inert to $S_N2$) and carbocation stability (allyl and benzyl halides react rapidly via $S_N1$)."
+    }
+  ],
+  "quickRevision": [
+    "S_N1: Rate = k[R-X], two steps, carbocation, 3\u00b0 > 2\u00b0 > 1\u00b0, polar protic solvents, racemization.",
+    "S_N2: Rate = k[R-X][Nu\u207b], one step, TBP transition state, CH\u2083X > 1\u00b0 > 2\u00b0 > 3\u00b0, polar aprotic solvents, 100% Walden inversion.",
+    "Neopentyl bromide (1\u00b0) is extremely inert to S_N2 due to bulky t-butyl steric hindrance.",
+    "Allyl and benzyl halides undergo rapid S_N1 due to resonance-stabilized carbocations.",
+    "Leaving group ability: I\u207b > Br\u207b > Cl\u207b >> F\u207b."
+  ],
+  "keyFormulae": [
+    "\\text{Rate}_{S_N1} = k [\\text{R-X}]",
+    "\\text{Rate}_{S_N2} = k [\\text{R-X}][\\text{Nu}^-]",
+    "\\text{Leaving Group Ability: } \\text{I}^- > \\text{Br}^- > \\text{Cl}^- \\gg \\text{F}^-"
+  ]
+}

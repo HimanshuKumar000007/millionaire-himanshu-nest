@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u17-c8-l06",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVII \u2014 Aldehydes, Ketones and Carboxylic Acids",
+  "unitNumber": 17,
+  "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+  "chapterNumber": 8,
+  "chapterSlug": "aldehydes-ketones-carboxylic-acids",
+  "slug": "lesson-06-carboxylic-acids-acidity-inductive-trends-ortho-effect",
+  "title": "Carboxylic Acids: Structure, Resonance Stabilization, & Substituent Acidity Effects",
+  "topic": "Carboxylic Acid Acidity & Ortho-Effect",
+  "topics": [
+    "6. Carboxylic Acid Functional Structure (-COOH) & Carboxylate Anion (R-COO\u207b) Resonance Stabilization",
+    "Acidity Hierarchy (pK_a): Carboxylic Acids (4\u20135) > Phenols (10) > Alcohols (16)",
+    "6.1 Substituent Effects: Electron-Withdrawing (-I/-M) Increase Acidity; Electron-Donating (+I/+M) Decrease Acidity",
+    "Inductive Acidity Trend: CF\u2083COOH > CCl\u2083COOH > CHCl\u2082COOH > CH\u2082ClCOOH > FCH\u2082COOH > ClCH\u2082COOH > HCOOH > CH\u2083COOH",
+    "The Benzoic Acid Ortho-Effect: Steric Inhibition of Resonance (SIR) conferring Superior Acidity"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "aldehydes-ketones-carboxylic-acids",
+  "quickSummary": "Carboxylic acids (pK_a ~4-5) are much more acidic than phenols (pK_a ~10) because negative charge is delocalized equally over two highly electronegative oxygen atoms. -I/-M groups strongly increase acidity (CF\u2083COOH > CCl\u2083COOH > HCOOH > CH\u2083COOH). Due to the Ortho-Effect (Steric Inhibition of Resonance), almost all ortho-substituted benzoic acids are stronger acids than benzoic acid.",
+  "summary": "Master carboxylate resonance stabilization, inductive and mesomeric acidity modulation, and the benzoic acid ortho-effect.",
+  "conceptBreakdown": [
+    {
+      "heading": "6. Carboxylate Resonance Stabilization & Acidity Hierarchy",
+      "title": "6. Carboxylate Resonance Stabilization & Acidity Hierarchy",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Carboxylate vs Phenoxide Charge Delocalization",
+        "takeaway": "Carboxylate delocalizes negative charge EQUALLY over TWO electronegative Oxygen atoms, making carboxylic acids ~10\u2076 times more acidic than phenols."
+      },
+      "codeSnippet": "                       CARBOXYLATE ANION RESONANCE\n                       \n   R\u2500\u2500 C \u2550\u2550 O            R\u2500\u2500 C \u2500\u2500 O\u207b            R\u2500\u2500 C \u2500\u2500 O\u207b\u2075\n       \u2502        \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba    \u2551          \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba      \u2551\n       O\u207b                    O                         O\u207b\u2075\n\nAcidity: Carboxylic Acids (pKa 4-5) > Phenols (pKa 10) > Alcohols (pKa 16)",
+      "content": "Carboxylic acids are significantly stronger acids than phenols and alcohols because deprotonation produces the carboxylate anion ($R\\text{-COO}^-$), where negative charge is shared equally between two identical, highly electronegative oxygen atoms."
+    },
+    {
+      "heading": "6.1 Substituent Effects & The Benzoic Acid Ortho-Effect",
+      "title": "6.1 Substituent Effects & The Benzoic Acid Ortho-Effect",
+      "type": "paragraph",
+      "codeSnippet": "                      ACIDITY MODULATION BY SUBSTITUENTS\n                      \n   ELECTRON-WITHDRAWING GROUPS ($-I / -M$):  Stabilize carboxylate charge \u2500\u2500\u25ba **INCREASE Acidity**\n   ELECTRON-DONATING GROUPS ($+I / +M$):   Destabilize carboxylate charge \u2500\u2500\u25ba **DECREASE Acidity**\n\nInductive Trend: CF\u2083COOH > CCl\u2083COOH > CHCl\u2082COOH > CH\u2082ClCOOH > FCH\u2082COOH > ClCH\u2082COOH > HCOOH > CH\u2083COOH\n\n                       BENZOIC ACID ORTHO-EFFECT\n                       \n   Almost ALL ortho-substituted benzoic acids (o-NO\u2082, o-Cl, o-CH\u2083) are STRONGER ACIDS than Benzoic Acid due to Steric Inhibition of Resonance (SIR)!\n\nBenzoic Acidity: o-Nitrobenzoic > p-Nitrobenzoic > m-Nitrobenzoic > Benzoic Acid > p-Methylbenzoic",
+      "content": "- **Inductive Modulation**: Electron-withdrawing groups ($-I$) stabilize carboxylate, increasing acidity; electron-donating groups ($+I$) decrease acidity.\n- **Ortho-Effect**: Bulky *ortho*-substituents sterically twist the $-COOH$ group out of the aromatic plane (Steric Inhibition of Resonance / SIR), preventing ring resonance and maximizing carboxylate resonance over the two oxygens, thereby dramatically increasing acidity."
+    }
+  ],
+  "quickRevision": [
+    "Carboxylic acids (pKa 4-5) > Phenols (pKa 10) > Alcohols (pKa 16).",
+    "Carboxylate charge is delocalized equally over 2 oxygen atoms.",
+    "Formic acid (HCOOH) is stronger than Acetic acid (CH\u2083COOH).",
+    "CF\u2083COOH > CCl\u2083COOH > CHCl\u2082COOH > CH\u2082ClCOOH > HCOOH > CH\u2083COOH.",
+    "Ortho-effect: o-Substituted benzoic acids are stronger acids than benzoic acid."
+  ],
+  "keyFormulae": [
+    "\\text{Acidity: } \\text{CF}_3\\text{COOH} > \\text{CCl}_3\\text{COOH} > \\text{CHCl}_2\\text{COOH} > \\text{CH}_2\\text{ClCOOH} > \\text{HCOOH} > \\text{CH}_3\\text{COOH}",
+    "\\text{Benzoic Acidity: } o\\text{-Nitro} > p\\text{-Nitro} > m\\text{-Nitro} > \\text{Benzoic Acid} > p\\text{-Methyl}"
+  ]
+}

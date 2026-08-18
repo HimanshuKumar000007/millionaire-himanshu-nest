@@ -1,0 +1,61 @@
+{
+  "id": "chem-xi-u4-c4-l05",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit IV \u2014 Chemical Bonding and Molecular Structure",
+  "unitNumber": 4,
+  "chapter": "Chemical Bonding and Molecular Structure",
+  "chapterNumber": 4,
+  "chapterSlug": "chemical-bonding",
+  "slug": "lesson-05-vsepr-theory-molecular-geometries",
+  "title": "VSEPR Theory: Electron Repulsions & 3D Molecular Geometries (SN 2 to 7)",
+  "topic": "VSEPR Theory & Molecular Shapes",
+  "topics": [
+    "Gillespie-Nyholm VSEPR Postulates",
+    "Repulsion Hierarchy (lp-lp > lp-bp > bp-bp)",
+    "Steric Number Formula (SN = 1/2 [V + M - C + A])",
+    "Complete Molecular Geometry Table (SN 2 to 7)",
+    "Classic Molecular Shapes (Linear, Bent, Seesaw, T-Shaped, Square Planar)"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "vsepr-theory",
+  "quickSummary": "VSEPR predicts 3D molecular geometries by minimizing valence electron pair repulsions (lp-lp > lp-bp > bp-bp). Steric number SN determines electron geometry, while lone pairs dictate the observed molecular shape.",
+  "summary": "Master the complete VSEPR geometry spectrum from SN 2 to 7, including bond angles and non-ideal lone pair distortions.",
+  "conceptBreakdown": [
+    {
+      "heading": "5.1 VSEPR Repulsion Principles & Steric Number",
+      "title": "5.1 VSEPR Repulsion Principles & Steric Number",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "VSEPR Theory",
+        "takeaway": "Repulsion: lp-lp > lp-bp > bp-bp. SN = bp + lp = 1/2 [V + M - C + A]."
+      },
+      "codeSnippet": "STERIC NUMBER (SN) FORMULA\n                            \n   SN = Number of Bond Pairs (bp) + Number of Lone Pairs (lp)\n   \n   SN = 1/2 [ V + M - C + A ]\n   where V = central valence e\u207b, M = monovalent atoms (H, F, Cl, Br, I),\n   C = cationic charge, A = anionic charge.",
+      "content": "\u2022 **Repulsion Hierarchy**: Lone pairs occupy more spatial volume because they are attracted to only one nucleus, exerting intense repulsions on adjacent electron pairs:\n$$\\mathbf{\\text{lp-lp} > \\text{lp-bp} > \\text{bp-bp}}$$"
+    },
+    {
+      "heading": "5.2 Comprehensive VSEPR Shape Spectrum",
+      "title": "5.2 Comprehensive VSEPR Shape Spectrum",
+      "type": "paragraph",
+      "content": "\u2022 **SN = 2 ($sp$)**: $2\\text{ bp} + 0\\text{ lp} \\rightarrow$ **Linear** ($180^\\circ$, $\\text{BeCl}_2, \\text{CO}_2$)\n\u2022 **SN = 3 ($sp^2$)**:\n  - $3\\text{ bp} + 0\\text{ lp} \\rightarrow$ **Trigonal Planar** ($120^\\circ$, $\\text{BF}_3, \\text{SO}_3$)\n  - $2\\text{ bp} + 1\\text{ lp} \\rightarrow$ **Bent / V-shaped** ($<120^\\circ$, $\\text{SO}_2, \\text{O}_3, \\text{SnCl}_2$)\n\u2022 **SN = 4 ($sp^3$)**:\n  - $4\\text{ bp} + 0\\text{ lp} \\rightarrow$ **Tetrahedral** ($109.5^\\circ$, $\\text{CH}_4, \\text{CCl}_4$)\n  - $3\\text{ bp} + 1\\text{ lp} \\rightarrow$ **Trigonal Pyramidal** ($107^\\circ$, $\\text{NH}_3, \\text{PCl}_3$)\n  - $2\\text{ bp} + 2\\text{ lp} \\rightarrow$ **Bent / Angular** ($104.5^\\circ$, $\\text{H}_2\\text{O}, \\text{OF}_2$)\n\u2022 **SN = 5 ($sp^3d$)**:\n  - $5\\text{ bp} + 0\\text{ lp} \\rightarrow$ **Trigonal Bipyramidal** ($90^\\circ, 120^\\circ$, $\\text{PCl}_5$)\n  - $4\\text{ bp} + 1\\text{ lp} \\rightarrow$ **Seesaw** ($\\text{SF}_4$)\n  - $3\\text{ bp} + 2\\text{ lp} \\rightarrow$ **T-Shaped** ($\\text{ClF}_3$)\n  - $2\\text{ bp} + 3\\text{ lp} \\rightarrow$ **Linear** ($180^\\circ$, $\\text{XeF}_2, \\text{I}_3^-$)\n\u2022 **SN = 6 ($sp^3d^2$)**:\n  - $6\\text{ bp} + 0\\text{ lp} \\rightarrow$ **Octahedral** ($90^\\circ, 180^\\circ$, $\\text{SF}_6$)\n  - $5\\text{ bp} + 1\\text{ lp} \\rightarrow$ **Square Pyramidal** ($\\text{BrF}_5, \\text{XeOF}_4$)\n  - $4\\text{ bp} + 2\\text{ lp} \\rightarrow$ **Square Planar** ($90^\\circ$, $\\text{XeF}_4, \\text{ICl}_4^-$)\n\u2022 **SN = 7 ($sp^3d^3$)**:\n  - $7\\text{ bp} + 0\\text{ lp} \\rightarrow$ **Pentagonal Bipyramidal** ($72^\\circ, 90^\\circ$, $\\text{IF}_7$)\n  - $6\\text{ bp} + 1\\text{ lp} \\rightarrow$ **Distorted Octahedral** ($\\text{XeF}_6$ gas phase)"
+    }
+  ],
+  "quickRevision": [
+    "Repulsion: lp-lp > lp-bp > bp-bp.",
+    "SN = 1/2 [V + M - C + A].",
+    "XeF\u2082 (2 bp + 3 lp) is Linear.",
+    "XeF\u2084 (4 bp + 2 lp) is Square Planar.",
+    "SF\u2084 (4 bp + 1 lp) is Seesaw; ClF\u2083 (3 bp + 2 lp) is T-Shaped.",
+    "XeF\u2086 (6 bp + 1 lp) is Distorted Octahedral in gas phase."
+  ],
+  "keyFormulae": [
+    "SN = 1/2 [V + M - C + A]",
+    "SN = bp + lp"
+  ]
+}

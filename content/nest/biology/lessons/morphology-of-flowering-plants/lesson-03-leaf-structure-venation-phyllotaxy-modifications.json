@@ -1,0 +1,57 @@
+{
+  "id": "bio-xi-u2-c5-l03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit II — Structural Organization in Plants and Animals",
+  "unitNumber": 2,
+  "chapter": "Morphology of Flowering Plants",
+  "chapterNumber": 5,
+  "chapterSlug": "morphology-of-flowering-plants",
+  "slug": "lesson-03-leaf-structure-venation-phyllotaxy-modifications",
+  "title": "Leaf (Phyllopodium): Venation, Compound Patterns, & Phyllotaxy",
+  "topic": "Leaf Anatomy, Reticulate vs Parallel Venation, Pinnate/Palmate Leaves, & Phyllotaxy",
+  "topics": [
+    "Leaf Morphology (Hypopodium, Mesopodium, Epipodium/Lamina)",
+    "Pulvinus & Sheathing Leaf Base",
+    "Reticulate vs Parallel Venation & Taxonomic Exceptions",
+    "Pinnately vs Palmately Compound Leaves",
+    "Phyllotaxy Patterns (Alternate, Opposite Decussate/Superposed, Whorled)",
+    "Leaf Modifications (Tendrils, Spines, Phyllode, Insectivorous Pitchers/Traps)"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Leaves arise exogenously at nodes in acropetal succession. Venation is reticulate (dicots) or parallel (monocots). Compound leaves divide into pinnate (rachis axis) or palmate (petiole tip). Phyllotaxy arranges leaves alternately (Mustard), oppositely (Calotropis, Guava), or whorled (Alstonia). Modifications include phyllodes (Acacia), spines (Opuntia), and insectivorous traps (Nepenthes, Dionaea).",
+  "summary": "Leaves arise exogenously at nodes in acropetal succession. Venation is reticulate (dicots) or parallel (monocots). Compound leaves divide into pinnate (rachis axis) or palmate (petiole tip). Phyllotaxy arranges leaves alternately (Mustard), oppositely (Calotropis, Guava), or whorled (Alstonia). Modifications include phyllodes (Acacia), spines (Opuntia), and insectivorous traps (Nepenthes, Dionaea).",
+  "conceptBreakdown": [
+    {
+      "heading": "3. Leaf Morphology & Venation Patterns",
+      "title": "3. Leaf Morphology & Venation Patterns",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Leaf base may have a swollen pulvinus (Fabaceae turgor movement) or sheathing base (Monocots). Australian Acacia has a flattened photosynthetic petiole (Phyllode)."
+      },
+      "codeSnippet": "LEAF STRUCTURAL PARTS\n                           \n          LAMINA / EPIPODIUM  ──► Expanded green photosynthetic blade\n          PETIOLE / MESOPODIUM ──► Stalk elevating lamina to light\n          LEAF BASE / HYPOPODIUM─► Attachment to node (may bear Stipules or Pulvinus)",
+      "content": "The leaf is a lateral, generally flattened vegetative organ borne exogenously at the stem node. It develops from the shoot apical meristem in an acropetal sequence and is the primary site of photosynthesis.\n\n### Structural Parts & Venation Patterns\n1. **Leaf Base (Hypopodium)**: Attaches leaf to node.\n   - **Pulvinus**: Swollen leaf base in leguminous plants (*Fabaceae*) capable of turgor-driven movement (e.g., *Mimosa pudica* sleep movements).\n   - **Sheathing Leaf Base**: Leaf base expands into a sheath clasping the stem (characteristic of monocotyledons).\n2. **Venation**: The arrangement of veins and veinlets within the leaf lamina:\n   - **Reticulate Venation**: Veins form an interconnected network. Characteristic of Dicotyledons *(Exceptions: Corymbium, Eryngium exhibit parallel venation)*.\n   - **Parallel Venation**: Veins run parallel to one another from base to apex. Characteristic of Monocotyledons *(Exceptions: Smilax, Dioscorea, Colocasia exhibit reticulate venation)*."
+    },
+    {
+      "heading": "3.1 Simple vs. Compound Leaves",
+      "title": "3.1 Simple vs. Compound Leaves",
+      "type": "paragraph",
+      "codeSnippet": "COMPOUND LEAF TYPES\n                                    │\n         ┌──────────────────────────┴──────────────────────────┐\n         ▼                                                     ▼\n  PINNATELY COMPOUND                                    PALMATELY COMPOUND\n  Leaflets borne along a central axis (**Rachis**).      Leaflets attached at a common point\n  ├── Unipinnate (*Azadirachta* - Neem)                  at the tip of the petiole.\n  ├── Bipinnate (*Acacia*)                               ├── Unifoliate (*Citrus*)\n  ├── Tripinnate (*Moringa*)                             ├── Trifoliate (*Trifolium*, *Butea*)\n  └── Decompound (*Coriandrum*)                          └── Multifoliate (*Bombax ceiba*)",
+      "content": "A leaf is simple when its lamina is entire or incised without touching the midrib. In compound leaves, incisions reach down to the midrib, breaking the blade into discrete **leaflets** (axillary bud is present in the axil of the petiole of both simple and compound leaves, but never in the axil of leaflets)."
+    },
+    {
+      "heading": "3.2 Phyllotaxy Patterns & Specialized Leaf Adaptations",
+      "title": "3.2 Phyllotaxy Patterns & Specialized Leaf Adaptations",
+      "type": "paragraph",
+      "codeSnippet": "PHYLLOTAXY PATTERNS\n                                     │\n     ┌───────────────────────────────┼───────────────────────────────┐\n     ▼                               ▼                               ▼\nALTERNATE / SPIRAL               OPPOSITE                         WHORLED\nSingle leaf at each node         Paired leaves at each node       >2 leaves forming a\nin alternating spiral.           ├── Opposite Decussate (90°)     ring at each node.\n├── *Brassica* (Mustard)         │   (*Calotropis*)               └── *Alstonia* (Devil tree)\n└── *Hibiscus* (China rose)      └── Opposite Superposed (*Guava*)",
+      "content": "### Specialized Leaf Modifications\n• **Leaf Tendrils**: Entire leaf or leaflets modified into sensitive coiling climbing structures (*Pisum sativum* - Pea leaflets, *Lathyrus aphaca* - Wild pea whole leaf).\n• **Leaf Spines**: Leaves converted into sharp protective spines to minimize transpiration (*Opuntia*, *Cactus*, *Argemone*).\n• **Phyllode**: Petiole becomes flattened, green, expanded, and photosynthetic, while true lamina degenerates (*Acacia auriculiformis* - Australian Acacia, *Parkinsonia*).\n• **Insectivorous Modifications**:\n  - **Pitcher**: Lamina modified into a pitcher with a lid (*Nepenthes* - Pitcher plant).\n  - **Bladder**: Segments of dissected leaves form sub-aquatic trapping bladders (*Utricularia* - Bladderwort).\n  - **Flytrap**: Lamina hinged with sensitive marginal spines (*Dionaea muscipula* - Venus Flytrap)."
+    }
+  ]
+}

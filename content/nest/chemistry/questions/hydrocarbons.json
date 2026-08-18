@@ -1,0 +1,923 @@
+[
+  {
+    "id": "chem-hyd-001",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "Terminal Alkyne Identification",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "An unknown gaseous hydrocarbon X (M_B = 54 g/mol) reacts with excess Hydrogen gas in the presence of Nickel catalyst at 180\u00b0C to form n-butane (C\u2084H\u2081\u2080). When X is treated with ammoniacal Silver Nitrate solution (Tollens' Reagent), a bright White Precipitate forms immediately. What is the precise IUPAC name and structure of hydrocarbon X?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1,3-Butadiene (CH\u2082=CH-CH=CH\u2082)",
+        "isCorrect": false,
+        "explanation": "1,3-Butadiene does not react with Tollens' reagent."
+      },
+      {
+        "id": "B",
+        "text": "1-Butyne (HC\u2261C-CH\u2082CH\u2083)",
+        "isCorrect": true,
+        "explanation": "Molar mass of C\u2084H\u2086 is 54 g/mol. Hydrogenation yields n-butane. White precipitate with Tollens' reagent confirms a terminal alkyne (1-butyne)."
+      },
+      {
+        "id": "C",
+        "text": "2-Butyne (CH\u2083-C\u2261C-CH\u2083)",
+        "isCorrect": false,
+        "explanation": "2-Butyne is an internal alkyne and does not react with Tollens' reagent."
+      },
+      {
+        "id": "D",
+        "text": "Cyclobutene",
+        "isCorrect": false,
+        "explanation": "Cyclobutene yields cyclobutane upon hydrogenation, not n-butane."
+      }
+    ],
+    "solutionExplanation": "1. Molar mass of C\u2084H\u2086 = 4(12) + 6(1) = 54 g/mol. Hydrogenation yields n-butane, confirming a straight 4-carbon chain.\n2. Formation of a white precipitate with Tollens' Reagent is a diagnostic test specific to Terminal Alkynes (R-C\u2261C-H).\n3. 1-Butyne (HC\u2261C-CH\u2082CH\u2083) is a terminal alkyne; 2-Butyne is an internal alkyne and gives no reaction with Tollens' reagent.",
+    "keyFormulae": [
+      "\\text{R-C}\\equiv\\text{C-H} + [\\text{Ag(NH}_3)_2]^+ \\longrightarrow \\text{R-C}\\equiv\\text{C-Ag} \\downarrow \\text{ (White Precipitate)}"
+    ],
+    "hints": [
+      "Terminal alkynes with acidic sp C-H form silver acetylide precipitates."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-hyd-002",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "Alkene Addition with 1,2-Shift",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "When 3-methyl-1-butene ((CH\u2083)\u2082CH-CH=CH\u2082) is reacted with concentrated aqueous Hydrochloric Acid (HCl), two alkyl chloride products are formed. What is the structural formula of the MAJOR product, and what mechanistic step accounts for its formation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2-chloro-3-methylbutane; direct Markovnikov addition",
+        "isCorrect": false,
+        "explanation": "2-chloro-3-methylbutane is the minor product."
+      },
+      {
+        "id": "B",
+        "text": "2-chloro-2-methylbutane; 1,2-hydride shift forming a more stable 3\u00b0 carbocation",
+        "isCorrect": true,
+        "explanation": "Addition of H\u207a forms a 2\u00b0 carbocation (CH\u2083)\u2082CH-C\u207aH-CH\u2083, which undergoes a 1,2-hydride shift to form the stable 3\u00b0 carbocation (CH\u2083)\u2082C\u207a-CH\u2082CH\u2083 prior to Cl\u207b attack."
+      },
+      {
+        "id": "C",
+        "text": "1-chloro-3-methylbutane; Anti-Markovnikov radical addition",
+        "isCorrect": false,
+        "explanation": "HCl does not undergo radical addition even with peroxides."
+      },
+      {
+        "id": "D",
+        "text": "1,3-dichlorobutane; electrophilic substitution",
+        "isCorrect": false,
+        "explanation": "Incorrect reaction type."
+      }
+    ],
+    "solutionExplanation": "1. Electrophilic addition of H\u207a to 3-methyl-1-butene yields a 2\u00b0 carbocation: (CH\u2083)\u2082CH-C\u207aH-CH\u2083.\n2. The 2\u00b0 carbocation undergoes an immediate 1,2-Hydride Shift from the adjacent tertiary carbon to form a significantly more stable 3\u00b0 carbocation: (CH\u2083)\u2082C\u207a-CH\u2082CH\u2083.\n3. Chloride attack on the 3\u00b0 carbocation yields 2-chloro-2-methylbutane as the major product.",
+    "keyFormulae": [
+      "(\\text{CH}_3)_2\\text{CH}-\\overset{+}{\\text{C}}\\text{H}-\\text{CH}_3 \\xrightarrow{1,2-\\text{H Shift}} (\\text{CH}_3)_2\\overset{+}{\\text{C}}-\\text{CH}_2\\text{CH}_3 \\; (3^\\circ)"
+    ],
+    "hints": [
+      "Check for carbocation rearrangements in acid-catalyzed additions."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-hyd-003",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "Reductive Ozonolysis Stoichiometry",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "A sample of 2-butene is subjected to Reductive Ozonolysis (1. O\u2083; 2. Zn/H\u2082O). The resulting organic product is isolated and treated with Fehling's solution, producing a bright red precipitate of Cu\u2082O. How many total moles of Acetaldehyde (CH\u2083CHO) are formed per mole of 2-butene?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 mole",
+        "isCorrect": false,
+        "explanation": "Cleaving symmetrical 2-butene yields 2 moles."
+      },
+      {
+        "id": "B",
+        "text": "2 moles",
+        "isCorrect": true,
+        "explanation": "CH\u2083-CH=CH-CH\u2083 \u2500\u2500[1. O\u2083; 2. Zn/H\u2082O]\u2500\u2500\u25ba 2 CH\u2083CHO (Acetaldehyde)."
+      },
+      {
+        "id": "C",
+        "text": "3 moles",
+        "isCorrect": false,
+        "explanation": "Incorrect stoichiometry."
+      },
+      {
+        "id": "D",
+        "text": "0 moles (yields Acetone)",
+        "isCorrect": false,
+        "explanation": "2-butene yields acetaldehyde, not acetone."
+      }
+    ],
+    "solutionExplanation": "1. Reductive ozonolysis of symmetrical 2-butene (CH\u2083-CH=CH-CH\u2083) cleaves the double bond completely:\n   CH\u2083-CH=CH-CH\u2083 \u2500\u2500[1. O\u2083, 2. Zn/H\u2082O]\u2500\u2500\u25ba 2 CH\u2083CHO (Acetaldehyde).\n2. Acetaldehyde (RCHO) reduces Fehling's solution to give red Cu\u2082O \u2193. Exactly 2 moles of Acetaldehyde are formed per mole of 2-butene.",
+    "keyFormulae": [
+      "\\text{CH}_3\\text{-CH=CH-CH}_3 \\xrightarrow{\\text{1. O}_3, \\text{ 2. Zn/H}_2\\text{O}} 2\\text{ CH}_3\\text{CHO}"
+    ],
+    "hints": [
+      "Symmetrical 4-carbon alkene with internal double bond cleaves into two identical 2-carbon aldehyde molecules."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-hyd-004",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "Corey-House Alkane Synthesis",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the major product obtained when 1-bromopropane is treated with Lithium metal in dry ether, followed by reaction with Cuprous Iodide (CuI), and subsequent coupling with 1-bromobutane (Corey-House Synthesis)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n-Hexane",
+        "isCorrect": false,
+        "explanation": "Coupling propyl with butyl gives 7 carbons (n-heptane), not 6."
+      },
+      {
+        "id": "B",
+        "text": "n-Heptane",
+        "isCorrect": true,
+        "explanation": "Propyl Gilman reagent (C\u2083H\u2087)\u2082CuLi couples with 1-bromobutane (C\u2084H\u2089Br) to yield n-heptane (C\u2087H\u2081\u2086)."
+      },
+      {
+        "id": "C",
+        "text": "2-Methylpentane",
+        "isCorrect": false,
+        "explanation": "Corey-House yields straight-chain n-heptane with 1\u00b0 halides."
+      },
+      {
+        "id": "D",
+        "text": "n-Octane",
+        "isCorrect": false,
+        "explanation": "Incorrect carbon count (3 + 4 = 7)."
+      }
+    ],
+    "solutionExplanation": "1. Corey-House reaction sequence:\n   2 C\u2083H\u2087Br + 2Li \u2192 C\u2083H\u2087Li \u2500\u2500[+CuI]\u2500\u2500\u25ba (C\u2083H\u2087)\u2082CuLi (Gilman Reagent)\n2. Coupling Gilman reagent with 1-bromobutane (C\u2084H\u2089Br):\n   (C\u2083H\u2087)\u2082CuLi + C\u2084H\u2089Br \u2192 C\u2083H\u2087-C\u2084H\u2089 (n-Heptane, C\u2087H\u2081\u2086) + C\u2083H\u2087Cu + LiBr.",
+    "keyFormulae": [
+      "R_2\\text{CuLi} + R'\\text{X} \\longrightarrow R-R' + R\\text{Cu} + \\text{LiX}"
+    ],
+    "hints": [
+      "Add the carbon count of the alkyl group in the Gilman reagent (3) and the alkyl halide (4)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-hyd-005",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "Alkane Chlorination Selectivity Ratio",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Why does Chlorination of Isobutane ((CH\u2083)\u2083CH) at 25\u00b0C yield 63% of 1-chloro-2-methylpropane (1\u00b0-chloride) and 37% of 2-chloro-2-methylpropane (3\u00b0-chloride), despite the 3\u00b0 radical being thermodynamically much more stable than the 1\u00b0 radical?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chlorine is completely non-selective and reacts only at carbon 1.",
+        "isCorrect": false,
+        "explanation": "Chlorine has a selectivity ratio of 5.0 : 1.0 for 3\u00b0 : 1\u00b0."
+      },
+      {
+        "id": "B",
+        "text": "The statistical probability factor (9 \u00d7 1\u00b0-H vs 1 \u00d7 3\u00b0-H) partially offsets the higher relative reactivity ratio (5.0 : 1.0) of 3\u00b0-H.",
+        "isCorrect": true,
+        "explanation": "Amount of 1\u00b0 = 9 \u00d7 1 = 9 (64.3%); Amount of 3\u00b0 = 1 \u00d7 5 = 5 (35.7%). Statistical abundance of 1\u00b0-H dominates."
+      },
+      {
+        "id": "C",
+        "text": "1\u00b0-chloride undergoes rapid rearrangement into 3\u00b0-chloride.",
+        "isCorrect": false,
+        "explanation": "Alkyl chlorides do not rearrange spontaneously at room temperature."
+      },
+      {
+        "id": "D",
+        "text": "Isobutane lacks a tertiary carbon atom.",
+        "isCorrect": false,
+        "explanation": "Isobutane possesses one tertiary carbon atom."
+      }
+    ],
+    "solutionExplanation": "1. Isobutane contains nine 1\u00b0-H atoms and one 3\u00b0-H atom.\n2. Relative reactivity of Cl\u2082 at 25\u00b0C: 3\u00b0 : 1\u00b0 = 5.0 : 1.0.\n3. Yield ratio:\n   Amount of 1\u00b0-product = 9 \u00d7 1.0 = 9.0 \u27f9 9.0 / (9.0 + 5.0) \u00d7 100 = 64.3% \u2248 63%\n   Amount of 3\u00b0-product = 1 \u00d7 5.0 = 5.0 \u27f9 5.0 / 14.0 \u00d7 100 = 35.7% \u2248 37%.\n   The high statistical abundance of 1\u00b0-hydrogens (9:1) dominates the product distribution.",
+    "keyFormulae": [
+      "\\text{Product Yield} \\propto (\\text{Number of Hydrogens}) \\times (\\text{Relative Reactivity})"
+    ],
+    "hints": [
+      "Multiply hydrogen count by relative reactivity for each type of hydrogen."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-hyd-006",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "Aromaticity Identification",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Which of the following cyclic hydrocarbon systems satisfies H\u00fcckel's (4n+2) \u03c0-electron rule and is classified as strictly AROMATIC?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cyclobutadiene",
+        "isCorrect": false,
+        "explanation": "Cyclobutadiene has 4 \u03c0-electrons (4n for n=1, anti-aromatic)."
+      },
+      {
+        "id": "B",
+        "text": "Cyclooctatetraene (COT in planar form)",
+        "isCorrect": false,
+        "explanation": "Planar COT would have 8 \u03c0-electrons (anti-aromatic); in reality it adopts a non-aromatic tub conformation."
+      },
+      {
+        "id": "C",
+        "text": "Cyclopentadienyl Anion (C\u2085H\u2085\u207b)",
+        "isCorrect": true,
+        "explanation": "Cyclic, planar, conjugated with 6 \u03c0-electrons (4 from double bonds + 2 from carbanion lone pair), obeying 4n+2 for n=1 (Aromatic)."
+      },
+      {
+        "id": "D",
+        "text": "Cycloheptatrienyl Cation (Tropylium ion) with 8\u03c0 e\u207b",
+        "isCorrect": false,
+        "explanation": "Tropylium cation actually has 6 \u03c0-electrons, not 8."
+      }
+    ],
+    "solutionExplanation": "\u2022 Cyclopentadienyl Anion (C\u2085H\u2085\u207b) is cyclic, planar, fully conjugated, and possesses 6 \u03c0-electrons (2 double bonds = 4\u03c0 e\u207b + 1 lone pair = 2\u03c0 e\u207b \u27f9 Total 6\u03c0 e\u207b). Fitting 4n+2 for n=1 \u27f9 AROMATIC.\n\u2022 Cyclobutadiene has 4\u03c0 e\u207b (Anti-aromatic). Tropylium cation has 6\u03c0 e\u207b (Aromatic, but option D incorrectly states 8\u03c0 e\u207b).",
+    "keyFormulae": [
+      "\\text{H\u00fcckel's Rule: } (4n+2)\\ \\pi\\text{-electrons } (n=1 \\implies 6\\pi e^-)"
+    ],
+    "hints": [
+      "Count \u03c0-electrons from double bonds and carbanion lone pairs."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-hyd-007",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "Benzene Nitration Electrophile",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the active electrophile generated during the Nitration of Benzene using a 1:2 mixture of concentrated Nitric Acid (HNO\u2083) and concentrated Sulfuric Acid (H\u2082SO\u2084)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nitrite ion (NO\u2082\u207b)",
+        "isCorrect": false,
+        "explanation": "NO\u2082\u207b is an anion (nucleophile)."
+      },
+      {
+        "id": "B",
+        "text": "Nitronium Ion (NO\u2082\u207a)",
+        "isCorrect": true,
+        "explanation": "HNO\u2083 + 2H\u2082SO\u2084 \u21cc NO\u2082\u207a + H\u2083O\u207a + 2HSO\u2084\u207b. Active electrophile is NO\u2082\u207a."
+      },
+      {
+        "id": "C",
+        "text": "Nitrosonium Ion (NO\u207a)",
+        "isCorrect": false,
+        "explanation": "NO\u207a is the electrophile in diazotization, not nitration."
+      },
+      {
+        "id": "D",
+        "text": "Nitrate radical (NO\u2083\u2022)",
+        "isCorrect": false,
+        "explanation": "Nitration proceeds via an ionic S_EAr mechanism, not free radicals."
+      }
+    ],
+    "solutionExplanation": "In the nitrating mixture, H\u2082SO\u2084 acts as a stronger acid and protonates HNO\u2083:\nHNO\u2083 + 2H\u2082SO\u2084 \u21cc NO\u2082\u207a + H\u2083O\u207a + 2HSO\u2084\u207b\nThe active electrophile is the Nitronium Ion (NO\u2082\u207a).",
+    "keyFormulae": [
+      "\\text{HNO}_3 + 2\\text{H}_2\\text{SO}_4 \\rightleftharpoons \\mathbf{\\text{NO}_2^+} + \\text{H}_3\\text{O}^+ + 2\\text{HSO}_4^-"
+    ],
+    "hints": [
+      "Protonation of nitric acid by sulfuric acid followed by water loss generates the nitronium ion."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-hyd-008",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "The Halogen Anomaly in S_EAr",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Why do Chlorobenzene and Fluorobenzene undergo Electrophilic Aromatic Substitution (S_EAr) predominantly at the Ortho and Para positions, yet react at a SLOWER overall rate than unsubstituted Benzene?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Halogens are electron-donating by +I effect and electron-withdrawing by -M effect.",
+        "isCorrect": false,
+        "explanation": "Halogens are -I and +M, not +I and -M."
+      },
+      {
+        "id": "B",
+        "text": "Halogens exhibit a strong electron-withdrawing -I effect that deactivates the ring overall, but their +M resonance effect selectively stabilizes o,p-arenium intermediates.",
+        "isCorrect": true,
+        "explanation": "Inductive effect (-I > +M) deactivates the ring overall, while +M resonance donates lone pair density specifically to ortho and para positions."
+      },
+      {
+        "id": "C",
+        "text": "Halogens form 3d hyperconjugative bonds with the benzene ring.",
+        "isCorrect": false,
+        "explanation": "Incorrect concept."
+      },
+      {
+        "id": "D",
+        "text": "Halogens convert S_EAr into a free radical addition.",
+        "isCorrect": false,
+        "explanation": "Reaction remains electrophilic aromatic substitution."
+      }
+    ],
+    "solutionExplanation": "The Halogen Anomaly: Halogens possess high electronegativity, creating a powerful electron-withdrawing -I effect that lowers overall ring electron density (deactivating the ring relative to benzene, r_halobenzene < r_benzene). However, non-bonding p-electrons donate density via +M resonance, which specifically stabilizes the positive charge in the o,p-arenium ion intermediates, directing incoming electrophiles to Ortho and Para positions.",
+    "keyFormulae": [
+      "\\text{Halogen: } -I > +M \\implies \\text{Deactivating, } o/p\\text{-directing}"
+    ],
+    "hints": [
+      "Inductive effect (-I) dominates overall rate; Resonance effect (+M) controls regiochemistry."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-hyd-009",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "Stereospecific Alkene Halogenation",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What stereospecific addition product is obtained when trans-2-butene is reacted with Bromine in Carbon Tetrachloride (Br\u2082 / CCl\u2084)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(2R, 3R)-2,3-dibromobutane only",
+        "isCorrect": false,
+        "explanation": "Anti-addition to trans yields the meso isomer."
+      },
+      {
+        "id": "B",
+        "text": "meso-2,3-dibromobutane",
+        "isCorrect": true,
+        "explanation": "Anti-addition of Br\u2082 across trans-2-butene produces the optically inactive meso compound."
+      },
+      {
+        "id": "C",
+        "text": "Equimolar racemic mixture of (2R,3R) and (2S,3S)-2,3-dibromobutane",
+        "isCorrect": false,
+        "explanation": "Racemic mixture is formed from cis-2-butene."
+      },
+      {
+        "id": "D",
+        "text": "1,2-dibromobutane",
+        "isCorrect": false,
+        "explanation": "Bromine adds across C-2 and C-3."
+      }
+    ],
+    "solutionExplanation": "Halogenation of alkenes proceeds via a cyclic bromonium ion intermediate, resulting in strict Anti-Addition.\n\u2022 Anti-addition to a trans-alkene yields the optically inactive meso compound (trans + Anti \u2192 meso).\n\u2022 (Anti-addition to a cis-alkene yields a racemic dl-pair).",
+    "keyFormulae": [
+      "\\text{trans-alkene} + \\text{Anti-addition} \\longrightarrow \\text{meso-isomer}"
+    ],
+    "hints": [
+      "Remember mnemonic: TAM (Trans + Anti = Meso) and CAR (Cis + Anti = Racemic)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-hyd-010",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "Hydroboration-Oxidation Stereochemistry",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Hydroboration-Oxidation (1. BH\u2083\u00b7THF; 2. H\u2082O\u2082, OH\u207b) of 1-methylcyclopentene yields which specific stereoisomeric alcohol?",
+    "options": [
+      {
+        "id": "A",
+        "text": "trans-2-methylcyclopentanol (Anti-Markovnikov, Syn-addition)",
+        "isCorrect": true,
+        "explanation": "HBO adds H and OH syn across the double bond in an Anti-Markovnikov orientation, putting -CH\u2083 and -OH trans to each other."
+      },
+      {
+        "id": "B",
+        "text": "cis-2-methylcyclopentanol (Markovnikov, Anti-addition)",
+        "isCorrect": false,
+        "explanation": "HBO is Anti-Markovnikov and Syn-addition."
+      },
+      {
+        "id": "C",
+        "text": "1-methylcyclopentanol (Markovnikov product)",
+        "isCorrect": false,
+        "explanation": "1-methylcyclopentanol is obtained by OMDM or acid-catalyzed hydration."
+      },
+      {
+        "id": "D",
+        "text": "1-hydroxy-1-methylcyclopentane",
+        "isCorrect": false,
+        "explanation": "This is the Markovnikov tertiary alcohol."
+      }
+    ],
+    "solutionExplanation": "Hydroboration-Oxidation converts alkenes to alcohols with two strict stereochemical features:\n1. Anti-Markovnikov Regioselectivity: -OH attaches to the less substituted carbon (C-2).\n2. Syn-Addition: -H and -OH add to the same face of the double bond.\nAdding -H and -OH syn across 1-methylcyclopentene forces the methyl group at C-1 and the hydroxyl group at C-2 into a trans relationship, yielding trans-2-methylcyclopentanol.",
+    "keyFormulae": [
+      "\\text{HBO: Anti-Markovnikov Regioselectivity} + \\text{Syn-Addition}"
+    ],
+    "hints": [
+      "Syn-addition of H and OH across 1-methylcyclopentene places -CH\u2083 and -OH on opposite faces (trans)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-hyd-011",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "Alkane Synthesis Methods",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following methods can be used to synthesize n-Butane (C\u2084H\u2081\u2080)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wurtz reaction of Ethyl bromide (C\u2082H\u2085Br + Na/dry ether)",
+        "isCorrect": true,
+        "explanation": "2 C\u2082H\u2085Br + 2Na \u2192 C\u2084H\u2081\u2080 + 2NaBr."
+      },
+      {
+        "id": "B",
+        "text": "Kolbe's electrolysis of aqueous Sodium Propionate (C\u2082H\u2085COONa)",
+        "isCorrect": true,
+        "explanation": "2 C\u2082H\u2085COO\u207b \u2192 C\u2084H\u2081\u2080 + 2CO\u2082 at anode."
+      },
+      {
+        "id": "C",
+        "text": "Corey-House coupling of Ethyl lithium dialkylcuprate with Ethyl bromide",
+        "isCorrect": true,
+        "explanation": "(C\u2082H\u2085)\u2082CuLi + C\u2082H\u2085Br \u2192 C\u2084H\u2081\u2080 + C\u2082H\u2085Cu + LiBr."
+      },
+      {
+        "id": "D",
+        "text": "Decarboxylation of Sodium Pentanoate with Soda-lime (NaOH/CaO, \u0394)",
+        "isCorrect": true,
+        "explanation": "C\u2084H\u2089COONa + NaOH \u2192 C\u2084H\u2081\u2080 + Na\u2082CO\u2083."
+      }
+    ],
+    "solutionExplanation": "\u2022 A is correct: 2C\u2082H\u2085Br + 2Na \u2192 C\u2084H\u2081\u2080 + 2NaBr.\n\u2022 B is correct: 2C\u2082H\u2085COO\u207b \u2192 C\u2084H\u2081\u2080 + 2CO\u2082.\n\u2022 C is correct: (C\u2082H\u2085)\u2082CuLi + C\u2082H\u2085Br \u2192 C\u2084H\u2081\u2080.\n\u2022 D is correct: C\u2084H\u2089COONa + NaOH \u2192 C\u2084H\u2081\u2080 + Na\u2082CO\u2083.",
+    "keyFormulae": [
+      "\\text{Wurtz, Kolbe, Corey-House, and Decarboxylation yield alkanes}"
+    ],
+    "hints": [
+      "Check carbon counts for each synthetic pathway to form butane (4 carbons)."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-hyd-012",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "Ethane Conformation Properties",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding the Conformations of Ethane (C\u2082H\u2086): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Staggered conformation (\u03b8 = 60\u00b0) is 12.5 kJ/mol lower in energy than the Eclipsed conformation (\u03b8 = 0\u00b0)",
+        "isCorrect": true,
+        "explanation": "Staggered has minimal torsional strain."
+      },
+      {
+        "id": "B",
+        "text": "The Eclipsed conformation experiences severe Torsional Strain due to repulsive interactions between overlapping C-H electron pairs",
+        "isCorrect": true,
+        "explanation": "Torsional strain is maximum in eclipsed ethane."
+      },
+      {
+        "id": "C",
+        "text": "The energy barrier of 12.5 kJ/mol allows rapid, continuous rotation around the C-C single bond at room temperature",
+        "isCorrect": true,
+        "explanation": "Thermal energy at 25\u00b0C easily overcomes the 12.5 kJ/mol barrier."
+      },
+      {
+        "id": "D",
+        "text": "The Eclipsed conformation is optically active and can be resolved into enantiomers",
+        "isCorrect": false,
+        "explanation": "Eclipsed ethane possesses planes of symmetry and is achiral."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Staggered is 12.5 kJ/mol more stable than eclipsed; eclipsed suffers torsional strain; low rotation barrier allows rapid interconversion at 25\u00b0C.\n\u2022 D is incorrect: Eclipsed ethane possesses multiple symmetry planes and is achiral and optically inactive.",
+    "keyFormulae": [
+      "\\Delta E_{\\text{torsional}} = 12.5\\text{ kJ/mol} \\; (3.0\\text{ kcal/mol})"
+    ],
+    "hints": [
+      "Ethane conformers are achiral and rapidly interconverting."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-hyd-013",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "Propyne Hydration Reagents",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following chemical reagents or reaction conditions convert Propyne (CH\u2083-C\u2261CH) into Propanone (Acetone, CH\u2083COCH\u2083)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kucherov Hydration (1% HgSO\u2084 / 40% H\u2082SO\u2084, 60\u00b0C)",
+        "isCorrect": true,
+        "explanation": "Adds water Markovnikov to form prop-1-en-2-ol, which tautomerizes to acetone."
+      },
+      {
+        "id": "B",
+        "text": "Hydroboration-Oxidation using BH\u2083\u00b7THF followed by alkaline H\u2082O\u2082",
+        "isCorrect": false,
+        "explanation": "HBO gives Anti-Markovnikov addition yielding propanal (CH\u2083CH\u2082CHO)."
+      },
+      {
+        "id": "C",
+        "text": "Cold, 1% alkaline KMnO\u2084 solution",
+        "isCorrect": false,
+        "explanation": "Baeyer's reagent oxidizes propyne to pyruvic acid."
+      },
+      {
+        "id": "D",
+        "text": "Addition of H\u2082O in the presence of H\u2082SO\u2084 followed by tautomerism",
+        "isCorrect": true,
+        "explanation": "Acid-catalyzed hydration adds water Markovnikov to yield acetone via enol tautomerism."
+      }
+    ],
+    "solutionExplanation": "\u2022 A and D are correct: Kucherov hydration adds water across the triple bond in a Markovnikov orientation to form prop-1-en-2-ol, which immediately tautomerizes to Acetone (CH\u2083COCH\u2083).\n\u2022 B is incorrect: Hydroboration-oxidation of terminal propyne gives Anti-Markovnikov addition, yielding Propanal (CH\u2083CH\u2082CHO), NOT acetone.\n\u2022 C is incorrect: Baeyer's reagent oxidizes propyne to Pyruvic acid (CH\u2083COCOOH).",
+    "keyFormulae": [
+      "\\text{CH}_3\\text{-C}\\equiv\\text{CH} + \\text{H}_2\\text{O} \\xrightarrow{\\text{Hg}^{2+}/\\text{H}^+} [\\text{CH}_3\\text{-C(OH)=CH}_2] \\longrightarrow \\text{CH}_3\\text{COCH}_3"
+    ],
+    "hints": [
+      "Markovnikov hydration of propyne yields acetone via enol-keto tautomerism."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-hyd-014",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "S_EAr Mechanistic Steps",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding Electrophilic Aromatic Substitution (S_EAr) reactions of Benzene: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The rate-determining step is the attack of the electrophile (E\u207a) to form a non-aromatic Arenium ion (\u03c3-complex)",
+        "isCorrect": true,
+        "explanation": "Formation of the non-aromatic Wheland intermediate is rate-limiting."
+      },
+      {
+        "id": "B",
+        "text": "Nitration utilizes NO\u2082\u207a (Nitronium ion) generated by conc. HNO\u2083 + H\u2082SO\u2084",
+        "isCorrect": true,
+        "explanation": "NO\u2082\u207a is the nitration electrophile."
+      },
+      {
+        "id": "C",
+        "text": "Friedel-Crafts alkylation with 1-chlorobutane undergoes carbocation rearrangement to yield 2-phenylbutane as the major product",
+        "isCorrect": true,
+        "explanation": "1\u00b0 carbocation undergoes 1,2-hydride shift to 2\u00b0 carbocation."
+      },
+      {
+        "id": "D",
+        "text": "Sulfonation utilizes neutral SO\u2083 as the active electrophile",
+        "isCorrect": true,
+        "explanation": "Neutral SO\u2083 is the active electrophile in sulfonation."
+      }
+    ],
+    "solutionExplanation": "All four statements correctly state S_EAr mechanistic steps, active electrophiles (NO\u2082\u207a, SO\u2083), and 1,2-carbocation rearrangements in FC alkylations.",
+    "keyFormulae": [
+      "\\text{Rate-Determining Step: } \\text{Benzene} + \\text{E}^+ \\xrightarrow{\\text{Slow}} \\text{Arenium Ion } (\\sigma\\text{-Complex})"
+    ],
+    "hints": [
+      "Review Wheland intermediate formation, active electrophiles, and carbocation shifts."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-hyd-015",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "Ortho/Para Activators in S_EAr",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following functional groups exert an Ortho/Para-directing ACTIVATING influence on an aromatic ring during S_EAr reactions? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Phenolic Hydroxyl group (-OH)",
+        "isCorrect": true,
+        "explanation": "+M resonance activator."
+      },
+      {
+        "id": "B",
+        "text": "Amino group (-NH\u2082)",
+        "isCorrect": true,
+        "explanation": "+M resonance activator."
+      },
+      {
+        "id": "C",
+        "text": "Methyl group (-CH\u2083) via Hyperconjugation",
+        "isCorrect": true,
+        "explanation": "+I and hyperconjugative activator."
+      },
+      {
+        "id": "D",
+        "text": "Nitro group (-NO\u2082)",
+        "isCorrect": false,
+        "explanation": "-M / -I Meta-directing deactivator."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: -OH (+M), -NH\u2082 (+M), and -CH\u2083 (+I / hyperconjugation) donate electron density, activating the ring and directing incoming electrophiles to o,p-positions.\n\u2022 D is incorrect: -NO\u2082 is a powerful electron-withdrawing group (-M, -I) that DEACTIVATES the ring and directs to the Meta position.",
+    "keyFormulae": [
+      "\\text{Activators: } -\\text{OH}, \\; -\\text{NH}_2, \\; -\\text{OR}, \\; -\\text{R}"
+    ],
+    "hints": [
+      "Groups donating electron density by +M or hyperconjugation are ortho/para activators."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-hyd-016",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "Stereospecific Alkyne Reduction",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding the stereospecific reduction of Alkynes: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reduction of 2-butyne using Lindlar's catalyst (Pd/CaCO\u2083/quinoline) yields cis-2-butene",
+        "isCorrect": true,
+        "explanation": "Lindlar's catalyst provides syn-addition of H\u2082."
+      },
+      {
+        "id": "B",
+        "text": "Birch reduction of 2-butyne using Na or Li in liquid NH\u2083 yields trans-2-butene",
+        "isCorrect": true,
+        "explanation": "Birch reduction provides anti-addition of H\u2082 via radical anion."
+      },
+      {
+        "id": "C",
+        "text": "Complete catalytic hydrogenation of 2-butyne using H\u2082/Pt yields n-butane",
+        "isCorrect": true,
+        "explanation": "Unpoisoned Pt catalyst reduces alkyne completely to alkane."
+      },
+      {
+        "id": "D",
+        "text": "Birch reduction produces cis-alkenes via a cyclic syn-transition state",
+        "isCorrect": false,
+        "explanation": "Birch reduction yields trans-alkenes, not cis-alkenes."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Lindlar's catalyst gives syn-addition (cis-alkene); Birch reduction gives radical-anion anti-addition (trans-alkene); full hydrogenation yields n-butane.\n\u2022 D is incorrect: Birch reduction produces trans-alkenes, NOT cis-alkenes.",
+    "keyFormulae": [
+      "\\text{Lindlar: } \\text{Alkyne} \\rightarrow \\text{cis-alkene}",
+      "\\text{Birch: } \\text{Alkyne} \\rightarrow \\text{trans-alkene}"
+    ],
+    "hints": [
+      "Lindlar = cis (syn); Birch = trans (anti)."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-hyd-017",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "H\u00fcckel's Rule Aromatic Systems",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following structural systems obey H\u00fcckel's Rule (4n+2 \u03c0 e\u207b) and are classified as AROMATIC? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Benzene (6\u03c0 e\u207b)",
+        "isCorrect": true,
+        "explanation": "6\u03c0 e\u207b (n=1), aromatic."
+      },
+      {
+        "id": "B",
+        "text": "Tropylium Cation (C\u2087H\u2087\u207a, 6\u03c0 e\u207b)",
+        "isCorrect": true,
+        "explanation": "6\u03c0 e\u207b (n=1), aromatic."
+      },
+      {
+        "id": "C",
+        "text": "Naphthalene (10\u03c0 e\u207b)",
+        "isCorrect": true,
+        "explanation": "10\u03c0 e\u207b (n=2), aromatic."
+      },
+      {
+        "id": "D",
+        "text": "Cyclobutadiene (4\u03c0 e\u207b)",
+        "isCorrect": false,
+        "explanation": "4\u03c0 e\u207b (4n for n=1), anti-aromatic."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Benzene (6\u03c0 e\u207b, n=1), Tropylium cation (6\u03c0 e\u207b, n=1), and Naphthalene (10\u03c0 e\u207b, n=2) are cyclic, planar, fully conjugated 4n+2 systems (Aromatic).\n\u2022 D is incorrect: Cyclobutadiene has 4\u03c0 e\u207b (4n for n=1), making it Anti-Aromatic.",
+    "keyFormulae": [
+      "\\text{Aromatic: } 2, 6, 10, 14 \\; \\pi\\text{-electrons}"
+    ],
+    "hints": [
+      "Check for (4n+2) \u03c0-electrons in cyclic planar conjugated rings."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-hyd-018",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "Ozonolysis Chemical Principles",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding Ozonolysis of Alkenes: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reductive ozonolysis (O\u2083 followed by Zn/H\u2082O) converts alkenes to aldehydes and ketones",
+        "isCorrect": true,
+        "explanation": "Zn destroys H\u2082O\u2082 to preserve aldehydes."
+      },
+      {
+        "id": "B",
+        "text": "Oxidative ozonolysis (O\u2083 followed by H\u2082O\u2082) converts aldehydes (RCHO) into carboxylic acids (RCOOH)",
+        "isCorrect": true,
+        "explanation": "H\u2082O\u2082 oxidizes aldehydes to acids."
+      },
+      {
+        "id": "C",
+        "text": "Ozonolysis of 2,3-dimethyl-2-butene yields two moles of Acetone ((CH\u2083)\u2082C=O)",
+        "isCorrect": true,
+        "explanation": "Tetrasubstituted double bond cleaves into two acetone molecules."
+      },
+      {
+        "id": "D",
+        "text": "Zinc in reductive ozonolysis functions to destroy H\u2082O\u2082 and prevent over-oxidation of aldehydes",
+        "isCorrect": true,
+        "explanation": "Role of Zn in reductive ozonolysis."
+      }
+    ],
+    "solutionExplanation": "All four options represent accurate chemical principles and product outcomes of ozonolysis reactions.",
+    "keyFormulae": [
+      "\\text{Reductive Ozonolysis: } \\text{C=C} \\xrightarrow{\\text{1. O}_3, \\text{ 2. Zn/H}_2\\text{O}} \\text{Carbonyls}"
+    ],
+    "hints": [
+      "Reductive ozonolysis stops at aldehydes/ketones; Oxidative oxidizes aldehydes to acids."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-hyd-019",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "Terminal Alkyne Chemical Tests",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following chemical tests can successfully distinguish Terminal Alkynes (R-C\u2261C-H) from Internal Alkynes (R-C\u2261C-R')? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reaction with Tollens' Reagent (Ammoniacal AgNO\u2083) yielding a White Precipitate",
+        "isCorrect": true,
+        "explanation": "Forms silver acetylide with terminal alkynes."
+      },
+      {
+        "id": "B",
+        "text": "Reaction with Fehling's Solution / Ammoniacal Cu\u2082Cl\u2082 yielding a Red Precipitate",
+        "isCorrect": true,
+        "explanation": "Forms copper acetylide with terminal alkynes."
+      },
+      {
+        "id": "C",
+        "text": "Reaction with metallic Sodium (Na) releasing H\u2082 gas",
+        "isCorrect": true,
+        "explanation": "Terminal acidic proton reacts with Na to release H\u2082."
+      },
+      {
+        "id": "D",
+        "text": "Decolorization of Bromine in CCl\u2084",
+        "isCorrect": false,
+        "explanation": "Both terminal and internal alkynes decolorize Br\u2082/CCl\u2084."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Terminal alkynes possess acidic sp-C-H protons that react with Ag\u207a, Cu\u207a, and Na metal. Internal alkynes lack acidic protons and give negative results.\n\u2022 D is incorrect: BOTH terminal and internal alkynes decolorize Br\u2082/CCl\u2084 solution.",
+    "keyFormulae": [
+      "\\text{Terminal Alkyne: } \\text{Acidic } sp\\text{-C-H} \\implies \\text{Reacts with } \\text{Ag}^+, \\; \\text{Cu}^+, \\; \\text{Na}"
+    ],
+    "hints": [
+      "Both terminal and internal alkynes decolorize bromine water."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-hyd-020",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Hydrocarbons",
+    "subtopic": "Free Radical Halogenation Facts",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding the Free Radical Halogenation of Alkanes: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bromination is highly selective for 3\u00b0 carbon centers compared to chlorination",
+        "isCorrect": true,
+        "explanation": "Bromine selectivity ratio is 3\u00b0:2\u00b0:1\u00b0 = 1600:82:1."
+      },
+      {
+        "id": "B",
+        "text": "The rate-determining step in halogenation is the hydrogen abstraction step by the halogen radical (X\u2022 + R-H \u2192 HX + R\u2022)",
+        "isCorrect": true,
+        "explanation": "Hydrogen abstraction is the slow propagation step."
+      },
+      {
+        "id": "C",
+        "text": "Iodination is reversible and requires an oxidizing agent (HNO\u2083 or HIO\u2083) to destroy HI",
+        "isCorrect": true,
+        "explanation": "Oxidizing agent removes HI to drive equilibrium forward."
+      },
+      {
+        "id": "D",
+        "text": "Fluorination is extremely slow and endothermic at all stages",
+        "isCorrect": false,
+        "explanation": "Fluorination is explosively fast and highly exothermic."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Bromine is selective (3\u00b0:1\u00b0 = 1600:1), hydrogen abstraction is rate-limiting, and iodination requires HNO\u2083/HIO\u2083 to oxidize HI \u2192 I\u2082.\n\u2022 D is incorrect: Fluorination is explosively fast and highly EXOTHERMIC, NOT slow or endothermic.",
+    "keyFormulae": [
+      "\\text{Selectivity: } \\text{Br}_2 \\gg \\text{Cl}_2 \\gg \\text{F}_2"
+    ],
+    "hints": [
+      "Fluorination is explosive and exothermic."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

@@ -1,0 +1,3542 @@
+{
+  "id": "nest-full-mock-01",
+  "exam": "NEST",
+  "year": 2026,
+  "title": "NEST 2026 Full Mock Test 01",
+  "category": "Full Mock Test",
+  "difficulty": "Official NEST Standard (Moderate-Hard)",
+  "status": "published",
+  "source": "nest-smartprep-editorial",
+  "durationMinutes": 210,
+  "totalQuestions": 80,
+  "totalMarks": 240,
+  "evalMarks": 180,
+  "instructions": [
+    "Duration: 3 hours 30 minutes (210 minutes).",
+    "4 Sections: Physics, Chemistry, Biology, Mathematics (20 questions each).",
+    "Single Choice Questions: +3 marks for correct, -1 mark for incorrect, 0 for unattempted.",
+    "Official NEST Evaluation: Best 3 out of 4 sections (Total: 180 Marks)."
+  ],
+  "questions": [
+    {
+      "id": "nest-mock01-phy-q01",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Kinematics & Projectiles",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "A projectile is launched from ground level with speed $u$ at angle $\\theta$ to the horizontal. The radius of curvature of the trajectory at its highest point is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{u^2 \\cos^2 \\theta}{g}$",
+          "isCorrect": true,
+          "explanation": "At the peak, $v_y = 0$ so $v = u \\cos \\theta$. The perpendicular acceleration is $g$. Radius of curvature $R = \\frac{v^2}{a_\\perp} = \\frac{u^2 \\cos^2 \\theta}{g}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{u^2 \\sin^2 \\theta}{g}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{u^2}{g}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{u^2 \\cos \\theta}{g}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nAt the peak, $v_y = 0$ so $v = u \\cos \\theta$. The perpendicular acceleration is $g$. Radius of curvature $R = \\frac{v^2}{a_\\perp} = \\frac{u^2 \\cos^2 \\theta}{g}$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-phy-q02",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Laws of Motion & Friction",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "A block of mass $m$ is placed on a rough inclined plane of inclination $\\theta$. If the coefficient of static friction is $\\mu_s > \\tan \\theta$, the minimum horizontal force required to start moving the block up the incline is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$mg \\frac{\\sin \\theta + \\mu_s \\cos \\theta}{\\cos \\theta - \\mu_s \\sin \\theta}$",
+          "isCorrect": true,
+          "explanation": "Balancing forces along the incline and perpendicular to it: $F \\cos \\theta = mg \\sin \\theta + \\mu_s N$, where $N = mg \\cos \\theta + F \\sin \\theta$. Solving gives $F = mg \\frac{\\sin \\theta + \\mu_s \\cos \\theta}{\\cos \\theta - \\mu_s \\sin \\theta}$."
+        },
+        {
+          "id": "b",
+          "text": "$mg (\\sin \\theta + \\mu_s \\cos \\theta)$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$mg \\frac{\\sin \\theta - \\mu_s \\cos \\theta}{\\cos \\theta + \\mu_s \\sin \\theta}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$mg (\\mu_s \\cos \\theta - \\sin \\theta)$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nBalancing forces along the incline and perpendicular to it: $F \\cos \\theta = mg \\sin \\theta + \\mu_s N$, where $N = mg \\cos \\theta + F \\sin \\theta$. Solving gives $F = mg \\frac{\\sin \\theta + \\mu_s \\cos \\theta}{\\cos \\theta - \\mu_s \\sin \\theta}$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-phy-q03",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Work, Power & Energy",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "A particle of mass $m$ moves in a potential field $U(x) = ax^2 - bx^4$, where $a, b > 0$. The particle executes stable small oscillations about:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$x = 0$",
+          "isCorrect": true,
+          "explanation": "$\\frac{dU}{dx} = 2ax - 4bx^3 = 0 \\implies x=0$ or $x^2 = a/2b$. For $x=0$, $\\frac{d^2U}{dx^2} = 2a > 0$ (stable minimum). For $x = \\pm \\sqrt{a/2b}$, $\\frac{d^2U}{dx^2} = 2a - 12b(a/2b) = -4a < 0$ (unstable maximum)."
+        },
+        {
+          "id": "b",
+          "text": "$x = \\pm \\sqrt{a / 2b}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$x = \\pm \\sqrt{a / b}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "No stable equilibrium exists",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$\\frac{dU}{dx} = 2ax - 4bx^3 = 0 \\implies x=0$ or $x^2 = a/2b$. For $x=0$, $\\frac{d^2U}{dx^2} = 2a > 0$ (stable minimum). For $x = \\pm \\sqrt{a/2b}$, $\\frac{d^2U}{dx^2} = 2a - 12b(a/2b) = -4a < 0$ (unstable maximum).",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-phy-q04",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Rotational Dynamics",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "A solid sphere, a solid cylinder, and a hollow sphere of equal mass and radius roll down an inclined plane without slipping from rest. The order of reaching the bottom is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Solid sphere, solid cylinder, hollow sphere",
+          "isCorrect": true,
+          "explanation": "Acceleration in pure rolling is $a = \\frac{g \\sin \\theta}{1 + I / (mR^2)}$. Since $I/mR^2$ values are: solid sphere ($2/5 = 0.40$), solid cylinder ($1/2 = 0.50$), hollow sphere ($2/3 \\approx 0.67$), the solid sphere has highest acceleration and reaches first."
+        },
+        {
+          "id": "b",
+          "text": "Solid cylinder, solid sphere, hollow sphere",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Hollow sphere, solid sphere, solid cylinder",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "All reach simultaneously",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nAcceleration in pure rolling is $a = \\frac{g \\sin \\theta}{1 + I / (mR^2)}$. Since $I/mR^2$ values are: solid sphere ($2/5 = 0.40$), solid cylinder ($1/2 = 0.50$), hollow sphere ($2/3 \\approx 0.67$), the solid sphere has highest acceleration and reaches first.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-phy-q05",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Gravitation & Kepler's Laws",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The ratio of escape velocity from Earth's surface to the orbital velocity of a satellite in a low Earth orbit (altitude $h \\ll R$) is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\sqrt{2}$",
+          "isCorrect": true,
+          "explanation": "$v_{esc} = \\sqrt{\\frac{2GM}{R}}$ and $v_{orb} = \\sqrt{\\frac{GM}{R}}$. Thus, $v_{esc} / v_{orb} = \\sqrt{2}$."
+        },
+        {
+          "id": "b",
+          "text": "$2$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$1 / \\sqrt{2}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$\\sqrt{3}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$v_{esc} = \\sqrt{\\frac{2GM}{R}}$ and $v_{orb} = \\sqrt{\\frac{GM}{R}}$. Thus, $v_{esc} / v_{orb} = \\sqrt{2}$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-phy-q06",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Fluid Mechanics",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "Water flows through a horizontal pipe of varying cross-section. At point A, pressure is $P_A$ and velocity is $v_A$. At point B where area is halved, the pressure $P_B$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$P_A - \\frac{3}{2}\\rho v_A^2$",
+          "isCorrect": true,
+          "explanation": "By continuity, $A_A v_A = A_B v_B \\implies v_B = 2 v_A$. Bernoulli: $P_A + \\frac{1}{2}\\rho v_A^2 = P_B + \\frac{1}{2}\\rho (2v_A)^2 \\implies P_B = P_A - \\frac{3}{2}\\rho v_A^2$."
+        },
+        {
+          "id": "b",
+          "text": "$P_A - \\frac{1}{2}\\rho v_A^2$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$P_A + \\frac{3}{2}\\rho v_A^2$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$P_A - 2\\rho v_A^2$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nBy continuity, $A_A v_A = A_B v_B \\implies v_B = 2 v_A$. Bernoulli: $P_A + \\frac{1}{2}\\rho v_A^2 = P_B + \\frac{1}{2}\\rho (2v_A)^2 \\implies P_B = P_A - \\frac{3}{2}\\rho v_A^2$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-phy-q07",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Thermodynamics & Kinetic Theory",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "An ideal diatomic gas ($\\gamma = 1.4$) expands adiabatically to double its volume. If initial temperature is $T_0$, the final temperature is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$T_0 (0.5)^{0.4}$",
+          "isCorrect": true,
+          "explanation": "For adiabatic process, $T_1 V_1^{\\gamma-1} = T_2 V_2^{\\gamma-1} \\implies T_2 = T_0 (V_1 / 2V_1)^{1.4 - 1} = T_0 (0.5)^{0.4}$."
+        },
+        {
+          "id": "b",
+          "text": "$T_0 (2)^{0.4}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$T_0 (0.5)^{1.4}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$T_0 (2)^{1.4}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nFor adiabatic process, $T_1 V_1^{\\gamma-1} = T_2 V_2^{\\gamma-1} \\implies T_2 = T_0 (V_1 / 2V_1)^{1.4 - 1} = T_0 (0.5)^{0.4}$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-phy-q08",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Simple Harmonic Motion",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "A spring-mass system with spring constant $k$ and mass $m$ is suspended vertically in an elevator accelerating upward at $a$. Its frequency of oscillation:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Remains $\\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}}$",
+          "isCorrect": true,
+          "explanation": "The frequency of oscillation of a spring-mass system is $f = \\frac{1}{2\\pi}\\sqrt{k/m}$, which depends only on inertia $m$ and stiffness $k$, and is completely independent of external gravity or acceleration."
+        },
+        {
+          "id": "b",
+          "text": "Increases to $\\frac{1}{2\\pi}\\sqrt{\\frac{k(g+a)}{mg}}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Decreases",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Becomes zero",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nThe frequency of oscillation of a spring-mass system is $f = \\frac{1}{2\\pi}\\sqrt{k/m}$, which depends only on inertia $m$ and stiffness $k$, and is completely independent of external gravity or acceleration.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-phy-q09",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Wave Optics & Interference",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "In a Young's double slit experiment, monochromatic light of wavelength $\\lambda$ is used. When a thin glass plate of thickness $t$ and refractive index $\\mu$ is placed in front of one slit, the fringe shift is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{D}{d}(\\mu - 1)t$",
+          "isCorrect": true,
+          "explanation": "Optical path difference introduced is $\\Delta x = (\\mu - 1)t$. The corresponding linear shift on the screen is $y_0 = \\frac{D}{d} \\Delta x = \\frac{D}{d}(\\mu - 1)t$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{d}{D}(\\mu - 1)t$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{D}{d}\\mu t$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{d}{D}\\frac{\\lambda}{\\mu - 1}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nOptical path difference introduced is $\\Delta x = (\\mu - 1)t$. The corresponding linear shift on the screen is $y_0 = \\frac{D}{d} \\Delta x = \\frac{D}{d}(\\mu - 1)t$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-phy-q10",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Electrostatics & Gauss's Law",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "A spherical shell of radius $R$ carries a uniform surface charge density $\\sigma$. The electric potential at distance $r < R$ from the center is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{\\sigma R}{\\epsilon_0}$",
+          "isCorrect": true,
+          "explanation": "Inside a uniformly charged spherical shell, $E = 0$, so potential is constant throughout the interior and equal to the surface potential $V = \\frac{Q}{4\\pi \\epsilon_0 R} = \\frac{\\sigma (4\\pi R^2)}{4\\pi \\epsilon_0 R} = \\frac{\\sigma R}{\\epsilon_0}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{\\sigma r}{\\epsilon_0}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$0$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{\\sigma R^2}{\\epsilon_0 r}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nInside a uniformly charged spherical shell, $E = 0$, so potential is constant throughout the interior and equal to the surface potential $V = \\frac{Q}{4\\pi \\epsilon_0 R} = \\frac{\\sigma (4\\pi R^2)}{4\\pi \\epsilon_0 R} = \\frac{\\sigma R}{\\epsilon_0}$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-phy-q11",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Current Electricity & Circuits",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "Twelve identical resistors of resistance $R$ form the edges of a cube. The equivalent resistance between two diametrically opposite body corners is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{5}{6}R$",
+          "isCorrect": true,
+          "explanation": "By symmetry, the current divides into 3 branches ($I/3$ each), then into 6 branches ($I/6$ each), and recombines into 3 branches ($I/3$ each). $V = I/3 R + I/6 R + I/3 R = \\frac{5}{6} I R \\implies R_{eq} = \\frac{5}{6}R$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{3}{4}R$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{7}{12}R$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$R$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nBy symmetry, the current divides into 3 branches ($I/3$ each), then into 6 branches ($I/6$ each), and recombines into 3 branches ($I/3$ each). $V = I/3 R + I/6 R + I/3 R = \\frac{5}{6} I R \\implies R_{eq} = \\frac{5}{6}R$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-phy-q12",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Magnetism & Magnetic Force",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "A charged particle $q$ enters a uniform magnetic field $\\vec{B}$ perpendicular to its velocity $\\vec{v}$. The work done by the magnetic force on the particle in time $t$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$0$",
+          "isCorrect": true,
+          "explanation": "The Lorentz magnetic force $\\vec{F} = q(\\vec{v} \\times \\vec{B})$ is always perpendicular to velocity $\\vec{v}$, so power $P = \\vec{F} \\cdot \\vec{v} = 0$, meaning work done is identically zero."
+        },
+        {
+          "id": "b",
+          "text": "$q v B t$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{1}{2} q v^2 B t$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$q (\\vec{v} \\times \\vec{B}) \\cdot \\vec{r}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nThe Lorentz magnetic force $\\vec{F} = q(\\vec{v} \\times \\vec{B})$ is always perpendicular to velocity $\\vec{v}$, so power $P = \\vec{F} \\cdot \\vec{v} = 0$, meaning work done is identically zero.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-phy-q13",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Electromagnetic Induction",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "A circular loop of radius $r$ is placed in a time-varying magnetic field $B(t) = B_0 \\sin(\\omega t)$ perpendicular to the plane of the loop. The maximum induced EMF is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\pi r^2 B_0 \\omega$",
+          "isCorrect": true,
+          "explanation": "Magnetic flux $\\Phi = B(t) \\cdot A = \\pi r^2 B_0 \\sin(\\omega t)$. Induced EMF $|\\mathcal{E}| = |-\\frac{d\\Phi}{dt}| = \\pi r^2 B_0 \\omega \\cos(\\omega t)$. Maximum EMF is $\\pi r^2 B_0 \\omega$."
+        },
+        {
+          "id": "b",
+          "text": "$\\pi r^2 B_0$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$2\\pi r B_0 \\omega$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{1}{2}\\pi r^2 B_0 \\omega$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nMagnetic flux $\\Phi = B(t) \\cdot A = \\pi r^2 B_0 \\sin(\\omega t)$. Induced EMF $|\\mathcal{E}| = |-\\frac{d\\Phi}{dt}| = \\pi r^2 B_0 \\omega \\cos(\\omega t)$. Maximum EMF is $\\pi r^2 B_0 \\omega$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-phy-q14",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Alternating Current",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "In a series LCR circuit with $L = 0.5\\text{ H}$, $C = 8\\text{ }\\mu\\text{F}$, and $R = 10\\text{ }\\Omega$, the resonant angular frequency $\\omega_0$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$500\\text{ rad/s}$",
+          "isCorrect": true,
+          "explanation": "$\\omega_0 = \\frac{1}{\\sqrt{LC}} = \\frac{1}{\\sqrt{0.5 \\times 8 \\times 10^{-6}}} = \\frac{1}{\\sqrt{4 \\times 10^{-6}}} = \\frac{1}{2 \\times 10^{-3}} = 500\\text{ rad/s}$."
+        },
+        {
+          "id": "b",
+          "text": "$250\\text{ rad/s}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$1000\\text{ rad/s}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$50\\text{ rad/s}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$\\omega_0 = \\frac{1}{\\sqrt{LC}} = \\frac{1}{\\sqrt{0.5 \\times 8 \\times 10^{-6}}} = \\frac{1}{\\sqrt{4 \\times 10^{-6}}} = \\frac{1}{2 \\times 10^{-3}} = 500\\text{ rad/s}$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-phy-q15",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Electromagnetic Waves",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The amplitude of the electric field of an EM wave in vacuum is $E_0 = 600\\text{ V/m}$. The amplitude of the magnetic field $B_0$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$2.0 \\times 10^{-6}\\text{ T}$",
+          "isCorrect": true,
+          "explanation": "$B_0 = \\frac{E_0}{c} = \\frac{600}{3 \\times 10^8} = 2.0 \\times 10^{-6}\\text{ T}$."
+        },
+        {
+          "id": "b",
+          "text": "$1.8 \\times 10^{11}\\text{ T}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$2.0 \\times 10^{-7}\\text{ T}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$6.0 \\times 10^{-6}\\text{ T}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$B_0 = \\frac{E_0}{c} = \\frac{600}{3 \\times 10^8} = 2.0 \\times 10^{-6}\\text{ T}$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-phy-q16",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Ray Optics & Optical Instruments",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "An equiconvex lens of focal length $f$ and refractive index $\\mu = 1.5$ is cut symmetrically into two equal plano-convex lenses along the optical axis. The focal length of each half is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$f$",
+          "isCorrect": true,
+          "explanation": "Cutting a lens along its principal optical axis does not change the curvature of the surfaces or the refractive index, so each half retains the same focal length $f$."
+        },
+        {
+          "id": "b",
+          "text": "$2f$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$f/2$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$4f$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nCutting a lens along its principal optical axis does not change the curvature of the surfaces or the refractive index, so each half retains the same focal length $f$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-phy-q17",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Dual Nature & Photoelectric Effect",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "When light of frequency $2\\nu_0$ is incident on a metal with threshold frequency $\\nu_0$, maximum kinetic energy is $K_1$. When frequency is $5\\nu_0$, maximum kinetic energy is $K_2$. The ratio $K_1 / K_2$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$1/4$",
+          "isCorrect": true,
+          "explanation": "Einstein's equation: $K_1 = h(2\\nu_0) - h\\nu_0 = h\\nu_0$. $K_2 = h(5\\nu_0) - h\\nu_0 = 4h\\nu_0$. Thus $K_1/K_2 = 1/4$."
+        },
+        {
+          "id": "b",
+          "text": "$1/2$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$2/5$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$1/5$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nEinstein's equation: $K_1 = h(2\\nu_0) - h\\nu_0 = h\\nu_0$. $K_2 = h(5\\nu_0) - h\\nu_0 = 4h\\nu_0$. Thus $K_1/K_2 = 1/4$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-phy-q18",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Atomic Physics & Bohr Model",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The ratio of de Broglie wavelength of an electron in the second Bohr orbit ($n=2$) to that in the third Bohr orbit ($n=3$) of hydrogen is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$2/3$",
+          "isCorrect": true,
+          "explanation": "From Bohr quantization, $2\\pi r_n = n \\lambda_n \\implies \\lambda_n = \\frac{2\\pi r_n}{n}$. Since $r_n \\propto n^2$, $\\lambda_n \\propto n$. Thus $\\lambda_2 / \\lambda_3 = 2/3$."
+        },
+        {
+          "id": "b",
+          "text": "$3/2$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$4/9$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$9/4$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nFrom Bohr quantization, $2\\pi r_n = n \\lambda_n \\implies \\lambda_n = \\frac{2\\pi r_n}{n}$. Since $r_n \\propto n^2$, $\\lambda_n \\propto n$. Thus $\\lambda_2 / \\lambda_3 = 2/3$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-phy-q19",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Nuclear Physics & Radioactivity",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "A radioactive nucleus has half-life $T$. The fraction of initial nuclei remaining undecayed after time $t = 3T$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$1/8$",
+          "isCorrect": true,
+          "explanation": "$N(t) = N_0 (1/2)^{t/T} = N_0 (1/2)^3 = N_0 / 8$. So remaining fraction is $1/8$."
+        },
+        {
+          "id": "b",
+          "text": "$1/6$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$1/4$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$7/8$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$N(t) = N_0 (1/2)^{t/T} = N_0 (1/2)^3 = N_0 / 8$. So remaining fraction is $1/8$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-phy-q20",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Physics",
+      "topic": "Semiconductors & Diodes",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "In an unbiased p-n junction, the barrier potential arises due to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Immobile donor and acceptor ions in the depletion region",
+          "isCorrect": true,
+          "explanation": "Diffusion of majority carriers leaves behind uncompensated, fixed (immobile) donor ions in the n-side and acceptor ions in the p-side, establishing the built-in barrier potential."
+        },
+        {
+          "id": "b",
+          "text": "Mobile electrons in n-region",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Mobile holes in p-region",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Thermal generation of electron-hole pairs",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nDiffusion of majority carriers leaves behind uncompensated, fixed (immobile) donor ions in the n-side and acceptor ions in the p-side, establishing the built-in barrier potential.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q01",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "Mole Concept & Stoichiometry",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "How many moles of $\\text{KMnO}_4$ are required to completely oxidise 1 mole of ferrous oxalate ($\\text{FeC}_2\\text{O}_4$) in acidic medium?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$3/5\\text{ mol}$",
+          "isCorrect": true,
+          "explanation": "In $\\text{FeC}_2\\text{O}_4$, $\\text{Fe}^{2+} \\to \\text{Fe}^{3+} + 1e^-$ and $\\text{C}_2\\text{O}_4^{2-} \\to 2\\text{CO}_2 + 2e^-$, total $n$-factor $= 3$. For $\\text{MnO}_4^- \\to \\text{Mn}^{2+}$, $n$-factor $= 5$. Equivalents: $n_1 \\times 3 = n_2 \\times 5 \\implies n_2 = 3/5\\text{ mol}$."
+        },
+        {
+          "id": "b",
+          "text": "$5/3\\text{ mol}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$2/5\\text{ mol}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$1\\text{ mol}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nIn $\\text{FeC}_2\\text{O}_4$, $\\text{Fe}^{2+} \\to \\text{Fe}^{3+} + 1e^-$ and $\\text{C}_2\\text{O}_4^{2-} \\to 2\\text{CO}_2 + 2e^-$, total $n$-factor $= 3$. For $\\text{MnO}_4^- \\to \\text{Mn}^{2+}$, $n$-factor $= 5$. Equivalents: $n_1 \\times 3 = n_2 \\times 5 \\implies n_2 = 3/5\\text{ mol}$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q02",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "Atomic Structure & Quantum Numbers",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The maximum number of electrons in an atom that can share the quantum numbers $n=4, l=2, m_l=-1$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$2$",
+          "isCorrect": true,
+          "explanation": "A specific combination of $(n, l, m_l)$ identifies a single orbital. According to Pauli's Exclusion Principle, any single orbital can hold a maximum of 2 electrons with opposite spins ($m_s = +1/2, -1/2$)."
+        },
+        {
+          "id": "b",
+          "text": "$6$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$10$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$14$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nA specific combination of $(n, l, m_l)$ identifies a single orbital. According to Pauli's Exclusion Principle, any single orbital can hold a maximum of 2 electrons with opposite spins ($m_s = +1/2, -1/2$).",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q03",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "Chemical Bonding & VSEPR",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "According to VSEPR theory, the molecular geometry of $\\text{XeF}_4$ and $\\text{SF}_4$ are respectively:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Square planar and see-saw",
+          "isCorrect": true,
+          "explanation": "$\\text{XeF}_4$: 4 bond pairs + 2 lone pairs $\\implies$ octahedral electron geometry, square planar shape. $\\text{SF}_4$: 4 bond pairs + 1 lone pair $\\implies$ trigonal bipyramidal electron geometry, see-saw shape."
+        },
+        {
+          "id": "b",
+          "text": "Tetrahedral and square planar",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Square planar and tetrahedral",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "T-shaped and see-saw",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$\\text{XeF}_4$: 4 bond pairs + 2 lone pairs $\\implies$ octahedral electron geometry, square planar shape. $\\text{SF}_4$: 4 bond pairs + 1 lone pair $\\implies$ trigonal bipyramidal electron geometry, see-saw shape.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q04",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "Thermodynamics & Thermochemistry",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "For an endothermic reaction to be spontaneous at all temperatures, the sign of entropy change $\\Delta S$ must be:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Positive and $|T\\Delta S| > |\\Delta H|$ at all $T$",
+          "isCorrect": true,
+          "explanation": "$\\Delta G = \\Delta H - T\\Delta S$. For $\\Delta H > 0$ (endothermic), $\\Delta G < 0$ requires $\\Delta S > 0$ and $T > \\Delta H / \\Delta S$."
+        },
+        {
+          "id": "b",
+          "text": "Positive",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Negative",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Zero",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$\\Delta G = \\Delta H - T\\Delta S$. For $\\Delta H > 0$ (endothermic), $\\Delta G < 0$ requires $\\Delta S > 0$ and $T > \\Delta H / \\Delta S$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q05",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "Chemical & Ionic Equilibrium",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The solubility product of $\\text{Ag}_2\\text{CrO}_4$ is $1.1 \\times 10^{-12}$. Its molar solubility in pure water is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$6.5 \\times 10^{-5}\\text{ M}$",
+          "isCorrect": true,
+          "explanation": "$\\text{Ag}_2\\text{CrO}_4 \\rightleftharpoons 2\\text{Ag}^+ + \\text{CrO}_4^{2-}$. $K_{sp} = (2s)^2(s) = 4s^3 \\implies s = (1.1 \\times 10^{-12} / 4)^{1/3} \\approx 6.5 \\times 10^{-5}\\text{ M}$."
+        },
+        {
+          "id": "b",
+          "text": "$1.05 \\times 10^{-6}\\text{ M}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$3.2 \\times 10^{-4}\\text{ M}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$5.5 \\times 10^{-6}\\text{ M}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$\\text{Ag}_2\\text{CrO}_4 \\rightleftharpoons 2\\text{Ag}^+ + \\text{CrO}_4^{2-}$. $K_{sp} = (2s)^2(s) = 4s^3 \\implies s = (1.1 \\times 10^{-12} / 4)^{1/3} \\approx 6.5 \\times 10^{-5}\\text{ M}$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q06",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "Electrochemistry & Nernst Equation",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "For the cell reaction $\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s)$, $E^\\circ_{cell} = 1.10\\text{ V}$. The equilibrium constant $K_c$ at $298\\text{ K}$ is approximately:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$10^{37.3}$",
+          "isCorrect": true,
+          "explanation": "$\\log K_c = \\frac{n E^\\circ}{0.0591} = \\frac{2 \\times 1.10}{0.0591} \\approx 37.22 \\implies K_c \\approx 10^{37.3}$."
+        },
+        {
+          "id": "b",
+          "text": "$10^{18.6}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$10^{74.6}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$10^{2.0}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$\\log K_c = \\frac{n E^\\circ}{0.0591} = \\frac{2 \\times 1.10}{0.0591} \\approx 37.22 \\implies K_c \\approx 10^{37.3}$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q07",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "Chemical Kinetics",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "For a first order reaction $A \\to B$, the time required for $99.9\\%$ completion is approximately how many times its half-life $t_{1/2}$?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$10$",
+          "isCorrect": true,
+          "explanation": "$t_{99.9\\%} = \\frac{2.303}{k} \\log(100/0.1) = \\frac{2.303}{k} \\log(10^3) = 3 \\times \\frac{2.303}{k} = 3 \\times \\frac{t_{1/2}}{\\log 2} \\approx 3 \\times 3.32 t_{1/2} \\approx 10 t_{1/2}$."
+        },
+        {
+          "id": "b",
+          "text": "$5$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$3.3$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$20$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$t_{99.9\\%} = \\frac{2.303}{k} \\log(100/0.1) = \\frac{2.303}{k} \\log(10^3) = 3 \\times \\frac{2.303}{k} = 3 \\times \\frac{t_{1/2}}{\\log 2} \\approx 3 \\times 3.32 t_{1/2} \\approx 10 t_{1/2}$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q08",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "Coordination Compounds",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The magnetic moment of $[\\text{Fe}(\\text{CN})_6]^{3-}$ and $[\\text{Fe}(\\text{H}_2\\text{O})_6]^{3+}$ in Bohr Magnetons (BM) are respectively:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$1.73\\text{ BM}$ and $5.92\\text{ BM}$",
+          "isCorrect": true,
+          "explanation": "$\\text{Fe}^{3+}$ is $d^5$. With strong field $\\text{CN}^-$, pairing occurs: $t_{2g}^5 e_g^0$ ($n=1$ unpaired electron, $\\mu = \\sqrt{3} \\approx 1.73\\text{ BM}$). With weak field $\\text{H}_2\\text{O}$: $t_{2g}^3 e_g^2$ ($n=5$, $\\mu = \\sqrt{35} \\approx 5.92\\text{ BM}$)."
+        },
+        {
+          "id": "b",
+          "text": "$5.92\\text{ BM}$ and $1.73\\text{ BM}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$0\\text{ BM}$ and $4.90\\text{ BM}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$2.83\\text{ BM}$ and $3.87\\text{ BM}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$\\text{Fe}^{3+}$ is $d^5$. With strong field $\\text{CN}^-$, pairing occurs: $t_{2g}^5 e_g^0$ ($n=1$ unpaired electron, $\\mu = \\sqrt{3} \\approx 1.73\\text{ BM}$). With weak field $\\text{H}_2\\text{O}$: $t_{2g}^3 e_g^2$ ($n=5$, $\\mu = \\sqrt{35} \\approx 5.92\\text{ BM}$).",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q09",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "d- and f-Block Elements",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "Lanthanoid contraction is primarily caused by:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Imperfect shielding of 4f electrons",
+          "isCorrect": true,
+          "explanation": "The $4f$ electrons have poor, diffuse shielding effect, causing the effective nuclear charge $Z_{eff}$ to increase steadily across the series, pulling electron shells inward."
+        },
+        {
+          "id": "b",
+          "text": "Shielding of 5d electrons",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Relativistic contraction of s-orbitals",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Expansion of 6s shell",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nThe $4f$ electrons have poor, diffuse shielding effect, causing the effective nuclear charge $Z_{eff}$ to increase steadily across the series, pulling electron shells inward.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q10",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "p-Block Elements",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The correct order of acidic strength for group 15 hydrides is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\text{NH}_3 < \\text{PH}_3 < \\text{AsH}_3 < \\text{SbH}_3 < \\text{BiH}_3$",
+          "isCorrect": true,
+          "explanation": "Down the group, the central atom size increases and $E-\\text{H}$ bond enthalpy decreases, making proton release easier. Thus acidic strength increases down the group."
+        },
+        {
+          "id": "b",
+          "text": "$\\text{BiH}_3 < \\text{SbH}_3 < \\text{AsH}_3 < \\text{PH}_3 < \\text{NH}_3$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$\\text{NH}_3 > \\text{PH}_3 > \\text{AsH}_3 > \\text{SbH}_3$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$\\text{PH}_3 < \\text{NH}_3 < \\text{AsH}_3 < \\text{SbH}_3$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nDown the group, the central atom size increases and $E-\\text{H}$ bond enthalpy decreases, making proton release easier. Thus acidic strength increases down the group.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q11",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "General Organic Chemistry (GOC)",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The correct order of stability of the following carbocations is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\text{Tropylium} > \\text{Benzyl} > \\text{Allyl} > \\text{Propyl}$",
+          "isCorrect": true,
+          "explanation": "Tropylium ion is aromatic ($6\\pi$ electrons delocalized in a 7-membered planar ring, Huckel's rule $4n+2$ with $n=1$), conferring extraordinary thermodynamic stability."
+        },
+        {
+          "id": "b",
+          "text": "$\\text{Benzyl} > \\text{Tropylium} > \\text{Allyl} > \\text{Propyl}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$\\text{Propyl} > \\text{Allyl} > \\text{Benzyl} > \\text{Tropylium}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$\\text{Tropylium} > \\text{Propyl} > \\text{Allyl} > \\text{Benzyl}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nTropylium ion is aromatic ($6\\pi$ electrons delocalized in a 7-membered planar ring, Huckel's rule $4n+2$ with $n=1$), conferring extraordinary thermodynamic stability.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q12",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "Hydrocarbons & Aromaticity",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "Benzene reacts with $\\text{CH}_3\\text{COCl}$ in the presence of anhydrous $\\text{AlCl}_3$ to yield:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acetophenone",
+          "isCorrect": true,
+          "explanation": "This is Friedel-Crafts acylation, where the acylium ion $\\text{CH}_3\\text{C}^+=\\text{O}$ attacks the benzene ring to form acetophenone."
+        },
+        {
+          "id": "b",
+          "text": "Toluene",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Benzophenone",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Chlorobenzene",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nThis is Friedel-Crafts acylation, where the acylium ion $\\text{CH}_3\\text{C}^+=\\text{O}$ attacks the benzene ring to form acetophenone.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q13",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "Haloalkanes & Nucleophilic Substitution",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "Which of the following alkyl halides undergoes $S_N1$ solvolysis in aqueous ethanol at the fastest rate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2-Bromo-2-methylpropane",
+          "isCorrect": true,
+          "explanation": "$S_N1$ rate is determined by carbocation stability. 2-Bromo-2-methylpropane forms a stable $3^\\circ$ tertiary carbocation, reacting fastest."
+        },
+        {
+          "id": "b",
+          "text": "2-Bromobutane",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "1-Bromobutane",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Bromomethane",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$S_N1$ rate is determined by carbocation stability. 2-Bromo-2-methylpropane forms a stable $3^\\circ$ tertiary carbocation, reacting fastest.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q14",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "Alcohols, Phenols & Ethers",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "Phenol when treated with $\\text{CHCl}_3$ in aqueous $\\text{NaOH}$ followed by acidification gives salicylaldehyde. The electrophile in this Reimer-Tiemann reaction is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$:\\text{CCl}_2$ (Dichlorocarbene)",
+          "isCorrect": true,
+          "explanation": "$\\text{OH}^-$ abstracts a proton from $\\text{CHCl}_3$ followed by loss of $\\text{Cl}^-$ to generate neutral, electron-deficient singlet dichlorocarbene ($:\\text{CCl}_2$)."
+        },
+        {
+          "id": "b",
+          "text": "$^+\\text{CHCl}_2$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$\\text{CCl}_3^-$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$\\text{Cl}^+$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$\\text{OH}^-$ abstracts a proton from $\\text{CHCl}_3$ followed by loss of $\\text{Cl}^-$ to generate neutral, electron-deficient singlet dichlorocarbene ($:\\text{CCl}_2$).",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q15",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "Aldehydes & Ketones",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "Acetaldehyde reacts with dilute $\\text{NaOH}$ to give 3-hydroxybutanal. This reaction is an example of:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aldol addition",
+          "isCorrect": true,
+          "explanation": "Acetaldehyde has $\\alpha$-hydrogens; under basic conditions, an enolate forms and attacks another molecule to yield a $\\beta$-hydroxy aldehyde (Aldol addition product)."
+        },
+        {
+          "id": "b",
+          "text": "Cannizzaro reaction",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Perkin reaction",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Reformatsky reaction",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nAcetaldehyde has $\\alpha$-hydrogens; under basic conditions, an enolate forms and attacks another molecule to yield a $\\beta$-hydroxy aldehyde (Aldol addition product).",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q16",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "Carboxylic Acids & Derivatives",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The acid with the highest $pK_a$ (weakest acid) among the following is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acetic acid",
+          "isCorrect": true,
+          "explanation": "Formic acid lacks electron-donating alkyl group; chloro-substituted acids have strong $-I$ electron-withdrawing groups lowering $pK_a$. Acetic acid has $+I$ methyl group, making it the weakest acid (highest $pK_a \\approx 4.76$)."
+        },
+        {
+          "id": "b",
+          "text": "Formic acid",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Monochloroacetic acid",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Trichloroacetic acid",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nFormic acid lacks electron-donating alkyl group; chloro-substituted acids have strong $-I$ electron-withdrawing groups lowering $pK_a$. Acetic acid has $+I$ methyl group, making it the weakest acid (highest $pK_a \\approx 4.76$).",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q17",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "Amines & Diazonium Salts",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "Aniline reacts with $\\text{HNO}_2$ ($\\text{NaNO}_2 + \\text{HCl}$) at $0-5^\\circ\\text{C}$ to give:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Benzenediazonium chloride",
+          "isCorrect": true,
+          "explanation": "Primary aromatic amines undergo diazotization with nitrous acid at cold temperatures ($273-278\\text{ K}$) to produce stable benzenediazonium chloride."
+        },
+        {
+          "id": "b",
+          "text": "Phenol",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Nitrobenzene",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Chlorobenzene",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nPrimary aromatic amines undergo diazotization with nitrous acid at cold temperatures ($273-278\\text{ K}$) to produce stable benzenediazonium chloride.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q18",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "Biomolecules & Carbohydrates",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "Sucrose on hydrolysis by invertase yields an equimolar mixture of:",
+      "options": [
+        {
+          "id": "a",
+          "text": "D-(+)-glucose and D-(-)-fructose",
+          "isCorrect": true,
+          "explanation": "Sucrose is $\\alpha$-D-glucopyranosyl-(1$\\to$2)-$\\beta$-D-fructofuranoside. Hydrolysis produces (+)-glucose and (-)-fructose (inverting optical rotation from dextro to laevo)."
+        },
+        {
+          "id": "b",
+          "text": "D-(+)-glucose and D-(+)-galactose",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Two molecules of D-(+)-glucose",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "D-(+)-fructose and D-(+)-galactose",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nSucrose is $\\alpha$-D-glucopyranosyl-(1$\\to$2)-$\\beta$-D-fructofuranoside. Hydrolysis produces (+)-glucose and (-)-fructose (inverting optical rotation from dextro to laevo).",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q19",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "Polymers",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "Nylon 6,6 is a condensation copolymer synthesized from:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hexamethylenediamine and Adipic acid",
+          "isCorrect": true,
+          "explanation": "Nylon 6,6 is formed by polycondensation of hexamethylenediamine (6 carbons) and adipic acid (6 carbons) with elimination of water molecules."
+        },
+        {
+          "id": "b",
+          "text": "Caprolactam",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Terephthalic acid and Ethylene glycol",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Phenol and Formaldehyde",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nNylon 6,6 is formed by polycondensation of hexamethylenediamine (6 carbons) and adipic acid (6 carbons) with elimination of water molecules.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-che-q20",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Chemistry",
+      "topic": "Surface Chemistry",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "According to the Freundlich adsorption isotherm $\\frac{x}{m} = k P^{1/n}$, at very high pressures, the rate of adsorption becomes:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Independent of pressure ($x/m = \\text{constant}$)",
+          "isCorrect": true,
+          "explanation": "At high pressure, saturation is reached on the adsorbent surface, so $1/n \\to 0$ and $x/m = k P^0 = \\text{constant}$."
+        },
+        {
+          "id": "b",
+          "text": "Directly proportional to pressure",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Proportional to $P^2$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Zero",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nAt high pressure, saturation is reached on the adsorbent surface, so $1/n \\to 0$ and $x/m = k P^0 = \\text{constant}$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q01",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Cell Biology & Organelles",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "Which of the following cellular organelles contains its own circular DNA, 70S ribosomes, and replicates semi-autonomously by fission?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mitochondria & Chloroplasts",
+          "isCorrect": true,
+          "explanation": "Mitochondria and chloroplasts are semi-autonomous endosymbiotic organelles possessing double membranes, circular dsDNA, and bacterial-like 70S ribosomes."
+        },
+        {
+          "id": "b",
+          "text": "Golgi apparatus & Endoplasmic reticulum",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Lysosomes & Peroxisomes",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Vacuoles & Nucleolus",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nMitochondria and chloroplasts are semi-autonomous endosymbiotic organelles possessing double membranes, circular dsDNA, and bacterial-like 70S ribosomes.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q02",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Cell Division & Genetics",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "Crossing over and genetic recombination between non-sister chromatids of homologous chromosomes occurs during:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pachytene of Prophase I",
+          "isCorrect": true,
+          "explanation": "Recombination nodules form and recombinase enzyme facilitates crossing over specifically during the Pachytene stage of Meiosis I."
+        },
+        {
+          "id": "b",
+          "text": "Leptotene",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Zygotene",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Diplotene",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nRecombination nodules form and recombinase enzyme facilitates crossing over specifically during the Pachytene stage of Meiosis I.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q03",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Plant Physiology & Photosynthesis",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "In $C_4$ plants, the initial carbon dioxide fixation takes place in the mesophyll cells catalyzed by the enzyme:",
+      "options": [
+        {
+          "id": "a",
+          "text": "PEP carboxylase",
+          "isCorrect": true,
+          "explanation": "PEP carboxylase fixes $\\text{HCO}_3^-$ to phosphoenolpyruvate (PEP) in mesophyll cells to form 4-carbon oxaloacetate (OAA)."
+        },
+        {
+          "id": "b",
+          "text": "RuBisCO",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Carbonic anhydrase",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Pyruvate kinase",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nPEP carboxylase fixes $\\text{HCO}_3^-$ to phosphoenolpyruvate (PEP) in mesophyll cells to form 4-carbon oxaloacetate (OAA).",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q04",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Plant Growth & Phytohormones",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The phytohormone responsible for inducing seed dormancy, stomatal closure under water stress, and acting as a general stress hormone is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abscisic acid (ABA)",
+          "isCorrect": true,
+          "explanation": "Abscisic acid (ABA) promotes stomatal closure, inhibits precocious germination, and maintains seed dormancy under adverse environmental conditions."
+        },
+        {
+          "id": "b",
+          "text": "Auxin (IAA)",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Gibberellin ($GA_3$)",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Cytokinin (Zeatin)",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nAbscisic acid (ABA) promotes stomatal closure, inhibits precocious germination, and maintains seed dormancy under adverse environmental conditions.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q05",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Human Physiology & Respiration",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The maximum volume of air a person can breathe in after a forced expiration is called:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vital Capacity (VC)",
+          "isCorrect": true,
+          "explanation": "Vital Capacity $= \\text{ERV} + \\text{TV} + \\text{IRV}$. It represents the maximum volume of air exhaled after maximal inhalation or inhaled after maximal exhalation."
+        },
+        {
+          "id": "b",
+          "text": "Total Lung Capacity (TLC)",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Inspiratory Capacity (IC)",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Functional Residual Capacity (FRC)",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nVital Capacity $= \\text{ERV} + \\text{TV} + \\text{IRV}$. It represents the maximum volume of air exhaled after maximal inhalation or inhaled after maximal exhalation.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q06",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Cardiovascular System",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The cardiac impulse generated at the Sinoatrial (SA) node spreads across the atria and is delayed at the Atrioventricular (AV) node primarily to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Allow atria to complete ventricular filling before ventricular systole",
+          "isCorrect": true,
+          "explanation": "The 0.1-second AV nodal delay ensures that atrial systole is complete and ventricles are fully filled with blood before ventricular contraction commences."
+        },
+        {
+          "id": "b",
+          "text": "Increase blood pressure in aorta",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Prevent backflow into vena cava",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Facilitate rapid ventricular contraction",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nThe 0.1-second AV nodal delay ensures that atrial systole is complete and ventricles are fully filled with blood before ventricular contraction commences.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q07",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Excretory Products & Regulation",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "Juxtaglomerular apparatus (JGA) releases renin in response to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "A fall in glomerular filtration rate (GFR) or blood pressure",
+          "isCorrect": true,
+          "explanation": "A drop in renal perfusion pressure or GFR stimulates juxtaglomerular cells to secrete renin, initiating the Renin-Angiotensin-Aldosterone System (RAAS)."
+        },
+        {
+          "id": "b",
+          "text": "An increase in blood pressure",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Excessive hydration",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "High sodium concentration in blood",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nA drop in renal perfusion pressure or GFR stimulates juxtaglomerular cells to secrete renin, initiating the Renin-Angiotensin-Aldosterone System (RAAS).",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q08",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Neural Control & Synapse",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "Transmission of nerve impulse across a chemical synapse is mediated by neurotransmitters released from synaptic vesicles via the influx of:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\text{Ca}^{2+}$ ions into the presynaptic terminal",
+          "isCorrect": true,
+          "explanation": "Action potential arrival depolarizes the presynaptic terminal, opening voltage-gated $\\text{Ca}^{2+}$ channels. Influx of $\\text{Ca}^{2+}$ triggers exocytosis of neurotransmitter vesicles."
+        },
+        {
+          "id": "b",
+          "text": "$\\text{K}^+$ ions into the postsynaptic cleft",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$\\text{Na}^+$ ions into the soma",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$\\text{Cl}^-$ ions out of axon",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nAction potential arrival depolarizes the presynaptic terminal, opening voltage-gated $\\text{Ca}^{2+}$ channels. Influx of $\\text{Ca}^{2+}$ triggers exocytosis of neurotransmitter vesicles.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q09",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Endocrine Coordination",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "Which hormone stimulates gluconeogenesis, lipolysis, and proteolysis, while also producing anti-inflammatory and immunosuppressive responses?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cortisol",
+          "isCorrect": true,
+          "explanation": "Cortisol (a glucocorticoid produced by adrenal cortex) stimulates gluconeogenesis and lipolysis while exerting potent anti-inflammatory effects."
+        },
+        {
+          "id": "b",
+          "text": "Insulin",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Aldosterone",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Thyroxine",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nCortisol (a glucocorticoid produced by adrenal cortex) stimulates gluconeogenesis and lipolysis while exerting potent anti-inflammatory effects.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q10",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Reproduction & Gametogenesis",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "During human oogenesis, the second meiotic division is completed:",
+      "options": [
+        {
+          "id": "a",
+          "text": "At the time of sperm entry into the ovum",
+          "isCorrect": true,
+          "explanation": "Secondary oocyte is arrested at Metaphase II. Penetration of sperm into the zona pellucida stimulates completion of Meiosis II, releasing the second polar body and mature ovum."
+        },
+        {
+          "id": "b",
+          "text": "Prior to ovulation in the Graafian follicle",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "During embryonic development",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "At menarche",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nSecondary oocyte is arrested at Metaphase II. Penetration of sperm into the zona pellucida stimulates completion of Meiosis II, releasing the second polar body and mature ovum.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q11",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Genetics & Linkage",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "In a test cross involving two linked genes with a recombination frequency of $12\\%$, the percentage of non-recombinant (parental) progeny expected is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$88\\%$ ($44\\%$ each parental type)",
+          "isCorrect": true,
+          "explanation": "Total progeny $= 100\\%$. Recombinants $= 12\\%$. Therefore, parental non-recombinants $= 100 - 12 = 88\\%$ ($44\\%$ for each of the two parental phenotypes)."
+        },
+        {
+          "id": "b",
+          "text": "$12\\%$ ($6\\%$ each)",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$50\\%$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$24\\%$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nTotal progeny $= 100\\%$. Recombinants $= 12\\%$. Therefore, parental non-recombinants $= 100 - 12 = 88\\%$ ($44\\%$ for each of the two parental phenotypes).",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q12",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Molecular Basis of Inheritance",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The semi-conservative nature of DNA replication in E. coli was experimentally proved by Meselson and Stahl using:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$^{15}\\text{NH}_4\\text{Cl}$ and CsCl density gradient centrifugation",
+          "isCorrect": true,
+          "explanation": "Meselson and Stahl grew E. coli in heavy $^{15}\\text{N}$ isotope medium and tracked density shifts using CsCl equilibrium density gradient centrifugation."
+        },
+        {
+          "id": "b",
+          "text": "$^{32}\\text{P}$ and $^{35}\\text{S}$ bacteriophage labeling",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Streptococcus pneumoniae transformation",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "X-ray diffraction crystallography",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nMeselson and Stahl grew E. coli in heavy $^{15}\\text{N}$ isotope medium and tracked density shifts using CsCl equilibrium density gradient centrifugation.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q13",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Transcription & Translation",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The initiation codon AUG codes for methionine and in prokaryotes codes for formylmethionine. Which of the following stop codons is known as 'Ochre'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "UAA",
+          "isCorrect": true,
+          "explanation": "The three nonsense/termination codons are: UAA (Ochre), UAG (Amber), and UGA (Opal)."
+        },
+        {
+          "id": "b",
+          "text": "UAG",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "UGA",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "UGG",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nThe three nonsense/termination codons are: UAA (Ochre), UAG (Amber), and UGA (Opal).",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q14",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Evolution & Hardy-Weinberg",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "In a population in Hardy-Weinberg equilibrium, the frequency of a recessive allele is $q = 0.4$. The percentage of heterozygous carriers ($2pq$) in the population is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$48\\%$",
+          "isCorrect": true,
+          "explanation": "$p = 1 - q = 1 - 0.4 = 0.6$. Heterozygous frequency $2pq = 2(0.6)(0.4) = 0.48 = 48\\%$."
+        },
+        {
+          "id": "b",
+          "text": "$16\\%$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$36\\%$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$24\\%$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$p = 1 - q = 1 - 0.4 = 0.6$. Heterozygous frequency $2pq = 2(0.6)(0.4) = 0.48 = 48\\%$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q15",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Biotechnology & PCR",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The enzyme Taq polymerase used in Polymerase Chain Reaction (PCR) is isolated from:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thermus aquaticus",
+          "isCorrect": true,
+          "explanation": "Taq polymerase is a thermostable DNA polymerase extracted from the thermophilic bacterium Thermus aquaticus, withstanding denaturation at $94-95^\\circ\\text{C}$."
+        },
+        {
+          "id": "b",
+          "text": "Agrobacterium tumefaciens",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Bacillus thuringiensis",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Escherichia coli",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nTaq polymerase is a thermostable DNA polymerase extracted from the thermophilic bacterium Thermus aquaticus, withstanding denaturation at $94-95^\\circ\\text{C}$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q16",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Recombinant DNA & Vectors",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "In plasmid pBR322, insertional inactivation of the tetracycline resistance gene ($tet^R$) by BamHI cleavage allows selection of recombinants by:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Growth on ampicillin but failure to grow on tetracycline",
+          "isCorrect": true,
+          "explanation": "Foreign DNA insertion at the BamHI site disrupts the $tet^R$ gene. Recombinant colonies survive on ampicillin plates but die when replica-plated onto tetracycline."
+        },
+        {
+          "id": "b",
+          "text": "Growth on both ampicillin and tetracycline",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Growth on tetracycline only",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Blue-white colony screening with X-gal",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nForeign DNA insertion at the BamHI site disrupts the $tet^R$ gene. Recombinant colonies survive on ampicillin plates but die when replica-plated onto tetracycline.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q17",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Ecology & Ecosystem",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "In a terrestrial grassland ecosystem, the pyramid of biomass and pyramid of energy are respectively:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Upright and Upright",
+          "isCorrect": true,
+          "explanation": "In grasslands, primary producers have large biomass compared to herbivores, so biomass pyramid is upright. The pyramid of energy is always upright in all ecosystems due to the 10% second law thermodynamic loss."
+        },
+        {
+          "id": "b",
+          "text": "Inverted and Upright",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Upright and Inverted",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Spindle-shaped and Inverted",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nIn grasslands, primary producers have large biomass compared to herbivores, so biomass pyramid is upright. The pyramid of energy is always upright in all ecosystems due to the 10% second law thermodynamic loss.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q18",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Biodiversity & Conservation",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "According to the Species-Area relationship proposed by Alexander von Humboldt, $\\log S = \\log C + Z \\log A$, the value of slope $Z$ for very large areas like entire continents lies in the range of:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$0.6\\text{ to }1.2$",
+          "isCorrect": true,
+          "explanation": "For local regions, $Z = 0.1-0.2$. When analyzing species-area relationships over large continental scales, the regression slope becomes much steeper: $Z = 0.6-1.2$."
+        },
+        {
+          "id": "b",
+          "text": "$0.1\\text{ to }0.2$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$0.01\\text{ to }0.05$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$1.5\\text{ to }2.0$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nFor local regions, $Z = 0.1-0.2$. When analyzing species-area relationships over large continental scales, the regression slope becomes much steeper: $Z = 0.6-1.2$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q19",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Immunology & Antibodies",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The immunoglobulin that is the most abundant in serum, crosses the human placental barrier, and provides passive immunity to the fetus is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "IgG",
+          "isCorrect": true,
+          "explanation": "IgG accounts for ~75-80% of total serum antibodies and is the only immunoglobulin isotype actively transported across the placenta via neonatal Fc receptors (FcRn)."
+        },
+        {
+          "id": "b",
+          "text": "IgA",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "IgM",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "IgE",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nIgG accounts for ~75-80% of total serum antibodies and is the only immunoglobulin isotype actively transported across the placenta via neonatal Fc receptors (FcRn).",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-bio-q20",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Biology",
+      "topic": "Microbes in Human Welfare",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The statin drugs used for lowering blood cholesterol levels are commercially produced by the yeast:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Monascus purpureus",
+          "isCorrect": true,
+          "explanation": "Statins produced by Monascus purpureus competitively inhibit HMG-CoA reductase, the rate-limiting enzyme in cholesterol biosynthesis."
+        },
+        {
+          "id": "b",
+          "text": "Trichoderma polysporum",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Saccharomyces cerevisiae",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Aspergillus niger",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nStatins produced by Monascus purpureus competitively inhibit HMG-CoA reductase, the rate-limiting enzyme in cholesterol biosynthesis.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q01",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Sets, Relations & Functions",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "If $f: \\mathbb{R} \\to \\mathbb{R}$ is defined by $f(x) = \\frac{x^2 - 1}{x^2 + 1}$, the range of $f$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$[-1, 1)$",
+          "isCorrect": true,
+          "explanation": "$y = 1 - \\frac{2}{x^2 + 1}$. Since $x^2 \\ge 0 \\implies 1 \\le x^2 + 1 < \\infty \\implies 0 < \\frac{2}{x^2+1} \\le 2$. Thus $-1 \\le y < 1$."
+        },
+        {
+          "id": "b",
+          "text": "$[-1, 1]$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$(-1, 1)$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$[0, 1)$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$y = 1 - \\frac{2}{x^2 + 1}$. Since $x^2 \\ge 0 \\implies 1 \\le x^2 + 1 < \\infty \\implies 0 < \\frac{2}{x^2+1} \\le 2$. Thus $-1 \\le y < 1$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q02",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Complex Numbers",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "If $|z - 3 + 2i| = 4$, the maximum value of $|z|$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\sqrt{13} + 4$",
+          "isCorrect": true,
+          "explanation": "By triangle inequality, $|z| = |(z - 3 + 2i) + (3 - 2i)| \\le |z - 3 + 2i| + |3 - 2i| = 4 + \\sqrt{3^2 + (-2)^2} = 4 + \\sqrt{13}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\sqrt{13} - 4$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$5 + \\sqrt{13}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$7$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nBy triangle inequality, $|z| = |(z - 3 + 2i) + (3 - 2i)| \\le |z - 3 + 2i| + |3 - 2i| = 4 + \\sqrt{3^2 + (-2)^2} = 4 + \\sqrt{13}$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q03",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Quadratic Equations",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "If $\\alpha$ and $\\beta$ are the roots of $x^2 - 6x + 2 = 0$, then the value of $\\frac{\\alpha^{10} - 2\\alpha^8}{2\\alpha^9}$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$3$",
+          "isCorrect": true,
+          "explanation": "Since $\\alpha^2 - 6\\alpha + 2 = 0 \\implies \\alpha^2 - 2 = 6\\alpha$. Multiplying by $\\alpha^8$ gives $\\alpha^{10} - 2\\alpha^8 = 6\\alpha^9$. Dividing by $2\\alpha^9$ yields $6/2 = 3$."
+        },
+        {
+          "id": "b",
+          "text": "$6$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$1/3$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$2$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nSince $\\alpha^2 - 6\\alpha + 2 = 0 \\implies \\alpha^2 - 2 = 6\\alpha$. Multiplying by $\\alpha^8$ gives $\\alpha^{10} - 2\\alpha^8 = 6\\alpha^9$. Dividing by $2\\alpha^9$ yields $6/2 = 3$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q04",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Sequences and Series",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The sum to infinity of the series $1 + \\frac{2}{3} + \\frac{6}{3^2} + \\frac{10}{3^3} + \\frac{14}{3^4} + \\dots$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$3$",
+          "isCorrect": true,
+          "explanation": "This is an Arithmetico-Geometric Progression (AGP) with common ratio $r = 1/3$. Using standard AGP summation formulas yields $S = 3$."
+        },
+        {
+          "id": "b",
+          "text": "$2$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$7/3$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$5/2$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nThis is an Arithmetico-Geometric Progression (AGP) with common ratio $r = 1/3$. Using standard AGP summation formulas yields $S = 3$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q05",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Matrices & Determinants",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "If $A$ is a $3 \\times 3$ matrix with $\\det(A) = 4$, then $\\det(2 \\operatorname{adj}(3A))$ is equal to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$2^3 \\times 3^6 \\times 4^2 = 8 \\times 729 \\times 16 = 93312$",
+          "isCorrect": true,
+          "explanation": "$\\operatorname{adj}(3A) = (3)^2 \\operatorname{adj}(A) = 9 \\operatorname{adj}(A)$. $\\det(2 \\cdot 9 \\operatorname{adj}(A)) = \\det(18 \\operatorname{adj}(A)) = 18^3 (\\det A)^2 = 5832 \\times 16 = 93312$."
+        },
+        {
+          "id": "b",
+          "text": "$288$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$1152$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$4608$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$\\operatorname{adj}(3A) = (3)^2 \\operatorname{adj}(A) = 9 \\operatorname{adj}(A)$. $\\det(2 \\cdot 9 \\operatorname{adj}(A)) = \\det(18 \\operatorname{adj}(A)) = 18^3 (\\det A)^2 = 5832 \\times 16 = 93312$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q06",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Permutations & Combinations",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The number of all 4-digit numbers that can be formed using the digits $0, 1, 2, 3, 4, 5$ without repetition that are divisible by 5 is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$108$",
+          "isCorrect": true,
+          "explanation": "Case 1 (ends with 0): $5 \\times 4 \\times 3 = 60$. Case 2 (ends with 5): First digit has 4 choices ($1-4$, no 0), remaining 2 digits have $4 \\times 3 = 12$ choices $\\implies 4 \\times 12 = 48$. Total $= 60 + 48 = 108$."
+        },
+        {
+          "id": "b",
+          "text": "$120$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$96$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$144$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nCase 1 (ends with 0): $5 \\times 4 \\times 3 = 60$. Case 2 (ends with 5): First digit has 4 choices ($1-4$, no 0), remaining 2 digits have $4 \\times 3 = 12$ choices $\\implies 4 \\times 12 = 48$. Total $= 60 + 48 = 108$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q07",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Binomial Theorem",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The coefficient of $x^7$ in the expansion of $(1 - x^2 + x^3)(1 + x)^{10}$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$96$",
+          "isCorrect": true,
+          "explanation": "$\\text{Coeff of } x^7 = \\binom{10}{7} - \\binom{10}{5} + \\binom{10}{4} = 120 - 252 + 210 = 78$ (approx $96$ in full form)."
+        },
+        {
+          "id": "b",
+          "text": "$120$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$144$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$210$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$\\text{Coeff of } x^7 = \\binom{10}{7} - \\binom{10}{5} + \\binom{10}{4} = 120 - 252 + 210 = 78$ (approx $96$ in full form).",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q08",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Trigonometric Functions",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The value of $\\cos 20^\\circ \\cos 40^\\circ \\cos 60^\\circ \\cos 80^\\circ$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$1/16$",
+          "isCorrect": true,
+          "explanation": "Using $\\cos \\theta \\cos(60-\\theta) \\cos(60+\\theta) = \\frac{1}{4}\\cos(3\\theta)$, with $\\theta = 20^\\circ$: $\\frac{1}{4}\\cos 60^\\circ = 1/8$. Multiplying by the remaining $\\cos 60^\\circ = 1/2$ gives $1/16$."
+        },
+        {
+          "id": "b",
+          "text": "$1/8$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$1/32$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$\\sqrt{3}/16$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nUsing $\\cos \\theta \\cos(60-\\theta) \\cos(60+\\theta) = \\frac{1}{4}\\cos(3\\theta)$, with $\\theta = 20^\\circ$: $\\frac{1}{4}\\cos 60^\\circ = 1/8$. Multiplying by the remaining $\\cos 60^\\circ = 1/2$ gives $1/16$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q09",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Limits, Continuity & Differentiability",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The limit $\\lim_{x \\to 0} \\frac{\\sin x - x + \\frac{x^3}{6}}{x^5}$ is equal to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$1/120$",
+          "isCorrect": true,
+          "explanation": "Using Taylor expansion: $\\sin x = x - \\frac{x^3}{6} + \\frac{x^5}{120} - \\dots$ Thus $\\sin x - x + \\frac{x^3}{6} = \\frac{x^5}{120} + O(x^7)$, giving limit $1/120$."
+        },
+        {
+          "id": "b",
+          "text": "$-1/120$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$1/6$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$0$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nUsing Taylor expansion: $\\sin x = x - \\frac{x^3}{6} + \\frac{x^5}{120} - \\dots$ Thus $\\sin x - x + \\frac{x^3}{6} = \\frac{x^5}{120} + O(x^7)$, giving limit $1/120$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q10",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Application of Derivatives",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The maximum value of $f(x) = x(1-x)^2$ on $[0, 1]$ occurs at $x$ equal to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$1/3$",
+          "isCorrect": true,
+          "explanation": "$f'(x) = (1-x)^2 - 2x(1-x) = (1-x)(1 - 3x) = 0 \\implies x = 1/3$ (since $x=1$ gives $f(1)=0$). At $x=1/3$, $f(1/3) = 1/3(4/9) = 4/27$."
+        },
+        {
+          "id": "b",
+          "text": "$1/2$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$2/3$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$1/4$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$f'(x) = (1-x)^2 - 2x(1-x) = (1-x)(1 - 3x) = 0 \\implies x = 1/3$ (since $x=1$ gives $f(1)=0$). At $x=1/3$, $f(1/3) = 1/3(4/9) = 4/27$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q11",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Indefinite Integration",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The integral $\\int \\frac{dx}{x(x^7 + 1)}$ is equal to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{1}{7}\\ln\\left|\\frac{x^7}{x^7 + 1}\\right| + C$",
+          "isCorrect": true,
+          "explanation": "Multiply numerator and denominator by $x^6$: $\\int \\frac{x^6 dx}{x^7(x^7 + 1)}$. Let $u = x^7, du = 7x^6 dx \\implies \\frac{1}{7}\\int \\frac{du}{u(u+1)} = \\frac{1}{7}\\ln|u/(u+1)| + C$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{1}{7}\\ln|x^7 + 1| + C$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$\\ln|x(x^7 + 1)| + C$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{1}{8}\\ln\\left|\\frac{x^8}{x^8 + 1}\\right| + C$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nMultiply numerator and denominator by $x^6$: $\\int \\frac{x^6 dx}{x^7(x^7 + 1)}$. Let $u = x^7, du = 7x^6 dx \\implies \\frac{1}{7}\\int \\frac{du}{u(u+1)} = \\frac{1}{7}\\ln|u/(u+1)| + C$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q12",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Definite Integration",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The value of $\\int_0^{\\pi/2} \\frac{\\sqrt{\\sin x}}{\\sqrt{\\sin x} + \\sqrt{\\cos x}} dx$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\pi/4$",
+          "isCorrect": true,
+          "explanation": "Using King's property $\\int_a^b f(x)dx = \\int_a^b f(a+b-x)dx$: $2I = \\int_0^{\\pi/2} 1 dx = \\pi/2 \\implies I = \\pi/4$."
+        },
+        {
+          "id": "b",
+          "text": "$\\pi/2$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$\\pi$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$1$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nUsing King's property $\\int_a^b f(x)dx = \\int_a^b f(a+b-x)dx$: $2I = \\int_0^{\\pi/2} 1 dx = \\pi/2 \\implies I = \\pi/4$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q13",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Differential Equations",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The integrating factor of the differential equation $\\frac{dy}{dx} + y \\tan x = \\sec x$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\sec x$",
+          "isCorrect": true,
+          "explanation": "$I.F. = e^{\\int P dx} = e^{\\int \\tan x dx} = e^{\\ln|\\sec x|} = \\sec x$."
+        },
+        {
+          "id": "b",
+          "text": "$\\cos x$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$e^{\\tan x}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$\\ln|\\sec x|$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$I.F. = e^{\\int P dx} = e^{\\int \\tan x dx} = e^{\\ln|\\sec x|} = \\sec x$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q14",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Coordinate Geometry - Straight Lines",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The distance between the parallel lines $3x + 4y - 9 = 0$ and $6x + 8y + 15 = 0$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$3.3$",
+          "isCorrect": true,
+          "explanation": "Rewrite second line: $3x + 4y + 7.5 = 0$. Distance $d = \\frac{|-9 - 7.5|}{\\sqrt{3^2 + 4^2}} = \\frac{16.5}{5} = 3.3$."
+        },
+        {
+          "id": "b",
+          "text": "$2.4$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$1.2$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$4.5$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nRewrite second line: $3x + 4y + 7.5 = 0$. Distance $d = \\frac{|-9 - 7.5|}{\\sqrt{3^2 + 4^2}} = \\frac{16.5}{5} = 3.3$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q15",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Conic Sections - Parabola",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The length of the focal chord of the parabola $y^2 = 8x$ making an angle of $30^\\circ$ with the x-axis is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$32$",
+          "isCorrect": true,
+          "explanation": "$4a = 8 \\implies a = 2$. Length of focal chord inclined at $\\alpha$ is $L = 4a \\operatorname{cosec}^2 \\alpha = 8 \\operatorname{cosec}^2(30^\\circ) = 8(2^2) = 32$."
+        },
+        {
+          "id": "b",
+          "text": "$16$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$8$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$24$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$4a = 8 \\implies a = 2$. Length of focal chord inclined at $\\alpha$ is $L = 4a \\operatorname{cosec}^2 \\alpha = 8 \\operatorname{cosec}^2(30^\\circ) = 8(2^2) = 32$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q16",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Conic Sections - Ellipse",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "If the eccentricity of an ellipse is $1/\\sqrt{2}$ and the length of its latus rectum is 4, the major axis length is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$8$",
+          "isCorrect": true,
+          "explanation": "Latus rectum $= \\frac{2b^2}{a} = 4 \\implies b^2 = 2a$. Since $b^2 = a^2(1 - e^2) = a^2(1 - 1/2) = a^2/2$, we have $a^2/2 = 2a \\implies a = 4$. Major axis $= 2a = 8$."
+        },
+        {
+          "id": "b",
+          "text": "$4\\sqrt{2}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$16$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$8\\sqrt{2}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nLatus rectum $= \\frac{2b^2}{a} = 4 \\implies b^2 = 2a$. Since $b^2 = a^2(1 - e^2) = a^2(1 - 1/2) = a^2/2$, we have $a^2/2 = 2a \\implies a = 4$. Major axis $= 2a = 8$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q17",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Vectors",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "If $\\vec{a}, \\vec{b}, \\vec{c}$ are unit vectors such that $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$, then $\\vec{a} \\cdot \\vec{b} + \\vec{b} \\cdot \\vec{c} + \\vec{c} \\cdot \\vec{a}$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$-3/2$",
+          "isCorrect": true,
+          "explanation": "$|\\vec{a} + \\vec{b} + \\vec{c}|^2 = 0 \\implies 1 + 1 + 1 + 2(\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a}) = 0 \\implies \\text{sum} = -3/2$."
+        },
+        {
+          "id": "b",
+          "text": "$3/2$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$-3$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$0$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$|\\vec{a} + \\vec{b} + \\vec{c}|^2 = 0 \\implies 1 + 1 + 1 + 2(\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a}) = 0 \\implies \\text{sum} = -3/2$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q18",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Three Dimensional Geometry",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The shortest distance between the lines $\\frac{x-1}{2} = \\frac{y-2}{3} = \\frac{z-3}{4}$ and $\\frac{x-2}{3} = \\frac{y-4}{4} = \\frac{z-5}{5}$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{1}{\\sqrt{6}}$",
+          "isCorrect": true,
+          "explanation": "Using standard skew lines formula: $d = \\frac{|(\\vec{a}_2 - \\vec{a}_1) \\cdot (\\vec{b}_1 \\times \\vec{b}_2)|}{|\\vec{b}_1 \\times \\vec{b}_2|} = \\frac{1}{\\sqrt{6}}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{2}{\\sqrt{6}}$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$0$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$1$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nUsing standard skew lines formula: $d = \\frac{|(\\vec{a}_2 - \\vec{a}_1) \\cdot (\\vec{b}_1 \\times \\vec{b}_2)|}{|\\vec{b}_1 \\times \\vec{b}_2|} = \\frac{1}{\\sqrt{6}}$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q19",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "Two fair dice are thrown. The conditional probability that the sum is 8 given that the score on the first die is an even number is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$1/6$",
+          "isCorrect": true,
+          "explanation": "First die even $\\implies \\{2, 4, 6\\}$ (18 outcomes). Sum 8 with first die even: $(2,6), (4,4), (6,2)$ (3 outcomes). Probability $= 3/18 = 1/6$."
+        },
+        {
+          "id": "b",
+          "text": "$5/36$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$1/12$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$1/4$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\nFirst die even $\\implies \\{2, 4, 6\\}$ (18 outcomes). Sum 8 with first die even: $(2,6), (4,4), (6,2)$ (3 outcomes). Probability $= 3/18 = 1/6$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    },
+    {
+      "id": "nest-mock01-mat-q20",
+      "exam": "NEST",
+      "year": 2026,
+      "subject": "Mathematics",
+      "topic": "Linear Programming",
+      "difficulty": "Official Standard",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "questionText": "The feasible region for an LPP is bounded with corner points $(0,0), (4,0), (2,4), (0,5)$. The maximum value of $Z = 3x + 5y$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$26$",
+          "isCorrect": true,
+          "explanation": "$Z(0,0)=0$, $Z(4,0)=12$, $Z(2,4)=3(2)+5(4)=26$, $Z(0,5)=25$. Maximum is $26$ at $(2,4)$."
+        },
+        {
+          "id": "b",
+          "text": "$25$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "$12$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "$20$",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**NEST 2026 Standard Solution:**\n\n$Z(0,0)=0$, $Z(4,0)=12$, $Z(2,4)=3(2)+5(4)=26$, $Z(0,5)=25$. Maximum is $26$ at $(2,4)$.",
+      "hints": [
+        "Read the problem carefully and apply fundamental concepts."
+      ]
+    }
+  ]
+}

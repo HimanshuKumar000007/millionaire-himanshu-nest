@@ -1,0 +1,60 @@
+{
+  "id": "chem-xii-u16-c7-l06",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVI \u2014 Alcohols, Phenols and Ethers",
+  "unitNumber": 16,
+  "chapter": "Alcohols, Phenols and Ethers",
+  "chapterNumber": 7,
+  "chapterSlug": "alcohols-phenols-ethers",
+  "slug": "lesson-06-phenol-preparations-cumene-dow-diazonium-routes",
+  "title": "Preparations of Phenol: Cumene, Dow, & Diazonium Routes",
+  "topic": "Phenol Synthetic Preparations",
+  "topics": [
+    "6. Industrial & Laboratory Preparations of Phenol Overview",
+    "6.1 The Industrial Cumene Hydroperoxide Process (>90% Global Phenol Production)",
+    "Benzene + Propene \u2500\u2500[H\u2083PO\u2084 / 523 K]\u2500\u2500\u25ba Cumene (Isopropylbenzene) \u2500\u2500[O\u2082 / 368 K]\u2500\u2500\u25ba Cumene Hydroperoxide",
+    "Acid Cleavage (10% H\u2082SO\u2084) yielding Phenol + Acetone (Valuable Co-product)",
+    "Dow Process (Ph-Cl + NaOH at 623 K, 300 atm \u2500\u2500\u25ba Phenol)",
+    "Diazonium Salt Hydrolysis (Ph-NH\u2082 \u2500\u2500\u25ba Ph-N\u2082\u207aCl\u207b \u2500\u2500[Warm H\u2082O]\u2500\u2500\u25ba Phenol + N\u2082)"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "alcohols-phenols-ethers",
+  "quickSummary": "Over 90% of global phenol is produced by the Cumene process: Benzene + Propene \u2500\u2500\u25ba Cumene \u2500\u2500\u25ba Cumene Hydroperoxide \u2500\u2500\u25ba Phenol + Acetone co-product. Other routes include Dow process (chlorobenzene + NaOH, 623 K/300 atm) and diazonium hydrolysis (Ph-N\u2082\u207aCl\u207b + warm water).",
+  "summary": "Master the commercial cumene hydroperoxide process and laboratory synthesis routes for phenol.",
+  "conceptBreakdown": [
+    {
+      "heading": "6. The Industrial Cumene Hydroperoxide Process",
+      "title": "6. The Industrial Cumene Hydroperoxide Process",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Cumene Process Reaction Cascade",
+        "takeaway": "Cumene \u2500\u2500(O\u2082)\u2500\u2500\u25ba Cumene Hydroperoxide \u2500\u2500(H\u207a)\u2500\u2500\u25ba Phenol + Acetone (valuable solvent byproduct)."
+      },
+      "codeSnippet": "                      CUMENE HYDROPEROXIDE PROCESS\n                      \n   Benzene + Propene \u2500\u2500[$\\text{H}_3\\text{PO}_4 / 523\\text{ K}$]\u2500\u2500\u25ba **Cumene (Isopropylbenzene)**\n                                                              \u2502\n   Air Oxidation ($\\text{O}_2 / 368\\text{ K}$) \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n                               \u2502\n   **Cumene Hydroperoxide** ($\\text{Ph-C(CH}_3)_2\\text{-O-O-H}$)\n                               \u2502\n   Cleavage via $10\\%\\text{ H}_2\\text{SO}_4$ (323\u2013333 K)\n                               \u2502\n   $$\\mathbf{\\text{Phenol } (\\text{C}_6\\text{H}_5\\text{OH}) + \\text{Acetone } (\\text{CH}_3\\text{COCH}_3)}$$",
+      "content": "The Cumene process is the dominant industrial route because it converts inexpensive benzene and propene into Phenol while producing Acetone as a valuable co-product."
+    },
+    {
+      "heading": "6.1 Other Synthetic Preparations of Phenol",
+      "title": "6.1 Other Synthetic Preparations of Phenol",
+      "type": "paragraph",
+      "codeSnippet": "OTHER PHENOL SYNTHESES:\n\n\u2022 Dow Process:         Ph-Cl + NaOH \u2500\u2500[623 K, 300 atm]\u2500\u2500\u25ba Ph-ONa \u2500\u2500[H\u207a]\u2500\u2500\u25ba Phenol\n\u2022 Diazonium Route:     Ph-NH\u2082 \u2500\u2500[NaNO\u2082/HCl, 273\u2013278 K]\u2500\u2500\u25ba Ph-N\u2082\u207aCl\u207b \u2500\u2500[Warm H\u2082O]\u2500\u2500\u25ba Phenol + N\u2082 \u2191\n\u2022 Benzenesulfonate:   Ph-SO\u2083H + NaOH \u2500\u2500[Fuse 573 K]\u2500\u2500\u25ba Ph-ONa \u2500\u2500[H\u207a]\u2500\u2500\u25ba Phenol",
+      "content": "Review the classic chemical synthesis routes including aryl halide hydrolysis and diazonium replacement."
+    }
+  ],
+  "quickRevision": [
+    "Cumene = Isopropylbenzene (from Benzene + Propene).",
+    "Cumene Hydroperoxide cleaves with dilute acid to Phenol + Acetone.",
+    "Dow process: Chlorobenzene + NaOH at 623 K and 300 atm.",
+    "Diazonium route: Ph-N\u2082\u207aCl\u207b + warm water gives Phenol + N\u2082."
+  ],
+  "keyFormulae": [
+    "\\text{Cumene Hydroperoxide Cleavage: } \\text{Ph-C(CH}_3)_2\\text{OOH} \\xrightarrow{\\text{H}^+} \\text{Phenol} + \\text{CH}_3\\text{COCH}_3"
+  ]
+}

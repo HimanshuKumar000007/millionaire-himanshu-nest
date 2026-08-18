@@ -1,0 +1,60 @@
+{
+  "id": "chem-xii-u10-c1-l08",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit X \u2014 Solutions",
+  "unitNumber": 10,
+  "chapter": "Solutions",
+  "chapterNumber": 1,
+  "chapterSlug": "solutions",
+  "slug": "lesson-08-abnormal-molar-mass-vant-hoff-factor-traps-glossary",
+  "title": "Abnormal Molar Mass, Van 't Hoff Factor (i), Traps, & Glossary",
+  "topic": "Van 't Hoff Factor, Traps & Glossary",
+  "topics": [
+    "Van 't Hoff Factor (i = Observed / Ideal Colligative Property = M_calc / M_obs)",
+    "Modified Colligative Equations (\u0394p/p\u00b0 = i\u00b7x_B, \u0394T_b = i\u00b7K_b\u00b7m, \u0394T_f = i\u00b7K_f\u00b7m, \u03a0 = i\u00b7C\u00b7R\u00b7T)",
+    "Degree of Dissociation (\u03b1 = (i - 1) / (n - 1)) vs Degree of Association (\u03b2 = (1 - i)n / (n - 1))",
+    "Dimerization of Benzoic Acid in Benzene (i \u2248 0.5, \u03b2 = 2(1 - i))",
+    "All 10 High-Yield NEST Traps & Complete 34 Master Glossary Definitions"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "Comprehensive Review",
+  "source": "production",
+  "status": "published",
+  "diagramType": "solutions",
+  "quickSummary": "i = Observed property / Ideal property = M_calc / M_obs. Dissociation: i > 1, \u03b1 = (i-1)/(n-1). Association: i < 1, \u03b2 = 2(1-i) for dimers (Benzoic acid in benzene). Review all 10 NEST traps and 34 glossary definitions.",
+  "summary": "Master Van 't Hoff factor equations, dissociation and association degree derivations, NEST traps, and complete glossary.",
+  "conceptBreakdown": [
+    {
+      "heading": "8.1 Van 't Hoff Factor (i) & Degree of Ionization/Association",
+      "title": "8.1 Van 't Hoff Factor (i) & Degree of Ionization/Association",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Van 't Hoff Factor",
+        "takeaway": "i = Observed / Calculated Colligative Property = M_calc / M_obs. Dissociation: \u03b1 = (i-1)/(n-1). Association (dimer): \u03b2 = 2(1-i)."
+      },
+      "codeSnippet": "VAN 'T HOFF FACTOR (i) EQUATIONS\n\n\u2022 i = Observed Colligative Property / Calculated Colligative Property\n\u2022 i = Calculated (Theoretical) Molar Mass / Observed (Experimental) Molar Mass\n\n1. Dissociation (i > 1, e.g., K\u2084[Fe(CN)\u2086] \u27f9 n = 5):\n   \u03b1 = (i - 1) / (n - 1) \u27f9 i = 1 + (n - 1)\u03b1\n\n2. Association (i < 1, e.g., Dimerization of Benzoic Acid in Benzene \u27f9 n = 2):\n   \u03b2 = (1 - i)n / (n - 1) \u27f9 \u03b2 = 2(1 - i)",
+      "content": "\u2022 **Dissociation ($i > 1$)**: For an electrolyte yielding $n$ ions, $i = 1 + (n - 1)\\alpha \\implies \\alpha = \\frac{i - 1}{n - 1}$.\n\u2022 **Association ($i < 1$)**: For $n$ molecules associating to form an $n$-mer, $i = 1 + (\\frac{1}{n} - 1)\\beta \\implies \\beta = \\frac{(1 - i)n}{n - 1}$. For dimerization ($n=2$), $\\beta = 2(1 - i)$."
+    },
+    {
+      "heading": "8.2 10 High-Yield NEST Traps & Master Glossary",
+      "title": "8.2 10 High-Yield NEST Traps & Master Glossary",
+      "type": "paragraph",
+      "codeSnippet": "10 NEST TRAPS SUMMARY\n\n1. Higher K_H indicates LOWER gas solubility.\n2. Minimum boiling azeotropes (95.6% ethanol) cannot be separated by fractional distillation.\n3. Non-volatile solutes ALWAYS depress freezing points.\n4. BaCl\u2082 has n = 3 ions (i = 3 for 100% dissociation).\n5. Colligative order: CaCl\u2082 (i=3) > NaCl (i=2) > Glucose (i=1).\n6. Osmotic pressure uses Molarity (M), not molality.\n7. Reverse Osmosis requires external P > \u03a0.\n8. Acetone + Chloroform exhibits Negative Deviation due to H-bonding.\n9. Molarity decreases upon heating (volume expands).\n10. RLVP equals the Mole Fraction of SOLUTE (x_B), not solvent.",
+      "content": "Review all 10 NEST traps and master glossary terms before attempting the 20-question self-assessment test."
+    }
+  ],
+  "quickRevision": [
+    "i = M_calc / M_obs.",
+    "Dissociation: \u03b1 = (i-1)/(n-1).",
+    "Dimerization: \u03b2 = 2(1-i).",
+    "Review all 10 NEST traps thoroughly."
+  ],
+  "keyFormulae": [
+    "i = \\frac{\\Pi_{\\text{obs}}}{\\Pi_{\\text{calc}}} = \\frac{M_{\\text{calc}}}{M_{\\text{obs}}}",
+    "\\alpha = \\frac{i - 1}{n - 1}, \\quad \\beta = \\frac{(1 - i)n}{n - 1}"
+  ]
+}

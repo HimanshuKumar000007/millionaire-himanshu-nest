@@ -1,0 +1,929 @@
+[
+  {
+    "id": "chem-redox-001",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "Structural Oxidation States",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What are the individual, true structural oxidation states of the four Sulfur atoms in the Tetrathionate anion (S\u2084O\u2086\u00b2\u207b), and what is the average oxidation state of Sulfur calculated from its empirical formula?",
+    "options": [
+      {
+        "id": "A",
+        "text": "True states: All four S = +2.5; Average = +2.5",
+        "isCorrect": false,
+        "explanation": "Assumed all sulfur atoms share the fractional average charge identically."
+      },
+      {
+        "id": "B",
+        "text": "True states: Two S = +5 and Two S = 0; Average = +2.5",
+        "isCorrect": true,
+        "explanation": "Central S-S linkage gives two S(0) atoms; terminal -SO\u2083\u207b groups give two S(+5) atoms. Average = (2\u00d75 + 2\u00d70)/4 = +2.5."
+      },
+      {
+        "id": "C",
+        "text": "True states: Two S = +6 and Two S = -1; Average = +2.5",
+        "isCorrect": false,
+        "explanation": "Incorrect assignment of terminal and bridging sulfur states."
+      },
+      {
+        "id": "D",
+        "text": "True states: Three S = +3 and One S = +1; Average = +2.5",
+        "isCorrect": false,
+        "explanation": "Incorrect symmetrical structure assumption."
+      }
+    ],
+    "solutionExplanation": "1. Structure of S\u2084O\u2086\u00b2\u207b: Contains a central linear chain of four sulfur atoms: [O\u2083S\u207d\u00b9\u207e - S\u207d\u00b2\u207e - S\u207d\u00b3\u207e - SO\u2083\u207d\u2074\u207e]\u00b2\u207b.\n2. Central S\u207d\u00b2\u207e and S\u207d\u00b3\u207e are bonded only to other sulfur atoms (-S-S- bond), so their oxidation state is 0.\n3. Terminal S\u207d\u00b9\u207e and S\u207d\u2074\u207e are each bonded to 3 electronegative oxygen atoms and 1 sulfur atom, giving an oxidation state of +5.\n4. Average oxidation state = [2(+5) + 2(0)] / 4 = +2.5.",
+    "keyFormulae": [
+      "\\text{Average ON} = \\frac{2(+5) + 2(0)}{4} = +2.5",
+      "\\text{Central } -\\text{S}-\\text{S}- \\implies \\text{ON} = 0"
+    ],
+    "hints": [
+      "Homonuclear bonds between identical atoms (S-S) contribute 0 to oxidation number."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-redox-002",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "Multi-Elemental Salt n-Factor",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the n-factor and equivalent mass of Ferrous Oxalate (FeC\u2082O\u2084, M = 143.85 g/mol) when it is completely oxidized to Fe\u00b3\u207a and CO\u2082 in an acidic KMnO\u2084 titration?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n-factor = 1; E.M. = M/1 = 143.85 g/eq",
+        "isCorrect": false,
+        "explanation": "Considered only the oxidation of Fe\u00b2\u207a to Fe\u00b3\u207a, ignoring oxalate."
+      },
+      {
+        "id": "B",
+        "text": "n-factor = 2; E.M. = M/2 = 71.93 g/eq",
+        "isCorrect": false,
+        "explanation": "Considered only the oxidation of oxalate (C\u2082O\u2084\u00b2\u207b \u2192 2CO\u2082), ignoring Fe\u00b2\u207a."
+      },
+      {
+        "id": "C",
+        "text": "n-factor = 3; E.M. = M/3 = 47.95 g/eq",
+        "isCorrect": true,
+        "explanation": "Both Fe\u00b2\u207a (n=1) and C\u2082O\u2084\u00b2\u207b (n=2) are oxidized: n_net = 1 + 2 = 3. E.M. = 143.85 / 3 = 47.95 g/eq."
+      },
+      {
+        "id": "D",
+        "text": "n-factor = 5; E.M. = M/5 = 28.77 g/eq",
+        "isCorrect": false,
+        "explanation": "Confused the n-factor of the titrant KMnO\u2084 (n=5) with the analyte FeC\u2082O\u2084."
+      }
+    ],
+    "solutionExplanation": "In FeC\u2082O\u2084, BOTH the cation and the anion undergo oxidation:\n1. Oxidation of Fe\u00b2\u207a \u2192 Fe\u00b3\u207a + e\u207b:\n   \u0394ON\u2081 = 1 atom \u00d7 |3 - 2| = 1\n2. Oxidation of Oxalate C\u2082O\u2084\u00b2\u207b \u2192 2 CO\u2082 + 2e\u207b:\n   \u0394ON\u2082 = 2 atoms C \u00d7 |4 - 3| = 2\n3. Total n-factor = \u0394ON\u2081 + \u0394ON\u2082 = 1 + 2 = 3.\n4. Equivalent Mass = M / 3 = 143.85 / 3 = 47.95 g/eq.",
+    "keyFormulae": [
+      "n_{\\text{net}} = n_{\\text{cation}} + n_{\\text{anion}} = 1 + 2 = 3",
+      "\\text{E.M.} = \\frac{M}{3} = 47.95\\text{ g/eq}"
+    ],
+    "hints": [
+      "Remember to sum electron losses from BOTH Iron(II) and the Oxalate anion."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-redox-003",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "Redox Titration Stoichiometry",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "A 25.0 mL sample of an aqueous solution containing Hydrogen Peroxide (H\u2082O\u2082) requires 20.0 mL of 0.020 M KMnO\u2084 solution for complete reaction in acidic medium. What is the molarity (M) of the H\u2082O\u2082 solution?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.040 M",
+        "isCorrect": true,
+        "explanation": "Equivalents of H\u2082O\u2082 = Equivalents of KMnO\u2084 \u27f9 M\u2081 \u00d7 2 \u00d7 25.0 = 0.020 \u00d7 5 \u00d7 20.0 \u27f9 50.0 M\u2081 = 2.0 \u27f9 M\u2081 = 0.040 M."
+      },
+      {
+        "id": "B",
+        "text": "0.080 M",
+        "isCorrect": false,
+        "explanation": "Omitted the n-factor of H\u2082O\u2082 (n=2)."
+      },
+      {
+        "id": "C",
+        "text": "0.016 M",
+        "isCorrect": false,
+        "explanation": "Used incorrect n-factor ratio."
+      },
+      {
+        "id": "D",
+        "text": "0.100 M",
+        "isCorrect": false,
+        "explanation": "Calculation error in normality equation."
+      }
+    ],
+    "solutionExplanation": "1. Using the Law of Chemical Equivalence:\n   Equivalents of H\u2082O\u2082 = Equivalents of KMnO\u2084\n   N\u2081 V\u2081 = N\u2082 V\u2082 \u27f9 (M\u2081 \u00d7 n\u2081) V\u2081 = (M\u2082 \u00d7 n\u2082) V\u2082\n2. n-factors:\n   \u2022 For KMnO\u2084 in acidic medium: MnO\u2084\u207b (+7) \u2192 Mn\u00b2\u207a (+2) \u27f9 n\u2082 = 5.\n   \u2022 For H\u2082O\u2082 oxidation: O\u2082\u00b2\u207b (-1) \u2192 O\u2082 (0) + 2e\u207b \u27f9 n\u2081 = 2 \u00d7 |0 - (-1)| = 2.\n3. Calculation:\n   M\u2081 \u00d7 2 \u00d7 25.0 mL = 0.020 M \u00d7 5 \u00d7 20.0 mL\n   50.0 \u00d7 M\u2081 = 2.0 \u27f9 M\u2081 = 2.0 / 50.0 = 0.040 M.",
+    "keyFormulae": [
+      "(M_1 \\times n_1) V_1 = (M_2 \\times n_2) V_2",
+      "M_1 \\times 2 \\times 25.0 = 0.020 \\times 5 \\times 20.0 \\implies M_1 = 0.040\\text{ M}"
+    ],
+    "hints": [
+      "In acidic medium, KMnO\u2084 has n=5 and H\u2082O\u2082 has n=2."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-redox-004",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "Disproportionation n-Factor",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the n-factor of a substance undergoing a DISPROPORTIONATION reaction where 1 mole of reactant forms products with change in oxidation number n\u2081 = 2 (oxidation pathway) and n\u2082 = 4 (reduction pathway)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n_net = 6",
+        "isCorrect": false,
+        "explanation": "Simply added n\u2081 and n\u2082 (valid for multi-elemental oxidation, not disproportionation)."
+      },
+      {
+        "id": "B",
+        "text": "n_net = 1.33",
+        "isCorrect": true,
+        "explanation": "For disproportionation: n_net = (n\u2081 \u00b7 n\u2082) / (n\u2081 + n\u2082) = (2 \u00d7 4) / (2 + 4) = 8 / 6 = 1.33."
+      },
+      {
+        "id": "C",
+        "text": "n_net = 3",
+        "isCorrect": false,
+        "explanation": "Calculated arithmetic mean instead of harmonic-based formula."
+      },
+      {
+        "id": "D",
+        "text": "n_net = 2",
+        "isCorrect": false,
+        "explanation": "Took minimum value."
+      }
+    ],
+    "solutionExplanation": "For a single reactant undergoing disproportionation into two separate products:\n$$\\mathbf{n_{\\text{net}} = \\frac{n_1 \\cdot n_2}{n_1 + n_2}}$$\n$$n_{\\text{net}} = \\frac{2 \\times 4}{2 + 4} = \\frac{8}{6} = \\mathbf{1.333} \\approx \\mathbf{1.33}.$$",
+    "keyFormulae": [
+      "n_{\\text{net}} = \\frac{n_1 \\cdot n_2}{n_1 + n_2} = \\frac{2 \\times 4}{2 + 4} = \\frac{8}{6} = 1.33"
+    ],
+    "hints": [
+      "Disproportionation n-factor uses the formula (n\u2081 \u00b7 n\u2082) / (n\u2081 + n\u2082)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-redox-005",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "Iodometric Titration Stoichiometry",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "In an iodometric titration, 0.10 moles of Potassium Dichromate (K\u2082Cr\u2082O\u2087) is reacted with excess KI in acidic medium to liberate free Iodine (I\u2082). The liberated I\u2082 is subsequently titrated against standard Sodium Thiosulfate (Na\u2082S\u2082O\u2083, Hypo). How many moles of Hypo are required for complete reaction with the liberated Iodine?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.10 mol",
+        "isCorrect": false,
+        "explanation": "Assumed 1:1 molar equivalence ignoring n-factors."
+      },
+      {
+        "id": "B",
+        "text": "0.30 mol",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      },
+      {
+        "id": "C",
+        "text": "0.60 mol",
+        "isCorrect": true,
+        "explanation": "Equivalents of K\u2082Cr\u2082O\u2087 = 0.10 \u00d7 6 = 0.60 eq = Equivalents of Hypo. Since Hypo has n=1, Moles of Hypo = 0.60 / 1 = 0.60 mol."
+      },
+      {
+        "id": "D",
+        "text": "1.20 mol",
+        "isCorrect": false,
+        "explanation": "Multiplied by 2 unnecessarily."
+      }
+    ],
+    "solutionExplanation": "1. Equivalents of K\u2082Cr\u2082O\u2087 = Equivalents of I\u2082 liberated = Equivalents of Hypo required.\n2. n-factor of K\u2082Cr\u2082O\u2087 in acid = 6:\n   Equivalents of K\u2082Cr\u2082O\u2087 = Moles \u00d7 n-factor = 0.10 \u00d7 6 = 0.60 eq.\n3. n-factor of Hypo (Na\u2082S\u2082O\u2083 \u2192 Na\u2082S\u2084O\u2086) = 1.\n4. Moles of Hypo:\n   Moles of Hypo = Equivalents / n-factor = 0.60 / 1 = 0.60 mol.",
+    "keyFormulae": [
+      "\\text{Equivalents of } \\text{K}_2\\text{Cr}_2\\text{O}_7 = 0.10 \\times 6 = 0.60\\text{ eq}",
+      "\\text{Moles of Hypo} = \\frac{0.60\\text{ eq}}{1} = 0.60\\text{ mol}"
+    ],
+    "hints": [
+      "Equivalents of oxidant = Equivalents of I\u2082 = Equivalents of Hypo. Hypo has n=1."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-redox-006",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "Peroxy Structures & Oxidation States",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What are the true oxidation states of Chromium in Chromium Peroxide (CrO\u2085) and Sulfur in Caro's Acid (H\u2082SO\u2085), respectively?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cr = +10, S = +8",
+        "isCorrect": false,
+        "explanation": "Formula calculation error ignoring peroxy linkages."
+      },
+      {
+        "id": "B",
+        "text": "Cr = +6, S = +6",
+        "isCorrect": true,
+        "explanation": "CrO\u2085 has 2 peroxy linkages (Cr=+6). H\u2082SO\u2085 has 1 peroxy linkage (S=+6)."
+      },
+      {
+        "id": "C",
+        "text": "Cr = +6, S = +4",
+        "isCorrect": false,
+        "explanation": "Incorrect assignment for Caro's acid."
+      },
+      {
+        "id": "D",
+        "text": "Cr = +4, S = +6",
+        "isCorrect": false,
+        "explanation": "Incorrect assignment for CrO\u2085."
+      }
+    ],
+    "solutionExplanation": "\u2022 CrO\u2085 possesses a butterfly structure with 2 peroxy linkages (4 peroxy oxygens at -1, 1 oxide oxygen at -2). Thus, Cr + 4(-1) + 1(-2) = 0 \u27f9 Cr = +6.\n\u2022 H\u2082SO\u2085 contains 1 peroxy linkage (2 peroxy oxygens at -1, 3 oxide oxygens at -2, 2 hydrogens at +1). Thus, 2(+1) + S + 3(-2) + 2(-1) = 0 \u27f9 S = +6.",
+    "keyFormulae": [
+      "\\text{CrO}_5: \\text{Cr} + 4(-1) + 1(-2) = 0 \\implies \\text{Cr} = +6",
+      "\\text{H}_2\\text{SO}_5: 2(+1) + \\text{S} + 3(-2) + 2(-1) = 0 \\implies \\text{S} = +6"
+    ],
+    "hints": [
+      "Neither Chromium nor Sulfur can exceed their maximum group valence (+6)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-redox-007",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "Halogen Disproportionation",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Which of the following halogens CANNOT undergo a disproportionation reaction when treated with hot concentrated sodium hydroxide solution?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cl\u2082",
+        "isCorrect": false,
+        "explanation": "Cl\u2082 disproportionates to Cl\u207b (-1) and ClO\u2083\u207b (+5)."
+      },
+      {
+        "id": "B",
+        "text": "Br\u2082",
+        "isCorrect": false,
+        "explanation": "Br\u2082 disproportionates to Br\u207b (-1) and BrO\u2083\u207b (+5)."
+      },
+      {
+        "id": "C",
+        "text": "I\u2082",
+        "isCorrect": false,
+        "explanation": "I\u2082 disproportionates to I\u207b (-1) and IO\u2083\u207b (+5)."
+      },
+      {
+        "id": "D",
+        "text": "F\u2082",
+        "isCorrect": true,
+        "explanation": "Fluorine is the most electronegative element and NEVER exhibits positive oxidation states; it forms OF\u2082 (+2 for O) instead."
+      }
+    ],
+    "solutionExplanation": "Fluorine (F\u2082) is the most electronegative element and can NEVER exhibit a positive oxidation state. Therefore, it cannot undergo self-oxidation to positive states during disproportionation (2F\u2082 + 2OH\u207b \u2192 2F\u207b + OF\u2082 + H\u2082O, which is a standard redox reaction, NOT disproportionation).",
+    "keyFormulae": [
+      "2\\text{F}_2^{(0)} + 2\\text{OH}^- \\rightarrow 2\\text{F}^{- (-1)} + \\text{OF}_2^{(+2)} + \\text{H}_2\\text{O}"
+    ],
+    "hints": [
+      "Fluorine cannot show positive oxidation states."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-redox-008",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "Phosphorous Acid Redox n-Factor",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the n-factor of Phosphorous Acid (H\u2083PO\u2083) when it acts as a reducing agent in a reaction where it is oxidized completely to Phosphoric Acid (H\u2083PO\u2084)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n = 1",
+        "isCorrect": false,
+        "explanation": "Incorrect oxidation state change."
+      },
+      {
+        "id": "B",
+        "text": "n = 2",
+        "isCorrect": true,
+        "explanation": "In H\u2083PO\u2083, P is +3. In H\u2083PO\u2084, P is +5. n-factor = |+5 - (+3)| = 2."
+      },
+      {
+        "id": "C",
+        "text": "n = 3",
+        "isCorrect": false,
+        "explanation": "Confused basicity of H\u2083PO\u2084 with redox n-factor."
+      },
+      {
+        "id": "D",
+        "text": "n = 5",
+        "isCorrect": false,
+        "explanation": "Assumed final oxidation state."
+      }
+    ],
+    "solutionExplanation": "1. Oxidation state of P in H\u2083PO\u2083: 3(+1) + x + 3(-2) = 0 \u27f9 x = +3.\n2. Oxidation state of P in H\u2083PO\u2084: 3(+1) + y + 4(-2) = 0 \u27f9 y = +5.\n3. n-factor = |+5 - (+3)| = 2.",
+    "keyFormulae": [
+      "n = \\vert +5 - (+3) \\vert = 2"
+    ],
+    "hints": [
+      "Find the oxidation state of Phosphorus in H\u2083PO\u2083 (+3) and H\u2083PO\u2084 (+5)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-redox-009",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "Thermal Decomposition Electron Transfer",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "When 1 mole of Potassium Chlorate (KClO\u2083) decomposes thermally: 2 KClO\u2083(s) \u2192 2 KCl(s) + 3 O\u2082(g), how many total moles of electrons are transferred in the redox process per mole of KClO\u2083?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 mol e\u207b",
+        "isCorrect": false,
+        "explanation": "Incorrect electron count."
+      },
+      {
+        "id": "B",
+        "text": "4 mol e\u207b",
+        "isCorrect": false,
+        "explanation": "Incorrect electron count."
+      },
+      {
+        "id": "C",
+        "text": "6 mol e\u207b",
+        "isCorrect": true,
+        "explanation": "Cl(+5) in KClO\u2083 is reduced to Cl(-1) in KCl (gain of 6 e\u207b per mole of KClO\u2083). Three O(-2) are oxidized to 3/2 O\u2082(0) (loss of 6 e\u207b per mole of KClO\u2083)."
+      },
+      {
+        "id": "D",
+        "text": "12 mol e\u207b",
+        "isCorrect": false,
+        "explanation": "Calculated for 2 moles of KClO\u2083 instead of per mole."
+      }
+    ],
+    "solutionExplanation": "1. Chlorine in KClO\u2083 (+5) is reduced to Cl\u207b in KCl (-1):\n   \u0394ON_Cl = |-1 - (+5)| = 6 electrons per Cl atom.\n2. Oxygen in KClO\u2083 (-2) is oxidized to O\u2082 (0):\n   3 O atoms \u00d7 |0 - (-2)| = 6 electrons.\n3. Total electrons transferred per mole of KClO\u2083 = 6 moles of e\u207b.",
+    "keyFormulae": [
+      "\\text{Per mole } \\text{KClO}_3: \\Delta \\text{ON} = \\vert -1 - (+5) \\vert = 6\\text{ mol } e^-"
+    ],
+    "hints": [
+      "Calculate the change in oxidation state of Chlorine from +5 in KClO\u2083 to -1 in KCl."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-redox-010",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "Redox Indicators & Dichrometry",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the role of Diphenylamine in the redox titration of Fe\u00b2\u207a with Potassium Dichromate (K\u2082Cr\u2082O\u2087)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Self-indicator that turns purple",
+        "isCorrect": false,
+        "explanation": "KMnO\u2084 is a self-indicator, not K\u2082Cr\u2082O\u2087."
+      },
+      {
+        "id": "B",
+        "text": "Internal Redox Indicator that turns deep blue-violet upon oxidation at the end point",
+        "isCorrect": true,
+        "explanation": "Diphenylamine is oxidized by the first drop of excess Cr\u2082O\u2087\u00b2\u207b to deep blue-violet diphenylbenzidine."
+      },
+      {
+        "id": "C",
+        "text": "Primary standard salt",
+        "isCorrect": false,
+        "explanation": "Diphenylamine is an indicator, not a primary standard."
+      },
+      {
+        "id": "D",
+        "text": "Precipitating agent for chromium ions",
+        "isCorrect": false,
+        "explanation": "Incorrect function."
+      }
+    ],
+    "solutionExplanation": "K\u2082Cr\u2082O\u2087 is not a self-indicator because orange Cr\u2082O\u2087\u00b2\u207b reduces to green Cr\u00b3\u207a, obscuring the end point. Diphenylamine is an Internal Redox Indicator added to the flask; when all Fe\u00b2\u207a is oxidized to Fe\u00b3\u207a, the slightest excess of Cr\u2082O\u2087\u00b2\u207b oxidizes diphenylamine to diphenylbenzidine violet, producing a sharp color change to deep blue-violet.",
+    "keyFormulae": [
+      "\\text{Diphenylamine (colorless)} \\xrightarrow{\\text{Oxidant}} \\text{Diphenylbenzidine (deep blue-violet)}"
+    ],
+    "hints": [
+      "K\u2082Cr\u2082O\u2087 requires an internal indicator because of the green Cr\u00b3\u207a reduction product."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-redox-011",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "Peroxy Compounds Identification",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following compounds contain at least ONE Oxygen atom in an Oxidation State of -1 (Peroxy linkage)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Caro's Acid (H\u2082SO\u2085)",
+        "isCorrect": true,
+        "explanation": "Contains 1 peroxy linkage (-O-O-)."
+      },
+      {
+        "id": "B",
+        "text": "Marshall's Acid (H\u2082S\u2082O\u2088)",
+        "isCorrect": true,
+        "explanation": "Contains 1 peroxy bridge (-O-O-)."
+      },
+      {
+        "id": "C",
+        "text": "Chromium Peroxide (CrO\u2085)",
+        "isCorrect": true,
+        "explanation": "Contains 2 peroxy linkages (4 peroxy oxygens at -1)."
+      },
+      {
+        "id": "D",
+        "text": "Hydrogen Peroxide (H\u2082O\u2082)",
+        "isCorrect": true,
+        "explanation": "Prototypical peroxide containing an -O-O- bond with O = -1."
+      }
+    ],
+    "solutionExplanation": "All four compounds contain peroxy linkages (-O-O-) where the peroxy oxygen atoms have an oxidation state of -1.",
+    "keyFormulae": [
+      "\\text{Peroxy linkage: } -\\text{O}-\\text{O}- \\implies \\text{ON of O} = -1"
+    ],
+    "hints": [
+      "Check all classic peroxy acids and oxides."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-redox-012",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "KMnO\u2084 Redox Behavior Across Media",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding the oxidation state and behavior of Potassium Permanganate (KMnO\u2084): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Manganese is in its maximum +7 oxidation state in KMnO\u2084",
+        "isCorrect": true,
+        "explanation": "K(+1) + Mn(+7) + 4 O(-2) = 0."
+      },
+      {
+        "id": "B",
+        "text": "In acidic medium, KMnO\u2084 reduces to Mn\u00b2\u207a with an n-factor of 5",
+        "isCorrect": true,
+        "explanation": "MnO\u2084\u207b (+7) + 5e\u207b \u2192 Mn\u00b2\u207a (+2)."
+      },
+      {
+        "id": "C",
+        "text": "In neutral/faintly alkaline medium, KMnO\u2084 reduces to MnO\u2082 with an n-factor of 3",
+        "isCorrect": true,
+        "explanation": "MnO\u2084\u207b (+7) + 3e\u207b \u2192 MnO\u2082 (+4)."
+      },
+      {
+        "id": "D",
+        "text": "In strongly basic medium, KMnO\u2084 reduces to MnO\u2084\u00b2\u207b with an n-factor of 1",
+        "isCorrect": true,
+        "explanation": "MnO\u2084\u207b (+7) + e\u207b \u2192 MnO\u2084\u00b2\u207b (+6)."
+      }
+    ],
+    "solutionExplanation": "All four statements correctly state the oxidation state of Mn and its n-factors across the three distinct pH regimes.",
+    "keyFormulae": [
+      "\\text{Acid: } n = 5 \\quad \\vert \\quad \\text{Neutral: } n = 3 \\quad \\vert \\quad \\text{Strong Base: } n = 1"
+    ],
+    "hints": [
+      "Recall n-factors 5, 3, and 1 for acidic, neutral, and strongly basic media."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-redox-013",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "Disproportionation Identification",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following chemical reactions represent DISPROPORTIONATION processes? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 H\u2082O\u2082(aq) \u2192 2 H\u2082O(l) + O\u2082(g)",
+        "isCorrect": true,
+        "explanation": "Oxygen in H\u2082O\u2082 (-1) is reduced to H\u2082O (-2) and oxidized to O\u2082 (0)."
+      },
+      {
+        "id": "B",
+        "text": "P\u2084(s) + 3 OH\u207b(aq) + 3 H\u2082O(l) \u2192 PH\u2083(g) + 3 H\u2082PO\u2082\u207b(aq)",
+        "isCorrect": true,
+        "explanation": "Phosphorus (0) is reduced to PH\u2083 (-3) and oxidized to H\u2082PO\u2082\u207b (+1)."
+      },
+      {
+        "id": "C",
+        "text": "3 Cl\u2082(g) + 6 OH\u207b(aq, hot) \u2192 5 Cl\u207b(aq) + ClO\u2083\u207b(aq) + 3 H\u2082O(l)",
+        "isCorrect": true,
+        "explanation": "Chlorine (0) is reduced to Cl\u207b (-1) and oxidized to ClO\u2083\u207b (+5)."
+      },
+      {
+        "id": "D",
+        "text": "CuSO\u2084(aq) + Zn(s) \u2192 ZnSO\u2084(aq) + Cu(s)",
+        "isCorrect": false,
+        "explanation": "This is a single metal displacement reaction, not disproportionation."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: H\u2082O\u2082 (O: -1 \u2192 -2, 0), P\u2084 (P: 0 \u2192 -3, +1), and Cl\u2082 (Cl: 0 \u2192 -1, +5) are classic disproportionations.\n\u2022 D is incorrect: CuSO\u2084 + Zn is a single displacement reaction.",
+    "keyFormulae": [
+      "\\text{Disproportionation: Same element oxidized AND reduced}"
+    ],
+    "hints": [
+      "Look for a single element in an intermediate oxidation state forming two different oxidation products."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-redox-014",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "Iodometry vs Iodimetry Principles",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding Iodometric and Iodimetric Titrations: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Iodimetry involves direct titration of a reducing agent using a standard Iodine (I\u2082) solution",
+        "isCorrect": true,
+        "explanation": "Definition of direct iodimetric titration."
+      },
+      {
+        "id": "B",
+        "text": "Iodometry involves indirect titration where an oxidant liberates free I\u2082 from excess KI, followed by titration against standard Hypo",
+        "isCorrect": true,
+        "explanation": "Definition of indirect iodometric titration."
+      },
+      {
+        "id": "C",
+        "text": "Starch indicator forms a deep blue inclusion complex with free I\u2082",
+        "isCorrect": true,
+        "explanation": "Starch-triiodide blue complex."
+      },
+      {
+        "id": "D",
+        "text": "The end point of an iodometric titration is marked by the appearance of a deep blue color",
+        "isCorrect": false,
+        "explanation": "In iodometry, the end point is marked by the DISAPPEARANCE (colorless) of the blue color."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Definitions of iodimetry, iodometry, and starch-I\u2082 blue complex are accurate.\n\u2022 D is incorrect: In iodometry, the end point is marked by the DISAPPEARANCE of the deep blue color (becomes colorless) as all free I\u2082 is reduced by Hypo.",
+    "keyFormulae": [
+      "\\text{Iodometry End Point: Deep blue disappears (becomes colorless)}"
+    ],
+    "hints": [
+      "Remember: Blue appears in iodimetry, blue disappears in iodometry."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-redox-015",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "Species with n-Factor = 6",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following chemical species have an n-factor equal to 6 in appropriate redox reactions? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "K\u2082Cr\u2082O\u2087 as an oxidant in acidic medium",
+        "isCorrect": true,
+        "explanation": "Cr\u2082O\u2087\u00b2\u207b (+6) \u2192 2Cr\u00b3\u207a (+3) \u27f9 n = 2 \u00d7 |6 - 3| = 6."
+      },
+      {
+        "id": "B",
+        "text": "KCr(SO\u2084)\u2082 \u00b7 12H\u2082O (Chrome Alum) when Cr\u00b3\u207a is oxidized to CrO\u2084\u00b2\u207b",
+        "isCorrect": true,
+        "explanation": "In Chrome Alum with 2 Cr\u00b3\u207a atoms in formula, 2 Cr\u00b3\u207a (+3) \u2192 2 CrO\u2084\u00b2\u207b (+6) \u27f9 n = 2 \u00d7 3 = 6."
+      },
+      {
+        "id": "C",
+        "text": "KMnO\u2084 in acidic medium",
+        "isCorrect": false,
+        "explanation": "KMnO\u2084 in acid has n = 5 (MnO\u2084\u207b \u2192 Mn\u00b2\u207a)."
+      },
+      {
+        "id": "D",
+        "text": "Fe\u2082(SO\u2084)\u2083 when reduced to Fe\u00b2\u207a",
+        "isCorrect": false,
+        "explanation": "Fe\u2082(SO\u2084)\u2083 has two Fe\u00b3\u207a reduced to 2 Fe\u00b2\u207a \u27f9 n = 2 \u00d7 |2 - 3| = 2."
+      }
+    ],
+    "solutionExplanation": "\u2022 A is correct: Cr\u2082O\u2087\u00b2\u207b (+6) \u2192 2Cr\u00b3\u207a (+3) \u27f9 n = 2 \u00d7 3 = 6.\n\u2022 B is correct: Chrome Alum oxidation gives n = 6.\n\u2022 C is incorrect: KMnO\u2084 in acid has n = 5.\n\u2022 D is incorrect: In Fe\u2082(SO\u2084)\u2083 \u2192 2Fe\u00b2\u207a, n = 2 \u00d7 1 = 2.",
+    "keyFormulae": [
+      "\\text{n-factor} = \\text{Number of atoms} \\times \\vert \\Delta \\text{ON} \\vert"
+    ],
+    "hints": [
+      "Check both the number of reacting atoms per formula unit and the change in ON."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-redox-016",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "Oxygen Oxidation States",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding the oxidation state of Oxygen in different chemical species: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "In OF\u2082, oxygen has an oxidation state of +2",
+        "isCorrect": true,
+        "explanation": "Fluorine is -1, so O + 2(-1) = 0 \u27f9 O = +2."
+      },
+      {
+        "id": "B",
+        "text": "In O\u2082F\u2082, oxygen has an oxidation state of +1",
+        "isCorrect": true,
+        "explanation": "Fluorine is -1, so 2O + 2(-1) = 0 \u27f9 O = +1."
+      },
+      {
+        "id": "C",
+        "text": "In Potassium Superoxide (KO\u2082), oxygen has an oxidation state of -1/2",
+        "isCorrect": true,
+        "explanation": "K is +1, so 2O = -1 \u27f9 O = -1/2."
+      },
+      {
+        "id": "D",
+        "text": "In Hydrogen Peroxide (H\u2082O\u2082), oxygen has an oxidation state of -2",
+        "isCorrect": false,
+        "explanation": "In H\u2082O\u2082, oxygen has an oxidation state of -1 (peroxide linkage)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: OF\u2082 (O=+2), O\u2082F\u2082 (O=+1), and KO\u2082 (O=-1/2) are accurate.\n\u2022 D is incorrect: In H\u2082O\u2082, oxygen has an oxidation state of -1 (peroxide), NOT -2.",
+    "keyFormulae": [
+      "\\text{OF}_2: \\text{O} = +2, \\quad \\text{O}_2\\text{F}_2: \\text{O} = +1, \\quad \\text{KO}_2: \\text{O} = -1/2, \\quad \\text{H}_2\\text{O}_2: \\text{O} = -1"
+    ],
+    "hints": [
+      "Oxygen exhibits positive states only with Fluorine."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-redox-017",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "Comproportionation Identification",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following represent COMPROPORTIONATION (Conproportionation) reactions? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ag(s) + Ag\u00b2\u207a(aq) \u2192 2 Ag\u207a(aq)",
+        "isCorrect": true,
+        "explanation": "Ag(0) and Ag(+2) combine to yield Ag(+1)."
+      },
+      {
+        "id": "B",
+        "text": "IO\u2083\u207b(aq) + 5 I\u207b(aq) + 6 H\u207a(aq) \u2192 3 I\u2082(s) + 3 H\u2082O(l)",
+        "isCorrect": true,
+        "explanation": "I(+5) and I(-1) combine to yield I\u2082(0)."
+      },
+      {
+        "id": "C",
+        "text": "NH\u2084NO\u2083(s) \u2192 N\u2082O(g) + 2 H\u2082O(l)",
+        "isCorrect": true,
+        "explanation": "N in NH\u2084\u207a (-3) and N in NO\u2083\u207b (+5) combine to form N\u2082O (+1)."
+      },
+      {
+        "id": "D",
+        "text": "2 Na(s) + Cl\u2082(g) \u2192 2 NaCl(s)",
+        "isCorrect": false,
+        "explanation": "This is a standard combination redox reaction, not comproportionation."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: In A (0 and +2 \u2192 +1), B (+5 and -1 \u2192 0), and C (NH\u2084\u207a [-3] and NO\u2083\u207b [+5] \u2192 N\u2082O [+1]), two different oxidation states of the same element combine to yield a single intermediate oxidation state (Comproportionation).\n\u2022 D is incorrect: Combination of Na and Cl\u2082 is a standard synthesis redox reaction.",
+    "keyFormulae": [
+      "\\text{Comproportionation: } X^a + X^b \\rightarrow X^c \\quad (a < c < b)"
+    ],
+    "hints": [
+      "Look for two reactants containing the same element in different oxidation states forming a single product state."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-redox-018",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "Normality & Equivalent Concepts",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding Equivalent Mass and Normality: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Normality = Molarity \u00d7 n-factor",
+        "isCorrect": true,
+        "explanation": "N = M \u00d7 n."
+      },
+      {
+        "id": "B",
+        "text": "The equivalent mass of a substance can vary depending on the specific chemical reaction it undergoes",
+        "isCorrect": true,
+        "explanation": "Equivalent mass is reaction-dependent because n-factor depends on media/reaction."
+      },
+      {
+        "id": "C",
+        "text": "In all complete chemical reactions, 1 Equivalent of reactant A reacts with exactly 1 Equivalent of reactant B",
+        "isCorrect": true,
+        "explanation": "Fundamental Law of Chemical Equivalence."
+      },
+      {
+        "id": "D",
+        "text": "1 M solution of KMnO\u2084 in acidic medium is equal to 1 N",
+        "isCorrect": false,
+        "explanation": "For KMnO\u2084 in acid, n=5 \u27f9 1 M = 5 N, NOT 1 N."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: N = M \u00d7 n, equivalent mass varies with n-factor in different media, and equivalents react 1:1.\n\u2022 D is incorrect: For KMnO\u2084 in acid, n=5 \u27f9 1 M = 5 N, NOT 1 N.",
+    "keyFormulae": [
+      "N = M \\times n\\text{-factor}",
+      "\\text{Equivalents of A} = \\text{Equivalents of B}"
+    ],
+    "hints": [
+      "Normality is Molarity multiplied by n-factor."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-redox-019",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "Nitrogen Oxidation States",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following compounds contain Nitrogen in a POSITIVE oxidation state? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nitric Acid (HNO\u2083)",
+        "isCorrect": true,
+        "explanation": "N is +5 in HNO\u2083."
+      },
+      {
+        "id": "B",
+        "text": "Nitrous Acid (HNO\u2082)",
+        "isCorrect": true,
+        "explanation": "N is +3 in HNO\u2082."
+      },
+      {
+        "id": "C",
+        "text": "Dinitrogen Pentoxide (N\u2082O\u2085)",
+        "isCorrect": true,
+        "explanation": "N is +5 in N\u2082O\u2085."
+      },
+      {
+        "id": "D",
+        "text": "Ammonia (NH\u2083)",
+        "isCorrect": false,
+        "explanation": "In NH\u2083, Hydrogen is +1, so Nitrogen is in a NEGATIVE oxidation state (-3)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: HNO\u2083 (N=+5), HNO\u2082 (N=+3), and N\u2082O\u2085 (N=+5) contain Nitrogen in positive states.\n\u2022 D is incorrect: In Ammonia (NH\u2083), Nitrogen is bonded to less electronegative Hydrogen, so N = -3 (negative).",
+    "keyFormulae": [
+      "\\text{HNO}_3: \\text{N} = +5, \\quad \\text{HNO}_2: \\text{N} = +3, \\quad \\text{N}_2\\text{O}_5: \\text{N} = +5, \\quad \\text{NH}_3: \\text{N} = -3"
+    ],
+    "hints": [
+      "Nitrogen is bonded to more electronegative Oxygen in oxoacids/oxides, but to less electronegative Hydrogen in ammonia."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-redox-020",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Redox Reactions",
+    "subtopic": "Hypo Mechanics in Iodometry",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding Sodium Thiosulfate (Hypo, Na\u2082S\u2082O\u2083) in iodometry: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hypo reduces free I\u2082 to Iodide ions (I\u207b)",
+        "isCorrect": true,
+        "explanation": "I\u2082(0) + 2e\u207b \u2192 2I\u207b(-1)."
+      },
+      {
+        "id": "B",
+        "text": "Hypo is oxidized to Sodium Tetrathionate (Na\u2082S\u2084O\u2086)",
+        "isCorrect": true,
+        "explanation": "2S\u2082O\u2083\u00b2\u207b \u2192 S\u2084O\u2086\u00b2\u207b + 2e\u207b."
+      },
+      {
+        "id": "C",
+        "text": "The n-factor of Hypo in this reaction is 1",
+        "isCorrect": true,
+        "explanation": "n = 2 S atoms \u00d7 |2.5 - 2.0| = 1."
+      },
+      {
+        "id": "D",
+        "text": "The average oxidation state of Sulfur increases from +2 in thiosulfate to +2.5 in tetrathionate",
+        "isCorrect": true,
+        "explanation": "Average S in S\u2082O\u2083\u00b2\u207b is +2; in S\u2084O\u2086\u00b2\u207b it is +2.5."
+      }
+    ],
+    "solutionExplanation": "All four options represent accurate chemical facts regarding the iodometric oxidation of thiosulfate to tetrathionate by iodine.",
+    "keyFormulae": [
+      "\\text{I}_2 + 2\\text{S}_2\\text{O}_3^{2-} \\rightarrow 2\\text{I}^- + \\text{S}_4\\text{O}_6^{2-}",
+      "n\\text{-factor of Hypo} = 1 \\implies \\text{E.M.} = M"
+    ],
+    "hints": [
+      "Review the reaction of thiosulfate with iodine."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

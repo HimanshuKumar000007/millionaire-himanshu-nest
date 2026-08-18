@@ -1,0 +1,60 @@
+{
+  "id": "chem-xii-u18-c9-l08",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVIII \u2014 Amines",
+  "unitNumber": 18,
+  "chapter": "Amines",
+  "chapterNumber": 9,
+  "chapterSlug": "amines",
+  "slug": "lesson-08-azo-dye-coupling-10-traps-master-glossary",
+  "title": "Azo Dye Coupling Reactions, 10 Traps, & Master Glossary",
+  "topic": "Azo Coupling & Master Glossary",
+  "topics": [
+    "8.1 Azo Dye Coupling Reactions (S_EAr Weak Electrophilic Attack with Retention of -N=N-)",
+    "Coupling with Phenol in Weakly Basic Medium (pH 9\u201310) yielding p-Hydroxyazobenzene (Orange Dye)",
+    "Coupling with Aniline in Weakly Acidic Medium (pH 4\u20135) yielding p-Aminoazobenzene (Yellow Dye)",
+    "9. High-Yield NEST Misconceptions & Traps Table (All 10 Items)",
+    "10. Master Glossary for Amines & Diazonium Chemistry (All 43 Definitions)"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "Comprehensive Review",
+  "source": "production",
+  "status": "published",
+  "diagramType": "amines",
+  "quickSummary": "Azo coupling reactions retain the -N=N- diazo linkage. Coupling with Phenol occurs in weakly basic medium (pH 9\u201310) yielding p-hydroxyazobenzene (Orange Dye). Coupling with Aniline occurs in weakly acidic medium (pH 4\u20135) yielding p-aminoazobenzene (Yellow Dye). Review all 10 high-yield NEST traps and the complete 43-term master glossary.",
+  "summary": "Master azo dye coupling mechanisms, pH optimization, 10 NEST traps, and the master glossary.",
+  "conceptBreakdown": [
+    {
+      "heading": "8.1 Azo Dye Coupling Reactions",
+      "title": "8.1 Azo Dye Coupling Reactions",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Azo Coupling Conditions",
+        "takeaway": "Phenol couples in weakly basic medium (pH 9\u201310) to give Orange Dye. Aniline couples in weakly acidic medium (pH 4\u20135) to give Yellow Dye."
+      },
+      "codeSnippet": "                         AZO DYE COUPLING REACTIONS\n                         \n   1. COUPLING WITH PHENOL (Basic Medium $\\text{pH } 9\\text{--}10$):\n      $$\\text{Ph-N}_2^+\\text{Cl}^- + \\text{C}_6\\text{H}_5\\text{OH} \\xrightarrow{\\text{OH}^-, \\text{pH } 9\\text{--}10} \\mathbf{\\text{HO-C}_6\\text{H}_4\\text{-N=N-C}_6\\text{H}_5 \\text{ (p-Hydroxyazobenzene / Orange Dye)}} + \\text{Cl}^- + \\text{H}_2\\text{O}$$\n      \n   2. COUPLING WITH ANILINE (Acidic Medium $\\text{pH } 4\\text{--}5$):\n      $$\\text{Ph-N}_2^+\\text{Cl}^- + \\text{C}_6\\text{H}_5\\text{NH}_2 \\xrightarrow{\\text{H}^+, \\text{pH } 4\\text{--}5} \\mathbf{\\text{H}_2\\text{N-C}_6\\text{H}_4\\text{-N=N-C}_6\\text{H}_5 \\text{ (p-Aminoazobenzene / Yellow Dye)}} + \\text{HCl}$$",
+      "content": "The diazonium ion acts as a weak electrophile and couples at the para-position of activated aromatic rings to produce extended conjugated azo dyes."
+    },
+    {
+      "heading": "9. 10 High-Yield NEST Traps & Master Glossary",
+      "title": "9. 10 High-Yield NEST Traps & Master Glossary",
+      "type": "paragraph",
+      "codeSnippet": "10 NEST AMINES & DIAZONIUM TRAPS SUMMARY\n\n1. Aniline (pKb = 9.38) is 10\u2076x WEAKER than methylamine (pKb = 3.38).\n2. Aqueous methyl amine basicity order is 2\u00b0 > 1\u00b0 > 3\u00b0 > NH\u2083 (213).\n3. Gabriel Phthalimide CANNOT synthesize Aniline (aryl halides fail S_N2).\n4. Hofmann degradation produces a 1\u00b0 amine with ONE LESS carbon.\n5. Direct nitration of aniline gives 47% META product due to anilinium ion.\n6. Hinsberg: 1\u00b0 = soluble in NaOH; 2\u00b0 = insoluble in NaOH; 3\u00b0 = no reaction.\n7. Coupling with phenol requires weakly basic medium (pH 9\u201310).\n8. Aliphatic diazonium salts are unstable and decompose immediately.\n9. Aniline fails Friedel-Crafts reactions due to AlCl\u2083 complexation.\n10. Carbylamine test is positive ONLY for primary (1\u00b0) amines.",
+      "content": "Review all 10 high-yield traps and the complete 43-term master glossary before taking the 20-question self-assessment module."
+    }
+  ],
+  "quickRevision": [
+    "Phenol + diazonium at pH 9\u201310 gives p-hydroxyazobenzene (Orange Dye).",
+    "Aniline + diazonium at pH 4\u20135 gives p-aminoazobenzene (Yellow Dye).",
+    "Azo coupling preserves the aromaticity of both rings.",
+    "All 10 NEST traps and 43 master glossary terms reviewed."
+  ],
+  "keyFormulae": [
+    "\\text{Coupling with Phenol (pH 9--10): } \\text{Ph-N}_2^+ + \\text{Ph-OH} \\longrightarrow \\text{HO-C}_6\\text{H}_4\\text{-N=N-Ph (Orange Dye)}",
+    "\\text{Coupling with Aniline (pH 4--5): } \\text{Ph-N}_2^+ + \\text{Ph-NH}_2 \\longrightarrow \\text{H}_2\\text{N-C}_6\\text{H}_4\\text{-N=N-Ph (Yellow Dye)}"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "chem-xi-u8-c8-l07",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VIII \u2014 Organic Chemistry: Basic Principles and Techniques",
+  "unitNumber": 8,
+  "chapter": "Organic Chemistry Principles & Techniques",
+  "chapterNumber": 8,
+  "chapterSlug": "organic-chemistry-principles",
+  "slug": "lesson-07-reagents-electrophiles-nucleophiles-mechanisms",
+  "title": "Reagent Taxonomy: Electrophiles, Nucleophiles, & Reaction Mechanisms",
+  "topic": "Reagents & Reaction Mechanisms",
+  "topics": [
+    "Electrophiles (Lewis Acids, NO\u2082\u207a, BF\u2083, AlCl\u2083, SO\u2083, :CH\u2082)",
+    "Nucleophiles (Lewis Bases, OH\u207b, CN\u207b, NH\u2083, H\u2082O, Grignard R-MgX)",
+    "Ambident Nucleophiles (Cyanide CN\u207b vs Isonitrile, Nitrite NO\u2082\u207b vs Nitroalkane)",
+    "4 Fundamental Organic Reaction Types: Substitution (S_N1, S_N2, S_EAr), Addition (A_E, A_N), Elimination (E1, E2, E1cB), Rearrangement"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "organic-chemistry-principles",
+  "quickSummary": "Electrophiles: electron-deficient Lewis acids (NO\u2082\u207a, BF\u2083, :CCl\u2082). Nucleophiles: electron-rich Lewis bases (OH\u207b, CN\u207b, NH\u2083). Ambident nucleophiles attack via two different atoms (CN\u207b, NO\u2082\u207b). 4 reaction classes: Substitution, Addition, Elimination, Rearrangement.",
+  "summary": "Master electrophile and nucleophile taxonomy, ambident nucleophile reactivity, and fundamental reaction classes.",
+  "conceptBreakdown": [
+    {
+      "heading": "7.1 Electrophiles vs. Nucleophiles",
+      "title": "7.1 Electrophiles vs. Nucleophiles",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Reagent Classes",
+        "takeaway": "Electrophiles = electron-pair acceptors (Lewis acids). Nucleophiles = electron-pair donors (Lewis bases). Ambident nucleophiles attack from 2 sites."
+      },
+      "codeSnippet": "REAGENT TAXONOMY\n                                     \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                                                       \u25bc\n  ELECTROPHILES (E\u207a)                                      NUCLEOPHILES (Nu\u207b)\n  \u251c\u2500\u2500 Electron-pair ACCEPTORS (Lewis Acids)               \u251c\u2500\u2500 Electron-pair DONORS (Lewis Bases)\n  \u251c\u2500\u2500 Positively charged or neutral with vacant orbitals  \u251c\u2500\u2500 Negatively charged or neutral with lone pairs\n  \u2514\u2500\u2500 Examples: H\u207a, NO\u2082\u207a, Cl\u207a, BF\u2083, AlCl\u2083, SO\u2083, :CH\u2082      \u2514\u2500\u2500 Examples: OH\u207b, CN\u207b, H\u2082O, NH\u2083, R-MgX",
+      "content": "\u2022 **Electrophiles ($\\text{E}^+$)**: Electron-deficient species that accept electron pairs (Lewis acids). Include cations ($\\text{NO}_2^+, \\text{Cl}^+$) and neutral species with incomplete octets or vacant orbitals ($\\text{BF}_3, \\text{AlCl}_3, \\text{SO}_3, \\text{:CH}_2, \\text{:CCl}_2$).\n\u2022 **Nucleophiles ($\\text{Nu}^-$)**: Electron-rich species that donate electron pairs (Lewis bases). Include anions ($\\text{OH}^-, \\text{CN}^-, \\text{X}^-$) and neutral molecules with non-bonding lone pairs ($\\text{H}_2\\text{O}, \\text{NH}_3, \\text{R-OH}$).\n\u2022 **Ambident Nucleophiles**: Contain two different nucleophilic donor atoms: $\\text{CN}^-$ (attacks via $\\text{C} \\to$ Nitrile; via $\\text{N} \\to$ Isonitrile); $\\text{NO}_2^-$ (attacks via $\\text{O} \\to$ Alkyl Nitrite; via $\\text{N} \\to$ Nitroalkane)."
+    },
+    {
+      "heading": "7.2 Fundamental Organic Reaction Mechanisms",
+      "title": "7.2 Fundamental Organic Reaction Mechanisms",
+      "type": "paragraph",
+      "codeSnippet": "ORGANIC REACTION TYPES\n\n1. Substitution (S): Replacement of an atom/group (S_N1, S_N2, S_EAr)\n2. Addition (A): Multiple bond opens to add reagent across \u03c0-system (A_E, A_N)\n3. Elimination (E): Removal of atoms from adjacent carbons to form \u03c0-bond (E1, E2, E1cB)\n4. Rearrangement: Intramolecular migration of atoms/groups yielding constitutional isomers",
+      "content": "Organic transformations fall into four major mechanistic pathways:\n1. **Substitution ($S$)**: Nucleophilic ($S_N1, S_N2$), Electrophilic ($S_E\\text{Ar}$), or Free Radical ($S_R$).\n2. **Addition ($A$)**: Electrophilic addition to alkenes/alkynes ($A_E$) or Nucleophilic addition to carbonyls ($A_N$).\n3. **Elimination ($E$)**: Dehydrohalogenation or dehydration forming alkenes ($E1, E2, E1\\text{cB}$).\n4. **Rearrangement**: Intramolecular migration (*carbocation shifts, Pinacol-Pinacolone, Beckmann*)."
+    }
+  ],
+  "quickRevision": [
+    "Carbenes (:CH\u2082, :CCl\u2082) and BF\u2083 are neutral electrophiles.",
+    "Cyanide (CN\u207b) and Nitrite (NO\u2082\u207b) are ambident nucleophiles.",
+    "Addition across double bonds is typically electrophilic (A_E).",
+    "Addition to carbonyls (>C=O) is typically nucleophilic (A_N)."
+  ],
+  "keyFormulae": [
+    "\\text{Ambident: } \\text{R-X} + \\text{KCN} \\rightarrow \\text{R-CN} \\quad \\vert \\quad \\text{R-X} + \\text{AgCN} \\rightarrow \\text{R-NC}"
+  ]
+}

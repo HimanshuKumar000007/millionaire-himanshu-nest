@@ -1,0 +1,661 @@
+{
+  "exam": "NEST",
+  "subject": "Biology",
+  "version": "NEST 2026",
+  "units": [
+    {
+      "unitNumber": 1,
+      "unitTitle": "Diversity of Living Organisms",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 1,
+          "chapterTitle": "The Living World",
+          "slug": "the-living-world",
+          "topics": [
+            "Biodiversity",
+            "Need for classification",
+            "Three domains of life",
+            "Taxonomy and systematics",
+            "Concept of species",
+            "Taxonomical hierarchy",
+            "Binomial nomenclature"
+          ]
+        },
+        {
+          "chapterNumber": 2,
+          "chapterTitle": "Biological Classification",
+          "slug": "biological-classification",
+          "topics": [
+            "Five kingdom classification",
+            "Monera",
+            "Protista",
+            "Fungi",
+            "Major groups of Fungi",
+            "Lichens",
+            "Viruses"
+          ]
+        },
+        {
+          "chapterNumber": 3,
+          "chapterTitle": "Plant Kingdom",
+          "slug": "plant-kingdom",
+          "topics": [
+            "Classification of plants into major groups",
+            "Algae",
+            "Bryophyta",
+            "Pteridophyta",
+            "Gymnospermae",
+            "Angiospermae",
+            "Salient features",
+            "Distinguishing features",
+            "Examples of each group"
+          ]
+        },
+        {
+          "chapterNumber": 4,
+          "chapterTitle": "Animal Kingdom",
+          "slug": "animal-kingdom",
+          "topics": [
+            "Salient features and classification of animals",
+            "Non-chordates",
+            "Non-chordates up to phyla level",
+            "Chordates",
+            "Chordates up to class level",
+            "Salient features",
+            "Examples of each group"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 2,
+      "unitTitle": "Structural Organization in Plants and Animals",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 5,
+          "chapterTitle": "Morphology of Flowering Plants",
+          "slug": "morphology-of-flowering-plants",
+          "topics": [
+            "Root",
+            "Stem",
+            "Leaf",
+            "Inflorescence",
+            "Flower",
+            "Fruit",
+            "Seed",
+            "Semi-technical description of a typical flowering plant",
+            "Family Solanaceae"
+          ]
+        },
+        {
+          "chapterNumber": 6,
+          "chapterTitle": "Anatomy of Flowering Plants",
+          "slug": "anatomy-of-flowering-plants",
+          "topics": [
+            "Anatomy of tissue systems",
+            "Functions of tissue systems",
+            "Dicots",
+            "Monocots"
+          ]
+        },
+        {
+          "chapterNumber": 7,
+          "chapterTitle": "Structural Organisation in Animals",
+          "slug": "structural-organisation-in-animals",
+          "topics": [
+            "Frog morphology",
+            "Frog anatomy",
+            "Digestive system",
+            "Circulatory system",
+            "Respiratory system",
+            "Nervous system",
+            "Reproductive system"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 3,
+      "unitTitle": "Cell: Structure and Function",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 8,
+          "chapterTitle": "Cell — The Unit of Life",
+          "slug": "cell-the-unit-of-life",
+          "topics": [
+            "Cell theory",
+            "Cell as the basic unit of life",
+            "Prokaryotic cells",
+            "Eukaryotic cells",
+            "Plant cell",
+            "Animal cell",
+            "Cell envelope",
+            "Cell membrane",
+            "Cell wall",
+            "Cell organelles",
+            "Endomembrane system",
+            "Endoplasmic reticulum",
+            "Golgi bodies",
+            "Lysosomes",
+            "Vacuoles",
+            "Mitochondria",
+            "Ribosomes",
+            "Plastids",
+            "Microbodies",
+            "Cytoskeleton",
+            "Cilia",
+            "Flagella",
+            "Centrosomes",
+            "Centrioles",
+            "Nucleus"
+          ]
+        },
+        {
+          "chapterNumber": 9,
+          "chapterTitle": "Biomolecules",
+          "slug": "biomolecules",
+          "topics": [
+            "Chemical constituents of living cells",
+            "Metabolites",
+            "Biomolecules",
+            "Proteins",
+            "Carbohydrates",
+            "Lipids",
+            "Nucleic acids",
+            "Enzymes",
+            "Types of enzymes",
+            "Properties of enzymes",
+            "Enzyme action"
+          ]
+        },
+        {
+          "chapterNumber": 10,
+          "chapterTitle": "Cell Cycle and Cell Division",
+          "slug": "cell-cycle-and-cell-division",
+          "topics": [
+            "Cell cycle",
+            "Mitosis",
+            "Meiosis",
+            "Significance of cell division"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 4,
+      "unitTitle": "Plant Physiology",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 11,
+          "chapterTitle": "Photosynthesis in Higher Plants",
+          "slug": "photosynthesis-in-higher-plants",
+          "topics": [
+            "Photosynthesis as autotrophic nutrition",
+            "Site of photosynthesis",
+            "Pigments involved in photosynthesis",
+            "Photochemical phase",
+            "Biosynthetic phase",
+            "Electron transport chain",
+            "ATP",
+            "NADPH",
+            "Cyclic photophosphorylation",
+            "Non-cyclic photophosphorylation",
+            "Chemiosmotic hypothesis",
+            "Photorespiration",
+            "C3 pathway",
+            "C4 pathway",
+            "Factors affecting photosynthesis"
+          ]
+        },
+        {
+          "chapterNumber": 12,
+          "chapterTitle": "Respiration in Plants",
+          "slug": "respiration-in-plants",
+          "topics": [
+            "Exchange of gases",
+            "Cellular respiration",
+            "Glycolysis",
+            "Fermentation",
+            "TCA cycle",
+            "Electron transport system",
+            "Oxidative phosphorylation",
+            "Energy relations",
+            "Respiratory balance sheet",
+            "ATP generation",
+            "Amphibolic pathways",
+            "Respiratory quotient"
+          ]
+        },
+        {
+          "chapterNumber": 13,
+          "chapterTitle": "Plant — Growth and Development",
+          "slug": "plant-growth-and-development",
+          "topics": [
+            "Seed germination",
+            "Phases of plant growth",
+            "Plant growth rate",
+            "Conditions of growth",
+            "Differentiation",
+            "Dedifferentiation",
+            "Redifferentiation",
+            "Developmental processes in plant cells",
+            "Auxin",
+            "Gibberellin",
+            "Cytokinin",
+            "Ethylene",
+            "Abscisic acid (ABA)"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 5,
+      "unitTitle": "Human Physiology",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 14,
+          "chapterTitle": "Breathing and Exchange of Gases",
+          "slug": "breathing-and-exchange-of-gases",
+          "topics": [
+            "Respiratory organs in animals",
+            "Human respiratory system",
+            "Mechanism of breathing",
+            "Regulation of breathing",
+            "Exchange of gases",
+            "Transport of gases",
+            "Regulation of respiration",
+            "Respiratory volumes",
+            "Asthma",
+            "Emphysema",
+            "Occupational respiratory disorders"
+          ]
+        },
+        {
+          "chapterNumber": 15,
+          "chapterTitle": "Body Fluids and Circulation",
+          "slug": "body-fluids-and-circulation",
+          "topics": [
+            "Composition of blood",
+            "Blood groups",
+            "Coagulation of blood",
+            "Lymph",
+            "Functions of lymph",
+            "Human circulatory system",
+            "Structure of human heart",
+            "Blood vessels",
+            "Cardiac cycle",
+            "Cardiac output",
+            "ECG",
+            "Double circulation",
+            "Regulation of cardiac activity",
+            "Hypertension",
+            "Coronary artery disease",
+            "Angina pectoris",
+            "Heart failure"
+          ]
+        },
+        {
+          "chapterNumber": 16,
+          "chapterTitle": "Digestion and Absorption",
+          "slug": "digestion-and-absorption",
+          "topics": [
+            "Alimentary canal",
+            "Digestive glands",
+            "Digestive enzymes",
+            "Gastrointestinal hormones",
+            "Peristalsis",
+            "Digestion of proteins",
+            "Digestion of carbohydrates",
+            "Digestion of fats",
+            "Absorption",
+            "Assimilation",
+            "Calorific values",
+            "Egestion",
+            "PEM",
+            "Indigestion",
+            "Constipation",
+            "Vomiting",
+            "Jaundice",
+            "Diarrhoea"
+          ]
+        },
+        {
+          "chapterNumber": 17,
+          "chapterTitle": "Excretory Products and their Elimination",
+          "slug": "excretory-products-and-their-elimination",
+          "topics": [
+            "Ammonotelism",
+            "Ureotelism",
+            "Uricotelism",
+            "Human excretory system",
+            "Structure and function",
+            "Urine formation",
+            "Function of tubules",
+            "Concentration of filtrate",
+            "Osmoregulation",
+            "Renin-angiotensin system",
+            "Atrial natriuretic factor",
+            "Micturition",
+            "ADH",
+            "Diabetes insipidus",
+            "Role of other organs in excretion",
+            "Uremia",
+            "Renal failure",
+            "Renal calculi",
+            "Glomerulonephritis",
+            "Dialysis",
+            "Artificial kidney",
+            "Kidney transplant"
+          ]
+        },
+        {
+          "chapterNumber": 18,
+          "chapterTitle": "Locomotion and Movement",
+          "slug": "locomotion-and-movement",
+          "topics": [
+            "Amoeboid movement",
+            "Ciliary movement",
+            "Flagellar movement",
+            "Muscular movement",
+            "Skeletal muscle",
+            "Visceral muscle",
+            "Smooth muscle",
+            "Cardiac muscle",
+            "Contractile proteins",
+            "Muscle contraction",
+            "Skeletal system",
+            "Functions of skeletal system",
+            "Joints",
+            "Myasthenia gravis",
+            "Tetany",
+            "Muscular dystrophy",
+            "Arthritis",
+            "Osteoporosis",
+            "Gout"
+          ]
+        },
+        {
+          "chapterNumber": 19,
+          "chapterTitle": "Neural Control and Coordination",
+          "slug": "neural-control-and-coordination",
+          "topics": [
+            "Neuron",
+            "Nerves",
+            "Central nervous system",
+            "Peripheral nervous system",
+            "Visceral nervous system",
+            "Structure of neurons",
+            "Function of neurons",
+            "Generation of nerve impulse",
+            "Conduction of nerve impulse",
+            "Transmission of nerve impulse",
+            "Central neural system"
+          ]
+        },
+        {
+          "chapterNumber": 20,
+          "chapterTitle": "Chemical Coordination and Integration",
+          "slug": "chemical-coordination-and-integration",
+          "topics": [
+            "Endocrine glands",
+            "Hormones",
+            "Hypothalamus",
+            "Pituitary",
+            "Pineal",
+            "Thyroid",
+            "Parathyroid",
+            "Adrenal",
+            "Pancreas",
+            "Gonads",
+            "Hormones of heart",
+            "Hormones of kidney",
+            "Gastrointestinal hormones",
+            "Mechanism of hormone action",
+            "Hormones as messengers and regulators",
+            "Hypoactivity",
+            "Hyperactivity",
+            "Dwarfism",
+            "Acromegaly",
+            "Cretinism",
+            "Goiter",
+            "Exophthalmic goitre",
+            "Diabetes",
+            "Addison's disease"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 6,
+      "unitTitle": "Reproduction",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 1,
+          "chapterTitle": "Sexual Reproduction in Flowering Plants",
+          "slug": "sexual-reproduction-in-flowering-plants",
+          "topics": [
+            "Flower structure",
+            "Male gametophyte development",
+            "Female gametophyte development",
+            "Pollination types",
+            "Pollination agencies",
+            "Outbreeding devices",
+            "Pollen-pistil interaction",
+            "Double fertilization",
+            "Post fertilization events",
+            "Endosperm development",
+            "Embryo development",
+            "Seed development",
+            "Fruit formation",
+            "Apomixis",
+            "Parthenocarpy",
+            "Polyembryony"
+          ]
+        },
+        {
+          "chapterNumber": 2,
+          "chapterTitle": "Human Reproduction",
+          "slug": "human-reproduction",
+          "topics": [
+            "Male reproductive system",
+            "Female reproductive system",
+            "Testis microscopic anatomy",
+            "Ovary microscopic anatomy",
+            "Spermatogenesis",
+            "Oogenesis",
+            "Menstrual cycle",
+            "Fertilisation",
+            "Embryo development",
+            "Blastocyst formation",
+            "Implantation",
+            "Pregnancy",
+            "Placenta formation",
+            "Parturition"
+          ]
+        },
+        {
+          "chapterNumber": 3,
+          "chapterTitle": "Reproductive Health",
+          "slug": "reproductive-health",
+          "topics": [
+            "Need for reproductive health",
+            "Reproductive health strategies",
+            "Sexually Transmitted Diseases",
+            "Birth control methods",
+            "Contraception",
+            "Medical termination of pregnancy",
+            "Amniocentesis",
+            "Infertility",
+            "Assisted reproductive technologies (IVF, ZIFT, GIFT, ICSI)"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 7,
+      "unitTitle": "Genetics and Evolution",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 4,
+          "chapterTitle": "Principles of Inheritance and Variation",
+          "slug": "principles-of-inheritance-and-variation",
+          "topics": [
+            "Heredity and variation",
+            "Mendelian inheritance",
+            "Incomplete dominance",
+            "Co-dominance",
+            "Multiple alleles",
+            "Inheritance of blood groups",
+            "Pleiotropy",
+            "Polygenic inheritance",
+            "Chromosome theory of inheritance",
+            "Sex determination",
+            "Linkage and crossing over",
+            "Pedigree analysis",
+            "Mendelian disorders (Haemophilia, Sickle-cell, Thalassemia)",
+            "Chromosomal disorders (Down's, Turner's, Klinefelter's)"
+          ]
+        },
+        {
+          "chapterNumber": 5,
+          "chapterTitle": "Molecular Basis of Inheritance",
+          "slug": "molecular-basis-of-inheritance",
+          "topics": [
+            "DNA as genetic material",
+            "RNA world",
+            "Structure of DNA & RNA",
+            "DNA packaging",
+            "DNA replication",
+            "Central Dogma",
+            "Transcription",
+            "Genetic code",
+            "Translation",
+            "Gene regulation (Lac operon)",
+            "Human Genome Project",
+            "DNA fingerprinting"
+          ]
+        },
+        {
+          "chapterNumber": 6,
+          "chapterTitle": "Evolution",
+          "slug": "evolution",
+          "topics": [
+            "Origin of life",
+            "Evidences for biological evolution",
+            "Darwin's contribution",
+            "Modern synthetic theory of evolution",
+            "Natural selection types",
+            "Gene flow & Genetic drift",
+            "Hardy-Weinberg principle",
+            "Adaptive radiation",
+            "Human evolution"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 8,
+      "unitTitle": "Biology and Human Welfare",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 7,
+          "chapterTitle": "Human Health and Diseases",
+          "slug": "human-health-and-diseases",
+          "topics": [
+            "Pathogens causing human diseases (Malaria, Dengue, Typhoid, Ringworm)",
+            "Immunology basics (Acquired, Active, Passive)",
+            "Vaccines and immunisation",
+            "Allergies and Autoimmunity",
+            "Cancer and HIV/AIDS",
+            "Drug and alcohol abuse"
+          ]
+        },
+        {
+          "chapterNumber": 8,
+          "chapterTitle": "Microbes in Human Welfare",
+          "slug": "microbes-in-human-welfare",
+          "topics": [
+            "Microbes in food processing & industrial production",
+            "Microbes in sewage treatment & biogas",
+            "Bio-control agents & Bio-fertilizers",
+            "Antibiotics production"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 9,
+      "unitTitle": "Biotechnology and its Applications",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 9,
+          "chapterTitle": "Biotechnology — Principles and Processes",
+          "slug": "biotechnology-principles-and-processes",
+          "topics": [
+            "Principles of biotechnology",
+            "Genetic engineering tools & enzymes",
+            "Recombinant DNA technology steps"
+          ]
+        },
+        {
+          "chapterNumber": 10,
+          "chapterTitle": "Biotechnology and its Applications",
+          "slug": "biotechnology-and-its-applications",
+          "topics": [
+            "Biotechnology in health & agriculture",
+            "Human insulin production",
+            "Gene therapy & Stem cell technology",
+            "Genetically modified crops (Bt cotton)",
+            "Transgenic animals & Biopiracy"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 10,
+      "unitTitle": "Ecology and Environment",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 11,
+          "chapterTitle": "Organisms and Populations",
+          "slug": "organisms-and-populations",
+          "topics": [
+            "Population interactions (Mutualism, Competition, Predation, Parasitism)",
+            "Population attributes & growth curves"
+          ]
+        },
+        {
+          "chapterNumber": 12,
+          "chapterTitle": "Ecosystem",
+          "slug": "ecosystem",
+          "topics": [
+            "Ecosystem patterns & components",
+            "Productivity & Decomposition",
+            "Energy flow & Ecological pyramids"
+          ]
+        },
+        {
+          "chapterNumber": 13,
+          "chapterTitle": "Biodiversity and its Conservation",
+          "slug": "biodiversity-and-its-conservation",
+          "topics": [
+            "Biodiversity concept & patterns",
+            "Loss of biodiversity",
+            "In-situ and Ex-situ conservation",
+            "Hotspots, National parks, Biosphere reserves, Ramsar sites"
+          ]
+        }
+      ]
+    }
+  ]
+}

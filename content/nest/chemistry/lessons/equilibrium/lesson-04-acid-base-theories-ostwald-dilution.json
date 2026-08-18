@@ -1,0 +1,61 @@
+{
+  "id": "chem-xi-u6-c6-l04",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VI \u2014 Equilibrium",
+  "unitNumber": 6,
+  "chapter": "Equilibrium",
+  "chapterNumber": 6,
+  "chapterSlug": "equilibrium",
+  "slug": "lesson-04-acid-base-theories-ostwald-dilution",
+  "title": "Acid-Base Theories & Ostwald\u2019s Dilution Law for Weak Electrolytes",
+  "topic": "Acid-Base Theories & Ostwald Law",
+  "topics": [
+    "Comparative Acid-Base Frameworks (Arrhenius, Br\u00f8nsted-Lowry, Lewis)",
+    "Conjugate Acid-Base Pairs Dynamics",
+    "Ostwald's Dilution Law Derivation for Weak Monoprotic Acids/Bases",
+    "Approximation Criteria (\u03b1 \u2264 0.05 vs Exact Quadratic)",
+    "Formulas: \u03b1 = \u221a(K_a / C), [H\u207a] = \u221a(K_a C), pH = 1/2 [pK_a - log\u2081\u2080 C]"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "ostwald-dilution",
+  "quickSummary": "Arrhenius (H\u207a/OH\u207b in water), Br\u00f8nsted (proton donor/acceptor), Lewis (e\u207b pair acceptor/donor). Ostwald's law: \u03b1 = \u221a(K_a/C), [H\u207a] = \u221a(K_a C), and pH = 1/2 [pK_a - log\u2081\u2080 C] for weak monoprotic electrolytes.",
+  "summary": "Master acid-base classifications, conjugate pair rules, and Ostwald's dilution law derivations.",
+  "conceptBreakdown": [
+    {
+      "heading": "4.1 Comparative Acid-Base Frameworks",
+      "title": "4.1 Comparative Acid-Base Frameworks",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Acid-Base Theories",
+        "takeaway": "Arrhenius: H\u207a/OH\u207b in water. Br\u00f8nsted: proton donor/acceptor. Lewis: electron pair acceptor/donor."
+      },
+      "codeSnippet": "CONJUGATE ACID-BASE PAIRS\n                       \n   HCl (a1) + H\u2082O (b2) \u21cc H\u2083O\u207a (a2) + Cl\u207b (b1)\n   \u251c\u2500\u2500 Pair 1: HCl (Strong Acid) / Cl\u207b (Very Weak Conjugate Base)\n   \u2514\u2500\u2500 Pair 2: H\u2082O (Weak Base) / H\u2083O\u207a (Strong Conjugate Acid)",
+      "content": "\u2022 **Arrhenius Theory**: Acid releases $\\text{H}^+$ in water; Base releases $\\text{OH}^-$ in water (valid strictly in aqueous systems).\n\u2022 **Br\u00f8nsted-Lowry Theory**: Acid is a **Proton ($\\text{H}^+$) Donor**; Base is a **Proton ($\\text{H}^+$) Acceptor**. Forms conjugate pairs (strong acid has weak conjugate base).\n\u2022 **Lewis Theory**: Acid is an **Electron-Pair Acceptor** (Electrophile, e.g. $\\text{BF}_3, \\text{AlCl}_3, \\text{Fe}^{3+}$); Base is an **Electron-Pair Donor** (Nucleophile, e.g. $\\text{NH}_3, \\text{H}_2\\text{O}, \\text{CN}^-$)."
+    },
+    {
+      "heading": "4.2 Ostwald\u2019s Dilution Law for Weak Monoprotic Acids/Bases",
+      "title": "4.2 Ostwald\u2019s Dilution Law for Weak Monoprotic Acids/Bases",
+      "type": "paragraph",
+      "content": "Consider a weak acid $\\text{HA}$ of initial concentration $C\\text{ mol/L}$ with degree of ionization $\\alpha$:\n$$\\text{HA}(aq) \\rightleftharpoons \\text{H}^+(aq) + \\text{A}^-(aq)$$\n$$K_a = \\frac{[\\text{H}^+][\\text{A}^-]}{[\\text{HA}]} = \\frac{(C\\alpha)(C\\alpha)}{C(1-\\alpha)} = \\frac{C \\alpha^2}{1 - \\alpha}$$\nFor weak electrolytes where $\\alpha \\ll 1$ (typically $\\alpha < 0.05$ or $5\\%$):\n$$1 - \\alpha \\approx 1 \\implies K_a \\approx C \\alpha^2 \\implies \\mathbf{\\alpha = \\sqrt{\\frac{K_a}{C}} = \\sqrt{K_a \\cdot V_m}}$$\n$$\\mathbf{[\\text{H}^+] = C \\alpha = \\sqrt{K_a \\cdot C}}$$\n$$\\mathbf{\\text{pH} = \\frac{1}{2} \\left[ \\text{p}K_a - \\log_{10} C \\right]}$$\n\u2022 **Ostwald's Postulate**: The degree of ionization ($\\alpha$) of a weak electrolyte is inversely proportional to the square root of its molar concentration ($C$) and directly proportional to the square root of dilution ($V_m$). As $C \\to 0$ (infinite dilution), $\\alpha \\to 1.0$."
+    }
+  ],
+  "quickRevision": [
+    "Conjugate pair differs by exactly one H\u207a.",
+    "Ostwald: \u03b1 = \u221a(K_a / C) when \u03b1 \u2264 0.05.",
+    "[H\u207a] = \u221a(K_a C) for weak monoprotic acid.",
+    "pH = 1/2 [pK_a - log\u2081\u2080 C].",
+    "Lewis acids are electron pair acceptors; Lewis bases are electron pair donors."
+  ],
+  "keyFormulae": [
+    "\u03b1 = \u221a(K_a / C)",
+    "[H\u207a] = \u221a(K_a C)",
+    "pH = 1/2 [pK_a - log\u2081\u2080 C]"
+  ]
+}

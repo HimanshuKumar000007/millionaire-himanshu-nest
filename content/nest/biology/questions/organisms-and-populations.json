@@ -1,0 +1,602 @@
+[
+  {
+    "id": "bio-xii-u10-c11-q01",
+    "questionNumber": 1,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Logistic Growth Maximum Growth Rate Condition",
+    "questionText": "An ecologist tracks the population growth of a flour beetle species (Tribolium) introduced into a storage bin with a constant, limited daily food supply. The population initially expands exponentially, but as density increases, growth decelerates and stabilizes at N = 5000 beetles. If the intrinsic rate of natural increase (r) is 0.1 per day, at what population density (N) will the absolute population growth rate (dN/dt) be MAXIMIZED, and what is that maximum rate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "N = 5000; dN/dt = 500 beetles/day"
+      },
+      {
+        "id": "B",
+        "text": "N = 2500; dN/dt = 125 beetles/day"
+      },
+      {
+        "id": "C",
+        "text": "N = 1000; dN/dt = 100 beetles/day"
+      },
+      {
+        "id": "D",
+        "text": "N = 0; dN/dt = 0 beetles/day"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In logistic growth, maximum population growth rate (dN/dt_max) occurs at half the carrying capacity (N = K/2 = 5000/2 = 2500 beetles). Substituting into dN/dt = rN[(K-N)/K] = 0.1 * 2500 * (2500/5000) = 250 * 0.5 = 125 beetles/day."
+  },
+  {
+    "id": "bio-xii-u10-c11-q02",
+    "questionNumber": 2,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Connell's Barnacle Competitive Release",
+    "questionText": "During a marine ecology study along the Scottish intertidal coast, Joseph Connell experimentally removed the larger, dominant barnacle species Balanus balanoides from a rocky zone. Following removal, the smaller barnacle species Chthamalus stellatus rapidly expanded its distribution into the lower intertidal area. What ecological phenomenon does this field experiment demonstrate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gause's Competitive Exclusion"
+      },
+      {
+        "id": "B",
+        "text": "Competitive Release"
+      },
+      {
+        "id": "C",
+        "text": "Mutualistic Co-evolution"
+      },
+      {
+        "id": "D",
+        "text": "Brood Parasitism"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Competitive Release occurs when a species whose geographic distribution is restricted by a superior competitor expands its ecological niche and range dramatically following the experimental removal of the competitor."
+  },
+  {
+    "id": "bio-xii-u10-c11-q03",
+    "questionNumber": 3,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Ophrys Orchid Pseudocopulation & Co-evolution",
+    "questionText": "How does the Mediterranean Orchid Ophrys ensure cross-pollination by the male solitary bee (Colletes), and what evolutionary consequence does this mutualistic interaction impose on the orchid?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It secretes high volumes of sugary nectar; leads to loss of petals."
+      },
+      {
+        "id": "B",
+        "text": "It employs Sexual Deceit by mimicking the female bee's appearance on its petal; obligates co-evolution with the bee."
+      },
+      {
+        "id": "C",
+        "text": "It acts as an endoparasite inside the bee's gut; destroys bee larvae."
+      },
+      {
+        "id": "D",
+        "text": "It produces toxic cardiac glycosides that paralyze the bee."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Ophrys uses Sexual Deceit (Pseudocopulation): one petal mimics the female bee's shape and markings. Male bees attempt to pseudocopulate with the flower, transferring pollen. This obligates co-evolution: if the female bee's color pattern evolves, the orchid petal must co-evolve simultaneously."
+  },
+  {
+    "id": "bio-xii-u10-c11-q04",
+    "questionNumber": 4,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Paine's Pisaster Starfish Removal Experiment",
+    "questionText": "On an American Pacific intertidal rocky shore, Robert Paine experimentally removed the predatory starfish Pisaster from a designated community. Within a year, more than 10 species of intertidal invertebrates became locally extinct. What was the primary ecological reason for this drastic loss of species diversity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pisaster was the primary producer supplying 90% of community energy."
+      },
+      {
+        "id": "B",
+        "text": "Removing Pisaster allowed the dominant mussel competitor (Mytilus) to outcompete and exclude all other invertebrate species for space."
+      },
+      {
+        "id": "C",
+        "text": "Pisaster was a mutualistic symbiont supplying phosphorus to all invertebrates."
+      },
+      {
+        "id": "D",
+        "text": "Pisaster removal caused an immediate outbreak of viral diseases."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Predators maintain community species diversity by keeping prey populations in check. Removing the keystone predator Pisaster removed predation pressure from the dominant intertidal competitor (mussels), allowing mussels to monopolize space and competitively exclude >10 other invertebrate species."
+  },
+  {
+    "id": "bio-xii-u10-c11-q05",
+    "questionNumber": 5,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Age Pyramid Morphologies & Declining Population",
+    "questionText": "A demographic survey of a country reveals an age pyramid with a very narrow base (low percentage of pre-reproductive individuals) and a wider middle and upper section (high percentage of reproductive and post-reproductive individuals). What is the growth status of this human population?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rapidly Expanding Population"
+      },
+      {
+        "id": "B",
+        "text": "Stable Population with Zero Growth"
+      },
+      {
+        "id": "C",
+        "text": "Declining / Shrinking Population (Urn-shaped)"
+      },
+      {
+        "id": "D",
+        "text": "Exponentially Proliferating Population"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "An Urn-shaped age pyramid featuring a narrow base (fewer pre-reproductive children than reproductive adults) indicates a Declining / Shrinking Population with negative population growth rate."
+  },
+  {
+    "id": "bio-xii-u10-c11-q06",
+    "questionNumber": 6,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Monarch Butterfly Cardiac Glycosides Defense",
+    "questionText": "The Monarch Butterfly (Danaus plexippus) is extremely distasteful to predatory birds. How does the butterfly acquire this specialized chemical defense mechanism during its development?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It synthesizes cyanide de novo during its adult butterfly stage."
+      },
+      {
+        "id": "B",
+        "text": "It sequesters toxic Cardiac Glycosides during its caterpillar stage by feeding on poisonous milkweed plants (Asclepias)."
+      },
+      {
+        "id": "C",
+        "text": "It harbors endosymbiotic Penicillium molds in its hemolymph."
+      },
+      {
+        "id": "D",
+        "text": "It absorbs heavy metals from polluted industrial air."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Monarch butterfly caterpillars feed on poisonous milkweed (Asclepias), sequestering highly toxic Cardiac Glycosides into their tissues. These cardiac glycosides persist into the adult butterfly stage, rendering it distasteful to avian predators."
+  },
+  {
+    "id": "bio-xii-u10-c11-q07",
+    "questionNumber": 7,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Amensalism in Penicillium Antibiosis",
+    "questionText": "What form of population interaction exists between the fungus Penicillium (which secretes the antibiotic Penicillin that inhibits surrounding Staphylococcus bacteria) and the bacteria, assuming the fungus derives no direct benefit or harm from the bacterial death?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Commensalism (+/0)"
+      },
+      {
+        "id": "B",
+        "text": "Amensalism (-/0)"
+      },
+      {
+        "id": "C",
+        "text": "Mutualism (+/+)"
+      },
+      {
+        "id": "D",
+        "text": "Parasitism (+/-)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Amensalism (-/0) is an interaction where one species is inhibited or destroyed (Bacteria, -) while the other species remains unaffected (Fungus Penicillium, 0). Antibiotic secretion that inadvertently kills surrounding bacteria is a classic example of amensalism."
+  },
+  {
+    "id": "bio-xii-u10-c11-q08",
+    "questionNumber": 8,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Brood Parasitism Egg Mimicry",
+    "questionText": "The Cuckoo (Koel) lays its eggs in the nest of a Crow. The host crow incubates the foreign eggs and rears the cuckoo chicks as its own. What specific evolutionary adaptation prevents the host crow from detecting and ejecting the parasitic cuckoo eggs?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cuckoo eggs hatch into fully adult birds within 2 hours."
+      },
+      {
+        "id": "B",
+        "text": "Cuckoo eggs have evolved to closely mimic the host crow's eggs in size, background color, and speckle patterns."
+      },
+      {
+        "id": "C",
+        "text": "Cuckoo eggs secrete potent neurotoxins that paralyze the crow."
+      },
+      {
+        "id": "D",
+        "text": "Cuckoo eggs are transparent and invisible to birds."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In Brood Parasitism, the parasitic bird's eggs have co-evolved to mimic the host bird's eggs in size, shape, and color pattern. This prevents the host bird (Crow) from recognizing the foreign eggs and ejecting them from the nest."
+  },
+  {
+    "id": "bio-xii-u10-c11-q09",
+    "questionNumber": 9,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "r-Selected Life History Traits",
+    "questionText": "Which of the following life history strategies is characteristic of r-selected opportunistic species (e.g., pelagic fish, oysters, insects)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Large body size, long lifespan, production of few large offspring, high parental care."
+      },
+      {
+        "id": "B",
+        "text": "Small body size, short lifespan, production of many small offspring, minimal/no parental care."
+      },
+      {
+        "id": "C",
+        "text": "Stable population size sustained permanently at carrying capacity (N ≈ K)."
+      },
+      {
+        "id": "D",
+        "text": "Type I convex survivorship curve with low juvenile mortality."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "r-selected species adapt to unpredictable habitats by maximizing their intrinsic growth rate (r): they exhibit small body sizes, short lifespans, produce many small offspring, and invest minimal or no energy in parental care."
+  },
+  {
+    "id": "bio-xii-u10-c11-q10",
+    "questionNumber": 10,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Commensalism in Epiphytic Orchids",
+    "questionText": "An epiphytic Orchid growing anchored to the branch of a large Mango tree absorbs moisture and mineral dust from the air without siphoning nutrients or harming the mango tree. What type of population interaction does this represent?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parasitism (+/-)"
+      },
+      {
+        "id": "B",
+        "text": "Commensalism (+/0)"
+      },
+      {
+        "id": "C",
+        "text": "Mutualism (+/+)"
+      },
+      {
+        "id": "D",
+        "text": "Amensalism (-/0)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The epiphytic Orchid receives structural support and light access (+), while the Mango tree is neither benefited nor harmed (0). This is Commensalism (+/0). (Contrast with Cuscuta, which is a true parasite using haustoria)."
+  },
+  {
+    "id": "bio-xii-u10-c11-q11",
+    "questionNumber": 11,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Population Density Determinants",
+    "questionText": "Which of the following parameters lead to an INCREASE in population density (N) over time?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Natality (B)"
+      },
+      {
+        "id": "B",
+        "text": "Mortality (D)"
+      },
+      {
+        "id": "C",
+        "text": "Immigration (I)"
+      },
+      {
+        "id": "D",
+        "text": "Emigration (E)"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "C"
+    ],
+    "explanation": "A and C are correct: Natality (Births, B) and Immigration (Inflow, I) add individuals, increasing population density (N_{t+1} = N_t + [(B + I) - (D + E)]). Mortality (D) and Emigration (E) decrease density."
+  },
+  {
+    "id": "bio-xii-u10-c11-q12",
+    "questionNumber": 12,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Logistic Growth Equation & Phases",
+    "questionText": "Select the correct equations and parameters describing the Logistic Growth Model:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Differential Equation: dN/dt = rN[(K - N)/K]"
+      },
+      {
+        "id": "B",
+        "text": "K represents the Carrying Capacity of the environment."
+      },
+      {
+        "id": "C",
+        "text": "[(K - N)/K] represents Environmental Resistance."
+      },
+      {
+        "id": "D",
+        "text": "The growth curve displays an initial Lag phase, followed by Acceleration, Deceleration, and an Asymptote when N = K."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "All four options represent accurate mathematical, parameter, and graphical features of the Verhulst-Pearl Logistic Growth model."
+  },
+  {
+    "id": "bio-xii-u10-c11-q13",
+    "questionNumber": 13,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Mutualistic Interactions Spectrum",
+    "questionText": "Which of the following population interactions represent valid examples of MUTUALISM (+/+)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lichens (Symbiosis between Fungus and Alga/Cyanobacterium)"
+      },
+      {
+        "id": "B",
+        "text": "Mycorrhizae (Association between Glomus fungus and vascular plant roots)"
+      },
+      {
+        "id": "C",
+        "text": "Fig Tree (Ficus) and Fig Wasp (Blastophaga) obligate pollination and egg-laying relationship"
+      },
+      {
+        "id": "D",
+        "text": "Sea Anemone providing protection to Clownfish among its stinging tentacles"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Lichens, Mycorrhizae, and Fig/Fig Wasp are mutualistic (+/+) symbioses. D is incorrect: Sea Anemone and Clownfish is Commensalism (+/0)."
+  },
+  {
+    "id": "bio-xii-u10-c11-q14",
+    "questionNumber": 14,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Gause's Exclusion & MacArthur's Partitioning",
+    "questionText": "Select the valid statements regarding Gause's Competitive Exclusion Principle and MacArthur's findings:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gause proposed that two species competing for the exact same limiting resource cannot coexist indefinitely."
+      },
+      {
+        "id": "B",
+        "text": "MacArthur demonstrated that 5 species of Warblers coexisted on the same spruce tree by Resource Partitioning (differing foraging zones and times)."
+      },
+      {
+        "id": "C",
+        "text": "Gause's principle applies even when resources are unlimited and infinite."
+      },
+      {
+        "id": "D",
+        "text": "Competitive Release occurs when a species expands its geographical range after a competitor is removed."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "A, B, D are correct: Gause's exclusion law, MacArthur's warbler resource partitioning, and Connell's competitive release are accurate. C is incorrect: Gause's principle applies only when resources are limiting."
+  },
+  {
+    "id": "bio-xii-u10-c11-q15",
+    "questionNumber": 15,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Prey Anti-Predator Adaptations",
+    "questionText": "Which of the following prey adaptations have evolved specifically to prevent or deter PREDATION?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Camouflage / Crypsis in frogs and insects"
+      },
+      {
+        "id": "B",
+        "text": "Sequestration of distasteful Cardiac Glycosides by Monarch Butterflies"
+      },
+      {
+        "id": "C",
+        "text": "Development of sharp Thorns in Acacia and Cactus plants"
+      },
+      {
+        "id": "D",
+        "text": "Production of rich sugary nectar in flowers"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Camouflage, chemical cardiac glycosides, and morphological thorns are anti-predator defenses. D is incorrect: Nectar is an attractant for pollinators (Mutualism), not an anti-predator defense."
+  },
+  {
+    "id": "bio-xii-u10-c11-q16",
+    "questionNumber": 16,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Parasitism Adaptations & Cuscuta",
+    "questionText": "Select the correct options regarding Parasitism and Parasitic adaptations:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parasites often exhibit loss of unnecessary sense organs and high reproductive capacity."
+      },
+      {
+        "id": "B",
+        "text": "Cuscuta (Dodder) is a total stem parasite that lacks chlorophyll and develops haustoria to siphon nutrients."
+      },
+      {
+        "id": "C",
+        "text": "Brood parasitism is exhibited by the Cuckoo (Koel) laying eggs in the nest of a Crow."
+      },
+      {
+        "id": "D",
+        "text": "All parasites kill their host immediately within 5 minutes of infection."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Parasites adapt by losing unnecessary senses, high egg production, Cuscuta uses haustoria, and Cuckoos exhibit brood parasitism. D is incorrect: Successful parasites do not kill their host immediately."
+  },
+  {
+    "id": "bio-xii-u10-c11-q17",
+    "questionNumber": 17,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "K-Selected vs r-Selected Strategy Distinctions",
+    "questionText": "Which of the following features distinguish K-selected species from r-selected species?",
+    "options": [
+      {
+        "id": "A",
+        "text": "K-selected species adapt to stable, predictable environments near carrying capacity (N ≈ K)."
+      },
+      {
+        "id": "B",
+        "text": "K-selected species produce few, large offspring and invest heavily in parental care."
+      },
+      {
+        "id": "C",
+        "text": "K-selected species have large body sizes and long lifespans (e.g., Elephants, Humans)."
+      },
+      {
+        "id": "D",
+        "text": "K-selected species exhibit J-shaped exponential growth curves with frequent population crashes."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: K-selected species are equilibrium competitors, large-bodied, long-lived, and invest heavily in few offspring. D is incorrect: J-shaped exponential curves characterize r-selected species."
+  },
+  {
+    "id": "bio-xii-u10-c11-q18",
+    "questionNumber": 18,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Age Pyramid Morphologies Classification",
+    "questionText": "Select the correct options regarding Population Age Pyramids:",
+    "options": [
+      {
+        "id": "A",
+        "text": "An expanding population displays a triangular pyramid with a broad pre-reproductive base."
+      },
+      {
+        "id": "B",
+        "text": "A stable population displays a bell-shaped distribution where pre-reproductive and reproductive age classes are roughly equal."
+      },
+      {
+        "id": "C",
+        "text": "A declining population displays an urn-shaped pyramid where the pre-reproductive fraction is smaller than the reproductive fraction."
+      },
+      {
+        "id": "D",
+        "text": "Age pyramids plot human population density strictly against atmospheric oxygen levels."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Triangular = expanding; Bell-shaped = stable; Urn-shaped = declining/shrinking. D is incorrect: Age pyramids plot age class distributions."
+  },
+  {
+    "id": "bio-xii-u10-c11-q19",
+    "questionNumber": 19,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Commensalism Examples",
+    "questionText": "Which of the following interactions are classified as COMMENSALISM (+/0)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Epiphytic Orchid growing on a Mango tree branch"
+      },
+      {
+        "id": "B",
+        "text": "Barnacles growing on the back of a Blue Whale"
+      },
+      {
+        "id": "C",
+        "text": "Cattle Egrets foraging near grazing livestock"
+      },
+      {
+        "id": "D",
+        "text": "Anabaena living inside Azolla leaf cavities"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Orchid on Mango, Barnacles on Whale, and Egret with Cattle are classic examples of Commensalism (+/0). D is incorrect: Anabaena in Azolla is Mutualism (+/+)."
+  },
+  {
+    "id": "bio-xii-u10-c11-q20",
+    "questionNumber": 20,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Intrinsic Rate of Natural Increase (r)",
+    "questionText": "Select the valid statements regarding the Intrinsic Rate of Natural Increase (r):",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is calculated as r = b - d (per capita birth rate minus per capita death rate)."
+      },
+      {
+        "id": "B",
+        "text": "It represents the inherent biotic potential of a population under ideal, unlimiting conditions."
+      },
+      {
+        "id": "C",
+        "text": "In the integral form of exponential growth (N_t = N_0 e^{rt}), r dictates the steepness of population expansion."
+      },
+      {
+        "id": "D",
+        "text": "The value of r for all species on Earth is a fixed, universal constant equal to 1.0."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: r = b - d, reflects biotic potential, and governs exponential curve steepness. D is incorrect: The value of r varies widely across species (e.g., r = 0.015 for Norway rat; r = 0.12 for flour beetle)."
+  }
+]

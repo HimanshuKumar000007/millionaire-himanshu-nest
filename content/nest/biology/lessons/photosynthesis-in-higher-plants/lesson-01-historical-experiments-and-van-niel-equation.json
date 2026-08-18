@@ -1,0 +1,56 @@
+{
+  "id": "bio-xi-u4-c11-l01",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Photosynthesis in Higher Plants",
+  "chapterNumber": 11,
+  "chapterSlug": "photosynthesis-in-higher-plants",
+  "slug": "lesson-01-historical-experiments-and-van-niel-equation",
+  "title": "Photosynthesis Overview & Classical Historical Experiments",
+  "topic": "Energetics, Priestley, Ingenhousz, Sachs, Engelmann, & Van Niel's Generalized Equation",
+  "topics": [
+    "Photosynthesis Definition & Global Reaction ($\\Delta G^{\\circ \\prime} = +2870\\text{ kJ/mol}$)",
+    "Joseph Priestley (1770): Bell Jar, Mint Plant, & $\\text{O}_2$ Restoration",
+    "Jan Ingenhousz (1779): Light & Green Tissue Requirement for $\\text{O}_2$ Bubbles",
+    "Julius von Sachs (1854): Chloroplast Starch Storage & Hydroponics",
+    "T. W. Engelmann (1883): First Action Spectrum using *Cladophora* & Aerobic Bacteria",
+    "Cornelis van Niel (1931): $\\text{H}_2\\text{S}$ Purple Sulfur Bacteria & Generalized Photosynthetic Equation"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Photosynthesis is an endergonic redox reaction converting light into chemical energy. Classical milestones: Priestley demonstrated air restoration by plants; Ingenhousz showed sunlight and green parts are mandatory; Sachs showed glucose storage as starch; Engelmann illuminated Cladophora with a prism to plot the first action spectrum; and Van Niel proved that O2 originates exclusively from H2O by comparing green plants with H2S-utilizing purple sulfur bacteria.",
+  "summary": "Photosynthesis is an endergonic redox reaction converting light into chemical energy. Classical milestones: Priestley demonstrated air restoration by plants; Ingenhousz showed sunlight and green parts are mandatory; Sachs showed glucose storage as starch; Engelmann illuminated Cladophora with a prism to plot the first action spectrum; and Van Niel proved that O2 originates exclusively from H2O by comparing green plants with H2S-utilizing purple sulfur bacteria.",
+  "conceptBreakdown": [
+    {
+      "heading": "1. Fundamental Nature & Overall Reaction",
+      "title": "1. Fundamental Nature & Overall Reaction",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Photosynthesis is an anabolic, endergonic redox process (ΔG°' = +2870 kJ/mol). Oxygen released originates EXCLUSIVELY from water, not CO2."
+      },
+      "content": "Photosynthesis is the physico-chemical process by which photoautotrophic organisms harness solar radiation to synthesize carbohydrates from inorganic carbon dioxide ($\\text{CO}_2$) and water ($\\text{H}_2\\text{O}$):\n$$\\Large \\mathbf{6\\text{CO}_2 + 12\\text{H}_2\\text{O} \\xrightarrow[\\text{Chloroplast Pigments}]{\\text{Light Energy}} \\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2\\uparrow + 6\\text{H}_2\\text{O} \\quad (\\Delta G^{\\circ \\prime} = +2870\\text{ kJ/mol})}$$"
+    },
+    {
+      "heading": "1.1 Historical Experimental Milestones",
+      "title": "1.1 Historical Experimental Milestones",
+      "type": "paragraph",
+      "codeSnippet": "HISTORICAL EXPERIMENTAL MILESTONES\n                                         │\n  Joseph Priestley (1770)  ──► Candle/Bell Jar/Mint experiment; proved plants restore $\\text{O}_2$.\n  Jan Ingenhousz (1779)    ──► Showed sunlight & green plant parts are required for $\\text{O}_2$ release.\n  Julius von Sachs (1854)  ──► Proved glucose is produced & stored as starch inside chloroplasts.\n  T. W. Engelmann (1883)   ──► Action Spectrum experiment (*Cladophora* + aerobic bacteria); blue/red light.\n  C. van Niel (1931)       ──► Proved $\\text{O}_2$ comes from $\\text{H}_2\\text{O}$ (using purple/green sulfur bacteria $\\text{H}_2\\text{S}$).\n  Melvin Calvin (1954)     ──► Traced $C_3$ cycle using $^{14}\\text{C}$ in *Chlorella*; identified 3-PGA.",
+      "content": "1. **Joseph Priestley (1770)**: Discovered that a candle burning in a closed bell jar extinguishes and a mouse suffocates. Introducing a mint plant (*Mentha*) restored the 'damaged air' (discovered oxygen in 1774).\n2. **Jan Ingenhousz (1779)**: Showed that sunlight is essential; aquatic plants (*Hydrilla*) form oxygen bubbles around green parts only under illumination.\n3. **Julius von Sachs (1854)**: Demonstrated that green plant parts synthesize glucose, stored as starch within specialized cellular bodies (chloroplasts).\n4. **T.W. Engelmann (1883)**: Split white light using a prism to illuminate green alga *Cladophora* suspended with aerobic bacteria (*Pseudomonas*). Bacteria clustered primarily in the **blue ($430\\text{--}470\\text{ nm}$)** and **red ($650\\text{--}680\\text{ nm}$)** regions, generating the **first Action Spectrum**."
+    },
+    {
+      "heading": "1.2 Van Niel's Generalized Equation",
+      "title": "1.2 Van Niel's Generalized Equation",
+      "type": "paragraph",
+      "codeSnippet": "VAN NIEL'S GENERALIZED EQUATION\n                        \n      2\\text{H}_2\\text{A} + \\text{CO}_2 \\xrightarrow{\\text{Light}} 2\\text{A} + [\\text{CH}_2\\text{O}] + \\text{H}_2\\text{O}\n      \n   ├── In Green Plants: $\\text{H}_2\\text{A} = \\text{H}_2\\text{O} \\implies \\text{A} = \\text{O}_2$ (Oxygenic Photosynthesis)\n   └── In Sulfur Bacteria: $\\text{H}_2\\text{A} = \\text{H}_2\\text{S} \\implies \\text{A} = 2\\text{S}$ (Anoxygenic Photosynthesis)",
+      "content": "Cornelis van Niel demonstrated that photosynthesis is a light-dependent redox reaction where hydrogen from an oxidizable donor ($\\text{H}_2\\text{A}$) reduces $\\text{CO}_2$ to carbohydrate.\n• When purple and green sulfur bacteria utilize $\\text{H}_2\\text{S}$ as hydrogen donor, the byproduct is elemental sulfur ($\\text{S}$), **NOT $\\text{O}_2$** (Anoxygenic Photosynthesis).\n• Hence, van Niel inferred that in green plants, **$\\text{O}_2$ is evolved exclusively by the photolysis of $\\text{H}_2\\text{O}$**, later confirmed with isotopic $^{18}\\text{O}$ by Ruben and Kamen (1941)."
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+[
+  {
+    "id": "q-bio-c20-001",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "Acromegaly Adult GH Hypersecretion",
+    "difficulty": "Medium",
+    "questionText": "An adult male patient undergoes brain surgery to excise a pituitary macroadenoma. Post-operatively, he presents with severe coarsening of facial features, abnormal enlargement of the lower jaw (prognathism), and dramatic enlargement of hands and feet. What hormone is being hyper-secreted, and why did this patient develop Acromegaly rather than Gigantism?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Hypersecretion of ACTH; due to loss of adrenal cortical feedback", "isCorrect": false },
+      { "id": "b", "text": "Hypersecretion of Growth Hormone (GH); because the hypersecretion occurred in adulthood AFTER epiphyseal plate fusion", "isCorrect": true },
+      { "id": "c", "text": "Hyposecretion of Thyroid Stimulating Hormone (TSH); leading to myxedema", "isCorrect": false },
+      { "id": "d", "text": "Hypersecretion of Prolactin; stimulating bone mineralization", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Hypersecretion of Growth Hormone (GH) in adults after the epiphyseal cartilage plates of long bones have fused causes Acromegaly (characterized by disfiguring enlargement of facial bones, hands, and feet). Childhood GH hypersecretion before epiphyseal fusion causes Gigantism.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c20-002",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "Grave's Disease TSI Autoantibodies",
+    "difficulty": "Easy",
+    "questionText": "A 30-year-old female presents with rapid weight loss, high BMR, heat intolerance, hand tremors, an enlarged thyroid gland, and marked Exophthalmos (protruding eyeballs). Laboratory testing reveals high circulating titers of Thyroid-Stimulating Immunoglobulins (TSI). What is the diagnosis?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Endemic Simple Goitre", "isCorrect": false },
+      { "id": "b", "text": "Cretinism", "isCorrect": false },
+      { "id": "c", "text": "Myxedema", "isCorrect": false },
+      { "id": "d", "text": "Exophthalmic Goitre (Grave's Disease)", "isCorrect": true }
+    ],
+    "correctAnswer": "d",
+    "solutionExplanation": "Exophthalmic Goitre (Grave's Disease) is an autoimmune hyperthyroid condition where auto-antibodies called Thyroid-Stimulating Immunoglobulins (TSI) bind and continuously activate TSH receptors on thyroid follicular cells. This causes hypersecretion of T3/T4, elevated BMR, weight loss, and exophthalmos (protruding eyes due to retro-orbital edema).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c20-003",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "GPCR cAMP Protein Kinase A Cascade",
+    "difficulty": "Medium",
+    "questionText": "Which intracellular second messenger is generated when a water-soluble peptide hormone like Glucagon binds its cell-surface G-Protein Coupled Receptor (GPCR), and what target enzyme does it directly activate?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "IP₃; activates Phospholipase C", "isCorrect": false },
+      { "id": "b", "text": "cAMP; activates Protein Kinase A (PKA)", "isCorrect": true },
+      { "id": "c", "text": "cGMP; activates Calmodulin", "isCorrect": false },
+      { "id": "d", "text": "DAG; activates RNA Polymerase II", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Binding of water-soluble peptide hormones (e.g., Glucagon, TSH, ACTH) to Gs-coupled GPCRs activates Adenylate Cyclase, which converts ATP into the second messenger cyclic AMP (cAMP). cAMP directly binds and activates Protein Kinase A (PKA) to phosphorylate downstream metabolic enzymes.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c20-004",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "Thyrocalcitonin (TCT) Parafollicular C-Cells",
+    "difficulty": "Medium",
+    "questionText": "A patient involved in an industrial chemical spill develops selective destruction of the Parafollicular C-Cells of the Thyroid Gland. What specific hormonal deficiency will result, and how will it affect serum calcium homeostasis?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Loss of Parathyroid Hormone (PTH) → Severe Hypocalcemia", "isCorrect": false },
+      { "id": "b", "text": "Loss of Thyrocalcitonin (TCT) → Impaired hypocalcemic response during hypercalcemic spikes", "isCorrect": true },
+      { "id": "c", "text": "Loss of Thyroxine (T₄) → Drop in Basal Metabolic Rate", "isCorrect": false },
+      { "id": "d", "text": "Loss of Aldosterone → Severe Hyponatremia", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Parafollicular C-cells of the thyroid gland synthesize and secrete Thyrocalcitonin (TCT). TCT is a hypocalcemic hormone that lowers serum Ca²⁺ levels by inhibiting osteoclasts. Loss of C-cells impairs the body's ability to lower blood calcium during hypercalcemic spikes.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c20-005",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "Addison's Disease Adrenal Cortex Failure",
+    "difficulty": "Easy",
+    "questionText": "A 40-year-old patient presents with severe muscle weakness, low blood pressure, low serum sodium (Na⁺), elevated serum potassium (K⁺), hypoglycemia, and a characteristic bronze pigmentation of the skin. What endocrine disorder does this represent, and what gland is failing?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Cushing's Syndrome; Adrenal Medulla hyperfunction", "isCorrect": false },
+      { "id": "b", "text": "Addison's Disease; Adrenal Cortex hypofunction", "isCorrect": true },
+      { "id": "c", "text": "Diabetes Insipidus; Posterior Pituitary failure", "isCorrect": false },
+      { "id": "d", "text": "Conn's Syndrome; Parathyroid gland adenoma", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Addison's Disease is caused by hyposecretion of glucocorticoids (cortisol) and mineralocorticoids (aldosterone) due to autoimmune or tuberculous destruction of the Adrenal Cortex. Symptoms include hypoglycemia, hyponatremia, hyperkalemia, hypotension, and diagnostic bronze skin pigmentation (caused by elevated ACTH/MSH precursors).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c20-006",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "Hypophyseal Portal System Function",
+    "difficulty": "Easy",
+    "questionText": "What unique vascular structure transports hypothalamic releasing and inhibiting hormones directly from the median eminence of the hypothalamus to the Pars Distalis of the Anterior Pituitary?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Hypothalamic-Hypophyseal Neurosecretory Tract", "isCorrect": false },
+      { "id": "b", "text": "Hypophyseal Portal System", "isCorrect": true },
+      { "id": "c", "text": "Hepatic Portal System", "isCorrect": false },
+      { "id": "d", "text": "Coronary Sinus", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Hypothalamic releasing/inhibiting hormones are discharged into a specialized local vascular network called the Hypophyseal Portal System, which carries them directly to the Pars Distalis (anterior pituitary) to regulate adenohypophyseal tropin release. (Oxytocin and ADH travel via the Neurosecretory Tract).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c20-007",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "Pineal Melatonin from Tryptophan",
+    "difficulty": "Easy",
+    "questionText": "Which hormone is secreted by the pineal gland to regulate the 24-hour diurnal sleep-wake cycle, and from which amino acid precursor is it synthesized?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Epinephrine; synthesized from L-Tyrosine", "isCorrect": false },
+      { "id": "b", "text": "Melatonin; synthesized from L-Tryptophan", "isCorrect": true },
+      { "id": "c", "text": "Thymosin; synthesized from L-Glycine", "isCorrect": false },
+      { "id": "d", "text": "Serotonin; synthesized from L-Histidine", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "The pineal gland secretes Melatonin, an amino acid derivative synthesized from L-Tryptophan. Melatonin regulates circadian sleep-wake cycles, body temperature, and reproductive rhythms.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c20-008",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "Diabetic Ketoacidosis Ketone Bodies",
+    "difficulty": "Medium",
+    "questionText": "A patient with uncontrolled Type 1 Diabetes Mellitus exhibits deep, rapid breathing (Kussmaul respiration), a fruity odor on their breath, and severe metabolic acidosis. What circulating metabolites account for these clinical manifestations?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Elevated lactic acid from skeletal muscle breakdown", "isCorrect": false },
+      { "id": "b", "text": "Accumulated toxic Ketone Bodies (Acetoacetate, β-Hydroxybutyrate) from uninhibited hepatic lipolysis", "isCorrect": true },
+      { "id": "c", "text": "Excessive uric acid crystals from purine catabolism", "isCorrect": false },
+      { "id": "d", "text": "High plasma bicarbonate ions from pancreatic hyper-secretion", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Absolute insulin deficiency leads to uninhibited lipolysis and fatty acid oxidation in the liver, yielding high concentrations of toxic Ketone Bodies (Acetoacetate, β-Hydroxybutyrate, Acetone). These organic acids cause Diabetic Ketoacidosis (DKA), producing metabolic acidosis, fruity acetone breath, and Kussmaul breathing.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c20-009",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "Erythropoietin (EPO) Kidney Secretion",
+    "difficulty": "Easy",
+    "questionText": "Which hormone secreted by the Juxtaglomerular (JG) cells of the kidney stimulates stem cell proliferation and differentiation into mature erythrocytes in the red bone marrow?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Renin", "isCorrect": false },
+      { "id": "b", "text": "Erythropoietin (EPO)", "isCorrect": true },
+      { "id": "c", "text": "Calcitriol", "isCorrect": false },
+      { "id": "d", "text": "Atrial Natriuretic Factor (ANF)", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Renal hypoxia stimulates kidney JG cells to secrete Erythropoietin (EPO), a glycoprotein peptide hormone that acts on bone marrow proerythroblasts to accelerate Erythropoiesis.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c20-010",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "Steroid Hormone Passive Diffusion",
+    "difficulty": "Easy",
+    "questionText": "How do steroid hormones like Cortisol and Testosterone cross target cell membranes to exert their physiological actions?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Active transport via V-type H⁺-ATPase pumps", "isCorrect": false },
+      { "id": "b", "text": "Simple passive diffusion across the hydrophobic lipid bilayer to bind intracellular receptors", "isCorrect": true },
+      { "id": "c", "text": "Facilitated diffusion through GLUT4 membrane channels", "isCorrect": false },
+      { "id": "d", "text": "Receptor-mediated endocytosis via clathrin-coated pits", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Steroid hormones are hydrophobic, lipid-soluble molecules derived from cholesterol. They cross the plasma membrane lipid bilayer by simple passive diffusion and bind to intracellular / nuclear receptors to regulate gene transcription.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c20-011",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "Peptide and Protein Hormones Classification",
+    "difficulty": "Medium",
+    "questionText": "Which of the following hormones are classified as Peptides, Polypeptides, or Proteins? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Insulin and Glucagon", "isCorrect": true },
+      { "id": "b", "text": "Parathyroid Hormone (PTH) and Thyrocalcitonin (TCT)", "isCorrect": true },
+      { "id": "c", "text": "Growth Hormone (GH) and Adrenocorticotropic Hormone (ACTH)", "isCorrect": true },
+      { "id": "d", "text": "Cortisol and Aldosterone", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Insulin, Glucagon, PTH, TCT, GH, and ACTH are peptide/protein hormones. D is incorrect: Cortisol and Aldosterone are Steroid Hormones derived from cholesterol.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c20-012",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "Parathyroid Hormone (PTH) Actions",
+    "difficulty": "Medium",
+    "questionText": "Select the valid statements regarding the physiological actions of Parathyroid Hormone (PTH): (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "PTH is a hypercalcemic hormone that elevates serum Ca²⁺ levels.", "isCorrect": true },
+      { "id": "b", "text": "PTH stimulates osteoclasts to resorb bone matrix, releasing Ca²⁺ into blood.", "isCorrect": true },
+      { "id": "c", "text": "PTH increases renal tubular reabsorption of Ca²⁺ and stimulates conversion of Vitamin D to active Calcitriol.", "isCorrect": true },
+      { "id": "d", "text": "PTH is secreted by parafollicular C-cells of the thyroid gland in response to hypercalcemia.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: PTH is hypercalcemic, stimulates osteoclast bone resorption, increases renal Ca²⁺ reabsorption, and activates Calcitriol. D is incorrect: PTH is secreted by the Parathyroid Glands (Chief cells) in response to HYPOCALCEMIA. (TCT is secreted by thyroid C-cells).",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c20-013",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "Grave's Disease Clinical Features",
+    "difficulty": "Easy",
+    "questionText": "Which of the following clinical features correctly characterize Exophthalmic Goitre (Grave's Disease)? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "It is an autoimmune hyperthyroid disorder caused by TSI auto-antibodies.", "isCorrect": true },
+      { "id": "b", "text": "Characterized by elevated BMR, rapid heart rate, nervousness, and weight loss.", "isCorrect": true },
+      { "id": "c", "text": "Features diagnostic Exophthalmos (protruding eyeballs due to retro-orbital fluid deposition).", "isCorrect": true },
+      { "id": "d", "text": "Caused by severe dietary iodine deficiency during early pregnancy.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Grave's disease is autoimmune hyperthyroidism featuring TSI antibodies, elevated BMR, weight loss, and exophthalmos. D is incorrect: Severe iodine deficiency during pregnancy causes Cretinism in infants and Simple Endemic Goitre, NOT Grave's disease.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c20-014",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "Adrenal Medulla Catecholamines Actions",
+    "difficulty": "Medium",
+    "questionText": "Select the correct options regarding the hormones of the Adrenal Medulla: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Secretes Epinephrine (Adrenaline) and Norepinephrine (Noradrenaline).", "isCorrect": true },
+      { "id": "b", "text": "Secretions are triggered by acute stress ('3F: Fight, Flight, or Fright').", "isCorrect": true },
+      { "id": "c", "text": "Catecholamines increase heart rate, cardiac output, blood pressure, and bronchodilation.", "isCorrect": true },
+      { "id": "d", "text": "Catecholamines decrease blood glucose levels by promoting hepatic glycogenesis.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Adrenal medulla secretes Epinephrine/Norepinephrine during 3F emergency stress, increasing HR, BP, and bronchodilation. D is incorrect: Catecholamines INCREASE blood glucose by stimulating hepatic glycogenolysis and lipolysis.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c20-015",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "Insulin Metabolic Actions",
+    "difficulty": "Medium",
+    "questionText": "Which of the following metabolic processes are STIMULATED by Insulin? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Translocation of GLUT4 glucose transporters to plasma membranes of muscle and adipose cells", "isCorrect": true },
+      { "id": "b", "text": "Glycogenesis (conversion of glucose to glycogen in liver and muscle)", "isCorrect": true },
+      { "id": "c", "text": "Lipogenesis (fatty acid synthesis in adipose tissue)", "isCorrect": true },
+      { "id": "d", "text": "Hepatic Gluconeogenesis and Glycogenolysis", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Insulin is a hypoglycemic hormone that promotes GLUT4 insertion, glycogenesis, and lipogenesis. D is incorrect: Insulin INHIBITS gluconeogenesis and glycogenolysis. (Glucagon stimulates gluconeogenesis and glycogenolysis).",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c20-016",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "Non-Endocrine Organ Hormones",
+    "difficulty": "Medium",
+    "questionText": "Select the correct statements regarding the Hormones of Non-Endocrine Organs: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Cardiac atria secrete Atrial Natriuretic Factor (ANF) in response to high blood volume/pressure.", "isCorrect": true },
+      { "id": "b", "text": "ANF causes vasodilation and promotes renal sodium excretion (Natriuresis).", "isCorrect": true },
+      { "id": "c", "text": "Kidney JG cells secrete Erythropoietin (EPO) to stimulate bone marrow erythropoiesis.", "isCorrect": true },
+      { "id": "d", "text": "Duodenal S-cells secrete Gastrin to stimulate gastric HCl secretion.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: ANF is atrial natriuretic/vasodilatory; EPO stimulates erythropoiesis. D is incorrect: Gastrin is secreted by G-cells in the gastric antrum. Duodenal S-cells secrete Secretin (bicarbonate release).",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c20-017",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "Hyposecretion Endocrine Pathologies",
+    "difficulty": "Easy",
+    "questionText": "Which of the following endocrine disorders result from HYPO-SECRETION of the respective hormones? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Pituitary Dwarfism (GH deficiency in children)", "isCorrect": true },
+      { "id": "b", "text": "Cretinism (Thyroid hormone deficiency in infants)", "isCorrect": true },
+      { "id": "c", "text": "Addison's Disease (Adrenal cortex hormone deficiency)", "isCorrect": true },
+      { "id": "d", "text": "Acromegaly (GH hypersecretion in adults)", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Pituitary Dwarfism, Cretinism, and Addison's disease result from hyposecretion. D is incorrect: Acromegaly results from HYPER-SECRETION of Growth Hormone in adults.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c20-018",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "Thymus Gland & Thymosins Role",
+    "difficulty": "Medium",
+    "questionText": "Select the correct options regarding the Thymus Gland and Thymosins: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "The Thymus gland plays a vital role in the development of the immune system.", "isCorrect": true },
+      { "id": "b", "text": "Secretes Thymosins which promote differentiation of T-Lymphocytes (Cell-Mediated Immunity).", "isCorrect": true },
+      { "id": "c", "text": "Promotes antibody production by B-Lymphocytes.", "isCorrect": true },
+      { "id": "d", "text": "The Thymus gland enlarges continuously throughout adult life into old age.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Thymus secretes Thymosins, drives T-cell differentiation (cell-mediated immunity), and supports antibody production. D is incorrect: The Thymus undergoes progressive involution (degeneration) after puberty, shrinking significantly in old age.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c20-019",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "Phospholipase C (PLC) Second Messengers",
+    "difficulty": "Medium",
+    "questionText": "Which of the following second messengers are generated downstream of Phospholipase C (PLC) activation? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Inositol 1,4,5-Trisphosphate (IP₃)", "isCorrect": true },
+      { "id": "b", "text": "Diacylglycerol (DAG)", "isCorrect": true },
+      { "id": "c", "text": "Calcium ions (Ca²⁺ released from Endoplasmic Reticulum)", "isCorrect": true },
+      { "id": "d", "text": "Cyclic AMP (cAMP)", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: PLC cleaves PIP₂ → IP₃ + DAG. IP₃ triggers Ca²⁺ release from ER into cytosol. D is incorrect: cAMP is generated by Adenylate Cyclase, NOT Phospholipase C.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c20-020",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "chapterNumber": 20,
+    "chapterSlug": "chemical-coordination-and-integration",
+    "topic": "Gonadal Hormones Physiology",
+    "difficulty": "Easy",
+    "questionText": "Select the correct statements regarding the Hormones of the Gonads: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Interstitial Leydig cells of the testes secrete Testosterone under LH stimulation.", "isCorrect": true },
+      { "id": "b", "text": "Sertoli cells secrete Inhibin to selectively inhibit FSH release from the anterior pituitary.", "isCorrect": true },
+      { "id": "c", "text": "The Corpus Luteum secretes Progesterone under LH influence to maintain the uterine endometrium.", "isCorrect": true },
+      { "id": "d", "text": "Estrogen is secreted by the adrenal medulla during pregnancy.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Leydig cells make testosterone (via LH), Sertoli cells make Inhibin (inhibits FSH), and Corpus Luteum secretes progesterone. D is incorrect: Estrogens are secreted by ovarian growing follicles (and placenta/adrenal cortex in trace amounts), NOT the adrenal medulla.",
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

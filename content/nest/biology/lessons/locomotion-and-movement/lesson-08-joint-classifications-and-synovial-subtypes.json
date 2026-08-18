@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-18-08",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Locomotion and Movement",
+  "chapterNumber": 18,
+  "chapterSlug": "locomotion-and-movement",
+  "lessonNumber": 8,
+  "title": "Joint Classification & Synovial Articulations",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Medium",
+  "prerequisites": ["Articular cartilage", "Synovial membrane"],
+  "learningObjectives": [
+    "Differentiate Fibrous, Cartilaginous, and Synovial joints structurally and functionally",
+    "Identify the 6 functional subtypes of synovial joints with exact anatomical examples",
+    "Describe the role of synovial fluid and articular hyaline cartilage in friction reduction"
+  ],
+  "content": "Joints (Articulations) are structural junctions between two or more bones, or between bone and cartilage.\n\n```\n                            JOINT CLASSIFICATIONS\n                                      │\n         ┌────────────────────────────┼────────────────────────────┐\n         ▼                            ▼                            ▼\n   FIBROUS JOINTS               CARTILAGINOUS JOINTS            SYNOVIAL JOINTS\n   (Synarthroses)               (Amphiarthroses)                (Diarthroses)\n   ├── Immovable                ├── Slightly Movable            ├── Freely Movable\n   ├── Dense fibrous tissue     ├── Hyaline/Fibrocartilage      ├── Synovial Cavity + Fluid\n   └── Sutures of Skull         └── Pubic Symphysis / Discs     └── 6 Functional Subtypes\n```\n\n### 7.1 Functional Subtypes of Synovial Joints\n\nSynovial joints feature a fluid-filled **Synovial Cavity** lined by a synovial membrane secreting hyaluronic acid-rich **Synovial Fluid** for friction-free lubrication.\n\n```\n                           SYNOVIAL JOINT SUBTYPES\n                                      │\n     ┌───────────────┬────────────────┼────────────────┬───────────────┐\n     ▼               ▼                ▼                ▼               ▼\nBall & Socket      Hinge            Pivot            Gliding          Saddle\n(Multi-axial)      (Uniaxial)       (Rotational)     (Planar)         (Biaxial)\n├── Shoulder       ├── Elbow        ├── Atlas/Axis   ├── Carpals      └── Thumb Carpal/\n└── Hip            └── Knee         └── Radius/Ulna  └── Tarsals          Metacarpal\n```\n\n### 7.2 Synovial Joint Classification Matrix\n\n| Synovial Joint Subtype | Structural Kinematics | Anatomical Examples |\n| :--- | :--- | :--- |\n| **Ball and Socket** | Multiaxial rotation in all planes | Shoulder joint (Humerus-Glenoid Cavity); Hip joint (Femur-Acetabulum) |\n| **Hinge Joint** | Uniaxial flexion and extension in a single plane | Elbow joint, Knee joint, Interphalangeal joints |\n| **Pivot Joint** | Rotational movement around a central longitudinal axis | **Atlanto-axial joint ($\\text{C}_1\\text{--}\\text{C}_2$)** (\"No\" motion); Proximal Radio-ulnar joint |\n| **Gliding Joint** | Planar sliding of flat bone surfaces over one another | Between **Carpals** (wrist); between **Tarsals** (ankle); intervertebral zygapophyses |\n| **Saddle Joint** | Biaxial movement (concave-convex reciprocal fit) | **Carpal (Trapezium) and 1st Metacarpal of Thumb** |\n| **Ellipsoid / Condyloid** | Biaxial flexion, extension, abduction, adduction | Atlanto-occipital joint (\"Yes\" motion); Wrist joint (Radius-Carpals) |",
+  "conceptBreakdown": [
+    {
+      "heading": "Hyaluronic Acid & Lubricin",
+      "explanation": "Synovial fluid is an ultrafiltrate of plasma enriched with high molecular weight Hyaluronic Acid and Lubricin secreted by type B synoviocytes, giving it high viscosity and boundary-lubricating properties."
+    },
+    {
+      "heading": "The Thumb Saddle Joint & Opposability",
+      "explanation": "The saddle joint between the trapezium and 1st metacarpal allows humans to oppose the thumb against the other 4 digits, providing the precision grip fundamental to tool making."
+    }
+  ]
+}

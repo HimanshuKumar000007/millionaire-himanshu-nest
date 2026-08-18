@@ -1,0 +1,61 @@
+{
+  "id": "chem-xi-u6-c6-l05",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VI \u2014 Equilibrium",
+  "unitNumber": 6,
+  "chapter": "Equilibrium",
+  "chapterNumber": 6,
+  "chapterSlug": "equilibrium",
+  "slug": "lesson-05-autoprotolysis-water-polyprotic-acids",
+  "title": "Autoprotolysis of Water (K_w) & Polyprotic Acid Ionization Cascades",
+  "topic": "Water Autoprotolysis & Polyprotic Acids",
+  "topics": [
+    "Auto-Ionization of Water & K_w (1.0 \u00d7 10\u207b\u00b9\u2074 at 25\u00b0C)",
+    "Temperature Dependence of K_w and Neutral pH Variation",
+    "Sequential Ionization of Polyprotic Acids (H\u2083PO\u2084, H\u2082S)",
+    "Electrostatic Cause for K_a1 \u226b K_a2 \u226b K_a3",
+    "Diprotic Approximation Rule ([H\u207a] \u2248 \u221a(K_a1 C), [A\u00b2\u207b] \u2248 K_a2)"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "ionic-equilibrium",
+  "quickSummary": "Water self-ionizes with K_w = 1.0 \u00d7 10\u207b\u00b9\u2074 at 25\u00b0C. Heating increases K_w (neutral pH = 6.5 at 60\u00b0C). Polyprotic acids have K_a1 \u226b K_a2 \u226b K_a3 due to electrostatic attraction; for diprotic acids, [A\u00b2\u207b] \u2248 K_a2 independent of C.",
+  "summary": "Master water autoprotolysis thermodynamics, temperature shifts of neutrality, and polyprotic ionization approximations.",
+  "conceptBreakdown": [
+    {
+      "heading": "5.1 Auto-Ionization of Water (K_w) & Temperature Dependence",
+      "title": "5.1 Auto-Ionization of Water (K_w) & Temperature Dependence",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Water Auto-Ionization",
+        "takeaway": "K_w = [H\u207a][OH\u207b] = 10\u207b\u00b9\u2074 at 25\u00b0C. As T rises, K_w increases, neutral pH drops (< 7), but water remains neutral ([H\u207a] = [OH\u207b])."
+      },
+      "codeSnippet": "TEMPERATURE DEPENDENCE OF K_w AND NEUTRAL pH\n                   \n   Because auto-ionization is ENDOTHERMIC, increasing temperature INCREASES K_w:\n   \u251c\u2500\u2500 At 25\u00b0C: K_w = 1.0 \u00d7 10\u207b\u00b9\u2074 \u27f9 Neutral pH = 7.0\n   \u2514\u2500\u2500 At 60\u00b0C: K_w \u2248 1.0 \u00d7 10\u207b\u00b9\u00b3 \u27f9 Neutral pH = 6.5 (Water is still neutral, [H\u207a] = [OH\u207b]!)",
+      "content": "Water undergoes self-ionization (autoprotolysis):\n$$\\text{H}_2\\text{O}(l) + \\text{H}_2\\text{O}(l) \\rightleftharpoons \\text{H}_3\\text{O}^+(aq) + \\text{OH}^-(aq) \\quad (\\Delta H^\\circ > 0, \\text{ Endothermic})$$\n$$\\mathbf{K_w = [\\text{H}^+][\\text{OH}^-] = 1.0 \\times 10^{-14} \\text{ at } 25^\\circ\\text{C} \\quad (\\text{p}K_w = 14.0)}$$\n$$\\mathbf{\\text{pH} + \\text{pOH} = \\text{p}K_w = 14.0 \\quad (\\text{at } 25^\\circ\\text{C})}$$"
+    },
+    {
+      "heading": "5.2 Ionization of Polyprotic Acids (e.g., H\u2083PO\u2084, H\u2082S)",
+      "title": "5.2 Ionization of Polyprotic Acids (e.g., H\u2083PO\u2084, H\u2082S)",
+      "type": "paragraph",
+      "content": "Polyprotic acids possess more than one acidic hydrogen per molecule and ionize in sequential steps:\n$$\\text{H}_3\\text{PO}_4 \\underset{K_{a1}}{\\rightleftharpoons} \\text{H}^+ + \\text{H}_2\\text{PO}_4^- \\underset{K_{a2}}{\\rightleftharpoons} \\text{H}^+ + \\text{HPO}_4^{2-} \\underset{K_{a3}}{\\rightleftharpoons} \\text{H}^+ + \\text{PO}_4^{3-}$$\n$$\\mathbf{K_{a1} \\gg K_{a2} \\gg K_{a3}}$$\n\u2022 **Electrostatic Cause**: Removing a positively charged $\\text{H}^+$ proton from a neutral molecule ($\\text{H}_3\\text{PO}_4$) requires much less energy than removing $\\text{H}^+$ from a negatively charged anion ($\\text{H}_2\\text{PO}_4^-$ or $\\text{HPO}_4^{2-}$).\n\u2022 **Diprotic Approximation Rule**: For a weak diprotic acid ($\\text{H}_2\\text{A}$) where $K_{a1} \\gg K_{a2}$:\n- $[\\text{H}^+] \\approx \\sqrt{K_{a1} \\cdot C}$ (governed almost exclusively by the first step).\n- $[\\mathbf{A^{2-}}] \\approx \\mathbf{K_{a2}}$ (The concentration of the divalent anion is independent of initial acid concentration!)."
+    }
+  ],
+  "quickRevision": [
+    "K_w = [H\u207a][OH\u207b] = 1.0 \u00d7 10\u207b\u00b9\u2074 at 25\u00b0C.",
+    "Water at 60\u00b0C has neutral pH \u2248 6.5, but is strictly neutral since [H\u207a] = [OH\u207b].",
+    "K_a1 \u226b K_a2 \u226b K_a3 for polyprotic acids.",
+    "For diprotic acid: [H\u207a] \u2248 \u221a(K_a1 C).",
+    "For diprotic acid: [A\u00b2\u207b] \u2248 K_a2 (independent of concentration C)."
+  ],
+  "keyFormulae": [
+    "K_w = [H\u207a][OH\u207b]",
+    "pH + pOH = pK_w",
+    "[A\u00b2\u207b] \u2248 K_a2"
+  ]
+}

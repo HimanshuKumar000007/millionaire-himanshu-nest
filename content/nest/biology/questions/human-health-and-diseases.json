@@ -1,0 +1,601 @@
+[
+  {
+    "id": "bio-xii-u8-c7-q01",
+    "questionNumber": 1,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Hemozoin in Malaria",
+    "questionText": "An individual suffering from recurring high fever accompanied by severe shaking chills every 48 hours undergoes a peripheral blood smear examination. Microscopic analysis reveals signet-ring trophozoites inside enlarged erythrocytes containing dark brown, crystalline cytoplasmic granules. What toxic metabolite released upon RBC rupture directly triggers these periodic malarial chills and fever spikes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bilirubin"
+      },
+      {
+        "id": "B",
+        "text": "Hemozoin"
+      },
+      {
+        "id": "C",
+        "text": "Histamine"
+      },
+      {
+        "id": "D",
+        "text": "Interferon-gamma"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In the erythrocytic schizogony cycle of Plasmodium, merozoite multiplication inside RBCs digests hemoglobin, converting free toxic heme into insoluble Hemozoin crystals. RBC rupture releases merozoites and Hemozoin toxin into blood plasma, triggering cyclic chills and fever spikes every 48 hours (in P. vivax)."
+  },
+  {
+    "id": "bio-xii-u8-c7-q02",
+    "questionNumber": 2,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Dengue Fever Vector & Symptoms",
+    "questionText": "During an outbreak of a seasonal febrile illness, a 24-year-old patient presents with high fever, severe frontal headache, retro-orbital pain, debilitating muscle/joint aches ('breakbone fever'), and petechial skin rashes. Laboratory evaluation reveals a critical drop in blood platelet count (25,000/μL). What vector transmits this pathogen?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Female Anopheles stephensi mosquito"
+      },
+      {
+        "id": "B",
+        "text": "Female Aedes aegypti mosquito"
+      },
+      {
+        "id": "C",
+        "text": "Female Culex quinquefasciatus mosquito"
+      },
+      {
+        "id": "D",
+        "text": "Housefly (Musca domestica)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "High fever, retro-orbital pain, severe joint pain ('breakbone fever'), and marked Thrombocytopenia (platelet drop) are diagnostic of Dengue Fever. Dengue Flavivirus is transmitted by the female Aedes aegypti mosquito."
+  },
+  {
+    "id": "bio-xii-u8-c7-q03",
+    "questionNumber": 3,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Interferon Antiviral Cytokines",
+    "questionText": "A cell-free supernatant collected from a culture of human fibroblast cells infected with Vesicular Stomatitis Virus is added to a fresh, uninfected culture of human epithelial cells. When the treated epithelial cells are subsequently exposed to virulent Poliovirus, they show complete resistance to viral replication and cell lysis. What specific cytokine protein in the supernatant conferred this antiviral state?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Histamine"
+      },
+      {
+        "id": "B",
+        "text": "Alpha-Interferon (IFN-alpha)"
+      },
+      {
+        "id": "C",
+        "text": "Tumor Necrosis Factor-alpha"
+      },
+      {
+        "id": "D",
+        "text": "Immunoglobulin E (IgE)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Virus-infected host cells synthesize and secrete Interferons (IFN-alpha/beta), which act as cytokine barriers. Interferons bind receptors on neighboring uninfected cells, inducing the synthesis of Antiviral Proteins (AVPs) that block viral RNA translation and degrade viral genomes."
+  },
+  {
+    "id": "bio-xii-u8-c7-q04",
+    "questionNumber": 4,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Graft Rejection & Cell-Mediated Immunity",
+    "questionText": "A patient undergoing a renal Allograft transplantation from an HLA-mismatched donor experiences acute graft rejection 10 days post-surgery. Which branch of the adaptive immune system and cell type is primarily responsible for mediating this organ transplant rejection?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Humoral Immunity; B-lymphocytes producing IgM"
+      },
+      {
+        "id": "B",
+        "text": "Cell-Mediated Immunity (CMI); CD8+ Cytotoxic T-Lymphocytes"
+      },
+      {
+        "id": "C",
+        "text": "Innate Immunity; Neutrophils and PMN cells"
+      },
+      {
+        "id": "D",
+        "text": "Complement System; IgE-mediated Mast cells"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Cell-Mediated Immunity (CMI) driven by T-Lymphocytes (specifically CD8+ Cytotoxic T-cells and CD4+ Helper T-cells) is directly responsible for recognizing foreign MHC/HLA antigens on donor tissue and executing graft rejection."
+  },
+  {
+    "id": "bio-xii-u8-c7-q05",
+    "questionNumber": 5,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Anti-Tetanus Serum Immunity Type",
+    "questionText": "A 19-year-old individual accidentally steps on a rusty nail and sustains a deep puncture wound. At the emergency room, the physician immediately administers an injection of Anti-Tetanus Serum (ATS) containing pre-formed antibodies against tetanus toxin. What type of immunity does this medical intervention confer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Natural Active Immunity"
+      },
+      {
+        "id": "B",
+        "text": "Artificial Active Immunity"
+      },
+      {
+        "id": "C",
+        "text": "Artificial Passive Immunity"
+      },
+      {
+        "id": "D",
+        "text": "Natural Passive Immunity"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Administering pre-formed antibodies (ATS, anti-snake venom) produced in another organism confers immediate protection without active synthesis by host B-cells. This is Artificial Passive Immunity."
+  },
+  {
+    "id": "bio-xii-u8-c7-q06",
+    "questionNumber": 6,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "IgE in Allergic Hypersensitivity",
+    "questionText": "During an allergic asthma attack triggered by dust mites, a patient exhibits sudden bronchospasm, mucosal swelling, and watery eyes. Which antibody isotype binds high-affinity Fc receptors on tissue Mast Cells to trigger the degranulation of Histamine and Serotonin?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IgG"
+      },
+      {
+        "id": "B",
+        "text": "IgA"
+      },
+      {
+        "id": "C",
+        "text": "IgM"
+      },
+      {
+        "id": "D",
+        "text": "IgE"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Type I allergic hypersensitivity is mediated by IgE antibodies. Allergens cross-link IgE molecules bound to Fc-epsilon-RI receptors on Mast Cells and Basophils, triggering degranulation and release of histamine and serotonin."
+  },
+  {
+    "id": "bio-xii-u8-c7-q07",
+    "questionNumber": 7,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Metastasis in Cancer",
+    "questionText": "An oncology researcher analyzes a biopsy sample from a malignant human melanoma. Histological staining shows that the tumor cells have invaded surrounding connective tissue, entered lymphatic vessels, and established secondary tumor colonies in distant lymph nodes and liver parenchyma. What defining biological property of cancer does this represent?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Contact Inhibition"
+      },
+      {
+        "id": "B",
+        "text": "Metastasis"
+      },
+      {
+        "id": "C",
+        "text": "Apoptosis"
+      },
+      {
+        "id": "D",
+        "text": "Contact Attenuation"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Metastasis is the process where malignant cancer cells detach from the primary tumor, invade blood/lymphatic vessels, travel through circulation, and colonize distant organs to form secondary tumors. It is the defining property of malignant cancers."
+  },
+  {
+    "id": "bio-xii-u8-c7-q08",
+    "questionNumber": 8,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Macrophages as HIV Factory",
+    "questionText": "A patient tested positive for HIV infection using an ELISA screening assay. A follow-up Western Blot test confirms the presence of viral proteins. Which host cell type functions as a persistent 'HIV Factory' by producing new HIV virions continuously without being destroyed immediately by viral budding?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CD8+ Cytotoxic T-Cells"
+      },
+      {
+        "id": "B",
+        "text": "Macrophages"
+      },
+      {
+        "id": "C",
+        "text": "B-Lymphocytes"
+      },
+      {
+        "id": "D",
+        "text": "Erythrocytes"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "HIV infects both Macrophages and CD4+ Helper T-cells. While CD4+ T-cells burst and deplete rapidly, Macrophages produce viral particles continuously without dying immediately, acting as a persistent 'HIV Factory'."
+  },
+  {
+    "id": "bio-xii-u8-c7-q09",
+    "questionNumber": 9,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Heroin Chemistry & Source",
+    "questionText": "A chemical substance purified from the latex of the Opium Poppy (Papaver somniferum) is subjected to chemical acetylation using acetic anhydride. The resulting white, odorless, bitter, crystalline compound acts as a potent CNS depressant that slows down body functions. What is the common street name of this chemical derivative?",
+    "options": [
+      {
+        "id": "A",
+        "text": "'Coke' (Cocaine)"
+      },
+      {
+        "id": "B",
+        "text": "'Smack' (Heroin / Diacetylmorphine)"
+      },
+      {
+        "id": "C",
+        "text": "'Charas' (Cannabinoid resin)"
+      },
+      {
+        "id": "D",
+        "text": "'Acid' (LSD)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Acetylation of morphine (extracted from the latex of Papaver somniferum) yields Diacetylmorphine, commonly known as Heroin or 'Smack'. It functions as a potent depressant and analgesic."
+  },
+  {
+    "id": "bio-xii-u8-c7-q10",
+    "questionNumber": 10,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Cocaine Mechanism & Dopamine Reuptake",
+    "questionText": "Which plant is the natural source of Coca Alkaloids (Cocaine), and which specific neurotransmitter transport system does cocaine block in the human brain to produce euphoria and CNS stimulation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cannabis sativa; Serotonin transporter"
+      },
+      {
+        "id": "B",
+        "text": "Erythroxylum coca; Dopamine transporter"
+      },
+      {
+        "id": "C",
+        "text": "Atropa belladonna; Acetylcholine transporter"
+      },
+      {
+        "id": "D",
+        "text": "Claviceps purpurea; GABA transporter"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Cocaine is a natural alkaloid extracted from Erythroxylum coca. It acts by specifically blocking the reuptake transporter of Dopamine in the CNS, causing dopamine accumulation and resulting in euphoria and CNS stimulation."
+  },
+  {
+    "id": "bio-xii-u8-c7-q11",
+    "questionNumber": 11,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Bacterial Human Diseases",
+    "questionText": "Which of the following human diseases are caused by BACTERIAL pathogens?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Typhoid (Salmonella typhi)"
+      },
+      {
+        "id": "B",
+        "text": "Pneumonia (Streptococcus pneumoniae)"
+      },
+      {
+        "id": "C",
+        "text": "Syphilis (Treponema pallidum)"
+      },
+      {
+        "id": "D",
+        "text": "Amoebiasis (Entamoeba histolytica)"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Typhoid, Pneumonia, and Syphilis are bacterial infections. D is incorrect: Amoebiasis is caused by a Protozoan parasite (Entamoeba histolytica)."
+  },
+  {
+    "id": "bio-xii-u8-c7-q12",
+    "questionNumber": 12,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Plasmodium Life Cycle & Pathogenesis",
+    "questionText": "Select the valid scientific statements regarding the life cycle and pathogenesis of Plasmodium:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The infectious stage injected into humans by the female Anopheles mosquito is the spindle-shaped Sporozoite."
+      },
+      {
+        "id": "B",
+        "text": "Rupture of infected erythrocytes releases Hemozoin toxin, which triggers periodic malarial chills and high fever."
+      },
+      {
+        "id": "C",
+        "text": "Sexual syngamy of Plasmodium gametocytes occurs inside the stomach/midgut of the female Anopheles mosquito."
+      },
+      {
+        "id": "D",
+        "text": "Plasmodium falciparum causes mild, non-fatal tertian malaria that never affects the brain."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Sporozoites are infectious; Hemozoin causes chills/fever; sexual syngamy occurs in mosquito midgut. D is incorrect: Plasmodium falciparum causes malignant, cerebral, and potentially fatal malaria."
+  },
+  {
+    "id": "bio-xii-u8-c7-q13",
+    "questionNumber": 13,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Immunoglobulin Isotypes Properties",
+    "questionText": "Which of the following features correctly characterize the structural and functional properties of Immunoglobulins (Antibodies)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The basic antibody unit is an H2L2 heterotetramer linked by disulfide bonds (-S-S-)."
+      },
+      {
+        "id": "B",
+        "text": "IgG is the most abundant antibody in blood plasma and the only isotype that crosses the human placenta."
+      },
+      {
+        "id": "C",
+        "text": "IgA is a secretory dimeric antibody present at high concentrations in Colostrum and mucosal secretions."
+      },
+      {
+        "id": "D",
+        "text": "IgE is a pentameric antibody that mediates primary bacterial agglutination."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: H2L2 structure, IgG placental transfer, and IgA in colostrum are accurate. D is incorrect: IgM is the pentameric agglutinating antibody; IgE is a monomer involved in allergic reactions."
+  },
+  {
+    "id": "bio-xii-u8-c7-q14",
+    "questionNumber": 14,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Passive Immunity Examples",
+    "questionText": "Which of the following medical interventions represent examples of PASSIVE IMMUNITY?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intravenous administration of Anti-Tetanus Serum (ATS) containing pre-formed neutralizing antibodies following a deep wound."
+      },
+      {
+        "id": "B",
+        "text": "Transfer of maternal IgG antibodies across the placenta to the developing fetus."
+      },
+      {
+        "id": "C",
+        "text": "Ingestion of secretory IgA antibodies by a newborn through nursing on Colostrum."
+      },
+      {
+        "id": "D",
+        "text": "Administration of the Hepatitis B recombinant subunit vaccine."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: ATS (artificial passive), placental IgG (natural passive), and colostral IgA (natural passive) deliver pre-formed antibodies. D is incorrect: Hepatitis B vaccine introduces antigens to stimulate active antibody production (Artificial Active Immunity)."
+  },
+  {
+    "id": "bio-xii-u8-c7-q15",
+    "questionNumber": 15,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Autoimmune Diseases",
+    "questionText": "Select the diseases that belong to the category of AUTOIMMUNE Disorders:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rheumatoid Arthritis"
+      },
+      {
+        "id": "B",
+        "text": "Myasthenia Gravis"
+      },
+      {
+        "id": "C",
+        "text": "Type 1 Diabetes Mellitus"
+      },
+      {
+        "id": "D",
+        "text": "Severe Combined Immunodeficiency (SCID)"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Rheumatoid Arthritis, Myasthenia Gravis, and Type 1 Diabetes are autoimmune diseases where self-tolerance breaks down. D is incorrect: SCID is a genetic immunodeficiency disorder (ADA deficiency)."
+  },
+  {
+    "id": "bio-xii-u8-c7-q16",
+    "questionNumber": 16,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Malignant vs Benign Tumors",
+    "questionText": "Which of the following features distinguish Malignant Tumors from Benign Tumors?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Malignant tumors display loss of contact inhibition and undergo rapid unorganized cell proliferation."
+      },
+      {
+        "id": "B",
+        "text": "Malignant tumors display Metastasis, invading surrounding tissues and colonizing distant organs via blood/lymph."
+      },
+      {
+        "id": "C",
+        "text": "Malignant tumors remain strictly localized within a fibrous capsule without spreading."
+      },
+      {
+        "id": "D",
+        "text": "Malignant tumor cells compete with normal body cells for vital nutrients, starving healthy tissues."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "A, B, D are correct: Loss of contact inhibition, metastasis, and nutrient competition characterize malignant tumors. C is incorrect: Remaining strictly localized within a capsule is a hallmark of Benign Tumors."
+  },
+  {
+    "id": "bio-xii-u8-c7-q17",
+    "questionNumber": 17,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "HIV Replication & Pathology",
+    "questionText": "Select the correct options regarding the replication and pathology of Human Immunodeficiency Virus (HIV):",
+    "options": [
+      {
+        "id": "A",
+        "text": "HIV is a retrovirus carrying two single-stranded RNA molecules and Reverse Transcriptase enzyme."
+      },
+      {
+        "id": "B",
+        "text": "Reverse Transcriptase synthesizes viral double-stranded DNA from the viral ssRNA template inside the host cytoplasm."
+      },
+      {
+        "id": "C",
+        "text": "HIV infection leads to a progressive collapse of CD4+ Helper T-Cell count (<200/μL)."
+      },
+      {
+        "id": "D",
+        "text": "HIV is transmitted readily through casual social contact, shaking hands, and sharing food utensils."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: HIV is an ssRNA retrovirus with Reverse Transcriptase that depletes CD4+ Helper T-cells. D is incorrect: HIV is not transmitted by casual social contact or sharing food."
+  },
+  {
+    "id": "bio-xii-u8-c7-q18",
+    "questionNumber": 18,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Hallucinogenic Plants",
+    "questionText": "Which of the following plants are natural sources of hallucinogenic or mind-altering chemical compounds?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Atropa belladonna"
+      },
+      {
+        "id": "B",
+        "text": "Datura stramonium"
+      },
+      {
+        "id": "C",
+        "text": "Claviceps purpurea (source of LSD)"
+      },
+      {
+        "id": "D",
+        "text": "Papaver somniferum"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "All four organisms yield psychoactive/hallucinogenic compounds: Atropa belladonna (atropine), Datura (hyoscyamine/scopolamine), Claviceps purpurea (ergot, source of LSD), and Papaver somniferum (opium, morphine, codeine)."
+  },
+  {
+    "id": "bio-xii-u8-c7-q19",
+    "questionNumber": 19,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Cancer Immunotherapy",
+    "questionText": "Which of the following biological response modifiers is administered to cancer patients to activate their immune system and help destroy tumor cells?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alpha-Interferon (alpha-IFN)"
+      },
+      {
+        "id": "B",
+        "text": "Morphine"
+      },
+      {
+        "id": "C",
+        "text": "Histamine"
+      },
+      {
+        "id": "D",
+        "text": "Cyclosporin A"
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "explanation": "Alpha-Interferon (alpha-IFN) is an approved biological response modifier that stimulates NK cells and macrophages to destroy tumor cells. Morphine is an opioid, Histamine is an allergic mediator, and Cyclosporin A is an immunosuppressant."
+  },
+  {
+    "id": "bio-xii-u8-c7-q20",
+    "questionNumber": 20,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Tobacco & Nicotine Pathology",
+    "questionText": "Select the correct statements regarding the physiological effects of Tobacco smoking:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tobacco smoke contains Nicotine, which stimulates the adrenal medulla to release Adrenaline and Noradrenaline."
+      },
+      {
+        "id": "B",
+        "text": "Nicotine release increases blood pressure and heart rate."
+      },
+      {
+        "id": "C",
+        "text": "Tobacco smoke contains Carbon Monoxide (CO), which binds hemoglobin and reduces systemic oxygen transport."
+      },
+      {
+        "id": "D",
+        "text": "Smoking significantly decreases the incidence of lung and urinary bladder cancers."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Nicotine stimulates adrenal catecholamine release raising BP/HR, and smoke contains CO reducing oxygen transport. D is incorrect: Smoking dramatically INCREASES the risk of lung, throat, and bladder cancers."
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u6-c1-l05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VI — Reproduction",
+  "unitNumber": 6,
+  "chapter": "Sexual Reproduction in Flowering Plants",
+  "chapterNumber": 1,
+  "chapterSlug": "sexual-reproduction-in-flowering-plants",
+  "slug": "lesson-05-outbreeding-devices-and-genetic-self-incompatibility",
+  "title": "Outbreeding Devices & Genetic Self-Incompatibility (SI)",
+  "topic": "Outbreeding Contrivances & S-Locus Genetics",
+  "order": 5,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Outbreeding contrivances: Dicliny (Monoecious vs Dioecious), Dichogamy, Herkogamy, Heterostyly. Self-Incompatibility (SI): Gametophytic SI (GSI, style inhibition) vs Sporophytic SI (SSI, stigma surface inhibition).",
+  "summary": "Outbreeding contrivances: Dicliny (Monoecious vs Dioecious), Dichogamy, Herkogamy, Heterostyly. Self-Incompatibility (SI): Gametophytic SI (GSI, style inhibition) vs Sporophytic SI (SSI, stigma surface inhibition).",
+  "conceptBreakdown": [
+    {
+      "heading": "Outbreeding Devices & Genetic Self-Incompatibility (SI)",
+      "title": "Outbreeding Devices & Genetic Self-Incompatibility (SI)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Outbreeding contrivances: Dicliny (Monoecious prevents autogamy; Dioecious prevents both autogamy and geitonogamy), Dichogamy (temporal), Herkogamy (physical barrier), Heterostyly (morphological). Genetic Self-Incompatibility (SI): Gametophytic SI (GSI, pollen haploid S-allele, style inhibition) vs Sporophytic SI (SSI, parent diploid S-genotype, stigma surface inhibition)."
+      },
+      "codeSnippet": "OUTBREEDING DEVICES\n                                    │\n     ┌──────────────────┬───────────┴───────────┬──────────────────┐\n     ▼                  ▼                       ▼                  ▼\n  DICLINY            DICHOGAMY               HERKOGAMY           HETEROSTYLY\n  Unisexual flowers  Temporal separation of   Physical barrier    Styles & filaments\n  ├── Monoecious     pollen & stigma.         separating sex      at different height\n  └── Dioecious      ├── Protandry (Anther first) organs (Calotropis). levels (Primula).\n                     └── Protogyny (Stigma first)",
+      "content": "To prevent inbreeding depression caused by continuous self-pollination, flowering plants have evolved structural and genetic mechanisms to enforce cross-pollination (Outbreeding Devices).\n\n### 5.1 Outbreeding Adaptations\n1. **Dicliny (Unisexuality)**:\n   - **Monoecious Plants**: Staminate and pistillate flowers on the *same* plant (e.g., *Castor, Maize*). Prevents autogamy, but **DOES NOT prevent geitonogamy**.\n   - **Dioecious Plants**: Staminate and pistillate flowers on *separate* individual plants (e.g., *Papaya, Date Palm*). **Prevents BOTH autogamy and geitonogamy**.\n2. **Dichogamy**: Temporal separation of anther maturation and stigma receptivity.\n   - **Protandry**: Anthers mature and shed pollen before stigma becomes receptive (*Salvia, Sunflower*).\n   - **Protogyny**: Stigma becomes receptive before anthers dehisce (*Ficus, Aristolochia*).\n3. **Herkogamy**: Mechanical or spatial barriers separating sex organs (e.g., pollinia and translator apparatus in *Calotropis*).\n4. **Heterostyly**: Presence of 2 (dimorphic in *Primula*) or 3 (trimorphic in *Lythrum*) different lengths of styles and stamens.\n\n### 5.2 Genetic Self-Incompatibility (SI)\n\n```\n                      GAMETOPHYTIC vs SPOROPHYTIC SI\n                      \n      GAMETOPHYTIC SI (GSI)                     SPOROPHYTIC SI (SSI)\n      ├── SI phenotype determined by the       ├── SI phenotype determined by the\n      │   haploid genotype of POLLEN itself.   │   diploid PARENT SPOROPHYTE genotype.\n      └── Inhibits pollen tube growth inside   └── Inhibits pollen germination on the\n          middle/lower style (Solanaceae).         stigma surface (Brassicaceae).\n```"
+    },
+    {
+      "heading": "GSI S-RNase Style Degradation",
+      "title": "GSI S-RNase Style Degradation",
+      "type": "paragraph",
+      "content": "In Gametophytic Self-Incompatibility (Solanaceae), the pistil style secretes S-RNases that enter the growing pollen tube; if the pollen's haploid S-allele matches the style's S-allele, the S-RNase is activated and digests ribosomal RNA inside the pollen tube, arresting growth."
+    },
+    {
+      "heading": "SSI Stigma Papillae Rejection",
+      "title": "SSI Stigma Papillae Rejection",
+      "type": "paragraph",
+      "content": "In Sporophytic Self-Incompatibility (Brassicaceae), diploid tapetal coat proteins deposited on the exine bind SRK (S-receptor kinase) on the stigma surface, triggering callose deposition on stigma papillae that blocks pollen hydration and germination."
+    }
+  ]
+}

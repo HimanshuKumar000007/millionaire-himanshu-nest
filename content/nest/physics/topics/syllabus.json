@@ -1,0 +1,426 @@
+{
+  "exam": "NEST",
+  "subject": "Physics",
+  "version": "NEST 2026",
+  "units": [
+    {
+      "unitNumber": 1,
+      "unitTitle": "Physical World and Measurement",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 1,
+          "chapterTitle": "Units and Measurements",
+          "slug": "units-and-measurements",
+          "topics": [
+            "Units of measurement",
+            "Systems of units",
+            "SI units",
+            "Fundamental & derived units",
+            "Significant figures",
+            "Dimensions of physical quantities",
+            "Dimensional analysis & applications"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 2,
+      "unitTitle": "Kinematics",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 2,
+          "chapterTitle": "Motion in a Straight Line",
+          "slug": "motion-in-a-straight-line",
+          "topics": [
+            "Frame of reference",
+            "Uniform & non-uniform motion",
+            "Instantaneous velocity & acceleration",
+            "Kinematic equations for uniformly accelerated motion",
+            "Graphical representation of motion"
+          ]
+        },
+        {
+          "chapterNumber": 3,
+          "chapterTitle": "Motion in a Plane",
+          "slug": "motion-in-a-plane",
+          "topics": [
+            "Scalar & vector quantities",
+            "Unit vectors & vector resolution",
+            "Scalar & vector products",
+            "Projectile motion",
+            "Uniform circular motion"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 3,
+      "unitTitle": "Laws of Motion",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 4,
+          "chapterTitle": "Laws of Motion",
+          "slug": "laws-of-motion",
+          "topics": [
+            "Newton's laws of motion",
+            "Impulse & momentum conservation",
+            "Static, kinetic & rolling friction",
+            "Dynamics of uniform circular motion (Centripetal & centrifugal forces)"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 4,
+      "unitTitle": "Work, Energy and Power",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 5,
+          "chapterTitle": "Work, Energy and Power",
+          "slug": "work-energy-and-power",
+          "topics": [
+            "Work done by constant & variable force",
+            "Work-energy theorem",
+            "Potential energy & conservative forces",
+            "Motion in a vertical circle",
+            "Elastic & inelastic collisions in 1D and 2D"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 5,
+      "unitTitle": "Motion of System of Particles and Rigid Body",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 6,
+          "chapterTitle": "Rigid System of Particles and Rotational Motion",
+          "slug": "rotational-motion",
+          "topics": [
+            "Centre of mass of system of particles",
+            "Torque & angular momentum conservation",
+            "Moment of inertia & radius of gyration",
+            "Comparison of linear & rotational motion"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 6,
+      "unitTitle": "Gravitation",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 7,
+          "chapterTitle": "Gravitation",
+          "slug": "gravitation",
+          "topics": [
+            "Kepler's laws of planetary motion",
+            "Universal law of gravitation",
+            "Variation of g with altitude & depth",
+            "Gravitational potential energy",
+            "Escape speed & orbital velocity"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 7,
+      "unitTitle": "Properties of Bulk Matter",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 8,
+          "chapterTitle": "Mechanical Properties of Solids",
+          "slug": "mechanical-properties-of-solids",
+          "topics": [
+            "Elasticity, Stress-strain relationship & Hooke's law",
+            "Young's, Bulk & Shear moduli",
+            "Poisson's ratio & Elastic energy"
+          ]
+        },
+        {
+          "chapterNumber": 9,
+          "chapterTitle": "Mechanical Properties of Fluids",
+          "slug": "mechanical-properties-of-fluids",
+          "topics": [
+            "Pascal's law & hydraulic lift",
+            "Viscosity, Stokes' law & terminal velocity",
+            "Bernoulli's theorem & applications",
+            "Surface tension, capillarity & excess pressure"
+          ]
+        },
+        {
+          "chapterNumber": 10,
+          "chapterTitle": "Thermal Properties of Matter",
+          "slug": "thermal-properties-of-matter",
+          "topics": [
+            "Thermal expansion & calorimetry",
+            "Heat transfer (Conduction, Convection, Radiation)",
+            "Newton's law of cooling & Stefan's law"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 8,
+      "unitTitle": "Thermodynamics",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 11,
+          "chapterTitle": "Thermodynamics",
+          "slug": "thermodynamics-physics",
+          "topics": [
+            "Zeroth & First law of thermodynamics",
+            "Isothermal & adiabatic processes",
+            "Second law of thermodynamics & Carnot engine"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 9,
+      "unitTitle": "Behaviour of Perfect Gas and Kinetic Theory",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 12,
+          "chapterTitle": "Kinetic Theory of Gases",
+          "slug": "kinetic-theory-of-gases",
+          "topics": [
+            "Equation of state of ideal gas",
+            "Pressure of ideal gas & RMS speed",
+            "Degrees of freedom & law of equipartition of energy"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 10,
+      "unitTitle": "Oscillations and Waves",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 13,
+          "chapterTitle": "Oscillations",
+          "slug": "oscillations",
+          "topics": [
+            "Simple Harmonic Motion (SHM)",
+            "Energy in SHM",
+            "Simple pendulum & loaded spring oscillations"
+          ]
+        },
+        {
+          "chapterNumber": 14,
+          "chapterTitle": "Waves",
+          "slug": "waves",
+          "topics": [
+            "Transverse & longitudinal waves",
+            "Superposition principle & standing waves",
+            "Organ pipes & harmonics"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 11,
+      "unitTitle": "Electrostatics",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 1,
+          "chapterTitle": "Electric Charges and Fields",
+          "slug": "electric-charges-and-fields",
+          "topics": [
+            "Coulomb's law & superposition principle",
+            "Electric field & electric dipole",
+            "Gauss's theorem & applications"
+          ]
+        },
+        {
+          "chapterNumber": 2,
+          "chapterTitle": "Electrostatic Potential and Capacitance",
+          "slug": "electrostatic-potential-and-capacitance",
+          "topics": [
+            "Electric potential & equipotential surfaces",
+            "Capacitors in series and parallel",
+            "Energy stored in a capacitor"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 12,
+      "unitTitle": "Current Electricity",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 3,
+          "chapterTitle": "Current Electricity",
+          "slug": "current-electricity",
+          "topics": [
+            "Drift velocity & Ohm's law",
+            "Electrical resistance & temperature dependence",
+            "Kirchhoff's rules & Wheatstone bridge"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 13,
+      "unitTitle": "Magnetic Effects of Current and Magnetism",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 4,
+          "chapterTitle": "Moving Charges and Magnetism",
+          "slug": "moving-charges-and-magnetism",
+          "topics": [
+            "Biot-Savart law & Ampere's law",
+            "Lorentz force & moving coil galvanometer"
+          ]
+        },
+        {
+          "chapterNumber": 5,
+          "chapterTitle": "Magnetism and Matter",
+          "slug": "magnetism-and-matter",
+          "topics": [
+            "Bar magnet as magnetic dipole",
+            "Para-, dia- & ferromagnetic materials"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 14,
+      "unitTitle": "Electromagnetic Induction and Alternating Currents",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 6,
+          "chapterTitle": "Electromagnetic Induction",
+          "slug": "electromagnetic-induction",
+          "topics": [
+            "Faraday's laws & Lenz's law",
+            "Self & mutual inductance"
+          ]
+        },
+        {
+          "chapterNumber": 7,
+          "chapterTitle": "Alternating Current",
+          "slug": "alternating-current",
+          "topics": [
+            "Peak & RMS values of AC",
+            "LCR series circuit & resonance",
+            "Transformers & AC generators"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 15,
+      "unitTitle": "Electromagnetic Waves",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 8,
+          "chapterTitle": "Electromagnetic Waves",
+          "slug": "electromagnetic-waves",
+          "topics": [
+            "Displacement current & EM wave properties",
+            "Electromagnetic spectrum & applications"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 16,
+      "unitTitle": "Optics",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 9,
+          "chapterTitle": "Ray Optics and Optical Instruments",
+          "slug": "ray-optics",
+          "topics": [
+            "Reflection, Refraction & Total Internal Reflection",
+            "Lens maker's formula & prisms"
+          ]
+        },
+        {
+          "chapterNumber": 10,
+          "chapterTitle": "Wave Optics",
+          "slug": "wave-optics",
+          "topics": [
+            "Huygens' principle",
+            "Young's double slit interference",
+            "Single slit diffraction"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 17,
+      "unitTitle": "Dual Nature of Matter and Radiation",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 11,
+          "chapterTitle": "Dual Nature of Radiation and Matter",
+          "slug": "dual-nature-of-radiation",
+          "topics": [
+            "Photoelectric effect & Einstein's equation",
+            "de-Broglie wavelength of matter waves"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 18,
+      "unitTitle": "Atoms and Nuclei",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 12,
+          "chapterTitle": "Atoms",
+          "slug": "atoms",
+          "topics": [
+            "Alpha-particle scattering & Rutherford model",
+            "Bohr model of hydrogen atom & line spectra"
+          ]
+        },
+        {
+          "chapterNumber": 13,
+          "chapterTitle": "Nuclei",
+          "slug": "nuclei",
+          "topics": [
+            "Binding energy per nucleon",
+            "Nuclear fission & fusion"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 19,
+      "unitTitle": "Electronic Devices",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 14,
+          "chapterTitle": "Semiconductor Electronics",
+          "slug": "semiconductor-electronics",
+          "topics": [
+            "Intrinsic & extrinsic semiconductors (n-type, p-type)",
+            "p-n junction diode I-V characteristics & rectifiers"
+          ]
+        }
+      ]
+    }
+  ]
+}

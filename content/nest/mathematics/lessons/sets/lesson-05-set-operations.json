@@ -1,0 +1,43 @@
+{
+  "id": "math-sets-lesson-05",
+  "exam": "NEST",
+  "subject": "Mathematics",
+  "classLevel": "Class XI",
+  "unit": "Unit 1 — Sets and Functions",
+  "unitNumber": 1,
+  "chapter": "Sets",
+  "chapterNumber": 1,
+  "chapterSlug": "sets",
+  "lessonNumber": 5,
+  "order": 5,
+  "slug": "lesson-05-set-operations",
+  "title": "Algebra of Sets & Set Operations",
+  "topic": "Union, intersection & complement of sets",
+  "status": "published",
+  "estimatedTimeMinutes": 5,
+  "readingTimeMinutes": 5,
+  "diagramType": "sets",
+  "quickSummary": "Formal definitions of Union, Intersection, Difference, Absolute Complement, and Symmetric Difference.",
+  "summary": "Master Union, Intersection, Relative Complement, Absolute Complement, and Symmetric Difference with Venn diagrams.",
+  "coreConcepts": ["Union", "Intersection", "Disjoint Sets", "Relative Complement", "Symmetric Difference"],
+  "conceptBreakdown": [
+    {
+      "heading": "3. Algebra of Sets & Set Operations",
+      "title": "3. Algebra of Sets & Set Operations",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Group Structure",
+        "takeaway": "(𝒫(U), △) forms an Abelian Group with identity ∅ and self-inverses: A △ A = ∅."
+      },
+      "codeSnippet": "BASIC SET OPERATIONS\n                                     │\n     ┌──────────────────┬────────────┴────────────┬──────────────────┐\n     ▼                  ▼                         ▼                  ▼\nUNION (A ∪ B)          INTERSECTION (A ∩ B)      DIFFERENCE (A \\ B)   COMPLEMENT (A')\n{x | x ∈ A or x ∈ B}   {x | x ∈ A and x ∈ B}     {x | x ∈ A, x ∉ B}   {x ∈ U | x ∉ A}",
+      "content": "Let $U$ be the universal set, and $A, B \\subseteq U$:\n\n### 3.1 Formal Definitions of Set Operations\n\n1. **Union ($A \\cup B$)**: $A \\cup B = \\{x \\in U \\mid x \\in A \\lor x \\in B\\}$\n2. **Intersection ($A \\cap B$)**: $A \\cap B = \\{x \\in U \\mid x \\in A \\land x \\in B\\}$\n   - *Disjoint Sets*: If $A \\cap B = \\emptyset$, $A$ and $B$ are mutually disjoint.\n3. **Relative Complement / Set Difference ($A \\setminus B$ or $A - B$)**:\n   $$A \\setminus B = \\{x \\in U \\mid x \\in A \\land x \\notin B\\} = A \\cap B'$$\n4. **Absolute Complement ($A'$ or $A^c$ or $U \\setminus A$)**:\n   $$A' = \\{x \\in U \\mid x \\notin A\\}$$\n5. **Symmetric Difference ($A \\Delta B$ or $A \\oplus B$)**: The set of elements belonging to $A$ or $B$, but not both:\n\n$$\\mathbf{A \\Delta B = (A \\setminus B) \\cup (B \\setminus A) = (A \\cup B) \\setminus (A \\cap B)}$$"
+    },
+    {
+      "heading": "3.2 Symmetric Difference Venn Diagram",
+      "title": "3.2 Symmetric Difference Venn Diagram",
+      "type": "paragraph",
+      "codeSnippet": "SYMMETRIC DIFFERENCE A Δ B REGION\n                   \n   Set A                Set B\n   ┌───────────┐      ┌───────────┐\n   │░░░░░░░░░░░│      │░░░░░░░░░░░│\n   │░░░░ ┌─────┼──────┼─────┐ ░░░░│\n   │░░░░ │     │      │     │ ░░░░│  <-- Shaded Region = A Δ B\n   │░░░░ │     │      │     │ ░░░░│  (Intersection (A ∩ B) EXCLUDED)\n   └─────┴─────┘      └─────┴─────┘",
+      "content": "The Symmetric Difference excludes only the central intersection $A \\cap B$, keeping elements that belong to either $A$ or $B$ exclusively."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-19-01",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Neural Control and Coordination",
+  "chapterNumber": 19,
+  "chapterSlug": "neural-control-and-coordination",
+  "lessonNumber": 1,
+  "title": "Neuron Cytology & Morphological Classification",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Medium",
+  "prerequisites": ["Cell biology", "Endoplasmic reticulum"],
+  "learningObjectives": [
+    "Identify the structural zones of a neuron: Dendrites, Cyton/Soma, Axon Hillock, and Axon",
+    "Explain the composition, role, and strict localization of Nissl's granules",
+    "Classify neurons morphologically: Unipolar, Bipolar, Multipolar, Pseudounipolar, and Anaxonic"
+  ],
+  "content": "The Neuron is the structural, functional, and bioelectric unit of the nervous system, specialized for receiving, integrating, and conducting bio-electrical impulses.\n\n```\n                           NEURON ANATOMICAL DIVISIONS\n                                       │\n         ┌─────────────────────────────┼─────────────────────────────┐\n         ▼                             ▼                             ▼\n  DENDRITES (Input Zone)        CYTON / SOMA (Processing)      AXON (Conduction Zone)\n  ├── Highly branched           ├── Central Nucleus            ├── Axon Hillock (Trigger Zone)\n  ├── Conducts Towards Cyton    ├── Nissl's Granules (RER)     ├── Axolemma & Axoplasm (No Nissl's)\n  └── Contains Nissl's Granules └── Neurofibrils               └── Telodendria & Synaptic Knobs\n```\n\n### 1.1 Cytology of the Neuron\n1. **Cyton (Soma / Perikaryon)**: The metabolic center containing a large, spherical, euchromatic nucleus.\n   - **Nissl’s Granules**: Dense, basophilic cytoplasmic structures composed of aggregated **Rough Endoplasmic Reticulum (RER)** and free **Ribosomes**. Active in protein synthesis; present in the cyton and dendrites, but **COMPLETELY ABSENT from the Axon and Axon Hillock**.\n   - **Neurofibrils**: Delicate, unbranched proteinaceous microfilaments and microtubules involved in internal cellular transport and structural scaffolding.\n2. **Axon**: A single, long, cylindrical process that conducts nerve impulses away from the cyton (centrifugal conduction) toward target synapses.\n   - **Axon Hillock**: The conical region where the axon originates from the cyton. Serves as the **Spike Trigger Zone / Initial Segment**, possessing the highest spatial density of voltage-gated $\\text{Na}^+$ channels where action potentials are generated.\n   - **Axoplasm & Axolemma**: Axoplasm contains mitochondria, neurofilaments, and microtubules, but lacks Golgi apparatus and Nissl's granules. It terminates in branched ends (**Telodendria**), each ending in a bulbous **Synaptic Knob / Terminal Button** containing neurotransmitter vesicles.\n\n### 1.2 Structural Classification of Neurons\n\n```\n                            NEURON STRUCTURAL TYPES\n                                       │\n     ┌───────────────┬─────────────────┼─────────────────┬───────────────┐\n     ▼               ▼                 ▼                 ▼               ▼\n UNIPOLAR       PSEUDOUNIPOLAR      BIPOLAR           MULTIPOLAR      ANAXONIC\n ├── 1 Axon only ├── Single process  ├── 1 Axon +      ├── 1 Axon +    ├── Lacks true\n └── Embryonic      splits T-shape   │   1 Dendrite    │   >2 Dendrites    axon process\n     stage       └── DRG Ganglia     └── Retina /      └── Cerebral    └── Amacrine\n                     of Spinal Cord      Olfactory         Cortex          cells\n```",
+  "conceptBreakdown": [
+    {
+      "heading": "Chromatolysis Phenomenon",
+      "explanation": "When an axon is transected or injured, Nissl's granules disperse and dissolve in the cyton (chromatolysis) as the metabolic machinery shifts to regenerate axonal structural proteins."
+    },
+    {
+      "heading": "Initial Segment Triggering",
+      "explanation": "The axon initial segment has a ~50-fold higher density of Nav1.6 voltage-gated sodium channels compared to the soma, making its threshold for action potential firing significantly lower (-55 mV vs -35 mV)."
+    }
+  ]
+}

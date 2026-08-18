@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c6-l06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Evolution",
+  "chapterNumber": 6,
+  "chapterSlug": "evolution",
+  "slug": "lesson-06-natural-selection-mechanics-and-industrial-melanism",
+  "title": "Natural Selection Mechanics & Industrial Melanism",
+  "topic": "Stabilizing, Directional, & Disruptive Selection, Biston betularia, & Anthropogenic Selection",
+  "order": 6,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Natural selection modes: Stabilizing (favors mean, e.g. human birth weight 3-4 kg), Directional (shifts peak toward one extreme, e.g. industrial melanism Biston betularia, antibiotic resistance), Disruptive (favors both extremes, bimodal curve, initiates speciation). Industrial melanism illustrates directional selection acting on pre-existing variation.",
+  "summary": "Natural selection modes: Stabilizing (favors mean, e.g. human birth weight 3-4 kg), Directional (shifts peak toward one extreme, e.g. industrial melanism Biston betularia, antibiotic resistance), Disruptive (favors both extremes, bimodal curve, initiates speciation). Industrial melanism illustrates directional selection acting on pre-existing variation.",
+  "conceptBreakdown": [
+    {
+      "heading": "Types of Natural Selection & Population Distribution Curves",
+      "title": "Types of Natural Selection & Population Distribution Curves",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Natural selection operates through differential reproductive success. Three modes: (1) Stabilizing selection narrows the curve around the mean phenotype (e.g. human birth weight); (2) Directional selection shifts the population mean toward one extreme (e.g. industrial melanism, antibiotic resistance); (3) Disruptive selection favors both extremes over the mean, generating a bimodal distribution."
+      },
+      "codeSnippet": "TYPES OF NATURAL SELECTION\n                                     │\n     ┌───────────────────────────────┼───────────────────────────────┐\n     ▼                               ▼                               ▼\nSTABILIZING SELECTION           DIRECTIONAL SELECTION           DISRUPTIVE SELECTION\nFavors intermediate mean        Favors ONE extreme              Favors BOTH extremes\nphenotype; eliminates extremes. phenotype; shifts population.   over intermediate.\n└── Peak becomes narrower       └── Peak shifts in one direction└── Two distinct peaks form\n    (*Human birth weight*)          (*Industrial Melanism*)         (*Speciation*)",
+      "content": "### 6.1 Three Modes of Natural Selection\n1. **Stabilizing (Centripetal) Selection**:\n   - Favors the intermediate mean phenotype and eliminates phenotypic extremes.\n   - *Result*: Peak gets higher and narrower, reducing phenotypic variance.\n   - *Example*: **Human birth weight**—infants weighing $3\\text{--}4\\text{ kg}$ exhibit maximum survival; babies significantly lighter ($<2\\text{ kg}$) or heavier ($>5\\text{ kg}$) suffer high mortality.\n2. **Directional (Progressive) Selection**:\n   - Favors individuals at one extreme of the phenotypic range.\n   - *Result*: Peak shifts continuously in one direction.\n   - *Examples*: **Industrial Melanism** in *Biston betularia*, evolution of **Antibiotic Resistance** in bacteria, and **Pesticide / DDT Resistance** in mosquitoes.\n3. **Disruptive (Diversifying) Selection**:\n   - Favors individuals at both phenotypic extremes simultaneously while selecting against the intermediate mean.\n   - *Result*: Splits a unimodal curve into two distinct peaks (bimodal distribution), potentially initiating sympatric speciation.\n\n### 6.2 Industrial Melanism in Peppered Moths (*Biston betularia*)\n- **Pre-Industrial England (Before 1850s)**: Lichen-covered pale tree barks camouflaged light-colored moths (*typica*). Dark melanic mutants (*carbonaria*) were easily spotted and predated by birds $\\longrightarrow$ **White moths dominated**.\n- **Post-Industrial England (After 1850s)**: Industrial soot blackened tree bark and killed sensitive lichens. Dark melanic moths became camouflaged against soot; light moths were heavily predated $\\longrightarrow$ **Dark moths dominated via Directional Natural Selection**.\n- *Key Principle*: Natural selection acted on **pre-existing mutations**; pollution did not induce the melanic allele."
+    },
+    {
+      "heading": "Anthropogenic Selection and Superbugs",
+      "title": "Anthropogenic Selection and Superbugs",
+      "type": "paragraph",
+      "content": "Excessive clinical use of antibiotics exerts intense directional anthropogenic selection, selecting for rare pre-existing plasmid-borne multi-drug resistance genes (e.g., MRSA, NDM-1 metallo-beta-lactamase)."
+    },
+    {
+      "heading": "Balancing Selection (Heterozygote Advantage)",
+      "title": "Balancing Selection (Heterozygote Advantage)",
+      "type": "paragraph",
+      "content": "Sickle-cell trait (HbA/HbS) in malaria-endemic regions represents Balancing Selection, where heterozygotes have higher Darwinian fitness than both normal (HbA/HbA - malaria vulnerable) and diseased (HbS/HbS - lethal anemia) homozygotes."
+    }
+  ]
+}

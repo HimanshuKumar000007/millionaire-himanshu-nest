@@ -1,0 +1,59 @@
+{
+  "id": "chem-xi-u3-c3-l06",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit III \u2014 Classification of Elements and Periodicity in Properties",
+  "unitNumber": 3,
+  "chapter": "Classification of Elements and Periodicity",
+  "chapterNumber": 3,
+  "chapterSlug": "periodic-classification",
+  "slug": "lesson-06-hydration-enthalpy-aqueous-mobility",
+  "title": "s- and p-Block Overview: Hydration Enthalpy & Aqueous Ionic Mobility",
+  "topic": "Hydration Enthalpy & Ionic Mobility",
+  "topics": [
+    "s-Block (ns\u00b9\u207b\u00b2) & p-Block (ns\u00b2 np\u00b9\u207b\u2076) Overview",
+    "Hydration Enthalpy Law (\u0394_hyd H \u221d z\u00b2 / r)",
+    "Gaseous Radii vs Hydration Enthalpy vs Hydrated Radii",
+    "Aqueous Ionic Mobility & Electrical Conductance Order",
+    "Physiological Mechanism of Lithium Ion Drag"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 7,
+  "estimatedTimeMinutes": 7,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "periodic-properties",
+  "quickSummary": "Small cations with high charge density (Li\u207a) exhibit massive hydration enthalpies, binding huge water shells that reduce their aqueous ionic mobility: Mobility follows Cs\u207a(aq) > Rb\u207a(aq) > K\u207a(aq) > Na\u207a(aq) > Li\u207a(aq).",
+  "summary": "Master the inverse relationship between hydration enthalpy and aqueous ionic mobility for alkali and alkaline earth cations.",
+  "conceptBreakdown": [
+    {
+      "heading": "6.1 s- and p-Block Electronic Overview",
+      "title": "6.1 s- and p-Block Electronic Overview",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Block Overview",
+        "takeaway": "s-Block (ns\u00b9\u207b\u00b2): Highly electropositive metals; p-Block (ns\u00b2 np\u00b9\u207b\u2076): Metals, metalloids, non-metals, halogens, noble gases."
+      },
+      "content": "\u2022 **s-Block (Groups 1 & 2)**: Outer configuration $ns^{1-2}$ (Alkali metals and Alkaline earth metals). Highly reactive, low IE, form ionic compounds.\n\u2022 **p-Block (Groups 13\u201318)**: Outer configuration $ns^2 np^{1-6}$. Encompasses metals, metalloids, non-metals, halogens, and noble gases."
+    },
+    {
+      "heading": "6.2 Hydration Enthalpy vs Aqueous Ionic Mobility",
+      "title": "6.2 Hydration Enthalpy vs Aqueous Ionic Mobility",
+      "type": "paragraph",
+      "codeSnippet": "GROUP 1 HYDRATION vs MOBILITY\n                       \n   Gaseous Ionic Radii:           Li\u207a < Na\u207a < K\u207a < Rb\u207a < Cs\u207a\n   Hydration Enthalpy (\u0394_hyd H):  Li\u207a > Na\u207a > K\u207a > Rb\u207a > Cs\u207a\n   Hydrated Ionic Radii (aq):     Li\u207a(aq) > Na\u207a(aq) > K\u207a(aq) > Rb\u207a(aq) > Cs\u207a(aq)\n   Aqueous Ionic Mobility:        Cs\u207a(aq) > Rb\u207a(aq) > K\u207a(aq) > Na\u207a(aq) > Li\u207a(aq)",
+      "content": "Hydration enthalpy is the exothermic energy released when $1\\text{ mole}$ of gaseous ions undergoes complete hydration:\n\n$$\\mathbf{\\Delta_{\\text{hyd}} H \\propto \\text{Charge Density} \\propto \\frac{z^2}{r}}$$\n\n\u2022 **Physiological Cause**: $\\text{Li}^+$ has the smallest gaseous ionic radius and highest charge density, binding a giant, thick sphere of water molecules. Thus, $\\text{Li}^+(\\text{aq})$ has the largest hydrodynamic hydrated radius, experiences maximum viscous drag, and displays the **LOWEST aqueous ionic mobility** and electrical conductance."
+    }
+  ],
+  "quickRevision": [
+    "\u0394_hyd H \u221d z\u00b2 / r.",
+    "Gaseous radius: Li\u207a < Na\u207a < K\u207a < Rb\u207a < Cs\u207a.",
+    "Hydrated radius: Li\u207a(aq) > Na\u207a(aq) > K\u207a(aq) > Rb\u207a(aq) > Cs\u207a(aq).",
+    "Aqueous mobility: Cs\u207a(aq) > Rb\u207a(aq) > K\u207a(aq) > Na\u207a(aq) > Li\u207a(aq)."
+  ],
+  "keyFormulae": [
+    "\u0394_hyd H \u221d z\u00b2 / r",
+    "Aqueous Mobility \u221d 1 / r_hyd(aq)"
+  ]
+}

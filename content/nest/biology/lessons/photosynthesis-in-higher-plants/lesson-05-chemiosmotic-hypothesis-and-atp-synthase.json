@@ -1,0 +1,50 @@
+{
+  "id": "bio-xi-u4-c11-l05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Photosynthesis in Higher Plants",
+  "chapterNumber": 11,
+  "chapterSlug": "photosynthesis-in-higher-plants",
+  "slug": "lesson-05-chemiosmotic-hypothesis-and-atp-synthase",
+  "title": "Chemiosmotic Hypothesis & CF₀-CF₁ ATP Synthase Mechanics",
+  "topic": "Peter Mitchell Mechanism, ΔpH Proton Gradient, Lumen Acidification, & CF0-CF1 Rotational Catalysis",
+  "topics": [
+    "Peter Mitchell's Chemiosmotic Hypothesis Overview",
+    "Proton Motive Force Equation ($\\Delta p = \\Delta \\psi - 2.3 \\frac{RT}{F}\\Delta \\text{pH}$)",
+    "Three Sources of Luminal Proton Accumulation (OEC Photolysis, PQH2 Q-Cycle, FNR Consumption)",
+    "Thylakoid pH Asymmetry ($\\text{pH}_{\\text{stroma}} \\approx 8.0$ vs $\\text{pH}_{\\text{lumen}} \\approx 5.0$)",
+    "CF0-CF1 ATP Synthase Architecture (CF0 Membrane Channel Rotor & CF1 Catalytic Headpiece)",
+    "Rotational Catalytic Stoichiometry ($4\\text{ H}^+ \\text{ per } 1\\text{ ATP}$ Synthesized)"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Peter Mitchell's chemiosmotic hypothesis explains ATP synthesis driven by a proton gradient across the thylakoid membrane. Because the thylakoid membrane is permeable to Mg2+ and Cl-, the electrical potential collapses, making the 1000-fold pH gradient (lumen pH ~5.0 vs stroma pH ~8.0) the primary driver. Protons accumulate in the lumen from OEC photolysis and PQH2 oxidation, and are depleted from the stroma by FNR. Efflux of 4 H+ through the CF0 channel drives rotational synthesis of 1 ATP at the CF1 headpiece.",
+  "summary": "Peter Mitchell's chemiosmotic hypothesis explains ATP synthesis driven by a proton gradient across the thylakoid membrane. Because the thylakoid membrane is permeable to Mg2+ and Cl-, the electrical potential collapses, making the 1000-fold pH gradient (lumen pH ~5.0 vs stroma pH ~8.0) the primary driver. Protons accumulate in the lumen from OEC photolysis and PQH2 oxidation, and are depleted from the stroma by FNR. Efflux of 4 H+ through the CF0 channel drives rotational synthesis of 1 ATP at the CF1 headpiece.",
+  "conceptBreakdown": [
+    {
+      "heading": "4. The Chemiosmotic Gradient Framework",
+      "title": "4. The Chemiosmotic Gradient Framework",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Lumen is acidic (pH ~5.0), Stroma is basic (pH ~8.0). 4 H+ flowing through CF0 channel synthesizes 1 ATP at CF1 headpiece."
+      },
+      "codeSnippet": "THYLAKOID PROTON GRADIENT SOURCES\n                                      │\n         ┌────────────────────────────┼────────────────────────────┐\n         ▼                            ▼                            ▼\n  WATER SPLITTING (OEC)        Q-CYCLE / PQH₂ OXIDATION      FNR NADP⁺ REDUCTION\n  Accumulates $4\\text{H}^+$    Translocates $4\\text{H}^+$    Consumes $2\\text{H}^+$ \n  directly inside Lumen.       from Stroma into Lumen.      from Stroma.",
+      "content": "Proton translocation establishes a **Proton Motive Force ($\\Delta p$)** across the thylakoid membrane:\n$$\\Delta p = \\Delta \\psi - \\left( \\frac{2.3 R T}{F} \\right) \\Delta \\text{pH}$$\nBecause thylakoid membranes are permeable to counter-ions ($\\text{Mg}^{2+}$ and $\\text{Cl}^-$), $\\Delta \\psi$ collapses, making the **$\\Delta \\text{pH}$ chemical gradient ($\\text{pH}_{\\text{stroma}} \\approx 8.0$ vs $\\text{pH}_{\\text{lumen}} \\approx 5.0$, a $1000$-fold difference)** the primary driving force."
+    },
+    {
+      "heading": "4.1 CF₀-CF₁ ATP Synthase Architecture",
+      "title": "4.1 CF₀-CF₁ ATP Synthase Architecture",
+      "type": "paragraph",
+      "codeSnippet": "CHEMIOSMOTIC THYLAKOID MEMBRANE\n                        \n     STROMA (pH ~8.0) ──► Low [H⁺]\n     ═══════════════════════════════════════════════════════════════ (Thylakoid Membrane)\n     LUMEN  (pH ~5.0) ──► High [H⁺]  ──► Translocates through CF₀ Channel ──► CF₁ Headpiece\n                                                                                 │\n     ADP + P_i ───────────────────────────────────────────────────────────► ATP",
+      "content": "• **$\\text{CF}_0$ Subunit**: Hydrophobic transmembrane base consisting of a $c$-subunit oligomeric ring functioning as the proton translocating channel.\n• **$\\text{CF}_1$ Subunit**: Hydrophilic stroma-protruding catalytic headpiece with an $\\alpha_3\\beta_3$ hexamer that binds $\\text{ADP} + \\text{P}_i$.\n• **Stoichiometric Ratio**: The passive efflux of **$4\\text{ H}^+$ ions from lumen to stroma** through $\\text{CF}_0$ induces rotational conformational changes in $\\text{CF}_1$, synthesizing **$1\\text{ molecule of ATP}$**."
+    }
+  ]
+}

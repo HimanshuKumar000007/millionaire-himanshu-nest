@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u10-c12-l01",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit X — Ecology",
+  "unitNumber": 10,
+  "chapter": "Ecosystem",
+  "chapterNumber": 12,
+  "chapterSlug": "ecosystem",
+  "slug": "lesson-01-ecosystem-structure-and-forest-stratification",
+  "title": "Ecosystem Structure & Forest Stratification",
+  "topic": "A.G. Tansley, Abiotic & Biotic Matrix, & 4-Layer Forest Stratification",
+  "order": 1,
+  "readingTimeMinutes": 15,
+  "estimatedTimeMinutes": 15,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Ecosystem (A.G. Tansley 1935): Self-regulating functional unit of nature where abiotic factors (climatic regime, inorganic nutrients, organic matrix) interact with biotic factors (producers T1, consumers T2-T4, decomposers). Stratification: Vertical spatial layering of species occupying different structural levels based on light availability: Canopy (tall trees) -> Understory (small trees/shrubs) -> Herb layer (perennials) -> Forest floor (mosses, leaf litter).",
+  "summary": "Ecosystem (A.G. Tansley 1935): Self-regulating functional unit of nature where abiotic factors (climatic regime, inorganic nutrients, organic matrix) interact with biotic factors (producers T1, consumers T2-T4, decomposers). Stratification: Vertical spatial layering of species occupying different structural levels based on light availability: Canopy (tall trees) -> Understory (small trees/shrubs) -> Herb layer (perennials) -> Forest floor (mosses, leaf litter).",
+  "conceptBreakdown": [
+    {
+      "heading": "Ecosystem Structural Matrix & Vertical Stratification",
+      "title": "Ecosystem Structural Matrix & Vertical Stratification",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "An ecosystem integrates abiotic and biotic components. Stratification represents the vertical structural layering of plant communities adapted to light gradients, from top emergent canopies down to the forest floor."
+      },
+      "codeSnippet": "ECOSYSTEM STRUCTURAL MATRIX\n                                         │\n         ┌───────────────────────────────┴───────────────────────────────┐\n         ▼                                                               ▼\n  ABIOTIC COMPONENTS                                            BIOTIC COMPONENTS\n  ├── Climatic Regime (Light, Temp, Water)                      ├── Producers / Autotrophs (T₁)\n  ├── Inorganic Nutrients (N, P, K, Ca)                         ├── Consumers / Heterotrophs (T₂, T₃, T₄)\n  └── Organic Matrix (Humus, Carbohydrates)                     └── Decomposers / Saprotrophs",
+      "content": "### 1.1 The Ecosystem Concept\n- The term **Ecosystem** was coined by **A.G. Tansley in 1935**.\n- Defined as a self-sustaining, functional ecological unit where living organisms (biotic community) interact continuously among themselves and with their non-living physical environment (abiotic factors).\n- **Four Fundamental Functional Attributes**:\n  1. **Productivity** (biomass synthesis).\n  2. **Decomposition** (nutrient mineralization).\n  3. **Energy Flow** (unidirectional solar dissipation).\n  4. **Nutrient Cycling** (biogeochemical replenishment).\n\n### 1.2 Vertical Stratification in Terrestrial Forests\n- **Stratification**: The vertical distribution and architectural layering of different plant and animal species occupying distinct vertical tiers in a habitat, determined primarily by light penetration and physical space.\n\n```\n                      VERTICAL STRATIFICATION (FOREST)\n                      \n   CANOPY LAYER   ──► Top Layer: Tall dominant trees (Emerge into direct sunlight)\n   UNDERSTORY     ──► Second Layer: Small trees and woody shrubs\n   HERB LAYER     ──► Third Layer: Non-woody perennial/annual herbs & ferns\n   FOREST FLOOR   ──► Bottom Layer: Grasses, mosses, lichens, & decaying leaf litter\n```\n\n- **Ecological Significance**: Minimizes interspecific competition by allowing diverse plant species with differing light-saturation points (heliophytes in canopy vs. sciophytes in herb layer) to coexist efficiently within a single vertical column."
+    },
+    {
+      "heading": "Aquatic Stratification (Zonation)",
+      "title": "Aquatic Stratification (Zonation)",
+      "type": "paragraph",
+      "content": "Deep lakes exhibit distinct vertical zonation: (1) Littoral zone (shallow, rooted macrophytes); (2) Limnetic zone (open water euphotic layer dominated by phytoplankton); (3) Profundal zone (dark, aphotic deep water dominated by heterotrophs); (4) Benthic zone (sediment floor with decomposers)."
+    },
+    {
+      "heading": "Thermal Stratification in Temperate Lakes",
+      "title": "Thermal Stratification in Temperate Lakes",
+      "type": "paragraph",
+      "content": "Summer heating establishes distinct thermal layers: warm upper Epilimnion, steep gradient Thermocline (Metalimnion), and cold bottom Hypolimnion (4°C), resulting in biannual spring and autumn overturns."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "bio-xi-u5-c14-l03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Breathing and Exchange of Gases",
+  "chapterNumber": 14,
+  "chapterSlug": "breathing-and-exchange-of-gases",
+  "slug": "lesson-03-biomechanics-of-ventilation-and-pressure-gradients",
+  "title": "Biomechanics of Ventilation: Pressure Gradients",
+  "topic": "Inspiration vs Expiration, Boyle's Law, Diaphragm & Intercostal Mechanics",
+  "order": 3,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Inspiration is active (diaphragm + EIM contract, expanding thoracic volume and dropping intrapulmonary pressure to 759 mmHg). Quiet expiration is passive (elastic recoil, 761 mmHg); forced expiration is active (IIM + abdominals).",
+  "summary": "Inspiration is active (diaphragm + EIM contract, expanding thoracic volume and dropping intrapulmonary pressure to 759 mmHg). Quiet expiration is passive (elastic recoil, 761 mmHg); forced expiration is active (IIM + abdominals).",
+  "conceptBreakdown": [
+    {
+      "heading": "Biomechanics of Ventilation: Pressure Gradients",
+      "title": "Biomechanics of Ventilation: Pressure Gradients",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Inspiration is active (diaphragm + EIM contract, expanding thoracic volume and dropping intrapulmonary pressure to 759 mmHg). Quiet expiration is passive (elastic recoil, 761 mmHg); forced expiration is active (IIM + abdominals)."
+      },
+      "codeSnippet": "MECHANISM OF VENTILATION\n                                       │\n         ┌─────────────────────────────┴─────────────────────────────┐\n         ▼                                                           ▼\n   INSPIRATION (Active Process)                                EXPIRATION (Passive Process)\n   ├── Diaphragm Contracts (Flattens)                          ├── Diaphragm Relaxes (Domes Upward)\n   ├── External Intercostal Muscles (EIM) Contract             ├── External Intercostal Muscles Relax\n   ├── Thoracic Volume INCREASES                               ├── Thoracic Volume DECREASES\n   └── Intra-pulmonary Pressure DROPS below P_atm              └── Intra-pulmonary Pressure RISES above P_atm\n       (-1 to -3 mmHg)                                             (+1 to +3 mmHg)",
+      "content": "Ventilation is driven by pressure differentials established between the atmosphere and the intra-pulmonary space, governed by Boyle's Law ($P \\propto \\frac{1}{V}$ at constant temperature).\n\n### 3.1 Mechanics of Normal & Forced Breathing\n- **Atmospheric Pressure ($P_{\\text{atm}}$)**: $760\\text{ mmHg}$ at sea level.\n- **Inspiration (Active Process - $\\approx 2\\text{ seconds}$)**:\n  1. **Diaphragm Contraction**: Phrenic nerve stimulation contracts radial muscle fibers, flattening the dome and increasing thoracic volume in the **antero-posterior axis** (accounts for $75\\%$ of tidal breathing).\n  2. **External Intercostal Muscle (EIM) Contraction**: Elevates ribs and sternum upward and outward (\"bucket-handle\" motion), increasing thoracic volume in the **dorso-ventral axis**.\n  3. **Pressure Differential**: Intra-pulmonary pressure drops to $757\\text{--}759\\text{ mmHg}$ ($< P_{\\text{atm}}$), pulling atmospheric air into the lungs.\n- **Quiet Expiration (Passive Process - $\\approx 3\\text{ seconds}$)**: Diaphragm and EIMs relax; lung elastic recoil decreases thoracic volume, raising intra-pulmonary pressure to $761\\text{--}763\\text{ mmHg}$ ($> P_{\\text{atm}}$) to expel air.\n- **Forced Expiration (Active Process)**: Contraction of **Internal Intercostal Muscles (IIM)** and **Abdominal Muscles** (rectus abdominis, obliques) violently forces ribs downward and viscera upward.",
+      "contentMarkdown": "Ventilation is driven by pressure differentials established between the atmosphere and the intra-pulmonary space, governed by Boyle's Law ($P \\propto \\frac{1}{V}$ at constant temperature).\n\n### 3.1 Mechanics of Normal & Forced Breathing\n- **Atmospheric Pressure ($P_{\\text{atm}}$)**: $760\\text{ mmHg}$ at sea level.\n- **Inspiration (Active Process - $\\approx 2\\text{ seconds}$)**:\n  1. **Diaphragm Contraction**: Phrenic nerve stimulation contracts radial muscle fibers, flattening the dome and increasing thoracic volume in the **antero-posterior axis** (accounts for $75\\%$ of tidal breathing).\n  2. **External Intercostal Muscle (EIM) Contraction**: Elevates ribs and sternum upward and outward (\"bucket-handle\" motion), increasing thoracic volume in the **dorso-ventral axis**.\n  3. **Pressure Differential**: Intra-pulmonary pressure drops to $757\\text{--}759\\text{ mmHg}$ ($< P_{\\text{atm}}$), pulling atmospheric air into the lungs.\n- **Quiet Expiration (Passive Process - $\\approx 3\\text{ seconds}$)**: Diaphragm and EIMs relax; lung elastic recoil decreases thoracic volume, raising intra-pulmonary pressure to $761\\text{--}763\\text{ mmHg}$ ($> P_{\\text{atm}}$) to expel air.\n- **Forced Expiration (Active Process)**: Contraction of **Internal Intercostal Muscles (IIM)** and **Abdominal Muscles** (rectus abdominis, obliques) violently forces ribs downward and viscera upward."
+    }
+  ]
+}

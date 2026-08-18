@@ -1,0 +1,924 @@
+[
+  {
+    "id": "chem-coord-001",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "Werner's Theory & Valency Formulation",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "According to Werner\u2019s coordination theory, when 1.0 mole of a violet coordination compound with empirical formula CoCl\u2083 \u00b7 5NH\u2083 \u00b7 H\u2082O is treated with excess aqueous Silver Nitrate (AgNO\u2083), exactly 2.0 moles of AgCl precipitate immediately. Furthermore, drying the compound over conc. H\u2082SO\u2084 causes NO loss of mass (no water loss). What is the correct IUPAC name and primary/secondary valencies of Cobalt in this complex?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aquapentaamminecobalt(III) chloride; Primary = 3, Secondary = 6",
+        "isCorrect": true,
+        "explanation": "1. Precipitating 2 moles of AgCl per mole of complex means there are 2 ionizable Cl\u207b ions in the outer ionization sphere. 2. No water loss over H\u2082SO\u2084 means the single H\u2082O molecule is inside the coordination sphere as an aqua ligand. 3. Formulated complex: [Co(NH\u2083)\u2085(H\u2082O)]Cl\u2082. 4. Cobalt Oxidation State (Primary Valency) = +3; Coordination Number (Secondary Valency) = 5(NH\u2083) + 1(H\u2082O) = 6. 5. IUPAC Name: Pentaammineaquacobalt(III) chloride (or Aquapentaamminecobalt(III) chloride)."
+      },
+      {
+        "id": "B",
+        "text": "Pentaamminechloridocobalt(III) chloride monohydrate; Primary = 2, Secondary = 5",
+        "isCorrect": false,
+        "explanation": "Would lose water over conc. H\u2082SO\u2084."
+      },
+      {
+        "id": "C",
+        "text": "Aquatetramminedichloridocobalt(III) chloride; Primary = 3, Secondary = 6",
+        "isCorrect": false,
+        "explanation": "Would precipitate only 1 mole of AgCl."
+      },
+      {
+        "id": "D",
+        "text": "Hexaamminecobalt(III) chloride; Primary = 3, Secondary = 6",
+        "isCorrect": false,
+        "explanation": "Incorrect empirical formula."
+      }
+    ],
+    "solutionExplanation": "1. Precipitating 2.0 moles of AgCl per mole of complex indicates 2 ionizable Cl\u207b counter-ions outside the coordination sphere.\n2. Zero water loss over concentrated H\u2082SO\u2084 confirms that the water molecule is inside the coordination sphere as an aqua ligand.\n3. Complex formula: [Co(NH\u2083)\u2085(H\u2082O)]Cl\u2082.\n4. Primary Valency (Oxidation State) = +3; Secondary Valency (Coordination Number) = 6.\n5. IUPAC Name: Aquapentaamminecobalt(III) chloride (or Pentaammineaquacobalt(III) chloride).",
+    "keyFormulae": [
+      "[\\text{Co(NH}_3)_5(\\text{H}_2\\text{O})]\\text{Cl}_2 + 2\\text{AgNO}_3 \\longrightarrow 2\\text{AgCl} \\downarrow + [\\text{Co(NH}_3)_5(\\text{H}_2\\text{O})](\\text{NO}_3)_2"
+    ],
+    "hints": [
+      "Count ionizable Cl\u207b from AgCl precipitate and check whether H\u2082O is inside or outside the sphere."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-coord-002",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "CFSE Calculation for High-Spin d\u2076 Octahedral",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the Crystal Field Stabilization Energy (CFSE) in terms of \u0394_o for a high-spin octahedral complex of Fe\u00b2\u207a (3d\u2076) in the presence of weak-field Fluoride ligands ([FeF\u2086]\u2074\u207b, where \u0394_o < P)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CFSE = -2.4 \u0394_o + 2P",
+        "isCorrect": false,
+        "explanation": "-2.4 \u0394_o + 2P is the CFSE for low-spin d\u2076 (t_2g\u2076 e_g\u2070)."
+      },
+      {
+        "id": "B",
+        "text": "CFSE = -0.4 \u0394_o",
+        "isCorrect": true,
+        "explanation": "1. Fe\u00b2\u207a has a 3d\u2076 configuration. 2. In a weak field (\u0394_o < P), electrons fill high-spin according to Hund's rule: t_2g\u2074 e_g\u00b2. 3. n_t2g = 4, n_eg = 2. 4. CFSE = [-0.4(4) + 0.6(2)] \u0394_o = [-1.6 + 1.2] \u0394_o = -0.4 \u0394_o."
+      },
+      {
+        "id": "C",
+        "text": "CFSE = -1.6 \u0394_o + P",
+        "isCorrect": false,
+        "explanation": "Incorrect electron configuration."
+      },
+      {
+        "id": "D",
+        "text": "CFSE = -0.6 \u0394_o",
+        "isCorrect": false,
+        "explanation": "-0.6 \u0394_o corresponds to high-spin d\u2074."
+      }
+    ],
+    "solutionExplanation": "1. Fe\u00b2\u207a has a 3d\u2076 electronic configuration.\n2. In a weak field (\u0394_o < P), electrons occupy orbitals high-spin according to Hund's rule: t_2g\u2074 e_g\u00b2.\n3. n_t2g = 4, n_eg = 2.\n4. Calculate CFSE:\n   CFSE = [ -0.4 n_t2g + 0.6 n_eg ] \u0394_o = [ -0.4(4) + 0.6(2) ] \u0394_o = [-1.6 + 1.2] \u0394_o = -0.4 \u0394_o.",
+    "keyFormulae": [
+      "\\text{CFSE} = \\left[ -0.4 n_{t_{2g}} + 0.6 n_{e_g} \\right] \\Delta_o"
+    ],
+    "hints": [
+      "For weak-field d\u2076, fill 4 electrons in t_2g and 2 electrons in e_g."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-coord-003",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "Optical Isomerism & Chirality in Octahedral Complexes",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Which of the following square planar or octahedral coordination complexes is CHIRAL and can be resolved into optically active d- and l-enantiomers?",
+    "options": [
+      {
+        "id": "A",
+        "text": "trans-[Co(en)\u2082Cl\u2082]\u207a",
+        "isCorrect": false,
+        "explanation": "trans-[Co(en)\u2082Cl\u2082]\u207a possesses a plane of symmetry (\u03c3) and is achiral."
+      },
+      {
+        "id": "B",
+        "text": "cis-[Co(en)\u2082Cl\u2082]\u207a",
+        "isCorrect": true,
+        "explanation": "cis-[Co(en)\u2082Cl\u2082]\u207a lacks any plane or center of symmetry, rendering it non-superimposable on its mirror image (chiral) and resolvable into d- and l-enantiomers."
+      },
+      {
+        "id": "C",
+        "text": "trans-[Pt(NH\u2083)\u2082Cl\u2082]",
+        "isCorrect": false,
+        "explanation": "Square planar complexes possess a molecular plane of symmetry and are achiral."
+      },
+      {
+        "id": "D",
+        "text": "fac-[Co(NH\u2083)\u2083(NO\u2082)\u2083]",
+        "isCorrect": false,
+        "explanation": "Possesses a plane of symmetry and is optically inactive."
+      }
+    ],
+    "solutionExplanation": "\u2022 trans-[Co(en)\u2082Cl\u2082]\u207a possesses a Plane of Symmetry (\u03c3) passing through the metal and chlorine atoms, making it achiral and optically inactive.\n\u2022 cis-[Co(en)\u2082Cl\u2082]\u207a lacks any plane or center of symmetry, rendering it non-superimposable on its mirror image (chiral) and resolvable into d- and l-enantiomers.",
+    "keyFormulae": [
+      "\\text{cis-}[\\text{M(aa)}_2\\text{B}_2] \\implies \\text{Chiral (Optically Active)}",
+      "\\text{trans-}[\\text{M(aa)}_2\\text{B}_2] \\implies \\text{Plane of Symmetry (}\\sigma\\text{)} \\implies \\text{Achiral}"
+    ],
+    "hints": [
+      "Check for a plane of symmetry; cis-isomers with bidentate ligands lack symmetry planes."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-coord-004",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "VBT Hybridization & Magnetism of [Ni(CN)\u2084]\u00b2\u207b",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Using Valence Bond Theory (VBT), determine the hybridization of Nickel, molecular geometry, and spin-only magnetic moment (\u03bc_s) for the tetracyanidoniccolate(II) anion, [Ni(CN)\u2084]\u00b2\u207b:",
+    "options": [
+      {
+        "id": "A",
+        "text": "sp\u00b3; Tetrahedral; \u03bc_s = 2.83 BM",
+        "isCorrect": false,
+        "explanation": "sp\u00b3 tetrahedral is observed for [NiCl\u2084]\u00b2\u207b with weak-field Cl\u207b."
+      },
+      {
+        "id": "B",
+        "text": "dsp\u00b2; Square Planar; \u03bc_s = 0.00 BM (Diamagnetic)",
+        "isCorrect": true,
+        "explanation": "1. Ni\u00b2\u207a has 3d\u2078 4s\u2070 configuration. 2. CN\u207b is a strong-field ligand forcing pairing of 3d electrons, vacating 1 inner 3d orbital. 3. Vacant orbitals used: 1 inner 3d + 1 4s + 2 4p = dsp\u00b2 hybridization \u27f9 Square Planar. 4. n = 0 unpaired electrons \u27f9 \u03bc_s = 0.00 BM (Diamagnetic)."
+      },
+      {
+        "id": "C",
+        "text": "d\u00b2sp\u00b3; Octahedral; \u03bc_s = 1.73 BM",
+        "isCorrect": false,
+        "explanation": "Coordination number is 4, not 6."
+      },
+      {
+        "id": "D",
+        "text": "sp\u00b3d; Trigonal Bipyramidal; \u03bc_s = 3.87 BM",
+        "isCorrect": false,
+        "explanation": "Incorrect coordination number and geometry."
+      }
+    ],
+    "solutionExplanation": "1. Ni\u00b2\u207a has 3d\u2078 4s\u2070 configuration.\n2. CN\u207b is a powerful strong-field ligand that forces electron pairing among 3d electrons:\n   3d\u2078 (paired) \u2500\u2500\u25ba occupies 4 inner 3d orbitals, leaving 1 inner 3d orbital vacant.\n3. Vacant orbitals used: 1 inner 3d + 1 4s + 2 4p = dsp\u00b2 Hybridization \u27f9 Square Planar.\n4. All 8 d-electrons are paired \u27f9 n = 0 \u27f9 \u03bc_s = 0.00 BM (Diamagnetic).",
+    "keyFormulae": [
+      "[\\text{Ni(CN)}_4]^{2-}: \\text{Ni}^{2+} (3d^8) \\implies dsp^2 \\text{ Square Planar } (n=0, \\ \\mu_s = 0\\text{ BM})"
+    ],
+    "hints": [
+      "Strong-field CN\u207b pairs the 3d\u2078 electrons, freeing an inner 3d orbital for dsp\u00b2 square planar geometry."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-coord-005",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "Tetrahedral Crystal Field Splitting Ratio",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "The octahedral crystal field splitting energy for [Co(H\u2082O)\u2086]\u00b3\u207a is \u0394_o = 18,200 cm\u207b\u00b9. What is the estimated tetrahedral crystal field splitting energy (\u0394_t) for the corresponding tetrahedral complex [Co(H\u2082O)\u2084]\u00b3\u207a?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\u0394_t = 8,089 cm\u207b\u00b9",
+        "isCorrect": true,
+        "explanation": "1. Relationship: \u0394_t = (4/9) \u0394_o. 2. Calculation: \u0394_t = (4/9) \u00d7 18,200 cm\u207b\u00b9 = 72,800 / 9 = 8088.89 cm\u207b\u00b9 \u2248 8089 cm\u207b\u00b9."
+      },
+      {
+        "id": "B",
+        "text": "\u0394_t = 18,200 cm\u207b\u00b9",
+        "isCorrect": false,
+        "explanation": "\u0394_t is always much smaller than \u0394_o."
+      },
+      {
+        "id": "C",
+        "text": "\u0394_t = 40,950 cm\u207b\u00b9",
+        "isCorrect": false,
+        "explanation": "Inverted 9/4 ratio."
+      },
+      {
+        "id": "D",
+        "text": "\u0394_t = 9,100 cm\u207b\u00b9",
+        "isCorrect": false,
+        "explanation": "This would be (1/2) \u0394_o."
+      }
+    ],
+    "solutionExplanation": "1. Relationship between tetrahedral and octahedral splitting:\n   \u0394_t = (4/9) \u0394_o\n2. Calculation:\n   \u0394_t = (4/9) \u00d7 18,200 cm\u207b\u00b9 = 72,800 / 9 = 8088.89 cm\u207b\u00b9 \u2248 8089 cm\u207b\u00b9.",
+    "keyFormulae": [
+      "\\Delta_t = \\frac{4}{9} \\Delta_o"
+    ],
+    "hints": [
+      "Use the exact formula \u0394_t = (4/9) \u0394_o."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-coord-006",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "Ionization Isomerism Identification",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What structural type of isomerism is demonstrated by the pair of coordination compounds [Co(NH\u2083)\u2085(SO\u2084)]Br (Deep Red) and [Co(NH\u2083)\u2085Br]SO\u2084 (Violet)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Linkage Isomerism",
+        "isCorrect": false,
+        "explanation": "Requires an ambidentate ligand."
+      },
+      {
+        "id": "B",
+        "text": "Ionization Isomerism",
+        "isCorrect": true,
+        "explanation": "These two compounds differ by the exchange of anionic ligands (SO\u2084\u00b2\u207b vs Br\u207b) between the inner coordination sphere and the outer ionization sphere. Upon dissolving in water, one releases Br\u207b ions (gives AgBr ppt with AgNO\u2083), while the other releases SO\u2084\u00b2\u207b ions (gives BaSO\u2084 ppt with BaCl\u2082). This is Ionization Isomerism."
+      },
+      {
+        "id": "C",
+        "text": "Hydrate Isomerism",
+        "isCorrect": false,
+        "explanation": "Requires water molecules to be exchanged."
+      },
+      {
+        "id": "D",
+        "text": "Coordination Isomerism",
+        "isCorrect": false,
+        "explanation": "Requires two complex ions."
+      }
+    ],
+    "solutionExplanation": "These two compounds differ by the exchange of anionic ligands (SO\u2084\u00b2\u207b vs Br\u207b) between the inner coordination sphere and the outer ionization sphere. In water, one yields Br\u207b (AgBr ppt with AgNO\u2083), while the other yields SO\u2084\u00b2\u207b (BaSO\u2084 ppt with BaCl\u2082). This is Ionization Isomerism.",
+    "keyFormulae": [
+      "\\text{Ionization Isomers: } [\\text{Co(NH}_3)_5\\text{SO}_4]\\text{Br} \\quad \\text{vs} \\quad [\\text{Co(NH}_3)_5\\text{Br}]\\text{SO}_4"
+    ],
+    "hints": [
+      "Look at the exchange of ions between inside and outside the brackets."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-coord-007",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "MacArthur-Forrest Cyanide Process Complex",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "In the extraction of Gold by the MacArthur-Forrest Cyanide process, crushed gold ore is treated with an aqueous solution of Sodium Cyanide (NaCN) in the presence of air (O\u2082). What is the chemical formula and geometry of the soluble gold complex ion formed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "[Au(CN)\u2084]\u207b; Square Planar",
+        "isCorrect": false,
+        "explanation": "Au(III) is not formed under these leaching conditions."
+      },
+      {
+        "id": "B",
+        "text": "[Au(CN)\u2082]\u207b; Linear",
+        "isCorrect": true,
+        "explanation": "1. Leaching reaction: 4Au(s) + 8CN\u207b(aq) + 2H\u2082O(l) + O\u2082(g) \u2500\u2500\u25ba 4[Au(CN)\u2082]\u207b(aq) + 4OH\u207b(aq). 2. Gold(I) (Au\u207a, d\u00b9\u2070) forms the sp-hybridized Linear soluble complex [Au(CN)\u2082]\u207b."
+      },
+      {
+        "id": "C",
+        "text": "[Au(CN)\u2086]\u00b3\u207b; Octahedral",
+        "isCorrect": false,
+        "explanation": "Gold does not form hexacyanido complexes."
+      },
+      {
+        "id": "D",
+        "text": "[Au(CN)\u2083]\u00b2\u207b; Trigonal Planar",
+        "isCorrect": false,
+        "explanation": "Incorrect stoichiometry."
+      }
+    ],
+    "solutionExplanation": "1. Leaching reaction:\n   4Au(s) + 8CN\u207b(aq) + 2H\u2082O(l) + O\u2082(g) \u2500\u2500\u25ba 4[Au(CN)\u2082]\u207b(aq) + 4OH\u207b(aq)\n2. Gold(I) (Au\u207a, d\u00b9\u2070) forms the sp-hybridized Linear soluble complex [Au(CN)\u2082]\u207b.",
+    "keyFormulae": [
+      "4\\text{Au}(s) + 8\\text{NaCN}(aq) + 2\\text{H}_2\\text{O} + \\text{O}_2 \\longrightarrow 4\\text{Na}[\\text{Au(CN)}_2](aq) + 4\\text{NaOH}"
+    ],
+    "hints": [
+      "Au\u207a forms a 2-coordinate linear complex with cyanide."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-coord-008",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "fac/mer Geometrical Isomerism",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Which of the following octahedral complexes exhibits fac/mer (Facial/Meridional) geometrical isomerism?",
+    "options": [
+      {
+        "id": "A",
+        "text": "[Co(NH\u2083)\u2084Cl\u2082]\u207a",
+        "isCorrect": false,
+        "explanation": "[MA\u2084B\u2082] exhibits cis/trans isomerism, not fac/mer."
+      },
+      {
+        "id": "B",
+        "text": "[Co(NH\u2083)\u2083(NO\u2082)\u2083]",
+        "isCorrect": true,
+        "explanation": "Facial/Meridional (fac/mer) isomerism is unique to octahedral complexes of the general formula [MA\u2083B\u2083]. In [Co(NH\u2083)\u2083(NO\u2082)\u2083], when 3 identical ligands occupy a single triangular face, it is the fac-isomer; when 3 identical ligands lie in a plane encircling the center, it is the mer-isomer."
+      },
+      {
+        "id": "C",
+        "text": "[Co(en)\u2083]\u00b3\u207a",
+        "isCorrect": false,
+        "explanation": "[M(aa)\u2083] exhibits optical isomerism, not geometrical."
+      },
+      {
+        "id": "D",
+        "text": "[Pt(NH\u2083)\u2082Cl\u2082]",
+        "isCorrect": false,
+        "explanation": "Square planar [MA\u2082B\u2082] exhibits cis/trans isomerism."
+      }
+    ],
+    "solutionExplanation": "Facial/Meridional (fac/mer) isomerism is unique to octahedral complexes of the general formula [MA\u2083B\u2083]. In [Co(NH\u2083)\u2083(NO\u2082)\u2083], when 3 identical ligands occupy a single triangular face, it is the fac-isomer; when 3 identical ligands lie in a plane encircling the center, it is the mer-isomer.",
+    "keyFormulae": [
+      "[\\text{MA}_3\\text{B}_3] \\implies \\text{fac and mer Geometrical Isomers}"
+    ],
+    "hints": [
+      "Look for an octahedral complex with the formula [MA\u2083B\u2083]."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-coord-009",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "IUPAC Naming of [Cr(H\u2082O)\u2084Cl\u2082]\u207a",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the correct IUPAC name of the complex ion [Cr(H\u2082O)\u2084Cl\u2082]\u207a?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dichloridotetraaquachromium(III) ion",
+        "isCorrect": false,
+        "explanation": "Violates alphabetical ordering (aqua comes before chlorido)."
+      },
+      {
+        "id": "B",
+        "text": "Tetraaquadichloridochromium(III) ion",
+        "isCorrect": true,
+        "explanation": "1. Ligands: 4 aqua (H\u2082O) and 2 chlorido (Cl\u207b). 2. Alphabetical ordering: aqua (a) precedes chlorido (c) \u27f9 Tetraaquadichlorido. 3. Metal: Complex is cationic \u27f9 Chromium (standard English name). 4. Oxidation State: x + 4(0) + 2(-1) = +1 \u27f9 x = +3. 5. Complete IUPAC Name: Tetraaquadichloridochromium(III) ion."
+      },
+      {
+        "id": "C",
+        "text": "Dichlorotetraaquachromate(III) ion",
+        "isCorrect": false,
+        "explanation": "-ate suffix is only used for anionic complexes."
+      },
+      {
+        "id": "D",
+        "text": "Tetraaquadichloridochromate(II) ion",
+        "isCorrect": false,
+        "explanation": "Incorrect metal suffix and oxidation state."
+      }
+    ],
+    "solutionExplanation": "1. Ligands: 4 aqua (H\u2082O) and 2 chlorido (Cl\u207b).\n2. Alphabetical ordering: aqua (a) precedes chlorido (c) \u27f9 Tetraaquadichlorido.\n3. Metal: Complex is cationic \u27f9 Chromium (retains standard English name).\n4. Oxidation State: x + 4(0) + 2(-1) = +1 \u27f9 x = +3.\n5. Complete IUPAC Name: Tetraaquadichloridochromium(III) ion.",
+    "keyFormulae": [
+      "\\text{IUPAC: Tetraaquadichloridochromium(III) ion}"
+    ],
+    "hints": [
+      "Alphabetize ligands: 'aqua' before 'chlorido', and keep 'chromium' for a cationic complex."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-coord-010",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "CFSE Calculation for Low-Spin d\u2076 Octahedral",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Calculate the crystal field stabilization energy (CFSE) for a low-spin d\u2076 octahedral complex (t_2g\u2076 e_g\u2070) in terms of \u0394_o and pairing energy P:",
+    "options": [
+      {
+        "id": "A",
+        "text": "CFSE = -2.4 \u0394_o + 2P",
+        "isCorrect": true,
+        "explanation": "1. For t_2g\u2076 e_g\u2070: n_t2g = 6, n_eg = 0. 2. Two extra electron pairs are forced into t_2g beyond high-spin t_2g\u2074 e_g\u00b2 \u27f9 2P. 3. CFSE = [-0.4(6) + 0.6(0)] \u0394_o + 2P = -2.4 \u0394_o + 2P."
+      },
+      {
+        "id": "B",
+        "text": "CFSE = -0.4 \u0394_o",
+        "isCorrect": false,
+        "explanation": "-0.4 \u0394_o is for high-spin d\u2076."
+      },
+      {
+        "id": "C",
+        "text": "CFSE = -1.2 \u0394_o + P",
+        "isCorrect": false,
+        "explanation": "Incorrect multiplier."
+      },
+      {
+        "id": "D",
+        "text": "CFSE = -0.8 \u0394_o",
+        "isCorrect": false,
+        "explanation": "Incorrect."
+      }
+    ],
+    "solutionExplanation": "1. For t_2g\u2076 e_g\u2070: n_t2g = 6, n_eg = 0.\n2. Two extra electron pairs are forced into t_2g beyond high-spin t_2g\u2074 e_g\u00b2 \u27f9 2P.\n3. CFSE = [-0.4(6) + 0.6(0)] \u0394_o + 2P = -2.4 \u0394_o + 2P.",
+    "keyFormulae": [
+      "\\text{CFSE}(t_{2g}^6 e_g^0) = -2.4 \\Delta_o + 2P"
+    ],
+    "hints": [
+      "Multiply 6 electrons in t_2g by -0.4 \u0394_o and add the pairing energy for 2 extra pairs."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-coord-011",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "Ambidentate Ligands Identification",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following ligands are classified as AMBIDENTATE ligands capable of forming Linkage Isomers? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nitrito (-NO\u2082\u207b / -ONO\u207b)",
+        "isCorrect": true,
+        "explanation": "Binds via N (nitro) or O (nitrito)."
+      },
+      {
+        "id": "B",
+        "text": "Thiocyanato (-SCN\u207b / -NCS\u207b)",
+        "isCorrect": true,
+        "explanation": "Binds via S (thiocyanato) or N (isothiocyanato)."
+      },
+      {
+        "id": "C",
+        "text": "Cyanido (-CN\u207b / -NC\u207b)",
+        "isCorrect": true,
+        "explanation": "Binds via C (cyanido) or N (isocyanido)."
+      },
+      {
+        "id": "D",
+        "text": "Ethylenediamine (en)",
+        "isCorrect": false,
+        "explanation": "Ethylenediamine is a symmetric bidentate chelating ligand, NOT ambidentate."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: -NO\u2082\u207b, -SCN\u207b, and -CN\u207b possess two distinct donor atoms and can coordinate through either one (Ambidentate ligands), giving linkage isomers.\n\u2022 D is incorrect: Ethylenediamine (en) is a symmetric bidentate ligand, NOT ambidentate.",
+    "keyFormulae": [
+      "\\text{Ambidentate Ligands: } -\\text{NO}_2^-, \\ -\\text{SCN}^-, \\ -\\text{CN}^-"
+    ],
+    "hints": [
+      "Ambidentate ligands have two different atoms capable of donating lone pairs."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-coord-012",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "Octahedral Crystal Field Theory Facts",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding Crystal Field Theory (CFT) splitting in Octahedral complexes (\u0394_o): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "d-orbitals split into a lower energy t_2g triplet (d_xy, d_yz, d_zx) and higher energy e_g doublet (d_x\u00b2-y\u00b2, d_z\u00b2).",
+        "isCorrect": true,
+        "explanation": "Core octahedral CFT splitting pattern."
+      },
+      {
+        "id": "B",
+        "text": "Strong-field ligands (e.g., CN\u207b, CO) produce a large \u0394_o > P, forcing electron pairing in t_2g (Low-Spin).",
+        "isCorrect": true,
+        "explanation": "Large splitting overcomes pairing energy."
+      },
+      {
+        "id": "C",
+        "text": "Weak-field ligands (e.g., F\u207b, Cl\u207b) produce a small \u0394_o < P, yielding High-Spin complexes.",
+        "isCorrect": true,
+        "explanation": "Small splitting obeys Hund's rule."
+      },
+      {
+        "id": "D",
+        "text": "t_2g orbitals are raised in energy by +0.6 \u0394_o while e_g orbitals are lowered by -0.4 \u0394_o.",
+        "isCorrect": false,
+        "explanation": "Inverted: t_2g is LOWERED by -0.4 \u0394_o; e_g is RAISED by +0.6 \u0394_o."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: t_2g is lowered by -0.4 \u0394_o, e_g is raised by +0.6 \u0394_o; strong fields cause pairing (\u0394_o > P); weak fields give high-spin (\u0394_o < P).\n\u2022 D is incorrect: t_2g is LOWERED by -0.4 \u0394_o; e_g is RAISED by +0.6 \u0394_o.",
+    "keyFormulae": [
+      "e_g \\implies +0.6 \\Delta_o, \\quad t_{2g} \\implies -0.4 \\Delta_o"
+    ],
+    "hints": [
+      "Remember that e_g orbitals point directly at incoming ligands and are destabilized (+0.6 \u0394_o)."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-coord-013",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "Paramagnetic Complex Ions",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following coordination complex ions are PARAMAGNETIC? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "[FeF\u2086]\u00b3\u207b (3d\u2075, weak field F\u207b)",
+        "isCorrect": true,
+        "explanation": "[FeF\u2086]\u00b3\u207b \u27f9 t_2g\u00b3 e_g\u00b2 \u27f9 n = 5 unpaired electrons (paramagnetic)."
+      },
+      {
+        "id": "B",
+        "text": "[Fe(CN)\u2086]\u00b3\u207b (3d\u2075, strong field CN\u207b)",
+        "isCorrect": true,
+        "explanation": "[Fe(CN)\u2086]\u00b3\u207b \u27f9 t_2g\u2075 e_g\u2070 \u27f9 n = 1 unpaired electron (paramagnetic)."
+      },
+      {
+        "id": "C",
+        "text": "[Fe(CN)\u2086]\u2074\u207b (3d\u2076, strong field CN\u207b)",
+        "isCorrect": false,
+        "explanation": "[Fe(CN)\u2086]\u2074\u207b \u27f9 t_2g\u2076 e_g\u2070 \u27f9 n = 0 unpaired electrons (DIAMAGNETIC)."
+      },
+      {
+        "id": "D",
+        "text": "[NiCl\u2084]\u00b2\u207b (3d\u2078, weak field Cl\u207b)",
+        "isCorrect": true,
+        "explanation": "[NiCl\u2084]\u00b2\u207b \u27f9 sp\u00b3 tetrahedral 3d\u2078 \u27f9 n = 2 unpaired electrons (paramagnetic)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A is paramagnetic: [FeF\u2086]\u00b3\u207b \u27f9 t_2g\u00b3 e_g\u00b2 \u27f9 n = 5 unpaired e\u207b.\n\u2022 B is paramagnetic: [Fe(CN)\u2086]\u00b3\u207b \u27f9 t_2g\u2075 e_g\u2070 \u27f9 n = 1 unpaired e\u207b.\n\u2022 C is DIAMAGNETIC: [Fe(CN)\u2086]\u2074\u207b \u27f9 t_2g\u2076 e_g\u2070 \u27f9 n = 0 unpaired e\u207b.\n\u2022 D is paramagnetic: [NiCl\u2084]\u00b2\u207b \u27f9 sp\u00b3 tetrahedral 3d\u2078 \u27f9 n = 2 unpaired e\u207b.",
+    "keyFormulae": [
+      "[\\text{Fe(CN)}_6]^{4-} (3d^6, \\text{low-spin}) \\implies n=0 \\text{ (Diamagnetic)}"
+    ],
+    "hints": [
+      "Check for unpaired electrons in each complex."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-coord-014",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "Spectrochemical Series Order",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding the Spectrochemical Series of ligands in order of increasing \u0394_o: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "I\u207b < Br\u207b < Cl\u207b < F\u207b",
+        "isCorrect": true,
+        "explanation": "Halide splitting increases: I\u207b < Br\u207b < Cl\u207b < F\u207b."
+      },
+      {
+        "id": "B",
+        "text": "F\u207b < H\u2082O < NH\u2083 < CN\u207b",
+        "isCorrect": true,
+        "explanation": "Splitting power increases across these ligands."
+      },
+      {
+        "id": "C",
+        "text": "CO is a stronger field ligand than NH\u2083.",
+        "isCorrect": true,
+        "explanation": "CO is the strongest field ligand due to \u03c0-backbonding."
+      },
+      {
+        "id": "D",
+        "text": "Cl\u207b is a stronger field ligand than CN\u207b.",
+        "isCorrect": false,
+        "explanation": "CN\u207b is much stronger than Cl\u207b."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Spectrochemical series: I\u207b < Br\u207b < Cl\u207b < F\u207b < OH\u207b < ox\u00b2\u207b < H\u2082O < NH\u2083 < en < CN\u207b < CO.\n\u2022 D is incorrect: CN\u207b is near the strong-field end; Cl\u207b is weak-field.",
+    "keyFormulae": [
+      "\\text{I}^- < \\text{Br}^- < \\text{Cl}^- < \\text{F}^- < \\text{H}_2\\text{O} < \\text{NH}_3 < \\text{CN}^- < \\text{CO}"
+    ],
+    "hints": [
+      "Review the relative positions of halides, water, ammonia, cyanide, and carbon monoxide."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-coord-015",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "Biological Coordination Complexes Pairing",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following Biological Coordination Complexes are correctly paired with their central metal ion? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chlorophyll \u2500\u2500\u25ba Magnesium (Mg\u00b2\u207a)",
+        "isCorrect": true,
+        "explanation": "Chlorophyll is a Mg\u00b2\u207a porphyrin complex."
+      },
+      {
+        "id": "B",
+        "text": "Hemoglobin / Myoglobin \u2500\u2500\u25ba Iron (Fe\u00b2\u207a)",
+        "isCorrect": true,
+        "explanation": "Heme contains an Fe\u00b2\u207a protoporphyrin IX complex."
+      },
+      {
+        "id": "C",
+        "text": "Vitamin B\u2081\u2082 (Cyanocobalamin) \u2500\u2500\u25ba Cobalt (Co\u00b3\u207a)",
+        "isCorrect": true,
+        "explanation": "Vitamin B\u2081\u2082 contains a Co\u00b3\u207a corrin ring complex."
+      },
+      {
+        "id": "D",
+        "text": "Carbonic Anhydrase \u2500\u2500\u25ba Zinc (Zn\u00b2\u207a)",
+        "isCorrect": true,
+        "explanation": "Carbonic anhydrase is a Zn\u00b2\u207a metalloenzyme."
+      }
+    ],
+    "solutionExplanation": "All four biological metallo-complexes are correctly matched with their essential central metal cations.",
+    "keyFormulae": [
+      "\\text{Chlorophyll (Mg}^{2+}\\text{), Hemoglobin (Fe}^{2+}\\text{), Vit B}_{12}\\text{ (Co}^{3+}\\text{), Carbonic Anhydrase (Zn}^{2+}\\text{)}"
+    ],
+    "hints": [
+      "Recall the essential metals in major biological pigments, vitamins, and enzymes."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-coord-016",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "Cisplatin & Transplatin Properties",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding cis- and trans-isomers of [Pt(NH\u2083)\u2082Cl\u2082] (Square Planar, dsp\u00b2): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "cis-[Pt(NH\u2083)\u2082Cl\u2082] is known as Cisplatin and is used as an anti-cancer drug.",
+        "isCorrect": true,
+        "explanation": "Cisplatin cross-links DNA in cancer cells."
+      },
+      {
+        "id": "B",
+        "text": "Both cis- and trans-isomers are optically active and can be resolved into enantiomers.",
+        "isCorrect": false,
+        "explanation": "Square planar complexes possess a molecular plane of symmetry and are OPTICALLY INACTIVE (Achiral)."
+      },
+      {
+        "id": "C",
+        "text": "The trans-isomer has a net dipole moment \u03bc = 0 due to symmetrical opposite bond dipoles.",
+        "isCorrect": true,
+        "explanation": "Opposite Pt-Cl and Pt-NH\u2083 bond moments cancel."
+      },
+      {
+        "id": "D",
+        "text": "Both cis- and trans-isomers possess square planar geometry.",
+        "isCorrect": true,
+        "explanation": "Pt(II) in d\u2078 configuration forms dsp\u00b2 square planar geometry."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, C, D are correct: Cisplatin is anti-cancer; trans-isomer has \u03bc=0; both are square planar (dsp\u00b2).\n\u2022 B is incorrect: Square planar complexes [MA\u2082B\u2082] possess a molecular plane of symmetry lying in the xy-plane and are OPTICALLY INACTIVE (Achiral).",
+    "keyFormulae": [
+      "\\text{cis-}[\\text{Pt(NH}_3)_2\\text{Cl}_2] \\implies \\text{Cisplatin (Anti-cancer)}",
+      "\\text{Square Planar [MA}_2\\text{B}_2] \\implies \\text{Achiral (Optically Inactive)}"
+    ],
+    "hints": [
+      "Square planar complexes possess a molecular plane of symmetry and cannot be optically active."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-coord-017",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "Inner Orbital (d\u00b2sp\u00b3) Complexes",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following complex ions feature d\u00b2sp\u00b3 (Inner Orbital) Octahedral Hybridization? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "[Co(NH\u2083)\u2086]\u00b3\u207a",
+        "isCorrect": true,
+        "explanation": "Co\u00b3\u207a (3d\u2076) with strong-field NH\u2083 pairs electrons \u2500\u2500\u25ba d\u00b2sp\u00b3."
+      },
+      {
+        "id": "B",
+        "text": "[Fe(CN)\u2086]\u2074\u207b",
+        "isCorrect": true,
+        "explanation": "Fe\u00b2\u207a (3d\u2076) with strong-field CN\u207b pairs electrons \u2500\u2500\u25ba d\u00b2sp\u00b3."
+      },
+      {
+        "id": "C",
+        "text": "[CoF\u2086]\u00b3\u207b",
+        "isCorrect": false,
+        "explanation": "Co\u00b3\u207a (3d\u2076) with weak-field F\u207b forms sp\u00b3d\u00b2 outer orbital complex."
+      },
+      {
+        "id": "D",
+        "text": "[Fe(CN)\u2086]\u00b3\u207b",
+        "isCorrect": true,
+        "explanation": "Fe\u00b3\u207a (3d\u2075) with strong-field CN\u207b forms d\u00b2sp\u00b3 inner orbital complex."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, D are correct: [Co(NH\u2083)\u2086]\u00b3\u207a (3d\u2076), [Fe(CN)\u2086]\u2074\u207b (3d\u2076), and [Fe(CN)\u2086]\u00b3\u207b (3d\u2075) with strong-field ligands pair inner 3d electrons, utilizing d\u00b2sp\u00b3 inner orbital hybridization.\n\u2022 C is incorrect: [CoF\u2086]\u00b3\u207b contains weak-field F\u207b; inner 3d orbitals remain occupied, using sp\u00b3d\u00b2 outer orbital hybridization.",
+    "keyFormulae": [
+      "d^2sp^3 \\text{ Complexes: } [\\text{Co(NH}_3)_6]^{3+}, \\ [\\text{Fe(CN)}_6]^{4-}, \\ [\\text{Fe(CN)}_6]^{3-}"
+    ],
+    "hints": [
+      "Look for complexes with strong-field ligands that pair 3d electrons to free two (n-1)d orbitals."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-coord-018",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "Analytical Applications of Coordination Compounds",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding analytical applications of coordination chemistry: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ni\u00b2\u207a is quantitatively estimated using dimethylglyoxime (DMG) forming a rose-red precipitate of [Ni(DMG)\u2082].",
+        "isCorrect": true,
+        "explanation": "Classic gravimetric test for Ni\u00b2\u207a."
+      },
+      {
+        "id": "B",
+        "text": "Fe\u00b3\u207a reacts with SCN\u207b to form a blood-red complex [Fe(SCN)]\u00b2\u207a.",
+        "isCorrect": true,
+        "explanation": "Sensitive colorimetric test for Fe\u00b3\u207a."
+      },
+      {
+        "id": "C",
+        "text": "Water hardness (Ca\u00b2\u207a, Mg\u00b2\u207a) is estimated by titration against EDTA\u2074\u207b.",
+        "isCorrect": true,
+        "explanation": "Complexometric titration for total hardness."
+      },
+      {
+        "id": "D",
+        "text": "Brown ring test for NO\u2083\u207b yields the complex [Fe(H\u2082O)\u2085NO]\u00b2\u207a.",
+        "isCorrect": true,
+        "explanation": "Pentaaquanitrosyliron(I) / (II) brown complex."
+      }
+    ],
+    "solutionExplanation": "All four options represent established analytical colorimetric and titrimetric applications of coordination complexes.",
+    "keyFormulae": [
+      "\\text{Ni}^{2+} + 2\\text{DMG} \\longrightarrow [\\text{Ni(DMG)}_2] \\downarrow \\text{ (Rose-red ppt)}"
+    ],
+    "hints": [
+      "All four analytical qualitative/quantitative tests are standard coordination applications."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-coord-019",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "Tetrahedral Crystal Field Splitting Facts",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following statements regarding Tetrahedral Crystal Field Splitting (\u0394_t) are TRUE? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "\u0394_t = (4/9) \u0394_o.",
+        "isCorrect": true,
+        "explanation": "Standard mathematical relationship."
+      },
+      {
+        "id": "B",
+        "text": "The d_xy, d_yz, d_zx orbitals (t_2 set) are raised in energy by +0.4 \u0394_t.",
+        "isCorrect": true,
+        "explanation": "t_2 orbitals point closer to incoming ligands."
+      },
+      {
+        "id": "C",
+        "text": "Tetrahedral complexes are almost exclusively High-Spin because \u0394_t < P.",
+        "isCorrect": true,
+        "explanation": "Small splitting cannot overcome pairing energy."
+      },
+      {
+        "id": "D",
+        "text": "Tetrahedral complexes display fac/mer isomerism.",
+        "isCorrect": false,
+        "explanation": "fac/mer isomerism occurs ONLY in Octahedral [MA\u2083B\u2083] complexes, NOT tetrahedral complexes."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: \u0394_t = (4/9)\u0394_o, t_2 is raised by +0.4 \u0394_t, and small \u0394_t enforces high-spin.\n\u2022 D is incorrect: fac/mer isomerism occurs ONLY in Octahedral [MA\u2083B\u2083] complexes, NOT tetrahedral complexes.",
+    "keyFormulae": [
+      "\\Delta_t = \\frac{4}{9} \\Delta_o, \\quad \\Delta_t \\ll P \\implies \\text{Always High-Spin}"
+    ],
+    "hints": [
+      "fac/mer isomerism is unique to octahedral [MA\u2083B\u2083] complexes."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-coord-020",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "subtopic": "IUPAC Names Verification",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct IUPAC names for the given coordination compounds: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "K\u2084[Fe(CN)\u2086] \u2500\u2500\u25ba Potassium hexacyanidoferrate(II)",
+        "isCorrect": true,
+        "explanation": "Potassium hexacyanidoferrate(II)."
+      },
+      {
+        "id": "B",
+        "text": "[Co(NH\u2083)\u2086]Cl\u2083 \u2500\u2500\u25ba Hexaamminecobalt(III) chloride",
+        "isCorrect": true,
+        "explanation": "Hexaamminecobalt(III) chloride."
+      },
+      {
+        "id": "C",
+        "text": "[Ni(CO)\u2084] \u2500\u2500\u25ba Tetracarbonylnickel(0)",
+        "isCorrect": true,
+        "explanation": "Tetracarbonylnickel(0)."
+      },
+      {
+        "id": "D",
+        "text": "Na[Al(OH)\u2084] \u2500\u2500\u25ba Sodium tetrahydroxidoaluminate(III)",
+        "isCorrect": true,
+        "explanation": "Sodium tetrahydroxidoaluminate(III)."
+      }
+    ],
+    "solutionExplanation": "All four IUPAC names strictly follow international rules (alphabetical ligand ordering, correct metal suffixes -ate for anionic complexes, and Roman numeral oxidation states).",
+    "keyFormulae": [
+      "\\text{IUPAC nomenclature verification across landmark compounds}"
+    ],
+    "hints": [
+      "Verify the alphabetical ligand naming and -ate suffix on anionic complex ions."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

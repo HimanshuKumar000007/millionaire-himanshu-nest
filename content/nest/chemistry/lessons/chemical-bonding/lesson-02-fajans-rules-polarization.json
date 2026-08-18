@@ -1,0 +1,59 @@
+{
+  "id": "chem-xi-u4-c4-l02",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit IV \u2014 Chemical Bonding and Molecular Structure",
+  "unitNumber": 4,
+  "chapter": "Chemical Bonding and Molecular Structure",
+  "chapterNumber": 4,
+  "chapterSlug": "chemical-bonding",
+  "slug": "lesson-02-fajans-rules-polarization",
+  "title": "Covalent Character in Ionic Bonds: Fajans\u2019 Rules & Polarization Mechanism",
+  "topic": "Fajans' Rules & Polarization",
+  "topics": [
+    "Polarization of Anion by Cation",
+    "Fajans' 4 Rules (Cation Size, Anion Size, Charge, Pseudo-Noble Core)",
+    "Polarising Power (\u03a6 = z\u207a / r\u208a) & Polarisability",
+    "Chemical Consequences (Melting Points, Organic Solubility, Color Deepening)",
+    "Comparative Series (LiCl vs NaCl, CuCl vs NaCl, AgX Series)"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "fajans-rules",
+  "quickSummary": "No bond is 100% ionic. When a cation distorts an anion's electron cloud (Polarization), electron density shifts between the nuclei, inducing covalent character governed by Fajans' Rules.",
+  "summary": "Master Fajans' Rules, polarising power (\u03a6 = z\u207a/r\u208a), polarisability, and the chemical consequences of covalent character.",
+  "conceptBreakdown": [
+    {
+      "heading": "2.1 Fajans' Polarization Mechanism",
+      "title": "2.1 Fajans' Polarization Mechanism",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Fajans' Rules",
+        "takeaway": "Covalent character maximized by: 1. Small Cation; 2. Large Anion; 3. High Charges; 4. Pseudo-noble gas (d\u00b9\u2070) cations."
+      },
+      "codeSnippet": "FAJANS' POLARIZATION MECHANISM\n                         \n   (+) Cation \u2500\u2500\u2500\u2500\u25ba  ( - ) Anion \u2500\u2500\u2500\u25ba  (+) Cation \u2500\u2500 ( ~ ) Distorted Anion\n   (Symmetrical)     (Symmetrical)     (Electron cloud pulled into inter-nuclear region)\n                                       ===> **COVALENT CHARACTER**",
+      "content": "When a positive cation approaches an anion, its positive nucleus attracts the anion's electron cloud while repelling its nucleus, distorting the anion (Polarization). This pulls electron density into the internuclear region, imparting covalent character."
+    },
+    {
+      "heading": "2.2 Fajans' 4 Rules & Exemplar Series",
+      "title": "2.2 Fajans' 4 Rules & Exemplar Series",
+      "type": "paragraph",
+      "content": "1. **Small Cation Radius ($r_+$)**: High charge density / Polarising Power ($\\Phi = \\frac{z^+}{r_+}$):\n$$\\mathbf{\\text{LiCl} > \\text{NaCl} > \\text{KCl} > \\text{RbCl} > \\text{CsCl} \\quad (\\text{Covalent character order})}$$\n\n2. **Large Anion Radius ($r_-$)**: Loosely held outer electron cloud with high Polarisability:\n$$\\mathbf{\\text{LiI} > \\text{LiBr} > \\text{LiCl} > \\text{LiF} \\quad (\\text{LiI is most covalent})}$$\n\n3. **High Ionic Charges ($z^+, z^-$)**: Stronger distortion field:\n$$\\mathbf{\\text{SnCl}_4 > \\text{SnCl}_2 \\quad \\vert \\quad \\text{AlCl}_3 > \\text{MgCl}_2 > \\text{NaCl} \\quad \\vert \\quad \\text{Fe}^{3+} > \\text{Fe}^{2+}}$$\n\n4. **Pseudo-Noble Gas Cation $(n-1)d^{10} ns^0$**: Cations with $18\\ e^-$ outer shells (e.g., $\\text{Cu}^+, \\text{Ag}^+$) exert higher effective nuclear charge than $ns^2 np^6$ noble gas cations due to poor $d$-electron shielding:\n$$\\mathbf{\\text{CuCl } (d^{10}, \\text{MP } 430^\\circ\\text{C}) > \\text{NaCl } (p^6, \\text{MP } 801^\\circ\\text{C})}$$\n\n\u2022 **Chemical Consequences**:\n- **Melting Point Depression**: High covalent character lowers melting points.\n- **Solubility in Non-Polar Solvents**: $\\text{LiCl}$ dissolves in ethanol; $\\text{NaCl}$ does not.\n- **Color Deepening**: $\\text{AgF}$ (white, soluble) $\\rightarrow \\text{AgCl}$ (white, insoluble) $\\rightarrow \\text{AgBr}$ (pale yellow) $\\rightarrow \\text{AgI}$ (dark yellow) due to polarization-induced charge transfer."
+    }
+  ],
+  "quickRevision": [
+    "Polarising Power \u03a6 = z\u207a / r\u208a.",
+    "Covalent character: small cation, large anion, high charges, d\u00b9\u2070 pseudo-noble core.",
+    "CuCl (d\u00b9\u2070) has lower MP (430\u00b0C) than NaCl (801\u00b0C) due to higher covalent character.",
+    "AgI is yellow and insoluble; AgF is white and soluble."
+  ],
+  "keyFormulae": [
+    "\u03a6 = z\u207a / r\u208a",
+    "Covalent Character \u221d \u03a6 \u00d7 Polarisability"
+  ]
+}

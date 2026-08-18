@@ -1,0 +1,62 @@
+{
+  "id": "chem-xii-u12-c3-l05",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XII \u2014 Chemical Kinetics",
+  "unitNumber": 12,
+  "chapter": "Chemical Kinetics",
+  "chapterNumber": 3,
+  "chapterSlug": "chemical-kinetics",
+  "slug": "lesson-05-gas-phase-kinetics-pseudo-first-order-systems",
+  "title": "Gas-Phase First-Order Kinetics & Pseudo-First-Order Systems",
+  "topic": "Gas-Phase Kinetics & Pseudo-First-Order",
+  "topics": [
+    "5.1 Gas-Phase First-Order Kinetics (Total Pressure Formulation)",
+    "Pressure Stoichiometry & Partial Pressure Derivation: P_A = 2P_0 - P_t",
+    "Gas-Phase Rate Constant Equation: k = (2.303 / t) log\u2081\u2080 (P_0 / (2P_0 - P_t))",
+    "5.2 Pseudo-First-Order Reactions Definition & Criteria",
+    "Inversion of Cane Sugar (Polarimeter angle formula: k = (2.303 / t) log\u2081\u2080 ((r_0 - r_\u221e) / (r_t - r_\u221e)))",
+    "Acid Hydrolysis of Ethyl Acetate vs Alkaline Saponification"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "chemical-kinetics",
+  "quickSummary": "Gas-phase A(g) \u2500\u2500\u25ba B(g) + C(g): k = (2.303/t) log\u2081\u2080(P\u2080 / (2P\u2080 - P_t)). Pseudo-first-order: higher-order reaction behaving as first-order when one reactant (H\u2082O) is in large excess (Sugar inversion, acid ester hydrolysis).",
+  "summary": "Master gas-phase total pressure kinetic equations and pseudo-first-order mechanisms.",
+  "conceptBreakdown": [
+    {
+      "heading": "5.1 Gas-Phase First-Order Kinetics",
+      "title": "5.1 Gas-Phase First-Order Kinetics",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Gas-Phase Kinetics",
+        "takeaway": "For A(g) \u2500\u2500\u25ba B(g) + C(g): P_A = 2P\u2080 - P_t. k = (2.303/t) log\u2081\u2080(P\u2080 / (2P\u2080 - P_t))."
+      },
+      "codeSnippet": "GAS-PHASE FIRST-ORDER DERIVATION\n\nConsider a first-order gas-phase reaction: A(g) \u2500\u2500\u25ba B(g) + C(g)\nLet P\u2080 be the initial pressure of A(g), and P_t be the total pressure at time t:\n\nReaction:          A(g) \u2500\u2500\u25ba B(g) + C(g)\nInitial (t=0):     P\u2080        0      0\nAt Time t:         P\u2080 - x    x      x\n\nP_t = (P\u2080 - x) + x + x = P\u2080 + x  \u27f9  x = P_t - P\u2080\nP_A = P\u2080 - x = P\u2080 - (P_t - P\u2080) = 2P\u2080 - P_t\n\nk = (2.303 / t) log\u2081\u2080 [ P\u2080 / (2P\u2080 - P_t) ]",
+      "content": "Consider a first-order gas-phase reaction: $A(g) \\longrightarrow B(g) + C(g)$. Let $P_0$ be the initial pressure of $A(g)$, and $P_t$ be the total pressure at time $t$:\n$$\\text{Reaction: } A(g) \\longrightarrow B(g) + C(g)$$\n$$\\text{Initial } (t=0): P_0 \\quad \\quad 0 \\quad \\quad 0$$\n$$\\text{At Time } t: P_0 - x \\quad \\quad x \\quad \\quad x$$\n\n$$P_t = (P_0 - x) + x + x = P_0 + x \\implies x = P_t - P_0$$\n$$P_A = P_0 - x = P_0 - (P_t - P_0) = 2P_0 - P_t$$\n\n$$\\mathbf{k = \\frac{2.303}{t} \\log_{10} \\left( \\frac{P_0}{2P_0 - P_t} \\right)}$$"
+    },
+    {
+      "heading": "5.2 Pseudo-First-Order Reactions",
+      "title": "5.2 Pseudo-First-Order Reactions",
+      "type": "paragraph",
+      "codeSnippet": "PSEUDO-FIRST-ORDER REACTIONS\n\nA reaction that is inherently higher-order (e.g., second-order) but behaves kinetic-wise as a first-order reaction because one of the reactants is present in large excess, rendering its concentration practically constant.\n\nInversion of Cane Sugar:\n  C\u2081\u2082H\u2082\u2082O\u2081\u2081 + H\u2082O (Excess) \u2500\u2500[H\u207a]\u2500\u2500\u25ba C\u2086H\u2081\u2082O\u2086 (Glucose) + C\u2086H\u2081\u2082O\u2086 (Fructose)\n\nActual Rate Law = k' [C\u2081\u2082H\u2082\u2082O\u2081\u2081] [H\u2082O]\nSince [H\u2082O] \u2248 Constant \u27f9 Rate = k [C\u2081\u2082H\u2082\u2082O\u2081\u2081]  where k = k' [H\u2082O]\n\nPseudo-First-Order Rate Constant:\n  k = (2.303 / t) log\u2081\u2080 [ (r\u2080 - r_\u221e) / (r_t - r_\u221e) ]\nwhere r\u2080, r_t, r_\u221e are optical rotation angles measured using a polarimeter.",
+      "content": "A reaction that is inherently higher-order (e.g., second-order) but behaves kinetic-wise as a first-order reaction because one of the reactants is present in large excess, rendering its concentration practically constant.\n\n$$\\text{Inversion of Cane Sugar: } \\text{C}_{12}\\text{H}_{22}\\text{O}_{11} + \\text{H}_2\\text{O} \\text{ (Excess)} \\xrightarrow{\\text{H}^+} \\text{C}_6\\text{H}_{12}\\text{O}_6 + \\text{C}_6\\text{H}_{12}\\text{O}_6$$\n$$\\text{Actual Rate Law} = k' [\\text{C}_{12}\\text{H}_{22}\\text{O}_{11}] [\\text{H}_2\\text{O}]$$\n$$\\text{Since } [\\text{H}_2\\text{O}] \\approx \\text{Constant} \\implies \\mathbf{\\text{Rate} = k [\\text{C}_{12}\\text{H}_{22}\\text{O}_{11}] \\quad \\text{where } k = k' [\\text{H}_2\\text{O}]}$$\n\n$$\\mathbf{k = \\frac{2.303}{t} \\log_{10} \\left( \\frac{r_0 - r_\\infty}{r_t - r_\\infty} \\right)}$$\nwhere $r_0, r_t, r_\\infty$ are optical rotation angles measured using a polarimeter."
+    }
+  ],
+  "quickRevision": [
+    "A(g) \u2500\u2500\u25ba B(g) + C(g): k = (2.303/t) log\u2081\u2080(P\u2080 / (2P\u2080 - P_t)).",
+    "A(g) \u2500\u2500\u25ba 2B(g) + C(g): P_t = P\u2080 + 2x \u27f9 P_A = P\u2080 - (P_t - P\u2080)/2.",
+    "Sugar inversion and acid ester hydrolysis are pseudo-first-order.",
+    "Sugar inversion rate constant: k = (2.303/t) log\u2081\u2080((r\u2080 - r_\u221e)/(r_t - r_\u221e)).",
+    "Alkaline saponification is a true second-order reaction."
+  ],
+  "keyFormulae": [
+    "k = \\frac{2.303}{t} \\log_{10} \\left( \\frac{P_0}{2P_0 - P_t} \\right)",
+    "k = \\frac{2.303}{t} \\log_{10} \\left( \\frac{r_0 - r_\\infty}{r_t - r_\\infty} \\right)"
+  ]
+}

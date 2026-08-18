@@ -1,0 +1,937 @@
+[
+  {
+    "id": "chem-atomic-001",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "Hydrogen Emission Spectrum & Rydberg Mechanics",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "An electron in a hydrogen-like ion X\u1dbb\u207a undergoes a transition from an excited state n\u2082 to a lower state n\u2081. The emitted photon has a frequency of 2.466 \u00d7 10\u00b9\u2075 Hz. If this transition corresponds to the first line of the Lyman series (n\u2082 = 2 \u2192 n\u2081 = 1) for this specific ion, what is the atomic number Z and identity of the ion X\u1dbb\u207a? (R_H = 1.097 \u00d7 10\u2077 m\u207b\u00b9, c = 3.0 \u00d7 10\u2078 m/s)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Z = 1 (H atom)",
+        "isCorrect": true,
+        "explanation": "Calculates wave number \u03bd\u0304 = 8.22 \u00d7 10\u2076 m\u207b\u00b9. Rydberg equation: 8.22 \u00d7 10\u2076 = (1.097 \u00d7 10\u2077) \u00d7 Z\u00b2 \u00d7 (3/4) \u2192 Z\u00b2 \u2248 1 \u2192 Z = 1."
+      },
+      {
+        "id": "B",
+        "text": "Z = 2 (He\u207a ion)",
+        "isCorrect": false,
+        "explanation": "For Z = 2, emitted frequency would be 4 times higher (9.864 \u00d7 10\u00b9\u2075 Hz)."
+      },
+      {
+        "id": "C",
+        "text": "Z = 3 (Li\u00b2\u207a ion)",
+        "isCorrect": false,
+        "explanation": "For Z = 3, emitted frequency would be 9 times higher (2.219 \u00d7 10\u00b9\u2076 Hz)."
+      },
+      {
+        "id": "D",
+        "text": "Z = 4 (Be\u00b3\u207a ion)",
+        "isCorrect": false,
+        "explanation": "For Z = 4, emitted frequency would be 16 times higher."
+      }
+    ],
+    "solutionExplanation": "1. Calculate wave number \u03bd\u0304 = \u03bd / c = (2.466 \u00d7 10\u00b9\u2075 s\u207b\u00b9) / (3.0 \u00d7 10\u2078 m/s) = 8.22 \u00d7 10\u2076 m\u207b\u00b9.\n2. Use Rydberg equation for n\u2082 = 2 \u2192 n\u2081 = 1:\n   \u03bd\u0304 = R_H \u00b7 Z\u00b2 \u00b7 (1/1\u00b2 - 1/2\u00b2) = R_H \u00b7 Z\u00b2 \u00b7 (3/4)\n3. Solve for Z\u00b2:\n   8.22 \u00d7 10\u2076 = (1.097 \u00d7 10\u2077) \u00d7 Z\u00b2 \u00d7 0.75\n   8.22 \u00d7 10\u2076 = 8.2275 \u00d7 10\u2076 Z\u00b2 \u2192 Z\u00b2 \u2248 1 \u2192 Z = 1 (Hydrogen atom).",
+    "keyFormulae": [
+      "\u03bd\u0304 = \u03bd / c",
+      "\u03bd\u0304 = R_H Z\u00b2 (1/n\u2081\u00b2 - 1/n\u2082\u00b2)"
+    ],
+    "hints": [
+      "Compute wave number \u03bd\u0304 = \u03bd/c first, then apply Rydberg equation for 2\u21921."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-atomic-002",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "Photoelectric Effect",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "When a clean lithium metal surface (Work Function \u03a6 = 2.30 eV) is illuminated with monochromatic light of wavelength \u03bb = 3000 \u00c5, photoelectrons are ejected. What is the maximum kinetic energy (K_max) of the ejected photoelectrons and the corresponding stopping potential (V_s)? (hc \u2248 12400 eV\u00b7\u00c5)",
+    "options": [
+      {
+        "id": "A",
+        "text": "K_max = 1.83 eV; V_s = 1.83 V",
+        "isCorrect": true,
+        "explanation": "E_photon = 12400/3000 = 4.133 eV. K_max = 4.133 - 2.30 = 1.833 eV \u2248 1.83 eV. V_s = 1.83 V."
+      },
+      {
+        "id": "B",
+        "text": "K_max = 4.13 eV; V_s = 4.13 V",
+        "isCorrect": false,
+        "explanation": "4.13 eV is the total incident photon energy, not K_max."
+      },
+      {
+        "id": "C",
+        "text": "K_max = 2.30 eV; V_s = 2.30 V",
+        "isCorrect": false,
+        "explanation": "2.30 eV is the work function."
+      },
+      {
+        "id": "D",
+        "text": "K_max = 0.50 eV; V_s = 0.50 V",
+        "isCorrect": false,
+        "explanation": "Incorrect energy subtraction."
+      }
+    ],
+    "solutionExplanation": "1. Incident photon energy: E_photon = 12400 / \u03bb(\u00c5) = 12400 / 3000 = 4.133 eV.\n2. Einstein photoelectric equation: K_max = E_photon - \u03a6 = 4.133 eV - 2.30 eV = 1.833 eV \u2248 1.83 eV.\n3. Stopping potential: e V_s = K_max = 1.833 eV \u2192 V_s = 1.833 V \u2248 1.83 V.",
+    "keyFormulae": [
+      "E = 12400 / \u03bb (\u00c5)",
+      "K_max = E - \u03a6",
+      "e V_s = K_max"
+    ],
+    "hints": [
+      "Convert wavelength to photon energy in eV using 12400/\u03bb, then subtract work function \u03a6."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-atomic-003",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "de Broglie Wavelength",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "An electron is accelerated from rest through a potential difference V = 100 Volts. What is the de Broglie wavelength (\u03bb) associated with this accelerated electron?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.227 \u00c5",
+        "isCorrect": true,
+        "explanation": "\u03bb_e = 12.27 / \u221aV \u00c5 = 12.27 / \u221a100 = 12.27 / 10 = 1.227 \u00c5."
+      },
+      {
+        "id": "B",
+        "text": "0.123 \u00c5",
+        "isCorrect": false,
+        "explanation": "Off by a factor of 10."
+      },
+      {
+        "id": "C",
+        "text": "12.27 \u00c5",
+        "isCorrect": false,
+        "explanation": "Failed to divide by \u221a100 = 10."
+      },
+      {
+        "id": "D",
+        "text": "0.529 \u00c5",
+        "isCorrect": false,
+        "explanation": "0.529 \u00c5 is the Bohr radius a\u2080, not the de Broglie wavelength."
+      }
+    ],
+    "solutionExplanation": "Using the de Broglie formula for an accelerated electron: \u03bb_e = 12.27 / \u221aV \u00c5 = 12.27 / \u221a100 = 12.27 / 10 = 1.227 \u00c5 (0.1227 nm).",
+    "keyFormulae": [
+      "\u03bb_e = 12.27 / \u221aV \u00c5"
+    ],
+    "hints": [
+      "Use the accelerated electron shortcut formula \u03bb = 12.27 / \u221aV in Angstroms."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-atomic-004",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "Heisenberg Uncertainty Principle",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "A microscopic particle of mass m = 1.0 \u00d7 10\u207b\u00b2\u2078 kg has its position measured with an uncertainty \u0394x = 1.055 \u00d7 10\u207b\u00b9\u00b9 m. What is the minimum uncertainty in its velocity (\u0394v) as dictated by the Heisenberg Uncertainty Principle? (\u210f = 1.055 \u00d7 10\u207b\u00b3\u2074 J\u00b7s)",
+    "options": [
+      {
+        "id": "A",
+        "text": "\u0394v = 5.0 \u00d7 10\u2074 m/s",
+        "isCorrect": false,
+        "explanation": "Off by one order of magnitude."
+      },
+      {
+        "id": "B",
+        "text": "\u0394v = 5.0 \u00d7 10\u2075 m/s",
+        "isCorrect": true,
+        "explanation": "\u0394v = \u210f / (2 m \u0394x) = (1.055 \u00d7 10\u207b\u00b3\u2074) / [2 \u00d7 10\u207b\u00b2\u2078 \u00d7 1.055 \u00d7 10\u207b\u00b9\u00b9] = 1 / (2 \u00d7 10\u207b\u2075) = 5.0 \u00d7 10\u2075 m/s."
+      },
+      {
+        "id": "C",
+        "text": "\u0394v = 1.0 \u00d7 10\u2076 m/s",
+        "isCorrect": false,
+        "explanation": "Forgot factor of 2 in denominator."
+      },
+      {
+        "id": "D",
+        "text": "\u0394v = 3.0 \u00d7 10\u2078 m/s",
+        "isCorrect": false,
+        "explanation": "This is the speed of light."
+      }
+    ],
+    "solutionExplanation": "1. Heisenberg Uncertainty Principle: \u0394x \u00b7 \u0394p \u2265 \u210f / 2 \u2192 \u0394x \u00b7 (m \u0394v) \u2265 \u210f / 2.\n2. Solving for \u0394v_min:\n   \u0394v = \u210f / (2 m \u0394x) = (1.055 \u00d7 10\u207b\u00b3\u2074) / [2 \u00d7 (1.0 \u00d7 10\u207b\u00b2\u2078) \u00d7 (1.055 \u00d7 10\u207b\u00b9\u00b9)]\n   \u0394v = 1 / (2 \u00d7 10\u207b\u2075) = 5.0 \u00d7 10\u2075 m/s.",
+    "keyFormulae": [
+      "\u0394x \u00b7 (m \u0394v) \u2265 \u210f / 2"
+    ],
+    "hints": [
+      "Remember \u210f = h / (2\u03c0) so \u0394x \u00b7 \u0394p \u2265 \u210f / 2 = h / (4\u03c0)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-atomic-005",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "Orbital Nodes Analysis",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "How many total nodes (radial + angular), radial nodes, and angular nodal planes are present in a 4d_xz atomic orbital?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Total = 3; Radial = 1; Angular = 2",
+        "isCorrect": true,
+        "explanation": "For 4d_xz: n=4, l=2. Radial = 4-2-1 = 1; Angular = l = 2; Total = 4-1 = 3."
+      },
+      {
+        "id": "B",
+        "text": "Total = 4; Radial = 2; Angular = 2",
+        "isCorrect": false,
+        "explanation": "Total nodes cannot be 4 (Total = n-1 = 3)."
+      },
+      {
+        "id": "C",
+        "text": "Total = 3; Radial = 2; Angular = 1",
+        "isCorrect": false,
+        "explanation": "For d-orbital, angular nodes equal l=2, not 1."
+      },
+      {
+        "id": "D",
+        "text": "Total = 2; Radial = 0; Angular = 2",
+        "isCorrect": false,
+        "explanation": "Radial node is 4-2-1 = 1, not 0."
+      }
+    ],
+    "solutionExplanation": "For 4d_xz orbital: n = 4, l = 2.\n1. Angular Nodes = l = 2 (the xy and yz Cartesian planes).\n2. Radial Nodes = n - l - 1 = 4 - 2 - 1 = 1.\n3. Total Nodes = n - 1 = 4 - 1 = 3 (Radial + Angular = 1 + 2 = 3).",
+    "keyFormulae": [
+      "Radial Nodes = n - l - 1",
+      "Angular Nodes = l",
+      "Total Nodes = n - 1"
+    ],
+    "hints": [
+      "Use: Radial = n - l - 1, Angular = l, Total = n - 1."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-atomic-006",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "Orbital Angular Momentum",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the total orbital angular momentum (L) of an electron occupying a 3d orbital in a transition metal ion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "L = 0",
+        "isCorrect": false,
+        "explanation": "L = 0 is for s-orbitals (l = 0)."
+      },
+      {
+        "id": "B",
+        "text": "L = \u221a2 \u210f",
+        "isCorrect": false,
+        "explanation": "\u221a2 \u210f is for p-orbitals (l = 1)."
+      },
+      {
+        "id": "C",
+        "text": "L = \u221a6 \u210f",
+        "isCorrect": true,
+        "explanation": "For d-orbital, l = 2. L = \u221a(2(3)) \u210f = \u221a6 \u210f."
+      },
+      {
+        "id": "D",
+        "text": "L = \u221a12 \u210f",
+        "isCorrect": false,
+        "explanation": "\u221a12 \u210f is for f-orbitals (l = 3)."
+      }
+    ],
+    "solutionExplanation": "1. For any d-orbital, azimuthal quantum number l = 2.\n2. Orbital Angular Momentum formula: L = \u221a(l(l+1)) \u210f = \u221a(2(2+1)) \u210f = \u221a6 \u210f = \u221a6 (h / 2\u03c0). Note that L depends strictly on l and is independent of n.",
+    "keyFormulae": [
+      "L = \u221a(l(l+1)) \u210f"
+    ],
+    "hints": [
+      "Orbital angular momentum depends strictly on l: L = \u221a(l(l+1)) \u210f."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-atomic-007",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "Electronic Configuration & Magnetic Moment",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "An element X has the ground-state electronic configuration [Ar] 3d\u2075 4s\u00b9. What is the total number of unpaired electrons in a gaseous X\u00b3\u207a cation, and what is its magnetic moment (\u03bc_s) in Bohr Magnetons?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unpaired e\u207b = 3; \u03bc_s = \u221a15 \u2248 3.87 BM",
+        "isCorrect": true,
+        "explanation": "X is Cr (Z=24). Cr\u00b3\u207a loses 1 from 4s and 2 from 3d \u2192 [Ar] 3d\u00b3 (n=3 unpaired). \u03bc_s = \u221a(3\u00d75) = \u221a15 \u2248 3.87 BM."
+      },
+      {
+        "id": "B",
+        "text": "Unpaired e\u207b = 5; \u03bc_s = \u221a35 \u2248 5.92 BM",
+        "isCorrect": false,
+        "explanation": "5 unpaired electrons occurs for Fe\u00b3\u207a ([Ar] 3d\u2075), not Cr\u00b3\u207a."
+      },
+      {
+        "id": "C",
+        "text": "Unpaired e\u207b = 4; \u03bc_s = \u221a24 \u2248 4.90 BM",
+        "isCorrect": false,
+        "explanation": "4 unpaired electrons occurs for Cr\u00b2\u207a or Fe\u00b2\u207a."
+      },
+      {
+        "id": "D",
+        "text": "Unpaired e\u207b = 2; \u03bc_s = \u221a8 \u2248 2.83 BM",
+        "isCorrect": false,
+        "explanation": "2 unpaired electrons occurs for Ti\u00b2\u207a or Ni\u00b2\u207a."
+      }
+    ],
+    "solutionExplanation": "1. Neutral X is Chromium (Z=24): [Ar] 3d\u2075 4s\u00b9.\n2. Forming X\u00b3\u207a (Cr\u00b3\u207a): 4s electron is lost first (1 e\u207b), followed by 2 electrons from 3d: Cr\u00b3\u207a = [Ar] 3d\u00b3 4s\u2070.\n3. Total unpaired electrons n = 3.\n4. Spin-only magnetic moment: \u03bc_s = \u221a(n(n+2)) BM = \u221a(3(3+2)) = \u221a15 \u2248 3.87 BM.",
+    "keyFormulae": [
+      "\u03bc_s = \u221a(n(n+2)) BM"
+    ],
+    "hints": [
+      "Remember 4s electrons are removed before 3d electrons during cation formation."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-atomic-008",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "Bohr Orbit Radius Ratios",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the ratio of the radius of the n=3 orbit of Li\u00b2\u207a to the radius of the n=2 orbit of He\u207a?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 : 2",
+        "isCorrect": true,
+        "explanation": "r(Li\u00b2\u207a, n=3) = a\u2080 (3\u00b2/3) = 3a\u2080; r(He\u207a, n=2) = a\u2080 (2\u00b2/2) = 2a\u2080. Ratio = 3 : 2."
+      },
+      {
+        "id": "B",
+        "text": "9 : 4",
+        "isCorrect": false,
+        "explanation": "9 : 4 is n\u2081\u00b2 : n\u2082\u00b2 without dividing by Z."
+      },
+      {
+        "id": "C",
+        "text": "3 : 4",
+        "isCorrect": false,
+        "explanation": "Incorrect inversion of Z."
+      },
+      {
+        "id": "D",
+        "text": "1 : 1",
+        "isCorrect": false,
+        "explanation": "Radii are unequal."
+      }
+    ],
+    "solutionExplanation": "1. Bohr radius formula: r_n \u221d n\u00b2 / Z.\n2. For Li\u00b2\u207a (Z = 3, n = 3): r\u2081 = a\u2080 \u00b7 (3\u00b2 / 3) = 3 a\u2080.\n3. For He\u207a (Z = 2, n = 2): r\u2082 = a\u2080 \u00b7 (2\u00b2 / 2) = 2 a\u2080.\n4. Ratio = r\u2081 / r\u2082 = 3a\u2080 / 2a\u2080 = 3 : 2.",
+    "keyFormulae": [
+      "r_n = a\u2080 (n\u00b2 / Z)"
+    ],
+    "hints": [
+      "Use r_n \u221d n\u00b2 / Z for both ions and calculate the ratio."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-atomic-009",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "Exchange Energy Calculations",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Calculate the total exchange energy (E_ex) released in terms of exchange constant K for a ground-state Manganese ion Mn\u00b2\u207a (Z=25, 3d\u2075 subshell) containing 5 parallel-spin d-electrons.",
+    "options": [
+      {
+        "id": "A",
+        "text": "5K",
+        "isCorrect": false,
+        "explanation": "5 is the electron count, not exchange pairs."
+      },
+      {
+        "id": "B",
+        "text": "10K",
+        "isCorrect": true,
+        "explanation": "Exchange pairs = n(n-1)/2 = 5(4)/2 = 10. E_ex = 10K."
+      },
+      {
+        "id": "C",
+        "text": "15K",
+        "isCorrect": false,
+        "explanation": "15K is 6(5)/2 (for 6 parallel spins)."
+      },
+      {
+        "id": "D",
+        "text": "20K",
+        "isCorrect": false,
+        "explanation": "20K is for d\u00b9\u2070 configuration (two sets of 10K)."
+      }
+    ],
+    "solutionExplanation": "1. Total possible exchange pairs among n electrons with parallel spin: Exchange Pairs = n(n-1)/2.\n2. For Mn\u00b2\u207a (3d\u2075), all 5 electrons have parallel spins (m_s = +1/2):\n   Exchange Pairs = 5(5-1) / 2 = 5 \u00d7 4 / 2 = 10.\n3. Total Exchange Energy = 10K.",
+    "keyFormulae": [
+      "E_ex = [n(n-1)/2] \u00b7 K"
+    ],
+    "hints": [
+      "Use the combination formula \u207fC\u2082 = n(n-1)/2 for n parallel-spin electrons."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-atomic-010",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "Rutherford Closest Approach",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "An alpha particle (\u2074\u2082He\u00b2\u207a, m = 6.64 \u00d7 10\u207b\u00b2\u2077 kg) is accelerated toward a stationary Gold nucleus (\u00b9\u2079\u2077\u2087\u2089Au) with a kinetic energy E_k = 5.0 MeV = 8.0 \u00d7 10\u207b\u00b9\u00b3 J. What is the distance of closest approach (r\u2080)? (1/4\u03c0\u03b5\u2080 = 8.988 \u00d7 10\u2079 N\u00b7m\u00b2/C\u00b2, e = 1.602 \u00d7 10\u207b\u00b9\u2079 C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "4.55 \u00d7 10\u207b\u00b9\u2074 m (45.5 fm)",
+        "isCorrect": true,
+        "explanation": "r\u2080 = (8.988 \u00d7 10\u2079) \u00d7 [2 \u00d7 79 \u00d7 (1.602 \u00d7 10\u207b\u00b9\u2079)\u00b2] / (8.0 \u00d7 10\u207b\u00b9\u00b3) = 4.55 \u00d7 10\u207b\u00b9\u2074 m."
+      },
+      {
+        "id": "B",
+        "text": "2.27 \u00d7 10\u207b\u00b9\u2074 m (22.7 fm)",
+        "isCorrect": false,
+        "explanation": "Forgot factor of 2 for alpha charge (2e)."
+      },
+      {
+        "id": "C",
+        "text": "1.12 \u00d7 10\u207b\u00b9\u2075 m (1.12 fm)",
+        "isCorrect": false,
+        "explanation": "Order of magnitude error."
+      },
+      {
+        "id": "D",
+        "text": "9.10 \u00d7 10\u207b\u00b9\u00b3 m (910 fm)",
+        "isCorrect": false,
+        "explanation": "Incorrect kinetic energy conversion."
+      }
+    ],
+    "solutionExplanation": "1. Equating alpha kinetic energy to electrostatic potential at reversal:\n   r\u2080 = (1/4\u03c0\u03b5\u2080) \u00b7 [2 Z e\u00b2 / E_k]\n2. Substitute Z = 79 (Gold), e = 1.602 \u00d7 10\u207b\u00b9\u2079 C, E_k = 8.0 \u00d7 10\u207b\u00b9\u00b3 J:\n   r\u2080 = (8.988 \u00d7 10\u2079) \u00d7 [2 \u00d7 79 \u00d7 (1.602 \u00d7 10\u207b\u00b9\u2079)\u00b2] / (8.0 \u00d7 10\u207b\u00b9\u00b3)\n   r\u2080 = (8.988 \u00d7 10\u2079) \u00d7 [158 \u00d7 2.566 \u00d7 10\u207b\u00b3\u2078] / (8.0 \u00d7 10\u207b\u00b9\u00b3)\n   r\u2080 = (8.988 \u00d7 10\u2079) \u00d7 (5.068 \u00d7 10\u207b\u00b2\u2074) = 4.55 \u00d7 10\u207b\u00b9\u2074 m = 45.5 fm.",
+    "keyFormulae": [
+      "r\u2080 = (1 / 4\u03c0\u03b5\u2080) \u00b7 (2Ze\u00b2 / E_k)"
+    ],
+    "hints": [
+      "Alpha particle has charge 2e, and Gold has atomic number Z = 79."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-atomic-011",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "Quantum Numbers Validity",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following sets of Quantum Numbers (n, l, m_l, m_s) represent VALID, physically allowed atomic orbital states for an electron in an atom? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "n = 3, l = 2, m_l = -2, m_s = +1/2",
+        "isCorrect": true,
+        "explanation": "Valid 3d orbital electron state (l < n, |m_l| \u2264 l)."
+      },
+      {
+        "id": "B",
+        "text": "n = 2, l = 2, m_l = 0, m_s = -1/2",
+        "isCorrect": false,
+        "explanation": "Invalid: for n=2, l can only be 0 or 1. l=2 (2d) is forbidden."
+      },
+      {
+        "id": "C",
+        "text": "n = 4, l = 0, m_l = 0, m_s = -1/2",
+        "isCorrect": true,
+        "explanation": "Valid 4s orbital electron state."
+      },
+      {
+        "id": "D",
+        "text": "n = 1, l = 0, m_l = +1, m_s = +1/2",
+        "isCorrect": false,
+        "explanation": "Invalid: for l=0 (s-orbital), m_l MUST be 0. m_l = +1 is forbidden."
+      }
+    ],
+    "solutionExplanation": "\u2022 A is valid: n=3, l=2 (3d), m_l=-2, m_s=+1/2 satisfies all constraints.\n\u2022 B is INVALID: For n=2, maximum allowed l is (n-1) = 1. l=2 is impossible.\n\u2022 C is valid: n=4, l=0 (4s), m_l=0, m_s=-1/2 satisfies all constraints.\n\u2022 D is INVALID: For l=0, allowed m_l values are -l... +l = 0. m_l = +1 is impossible.",
+    "keyFormulae": [
+      "0 \u2264 l \u2264 n-1",
+      "-l \u2264 m_l \u2264 +l",
+      "m_s = \u00b11/2"
+    ],
+    "hints": [
+      "Check constraints: l < n, -l \u2264 m_l \u2264 +l, and m_s = \u00b11/2."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-atomic-012",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "Photoelectric Laws",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding the Photoelectric Effect: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Photoelectric emission occurs instantaneously when light frequency \u03bd \u2265 \u03bd\u2080",
+        "isCorrect": true,
+        "explanation": "Ejection delay is < 10\u207b\u2079 seconds."
+      },
+      {
+        "id": "B",
+        "text": "The maximum kinetic energy (K_max) of photoelectrons increases linearly with light frequency \u03bd",
+        "isCorrect": true,
+        "explanation": "K_max = h\u03bd - \u03a6 = h(\u03bd - \u03bd\u2080) is strictly linear with slope h."
+      },
+      {
+        "id": "C",
+        "text": "Increasing light intensity at constant frequency increases the photocurrent, but leaves K_max unchanged",
+        "isCorrect": true,
+        "explanation": "Intensity increases photon flux (ejected electrons/sec), but single-photon energy remains constant."
+      },
+      {
+        "id": "D",
+        "text": "Stopping potential V_s is inversely proportional to light intensity",
+        "isCorrect": false,
+        "explanation": "Stopping potential eV_s = h\u03bd - \u03a6 depends strictly on frequency, independent of intensity."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct statements of Einstein's photoelectric theory.\n\u2022 D is incorrect because stopping potential V_s = (h\u03bd - \u03a6)/e is independent of light intensity.",
+    "keyFormulae": [
+      "K_max = h\u03bd - \u03a6",
+      "e V_s = K_max",
+      "Photocurrent \u221d Intensity"
+    ],
+    "hints": [
+      "Distinguish the effect of light frequency (affects kinetic energy) from light intensity (affects electron count)."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-atomic-013",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "Hydrogen Spectral Series",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following hydrogen spectral emission transitions belong strictly to the VISIBLE region of the electromagnetic spectrum? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "n\u2082 = 3 \u2192 n\u2081 = 2 (H_\u03b1 line of Balmer series, 656 nm)",
+        "isCorrect": true,
+        "explanation": "Red visible line (656.3 nm)."
+      },
+      {
+        "id": "B",
+        "text": "n\u2082 = 4 \u2192 n\u2081 = 2 (H_\u03b2 line of Balmer series, 486 nm)",
+        "isCorrect": true,
+        "explanation": "Blue-green visible line (486.1 nm)."
+      },
+      {
+        "id": "C",
+        "text": "n\u2082 = 2 \u2192 n\u2081 = 1 (Lyman series first line, 121.6 nm)",
+        "isCorrect": false,
+        "explanation": "Lyman series lies strictly in the Ultraviolet (UV) spectrum (121.6 nm)."
+      },
+      {
+        "id": "D",
+        "text": "n\u2082 = 5 \u2192 n\u2081 = 2 (H_\u03b3 line of Balmer series, 434 nm)",
+        "isCorrect": true,
+        "explanation": "Violet visible line (434.0 nm)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, D belong to the Balmer series (n\u2081 = 2) for transitions from n\u2082 = 3, 4, 5, 6, which fall in the visible range (400\u2013700 nm).\n\u2022 C belongs to the Lyman series (n\u2081 = 1), which is in the Ultraviolet (UV) region (121.6 nm).",
+    "keyFormulae": [
+      "Balmer Series: n\u2081 = 2, n\u2082 = 3,4,5,6 (Visible)",
+      "Lyman Series: n\u2081 = 1 (UV)"
+    ],
+    "hints": [
+      "Balmer series (n\u2081 = 2) is the only series with visible lines in atomic hydrogen."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-atomic-014",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "d-Orbital Shapes & Nodal Surfaces",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding the shapes and nodal surfaces of d-orbitals: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The 3d_xy, 3d_yz, and 3d_zx orbitals have cloverleaf shapes with lobes lying between the Cartesian axes",
+        "isCorrect": true,
+        "explanation": "Non-axial d-orbitals have lobes pointing between coordinate axes at 45\u00b0."
+      },
+      {
+        "id": "B",
+        "text": "The 3d_x\u00b2-y\u00b2 orbital has 4 lobes lying directly along the x and y axes",
+        "isCorrect": true,
+        "explanation": "Axial d-orbital with lobes aligned on x and y axes."
+      },
+      {
+        "id": "C",
+        "text": "The 3d_z\u00b2 orbital possesses two planar nodal surfaces passing through the origin",
+        "isCorrect": false,
+        "explanation": "3d_z\u00b2 possesses ZERO planar nodal surfaces; it has two conical nodal surfaces at \u03b8 = 54.74\u00b0."
+      },
+      {
+        "id": "D",
+        "text": "All 3d orbitals possess 2 angular nodes (l = 2)",
+        "isCorrect": true,
+        "explanation": "Angular nodes equal l = 2 for all d-orbitals."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, D are correct: d_xy, d_yz, d_zx lie between axes; d_x\u00b2-y\u00b2 lies along x and y axes; all d-orbitals (l=2) have exactly 2 angular nodes.\n\u2022 C is incorrect: 3d_z\u00b2 has zero planar nodal planes; its 2 angular nodes are conical nodal surfaces at angle \u03b8 = 54.74\u00b0.",
+    "keyFormulae": [
+      "Angular Nodes = l = 2 for d-orbitals"
+    ],
+    "hints": [
+      "Remember 3d_z\u00b2 is unique with a torus/doughnut and two conical nodal surfaces."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-atomic-015",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "Anomalous Electronic Configurations",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following ground-state transition metal atoms/ions possess an anomalous electronic configuration differing from standard (n+l) Aufbau predictions? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chromium (Cr, Z=24): [Ar] 3d\u2075 4s\u00b9",
+        "isCorrect": true,
+        "explanation": "Half-filled d\u2075 stabilization (10K exchange energy)."
+      },
+      {
+        "id": "B",
+        "text": "Copper (Cu, Z=29): [Ar] 3d\u00b9\u2070 4s\u00b9",
+        "isCorrect": true,
+        "explanation": "Fully-filled d\u00b9\u2070 stabilization (20K exchange energy)."
+      },
+      {
+        "id": "C",
+        "text": "Palladium (Pd, Z=46): [Kr] 4d\u00b9\u2070 5s\u2070",
+        "isCorrect": true,
+        "explanation": "Double s\u2192d transfer yielding closed-shell 4d\u00b9\u2070."
+      },
+      {
+        "id": "D",
+        "text": "Zinc (Zn, Z=30): [Ar] 3d\u00b9\u2070 4s\u00b2",
+        "isCorrect": false,
+        "explanation": "Zn follows standard Aufbau rules normally."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are anomalous configurations driven by half-filled / fully-filled d-subshell exchange stability.\n\u2022 D is standard: Zn (Z=30) follows normal Aufbau filling ([Ar] 3d\u00b9\u2070 4s\u00b2).",
+    "keyFormulae": [
+      "Cr: [Ar] 3d\u2075 4s\u00b9",
+      "Cu: [Ar] 3d\u00b9\u2070 4s\u00b9",
+      "Pd: [Kr] 4d\u00b9\u2070 5s\u2070"
+    ],
+    "hints": [
+      "Look for elements with half-filled or fully-filled d-subshells that deviate from [Noble] (n-1)d^x ns\u00b2."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-atomic-016",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "Heisenberg Uncertainty Principle",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding the Heisenberg Uncertainty Principle: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is expressed mathematically as \u0394x \u00b7 \u0394p_x \u2265 h / 4\u03c0",
+        "isCorrect": true,
+        "explanation": "Standard position-momentum uncertainty relation."
+      },
+      {
+        "id": "B",
+        "text": "It proves that electrons cannot exist inside an atomic nucleus because \u0394v would exceed the speed of light",
+        "isCorrect": true,
+        "explanation": "Confinement in 10\u207b\u00b9\u2074 m requires \u0394v \u2248 5.7 \u00d7 10\u00b9\u2070 m/s > c."
+      },
+      {
+        "id": "C",
+        "text": "It applies to both subatomic particles and macroscopic objects, but is physically significant only for subatomic masses",
+        "isCorrect": true,
+        "explanation": "For heavy masses, \u0394x\u00b7\u0394v is negligibly tiny (~10\u207b\u00b3\u2075 m\u00b2/s)."
+      },
+      {
+        "id": "D",
+        "text": "It allows precise simultaneous measurement of both position and momentum if high-intensity lasers are used",
+        "isCorrect": false,
+        "explanation": "HUP is a fundamental quantum wave limit, NOT an instrumentation defect."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct statements of the Heisenberg Uncertainty Principle.\n\u2022 D is incorrect because uncertainty is an intrinsic wave-particle property of matter, not an experimental measurement limitation.",
+    "keyFormulae": [
+      "\u0394x \u00b7 \u0394p_x \u2265 \u210f / 2 = h / 4\u03c0"
+    ],
+    "hints": [
+      "Heisenberg principle is a fundamental wave-mechanical constraint, not a tool limitation."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-atomic-017",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "Isoelectronic Species",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following chemical species are ISOELECTRONIC with each other (possessing exactly 10 electrons)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oxide ion (O\u00b2\u207b)",
+        "isCorrect": true,
+        "explanation": "8 + 2 = 10 electrons."
+      },
+      {
+        "id": "B",
+        "text": "Sodium cation (Na\u207a)",
+        "isCorrect": true,
+        "explanation": "11 - 1 = 10 electrons."
+      },
+      {
+        "id": "C",
+        "text": "Nitride ion (N\u00b3\u207b)",
+        "isCorrect": true,
+        "explanation": "7 + 3 = 10 electrons."
+      },
+      {
+        "id": "D",
+        "text": "Neon atom (Ne)",
+        "isCorrect": true,
+        "explanation": "Atomic number 10 = 10 electrons."
+      }
+    ],
+    "solutionExplanation": "All four species contain exactly 10 electrons:\n\u2022 O\u00b2\u207b = 8 + 2 = 10 e\u207b\n\u2022 Na\u207a = 11 - 1 = 10 e\u207b\n\u2022 N\u00b3\u207b = 7 + 3 = 10 e\u207b\n\u2022 Ne = 10 e\u207b.",
+    "keyFormulae": [
+      "Total e\u207b = Z - (Charge)"
+    ],
+    "hints": [
+      "Add electrons for anions and subtract for cations."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-atomic-018",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "Wavefunction & Probability Density",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding the Wavefunction \u03c8 and Probability Density \u03c8\u00b2: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "\u03c8 is the probability amplitude and can take both positive and negative mathematical values",
+        "isCorrect": true,
+        "explanation": "\u03c8 has wave crests (+) and troughs (-)."
+      },
+      {
+        "id": "B",
+        "text": "\u03c8\u00b2 represents the probability density of finding an electron per unit volume at a given spatial point (x,y,z)",
+        "isCorrect": true,
+        "explanation": "Born interpretation of quantum mechanics."
+      },
+      {
+        "id": "C",
+        "text": "\u03c8\u00b2 is always real and non-negative (\u03c8\u00b2 \u2265 0)",
+        "isCorrect": true,
+        "explanation": "Square of amplitude is always non-negative."
+      },
+      {
+        "id": "D",
+        "text": "Nodes are spatial regions where \u03c8\u00b2 = 0",
+        "isCorrect": true,
+        "explanation": "Nodal definition: zero electron probability density."
+      }
+    ],
+    "solutionExplanation": "All four statements accurately describe the physical interpretation of the Schr\u00f6dinger wavefunction (Born interpretation).",
+    "keyFormulae": [
+      "P = \u222b |\u03c8|\u00b2 dV = 1 (Normalization)",
+      "Nodes: \u03c8\u00b2 = 0"
+    ],
+    "hints": [
+      "Remember \u03c8 is amplitude (can be negative), whereas \u03c8\u00b2 is probability density (must be non-negative)."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-atomic-019",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "Bohr Model Energy Relations",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following statements regarding Bohr's atomic model parameters are TRUE? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Total energy E_n is negative, indicating the electron is bound to the nucleus",
+        "isCorrect": true,
+        "explanation": "E_n = -13.6 Z\u00b2/n\u00b2 eV < 0 indicates attractive bound state."
+      },
+      {
+        "id": "B",
+        "text": "Potential energy U_n is equal to twice the total energy (U_n = 2 E_n)",
+        "isCorrect": true,
+        "explanation": "U_n = -27.2 Z\u00b2/n\u00b2 eV = 2 E_n (Virial theorem)."
+      },
+      {
+        "id": "C",
+        "text": "Kinetic energy K_n is equal to the negative of total energy (K_n = -E_n)",
+        "isCorrect": true,
+        "explanation": "K_n = +13.6 Z\u00b2/n\u00b2 eV = -E_n."
+      },
+      {
+        "id": "D",
+        "text": "Electron velocity v_n is directly proportional to principal quantum number n",
+        "isCorrect": false,
+        "explanation": "v_n = 2.188 \u00d7 10\u2076 \u00b7 (Z / n) m/s is inversely proportional to n."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are true energy relations in Coulombic bound orbits (E_n = -K_n = U_n / 2).\n\u2022 D is false because electron velocity v_n \u221d Z / n is inversely proportional to n (electrons move slower in higher orbits).",
+    "keyFormulae": [
+      "E_n = -K_n = U_n / 2",
+      "v_n \u221d Z / n"
+    ],
+    "hints": [
+      "Apply the virial theorem for 1/r potential: 2<K> + <U> = 0."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-atomic-020",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Structure of Atom",
+    "subtopic": "de Broglie Matter Waves",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding de Broglie matter waves: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The de Broglie wavelength is inversely proportional to momentum (\u03bb = h / p)",
+        "isCorrect": true,
+        "explanation": "Fundamental de Broglie relation \u03bb = h/p."
+      },
+      {
+        "id": "B",
+        "text": "According to de Broglie, a Bohr circular orbit contains an integral number of electron wavelengths (2\u03c0r = n\u03bb)",
+        "isCorrect": true,
+        "explanation": "Standing wave condition reproduces angular momentum quantization mvr = n\u210f."
+      },
+      {
+        "id": "C",
+        "text": "Microscopic fast-moving electrons display observable wave diffraction patterns (Davisson-Germer experiment)",
+        "isCorrect": true,
+        "explanation": "Diffraction of electrons off Nickel crystal confirmed de Broglie hypothesis."
+      },
+      {
+        "id": "D",
+        "text": "Macroscopic heavy objects have extremely large de Broglie wavelengths that dominate daily human movement",
+        "isCorrect": false,
+        "explanation": "Macroscopic objects have large masses, producing unimaginably tiny de Broglie wavelengths (~10\u207b\u00b3\u2075 m) with zero observable wave effects."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct statements regarding de Broglie matter-wave theory and its experimental validation (Davisson-Germer).\n\u2022 D is incorrect: because Planck's constant h is extremely small (~10\u207b\u00b3\u2074), macroscopic masses (m \u2248 1\u2013100 kg) produce undetectable wavelengths (~10\u207b\u00b3\u2075 m).",
+    "keyFormulae": [
+      "\u03bb = h / p",
+      "2\u03c0r = n\u03bb"
+    ],
+    "hints": [
+      "Evaluate how large mass affects de Broglie wavelength via \u03bb = h / (mv)."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

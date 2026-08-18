@@ -1,0 +1,59 @@
+{
+  "id": "chem-xii-u10-c1-l03",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit X \u2014 Solutions",
+  "unitNumber": 10,
+  "chapter": "Solutions",
+  "chapterNumber": 1,
+  "chapterSlug": "solutions",
+  "slug": "lesson-03-raoults-law-vapour-pressure-dalton-coupling",
+  "title": "Raoult\u2019s Law & Vapour-Phase Equilibrium",
+  "topic": "Raoult's Law & Vapour Pressure",
+  "topics": [
+    "Raoult's Law for Volatile Binary Mixtures (p_A = p\u00b0_A \u00b7 x_A, p_B = p\u00b0_B \u00b7 x_B)",
+    "Total Vapor Pressure Equation (P_total = p\u00b0_A + (p\u00b0_B - p\u00b0_A)x_B)",
+    "Vapour-Phase Mole Fractions (y_A = p_A / P_total, y_B = p_B / P_total)",
+    "Dalton-Raoult Harmonic Relation (1 / P_total = y_A / p\u00b0_A + y_B / p\u00b0_B)"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "solutions",
+  "quickSummary": "Raoult's law: p_A = p\u00b0_A \u00b7 x_A, P_total = p_A + p_B. Vapour phase composition: y_A = p_A / P_total. Dalton-Raoult harmonic relation: 1/P_total = y_A/p\u00b0_A + y_B/p\u00b0_B.",
+  "summary": "Master Raoult's Law for volatile liquids, vapor pressure diagrams, and vapor-phase Dalton calculations.",
+  "conceptBreakdown": [
+    {
+      "heading": "3.1 Raoult's Law Equations & Phase Diagram",
+      "title": "3.1 Raoult's Law Equations & Phase Diagram",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Raoult's Law",
+        "takeaway": "p_A = p\u00b0_A \u00b7 x_A; p_B = p\u00b0_B \u00b7 x_B; P_total = p\u00b0_A + (p\u00b0_B - p\u00b0_A)x_B. Linear variation with liquid mole fraction."
+      },
+      "codeSnippet": "RAOULT'S LAW VAPOUR PRESSURE EQUATION\n\nP_total = p_A + p_B = p\u00b0_A x_A + p\u00b0_B x_B = p\u00b0_A + (p\u00b0_B - p\u00b0_A) x_B",
+      "content": "For a solution of two volatile liquids A and B, the partial vapor pressure of each component is proportional to its mole fraction in liquid solution:\n$$p_A = p_A^\\circ x_A \\quad \\text{and} \\quad p_B = p_B^\\circ x_B$$\n$$\\mathbf{P_{\\text{total}} = p_A^\\circ x_A + p_B^\\circ x_B = p_A^\\circ + (p_B^\\circ - p_A^\\circ) x_B}$$"
+    },
+    {
+      "heading": "3.2 Vapour Phase Mole Fractions & Harmonic Relation",
+      "title": "3.2 Vapour Phase Mole Fractions & Harmonic Relation",
+      "type": "paragraph",
+      "codeSnippet": "VAPOUR PHASE COMPOSITION (DALTON'S LAW)\n\n\u2022 y_A = p_A / P_total = (p\u00b0_A x_A) / P_total\n\u2022 y_B = p_B / P_total = (p\u00b0_B x_B) / P_total\n\n\u2022 Dalton-Raoult Harmonic Relation:\n  1 / P_total = y_A / p\u00b0_A + y_B / p\u00b0_B",
+      "content": "\u2022 **Vapor Phase Mole Fractions ($y_A, y_B$)**: By Dalton's law of partial pressures, $p_A = y_A P_{\\text{total}} \\implies y_A = \\frac{p_A^\\circ x_A}{P_{\\text{total}}}$.\n\u2022 The more volatile component (higher $p^\\circ$) is always enriched in the vapor phase ($y_A > x_A$ if $p_A^\\circ > p_B^\\circ$)."
+    }
+  ],
+  "quickRevision": [
+    "P_total = p\u00b0_A x_A + p\u00b0_B x_B.",
+    "y_A = (p\u00b0_A x_A) / P_total.",
+    "1/P_total = y_A/p\u00b0_A + y_B/p\u00b0_B.",
+    "Vapor is richer in the more volatile component."
+  ],
+  "keyFormulae": [
+    "P_{\\text{total}} = p_A^\\circ x_A + p_B^\\circ x_B",
+    "y_A = \\frac{p_A^\\circ x_A}{P_{\\text{total}}}, \\quad \\frac{1}{P_{\\text{total}}} = \\frac{y_A}{p_A^\\circ} + \\frac{y_B}{p_B^\\circ}"
+  ]
+}

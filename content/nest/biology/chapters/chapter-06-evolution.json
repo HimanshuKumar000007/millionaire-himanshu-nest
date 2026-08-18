@@ -1,0 +1,158 @@
+{
+  "id": "bio-xii-u7-c6",
+  "chapterNumber": 6,
+  "chapterTitle": "Evolution",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unitNumber": 7,
+  "unitTitle": "Genetics and Evolution",
+  "slug": "evolution",
+  "estimatedReadingTimeMinutes": 165,
+  "difficulty": "High-Yield",
+  "status": "published",
+  "summary": "Comprehensive overview of Evolutionary Biology: Origin of life and the Miller-Urey experiment (1953), Evidences for evolution (Homology vs Analogy, Divergent vs Convergent Evolution, Paleontology and Archaeopteryx), Embryological evidence and Karl Ernst von Baer's disproof of Haeckel's Biogenetic Law, Adaptive radiation in Darwin's finches and Australian marsupials with placental convergent analogues, Evolutionary theories (Lamarckism, Darwinism, De Vries Saltation), Natural selection mechanics (Stabilizing, Directional, Disruptive) and Industrial Melanism, Population genetics and Hardy-Weinberg equilibrium (p + q = 1, p^2 + 2pq + q^2 = 1), Evolutionary forces (Genetic Drift, Founder & Bottleneck Effects, Gene Flow), Geological time scale (Eras, living fossil Coelacanth, dinosaur extinction ~65 mya), and Chronological human evolution (Australopithecus, Homo habilis, Homo erectus, Neanderthals, Homo sapiens).",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "id": "sec-06-01",
+      "title": "Origin of Life: Chemical Evolution & The Miller-Urey Experiment",
+      "topic": "Abiogenesis vs Biogenesis, Oparin-Haldane Hypothesis, & Spark Discharge Synthesis",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Earth formed ~4.5 bya with a reducing atmosphere. Oparin-Haldane proposed chemical evolution. Miller-Urey (1953) simulated primordial Earth (800°C spark, CH4:NH3:H2:H2O = 2:2:1:2) synthesizing amino acids. First cellular life ~2.0 bya."
+      },
+      "codeSnippet": "PRIMORDIAL EARTH CONDITIONS\n                                      │\n  No Free Oxygen (O₂ ABSENT) ──► Reducing Atmosphere (CH₄, NH₃, H₂O vapor, H₂)\n                                      │\n  High Temperature + UV Radiation + Lightning ──► Chemical Evolution (Abiogenesis)",
+      "content": "### 1.1 Origin of Life\n- **Reducing Primordial Earth**: No free $O_2$, rich in $CH_4, NH_3, H_2, H_2O$.\n- **Miller-Urey (1953)**: $800^\\circ\\text{C}$ spark discharge produced amino acids (Glycine, Alanine, Aspartic Acid).\n- **Protobionts**: Coacervates (Oparin) and Microspheres (Fox); first cells $\\approx 2.0\\text{ billion years ago}$."
+    },
+    {
+      "sectionNumber": 2,
+      "id": "sec-06-02",
+      "title": "Evidences for Evolution: Homology, Analogy, & Paleontology",
+      "topic": "Homologous vs Analogous Organs, Divergent vs Convergent Evolution, & Archaeopteryx",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Homologous organs (same origin, different function) indicate Divergent Evolution. Analogous organs (different origin, similar function) indicate Convergent Evolution. Archaeopteryx connecting link exhibits reptilian and avian traits."
+      },
+      "codeSnippet": "EVOLUTIONARY PATTERNS COMPARISON\n                      \n   HOMOLOGOUS STRUCTURES                      ANALOGOUS STRUCTURES\n   (Divergent Evolution)                      (Convergent Evolution)\n   \n        Common Ancestor                            Different Ancestors\n             │                                              │\n      ┌──────┴──────┐                                ┌──────┴──────┐\n      ▼             ▼                                ▼             ▼\n   Adaptation A  Adaptation B                     Function X    Function X\n  (Whale Flipper) (Bat Wing)                     (Bird Wing)   (Insect Wing)",
+      "content": "### 2.1 Comparative Anatomy & Fossils\n- **Homology**: Common ancestry and divergent evolution (human/cheetah/whale/bat forelimbs; *Bougainvillea* thorns and *Cucurbita* tendrils).\n- **Analogy**: Convergent adaptation (bird/butterfly wings; octopus/mammal eyes).\n- **Archaeopteryx**: Connecting link between reptiles and birds."
+    },
+    {
+      "sectionNumber": 3,
+      "id": "sec-06-03",
+      "title": "Embryological Evidence & Von Baer's Law",
+      "topic": "Haeckel's Biogenetic Law vs Karl Ernst von Baer's Disproof",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Ernst Haeckel proposed 'Ontogeny Recapitulates Phylogeny'. Karl Ernst von Baer (1828) debunked this, proving embryos pass through stages resembling ancestral embryos, but never adult forms."
+      },
+      "codeSnippet": "VON BAER'S LAW vs HAECKEL'S BIOGENETIC LAW\n                      \n   HAECKEL'S CLAIM (Debunked) ──► \"Ontogeny Recapitulates Phylogeny\"\n                                   (Embryo passes through adult ancestral forms)\n                                         │\n   VON BAER'S LAW (Scientific)──► Embryos pass through stages resembling the EMBRYOS\n                                   of ancestors, but NEVER pass through adult stages.",
+      "content": "### 3.1 Embryology & Von Baer\n- **Biogenetic Law Refuted**: Haeckel claimed ontogeny repeats adult phylogeny.\n- **Von Baer's Law**: Embryos resemble ancestral *embryos*, never passing through adult stages of other animals."
+    },
+    {
+      "sectionNumber": 4,
+      "id": "sec-06-04",
+      "title": "Adaptive Radiation & Convergent Analogues",
+      "topic": "Darwin's Finches, Australian Marsupials, & Marsupial-Placental Pairs",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Adaptive Radiation: rapid diversification of a single ancestor into multiple ecological forms (Darwin's Finches in Galapagos, Australian Marsupials). Convergent evolution across isolated continents produces convergent analogues."
+      },
+      "codeSnippet": "ADAPTIVE RADIATION EXAMPLES\n                                       │\n         ┌─────────────────────────────┴─────────────────────────────┐\n         ▼                                                           ▼\n  DARWIN'S FINCHES (Galapagos Islands)                       AUSTRALIAN MARSUPIALS\n  Original seed-eating ancestral finch radiated into         Divergence of ancestral marsupials into\n  insectivorous, vegetarian, and cactus-eating species.      Kangaroo, Koala, Bandicoot, and Tasmanian Wolf.",
+      "content": "### 4.1 Adaptive Radiation\n- **Darwin's Finches**: Galapagos finch beaks diversified from seed-eating ancestral finch.\n- **Marsupial vs Placental Convergence**: Tasmanian Wolf $\\leftrightarrow$ Placental Wolf; Flying Phalanger $\\leftrightarrow$ Flying Squirrel."
+    },
+    {
+      "sectionNumber": 5,
+      "id": "sec-06-05",
+      "title": "Evolutionary Theories: Lamarckism, Darwinism, & De Vries",
+      "topic": "Inheritance of Acquired Characters, Natural Selection, & Saltation Mutation Theory",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Lamarck: acquired characters (debunked by Weismann's 22-gen tail clipping). Darwin: natural selection on small continuous variations. De Vries: single-step large random mutations (Saltation)."
+      },
+      "codeSnippet": "EVOLUTIONARY THEORIES\n                                     │\n     ┌───────────────────────────────┼───────────────────────────────┐\n     ▼                               ▼                               ▼\n  LAMARCKISM                      DARWINISM                       DE VRIES MUTATION\n  (1809 - Inheritance of          (1859 - Natural Selection)      (1901 - Saltation)\n   Acquired Characters)           ├── Overproduction & Struggle   ├── Single-step large mutation\n  └── Disproven by Weismann       └── Survival of Fittest (Gradual)└── Random and directionless",
+      "content": "### 5.1 Evolutionary Theories\n- **Lamarckism**: Disproven by August Weismann's Germplasm Theory.\n- **Darwinism**: Natural selection, struggle for existence, gradualism.\n- **De Vries**: Mutation theory (*Oenothera*), Saltation."
+    },
+    {
+      "sectionNumber": 6,
+      "id": "sec-06-06",
+      "title": "Natural Selection Mechanics & Industrial Melanism",
+      "topic": "Stabilizing, Directional, & Disruptive Selection, Biston betularia, & Anthropogenic Selection",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Modes of selection: Stabilizing (favors mean, e.g. human birth weight), Directional (shifts peak toward one extreme, e.g. Biston betularia, antibiotic resistance), Disruptive (favors both extremes, bimodal curve)."
+      },
+      "codeSnippet": "TYPES OF NATURAL SELECTION\n                                     │\n     ┌───────────────────────────────┼───────────────────────────────┐\n     ▼                               ▼                               ▼\nSTABILIZING SELECTION           DIRECTIONAL SELECTION           DISRUPTIVE SELECTION\nFavors intermediate mean        Favors ONE extreme              Favors BOTH extremes\nphenotype; eliminates extremes. phenotype; shifts population.   over intermediate.\n└── Peak becomes narrower       └── Peak shifts in one direction└── Two distinct peaks form\n    (*Human birth weight*)          (*Industrial Melanism*)         (*Speciation*)",
+      "content": "### 6.1 Natural Selection Modes\n- **Stabilizing**: Favors mean phenotype (human birth weight $3\\text{--}4\\text{ kg}$).\n- **Directional**: Shifts population mean (*Biston betularia* melanism, antibiotic resistance).\n- **Disruptive**: Favors both extremes, initiating speciation."
+    },
+    {
+      "sectionNumber": 7,
+      "id": "sec-06-07",
+      "title": "Hardy-Weinberg Equilibrium & Population Genetics",
+      "topic": "Allelic & Genotypic Frequencies, p + q = 1, p^2 + 2pq + q^2 = 1, & 5 Evolutionary Forces",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Hardy-Weinberg: allele frequencies (p + q = 1) and genotypes (p^2 + 2pq + q^2 = 1) remain constant in large random populations. 5 disturbing forces: Gene Flow, Genetic Drift, Mutation, Recombination, and Natural Selection."
+      },
+      "codeSnippet": "HARDY-WEINBERG MATHEMATICAL EQUATIONS\n                      \n   Allelic Frequency Equation:     p + q = 1\n   Genotypic Frequency Equation:   p² + 2pq + q² = 1\n   \n   where:\n   ├── p = f(A) (Frequency of Dominant Allele A)\n   ├── q = f(a) (Frequency of Recessive Allele a)\n   ├── p² = f(AA) (Frequency of Homozygous Dominant)\n   ├── 2pq = f(Aa) (Frequency of Heterozygotes)\n   └── q² = f(aa) (Frequency of Homozygous Recessive)",
+      "content": "### 7.1 Hardy-Weinberg Principle\n- **Equations**: $p + q = 1$ and $p^2 + 2pq + q^2 = 1$.\n- **Disturbing Forces**: Gene flow, genetic drift, mutation, recombination, natural selection."
+    },
+    {
+      "sectionNumber": 8,
+      "id": "sec-06-08",
+      "title": "Forces of Evolution: Genetic Drift & Gene Flow",
+      "topic": "Sewall Wright Effect, Founder Effect, Bottleneck Effect, & Gene Migration",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Genetic drift (Sewall Wright Effect): random allele changes in small populations. Founder Effect (small migrant sample fixes alleles) and Bottleneck Effect (disaster drastically cuts population). Gene flow exchanges alleles between populations."
+      },
+      "codeSnippet": "GENETIC DRIFT MODES\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n  FOUNDER EFFECT                                          BOTTLENECK EFFECT\n  A small migrant group isolates to found a               A catastrophe drastically reduces population size;\n  new population with a distinct gene pool.               survivors randomly alter allele frequencies.\n  (*e.g., Amish population polydactyly*)                  (*e.g., Cheetah population crash*)",
+      "content": "### 8.1 Genetic Drift & Gene Flow\n- **Genetic Drift**: Random allele fluctuations in small populations.\n- **Modes**: Founder Effect (Amish polydactyly) and Bottleneck Effect (Cheetahs).\n- **Gene Flow**: Migration transferring alleles between gene pools."
+    },
+    {
+      "sectionNumber": 9,
+      "id": "sec-06-09",
+      "title": "Geological Time Scale & History of Life",
+      "topic": "Eras, Periods, Coelacanth Living Fossil, & Dinosaur Extinction",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Precambrian (first cells ~2.0 bya), Paleozoic (Age of Fishes/Invertebrates), Mesozoic (Age of Reptiles, dinosaur extinction ~65 mya), Cenozoic (Age of Mammals/Angiosperms). Coelacanth (Latimeria) lobe-finned living fossil."
+      },
+      "codeSnippet": "GEOLOGICAL TIME SCALE (Eras)\n                                   │\n     ┌──────────────────┬──────────┴───────────┬──────────────────┐\n     ▼                  ▼                      ▼                  ▼\nPALEOZOIC ERA      MESOZOIC ERA           CENOZOIC ERA       PRECAMBRIAN EON\n(Age of Fishes &   (Age of Reptiles &     (Age of Mammals &  First cellular forms\n Invertebrates)     Gymnosperms)           Angiosperms)       (≈ 2.0 billion years)\n ├── Silurian       ├── Triassic           ├── Tertiary\n ├── Devonian       ├── Jurassic           └── Quaternary\n └── Carboniferous  └── Cretaceous",
+      "content": "### 9.1 Geological Eras & Fossils\n- **Eras**: Paleozoic (fishes), Mesozoic (reptiles/dinosaurs), Cenozoic (mammals).\n- **Key Events**: Dinosaur extinction $\\approx 65\\text{ mya}$; *Latimeria* coelacanth lobe-finned living fossil."
+    },
+    {
+      "sectionNumber": 10,
+      "id": "sec-06-10",
+      "title": "Human Evolution Lineage & Cranial Capacities",
+      "topic": "Dryopithecus to Homo sapiens, Brain Sizes (cc), Tools, Fire, & Cave Art",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Human evolution: Dryopithecus/Ramapithecus (15 mya) -> Australopithecus (3-4 mya, 400-500 cc) -> Homo habilis (2 mya, 650-800 cc, tool-maker, no meat) -> Homo erectus (1.5 mya, 900 cc, meat, fire) -> Neanderthal (100-40 kya, 1400 cc, burial) -> Homo sapiens (1350-1450 cc, cave art 18 kya, agriculture 10 kya)."
+      },
+      "codeSnippet": "HUMAN EVOLUTION LINEAGE\n                         \n   Dryopithecus ──► Ramapithecus ──► Australopithecus ──► Homo habilis\n   (15 mya)         (15 mya)        (3–4 mya)          (2 mya / 650–800 cc)\n                                                            │\n   Homo sapiens ◄── Neanderthal Man ◄── Homo erectus ───────┘\n   (75–10 kya)      (100–40 kya/1400 cc) (1.5 mya / 900 cc)",
+      "content": "### 10.1 Human Evolution\n- **Australopithecus**: $400\\text{--}500\\text{ cc}$, upright bipedal, fruit eater.\n- **Homo habilis**: $650\\text{--}800\\text{ cc}$, first tool-maker, did not eat meat.\n- **Homo erectus**: $900\\text{ cc}$, ate meat, first to use fire.\n- **Neanderthal**: $1400\\text{ cc}$, buried dead with rituals.\n- **Homo sapiens**: $1350\\text{--}1450\\text{ cc}$, cave art ($18\\text{ kya}$), agriculture ($10\\text{ kya}$)."
+    },
+    {
+      "sectionNumber": 11,
+      "id": "sec-06-11",
+      "title": "Evolutionary Biology Glossary & High-Yield NEST Traps",
+      "topic": "Master Glossary & 10 NEST Traps",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Master evolutionary biology glossary with 45+ definitions and 10 high-yield NEST misconceptions and numerical invariant traps."
+      },
+      "content": "### 11.1 Master Evolutionary Biology Glossary & Traps\n- **Homology vs Analogy**: Homology = divergent evolution; Analogy = convergent evolution.\n- **Von Baer's Law**: Embryos do not pass through adult stages of other animals.\n- **H. habilis vs H. erectus**: H. habilis did NOT eat meat ($650\\text{--}800\\text{ cc}$); H. erectus ate meat & used fire ($900\\text{ cc}$).\n- **Hardy-Weinberg**: $2pq = \\text{heterozygotes}$; $p^2 = \\text{homozygous dominant}$."
+    }
+  ]
+}

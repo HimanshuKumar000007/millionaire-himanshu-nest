@@ -1,0 +1,69 @@
+{
+  "id": "chem-xii-u13-c4-l05",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XIII \u2014 d- and f-Block Elements",
+  "unitNumber": 13,
+  "chapter": "d- and f-Block Elements",
+  "chapterNumber": 4,
+  "chapterSlug": "d-and-f-block-elements",
+  "slug": "lesson-05-potassium-dichromate-synthesis-redox-chemistry",
+  "title": "Potassium Dichromate (K\u2082Cr\u2082O\u2087): Synthesis & Redox Rules",
+  "topic": "Potassium Dichromate Chemistry",
+  "topics": [
+    "Industrial 3-Step Synthesis of K\u2082Cr\u2082O\u2087 from Chromite Ore (FeCr\u2082O\u2084)",
+    "Why K\u2082Cr\u2082O\u2087 is Crystallized instead of Na\u2082Cr\u2082O\u2087 (Non-deliquescent primary volumetric standard)",
+    "5.1 Chromate-Dichromate pH-Dependent Dynamic Equilibrium (2CrO\u2084\u00b2\u207b + 2H\u207a \u21cc Cr\u2082O\u2087\u00b2\u207b + H\u2082O)",
+    "Chromate (Tetrahedral sp\u00b3) vs Dichromate (Corner-sharing bitetrahedral, 126\u00b0 Cr-O-Cr angle)",
+    "5.2 Acidic Oxidizing Actions of K\u2082Cr\u2082O\u2087 (n-factor = 6, E\u00b0 = +1.33 V, Cr\u00b3\u207a green product)",
+    "Key Stoichiometries: I\u207b \u2500\u2500\u25ba I\u2082, Fe\u00b2\u207a \u2500\u2500\u25ba Fe\u00b3\u207a, H\u2082S \u2500\u2500\u25ba S\u2193, SO\u2083\u00b2\u207b \u2500\u2500\u25ba SO\u2084\u00b2\u207b"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "d-and-f-block-elements",
+  "quickSummary": "K\u2082Cr\u2082O\u2087 is synthesized from Chromite ore (FeCr\u2082O\u2084) via Na\u2082CrO\u2084 (yellow) and Na\u2082Cr\u2082O\u2087 (orange). Chromate (CrO\u2084\u00b2\u207b, yellow) and Dichromate (Cr\u2082O\u2087\u00b2\u207b, orange) interconvert via pH (acid yields orange; base yields yellow; OS remains +6). In acid, Cr\u2082O\u2087\u00b2\u207b has n-factor = 6 (E\u00b0 = +1.33 V), oxidizing I\u207b to I\u2082, Fe\u00b2\u207a to Fe\u00b3\u207a, H\u2082S to S, and SO\u2083\u00b2\u207b to SO\u2084\u00b2\u207b.",
+  "summary": "Master potassium dichromate synthesis, pH-dependent chromate-dichromate equilibria, structures, and acidic redox stoichiometries.",
+  "conceptBreakdown": [
+    {
+      "heading": "5. Potassium Dichromate Industrial Synthesis",
+      "title": "5. Potassium Dichromate Industrial Synthesis",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "K\u2082Cr\u2082O\u2087 Synthesis & Primary Standard",
+        "takeaway": "FeCr\u2082O\u2084 + Na\u2082CO\u2083 + O\u2082 \u2500\u2500\u25ba Na\u2082CrO\u2084 (yellow) \u2500\u2500\u25ba Na\u2082Cr\u2082O\u2087 (orange) \u2500\u2500\u25ba K\u2082Cr\u2082O\u2087 crystals. K\u2082Cr\u2082O\u2087 is non-deliquescent and used as primary analytical standard."
+      },
+      "codeSnippet": "                      POTASSIUM DICHROMATE INDUSTRIAL SYNTHESIS\n                      \n   1. Chromite Ore Roasting: $4\\text{FeCr}_2\\text{O}_4 + 8\\text{Na}_2\\text{CO}_3 + 7\\text{O}_2 \\xrightarrow{1100^\\circ\\text{C}} \\mathbf{8\\text{Na}_2\\text{CrO}_4 \\text{ (Yellow)}} + 2\\text{Fe}_2\\text{O}_3 + 8\\text{CO}_2$\n   2. Acidification:         $2\\text{Na}_2\\text{CrO}_4 + \\text{H}_2\\text{SO}_4 \\longrightarrow \\mathbf{\\text{Na}_2\\text{Cr}_2\\text{O}_7 \\text{ (Orange)}} + \\text{Na}_2\\text{SO}_4 + \\text{H}_2\\text{O}$\n   3. Potassium Exchange:    $\\text{Na}_2\\text{Cr}_2\\text{O}_7 + 2\\text{KCl} \\longrightarrow \\mathbf{\\text{K}_2\\text{Cr}_2\\text{O}_7 \\downarrow \\text{ (Orange Crystals)}} + 2\\text{NaCl}$",
+      "content": "$\\text{K}_2\\text{Cr}_2\\text{O}_7$ is crystallized because it is much less soluble in water and non-deliquescent compared to $\\text{Na}_2\\text{Cr}_2\\text{O}_7$, making it an ideal primary analytical volumetric standard."
+    },
+    {
+      "heading": "5.1 Chromate-Dichromate pH Equilibrium & Structures",
+      "title": "5.1 Chromate-Dichromate pH Equilibrium & Structures",
+      "type": "paragraph",
+      "codeSnippet": "CHROMATE-DICHROMATE pH EQUILIBRIUM\n\n2CrO\u2084\u00b2\u207b (Yellow) + 2H\u207a \u21cc Cr\u2082O\u2087\u00b2\u207b (Orange) + H\u2082O\n\n\u2022 In Acidic Medium (pH < 7): Orange Dichromate (Cr\u2082O\u2087\u00b2\u207b) dominates.\n\u2022 In Basic Medium (pH > 7): Yellow Chromate (CrO\u2084\u00b2\u207b) dominates.\n\u2022 Oxidation state of Cr is +6 in BOTH ions (Condensation, NOT redox!).\n\nStructures:\n\u2022 Chromate Ion (CrO\u2084\u00b2\u207b): Tetrahedral (sp\u00b3), Cr = +6 (d\u2070)\n\u2022 Dichromate Ion (Cr\u2082O\u2087\u00b2\u207b): Two corner-sharing tetrahedra with Cr-O-Cr bridge angle = 126\u00b0",
+      "content": "Chromate ($\\text{CrO}_4^{2-}$, yellow) and Dichromate ($\\text{Cr}_2\\text{O}_7^{2-}$, orange) exist in dynamic equilibrium controlled by solution $\\text{pH}$:\n$$\\mathbf{2\\text{CrO}_4^{2-} \\text{ (Yellow)} + 2\\text{H}^+ \\underset{\\text{Base (OH}^-)}{\\overset{\\text{Acid (H}^+)}{\\rightleftharpoons}} \\text{Cr}_2\\text{O}_7^{2-} \\text{ (Orange)} + \\text{H}_2\\text{O}}$$"
+    },
+    {
+      "heading": "5.2 Oxidizing Action of K\u2082Cr\u2082O\u2087 in Acidic Medium",
+      "title": "5.2 Oxidizing Action of K\u2082Cr\u2082O\u2087 in Acidic Medium",
+      "type": "paragraph",
+      "codeSnippet": "OXIDIZING ACTION OF K\u2082Cr\u2082O\u2087 (n = 6)\n\nCr\u2082O\u2087\u00b2\u207b + 14H\u207a + 6e\u207b \u2500\u2500\u25ba 2Cr\u00b3\u207a (Green) + 7H\u2082O  (E\u00b0 = +1.33 V)\n\nKey Oxidations:\n1. Iodide to Iodine:       Cr\u2082O\u2087\u00b2\u207b + 14H\u207a + 6I\u207b \u2500\u2500\u25ba 2Cr\u00b3\u207a + 7H\u2082O + 3I\u2082\n2. Ferrous to Ferric:      Cr\u2082O\u2087\u00b2\u207b + 14H\u207a + 6Fe\u00b2\u207a \u2500\u2500\u25ba 2Cr\u00b3\u207a + 7H\u2082O + 6Fe\u00b3\u207a\n3. H\u2082S to Sulfur:          Cr\u2082O\u2087\u00b2\u207b + 8H\u207a + 3H\u2082S \u2500\u2500\u25ba 2Cr\u00b3\u207a + 7H\u2082O + 3S\u2193 (Turbidity)\n4. Sulfite to Sulfate:     Cr\u2082O\u2087\u00b2\u207b + 8H\u207a + 3SO\u2083\u00b2\u207b \u2500\u2500\u25ba 2Cr\u00b3\u207a + 4H\u2082O + 3SO\u2084\u00b2\u207b",
+      "content": "In acidic solution, Dichromate acts as a powerful oxidant ($n\\text{-factor} = 6$):\n$$\\text{Cr}_2\\text{O}_7^{2-} (+6) + 14\\text{H}^+ + 6e^- \\longrightarrow 2\\text{Cr}^{3+} (+3) \\text{ (Green)} + 7\\text{H}_2\\text{O} \\quad (E^\\circ = +1.33\\text{ V})$$"
+    }
+  ],
+  "quickRevision": [
+    "K\u2082Cr\u2082O\u2087 is synthesized from FeCr\u2082O\u2084 (chromite ore).",
+    "Yellow CrO\u2084\u00b2\u207b + 2H\u207a \u21cc Orange Cr\u2082O\u2087\u00b2\u207b + H\u2082O (Cr remains +6).",
+    "Cr-O-Cr bridging angle in Cr\u2082O\u2087\u00b2\u207b is 126\u00b0.",
+    "In acid, Cr\u2082O\u2087\u00b2\u207b n-factor = 6 (reduces to green Cr\u00b3\u207a).",
+    "Cr\u2082O\u2087\u00b2\u207b oxidizes I\u207b \u2500\u2500\u25ba I\u2082, Fe\u00b2\u207a \u2500\u2500\u25ba Fe\u00b3\u207a, H\u2082S \u2500\u2500\u25ba S\u2193, SO\u2083\u00b2\u207b \u2500\u2500\u25ba SO\u2084\u00b2\u207b."
+  ],
+  "keyFormulae": [
+    "2\\text{CrO}_4^{2-} + 2\\text{H}^+ \\rightleftharpoons \\text{Cr}_2\\text{O}_7^{2-} + \\text{H}_2\\text{O}",
+    "\\text{Cr}_2\\text{O}_7^{2-} + 14\\text{H}^+ + 6e^- \\longrightarrow 2\\text{Cr}^{3+} + 7\\text{H}_2\\text{O} \\quad (E^\\circ = +1.33\\text{ V})"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "bio-xi-u5-c14-l02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Breathing and Exchange of Gases",
+  "chapterNumber": 14,
+  "chapterSlug": "breathing-and-exchange-of-gases",
+  "slug": "lesson-02-respiratory-membrane-and-alveolar-surfactant",
+  "title": "Respiratory Membrane & Alveolar Surfactant Physiology",
+  "topic": "Trilaminar Diffusion Barrier, Type II Pneumocytes, DPPC, & Laplace Law",
+  "order": 2,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "The respiratory membrane (<0.2 µm) is composed of alveolar squamous cells, fused basement membrane, and capillary endothelium. Type II pneumocytes secrete Surfactant (DPPC) to lower surface tension and prevent alveolar collapse (Laplace Law).",
+  "summary": "The respiratory membrane (<0.2 µm) is composed of alveolar squamous cells, fused basement membrane, and capillary endothelium. Type II pneumocytes secrete Surfactant (DPPC) to lower surface tension and prevent alveolar collapse (Laplace Law).",
+  "conceptBreakdown": [
+    {
+      "heading": "Respiratory Membrane & Alveolar Surfactant Physiology",
+      "title": "Respiratory Membrane & Alveolar Surfactant Physiology",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "The respiratory membrane (<0.2 µm) is composed of alveolar squamous cells, fused basement membrane, and capillary endothelium. Type II pneumocytes secrete Surfactant (DPPC) to lower surface tension and prevent alveolar collapse (Laplace Law)."
+      },
+      "codeSnippet": "DIFFUSION MEMBRANE LAYERS\n                         \n    ALVEOLAR LUMEN ──► [ Type I Alveolar Squamous Epithelium ]\n                                    │\n                       [ Non-Cellular Basement Membrane ] (Fused)\n                                    │\n    CAPILLARY LUMEN ◄─ [ Capillary Endothelial Squamous Cell ]",
+      "content": "Gas exchange occurs across the **Diffusion Membrane (Respiratory Membrane)** separating alveolar air from pulmonary capillary blood. The total alveolar surface area in human lungs is approximately $70\\text{--}100\\text{ m}^2$.\n\n- **Diffusion Membrane Thickness**: The total thickness is less than $0.2\\ \\mu\\text{m}$ ($0.2\\text{--}0.5\\ \\mu\\text{m}$), facilitating rapid passive gas diffusion according to Fick's Law.\n\n### 2.1 Alveolar Pneumocytes & Pulmonary Surfactant\n- **Type I Pneumocytes ($95\\%$ surface area)**: Ultra-thin simple squamous epithelial cells forming the primary diffusion barrier.\n- **Type II Pneumocytes ($5\\%$ surface area)**: Cuboidal secretory cells that synthesize and secrete **Pulmonary Surfactant (Dipalmitoylphosphatidylcholine / DPPC)**.\n- **Biophysical Mechanism & Laplace Law ($P = \\frac{2\\gamma}{r}$)**: Smaller alveoli ($r$) experience higher collapsing pressure ($P$). Surfactant lowers surface tension ($\\gamma$) preferentially in smaller alveoli, preventing their collapse into larger alveoli (**prevents atelectasis**) and preserving lung compliance.\n- **Infant Respiratory Distress Syndrome (IRDS)**: Preterm infants born before 28–32 weeks lack mature Type II pneumocytes, causing surfactant deficiency, massive alveolar collapse, and acute respiratory failure.",
+      "contentMarkdown": "Gas exchange occurs across the **Diffusion Membrane (Respiratory Membrane)** separating alveolar air from pulmonary capillary blood. The total alveolar surface area in human lungs is approximately $70\\text{--}100\\text{ m}^2$.\n\n- **Diffusion Membrane Thickness**: The total thickness is less than $0.2\\ \\mu\\text{m}$ ($0.2\\text{--}0.5\\ \\mu\\text{m}$), facilitating rapid passive gas diffusion according to Fick's Law.\n\n### 2.1 Alveolar Pneumocytes & Pulmonary Surfactant\n- **Type I Pneumocytes ($95\\%$ surface area)**: Ultra-thin simple squamous epithelial cells forming the primary diffusion barrier.\n- **Type II Pneumocytes ($5\\%$ surface area)**: Cuboidal secretory cells that synthesize and secrete **Pulmonary Surfactant (Dipalmitoylphosphatidylcholine / DPPC)**.\n- **Biophysical Mechanism & Laplace Law ($P = \\frac{2\\gamma}{r}$)**: Smaller alveoli ($r$) experience higher collapsing pressure ($P$). Surfactant lowers surface tension ($\\gamma$) preferentially in smaller alveoli, preventing their collapse into larger alveoli (**prevents atelectasis**) and preserving lung compliance.\n- **Infant Respiratory Distress Syndrome (IRDS)**: Preterm infants born before 28–32 weeks lack mature Type II pneumocytes, causing surfactant deficiency, massive alveolar collapse, and acute respiratory failure."
+    }
+  ]
+}

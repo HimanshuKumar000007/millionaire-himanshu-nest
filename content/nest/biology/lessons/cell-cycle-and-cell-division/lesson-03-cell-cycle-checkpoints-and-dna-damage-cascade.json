@@ -1,0 +1,57 @@
+{
+  "id": "bio-xi-u3-c10-l03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Cell Cycle and Cell Division",
+  "chapterNumber": 10,
+  "chapterSlug": "cell-cycle-and-cell-division",
+  "slug": "lesson-03-cell-cycle-checkpoints-and-dna-damage-cascade",
+  "title": "Cell Cycle Checkpoints, p53 Cascade, & The APC/C Engine",
+  "topic": "Rb-E2F Switch, p53/p21 DNA Damage Arrest, & Spindle Assembly Checkpoint (SAC)",
+  "topics": [
+    "G1/S Restriction Point (START) & Retinoblastoma (Rb) Hyperphosphorylation",
+    "E2F Transcription Factor Release & S-Phase Gene Induction",
+    "DNA Damage Response: ATM/ATR -> p53 Guardian of the Genome -> p21 CIP1 CDK Inhibitor",
+    "G2/M Quality Control Checkpoint",
+    "Spindle Assembly Checkpoint (SAC): Kinetochore Biorientation & Tension Sensing",
+    "Anaphase-Promoting Complex / Cyclosome (APC/C) -> Securin Ubiquitination -> Separase Activation -> Cohesin Cleavage"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "At the G1/S restriction point, CDK phosphorylation of Retinoblastoma (Rb) releases E2F to activate S-phase genes. DNA damage triggers ATM/ATR kinases to stabilize p53, inducing p21 to inhibit Cyclin E-CDK2 and arrest the cycle. At the Spindle Assembly Checkpoint (SAC), once all kinetochores are attached under tension, active APC/C targets Securin for proteasomal destruction, freeing Separase to cleave Cohesin rings and initiate Anaphase.",
+  "summary": "At the G1/S restriction point, CDK phosphorylation of Retinoblastoma (Rb) releases E2F to activate S-phase genes. DNA damage triggers ATM/ATR kinases to stabilize p53, inducing p21 to inhibit Cyclin E-CDK2 and arrest the cycle. At the Spindle Assembly Checkpoint (SAC), once all kinetochores are attached under tension, active APC/C targets Securin for proteasomal destruction, freeing Separase to cleave Cohesin rings and initiate Anaphase.",
+  "conceptBreakdown": [
+    {
+      "heading": "2.2 The $G_1/S$ Restriction Switch (Rb / E2F)",
+      "title": "2.2 The $G_1/S$ Restriction Switch (Rb / E2F)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Rb inhibits E2F. CDK phosphorylation releases E2F to transcribe S-phase genes. p53 induces p21 to stop CDKs upon DNA damage. APC/C destroys Securin to activate Separase."
+      },
+      "codeSnippet": "Rb / E2F MOLECULAR RESTRICTION SWITCH\n                     \n   Unphosphorylated Rb ──[Binds & Inhibits]──► E2F Factor (S-Phase Genes OFF)\n                                    │\n   Cyclin D/E-CDK4/2 ──[Phosphorylates Rb]──► Hyper-phosphorylated Rb Detaches\n                                    │\n   Free E2F Factor ──► Activates Transcription of S-Phase Genes (DNA Polymerase, Histones)",
+      "content": "• In quiescent or early $G_1$ cells, unphosphorylated **Retinoblastoma ($\\text{Rb}$)** binds to the $\\text{E2F}$ transcription factor and suppresses its activity.\n• Growth factor mitogens activate Cyclin D-CDK4/6 and Cyclin E-CDK2, which **hyper-phosphorylate $\\text{Rb}$**, forcing it to dissociate from $\\text{E2F}$. Free $\\text{E2F}$ drives the transcription of DNA polymerases, thymidine kinase, and histone proteins."
+    },
+    {
+      "heading": "The p53 DNA Damage Checkpoint Cascade",
+      "title": "The p53 DNA Damage Checkpoint Cascade",
+      "type": "paragraph",
+      "codeSnippet": "p53 DNA DAMAGE CASCADE\n                        \n   DNA Damage ──► ATM/ATR Kinases ──► Stabilizes p53 ──► Transcribes p21 (CDK Inhibitor)\n                                                                 │\n   Cell Cycle Arrest at G₁/S ◄── Inactivates Cyclin E-CDK2 ──────┘",
+      "content": "• DNA double-strand breaks activate sensor kinases (**ATM/ATR**), which phosphorylate and stabilize **$\\text{p53}$ ('Guardian of the Genome')**.\n• Active $\\text{p53}$ transactivates **$\\text{p21}^{\\text{CIP1/WAF1}}$**, a stoichiometric CDK inhibitor that blocks Cyclin E-CDK2, arresting the cycle at $G_1/S$ to allow repair. If damage is irreparable, $\\text{p53}$ initiates **Apoptosis**."
+    },
+    {
+      "heading": "Spindle Assembly Checkpoint (SAC) & APC/C",
+      "title": "Spindle Assembly Checkpoint (SAC) & APC/C",
+      "type": "paragraph",
+      "codeSnippet": "APC/C ANAPHASE CASCADE\n                           \n   Active APC/C ──► Ubiquitinates SECURIN ──► Releases Active SEPARASE\n                                                       │\n   Anaphase Onset ◄── Cleaves COHESIN Rings ──────────┘",
+      "content": "• Unattached kinetochores recruit MAD2/BUBR1 proteins to generate a **'WAIT-Anaphase'** inhibitory signal.\n• Once all chromosomes achieve bipolar spindle attachment under mechanical tension at the metaphase plate, SAC is silenced, activating the **Anaphase-Promoting Complex / Cyclosome (APC/C)**.\n• APC/C ubiquitinates **Securin**, causing its degradation. This unmasks active **Separase** protease, which cleaves the **Cohesin** rings holding sister chromatids together, triggering synchronous anaphase onset."
+    }
+  ]
+}

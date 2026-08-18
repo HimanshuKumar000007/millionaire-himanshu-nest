@@ -1,0 +1,82 @@
+[
+  {
+    "id": "q-bio-c3-001",
+    "exam": "NEST",
+    "subject": "Biology",
+    "topic": "Algae & Rhodophyceae Biochemistry",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "questionText": "An investigation of a deep-water marine alga collected from a depth of 100 meters reveals that its cell wall contains cellulose, pectin, and sulfated phycocolloids like carrageenan. Its photosynthetic apparatus contains Chlorophyll a, Chlorophyll d, and a high concentration of r-Phycoerythrin. Cytological inspection confirms that motile flagellated stages are completely absent from its entire life cycle. How does this organism store its photosynthetic reserves?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "As D-Mannitol and Laminarin in specialized cytoplasm vesicles.", "isCorrect": false },
+      { "id": "b", "text": "As Floridean Starch structurally similar to amylopectin and glycogen.", "isCorrect": true },
+      { "id": "c", "text": "As true Starch stored inside Pyrenoids possessing a central protein core.", "isCorrect": false },
+      { "id": "d", "text": "As Paramylon bodies located beneath a proteinaceous pellicle.", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "The presence of Chlorophyll a and d, r-Phycoerythrin, sulfated phycocolloids (carrageenan), and the complete absence of flagellated stages across its life cycle are diagnostic of Rhodophyceae (Red Algae). Red algae store their energy reserves as Floridean Starch, which is structurally homologous to amylopectin and glycogen.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c3-002",
+    "exam": "NEST",
+    "subject": "Biology",
+    "topic": "Gymnospermae & Pinus Seed Ploidy",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "questionText": "During micro-dissection of a coniferous seed (Pinus), a researcher analyzes the ploidy levels of three distinct tissue layers: the outer Seed Coat (Testa), the internal Endosperm tissue, and the enclosed Embryo. What are the correct ploidy levels for these three tissues, respectively?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Seed Coat (2n), Endosperm (3n), Embryo (2n)", "isCorrect": false },
+      { "id": "b", "text": "Seed Coat (2n), Endosperm (n), Embryo (2n)", "isCorrect": true },
+      { "id": "c", "text": "Seed Coat (n), Endosperm (n), Embryo (2n)", "isCorrect": false },
+      { "id": "d", "text": "Seed Coat (2n), Endosperm (2n), Embryo (3n)", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "In Gymnosperms (Pinus): (1) The Seed Coat is derived from the parent sporophyte integument (2n); (2) The Endosperm is the pre-fertilization female gametophyte tissue, which is strictly haploid (n); (3) The Embryo is the new sporophyte generation resulting from syngamy (2n).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c3-003",
+    "exam": "NEST",
+    "subject": "Biology",
+    "topic": "Evolution of Seed Habit & Selaginella",
+    "difficulty": "Advanced",
+    "status": "published",
+    "questionText": "Which of the following features represent CRITICAL PRECURSORS to the evolution of the seed habit observed in the pteridophyte Selaginella? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Production of two distinct spore types (Microspores and Megaspores) via heterospory.", "isCorrect": true },
+      { "id": "b", "text": "Endosporic development of the female gametophyte inside the megaspore wall.", "isCorrect": true },
+      { "id": "c", "text": "Permanent retention of the megaspore within a heavily integumented megasporangium that remains attached to the parent plant indefinitely.", "isCorrect": false },
+      { "id": "d", "text": "Retention and nourishment of the developing embryo on the parent sporophyte for a period of time.", "isCorrect": true }
+    ],
+    "correctAnswer": "a,b,d",
+    "solutionExplanation": "A is correct: Heterospory is the primary prerequisite for seed evolution. B is correct: Endosporic development isolates the female gametophyte from harsh external environmental conditions. C is incorrect: Selaginella FAILED to evolve true seeds precisely because its megasporangium lacked protective integuments and did not retain the megaspore permanently. D is correct: Nourishment of the young embryo on the parent sporophyte prefigures seed development.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c3-004",
+    "exam": "NEST",
+    "subject": "Biology",
+    "topic": "Plant Life Cycles & Algal Exceptions",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "questionText": "Select the correct statements regarding plant life cycles and algal exceptions: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Most green algae (Spirogyra, Volvox) exhibit a Haplontic life cycle with zygotic meiosis.", "isCorrect": true },
+      { "id": "b", "text": "The brown alga Fucus exhibits a Diplontic life cycle where the diploid multicellular body is dominant.", "isCorrect": true },
+      { "id": "c", "text": "Bryophytes and Pteridophytes exhibit Haplodiplontic life cycles with sporic meiosis.", "isCorrect": true },
+      { "id": "d", "text": "Ectocarpus, Polysiphonia, and Kelps exhibit pure Haplontic life cycles with no multicellular diploid phase.", "isCorrect": false }
+    ],
+    "correctAnswer": "a,b,c",
+    "solutionExplanation": "A is correct: Standard green algae undergo zygotic meiosis (Haplontic). B is correct: Fucus is a brown alga exception that exhibits a Diplontic life cycle with gametic meiosis. C is correct: Both bryophytes and pteridophytes exhibit alternation of generations (Haplodiplontic). D is incorrect: Ectocarpus, Polysiphonia, and Kelps are notable algal exceptions that exhibit Haplodiplontic life cycles, NOT haplontic cycles.",
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

@@ -1,0 +1,653 @@
+{
+  "id": "bio-xi-u5-c18-chapter-master",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Locomotion and Movement",
+  "chapterNumber": 18,
+  "chapterSlug": "locomotion-and-movement",
+  "title": "CHAPTER 18: LOCOMOTION AND MOVEMENT (NEST & INBO MODULE)",
+  "description": "Complete master module covering Types of Movement (Amoeboid, Ciliary, Flagellar, Muscular), Comparative Muscle Histology (Skeletal, Visceral/Smooth, Cardiac), Sarcomere Ultrastructure (Z-lines, I-band, A-band, H-zone, M-line), Contractile & Regulatory Proteins (Actin, Myosin HMM/LMM, Tropomyosin, Troponin TnT/TnI/TnC), Sliding Filament Theory & Cross-Bridge Power Stroke Cycle, Rigor Mortis, Muscle Bioenergetics, Red vs White Fibers, Human Skeletal Architecture (Axial 80 vs Appendicular 126 Bones), Dicondylic Skull, Vertebral Column, Ribs Classification, Synovial Joint Kinematics, Musculoskeletal Pathophysiology (Myasthenia Gravis, Tetany, Muscular Dystrophy, Osteoarthritis, Rheumatoid Arthritis, Gout, Osteoporosis), Master Glossary, and 20 NEST Practice Questions.",
+  "estimatedTotalTimeMinutes": 145,
+  "totalSections": 11,
+  "totalQuestions": 20,
+  "status": "published",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "id": "sec-18-01",
+      "title": "Types of Animal Movement: Amoeboid, Ciliary, Flagellar, & Muscular",
+      "topic": "Pseudopodia, 9+2 Axoneme Dynein ATPases, Flagellar Undulation, & Myofilament Sliding",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Amoeboid movement uses microfilament streaming (macrophages/neutrophils); Ciliary movement uses 9+2 tubulin cilia with dynein (trachea, fallopian tubes); Flagellar movement propels spermatozoa and sponge choanocytes; Muscular movement powers locomotion via actin-myosin."
+      },
+      "codeSnippet": "TYPES OF ANIMAL MOVEMENTS\n                                       │\n     ┌──────────────────┬──────────────┴──────────────┬──────────────────┐\n     ▼                  ▼                             ▼                  ▼\nAMOEBOID MOVEMENT   CILIARY MOVEMENT              FLAGELLAR MOVEMENT   MUSCULAR MOVEMENT\nDriven by micro-   Driven by coordinated wave     Driven by whip-like  Driven by contractile\nfilament streaming  of 9+2 tubulin cilia.         flagellar beat.      myofilaments (actin/\nand pseudopodia.    ├── Respiratory trachea       ├── Spermatozoa      myosin).\n├── Macrophages    ├── Fallopian tubes (Oviduct) └── Choanocytes      ├── Limb locomotion\n└── Leucocytes     └── Paramecium gullet             in Sponges       └── Heart / Gut motility",
+      "content": "Movement is a fundamental property of all living organisms, ranging from intracellular protoplasmic streaming to whole-organism Locomotion (change of geographic location).\n\n### 1.1 Comparative Movement Mechanics Matrix\n\n| Movement Type | Structural Basis / Organelle | Biochemical Mechanism | Representative Physiological Context |\n| :--- | :--- | :--- | :--- |\n| **Amoeboid Movement** | **Pseudopodia** formed by protoplasmic streaming | Actin-myosin microfilament polymerization and sol-gel cytoplasmic transitions | Phagocytic **Macrophages** and **Neutrophils** migrating through interstitial tissues; *Amoeba proteus* |\n| **Ciliary Movement** | Thousands of microscopic **Cilia** ($9+2$ axoneme) | Rhythmic, coordinated, metachronal beating driven by ciliary **Dynein ATPase** | Sweeping trapped dust out of the **Tracheal Epithelium**; propelling ova along the **Fallopian Tube (Oviduct)** |\n| **Flagellar Movement** | Long, whip-like **Flagellum** ($9+2$ axoneme) | Undulatory wave propagation driven by dynein-mediated microtubule sliding | Propulsion of **Spermatozoa** in human male reproductive tract; water currents in sponge **Choanocytes** |\n| **Muscular Movement** | Specialized contractile **Muscle Fibers** (myofibrils) | Sliding filament mechanism driven by **Actin-Myosin cross-bridge** interactions | Locomotion of limbs, jaw movements, tongue protrusion, cardiac pumping, intestinal peristalsis |"
+    },
+    {
+      "sectionNumber": 2,
+      "id": "sec-18-02",
+      "title": "Comparative Muscle Histology: Skeletal, Visceral, & Cardiac",
+      "topic": "Syncytial Striated Skeletal vs Fusiform Smooth vs Branched Intercalated Cardiac Muscle",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Skeletal muscle is striated, voluntary, syncytial with peripheral nuclei, and fast-fatiguing. Smooth muscle is non-striated, involuntary, fusiform with central nuclei, and fatigue-resistant. Cardiac muscle is striated, involuntary, branched, autorhythmic, and contains intercalated discs (desmosomes + gap junctions)."
+      },
+      "codeSnippet": "MUSCLE TISSUE TYPES\n                                        │\n         ┌──────────────────────────────┼──────────────────────────────┐\n         ▼                              ▼                              ▼\n  SKELETAL MUSCLE               VISCERAL / SMOOTH MUSCLE          CARDIAC MUSCLE\n  (Striated & Voluntary)         (Non-Striated & Involuntary)    (Striated & Involuntary)\n  ├── Attached to bones          ├── Walls of visceral organs    ├── Myocardium of Heart wall\n  ├── Syncytial (Multinucleate)  ├── Fusiform (Single Nucleus)   ├── Branched (Intercalated Discs)\n  └── Fast, fatigue-prone        └── Slow, non-fatiguing         └── Autorhythmic / Myogenic",
+      "content": "Muscles are mesodermally derived tissues accounting for **$40\\text{--}50\\%$ of total adult human body weight**.\n\n### 2.1 Muscle Histology Comparison Matrix\n\n| Histological Trait | Skeletal Muscle | Visceral / Smooth Muscle | Cardiac Muscle |\n| :--- | :--- | :--- | :--- |\n| **Anatomical Location** | Attached to skeletal bones via collagenous **Tendons** | Walls of hollow internal visceral organs (*gut, blood vessels, uterus*) | Myocardium of the heart wall |\n| **Structural Appearance** | **Striated** (alternating light I-bands and dark A-bands) | **Non-Striated / Smooth** (lacks organized sarcomeres) | **Striated** (possesses regular sarcomeres) |\n| **Control Mechanism** | **Voluntary** (Somatic Nervous System) | **Involuntary** (Autonomic Nervous System) | **Involuntary** (Myogenic Autorhythmicity + ANS) |\n| **Cell Morphology** | Long, cylindrical, unbranched fibers | Spindle-shaped / Fusiform with tapering ends | Short, cylindrical, **branched** fibers |\n| **Nuclear Profile** | **Syncytial / Multinucleated** (nuclei positioned peripherally) | **Uninucleate** (single nucleus positioned centrally) | **Uninucleate** (single nucleus positioned centrally) |\n| **Special Junctions** | Absent; individual fibers insulated by endomysium | Gap junctions present in single-unit smooth muscle | **Intercalated Discs** containing **Desmosomes** and **Gap Junctions** |\n| **Sarcoplasmic Reticulum** | Highly developed terminal cisternae forming T-tubule triads | Poorly developed; relies on extracellular $\\text{Ca}^{2+}$ via caveolae | Moderately developed; T-tubule diads at Z-lines |\n| **Contraction & Fatigue** | Rapid contraction; **fatigues quickly** | Slow, sustained contractions; **fatigue-resistant** | Rhythmic, continuous contractions; **completely fatigue-resistant** |"
+    },
+    {
+      "sectionNumber": 3,
+      "id": "sec-18-03",
+      "title": "Skeletal Muscle Microanatomy & Sarcomere Architecture",
+      "topic": "Fascia Hierarchy, Z-Disc, I-Band, A-Band, H-Zone, M-Line, F-Actin, Tropomyosin, Troponin, & Meromyosin",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Sarcomere is the functional unit between two Z-discs. I-band contains actin only; A-band corresponds to myosin length; H-zone is central myosin-only region bisected by M-line. Thin filaments contain F-actin, tropomyosin, and troponin (TnC binds Ca2+). Thick filaments contain ~300 meromyosin subunits (HMM head/cross-arm with ATPase + LMM tail)."
+      },
+      "codeSnippet": "SARCOMERE ULTRASTRUCTURE (Z to Z)\n                        \n          I-BAND            A-BAND (Dark)            I-BAND\n        (Light/Actin)     (Overlap + H-Zone)       (Light/Actin)\n     ├─────────────┤┌─────────────────────────┐├─────────────┤\n     │       :     ││     |      |      |     ││     :       │\n     Z-DISC  :     ││     |   H-ZONE    |     ││     :     Z-DISC\n     (Line)  :     ││     |  (Myosin)   |     ││     :     (Line)\n             :     ││     |      |      |     ││     :     \n             :     ││     |    M-LINE   |     ││     :     \n                          └──────┼──────┘\n                          \n     * SARCOMERE = Functional unit of contraction between two adjacent Z-discs.",
+      "content": "### 3.1 Structural Bands of the Sarcomere\n1. **I-Band (Isotropic / Light Band)**: Contains Thin Filaments (Actin) only. Bisected vertically by a dense proteinaceous line called the **Z-disc / Z-line (Krause’s membrane)**.\n2. **A-Band (Anisotropic / Dark Band)**: Extends the full physical length of the Thick Filaments (Myosin), including the peripheral overlap zone with thin filaments.\n3. **H-Zone (Hensen’s Zone)**: The central region of the A-band containing thick filaments ONLY (no overlapping thin filaments present during relaxation).\n4. **M-Line**: A delicate fibrous membrane running vertically through the center of the H-zone linking adjacent thick filaments together.\n\n### 3.2 Contractile & Regulatory Proteins\n\n```\n                           MYOFILAMENT PROTEINS\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n   THIN FILAMENT (Actin Complex)                           THICK FILAMENT (Myosin Complex)\n   ├── F-Actin (Double-helical G-actin polymer)            ├── Meromyosin Polymers\n   ├── Tropomyosin (Covers Myosin-binding sites)           ├── Heavy Meromyosin (HMM: Cross-arm + Head)\n   └── Troponin Complex (TnT, TnI, TnC [binds Ca²⁺])       └── Light Meromyosin (LMM: Fibrous Tail)\n```\n\n- **Thin Filament (Actin Complex)**:\n  - **F-Actin**: 2 helically wound polymers of globular **G-actin** monomers.\n  - **Tropomyosin**: 2 filamentous strands wrapping along the grooves of F-actin to mask myosin-binding sites at rest.\n  - **Troponin Heterotrimer**: Bound at regular intervals along tropomyosin:\n    - **Troponin-T (TnT)**: Binds Tropomyosin.\n    - **Troponin-I (TnI)**: Inhibits actin-myosin cross-bridge binding.\n    - **Troponin-C (TnC)**: **Binds $\\text{Ca}^{2+}$ ions** (contains $4\\ \\text{Ca}^{2+}$-binding sites).\n- **Thick Filament (Myosin Complex)**: Polymer of $\\approx 300$ **Meromyosin** subunits.\n  - **Heavy Meromyosin (HMM)**: Globular Head + flexible Short Arm (Cross-arm). Projects outward at regular intervals.\n  - **Light Meromyosin (LMM)**: Fibrous Tail forming the central filament backbone.\n  - **Myosin Head Functional Sites**: (1) Actin-Binding Site, (2) ATP-Binding Site with intrinsic $\\text{Mg}^{2+}$-dependent **Myosin ATPase** activity."
+    },
+    {
+      "sectionNumber": 4,
+      "id": "sec-18-04",
+      "title": "Molecular Mechanism of Muscle Contraction: Sliding Filament Model",
+      "topic": "Neuromuscular Junction, T-Tubules, RyR1 Ca2+ Release, Cross-Bridge Cycling, & Rigor Mortis",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Action potential releases ACh at motor end plate -> spreads down T-tubules -> RyR1 releases Ca2+ from SR -> Ca2+ binds TnC -> tropomyosin shifts -> cocked myosin head binds actin -> power stroke pulls actin inward (A-band constant, I-band shortens, H-zone disappears) -> fresh ATP binds to detach cross-bridge."
+      },
+      "codeSnippet": "CROSS-BRIDGE POWER STROKE CYCLE\n                         \n   1. Ca²⁺ binds Troponin-C ──► Tropomyosin shifts ──► Unmasks Myosin-binding sites on Actin.\n   2. Myosin ATPase hydrolyzes ATP (ATP → ADP + Pᵢ) ──► Myosin Head \"Cocked\".\n   3. High-energy Myosin Head binds Actin ──► Forms CROSS-BRIDGE.\n   4. POWER STROKE: Release of Pᵢ & ADP causes Myosin head to pivot, pulling Actin inward.\n   5. Fresh ATP binds Myosin Head ──► Detaches Cross-Bridge from Actin.\n   6. ATP hydrolyzed ──► Myosin re-cocked for next cycle.",
+      "content": "Proposed by H.E. Huxley & A.F. Huxley (1954), the **Sliding Filament Theory** states that muscle contraction occurs when thin actin filaments slide inward over thick myosin filaments toward the M-line, pulling Z-discs closer together.\n\n### 4.1 Stepwise Contraction Cascade\n1. **Neuromuscular Excitation**: Motor nerve action potential reaches the motor end plate $\\rightarrow$ exocytosis of **Acetylcholine (ACh)** $\\rightarrow$ binds nicotinic AChRs on sarcolemma $\\rightarrow$ generates muscle action potential.\n2. **T-Tubule Triad Activation**: Depolarization travels deep into muscle fibers via **Transverse Tubules (T-tubules)**, opening **Ryanodine Receptors (RyR1)** on the terminal cisternae of the Sarcoplasmic Reticulum $\\rightarrow$ massive $\\text{Ca}^{2+}$ release into sarcoplasm.\n3. **Unmasking Binding Sites**: $\\text{Ca}^{2+}$ binds **Troponin-C**, inducing a conformational shift in Troponin that pulls **Tropomyosin** out of actin grooves, exposing myosin-binding sites.\n4. **Cross-Bridge Formation & Power Stroke**:\n   - Myosin ATPase hydrolyzes $\\text{ATP} \\rightarrow \\text{ADP} + \\text{P}_i$, cocking the globular head into high-energy conformation.\n   - Cocked head binds exposed actin $\\rightarrow$ forms **Cross-Bridge**.\n   - **Power Stroke**: Release of $\\text{P}_i$ and $\\text{ADP}$ triggers head pivoting ($45^\\circ$), pulling actin inward toward the M-line.\n5. **Cross-Bridge Detachment**: A fresh molecule of **$\\text{ATP}$ binds the myosin head**, causing immediate cross-bridge detachment.\n6. **Relaxation**: Sarcoplasmic **SERCA $\\text{Ca}^{2+}$-ATPase pumps** actively transport $\\text{Ca}^{2+}$ back into the SR lumen; troponin returns to resting conformation, and tropomyosin re-masks actin binding sites.\n\n### 4.2 Structural Dimensional Changes during Contraction\n\n| Shortened / Narrowed | Remains Constant |\n| :--- | :--- |\n| 1. **Sarcomere Length** (Z-lines move closer) | 1. **A-Band Length** (Length of thick myosin filaments) |\n| 2. **I-Band Length** (Thin filaments overlap thick) | 2. **Individual Actin Filament Length** |\n| 3. **H-Zone** (Narrows and completely disappears) | |"
+    },
+    {
+      "sectionNumber": 5,
+      "id": "sec-18-05",
+      "title": "Bioenergetics of Muscle Contraction & Red vs. White Fibers",
+      "topic": "Creatine Phosphate, Cori Cycle, & Type I Slow-Twitch vs Type II Fast-Twitch Muscle Fibers",
+      "readingTimeMinutes": 12,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "ATP is regenerated via Creatine Phosphate and aerobic/anaerobic respiration. Red fibers (Type I) are myoglobin/mitochondria-rich, aerobic, slow, and fatigue-resistant (posture/flight). White fibers (Type II) are myoglobin-poor, anaerobic, fast, and quick-fatiguing (sprinting/eye movements)."
+      },
+      "content": "### 5.1 Muscle ATP Regeneration Pathways\n1. **Stored ATP & Creatine Phosphate (Phosphagen System)**: Provides instantaneous ATP for 2–8 seconds of maximal exertion via Creatine Kinase:\n   $$\\text{Creatine Phosphate} + \\text{ADP} \\xrightarrow{\\text{Creatine Kinase}} \\text{Creatine} + \\text{ATP}$$\n2. **Anaerobic Glycolysis (Lactic Acid Pathway)**: Fast ATP generation ($2\\text{ ATP/glucose}$) producing lactic acid, which enters the **Cori Cycle** in the liver to be converted back into glucose.\n3. **Aerobic Cellular Respiration**: Mitochondrial oxidative phosphorylation yielding $30\\text{--}32\\text{ ATP/glucose}$ for sustained, fatigue-free muscle performance.\n\n### 5.2 Red (Type I) vs White (Type II) Muscle Fibers Matrix\n\n| Trait | Red Muscle Fibers (Type I / Slow-Twitch) | White Muscle Fibers (Type II / Fast-Twitch) |\n| :--- | :--- | :--- |\n| **Myoglobin Content** | **High** (deep red color) | **Low** (pale/white appearance) |\n| **Mitochondria Count** | **Abundant / Numerous** | Sparse / Few |\n| **Vascularization** | Dense capillary network | Sparse capillaries |\n| **Sarcoplasmic Reticulum** | Moderately developed | **Extensively developed** (rapid $\\text{Ca}^{2+}$ kinetics) |\n| **Primary Metabolism** | **Aerobic Respiration** (Oxidative Phosphorylation) | **Anaerobic Glycolysis** |\n| **Contraction & Fatigue** | Slow velocity; **Fatigue-Resistant** | Rapid velocity; **Fatigues Quickly** |\n| **Representative Examples** | Postural back muscles, migratory bird flight muscles | Extraocular eye muscles, human hand/sprinter muscles |"
+    },
+    {
+      "sectionNumber": 6,
+      "id": "sec-18-06",
+      "title": "Human Skeletal System Architecture: Axial Skeleton (80 Bones)",
+      "topic": "Dicondylic Skull, Cranial & Facial Bones, Auditory Ossicles, Vertebral Column, & True/False/Floating Ribs",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Axial skeleton (80 bones): Skull (22) + Hyoid (1) + Auditory Ossicles (6: Malleus, Incus, Stapes) = 29 bones (dicondylic). Vertebrae (26): C7, T12, L5, S1, Co1. Atlas (C1) and Axis (C2 with odontoid peg). Ribs (24): True (1–7), False (8–10), Floating (11–12)."
+      },
+      "codeSnippet": "AXIAL SKELETON BREAKDOWN (80 Bones)\n                                     │\n     ┌───────────────────────────────┼───────────────────────────────┐\n     ▼                               ▼                               ▼\n  SKULL (22 + 7 = 29)            VERTEBRAL COLUMN (26)           THORACIC CAGE (25)\n  ├── Cranial Bones (8)          ├── Cervical (C₇)               ├── Sternum (1)\n  ├── Facial Bones (14)          ├── Thoracic (T₁₂)              └── Ribs (24 = 12 pairs)\n  ├── Hyoid Bone (1)             ├── Lumbar (L₅)                    ├── True (1–7)\n  └── Auditory Ossicles (6)      ├── Sacral (S₍₅₎→₁)                ├── False (8–10)\n      (Malleus, Incus, Stapes)   └── Coccygeal (Co₍₄₎→₁)            └── Floating (11–12)",
+      "content": "The adult human skeleton comprises **206 Bones**, categorized into the **Axial Skeleton (80 bones)** and **Appendicular Skeleton (126 bones)**.\n\n### 6.1 The Axial Skeleton (80 Bones)\n1. **The Skull (29 Bones)**:\n   - **Cranial Bones (8)**: Frontal (1), Parietal (2), Temporal (2), Occipital (1), Sphenoid (1), Ethmoid (1).\n   - **Facial Bones (14)**: Nasal (2), Maxillae (2), Zygomatic (2), Lacrimal (2), Palatine (2), Inferior Nasal Conchae (2), Vomer (1), Mandible (1).\n   - **Dicondylic Skull**: Possesses **2 Occipital Condyles** that articulate with the Atlas vertebra.\n   - **Associated Bones (7)**: Single U-shaped **Hyoid Bone (1)** in floor of buccal cavity + **6 Auditory Ossicles** (Malleus, Incus, Stapes [smallest bone in human body]).\n2. **Vertebral Column (26 Bones)**:\n   - Formula: $\\mathbf{\\text{C}_7\\ \\text{T}_{12}\\ \\text{L}_5\\ \\text{S}_{(5)\\rightarrow 1}\\ \\text{Co}_{(4)\\rightarrow 1} = 26\\text{ Vertebrae}}$.\n   - **Atlas ($\\text{C}_1$)**: First cervical vertebra; ring-like, lacks body/spinous process; articulates with occipital condyles (\"Yes\" nodding motion).\n   - **Axis ($\\text{C}_2$)**: Second cervical vertebra; features vertical **Odontoid Process (Peg)** articulating with Atlas (\"No\" pivot motion).\n3. **Thoracic Cage (25 Bones)**:\n   - **Sternum (1)**: Flat dagger-shaped breastbone.\n   - **Ribs (12 Pairs = 24 Bones)**: Bicephalic (two dorsal heads: Capitulum & Tuberculum):\n     - **True Ribs (Pairs 1–7)**: Vertebrosternal ribs; attach directly to sternum via hyaline costal cartilage.\n     - **False Ribs (Pairs 8–10)**: Vertebrochondral ribs; join costal cartilage of 7th rib.\n     - **Floating Ribs (Pairs 11–12)**: Vertebral ribs; remain unattached ventrally (protect kidneys)."
+    },
+    {
+      "sectionNumber": 7,
+      "id": "sec-18-07",
+      "title": "Human Skeletal System Architecture: Appendicular Skeleton (126 Bones)",
+      "topic": "Pectoral & Pelvic Girdles, Glenoid Cavity, Acetabulum, Limbs, Sesamoid Patella, & Phalangeal Formulas",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Appendicular skeleton (126 bones): Pectoral girdle (4: 2 Clavicles + 2 Scapulae with Glenoid cavity); Pelvic girdle (2 Coxal bones: Ilium, Ischium, Pubis with Acetabulum); Limbs (120): Upper (30x2) and Lower (30x2 with Femur, Sesamoid Patella, and 14 Phalanges)."
+      },
+      "codeSnippet": "APPENDICULAR SKELETON BREAKDOWN (126 Bones)\n                                      │\n         ┌────────────────────────────┴────────────────────────────┐\n         ▼                                                         ▼\n   GIRDLES (6 Bones)                                           LIMBS (120 Bones)\n   ├── Pectoral Girdle (4):                                    ├── Upper Limbs (60 = 30 × 2):\n   │   ├── Clavicle (2 - Collar bone)                              │   Humerus, Radius, Ulna, Carpals (8),\n   │   └── Scapula (2 - Glenoid Cavity)                            │   Metacarpals (5), Phalanges (14)\n   └── Pelvic Girdle (2 Coxal Bones):                          └── Lower Limbs (60 = 30 × 2):\n       └── Fusion of Ilium, Ischium, & Pubis                       Femur, Patella, Tibia, Fibula,\n           (Acetabulum Socket)                                     Tarsals (7), Metatarsals (5), Phalanges (14)",
+      "content": "### 6.2 The Appendicular Skeleton (126 Bones)\n\n1. **Pectoral Girdle (4 Bones)**:\n   - **Clavicle (2)**: S-shaped slender collar bone articulating with acromion and sternum.\n   - **Scapula (2)**: Large triangular flat bone over dorsal ribs 2–7. Features a prominent Spine terminating in the **Acromion Process**. Below acromion lies the shallow **Glenoid Cavity**, articulating with the head of the Humerus (ball-and-socket joint).\n2. **Pelvic Girdle (2 Bones)**:\n   - Formed by two **Coxal (Innominate) Bones**, each formed by fusion of **Ilium, Ischium, and Pubis**.\n   - **Acetabulum**: Deep lateral socket at the junction of the 3 bones articulating with the head of the Femur.\n   - **Pubic Symphysis**: Ventral midline joint containing fibrous cartilage.\n3. **Limbs (120 Bones = 60 per pair)**:\n   - **Upper Limb ($30\\times 2$)**: Humerus (1), Radius (1), Ulna (1), Carpals (8 wrist bones), Metacarpals (5 palm bones), Phalanges (14 digits: formula $2.3.3.3.3$).\n   - **Lower Limb ($30\\times 2$)**: Femur (1 thigh bone - longest/strongest bone), **Patella (1 knee cap - triangular sesamoid bone formed in quadriceps tendon)**, Tibia (1 shin bone), Fibula (1), Tarsals (7 ankle bones), Metatarsals (5 sole bones), Phalanges (14 toe digits: formula $2.3.3.3.3$)."
+    },
+    {
+      "sectionNumber": 8,
+      "id": "sec-18-08",
+      "title": "Joint Classification & Synovial Articulations",
+      "topic": "Fibrous (Synarthroses), Cartilaginous (Amphiarthroses), & 6 Synovial Subtypes (Diarthroses)",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Joints are classified as Fibrous (immovable sutures), Cartilaginous (slightly movable pubic symphysis/discs), and Synovial (freely movable with fluid cavity). Synovial subtypes: Ball & Socket (shoulder/hip), Hinge (elbow/knee), Pivot (Atlas-Axis), Gliding (carpals/tarsals), Saddle (thumb carpal-metacarpal), Condyloid (wrist)."
+      },
+      "codeSnippet": "SYNOVIAL JOINT SUBTYPES\n                                      │\n     ┌───────────────┬────────────────┼────────────────┬───────────────┐\n     ▼               ▼                ▼                ▼               ▼\nBall & Socket      Hinge            Pivot            Gliding          Saddle\n(Multi-axial)      (Uniaxial)       (Rotational)     (Planar)         (Biaxial)\n├── Shoulder       ├── Elbow        ├── Atlas/Axis   ├── Carpals      └── Thumb Carpal/\n└── Hip            └── Knee         └── Radius/Ulna  └── Tarsals          Metacarpal",
+      "content": "### 7.1 Structural Classes of Joints\n1. **Fibrous Joints (Synarthroses)**: Immovable joints united by dense collagenous fibrous tissue lacking a joint cavity (e.g., **Sutures of the skull**).\n2. **Cartilaginous Joints (Amphiarthroses)**: Slightly movable joints united by hyaline or fibrocartilage (e.g., **Pubic Symphysis**, **Intervertebral Discs**).\n3. **Synovial Joints (Diarthroses)**: Freely movable joints characterized by a synovial cavity lined with a synovial membrane secreting hyaluronic acid-rich **Synovial Fluid**.\n\n### 7.2 Synovial Joint Kinematic Subtypes Matrix\n\n| Synovial Subtype | Structural Kinematics | Representative Anatomical Examples |\n| :--- | :--- | :--- |\n| **Ball and Socket** | Multiaxial rotation in all 3 planes | Shoulder joint (Humerus-Glenoid Cavity); Hip joint (Femur-Acetabulum) |\n| **Hinge Joint** | Uniaxial flexion and extension in 1 plane | Elbow joint, Knee joint, Interphalangeal joints |\n| **Pivot Joint** | Rotational movement around central axis | **Atlanto-axial joint ($\\text{C}_1\\text{--}\\text{C}_2$)** (\"No\" motion); Proximal Radio-ulnar joint |\n| **Gliding Joint** | Planar sliding of flat bone surfaces | Between **Carpals** (wrist); between **Tarsals** (ankle); intervertebral articular facets |\n| **Saddle Joint** | Biaxial movement with reciprocal concave-convex fit | **Between Carpal (Trapezium) and Metacarpal of Thumb** |\n| **Ellipsoid / Condyloid** | Biaxial flexion, extension, abduction, circumduction | Atlanto-occipital joint (\"Yes\" nodding); Radiocarpal Wrist joint |"
+    },
+    {
+      "sectionNumber": 9,
+      "id": "sec-18-09",
+      "title": "Pathophysiology of Musculoskeletal Disorders: Autoimmune & Genetic",
+      "topic": "Myasthenia Gravis (AChR Antibodies), Duchenne Muscular Dystrophy (Dystrophin Gene), & Tetany",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Myasthenia Gravis is an autoimmune disease with antibodies blocking Nicotinic ACh receptors. Muscular Dystrophy (DMD) is an X-linked genetic deficiency of Dystrophin. Tetany is involuntary spasms caused by hypocalcemia-induced neuronal Na+ hyper-excitability."
+      },
+      "content": "### 8.1 Autoimmune & Neuromuscular Pathologies\n- **Myasthenia Gravis**:\n  - **Etiology**: Autoimmune disease wherein circulating auto-antibodies bind, cross-link, and internalize **Nicotinic Acetylcholine Receptors (AChR)** at the motor end plate of skeletal muscle fibers.\n  - **Clinical Manifestations**: Impaired neuromuscular transmission causing progressive muscle weakness, fatigue, **Ptosis (drooping eyelids)**, Diplopia (double vision), and potential respiratory failure (Myasthenic Crisis).\n- **Tetany (Hypocalcemic Spasm)**:\n  - **Etiology**: Caused by **Hypocalcemia** (low serum $\\text{Ca}^{2+} < 7.0\\text{ mg/dL}$), frequently secondary to hypoparathyroidism.\n  - **Mechanism**: Low extracellular $\\text{Ca}^{2+}$ increases neuronal cell membrane permeability to $\\text{Na}^+$ ions, lowering the action potential threshold and triggering spontaneous, repetitive action potentials.\n  - **Clinical Presentation**: Involuntary, painful, rapid muscle spasms, carpopedal spasms, and sustained contractions.\n- **Duchenne Muscular Dystrophy (DMD)**:\n  - **Etiology**: **X-linked recessive genetic disorder** caused by nonsense/frameshift mutations in the *DMD* gene on the X-chromosome encoding **Dystrophin**.\n  - **Pathology**: Dystrophin normally anchors actin cytoskeleton to the sarcolemmal extracellular matrix. Its absence destabilizes sarcolemma during contraction, causing chronic $\\text{Ca}^{2+}$ influx, myofiber necrosis, and pseudohypertrophy with fatty/fibrous tissue replacement."
+    },
+    {
+      "sectionNumber": 10,
+      "id": "sec-18-10",
+      "title": "Metabolic & Inflammatory Joint Pathologies: Arthritis & Osteoporosis",
+      "topic": "Osteoarthritis (Wear), Rheumatoid Arthritis (Pannus / RF IgM), Gout (Urate Crystals), & Osteoporosis",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Osteoarthritis is wear-and-tear hyaline cartilage erosion forming osteophytes. Rheumatoid Arthritis is autoimmune synovial inflammation forming invasive pannus. Gout is hyperuricemia causing needle-like monosodium urate crystal deposition (Great Toe). Osteoporosis is bone density loss driven by post-menopausal estrogen deficiency."
+      },
+      "codeSnippet": "MUSCULOSKELETAL PATHOLOGIES\n                                     │\n         ┌───────────────────────────┼───────────────────────────┐\n         ▼                           ▼                           ▼\n   AUTOIMMUNE / GENETIC           METABOLIC / SPASM             INFLAMMATORY\n ├── Myasthenia Gravis (AChR)    ├── Tetany (Hypocalcemia)       ├── Osteoarthritis (Wear)\n └── Muscular Dystrophy (DMD)    └── Osteoporosis (Estrogen)     ├── Rheumatoid (Pannus)\n                                                                 └── Gout (Urate Crystals)",
+      "content": "### 8.2 Arthritic Disorders & Metabolic Bone Disease\n\n1. **Osteoarthritis (Degenerative Joint Disease)**:\n   - Progressive \"wear-and-tear\" erosion and degradation of articular **Hyaline Cartilage**.\n   - Results in bone-on-bone friction, subchondral sclerosis, and formation of bony spurs (**Osteophytes**).\n2. **Rheumatoid Arthritis (RA)**:\n   - Chronic **Autoimmune inflammatory disease** wherein auto-antibodies (**Rheumatoid Factor - IgM**) attack synovial membranes.\n   - Causes synovial hyperplasia and hypervascularity, producing an invasive granulation tissue called **Pannus** that erodes articular cartilage and bone, leading to joint deformity and ankylosis.\n3. **Gout / Gouty Arthritis**:\n   - Inborn error of purine metabolism or reduced renal clearance leading to chronic **Hyperuricemia** (elevated plasma uric acid).\n   - Leads to precipitation and deposition of needle-shaped **Monosodium Urate Crystals** within synovial cavities and articular cartilage.\n   - Typically presents with acute, intensely painful monoarthritis of the first metatarsophalangeal joint (**Great Toe**).\n4. **Osteoporosis**:\n   - Age-related metabolic bone disorder where **osteoclastic bone resorption exceeds osteoblastic bone formation**, leading to reduced Bone Mineral Density (BMD) and fragile, porous bones.\n   - **Primary Driver**: Post-menopausal **Estrogen Deficiency** (estrogen normally inhibits osteoclasts), dramatically elevating fracture risks in the femoral neck and vertebral bodies."
+    },
+    {
+      "sectionNumber": 11,
+      "id": "sec-18-11",
+      "title": "Locomotion Physiology Master Glossary & High-Yield NEST Traps",
+      "topic": "35+ Core Definitions & 10 High-Yield Examination Traps",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Comprehensive glossary of musculoskeletal anatomy and 10 high-yield NEST traps for exam readiness."
+      },
+      "content": "### High-Yield NEST Misconceptions & Traps Table\n\n| Misconception / Trap | Biological Reality | Exam Tip / Context |\n| :--- | :--- | :--- |\n| *\"The length of the A-band shortens during muscle contraction.\"* | The **A-band length remains CONSTANT**. Only the I-band and H-zone shorten/disappear. | A-band reflects the fixed physical length of thick myosin filaments. |\n| *\"Calcium binds to Tropomyosin during muscle contraction.\"* | $\\text{Ca}^{2+}$ binds specifically to **Troponin-C (TnC)**, causing a conformational shift in Tropomyosin. | Troponin-C has 4 $\\text{Ca}^{2+}$-binding sites. |\n| *\"Rigor mortis occurs because muscle cells are flooded with excess ATP.\"* | Rigor mortis occurs due to **ATP DEPLETION**; fresh ATP is required to break cross-bridges. | Without ATP, myosin heads remain permanently bound to actin. |\n| *\"Gout is caused by deposition of calcium oxalate crystals in joints.\"* | Gout is caused by deposition of **Monosodium Urate Crystals** (from uric acid purine breakdown). | Calcium oxalate forms renal calculi (kidney stones). |\n| *\"Myasthenia Gravis is a genetic dystrophin deficiency.\"* | Myasthenia Gravis is an **Autoimmune disease targeting ACh receptors**. Dystrophin deficiency causes **Duchenne Muscular Dystrophy**. | Do not confuse MG (autoimmune) with DMD (genetic). |\n| *\"The human adult skull has 22 bones and articulates with 1 occipital condyle.\"* | The human skull is **Dicondylic** (possesses **2 Occipital Condyles** articulating with Atlas). | Monocondylic skulls are found in Reptiles and Birds. |\n| *\"False ribs do not articulate with the vertebral column.\"* | False ribs (8th, 9th, 10th) articulate dorsally with vertebrae; they join the **7th costal cartilage** ventrally. | **Floating ribs (11th & 12th)** remain unattached ventrally. |\n| *\"Red muscle fibers fatigue rapidly because they perform anaerobic glycolysis.\"* | Red fibers are **Slow-Twitch, Aerobic, rich in Myoglobin/Mitochondria, and FATIGUE-RESISTANT**. | White muscle fibers perform anaerobic glycolysis and fatigue rapidly. |\n| *\"Tetany is caused by hypercalcemia (excess calcium).\"* | Tetany is caused by **HYPOCALCEMIA (low serum $\\text{Ca}^{2+}$)**, causing neuronal membrane hyper-excitability. | Hypercalcemia depresses nervous system excitability. |\n| *\"The joint between Atlas and Axis is a hinge joint.\"* | The Atlanto-axial joint ($\\text{C}_1\\text{--}\\text{C}_2$) is a **PIVOT JOINT** allowing rotational \"No\" movement. | The Atlanto-occipital joint is a condyloid joint (\"Yes\" motion). |\n\n---\n\n### Master Glossary for Locomotion Physiology\n\n* **A-Band (Anisotropic Band)**: The dark central region of a sarcomere extending the fixed physical length of thick myosin filaments.\n* **Acetabulum**: A deep lateral cup-shaped socket on the pelvic coxal bone articulating with the head of the Femur.\n* **Actin**: The globular (G-actin) or filamentous (F-actin) motor protein component of thin muscle myofilaments.\n* **Acromion Process**: A lateral terminal expansion of the scapular spine articulating with the clavicle.\n* **Amphiarthrosis**: A slightly movable joint united by cartilage (e.g., Pubic symphysis, intervertebral discs).\n* **Atlas ($\\text{C}_1$)**: The first cervical vertebra articulating with the dicondylic skull to permit \"Yes\" nodding motion.\n* **Axis ($\\text{C}_2$)**: The second cervical vertebra featuring an odontoid peg permitting \"No\" rotational head motion.\n* **Cartilaginous Joint**: A joint connected entirely by hyaline or fibrocartilage lacking a synovial cavity.\n* **Clavicle**: The collar bone; an S-shaped long bone forming the anterior pectoral girdle.\n* **Creatine Phosphate**: A high-energy phosphorylated compound storing phosphate groups for rapid ATP regeneration in muscle.\n* **Cross-Bridge**: The temporary physical linkage formed when a high-energy myosin head binds to an actin filament.\n* **Diarthrosis (Synovial Joint)**: A freely movable joint characterized by a fluid-filled synovial cavity.\n* **Dystrophin**: A structural protein anchoring actin myofilaments to the sarcolemma, mutated in DMD.\n* **Endomysium**: The delicate connective tissue sheath surrounding an individual muscle fiber.\n* **Fascia**: A dense sheath of collagenous connective tissue binding multiple muscle fascicles together.\n* **Fascicle**: A discrete bundle of skeletal muscle fibers within a muscle.\n* **Femur**: The thigh bone; the longest, heaviest, and strongest bone in the human skeleton.\n* **Glenoid Cavity**: A shallow lateral depression on the scapula articulating with the head of the Humerus.\n* **Gout**: A metabolic disorder characterized by monosodium urate crystal deposition in synovial joints.\n* **H-Zone**: The central lighter zone of an A-band containing thick myosin filaments exclusively.\n* **I-Band (Isotropic Band)**: The light band of a sarcomere containing thin actin filaments exclusively.\n* **Intercalated Disc**: A specialized intercellular junction in cardiac muscle containing desmosomes and gap junctions.\n* **Light Meromyosin (LMM)**: The fibrous tail component of a meromyosin molecule.\n* **M-Line**: A fine proteinaceous membrane bisecting the H-zone linking adjacent thick filaments.\n* **Myasthenia Gravis**: An autoimmune neuromuscular disorder characterized by antibodies blocking Nicotinic ACh receptors.\n* **Myofibril**: A cylindrical organelle within a muscle fiber composed of repeating sarcomere units.\n* **Myoglobin**: An iron- and oxygen-binding hemeprotein present in high concentrations in red muscle fibers.\n* **Myosin**: The hexameric motor protein component of thick muscle myofilaments possessing ATPase activity.\n* **Osteoarthritis**: Degenerative \"wear-and-tear\" joint disease marked by erosion of articular hyaline cartilage.\n* **Osteoporosis**: Age-related reduction in bone mineral density leading to porous, fragile bones.\n* **Patella**: The knee cap; a triangular sesamoid bone formed within the quadriceps tendon.\n* **Pectoral Girdle**: The shoulder girdle comprising the Clavicle and Scapula (4 bones).\n* **Pelvic Girdle**: The hip girdle comprising two Coxal bones formed by fusion of Ilium, Ischium, and Pubis.\n* **Perimysium**: The connective tissue sheath surrounding a muscle fascicle.\n* **Power Stroke**: The pivoting motion of a myosin head that pulls actin filaments inward toward the M-line.\n* **Red Muscle Fibers**: Slow-twitch, aerobic muscle fibers rich in myoglobin, mitochondria, and capillaries.\n* **Rheumatoid Arthritis**: An autoimmune joint disease producing Rheumatoid Factor (IgM) leading to pannus formation.\n* **Rigor Mortis**: Post-mortem muscle stiffness caused by ATP depletion preventing cross-bridge detachment.\n* **Sarcolemma**: The plasma membrane surrounding a skeletal muscle fiber.\n* **Sarcomere**: The functional contractile unit of a myofibril bounded by two adjacent Z-discs.\n* **Sarcoplasm**: The cytoplasm of a muscle cell containing high glycogen and myoglobin stores.\n* **Sarcoplasmic Reticulum**: The specialized smooth ER of muscle cells that stores and releases $\\text{Ca}^{2+}$ ions.\n* **Sesamoid Bone**: A bone formed by ossification within a tendon (e.g., Patella).\n* **Sliding Filament Theory**: The mechanism of muscle contraction where thin actin filaments slide over thick myosin filaments.\n* **Synarthrosis**: An immovable fibrous joint (e.g., Sutures of the skull).\n* **T-Tubule**: Invaginations of the sarcolemma that conduct action potentials deep into muscle fibers.\n* **Tetany**: Involuntary muscular spasms caused by hypocalcemia (low $\\text{Ca}^{2+}$).\n* **Troponin**: A heterotrimeric regulatory protein complex (TnT, TnI, TnC) bound to tropomyosin on thin filaments.\n* **Tropomyosin**: A fibrous protein winding along actin grooves that masks myosin-binding sites during rest.\n* **White Muscle Fibers**: Fast-twitch, anaerobic muscle fibers low in myoglobin, specialized for rapid powerful bursts.\n* **Z-Disc (Z-Line)**: A dense protein membrane bisecting the I-band that anchors thin actin filaments."
+    }
+  ],
+  "chapterCommonMistakes": [
+    "The length of the A-band shortens during contraction (Reality: The A-band length remains constant; only I-band and H-zone shorten).",
+    "Calcium binds to Tropomyosin during contraction (Reality: Ca2+ binds specifically to Troponin-C).",
+    "Rigor mortis occurs because muscle cells are flooded with excess ATP (Reality: Rigor mortis is caused by complete ATP depletion).",
+    "Gout is caused by calcium oxalate crystal deposition (Reality: Gout is caused by Monosodium Urate crystals; oxalate forms kidney stones).",
+    "Myasthenia Gravis is a genetic dystrophin deficiency (Reality: Myasthenia Gravis is autoimmune against AChRs; DMD is genetic dystrophin deficiency).",
+    "The human skull has 1 occipital condyle (Reality: The human skull is Dicondylic with 2 occipital condyles).",
+    "False ribs do not articulate with vertebrae (Reality: False ribs articulate dorsally with vertebrae and join the 7th costal cartilage ventrally).",
+    "Red muscle fibers fatigue quickly (Reality: Red fibers are aerobic, slow-twitch, and fatigue-resistant; white fibers fatigue quickly).",
+    "Tetany is caused by hypercalcemia (Reality: Tetany is caused by HYPOCALCEMIA, which induces neuronal Na+ hyper-excitability).",
+    "The Atlanto-axial joint is a hinge joint (Reality: The Atlanto-axial C1-C2 joint is a PIVOT joint allowing 'No' head rotation)."
+  ],
+  "questions": [
+    {
+      "id": "q-bio-c18-001",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Type II White Fast-Twitch Muscle Fibers",
+      "difficulty": "Medium",
+      "questionText": "An Olympic sprinter undergoes a muscle biopsy following a 100-meter dash. Histological and biochemical analysis reveals that the primary muscle fibers recruited during the sprint contain low myoglobin concentration, few mitochondria, high glycogen stores, an extensively developed sarcoplasmic reticulum, and rely predominantly on anaerobic glycolysis. What type of muscle fibers are these?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Type I Red Slow-Twitch Fibers", "isCorrect": false },
+        { "id": "b", "text": "Type II White Fast-Twitch Fibers", "isCorrect": true },
+        { "id": "c", "text": "Cardiac Intercalated Fibers", "isCorrect": false },
+        { "id": "d", "text": "Visceral Single-Unit Smooth Fibers", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Low myoglobin, sparse mitochondria, high glycogen stores, extensive sarcoplasmic reticulum (for rapid Ca²⁺ release), and reliance on anaerobic glycolysis are diagnostic hallmarks of Type II White Fast-Twitch Muscle Fibers.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c18-002",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Non-Hydrolyzable ATP Analog Effect on Cross-Bridges",
+      "difficulty": "Hard",
+      "questionText": "During a molecular muscle contraction experiment, a physiologist adds a non-hydrolyzable analog of ATP (which binds myosin heads with high affinity but CANNOT be hydrolyzed by Myosin ATPase) to a single isolated myofibril undergoing active cross-bridge cycling. What will be the immediate mechanical consequence?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "The myosin head will pivot rapidly, driving an exaggerated power stroke.", "isCorrect": false },
+        { "id": "b", "text": "Myosin heads will detach from actin filaments and remain un-cocked, halting contraction in a relaxed state.", "isCorrect": true },
+        { "id": "c", "text": "Myosin heads will remain permanently bound to actin in an irreversible rigor state.", "isCorrect": false },
+        { "id": "d", "text": "Tropomyosin will permanently unmask all actin-binding sites.", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "ATP binding to the myosin head is required to detach cross-bridges from actin. However, ATP hydrolysis (ATP -> ADP + Pi) by Myosin ATPase is required to re-cock the myosin head into its high-energy state. A non-hydrolyzable ATP analog will cause cross-bridge detachment, but because it cannot be hydrolyzed, the head cannot be cocked to bind actin again, locking the myofibril in a relaxed state.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c18-003",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Myasthenia Gravis Autoimmune Pathology",
+      "difficulty": "Easy",
+      "questionText": "A 35-year-old female presents with progressive muscle weakness, double vision (diplopia), and ptosis (drooping eyelids). Electromyography indicates impaired neuromuscular transmission. Serological testing detects high titers of circulating auto-antibodies directed against Nicotinic Acetylcholine Receptors (AChR) at the motor end plate. What is the diagnosis?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Duchenne Muscular Dystrophy", "isCorrect": false },
+        { "id": "b", "text": "Myasthenia Gravis", "isCorrect": true },
+        { "id": "c", "text": "Amyotrophic Lateral Sclerosis", "isCorrect": false },
+        { "id": "d", "text": "Rheumatoid Arthritis", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Myasthenia Gravis is an autoimmune neuromuscular disorder where auto-antibodies block and destroy Nicotinic Acetylcholine Receptors (AChR) on the sarcolemma at the motor end plate, leading to progressive skeletal muscle weakness and ptosis.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c18-004",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Hypocalcemic Tetany Mechanism",
+      "difficulty": "Medium",
+      "questionText": "A patient suffering from severe hypoparathyroidism develops sudden, painful, involuntary muscular spasms and cramps in the hands and feet. Blood biochemistry reveals a serum calcium level of 6.2 mg/dL (normal: 9.0–10.5 mg/dL). What physiological mechanism explains this muscular spasm?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Hypocalcemia increases neuronal membrane permeability to Na⁺, causing spontaneous repetitive depolarization", "isCorrect": true },
+        { "id": "b", "text": "Hypocalcemia causes troponin-C to bind actin permanently", "isCorrect": false },
+        { "id": "c", "text": "Hypocalcemia inhibits Acetylcholinesterase in the synaptic cleft", "isCorrect": false },
+        { "id": "d", "text": "Hypocalcemia triggers massive ATP hydrolysis in the sarcoplasm", "isCorrect": false }
+      ],
+      "correctAnswer": "a",
+      "solutionExplanation": "Low extracellular calcium (Hypocalcemia) lowers the threshold for neuronal excitation by increasing membrane permeability to Na⁺ ions. This causes neurons to depolarize spontaneously and fire repetitive action potentials, causing involuntary muscle cramps (Tetany).",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c18-005",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Constant A-Band Length during Contraction",
+      "difficulty": "Easy",
+      "questionText": "Structural examination of an isolated sarcomere during active isotonic contraction demonstrates that the distance between adjacent Z-discs decreases from 2.5 µm to 1.8 µm. Which structural region of the sarcomere maintains a CONSTANT length throughout this contraction cycle?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "The I-Band", "isCorrect": false },
+        { "id": "b", "text": "The H-Zone", "isCorrect": false },
+        { "id": "c", "text": "The A-Band", "isCorrect": true },
+        { "id": "d", "text": "The distance between M-lines of adjacent sarcomeres", "isCorrect": false }
+      ],
+      "correctAnswer": "c",
+      "solutionExplanation": "According to the Sliding Filament Theory, during contraction, thin actin filaments slide over thick myosin filaments toward the M-line. This narrows/eliminates the H-Zone and shortens the I-Band, bringing Z-lines closer. The A-Band length remains CONSTANT because it represents the fixed physical length of thick myosin filaments.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c18-006",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Axis C2 Odontoid Process Pivot Joint",
+      "difficulty": "Easy",
+      "questionText": "Which specific cervical vertebra possesses a vertical peg-like process called the Odontoid Process that articulates with the first cervical vertebra (Atlas) to form a pivot joint enabling rotational 'No' movement of the head?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Atlas (C₁)", "isCorrect": false },
+        { "id": "b", "text": "Axis (C₂)", "isCorrect": true },
+        { "id": "c", "text": "Cervical Vertebra 7 (C₇)", "isCorrect": false },
+        { "id": "d", "text": "Lumbar Vertebra 1 (L₁)", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "The Axis (C₂) vertebra features a prominent vertical Odontoid Process (Peg) that fits into the anterior arch of the Atlas (C₁), forming a Pivot Joint that allows rotational ('No') head motion.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c18-007",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Shoulder Ball-and-Socket Joint Classification",
+      "difficulty": "Easy",
+      "questionText": "An orthopedic surgeon examines a joint formed between the head of the Humerus and the Glenoid Cavity of the Scapula. How is this joint classified structurally and functionally?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Cartilaginous Joint; Amphiarthrosis", "isCorrect": false },
+        { "id": "b", "text": "Synovial Ball-and-Socket Joint; Diarthrosis", "isCorrect": true },
+        { "id": "c", "text": "Synovial Pivot Joint; Uniaxial", "isCorrect": false },
+        { "id": "d", "text": "Fibrous Suture; Synarthrosis", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "The shoulder joint formed between the hemispherical head of the Humerus and the Glenoid Cavity of the Scapula is a Synovial Ball-and-Socket Joint, permitting multiaxial freely movable (Diarthrotic) locomotion.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c18-008",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Post-Menopausal Estrogen Deficiency Osteoporosis",
+      "difficulty": "Easy",
+      "questionText": "A 65-year-old post-menopausal woman experiences a sudden fracture of the femoral neck following a minor slip. Dual-energy X-ray absorptiometry (DEXA) demonstrates a marked reduction in bone mineral density. What hormonal deficiency is the primary driver of this metabolic bone disease?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Thyroxine Deficiency", "isCorrect": false },
+        { "id": "b", "text": "Estrogen Deficiency", "isCorrect": true },
+        { "id": "c", "text": "Insulin Deficiency", "isCorrect": false },
+        { "id": "d", "text": "Aldosterone Deficiency", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Post-menopausal Osteoporosis is primarily driven by Estrogen Deficiency. Estrogen normally inhibits osteoclast activity; post-menopausal loss of estrogen unleashes osteoclasts, causing bone resorption to outpace osteoblast bone formation, leading to porous, fragile bones.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c18-009",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Floating Ribs 11 and 12",
+      "difficulty": "Easy",
+      "questionText": "Which pairs of human ribs are termed 'Floating Ribs' because their anterior ventral ends remain completely unattached to both the sternum and costal cartilages?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Pairs 1 to 7", "isCorrect": false },
+        { "id": "b", "text": "Pairs 8, 9, and 10", "isCorrect": false },
+        { "id": "c", "text": "Pairs 11 and 12", "isCorrect": true },
+        { "id": "d", "text": "Pairs 1 to 5", "isCorrect": false }
+      ],
+      "correctAnswer": "c",
+      "solutionExplanation": "Pairs 11 and 12 are Floating Ribs (Vertebral Ribs) because their anterior ends remain free in the abdominal wall and do not articulate with the sternum or costal cartilages.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c18-010",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Troponin-C (TnC) Ca2+ Binding",
+      "difficulty": "Easy",
+      "questionText": "During cross-bridge cycling in skeletal muscle, which specific protein subunit binds Ca²⁺ ions released from the sarcoplasmic reticulum to initiate tropomyosin displacement?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Troponin-T (TnT)", "isCorrect": false },
+        { "id": "b", "text": "Troponin-I (TnI)", "isCorrect": false },
+        { "id": "c", "text": "Troponin-C (TnC)", "isCorrect": true },
+        { "id": "d", "text": "Heavy Meromyosin (HMM)", "isCorrect": false }
+      ],
+      "correctAnswer": "c",
+      "solutionExplanation": "Released Ca²⁺ binds specifically to Troponin-C (TnC) (which possesses 4 Ca²⁺-binding sites). This induces a conformational shift in the troponin-tropomyosin complex, pulling tropomyosin out of the actin grooves to unmask myosin-binding sites.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c18-011",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Sarcomere Structural Changes during Contraction",
+      "difficulty": "Medium",
+      "questionText": "Which of the following structural changes occur within a Sarcomere during active isometric/isotonic muscle contraction? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "The distance between adjacent Z-discs decreases.", "isCorrect": true },
+        { "id": "b", "text": "The H-zone narrows and can disappear completely.", "isCorrect": true },
+        { "id": "c", "text": "The length of the A-band decreases significantly.", "isCorrect": false },
+        { "id": "d", "text": "The length of the I-band shortens as thin filaments overlap thick filaments.", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "solutionExplanation": "A, B, D are correct: Sarcomeres shorten (Z-lines closer), H-zones narrow/disappear, and I-bands shorten. C is incorrect: The A-band length remains CONSTANT throughout contraction.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c18-012",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Cardiac Muscle Properties",
+      "difficulty": "Medium",
+      "questionText": "Select the correct options regarding the structural and functional properties of Cardiac Muscle: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Cardiac muscle fibers are striated, involuntary, branched, and uninucleated.", "isCorrect": true },
+        { "id": "b", "text": "Intercalated discs contain Desmosomes for physical structural adhesion and Gap Junctions for rapid electrical wave propagation.", "isCorrect": true },
+        { "id": "c", "text": "Cardiac muscle exhibits myogenic autorhythmicity initiated by the SA Node.", "isCorrect": true },
+        { "id": "d", "text": "Cardiac muscle relies exclusively on anaerobic glycolysis and fatigues rapidly under stress.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Cardiac muscle is striated, involuntary, branched, possesses intercalated discs (desmosomes + gap junctions), and is myogenic/autorhythmic. D is incorrect: Cardiac muscle relies strictly on aerobic respiration (rich in myoglobin/mitochondria) and is fatigue-resistant.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c18-013",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Axial Skeleton Bones",
+      "difficulty": "Easy",
+      "questionText": "Which of the following bones belong strictly to the AXIAL Skeleton (80 bones)? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Cranial and Facial bones (22)", "isCorrect": true },
+        { "id": "b", "text": "Sternum (1) and Ribs (24)", "isCorrect": true },
+        { "id": "c", "text": "Scapula and Clavicle (4)", "isCorrect": false },
+        { "id": "d", "text": "Vertebral Column (26)", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "solutionExplanation": "A, B, D are correct: Skull, Sternum, Ribs, Vertebrae, Hyoid, and Auditory Ossicles constitute the 80 bones of the Axial Skeleton. C is incorrect: The Scapula and Clavicle form the Pectoral Girdle (4 bones), which belongs to the Appendicular Skeleton.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c18-014",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Synovial Joints & Anatomical Examples",
+      "difficulty": "Medium",
+      "questionText": "Select the correct options regarding Synovial Joints and their anatomical examples: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Ball-and-Socket Joint → Shoulder joint (Humerus-Glenoid Cavity) and Hip joint (Femur-Acetabulum)", "isCorrect": true },
+        { "id": "b", "text": "Hinge Joint → Elbow joint, Knee joint, and Interphalangeal joints", "isCorrect": true },
+        { "id": "c", "text": "Pivot Joint → Atlanto-axial joint (C₁–C₂)", "isCorrect": true },
+        { "id": "d", "text": "Saddle Joint → Joint between Carpal and Metacarpal of the Thumb", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "solutionExplanation": "All options represent correct synovial joint classifications and their corresponding anatomical examples.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c18-015",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Thin Myofilament Molecular Components",
+      "difficulty": "Medium",
+      "questionText": "Which of the following statements correctly describe the molecular composition of Thin Myofilaments? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "F-Actin is a double-stranded helical polymer of globular G-Actin monomers.", "isCorrect": true },
+        { "id": "b", "text": "Tropomyosin is a fibrous double-stranded protein running along actin grooves that masks myosin-binding sites at rest.", "isCorrect": true },
+        { "id": "c", "text": "Troponin is a heterotrimeric complex comprising TnT, TnI, and TnC subunits.", "isCorrect": true },
+        { "id": "d", "text": "Meromyosin forms the main structural axis of thin filaments.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Thin filaments comprise F-actin polymers, tropomyosin strands, and the troponin complex. D is incorrect: Meromyosins are the subunit monomers of Thick Filaments (Myosin), NOT thin filaments.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c18-016",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Red vs White Muscle Fibers Traits",
+      "difficulty": "Medium",
+      "questionText": "Select the valid statements contrasting Red Muscle Fibers (Slow-Twitch) with White Muscle Fibers (Fast-Twitch): (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Red muscle fibers contain high myoglobin content and abundant mitochondria.", "isCorrect": true },
+        { "id": "b", "text": "Red muscle fibers depend on aerobic respiration and are resistant to fatigue.", "isCorrect": true },
+        { "id": "c", "text": "White muscle fibers contain extensive sarcoplasmic reticulum for rapid Ca²⁺ release.", "isCorrect": true },
+        { "id": "d", "text": "White muscle fibers contain dense myoglobin stores that make them fatigue-resistant.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Red fibers have high myoglobin/mitochondria, depend on aerobic metabolism, and resist fatigue; White fibers have extensive SR for rapid contraction. D is incorrect: White fibers are LOW in myoglobin and fatigue rapidly.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c18-017",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Autoimmune Musculoskeletal Disorders",
+      "difficulty": "Easy",
+      "questionText": "Which of the following pathological conditions are classified as Autoimmune Disorders? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Myasthenia Gravis (antibodies against Nicotinic ACh Receptors)", "isCorrect": true },
+        { "id": "b", "text": "Rheumatoid Arthritis (auto-antibodies / Rheumatoid Factor targeting synovial membranes)", "isCorrect": true },
+        { "id": "c", "text": "Osteoarthritis", "isCorrect": false },
+        { "id": "d", "text": "Duchenne Muscular Dystrophy", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b"
+      ],
+      "solutionExplanation": "A and B are correct: Myasthenia Gravis and Rheumatoid Arthritis are autoimmune disorders. C and D are incorrect: Osteoarthritis is a degenerative 'wear-and-tear' disease; DMD is an X-linked recessive genetic mutation.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c18-018",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Vertebral Column Characteristics",
+      "difficulty": "Medium",
+      "questionText": "Select the correct statements regarding the human Vertebral Column: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "The human cervical vertebral count is strictly C₇ in almost all mammals.", "isCorrect": true },
+        { "id": "b", "text": "The Atlas (C₁) articulates with the two occipital condyles of the skull.", "isCorrect": true },
+        { "id": "c", "text": "The Sacrum is formed by the fusion of 5 sacral vertebrae (S₍₅₎→₁).", "isCorrect": true },
+        { "id": "d", "text": "The thoracic vertebrae lack articulation facets for ribs.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Mammals have 7 cervical vertebrae; Atlas articulates with dicondylic skull; Sacrum consists of 5 fused vertebrae. D is incorrect: Thoracic vertebrae (T₁₂) possess specialized costal facets dorsally for rib articulation.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c18-019",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Muscle Relaxation Mechanisms",
+      "difficulty": "Medium",
+      "questionText": "Which of the following events occur during muscle relaxation following a contraction cycle? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "SERCA Ca²⁺-ATPase pumps actively transport Ca²⁺ back into the Sarcoplasmic Reticulum lumen.", "isCorrect": true },
+        { "id": "b", "text": "Ca²⁺ dissociates from Troponin-C.", "isCorrect": true },
+        { "id": "c", "text": "Tropomyosin shifts back to mask myosin-binding sites on actin filaments.", "isCorrect": true },
+        { "id": "d", "text": "ATP hydrolysis halts permanently and cross-bridges freeze in place.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: SERCA pumps clear Ca²⁺ from sarcoplasm, Ca²⁺ leaves TnC, and Tropomyosin re-masks actin binding sites. D is incorrect: Halting cross-bridge detachment occurs during Rigor Mortis; normal relaxation requires ATP to detach myosin from actin.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c18-020",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Locomotion and Movement",
+      "chapterNumber": 18,
+      "chapterSlug": "locomotion-and-movement",
+      "topic": "Gouty Arthritis (Gout) Pathophysiology",
+      "difficulty": "Easy",
+      "questionText": "Select the correct options regarding Gouty Arthritis (Gout): (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "It is caused by hyperuricemia resulting from abnormal purine metabolism.", "isCorrect": true },
+        { "id": "b", "text": "Monosodium Urate crystals deposit in synovial fluid, joint cavities, and cartilages.", "isCorrect": true },
+        { "id": "c", "text": "It most commonly presents initially with severe inflammation in the joint of the Great Toe.", "isCorrect": true },
+        { "id": "d", "text": "It is caused by destruction of the neuromuscular junction by bacterial exotoxins.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Gout is hyperuricemia leading to urate crystal deposition in joints, frequently targeting the metatarsophalangeal joint of the great toe. D is incorrect: Gout is a metabolic purine disorder, not a bacterial exotoxin infection.",
+      "marks": 4,
+      "negativeMarks": 0
+    }
+  ]
+}

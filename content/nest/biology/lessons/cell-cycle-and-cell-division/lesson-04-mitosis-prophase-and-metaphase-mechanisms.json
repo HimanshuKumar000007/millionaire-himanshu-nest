@@ -1,0 +1,57 @@
+{
+  "id": "bio-xi-u3-c10-l04",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Cell Cycle and Cell Division",
+  "chapterNumber": 10,
+  "chapterSlug": "cell-cycle-and-cell-division",
+  "slug": "lesson-04-mitosis-prophase-and-metaphase-mechanisms",
+  "title": "Mitosis: Prophase, Prometaphase, & Metaphase Architecture",
+  "topic": "Chromatin Condensation, Amphiastral vs Anastral Spindles, Trilaminar Kinetochores, & Metaphase Plate",
+  "topics": [
+    "Mitosis as Equational Division ($2n \\rightarrow 2n$)",
+    "Prophase: Chromatin Condensation & Organelle Disassembly",
+    "Spindle Architectures: Amphiastral (Centrosomal, Animals) vs Anastral (Non-Centrosomal MTOCs, Plants)",
+    "Prometaphase: Nuclear Envelope Breakdown & Kinetochore Assembly",
+    "Metaphase Plate Alignment & Chromosome Morphology / Karyotyping",
+    "Spindle Microtubule Triad (Kinetochore, Polar, Astral Microtubules)"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Mitosis is equational division yielding 2 genetically identical diploid (2n) daughter cells. Prophase condenses chromatin and moves centrosomes toward opposite poles. Animals form amphiastral spindles with radiating asters; higher plants form anastral spindles lacking asters. In Prometaphase, the nuclear envelope completely breaks down and trilaminar kinetochores attach to spindle fibers. At Metaphase, chromosomes align on the equatorial plate, providing optimal morphology for karyotyping.",
+  "summary": "Mitosis is equational division yielding 2 genetically identical diploid (2n) daughter cells. Prophase condenses chromatin and moves centrosomes toward opposite poles. Animals form amphiastral spindles with radiating asters; higher plants form anastral spindles lacking asters. In Prometaphase, the nuclear envelope completely breaks down and trilaminar kinetochores attach to spindle fibers. At Metaphase, chromosomes align on the equatorial plate, providing optimal morphology for karyotyping.",
+  "conceptBreakdown": [
+    {
+      "heading": "3. Mitosis & Karyokinesis Stages",
+      "title": "3. Mitosis & Karyokinesis Stages",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Animal mitosis = Amphiastral (asters present). Plant mitosis = Anastral (no asters). Metaphase is the best stage for karyotyping and chromosomal morphology analysis."
+      },
+      "codeSnippet": "MITOTIC KARYOKINESIS\n                                     │\n     ┌──────────────────┬────────────┴────────────┬──────────────────┐\n     ▼                  ▼                         ▼                  ▼\n  PROPHASE          METAPHASE                 ANAPHASE           TELOPHASE\nChromatin condenses Chromosomes align at     Cohesin cleaved;   Chromosomes decondense;\n& centrioles move. equatorial plate.          sister chromatids  nuclear envelope\n                                             separate.          reassembles.",
+      "content": "Mitosis is an **equational division** in which a single parental somatic cell ($2n$) divides into two genetically identical daughter cells ($2n$)."
+    },
+    {
+      "heading": "3.1 Prophase & Spindle Architecture",
+      "title": "3.1 Prophase & Spindle Architecture",
+      "type": "paragraph",
+      "codeSnippet": "MITOTIC SPINDLE TYPE COMPARISON\n                     \n      AMPHIASTRAL SPINDLE (Animals)            ANASTRAL SPINDLE (Higher Plants)\n      ├── Asters present at poles             ├── Asters ABSENT\n      └── Organized by Centrosomes            └── Organized by non-centrosomal MTOCs",
+      "content": "• **Prophase**: Progressive condensation of chromatin fibers into distinct double-chromatid chromosomes. Centrosomes migrate toward opposite poles.\n• **Amphiastral vs Anastral**:\n  - **Amphiastral Spindle (Animal Cells)**: Centrosomes radiate microfilaments called **Asters** at both spindle poles.\n  - **Anastral Spindle (Higher Plants)**: Lacks asters and centrioles; spindle is organized by diffuse non-centrosomal microtubule organizing centers (MTOCs).\n• **Prometaphase**: Complete breakdown of the nuclear envelope; **trilaminar protein discs called Kinetochores** assemble at the centromere."
+    },
+    {
+      "heading": "3.2 Metaphase & Spindle Fiber Types",
+      "title": "3.2 Metaphase & Spindle Fiber Types",
+      "type": "paragraph",
+      "codeSnippet": "METAPHASE SPINDLE FIBERS\n                         \n   Kinetochore Microtubules ──► Connect spindle poles directly to Kinetochores.\n   Polar Microtubules       ──► Extend from poles to overlap at equator.\n   Astral Microtubules      ──► Radiate outward from centrosomes to cell cortex.",
+      "content": "• Chromosomes reach maximal condensation and align along the equatorial plane forming the **Metaphase Plate**.\n• *Chromosome morphology, size, and karyotype are best observed and measured at Metaphase*."
+    }
+  ]
+}

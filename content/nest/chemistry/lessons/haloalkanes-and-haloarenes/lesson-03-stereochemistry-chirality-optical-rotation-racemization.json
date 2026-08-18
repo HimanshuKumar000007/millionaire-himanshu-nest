@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u15-c6-l03",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XV \u2014 Haloalkanes and Haloarenes",
+  "unitNumber": 15,
+  "chapter": "Haloalkanes and Haloarenes",
+  "chapterNumber": 6,
+  "chapterSlug": "haloalkanes-and-haloarenes",
+  "slug": "lesson-03-stereochemistry-chirality-optical-rotation-racemization",
+  "title": "Stereochemistry: Chirality, Optical Rotation, & Racemization",
+  "topic": "Stereochemistry & Chirality",
+  "topics": [
+    "Stereochemical Terminology (Chiral Center, Enantiomers, Diastereomers, Racemic Mixture)",
+    "Polarimetry & Specific Rotation Formula: [\u03b1]_\u03bb^T = \u03b1 / (l \u00b7 c)",
+    "Stereochemical Outcomes: Retention, Inversion, and Racemization",
+    "Optical Purity & Enantiomeric Excess (ee = (Observed / Pure) \u00d7 100)",
+    "Calculating % S_N1 vs % S_N2 from Solvolysis Optical Rotation Data"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "haloalkanes-and-haloarenes",
+  "quickSummary": "Chiral centers are sp\u00b3 carbons with 4 different groups. Enantiomers are non-superimposable mirror images; diastereomers are non-mirror stereoisomers. Specific rotation [\u03b1]_\u03bb^T = \u03b1 / (l \u00b7 c). Racemic mixtures are equimolar (1:1) and optically inactive (\u03b1=0). S_N2 gives 100% inversion; S_N1 gives racemization with partial inversion.",
+  "summary": "Master chirality, optical activity calculations, enantiomeric excess, and stereochemical outcomes in nucleophilic substitutions.",
+  "conceptBreakdown": [
+    {
+      "heading": "3. Stereochemical Terminology & Polarimetry",
+      "title": "3. Stereochemical Terminology & Polarimetry",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Stereochemistry Core Concepts",
+        "takeaway": "Specific rotation [\u03b1]_\u03bb^T = \u03b1 / (l \u00b7 c). Racemic mixture = 1:1 d/l mixture, optically inactive (\u03b1=0) by external compensation."
+      },
+      "codeSnippet": "                           STEREOCHEMICAL TERMINOLOGY\n                                       \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                  \u25bc                             \u25bc                  \u25bc\n  CHIRAL CENTER      ENANTIOMERS                   DIASTEREOMERS       RACEMIC MIXTURE\n  Tetrahedral $sp^3$  Non-superimposable           Stereoisomers that  Equimolar ($1:1$) mixture\n  carbon with 4      mirror images; opposite       are NOT mirror      of $d$- and $l$-enantiomers;\n  different groups.  optical rotations ($\\pm\\alpha$). images.              **Optically Inactive** ($\\alpha=0$).",
+      "content": "Polarimetry & Specific Rotation ($[\\alpha]_\\lambda^T$): The rotation of plane-polarized light passing through an optically active solution is quantified by:\n$$\\mathbf{[\\alpha]_\\lambda^T = \\frac{\\alpha}{l \\cdot c}}$$\nwhere $\\alpha$ is the observed optical rotation in degrees, $l$ is the sample cell path length in decimeters ($\\text{dm}$), and $c$ is the concentration in $\\text{g/mL}$."
+    },
+    {
+      "heading": "3.1 Stereochemical Outcomes in Substitution Reactions",
+      "title": "3.1 Stereochemical Outcomes in Substitution Reactions",
+      "type": "paragraph",
+      "codeSnippet": "                      STEREOCHEMICAL OUTCOMES\n                      \n   RETENTION:    Nucleophile attaches at the EXACT SAME spatial position as the leaving group.\n   INVERSION:    Nucleophile attaches at the OPPOSITE face relative to the leaving group ($S_N2$).\n   RACEMIZATION: Formation of an equimolar $50:50$ mixture of retained and inverted enantiomers ($S_N1$).\n\nEnantiomeric Excess (ee):\nee = (Observed Rotation / Pure Enantiomer Rotation) \u00d7 100\n% S_N2 = % Net Inversion = ee\n% S_N1 = 100% - % S_N2",
+      "content": "- **Retention**: Nucleophile enters the identical spatial position.\n- **Inversion**: Backside attack causes umbrella-like inversion ($S_N2$).\n- **Racemization**: Planar carbocation attacked equally from both faces ($S_N1$)."
+    }
+  ],
+  "quickRevision": [
+    "Chiral center: sp\u00b3 carbon with 4 different groups.",
+    "Enantiomers have equal and opposite optical rotations (\u00b1\u03b1).",
+    "Racemic mixture: 1:1 mixture of enantiomers, optically inactive (\u03b1=0).",
+    "Specific rotation: [\u03b1]_\u03bb^T = \u03b1 / (l \u00b7 c).",
+    "Enantiomeric excess: ee = (Observed / Pure) \u00d7 100 = % S_N2 net inversion."
+  ],
+  "keyFormulae": [
+    "[\\alpha]_\\lambda^T = \\frac{\\alpha}{l \\cdot c}",
+    "\\text{ee} = \\frac{\\text{Observed Rotation}}{\\text{Pure Rotation}} \\times 100 = \\% \\ S_N2 \\text{ Fraction}"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-19-05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Neural Control and Coordination",
+  "chapterNumber": 19,
+  "chapterSlug": "neural-control-and-coordination",
+  "lessonNumber": 5,
+  "title": "Synaptic Transmission: Electrical vs. Chemical Synapses",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Hard",
+  "prerequisites": ["Voltage-gated calcium channels", "Exocytosis"],
+  "learningObjectives": [
+    "Differentiate Electrical and Chemical synapses structurally, kinetically, and functionally",
+    "Describe the role of Connexons and gap junctions in electrical synapses",
+    "Trace the molecular cascade of chemical synaptic transmission: Ca2+ influx, Synaptotagmin, and SNARE-mediated exocytosis"
+  ],
+  "content": "A Synapse is a specialized functional junction mediating signal transfer between a neuron and a target cell (another neuron, muscle fiber, or gland).\n\n```\n                             SYNAPSE TAXONOMY\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n  ELECTRICAL SYNAPSES                                     CHEMICAL SYNAPSES\n  ├── Direct cytoplasmic contact via Connexons             ├── Separated by Synaptic Cleft (20–50 nm)\n  ├── Gap Junction Channels (1.5 nm)                      ├── Mediated by Neurotransmitters\n  ├── Bi-directional, extremely rapid (<0.2 ms)           ├── Unidirectional, slower (0.5–2.0 ms)\n  └── Rare in human CNS (Heart, Smooth Muscle)            └── Predominant type in Human CNS & PNS\n```\n\n### 5.1 Molecular Cascade of Chemical Synaptic Transmission\n\n```\n                     CHEMICAL SYNAPTIC CASCADE\n                     \n   Action Potential arrives at Presynaptic Terminal Button\n                             │\n   Opens Voltage-Gated Ca²⁺ Channels ──► Ca²⁺ INFLUX into Presynaptic Cytosol\n                                             │\n   Ca²⁺ binds Synaptotagmin ──► Triggers SNARE-mediated Vesicle Fusion\n                                             │\n   Exocytosis of Neurotransmitter into Synaptic Cleft\n                                             │\n   Binds Ligand-Gated Receptors on Postsynaptic Membrane\n                             │\n   Opens Ion Channels ──► Produces EPSP or IPSP\n```\n\n- **Synaptotagmin**: Primary presynaptic $\\text{Ca}^{2+}$ sensor.\n- **SNARE Complex**: v-SNAREs (Synaptobrevin) on vesicles bind t-SNAREs (Syntaxin, SNAP-25) on the presynaptic membrane to drive vesicle fusion.",
+  "conceptBreakdown": [
+    {
+      "heading": "Tetanus & Botulinum Neurotoxin Cleavage of SNAREs",
+      "explanation": "Botulinum toxin (Botox) cleaves SNAP-25/Syntaxin at the NMJ, preventing ACh release and causing flaccid paralysis. Tetanus toxin cleaves Synaptobrevin in inhibitory interneurons (Renshaw cells), preventing GABA/Glycine release and causing spastic paralysis (lockjaw/tetanus)."
+    },
+    {
+      "heading": "Quantal Release of Neurotransmitters",
+      "explanation": "Neurotransmitters are released in discrete multi-molecular packets called 'Quanta', each corresponding to the exocytosis of one synaptic vesicle containing ~5,000 to 10,000 transmitter molecules."
+    }
+  ]
+}

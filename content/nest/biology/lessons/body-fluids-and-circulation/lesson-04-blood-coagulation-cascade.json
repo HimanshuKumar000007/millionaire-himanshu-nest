@@ -1,0 +1,35 @@
+{
+  "id": "bio-xi-u5-c15-l04",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Body Fluids and Circulation",
+  "chapterNumber": 15,
+  "chapterSlug": "body-fluids-and-circulation",
+  "slug": "lesson-04-blood-coagulation-cascade",
+  "title": "Blood Coagulation Cascade (Clotting Factors & Fibrin Mesh)",
+  "topic": "Hemostasis & Enzymatic Clotting Cascade",
+  "order": 4,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Extrinsic (Factor III) & Intrinsic (Factor XII) pathways activate Factor X. Prothrombinase complex (Factor Xa, Va, Ca²⁺) converts Prothrombin to Thrombin, which cleaves Fibrinogen to Fibrin. Vitamin K is required for Factors II, VII, IX, X.",
+  "summary": "Extrinsic (Factor III) & Intrinsic (Factor XII) pathways activate Factor X. Prothrombinase complex (Factor Xa, Va, Ca²⁺) converts Prothrombin to Thrombin, which cleaves Fibrinogen to Fibrin. Vitamin K is required for Factors II, VII, IX, X.",
+  "conceptBreakdown": [
+    {
+      "heading": "Blood Coagulation Cascade (Clotting Factors & Fibrin Mesh)",
+      "title": "Blood Coagulation Cascade (Clotting Factors & Fibrin Mesh)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Extrinsic (Factor III) & Intrinsic (Factor XII) pathways activate Factor X. Prothrombinase complex (Factor Xa, Va, Ca²⁺) converts Prothrombin to Thrombin, which cleaves Fibrinogen to Fibrin. Vitamin K is required for Factors II, VII, IX, X."
+      },
+      "codeSnippet": "BLOOD COAGULATION CASCADE\n                                   │\n         ┌─────────────────────────┴─────────────────────────┐\n         ▼                                                   ▼\nEXTRINSIC PATHWAY (Tissue Injury)                   INTRINSIC PATHWAY (Vascular Contact)\nTraumatized Tissue releases                         Foreign Surface contact activates\nTissue Factor / Factor III                          Factor XII (Hageman Factor)\n         │                                                   │\n         └─────────────────────────┬─────────────────────────┘\n                                   ▼\n                   [ COMMON PATHWAY ACTIVATION ]\n                       Factor X ──► Factor Xa\n                                   │\n              [ Prothrombinase / Thrombokinase Complex ]\n              (Requires Factor Xa, Factor Va, Ca²⁺, Phospholipids)\n                                   │\n             Prothrombin (Factor II) ──► Thrombin (Factor IIa)\n                                   │\n             Fibrinogen (Factor I)  ──► Fibrin Monomer ──[Factor XIIIa + Ca²⁺]──► FIBRIN CLOT",
+      "content": "Blood clotting (coagulation) is a protective enzyme cascade that transforms liquid blood into a gel-like coagulum to prevent hemorrhage upon vascular injury.\n\n### Essential Clotting Factors\n- **Factor I**: Fibrinogen (Soluble plasma protein)\n- **Factor II**: Prothrombin (Vitamin K-dependent zymogen)\n- **Factor III**: Tissue Thromboplastin / Tissue Factor\n- **Factor IV**: Calcium Ions ($\\text{Ca}^{2+}$) [ESSENTIAL FOR ALL CASCADE STEPS!]\n- **Factor VIII**: Antihemophilic Factor A (Deficient in Hemophilia A)\n- **Factor IX**: Christmas Factor / Antihemophilic Factor B (Deficient in Hemophilia B)\n- **Factor XIII**: Fibrin Stabilizing Factor (Cross-links fibrin monomers)\n- **Vitamin K Role**: Essential co-factor for hepatic synthesis of **Factors II, VII, IX, and X** (*Mnemonic: 2 + 7 = 9, then 10*)."
+    }
+  ]
+}

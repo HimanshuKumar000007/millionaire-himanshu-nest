@@ -1,0 +1,55 @@
+{
+  "id": "bio-xi-u2-c6-l05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit II — Structural Organization in Plants and Animals",
+  "unitNumber": 2,
+  "chapter": "Anatomy of Flowering Plants",
+  "chapterNumber": 6,
+  "chapterSlug": "anatomy-of-flowering-plants",
+  "slug": "lesson-05-ground-and-vascular-tissue-bundle-architectures",
+  "title": "Ground Tissue System & Vascular Bundle Architectures",
+  "topic": "Casparian Strips, Pericycle Origin, & Radial vs Conjoint vs Bicollateral Bundles",
+  "topics": [
+    "Ground Tissue Zonation (Hypodermis, Cortex, Endodermis, Pericycle, Pith)",
+    "Suberized Casparian Strips & Apoplastic Checkpoint",
+    "Starch Sheath in Dicot Stems",
+    "Pericycle (Endogenous Origin of Lateral Roots & Secondary Cambium)",
+    "Vascular Bundle Types (Radial, Conjoint Collateral Open/Closed, Bicollateral, Concentric)"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "The Ground Tissue System includes cortex, suberized endodermis (Casparian strips blocking the apoplast), and pericycle (source of lateral roots). Vascular bundles are classified as Radial (roots), Conjoint Collateral Open (dicot stems with cambium), Conjoint Collateral Closed (monocot stems lacking cambium), Bicollateral (Cucurbits/Solanaceae), or Concentric (Amphicribral in ferns, Amphivasal in Dracaena).",
+  "summary": "The Ground Tissue System includes cortex, suberized endodermis (Casparian strips blocking the apoplast), and pericycle (source of lateral roots). Vascular bundles are classified as Radial (roots), Conjoint Collateral Open (dicot stems with cambium), Conjoint Collateral Closed (monocot stems lacking cambium), Bicollateral (Cucurbits/Solanaceae), or Concentric (Amphicribral in ferns, Amphivasal in Dracaena).",
+  "conceptBreakdown": [
+    {
+      "heading": "3.2 Ground (Fundamental) Tissue System",
+      "title": "3.2 Ground (Fundamental) Tissue System",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Casparian strips in the endodermis force water into the symplastic route. The pericycle gives endogenous origin to lateral roots and secondary vascular cambium."
+      },
+      "content": "The Ground Tissue System consists of all plant tissues except the epidermal and vascular systems.\n\n### Core Zonation\n• **Hypodermis**: Collenchymatous in dicot stems; sclerenchymatous in monocot stems.\n• **General Cortex**: Multi-layered parenchymatous storage tissue.\n• **Endodermis**: Innermost layer of cortex surrounding the central stele.\n  - **Casparian Strips**: Tangential and radial wall thickenings composed of hydrophobic **suberin** and lignin that block apoplastic diffusion and force water through the symplastic selective filter.\n  - **Starch Sheath**: Endodermal layer storing abundant starch granules in dicot stems.\n• **Pericycle**: Sits between endodermis and vascular bundles. Gives endogenous rise to **lateral roots** and contributes to secondary vascular cambium formation."
+    },
+    {
+      "heading": "3.3 Vascular Tissue System & Bundle Types",
+      "title": "3.3 Vascular Tissue System & Bundle Types",
+      "type": "paragraph",
+      "codeSnippet": "VASCULAR BUNDLE TYPES\n                                     │\n         ┌───────────────────────────┼───────────────────────────┐\n         ▼                           ▼                           ▼\n  RADIAL BUNDLES              CONJOINT BUNDLES            CONCENTRIC BUNDLES\n  Xylem & Phloem arranged in  Xylem & Phloem arranged on   One vascular tissue surrounds\n  alternate separate radii.   the SAME radius.            the other completely.\n  └── Characteristic of ROOTS  ├── Collateral Open (Dicot)  ├── Amphicribral (Ferns)\n                              ├── Collateral Closed (Mono)└── Amphivasal (*Dracaena*)\n                              └── Bicollateral (*Solanaceae*)",
+      "content": "Vascular bundles organize primary xylem and phloem elements into conductive strands.\n\n### Primary Bundle Classes\n• **Radial**: Xylem and phloem lie on alternate, separate radii separated by non-conductive parenchyma (*Universal diagnostic of ROOTS*).\n• **Conjoint Collateral Open**: Xylem and phloem lie on the same radius with an active strip of intrafascicular cambium between them (*Dicot stems*).\n• **Conjoint Collateral Closed**: Xylem and phloem lie on the same radius without cambium; enclosed in a sclerenchymatous bundle sheath (*Monocot stems*).\n• **Bicollateral**: Phloem and cambium occur on both the outer and inner sides of central xylem ($\text{Outer Phloem} \rightarrow \text{Outer Cambium} \rightarrow \text{Xylem} \rightarrow \text{Inner Cambium} \rightarrow \text{Inner Phloem}$; *Cucurbitaceae*, *Solanaceae*).\n• **Concentric**:\n  - **Amphicribral (Hadrocentric)**: Phloem completely surrounds a central xylem core (*Ferns*).\n  - **Amphivasal (Leptocentric)**: Xylem completely surrounds a central phloem core (*Dracaena*, *Yucca*)."
+    },
+    {
+      "heading": "Vascular Bundle Cross-Section Architectures",
+      "title": "Vascular Bundle Cross-Section Architectures",
+      "type": "paragraph",
+      "codeSnippet": "VASCULAR BUNDLE ARCHITECTURES\n                       \n   RADIAL (Roots)         CONJOINT OPEN          CONJOINT CLOSED       BICOLLATERAL\n                          (Dicot Stem)           (Monocot Stem)        (Cucurbits)\n     ┌───┐                  ┌───┐                  ┌───┐                ┌───┐\n     │ P │                  │ P │ Phloem           │ P │ Phloem         │OP │ Outer Phloem\n     ├───┤                  ├───┤                  ├───┤                ├───┤\n     │ X │                  │ C │ Cambium          │ X │ Xylem          │OC │ Outer Cambium\n     └───┘                  ├───┤                  └───┘                ├───┤\n                            │ X │ Xylem                                 │ X │ Xylem\n                            └───┘                                       ├───┤\n                                                                        │IC │ Inner Cambium\n                                                                        ├───┤\n                                                                        │IP │ Inner Phloem\n                                                                        └───┘",
+      "content": "Schematic representation of tissue layers across the four primary angiosperm vascular bundle patterns."
+    }
+  ]
+}

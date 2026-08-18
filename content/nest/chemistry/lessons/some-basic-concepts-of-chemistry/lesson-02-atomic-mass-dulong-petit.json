@@ -1,0 +1,59 @@
+{
+  "id": "chem-xi-u1-c1-l02",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit I \u2014 Some Basic Concepts of Chemistry",
+  "unitNumber": 1,
+  "chapter": "Some Basic Concepts of Chemistry",
+  "chapterNumber": 1,
+  "chapterSlug": "some-basic-concepts-of-chemistry",
+  "slug": "lesson-02-atomic-mass-dulong-petit",
+  "title": "Atomic Mass Scales, Isotopic Averages & Dulong-Petit Law",
+  "topic": "Atomic & Molecular Masses",
+  "topics": [
+    "Unified Atomic Mass Unit (u / Da)",
+    "Relative Atomic Mass (Ar)",
+    "Weighted Isotopic Averages",
+    "Dulong-Petit Law for Heavy Metals",
+    "Valency & Exact Atomic Mass Derivation"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced",
+  "source": "production",
+  "status": "published",
+  "diagramType": "dulong-petit",
+  "quickSummary": "The atomic mass scale is unified to 1/12th the mass of a carbon-12 atom. For solid heavy metallic elements, the Dulong-Petit Law provides an empirical approach to derive exact atomic mass through approximate atomic mass, equivalent mass, and integer valency.",
+  "summary": "Master isotopic average calculations and the classic Dulong-Petit analytical method for finding exact atomic mass.",
+  "conceptBreakdown": [
+    {
+      "heading": "2.1 The Unified Atomic Mass Scale (u / Dalton Da)",
+      "title": "2.1 The Unified Atomic Mass Scale (u / Dalton Da)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "The Unified Scale Definition",
+        "takeaway": "1 u = 1 Da = 1/12 \u00d7 mass of neutral \u00b9\u00b2C atom = 1/N_A g \u2248 1.66054 \u00d7 10\u207b\u00b2\u2074 g = 1.66054 \u00d7 10\u207b\u00b2\u2077 kg."
+      },
+      "content": "The standard atomic mass unit is defined strictly relative to the Carbon-12 isotope:\n\n$$\\mathbf{1\\text{ u} = 1\\text{ Da} = \\frac{1}{12} \\times \\text{Mass of one neutral }^{12}\\text{C atom} = \\frac{1}{N_A}\\text{ g} \\approx 1.66054 \\times 10^{-24}\\text{ g}}$$\n\n\u2022 **Relative Atomic Mass (A_r)**: The dimensionless ratio of the average mass of an element's atom to 1/12th the mass of a \u00b9\u00b2C atom."
+    },
+    {
+      "heading": "2.2 Average Atomic Mass Calculations",
+      "title": "2.2 Average Atomic Mass Calculations",
+      "type": "paragraph",
+      "content": "Naturally occurring elements exist as isotopic mixtures. The Average Atomic Mass (\u0100) is the abundance-weighted average:\n\n$$\\mathbf{\\bar{A} = \\sum (f_i \\cdot A_i) = \\frac{\\sum (\\%_i \\cdot A_i)}{100}}$$\n\n*Example*: Chlorine exists as \u00b3\u2075Cl (75.77%, 34.969 u) and \u00b3\u2077Cl (24.23%, 36.966 u). \u0100 = (0.7577 \u00d7 35) + (0.2423 \u00d7 37) \u2248 35.5 u."
+    },
+    {
+      "heading": "2.3 Dulong-Petit Law for Heavy Solid Metals",
+      "title": "2.3 Dulong-Petit Law for Heavy Solid Metals",
+      "type": "paragraph",
+      "content": "An empirical relationship for determining the approximate atomic mass of solid metallic elements (excluding light non-metals like Be, B, C, Si):\n\n$$\\mathbf{\\text{Approx. Atomic Mass} \\times \\text{Specific Heat (cal/g}\\cdot^\\circ\\text{C)} \\approx 6.4}$$\n$$\\mathbf{\\text{Approx. Atomic Mass} \\times \\text{Specific Heat (J/g}\\cdot\\text{K)} \\approx 26.8}$$\n\n**Four-Step Protocol to Find Exact Atomic Mass**:\n1. Approx. Atomic Mass = 6.4 / Specific Heat (in cal/g\u00b7\u00b0C).\n2. Determine Equivalent Mass = (Mass of Metal / Mass of Cl) \u00d7 35.45 (or from oxide/hydride).\n3. Valency = Approx. Atomic Mass / Equivalent Mass (rounded to the nearest integer).\n4. **Exact Atomic Mass = Equivalent Mass \u00d7 Valency**."
+    }
+  ],
+  "quickRevision": [
+    "1 u = 1/N_A grams \u2248 1.66054 \u00d7 10\u207b\u00b2\u2074 g.",
+    "Dulong-Petit Law gives ONLY approximate atomic mass.",
+    "Exact Atomic Mass = Equivalent Mass \u00d7 Valency."
+  ]
+}

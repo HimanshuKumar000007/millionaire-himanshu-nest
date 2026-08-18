@@ -1,0 +1,924 @@
+[
+  {
+    "id": "chem-halo-001",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "Solvolysis Kinetics & % S_N1 vs % S_N2 Calculation",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "An optically active pure enantiomer of 2-bromobutane ([\u03b1]_D\u00b2\u2075 = +36.0\u00b0) undergoes nucleophilic substitution with aqueous Potassium Hydroxide (KOH) in a 80% ethanol / 20% water mixture. The isolated 2-butanol product exhibits a specific rotation of [\u03b1]_D\u00b2\u2075 = -3.60\u00b0. Assuming the pure enantiomer of (S)-2-butanol has a specific rotation of -18.0\u00b0, what are the percentage contributions of the S_N1 and S_N2 reaction pathways in this solvolysis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "S_N1 = 60%; S_N2 = 40%",
+        "isCorrect": false,
+        "explanation": "Incorrect percentage calculation."
+      },
+      {
+        "id": "B",
+        "text": "S_N1 = 80%; S_N2 = 20%",
+        "isCorrect": true,
+        "explanation": "1. Optical purity / Enantiomeric Excess (ee): ee = (Observed Rotation / Pure Enantiomer Rotation) \u00d7 100 = (-3.60\u00b0 / -18.0\u00b0) \u00d7 100 = 20% Net Inversion. 2. S_N2 yields 100% net inversion, while S_N1 yields complete 100% racemization (0% net optical rotation). 3. Therefore, % S_N2 = 20%, and % S_N1 = 100% - 20% = 80%."
+      },
+      {
+        "id": "C",
+        "text": "S_N1 = 20%; S_N2 = 80%",
+        "isCorrect": false,
+        "explanation": "Inverted fractions."
+      },
+      {
+        "id": "D",
+        "text": "S_N1 = 100%; S_N2 = 0%",
+        "isCorrect": false,
+        "explanation": "Product possesses net optical rotation."
+      }
+    ],
+    "solutionExplanation": "1. Calculate optical purity / Enantiomeric Excess (ee) of the product:\n   ee = (Observed Rotation / Pure Enantiomer Rotation) \u00d7 100 = (-3.60\u00b0 / -18.0\u00b0) \u00d7 100 = 20% Net Inversion.\n2. S_N2 pathway yields 100% net inversion. S_N1 pathway yields complete 100% racemization (0% net optical activity).\n3. The 20% net inversion comes entirely from the S_N2 fraction:\n   % S_N2 = 20%\n   % S_N1 = 100% - 20% = 80%.",
+    "keyFormulae": [
+      "\\text{ee} = \\frac{\\text{Observed Rotation}}{\\text{Pure Rotation}} \\times 100 = \\% \\ S_N2 \\text{ Contribution}",
+      "\\% \\ S_N1 = 100\\% - \\% \\ S_N2"
+    ],
+    "hints": [
+      "Calculate enantiomeric excess (ee); the ee equals the percentage proceeding via S_N2."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-halo-002",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "S_N2 Reactivity Order & Steric Hindrance",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the correct order of increasing reactivity toward bimolecular nucleophilic substitution (S_N2) for the following alkyl halides?\n\n1. 1-bromobutane\n2. 2-bromobutane\n3. 2-bromo-2-methylpropane\n4. 1-bromo-2,2-dimethylpropane (Neopentyl bromide)",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 < 4 < 2 < 1",
+        "isCorrect": true,
+        "explanation": "S_N2 reactivity depends strictly on Steric Hindrance around the carbon bearing the leaving group. 2-bromo-2-methylpropane (3\u00b0) is most sterically crowded and practically inert to S_N2 (3). Neopentyl bromide (1\u00b0, but attached to a bulky t-butyl group) is extremely hindered and reacts slower than standard 2\u00b0 halides (4). 2-bromobutane (2\u00b0) is moderately hindered (2). 1-bromobutane (1\u00b0, unhindered) reacts fastest (1). Increasing order: 3 < 4 < 2 < 1."
+      },
+      {
+        "id": "B",
+        "text": "4 < 3 < 2 < 1",
+        "isCorrect": false,
+        "explanation": "3\u00b0 alkyl halide is slower than neopentyl."
+      },
+      {
+        "id": "C",
+        "text": "1 < 2 < 3 < 4",
+        "isCorrect": false,
+        "explanation": "Inverted reactivity order."
+      },
+      {
+        "id": "D",
+        "text": "3 < 2 < 4 < 1",
+        "isCorrect": false,
+        "explanation": "Neopentyl bromide is more hindered than 2-bromobutane."
+      }
+    ],
+    "solutionExplanation": "\u2022 S_N2 reactivity depends strictly on Steric Hindrance around the carbon bearing the leaving group.\n\u2022 2-bromo-2-methylpropane (3\u00b0) is the most sterically hindered and practically inert to S_N2 (3).\n\u2022 Neopentyl bromide (1\u00b0, attached to bulky t-butyl) is extremely hindered and reacts slower than normal 2\u00b0 halides (4).\n\u2022 2-bromobutane (2\u00b0) is moderately hindered (2).\n\u2022 1-bromobutane (1\u00b0, unhindered) reacts fastest (1).\nIncreasing S_N2 rate order: 3 < 4 < 2 < 1.",
+    "keyFormulae": [
+      "S_N2 \\text{ Reactivity: } \\text{CH}_3\\text{X} > 1^\\circ > 2^\\circ > \\text{Neopentyl} > 3^\\circ"
+    ],
+    "hints": [
+      "Rank by steric congestion: 3\u00b0 is slowest, followed by neopentyl (1\u00b0 but bulky), 2\u00b0, and 1\u00b0."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-halo-003",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "Benzyne Intermediate & Cine Substitution",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Chlorobenzene is treated with Sodium Amide (NaNH\u2082) in liquid Ammonia (liquid NH\u2083) at -33\u00b0C. The reaction yields Aniline via an Elimination-Addition mechanism. What intermediate is formed during this transformation, and what type of carbon-carbon bond does it contain?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Meisenheimer Complex; Carbanion \u03c3-complex",
+        "isCorrect": false,
+        "explanation": "Meisenheimer complex is formed in S_NAr with o,p-nitro groups."
+      },
+      {
+        "id": "B",
+        "text": "Benzyne Intermediate; formal C\u2261C triple bond formed by sp\u00b2-sp\u00b2 lateral overlap in the plane of the ring",
+        "isCorrect": true,
+        "explanation": "Unactivated haloarenes react with ultra-strong bases (NaNH\u2082/liq. NH\u2083) via the Benzyne Mechanism. Elimination of HCl forms a Benzyne Intermediate containing a formal, highly strained C\u2261C triple bond formed by the lateral overlap of two sp\u00b2 hybrid orbitals in the ring plane."
+      },
+      {
+        "id": "C",
+        "text": "Phenyl Carbocation; vacant sp\u00b2 orbital",
+        "isCorrect": false,
+        "explanation": "Phenyl carbocation is too unstable to form."
+      },
+      {
+        "id": "D",
+        "text": "Arenium Ion; non-aromatic sp\u00b3 center",
+        "isCorrect": false,
+        "explanation": "Arenium ion is formed during S_EAr."
+      }
+    ],
+    "solutionExplanation": "Unactivated haloarenes react with ultra-strong bases (NaNH\u2082/liq. NH\u2083) via the Benzyne Mechanism. Elimination of HCl forms a Benzyne Intermediate containing a formal, highly strained C\u2261C triple bond formed by the lateral overlap of two sp\u00b2 hybrid orbitals in the ring plane.",
+    "keyFormulae": [
+      "\\text{C}_6\\text{H}_5\\text{Cl} \\xrightarrow{\\text{NaNH}_2/\\text{liq. NH}_3} \\text{Benzyne} \\xrightarrow{\\text{NH}_3} \\text{C}_6\\text{H}_5\\text{NH}_2"
+    ],
+    "hints": [
+      "Elimination of HCl by NaNH\u2082 gives a strained triple-bond intermediate."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-halo-004",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "S_NAr Mechanism & Meisenheimer Complex",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "A student attempts to prepare 1-fluoro-2,4-dinitrobenzene by reacting 1-chloro-2,4-dinitrobenzene with Potassium Fluoride (KF) in DMSO at 100\u00b0C. The reaction proceeds rapidly via an S_NAr nucleophilic aromatic substitution mechanism. What species acts as the rate-determining intermediate, and why do o,p-nitro groups accelerate this reaction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Phenyl cation; nitro groups donate electrons by +M effect",
+        "isCorrect": false,
+        "explanation": "Nitro groups are electron withdrawing."
+      },
+      {
+        "id": "B",
+        "text": "Meisenheimer Carbanion Complex; nitro groups delocalize the negative charge via strong -M resonance",
+        "isCorrect": true,
+        "explanation": "In S_NAr addition-elimination reactions of activated haloarenes, the nucleophile (F\u207b) attacks the halogen-bearing carbon to form a negatively charged Meisenheimer Carbanion \u03c3-Complex (Rate-Determining Step). Nitro groups at ortho and para positions strongly stabilize this carbanion by delocalizing the negative charge into the oxygen atoms via -M resonance."
+      },
+      {
+        "id": "C",
+        "text": "Free radical; nitro groups block S_N2 backside attack",
+        "isCorrect": false,
+        "explanation": "Not a radical pathway."
+      },
+      {
+        "id": "D",
+        "text": "Benzyne intermediate; nitro groups eliminate HNO\u2082",
+        "isCorrect": false,
+        "explanation": "Does not proceed via benzyne."
+      }
+    ],
+    "solutionExplanation": "In S_NAr addition-elimination reactions of activated haloarenes, the nucleophile (F\u207b) attacks the halogen-bearing carbon to form a negatively charged Meisenheimer Carbanion \u03c3-Complex (Rate-Determining Step). Nitro groups at ortho and para positions strongly stabilize this carbanion by delocalizing the negative charge into the oxygen atoms via -M resonance.",
+    "keyFormulae": [
+      "S_N\\text{Ar Intermediate: Meisenheimer Carbanion } \\sigma\\text{-complex stabilized by } -M \\text{ groups}"
+    ],
+    "hints": [
+      "S_NAr proceeds via a carbanion \u03c3-complex called the Meisenheimer intermediate."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-halo-005",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "Chloroform Autoxidation & Phosgene Quenching",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Chloroform (CHCl\u2083) stored in a transparent glass bottle exposed to sunlight and air reacts to form a deadly poisonous gas X. To prevent the accumulation of gas X, 1% Ethanol is added to bottle preparations. What is the identity of gas X, and what non-toxic compound is formed when Ethanol reacts with gas X?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chlorine gas (Cl\u2082); Ethyl Chloride",
+        "isCorrect": false,
+        "explanation": "Chlorine is not the primary autoxidation toxicant."
+      },
+      {
+        "id": "B",
+        "text": "Phosgene (COCl\u2082); Diethyl Carbonate ((C\u2082H\u2085O)\u2082C=O)",
+        "isCorrect": true,
+        "explanation": "1. Autoxidation of Chloroform in light/air forms toxic Phosgene gas (COCl\u2082, Carbonyl Chloride): 2CHCl\u2083 + O\u2082 \u2500\u2500\u25ba 2COCl\u2082 + 2HCl. 2. Adding 1% ethanol converts any trace phosgene formed into non-toxic Diethyl Carbonate: COCl\u2082 + 2C\u2082H\u2085OH \u2500\u2500\u25ba (C\u2082H\u2085O)\u2082C=O + 2HCl."
+      },
+      {
+        "id": "C",
+        "text": "Mustard Gas; Ethyl Acetate",
+        "isCorrect": false,
+        "explanation": "Mustard gas contains sulfur."
+      },
+      {
+        "id": "D",
+        "text": "Carbon Monoxide (CO); Ethanolate",
+        "isCorrect": false,
+        "explanation": "Incorrect products."
+      }
+    ],
+    "solutionExplanation": "1. Autoxidation of Chloroform in light/air forms toxic Phosgene gas (COCl\u2082, Carbonyl Chloride):\n   2CHCl\u2083 + O\u2082 \u2500\u2500\u25ba 2COCl\u2082 + 2HCl\n2. Adding 1% ethanol converts any trace phosgene formed into non-toxic Diethyl Carbonate:\n   COCl\u2082 + 2C\u2082H\u2085OH \u2500\u2500\u25ba (C\u2082H\u2085O)\u2082C=O + 2HCl.",
+    "keyFormulae": [
+      "2\\text{CHCl}_3 + \\text{O}_2 \\xrightarrow{h\\nu} 2\\text{COCl}_2 \\text{ (Phosgene)} + 2\\text{HCl}",
+      "\\text{COCl}_2 + 2\\text{C}_2\\text{H}_5\\text{OH} \\longrightarrow (\\text{C}_2\\text{H}_5\\text{O})_2\\text{C=O} + 2\\text{HCl}"
+    ],
+    "hints": [
+      "Chloroform autoxidizes to Phosgene (COCl\u2082); ethanol converts it to diethyl carbonate."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-halo-006",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "Iodoform Test Positive Substrates",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Which of the following organic compounds will give a POSITIVE Iodoform Test, forming a bright yellow crystalline precipitate of CHI\u2083 upon treatment with Iodine (I\u2082) and aqueous NaOH?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Methanol (CH\u2083OH)",
+        "isCorrect": false,
+        "explanation": "Lacks the required CH\u2083-C- structure."
+      },
+      {
+        "id": "B",
+        "text": "Propan-1-ol (CH\u2083CH\u2082CH\u2082OH)",
+        "isCorrect": false,
+        "explanation": "1\u00b0 alcohol lacking CH\u2083-CH(OH)- group."
+      },
+      {
+        "id": "C",
+        "text": "Propan-2-ol (CH\u2083CH(OH)CH\u2083)",
+        "isCorrect": true,
+        "explanation": "The Iodoform test requires a Secondary Methyl Carbinol group (CH\u2083-CH(OH)-R) or a Methyl Ketone group (CH\u2083-CO-R). Propan-2-ol contains the CH\u2083-CH(OH)-CH\u2083 structure; it is oxidized in-situ by hypoiodite (NaOI) to acetone, which reacts further to yield yellow Iodoform (CHI\u2083 \u2193). Methanol, Propan-1-ol, and Benzophenone lack this structural group."
+      },
+      {
+        "id": "D",
+        "text": "Benzophenone (C\u2086H\u2085COC\u2086H\u2085)",
+        "isCorrect": false,
+        "explanation": "Lacks methyl ketone group."
+      }
+    ],
+    "solutionExplanation": "The Iodoform test requires a Secondary Methyl Carbinol group (CH\u2083-CH(OH)-R) or a Methyl Ketone group (CH\u2083-CO-R). Propan-2-ol contains the CH\u2083-CH(OH)-CH\u2083 structure; it is oxidized in-situ by hypoiodite (NaOI) to acetone, which reacts further to yield yellow Iodoform (CHI\u2083 \u2193). Methanol, Propan-1-ol, and Benzophenone lack this structural group.",
+    "keyFormulae": [
+      "\\text{CH}_3\\text{CH(OH)CH}_3 + 4\\text{I}_2 + 6\\text{NaOH} \\longrightarrow \\text{CHI}_3 \\downarrow + \\text{CH}_3\\text{COONa} + 5\\text{NaI} + 5\\text{H}_2\\text{O}"
+    ],
+    "hints": [
+      "Look for a secondary methyl carbinol group: CH\u2083-CH(OH)-."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-halo-007",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "Freons & Stratospheric Ozone Catalytic Radical",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Chlorofluorocarbons such as Freon-12 (CCl\u2082F\u2082) diffuse into the stratosphere, where high-energy solar UV radiation triggers their photolytic breakdown. Which reactive radical species is released during this photolysis to act as a catalytic agent in destroying the stratospheric ozone layer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fluorine Radical (F\u2022)",
+        "isCorrect": false,
+        "explanation": "C-F bond is too strong to cleave under stratospheric UV."
+      },
+      {
+        "id": "B",
+        "text": "Chlorine Radical (Cl\u2022)",
+        "isCorrect": true,
+        "explanation": "UV light cleaves the weaker C-Cl bond (328 kJ/mol) in Freon-12 homolytically, releasing a Chlorine Radical (Cl\u2022): CCl\u2082F\u2082 \u2500\u2500(h\u03bd)\u2500\u2500\u25ba \u2022CClF\u2082 + Cl\u2022. The Cl\u2022 radical acts as a homogeneous catalyst, destroying >100,000 ozone molecules via the catalytic cycle (Cl\u2022 + O\u2083 \u2500\u2500\u25ba ClO\u2022 + O\u2082)."
+      },
+      {
+        "id": "C",
+        "text": "Methyl Radical (CH\u2083\u2022)",
+        "isCorrect": false,
+        "explanation": "Freon-12 contains no hydrogen."
+      },
+      {
+        "id": "D",
+        "text": "Hydroxyl Radical (OH\u2022)",
+        "isCorrect": false,
+        "explanation": "Not derived from CFCs."
+      }
+    ],
+    "solutionExplanation": "UV light cleaves the weaker C-Cl bond (328 kJ/mol) in Freon-12 homolytically, releasing a Chlorine Radical (Cl\u2022):\nCCl\u2082F\u2082 \u2500\u2500\u25ba \u2022CClF\u2082 + Cl\u2022\nThe Cl\u2022 radical acts as a homogeneous catalyst, destroying >100,000 ozone molecules via the catalytic cycle (Cl\u2022 + O\u2083 \u2500\u2500\u25ba ClO\u2022 + O\u2082).",
+    "keyFormulae": [
+      "\\text{Cl}^\\bullet + \\text{O}_3 \\longrightarrow \\text{ClO}^\\bullet + \\text{O}_2, \\quad \\text{ClO}^\\bullet + \\text{O}^\\bullet \\longrightarrow \\text{Cl}^\\bullet + \\text{O}_2"
+    ],
+    "hints": [
+      "The weaker C-Cl bond cleaves under UV radiation to release atomic chlorine radicals."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-halo-008",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "DDT Biomagnification & Avian Toxicity",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "The synthetic organochlorine insecticide DDT (p,p'-Dichlorodiphenyltrichloroethane) is highly lipophilic and resistant to metabolic breakdown. What ecological phenomenon explains why top predatory fish-eating birds suffer severe population crashes following environmental DDT contamination?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eutrophication causing oceanic hypoxia",
+        "isCorrect": false,
+        "explanation": "Eutrophication is caused by nutrient runoff (N, P)."
+      },
+      {
+        "id": "B",
+        "text": "Biomagnification along food chains, causing calcium metabolic disruption and eggshell thinning",
+        "isCorrect": true,
+        "explanation": "DDT is fat-soluble (lipophilic) and non-biodegradable. It accumulates progressively at higher trophic levels (Biomagnification), reaching toxic concentrations in fish-eating birds (25 ppm). In birds, DDT inhibits calcium-ATPase in the shell gland, causing thinning of eggshells and premature egg breakage during brooding."
+      },
+      {
+        "id": "C",
+        "text": "Direct inhibition of plant photosynthesis",
+        "isCorrect": false,
+        "explanation": "Not the primary cause of bird mortality."
+      },
+      {
+        "id": "D",
+        "text": "Destruction of stratospheric ozone",
+        "isCorrect": false,
+        "explanation": "Ozone depletion is caused by volatile CFCs."
+      }
+    ],
+    "solutionExplanation": "DDT is fat-soluble (lipophilic) and non-biodegradable. It accumulates progressively at higher trophic levels (Biomagnification), reaching toxic concentrations in fish-eating birds (25 ppm). In birds, DDT inhibits calcium-ATPase in the shell gland, causing thinning of eggshells and premature egg breakage during brooding.",
+    "keyFormulae": [
+      "\\text{Biomagnification: Water (0.003 ppb)} \\longrightarrow \\text{Fish-eating Birds (25 ppm)}"
+    ],
+    "hints": [
+      "Fat-soluble toxicants concentrate up trophic levels (biomagnification) and disrupt calcium metabolism in birds."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-halo-009",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "Saytzeff (Zaitsev) Regioselectivity",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "When 2-bromobutane is heated with alcoholic KOH, a mixture of 2-butene (81%) and 1-butene (19%) is obtained. Which regioselectivity rule governs the preferential formation of 2-butene as the major product?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hofmann Rule",
+        "isCorrect": false,
+        "explanation": "Hofmann rule gives the less substituted alkene with bulky bases."
+      },
+      {
+        "id": "B",
+        "text": "Saytzeff (Zaitsev) Rule",
+        "isCorrect": true,
+        "explanation": "Dehydrohalogenation of an alkyl halide using an unhindered base (alc. KOH / EtO\u207b) follows the Saytzeff (Zaitsev) Rule, which states that the major product is the more highly substituted, more stable alkene (2-butene has 6 \u03b1-hydrogens; 1-butene has 2 \u03b1-hydrogens)."
+      },
+      {
+        "id": "C",
+        "text": "Markovnikov's Rule",
+        "isCorrect": false,
+        "explanation": "Applies to electrophilic additions across alkenes."
+      },
+      {
+        "id": "D",
+        "text": "Kharasch Rule",
+        "isCorrect": false,
+        "explanation": "Applies to peroxide-induced anti-Markovnikov additions."
+      }
+    ],
+    "solutionExplanation": "Dehydrohalogenation of an alkyl halide using an unhindered base (alc. KOH / EtO\u207b) follows the Saytzeff (Zaitsev) Rule, which states that the major product is the more highly substituted, more stable alkene (2-butene has 6 \u03b1-hydrogens; 1-butene has 2 \u03b1-hydrogens).",
+    "keyFormulae": [
+      "\\text{Saytzeff Rule: Major Alkene} = \\text{More Substituted, More Hyperconjugated Alkene}"
+    ],
+    "hints": [
+      "Elimination with unhindered bases yields the more substituted alkene according to Saytzeff's rule."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-halo-010",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "S_N2 Walden Inversion of Configuration",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "An S_N2 reaction performed at an asymmetric stereocenter of (2R)-2-bromooctane using Sodium Hydroxide in DMF yields 2-octanol. What is the absolute stereochemical configuration of the resulting 2-octanol product?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(2R)-2-octanol (Complete Retention)",
+        "isCorrect": false,
+        "explanation": "Retention is not observed in S_N2."
+      },
+      {
+        "id": "B",
+        "text": "(2S)-2-octanol (Complete Walden Inversion)",
+        "isCorrect": true,
+        "explanation": "S_N2 reactions proceed via a concerted backside nucleophilic attack 180\u00b0 opposite the departing leaving group. This results in 100% complete Walden Inversion of stereochemical configuration. Therefore, (2R)-2-bromooctane undergoes inversion to yield (2S)-2-octanol."
+      },
+      {
+        "id": "C",
+        "text": "Equimolar 50:50 Racemic Mixture of (2R) and (2S)",
+        "isCorrect": false,
+        "explanation": "Racemization occurs in S_N1."
+      },
+      {
+        "id": "D",
+        "text": "Optically inactive achiral 2-octanol",
+        "isCorrect": false,
+        "explanation": "2-octanol is chiral."
+      }
+    ],
+    "solutionExplanation": "S_N2 reactions proceed via a concerted backside nucleophilic attack 180\u00b0 opposite the departing leaving group. This results in 100% complete Walden Inversion of stereochemical configuration. Therefore, (2R)-2-bromooctane undergoes inversion to yield (2S)-2-octanol.",
+    "keyFormulae": [
+      "S_N2 \\text{ Stereochemistry} \\implies 100\\% \\text{ Walden Inversion: } (R) \\longrightarrow (S)"
+    ],
+    "hints": [
+      "Backside nucleophilic attack in S_N2 inverts the stereocenter from (R) to (S)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-halo-011",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "Haloarene Unreactivity Factors",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following factors explain why Chlorobenzene is extremely unreactive toward standard Nucleophilic Substitution (S_N2) compared to Cyclohexyl chloride? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The C-Cl bond in chlorobenzene possesses partial double-bond character due to resonance delocalization of chlorine lone pairs into the aromatic ring.",
+        "isCorrect": true,
+        "explanation": "Shortens bond to 1.69 \u00c5 and increases BDE."
+      },
+      {
+        "id": "B",
+        "text": "The carbon atom attached to chlorine is sp\u00b2-hybridized in chlorobenzene (more electronegative, shorter 1.69 \u00c5 bond) vs sp\u00b3-hybridized in cyclohexyl chloride.",
+        "isCorrect": true,
+        "explanation": "33% s-character holds electrons tighter."
+      },
+      {
+        "id": "C",
+        "text": "Backside S_N2 attack is blocked by the dense \u03c0-electron cloud of the benzene ring.",
+        "isCorrect": true,
+        "explanation": "Electrostatic repulsion prevents nucleophile approach."
+      },
+      {
+        "id": "D",
+        "text": "Chlorobenzene spontaneously undergoes S_N1 ionization to form a highly stable phenyl cation.",
+        "isCorrect": false,
+        "explanation": "The phenyl cation is EXTREMELY UNSTABLE."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Partial double bond character (resonance), sp\u00b2 carbon electronegativity/shorter bond length, and electrostatic repulsion from the \u03c0-cloud prevent nucleophilic substitution.\n\u2022 D is incorrect: The phenyl cation (C\u2086H\u2085\u207a) is EXTREMELY UNSTABLE (vacant sp\u00b2 orbital in ring plane), so chlorobenzene does NOT undergo S_N1 ionization.",
+    "keyFormulae": [
+      "\\text{Haloarene Unreactivity: Resonance + } sp^2 \\text{ Hybridization + Phenyl Cation Instability + } \\pi\\text{-Repulsion}"
+    ],
+    "hints": [
+      "Phenyl cation is highly unstable, ruling out S_N1; resonance and sp\u00b2 bonding rule out S_N2."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-halo-012",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "S_N1 vs S_N2 Mechanistic Facts",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding S_N1 versus S_N2 nucleophilic substitution mechanisms: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "S_N1 reactions proceed via a planar sp\u00b2 carbocation intermediate and are prone to 1,2-rearrangements.",
+        "isCorrect": true,
+        "explanation": "Carbocations can rearrange via hydride/alkyl shifts."
+      },
+      {
+        "id": "B",
+        "text": "S_N2 reactions proceed in a single concerted step via a 5-coordinate trigonal bipyramidal transition state.",
+        "isCorrect": true,
+        "explanation": "Concerted bond-breaking and bond-making."
+      },
+      {
+        "id": "C",
+        "text": "Polar Aprotic Solvents (e.g., DMSO, DMF) accelerate S_N2 reactions by leaving nucleophiles un-solvated.",
+        "isCorrect": true,
+        "explanation": "Cations are solvated, anions are bare and reactive."
+      },
+      {
+        "id": "D",
+        "text": "S_N1 reactions exhibit 100% Walden Inversion, whereas S_N2 reactions exhibit complete racemization.",
+        "isCorrect": false,
+        "explanation": "Inverted: S_N2 gives Walden Inversion; S_N1 gives Racemization."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: S_N1 forms planar carbocations (rearrangements possible); S_N2 is concerted via a TBP transition state; polar aprotic solvents favor S_N2.\n\u2022 D is incorrect: The stereochemistry is reversed! S_N2 gives 100% Walden Inversion; S_N1 gives Racemization.",
+    "keyFormulae": [
+      "S_N1 \\implies \\text{Carbocation (Racemization)}, \\quad S_N2 \\implies \\text{Transition State (Walden Inversion)}"
+    ],
+    "hints": [
+      "Check the stereochemical outcomes: S_N2 gives inversion, S_N1 gives racemization."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-halo-013",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "Positive Iodoform Test Compounds",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following organic compounds will yield a POSITIVE Iodoform Test (CHI\u2083 \u2193 yellow precipitate) when treated with I\u2082 / NaOH? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ethanol (CH\u2083CH\u2082OH)",
+        "isCorrect": true,
+        "explanation": "Contains CH\u2083CH(OH)- group."
+      },
+      {
+        "id": "B",
+        "text": "Acetaldehyde (CH\u2083CHO)",
+        "isCorrect": true,
+        "explanation": "Contains CH\u2083CO- group."
+      },
+      {
+        "id": "C",
+        "text": "Acetone (CH\u2083COCH\u2083)",
+        "isCorrect": true,
+        "explanation": "Contains CH\u2083CO- group."
+      },
+      {
+        "id": "D",
+        "text": "Methanol (CH\u2083OH)",
+        "isCorrect": false,
+        "explanation": "Lacks the required CH\u2083-C- carbon unit."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Ethanol (oxidizes to CH\u2083CHO), Acetaldehyde (CH\u2083CHO), and Acetone (CH\u2083COCH\u2083) possess the required CH\u2083CH(OH)- or CH\u2083CO- structural groups for a positive iodoform test.\n\u2022 D is incorrect: Methanol (CH\u2083OH) lacks a C-C bond and fails the iodoform test.",
+    "keyFormulae": [
+      "\\text{Positive Iodoform: } \\text{CH}_3\\text{CO-R} \\quad \\text{or} \\quad \\text{CH}_3\\text{CH(OH)-R}"
+    ],
+    "hints": [
+      "Only compounds containing CH\u2083CO- or CH\u2083CH(OH)- give a positive iodoform test."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-halo-014",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "Environmental Toxicology of Halogenated Compounds",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding the Environmental Impact of Polyhalogen Compounds: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Freon-12 (CCl\u2082F\u2082) releases atomic Chlorine radicals (Cl\u2022) under stratospheric UV light, catalytically destroying ozone.",
+        "isCorrect": true,
+        "explanation": "Photolysis releases catalytic Cl\u2022."
+      },
+      {
+        "id": "B",
+        "text": "Carbon Tetrachloride (CCl\u2084) causes liver damage, CNS depression, and stratospheric ozone depletion.",
+        "isCorrect": true,
+        "explanation": "Established toxicology of CCl\u2084."
+      },
+      {
+        "id": "C",
+        "text": "DDT is an organochlorine insecticide that biomagnifies up aquatic food chains, causing eggshell thinning in birds.",
+        "isCorrect": true,
+        "explanation": "Causes population crashes in raptors."
+      },
+      {
+        "id": "D",
+        "text": "Chloroform autoxidizes in air and light to form non-toxic sodium bicarbonate.",
+        "isCorrect": false,
+        "explanation": "Chloroform autoxidizes to form deadly Phosgene gas (COCl\u2082)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: CFCs release Cl\u2022 radicals destroying ozone; CCl\u2084 depletes ozone and causes liver cancer; DDT biomagnifies causing bird eggshell thinning.\n\u2022 D is incorrect: Chloroform autoxidizes to form deadly, highly toxic Phosgene gas (COCl\u2082), NOT non-toxic sodium bicarbonate.",
+    "keyFormulae": [
+      "\\text{CFCs: } \\text{Cl}^\\bullet \\text{ Catalytic Ozone Destruction}, \\quad \\text{DDT: Biomagnification}"
+    ],
+    "hints": [
+      "Chloroform forms phosgene (COCl\u2082), a toxic war gas, not sodium bicarbonate."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-halo-015",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "Resonance-Stabilized S_N1 Substrates",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following substrate halides undergo S_N1 solvolysis at an exceptionally FAST rate due to resonance stabilization of their carbocation intermediates? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Allyl bromide (CH\u2082=CH-CH\u2082Br)",
+        "isCorrect": true,
+        "explanation": "Forms resonance-stabilized allyl cation (CH\u2082=CH-CH\u2082\u207a \u27f7 \u207aCH\u2082-CH=CH\u2082)."
+      },
+      {
+        "id": "B",
+        "text": "Benzyl chloride (C\u2086H\u2085CH\u2082Cl)",
+        "isCorrect": true,
+        "explanation": "Forms resonance-stabilized benzyl cation (PhCH\u2082\u207a)."
+      },
+      {
+        "id": "C",
+        "text": "Chlorobenzene (C\u2086H\u2085Cl)",
+        "isCorrect": false,
+        "explanation": "Phenyl cation is highly unstable; inert to S_N1."
+      },
+      {
+        "id": "D",
+        "text": "Vinyl chloride (CH\u2082=CH-Cl)",
+        "isCorrect": false,
+        "explanation": "Vinylic cation is highly unstable; inert to S_N1."
+      }
+    ],
+    "solutionExplanation": "\u2022 A and B are correct: Allyl (CH\u2082=CH-CH\u2082\u207a) and Benzyl (Ph-CH\u2082\u207a) carbocations are heavily stabilized by \u03c0-resonance delocalization, making their parent halides undergo S_N1 solvolysis extremely rapidly.\n\u2022 C and D are incorrect: Chlorobenzene and Vinyl chloride have C-X double bond character and form unstable sp\u00b2 phenyl/vinyl cations; they are extremely inert to S_N1.",
+    "keyFormulae": [
+      "\\text{Stable Carbocations: } \\text{Allyl (CH}_2\\text{=CH-CH}_2^+\\text{)} \\approx \\text{Benzyl (PhCH}_2^+\\text{)}"
+    ],
+    "hints": [
+      "Allyl and benzyl carbocations are stabilized by resonance with adjacent \u03c0-bonds."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-halo-016",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "Chlorobenzene S_EAr Reactions",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding electrophilic substitution (S_EAr) reactions of Chlorobenzene: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chlorine deactivates the benzene ring overall due to its strong electron-withdrawing -I effect.",
+        "isCorrect": true,
+        "explanation": "-I effect reduces ring electron density."
+      },
+      {
+        "id": "B",
+        "text": "Incoming electrophiles (NO\u2082\u207a, Cl\u207a) are directed to the Ortho and Para positions due to +M resonance stabilization.",
+        "isCorrect": true,
+        "explanation": "+M resonance stabilizes o,p arenium carbocations."
+      },
+      {
+        "id": "C",
+        "text": "The Para-isomer is generally the major product due to minimal steric hindrance.",
+        "isCorrect": true,
+        "explanation": "Less steric clash at the para position."
+      },
+      {
+        "id": "D",
+        "text": "Chlorobenzene reacts much faster with nitrating mixture than unsubstituted Benzene.",
+        "isCorrect": false,
+        "explanation": "Chlorobenzene reacts SLOWER than Benzene because chlorine is deactivating."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Halogen anomaly: -I deactivates the ring (slower than benzene), +M directs o,p, and the p-isomer dominates due to less steric crowding.\n\u2022 D is incorrect: Chlorobenzene reacts SLOWER than Benzene because chlorine is overall deactivating (-I > +M).",
+    "keyFormulae": [
+      "\\text{Chlorobenzene S}_E\\text{Ar: Deactivating (-I) and Ortho/Para Directing (+M)}"
+    ],
+    "hints": [
+      "Halogens deactivate the ring, so chlorobenzene reacts slower than benzene."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-halo-017",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "Conversion of Chlorobenzenes to Phenols",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following reaction conditions convert Chlorobenzene into Phenol? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Heating with aqueous NaOH at 623 K and 300 atm pressure (Dow Process)",
+        "isCorrect": true,
+        "explanation": "Industrial Dow process for phenol."
+      },
+      {
+        "id": "B",
+        "text": "Introducing a -NO\u2082 group at position 4 (2,4-dinitrochlorobenzene) and heating with aqueous Na\u2082CO\u2083 at 368 K",
+        "isCorrect": true,
+        "explanation": "o,p-nitro activation facilitates S_NAr."
+      },
+      {
+        "id": "C",
+        "text": "Introducing three -NO\u2082 groups (2,4,6-trinitrochlorobenzene / Picryl chloride) and warming with water alone",
+        "isCorrect": true,
+        "explanation": "Heavily activated ring yields Picric Acid."
+      },
+      {
+        "id": "D",
+        "text": "Treating with cold dilute HCl at 0\u00b0C",
+        "isCorrect": false,
+        "explanation": "Acid does not displace chlorine from chlorobenzene."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Unactivated chlorobenzene requires extreme Dow process conditions (623 K, 300 atm). Introducing 2 o,p-nitro groups lowers required temp to 368 K. Introducing 3 o,p-nitro groups activates the ring so heavily that warming with water alone yields Picric Acid (2,4,6-trinitrophenol).\n\u2022 D is incorrect: Cold dilute HCl produces no reaction with chlorobenzene.",
+    "keyFormulae": [
+      "\\text{Picryl Chloride} + \\text{H}_2\\text{O} \\xrightarrow{\\text{Warm}} \\text{Picric Acid}"
+    ],
+    "hints": [
+      "Recall the activation trajectory: 623 K/300 atm \u2500\u2500\u25ba 443 K \u2500\u2500\u25ba 368 K \u2500\u2500\u25ba warm water alone."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-halo-018",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "S_N1 Stereochemistry & Ion Pairs",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding the stereochemistry of S_N1 reactions: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solvolysis of an optically active 3\u00b0 alkyl halide yields a Racemic Mixture.",
+        "isCorrect": true,
+        "explanation": "Planar carbocation attacked from both faces."
+      },
+      {
+        "id": "B",
+        "text": "The carbocation intermediate is planar (sp\u00b2-hybridized) with an unhybridized vacant p-orbital.",
+        "isCorrect": true,
+        "explanation": "Structure of carbocation."
+      },
+      {
+        "id": "C",
+        "text": "The incoming nucleophile can attack the planar carbocation with equal probability from either the frontside or backside.",
+        "isCorrect": true,
+        "explanation": "Generates 50:50 retention and inversion."
+      },
+      {
+        "id": "D",
+        "text": "Ion-pair formation between carbocation and departing leaving group often results in slight excess of Inversion over Retention.",
+        "isCorrect": true,
+        "explanation": "Frontside is slightly shielded by departing X\u207b ion."
+      }
+    ],
+    "solutionExplanation": "All four options represent accurate stereochemical and ion-pair mechanics for S_N1 reactions.",
+    "keyFormulae": [
+      "S_N1 \\text{ Stereochemistry} \\implies \\text{Racemization with slight excess of inversion due to ion-pairs}"
+    ],
+    "hints": [
+      "Planar carbocations allow attack from both faces, with intimate ion-pairs causing slight excess inversion."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-halo-019",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "Chiral Molecules Identification",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following compounds represent CHIRAL molecules capable of rotating plane-polarized light (Optical Activity)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "2-Chlorobutane",
+        "isCorrect": true,
+        "explanation": "CH\u2083-C*H(Cl)-CH\u2082CH\u2083 has an asymmetric carbon."
+      },
+      {
+        "id": "B",
+        "text": "Lactic Acid (CH\u2083-CH(OH)-COOH)",
+        "isCorrect": true,
+        "explanation": "CH\u2083-C*H(OH)-COOH has an asymmetric carbon."
+      },
+      {
+        "id": "C",
+        "text": "1-Chlorobutane",
+        "isCorrect": false,
+        "explanation": "Contains no asymmetric carbon."
+      },
+      {
+        "id": "D",
+        "text": "2-Chloropropane",
+        "isCorrect": false,
+        "explanation": "(CH\u2083)\u2082CH-Cl has two identical methyl groups (achiral)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A and B are correct: 2-Chlorobutane (CH\u2083-C*H(Cl)-CH\u2082CH\u2083) and Lactic acid (CH\u2083-C*H(OH)-COOH) both possess an asymmetric sp\u00b3 carbon (C*) bonded to 4 different groups, making them Chiral and Optically Active.\n\u2022 C and D are incorrect: 1-Chlorobutane and 2-Chloropropane lack asymmetric centers and are achiral.",
+    "keyFormulae": [
+      "\\text{Chiral: } \\text{CH}_3\\text{-C}^*\\text{H(Cl)-CH}_2\\text{CH}_3, \\quad \\text{CH}_3\\text{-C}^*\\text{H(OH)-COOH}"
+    ],
+    "hints": [
+      "Look for an sp\u00b3 carbon bonded to four entirely different substituents."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-halo-020",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Haloalkanes and Haloarenes",
+    "subtopic": "E2 Elimination Regiochemistry & Stereochemistry",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding the elimination reactions of alkyl halides: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dehydrohalogenation of alkyl halides using alcoholic KOH follows an E2 mechanism.",
+        "isCorrect": true,
+        "explanation": "Bimolecular concerted elimination."
+      },
+      {
+        "id": "B",
+        "text": "Saytzeff's rule states that the major product is the more substituted, highly alkylated alkene.",
+        "isCorrect": true,
+        "explanation": "Alkene stability increases with substitution."
+      },
+      {
+        "id": "C",
+        "text": "Using a bulky base like Potassium tert-butoxide (t-BuOK) shifts regioselectivity toward the less substituted Hofmann alkene product.",
+        "isCorrect": true,
+        "explanation": "Bulky base abstracts the more accessible primary hydrogen."
+      },
+      {
+        "id": "D",
+        "text": "Dehydrohalogenation requires an anti-periplanar spatial arrangement between the \u03b1-X and \u03b2-H atoms.",
+        "isCorrect": true,
+        "explanation": "Stereoelectronic requirement for E2 (180\u00b0 dihedral angle)."
+      }
+    ],
+    "solutionExplanation": "All four statements correctly state the mechanism, regioselectivity rules (Saytzeff vs Hofmann), base steric effects, and anti-periplanar stereoelectronic requirements of E2 eliminations.",
+    "keyFormulae": [
+      "\\text{E2 Stereoelectronics: Anti-Periplanar (180\u00b0 dihedral angle)}"
+    ],
+    "hints": [
+      "E2 eliminations require anti-periplanar geometry and follow Saytzeff (unhindered base) or Hofmann (bulky base) rules."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

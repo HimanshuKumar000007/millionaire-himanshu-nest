@@ -1,0 +1,62 @@
+{
+  "id": "chem-xi-u4-c4-l04",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit IV \u2014 Chemical Bonding and Molecular Structure",
+  "unitNumber": 4,
+  "chapter": "Chemical Bonding and Molecular Structure",
+  "chapterNumber": 4,
+  "chapterSlug": "chemical-bonding",
+  "slug": "lesson-04-valence-bond-theory-resonance",
+  "title": "Valence Bond Theory (VBT), Orbital Overlap & Resonance Phenomena",
+  "topic": "VBT, Orbital Overlap & Resonance",
+  "topics": [
+    "VBT Principles (Heitler, London, Pauling)",
+    "Sigma (\u03c3) vs Pi (\u03c0) Overlap Types & Bond Strength",
+    "Bond Strength Hierarchy (\u03c3(p-p) > \u03c3(s-p) > \u03c3(s-s) > \u03c0(p-p))",
+    "Formal Charge Formula (FC = V - N - B/2)",
+    "Resonance in Carbonate Ion (CO\u2083\u00b2\u207b, BO = 1.33)",
+    "Resonance Energy & Canonical Form Stabilities"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "valence-bond-theory",
+  "quickSummary": "VBT explains covalent bonding through pairing of opposite-spin electrons in overlapping atomic orbitals. Sigma (\u03c3) axial overlap is stronger than Pi (\u03c0) lateral overlap. Formal charge and resonance describe delocalized electron structures.",
+  "summary": "Master VBT orbital overlaps, \u03c3 vs \u03c0 bond mechanics, formal charge calculations, and resonance stabilization.",
+  "conceptBreakdown": [
+    {
+      "heading": "4.1 Orbital Overlaps: Sigma (\u03c3) vs Pi (\u03c0) Bonds",
+      "title": "4.1 Orbital Overlaps: Sigma (\u03c3) vs Pi (\u03c0) Bonds",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Orbital Overlap",
+        "takeaway": "\u03c3-bond: Head-on axial overlap (s-s, s-p, p-p); \u03c0-bond: Lateral sideways overlap (p-p, p-d). Bond strength: \u03c3(p-p) > \u03c3(s-p) > \u03c3(s-s) > \u03c0(p-p)."
+      },
+      "codeSnippet": "ORBITAL OVERLAP TYPES\n                                     \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                                                       \u25bc\n  SIGMA (\u03c3) BOND                                          PI (\u03c0) BOND\n  \u251c\u2500\u2500 Head-on / End-to-end axial overlap                  \u251c\u2500\u2500 Sideways / Lateral parallel overlap\n  \u251c\u2500\u2500 Co-axial with internuclear axis                     \u251c\u2500\u2500 Perpendicular to internuclear axis\n  \u251c\u2500\u2500 Cylindrically symmetric electron cloud              \u251c\u2500\u2500 Two electron lobes above/below axis\n  \u2514\u2500\u2500 Overlap: s-s, s-p_x, p_x-p_x                        \u2514\u2500\u2500 Overlap: p_y-p_y, p_z-p_z, p-d, d-d",
+      "content": "\u2022 **Bond Strength Sequence**:\n$$\\mathbf{\\sigma(p-p) > \\sigma(s-p) > \\sigma(s-s) > \\pi(p-p)}$$\n$p$-orbitals are directional, producing greater orbital overlap along the internuclear axis than spherical $s$-orbitals."
+    },
+    {
+      "heading": "4.2 Formal Charge (FC) & Resonance in Carbonate (CO3\u00b2\u207b)",
+      "title": "4.2 Formal Charge (FC) & Resonance in Carbonate (CO3\u00b2\u207b)",
+      "type": "paragraph",
+      "codeSnippet": "RESONANCE IN CARBONATE ION (CO\u2083\u00b2\u207b)\n                        \n   3 Equivalent Canonical Forms \u2500\u2500\u25ba Resonance Hybrid with fractional Bond Order (BO)\n   \n   BO = (Total bonds between two atoms across canonicals) / (Total resonating structures)\n   BO = 4 / 3 = 1.33",
+      "content": "\u2022 **Formal Charge Formula**:\n$$\\mathbf{\\text{FC} = V - N - \\frac{B}{2}}$$\nwhere $V$ is free atom valence electrons, $N$ is non-bonding lone pair electrons, and $B$ is total bonding electrons sharing the atom.\n\n\u2022 **Resonance Energy**:\n$$\\mathbf{\\text{Resonance Energy} = E_{\\text{experimental (hybrid)}} - E_{\\text{calculated (most stable canonical)}}}$$"
+    }
+  ],
+  "quickRevision": [
+    "\u03c3-bond is stronger than \u03c0-bond due to axial overlap.",
+    "Bond strength: \u03c3(p-p) > \u03c3(s-p) > \u03c3(s-s) > \u03c0(p-p).",
+    "Formal charge: FC = V - N - B/2.",
+    "Resonance hybrid of CO\u2083\u00b2\u207b has bond order BO = 4/3 = 1.33."
+  ],
+  "keyFormulae": [
+    "FC = V - N - (B / 2)",
+    "BO_resonance = Total Bonds / Canonical Forms",
+    "Resonance Energy = E_exp - E_calc"
+  ]
+}

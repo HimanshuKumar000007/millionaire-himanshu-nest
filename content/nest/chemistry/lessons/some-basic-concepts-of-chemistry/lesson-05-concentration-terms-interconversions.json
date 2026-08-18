@@ -1,0 +1,54 @@
+{
+  "id": "chem-xi-u1-c1-l05",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit I \u2014 Some Basic Concepts of Chemistry",
+  "unitNumber": 1,
+  "chapter": "Some Basic Concepts of Chemistry",
+  "chapterNumber": 1,
+  "chapterSlug": "some-basic-concepts-of-chemistry",
+  "slug": "lesson-05-concentration-terms-interconversions",
+  "title": "Solution Concentration Terms, Interconversions & Dilution Laws",
+  "topic": "Stoichiometry & calculations",
+  "topics": [
+    "Temperature Dependence Classification",
+    "8 Concentration Expressions (%w/w, %v/v, %w/v, ppm, x_B, M, m, N)",
+    "Interconversion Derivations (m from x_B, M from %w/w & d, etc.)",
+    "Dilution Law (M1V1 = M2V2)",
+    "Mixing Non-Reacting Solutions (M_mix)"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Advanced",
+  "source": "production",
+  "status": "published",
+  "diagramType": "concentration-terms",
+  "quickSummary": "Concentration terms divide cleanly into temperature-independent (mass-based: m, x_B, %w/w, ppm) and temperature-dependent (volume-based: M, N, %v/v, %w/v). Interconversion formulas allow instant conversion between molarity, molality, density, and mole fractions.",
+  "summary": "Master all 8 concentration terms, temperature variance, dilution, and interconversion derivations.",
+  "conceptBreakdown": [
+    {
+      "heading": "5. Concentration Expressions & Temperature Classification",
+      "title": "5. Concentration Expressions & Temperature Classification",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Temperature Invariance Rule",
+        "takeaway": "Mass-based terms (Molality, Mole Fraction, % w/w) are invariant with temperature. Volume-based terms (Molarity, Normality, % v/v) decrease as temperature rises."
+      },
+      "codeSnippet": "CONCENTRATION EXPRESSIONS\n                                       \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                                 \u25bc                                 \u25bc\nTEMPERATURE-DEPENDENT             TEMPERATURE-INDEPENDENT           VOLUMETRIC NORMALITY\n(Volume-based; $V \\propto T$)     (Mass-based; invariant)           (Equivalent-based)\n\u251c\u2500\u2500 Molarity ($M$, $\\text{mol/L}$) \u251c\u2500\u2500 Molality ($m$, $\\text{mol/kg}$) \u251c\u2500\u2500 Normality ($N$, $\\text{eq/L}$)\n\u251c\u2500\u2500 Mass/Vol ($\\% w/v$)           \u251c\u2500\u2500 Mole Fraction ($x_i$)         \u2514\u2500\u2500 $N = M \\times n\\text{-factor}$\n\u2514\u2500\u2500 Vol/Vol ($\\% v/v$)            \u2514\u2500\u2500 Mass Fraction ($\\% w/w$)",
+      "content": "\u2022 **Mass Percentage (% w/w)**: $\\frac{w_B}{w_A + w_B} \\times 100$ [T-Independent]\n\u2022 **Mole Fraction ($x_B$)**: $\\frac{n_B}{n_A + n_B}$, where $x_A + x_B = 1$ [T-Independent]\n\u2022 **Molality ($m$)**: $\\frac{n_B}{w_A(\\text{kg})} = \\frac{w_B \\times 1000}{M_B \\times w_A(\\text{g})}$ [T-Independent]\n\u2022 **Parts Per Million (ppm)**: $\\frac{w_B}{w_{\\text{total}}} \\times 10^6$ [T-Independent if w/w]\n\u2022 **Molarity ($M$)**: $\\frac{n_B}{V_{\\text{soln}}(\\text{L})} = \\frac{w_B \\times 1000}{M_B \\times V_{\\text{soln}}(\\text{mL})}$ [T-Dependent: decreases as T rises]\n\u2022 **Normality ($N$)**: $\\frac{\\text{Gram Eq of B}}{V_{\\text{soln}}(\\text{L})} = M \\times n\\text{-factor}$ [T-Dependent]"
+    },
+    {
+      "heading": "6. Essential Interconversion Derivations",
+      "title": "6. Essential Interconversion Derivations",
+      "type": "paragraph",
+      "content": "Let $d$ be solution density in g/mL, $M$ be Molarity, $m$ be Molality, $x_B$ be solute mole fraction, $M_A$ be solvent molar mass (18.015 for water), and $M_B$ be solute molar mass:\n\n1. **Molality from Mole Fraction**:\n   $$\\mathbf{m = \\frac{x_B}{x_A} \\times \\frac{1000}{M_A} = \\frac{x_B}{1 - x_B} \\times \\frac{1000}{M_A}}$$\n\n2. **Mole Fraction from Molality**:\n   $$\\mathbf{x_B = \\frac{m}{m + \\frac{1000}{M_A}}}$$\n\n3. **Molality from Molarity and Density**:\n   $$\\mathbf{m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_B}}$$\n\n4. **Molarity from Mass % (% w/w) and Density**:\n   $$\\mathbf{M = \\frac{(\\% w/w) \\times d \\times 10}{M_B}}$$\n\n5. **Dilution & Mixing Laws**:\n   \u2022 Dilution: $M_1 V_1 = M_2 V_2$ and $N_1 V_1 = N_2 V_2$\n   \u2022 Non-Reacting Solution Mixing: $M_{\\text{mix}} = \\frac{\\sum M_i V_i}{\\sum V_i}$"
+    }
+  ],
+  "quickRevision": [
+    "Molarity decreases with increasing temperature due to volume expansion.",
+    "Molality is moles solute per kg of solvent.",
+    "M = (% w/w \u00d7 d \u00d7 10) / M_B."
+  ]
+}

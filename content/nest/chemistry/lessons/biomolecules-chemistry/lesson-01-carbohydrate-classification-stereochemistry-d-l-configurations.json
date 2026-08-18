@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u19-c10-l01",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XIX \u2014 Biomolecules",
+  "unitNumber": 19,
+  "chapter": "Biomolecules",
+  "chapterNumber": 10,
+  "chapterSlug": "biomolecules-chemistry",
+  "slug": "lesson-01-carbohydrate-classification-stereochemistry-d-l-configurations",
+  "title": "Carbohydrate Classification, Stereochemistry, & D/L Configurations",
+  "topic": "Carbohydrate Classification & D/L Conventions",
+  "topics": [
+    "1. Carbohydrate Definition (Polyhydroxy Aldehydes / Ketones & Hydrolyzable Precursors)",
+    "Carbohydrate Taxonomy: Monosaccharides (Aldoses, Ketoses), Oligosaccharides (2\u201310 Units), & Polysaccharides (>10 Units)",
+    "1.1 D- and L- Relative Configuration Conventions (Spatial Arrangement of Highest-Numbered Chiral Carbon C-5)",
+    "Comparison with D-Glyceraldehyde & L-Glyceraldehyde Fischer Projections",
+    "D/L Stereochemistry vs Optical Rotation (+ Dextro / - Levo): D-(+)-Glucose vs D-(-)-Fructose"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "biomolecules-chemistry",
+  "quickSummary": "Carbohydrates are polyhydroxy aldehydes or ketones. Relative D/L configuration is assigned by comparing the highest-numbered asymmetric carbon (C-5 in aldohexoses) with D-glyceraldehyde (OH on right = D; OH on left = L). D/L designation has no direct relationship to the sign of optical rotation (+/-).",
+  "summary": "Master carbohydrate taxonomy, Fischer D/L stereochemical conventions, and optical rotation distinction.",
+  "conceptBreakdown": [
+    {
+      "heading": "1. Carbohydrate Classification & D/L Conventions",
+      "title": "1. Carbohydrate Classification & D/L Conventions",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Carbohydrate Hierarchy & D/L Rules",
+        "takeaway": "D-configuration has -OH at C-5 on the RIGHT; L-configuration has -OH at C-5 on the LEFT. D/L is spatial configuration and independent of optical rotation sign (+/-)."
+      },
+      "codeSnippet": "                           CARBOHYDRATE CLASSIFICATION\n                                       \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                                 \u25bc                                 \u25bc\n  MONOSACCHARIDES               OLIGOSACCHARIDES                  POLYSACCHARIDES\n  Cannot be hydrolyzed further  Yield 2\u201310 monosaccharides        Yield $>10$ monosaccharides\n  into simpler carbohydrates.   upon hydrolysis.                  upon hydrolysis.\n  \u251c\u2500\u2500 Aldoses (Aldehyde: Glucose)\u251c\u2500\u2500 Disaccharides (Maltose,      \u251c\u2500\u2500 Homopolysaccharides\n  \u2514\u2500\u2500 Ketoses (Ketone: Fructose)\u2502   Lactose, Sucrose)             \u2502   (Starch, Cellulose, Glycogen)\n                                \u2514\u2500\u2500 Trisaccharides (Raffinosus)   \u2514\u2500\u2500 Heteropolysaccharides",
+      "content": "Carbohydrates are polyhydroxy aldehydes or polyhydroxy ketones, or substances that yield such compounds upon hydrolysis. They are categorized based on their degree of polymerization into Monosaccharides, Oligosaccharides, and Polysaccharides."
+    },
+    {
+      "heading": "1.1 Fischer Projection D/L Configurations",
+      "title": "1.1 Fischer Projection D/L Configurations",
+      "type": "paragraph",
+      "codeSnippet": "                      FISCHER PROJECTION D/L CONFIGURATIONS\n                      \n     CHO                             CHO                             CHO\n      \u2502                               \u2502                               \u2502\n  H \u2500\u2500\u253c\u2500\u2500 OH                      H \u2500\u2500\u253c\u2500\u2500 OH                      HO \u2500\u2500\u253c\u2500\u2500 H\n      \u2502                               \u2502                               \u2502\n   CH\u2082OH                         HO \u2500\u2500\u253c\u2500\u2500 H                           H \u2500\u2500\u253c\u2500\u2500 OH\n                                      \u2502                               \u2502\n  D-Glyceraldehyde                H \u2500\u2500\u253c\u2500\u2500 OH                      HO \u2500\u2500\u253c\u2500\u2500 H\n                                      \u2502                               \u2502\n                                  H \u2500\u2500\u253c\u2500\u2500 OH (C-5)                HO \u2500\u2500\u253c\u2500\u2500 H (C-5)\n                                      \u2502                               \u2502\n                                   CH\u2082OH                           CH\u2082OH\n                                  D-Glucose                       L-Glucose",
+      "content": "Relative configuration is assigned by comparing the spatial arrangement of the asymmetric carbon furthest from the carbonyl group (the highest-numbered chiral carbon, e.g., C-5 in aldohexoses) with D-Glyceraldehyde:\n- **D-Configuration**: The hydroxyl (-OH) group at the highest-numbered chiral center lies on the RIGHT side in Fischer projection.\n- **L-Configuration**: The hydroxyl (-OH) group at the highest-numbered chiral center lies on the LEFT side in Fischer projection.\n- **D/L vs. (+/-)**: Natural D-Glucose is dextrorotatory [D-(+)-glucose]; natural D-Fructose is levorotatory [D-(-)-fructose]."
+    }
+  ],
+  "quickRevision": [
+    "Monosaccharides: cannot be hydrolyzed further (Glucose, Fructose).",
+    "Oligosaccharides: yield 2\u201310 monosaccharides (Sucrose, Maltose, Lactose).",
+    "Polysaccharides: yield >10 monosaccharides (Starch, Cellulose, Glycogen).",
+    "D-Configuration: C-5 -OH on the RIGHT in Fischer projection.",
+    "L-Configuration: C-5 -OH on the LEFT in Fischer projection.",
+    "D/L configuration is independent of optical rotation sign (+/-)."
+  ],
+  "keyFormulae": [
+    "\\text{Aldohexose Chiral Center (C-5): } -\\text{OH on Right } \\implies \\text{D-Series}; \\quad -\\text{OH on Left } \\implies \\text{L-Series}"
+  ]
+}

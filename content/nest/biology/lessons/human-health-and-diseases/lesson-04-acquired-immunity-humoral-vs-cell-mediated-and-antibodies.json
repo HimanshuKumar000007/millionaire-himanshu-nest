@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u8-c7-l04",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VIII — Biology in Human Welfare",
+  "unitNumber": 8,
+  "chapter": "Human Health and Diseases",
+  "chapterNumber": 7,
+  "chapterSlug": "human-health-and-diseases",
+  "slug": "lesson-04-acquired-immunity-humoral-vs-cell-mediated-and-antibodies",
+  "title": "Acquired Immunity: Humoral vs Cell-Mediated & Antibodies",
+  "topic": "B vs T Lymphocytes, H2L2 Antibody Structure, & Immunoglobulin Isotypes (IgG, IgA, IgM, IgE, IgD)",
+  "order": 4,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Acquired immunity branches: Humoral (B-lymphocytes, plasma cells, soluble antibodies in blood/lymph) vs Cell-Mediated CMI (T-lymphocytes: CD4+ Helper & CD8+ Cytotoxic T-cells, handles intracellular pathogens, tumors, and graft rejection). Antibody: H2L2 heterotetramer linked by disulfide bonds. Ig isotypes: IgG (crosses placenta), IgA (colostrum dimer), IgM (pentamer), IgE (allergies/mast cells).",
+  "summary": "Acquired immunity branches: Humoral (B-lymphocytes, plasma cells, soluble antibodies in blood/lymph) vs Cell-Mediated CMI (T-lymphocytes: CD4+ Helper & CD8+ Cytotoxic T-cells, handles intracellular pathogens, tumors, and graft rejection). Antibody: H2L2 heterotetramer linked by disulfide bonds. Ig isotypes: IgG (crosses placenta), IgA (colostrum dimer), IgM (pentamer), IgE (allergies/mast cells).",
+  "conceptBreakdown": [
+    {
+      "heading": "Humoral vs. Cell-Mediated Immunity & Antibody Structure",
+      "title": "Humoral vs. Cell-Mediated Immunity & Antibody Structure",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Acquired immunity is divided into Humoral Immunity (B-cells producing circulating H2L2 antibodies against extracellular pathogens) and Cell-Mediated Immunity (T-cells defending against intracellular viruses, cancer, and driving graft/transplant rejection). Five antibody isotypes (IgG, IgA, IgM, IgE, IgD) perform specialized effector functions."
+      },
+      "codeSnippet": "ACQUIRED IMMUNITY BRANCHES\n                                        │\n         ┌──────────────────────────────┴──────────────────────────────┐\n         ▼                                                             ▼\n  HUMORAL IMMUNITY (AMI)                                       CELL-MEDIATED IMMUNITY (CMI)\n  ├── Driven by B-Lymphocytes                                 ├── Driven by T-Lymphocytes\n  ├── Secretes soluble Antibodies into plasma                  ├── CD4⁺ Helper T-cells & CD8⁺ Cytotoxic T-cells\n  └── Fights extracellular bacteria & toxins                   └── Fights intracellular viruses, cancer, & drives\n                                                                   GRAFT / ORGAN REJECTION",
+      "content": "### 4.1 Humoral vs. Cell-Mediated Immunity\n- **Humoral Immunity (Antibody-Mediated Immunity / AMI)**:\n  - Driven by **B-Lymphocytes** (matured in bone marrow).\n  - Upon antigen activation, B-cells proliferate into **Plasma Cells** (which secrete millions of soluble antibodies into blood plasma and lymph) and **Memory B-Cells**.\n  - Protects against extracellular bacteria, viruses in circulation, and exotoxins.\n- **Cell-Mediated Immunity (CMI)**:\n  - Driven by **T-Lymphocytes** (matured in the **Thymus**).\n  - Major Subsets: $\\text{CD4}^+$ Helper T-cells ($T_H$) and $\\text{CD8}^+$ Cytotoxic T-cells ($T_C$).\n  - Fights intracellular pathogens (e.g., *Mycobacterium tuberculosis*, viruses inside host cells), cancer cells, and executes **Graft / Organ Transplant Rejection** (tissue matching and immunosuppressants like *Cyclosporin A* are required).\n\n### 4.2 Antibody Structure ($\\text{H}_2\\text{L}_2$ Architecture)\n- Y-shaped glycoprotein composed of **$2\\text{ Heavy (H) chains}$** ($\\approx 50\\text{ kDa}$) and **$2\\text{ Light (L) chains}$** ($\\approx 25\\text{ kDa}$) held together by inter-chain **Disulfide Bonds ($-\\text{S}-\\text{S}-$)**.\n- **$F_{ab}$ Region**: Antigen-binding fragment located at the tips of the Y containing hypervariable regions ($V_H / V_L$) that form the paratope matching the epitope.\n- **$F_c$ Region**: Crystallizable constant region ($C_H$) that binds host cell receptors (macrophages, mast cells) and activates complement.\n\n### 4.3 Five Immunoglobulin Isotypes\n\n| Isotype | Physical Structure | Serum Abundance | Primary Physiological & Clinical Roles |\n| :--- | :--- | :--- | :--- |\n| **$\\text{IgG}$** | Monomer ($\\text{H}_2\\text{L}_2$) | **$75\\text{--}80\\%$** (Most abundant) | Dominates secondary immune responses; **ONLY antibody that crosses the placenta** to protect fetus |\n| **$\\text{IgA}$** | Dimer with J-Chain | $10\\text{--}15\\%$ | Secretory antibody present in **Colostrum**, tears, saliva, and gut mucus; protects mucosal surfaces |\n| **$\\text{IgM}$** | Pentamer with J-Chain | $5\\text{--}10\\%$ | Largest antibody ($900\\text{ kDa}$); first antibody class produced during primary immune response; potent agglutinator |\n| **$\\text{IgE}$** | Monomer ($\\text{H}_2\\text{L}_2$) | $<0.05\\%$ (Trace) | Binds high-affinity $\\text{Fc}\\epsilon\\text{RI}$ receptors on **Mast Cells & Basophils**; triggers **Allergies** & helminth defense |\n| **$\\text{IgD}$** | Monomer ($\\text{H}_2\\text{L}_2$) | $<1\\%$ | Serves as antigen receptor on naive B-lymphocyte surface |"
+    },
+    {
+      "heading": "Primary vs Secondary Immune Response",
+      "title": "Primary vs Secondary Immune Response",
+      "type": "paragraph",
+      "content": "Primary immune response has a long lag phase, low antibody titers, and is dominated by IgM; Secondary (anamnestic) response upon re-exposure is rapid, heightened, dominated by high-affinity IgG, due to immunological memory."
+    },
+    {
+      "heading": "Major Histocompatibility Complex (MHC/HLA)",
+      "title": "Major Histocompatibility Complex (MHC/HLA)",
+      "type": "paragraph",
+      "content": "MHC Class I molecules present endogenous antigens to CD8+ Cytotoxic T-cells, while MHC Class II molecules on antigen-presenting cells (dendritic cells, macrophages) present exogenous antigens to CD4+ Helper T-cells."
+    }
+  ]
+}

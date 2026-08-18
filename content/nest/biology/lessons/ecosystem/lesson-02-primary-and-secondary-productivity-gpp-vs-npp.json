@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u10-c12-l02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit X — Ecology",
+  "unitNumber": 10,
+  "chapter": "Ecosystem",
+  "chapterNumber": 12,
+  "chapterSlug": "ecosystem",
+  "slug": "lesson-02-primary-and-secondary-productivity-gpp-vs-npp",
+  "title": "Primary & Secondary Productivity: GPP vs NPP",
+  "topic": "Gross Primary Productivity, Autotrophic Respiration Losses R, Net Primary Productivity, & Secondary Productivity",
+  "order": 2,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Ecosystem productivity: Rate of organic biomass synthesis per unit area over time (g/m²/yr or kcal/m²/yr). Primary Productivity: Rate of organic matter synthesis by autotrophic producers. Gross Primary Productivity (GPP): Total rate of organic matter production during photosynthesis. Net Primary Productivity (NPP): Biomass remaining after autotrophic respiratory losses (R): NPP = GPP - R. NPP is the actual organic biomass available to heterotrophic consumers. Secondary Productivity: Rate of new organic matter synthesis by consumers.",
+  "summary": "Ecosystem productivity: Rate of organic biomass synthesis per unit area over time (g/m²/yr or kcal/m²/yr). Primary Productivity: Rate of organic matter synthesis by autotrophic producers. Gross Primary Productivity (GPP): Total rate of organic matter production during photosynthesis. Net Primary Productivity (NPP): Biomass remaining after autotrophic respiratory losses (R): NPP = GPP - R. NPP is the actual organic biomass available to heterotrophic consumers. Secondary Productivity: Rate of new organic matter synthesis by consumers.",
+  "conceptBreakdown": [
+    {
+      "heading": "Productivity Categorization & GPP vs. NPP Dynamics",
+      "title": "Productivity Categorization & GPP vs. NPP Dynamics",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Gross Primary Productivity (GPP) represents total photosynthetic carbon fixation. Subtracting autotrophic respiratory losses (R) yields Net Primary Productivity (NPP = GPP - R), which fuels all heterotrophs in the ecosystem."
+      },
+      "codeSnippet": "GROSS vs NET PRIMARY PRODUCTIVITY\n                    \n   GROSS PRIMARY PRODUCTIVITY (GPP) ──► Total rate of organic matter synthesis during photosynthesis.\n                                               │\n   Autotrophic Respiration Losses (R) ◄──────┘\n                                               │\n   NET PRIMARY PRODUCTIVITY (NPP)   ──► Organic biomass remaining available to Heterotrophs.",
+      "content": "### 2.1 Productivity Metrics & Units\n- **Productivity** is defined as the rate of biomass or organic matter production per unit area over a specified time interval.\n- Expressed as:\n  - **Biomass units**: $\\text{g/m}^2/\\text{year}$ or $\\text{dry weight (tonnes/ha/yr)}$.\n  - **Energy units**: $\\text{kcal/m}^2/\\text{year}$ or $\\text{J/m}^2/\\text{year}$.\n\n### 2.2 Primary Productivity (GPP vs. NPP)\n1. **Gross Primary Productivity (GPP)**:\n   - The total rate of conversion of solar radiant energy into chemical bond energy (organic matter) by autotrophic green plants during photosynthesis per unit area per unit time.\n2. **Autotrophic Respiration Losses ($R$)**:\n   - A considerable fraction of gross photosynthate is continuously consumed by the plants themselves to fuel cellular metabolic processes, maintenance, and growth.\n3. **Net Primary Productivity (NPP)**:\n   - The net organic biomass accumulated and stored in plant tissues that remains after subtracting respiratory costs:\n     $$\\mathbf{\\text{NPP} = \\text{GPP} - R}$$\n   - **HIGH-YIELD EXAM INVARIANT**: **NPP represents the actual, usable biomass available for consumption by heterotrophic organisms** (herbivores, carnivores, and decomposers).\n\n### 2.3 Secondary Productivity\n- **Secondary Productivity**: The rate of formation of **new organic biomass by heterotrophic consumers** (herbivores and carnivores) per unit area per unit time.\n- Driven entirely by assimilating and transforming consumed plant or animal tissues into animal body mass."
+    },
+    {
+      "heading": "Net Ecosystem Productivity (NEP)",
+      "title": "Net Ecosystem Productivity (NEP)",
+      "type": "paragraph",
+      "content": "Net Ecosystem Productivity accounts for total ecosystem respiration (autotrophic R_A + heterotrophic R_H): NEP = GPP - (R_A + R_H); positive NEP indicates the ecosystem acts as a net carbon sink accumulating organic carbon."
+    },
+    {
+      "heading": "Light and Dark Bottle Oxygen Method",
+      "title": "Light and Dark Bottle Oxygen Method",
+      "type": "paragraph",
+      "content": "Gaarder and Gran's classic method measures aquatic productivity: Dissolved oxygen change in light bottle = GPP - R = NPP; Oxygen decrease in dark bottle = R; GPP is calculated by adding R to NPP."
+    }
+  ]
+}

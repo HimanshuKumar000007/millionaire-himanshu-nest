@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-20-05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Chemical Coordination and Integration",
+  "chapterNumber": 20,
+  "chapterSlug": "chemical-coordination-and-integration",
+  "lessonNumber": 5,
+  "title": "Thyroid & Parathyroid Axis: Calcium Homeostasis (PTH vs. TCT)",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Hard",
+  "prerequisites": ["Bone physiology", "Calcium ion regulation"],
+  "learningObjectives": [
+    "Differentiate Thyroid Follicular Cells (T3/T4) and Parafollicular C-Cells (Thyrocalcitonin)",
+    "Contrast Parathyroid Hormone (PTH) as a hypercalcemic factor with Thyrocalcitonin (TCT) as a hypocalcemic factor",
+    "Trace the dual negative feedback loop maintaining serum Ca2+ between 9.0 and 11.0 mg/dL"
+  ],
+  "content": "```\n                            THYROID GLAND ANATOMY\n                                      │\n         ┌────────────────────────────┴────────────────────────────┐\n         ▼                                                         ▼\n   FOLLICULAR CELLS                                           PARAFOLLICULAR / C-CELLS\n   ├── Synthesizes T₃ (Triiodo) & T₄ (Thyroxine)               └── Secretes Thyrocalcitonin (TCT)\n   ├── Requires Iodine on Thyroglobulin backbone               └── Hypocalcemic peptide hormone\n   └── Regulates BMR, calorigenesis, & erythropoiesis             (Lowers serum Ca²⁺)\n```\n\n### 5.1 Calcium Homeostasis Dual-Feedback System\n\nSerum Calcium ($\\text{Ca}^{2+}$) is tightly maintained within a narrow physiological range (**$9.0\\text{--}11.0\\text{ mg/dL}$**) by the antagonistic actions of Parathyroid Hormone (PTH) and Thyrocalcitonin (TCT).\n\n```\n                      SERUM CALCIUM REGULATION CASCADES\n                      \n   HYPERCALCEMIA (High Serum Ca²⁺ >11 mg/dL) ──► Thyroid C-cells release TCT\n                                                                        │\n   Lowers Serum Ca²⁺ ◄── Inhibits Osteoclasts & Promotes Bone Deposition ┘\n   \n   HYPOCALCEMIA (Low Serum Ca²⁺ <9 mg/dL)  ──► Parathyroids release PTH\n                                                                        │\n   Raises Serum Ca²⁺  ◄── Stimulates Osteoclast Bone Resorption + ────────┤\n                                  Reabsorbs Ca²⁺ in Renal Tubules +      │\n                                  Activates Vitamin D (1,25-(OH)₂D₃) ◄───┘\n```\n\n### 5.2 Comparative Homeostatic Matrix\n\n| Parameter | Parathyroid Hormone (PTH / Collip's Hormone) | Thyrocalcitonin (TCT) |\n| :--- | :--- | :--- |\n| **Gland of Origin** | **Parathyroid Glands** (Chief cells) | **Thyroid Gland** (Parafollicular C-cells) |\n| **Primary Effect on Serum $\\text{Ca}^{2+}$** | **HYPERCALCEMIC Factor** (Raises serum $\\text{Ca}^{2+}$) | **HYPOCALCEMIC Factor** (Lowers serum $\\text{Ca}^{2+}$) |\n| **Bone Effect** | Stimulates **Osteoclast bone resorption** (demineralization) | Inhibits osteoclasts; stimulates **Osteoblast bone deposition** |\n| **Renal Effect** | Increases $\\text{Ca}^{2+}$ reabsorption; inhibits phosphate reabsorption | Inhibits renal tubular $\\text{Ca}^{2+}$ reabsorption |\n| **Intestinal Effect** | Enhances intestinal $\\text{Ca}^{2+}$ absorption by activating **Calcitriol** | No direct effect on intestinal absorption |",
+  "conceptBreakdown": [
+    {
+      "heading": "RANKL Activation by PTH",
+      "explanation": "PTH does not directly bind osteoclasts; it binds osteoblasts, stimulating them to express RANKL (Receptor Activator of Nuclear Factor-κB Ligand) and downregulate Osteoprotegerin (OPG), driving osteoclast differentiation and bone matrix demineralization."
+    },
+    {
+      "heading": "Hypocalcemic Tetany",
+      "explanation": "Hypoparathyroidism drops serum Ca2+, increasing the permeability of neuronal plasma membranes to Na+ and lowering the threshold for action potential firing. This causes spontaneous, painful muscular spasms called Tetany (Chvostek's and Trousseau's signs)."
+    }
+  ]
+}

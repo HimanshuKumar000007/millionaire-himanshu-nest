@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u8-c7-l05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VIII — Biology in Human Welfare",
+  "unitNumber": 8,
+  "chapter": "Human Health and Diseases",
+  "chapterNumber": 7,
+  "chapterSlug": "human-health-and-diseases",
+  "slug": "lesson-05-active-vs-passive-immunity-and-vaccine-biotechnology",
+  "title": "Active vs Passive Immunity & Vaccine Biotechnology",
+  "topic": "Natural vs Artificial Immunity, Colostrum, ATS, & 1st/2nd/3rd Gen Vaccines",
+  "order": 5,
+  "readingTimeMinutes": 15,
+  "estimatedTimeMinutes": 15,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Active immunity: host produces own antibodies upon antigen exposure (Natural: infection; Artificial: vaccination). Passive immunity: pre-formed antibodies transferred (Natural: maternal IgG across placenta, IgA in colostrum; Artificial: Anti-Tetanus Serum ATS, anti-snake venom). Vaccine generations: 1st gen (whole killed/attenuated), 2nd gen (recombinant subunit e.g. Hepatitis B in yeast), 3rd gen (DNA/mRNA).",
+  "summary": "Active immunity: host produces own antibodies upon antigen exposure (Natural: infection; Artificial: vaccination). Passive immunity: pre-formed antibodies transferred (Natural: maternal IgG across placenta, IgA in colostrum; Artificial: Anti-Tetanus Serum ATS, anti-snake venom). Vaccine generations: 1st gen (whole killed/attenuated), 2nd gen (recombinant subunit e.g. Hepatitis B in yeast), 3rd gen (DNA/mRNA).",
+  "conceptBreakdown": [
+    {
+      "heading": "Active vs. Passive Immunity & Vaccine Biotechnology",
+      "title": "Active vs. Passive Immunity & Vaccine Biotechnology",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Active immunity involves active antibody synthesis and long-lasting memory generation by host B-cells (natural via recovery, artificial via vaccines). Passive immunity involves direct transfer of pre-formed antibodies for immediate, transient protection (natural via maternal IgG/IgA, artificial via ATS). Vaccines span 1st, 2nd (recombinant yeast Hepatitis B), and 3rd generations."
+      },
+      "codeSnippet": "IMMUNITY TYPES\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n  ACTIVE IMMUNITY                                         PASSIVE IMMUNITY\n  Host produces its OWN antibodies upon antigen contact.   Pre-formed antibodies transferred directly to host.\n  ├── Natural: Recovery from chickenpox infection         ├── Natural: Maternal IgG via placenta / IgA in colostrum\n  └── Artificial: Vaccination (BCG, Polio, MMR)           └── Artificial: Anti-Tetanus Serum (ATS) / Anti-snake venom",
+      "content": "### 5.1 Active vs. Passive Immunity Comparison\n\n| Category | Definition | Natural Example | Artificial Example |\n| :--- | :--- | :--- | :--- |\n| **Active Immunity** | Host mounts its own immune response and synthesizes antibodies upon exposure to living or dead antigens; slow to develop but generates long-lasting **immunological memory**. | Recovery from natural infection (*Chickenpox, Measles*) | **Vaccination** (*BCG, MMR, OPV, Hepatitis B*) |\n| **Passive Immunity** | Ready-made, pre-formed antibodies are directly administered to a non-immune individual; provides immediate protection but **generates NO immunological memory** (short-lived). | Maternal **$\\text{IgG}$** across placenta to fetus; Secretory **$\\text{IgA}$** in early **Colostrum** breast milk | **Anti-Tetanus Serum (ATS)**; Anti-Rabies Serum; Anti-snake venom |\n\n### 5.2 Vaccine Generations in Biotechnology\n1. **First-Generation Vaccines**:\n   - Whole-pathogen formulations.\n   - *Live Attenuated*: Pathogen weakened by serial subculturing (e.g., **BCG** against tuberculosis, **Oral Polio Vaccine (OPV - Sabin)**, **MMR** against measles/mumps/rubella).\n   - *Inactivated / Killed*: Pathogen killed with heat or formalin (e.g., **Injectable Polio Vaccine (IPV - Salk)**, Rabies, Cholera, Pertussis).\n2. **Second-Generation Vaccines (Recombinant Subunit)**:\n   - Antigenic proteins produced via recombinant DNA technology in host organisms.\n   - *Example*: **Hepatitis B Vaccine** produced in transgenic yeast (*Saccharomyces cerevisiae*) by expressing the Hepatitis B surface antigen ($\text{HBsAg}$).\n3. **Third-Generation Vaccines (Nucleic Acid Vaccines)**:\n   - DNA or mRNA constructs that instruct host cells to produce the viral antigen directly (e.g., mRNA-based COVID-19 vaccines)."
+    },
+    {
+      "heading": "Toxoid Vaccines",
+      "title": "Toxoid Vaccines",
+      "type": "paragraph",
+      "content": "Toxoids are chemically inactivated bacterial exotoxins (using formaldehyde) that lose their pathogenicity while retaining immunogenicity, such as Tetanus Toxoid (TT) and Diphtheria Toxoid (in DPT)."
+    },
+    {
+      "heading": "Herd Immunity Threshold",
+      "title": "Herd Immunity Threshold",
+      "type": "paragraph",
+      "content": "Herd immunity occurs when a critical proportion of the population is vaccinated (threshold Qc = 1 - 1/R0), interrupting pathogen transmission chains and protecting unvaccinated vulnerable individuals."
+    }
+  ]
+}

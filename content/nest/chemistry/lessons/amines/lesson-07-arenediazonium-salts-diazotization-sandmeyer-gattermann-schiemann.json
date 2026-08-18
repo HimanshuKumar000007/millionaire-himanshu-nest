@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u18-c9-l07",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVIII \u2014 Amines",
+  "unitNumber": 18,
+  "chapter": "Amines",
+  "chapterNumber": 9,
+  "chapterSlug": "amines",
+  "slug": "lesson-07-arenediazonium-salts-diazotization-sandmeyer-gattermann-schiemann",
+  "title": "Arenediazonium Salts: Diazotization, Sandmeyer, & Displacement Matrix",
+  "topic": "Diazonium Synthetic Transformations",
+  "topics": [
+    "7. Diazotization of Primary Aromatic Amines (Ar-NH\u2082 + NaNO\u2082 + 2HCl at 0\u20135\u00b0C \u2500\u2500\u25ba Ar-N\u2082\u207aCl\u207b)",
+    "Resonance Stabilization of Arenediazonium Salts vs Explosive Instability of Aliphatic Diazonium",
+    "7.1 Sandmeyer Reaction (Cu\u2082X\u2082/HX for Cl, Br, CN) vs Gattermann Reaction (Cu powder/HX)",
+    "7.2 Diazonium Replacement Matrix: KI (Iodine), Balz-Schiemann Fluorination (HBF\u2084, \u0394 \u2500\u2500\u25ba Ar-F)",
+    "Reduction to Benzene (H\u2083PO\u2082 or Ethanol) & Hydrolysis to Phenol (Warm H\u2082O at 283 K)"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "amines",
+  "quickSummary": "Arenediazonium salts (Ar-N\u2082\u207aCl\u207b) are prepared by diazotization of 1\u00b0 aromatic amines at 0\u20135\u00b0C (273\u2013278 K) and are stabilized by resonance. Sandmeyer reaction uses Cu\u2082X\u2082 (higher yields); Gattermann uses Cu powder/HX. Displacement reactions: KI \u2500\u2500\u25ba Ar-I; Balz-Schiemann (HBF\u2084/\u0394) \u2500\u2500\u25ba Ar-F; H\u2083PO\u2082 or EtOH \u2500\u2500\u25ba Benzene (Ar-H); Warm H\u2082O \u2500\u2500\u25ba Phenol (Ar-OH).",
+  "summary": "Master diazotization conditions, Sandmeyer vs Gattermann mechanisms, Balz-Schiemann fluorination, and diazonium displacement reactions.",
+  "conceptBreakdown": [
+    {
+      "heading": "7. Diazotization & 7.1 Sandmeyer vs Gattermann",
+      "title": "7. Diazotization & 7.1 Sandmeyer vs Gattermann",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Diazonium Synthesis & Halogenation",
+        "takeaway": "Diazotization at 0\u20135\u00b0C (273\u2013278 K). Sandmeyer uses Cu\u2082X\u2082/HX (higher yield); Gattermann uses Cu powder/HX. Proceed via aryl free radicals."
+      },
+      "codeSnippet": "                       SANDMEYER vs GATTERMANN COMPARISON\n                       \n   SANDMEYER REACTION:  $\\text{Ar-N}_2^+\\text{Cl}^- \\xrightarrow{\\mathbf{\\text{Cu}_2\\text{X}_2 / \\text{HX}}} \\text{Ar-X} + \\text{N}_2 \\uparrow \\quad (\\text{Higher Yields!})$\n   GATTERMANN REACTION: $\\text{Ar-N}_2^+\\text{Cl}^- \\xrightarrow{\\mathbf{\\text{Cu Powder / HX}}} \\text{Ar-X} + \\text{N}_2 \\uparrow$",
+      "content": "Arenediazonium salts are synthesized by reacting aromatic $1^\\circ$ amines with $\text{NaNO}_2$ and $\text{HCl}$ at $0\text{--}5^\\circ\text{C}$. They serve as versatile synthetic precursors."
+    },
+    {
+      "heading": "7.2 Diazonium Replacement Matrix",
+      "title": "7.2 Diazonium Replacement Matrix",
+      "type": "paragraph",
+      "codeSnippet": "                        DIAZONIUM DISPLACEMENT MATRIX\n                        \n   1. Replacement by Iodine:      $\\text{Ar-N}_2^+\\text{Cl}^- + \\text{KI} \\xrightarrow{\\text{Warm}} \\mathbf{\\text{Ar-I}} + \\text{N}_2 \\uparrow + \\text{KCl}$\n   2. Schiemann Reaction ($\\text{F}$):   $\\text{Ar-N}_2^+\\text{Cl}^- + \\text{HBF}_4 \\rightarrow \\text{Ar-N}_2^+\\text{BF}_4^- \\xrightarrow{\\Delta} \\mathbf{\\text{Ar-F}} + \\text{N}_2 \\uparrow + \\text{BF}_3$\n   3. Reduction to Benzene:        $\\text{Ar-N}_2^+\\text{Cl}^- + \\mathbf{\\text{H}_3\\text{PO}_2} + \\text{H}_2\\text{O} \\xrightarrow{\\text{Cu}^+} \\mathbf{\\text{Ar-H}} + \\text{N}_2 \\uparrow + \\text{H}_3\\text{PO}_3 + \\text{HCl}$\n                                  $\\text{Ar-N}_2^+\\text{Cl}^- + \\mathbf{\\text{CH}_3\\text{CH}_2\\text{OH}} \\longrightarrow \\mathbf{\\text{Ar-H}} + \\text{N}_2 \\uparrow + \\text{CH}_3\\text{CHO} + \\text{HCl}$\n   4. Hydrolysis to Phenol:       $\\text{Ar-N}_2^+\\text{Cl}^- + \\text{H}_2\\text{O} \\xrightarrow{283\\text{ K}} \\mathbf{\\text{Ar-OH}} + \\text{N}_2 \\uparrow + \\text{HCl}$\n   5. Reduction to Hydrazine:      $\\text{Ar-N}_2^+\\text{Cl}^- \\xrightarrow{\\text{SnCl}_2 / \\text{HCl}} \\mathbf{\\text{Ar-NH-NH}_2 \\text{ (Phenylhydrazine)}}$",
+      "content": "Review all functional group replacements from the diazonium intermediate, including reduction with $\text{H}_3\text{PO}_2$ or ethanol to regenerate benzene."
+    }
+  ],
+  "quickRevision": [
+    "Diazotization occurs at 0\u20135\u00b0C (273\u2013278 K).",
+    "Sandmeyer uses Cu\u2082X\u2082/HX; Gattermann uses Cu powder/HX.",
+    "KI converts diazonium to Iodoarene (Ar-I).",
+    "Balz-Schiemann uses HBF\u2084/\u0394 to produce Fluoroarene (Ar-F).",
+    "H\u2083PO\u2082 or EtOH reduces diazonium to Benzene (Ar-H)."
+  ],
+  "keyFormulae": [
+    "\\text{Balz-Schiemann: } \\text{Ar-N}_2^+\\text{BF}_4^- \\xrightarrow{\\Delta} \\text{Ar-F} + \\text{N}_2 \\uparrow + \\text{BF}_3",
+    "\\text{Reduction: } \\text{Ar-N}_2^+\\text{Cl}^- + \\text{H}_3\\text{PO}_2 + \\text{H}_2\\text{O} \\longrightarrow \\text{Ar-H} + \\text{N}_2 \\uparrow + \\text{H}_3\\text{PO}_3 + \\text{HCl}"
+  ]
+}

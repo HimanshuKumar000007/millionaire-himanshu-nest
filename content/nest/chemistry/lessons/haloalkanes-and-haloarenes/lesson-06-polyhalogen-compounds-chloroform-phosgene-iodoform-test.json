@@ -1,0 +1,63 @@
+{
+  "id": "chem-xii-u15-c6-l06",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XV \u2014 Haloalkanes and Haloarenes",
+  "unitNumber": 15,
+  "chapter": "Haloalkanes and Haloarenes",
+  "chapterNumber": 6,
+  "chapterSlug": "haloalkanes-and-haloarenes",
+  "slug": "lesson-06-polyhalogen-compounds-chloroform-phosgene-iodoform-test",
+  "title": "Polyhalogen Compounds: Chloroform, Phosgene, & The Iodoform Test",
+  "topic": "Polyhalogen Compounds & Iodoform Test",
+  "topics": [
+    "Dichloromethane (CH\u2082Cl\u2082) & Carbon Tetrachloride (CCl\u2084, regular tetrahedral, \u03bc_net = 0, Pyrene)",
+    "Trichloromethane (Chloroform, CHCl\u2083) Autoxidation to Phosgene (COCl\u2082, Carbonyl Chloride)",
+    "Safe Storage of Chloroform: Dark amber bottles filled to brim + 1% Ethanol forming non-toxic Diethyl Carbonate ((C\u2082H\u2085O)\u2082C=O)",
+    "6.3 Triiodomethane (Iodoform, CHI\u2083) & The Iodoform Test (I\u2082 / NaOH, yellow precipitate, antiseptic odor)",
+    "Substrate Criteria: Methyl Ketones (CH\u2083-CO-R) and Secondary Methyl Carbinols (CH\u2083-CH(OH)-R)",
+    "Positive vs Negative Iodoform Substrates Matrix"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "haloalkanes-and-haloarenes",
+  "quickSummary": "CCl\u2084 is symmetrical tetrahedral with \u03bc=0. Chloroform (CHCl\u2083) autoxidizes in air/light to toxic Phosgene (COCl\u2082); prevented by dark amber bottles + 1% ethanol (converts COCl\u2082 to diethyl carbonate). Iodoform test (I\u2082/NaOH) yields yellow CHI\u2083 ppt for methyl ketones (CH\u2083CO-) and secondary methyl carbinols (CH\u2083CH(OH)-). Ethanol, acetaldehyde, acetone, propan-2-ol are positive; methanol, propan-1-ol, benzophenone are negative.",
+  "summary": "Master polyhalogen chemistry, phosgene toxicity prevention, and diagnostic Iodoform test mechanics.",
+  "conceptBreakdown": [
+    {
+      "heading": "6. Polyhalogen Compounds & Chloroform Autoxidation",
+      "title": "6. Polyhalogen Compounds & Chloroform Autoxidation",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Chloroform & Phosgene Chemistry",
+        "takeaway": "2CHCl\u2083 + O\u2082 \u2500\u2500(h\u03bd)\u2500\u2500\u25ba 2COCl\u2082 (Phosgene) + 2HCl. 1% ethanol converts toxic COCl\u2082 to non-toxic Diethyl Carbonate."
+      },
+      "codeSnippet": "                        SAFE STORAGE OF CHLOROFORM\n                        \n   1. Stored in **dark, amber-colored glass bottles** filled to the brim (eliminating air/light).\n   2. $1\\%$ ethanol ($\\text{C}_2\\text{H}_5\\text{OH}$) is added. Ethanol converts any trace phosgene formed into\n      non-toxic **Diethyl Carbonate**:\n      $$\\text{COCl}_2 + 2\\text{C}_2\\text{H}_5\\text{OH} \\longrightarrow \\mathbf{(\\text{C}_2\\text{H}_5\\text{O})_2\\text{C=O} \\text{ (Diethyl Carbonate)}} + 2\\text{HCl}$$",
+      "content": "- **Carbon Tetrachloride ($\\text{CCl}_4$)**: Symmetrical regular tetrahedron ($sp^3$), four bond dipoles cancel out completely ($\\mu_{\\text{net}} = 0$). Formerly used as fire extinguisher (*Pyrene*).\n- **Chloroform ($\\text{CHCl}_3$)**: Autoxidizes in light/air to poisonous Phosgene gas ($\\text{COCl}_2$)."
+    },
+    {
+      "heading": "6.3 Triiodomethane (Iodoform, CHI\u2083) & The Iodoform Test",
+      "title": "6.3 Triiodomethane (Iodoform, CHI\u2083) & The Iodoform Test",
+      "type": "paragraph",
+      "codeSnippet": "                           IODOFORM REACTION SCHEME\n                           \n   $\\text{CH}_3\\text{-CO-R} + 3\\text{I}_2 + 4\\text{NaOH} \\longrightarrow \\mathbf{\\text{CHI}_3 \\downarrow \\text{ (Yellow Precipitate)}} + \\text{RCOONa} + 3\\text{NaI} + 3\\text{H}_2\\text{O}$\n\n                   POSITIVE vs NEGATIVE IODOFORM SUBSTRATES\n                   \n   POSITIVE TEST ($\\text{CHI}_3 \\downarrow$ Yellow Ppt):  Ethanol ($\\text{CH}_3\\text{CH}_2\\text{OH}$), Acetaldehyde ($\\text{CH}_3\\text{CHO}$),\n                                           Propan-2-ol, Acetone ($\\text{CH}_3\\text{COCH}_3$), Acetophenone.\n   NEGATIVE TEST (No Ppt):                 Methanol ($\\text{CH}_3\\text{OH}$), Propan-1-ol, Formaldehyde ($\\text{HCHO}$),\n                                           Benzophenone, Diethyl ketone.",
+      "content": "The Iodoform Test ($\\text{I}_2 / \\text{NaOH}$) forms a bright yellow precipitate of $\\text{CHI}_3$ (MP $119^\\circ\\text{C}$) with antiseptic odor for compounds with $\\text{CH}_3\\text{CO-}$ or $\\text{CH}_3\\text{CH(OH)-}$ groups."
+    }
+  ],
+  "quickRevision": [
+    "CCl\u2084 has zero net dipole moment (\u03bc = 0) due to tetrahedral symmetry.",
+    "Chloroform autoxidizes to toxic Phosgene (COCl\u2082).",
+    "1% ethanol is added to chloroform to convert phosgene into diethyl carbonate.",
+    "Iodoform test gives yellow CHI\u2083 ppt for CH\u2083CO- and CH\u2083CH(OH)- compounds.",
+    "Ethanol, acetaldehyde, acetone, propan-2-ol give positive test; methanol, propan-1-ol give negative."
+  ],
+  "keyFormulae": [
+    "2\\text{CHCl}_3 + \\text{O}_2 \\xrightarrow{h\\nu} 2\\text{COCl}_2 \\text{ (Phosgene)} + 2\\text{HCl}",
+    "\\text{COCl}_2 + 2\\text{C}_2\\text{H}_5\\text{OH} \\longrightarrow (\\text{C}_2\\text{H}_5\\text{O})_2\\text{C=O} + 2\\text{HCl}",
+    "\\text{CH}_3\\text{COR} + 3\\text{I}_2 + 4\\text{NaOH} \\longrightarrow \\text{CHI}_3 \\downarrow + \\text{RCOONa} + 3\\text{NaI} + 3\\text{H}_2\\text{O}"
+  ]
+}

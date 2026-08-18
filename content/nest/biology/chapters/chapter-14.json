@@ -1,0 +1,655 @@
+{
+  "id": "bio-xi-u5-c14-chapter-master",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Breathing and Exchange of Gases",
+  "chapterNumber": 14,
+  "chapterSlug": "breathing-and-exchange-of-gases",
+  "title": "CHAPTER 14: BREATHING AND EXCHANGE OF GASES (NEST & INBO MODULE)",
+  "description": "Comprehensive master module covering Comparative Animal Respiration, Human Respiratory Anatomy, Diffusion Membrane & Surfactant (DPPC), Ventilation Biomechanics, Spirometric Volumes & Capacities, Gas Diffusion Gradients, Oxygen Transport & Bohr Effect, Carbon Dioxide Transport & Hamburger Chloride Shift, Neural & Chemical Regulation, Pathophysiology (Asthma, Emphysema, Fibrosis), High-Yield Traps, Master Glossary, and 20 NEST Practice Questions.",
+  "estimatedTotalTimeMinutes": 145,
+  "totalSections": 11,
+  "totalQuestions": 20,
+  "status": "published",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "id": "sec-14-01",
+      "title": "Comparative Animal Respiratory Structures & Human Anatomy",
+      "topic": "Animal Respiratory Organs Across Phyla, Conducting vs Respiratory Zones",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Gas exchange surfaces vary from body surface (sponges) to tracheal networks (insects) and pulmonary alveoli (mammals). Conducting zone (dead space ≈ 150 mL) filters air, while respiratory zone alveoli mediate diffusion."
+      },
+      "codeSnippet": "ANIMAL RESPIRATORY STRUCTURES\n                                       │\n     ┌──────────────────┬──────────────┼──────────────┬──────────────────┐\n     ▼                  ▼              ▼              ▼                  ▼\nBODY SURFACE        CUTANEOUS       TRACHEAL        GILLS / BRANCHIAL   LUNGS / PULMONARY\n(Simple Diffusion) (Moist Skin)    (Air Tubes)     (Aquatic Vascular) (Vascular Sacs)\n├── Sponges         ├── Earthworms └── Insects     ├── Crustaceans     ├── Reptiles\n├── Coelenterates   └── Frogs                      ├── Molluscs        ├── Birds\n└── Flatworms          (Hibernation)               └── Fishes          └── Mammals",
+      "content": "Respiration involves two integrated physiological processes: **External Respiration (Breathing)**—the mechanical exchange of environmental $\\text{O}_2$ for cellular $\\text{CO}_2$—and **Internal Respiration (Cellular Respiration)**—the metabolic oxidation of substrates to yield $\\text{ATP}$.\n\n### 1.1 Respiratory Organs Across Animal Phyla\n\n| Respiratory Structure | Physiological Mechanism | Representative Animal Taxa |\n| :--- | :--- | :--- |\n| **General Body Surface** | Passive gas diffusion directly across cellular membranes | *Porifera* (Sponges), *Cnidaria*, *Platyhelminthes* (Flatworms) |\n| **Cutaneous Integument** | Gas exchange across thin, moist, highly vascularized skin | *Annelida* (*Pheretima* / Earthworms), Adult Amphibians (*Frogs*) |\n| **Tracheal System** | Network of spiracle-gated air tubes delivering $\\text{O}_2$ directly to tissues | *Arthropoda* (Insects, Centipedes, Millipedes) |\n| **Book Lungs & Book Gills** | Parallel vascularized leaf-like lamellae | *Arachnids* (Spiders, Scorpions - Book Lungs); *Limulus* (Book Gills) |\n| **Branchial Gills (Ctenidia)** | Counter-current vascular gas exchange with aquatic medium | Aquatic Crustaceans, *Mollusca*, Fishes, Tadpole Larvae |\n| **Pulmonary Lungs** | Internal, vascularized elastic sacs ventilated via pressure gradients | Adult Amphibians, Reptiles, Birds, Mammals |\n\n### 1.2 Human Respiratory Tract Architecture\n- **Conducting Zone (Dead Space $\\approx 150\\text{ mL}$)**: Nostrils $\\rightarrow$ Nasal chamber $\\rightarrow$ Pharynx $\\rightarrow$ Larynx $\\rightarrow$ Trachea $\\rightarrow$ Primary/Secondary/Tertiary Bronchi $\\rightarrow$ Terminal Bronchioles. Lined by **Pseudostratified Ciliated Columnar Epithelium** with Goblet cells and supported by **Incomplete C-shaped Hyaline Cartilage Rings**.\n- **Respiratory Zone**: Respiratory Bronchioles $\\rightarrow$ Alveolar Ducts $\\rightarrow$ Atria $\\rightarrow$ Alveolar Sacs $\\rightarrow$ **Alveoli** ($\\approx 300\\text{ Million}$), lined by ultra-thin simple squamous epithelium for rapid diffusion."
+    },
+    {
+      "sectionNumber": 2,
+      "id": "sec-14-02",
+      "title": "Respiratory Membrane & Alveolar Surfactant Physiology",
+      "topic": "Trilaminar Diffusion Barrier, Type II Pneumocytes, DPPC, & Laplace Law",
+      "readingTimeMinutes": 12,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "The respiratory membrane (<0.2 µm) is composed of alveolar squamous cells, fused basement membrane, and capillary endothelium. Type II pneumocytes secrete Surfactant (DPPC) to lower surface tension and prevent alveolar collapse (Laplace Law)."
+      },
+      "codeSnippet": "DIFFUSION MEMBRANE LAYERS\n                         \n    ALVEOLAR LUMEN ──► [ Type I Alveolar Squamous Epithelium ]\n                                    │\n                       [ Non-Cellular Basement Membrane ] (Fused)\n                                    │\n    CAPILLARY LUMEN ◄─ [ Capillary Endothelial Squamous Cell ]",
+      "content": "Gas exchange occurs across the **Diffusion Membrane (Respiratory Membrane)** separating alveolar air from pulmonary capillary blood. The total alveolar surface area in human lungs is approximately $70\\text{--}100\\text{ m}^2$.\n\n- **Diffusion Membrane Thickness**: The total thickness is less than $0.2\\ \\mu\\text{m}$ ($0.2\\text{--}0.5\\ \\mu\\text{m}$), facilitating rapid passive gas diffusion according to Fick's Law.\n\n### 2.1 Alveolar Pneumocytes & Pulmonary Surfactant\n- **Type I Pneumocytes ($95\\%$ surface area)**: Ultra-thin simple squamous epithelial cells forming the primary diffusion barrier.\n- **Type II Pneumocytes ($5\\%$ surface area)**: Cuboidal secretory cells that synthesize and secrete **Pulmonary Surfactant (Dipalmitoylphosphatidylcholine / DPPC)**.\n- **Biophysical Mechanism & Laplace Law ($P = \\frac{2\\gamma}{r}$)**: Smaller alveoli ($r$) experience higher collapsing pressure ($P$). Surfactant lowers surface tension ($\\gamma$) preferentially in smaller alveoli, preventing their collapse into larger alveoli (**prevents atelectasis**) and preserving lung compliance.\n- **Infant Respiratory Distress Syndrome (IRDS)**: Preterm infants born before 28–32 weeks lack mature Type II pneumocytes, causing surfactant deficiency, massive alveolar collapse, and acute respiratory failure."
+    },
+    {
+      "sectionNumber": 3,
+      "id": "sec-14-03",
+      "title": "Biomechanics of Ventilation: Pressure Gradients",
+      "topic": "Inspiration vs Expiration, Boyle's Law, Diaphragm & Intercostal Mechanics",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Inspiration is active (diaphragm + EIM contract, expanding thoracic volume and dropping intrapulmonary pressure to 759 mmHg). Quiet expiration is passive (elastic recoil, 761 mmHg); forced expiration is active (IIM + abdominals)."
+      },
+      "codeSnippet": "MECHANISM OF VENTILATION\n                                       │\n         ┌─────────────────────────────┴─────────────────────────────┐\n         ▼                                                           ▼\n   INSPIRATION (Active Process)                                EXPIRATION (Passive Process)\n   ├── Diaphragm Contracts (Flattens)                          ├── Diaphragm Relaxes (Domes Upward)\n   ├── External Intercostal Muscles (EIM) Contract             ├── External Intercostal Muscles Relax\n   ├── Thoracic Volume INCREASES                               ├── Thoracic Volume DECREASES\n   └── Intra-pulmonary Pressure DROPS below P_atm              └── Intra-pulmonary Pressure RISES above P_atm\n       (-1 to -3 mmHg)                                             (+1 to +3 mmHg)",
+      "content": "Ventilation is driven by pressure differentials established between the atmosphere and the intra-pulmonary space, governed by Boyle's Law ($P \\propto \\frac{1}{V}$ at constant temperature).\n\n### 3.1 Mechanics of Normal & Forced Breathing\n- **Atmospheric Pressure ($P_{\\text{atm}}$)**: $760\\text{ mmHg}$ at sea level.\n- **Inspiration (Active Process - $\\approx 2\\text{ seconds}$)**:\n  1. **Diaphragm Contraction**: Phrenic nerve stimulation contracts radial muscle fibers, flattening the dome and increasing thoracic volume in the **antero-posterior axis** (accounts for $75\\%$ of tidal breathing).\n  2. **External Intercostal Muscle (EIM) Contraction**: Elevates ribs and sternum upward and outward (\"bucket-handle\" motion), increasing thoracic volume in the **dorso-ventral axis**.\n  3. **Pressure Differential**: Intra-pulmonary pressure drops to $757\\text{--}759\\text{ mmHg}$ ($< P_{\\text{atm}}$), pulling atmospheric air into the lungs.\n- **Quiet Expiration (Passive Process - $\\approx 3\\text{ seconds}$)**: Diaphragm and EIMs relax; lung elastic recoil decreases thoracic volume, raising intra-pulmonary pressure to $761\\text{--}763\\text{ mmHg}$ ($> P_{\\text{atm}}$) to expel air.\n- **Forced Expiration (Active Process)**: Contraction of **Internal Intercostal Muscles (IIM)** and **Abdominal Muscles** (rectus abdominis, obliques) violently forces ribs downward and viscera upward."
+    },
+    {
+      "sectionNumber": 4,
+      "id": "sec-14-04",
+      "title": "Spirometric Respiratory Volumes & Capacities Analysis",
+      "topic": "TV, IRV, ERV, RV, IC, EC, FRC, VC, TLC & Spirometry Measurement Limits",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "TV (500 mL), IRV (2500–3000 mL), ERV (1000–1100 mL), RV (1100–1200 mL). Vital Capacity = ERV + TV + IRV (3500–4500 mL). RV, FRC, and TLC CANNOT be measured by standard spirometry!"
+      },
+      "codeSnippet": "SPIROMETRIC LUNG VOLUMES & CAPACITIES\n                      \n   6000 mL ┌────────────────────────────────────────────────────────┐\n          │                                 [ IRV ]                │\n   3500 mL ├─────────────────────────────────/\\────────────────────┤ ◄── Total Lung\n          │  TV (500 mL)                   /  \\                    │     Capacity\n   3000 mL ├──────────────/\\────/\\────────/    \\──/\\────/\\─────────┤     (TLC)\n          │             \\/    \\/                \\/    \\/           │\n   2300 mL ├──────────────────────────────────────────\\             │\n          │                                           \\  [ ERV ]   │\n   1200 mL ├────────────────────────────────────────────\\──────────┤\n          │                                  [ RV ]                │\n      0 mL └────────────────────────────────────────────────────────┘",
+      "content": "### 4.1 Respiratory Volumes & Capacities Diagnostic Matrix\n\n| Volume / Capacity | Abbreviation | Normal Adult Value | Definition & Calculation Formula |\n| :--- | :--- | :--- | :--- |\n| **Tidal Volume** | **TV** | $\\approx 500\\text{ mL}$ | Air inspired or expired during quiet breathing ($6000\\text{--}8000\\text{ mL/min}$). |\n| **Inspiratory Reserve Volume** | **IRV** | $2500\\text{--}3000\\text{ mL}$ | Additional maximal air inspired forcibly beyond normal tidal inspiration. |\n| **Expiratory Reserve Volume** | **ERV** | $1000\\text{--}1100\\text{ mL}$ | Additional maximal air expired forcibly beyond normal tidal expiration. |\n| **Residual Volume** | **RV** | $1100\\text{--}1200\\text{ mL}$ | Air remaining in lungs after maximal forced expiration. **Cannot be measured by spirometry!** |\n| **Inspiratory Capacity** | **IC** | $3000\\text{--}3500\\text{ mL}$ | Total air inspired after normal tidal expiration ($\\text{IC} = \\text{TV} + \\text{IRV}$). |\n| **Expiratory Capacity** | **EC** | $1500\\text{--}1600\\text{ mL}$ | Total air expired after normal tidal inspiration ($\\text{EC} = \\text{TV} + \\text{ERV}$). |\n| **Functional Residual Capacity** | **FRC** | $2100\\text{--}2300\\text{ mL}$ | Air remaining in lungs after normal tidal expiration ($\\text{FRC} = \\text{ERV} + \\text{RV}$). **Cannot be measured by spirometry!** |\n| **Vital Capacity** | **VC** | $3500\\text{--}4500\\text{ mL}$ | Maximum air expired after maximal forced inspiration ($\\text{VC} = \\text{ERV} + \\text{TV} + \\text{IRV}$). |\n| **Total Lung Capacity** | **TLC** | $5700\\text{--}6000\\text{ mL}$ | Total air in lungs at maximal forced inspiration ($\\text{TLC} = \\text{VC} + \\text{RV}$). **Cannot be measured by spirometry!** |\n\n> [!CAUTION]\n> **Spirometry Limit Trap**: Any lung capacity containing Residual Volume (RV)—namely **RV, FRC, and TLC**—CANNOT be directly measured with a spirometer."
+    },
+    {
+      "sectionNumber": 5,
+      "id": "sec-14-05",
+      "title": "Gas Exchange Dynamics: Partial Pressure Gradients",
+      "topic": "Alveolar vs Capillary vs Tissue Pressures & Fick's Law CO2 Solubility",
+      "readingTimeMinutes": 12,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Alveoli (pO2=104, pCO2=40), Arterial blood (pO2=95, pCO2=40), Deox blood (pO2=40, pCO2=45). CO2 solubility is 20–25× higher than O2, ensuring rapid diffusion despite smaller pressure gradients."
+      },
+      "codeSnippet": "PARTIAL PRESSURE GRADIENTS\n                         \n    Alveoli (pO2 = 104, pCO2 = 40)\n            │                                 ▲\n            ▼                                 │\n    Deoxygenated Blood (pO2 = 40, pCO2 = 45)\n            │                                 ▲\n            ▼                                 │\n    Oxygenated Blood (pO2 = 95, pCO2 = 40)\n            │                                 ▲\n            ▼                                 │\n    Tissues (pO2 ≤ 40, pCO2 ≥ 45)",
+      "content": "Gas diffusion across the respiratory membrane is driven by **Partial Pressure ($p$) Gradients**, governed by **Fick's Law of Diffusion**:\n\n$$V_{\\text{gas}} \\propto \\frac{A \\cdot S \\cdot (P_1 - P_2)}{T \\cdot \\sqrt{MW}}$$\n\n### 5.1 Partial Pressures Comparison Matrix (in $\\text{mmHg}$)\n\n| Respiratory Gas | Atmospheric Air | Alveoli | Deoxygenated Blood (Pulmonary Artery) | Oxygenated Blood (Systemic Arteries) | Tissues |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Oxygen ($p\\text{O}_2$)** | $159\\text{ mmHg}$ | **$104\\text{ mmHg}$** | $40\\text{ mmHg}$ | **$95\\text{ mmHg}$** | $\\le 40\\text{ mmHg}$ |\n| **Carbon Dioxide ($p\\text{CO}_2$)** | $0.3\\text{ mmHg}$ | **$40\\text{ mmHg}$** | $45\\text{ mmHg}$ | **$40\\text{ mmHg}$** | $\\ge 45\\text{ mmHg}$ |\n\n- **Solubility Factor**: The solubility of $\\text{CO}_2$ in blood plasma is **$20\\text{--}25\\text{ times higher}$** than that of $\\text{O}_2$. Consequently, $\\text{CO}_2$ diffuses across the respiratory membrane with exceptional speed despite a narrow partial pressure gradient ($\\Delta p\\text{CO}_2 = 5\\text{ mmHg}$ vs $\\Delta p\\text{O}_2 = 64\\text{ mmHg}$)."
+    },
+    {
+      "sectionNumber": 6,
+      "id": "sec-14-06",
+      "title": "Oxygen Transport Mechanics & The Oxygen-Hemoglobin Curve",
+      "topic": "Oxyhemoglobin Binding, Sigmoidal Curve, P50, Bohr Effect, & Fetal Hb",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "97% O2 is bound to Hemoglobin (Fe²⁺). Curve is Sigmoid (P50 = 26.6 mmHg). Bohr Effect shifts curve RIGHT (high pCO2, low pH, high temp, high 2,3-BPG) to unload O2 at tissues; Fetal Hb (α2γ2) is shifted LEFT."
+      },
+      "codeSnippet": "OXYGEN-HEMOGLOBIN DISSOCIATION CURVE\n                   \n   100 % ┌───────────────────────────────/------------ ◄── Alveoli (pO2 = 104)\n         │                              /\n    80 % ├─────────────────────────────/   [LEFT SHIFT]\n         │                            /    ├── High pO2, Low pCO2\n    50 % ├.........................../│    ├── Low H+, Low Temp\n         │                          / │    └── High HbF Affinity\n    20 % ├─────────────────────────/  │   [RIGHT SHIFT / BOHR EFFECT]\n         │                        /   │    ├── Low pO2, High pCO2\n       0 └───────────────────────┴────┴──────────────► pO2 (mmHg)\n                                P50   100\n                             (26.6 mmHg)",
+      "content": "Oxygen is transported in blood in two forms:\n1. **Dissolved in Plasma ($3\\%$)**: Due to poor water solubility.\n2. **Bound to Hemoglobin ($97\\%$)**: As Oxyhemoglobin ($\\text{Hb}_4(\\text{O}_2)_4$) inside erythrocytes.\n\n### Hemoglobin Architecture & Delivery\n- Tetramer ($\\text{MW} \\approx 64,500\\text{ Da}$) of two $\\alpha$ and two $\\beta$ globin chains ($\\alpha_2\\beta_2$), each containing a heme group with central $\\text{Fe}^{2+}$.\n- $1\\text{ g of Hb}$ binds up to $1.34\\text{ mL of }\\text{O}_2$. At $15\\text{ g Hb/100 mL}$, oxygen capacity is $\\approx 20\\text{ mL }\\text{O}_2 / 100\\text{ mL blood}$.\n- Under resting conditions, $100\\text{ mL}$ of blood delivers $\\approx 5\\text{ mL of }\\text{O}_2$ to tissues ($25\\%$ extraction ratio).\n\n### 6.1 The Oxygen-Hemoglobin Dissociation Curve & The Bohr Effect\n- **$P_{50}$ Parameter**: Partial pressure of $\\text{O}_2$ at which Hb is $50\\%$ saturated ($P_{50} \\approx 26.6\\text{ mmHg}$).\n- **The Bohr Effect (Right Shift / $\\text{O}_2$ Unloading at Tissues)**: High $p\\text{CO}_2$, high $\\text{H}^+$ (low $\\text{pH}$), high temperature, and elevated $2,3\\text{-BPG}$ stabilize deoxyhemoglobin in its T-state, shifting curve to the RIGHT and releasing $\\text{O}_2$.\n- **Left Shift (Alveolar $\\text{O}_2$ Loading)**: High $p\\text{O}_2$, low $p\\text{CO}_2$, low $\\text{H}^+$ (higher $\\text{pH}$), and cool temperatures stabilize the R-state, promoting $\\text{O}_2$ binding.\n- **Fetal Hemoglobin ($\\text{HbF}, \\alpha_2\\gamma_2$)**: Binds $2,3\\text{-BPG}$ poorly, exhibiting a significantly higher affinity for $\\text{O}_2$ than adult $\\text{HbA}$ (curve shifted LEFT)."
+    },
+    {
+      "sectionNumber": 7,
+      "id": "sec-14-07",
+      "title": "Carbon Dioxide Transport & The Chloride Shift (Hamburger)",
+      "topic": "Bicarbonate Synthesis, Carbonic Anhydrase (Zn²⁺), AE1 Band 3, & Haldane Effect",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "CO2 is transported as Bicarbonate (70%), Carbamino-Hb (20–25%), and Plasma (7%). At tissues, HCO3- exits RBCs and Cl- enters (Chloride Shift); process is reversed in lungs (Haldane Effect)."
+      },
+      "codeSnippet": "THE CHLORIDE SHIFT (AT TISSUE LEVEL)\n                    \n   INTERSTITIAL TISSUE                          RED BLOOD CELL (RBC)\n   CO2 ───────────────────────────────────────► CO2 + H2O\n                                                  │\n                                        [Carbonic Anhydrase]\n                                                  │\n                                                H2CO3\n                                                  │\n                                                H+ + HCO3-\n                                                │     │\n                   [Hb Buffering: H+ + Hb ──► HHb]    └──────► Diffuses OUT into Plasma\n                                                                │\n   Plasma Cl- ──────────────────────────────────────────────────┴──► Diffuses INTO RBC\n                                                                     (via Anion Exchanger 1 / AE1)",
+      "content": "Carbon dioxide generated by tissue respiration is transported in blood in three forms:\n1. **Dissolved in Plasma ($7\\%$)**\n2. **Carbamino-Hemoglobin ($20\\text{--}25\\%$)**: Bound to N-terminal amino groups of globin chains ($\\text{Hb-NH-COOH}$).\n3. **Bicarbonate Ions ($\\text{HCO}_3^-, 70\\%$)**: Hydrated inside RBCs by Carbonic Anhydrase.\n\n- **Physiological Delivery**: $100\\text{ mL}$ of deoxygenated blood delivers $\\approx 4\\text{ mL of }\\text{CO}_2$ to alveoli.\n\n### 7.1 The Hamburger Phenomenon (Chloride Shift)\n- In tissue capillaries, Carbonic Anhydrase ($\\text{Zn}^{2+}$ enzyme) hydrates $\\text{CO}_2 + \\text{H}_2\\text{O} \\rightarrow \\text{H}_2\\text{CO}_3 \\rightarrow \\text{H}^+ + \\text{HCO}_3^-$.\n- $\\text{HCO}_3^-$ diffuses OUT of the RBC into plasma down its gradient via the **Anion Exchanger 1 (AE1 / Band 3)** protein.\n- To maintain electroneutrality, **Chloride ions ($\\text{Cl}^-$) diffuse from plasma INTO the RBC** (**Chloride Shift**).\n- **Reversal at Alveolar Capillaries**: In pulmonary capillaries, low $p\\text{CO}_2$ causes $\\text{Cl}^-$ to exit RBCs, $\\text{HCO}_3^-$ to enter, and Carbonic Anhydrase regenerates $\\text{CO}_2$ to diffuse into alveoli.\n- **The Haldane Effect**: Oxygenation of hemoglobin in alveoli decreases its affinity for $\\text{CO}_2$, displacing carbamino-$\\text{CO}_2$ and protons to facilitate rapid $\\text{CO}_2$ unloading."
+    },
+    {
+      "sectionNumber": 8,
+      "id": "sec-14-08",
+      "title": "Neuro-Chemical Regulation of Breathing",
+      "topic": "Medullary DRG/VRG, Pneumotaxic Center (Pons), Central vs Peripheral Chemoreceptors",
+      "readingTimeMinutes": 12,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "DRG sets baseline quiet breathing; Pneumotaxic center (upper pons) limits inspiratory duration. Central chemoreceptors respond to CSF pCO2/H+. O2 plays NO direct role under normal conditions!"
+      },
+      "codeSnippet": "CHEMORECEPTOR FEEDBACK LOOPS\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\nCENTRAL CHEMORECEPTORS                                PERIPHERAL CHEMORECEPTORS\nLocated in ventral medulla.                           Located in Aortic Arch & Carotid Bodies.\n├── Highly sensitive to CO2 and H+ in CSF.            ├── Sensitive to pCO2, H+, and severe drops\n└── Oxygen plays NO role in central control.          │   in pO2 (<60 mmHg).\n                                                      └── Signals via Vagus (X) & IX Nerves.",
+      "content": "### 8.1 Neural Control Centers in the Brainstem\n1. **Medullary Rhythmicity Center**:\n   - **Dorsal Respiratory Group (DRG)**: Generates the basic autonomic rhythm of quiet inspiration via phrenic and intercostal motor neurons.\n   - **Ventral Respiratory Group (VRG)**: Inactive during quiet breathing; activated during forced inspiration and forced expiration.\n2. **Pons Respiratory Center**:\n   - **Pneumotaxic Center (Upper Pons)**: Sends continuous inhibitory impulses to the DRG to switch off inspiration, controlling respiratory rate and volume.\n   - **Apneustic Center (Lower Pons)**: Promotes deep, prolonged inspiration by stimulating DRG.\n\n### 8.2 Chemical Chemoreceptor Feedback\n- **Central Chemoreceptors (Ventral Medulla)**: Bathed in cerebrospinal fluid (CSF); highly sensitive to $\\text{CO}_2$ and $\\text{H}^+$ concentration ($\\text{CO}_2$ crosses blood-brain barrier and forms $\\text{H}^+$ via carbonic anhydrase).\n- **Peripheral Chemoreceptors (Aortic Arch & Carotid Bodies)**: Monitor arterial $p\\text{CO}_2$, $\\text{H}^+$, and severe hypoxemia ($p\\text{O}_2 < 60\\text{ mmHg}$) via Cranial Nerves X (Vagus) and IX (Glossopharyngeal).\n- **Oxygen Insensitivity Trap**: Under normal physiological conditions, **oxygen plays NO direct role** in regulating the respiratory rhythm."
+    },
+    {
+      "sectionNumber": 9,
+      "id": "sec-14-09",
+      "title": "Pathophysiology of Respiratory Disorders",
+      "topic": "Asthma, Emphysema (α1-Antitrypsin), & Occupational Fibrosis (Silicosis/Asbestosis)",
+      "readingTimeMinutes": 12,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Asthma: IgE allergic bronchiolar smooth muscle spasm with wheezing. Emphysema: Alveolar septal breakdown, loss of surface area/elastic recoil (smoking/α1-antitrypsin). Fibrosis: Mineral dust scarring."
+      },
+      "codeSnippet": "RESPIRATORY PATHOPHYSIOLOGY\n                                     │\n         ┌───────────────────────────┼───────────────────────────┐\n         ▼                           ▼                           ▼\n      ASTHMA                     EMPHYSEMA               OCCUPATIONAL DISORDERS\nAllergic hyper-reactivity;   COPD characterized by      Chronic industrial dust\nbronchiolar smooth muscle    alveolar septal breakdown  inhalation causing pulmonary\nspasms & excess mucus.       & loss of elasticity.      Fibrosis (Silicosis/Asbestosis).",
+      "content": "### 9.1 Comparative Respiratory Pathophysiology Matrix\n\n| Respiratory Disorder | Primary Etiology / Trigger | Pathological Mechanism | Clinical & Diagnostic Manifestations |\n| :--- | :--- | :--- | :--- |\n| **Asthma** | Allergic hypersensitivity to environmental allergens (*pollen, dust mites*) | IgE-mediated mast cell degranulation triggering bronchiolar smooth muscle spasms, mucosal edema, and mucus hypersecretion | Difficulty breathing, expiratory **wheezing sounds**, reduced $\\text{FEV}_1/\\text{FVC}$ ratio. Treated with $\\beta_2$-agonists. |\n| **Emphysema** | Chronic cigarette smoking or inherited **$\\alpha_1$-Antitrypsin Deficiency** | Protease-antiprotease imbalance; neutrophil elastase destroys alveolar septal walls, converting alveoli into large, inelastic sacs | Decreased respiratory surface area, loss of elastic recoil, air trapping (**barrel chest**), reduced diffusion capacity. |\n| **Occupational Disorders (Silicosis / Asbestosis)** | Long-term inhalation of silica dust, asbestos fibers, or coal dust in mining | Alveolar macrophages engulf mineral dust, lyse, and release cytokines triggering chronic **Fibrosis** | Proliferation of fibrous connective tissue, irreversible lung scarring, progressive dyspnea, and respiratory failure. |"
+    },
+    {
+      "sectionNumber": 10,
+      "id": "sec-14-10",
+      "title": "High-Yield NEST Misconceptions & Traps Table",
+      "topic": "10 Critical Diagnostic Pitfalls in Respiratory Physiology",
+      "readingTimeMinutes": 12,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Review these 10 diagnostic exam traps covering respiratory volumes, chemical control, chloride shift, and membrane anatomy."
+      },
+      "content": "### High-Yield NEST Misconceptions & Exam Traps\n\n| Misconception / Trap | Biological Reality | Exam Tip / Context |\n| :--- | :--- | :--- |\n| *\"Oxygen concentration in arterial blood is the primary driver of quiet breathing regulation.\"* | The primary driver is **$p\\text{CO}_2$ and $\\text{H}^+$ concentration**. $\\text{O}_2$ plays no role under normal conditions. | Central chemoreceptors respond strictly to CSF $\\text{H}^+$ derived from $\\text{CO}_2$. |\n| *\"Residual Volume (RV) and Vital Capacity (VC) can both be measured directly using spirometry.\"* | **Residual Volume (RV) CANNOT be measured by spirometry**. Any capacity including RV ($\\text{FRC}, \\text{TLC}$) requires indirect methods. | $\\text{VC} = \\text{TV} + \\text{IRV} + \\text{ERV}$ can be measured; $\\text{FRC} = \\text{ERV} + \\text{RV}$ cannot. |\n| *\"The Chloride Shift (Hamburger Phenomenon) involves chloride moving out of RBCs at the tissue level.\"* | At the tissue level, $\\text{HCO}_3^-$ moves OUT of RBCs and **Chloride ($\\text{Cl}^-$) moves INTO RBCs**. | The reverse occurs at the lungs ($\\text{Cl}^-$ moves OUT of RBCs). |\n| *\"Inspiration is a passive process driven by elastic recoil of the lungs.\"* | Inspiration is an **ACTIVE process** requiring energy to contract the diaphragm and external intercostals. | Quiet expiration is passive; forced expiration is active. |\n| *\"Fetal Hemoglobin ($\\text{HbF}$) has a lower affinity for oxygen than adult Hemoglobin ($\\text{HbA}$).\"* | $\\text{HbF}$ has a **HIGHER affinity for $\\text{O}_2$** than $\\text{HbA}$ because it does not bind $2,3\\text{-BPG}$ strongly (curve shifted LEFT). | Allows $\\text{O}_2$ transfer from maternal to fetal blood across placenta. |\n| *\"Carbon dioxide solubility in blood is lower than oxygen solubility.\"* | $\\text{CO}_2$ solubility is **$20\\text{--}25\\text{ times HIGHER}$** than $\\text{O}_2$ solubility in blood plasma. | Enables rapid $\\text{CO}_2$ diffusion despite small partial pressure gradients. |\n| *\"Asthma is caused by the physical destruction of alveolar septal walls.\"* | Alveolar septal breakdown is the hallmark of **Emphysema**. Asthma is bronchiolar smooth muscle spasm and inflammation. | Emphysema reduces diffusion area; Asthma restricts airway diameter. |\n| *\"Type I pneumocytes secrete pulmonary surfactant to prevent alveolar collapse.\"* | **Type II pneumocytes** secrete surfactant (DPPC). Type I pneumocytes form the thin structural diffusion barrier. | Surfactant deficiency in preterm infants causes IRDS. |\n| *\"Incomplete C-shaped cartilaginous rings support the entire respiratory tract down to alveoli.\"* | Cartilaginous rings support the trachea and bronchi, but **disappear at the level of Bronchioles**. | Bronchioles lack cartilage and are held open by elastic recoil. |\n| *\"The Bohr effect describes $\\text{CO}_2$ release in the lungs driven by oxygen binding.\"* | The **Bohr Effect** describes $\\text{O}_2$ unloading at tissues driven by high $p\\text{CO}_2/\\text{H}^+$. The **Haldane Effect** describes $\\text{CO}_2$ release at lungs. | Bohr = tissue $\\text{O}_2$ unloading; Haldane = lung $\\text{CO}_2$ unloading. |"
+    },
+    {
+      "sectionNumber": 11,
+      "id": "sec-14-11",
+      "title": "Master Glossary for Respiratory Physiology",
+      "topic": "35+ Definitive Terms & Concepts for Olympiads & NEST",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Complete glossary covering respiratory structures, volumes, biophysical laws, and transport phenomena."
+      },
+      "content": "### Master Glossary for Respiratory Physiology\n\n- **Alveolus (plural: Alveoli)**: A microscopic, thin-walled, highly vascularized sac in the lungs serving as the primary site of gas exchange.\n- **Anion Exchanger 1 (AE1 / Band 3)**: A transmembrane transport protein in RBCs that mediates $1:1$ electroneutral exchange of $\\text{HCO}_3^-$ and $\\text{Cl}^-$.\n- **Apneustic Center**: A lower pons neural center that promotes deep inspiration by stimulating the dorsal respiratory group.\n- **Atelectasis**: The partial or complete collapse of an alveolus or lung lobe.\n- **Bicarbonate Ion ($\\text{HCO}_3^-$)**: The primary transport form of carbon dioxide in blood plasma ($70\\%$).\n- **Bohr Effect**: The rightward shift of the oxygen-hemoglobin dissociation curve caused by high $p\\text{CO}_2$, low $\\text{pH}$, and high temperature at tissues, promoting $\\text{O}_2$ unloading.\n- **Bronchioles**: Small airway branches ($<1\\text{ mm}$ diameter) lacking cartilaginous support rings.\n- **Carbamino-Hemoglobin**: Carbon dioxide bound reversibly to the N-terminal amino groups of hemoglobin globin chains ($20\\text{--}25\\%$ of transport).\n- **Carbonic Anhydrase**: A zinc-containing enzyme present at high concentrations in RBCs that catalyzes $\\text{CO}_2 + \\text{H}_2\\text{O} \\rightleftharpoons \\text{H}_2\\text{CO}_3$.\n- **Chloride Shift (Hamburger Phenomenon)**: The electroneutral entry of $\\text{Cl}^-$ into RBCs in exchange for $\\text{HCO}_3^-$ efflux at tissue capillaries.\n- **Dead Space Volume**: The volume of inspired air remaining in conducting airways ($\\approx 150\\text{ mL}$) that does not participate in gas exchange.\n- **Diaphragm**: A dome-shaped skeletal muscle separating thoracic and abdominal cavities, innervated by phrenic nerves.\n- **Diffusion Membrane**: The trilaminar barrier ($<0.2\\ \\mu\\text{m}$) comprising alveolar epithelium, fused basement membrane, and capillary endothelium.\n- **Dipalmitoylphosphatidylcholine (DPPC)**: The primary phospholipid component of pulmonary surfactant secreted by Type II pneumocytes.\n- **Dorsal Respiratory Group (DRG)**: A medullary rhythm center that generates the basic rhythm of quiet inspiration.\n- **Emphysema**: A chronic obstructive lung disease characterized by irreversible destruction of alveolar walls and loss of elastic recoil.\n- **Expiratory Reserve Volume (ERV)**: The maximal additional volume of air expired forcibly after a normal tidal expiration ($1000\\text{--}1100\\text{ mL}$).\n- **Fick's Law of Diffusion**: Physical law stating that gas diffusion rate is directly proportional to surface area, solubility, and partial pressure difference, and inversely proportional to membrane thickness.\n- **Functional Residual Capacity (FRC)**: The volume of air remaining in lungs after normal tidal expiration ($\\text{FRC} = \\text{ERV} + \\text{RV}$).\n- **Haldane Effect**: The phenomenon where oxygenation of hemoglobin in lungs reduces its affinity for $\\text{CO}_2$, promoting $\\text{CO}_2$ displacement.\n- **Inspiratory Capacity (IC)**: The total volume of air inspired after a normal expiration ($\\text{IC} = \\text{TV} + \\text{IRV}$).\n- **Inspiratory Reserve Volume (IRV)**: The maximal additional volume of air inspired forcibly after a normal tidal inspiration ($2500\\text{--}3000\\text{ mL}$).\n- **Laplace Law**: Physical law ($P = \\frac{2\\gamma}{r}$) stating that collapsing pressure in a sphere is directly proportional to surface tension and inversely proportional to radius.\n- **Methemoglobin**: An abnormal form of hemoglobin containing ferric iron ($\\text{Fe}^{3+}$) that cannot bind oxygen reversibly.\n- **Oxyhemoglobin**: Hemoglobin bound reversibly to four oxygen molecules ($\\text{Hb}_4(\\text{O}_2)_4$).\n- **Partial Pressure ($p$)**: The individual pressure exerted by a single gas in a mixture of gases.\n- **Pneumotaxic Center**: An upper pons neural center that signals the DRG to limit inspiratory duration, regulating breathing rate.\n- **Pneumocyte**: An epithelial cell lining pulmonary alveoli (Type I for diffusion; Type II for surfactant secretion).\n- **Residual Volume (RV)**: The volume of air remaining in lungs after maximal forced expiration ($1100\\text{--}1200\\text{ mL}$).\n- **Silicosis**: An occupational lung disease caused by silica dust inhalation, triggering progressive alveolar fibrosis.\n- **Spirometer**: An instrument used to measure pulmonary ventilation volumes and capacities.\n- **Surfactant**: A surface-active lipoprotein complex that lowers surface tension at the alveolar air-water interface.\n- **Tidal Volume (TV)**: The volume of air inspired or expired during a normal quiet breathing cycle ($\\approx 500\\text{ mL}$).\n- **Total Lung Capacity (TLC)**: The total volume of air in lungs after maximal forced inspiration ($\\text{TLC} = \\text{VC} + \\text{RV}$).\n- **Trachea**: The main windpipe supported by C-shaped hyaline cartilaginous rings.\n- **Type II Pneumocyte**: A cuboidal secretory cell in alveoli producing pulmonary surfactant.\n- **Ventral Respiratory Group (VRG)**: A medullary center involved in forced inspiration and forced expiration.\n- **Vital Capacity (VC)**: The maximum volume of air expired after a maximal forced inspiration ($\\text{VC} = \\text{TV} + \\text{IRV} + \\text{ERV}$)."
+    }
+  ],
+  "chapterCommonMistakes": [
+    "Oxygen concentration in arterial blood is the primary driver of quiet breathing regulation (Reality: Driven by pCO2 and H+ concentration; O2 plays no role normally).",
+    "Residual Volume (RV) and Vital Capacity (VC) can both be measured directly using spirometry (Reality: RV cannot be measured by spirometry; any capacity with RV like FRC/TLC cannot be measured).",
+    "The Chloride Shift involves chloride moving out of RBCs at the tissue level (Reality: Cl- moves INTO RBCs at tissues; moves OUT at lungs).",
+    "Inspiration is a passive process driven by elastic recoil (Reality: Active process requiring diaphragm and EIM contraction; quiet expiration is passive).",
+    "Fetal Hemoglobin (HbF) has a lower affinity for oxygen than adult Hemoglobin (Reality: HbF has a HIGHER affinity for O2 because it does not bind 2,3-BPG strongly).",
+    "Carbon dioxide solubility in blood is lower than oxygen solubility (Reality: CO2 solubility is 20–25 times HIGHER than O2 in blood plasma).",
+    "Asthma is caused by the physical destruction of alveolar septal walls (Reality: Alveolar breakdown is Emphysema; Asthma is bronchiolar smooth muscle spasm).",
+    "Type I pneumocytes secrete pulmonary surfactant (Reality: Type II pneumocytes secrete DPPC surfactant; Type I form the diffusion barrier).",
+    "Incomplete C-shaped cartilaginous rings support the entire respiratory tract down to alveoli (Reality: Disappear at the level of Bronchioles).",
+    "The Bohr effect describes CO2 release in lungs driven by oxygen binding (Reality: Bohr describes O2 release at tissues; Haldane describes CO2 release at lungs)."
+  ],
+  "questions": [
+    {
+      "id": "q-bio-c14-001",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "Spirometry Volumes & Capacities Calculation",
+      "difficulty": "Easy",
+      "questionText": "A spirometry technician evaluates a 25-year-old athlete and records the following lung parameters: Tidal Volume (TV) = 500 mL, Inspiratory Reserve Volume (IRV) = 3000 mL, Expiratory Reserve Volume (ERV) = 1200 mL, and Residual Volume (RV) = 1200 mL. What is the athlete's Vital Capacity (VC) and Functional Residual Capacity (FRC), respectively?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "VC = 4700 mL; FRC = 2400 mL", "isCorrect": true },
+        { "id": "b", "text": "VC = 5900 mL; FRC = 1700 mL", "isCorrect": false },
+        { "id": "c", "text": "VC = 3500 mL; FRC = 2400 mL", "isCorrect": false },
+        { "id": "d", "text": "VC = 4700 mL; FRC = 1700 mL", "isCorrect": false }
+      ],
+      "correctAnswer": "a",
+      "solutionExplanation": "1. Vital Capacity (VC) = TV + IRV + ERV = 500 + 3000 + 1200 = 4700 mL. 2. Functional Residual Capacity (FRC) = ERV + RV = 1200 + 1200 = 2400 mL.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c14-002",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "Hyperventilation & Oxygen-Hemoglobin Dissociation Curve",
+      "difficulty": "Medium",
+      "questionText": "During arterial blood gas analysis at high altitude, a climber exhibits acute hyperventilation. Which of the following physiological changes will occur in the climber's systemic blood capillaries, and how will it affect the Oxygen-Hemoglobin Dissociation Curve?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Elevated pCO2 → Acidosis → Right Shift (Bohr Effect)", "isCorrect": false },
+        { "id": "b", "text": "Decreased pCO2 → Respiratory Alkalosis → Left Shift (Increased O2 affinity)", "isCorrect": true },
+        { "id": "c", "text": "Elevated 2,3-BPG → Acidosis → Left Shift", "isCorrect": false },
+        { "id": "d", "text": "Decreased pH → Increased P50 → Left Shift", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Hyperventilation blows off excess CO2, causing a drop in pCO2 and a rise in blood pH (Respiratory Alkalosis). A decrease in pCO2 and H+ causes a LEFT SHIFT in the Oxygen-Hemoglobin Dissociation Curve, decreasing P50 and increasing hemoglobin's affinity for oxygen.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c14-003",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "Chloride Shift & Anion Exchanger 1",
+      "difficulty": "Medium",
+      "questionText": "At tissue capillaries where carbon dioxide diffuses into red blood cells, HCO3- is synthesized by Carbonic Anhydrase and exits the RBC into plasma down its concentration gradient. What specific transport protein mediates the electroneutral counter-transport of Cl- into the RBC, and what is this shift called?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Sodium-Potassium ATPase; Sodium Shift", "isCorrect": false },
+        { "id": "b", "text": "Anion Exchanger 1 (AE1 / Band 3); Chloride Shift (Hamburger Phenomenon)", "isCorrect": true },
+        { "id": "c", "text": "Aquaporin-1; Osmotic Shift", "isCorrect": false },
+        { "id": "d", "text": "SGLT-1 Symporter; Bicarbonate Shift", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "The efflux of HCO3- from RBCs into plasma is coupled 1:1 with the influx of Cl- into RBCs via the Anion Exchanger 1 (AE1 / Band 3) protein. This electroneutral ion movement is the Chloride Shift or Hamburger Phenomenon.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c14-004",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "Pulmonary Surfactant & IRDS Pathophysiology",
+      "difficulty": "Medium",
+      "questionText": "Premature infants born before 28 weeks of gestation frequently suffer from Infant Respiratory Distress Syndrome (IRDS). What specific cellular deficiency causes widespread alveolar collapse in these infants?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Absence of Type I pneumocyte squamous membranes", "isCorrect": false },
+        { "id": "b", "text": "Deficiency of Pulmonary Surfactant (DPPC) secreted by Type II pneumocytes", "isCorrect": true },
+        { "id": "c", "text": "Loss of elastic fibers in bronchial walls", "isCorrect": false },
+        { "id": "d", "text": "Inability of alveolar macrophages to perform phagocytosis", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Premature infants lack mature Type II pneumocytes, leading to a severe deficiency of Pulmonary Surfactant (DPPC). High surface tension at the alveolar air-water interface causes small alveoli to collapse during expiration according to Laplace's Law (P = 2γ/r).",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c14-005",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "Pathology of Emphysema",
+      "difficulty": "Easy",
+      "questionText": "A 60-year-old heavy smoker presents with progressive shortness of breath. Pulmonary function tests reveal a marked reduction in gas diffusion capacity (DLCO) and severe air trapping. Histological examination shows destruction of alveolar septal walls and loss of elastic recoil. What is the diagnosis?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Bronchial Asthma", "isCorrect": false },
+        { "id": "b", "text": "Emphysema", "isCorrect": true },
+        { "id": "c", "text": "Silicosis", "isCorrect": false },
+        { "id": "d", "text": "Lobar Pneumonia", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Destruction of alveolar septal walls, loss of pulmonary elastic recoil, trapping of air, and reduced surface area for gas diffusion are diagnostic hallmarks of Emphysema (a chronic obstructive pulmonary disease caused primarily by cigarette smoking).",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c14-006",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "Partial Pressures in Systemic Arterial Blood",
+      "difficulty": "Easy",
+      "questionText": "What is the partial pressure of Oxygen (pO2) and Carbon Dioxide (pCO2) in systemic oxygenated arterial blood entering tissues under normal physiological conditions?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "pO2 = 104 mmHg; pCO2 = 40 mmHg", "isCorrect": false },
+        { "id": "b", "text": "pO2 = 95 mmHg; pCO2 = 40 mmHg", "isCorrect": true },
+        { "id": "c", "text": "pO2 = 40 mmHg; pCO2 = 45 mmHg", "isCorrect": false },
+        { "id": "d", "text": "pO2 = 159 mmHg; pCO2 = 0.3 mmHg", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "In systemic oxygenated arterial blood: pO2 = 95 mmHg and pCO2 = 40 mmHg. (In alveoli, pO2 = 104 mmHg; in deoxygenated blood, pO2 = 40 mmHg and pCO2 = 45 mmHg).",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c14-007",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "Neural Control & Pneumotaxic Center",
+      "difficulty": "Medium",
+      "questionText": "Which neural center in the upper pons varolii sends inhibitory signals to the Dorsal Respiratory Group (DRG) to limit inspiratory duration and regulate the respiratory rate?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Apneustic Center", "isCorrect": false },
+        { "id": "b", "text": "Pneumotaxic Center", "isCorrect": true },
+        { "id": "c", "text": "Ventral Respiratory Group", "isCorrect": false },
+        { "id": "d", "text": "Chemosensitive Medullary Area", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "The Pneumotaxic Center located in the upper pons varolii transmits neural signals to the DRG to 'switch off' inspiration, thereby limiting inspiratory duration and controlling breathing frequency.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c14-008",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "Fick's Law & Gas Solubilities",
+      "difficulty": "Medium",
+      "questionText": "Why is the diffusion capacity of CO2 across the respiratory membrane significantly higher than that of O2, despite the partial pressure gradient for O2 (ΔpO2 = 64 mmHg) being much larger than for CO2 (ΔpCO2 = 5 mmHg)?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "CO2 is actively transported across the membrane by V-type pumps.", "isCorrect": false },
+        { "id": "b", "text": "CO2 solubility in blood plasma is 20–25 times higher than that of O2.", "isCorrect": true },
+        { "id": "c", "text": "The diffusion membrane is 10 times thinner for CO2 than for O2.", "isCorrect": false },
+        { "id": "d", "text": "Hemoglobin binds CO2 with a higher affinity than O2.", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "According to Fick's Law, diffusion rate is directly proportional to gas solubility (S). The solubility of CO2 is 20–25 times higher than that of O2, allowing CO2 to diffuse rapidly across the diffusion membrane despite a much smaller partial pressure difference.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c14-009",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "Muscle Biomechanics in Forced Expiration",
+      "difficulty": "Medium",
+      "questionText": "Which muscle groups contract actively during forced expiration?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Diaphragm and External Intercostal Muscles", "isCorrect": false },
+        { "id": "b", "text": "Internal Intercostal Muscles and Abdominal Muscles", "isCorrect": true },
+        { "id": "c", "text": "Phrenic muscles and Sternocleidomastoid", "isCorrect": false },
+        { "id": "d", "text": "Pectoralis major and Serratus anterior", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Quiet expiration is passive. Forced expiration is an active process driven by contraction of the Internal Intercostal Muscles (pulls ribs down/in) and Abdominal Muscles (forces abdominal organs up against the diaphragm).",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c14-010",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "Comparative Vertebrate Anatomy: Cranial Nerves",
+      "difficulty": "Hard",
+      "questionText": "How many total pairs of cranial nerves are present in adult amphibians like Rana tigrina versus mammals like humans?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Amphibians: 10 pairs; Mammals: 12 pairs", "isCorrect": true },
+        { "id": "b", "text": "Amphibians: 12 pairs; Mammals: 10 pairs", "isCorrect": false },
+        { "id": "c", "text": "Amphibians: 8 pairs; Mammals: 12 pairs", "isCorrect": false },
+        { "id": "d", "text": "Amphibians: 10 pairs; Mammals: 10 pairs", "isCorrect": false }
+      ],
+      "correctAnswer": "a",
+      "solutionExplanation": "Anamniotes (fishes and amphibians like Rana) possess 10 pairs of cranial nerves. Amniotes (reptiles, birds, mammals) possess 12 pairs of cranial nerves (adding Cranial Nerves XI Spinal Accessory and XII Hypoglossal).",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c14-011",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "Spirometry Non-Measurable Parameters",
+      "difficulty": "Hard",
+      "questionText": "Which of the following lung volumes or capacities CANNOT be directly measured using standard spirometry? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Tidal Volume (TV)", "isCorrect": false },
+        { "id": "b", "text": "Residual Volume (RV)", "isCorrect": true },
+        { "id": "c", "text": "Functional Residual Capacity (FRC)", "isCorrect": true },
+        { "id": "d", "text": "Total Lung Capacity (TLC)", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "b",
+        "c",
+        "d"
+      ],
+      "solutionExplanation": "B, C, D are correct: Any volume or capacity containing Residual Volume (RV)—including RV, FRC (ERV + RV), and TLC (VC + RV)—CANNOT be measured using spirometry because residual air never leaves the lungs. A is incorrect: Tidal Volume (TV) is easily measured by spirometry.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c14-012",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "Factors Causing Right Shift (Bohr Effect)",
+      "difficulty": "Medium",
+      "questionText": "Which of the following factors cause a RIGHT SHIFT (decreased affinity / Bohr Effect) in the Oxygen-Hemoglobin Dissociation Curve at tissue capillaries? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "High partial pressure of CO2 (pCO2)", "isCorrect": true },
+        { "id": "b", "text": "High H+ concentration (Acidosis / Low pH)", "isCorrect": true },
+        { "id": "c", "text": "High body temperature", "isCorrect": true },
+        { "id": "d", "text": "High concentration of 2,3-Bisphosphoglycerate (2,3-BPG)", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "solutionExplanation": "A, B, C, D are all correct: Elevated pCO2, elevated H+/low pH, elevated temperature, and elevated 2,3-BPG stabilize deoxyhemoglobin in its T-state, shifting the curve to the RIGHT (Bohr Effect) and promoting O2 unloading at tissues.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c14-013",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "CO2 Transport Forms in Human Blood",
+      "difficulty": "Medium",
+      "questionText": "Select the correct options regarding carbon dioxide transport in human blood: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Approximately 70% of CO2 is transported in plasma as Bicarbonate ions (HCO3-).", "isCorrect": true },
+        { "id": "b", "text": "Carbonic Anhydrase is a zinc-containing enzyme present at high concentrations inside RBCs.", "isCorrect": true },
+        { "id": "c", "text": "100 mL of deoxygenated blood delivers approximately 4 mL of CO2 to the alveoli under resting conditions.", "isCorrect": true },
+        { "id": "d", "text": "Carbamino-hemoglobin accounts for >90% of total CO2 transport.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: 70% is transported as HCO3-, Carbonic Anhydrase contains Zn²+, and deoxygenated blood delivers 4 mL CO2 / 100 mL. D is incorrect: Carbamino-hemoglobin accounts for only 20–25% of CO2 transport.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c14-014",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "Conducting Zone Anatomical Structures",
+      "difficulty": "Easy",
+      "questionText": "Which of the following anatomical structures belong to the CONDUCTING ZONE of the human respiratory tract? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Trachea", "isCorrect": true },
+        { "id": "b", "text": "Terminal Bronchioles", "isCorrect": true },
+        { "id": "c", "text": "Alveolar Sacs", "isCorrect": false },
+        { "id": "d", "text": "Nasal Cavity", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "solutionExplanation": "A, B, D are correct: Nostrils, nasal cavity, pharynx, larynx, trachea, bronchi, and terminal bronchioles constitute the Conducting Zone. C is incorrect: Alveolar sacs belong to the Respiratory (Exchange) Zone.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c14-015",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "Chemical Regulation of Respiration",
+      "difficulty": "Hard",
+      "questionText": "Select the correct statements regarding the chemical regulation of respiration in humans: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Central chemoreceptors in the medulla are highly sensitive to pCO2 and H+ ions in cerebrospinal fluid.", "isCorrect": true },
+        { "id": "b", "text": "Peripheral chemoreceptors are located in the Carotid Bodies and Aortic Arch.", "isCorrect": true },
+        { "id": "c", "text": "Oxygen plays a major, dominant role in quiet breathing regulation under normal sea-level conditions.", "isCorrect": false },
+        { "id": "d", "text": "Increased pCO2 and H+ concentrations stimulate the medullary respiratory center to increase ventilation.", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "solutionExplanation": "A, B, D are correct: Central chemoreceptors respond to CSF CO2/H+, peripheral chemoreceptors lie in aortic/carotid bodies, and high CO2/H+ stimulates breathing. C is incorrect: Oxygen plays NO major role in normal quiet breathing control.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c14-016",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "Occupational Respiratory Disorders (Silicosis/Asbestosis)",
+      "difficulty": "Medium",
+      "questionText": "Which of the following features characterize Occupational Respiratory Disorders like Silicosis and Asbestosis? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Long-term exposure to industrial mineral dusts", "isCorrect": true },
+        { "id": "b", "text": "Chronic inflammation leading to irreversible pulmonary Fibrosis (proliferation of fibrous tissue)", "isCorrect": true },
+        { "id": "c", "text": "Complete destruction of Type II pneumocytes leading to elevated surfactant", "isCorrect": false },
+        { "id": "d", "text": "Progressive loss of lung surface area and severe dyspnea", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "solutionExplanation": "A, B, D are correct: Occupational disorders result from mineral dust inhalation, causing chronic macrophage inflammation, severe pulmonary fibrosis, and dyspnea. C is incorrect: They cause fibrosis of lung tissue, not elevated surfactant levels.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c14-017",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "Respiratory Membrane Anatomical Layers",
+      "difficulty": "Medium",
+      "questionText": "Which layers constitute the diffusion barrier across which gas exchange occurs between alveolar air and capillary blood? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Type I Alveolar Squamous Epithelium", "isCorrect": true },
+        { "id": "b", "text": "Non-cellular Basement Membrane", "isCorrect": true },
+        { "id": "c", "text": "Capillary Endothelial Squamous Cell Wall", "isCorrect": true },
+        { "id": "d", "text": "Smooth Muscle Layer of Bronchioles", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: The three diffusion layers are the alveolar squamous epithelium, fused basement membrane, and capillary endothelium (<0.2 µm total thickness). D is incorrect: Smooth muscle is part of bronchioles, not the alveolar diffusion membrane.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c14-018",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "Biomechanics of Quiet Inspiration",
+      "difficulty": "Medium",
+      "questionText": "Select the correct options regarding the physiological mechanics of quiet inspiration: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Contraction of the diaphragm flattens its dome, increasing thoracic volume in the antero-posterior axis.", "isCorrect": true },
+        { "id": "b", "text": "Contraction of External Intercostal Muscles lifts the ribs and sternum, increasing thoracic volume in the dorso-ventral axis.", "isCorrect": true },
+        { "id": "c", "text": "Intra-pulmonary pressure drops below atmospheric pressure (759 mmHg).", "isCorrect": true },
+        { "id": "d", "text": "Contraction of abdominal muscles forces air into the lungs.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Diaphragm flattens (antero-posterior expansion), EIM contracts (dorso-ventral expansion), and intra-pulmonary pressure drops below Patm, forcing air in. D is incorrect: Abdominal muscles contract during forced expiration, NOT quiet inspiration.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c14-019",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "Fetal Hemoglobin (HbF) Physiology",
+      "difficulty": "Hard",
+      "questionText": "Which of the following statements contrasting Fetal Hemoglobin (HbF) with Adult Hemoglobin (HbA) are TRUE? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "HbF consists of two α and two γ globin chains (α2γ2).", "isCorrect": true },
+        { "id": "b", "text": "HbF binds 2,3-BPG with much lower affinity than HbA.", "isCorrect": true },
+        { "id": "c", "text": "The Oxygen-Hemoglobin Dissociation Curve for HbF is shifted to the LEFT relative to HbA.", "isCorrect": true },
+        { "id": "d", "text": "HbF has a lower affinity for oxygen than HbA, allowing O2 release to the mother.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: HbF (α2γ2) does not bind 2,3-BPG strongly, giving it a higher O2 affinity than HbA (curve shifted LEFT). D is incorrect: HbF has a HIGHER affinity for O2 so it can pull O2 from maternal blood across the placenta.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c14-020",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Breathing and Exchange of Gases",
+      "chapterNumber": 14,
+      "chapterSlug": "breathing-and-exchange-of-gases",
+      "topic": "Pathophysiology & Triggers of Respiratory Disorders",
+      "difficulty": "Hard",
+      "questionText": "Select the correct statements regarding respiratory system disorders: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Asthma is characterized by allergic bronchiolar smooth muscle spasms and expiratory wheezing.", "isCorrect": true },
+        { "id": "b", "text": "Emphysema is characterized by loss of alveolar surface area and elastic recoil.", "isCorrect": true },
+        { "id": "c", "text": "Cigarette smoking is a primary cause of Emphysema.", "isCorrect": true },
+        { "id": "d", "text": "Silicosis is caused by inherited α1-Antitrypsin deficiency.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Asthma involves allergic bronchiolar spasms/wheezing; Emphysema involves alveolar destruction from smoking or α1-antitrypsin deficiency. D is incorrect: Silicosis is caused by silica dust inhalation, NOT α1-antitrypsin deficiency (which causes hereditary emphysema).",
+      "marks": 4,
+      "negativeMarks": 0
+    }
+  ]
+}

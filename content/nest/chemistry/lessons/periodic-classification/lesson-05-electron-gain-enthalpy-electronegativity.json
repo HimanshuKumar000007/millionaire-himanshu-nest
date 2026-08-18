@@ -1,0 +1,64 @@
+{
+  "id": "chem-xi-u3-c3-l05",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit III \u2014 Classification of Elements and Periodicity in Properties",
+  "unitNumber": 3,
+  "chapter": "Classification of Elements and Periodicity",
+  "chapterNumber": 3,
+  "chapterSlug": "periodic-classification",
+  "slug": "lesson-05-electron-gain-enthalpy-electronegativity",
+  "title": "Electron Gain Enthalpy (\u0394_eg H) & Electronegativity Scales",
+  "topic": "Electron Gain Enthalpy & Electronegativity",
+  "topics": [
+    "Electron Gain Enthalpy (\u0394_eg H) & Exothermic vs Endothermic Steps",
+    "Why Second Electron Gain Enthalpy (\u0394_eg H\u2082) is Always Endothermic (+780 kJ/mol)",
+    "Halogen Anomaly (Cl > F > Br > I) & Group 16 Anomaly (S > Se > Te > Po > O)",
+    "Pauling Electronegativity Scale (\u03c7_A - \u03c7_B = 0.102 \u221a\u0394)",
+    "Mulliken Scale (\u03c7_M = (IE + EA) / 2) & Conversion to Pauling (\u03c7_P = \u03c7_M / 2.8)",
+    "Allred-Rochow Scale (\u03c7 = 0.359 Z_eff / r\u00b2 + 0.744)"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "electronegativity-scales",
+  "quickSummary": "Chlorine possesses the most negative electron gain enthalpy (Cl > F), and second electron gain enthalpies are always endothermic (O\u207b + e\u207b \u2192 O\u00b2\u207b is +780 kJ/mol). Electronegativity is quantified via Pauling, Mulliken, and Allred-Rochow scales.",
+  "summary": "Master electron gain enthalpy anomalies, 2nd step endothermicity, and mathematical formulations of Pauling, Mulliken, and Allred-Rochow electronegativity scales.",
+  "conceptBreakdown": [
+    {
+      "heading": "5.1 Electron Gain Enthalpy Trends & Anomalies",
+      "title": "5.1 Electron Gain Enthalpy Trends & Anomalies",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Electron Gain Enthalpy",
+        "takeaway": "Cl (-349 kJ/mol) has more negative \u0394_eg H than F (-328 kJ/mol). Second electron gain enthalpy (\u0394_eg H\u2082) is ALWAYS endothermic for all elements."
+      },
+      "content": "The enthalpy change when an electron is added to an isolated neutral gaseous atom:\n\n$$\\text{X}(g) + e^- \\xrightarrow{\\Delta_{\\text{eg}} H_1} \\text{X}^-(g)$$\n\n\u2022 **Second Electron Gain Enthalpy ($\\Delta_{\\text{eg}} H_2$)**: **ALWAYS ENDOTHERMIC ($\\Delta > 0$)** without exception due to severe electrostatic repulsion between incoming electron and the negative anion:\n\n$$\\text{O}^-(g) + e^- \\xrightarrow{\\Delta_{\\text{eg}} H_2 = \\mathbf{+780\\text{ kJ/mol}}} \\text{O}^{2-}(g)$$\n\n\u2022 **Halogen Anomaly**: Chlorine has a MORE negative $\\Delta_{\\text{eg}} H$ than Fluorine because $\\text{F}$ has a compact $2p$ subshell with high electron density, generating intense repulsions against incoming electrons:\n$$\\mathbf{\\text{Halogen Order: } \\text{Cl } (-349) > \\text{F } (-328) > \\text{Br } (-325) > \\text{I } (-295\\text{ kJ/mol})}$$\n\n\u2022 **Group 16 Anomaly**: Oxygen has the LEAST negative $\\Delta_{\\text{eg}} H$ in Group 16:\n$$\\mathbf{\\text{Group 16 Order: } \\text{S } (-200) > \\text{Se } (-195) > \\text{Te } (-190) > \\text{Po } (-174) > \\text{O } (-141\\text{ kJ/mol})}$$"
+    },
+    {
+      "heading": "5.2 Electronegativity (\u03c7) & Quantification Scales",
+      "title": "5.2 Electronegativity (\u03c7) & Quantification Scales",
+      "type": "paragraph",
+      "codeSnippet": "ELECTRONEGATIVITY SCALES\n                                       \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                                 \u25bc                                 \u25bc\nPAULING SCALE                     MULLIKEN SCALE                   ALLRED-ROCHOW SCALE\nBased on thermochemical covalent  Based on average of IE and EA:   Based on electrostatic force\nbond dissociation energies.       \u03c7_M = (IE + EA) / 2              on valence electron:\n\u03c7_A - \u03c7_B = 0.102 \u221a\u0394                                              \u03c7 = 0.359 (Z_eff / r\u00b2) + 0.744",
+      "content": "1. **Pauling Scale**:\n$$\\mathbf{\\chi_A - \\chi_B = 0.102 \\sqrt{\\Delta \\text{ (in kJ/mol)}} = 0.208 \\sqrt{\\Delta \\text{ (in kcal/mol)}}}$$\n$$\\Delta = E_{A-B} - \\sqrt{E_{A-A} \\cdot E_{B-B}}$$\nTop Electronegative Elements: $\\mathbf{\\text{F } (4.0) > \\text{O } (3.5) > \\text{N } (3.0) \\approx \\text{Cl } (3.0) > \\text{Br } (2.8) > \\text{I } (2.5) \\approx \\text{C } (2.5) \\approx \\text{S } (2.5)}$.\n\n2. **Mulliken-Jaff\u00e9 Scale**:\n$$\\mathbf{\\chi_M = \\frac{\\text{IE} + \\text{EA}}{2} \\quad (\\text{in eV})} \\implies \\mathbf{\\chi_P \\approx \\frac{\\chi_M}{2.8} = \\frac{\\text{IE} + \\text{EA}}{5.6} \\quad (\\text{in eV})} = \\frac{\\text{IE} + \\text{EA}}{540} \\quad (\\text{in kJ/mol})$$\n\n3. **Allred-Rochow Scale**:\n$$\\mathbf{\\chi_{\\text{AR}} = 0.359 \\frac{Z_{\\text{eff}}}{r^2} + 0.744}$$"
+    }
+  ],
+  "quickRevision": [
+    "Cl (-349 kJ/mol) has more negative \u0394_eg H than F (-328 kJ/mol).",
+    "\u0394_eg H\u2082 is always endothermic (O\u207b + e\u207b \u2192 O\u00b2\u207b is +780 kJ/mol).",
+    "Pauling formula: \u03c7_A - \u03c7_B = 0.102 \u221a\u0394 (in kJ/mol).",
+    "Mulliken conversion: \u03c7_P = \u03c7_M / 2.8 = (IE + EA) / 5.6 (in eV).",
+    "Electronegativity: F (4.0) > O (3.5) > N (3.0) \u2248 Cl (3.0)."
+  ],
+  "keyFormulae": [
+    "\u03c7_A - \u03c7_B = 0.102 \u221a\u0394",
+    "\u0394 = E_AB - \u221a(E_AA \u00b7 E_BB)",
+    "\u03c7_M = (IE + EA) / 2",
+    "\u03c7_P \u2248 \u03c7_M / 2.8",
+    "\u03c7_AR = 0.359 (Z_eff / r\u00b2) + 0.744"
+  ]
+}

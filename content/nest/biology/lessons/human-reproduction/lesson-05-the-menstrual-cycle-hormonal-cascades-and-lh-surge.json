@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u6-c2-l05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VI — Reproduction",
+  "unitNumber": 6,
+  "chapter": "Human Reproduction",
+  "chapterNumber": 2,
+  "chapterSlug": "human-reproduction",
+  "slug": "lesson-05-the-menstrual-cycle-hormonal-cascades-and-lh-surge",
+  "title": "The Menstrual Cycle: Hormonal Cascades & LH Surge",
+  "topic": "4 Menstrual Phases & LH Surge Mechanics",
+  "order": 5,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Menstrual cycle: Menstrual (1-5), Follicular (6-13, estrogen repair), Ovulatory (Day 14, massive LH Surge releases 2° oocyte), and Luteal (15-28, Corpus Luteum secretes progesterone to maintain secretory endometrium).",
+  "summary": "Menstrual cycle: Menstrual (1-5), Follicular (6-13, estrogen repair), Ovulatory (Day 14, massive LH Surge releases 2° oocyte), and Luteal (15-28, Corpus Luteum secretes progesterone to maintain secretory endometrium).",
+  "conceptBreakdown": [
+    {
+      "heading": "The Menstrual Cycle: Hormonal Cascades & LH Surge",
+      "title": "The Menstrual Cycle: Hormonal Cascades & LH Surge",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Menstrual cycle: Menstrual phase (Days 1-5: low progesterone, sloughing of stratum functionale), Follicular phase (Days 6-13: FSH matures follicles, estrogen rebuilds endometrium), Ovulatory phase (Day 14: Estrogen positive feedback -> massive LH Surge -> ovulation of 2° oocyte arrested in Metaphase II), Luteal phase (Days 15-28: Corpus Luteum secretes high progesterone; if no fertilization -> Corpus Albicans, progesterone drops, menstruation repeats)."
+      },
+      "codeSnippet": "MENSTRUCTUAL CYCLE PHASES\n                                      │\n     ┌──────────────────┬─────────────┴─────────────┬──────────────────┐\n     ▼                  ▼                           ▼                  ▼\nMENSTRUAL PHASE     FOLLICULAR / PROLIFERATIVE   OVULATORY PHASE    LUTEAL / SECRETORY\n(Days 1–5)          (Days 6–13)                 (Day 14)           (Days 15–28)\n├── Low Progesterone├── Rising FSH & Estrogen   ├── **LH Surge**   ├── Corpus Luteum\n└── Endometrium     └── Endometrial Repair      └── Release of     └── High Progesterone\n    Sloughs Off         & Proliferation             2° Oocyte          (Prepares Bed)",
+      "content": "The Menstrual Cycle is the cyclic series of physiological modifications in the primate female reproductive system (averaging $\\approx 28\\text{ days}$), controlled by the Hypothalamic-Pituitary-Ovarian axis.\n\n### 5.1 Menstrual Phase Dynamics\n\n1. **Menstrual Phase (Days 1–5)**: Degeneration of the Corpus Luteum from the previous cycle causes a sharp collapse in Progesterone and Estrogen. The functional mucosal layer of the endometrium (*Stratum Functionale*) breaks down, sloughing off with $50\\text{--}80\\text{ mL}$ of blood and tissue fluid.\n2. **Follicular / Proliferative Phase (Days 6–13)**: Anterior pituitary **FSH** stimulates primary follicles to grow into mature Graafian follicles. Proliferating theca and granulosa cells synthesize rising levels of **Estrogens**, stimulating rapid mitotic renewal, vascularization, and thickening of the endometrium.\n3. **Ovulatory Phase (Day 14)**: High sustained estrogen levels ($>200\\text{ pg/mL}$ for $>36\\text{ hours}$) switch feedback from negative to positive, triggering a massive, rapid peak in pituitary LH secretion (**LH Surge**).\n   - **Consequences of LH Surge**:\n     - Stimulates the primary oocyte to complete Meiosis I.\n     - Causes proteolytic enzymes (collagenase) to weaken the ovarian tunica albuginea, rupturing the Graafian follicle to release the Secondary Oocyte (Ovulation).\n4. **Luteal / Secretory Phase (Days 15–28)**: LH luteinizes the collapsed follicle into the **Corpus Luteum (\"Yellow Body\")**, which synthesizes large quantities of **Progesterone** (and estrogen). Progesterone transforms the endometrium into a glandular, glycogen-secreting vascular bed ready for blastocyst implantation.\n   - **Absence of Fertilization**: Progesterone and estrogen exert negative feedback on LH/FSH. Deprived of LH support, the Corpus Luteum degenerates into white scar tissue (**Corpus Albicans**), steroid levels crash, and menses begins."
+    },
+    {
+      "heading": "Estrogen Biphasic Feedback",
+      "title": "Estrogen Biphasic Feedback",
+      "type": "paragraph",
+      "content": "Low to moderate levels of estrogen exert negative feedback on FSH/LH secretion. High, sustained levels at the end of the follicular phase trigger positive feedback on GnRH and LH release, causing the ovulatory LH surge."
+    },
+    {
+      "heading": "Body Temperature Shift",
+      "title": "Body Temperature Shift",
+      "type": "paragraph",
+      "content": "Progesterone acting on the hypothalamic thermoregulatory center causes a distinct basal body temperature increase of ~0.3°C to 0.5°C immediately following ovulation, used in rhythm fertility tracking."
+    }
+  ]
+}

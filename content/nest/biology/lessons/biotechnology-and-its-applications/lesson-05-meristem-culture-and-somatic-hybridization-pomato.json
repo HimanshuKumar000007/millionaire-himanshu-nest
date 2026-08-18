@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u9-c10-l05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit IX — Biotechnology",
+  "unitNumber": 9,
+  "chapter": "Biotechnology and its Applications",
+  "chapterNumber": 10,
+  "chapterSlug": "biotechnology-and-its-applications",
+  "slug": "lesson-05-meristem-culture-and-somatic-hybridization-pomato",
+  "title": "Meristem Culture & Somatic Hybridization (Pomato)",
+  "topic": "Virus-Free Plants, Protoplast Isolation, Cellulase/Pectinase, PEG Fusion, & Cybrids",
+  "order": 5,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Specialized tissue culture techniques: (1) Meristem Culture: Apical and axillary shoot meristems are excised to regenerate 100% virus-free plants from heavily infected parent stock; (2) Somatic Hybridization: Plant cell walls are digested with Cellulase and Pectinase to isolate naked Protoplasts, which are fused using Polyethylene Glycol (PEG) or electrofusion to generate somatic hybrids (e.g. Pomato = Potato + Tomato).",
+  "summary": "Specialized tissue culture techniques: (1) Meristem Culture: Apical and axillary shoot meristems are excised to regenerate 100% virus-free plants from heavily infected parent stock; (2) Somatic Hybridization: Plant cell walls are digested with Cellulase and Pectinase to isolate naked Protoplasts, which are fused using Polyethylene Glycol (PEG) or electrofusion to generate somatic hybrids (e.g. Pomato = Potato + Tomato).",
+  "conceptBreakdown": [
+    {
+      "heading": "Meristem Culture for Virus-Free Plants & Somatic Hybridization",
+      "title": "Meristem Culture for Virus-Free Plants & Somatic Hybridization",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Meristem culture eliminates plant viruses because rapidly dividing meristematic cells outpace viral replication. Somatic hybridization bypasses sexual barriers by enzymatically stripping cell walls and chemically fusing protoplasts using PEG."
+      },
+      "codeSnippet": "SOMATIC HYBRIDIZATION WORKFLOW\n                        \n   Parent Plant A (Potato) ──► Enzymatic Wall Digestion (Cellulase + Pectinase) ──► Naked Protoplast A\n   Parent Plant B (Tomato) ──► Enzymatic Wall Digestion (Cellulase + Pectinase) ──► Naked Protoplast B\n                                                    │\n                               Protoplast Fusion induced by PEG (Polyethylene Glycol)\n                                                    │\n                               Regenerates Cell Wall ──► Callus ──► SOMATIC HYBRID (Pomato)",
+      "content": "### 5.1 Meristem Culture & Production of Virus-Free Plants\n- **Problem**: Plant systemic viral infections (e.g., Potato Virus X/Y, Banana Bunchy Top virus, Citrus Tristeza) replicate throughout vascular bundles, rendering conventional vegetative cuttings infected.\n- **Scientific Principle**: The **Apical and Axillary Shoot Meristems ($0.1\\text{--}0.5\\text{ mm}$)** remain completely **VIRUS-FREE** even in heavily diseased plants because:\n  1. The mitotic cell division rate of meristematic dome cells is substantially faster than the viral replication and transport rate.\n  2. High endogenous auxin (IAA) concentrations in the shoot apex actively suppress viral replication.\n  3. Vascular connection (xylem and phloem) is absent in the promeristem dome, preventing viral translocation through sieve tubes.\n- **Protocol**: The sterile shoot apex is micro-dissected and cultured on MS medium, regenerating healthy, virus-free plants (routinely applied in potato, banana, sugarcane, and cassava).\n\n### 5.2 Somatic Hybridization (Protoplast Fusion)\n- **Definition**: The fusion of isolated naked protoplasts from somatic cells of two distinct, sexually incompatible plant varieties or species to generate a chimeric hybrid plant.\n- **Stepwise Protocol**:\n  1. **Cell Wall Digestion**: Plant mesophyll tissues are incubated in a hypertonic enzyme cocktail containing **Cellulase** (hydrolyzes $\\beta-1,4$ glucan chains) and **Pectinase** (dissolves the middle lamella) to strip the rigid cell wall, releasing spherical, naked **Protoplasts**.\n  2. **Protoplast Fusion**: The isolated protoplasts of species A (e.g., *Solanum tuberosum* - Potato) and species B (e.g., *Solanum lycopersicum* - Tomato) are mixed and induced to fuse by adding **Polyethylene Glycol (PEG)**, high $\\text{Ca}^{2+}$, or applying high-frequency electrical pulses (**Electrofusion**).\n  3. **Heterokaryon Selection**: Fused hybrid cells (heterokaryons) regenerate a new cellulosic cell wall within $48\\text{ hours}$, divide to form callus, and differentiate into a **Somatic Hybrid** (**\"Pomato\"**).\n- **Agronomic Evaluation**: Although *Pomato* successfully expressed vegetative characteristics of potato and tomato, it lacked the optimal combination of commercial characteristics required for large-scale economic cultivation."
+    },
+    {
+      "heading": "Cybrids (Cytoplasmic Hybrids)",
+      "title": "Cybrids (Cytoplasmic Hybrids)",
+      "type": "paragraph",
+      "content": "Cybrids are somatic hybrids possessing the nuclear genome of one parent combined with the cytoplasmic organellar genomes (mitochondria/chloroplasts) of both parents, used to transfer cytoplasmic male sterility (CMS) or herbicide tolerance."
+    },
+    {
+      "heading": "Anther & Pollen Culture (Androgenesis)",
+      "title": "Anther & Pollen Culture (Androgenesis)",
+      "type": "paragraph",
+      "content": "Pollen grains (microspores) cultured in-vitro regenerate haploid plantlets; treatment with colchicine doubles the chromosome complement to create 100% homozygous doubled haploids (DH) in a single generation."
+    }
+  ]
+}

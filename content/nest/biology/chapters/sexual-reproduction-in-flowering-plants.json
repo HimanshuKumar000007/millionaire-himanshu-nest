@@ -1,0 +1,656 @@
+{
+  "id": "bio-xii-u6-c1-chapter-master",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VI — Reproduction",
+  "unitNumber": 6,
+  "chapter": "Sexual Reproduction in Flowering Plants",
+  "chapterNumber": 1,
+  "chapterSlug": "sexual-reproduction-in-flowering-plants",
+  "title": "CHAPTER 1: SEXUAL REPRODUCTION IN FLOWERING PLANTS (NEST & INBO MODULE)",
+  "description": "Comprehensive master module covering Flower Architecture, Microsporogenesis, Tapetum Dynamics, Pollen Exine & Sporopollenin, Megasporogenesis, Ovule Typology (Anatropous, Orthotropous, Campylotropous, Amphitropous, Circinotropous), Monosporic Polygonum-Type Embryo Sac (7-Celled, 8-Nucleate), Pollination Agencies & Cleistogamy, Outbreeding Devices & Genetic Self-Incompatibility (GSI vs SSI), Pollen-Pistil Interaction, Double Fertilization (Syngamy & Triple Fusion), Endosperm Types (Nuclear, Cellular, Helobial), Dicot vs Monocot Embryogeny (Scutellum, Coleoptile, Coleorhiza), Seed & Perisperm, Special Modes (Apomixis, Parthenocarpy, Polyembryony), Master Glossary, and 20 High-Rigor NEST Questions.",
+  "estimatedTotalTimeMinutes": 160,
+  "totalSections": 11,
+  "totalQuestions": 20,
+  "status": "published",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "id": "sec-01-01",
+      "title": "Flower Architecture & Microsporogenesis (Male Gametophyte)",
+      "topic": "Floral Whorls, Anther Wall Layers (Epidermis, Endothecium, Middle Layers, Tapetum), & Microsporogenesis",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Anther is bilobed and tetrasporangiate with 4 wall layers: Epidermis (protective), Endothecium (hygroscopic alpha-cellulose fibrous bands for stomium dehiscence), Middle layers (1-3 ephemeral layers), and Tapetum (nutritive, polyploid via endomitosis, secretes Callase, Ubisch bodies coated with sporopollenin, and Pollen-kit)."
+      },
+      "codeSnippet": "ANTHER WALL HISTOLOGY (Outer ──► Inner)\n                        \n   EPIDERMIS ──────────► Single protective outer layer.\n   ENDOTHECIUM ────────► Hygroscopic α-cellulose fibrous bands; drives dehiscence at Stomium.\n   MIDDLE LAYERS ──────► 1–3 ephemeral parenchymatous layers; crushed during maturation.\n   TAPETUM ────────────► Innermost nutritive layer; dense cytoplasm, polyploid/multinucleate.",
+      "content": "Angiosperms reproduce sexually via the Flower, a highly modified, condensed reproductive shoot borne on a receptacle (Thalamus).\n\n```\n                            FLORAL WHORL ORGANIZATION\n                                        │\n         ┌──────────────────────────────┴──────────────────────────────┐\n         ▼                                                             ▼\n  ACCESSORY WHORLS (Non-Essential)                              ESSENTIAL REPRODUCTIVE WHORLS\n  ├── Calyx (Outer Sepals - Protection)                        ├── Androecium (Stamens - Male)\n  └── Corolla (Inner Petals - Attractant)                      └── Gynoecium (Carpels/Pistils - Female)\n```\n\n### 1.1 Microsporogenesis & Anther Wall Dynamics\n\n```\n                      MICROSPOROGENESIS REACTION PATHWAY\n                      \n   Sporogenous Cells (2n) ──► Microspore Mother Cells (MMC / PMC, 2n)\n                                       │\n   Meiosis I & II               ───────┴───────► Microspore Tetrads (n)\n                                       │\n   Callase Enzyme (from Tapetum)───────┴───────► 4 Free Microspores / Pollen Grains (n)\n```\n\n- **Special Tapetal Functions**:\n  1. Secretes **Callase ($\\beta$-1,3-glucanase)** to degrade the callose wall surrounding microspore tetrads.\n  2. Synthesizes **Ubisch Bodies (Orbicles)** coated with **Sporopollenin** to construct the exine layer.\n  3. Produces **Pollen-kit** (a sticky lipid/carotenoid coat on entomophilous pollen grains)."
+    },
+    {
+      "sectionNumber": 2,
+      "id": "sec-01-02",
+      "title": "Pollen Grain Architecture & Male Gametophyte Development",
+      "topic": "Sporoderm (Exine & Sporopollenin vs Intine), Germ Pores, & 2-Celled vs 3-Celled Shedding Stages",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Pollen wall: Exine (composed of ultra-resistant Sporopollenin, interrupted at Germ Pores) and Intine (thin, continuous cellulose + pectin). Microgametogenesis: 60% angiosperms shed at 2-celled stage (Vegetative cell + Generative cell); 40% shed at 3-celled stage (Vegetative cell + 2 non-motile male gametes)."
+      },
+      "codeSnippet": "POLLEN GRAIN WALL LAYERS\n                                      │\n         ┌────────────────────────────┴────────────────────────────┐\n         ▼                                                         ▼\n   EXINE (Outer Layer)                                       INTINE (Inner Layer)\n   ├── Composed of Sporopollenin (Biopolymer)                ├── Composed of Cellulose + Pectin\n   ├── Extremely resistant to acids, alkalis, & enzymes       ├── Thin, continuous, non-sculptured\n   └── Interrupted at Germ Pores (lacks sporopollenin)        └── Emerges as Pollen Tube during germination",
+      "content": "### 2.1 Male Gametophyte Development Cascade\n\n```\n                      MALE GAMETOPHYTE DEVELOPMENT\n                      \n   Microspore (n) ──[Asymmetric Mitosis]──► 2-Celled Pollen Grain (60% Angiosperms)\n                                                      │\n                                   ┌──────────────────┴──────────────────┐\n                                   ▼                                     ▼\n                      VEGETATIVE / TUBE CELL                GENERATIVE CELL\n                      ├── Large, abundant food reserves     ├── Small, spindle-shaped\n                      └── Irregular, lobed nucleus          └── Floats in vegetative cytoplasm\n                                                                         │\n   3-Celled Stage (40% Angiosperms) ◄── [2nd Mitosis in Generative] ─────┘\n   (1 Vegetative Cell + 2 Non-Motile Male Gametes)\n```"
+    },
+    {
+      "sectionNumber": 3,
+      "id": "sec-01-03",
+      "title": "Megasporogenesis, Ovule Typology, & Polygonum Embryo Sac",
+      "topic": "Ovule Anatomy, 5 Typology Classes, Functional Chalazal Megaspore, & 7-Celled, 8-Nucleate Embryo Sac",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Ovule types: Anatropous (180° inverted, 82%), Orthotropous (0° erect), Campylotropous, Amphitropous (horseshoe body & sac), Circinotropous (360° coil). Megasporogenesis: MMC (2n) -> Meiosis -> 1 functional chalazal megaspore -> 3 free-nuclear mitoses -> 7-celled, 8-nucleate Polygonum embryo sac (3 chalazal antipodals, 1 central cell with 2 polar nuclei, 1 egg cell + 2 synergids with filiform apparatus)."
+      },
+      "codeSnippet": "POLYGONUM-TYPE EMBRYO SAC (7-Celled, 8-Nucleate)\n               \n   CHALAZAL POLE ──────► 3 Antipodal Cells (n) [Ephemeral / Metabolic]\n   \n   CENTRAL REGION ─────► 1 Large Central Cell containing 2 Polar Nuclei (n + n)\n   \n   MICROPYLAR POLE ────► Egg Apparatus:\n                         ├── 1 Egg Cell (n) [Female Gamete]\n                         └── 2 Synergids (n) possessing Filiform Apparatus\n                             (Finger-like wall invaginations guiding pollen tube)",
+      "content": "### 3.1 Structural Typology of Angiosperm Ovules\n\n```\n                             OVULE STRUCTURAL TYPES\n                                       │\n     ┌─────────────────┬───────────────┼───────────────┬─────────────────┐\n     ▼                 ▼               ▼               ▼                 ▼\n ANATROPOUS       ORTHOTROPOUS   CAMPYLOTROPOUS   AMPHITROPOUS     CIRCINOTROPOUS\n 180° Inverted;   0° Completely  Curved body;     Horseshoe-shaped 360° Coiled funicle\n Micropyle near    Erect; hilum,  micropyle bent   body AND embryo  enclosing ovule\n Hilum (82%).     micropyle align at right angle.  sac (Poaceae).   (Opuntia).\n```\n\n### 3.2 Monosporic Polygonum-Type Embryo Sac\n\n```\n                 EMBRYO SAC ARCHITECTURE (MICROPYLAR TO CHALAZAL)\n                 \n                     [ 3 Antipodal Cells (n) ]   (Chalazal End)\n                               │\n               [ Large Central Cell (Polar Nuclei n + n) ]\n                               │\n            [ Egg Cell (n) ] + [ 2 Synergid Cells (n) ]  (Micropylar End)\n                        (Filiform Apparatus)\n```"
+    },
+    {
+      "sectionNumber": 4,
+      "id": "sec-01-04",
+      "title": "Pollination Mechanisms, Agencies, & Ecological Mutualisms",
+      "topic": "Autogamy, Geitonogamy, Xenogamy, Cleistogamy, Anemophily, Hydrophily, Entomophily, & Yucca-Pronuba Mutualism",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Pollination modes: Autogamy (same flower), Geitonogamy (different flower, same plant; functionally cross, genetically autogamous), Xenogamy (true cross). Cleistogamous flowers (Viola, Oxalis, Commelina) never open, guaranteeing seed set. Agencies: Anemophily (wind), Epihydrophily (Vallisneria surface), Hypohydrophily (Zostera submerged), Entomophily (insects, Yucca-Pronuba obligate mutualism)."
+      },
+      "codeSnippet": "POLLINATION CATEGORIES\n                                     │\n         ┌───────────────────────────┼───────────────────────────┐\n         ▼                           ▼                           ▼\n     AUTOGAMY                    GEITONOGAMY                 XENOGAMY / ALLOGAMY\n(Self-Pollination)            (Inter-Floral Self)         (True Cross-Pollination)\nPollen transferred to stigma  Pollen transferred between   Pollen transferred to stigma of a\nof the SAME flower.           different flowers on SAME    genetically DIFFERENT plant.\n                              plant. (Genetically autogamy).",
+      "content": "### 4.1 Abiotic vs. Biotic Pollination Agencies\n\n| Agency | Floral Adaptation / Diagnostic Characteristics | Exemplar Taxa |\n| :--- | :--- | :--- |\n| **Anemophily (Wind)** | Non-fragrant, small, green flowers; light, dry, non-sticky pollen; feathery exertion stigmas; single-ovule ovaries | *Poaceae* (Grasses), *Zea mays* (Maize), *Cannabis* |\n| **Epihydrophily (Water Surface)** | Unwettable pollen; female flowers borne on long spiral stalks that uncoil to reach water surface | *Vallisneria spiralis* |\n| **Hypohydrophily (Submerged)** | Long, ribbon-like pollen grains lacking exine; specific gravity equal to water | *Zostera marina* (Sea grass), *Hydrilla* |\n| **Entomophily (Insects)** | Large, brightly colored, fragrant flowers producing sugary nectar; pollen coated in sticky, lipid **Pollen-kit** | *Rose*, *Salvia* (Lever mechanism), *Yucca* |\n\n- **Obligate Mutualism (Yucca & Pronuba Moth)**: Neither species can complete its life cycle without the other. The moth (*Tegeticula yuccasella*) deposits its eggs inside the ovary locule while pollinating the stigma; moth larvae hatch as seeds develop and consume a fraction of the seeds."
+    },
+    {
+      "sectionNumber": 5,
+      "id": "sec-01-05",
+      "title": "Outbreeding Devices & Genetic Self-Incompatibility (SI)",
+      "topic": "Dicliny (Monoecious vs Dioecious), Dichogamy (Protandry/Protogyny), Herkogamy, Heterostyly, & Gametophytic vs Sporophytic SI",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Outbreeding contrivances: Dicliny (Monoecious prevents autogamy; Dioecious prevents both autogamy and geitonogamy), Dichogamy (temporal), Herkogamy (physical barrier), Heterostyly (morphological). Genetic Self-Incompatibility (SI): Gametophytic SI (GSI, pollen haploid S-allele, style inhibition) vs Sporophytic SI (SSI, parent diploid S-genotype, stigma surface inhibition)."
+      },
+      "codeSnippet": "OUTBREEDING DEVICES\n                                    │\n     ┌──────────────────┬───────────┴───────────┬──────────────────┐\n     ▼                  ▼                       ▼                  ▼\n  DICLINY            DICHOGAMY               HERKOGAMY           HETEROSTYLY\n  Unisexual flowers  Temporal separation of   Physical barrier    Styles & filaments\n  ├── Monoecious     pollen & stigma.         separating sex      at different height\n  └── Dioecious      ├── Protandry (Anther first) organs (Calotropis). levels (Primula).\n                     └── Protogyny (Stigma first)",
+      "content": "### 5.1 Gametophytic vs. Sporophytic Self-Incompatibility\n\n```\n                      GAMETOPHYTIC vs SPOROPHYTIC SI\n                      \n      GAMETOPHYTIC SI (GSI)                     SPOROPHYTIC SI (SSI)\n      ├── SI phenotype determined by the       ├── SI phenotype determined by the\n      │   haploid genotype of POLLEN itself.   │   diploid PARENT SPOROPHYTE genotype.\n      └── Inhibits pollen tube growth inside   └── Inhibits pollen germination on the\n          middle/lower style (Solanaceae).         stigma surface (Brassicaceae).\n```"
+    },
+    {
+      "sectionNumber": 6,
+      "id": "sec-01-06",
+      "title": "Pollen-Pistil Interaction & Double Fertilization Cascade",
+      "topic": "Pollen Tube Entry Routes (Porogamy, Chalazogamy, Mesogamy), Syngamy (2n), & Triple Fusion (3n PEN)",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Entry routes: Porogamy (micropyle, most common), Chalazogamy (chalaza), Mesogamy (integuments). Double fertilization (S.G. Nawaschin, 1898): (1) Syngamy: 1st male gamete (n) + Egg (n) -> Zygote (2n), and (2) Triple Fusion: 2nd male gamete (n) + 2 Polar Nuclei (2n) -> Primary Endosperm Nucleus PEN (3n)."
+      },
+      "codeSnippet": "DOUBLE FERTILIZATION\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n   SYNGAMY (Generative Fertilization)              TRIPLE FUSION (Vegetative Fertilization)\n   1st Male Gamete (n) + Egg Cell (n)              2nd Male Gamete (n) + 2 Polar Nuclei (n+n)\n               │                                   (or Central Cell Secondary Nucleus 2n)\n               ▼                                               │\n        Zygote (2n)                                            ▼\n               │                                 Primary Endosperm Nucleus (PEN, 3n)\n               ▼                                               │\n         Embryo (2n)                                           ▼\n                                                      Endosperm Tissue (3n)",
+      "content": "### 6.1 Pollen Tube Entry Routes & Double Fertilization\n\n```\n                        POLLEN TUBE ENTRY ROUTES\n                                    │\n         ┌──────────────────────────┼──────────────────────────┐\n         ▼                          ▼                          ▼\n     POROGAMY                   CHALAZOGAMY                MESOGAMY\n  Enters via Micropyle       Enters via Chalaza         Enters via Integuments\n  (Most common angiosperms)  (Casuarina, Juglans)       or Funicle (Cucurbita)\n```\n\n$$\\text{Syngamy: } n \\text{ (male gamete)} + n \\text{ (egg)} \\longrightarrow 2n \\text{ (zygote)}$$\n\n$$\\text{Triple Fusion: } n \\text{ (male gamete)} + 2n \\text{ (polar nuclei)} \\longrightarrow 3n \\text{ (PEN)}$$"
+    },
+    {
+      "sectionNumber": 7,
+      "id": "sec-01-07",
+      "title": "Post-Fertilization Events I: Endosperm Development Types",
+      "topic": "Nuclear Endosperm (Coconut Water), Cellular Endosperm (Coconut Meat), & Helobial Endosperm",
+      "readingTimeMinutes": 12,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Endosperm development precedes embryo development. Nuclear endosperm (free-nuclear divisions without cytokinesis, e.g. Coconut water), Cellular endosperm (immediate cytokinesis, e.g. Datura, Coconut meat), and Helobial endosperm (intermediate, monocots)."
+      },
+      "codeSnippet": "COCONUT ENDOSPERM ANATOMY\n                        \n   Liquid Endosperm (Coconut Water) ──► Free Nuclear Endosperm (Thousands of nuclei)\n   White Kernel (Coconut Meat)      ──► Cellular Endosperm (Multicellular tissue)",
+      "content": "### 7.1 Endosperm Typology & Morphology\n\n```\n                            ENDOSPERM TYPES\n                                   │\n         ┌─────────────────────────┼─────────────────────────┐\n         ▼                         ▼                         ▼\n  NUCLEAR ENDOSPERM         CELLULAR ENDOSPERM         HELOBIAL ENDOSPERM\n  Primary PEN undergoes     PEN division is            Intermediate type;\n  free-nuclear divisions.   accompanied by immediate   1st division forms 2 cells;\n  *Most common type*        wall formation.            subsequent free nuclear.\n  (Coconut Water)           (Datura, Petunia)          (Monocots)\n```"
+    },
+    {
+      "sectionNumber": 8,
+      "id": "sec-01-08",
+      "title": "Post-Fertilization Events II: Embryogeny, Seed Anatomy, & Perisperm",
+      "topic": "Dicot vs Monocot Embryo (Scutellum, Coleoptile, Coleorhiza, Epiblast), Seed Coat (Testa/Tegmen), & Perispermic Seeds",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Embryogeny: Zygote -> Proembryo -> Globular -> Heart-shaped -> Mature embryo. Monocot grass embryo: 1 shield cotyledon (Scutellum), Coleoptile (plumule sheath), Coleorhiza (radicle sheath), Epiblast. Perisperm (persistent 2n nucellus in Black Pepper, Beet). Albuminous (Castor, Maize) vs Exalbuminous (Pea, Bean) seeds."
+      },
+      "codeSnippet": "DICOT vs MONOCOT EMBRYO ANATOMY\n                    \n      DICOT EMBRYO (Capsella)                   MONOCOT EMBRYO (Poaceae)\n      ├── Embryonal Axis (Tigellum)             ├── Single Cotyledon (Scutellum)\n      ├── 2 Lateral Cotyledons                  ├── Coleoptile (Plumule Sheath)\n      ├── Epicotyl ──► Plumule                  ├── Coleorhiza (Radicle Sheath)\n      └── Hypocotyl ──► Radicle & Root Cap      └── Epiblast (Remnant 2nd Cotyledon)",
+      "content": "### 8.1 Post-Fertilization Structural Transformations\n\n```\n                         FLORAL TO SEED/FRUIT MAPPING\n                         \n   Ovary Wall               ──────────► Pericarp (Exo, Meso, Endocarp)\n   Ovule                    ──────────► Seed\n   Outer & Inner Integuments──────────► Seed Coat (Outer Testa + Inner Tegmen)\n   Nucellus                 ──────────► Degenerates OR persists as Perisperm\n   Synergids & Antipodals   ──────────► Degenerate\n```\n\n- **Perispermic Seeds**: Persistent, thin, functional remnant of the nucellus in mature seeds (e.g., *Black Pepper, Beet, Nymphaea*).\n- **Albuminous (Endospermic) Seeds**: Retains endosperm tissue at maturity (e.g., *Castor, Sunflower, Wheat, Maize, Barley*).\n- **Exalbuminous (Non-Endospermic) Seeds**: Endosperm completely consumed during embryo development (e.g., *Pea, Gram, Bean, Groundnut*)."
+    },
+    {
+      "sectionNumber": 9,
+      "id": "sec-01-09",
+      "title": "Special Reproductive Modes: Apomixis, Parthenocarpy, & Polyembryony",
+      "topic": "Agamospermy (Adventive Embryony, Apospory, Diplospory), Seedless Fruits, & Polyembryony Types",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Apomixis (Agamospermy): Asexual seed formation without meiosis or syngamy (Adventive embryony from nucellar cells in Citrus/Mango, Apospory, Diplospory). Parthenocarpy: Seedless fruit development without ovular fertilization (Banana, Grapes; induced by auxins/GAs). Polyembryony: Presence of >1 embryo per seed (Citrus, Leeuwenhoek 1719)."
+      },
+      "codeSnippet": "SPECIAL REPRODUCTIVE MODES\n                                       │\n     ┌─────────────────────────────────┼─────────────────────────────────┐\n     ▼                                 ▼                                 ▼\n   APOMIXIS                      PARTHENOCARPY                     POLYEMBRYONY\n(Agamospermy)                 (Seedless Fruit)                 (Multiple Embryos)\n├── Asexual seed formation     ├── Fruit development WITHOUT    ├── Presence of >1 embryo\n├── Mimics sexual reproduction    ovular fertilization             inside a single seed\n└── No meiosis / No syngamy    └── Banana, Grapes               └── Citrus, Mango",
+      "content": "### 9.1 Mechanisms of Apomixis & Polyembryony\n\n1. **Adventive Embryony**: Diploid nucellar or integumentary cells protrude into the embryo sac and develop directly into embryos without fertilization (e.g., *Citrus, Mango*).\n2. **Apospory**: A diploid vegetative nucellar cell forms an unreduced diploid embryo sac without meiosis.\n3. **Diplospory**: Unreduced Megaspore Mother Cell (MMC) fails to undergo meiosis and forms a diploid embryo sac directly.\n4. **Polyembryony Types** (Antonie van Leeuwenhoek, 1719):\n   - **Cleavage Polyembryony**: Splitting of the young proembryo into multiple identical embryos (*Pinus*).\n   - **Adventive Polyembryony**: Development of extra embryos from diploid maternal nucellar/integumentary tissues surrounding the embryo sac (*Citrus*)."
+    },
+    {
+      "sectionNumber": 10,
+      "id": "sec-01-10",
+      "title": "Evolutionary Significance of Fruit & Seed Dispersal Strategies",
+      "topic": "Dormancy, Perennation, Anemochory, Hydrochory, Zoochory, & Autochory",
+      "readingTimeMinutes": 12,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Seed adaptations: Dormancy & perennation. Dispersal strategies: Anemochory (wind: winged Pinus/Cinchona, pappus), Hydrochory (water: fibrous coconut mesocarp), Zoochory (animals: hooks Xanthium, fleshy fruits), Autochory (explosive turgor propulsion Impatiens)."
+      },
+      "content": "### 10.1 Evolutionary Significance of Seed Dispersal\n\n1. **Dormancy & Perennation**: Protects embryos during unfavorable environmental conditions.\n2. **Dispersal Mechanisms**:\n   - **Anemochory (Wind)**: Winged seeds (*Cinchona, Pinus*), pappus calyx (*Asteraceae*).\n   - **Hydrochory (Water)**: Fibrous mesocarp (*Coconut*).\n   - **Zoochory (Animals)**: Hooked spines (*Xanthium, Martynia*), edible fleshy pericarp.\n   - **Autochory (Explosive)**: Turgor pressure propulsion (*Impatiens, Ecballium*)."
+    },
+    {
+      "sectionNumber": 11,
+      "id": "sec-01-11",
+      "title": "Sexual Reproduction Master Glossary & High-Yield NEST Traps",
+      "topic": "45+ Core Botanical Terms & 10 High-Yield Examination Traps",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Comprehensive botanical glossary and 10 high-yield NEST traps for exam readiness."
+      },
+      "content": "### High-Yield NEST Misconceptions & Traps Table\n\n| Misconception / Trap | Biological Reality | Exam Tip / Context |\n| :--- | :--- | :--- |\n| *\"Geitonogamy is genetically identical to cross-pollination (xenogamy).\"* | Geitonogamy is **functionally cross-pollination** (uses a vector) but **genetically autogamy** (same parent genome). | Geitonogamy does not increase genetic variation. |\n| *\"Endothecium fibrous thickenings are composed of suberin.\"* | Endothecium fibrous bands are composed of **$\\alpha$-cellulose**. They are hygroscopic and drive dehiscence. | Stomium is the unthickened dehiscence site. |\n| *\"The 8-nucleate Polygonum embryo sac contains 8 distinct cells.\"* | The Polygonum-type embryo sac is **7-celled and 8-nucleate** (3 antipodals + 1 central cell + 3 egg apparatus cells). | The large central cell contains 2 polar nuclei ($n+n$). |\n| *\"Perisperm is derived from persistent endosperm tissue.\"* | **Perisperm is persistent NUCELLUS tissue** ($2n$). Endosperm is $3n$. | Found in Black Pepper, Beet, and Water Lily. |\n| *\"Apomixis involves the fusion of unreduced diploid gametes.\"* | Apomixis **ELIMINATES syngamy and meiosis entirely**. Seeds form without fertilization. | Apomixis is asexual reproduction mimicking seed set. |\n| *\"The coleoptile covers the emerging radicle in monocot seeds.\"* | **Coleoptile covers the Plumule**; **Coleorhiza covers the Radicle**. | Mnemonic: Coleop**T**ile = Top/Plumule; Coleo**R**hiza = Root/Radicle. |\n| *\"The Filiform apparatus is located on the egg cell to absorb nutrients.\"* | The Filiform apparatus is located on the **SYNERGIDS**. It secretes chemical signals to guide the pollen tube. | Synergids degenerate after pollen tube entry. |\n| *\"Apospory involves the MMC undergoing meiosis to form haploid spores.\"* | In **Apospory**, an unreduced **diploid nucellar cell** forms an embryo sac WITHOUT meiosis. | Diplospory involves the MMC directly. |\n| *\"All monocot seeds are albuminous (endospermic).\"* | Most monocot seeds are endospermic, but **Orchids are exalbuminous monocot seeds**. | Castor is an endospermic *dicot* exception. |\n| *\"Double fertilization produces a diploid endosperm in angiosperms.\"* | Angiosperm endosperm is **TRIPLOID ($3n$)**, formed by triple fusion ($1\\text{ male gamete } n + 2\\text{ polar nuclei } 2n$). | Gymnosperm endosperm is haploid ($n$). |\n\n---\n\n### Master Glossary for Plant Reproductive Biology\n\n- **Adventive Embryony**: Development of an embryo directly from diploid maternal nucellar or integumentary cells without fertilization.\n- **Agamospermy**: Asexual seed formation bypassing meiosis and syngamy (Apomixis).\n- **Albuminous Seed**: A mature seed that retains endosperm tissue as a food reserve (e.g., Castor, Maize).\n- **Aleurone Layer**: The protein-rich outer cell layer of cereal endosperm that synthesizes hydrolytic enzymes in response to GAs.\n- **Allogamy (Xenogamy)**: Transfer of pollen to the stigma of a genetically different plant of the same species.\n- **Amphitropous Ovule**: An ovule where both the ovule body and the embryo sac are curved into a horseshoe shape.\n- **Anatropous Ovule**: A completely inverted ovule ($180^\\circ$) where the micropyle lies close to the hilum ($82\\%$ of angiosperms).\n- **Anemophily**: Wind pollination characterized by small, non-colored flowers and light, dry pollen.\n- **Anther**: The terminal fertile, pollen-bearing portion of a stamen.\n- **Antipodal Cells**: Three haploid cells located at the chalazal pole of an angiosperm embryo sac.\n- **Apomixis**: Asexual seed formation without meiosis or syngamy.\n- **Apospory**: Formation of an unreduced diploid embryo sac directly from a somatic nucellar cell.\n- **Autogamy**: Transfer of pollen from the anther to the stigma of the same flower.\n- **Callase**: A $\\beta$-1,3-glucanase enzyme secreted by the tapetum to dissolve callose walls around microspore tetrads.\n- **Campylotropous Ovule**: An ovule with a body curved at right angles to the funicle, though the embryo sac remains straight.\n- **Chalaza**: The basal region of an ovule where integuments and nucellus merge.\n- **Chasmogamous Flower**: An open flower with exposed stamens and stigmas allowing cross-pollination.\n- **Chiropterophily**: Pollination mediated by bats (e.g., *Kigelia*).\n- **Cleistogamous Flower**: A permanently closed flower that enforces self-pollination.\n- **Coleoptile**: A protective conical sheath covering the emerging plumule in monocot embryos.\n- **Coleorhiza**: A protective sheath enclosing the emerging radicle in monocot embryos.\n- **Dicliny**: Unisexuality of flowers, enforcing outbreeding.\n- **Dichogamy**: Temporal separation of anther dehiscence and stigma receptivity (Protandry or Protogyny).\n- **Diplospory**: Formation of an unreduced diploid embryo sac directly from an unreduced megaspore mother cell.\n- **Double Fertilization**: The unique angiosperm process comprising Syngamy ($2n$) and Triple Fusion ($3n$).\n- **Egg Apparatus**: The micropylar cluster of three cells in an embryo sac comprising one Egg Cell and two Synergids.\n- **Endothecium**: The sub-epidermal anther wall layer possessing $\\alpha$-cellulose fibrous bands responsible for dehiscence.\n- **Entomophily**: Pollination mediated by insects (e.g., Bees, Moths).\n- **Epiblast**: A small flap-like structure in grass embryos representing the vestigial second cotyledon.\n- **Exalbuminous Seed**: A seed in which endosperm is completely consumed during embryo development (e.g., Pea, Bean).\n- **Filiform Apparatus**: Microscopic finger-like wall invaginations at the synergid tip that guide pollen tube entry.\n- **Florigen**: The systemic protein signal (FT protein) synthesized in leaves that translocates to the shoot apex to induce flowering.\n- **Geitonogamy**: Pollination between different flowers on the same plant; functionally cross, genetically self.\n- **Germ Pore**: Apertures in the pollen exine where sporopollenin is absent, allowing pollen tube emergence.\n- **Herkogamy**: Structural or physical barriers preventing anthers from contacting the stigma of the same flower.\n- **Heterostyly**: Variation in style and stamen lengths among flowers of the same species to prevent selfing.\n- **Hilum**: The scar on a seed coat marking the point of attachment to the funicle.\n- **Hydrophily**: Pollination mediated by water (Epihydrophily or Hypohydrophily).\n- **Microsporogenesis**: The process of formation of haploid microspores from a diploid microspore mother cell via meiosis.\n- **Nucellus**: The central parenchymatous tissue of an ovule enclosing the embryo sac.\n- **Ornithophily**: Pollination mediated by birds (e.g., Sunbirds, Hummingbirds).\n- **Outbreeding Devices**: Floral adaptations that prevent self-pollination and promote cross-pollination.\n- **Parthenocarpy**: The development of a fruit without ovular fertilization, yielding seedless fruit.\n- **Pollen-kit**: A sticky, lipid- and carotenoid-rich yellow coating on the surface of entomophilous pollen grains.\n- **Polyembryony**: The occurrence of more than one embryo within a single seed.\n- **Porogamy**: Pollen tube entry into the ovule through the micropyle.\n- **Primary Endosperm Nucleus (PEN)**: The triploid ($3n$) nucleus formed by triple fusion in the central cell.\n- **Scutellum**: The single, shield-shaped cotyledon of a monocot grass embryo.\n- **Self-Incompatibility (SI)**: A genetic mechanism (S-locus) preventing self-pollen germination or tube growth.\n- **Sporopollenin**: An extraordinarily resistant carotenoid biopolymer composing the outer exine layer of pollen grains.\n- **Synergid**: One of the two haploid helper cells flanking the egg cell in an embryo sac.\n- **Syngamy**: The fusion of a male gamete ($n$) with an egg cell ($n$) to form a diploid zygote ($2n$).\n- **Tapetum**: The innermost nutritive layer of the sporangial wall supplying nutrients to developing microspores.\n- **Triple Fusion**: The fusion of the second male gamete ($n$) with two polar nuclei ($2n$) to form the PEN ($3n$).\n- **Ubisch Bodies**: Tapetal-derived granules coated in sporopollenin that contribute to exine formation."
+    }
+  ],
+  "chapterCommonMistakes": [
+    "Geitonogamy is genetically cross-pollination (Reality: Geitonogamy is functionally cross-pollination using a vector, but genetically autogamous as it occurs on the same parent plant).",
+    "Endothecium fibrous thickenings are made of suberin (Reality: They are composed of hygroscopic alpha-cellulose).",
+    "Polygonum embryo sac has 8 distinct cells (Reality: It is 7-celled and 8-nucleate, with 2 polar nuclei in a single central cell).",
+    "Perisperm is persistent endosperm tissue (Reality: Perisperm is persistent diploid nucellus tissue, e.g., in Black Pepper and Beet).",
+    "Apomixis involves fusion of diploid gametes (Reality: Apomixis eliminates meiosis and syngamy completely; seeds form asexually).",
+    "Coleoptile covers the radicle in monocot seeds (Reality: Coleoptile covers the plumule; Coleorhiza covers the radicle).",
+    "Filiform apparatus is on the egg cell (Reality: Filiform apparatus is on the Synergids and secretes chemical attractants to guide pollen tubes).",
+    "Apospory involves MMC undergoing meiosis (Reality: In apospory, a somatic nucellar cell forms a diploid embryo sac directly without meiosis).",
+    "All monocots are endospermic (Reality: Orchids are non-endospermic monocots; Castor is an endospermic dicot).",
+    "Angiosperm endosperm is diploid (Reality: Angiosperm endosperm is triploid 3n via triple fusion; gymnosperm endosperm is haploid n)."
+  ],
+  "questions": [
+    {
+      "id": "q-bio-c01-001",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Tapetum Functions & Ubisch Bodies",
+      "difficulty": "Easy",
+      "questionText": "An electron microscopic investigation of an anther wall cross-section demonstrates four distinct concentric tissue layers. Which layer contains cells that become multinucleate or polyploid via endomitosis, secrete callase enzyme to cleave microspore tetrads, and synthesize Ubisch bodies?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Epidermis", "isCorrect": false },
+        { "id": "b", "text": "Endothecium", "isCorrect": false },
+        { "id": "c", "text": "Middle Layers", "isCorrect": false },
+        { "id": "d", "text": "Tapetum", "isCorrect": true }
+      ],
+      "correctAnswer": "d",
+      "solutionExplanation": "The Tapetum is the innermost nutritive anther wall layer. Its cells feature dense cytoplasm, become polyploid via endomitosis, secrete callase (β-1,3-glucanase) to degrade callose walls surrounding tetrads, and produce Ubisch bodies coated with sporopollenin.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c01-002",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Monosporic Polygonum Megasporogenesis",
+      "difficulty": "Medium",
+      "questionText": "During megasporogenesis in a monosporic Polygonum-type ovule, a diploid Megaspore Mother Cell (2n) undergoes meiosis to yield a linear tetrad of 4 haploid megaspores. Which megaspore typically survives, and how many free-nuclear mitotic divisions does it undergo to form the mature 7-celled, 8-nucleate embryo sac?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Micropylar megaspore survives; undergoes 2 mitotic divisions", "isCorrect": false },
+        { "id": "b", "text": "Chalazal megaspore survives; undergoes 3 free-nuclear mitotic divisions", "isCorrect": true },
+        { "id": "c", "text": "Chalazal megaspore survives; undergoes 4 meiotic divisions", "isCorrect": false },
+        { "id": "d", "text": "All 4 megaspores survive and fuse into a central cell", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "In the monosporic Polygonum type (81% of angiosperms), the chalazal functional megaspore survives while the 3 micropylar megaspores degenerate. The functional megaspore undergoes 3 sequential free-nuclear mitotic divisions (1 → 2 → 4 → 8 nuclei) to form the 7-celled, 8-nucleate embryo sac.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c01-003",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Gametophytic Self-Incompatibility (GSI)",
+      "difficulty": "Hard",
+      "questionText": "A geneticist crosses two heterozygous sweet pea plants carrying different alleles at the self-incompatibility locus (S-locus). In Gametophytic Self-Incompatibility (GSI), if a pistil with genotype S₁S₂ is pollinated by pollen grains originating from a parent sporophyte with genotype S₂S₃, which pollen grains will successfully germinate and complete pollen tube growth down the style?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Both S₂ and S₃ pollen grains will germinate.", "isCorrect": false },
+        { "id": "b", "text": "Neither S₂ nor S₃ pollen will germinate because the parent is S₂S₃.", "isCorrect": false },
+        { "id": "c", "text": "Only S₃ pollen grains will complete tube growth; S₂ pollen tubes will be inhibited in the style.", "isCorrect": true },
+        { "id": "d", "text": "Only S₁ pollen grains will germinate.", "isCorrect": false }
+      ],
+      "correctAnswer": "c",
+      "solutionExplanation": "In Gametophytic Self-Incompatibility (GSI), the SI phenotype of the pollen is determined strictly by its own haploid S-allele. The pollen grains produced by an S₂S₃ plant are individually either S₂ or S₃. On an S₁S₂ pistil, S₂ pollen matches the S₂ allele of the style and is inhibited inside the style tissue. The S₃ pollen does not match either allele of the S₁S₂ style and successfully germinates and fertilizes the ovules.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c01-004",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Ploidy in Polyploid Double Fertilization",
+      "difficulty": "Hard",
+      "questionText": "Double fertilization is a diagnostic hallmark of Angiosperms. If a tetraploid (4n) female angiosperm plant is pollinated by a hexaploid (6n) male plant, what will be the ploidy levels of the resulting Zygote and Primary Endosperm Nucleus (PEN), respectively?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Zygote (5n); PEN (7n)", "isCorrect": true },
+        { "id": "b", "text": "Zygote (5n); PEN (8n)", "isCorrect": false },
+        { "id": "c", "text": "Zygote (10n); PEN (12n)", "isCorrect": false },
+        { "id": "d", "text": "Zygote (4n); PEN (6n)", "isCorrect": false }
+      ],
+      "correctAnswer": "a",
+      "solutionExplanation": "1. Female plant is 4n => Egg (n) is 2n; Polar nuclei are 2n + 2n = 4n.\n2. Male plant is 6n => Male gametes are 3n.\n3. Syngamy (Zygote): Egg (2n) + Male Gamete (3n) = 5n Zygote.\n4. Triple Fusion (PEN): Polar Nuclei (4n) + Male Gamete (3n) = 7n PEN.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c01-005",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Citrus Adventive Embryony Polyembryony",
+      "difficulty": "Medium",
+      "questionText": "Embryological dissection of a mature Citrus seed reveals the presence of 6 distinct embryos inside a single seed coat. Microscopic inspection shows that 5 of these embryos developed from diploid nucellar cells that protruded into the embryo sac without fertilization. What special reproductive mode does this demonstrate?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Parthenocarpy", "isCorrect": false },
+        { "id": "b", "text": "Adventive Embryony (Nucellar Polyembryony)", "isCorrect": true },
+        { "id": "c", "text": "Gametophytic Diplospory", "isCorrect": false },
+        { "id": "d", "text": "Cleistogamous Autogamy", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "The formation of multiple embryos inside a single seed where diploid maternal nucellar/integumentary cells protrude into the embryo sac and develop directly into embryos without syngamy is Adventive Embryony (a form of Nucellar Polyembryony).",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c01-006",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Sporopollenin & Germ Pores",
+      "difficulty": "Easy",
+      "questionText": "What structural feature of the pollen grain exine provides extreme resistance against chemical degradation, high temperatures, strong acids, and biological enzymatic digestion, and where is it specifically absent?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Pectocellulose; absent at the intine", "isCorrect": false },
+        { "id": "b", "text": "Sporopollenin; absent at Germ Pores", "isCorrect": true },
+        { "id": "c", "text": "Callose; absent at Filiform apparatus", "isCorrect": false },
+        { "id": "d", "text": "Pollen-kit; absent at the stomium", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "The outer exine layer is composed of Sporopollenin, an extraordinarily resistant carotenoid biopolymer. Sporopollenin is interrupted at specific sites called Germ Pores, where the inner cellulosic intine can emerge as a pollen tube during germination.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c01-007",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Filiform Apparatus LURE Secretion",
+      "difficulty": "Easy",
+      "questionText": "What is the functional role of the Filiform Apparatus located at the micropylar tip of synergids in an embryo sac?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "It secretes pectinase to dissolve the nucellus.", "isCorrect": false },
+        { "id": "b", "text": "It features finger-like wall invaginations that secrete chemical attractants to guide pollen tube entry into the synergid.", "isCorrect": true },
+        { "id": "c", "text": "It acts as a mechanical barrier preventing entry of more than one pollen tube.", "isCorrect": false },
+        { "id": "d", "text": "It synthesizes triploid endosperm tissue prior to fertilization.", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "The Filiform Apparatus consists of prominent, finger-like micro-invaginations of the cell wall at the micropylar tip of Synergids. It functions to secrete chemotropic attractants (LURE peptides) that guide the pollen tube directly into one of the synergids.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c01-008",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Anatropous Inverted Ovule",
+      "difficulty": "Easy",
+      "questionText": "In which type of ovule does the body of the ovule undergo a complete 180° inversion during development such that the micropyle comes to lie in close proximity to the hilum?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Orthotropous Ovule", "isCorrect": false },
+        { "id": "b", "text": "Anatropous Ovule", "isCorrect": true },
+        { "id": "c", "text": "Amphitropous Ovule", "isCorrect": false },
+        { "id": "d", "text": "Circinotropous Ovule", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "In an Anatropous Ovule (the most common angiosperm type, occurring in ≈ 82% of families), the ovule body undergoes a 180° inversion, positioning the micropyle adjacent to the funicle/hilum.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c01-009",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Cleistogamous & Chasmogamous Flowers",
+      "difficulty": "Easy",
+      "questionText": "Which of the following plants produces both Chasmogamous (open) and Cleistogamous (permanently closed) flowers on the same individual plant to guarantee seed set?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Zea mays", "isCorrect": false },
+        { "id": "b", "text": "Commelina benghalensis", "isCorrect": true },
+        { "id": "c", "text": "Vallisneria spiralis", "isCorrect": false },
+        { "id": "d", "text": "Papaya", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Plants such as Commelina benghalensis, Viola (common pansy), and Oxalis produce two types of flowers: aerial Chasmogamous flowers (open for cross-pollination) and underground Cleistogamous flowers (permanently closed, guaranteeing autogamous seed set).",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c01-010",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Perisperm Nucellus Remnant",
+      "difficulty": "Easy",
+      "questionText": "What is the persistent, functional remnant of the diploid nucellus tissue found in mature seeds of Black Pepper (Piper nigrum) and Beet called?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Endosperm", "isCorrect": false },
+        { "id": "b", "text": "Perisperm", "isCorrect": true },
+        { "id": "c", "text": "Scutellum", "isCorrect": false },
+        { "id": "d", "text": "Pericarp", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "In some seeds (Black Pepper, Beet, Nymphaea), the diploid nucellus tissue is not completely consumed during embryo sac and endosperm development. The persistent, thin, nutritional remnant of the nucellus in the mature seed is termed the Perisperm (2n).",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c01-011",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Polygonum Embryo Sac Anatomy",
+      "difficulty": "Medium",
+      "questionText": "Which of the following statements correctly characterize the 7-celled, 8-nucleate Monosporic Polygonum-type Embryo Sac? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "The Egg Apparatus at the micropylar pole consists of one Egg Cell and two Synergids.", "isCorrect": true },
+        { "id": "b", "text": "The central cell contains two haploid Polar Nuclei (n+n).", "isCorrect": true },
+        { "id": "c", "text": "Three Antipodal cells are situated at the chalazal pole.", "isCorrect": true },
+        { "id": "d", "text": "Synergids possess a filiform apparatus that guides pollen tube growth.", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "solutionExplanation": "All four statements accurately describe the structural architecture of the Polygonum-type female gametophyte.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c01-012",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Outbreeding Devices Mechanisms",
+      "difficulty": "Medium",
+      "questionText": "Select the valid outbreeding devices (contrivances for cross-pollination) that prevent self-pollination in hermaphroditic flowering plants: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Protandry (anthers mature before stigma)", "isCorrect": true },
+        { "id": "b", "text": "Herkogamy (physical spatial separation of anther and stigma)", "isCorrect": true },
+        { "id": "c", "text": "Self-Incompatibility (S-locus genetic inhibition)", "isCorrect": true },
+        { "id": "d", "text": "Cleistogamy (permanently closed flowers)", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Dichogamy (protandry/protogyny), Herkogamy, Heterostyly, and Self-Incompatibility promote cross-pollination. D is incorrect: Cleistogamy enforces strictly 100% self-pollination (autogamy), and is the opposite of an outbreeding device.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c01-013",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Anemophilous Floral Adaptations",
+      "difficulty": "Easy",
+      "questionText": "Which of the following features correctly distinguish Anemophilous (wind-pollinated) flowers? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Production of large quantities of light, dry, non-sticky pollen grains.", "isCorrect": true },
+        { "id": "b", "text": "Well-exposed stamens and large, feathery stigmas to catch airborne pollen.", "isCorrect": true },
+        { "id": "c", "text": "Ovaries containing a single or few ovules.", "isCorrect": true },
+        { "id": "d", "text": "Flowers are large, brightly colored, and secrete sugary nectar.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Wind-pollinated plants produce abundant, non-sticky pollen, feathery stigmas, and simple non-scented flowers with single ovules (e.g., Grasses). D is incorrect: Bright colors and nectar are adaptations for Entomophily (insect pollination).",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c01-014",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Endosperm Development Dynamics",
+      "difficulty": "Medium",
+      "questionText": "Select the correct options regarding Endosperm development in Angiosperms: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Endosperm development precedes embryo development to ensure a nutritional reserve.", "isCorrect": true },
+        { "id": "b", "text": "Primary Endosperm Nucleus (PEN) is formed by triple fusion and is triploid (3n).", "isCorrect": true },
+        { "id": "c", "text": "In free-nuclear endosperm (e.g., Coconut water), PEN undergoes repeated nuclear divisions without cytokinesis.", "isCorrect": true },
+        { "id": "d", "text": "Castor seeds are non-endospermic (exalbuminous) because endosperm is completely consumed during embryogeny.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Endosperm precedes embryo, PEN is 3n, and coconut water is free-nuclear endosperm. D is incorrect: Castor is an Endospermic (Albuminous) dicot seed that retains endosperm at maturity. (Peas and beans are exalbuminous).",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c01-015",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Post-Fertilization Developmental Mapping",
+      "difficulty": "Easy",
+      "questionText": "Which of the following structural parts correctly match their post-fertilization developmental fates? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Ovule → Seed", "isCorrect": true },
+        { "id": "b", "text": "Ovary Wall → Pericarp", "isCorrect": true },
+        { "id": "c", "text": "Outer Integument → Testa", "isCorrect": true },
+        { "id": "d", "text": "Nucellus remnant → Perisperm", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "solutionExplanation": "All options represent correct post-fertilization tissue transformations in flowering plants.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c01-016",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Apomixis and Parthenocarpy Concepts",
+      "difficulty": "Medium",
+      "questionText": "Select the correct statements regarding Apomixis and Parthenocarpy: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Apomixis is the formation of seeds without fertilization (agamospermy).", "isCorrect": true },
+        { "id": "b", "text": "Parthenocarpy is the development of fruits without fertilization, yielding seedless fruits.", "isCorrect": true },
+        { "id": "c", "text": "Apomixis is a form of asexual reproduction that mimics sexual reproduction.", "isCorrect": true },
+        { "id": "d", "text": "Parthenocarpic fruits can be induced artificially by applying Auxins and Gibberellins.", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "solutionExplanation": "All four options represent accurate botanical definitions and applications of apomixis and parthenocarpy.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c01-017",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Monocotyledonous Grass Embryo",
+      "difficulty": "Medium",
+      "questionText": "Which of the following features characterize the Monocotyledonous Grass Embryo (Poaceae)? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "The single, shield-shaped cotyledon is termed the Scutellum.", "isCorrect": true },
+        { "id": "b", "text": "The protective sheath enclosing the emerging plumule is the Coleoptile.", "isCorrect": true },
+        { "id": "c", "text": "The protective sheath enclosing the radicle and root cap is the Coleorhiza.", "isCorrect": true },
+        { "id": "d", "text": "Monocot embryos possess two large lateral cotyledons.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Monocot grass embryos feature a Scutellum, Coleoptile, and Coleorhiza. D is incorrect: Monocot embryos possess only ONE cotyledon (Scutellum). Two cotyledons characterize dicot embryos.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c01-018",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Mechanisms Preventing Geitonogamy",
+      "difficulty": "Hard",
+      "questionText": "Which mechanisms prevent Geitonogamy in flowering plants? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Dioecious plant status (male and female flowers on separate plants, e.g., Papaya)", "isCorrect": true },
+        { "id": "b", "text": "Monoecious plant status (male and female flowers on same plant, e.g., Castor)", "isCorrect": false },
+        { "id": "c", "text": "Self-Incompatibility", "isCorrect": true },
+        { "id": "d", "text": "Cleistogamy", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "c"
+      ],
+      "solutionExplanation": "A and C are correct: Dioecism (separate male/female plants) and Self-Incompatibility prevent geitonogamy. B is incorrect: Monoecious plants (Castor, Maize) prevent autogamy, but DO NOT prevent geitonogamy (transfer between different flowers on the same plant). D is incorrect: Cleistogamy enforces self-pollination.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c01-019",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Pollen Tube Entry Pathways",
+      "difficulty": "Medium",
+      "questionText": "Select the valid statements regarding Pollen Tube entry into the ovule: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Porogamy is the entry of the pollen tube through the Micropyle (most common).", "isCorrect": true },
+        { "id": "b", "text": "Chalazogamy is the entry of the pollen tube through the Chalaza (Casuarina).", "isCorrect": true },
+        { "id": "c", "text": "Mesogamy is the entry of the pollen tube through the Integuments or Funicle (Cucurbita).", "isCorrect": true },
+        { "id": "d", "text": "The pollen tube enters the embryo sac directly by penetrating the antipodal cells.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Porogamy (micropyle), Chalazogamy (chalaza), and Mesogamy (integument) are the three entry routes. D is incorrect: The pollen tube enters the embryo sac specifically through one of the Synergids via the filiform apparatus at the micropylar pole, NOT through antipodal cells.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c01-020",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "chapterNumber": 1,
+      "chapterSlug": "sexual-reproduction-in-flowering-plants",
+      "topic": "Tapetum Functional Profile",
+      "difficulty": "Easy",
+      "questionText": "Which of the following statements regarding Tapetum functions are TRUE? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "It provides nourishment to developing microspores.", "isCorrect": true },
+        { "id": "b", "text": "It secretes callase enzyme to degrade the callose wall of microspore tetrads.", "isCorrect": true },
+        { "id": "c", "text": "It produces Ubisch bodies coated with sporopollenin.", "isCorrect": true },
+        { "id": "d", "text": "It forms the persistent hard seed coat (testa) of mature seeds.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: The tapetum is nutritive, secretes callase enzyme, and produces Ubisch bodies for exine synthesis. D is incorrect: The seed coat (testa) is formed from the outer integument of the ovule, NOT the anther tapetum.",
+      "marks": 4,
+      "negativeMarks": 0
+    }
+  ]
+}

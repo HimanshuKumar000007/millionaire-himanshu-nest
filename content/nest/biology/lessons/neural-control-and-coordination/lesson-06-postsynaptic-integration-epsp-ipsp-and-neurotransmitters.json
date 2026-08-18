@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-19-06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Neural Control and Coordination",
+  "chapterNumber": 19,
+  "chapterSlug": "neural-control-and-coordination",
+  "lessonNumber": 6,
+  "title": "Postsynaptic Integration (EPSP vs. IPSP) & Neurotransmitter Chemistry",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Hard",
+  "prerequisites": ["Ligand-gated ion channels", "Synaptic receptors"],
+  "learningObjectives": [
+    "Differentiate EPSPs and IPSPs by ion channel kinetics and membrane potential shifts",
+    "Explain Temporal and Spatial Summation at the axon hillock",
+    "Classify major neurotransmitters (ACh, Glutamate, GABA, Glycine, Dopamine, Noradrenaline) and their clinical relevance"
+  ],
+  "content": "### 6.1 Postsynaptic Potential Types\n\n```\n                      POSTSYNAPTIC POTENTIALS (PSPs)\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n  EXCITATORY POSTSYNAPTIC POTENTIAL (EPSP)                INHIBITORY POSTSYNAPTIC POTENTIAL (IPSP)\n  ├── Local Depolarization (Vm moves toward threshold)    ├── Local Hyperpolarization (Vm moves away)\n  ├── Opens ligand-gated Na⁺ or Ca²⁺ channels             ├── Opens ligand-gated Cl⁻ or K⁺ channels\n  └── Examples: Glutamate, Acetylcholine                  └── Examples: GABA, Glycine\n```\n\n### 6.2 Major Neurotransmitters Reference Matrix\n\n| Neurotransmitter | Primary Chemical Class | Major Receptor Subtypes | Primary Action | Physiological Role / Clinical Context |\n| :--- | :--- | :--- | :--- | :--- |\n| **Acetylcholine (ACh)** | Choline Ester | Nicotinic (Ionotropic $\\text{Na}^+$ channel); Muscarinic (Metabotropic GPCR) | Excitatory (NMJ/CNS); Inhibitory (Heart via $\\text{M}_2$) | Primary PNS/NMJ transmitter; degraded by **Acetylcholinesterase (AChE)** |\n| **Glutamate** | Amino Acid | AMPA, NMDA (Ionotropic $\\text{Ca}^{2+}/\\text{Na}^+$); Kainate | **Primary Excitatory Transmitter in CNS** | Major mediator of synaptic plasticity, long-term potentiation (LTP), & excitotoxicity |\n| **GABA ($\\gamma$-Aminobutyric acid)** | Amino Acid Derivative | $\\text{GABA}_A$ (Ionotropic $\\text{Cl}^-$ channel); $\\text{GABA}_B$ (Metabotropic $\\text{K}^+$) | **Primary Inhibitory Transmitter in Brain** | Targets for sedatives (*Benzodiazepines, Barbiturates*); prevents seizures |\n| **Glycine** | Amino Acid | Glycine Receptor (Ionotropic $\\text{Cl}^-$ channel) | **Primary Inhibitory Transmitter in Spinal Cord** | Blocked by **Strychnine**, causing lethal hyper-reflexive convulsions |\n| **Dopamine** | Catecholamine (Tyrosine) | $\\text{D}_1, \\text{D}_2, \\text{D}_3, \\text{D}_4, \\text{D}_5$ (GPCRs) | Excitatory or Inhibitory depending on receptor | Motor control & reward; loss of nigrostriatal dopamine causes **Parkinson's Disease** |\n| **Norepinephrine / Noradrenaline** | Catecholamine (Tyrosine) | $\\alpha_1, \\alpha_2, \\beta_1, \\beta_2, \\beta_3$ Adrenergic Receptors | Excitatory or Inhibitory | Primary post-ganglionic **Sympathetic transmitter**; regulates arousal and alertness |",
+  "conceptBreakdown": [
+    {
+      "heading": "Spatial vs Temporal Summation",
+      "explanation": "Spatial summation occurs when multiple distinct presynaptic terminals fire simultaneously on different dendritic branches. Temporal summation occurs when a single presynaptic terminal fires high-frequency successive impulses that add together before decaying."
+    },
+    {
+      "heading": "Excitotoxicity via NMDA Receptors",
+      "explanation": "Excessive glutamate release during cerebral ischemia/stroke over-activates NMDA receptors, causing massive intracellular Ca2+ overload that activates proteases, lipases, and apoptotic cascades."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u9-c10-l10",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit IX — Biotechnology",
+  "unitNumber": 9,
+  "chapter": "Biotechnology and its Applications",
+  "chapterNumber": 10,
+  "chapterSlug": "biotechnology-and-its-applications",
+  "slug": "lesson-10-transgenic-animals-rosie-cow-and-emphysema",
+  "title": "Transgenic Animals: Rosie Cow, Emphysema, & Disease Models",
+  "topic": "Transgenic Mice Models, Rosie the Cow (alpha-Lactalbumin), alpha-1-Antitrypsin, Vaccine Safety, & Toxicity Testing",
+  "order": 10,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Transgenic animals carry integrated foreign genes (transgenes). >95% of transgenic animals are Mice. Key applications: (1) Physiological studies (gene regulation, IGF-1); (2) Human disease models (Cancer, Cystic Fibrosis, Alzheimer's); (3) Biological products (Rosie the cow [1997] producing 2.4 g/L human alpha-lactalbumin enriched milk; sheep/goats producing alpha-1-antitrypsin to treat emphysema); (4) Vaccine safety (testing polio vaccines on transgenic mice); (5) Chemical toxicity testing.",
+  "summary": "Transgenic animals carry integrated foreign genes (transgenes). >95% of transgenic animals are Mice. Key applications: (1) Physiological studies (gene regulation, IGF-1); (2) Human disease models (Cancer, Cystic Fibrosis, Alzheimer's); (3) Biological products (Rosie the cow [1997] producing 2.4 g/L human alpha-lactalbumin enriched milk; sheep/goats producing alpha-1-antitrypsin to treat emphysema); (4) Vaccine safety (testing polio vaccines on transgenic mice); (5) Chemical toxicity testing.",
+  "conceptBreakdown": [
+    {
+      "heading": "Transgenic Animal Applications & Milestones",
+      "title": "Transgenic Animal Applications & Milestones",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Transgenic animals carry engineered foreign genes. They serve as human disease models, test vaccine safety (polio testing in mice), and act as bioreactors producing human therapeutic proteins: alpha-lactalbumin in Rosie cow milk and alpha-1-antitrypsin for hereditary emphysema."
+      },
+      "codeSnippet": "TRANSGENIC ANIMAL APPLICATIONS\n                                       │\n     ┌──────────────────┬──────────────┴──────────────┬──────────────────┐\n     ▼                  ▼                             ▼                  ▼\nPHYSIOLOGICAL STUDIES   DISEASE MODELS              BIOLOGICAL PRODUCTS  VACCINE SAFETY\nInvestigating gene      Animal models for Human     ├── Rosie Cow        ├── Testing Polio\nregulation & growth     diseases (Cancer,           │   (α-lactalbumin)      vaccine safety\nfactors (IGF-1).        Alzheimer's, Cystic Fib.)   └── α₁-Antitrypsin       on transgenic\n                                                        (Treats Emphysema)   mice first",
+      "content": "### 10.1 Definition & Species Spectrum\n- **Transgenic Animal**: An animal whose genome has been deliberately altered by the stable micro-injection or viral insertion of a foreign gene (**Transgene**).\n- Over **$95\\%$** of all existing transgenic animals in scientific research are **Mice** (*Mus musculus*).\n\n### 10.2 Five Major Biomedical Utilities of Transgenic Animals\n\n1. **Normal Physiology & Development Studies**:\n   - Enables detailed investigation of complex gene regulation and its effect on normal bodily growth (e.g., studying the biological effects of **Insulin-Like Growth Factor - IGF-1** by inserting its gene into mice).\n\n2. **Animal Models for Human Diseases**:\n   - Transgenic mice are engineered with specific human disease-causing mutations to investigate pathological mechanisms and test experimental drug therapies for **Cancer, Cystic Fibrosis, Rheumatoid Arthritis, Alzheimer's Disease, and Huntington's Chorea**.\n\n3. **Biological Products (Molecular Pharming / Animal Bioreactors)**:\n   - Human genes encoding valuable therapeutic proteins are expressed under mammary gland-specific promoters (e.g., $\\beta$-lactoglobulin promoter) so that active proteins are secreted directly into milk:\n     - **Rosie the Transgenic Cow (1997)**: Engineered to express the human gene for **$\\alpha$-Lactalbumin**. Rosie produced milk containing **$2.4\\text{ grams/Liter}$** of human protein, creating a nutritionally balanced milk formula for human infants far superior to natural bovine milk.\n     - **$\\alpha_1$-Antitrypsin ($\\alpha_1\\text{-AT}$)**: Transgenic sheep and goats express human $\\alpha_1\\text{-AT}$ in milk for the clinical treatment of hereditary **Emphysema** (and similar transgenic lines for *Phenylketonuria - PKU*).\n\n4. **Vaccine Safety Testing**:\n   - Transgenic mice expressing human viral receptors are used to test the safety, neurovirulence, and batch consistency of **Polio Vaccines** before conducting clinical trials on monkeys and humans.\n\n5. **Chemical Safety & Toxicity Testing**:\n   - Transgenic animals carrying genes that render them hypersensitive to toxic carcinogens are exposed to chemicals, yielding rapid toxicology data in significantly less time than conventional non-transgenic animal assays."
+    },
+    {
+      "heading": "Pronuclear Microinjection Protocol",
+      "title": "Pronuclear Microinjection Protocol",
+      "type": "paragraph",
+      "content": "Transgenic mice are routinely generated by micro-injecting purified linear transgene DNA directly into the larger male pronucleus of a fertilized zygote, followed by implantation into the oviduct of a pseudopregnant surrogate female."
+    },
+    {
+      "heading": "Xenotransplantation and Knockout Pigs",
+      "title": "Xenotransplantation and Knockout Pigs",
+      "type": "paragraph",
+      "content": "Pigs engineered with knockouts of alpha-1,3-galactosyltransferase (GGTA1) and human complement regulatory transgenes (CD46, CD55) eliminate hyperacute organ rejection in cardiac and renal xenotransplantation."
+    }
+  ]
+}

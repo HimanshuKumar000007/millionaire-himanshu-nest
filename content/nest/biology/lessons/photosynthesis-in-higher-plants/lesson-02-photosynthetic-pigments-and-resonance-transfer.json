@@ -1,0 +1,57 @@
+{
+  "id": "bio-xi-u4-c11-l02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Photosynthesis in Higher Plants",
+  "chapterNumber": 11,
+  "chapterSlug": "photosynthesis-in-higher-plants",
+  "slug": "lesson-02-photosynthetic-pigments-and-resonance-transfer",
+  "title": "Photosynthetic Pigments, Spectra, & Resonance Energy Transfer",
+  "topic": "Porphyrin Head vs Phytol Tail, Chl a/b Chemistry, Carotenoids, & FRET",
+  "topics": [
+    "Photosynthetic Pigment Classes (Chlorophylls, Carotenoids, Phycobilins)",
+    "Chlorophyll Molecular Anatomy (Hydrophilic Porphyrin Mg-Head & Hydrophobic Phytol Tail)",
+    "Chlorophyll a ($\\text{C}_{55}\\text{H}_{72}\\text{O}_5\\text{N}_4\\text{Mg}$, Methyl $-\\text{CH}_3$) vs Chlorophyll b ($\\text{C}_{55}\\text{H}_{70}\\text{O}_6\\text{N}_4\\text{Mg}$, Formyl $-\\text{CHO}$)",
+    "Absorption Spectrum vs Action Spectrum Peak Overlaps in Blue & Red PAR",
+    "Carotenoid Photoprotection against Photobleaching / Singlet Oxygen",
+    "Förster Resonance Energy Transfer (FRET) to Reaction Centers (P680 & P700)"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Chlorophyll consists of a hydrophilic magnesium-tetrapyrrole porphyrin head and a hydrophobic 20-carbon phytol tail. Chl a (essential pigment, bright blue-green) possesses a -CH3 group at C-3; Chl b (accessory, yellow-green) possesses a -CHO group. Both absorption and action spectra peak in blue (430–470 nm) and red (650–680 nm) wavebands. Accessory carotenoids protect Chl a from photo-oxidation. Antenna pigments channel photons radiationlessly to reaction centers (P680 in PS II, P700 in PS I) via Förster Resonance Energy Transfer (FRET).",
+  "summary": "Chlorophyll consists of a hydrophilic magnesium-tetrapyrrole porphyrin head and a hydrophobic 20-carbon phytol tail. Chl a (essential pigment, bright blue-green) possesses a -CH3 group at C-3; Chl b (accessory, yellow-green) possesses a -CHO group. Both absorption and action spectra peak in blue (430–470 nm) and red (650–680 nm) wavebands. Accessory carotenoids protect Chl a from photo-oxidation. Antenna pigments channel photons radiationlessly to reaction centers (P680 in PS II, P700 in PS I) via Förster Resonance Energy Transfer (FRET).",
+  "conceptBreakdown": [
+    {
+      "heading": "2. Photosynthetic Pigments & Molecular Structure",
+      "title": "2. Photosynthetic Pigments & Molecular Structure",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Chl a = -CH3 (blue-green, essential). Chl b = -CHO (yellow-green, accessory). Carotenoids protect from photo-oxidation. FRET channels photons to P680/P700."
+      },
+      "codeSnippet": "PHOTOSYNTHETIC PIGMENTS\n                                      │\n         ┌────────────────────────────┼────────────────────────────┐\n         ▼                            ▼                            ▼\n  CHLOROPHYLLS                   CAROTENOIDS                  PHYCOBILINS\n  ├── Chlorophyll *a* (Essential) ├── Carotenes (Hydrocarbons) ├── Phycocyanin (Blue)\n  └── Chlorophyll *b* (Accessory) └── Xanthophylls (Oxygenated) └── Phycoerythrin (Red)",
+      "content": "Photosynthetic pigments are lipid-soluble compounds embedded in thylakoid membranes.\n\n### Molecular Anatomy of Chlorophyll\n• **Porphyrin Head**: Planar hydrophilic tetrapyrrole ring coordinating a central **$\\text{Mg}^{2+}$** ion via four nitrogen atoms.\n• **Phytol Tail**: Hydrophobic 20-carbon isoprenoid alcohol chain ($\\text{C}_{20}\\text{H}_{39}$) anchoring the molecule into the lipid bilayer.\n• **Chl a vs Chl b**:\n  - **Chlorophyll a** ($\\text{C}_{55}\\text{H}_{72}\\text{O}_5\\text{N}_4\\text{Mg}$): Possesses a methyl group ($-\\text{CH}_3$) at $\\text{C}-3$; blue-green.\n  - **Chlorophyll b** ($\\text{C}_{55}\\text{H}_{70}\\text{O}_6\\text{N}_4\\text{Mg}$): Possesses a formyl group ($-\\text{CHO}$) at $\\text{C}-3$; yellow-green."
+    },
+    {
+      "heading": "2.1 Absorption Spectrum vs. Action Spectrum",
+      "title": "2.1 Absorption Spectrum vs. Action Spectrum",
+      "type": "paragraph",
+      "codeSnippet": "ABSORPTION vs ACTION SPECTRA\n                      \n   ABSORPTION SPECTRUM ──► Graph plotting light absorption ($\\text{A}$) vs wavelength ($\\lambda$)\n                            for purified isolated pigments.\n                            \n   ACTION SPECTRUM     ──► Graph plotting biological photosynthetic rate ($\\text{O}_2$ evolution)\n                            vs wavelength ($\\lambda$) across intact tissue.\n                            \n   * Both spectra display primary peak maxima in BLUE ($430\\text{--}470\\text{ nm}$) \n     and RED ($650\\text{--}680\\text{ nm}$) wavebands of PAR ($400\\text{--}700\\text{ nm}$).",
+      "content": "• **Absorption Spectrum**: Quantifies photon absorption by purified pigment extracts across wavelengths.\n• **Action Spectrum**: Measures relative photosynthetic efficacy (rate of $\\text{O}_2$ evolution) across wavelengths in living leaves.\n• Both curves closely match with prominent peaks in **Blue ($430\\text{--}470\\text{ nm}$)** and **Red ($650\\text{--}680\\text{ nm}$)** wavebands of PAR ($400\\text{--}700\\text{ nm}$)."
+    },
+    {
+      "heading": "2.2 Förster Resonance Energy Transfer (FRET)",
+      "title": "2.2 Förster Resonance Energy Transfer (FRET)",
+      "type": "paragraph",
+      "codeSnippet": "RESONANCE ENERGY TRANSFER (FRET)\n                      \n   Photon ($\\hbar\\nu$) ──► Antenna Pigment ──[FRET]──► Accessory Chl ──[FRET]──► Reaction Center (P680/P700)\n                                                                                     │\n   Primary Electron Acceptor ◄── Photo-Acts (Charge Separation $e^-$) ────────────────┘",
+      "content": "• **Antenna Complex**: Hundreds of accessory chlorophyll and carotenoid molecules harvest light and transfer excitation energy down an energetic gradient via non-radiative dipole-dipole resonance coupling (**FRET**).\n• Energy converges onto the specialized reaction center chlorophyll a dimer: **P680** in PS II and **P700** in PS I, driving photochemical charge separation."
+    }
+  ]
+}

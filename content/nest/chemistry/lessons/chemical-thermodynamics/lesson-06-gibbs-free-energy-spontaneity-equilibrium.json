@@ -1,0 +1,62 @@
+{
+  "id": "chem-xi-u5-c5-l06",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit V \u2014 Chemical Thermodynamics",
+  "unitNumber": 5,
+  "chapter": "Chemical Thermodynamics",
+  "chapterNumber": 5,
+  "chapterSlug": "chemical-thermodynamics",
+  "slug": "lesson-06-gibbs-free-energy-spontaneity-equilibrium",
+  "title": "Gibbs Free Energy (\u0394G), Temperature Spontaneity & Equilibrium Coupling (K_eq)",
+  "topic": "Gibbs Free Energy & Equilibrium",
+  "topics": [
+    "Gibbs Free Energy Definition (G = H - TS)",
+    "Thermodynamic Link: \u0394G_sys = -T \u0394S_total",
+    "Spontaneity Criteria (\u0394G < 0 Exergonic, \u0394G = 0 Equilibrium, \u0394G > 0 Endergonic)",
+    "Four-Quadrant Temperature Dependence of Spontaneity",
+    "Chemical Equilibrium Coupling (\u0394_r G\u00b0 = -RT ln K_eq)"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "gibbs-free-energy",
+  "quickSummary": "Gibbs free energy G = H - TS determines spontaneity at constant T, P: \u0394G_sys = -T \u0394S_total < 0 for spontaneous processes. At equilibrium, \u0394_r G\u00b0 = -RT ln K_eq = -2.303 RT log\u2081\u2080 K_eq.",
+  "summary": "Master Gibbs free energy derivations, temperature spontaneity profiles, and chemical equilibrium coupling.",
+  "conceptBreakdown": [
+    {
+      "heading": "6.1 Gibbs Free Energy & Spontaneity Criteria",
+      "title": "6.1 Gibbs Free Energy & Spontaneity Criteria",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Gibbs Free Energy",
+        "takeaway": "\u0394G_sys = \u0394H - T\u0394S = -T \u0394S_total. \u0394G < 0 (Spontaneous), \u0394G = 0 (Equilibrium), \u0394G > 0 (Non-spontaneous)."
+      },
+      "content": "\u2022 **Thermodynamic Link to Total Entropy**:\n$$\\Delta S_{\\text{surr}} = -\\frac{\\Delta H_{\\text{sys}}}{T} \\implies \\Delta S_{\\text{total}} = \\Delta S_{\\text{sys}} - \\frac{\\Delta H_{\\text{sys}}}{T} \\implies \\mathbf{-T \\Delta S_{\\text{total}} = \\Delta G_{\\text{sys}}}$$\n\n\u2022 **Spontaneity Criteria at Constant $T, P$**:\n- $\\mathbf{\\Delta G_{\\text{sys}} < 0}$: Spontaneous / Exergonic Process ($\\Delta S_{\\text{total}} > 0$)\n- $\\mathbf{\\Delta G_{\\text{sys}} = 0}$: System at Thermodynamic Equilibrium ($\\Delta S_{\\text{total}} = 0$)\n- $\\mathbf{\\Delta G_{\\text{sys}} > 0}$: Non-Spontaneous / Endergonic Process ($\\Delta S_{\\text{total}} < 0$)"
+    },
+    {
+      "heading": "6.2 Temperature Dependence & Equilibrium Constant (K_eq)",
+      "title": "6.2 Temperature Dependence & Equilibrium Constant (K_eq)",
+      "type": "paragraph",
+      "codeSnippet": "SPONTANEITY CRITERIA AT CONSTANT T, P\n   \u0394H < 0, \u0394S > 0 \u2500\u2500\u25ba Spontaneous at ALL temperatures\n   \u0394H > 0, \u0394S < 0 \u2500\u2500\u25ba Non-Spontaneous at ALL temperatures\n   \u0394H < 0, \u0394S < 0 \u2500\u2500\u25ba Spontaneous at LOW temperatures (T < \u0394H/\u0394S)\n   \u0394H > 0, \u0394S > 0 \u2500\u2500\u25ba Spontaneous at HIGH temperatures (T > \u0394H/\u0394S)",
+      "content": "\u2022 **Chemical Equilibrium Coupling**:\n$$\\Delta_r G = \\Delta_r G^\\circ + RT \\ln Q$$\nAt chemical equilibrium, $\\Delta_r G = 0$ and $Q = K_{\\text{eq}}$:\n$$\\mathbf{\\Delta_r G^\\circ = -RT \\ln K_{\\text{eq}} = -2.303 RT \\log_{10} K_{\\text{eq}}}$$\n$$\\mathbf{K_{\\text{eq}} = e^{-\\Delta_r G^\\circ / RT}}$$"
+    }
+  ],
+  "quickRevision": [
+    "\u0394G = \u0394H - T\u0394S.",
+    "\u0394G_sys = -T \u0394S_total.",
+    "\u0394H < 0 and \u0394S > 0 is spontaneous at all temperatures.",
+    "\u0394H > 0 and \u0394S > 0 becomes spontaneous at high T (T > \u0394H/\u0394S).",
+    "\u0394_r G\u00b0 = -2.303 RT log\u2081\u2080 K_eq."
+  ],
+  "keyFormulae": [
+    "\u0394G = \u0394H - T\u0394S",
+    "\u0394G_sys = -T \u0394S_total",
+    "\u0394_r G\u00b0 = -RT ln K_eq",
+    "K_eq = e^(-\u0394_r G\u00b0 / RT)"
+  ]
+}

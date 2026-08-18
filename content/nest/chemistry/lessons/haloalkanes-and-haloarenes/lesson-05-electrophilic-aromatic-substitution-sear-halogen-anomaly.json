@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u15-c6-l05",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XV \u2014 Haloalkanes and Haloarenes",
+  "unitNumber": 15,
+  "chapter": "Haloalkanes and Haloarenes",
+  "chapterNumber": 6,
+  "chapterSlug": "haloalkanes-and-haloarenes",
+  "slug": "lesson-05-electrophilic-aromatic-substitution-sear-halogen-anomaly",
+  "title": "Electrophilic Aromatic Substitution (S_EAr) & The Halogen Anomaly",
+  "topic": "Electrophilic Aromatic Substitution (S_EAr)",
+  "topics": [
+    "The Halogen Anomaly: Halogens are Ortho/Para-Directing (+M) but DEACTIVATING (-I)",
+    "Inductive (-I) Electron Withdrawal vs Resonance (+M) Lone Pair Donation Balance",
+    "Chlorination: Ph-Cl + Cl\u2082 / FeCl\u2083 \u2500\u2500\u25ba 1,4-Dichlorobenzene (Major, p-) + 1,2-Dichlorobenzene (Minor, o-)",
+    "Nitration: Ph-Cl + HNO\u2083/H\u2082SO\u2084 \u2500\u2500\u25ba 1-Chloro-4-nitrobenzene (Major) + 1-Chloro-2-nitrobenzene",
+    "Sulfonation: Ph-Cl + Fuming H\u2082SO\u2084 \u2500\u2500\u25ba 4-Chlorobenzenesulfonic acid (Major)",
+    "Friedel-Crafts Alkylation & Acylation on Chlorobenzene"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "haloalkanes-and-haloarenes",
+  "quickSummary": "Halogen anomaly: Strong -I effect withdraws electron density, deactivating the ring (reacts slower than benzene). Weak +M effect donates p-electrons, specifically stabilizing ortho and para arenium carbocations. Therefore, halogens are Ortho/Para-directing but Deactivating. Para isomer is major due to less steric hindrance.",
+  "summary": "Master the halogen anomaly, electrophilic aromatic substitutions on chlorobenzene, and ortho/para regioselectivity.",
+  "conceptBreakdown": [
+    {
+      "heading": "5. The Halogen Anomaly in Electrophilic Substitution",
+      "title": "5. The Halogen Anomaly in Electrophilic Substitution",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "The Halogen Anomaly Rule",
+        "takeaway": "Halogens are Ortho/Para-directing (+M) but DEACTIVATING (-I > +M). Chlorobenzene reacts slower than benzene."
+      },
+      "codeSnippet": "                       ELECTROPHILIC SUBSTITUTION ON CHLOROBENZENE\n                       \n   Chlorination:   $\\text{Ph-Cl} + \\text{Cl}_2 \\xrightarrow{\\text{Anhyd. FeCl}_3} \\text{1,4-Dichlorobenzene (Major, } p\\text{-}) + \\text{1,2-Dichlorobenzene (Minor, } o\\text{-})$\n   Nitration:      $\\text{Ph-Cl} + \\text{HNO}_3/\\text{H}_2\\text{SO}_4 \\longrightarrow \\mathbf{\\text{1-Chloro-4-nitrobenzene (Major)}} + \\text{1-Chloro-2-nitrobenzene}$\n   Sulfonation:    $\\text{Ph-Cl} + \\text{Fuming H}_2\\text{SO}_4 \\longrightarrow \\mathbf{\\text{4-Chlorobenzenesulfonic acid (Major)}}$\n   FC Alkylation:  $\\text{Ph-Cl} + \\text{CH}_3\\text{Cl}/\\text{AlCl}_3 \\longrightarrow \\mathbf{\\text{1-Chloro-4-methylbenzene (Major)}}$",
+      "content": "Halogens on a benzene ring exert two opposing electronic effects:\n1. **Strong -I Effect**: Withdraws $\\sigma$-electron density, overall deactivating the ring ($r_{\\text{PhX}} < r_{\\text{benzene}}$).\n2. **Weak +M Effect**: Donates p-electrons into the ring via resonance, specifically stabilizing *ortho* and *para* arenium carbocation intermediates.\n$$\\mathbf{\\text{Halogens are Ortho/Para-Directing BUT DEACTIVATING!}}$$"
+    },
+    {
+      "heading": "5.1 Landmark S_EAr Reactions of Chlorobenzene",
+      "title": "5.1 Landmark S_EAr Reactions of Chlorobenzene",
+      "type": "paragraph",
+      "codeSnippet": "S_EAr REACTIONS OF CHLOROBENZENE:\n\n\u2022 Chlorination: Ph-Cl + Cl\u2082 / FeCl\u2083 \u2500\u2500\u25ba 1,4-Dichlorobenzene (Major, p-) + 1,2-Dichlorobenzene (Minor, o-)\n\u2022 Nitration:    Ph-Cl + HNO\u2083 / H\u2082SO\u2084 \u2500\u2500\u25ba 1-Chloro-4-nitrobenzene (Major, p-)\n\u2022 Sulfonation:  Ph-Cl + H\u2082SO\u2084 (fuming) \u2500\u2500\u25ba 4-Chlorobenzenesulfonic acid (Major, p-)\n\u2022 FC Alkylation: Ph-Cl + CH\u2083Cl / AlCl\u2083 \u2500\u2500\u25ba 1-Chloro-4-methylbenzene (Major, p-)",
+      "content": "In all electrophilic substitutions, the *para*-isomer is the major product due to minimal steric repulsion between the chlorine atom and the incoming electrophile."
+    }
+  ],
+  "quickRevision": [
+    "Halogens are o,p-directing but deactivating (-I > +M).",
+    "Chlorobenzene reacts slower than benzene in S_EAr.",
+    "Para isomer is the major product due to minimal steric hindrance.",
+    "Nitration gives 1-chloro-4-nitrobenzene as major product."
+  ],
+  "keyFormulae": [
+    "\\text{Reactivity: Benzene} > \\text{Chlorobenzene (Deactivating -I effect)}",
+    "\\text{Regioselectivity: Ortho/Para (+M resonance stabilization)}"
+  ]
+}

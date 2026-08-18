@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-20-06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Chemical Coordination and Integration",
+  "chapterNumber": 20,
+  "chapterSlug": "chemical-coordination-and-integration",
+  "lessonNumber": 6,
+  "title": "Adrenal Gland Zonation & Stress Physiology",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Hard",
+  "prerequisites": ["Embryonic germ layers", "Autonomic sympathetic response"],
+  "learningObjectives": [
+    "Identify the 3 histological zones of the Adrenal Cortex: Zona Glomerulosa, Fasciculata, and Reticularis",
+    "Describe the physiological actions of Aldosterone and Cortisol (metabolic and immunosuppressive)",
+    "Explain the emergency '3F' actions of Adrenal Medulla Catecholamines (Epinephrine 80% and Norepinephrine 20%)"
+  ],
+  "content": "The paired Adrenal Glands (Suprarenal Glands) sit atop each kidney, comprising an outer mesodermal Adrenal Cortex ($80\\text{--}90\\%$) and an inner ectodermal Adrenal Medulla ($10\\text{--}20\\%$).\n\n```\n                           ADRENAL GLAND ZONATION\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n   ADRENAL CORTEX (Outer Mesodermal)                       ADRENAL MEDULLA (Inner Ectodermal)\n   ├── Zona Glomerulosa (Outer) ──► Mineralocorticoids     └── Chromaffin Cells ──► Catecholamines\n   ├── Zona Fasciculata (Middle) ──► Glucocorticoids           ├── Epinephrine / Adrenaline (80%)\n   └── Zona Reticularis (Inner)  ──► Gonadocorticoids          └── Norepinephrine / Noradrenaline (20%)\n```\n\n### 6.1 Cortical Hormones & Functional Profile\n\n1. **Mineralocorticoids (Aldosterone)**: Secreted by Zona Glomerulosa. Acts on kidney DCT and collecting ducts to stimulate $\\text{Na}^+$ and water reabsorption and $\\text{K}^+/\\text{H}^+$ excretion, regulating blood volume and electrolyte balance.\n2. **Glucocorticoids (Cortisol)**: Secreted by Zona Fasciculata.\n   - **Metabolic Functions**: Stimulates Gluconeogenesis, Lipolysis, and Proteolysis; inhibits cellular glucose uptake (hyperglycemic factor).\n   - **Anti-Inflammatory & Immunosuppressive Functions**: Inhibits prostaglandin synthesis, suppresses inflammatory response, reduces histamine release, and depresses antibody production (used clinically to prevent organ transplant rejection).\n   - **Stress Adaptation**: Master hormone modulating long-term resistance to physiological stress.\n3. **Gonadocorticoids (Adrenal Androgens)**: Secreted by Zona Reticularis. Secretes DHEA and androstenedione, contributing to axillary and pubic hair growth during puberty.\n\n### 6.2 Catecholamines & Emergency Physiology (3F Response)\n\nThe Adrenal Medulla functions as a modified post-ganglionic sympathetic ganglion. Its Chromaffin Cells secrete Epinephrine (Adrenaline) and Norepinephrine (Noradrenaline) in response to acute stress (\"3F Hormones: Flight, Fight, or Fright\").\n\n```\n                        CATECHOLAMINE EMERGENCY EFFECTS\n                        \n   Adrenal Medulla Releases Epinephrine / Norepinephrine\n                             │\n   ┌─────────────────────────┼─────────────────────────┐\n   ▼                         ▼                         ▼\n   Cardiovascular            Respiratory               Metabolic\n   ├── Increases HR & SV     ├── Bronchodilation        ├── Glycogenolysis (Glucose surge)\n   ├── Increases Systemic BP └── Increased Ventilation  ├── Lipolysis\n   └── Increases Contractility                           └── Piloerection & Pupillary Mydriasis\n```",
+  "conceptBreakdown": [
+    {
+      "heading": "Cushingoid Features from Excess Cortisol",
+      "explanation": "Hypercortisolemia in Cushing's syndrome induces trunkal adipose redistribution ('Moon Face', 'Buffalo Hump', pendulous abdomen) alongside severe peripheral skeletal muscle wasting due to continuous proteolysis."
+    },
+    {
+      "heading": "Chromaffin Cells as Postganglionic Neurons",
+      "explanation": "Chromaffin cells of the adrenal medulla are embryologically derived from neural crest ectoderm, receiving direct preganglionic sympathetic cholinergic innervation via the greater splanchnic nerves."
+    }
+  ]
+}

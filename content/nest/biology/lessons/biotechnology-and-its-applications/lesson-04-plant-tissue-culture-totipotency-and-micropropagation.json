@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u9-c10-l04",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit IX — Biotechnology",
+  "unitNumber": 9,
+  "chapter": "Biotechnology and its Applications",
+  "chapterNumber": 10,
+  "chapterSlug": "biotechnology-and-its-applications",
+  "slug": "lesson-04-plant-tissue-culture-totipotency-and-micropropagation",
+  "title": "Plant Tissue Culture: Totipotency & Micropropagation",
+  "topic": "Gottlieb Haberlandt, Cellular Totipotency, Explant, MS Medium, & Somaclones",
+  "order": 4,
+  "readingTimeMinutes": 15,
+  "estimatedTimeMinutes": 15,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Plant tissue culture principles: (1) Cellular Totipotency (the innate capacity of a plant cell or explant to regenerate into a whole intact plant, conceived by Gottlieb Haberlandt); (2) Nutrient Medium (Murashige and Skoog MS medium containing sucrose carbon source, inorganic salts, vitamins, and phytohormones Auxin & Cytokinin); (3) Micropropagation producing thousands of genetically identical Somaclones.",
+  "summary": "Plant tissue culture principles: (1) Cellular Totipotency (the innate capacity of a plant cell or explant to regenerate into a whole intact plant, conceived by Gottlieb Haberlandt); (2) Nutrient Medium (Murashige and Skoog MS medium containing sucrose carbon source, inorganic salts, vitamins, and phytohormones Auxin & Cytokinin); (3) Micropropagation producing thousands of genetically identical Somaclones.",
+  "conceptBreakdown": [
+    {
+      "heading": "Tissue Culture Principles, Totipotency, & Micropropagation",
+      "title": "Tissue Culture Principles, Totipotency, & Micropropagation",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Plant tissue culture exploits cellular totipotency to regenerate whole plants from excised explants under aseptic nutrient conditions. Micropropagation enables rapid commercial cloning of thousands of genetically identical somaclones."
+      },
+      "codeSnippet": "TISSUE CULTURE PRINCIPLES\n                                       │\n         ┌─────────────────────────────┴─────────────────────────────┐\n         ▼                                                           ▼\n   CELLULAR TOTIPOTENCY                                      MICROPROPAGATION\n   The innate capacity of a single plant cell/explant to      Rapid in-vitro multiplication yielding\n   regenerate into a whole intact plant (Gottlieb Haberlandt). thousands of genetically identical Somaclones.",
+      "content": "### 4.1 Fundamentals of Plant Tissue Culture\n- **Cellular Totipotency**: Conceived by **Gottlieb Haberlandt (1902)**, totipotency is the inherent genetic and physiological capacity of a living, nucleated plant cell or tissue fragment (**Explant**) to divide, redifferentiate, and regenerate into an entire, mature adult plant.\n- **Explant**: Any excised piece of plant tissue (*shoot tip, leaf disc, stem segment, hypocotyl, anther, embryo*) surface-sterilized and inoculated onto a sterile synthetic nutrient medium.\n- **Nutrient Medium Composition (MS Medium - Murashige & Skoog)**:\n  1. **Carbon / Energy Source**: Sucrose ($2\\text{--}3\\%$) is mandatory because cultured cells lack active photosynthetic autotrophy.\n  2. **Inorganic Macronutrients & Micronutrients**: Nitrogen ($\\text{NH}_4^+, \\text{NO}_3^-$), Phosphorus, Potassium, Calcium, Magnesium, Iron, Zinc, Boron.\n  3. **Vitamins & Amino Acids**: Thiamine (Vitamin $\\text{B}_1$), Nicotinic acid, Pyridoxine, Inositol, and Glycine.\n  4. **Phytohormones (Growth Regulators)**:\n     - **Auxin (NAA, 2,4-D, IAA)**: Induces cell division and initiates root formation (**Rhizogenesis**).\n     - **Cytokinin (BAP, Kinetin, Zeatin)**: Stimulates cell division and shoot bud differentiation (**Caulogenesis**).\n     - **High Auxin : Low Cytokinin** $\\implies$ Root induction.\n     - **Low Auxin : High Cytokinin** $\\implies$ Shoot induction.\n     - **Balanced Auxin : Cytokinin** $\\implies$ Unorganized proliferating cell mass called **Callus**.\n\n### 4.2 Micropropagation & Somaclones\n- **Micropropagation**: The rapid *in-vitro* asexual multiplication of plants using tissue culture techniques within minimal space and time.\n- **Somaclones**: All plantlets produced via micropropagation are genetically identical to each other and to the parent mother plant (clones).\n- **Commercial Application**: Widely utilized for commercial propagation of high-value crops including **Tomato, Banana, Apple, Orchids, Sugarcane, and Strawberry**."
+    },
+    {
+      "heading": "Somaclonal Variation",
+      "title": "Somaclonal Variation",
+      "type": "paragraph",
+      "content": "Genetic and epigenetic variations that arise during prolonged in-vitro callus culture are termed somaclonal variations, which can occasionally yield useful agronomic mutants displaying enhanced drought tolerance or disease resistance."
+    },
+    {
+      "heading": "Synthetic Seeds (Synseeds)",
+      "title": "Synthetic Seeds (Synseeds)",
+      "type": "paragraph",
+      "content": "Somatic embryos induced from callus are encapsulated within calcium alginate hydrogel beads containing nutrients, fungicides, and bio-fertilizers to produce synthetic artificial seeds for field sowing."
+    }
+  ]
+}

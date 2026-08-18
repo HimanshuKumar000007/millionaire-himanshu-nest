@@ -1,0 +1,34 @@
+{
+  "id": "les-bio-18-04",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Locomotion and Movement",
+  "chapterNumber": 18,
+  "chapterSlug": "locomotion-and-movement",
+  "lessonNumber": 4,
+  "title": "Molecular Mechanism of Muscle Contraction: Sliding Filament Model",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Hard",
+  "prerequisites": ["Cross-bridge mechanics", "ATP hydrolysis"],
+  "learningObjectives": [
+    "Trace excitation-contraction coupling from motor end plate ACh to sarcoplasmic Ca2+ release",
+    "Diagram the 6 stages of the cross-bridge power stroke cycle",
+    "Identify which sarcomere bands shorten vs remain constant during contraction",
+    "Explain the molecular etiology of Rigor Mortis"
+  ],
+  "content": "Proposed by H.E. Huxley & A.F. Huxley (1954), the **Sliding Filament Theory** states that muscle contraction occurs when thin actin filaments slide inward over thick myosin filaments toward the M-line, pulling Z-discs closer together.\n\n```\n                     NEUROMUSCULAR EXCITATION CASCADE\n                     \n   Motor Neuron Action Potential ──► Reaches Neuromuscular Junction (Motor End Plate)\n                                                 │\n   Exocytosis of Acetylcholine (ACh) ◄───────────┘\n               │\n   Binds Nicotinic ACh Receptors on Sarcolemma ──► Generates Muscle Action Potential\n                                                              │\n   Depolarization spreads down T-Tubules ─────────────────────┘\n               │\n   Opens Ryanodine Receptors (RyR1) on Sarcoplasmic Reticulum\n               │\n   Massive Release of Ca²⁺ Ions into Sarcoplasm\n```\n\n### 4.1 Stepwise Cross-Bridge Power Stroke Cycle\n\n```\n                         CROSS-BRIDGE POWER STROKE CYCLE\n                         \n   1. Ca²⁺ binds Troponin-C ──► Tropomyosin shifts ──► Unmasks Myosin-binding sites on Actin.\n   2. Myosin ATPase hydrolyzes ATP (ATP → ADP + Pᵢ) ──► Myosin Head \"Cocked\".\n   3. High-energy Myosin Head binds Actin ──► Forms CROSS-BRIDGE.\n   4. POWER STROKE: Release of Pᵢ & ADP causes Myosin head to pivot, pulling Actin inward.\n   5. Fresh ATP binds Myosin Head ──► Detaches Cross-Bridge from Actin.\n   6. ATP hydrolyzed ──► Myosin re-cocked for next cycle.\n```\n\n### 4.2 Structural Dimensional Changes during Contraction\n\n```\n                   STRUCTURAL CHANGES DURING CONTRACTION\n                   \n   ┌──────────────────────────────────────────┬──────────────────────────────────────────┐\n   │ SHORTER / NARROWED                       │ REMAINS CONSTANT                         │\n   ├──────────────────────────────────────────┼──────────────────────────────────────────┤\n   │ 1. Sarcomere Length (Z-lines closer)     │ 1. A-Band Length (Myosin length)         │\n   │ 2. I-Band Length (Actin overlaps)        │ 2. Actin Filament Length                 │\n   │ 3. H-Zone (Disappears completely)        │                                          │\n   └──────────────────────────────────────────┴──────────────────────────────────────────┘\n```\n\n- **Rigor Mortis**: Following somatic death, cellular ATP synthesis stops completely. Without fresh ATP binding, cross-bridges cannot detach from actin filaments, causing permanent, rigid post-mortem muscle stiffness until lysosomal autolytic enzymes degrade myofilaments ($12\\text{--}24\\text{ hours}$).",
+  "conceptBreakdown": [
+    {
+      "heading": "The ATP Paradox in Muscle Physiology",
+      "explanation": "ATP plays two opposing but essential roles: (1) Hydrolysis of ATP is required to energize (cock) the myosin head to initiate contraction, and (2) Binding of fresh unhydrolyzed ATP is required to break the actin-myosin bond to allow relaxation."
+    },
+    {
+      "heading": "Role of Dihydropyridine & Ryanodine Receptors",
+      "explanation": "T-tubule depolarization activates voltage-sensing Dihydropyridine Receptors (DHPR / Cav1.1), which are mechanically coupled to Ryanodine Receptors (RyR1) in the SR membrane, instantly releasing stored Ca2+."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u9-c9-l01",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit IX — Biotechnology",
+  "unitNumber": 9,
+  "chapter": "Biotechnology: Principles and Processes",
+  "chapterNumber": 9,
+  "chapterSlug": "biotechnology-principles-and-processes",
+  "slug": "lesson-01-core-principles-of-biotechnology-and-genetic-engineering",
+  "title": "Core Principles of Biotechnology & Genetic Engineering",
+  "topic": "EFB Definition, Genetic Engineering, & Bioprocess Engineering",
+  "order": 1,
+  "readingTimeMinutes": 15,
+  "estimatedTimeMinutes": 15,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Biotechnology: integration of natural science and organisms for products (EFB definition). Two core pillars: (1) Genetic Engineering (altering genetic material DNA/RNA and introducing into hosts via rDNA technology); (2) Bioprocess Engineering (maintaining sterile/aseptic ambient conditions in large-scale industrial bioreactors).",
+  "summary": "Biotechnology: integration of natural science and organisms for products (EFB definition). Two core pillars: (1) Genetic Engineering (altering genetic material DNA/RNA and introducing into hosts via rDNA technology); (2) Bioprocess Engineering (maintaining sterile/aseptic ambient conditions in large-scale industrial bioreactors).",
+  "conceptBreakdown": [
+    {
+      "heading": "Core Pillars of Modern Biotechnology",
+      "title": "Core Pillars of Modern Biotechnology",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Biotechnology rests on Genetic Engineering (creating recombinant DNA to alter host genotypes and phenotypes) and Bioprocess Engineering (aseptic culture conditions enabling massive industrial synthesis of biopharmaceuticals)."
+      },
+      "codeSnippet": "CORE PILLARS OF MODERN BIOTECHNOLOGY\n                                          │\n         ┌────────────────────────────────┴────────────────────────────────┐\n         ▼                                                                 ▼\n   GENETIC ENGINEERING                                            BIOPROCESS ENGINEERING\n   Altering genetic material (DNA/RNA) to introduce into          Maintaining sterile/aseptic ambients in\n   host organisms, permanently changing host phenotype.           large-scale industrial cultures to grow desired\n   (Recombinant DNA Technology).                                  microbes/cells for producing proteins/enzymes.",
+      "content": "### 1.1 EFB Definition of Biotechnology\n- According to the **European Federation of Biotechnology (EFB)**:\n  > *\"Biotechnology is the integration of natural science and organisms, cells, parts thereof, and molecular analogues for products and services.\"*\n- This definition encompasses both traditional microbial fermentation techniques (curd, wine, bread) and modern recombinant DNA technology.\n\n### 1.2 Two Core Pillars of Biotechnology\n1. **Genetic Engineering**:\n   - Techniques used to chemically alter, synthesize, and transfer genetic material (DNA and RNA) into a recipient host organism, stably altering the host's phenotype.\n   - Involves restriction cleavage, vector ligation, and host transformation to produce **Recombinant DNA (rDNA)** molecules.\n2. **Bioprocess Engineering**:\n   - Creation and maintenance of strictly sterile, aseptic microbial conditions in large-scale chemical engineering reactors (bioreactors).\n   - Ensures that only the desired transformed microorganism or cell line grows in high density, uncontaminated by wild competitor species, to harvest pure enzymes, antibiotics, and therapeutic proteins."
+    },
+    {
+      "heading": "Historical Emergence of rDNA Technology",
+      "title": "Historical Emergence of rDNA Technology",
+      "type": "paragraph",
+      "content": "Stanley Cohen and Herbert Boyer (1972) constructed the first recombinant DNA molecule by isolating an antibiotic resistance gene from Salmonella typhimurium and ligating it into a native plasmid vector using restriction endonucleases and DNA ligase."
+    },
+    {
+      "heading": "Aseptic Engineering Invariants",
+      "title": "Aseptic Engineering Invariants",
+      "type": "paragraph",
+      "content": "Aseptic engineering utilizes HEPA air filtration, steam sterilization (autoclaving at 121°C and 15 psi), and positive pressure barriers to prevent airborne contaminant spores from entering industrial fermentation vessels."
+    }
+  ]
+}

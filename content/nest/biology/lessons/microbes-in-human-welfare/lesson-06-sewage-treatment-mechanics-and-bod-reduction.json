@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u8-c8-l06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VIII — Biology in Human Welfare",
+  "unitNumber": 8,
+  "chapter": "Microbes in Human Welfare",
+  "chapterNumber": 8,
+  "chapterSlug": "microbes-in-human-welfare",
+  "slug": "lesson-06-sewage-treatment-mechanics-and-bod-reduction",
+  "title": "Sewage Treatment Mechanics & BOD Reduction",
+  "topic": "Primary vs Secondary Treatment, Aeration Tanks with FLOCS, BOD Concepts, & Ganga/Yamuna Action Plans",
+  "order": 6,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Sewage treatment in STPs: Primary Treatment is physical (sequential filtration & sedimentation separating primary sludge and effluent). Secondary Treatment is biological (aeration tanks with FLOCS - bacteria & fungal filaments, reducing BOD >90%). Settling tanks collect Activated Sludge. National river plans: Ganga Action Plan (GAP) & Yamuna Action Plan (YAP).",
+  "summary": "Sewage treatment in STPs: Primary Treatment is physical (sequential filtration & sedimentation separating primary sludge and effluent). Secondary Treatment is biological (aeration tanks with FLOCS - bacteria & fungal filaments, reducing BOD >90%). Settling tanks collect Activated Sludge. National river plans: Ganga Action Plan (GAP) & Yamuna Action Plan (YAP).",
+  "conceptBreakdown": [
+    {
+      "heading": "Stepwise STP Mechanics & Biochemical Oxygen Demand (BOD)",
+      "title": "Stepwise STP Mechanics & Biochemical Oxygen Demand (BOD)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Sewage Treatment Plants process wastewater across two core phases: (1) Primary Physical treatment removing floating debris and grit; (2) Secondary Biological treatment using aerobic microbial flocs in aeration tanks to consume organic waste and slash BOD (>90%). Activated sludge settles and feeds anaerobic digesters."
+      },
+      "codeSnippet": "SEWAGE TREATMENT FLOWCHART\n                          \n   RAW SEWAGE ──► [ PRIMARY TREATMENT ] (Physical: Sequential Filtration & Sedimentation)\n                             │\n                             ▼\n                     Primary Effluent\n                             │\n                             ▼\n   [ SECONDARY TREATMENT ] (Biological: Aeration Tanks with FLOCS)\n                             │\n   BOD Drops >90% ──► Settling Tank ──► Activated Sludge\n                                                 │\n            ┌────────────────────────────────────┴────────────────────────────────────┐\n            ▼                                                                         ▼\n   Small Inoculum Recycled to Aeration Tank                                Bulk Pumped to Anaerobic Sludge Digester\n                                                                                      │\n                                                                           Produces BIOGAS (CH₄, H₂S, CO₂)",
+      "content": "### 6.1 Stepwise STP Mechanics\n1. **Primary Treatment (Physical Separation)**:\n   - **Sequential Filtration**: Sewage is passed through wire mesh screens of progressively finer pore sizes to remove large floating plastic, cloth, and paper debris.\n   - **Sedimentation**: Sewage enters grit chambers and primary settling tanks where heavy inorganic grit (sand, soil, pebbles) and settleable organic solids settle under gravity.\n   - **Products**: Settled solid mass forms **Primary Sludge**; the overlying supernatant liquid forms **Primary Effluent**.\n2. **Secondary / Biological Treatment**:\n   - Primary effluent is channeled into massive, open **Aeration Tanks** that are continuously agitated mechanically with air pumped in under pressure.\n   - **Flocs Formation**: Aerobic conditions stimulate the rapid proliferation of **Flocs** (mesh-like aggregates of aerobic bacterial cells intertwined with network-forming fungal filaments).\n   - **Organic Matter Oxidation**: Aerobic heterotrophic microbes consume dissolved organic pollutants as respiratory substrates, slashing the **Biochemical Oxygen Demand (BOD)** by $>90\\%$.\n   - **Settling Tank & Activated Sludge**: When BOD is sufficiently low, the effluent is passed into a settling tank where flocs sediment under quiescent conditions to form **Activated Sludge**.\n   - **Sludge Partitioning**: A small fraction ($<5\\%$) of activated sludge is pumped back into the aeration tank to serve as an **inoculum**; the remaining bulk is pumped into **Anaerobic Sludge Digesters**.\n\n### 6.2 Biochemical Oxygen Demand (BOD) Invariants\n- **Definition**: BOD is the amount of dissolved oxygen (in $\\text{mg } \\text{O}_2/\\text{L}$) consumed by aerobic microorganisms to completely oxidize the biodegradable organic matter present in a one-liter water sample.\n- **Direct Correlation**: $\\text{Higher BOD} \\iff \\text{Greater Organic Pollution Load} \\iff \\text{Lower Dissolved Oxygen (DO)}$.\n- Unpolluted river water: $\\text{BOD} < 1\\text{--}2\\text{ mg/L}$; Untreated domestic sewage: $\\text{BOD} > 400\\text{ mg/L}$.\n\n### 6.3 National River Cleaning Programs\n- To combat catastrophic pollution of Indian rivers due to untreated sewage influx, the Ministry of Environment and Forests initiated the **Ganga Action Plan (GAP, 1985)** and the **Yamuna Action Plan (YAP)** to construct hundreds of municipal STPs."
+    },
+    {
+      "heading": "Chemical Oxygen Demand (COD)",
+      "title": "Chemical Oxygen Demand (COD)",
+      "type": "paragraph",
+      "content": "Chemical Oxygen Demand (COD) measures the total quantity of oxygen required to chemically oxidize all organic compounds (both biodegradable and non-biodegradable) using a strong chemical oxidant like potassium dichromate (K2Cr2O7 in acidic medium); COD is always greater than or equal to BOD."
+    },
+    {
+      "heading": "Tertiary Sewage Treatment",
+      "title": "Tertiary Sewage Treatment",
+      "type": "paragraph",
+      "content": "Tertiary treatment is an advanced physicochemical process that removes dissolved inorganic nutrients (phosphates and nitrates) using chemical precipitation, sand/carbon filtration, and disinfects final effluent using Chlorination or UV radiation before discharge."
+    }
+  ]
+}

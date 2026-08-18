@@ -1,0 +1,58 @@
+{
+  "id": "chem-xii-u10-c1-l02",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit X \u2014 Solutions",
+  "unitNumber": 10,
+  "chapter": "Solutions",
+  "chapterNumber": 1,
+  "chapterSlug": "solutions",
+  "slug": "lesson-02-henrys-law-gas-solubility-thermodynamics",
+  "title": "Henry\u2019s Law & Gas-Liquid Solubility Thermodynamics",
+  "topic": "Henry's Law & Gas Solubility",
+  "topics": [
+    "Henry's Law Principle and Mathematical Equation (p = K_H \u00b7 x)",
+    "Thermodynamics of Gas Dissolution (\u0394_sol H < 0 Exothermic; T \u2191 \u27f9 K_H \u2191 \u27f9 Gas Solubility \u2193)",
+    "Henry's Law Applications: Soda Carbonation, Scuba Diving Bends Prevention (Helium Dilution), Altitude Sickness Anoxia"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "solutions",
+  "quickSummary": "Henry's Law: p = K_H \u00b7 x. Gas dissolution is exothermic (\u0394H < 0). As T increases, K_H increases and gas solubility decreases. Scuba diving bends prevented by diluting air with Helium (11.7% He).",
+  "summary": "Master Henry's Law calculations, thermodynamic trends of gas dissolution, and practical physiological applications.",
+  "conceptBreakdown": [
+    {
+      "heading": "2.1 Henry's Law & Thermodynamic Trends",
+      "title": "2.1 Henry's Law & Thermodynamic Trends",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Henry's Law",
+        "takeaway": "p = K_H \u00b7 x. Higher K_H indicates LOWER gas solubility. Dissolution is exothermic (\u0394H < 0), so heating drives gases out."
+      },
+      "codeSnippet": "HENRY'S LAW THERMODYNAMICS\n\nGas Dissolution: Gas(g) + Solvent(l) \u21cc Solution(l)  (\u0394_sol H < 0 [Exothermic])\n\n\u2022 Temperature Effect: As T \u2191 \u27f9 Equilibrium shifts LEFT \u27f9 Gas Solubility \u2193\n\u2022 K_H Temperature Trend: As T \u2191 \u27f9 K_H \u2191 (Higher K_H means LOWER solubility!)",
+      "content": "\u2022 **Henry's Law Equation**: $\\mathbf{p = K_H \\cdot x}$ where $p$ is partial pressure of gas, $x$ is dissolved mole fraction, and $K_H$ is Henry's Law constant.\n\u2022 **Thermodynamics**: Gas dissolution involves a decrease in entropy ($\\Delta S < 0$) and is **exothermic** ($\\Delta H < 0$). According to Le Chatelier's principle, increasing temperature shifts equilibrium backwards, reducing gas solubility and increasing $K_H$."
+    },
+    {
+      "heading": "2.2 Practical Applications & Scuba Bends Prevention",
+      "title": "2.2 Practical Applications & Scuba Bends Prevention",
+      "type": "paragraph",
+      "codeSnippet": "HENRY'S LAW APPLICATIONS\n\n1. Soft Drinks / Soda: Sealed under high pressure to maximize CO\u2082 solubility.\n2. Scuba Diving (Decompression Sickness / Bends):\n   High deep-sea pressure dissolves N\u2082 in blood. Rapid ascent causes N\u2082 gas bubbles in capillaries.\n   Prevention: Scuba tanks are diluted with Helium (11.7% He, 56.2% N\u2082, 32.1% O\u2082).\n3. Altitude Sickness (Anoxia): Low pO\u2082 at high altitudes causes low blood oxygen saturation.",
+      "content": "\u2022 **Scuba Diving Bends**: In deep waters, high hydrostatic pressure forces large amounts of $\\text{N}_2$ to dissolve in blood. Rapid ascent causes $\\text{N}_2$ to bubble out of solution, causing painful and fatal capillary blockages (**Bends**). Diluting scuba tanks with **Helium** ($11.7\\%$) prevents this due to Helium's low blood solubility."
+    }
+  ],
+  "quickRevision": [
+    "Higher K_H corresponds to LOWER gas solubility.",
+    "Gas dissolution is exothermic (\u0394H < 0).",
+    "Scuba tanks are diluted with 11.7% Helium to prevent bends.",
+    "p = K_H \u00b7 x."
+  ],
+  "keyFormulae": [
+    "p = K_H \\cdot x",
+    "x = \\frac{p}{K_H}"
+  ]
+}

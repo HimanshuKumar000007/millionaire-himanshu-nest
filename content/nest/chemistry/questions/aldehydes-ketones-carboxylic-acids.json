@@ -1,0 +1,923 @@
+[
+  {
+    "id": "chem-c08-001",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "Diagnostic Tests & Aldehyde Structure",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "An unknown organic compound X (C\u2088H\u2088O) gives a positive 2,4-DNP test forming an orange precipitate. Compound X reduces Tollens' reagent to form a silver mirror and gives a positive Iodoform test yielding yellow CHI\u2083 \u2193. Upon treatment with dilute NaOH, compound X undergoes a self-condensation reaction. What is the structural identity of X?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acetophenone (C\u2086H\u2085COCH\u2083)",
+        "isCorrect": false,
+        "explanation": "Acetophenone is a ketone and does NOT reduce Tollens' reagent to form a silver mirror."
+      },
+      {
+        "id": "B",
+        "text": "2-Methylbenzaldehyde",
+        "isCorrect": false,
+        "explanation": "Lacks \u03b1-hydrogens on the aldehyde carbon to undergo self-condensation aldol reaction."
+      },
+      {
+        "id": "C",
+        "text": "2-Phenylacetaldehyde (C\u2086H\u2085CH\u2082CHO)",
+        "isCorrect": true,
+        "explanation": "1. Positive 2,4-DNP test \u27f9 X is an Aldehyde or Ketone. 2. Reduces Tollens' reagent \u27f9 X MUST be an ALDEHYDE (RCHO), eliminating Acetophenone. 3. Positive Iodoform test and Aldol condensation \u27f9 2-Phenylacetaldehyde (C\u2086H\u2085CH\u2082CHO) contains \u03b1-hydrogens, undergoes Aldol, and reduces Tollens' reagent. Therefore, Option C is the intended aldehyde."
+      },
+      {
+        "id": "D",
+        "text": "4-Methylbenzaldehyde",
+        "isCorrect": false,
+        "explanation": "Aromatic aldehyde lacking \u03b1-hydrogens for aldol self-condensation."
+      }
+    ],
+    "solutionExplanation": "1. Positive 2,4-DNP test \u27f9 X is an Aldehyde or Ketone.\n2. Reduces Tollens' reagent \u27f9 X MUST be an ALDEHYDE (RCHO). This eliminates Acetophenone (a ketone).\n3. 2-Phenylacetaldehyde (C\u2086H\u2085CH\u2082CHO) contains \u03b1-hydrogens, undergoes aldol self-condensation, and reduces Tollens' reagent.",
+    "keyFormulae": [
+      "\\text{Tollens' Test: } R\\text{CHO} + 2[\\text{Ag(NH}_3)_2]^+ + 3\\text{OH}^- \\longrightarrow R\\text{COO}^- + 2\\text{Ag}^0 \\downarrow + 4\\text{NH}_3 + 2\\text{H}_2\\text{O}"
+    ],
+    "hints": [
+      "Tollens' reduction rules out ketones; aldol requires \u03b1-hydrogens."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-c08-002",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "Crossed Cannizzaro Reaction",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the major organic product obtained when Benzaldehyde (C\u2086H\u2085CHO) is reacted with Formaldehyde (HCHO) in the presence of concentrated 50% NaOH solution (Crossed Cannizzaro Reaction)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Benzyl alcohol + Sodium formate",
+        "isCorrect": true,
+        "explanation": "In a Crossed Cannizzaro reaction between Benzaldehyde and Formaldehyde, nucleophilic addition of OH\u207b occurs preferentially at the more electrophilic, less sterically hindered formaldehyde carbon (HCHO). Hydride transfer from the formal adduct reduces Benzaldehyde to Benzyl Alcohol (C\u2086H\u2085CH\u2082OH), while Formaldehyde is oxidized to Sodium Formate (HCOONa)."
+      },
+      {
+        "id": "B",
+        "text": "Sodium benzoate + Methanol",
+        "isCorrect": false,
+        "explanation": "Formaldehyde is oxidized preferentially due to faster nucleophilic attack and hydride release."
+      },
+      {
+        "id": "C",
+        "text": "Benzyl alcohol + Methanol",
+        "isCorrect": false,
+        "explanation": "Disproportionation requires one oxidation product (carboxylate) and one reduction product (alcohol)."
+      },
+      {
+        "id": "D",
+        "text": "Sodium benzoate + Sodium formate",
+        "isCorrect": false,
+        "explanation": "Both cannot be oxidized without a corresponding reduction."
+      }
+    ],
+    "solutionExplanation": "In a Crossed Cannizzaro reaction between Benzaldehyde and Formaldehyde, nucleophilic addition of OH\u207b occurs preferentially at the more electrophilic, less sterically hindered formaldehyde carbon (HCHO). Hydride transfer from the formal adduct reduces Benzaldehyde to Benzyl Alcohol (C\u2086H\u2085CH\u2082OH), while Formaldehyde is oxidized to Sodium Formate (HCOONa).",
+    "keyFormulae": [
+      "\\text{C}_6\\text{H}_5\\text{CHO} + \\text{HCHO} + \\text{Conc. NaOH} \\longrightarrow \\text{C}_6\\text{H}_5\\text{CH}_2\\text{OH} + \\text{HCOONa}"
+    ],
+    "hints": [
+      "Formaldehyde is more electrophilic and forms the hydride-donor adduct, getting oxidized to formate."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-c08-003",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "DIBAL-H Selective Reduction",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "An ester E (C\u2084H\u2088O\u2082) is treated with 1 equivalent of Diisobutylaluminium hydride (DIBAL-H) in dry toluene at -78\u00b0C, followed by aqueous workup. What organic products are formed from this selective reduction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Two moles of Ethanol",
+        "isCorrect": false,
+        "explanation": "Complete reduction to alcohol occurs with LiAlH\u2084, not DIBAL-H at -78\u00b0C."
+      },
+      {
+        "id": "B",
+        "text": "An Aldehyde and an Alcohol",
+        "isCorrect": true,
+        "explanation": "DIBAL-H at low temperatures (-78\u00b0C) selectively reduces esters (RCOOR') to Aldehydes (RCHO) and Alcohols (R'OH) without reducing the formed aldehyde further to a primary alcohol."
+      },
+      {
+        "id": "C",
+        "text": "Two moles of Carboxylic Acid",
+        "isCorrect": false,
+        "explanation": "Reduction does not form carboxylic acids."
+      },
+      {
+        "id": "D",
+        "text": "A 3\u00b0 Alcohol and a Ketone",
+        "isCorrect": false,
+        "explanation": "Incorrect reaction pathway."
+      }
+    ],
+    "solutionExplanation": "DIBAL-H at low temperatures (-78\u00b0C) selectively reduces esters (RCOOR') to Aldehydes (RCHO) and Alcohols (R'OH) without reducing the formed aldehyde further to a primary alcohol.",
+    "keyFormulae": [
+      "R\\text{-COOR'} \\xrightarrow{\\text{1. DIBAL-H } (-78^\\circ\\text{C}), \\text{ 2. H}_2\\text{O}} R\\text{CHO} + R'\\text{OH}"
+    ],
+    "hints": [
+      "DIBAL-H at -78\u00b0C stops reduction of esters cleanly at the aldehyde stage."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-c08-004",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "Carboxylic Acid Acidity Trends",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Arrange the following carboxylic acids in order of INCREASING Acidic Strength (lowest acidity to highest acidity):\n\n1. Acetic Acid (CH\u2083COOH)\n2. Formic Acid (HCOOH)\n3. Fluoroacetic Acid (FCH\u2082COOH)\n4. Trichloroacetic Acid (CCl\u2083COOH)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 < 2 < 3 < 4",
+        "isCorrect": true,
+        "explanation": "\u2022 Electron-donating +I groups (-CH\u2083 in Acetic acid) destabilize carboxylate, decreasing acidity (CH\u2083COOH < HCOOH). \u2022 Electron-withdrawing -I groups (-F, -Cl) stabilize carboxylate, increasing acidity. \u2022 -F is more electronegative than -Cl, so FCH\u2082COOH > HCOOH. \u2022 Three -Cl groups (CCl\u2083COOH) exert a massive -I effect, making it the strongest acid. Increasing acidity order: CH\u2083COOH (1) < HCOOH (2) < FCH\u2082COOH (3) < CCl\u2083COOH (4)."
+      },
+      {
+        "id": "B",
+        "text": "2 < 1 < 3 < 4",
+        "isCorrect": false,
+        "explanation": "Acetic acid is weaker than Formic acid."
+      },
+      {
+        "id": "C",
+        "text": "4 < 3 < 2 < 1",
+        "isCorrect": false,
+        "explanation": "Decreasing order instead of increasing."
+      },
+      {
+        "id": "D",
+        "text": "1 < 3 < 2 < 4",
+        "isCorrect": false,
+        "explanation": "Fluoroacetic acid is stronger than Formic acid."
+      }
+    ],
+    "solutionExplanation": "\u2022 Electron-donating +I groups (-CH\u2083 in Acetic acid) destabilize carboxylate, decreasing acidity (CH\u2083COOH < HCOOH).\n\u2022 Electron-withdrawing -I groups (-F, -Cl) stabilize carboxylate, increasing acidity.\n\u2022 -F is more electronegative than -Cl, so FCH\u2082COOH > HCOOH.\n\u2022 Three -Cl groups (CCl\u2083COOH) exert a massive -I effect, making it the strongest acid.\nIncreasing acidity order: CH\u2083COOH (1) < HCOOH (2) < FCH\u2082COOH (3) < CCl\u2083COOH (4).",
+    "keyFormulae": [
+      "\\text{Acidity: } \\text{CH}_3\\text{COOH} < \\text{HCOOH} < \\text{FCH}_2\\text{COOH} < \\text{CCl}_3\\text{COOH}"
+    ],
+    "hints": [
+      "+I decreases acidity; -I strongly increases acidity."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-c08-005",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "Hell-Volhard-Zelinsky (HVZ) Reaction",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "When Propanoic Acid (CH\u2083CH\u2082COOH) is treated with Red Phosphorus and Br\u2082 followed by addition of water (Hell-Volhard-Zelinsky / HVZ Reaction), what is the structural formula of the final organic product?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CH\u2083CH\u2082COBr",
+        "isCorrect": false,
+        "explanation": "Acid bromide intermediate is hydrolyzed by water back to carboxylic acid."
+      },
+      {
+        "id": "B",
+        "text": "CH\u2083CH(Br)COOH (2-Bromopropanoic acid)",
+        "isCorrect": true,
+        "explanation": "The HVZ reaction selectively halogenates the \u03b1-carbon of carboxylic acids possessing \u03b1-hydrogens. Propanoic acid (CH\u2083CH\u2082COOH) has 2 \u03b1-hydrogens at C-2. Treatment with Red P / Br\u2082 \u2500\u2500\u25ba H\u2082O yields 2-Bromopropanoic acid (CH\u2083CH(Br)COOH)."
+      },
+      {
+        "id": "C",
+        "text": "BrCH\u2082CH\u2082COOH (3-Bromopropanoic acid)",
+        "isCorrect": false,
+        "explanation": "Halogenation occurs strictly at the \u03b1-carbon (C-2), not the \u03b2-carbon (C-3)."
+      },
+      {
+        "id": "D",
+        "text": "CH\u2083C(Br)\u2082COOH",
+        "isCorrect": false,
+        "explanation": "Monobromination at the \u03b1-position is the primary product with 1 eq Br\u2082."
+      }
+    ],
+    "solutionExplanation": "The HVZ reaction selectively halogenates the \u03b1-carbon of carboxylic acids possessing \u03b1-hydrogens. Propanoic acid (CH\u2083CH\u2082COOH) has 2 \u03b1-hydrogens at C-2. Treatment with Red P / Br\u2082 \u2500\u2500\u25ba H\u2082O yields 2-Bromopropanoic acid (CH\u2083CH(Br)COOH).",
+    "keyFormulae": [
+      "\\text{CH}_3\\text{CH}_2\\text{COOH} + \\text{Br}_2 \\xrightarrow{\\text{1. Red P, } 2. \\text{ H}_2\\text{O}} \\text{CH}_3\\text{CH(Br)COOH} + \\text{HBr}"
+    ],
+    "hints": [
+      "HVZ selectively substitutes bromine onto the \u03b1-carbon adjacent to -COOH."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-c08-006",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "Acyl Substitution Reactivity Hierarchy",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Which of the following acid derivatives undergoes nucleophilic acyl substitution at the FASTEST intrinsic rate when reacted with water (H\u2082O)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acetamide (CH\u2083CONH\u2082)",
+        "isCorrect": false,
+        "explanation": "Least reactive due to strong resonance and poor NH\u2082\u207b leaving group."
+      },
+      {
+        "id": "B",
+        "text": "Ethyl Acetate (CH\u2083COOCH\u2082CH\u2083)",
+        "isCorrect": false,
+        "explanation": "Esters are less reactive than acyl chlorides and anhydrides."
+      },
+      {
+        "id": "C",
+        "text": "Acetic Anhydride ((CH\u2083CO)\u2082O)",
+        "isCorrect": false,
+        "explanation": "Reactive, but slower than acyl chlorides."
+      },
+      {
+        "id": "D",
+        "text": "Acetyl Chloride (CH\u2083COCl)",
+        "isCorrect": true,
+        "explanation": "Nucleophilic acyl substitution reactivity depends on leaving group stability (Cl\u207b > RCOO\u207b > RO\u207b > NH\u2082\u207b) and carbonyl electrophilicity. Acetyl Chloride (CH\u2083COCl) contains the best leaving group (Cl\u207b) and highest carbonyl \u03b4+ charge, reacting violently with water at room temperature."
+      }
+    ],
+    "solutionExplanation": "Nucleophilic acyl substitution reactivity depends on leaving group stability (Cl\u207b > RCOO\u207b > RO\u207b > NH\u2082\u207b) and carbonyl electrophilicity. Acetyl Chloride (CH\u2083COCl) contains the best leaving group (Cl\u207b) and highest carbonyl \u03b4+ charge, reacting violently with water at room temperature.",
+    "keyFormulae": [
+      "\\text{Reactivity: } R\\text{COCl} > (R\\text{CO})_2\\text{O} > R\\text{COOR'} > R\\text{CONH}_2"
+    ],
+    "hints": [
+      "Chloride ion is the weakest base and best leaving group among acid derivatives."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-c08-007",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "Wolff-Kishner Reduction Product",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the major product obtained when Pentan-3-one (CH\u2083CH\u2082COCH\u2082CH\u2083) is treated with Hydrazine (NH\u2082NH\u2082) followed by heating with KOH in Ethylene Glycol solvent at 180\u00b0C (Wolff-Kishner Reduction)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pentan-3-ol",
+        "isCorrect": false,
+        "explanation": "Pentan-3-ol is the product of NaBH\u2084 reduction, not deoxygenation."
+      },
+      {
+        "id": "B",
+        "text": "n-Pentane (CH\u2083CH\u2082CH\u2082CH\u2082CH\u2083)",
+        "isCorrect": true,
+        "explanation": "The Wolff-Kishner Reduction (NH\u2082NH\u2082 / KOH, ethylene glycol, \u0394) completely deoxygenates carbonyl groups (>C=O) into methylene groups (>CH\u2082). Pentan-3-one is reduced directly to n-Pentane."
+      },
+      {
+        "id": "C",
+        "text": "Pent-2-ene",
+        "isCorrect": false,
+        "explanation": "Elimination product, not the primary deoxygenation product."
+      },
+      {
+        "id": "D",
+        "text": "Pentanoic acid",
+        "isCorrect": false,
+        "explanation": "Oxidation product, not reduction."
+      }
+    ],
+    "solutionExplanation": "The Wolff-Kishner Reduction (NH\u2082NH\u2082 / KOH, ethylene glycol, \u0394) completely deoxygenates carbonyl groups (>C=O) into methylene groups (>CH\u2082). Pentan-3-one is reduced directly to n-Pentane.",
+    "keyFormulae": [
+      ">\\text{C=O} \\xrightarrow{\\text{NH}_2\\text{NH}_2 / \\text{KOH, } \\Delta} >\\text{CH}_2 + \\text{N}_2 \\uparrow"
+    ],
+    "hints": [
+      "Wolff-Kishner converts >C=O directly into >CH\u2082 (hydrocarbon)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-c08-008",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "Claisen-Schmidt Crossed Aldol Product",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "A student mixes Benzaldehyde (C\u2086H\u2085CHO) and Propanal (CH\u2083CH\u2082CHO) in dilute NaOH solution and heats the mixture (Claisen-Schmidt Crossed Aldol). What is the IUPAC name of the major dehydrated cross-aldol condensation product?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2-Methyl-3-phenylprop-2-enal",
+        "isCorrect": true,
+        "explanation": "1. Enolate generation occurs at the \u03b1-carbon of Propanal: CH\u2083-C\u0304H-CHO. 2. Enolate attacks Benzaldehyde (C\u2086H\u2085CHO): C\u2086H\u2085CHO + CH\u2083CH\u2082CHO \u2500\u2500\u25ba C\u2086H\u2085-CH(OH)-CH(CH\u2083)-CHO. 3. Dehydration (-H\u2082O) yields C\u2086H\u2085-CH=C(CH\u2083)-CHO (2-Methyl-3-phenylprop-2-enal)."
+      },
+      {
+        "id": "B",
+        "text": "3-Phenylprop-2-enal (Cinnamaldehyde)",
+        "isCorrect": false,
+        "explanation": "Cinnamaldehyde is formed from Benzaldehyde + Acetaldehyde (CH\u2083CHO), not Propanal."
+      },
+      {
+        "id": "C",
+        "text": "1-Phenylbut-2-en-1-one",
+        "isCorrect": false,
+        "explanation": "Requires acetophenone as the reactant."
+      },
+      {
+        "id": "D",
+        "text": "3-Methyl-3-phenylpropanal",
+        "isCorrect": false,
+        "explanation": "Incorrect condensation architecture."
+      }
+    ],
+    "solutionExplanation": "1. Enolate generation occurs at the \u03b1-carbon of Propanal: CH\u2083-C\u0304H-CHO.\n2. Enolate attacks Benzaldehyde (C\u2086H\u2085CHO): C\u2086H\u2085CHO + CH\u2083CH\u2082CHO \u2500\u2500\u25ba C\u2086H\u2085-CH(OH)-CH(CH\u2083)-CHO.\n3. Dehydration (-H\u2082O) yields C\u2086H\u2085-CH=C(CH\u2083)-CHO (2-Methyl-3-phenylprop-2-enal).",
+    "keyFormulae": [
+      "\\text{C}_6\\text{H}_5\\text{CHO} + \\text{CH}_3\\text{CH}_2\\text{CHO} \\xrightarrow{\\text{dil. NaOH}, \\Delta} \\text{C}_6\\text{H}_5\\text{-CH=C(CH}_3\\text{)-CHO} + \\text{H}_2\\text{O}"
+    ],
+    "hints": [
+      "The \u03b1-carbon of propanal is C-2 (bearing the methyl branch)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-c08-009",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "Semicarbazide Nucleophilicity Mechanism",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Why does Semicarbazide (H\u2082N\u207d\u00b9\u207e-NH-CO-NH\u2082\u207d\u00b2\u207e) react with aldehydes to form semicarbazones using ONLY the NH\u2082\u207d\u00b9\u207e group, while the NH\u2082\u207d\u00b2\u207e group remains completely unreactive?",
+    "options": [
+      {
+        "id": "A",
+        "text": "NH\u2082\u207d\u00b2\u207e is sterically blocked by two phenyl rings.",
+        "isCorrect": false,
+        "explanation": "There are no phenyl rings in semicarbazide."
+      },
+      {
+        "id": "B",
+        "text": "Lone pair electrons on NH\u2082\u207d\u00b2\u207e are delocalized into the adjacent carbonyl group via resonance (H\u2082N-C(=O)-NH\u2082 \u27f7 H\u2082N-C(O\u207b)=NH\u2082\u207a), making them non-nucleophilic.",
+        "isCorrect": true,
+        "explanation": "Semicarbazide contains two terminal amino groups. The electrons on NH\u2082\u207d\u00b2\u207e are conjugated with the carbonyl C=O group through resonance and are delocalized, making them non-nucleophilic. The NH\u2082\u207d\u00b9\u207e group attached to -NH- is isolated from the carbonyl, retaining its localized lone pair to act as a strong nucleophile."
+      },
+      {
+        "id": "C",
+        "text": "NH\u2082\u207d\u00b9\u207e is an acidic group.",
+        "isCorrect": false,
+        "explanation": "NH\u2082 groups are basic/nucleophilic, not acidic."
+      },
+      {
+        "id": "D",
+        "text": "NH\u2082\u207d\u00b2\u207e undergoes immediate oxidation to N\u2082 gas.",
+        "isCorrect": false,
+        "explanation": "Oxidation to N\u2082 does not occur in standard condensation."
+      }
+    ],
+    "solutionExplanation": "Semicarbazide contains two terminal amino groups. The electrons on NH\u2082\u207d\u00b2\u207e are conjugated with the carbonyl C=O group through resonance and are delocalized, making them non-nucleophilic. The NH\u2082\u207d\u00b9\u207e group attached to -NH- is isolated from the carbonyl, retaining its localized lone pair to act as a strong nucleophile.",
+    "keyFormulae": [
+      "\\text{H}_2\\text{N-C(=O)-NH}_2 \\longleftrightarrow \\text{H}_2\\text{N-C(O}^-\\text{)=NH}_2^+"
+    ],
+    "hints": [
+      "Amide resonance delocalizes the lone pair of the NH\u2082 group directly attached to C=O."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-c08-010",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "Grignard Dry Ice Carbonation",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What organic acid is produced when a Grignard reagent, Methylmagnesium bromide (CH\u2083MgBr), is reacted with Solid Carbon Dioxide (Dry Ice) in dry ether, followed by acidic hydrolysis (H\u2083O\u207a)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Formic Acid (HCOOH)",
+        "isCorrect": false,
+        "explanation": "Formic acid contains 1 carbon; CH\u2083MgBr + CO\u2082 adds a 2nd carbon."
+      },
+      {
+        "id": "B",
+        "text": "Acetic Acid (CH\u2083COOH)",
+        "isCorrect": true,
+        "explanation": "1. Nucleophilic attack of CH\u2083\u207b from Grignard onto electrophilic CO\u2082: CH\u2083MgBr + O=C=O \u2500\u2500\u25ba CH\u2083-COO\u207b MgBr\u207a. 2. Acidic hydrolysis yields Acetic Acid (CH\u2083COOH) + Mg(OH)Br."
+      },
+      {
+        "id": "C",
+        "text": "Propanoic Acid (CH\u2083CH\u2082COOH)",
+        "isCorrect": false,
+        "explanation": "Propanoic acid requires Ethylmagnesium bromide."
+      },
+      {
+        "id": "D",
+        "text": "Oxalic Acid ((COOH)\u2082)",
+        "isCorrect": false,
+        "explanation": "Dicarboxylic acid not formed from monomagnesium Grignard."
+      }
+    ],
+    "solutionExplanation": "1. Nucleophilic attack of CH\u2083\u207b from Grignard onto electrophilic CO\u2082: CH\u2083MgBr + O=C=O \u2500\u2500\u25ba CH\u2083-COO\u207b MgBr\u207a.\n2. Acidic hydrolysis yields Acetic Acid (CH\u2083COOH) + Mg(OH)Br.",
+    "keyFormulae": [
+      "\\text{CH}_3\\text{MgBr} + \\text{CO}_2 \\longrightarrow \\text{CH}_3\\text{COOMgBr} \\xrightarrow{\\text{H}_3\\text{O}^+} \\text{CH}_3\\text{COOH}"
+    ],
+    "hints": [
+      "Grignard carbonation adds 1 carbon to the alkyl group of the Grignard reagent."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-c08-011",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "Cannizzaro Reaction Substrates",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following aldehydes/ketones will undergo a CANNIZZARO REACTION when treated with concentrated 50% NaOH solution? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Formaldehyde (HCHO)",
+        "isCorrect": true,
+        "explanation": "Lacks \u03b1-hydrogens, undergoes Cannizzaro to methanol + formate."
+      },
+      {
+        "id": "B",
+        "text": "Benzaldehyde (C\u2086H\u2085CHO)",
+        "isCorrect": true,
+        "explanation": "Lacks \u03b1-hydrogens, undergoes Cannizzaro to benzyl alcohol + benzoate."
+      },
+      {
+        "id": "C",
+        "text": "2,2-Dimethylpropanal / Trimethylacetaldehyde ((CH\u2083)\u2083C-CHO)",
+        "isCorrect": true,
+        "explanation": "Lacks \u03b1-hydrogens, undergoes Cannizzaro to neopentyl alcohol + pivalate."
+      },
+      {
+        "id": "D",
+        "text": "Acetaldehyde (CH\u2083CHO)",
+        "isCorrect": false,
+        "explanation": "Possesses 3 \u03b1-hydrogens and undergoes Aldol condensation instead."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: HCHO, C\u2086H\u2085CHO, and (CH\u2083)\u2083C-CHO LACK \u03b1-hydrogens and undergo self-redox Cannizzaro reactions in 50% NaOH.\n\u2022 D is incorrect: Acetaldehyde (CH\u2083CHO) HAS 3 \u03b1-hydrogens and undergoes Aldol Condensation instead!",
+    "keyFormulae": [
+      "\\text{Cannizzaro Requirement: Aldehyde LACKING } \\alpha\\text{-Hydrogens } (n=0)"
+    ],
+    "hints": [
+      "Cannizzaro strictly requires the absence of \u03b1-hydrogens."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-c08-012",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "Tollens' vs Fehling's Differentiation",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding Tollens' and Fehling's diagnostic tests: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tollens' reagent ([Ag(NH\u2083)\u2082]\u207a) oxidizes both aliphatic and aromatic aldehydes to carboxylates, forming a silver mirror (Ag\u2070 \u2193).",
+        "isCorrect": true,
+        "explanation": "Universal aldehyde oxidation reagent."
+      },
+      {
+        "id": "B",
+        "text": "Fehling's solution (Cu\u00b2\u207a tartrate complex) oxidizes ALIPHATIC aldehydes to give a red precipitate of Cu\u2082O \u2193.",
+        "isCorrect": true,
+        "explanation": "Oxidizes aliphatic aldehydes."
+      },
+      {
+        "id": "C",
+        "text": "Aromatic aldehydes like Benzaldehyde reduce Tollens' reagent but FAIL to reduce Fehling's solution.",
+        "isCorrect": true,
+        "explanation": "Aromatic aldehydes fail Fehling's test due to weaker electrophilicity."
+      },
+      {
+        "id": "D",
+        "text": "Ketones readily reduce both Tollens' and Fehling's reagents under mild conditions.",
+        "isCorrect": false,
+        "explanation": "Ketones are resistant to mild oxidation and give negative Tollens' and Fehling's tests."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Tollens' oxidizes aliphatic/aromatic aldehydes; Fehling's oxidizes only aliphatic aldehydes (benzaldehyde fails Fehling's).\n\u2022 D is incorrect: Simple ketones are resistant to oxidation and give negative tests for both Tollens' and Fehling's.",
+    "keyFormulae": [
+      "\\text{Tollens': Aliphatic + Aromatic Aldehydes} \\longrightarrow 2\\text{Ag}^0 \\downarrow",
+      "\\text{Fehling's: Aliphatic Aldehydes ONLY} \\longrightarrow \\text{Cu}_2\\text{O} \\downarrow"
+    ],
+    "hints": [
+      "Aromatic aldehydes reduce Tollens' but fail Fehling's."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-c08-013",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "Carbonyl Deoxygenation Reagents",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following reagents can be used to perform a DEOXYGENATION REDUCTION of a carbonyl group (>C=O \u2500\u2500\u25ba >CH\u2082)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Zn-Hg / conc. HCl (Clemmensen Reduction)",
+        "isCorrect": true,
+        "explanation": "Acidic deoxygenation of carbonyls to methylene groups."
+      },
+      {
+        "id": "B",
+        "text": "NH\u2082NH\u2082 / KOH in Ethylene Glycol, \u0394 (Wolff-Kishner Reduction)",
+        "isCorrect": true,
+        "explanation": "Basic deoxygenation of carbonyls to methylene groups."
+      },
+      {
+        "id": "C",
+        "text": "LiAlH\u2084 in dry ether",
+        "isCorrect": false,
+        "explanation": "Reduces >C=O to Alcohol (>CH-OH), not methylene (>CH\u2082)."
+      },
+      {
+        "id": "D",
+        "text": "PCC in CH\u2082Cl\u2082",
+        "isCorrect": false,
+        "explanation": "PCC is an oxidizing agent."
+      }
+    ],
+    "solutionExplanation": "\u2022 A and B are correct: Clemmensen (Zn-Hg/HCl) and Wolff-Kishner (NH\u2082NH\u2082/KOH) convert >C=O into >CH\u2082.\n\u2022 C is incorrect: LiAlH\u2084 reduces >C=O to an Alcohol (>CH-OH), NOT a hydrocarbon.\n\u2022 D is incorrect: PCC is an oxidizing agent.",
+    "keyFormulae": [
+      ">\\text{C=O} \\xrightarrow{\\text{Zn-Hg/HCl OR NH}_2\\text{NH}_2/\\text{KOH}} >\\text{CH}_2"
+    ],
+    "hints": [
+      "Clemmensen and Wolff-Kishner both perform complete deoxygenation."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-c08-014",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "Carboxylic Acid Acidity Facts",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding the Acidity of Carboxylic Acids: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Carboxylic acids are stronger acids than phenols because the negative charge on carboxylate (R-COO\u207b) is delocalized equally over two electronegative oxygen atoms.",
+        "isCorrect": true,
+        "explanation": "Equivalent resonance canonicals on electronegative oxygens maximize stability."
+      },
+      {
+        "id": "B",
+        "text": "Electron-withdrawing groups (-I / -M) like -NO\u2082, -F, -Cl increase carboxylic acid strength.",
+        "isCorrect": true,
+        "explanation": "EWG stabilizes the negative charge on carboxylate."
+      },
+      {
+        "id": "C",
+        "text": "Almost all o-substituted benzoic acids are stronger acids than benzoic acid due to the Ortho-Effect.",
+        "isCorrect": true,
+        "explanation": "Steric inhibition of resonance (SIR) forces -COOH out of plane, stabilizing carboxylate."
+      },
+      {
+        "id": "D",
+        "text": "Acetic acid (CH\u2083COOH) is a stronger acid than Formic acid (HCOOH).",
+        "isCorrect": false,
+        "explanation": "Formic acid (pKa 3.75) is stronger than Acetic acid (pKa 4.76) due to absence of +I methyl group."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Carboxylate resonance delocalizes charge over 2 oxygens; -I/-M groups increase acidity; o-substituted benzoic acids show the Ortho-Effect.\n\u2022 D is incorrect: Formic acid (HCOOH, pK_a = 3.75) is STRONGER than Acetic acid (CH\u2083COOH, pK_a = 4.76) because the +I methyl group destabilizes the acetate anion.",
+    "keyFormulae": [
+      "\\text{p}K_a(\\text{HCOOH}) = 3.75 < \\text{p}K_a(\\text{CH}_3\\text{COOH}) = 4.76"
+    ],
+    "hints": [
+      "+I methyl group in acetic acid weakens acidity relative to formic acid."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-c08-015",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "Positive Iodoform Test Substrates",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following compounds will give a POSITIVE IODOFORM TEST (CHI\u2083 \u2193 yellow precipitate) when treated with Iodine and aqueous NaOH? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acetaldehyde (CH\u2083CHO)",
+        "isCorrect": true,
+        "explanation": "Contains CH\u2083CO- group (only aldehyde giving iodoform)."
+      },
+      {
+        "id": "B",
+        "text": "Acetone (CH\u2083COCH\u2083)",
+        "isCorrect": true,
+        "explanation": "Methyl ketone giving positive iodoform test."
+      },
+      {
+        "id": "C",
+        "text": "Acetophenone (C\u2086H\u2085COCH\u2083)",
+        "isCorrect": true,
+        "explanation": "Methyl ketone giving positive iodoform test."
+      },
+      {
+        "id": "D",
+        "text": "Benzophenone (C\u2086H\u2085COC\u2086H\u2085)",
+        "isCorrect": false,
+        "explanation": "Lacks CH\u2083CO- methyl group, gives negative iodoform test."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Acetaldehyde (CH\u2083CHO), Acetone (CH\u2083COCH\u2083), and Acetophenone (C\u2086H\u2085COCH\u2083) all contain the required CH\u2083CO- methyl ketone group.\n\u2022 D is incorrect: Benzophenone (Ph-CO-Ph) lacks a methyl group attached to carbonyl and gives a negative iodoform test.",
+    "keyFormulae": [
+      "\\text{Iodoform Requirement: } \\text{CH}_3\\text{CO-} \\quad \\text{or} \\quad \\text{CH}_3\\text{CH(OH)-}"
+    ],
+    "hints": [
+      "Only compounds with a CH\u2083CO- or CH\u2083CH(OH)- group give a positive iodoform test."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-c08-016",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "Benzaldehyde Synthetic Routes",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following specific methods can be used to synthesize BENZALDEHYDE (C\u2086H\u2085CHO)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Etard Reaction (Toluene + CrO\u2082Cl\u2082 in CS\u2082 followed by H\u2083O\u207a)",
+        "isCorrect": true,
+        "explanation": "Chromyl chloride oxidation of toluene gives benzaldehyde."
+      },
+      {
+        "id": "B",
+        "text": "Gattermann-Koch Reaction (Benzene + CO + HCl in anhyd. AlCl\u2083 / CuCl)",
+        "isCorrect": true,
+        "explanation": "Direct formylation of benzene gives benzaldehyde."
+      },
+      {
+        "id": "C",
+        "text": "Rosenmund Reduction of Benzoyl Chloride (C\u2086H\u2085COCl + H\u2082 / Pd-BaSO\u2084)",
+        "isCorrect": true,
+        "explanation": "Catalytic reduction of benzoyl chloride gives benzaldehyde."
+      },
+      {
+        "id": "D",
+        "text": "Reimer-Tiemann Reaction of Phenol",
+        "isCorrect": false,
+        "explanation": "Reimer-Tiemann of phenol yields Salicylaldehyde (2-hydroxybenzaldehyde), not benzaldehyde."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Etard reaction, Gattermann-Koch, and Rosenmund reduction of benzoyl chloride are established syntheses of Benzaldehyde.\n\u2022 D is incorrect: Reimer-Tiemann reaction of phenol yields Salicylaldehyde (2-Hydroxybenzaldehyde), NOT benzaldehyde.",
+    "keyFormulae": [
+      "\\text{Benzaldehyde Syntheses: Etard, Gattermann-Koch, Rosenmund}"
+    ],
+    "hints": [
+      "Reimer-Tiemann formylates phenol to salicylaldehyde."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-c08-017",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "Hell-Volhard-Zelinsky (HVZ) Reaction Rules",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding the Hell-Volhard-Zelinsky (HVZ) Reaction: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Converts carboxylic acids possessing \u03b1-hydrogens into \u03b1-halo carboxylic acids.",
+        "isCorrect": true,
+        "explanation": "Core reaction outcome."
+      },
+      {
+        "id": "B",
+        "text": "Uses Chlorine or Bromine in the presence of Red Phosphorus (X\u2082 / Red P) followed by water.",
+        "isCorrect": true,
+        "explanation": "Standard reagents."
+      },
+      {
+        "id": "C",
+        "text": "Formic Acid (HCOOH) and Trimethylacetic acid (CH\u2083)\u2083C-COOH FAIL the HVZ reaction.",
+        "isCorrect": true,
+        "explanation": "Both lack \u03b1-hydrogens."
+      },
+      {
+        "id": "D",
+        "text": "It operates via an enol/acid halide intermediate.",
+        "isCorrect": true,
+        "explanation": "PX\u2083 generates acid halide which enolizes readily."
+      }
+    ],
+    "solutionExplanation": "All four options represent true chemical facts regarding the HVZ \u03b1-halogenation reaction and its requirement for \u03b1-hydrogens.",
+    "keyFormulae": [
+      "R\\text{-CH}_2\\text{-COOH} + \\text{X}_2 \\xrightarrow{\\text{1. Red P, } 2. \\text{ H}_2\\text{O}} R\\text{-CH(X)-COOH} + \\text{HX}"
+    ],
+    "hints": [
+      "HVZ requires at least one \u03b1-hydrogen to form the enol intermediate."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-c08-018",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "Acid Derivative Hydrolysis to Carboxylic Acid",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following acid derivatives undergo conversion back to the parent Carboxylic Acid (RCOOH) upon nucleophilic acyl substitution / hydrolysis with water? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acyl Chlorides (RCOCl)",
+        "isCorrect": true,
+        "explanation": "RCOCl + H\u2082O \u2500\u2500\u25ba RCOOH + HCl."
+      },
+      {
+        "id": "B",
+        "text": "Acid Anhydrides ((RCO)\u2082O)",
+        "isCorrect": true,
+        "explanation": "(RCO)\u2082O + H\u2082O \u2500\u2500\u25ba 2 RCOOH."
+      },
+      {
+        "id": "C",
+        "text": "Esters (RCOOR')",
+        "isCorrect": true,
+        "explanation": "RCOOR' + H\u2082O \u2500\u2500\u25ba RCOOH + R'OH."
+      },
+      {
+        "id": "D",
+        "text": "Amides (RCONH\u2082)",
+        "isCorrect": true,
+        "explanation": "RCONH\u2082 + H\u2082O \u2500\u2500\u25ba RCOOH + NH\u2083."
+      }
+    ],
+    "solutionExplanation": "All four major acid derivatives (acyl chlorides, anhydrides, esters, amides) undergo nucleophilic acyl substitution upon hydrolysis (H\u2083O\u207a) to regenerate the parent Carboxylic Acid (RCOOH).",
+    "keyFormulae": [
+      "\\text{Hydrolysis of Derivatives: } R\\text{COX} + \\text{H}_2\\text{O} \\longrightarrow R\\text{COOH} + \\text{HX}"
+    ],
+    "hints": [
+      "All four acid derivatives hydrolyze to carboxylic acids."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-c08-019",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "Carbonyl Reactivity Factors",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding the reactivity of Carbonyls toward Nucleophilic Addition (A_N): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aldehydes are generally more reactive than Ketones due to steric and electronic factors.",
+        "isCorrect": true,
+        "explanation": "Aldehydes have less steric crowding and less +I stabilization."
+      },
+      {
+        "id": "B",
+        "text": "Formaldehyde (HCHO) is the most reactive simple carbonyl compound.",
+        "isCorrect": true,
+        "explanation": "No +I alkyl groups and minimal steric hindrance."
+      },
+      {
+        "id": "C",
+        "text": "Electron-withdrawing groups (-I / -M) on an aromatic ring increase the reactivity of benzaldehydes toward nucleophiles.",
+        "isCorrect": true,
+        "explanation": "EWG increases the \u03b4+ electrophilic charge on the carbonyl carbon."
+      },
+      {
+        "id": "D",
+        "text": "Propanone (Acetone) is more reactive than Ethanal (Acetaldehyde).",
+        "isCorrect": false,
+        "explanation": "Ethanal (aldehyde) is MORE reactive than Propanone (ketone)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Aldehydes > Ketones; HCHO is most reactive; -I/-M groups increase carbonyl electrophilicity.\n\u2022 D is incorrect: Ethanal (CH\u2083CHO, aldehyde) is MORE reactive than Propanone (CH\u2083COCH\u2083, ketone).",
+    "keyFormulae": [
+      "\\text{Reactivity: } \\text{HCHO} > \\text{CH}_3\\text{CHO} > \\text{CH}_3\\text{COCH}_3"
+    ],
+    "hints": [
+      "Aldehydes are more reactive than ketones due to steric and electronic factors."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-c08-020",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones, and Carboxylic Acids",
+    "subtopic": "Ketone Synthesis from Acid Chlorides",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following reagents can be used to convert an Acid Chloride (RCOCl) into a Ketone (R-CO-R')? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dialkylcadmium (R'\u2082Cd)",
+        "isCorrect": true,
+        "explanation": "Reacts with acid chlorides to yield ketones without reacting further with the ketone."
+      },
+      {
+        "id": "B",
+        "text": "Lithium Dialkylcuprate / Gilman Reagent (R'\u2082CuLi)",
+        "isCorrect": true,
+        "explanation": "Gilman reagent selectively couples with acid chlorides to give ketones."
+      },
+      {
+        "id": "C",
+        "text": "Grignard Reagent (R'MgX) in 1:1 stoichiometric ratio under controlled conditions",
+        "isCorrect": true,
+        "explanation": "Controlled low-temperature reaction can isolate the ketone."
+      },
+      {
+        "id": "D",
+        "text": "Concentrated NaOH (Cannizzaro)",
+        "isCorrect": false,
+        "explanation": "Concentrated NaOH hydrolyzes acid chlorides to carboxylate salts (RCOONa)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Dialkylcadmium (R'\u2082Cd), Gilman reagents (R'\u2082CuLi), and controlled Grignard reagents convert acid chlorides into ketones.\n\u2022 D is incorrect: Concentrated NaOH hydrolyzes acid chlorides to carboxylate salts (RCOONa).",
+    "keyFormulae": [
+      "2 R\\text{COCl} + R'_2\\text{Cd} \\longrightarrow 2 R\\text{-CO-}R' + \\text{CdCl}_2"
+    ],
+    "hints": [
+      "Organocadmium and Gilman reagents are milder than Grignards and selectively stop at ketones."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

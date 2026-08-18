@@ -1,0 +1,862 @@
+[
+  {
+    "id": "nest-math-sets-001",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "Power Set Cardinality",
+    "difficulty": "Moderate",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MCQ",
+    "questionText": "Let $A_0 = \\emptyset$, and for every integer $k \\ge 0$, let $A_{k+1} = \\mathcal{P}(A_k)$, where $\\mathcal{P}(S)$ denotes the power set of $S$. What is the exact value of the cardinality $|\\mathcal{P}(\\mathcal{P}(A_3))|$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$2^{16}$",
+        "isCorrect": true,
+        "explanation": "$|A_0| = 0 \\implies |A_1| = 1 \\implies |A_2| = 2 \\implies |A_3| = 4 \\implies |\\mathcal{P}(A_3)| = 2^4 = 16 \\implies |\\mathcal{P}(\\mathcal{P}(A_3))| = 2^{16} = 65536$."
+      },
+      {
+        "id": "b",
+        "text": "$2^4$",
+        "isCorrect": false,
+        "explanation": "Incorrect: $2^4$ is $|\\mathcal{P}(A_3)|$, but another power set operation is applied."
+      },
+      {
+        "id": "c",
+        "text": "$2^{65536}$",
+        "isCorrect": false,
+        "explanation": "Incorrect: This would correspond to applying the power set operator one additional time."
+      },
+      {
+        "id": "d",
+        "text": "$2^8$",
+        "isCorrect": false,
+        "explanation": "Incorrect computation of exponent tower."
+      }
+    ],
+    "solutionExplanation": "Let us compute the cardinalities step-by-step:\n1. $|A_0| = |\\emptyset| = 0$.\n2. $|A_1| = |\\mathcal{P}(A_0)| = 2^0 = 1$.\n3. $|A_2| = |\\mathcal{P}(A_1)| = 2^1 = 2$.\n4. $|A_3| = |\\mathcal{P}(A_2)| = 2^2 = 4$.\n5. $|\\mathcal{P}(A_3)| = 2^{|A_3|} = 2^4 = 16$.\n6. $|\\mathcal{P}(\\mathcal{P}(A_3))| = 2^{|\\mathcal{P}(A_3)|} = 2^{16} = 65536$.\nThus, Option A ($2^{16}$) is the exact value.",
+    "keyFormulae": ["|\\mathcal{P}(S)| = 2^{|S|}"],
+    "hints": ["Compute the size of each nested set starting from the empty base case."],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "nest-math-sets-002",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "Inclusion-Exclusion & Bonferroni",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MCQ",
+    "questionText": "In a competitive examination survey of 100 NISER aspirants, $A$ represents students who solved Physics, $B$ represents Chemistry, and $C$ represents Biology. Given $|A| = 75$, $|B| = 80$, and $|C| = 85$. What is the ABSOLUTE MINIMUM possible value of $|A \\cap B \\cap C|$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "35",
+        "isCorrect": false,
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "b",
+        "text": "40",
+        "isCorrect": true,
+        "explanation": "Maximum number who failed at least one subject = $25 + 20 + 15 = 60$. Minimum intersection = $100 - 60 = 40$."
+      },
+      {
+        "id": "c",
+        "text": "50",
+        "isCorrect": false,
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "60",
+        "isCorrect": false,
+        "explanation": "60 is the maximum union of complements, not the minimum triple intersection."
+      }
+    ],
+    "solutionExplanation": "By Bonferroni's Inequality for set complements:\n- $|A'| = 100 - 75 = 25$\n- $|B'| = 100 - 80 = 20$\n- $|C'| = 100 - 85 = 15$\n$|A' \\cup B' \\cup C'| \\le 25 + 20 + 15 = 60$.\nThe students who solved all three is $(A' \\cup B' \\cup C')' = A \\cap B \\cap C$, hence $|A \\cap B \\cap C| \\ge 100 - 60 = 40$.",
+    "keyFormulae": ["|A \\cap B \\cap C| \\ge |U| - (|A'| + |B'| + |C'|)"],
+    "hints": ["Find the maximum number of students who failed at least one subject."],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "nest-math-sets-003",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "Infinite Interval Topology",
+    "difficulty": "Rigor",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MCQ",
+    "questionText": "Consider the family of infinite intervals $I_n = \\left( 1 - \\frac{1}{n}, 2 + \\frac{1}{n} \\right]$ for all $n \\in \\mathbb{N} = \\{1, 2, 3, \\dots\\}$. What are the exact sets evaluated by the infinite intersection $\\bigcap_{n=1}^\\infty I_n$ and the infinite union $\\bigcup_{n=1}^\\infty I_n$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\bigcap_{n=1}^\\infty I_n = [1, 2]$ and $\\bigcup_{n=1}^\\infty I_n = (0, 3]$",
+        "isCorrect": true,
+        "explanation": "Nested decreasing sequence: union is $I_1 = (0, 3]$, intersection limits to $[1, 2]$."
+      },
+      {
+        "id": "b",
+        "text": "$\\bigcap_{n=1}^\\infty I_n = [1, 2]$ and $\\bigcup_{n=1}^\\infty I_n = [0, 3]$",
+        "isCorrect": false,
+        "explanation": "The union endpoint at 0 is open because for $n=1$, $1 - 1/1 = 0$ is excluded."
+      },
+      {
+        "id": "c",
+        "text": "$\\bigcap_{n=1}^\\infty I_n = (1, 2]$ and $\\bigcup_{n=1}^\\infty I_n = (0, 3]$",
+        "isCorrect": false,
+        "explanation": "Left endpoint 1 is included in all $I_n$ since $1 - 1/n < 1$ for all $n \\ge 1$."
+      },
+      {
+        "id": "d",
+        "text": "$\\bigcap_{n=1}^\\infty I_n = [1, 2) and \\bigcup_{n=1}^\\infty I_n = [0, 3)$",
+        "isCorrect": false,
+        "explanation": "Incorrect interval boundaries."
+      }
+    ],
+    "solutionExplanation": "For $n=1,2,3,\\dots$, $I_1 = (0, 3]$, $I_2 = (0.5, 2.5]$, so $I_1 \\supset I_2 \\supset I_3 \\supset \\dots$. The union is simply $I_1 = (0, 3]$. For the intersection, $x=1$ satisfies $1 - 1/n < 1 \\le 2 + 1/n$ for all $n \\ge 1$, so 1 is included. For any $x > 2$, choosing $n > 1/(x-2)$ excludes $x$. Thus the intersection is $[1, 2]$.",
+    "keyFormulae": ["\\bigcup I_n = I_1", "\\bigcap I_n = [1, 2]"],
+    "hints": ["Check containment for $n=1$ and the behavior as $n \\to \\infty$."],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "nest-math-sets-004",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "Symmetric Difference Algebra",
+    "difficulty": "Moderate",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MCQ",
+    "questionText": "Let $A$ and $B$ be two fixed subsets of a universal set $U$. If $X$ is an unknown set satisfying the symmetric difference equation $A \\Delta X = B$, express $X$ explicitly in terms of $A$ and $B$.",
+    "options": [
+      {
+        "id": "a",
+        "text": "$X = A \\setminus B$",
+        "isCorrect": false,
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "b",
+        "text": "$X = A \\cup B$",
+        "isCorrect": false,
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "c",
+        "text": "$X = A \\Delta B$",
+        "isCorrect": true,
+        "explanation": "Symmetric difference forms an Abelian group where every element is self-inverse: $A \\Delta (A \\Delta X) = (A \\Delta A) \\Delta X = \\emptyset \\Delta X = X$."
+      },
+      {
+        "id": "d",
+        "text": "$X = A \\cap B'$",
+        "isCorrect": false,
+        "explanation": "Incorrect."
+      }
+    ],
+    "solutionExplanation": "The power set $(\\mathcal{P}(U), \\Delta)$ forms an Abelian Group with identity $\\emptyset$ and self-inverses ($A \\Delta A = \\emptyset$). Taking symmetric difference with $A$ on both sides: $A \\Delta (A \\Delta X) = A \\Delta B \\implies \\emptyset \\Delta X = A \\Delta B \\implies X = A \\Delta B$.",
+    "keyFormulae": ["A \\Delta A = \\emptyset", "A \\Delta \\emptyset = A"],
+    "hints": ["Apply symmetric difference with A on both sides."],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "nest-math-sets-005",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "Combinatorial Subsets",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MCQ",
+    "questionText": "Let $S = \\{1, 2, 3, \\dots, 10\\}$. How many subsets $A \\subseteq S$ exist such that $A$ contains at least one even integer?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1024",
+        "isCorrect": false,
+        "explanation": "Total number of subsets without subtraction."
+      },
+      {
+        "id": "b",
+        "text": "992",
+        "isCorrect": true,
+        "explanation": "Total subsets ($2^{10} = 1024$) minus subsets containing only odd integers ($2^5 = 32$) = $1024 - 32 = 992$."
+      },
+      {
+        "id": "c",
+        "text": "960",
+        "isCorrect": false,
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "512",
+        "isCorrect": false,
+        "explanation": "Incorrect."
+      }
+    ],
+    "solutionExplanation": "1. Total subsets of $S$ is $2^{10} = 1024$.\n2. Even integers $E = \\{2, 4, 6, 8, 10\\}$ ($|E| = 5$).\n3. Odd integers $O = \\{1, 3, 5, 7, 9\\}$ ($|O| = 5$).\n4. Subsets containing NO even numbers are subsets of $O$, which equals $2^5 = 32$.\n5. By complement counting: $1024 - 32 = 992$.",
+    "keyFormulae": ["N(\\text{at least one}) = 2^{|S|} - 2^{|O|}"],
+    "hints": ["Use complementary counting by removing subsets of purely odd integers."],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "nest-math-sets-006",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "Set Equations & Intervals",
+    "difficulty": "Moderate",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MCQ",
+    "questionText": "Let $A = \\{x \\in \\mathbb{R} \\mid |x - 1| + |x - 2| = 1\\}$ and $B = \\{x \\in \\mathbb{R} \\mid x^2 - 3x + 2 \\le 0\\}$. What is the set $A \\Delta B$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$[1, 2]$",
+        "isCorrect": false,
+        "explanation": "This is $A$ and $B$, not their symmetric difference."
+      },
+      {
+        "id": "b",
+        "text": "$(1, 2)$",
+        "isCorrect": false,
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "c",
+        "text": "$\\emptyset$",
+        "isCorrect": true,
+        "explanation": "Both $A = [1, 2]$ and $B = [1, 2]$. Identical sets have an empty symmetric difference."
+      },
+      {
+        "id": "d",
+        "text": "$\\{1, 2\\}$",
+        "isCorrect": false,
+        "explanation": "Incorrect."
+      }
+    ],
+    "solutionExplanation": "Solving $A$: $|x-1| + |x-2| = 1$ is identically true for all $x \\in [1, 2]$.\nSolving $B$: $x^2 - 3x + 2 \\le 0 \\iff (x-1)(x-2) \\le 0 \\iff x \\in [1, 2]$.\nSince $A = B = [1, 2]$, $A \\Delta B = (A \\cup B) \\setminus (A \\cap B) = [1, 2] \\setminus [1, 2] = \\emptyset$.",
+    "keyFormulae": ["A = B \\implies A \\Delta B = \\emptyset"],
+    "hints": ["Solve the absolute value inequality using test intervals."],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "nest-math-sets-007",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "Disjoint Subsets Counting",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MCQ",
+    "questionText": "Let $S$ be a set with $|S| = n$. What is the total number of ordered pairs of subsets $(A, B)$ of $S$ such that $A \\cap B = \\emptyset$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$2^n$",
+        "isCorrect": false,
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "b",
+        "text": "$3^n$",
+        "isCorrect": true,
+        "explanation": "Each of the $n$ elements has exactly 3 mutually exclusive choices: in $A$ only, in $B$ only, or in neither."
+      },
+      {
+        "id": "c",
+        "text": "$4^n$",
+        "isCorrect": false,
+        "explanation": "Total unrestricted ordered pairs is $4^n$."
+      },
+      {
+        "id": "d",
+        "text": "$3^n - 2^n$",
+        "isCorrect": false,
+        "explanation": "Incorrect."
+      }
+    ],
+    "solutionExplanation": "For each element $x \\in S$, since $x \\notin A \\cap B$, there are exactly 3 possible disjoint Venn diagram regions:\n1. $x \\in A \\setminus B$\n2. $x \\in B \\setminus A$\n3. $x \\in (A \\cup B)'$\nFor $n$ independent elements: $3 \\times 3 \\times \\dots = 3^n$.",
+    "keyFormulae": ["\\text{Disjoint pairs} = 3^n"],
+    "hints": ["Assign each element to one of the three non-overlapping regions."],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "nest-math-sets-008",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "Trigonometric Set Difference",
+    "difficulty": "Moderate",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MCQ",
+    "questionText": "If $A = \\left\\{x \\in \\mathbb{R} \\mid \\sin x = \\frac{1}{2}\\right\\}$ and $B = \\left\\{x \\in \\mathbb{R} \\mid \\cos x = \\frac{\\sqrt{3}}{2}\\right\\}$, what is $B \\setminus A$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\left\\{2k\\pi + \\frac{\\pi}{6} \\;\\middle|\\; k \\in \\mathbb{Z}\\right\\}$",
+        "isCorrect": false,
+        "explanation": "This is $A \\cap B$, which is subtracted out."
+      },
+      {
+        "id": "b",
+        "text": "$\\left\\{2k\\pi - \\frac{\\pi}{6} \\;\\middle|\\; k \\in \\mathbb{Z}\\right\\}$",
+        "isCorrect": true,
+        "explanation": "Angles in $B$ are $2k\\pi \\pm \\pi/6$. The $-\\pi/6$ family gives $\\sin = -1/2 \\ne 1/2$, so it is not in $A$."
+      },
+      {
+        "id": "c",
+        "text": "$\\emptyset$",
+        "isCorrect": false,
+        "explanation": "Incorrect."
+      },
+      {
+        "id": "d",
+        "text": "$\\left\\{k\\pi + (-1)^k \\frac{\\pi}{6} \\;\\middle|\\; k \\in \\mathbb{Z}\\right\\}$",
+        "isCorrect": false,
+        "explanation": "This is the complete set $A$."
+      }
+    ],
+    "solutionExplanation": "Set $A$: $\\sin x = 1/2 \\implies x \\in \\{2k\\pi + \\pi/6\\} \\cup \\{2k\\pi + 5\\pi/6\\}$.\nSet $B$: $\\cos x = \\sqrt{3}/2 \\implies x \\in \\{2k\\pi + \\pi/6\\} \\cup \\{2k\\pi - \\pi/6\\}$.\n$B \\setminus A$ removes the shared $2k\\pi + \\pi/6$ family, leaving $\\{2k\\pi - \\pi/6 \\mid k \\in \\mathbb{Z}\\}$.",
+    "keyFormulae": ["B \\setminus A = B \\setminus (A \\cap B)"],
+    "hints": ["Write general solution families for both trigonometric equations."],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "nest-math-sets-009",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "Characteristic Functions",
+    "difficulty": "Moderate",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MCQ",
+    "questionText": "Which of the following equations correctly expresses the indicator function $\\chi_{A \\setminus B}(x)$ in terms of individual indicator functions $\\chi_A(x)$ and $\\chi_B(x)$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\chi_A(x) - \\chi_B(x)$",
+        "isCorrect": false,
+        "explanation": "Incorrect (can take value -1)."
+      },
+      {
+        "id": "b",
+        "text": "$\\chi_A(x)(1 - \\chi_B(x))$",
+        "isCorrect": true,
+        "explanation": "$A \\setminus B = A \\cap B'$, so $\\chi_{A \\setminus B} = \\chi_A \\cdot \\chi_{B'} = \\chi_A(1 - \\chi_B)$."
+      },
+      {
+        "id": "c",
+        "text": "$\\chi_A(x) + \\chi_B(x) - \\chi_A(x)\\chi_B(x)$",
+        "isCorrect": false,
+        "explanation": "This is $\\chi_{A \\cup B}(x)$."
+      },
+      {
+        "id": "d",
+        "text": "$1 - \\chi_A(x)\\chi_B(x)$",
+        "isCorrect": false,
+        "explanation": "This is $\\chi_{(A \\cap B)'}(x)$."
+      }
+    ],
+    "solutionExplanation": "Since $x \\in A \\setminus B \\iff x \\in A \\land x \\notin B \\iff x \\in A \\land x \\in B'$, we have $\\chi_{A \\setminus B}(x) = \\chi_A(x) \\cdot \\chi_{B'}(x) = \\chi_A(x)(1 - \\chi_B(x))$.",
+    "keyFormulae": ["\\chi_{A \\setminus B}(x) = \\chi_A(x)(1 - \\chi_B(x))"],
+    "hints": ["Use the identity A \\ B = A ∩ B'."],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "nest-math-sets-010",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "3-Set Venn Partitions",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MCQ",
+    "questionText": "Let $A, B, C$ be three finite sets such that $|A| = 20$, $|B| = 28$, $|C| = 30$, $|A \\cap B| = 10$, $|B \\cap C| = 12$, $|C \\cap A| = 8$, and $|A \\cap B \\cap C| = 4$. What is the number of elements that belong to EXACTLY TWO of the three sets?",
+    "options": [
+      {
+        "id": "a",
+        "text": "18",
+        "isCorrect": true,
+        "explanation": "$N_{\\text{exact2}} = (|A \\cap B| + |B \\cap C| + |C \\cap A|) - 3|A \\cap B \\cap C| = (10 + 12 + 8) - 3(4) = 18$."
+      },
+      {
+        "id": "b",
+        "text": "22",
+        "isCorrect": false,
+        "explanation": "This corresponds to subtracting $2|A \\cap B \\cap C|$ (elements in AT LEAST two sets)."
+      },
+      {
+        "id": "c",
+        "text": "30",
+        "isCorrect": false,
+        "explanation": "Sum of pairwise intersections without subtracting the triple intersection."
+      },
+      {
+        "id": "d",
+        "text": "14",
+        "isCorrect": false,
+        "explanation": "Incorrect."
+      }
+    ],
+    "solutionExplanation": "The formula for elements in exactly two sets is:\n$N_{\\text{exact2}} = |A \\cap B| + |B \\cap C| + |C \\cap A| - 3|A \\cap B \\cap C| = (10 + 12 + 8) - 3(4) = 30 - 12 = 18$.",
+    "keyFormulae": ["N_{\\text{exact2}} = \\sum |A_i \\cap A_j| - 3|A \\cap B \\cap C|"],
+    "hints": ["Each pairwise intersection includes the triple intersection once."],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "nest-math-sets-011",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "Power Set Identities",
+    "difficulty": "Rigor",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MSQ",
+    "questionText": "Which of the following statements regarding the Power Set $\\mathcal{P}(A)$ are ALWAYS TRUE for any arbitrary sets $A$ and $B$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\mathcal{P}(A \\cap B) = \\mathcal{P}(A) \\cap \\mathcal{P}(B)$",
+        "isCorrect": true,
+        "explanation": "$X \\subseteq A \\cap B \\iff X \\subseteq A \\text{ and } X \\subseteq B$."
+      },
+      {
+        "id": "b",
+        "text": "$\\mathcal{P}(A \\cup B) = \\mathcal{P}(A) \\cup \\mathcal{P}(B)$",
+        "isCorrect": false,
+        "explanation": "Counterexample: $A=\\{1\\}, B=\\{2\\} \\implies \\{1,2\\} \\in \\mathcal{P}(A \\cup B)$ but $\\{1,2\\} \\notin \\mathcal{P}(A) \\cup \\mathcal{P}(B)$."
+      },
+      {
+        "id": "c",
+        "text": "$\\mathcal{P}(A) \\cup \\mathcal{P}(B) \\subseteq \\mathcal{P}(A \\cup B)$",
+        "isCorrect": true,
+        "explanation": "Any subset of $A$ or $B$ is necessarily a subset of $A \\cup B$."
+      },
+      {
+        "id": "d",
+        "text": "If $\\mathcal{P}(A) = \\mathcal{P}(B)$, then $A = B$.",
+        "isCorrect": true,
+        "explanation": "$A \\in \\mathcal{P}(A) = \\mathcal{P}(B) \\implies A \\subseteq B$ and vice versa."
+      }
+    ],
+    "solutionExplanation": "- A is TRUE: $X \\in \\mathcal{P}(A \\cap B) \\iff X \\subseteq A \\cap B \\iff X \\subseteq A \\land X \\subseteq B \\iff X \\in \\mathcal{P}(A) \\cap \\mathcal{P}(B)$.\n- B is FALSE: The union of power sets lacks mixed subsets.\n- C is TRUE: Subsets of components remain subsets of the union.\n- D is TRUE: Power set uniqueness guarantees set equality.",
+    "keyFormulae": ["\\mathcal{P}(A \\cap B) = \\mathcal{P}(A) \\cap \\mathcal{P}(B)", "\\mathcal{P}(A) \\cup \\mathcal{P}(B) \\subsetneq \\mathcal{P}(A \\cup B)"],
+    "hints": ["Test with singletons {1} and {2} for the union identity."],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "nest-math-sets-012",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "Elementhood vs Inclusion",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MSQ",
+    "questionText": "Let $A = \\{1, 2, \\{3, 4\\}, \\emptyset\\}$. Which of the following set-theoretic assertions are CORRECT?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\emptyset \\in A$",
+        "isCorrect": true,
+        "explanation": "$\\emptyset$ is explicitly listed as an element."
+      },
+      {
+        "id": "b",
+        "text": "$\\emptyset \\subseteq A$",
+        "isCorrect": true,
+        "explanation": "The empty set is a subset of every set."
+      },
+      {
+        "id": "c",
+        "text": "$\\{3, 4\\} \\subseteq A$",
+        "isCorrect": false,
+        "explanation": "$\\{3, 4\\}$ is an element of $A$, but 3 and 4 are not elements of $A$."
+      },
+      {
+        "id": "d",
+        "text": "$\\{\\{3, 4\\}\\} \\subseteq A$",
+        "isCorrect": true,
+        "explanation": "Since $\\{3, 4\\} \\in A$, the singleton containing it is a subset."
+      }
+    ],
+    "solutionExplanation": "- A is CORRECT: $\\emptyset$ is an element of $A$.\n- B is CORRECT: $\\emptyset \\subseteq S$ is universally valid.\n- C is INCORRECT: $\\{3, 4\\} \\in A$, so for $\\{3, 4\\} \\subseteq A$ we would need $3 \\in A$ and $4 \\in A$, which is false.\n- D is CORRECT: $\\{\\{3, 4\\}\\}$ is the singleton set containing the element $\\{3, 4\\}$.",
+    "keyFormulae": ["x \\in A \\iff \\{x\\} \\subseteq A"],
+    "hints": ["Differentiate between being a member and being a subset."],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "nest-math-sets-013",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "Symmetric Difference Properties",
+    "difficulty": "Moderate",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MSQ",
+    "questionText": "Which of the following properties hold true for the Symmetric Difference operation $A \\Delta B = (A \\setminus B) \\cup (B \\setminus A)$ for any sets $A, B, C$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$A \\Delta B = B \\Delta A$ (Commutative)",
+        "isCorrect": true,
+        "explanation": "Union and intersection are commutative."
+      },
+      {
+        "id": "b",
+        "text": "$(A \\Delta B) \\Delta C = A \\Delta (B \\Delta C)$ (Associative)",
+        "isCorrect": true,
+        "explanation": "Forms an Abelian group with associative binary operation."
+      },
+      {
+        "id": "c",
+        "text": "$A \\cap (B \\Delta C) = (A \\cap B) \\Delta (A \\cap C)$ (Distributive over Intersection)",
+        "isCorrect": true,
+        "explanation": "Intersection distributes over symmetric difference."
+      },
+      {
+        "id": "d",
+        "text": "$A \\Delta A = A$",
+        "isCorrect": false,
+        "explanation": "$A \\Delta A = (A \\setminus A) \\cup (A \\setminus A) = \\emptyset$."
+      }
+    ],
+    "solutionExplanation": "- A, B, C are standard algebraic group properties of $(\\mathcal{P}(U), \\Delta)$.\n- D is false because symmetric difference of any set with itself produces the empty set $\\emptyset$.",
+    "keyFormulae": ["A \\Delta A = \\emptyset", "A \\cap (B \\Delta C) = (A \\cap B) \\Delta (A \\cap C)"],
+    "hints": ["Evaluate A \\Delta A directly."],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "nest-math-sets-014",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "Subset Equivalence Laws",
+    "difficulty": "Moderate",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MSQ",
+    "questionText": "Let $A, B \\subseteq U$. Which of the following conditions are EQUIVALENT to the assertion $A \\subseteq B$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$A \\cap B' = \\emptyset$",
+        "isCorrect": true,
+        "explanation": "No element of $A$ lies outside $B$."
+      },
+      {
+        "id": "b",
+        "text": "$A' \\cup B = U$",
+        "isCorrect": true,
+        "explanation": "Complement of $A \\cap B' = \\emptyset$."
+      },
+      {
+        "id": "c",
+        "text": "$A \\cup B = B$",
+        "isCorrect": true,
+        "explanation": "Union absorption."
+      },
+      {
+        "id": "d",
+        "text": "$A \\cap B = A$",
+        "isCorrect": true,
+        "explanation": "Intersection absorption."
+      }
+    ],
+    "solutionExplanation": "All four conditions are fundamentally equivalent characterizations of the subset relation $A \\subseteq B$ in Boolean set algebra.",
+    "keyFormulae": ["A \\subseteq B \\iff A \\cap B' = \\emptyset \\iff A' \\cup B = U \\iff A \\cup B = B \\iff A \\cap B = A"],
+    "hints": ["Apply De Morgan's Law and absorption laws."],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "nest-math-sets-015",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "Infinite Cardinalities & Cantor",
+    "difficulty": "Rigor",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MSQ",
+    "questionText": "Select the CORRECT statements regarding cardinalities of infinite sets:",
+    "options": [
+      {
+        "id": "a",
+        "text": "The set of all rational numbers $\\mathbb{Q}$ is countably infinite ($|\\mathbb{Q}| = |\\mathbb{N}| = \\aleph_0$).",
+        "isCorrect": true,
+        "explanation": "Rational numbers can be enumerated via Cantor's diagonal grid."
+      },
+      {
+        "id": "b",
+        "text": "The open interval $(0, 1) \\subset \\mathbb{R}$ is uncountably infinite ($|(0, 1)| = |\\mathbb{R}| = c$).",
+        "isCorrect": true,
+        "explanation": "Mapped bijectively to $\\mathbb{R}$ via tangent function."
+      },
+      {
+        "id": "c",
+        "text": "The set of all integers $\\mathbb{Z}$ has a strictly greater cardinality than $\\mathbb{N}$.",
+        "isCorrect": false,
+        "explanation": "$|\\mathbb{Z}| = |\\mathbb{N}| = \\aleph_0$ via alternating bijection."
+      },
+      {
+        "id": "d",
+        "text": "For any infinite set $A$, $|\\mathcal{P}(A)| > |A|$ by Cantor's Theorem.",
+        "isCorrect": true,
+        "explanation": "Cantor's theorem holds for all sets, finite or infinite."
+      }
+    ],
+    "solutionExplanation": "- A is CORRECT: $|\\mathbb{Q}| = \\aleph_0$.\n- B is CORRECT: $(0, 1)$ is homeomorphic and bijective to $\\mathbb{R}$.\n- C is INCORRECT: $\\mathbb{Z}$ is countable.\n- D is CORRECT: Cantor's Theorem guarantees $|A| < |\\mathcal{P}(A)|$.",
+    "keyFormulae": ["|\\mathbb{N}| = |\\mathbb{Z}| = |\\mathbb{Q}| = \\aleph_0", "|(0,1)| = |\\mathbb{R}| = c"],
+    "hints": ["Remember Cantor's zigzag bijection between natural numbers and integers."],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "nest-math-sets-016",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "Polynomial Root Sets",
+    "difficulty": "Moderate",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MSQ",
+    "questionText": "Let $A = \\{x \\in \\mathbb{R} \\mid x^2 - 5x + 6 = 0\\}$ and $B = \\{x \\in \\mathbb{R} \\mid x^3 - 6x^2 + 11x - 6 = 0\\}$. Which of the following set relationships hold?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$A \\subsetneq B$",
+        "isCorrect": true,
+        "explanation": "$A = \\{2, 3\\} \\subsetneq \\{1, 2, 3\\} = B$."
+      },
+      {
+        "id": "b",
+        "text": "$A \\cap B = \\{2, 3\\}$",
+        "isCorrect": true,
+        "explanation": "Common roots are 2 and 3."
+      },
+      {
+        "id": "c",
+        "text": "$B \\setminus A = \\{1\\}$",
+        "isCorrect": true,
+        "explanation": "Root 1 is in $B$ but not in $A$."
+      },
+      {
+        "id": "d",
+        "text": "$A \\cup B = \\{1, 2, 3\\}$",
+        "isCorrect": true,
+        "explanation": "Union contains all 3 roots."
+      }
+    ],
+    "solutionExplanation": "- $A = \\{2, 3\\}$\n- $B = \\{1, 2, 3\\}$\nAll four relationships A, B, C, D follow immediately.",
+    "keyFormulae": ["x^2 - 5x + 6 = (x-2)(x-3)", "x^3 - 6x^2 + 11x - 6 = (x-1)(x-2)(x-3)"],
+    "hints": ["Factor both polynomials."],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "nest-math-sets-017",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "Generalized De Morgan Laws",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MSQ",
+    "questionText": "Which of the following statements regarding the De Morgan Laws and Distributive Laws are CORRECT for any sets $A, B, C$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$A \\setminus (B \\cup C) = (A \\setminus B) \\cap (A \\setminus C)$",
+        "isCorrect": true,
+        "explanation": "Relative complement over union becomes intersection."
+      },
+      {
+        "id": "b",
+        "text": "$A \\setminus (B \\cap C) = (A \\setminus B) \\cup (A \\setminus C)$",
+        "isCorrect": true,
+        "explanation": "Relative complement over intersection becomes union."
+      },
+      {
+        "id": "c",
+        "text": "$A \\cap (B \\setminus C) = (A \\cap B) \\setminus (A \\cap C)$",
+        "isCorrect": true,
+        "explanation": "Intersection distributes over relative difference."
+      },
+      {
+        "id": "d",
+        "text": "$(A \\cup B \\cup C)' = A' \\cap B' \\cap C'$",
+        "isCorrect": true,
+        "explanation": "3-set generalized De Morgan Law."
+      }
+    ],
+    "solutionExplanation": "All four assertions are valid theorem generalizations in classical set theory.",
+    "keyFormulae": ["A \\setminus (B \\cup C) = (A \\setminus B) \\cap (A \\setminus C)", "(A \\cup B \\cup C)' = A' \\cap B' \\cap C'"],
+    "hints": ["Express A \\ (B ∪ C) as A ∩ (B ∪ C)'."],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "nest-math-sets-018",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "Cardinality Bounds",
+    "difficulty": "Moderate",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MSQ",
+    "questionText": "For any two finite non-empty sets $A$ and $B$, which of the following inequalities / equalities regarding cardinalities are ALWAYS VALID?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\max(|A|, |B|) \\le |A \\cup B| \\le |A| + |B|$",
+        "isCorrect": true,
+        "explanation": "Standard union bounds."
+      },
+      {
+        "id": "b",
+        "text": "$0 \\le |A \\cap B| \\le \\min(|A|, |B|)$",
+        "isCorrect": true,
+        "explanation": "Standard intersection bounds."
+      },
+      {
+        "id": "c",
+        "text": "$|A \\setminus B| \\ge |A| - |B|$",
+        "isCorrect": true,
+        "explanation": "$|A \\setminus B| = |A| - |A \\cap B| \\ge |A| - |B|$ since $|A \\cap B| \\le |B|$."
+      },
+      {
+        "id": "d",
+        "text": "$|A \\Delta B| = |A| + |B| - 2|A \\cap B|$",
+        "isCorrect": true,
+        "explanation": "Fundamental symmetric difference cardinality formula."
+      }
+    ],
+    "solutionExplanation": "All 4 equalities/inequalities are fundamental cardinality bounds in discrete mathematics.",
+    "keyFormulae": ["|A \\Delta B| = |A| + |B| - 2|A \\cap B|", "|A \\setminus B| = |A| - |A \\cap B|"],
+    "hints": ["Use |A \\ B| = |A| - |A ∩ B|."],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "nest-math-sets-019",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "Interval Operations",
+    "difficulty": "Moderate",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MSQ",
+    "questionText": "Let $A = [0, 5]$ and $B = (2, 7)$ be two intervals on the real line $\\mathbb{R}$. Which of the following evaluations of set operations on $A$ and $B$ are CORRECT?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$A \\cup B = [0, 7)$",
+        "isCorrect": true,
+        "explanation": "Union covers 0 up to 7 (exclusive)."
+      },
+      {
+        "id": "b",
+        "text": "$A \\cap B = (2, 5]$",
+        "isCorrect": true,
+        "explanation": "Overlap is strictly greater than 2 and up to 5 (inclusive)."
+      },
+      {
+        "id": "c",
+        "text": "$A \\setminus B = [0, 2]$",
+        "isCorrect": true,
+        "explanation": "2 is in $A$ and NOT in $B$, so 2 is included in $A \\setminus B$."
+      },
+      {
+        "id": "d",
+        "text": "$B \\setminus A = (5, 7)$",
+        "isCorrect": true,
+        "explanation": "5 is in $A$, so 5 is excluded from $B \\setminus A$, leaving $(5, 7)$."
+      }
+    ],
+    "solutionExplanation": "- $A \\cup B = [0, 7)$\n- $A \\cap B = (2, 5]$\n- $A \\setminus B = [0, 2]$\n- $B \\setminus A = (5, 7)$\nAll four options are correct.",
+    "keyFormulae": ["A \\setminus B = [0, 2]", "B \\setminus A = (5, 7)"],
+    "hints": ["Carefully verify boundary endpoint inclusion for difference sets."],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "nest-math-sets-020",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Sets",
+    "subtopic": "Empty Intersection Criteria",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "NEST Master Module",
+    "questionType": "MSQ",
+    "questionText": "Consider three non-empty sets $A, B, C$. Which of the following conditions guarantee that $A \\cap B \\cap C = \\emptyset$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$A$ and $B$ are disjoint ($A \\cap B = \\emptyset$).",
+        "isCorrect": true,
+        "explanation": "$(A \\cap B) \\cap C = \\emptyset \\cap C = \\emptyset$."
+      },
+      {
+        "id": "b",
+        "text": "$A \\subseteq B'$",
+        "isCorrect": true,
+        "explanation": "$A \\subseteq B' \\iff A \\cap B = \\emptyset \\implies A \\cap B \\cap C = \\emptyset$."
+      },
+      {
+        "id": "c",
+        "text": "$|A \\cup B \\cup C| = |A| + |B| + |C| - |A \\cap B| - |B \\cap C| - |C \\cap A|$",
+        "isCorrect": true,
+        "explanation": "By PIE, this requires the triple term $|A \\cap B \\cap C| = 0$."
+      },
+      {
+        "id": "d",
+        "text": "$A \\cap B \\subseteq C'$",
+        "isCorrect": true,
+        "explanation": "$(A \\cap B) \\cap C = \\emptyset$."
+      }
+    ],
+    "solutionExplanation": "- A: $A \\cap B = \\emptyset \\implies (A \\cap B) \\cap C = \\emptyset$.\n- B: $A \\subseteq B' \\iff A \\cap B = \\emptyset$.\n- C: The given formula matches PIE with $|A \\cap B \\cap C| = 0$.\n- D: $A \\cap B \\subseteq C' \\iff (A \\cap B) \\cap C = \\emptyset$.\nAll 4 guarantee empty triple intersection.",
+    "keyFormulae": ["A \\cap B = \\emptyset \\implies A \\cap B \\cap C = \\emptyset"],
+    "hints": ["Check if any two sets being disjoint makes the triple intersection empty."],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

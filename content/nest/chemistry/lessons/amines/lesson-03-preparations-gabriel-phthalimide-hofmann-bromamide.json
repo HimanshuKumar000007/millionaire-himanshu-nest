@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u18-c9-l03",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVIII \u2014 Amines",
+  "unitNumber": 18,
+  "chapter": "Amines",
+  "chapterNumber": 9,
+  "chapterSlug": "amines",
+  "slug": "lesson-03-preparations-gabriel-phthalimide-hofmann-bromamide",
+  "title": "Amine Preparations: Gabriel Phthalimide & Hofmann Bromamide Degradation",
+  "topic": "Amine Synthetic Routes",
+  "topics": [
+    "3. Amine Preparative Routes Overview (Nitrile Reduction, Mendius Reduction via Na/EtOH)",
+    "3.1 Gabriel Phthalimide Synthesis (Pure 1\u00b0 Aliphatic Amines via Potassium Phthalimide and R-X S_N2)",
+    "CRITICAL NEST LIMITATION: Inability to Synthesize Aniline via Gabriel Phthalimide (Aryl Halides fail S_N2)",
+    "3.2 Hofmann Bromamide Degradation Reaction (RCONH\u2082 + Br\u2082 + 4NaOH \u2500\u2500\u25ba RNH\u2082 + Na\u2082CO\u2083 + 2NaBr + 2H\u2082O)",
+    "Mechanistic Cascade: N-Bromoamide \u2500\u2500\u25ba Acyl Nitrene \u2500\u2500\u25ba 1,2-Alkyl Shift to Isocyanate (R-N=C=O) \u2500\u2500\u25ba Hydrolysis",
+    "Loss of 1 Carbon Atom & Stereochemical Retention at Chiral Migrating Center"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "amines",
+  "quickSummary": "Gabriel phthalimide synthesis yields pure 1\u00b0 aliphatic amines via S_N2 substitution; aromatic amines (Aniline) CANNOT be made because aryl halides do not undergo S_N2. Hofmann bromamide degradation converts primary amides to 1\u00b0 amines with ONE LESS CARBON via an acyl nitrene, 1,2-alkyl shift to isocyanate (R-N=C=O), and hydrolysis (4 moles of NaOH consumed per mole of amide).",
+  "summary": "Master Gabriel phthalimide synthesis constraints and the step-by-step Hofmann bromamide degradation cascade.",
+  "conceptBreakdown": [
+    {
+      "heading": "3.1 Gabriel Phthalimide Synthesis & Limitations",
+      "title": "3.1 Gabriel Phthalimide Synthesis & Limitations",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Gabriel Phthalimide Scope",
+        "takeaway": "Yields pure 1\u00b0 aliphatic amines without 2\u00b0/3\u00b0 contamination. CANNOT synthesize Aniline because aryl halides fail S_N2 substitution with phthalimide anion."
+      },
+      "codeSnippet": "                    GABRIEL PHTHALIMIDE MECHANISM\n                    \n   Phthalimide \u2500\u2500[KOH]\u2500\u2500\u25ba Potassium Phthalimide \u2500\u2500[R-X ($S_N2$)]\u2500\u2500\u25ba N-Alkylphthalimide\n                                                                            \u2502\n   $1^\\circ$ Aliphatic Amine ($R\\text{-NH}_2$) + Phthalate Salt \u25c4\u2500\u2500[aq. NaOH / $\\text{N}_2\\text{H}_4$ Hydrolysis]\u2518",
+      "content": "Phthalimide is deprotonated by $\\text{KOH}$ to potassium phthalimide, which undergoes an $S_N2$ displacement on an alkyl halide ($R\\text{-X}$) to form $N$-alkylphthalimide, hydrolyzed to yield a pure primary aliphatic amine."
+    },
+    {
+      "heading": "3.2 Hofmann Bromamide Degradation Mechanism",
+      "title": "3.2 Hofmann Bromamide Degradation Mechanism",
+      "type": "paragraph",
+      "codeSnippet": "                    HOFMANN BROMAMIDE MECHANISTIC CASCADE\n                    \n   $R\\text{-CONH}_2 \\xrightarrow{\\text{Br}_2/\\text{OH}^-} R\\text{-CONH-Br} \\xrightarrow{\\text{-H}^+} R\\text{-C(O)-\\bar{N}-Br} \\xrightarrow{-\\text{Br}^-} [R\\text{-C(O)-\\ddot{N}:} \\text{ Nitrene}]$\n                                                                                         \u2502\n   $R\\text{-NH}_2 \\text{ (Amine with 1 C less!)} \\longleftarrow \\text{Hydrolysis} \\longleftarrow R\\text{-N=C=O (Isocyanate)} \\xleftarrow{\\mathbf{1,2-\\text{Alkyl Shift}}}$\n\nOverall: RCONH\u2082 + Br\u2082 + 4NaOH \u2500\u2500\u25ba RNH\u2082 + Na\u2082CO\u2083 + 2NaBr + 2H\u2082O",
+      "content": "Primary amides react with $\\text{Br}_2$ and $4\\text{ NaOH}$ to yield a $1^\\circ$ primary amine containing **one carbon less** than the starting amide. The intramolecular 1,2-shift occurs with complete retention of configuration at migrating chiral centers."
+    }
+  ],
+  "quickRevision": [
+    "Gabriel synthesis yields pure 1\u00b0 aliphatic amines (S_N2).",
+    "Gabriel synthesis CANNOT prepare Aniline (Ar-X fails S_N2).",
+    "Hofmann degradation yields 1\u00b0 amine with 1 less carbon.",
+    "Consumes 4 moles of NaOH per mole of primary amide.",
+    "Proceeds via Nitrene and Isocyanate (R-N=C=O) with stereochemical retention."
+  ],
+  "keyFormulae": [
+    "R\\text{-CONH}_2 + \\text{Br}_2 + 4\\text{NaOH} \\longrightarrow R\\text{-NH}_2 + \\text{Na}_2\\text{CO}_3 + 2\\text{NaBr} + 2\\text{H}_2\\text{O}"
+  ]
+}

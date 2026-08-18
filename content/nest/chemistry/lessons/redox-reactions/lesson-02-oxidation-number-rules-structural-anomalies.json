@@ -1,0 +1,62 @@
+{
+  "id": "chem-xi-u7-c7-l02",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VII \u2014 Redox Reactions",
+  "unitNumber": 7,
+  "chapter": "Redox Reactions",
+  "chapterNumber": 7,
+  "chapterSlug": "redox-reactions",
+  "slug": "lesson-02-oxidation-number-rules-structural-anomalies",
+  "title": "Oxidation Number Rules & Structural Peroxy/Poly-Sulfur Anomalies",
+  "topic": "Oxidation States & Structural Anomalies",
+  "topics": [
+    "Standard Rules for Assigning Oxidation Numbers",
+    "Peroxide (-1), Superoxide (-1/2), and Ozonide (-1/3) Linkages",
+    "Oxygen Fluorides (OF\u2082 = +2, O\u2082F\u2082 = +1)",
+    "Structural Analysis vs Mathematical Fallacy: CrO\u2085 (Butterfly Structure)",
+    "Caro's Acid (H\u2082SO\u2085) & Marshall's Acid (H\u2082S\u2082O\u2088)",
+    "Anomalies: CaOCl\u2082, Br\u2083O\u2088, S\u2084O\u2086\u00b2\u207b, Na\u2082S\u2082O\u2083, Fe\u2083O\u2084"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "redox-reactions",
+  "quickSummary": "Raw formulas fail when atoms contain peroxy or homonuclear bonds. True states require Lewis structures: CrO\u2085 has Cr=+6, H\u2082SO\u2085 has S=+6, S\u2084O\u2086\u00b2\u207b has two S=+5 and two S=0.",
+  "summary": "Master oxidation number calculation rules and solve classic structural peroxy and poly-sulfur anomalies.",
+  "conceptBreakdown": [
+    {
+      "heading": "2.1 Standard Rules for Assigning Oxidation Numbers",
+      "title": "2.1 Standard Rules for Assigning Oxidation Numbers",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Standard Rules",
+        "takeaway": "Free elements = 0; Group 1 = +1; Group 2 = +2; F = -1; H = +1 (hydrides = -1); O = -2 (peroxides = -1, superoxides = -1/2, OF\u2082 = +2)."
+      },
+      "codeSnippet": "OXIDATION NUMBER CORE RULES\n\n1. Free Element: ON = 0 (O\u2082, P\u2084, S\u2088, Fe, Na = 0)\n2. Monoatomic Ion: ON = Charge (Na\u207a = +1, Mg\u00b2\u207a = +2, Al\u00b3\u207a = +3, Cl\u207b = -1)\n3. Alkali Metals: +1 | Alkaline Earth Metals: +2\n4. Fluorine: Always -1\n5. Hydrogen: +1 with non-metals, -1 with active metals (NaH, CaH\u2082, LiAlH\u2084)\n6. Oxygen: Standard = -2; Peroxide = -1; Superoxide = -1/2; OF\u2082 = +2; O\u2082F\u2082 = +1",
+      "content": "The Oxidation Number (ON) is the formal charge an atom retains if all covalent bonds are broken heterolytically assigning shared pairs to the more electronegative atom.\n\n\u2022 **Elemental State**: $\\text{O}_2, \\text{P}_4, \\text{S}_8, \\text{Fe}(s) = 0$.\n\u2022 **Fluorine**: Always $-1$.\n\u2022 **Oxygen Variants**:\n  - Normal oxides: $\\text{O} = -2$.\n  - Peroxides ($-\\text{O}-\\text{O}-$): $\\text{O} = -1$ (e.g., $\\text{H}_2\\text{O}_2, \\text{Na}_2\\text{O}_2, \\text{BaO}_2$).\n  - Superoxides: $\\text{O} = -1/2$ (e.g., $\\text{KO}_2, \\text{RbO}_2$).\n  - Ozonides: $\\text{O} = -1/3$ (e.g., $\\text{KO}_3$).\n  - Fluorides: $\\text{OF}_2 \\implies \\text{O} = +2$; $\\text{O}_2\\text{F}_2 \\implies \\text{O} = +1$."
+    },
+    {
+      "heading": "2.2 Structural Anomalies & True Oxidation States",
+      "title": "2.2 Structural Anomalies & True Oxidation States",
+      "type": "paragraph",
+      "codeSnippet": "CHROMIUM PEROXIDE (CrO\u2085) BUTTERFLY STRUCTURE\n                      \n                                 O (Oxide: -2)\n                                 \u2551\n                                 Cr (+6)\n                               /  \\  \\\n                              O    O  O    O  <-- 4 Peroxy Oxygens (-1 each)\n                              \\  /    \\  /\n                               O        O\n                               \n   Mathematical Formula: x + 5(-2) = 0 \u27f9 x = +10 (IMPOSSIBLE! Max Cr = +6).\n   True Structural State: Cr = +6; 4 Peroxy Oxygens (-1), 1 Oxide Oxygen (-2).",
+      "content": "When mathematical summation yields impossible values exceeding the valence group limit, structural analysis is mandatory:\n\n1. **Chromium Peroxide ($\\text{CrO}_5$)**: Formula gives $\\text{Cr} = +10$. Butterfly structure reveals 2 peroxy linkages (4 peroxy oxygens at $-1$, 1 oxide oxygen at $-2$). Thus $\\mathbf{\\text{Cr} = +6}$.\n2. **Caro's Acid ($\\text{H}_2\\text{SO}_5$)**: Formula gives $\\text{S} = +8$. Structure contains 1 peroxy bond: $2(+1) + x + 3(-2) + 2(-1) = 0 \\implies \\mathbf{\\text{S} = +6}$.\n3. **Marshall's Acid ($\\text{H}_2\\text{S}_2\\text{O}_8$)**: Contains 1 peroxy bridge ($-\\text{O}-\\text{O}-$). Both sulfur atoms have $\\mathbf{\\text{S} = +6}$.\n4. **Bleaching Powder ($\\text{CaOCl}_2$)**: Mixed salt of $\\text{Ca}^{2+}$, Hypochlorite ($\\text{OCl}^-, \\mathbf{\\text{Cl} = +1}$), and Chloride ($\\text{Cl}^-, \\mathbf{\\text{Cl} = -1}$). Average $\\text{Cl} = 0$.\n5. **Tetrathionate ($\\text{S}_4\\text{O}_6^{2-}$)**: Chain $\\text{O}_3\\text{S}^{(+5)}-\\text{S}^{(0)}-\\text{S}^{(0)}-\\text{SO}_3^{(+5) 2-}$. Two $\\text{S} = +5$ and two $\\text{S} = 0$. Average $\\text{S} = +2.5$.\n6. **Magnetite ($\\text{Fe}_3\\text{O}_4$)**: Mixed oxide $\\text{FeO} \\cdot \\text{Fe}_2\\text{O}_3$ containing one $\\text{Fe}^{2+}$ and two $\\text{Fe}^{3+}$. Average $\\text{Fe} = +8/3$."
+    }
+  ],
+  "quickRevision": [
+    "Cr in CrO\u2085 is +6 (butterfly structure with 2 peroxy bonds).",
+    "S in Caro's acid (H\u2082SO\u2085) and Marshall's acid (H\u2082S\u2082O\u2088) is +6.",
+    "CaOCl\u2082 contains Cl(+1) in OCl\u207b and Cl(-1) in Cl\u207b.",
+    "S\u2084O\u2086\u00b2\u207b contains two terminal S(+5) and two central S(0) atoms.",
+    "Fe\u2083O\u2084 contains one Fe\u00b2\u207a and two Fe\u00b3\u207a ions."
+  ],
+  "keyFormulae": [
+    "\\sum \\text{ON of all atoms in a neutral molecule} = 0",
+    "\\sum \\text{ON of all atoms in a polyatomic ion} = \\text{Charge}"
+  ]
+}

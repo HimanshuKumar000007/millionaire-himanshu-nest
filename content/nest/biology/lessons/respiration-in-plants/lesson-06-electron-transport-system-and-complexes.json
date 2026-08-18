@@ -1,0 +1,56 @@
+{
+  "id": "bio-xi-u4-c12-l06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Respiration in Plants",
+  "chapterNumber": 12,
+  "chapterSlug": "respiration-in-plants",
+  "slug": "lesson-06-electron-transport-system-and-complexes",
+  "title": "Electron Transport System (ETS) & Respiratory Complexes",
+  "topic": "Complexes I to IV, CoQ Pool, Cytochrome c Carrier, & Inhibitors Matrix",
+  "topics": [
+    "Inner Mitochondrial Membrane ETS Structural Organization",
+    "Complex I (NADH-CoQ Oxidoreductase, FMN & Fe-S, 4 H⁺ Translocated)",
+    "Complex II (Succinate-CoQ Oxidoreductase, FAD & Fe-S, 0 H⁺ Translocated)",
+    "Complex III (CoQH₂-Cytochrome c Oxidoreductase, Q-Cycle, 4 H⁺ Translocated)",
+    "Complex IV (Cytochrome c Oxidase, Cyt a/a₃ & Cu_A/Cu_B, 2 H⁺ Translocated, O₂ Reduction)",
+    "Mobile Electron Carriers (Lipophilic Ubiquinone & Peripheral Water-Soluble Cytochrome c)",
+    "Specific Chemical Inhibitors Matrix (Rotenone, Malonate, Antimycin A, Cyanide, Azide, CO)"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 15,
+  "estimatedTimeMinutes": 15,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "The Electron Transport System (ETS) comprises four inner mitochondrial membrane-bound protein complexes (I–IV) and two mobile carriers (Ubiquinone/CoQ and Cytochrome c). Complex I (NADH-CoQ oxidoreductase) pumps 4 H⁺; Complex II (Succinate-CoQ oxidoreductase) transfers electrons from FADH₂ without pumping protons; Complex III (CoQH₂-Cyt c oxidoreductase) pumps 4 H⁺ via the Q-cycle; and Complex IV (Cytochrome c oxidase) transfers electrons to terminal O₂ to form H₂O while pumping 2 H⁺. Specific inhibitors include Rotenone (I), Malonate (II), Antimycin A (III), and Cyanide/Azide/CO (IV).",
+  "summary": "The Electron Transport System (ETS) comprises four inner mitochondrial membrane-bound protein complexes (I–IV) and two mobile carriers (Ubiquinone/CoQ and Cytochrome c). Complex I (NADH-CoQ oxidoreductase) pumps 4 H⁺; Complex II (Succinate-CoQ oxidoreductase) transfers electrons from FADH₂ without pumping protons; Complex III (CoQH₂-Cyt c oxidoreductase) pumps 4 H⁺ via the Q-cycle; and Complex IV (Cytochrome c oxidase) transfers electrons to terminal O₂ to form H₂O while pumping 2 H⁺. Specific inhibitors include Rotenone (I), Malonate (II), Antimycin A (III), and Cyanide/Azide/CO (IV).",
+  "conceptBreakdown": [
+    {
+      "heading": "6. Mitochondrial Inner Membrane ETS Architecture",
+      "title": "6. Mitochondrial Inner Membrane ETS Architecture",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "ETS couples electron flow from NADH/FADH₂ to O₂ reduction, pumping 10 H⁺ per NADH (I, III, IV) and 6 H⁺ per FADH₂ (III, IV) into the intermembrane space."
+      },
+      "codeSnippet": "MITOCHONDRIAL INNER MEMBRANE ETS\n                    \n  INTERMEMBRANE SPACE (High H⁺)\n  ══════════════════════════════════════════════════════════════════════ (Inner Membrane)\n   [Complex I] ──► [CoQ Pool] ──► [Complex III] ──► [Cyt c] ──► [Complex IV] ──► O₂\n   (NADH Oxid.)                   (Q-Cycle)                     (Cyt c Oxidase)  (0.5 O₂ ──► H₂O)\n        ▲                              ▲\n   [Complex II] ───────────────────────┘\n   (Succinate Dehyd.)\n  ══════════════════════════════════════════════════════════════════════\n  MATRIX (Low H⁺)",
+      "content": "The respiratory Electron Transport System (ETS) is located in the **inner mitochondrial membrane** (cristae). It transfers electrons from $\\text{NADH}$ and $\\text{FADH}_2$ down a redox potential gradient to molecular oxygen ($\\text{O}_2$), the terminal electron acceptor, coupling electron flux to proton translocation from the matrix into the **intermembrane space**.\n\n- **Complex I ($\\text{NADH}$-CoQ Oxidoreductase)**: Binds matrix $\\text{NADH}$, transferring $2\\text{e}^-$ through $\\text{FMN}$ and $8\\text{--}9\\text{ Fe-S}$ clusters to Ubiquinone (CoQ), pumping **$4\\text{ H}^+$** across the membrane.\n- **Complex II (Succinate-CoQ Oxidoreductase)**: Contains Succinate Dehydrogenase; transfers $2\\text{e}^-$ from succinate via bound $\\text{FAD}$ and $\\text{Fe-S}$ to CoQ. It does **not span the bilayer** and translocates **$0\\text{ H}^+$**.\n- **Complex III (CoQH$_2$-Cytochrome $c$ Oxidoreductase)**: Oxidizes $\\text{CoQH}_2$ and reduces Cytochrome $c$ via the bifurcated **Q-Cycle**, pumping **$4\\text{ H}^+$**.\n- **Complex IV (Cytochrome $c$ Oxidase)**: Contains Cytochrome $a$, Cytochrome $a_3$, and copper centers ($\\text{Cu}_A$ and $\\text{Cu}_B$). Reduces $\\text{O}_2$ to water ($4\\text{e}^- + 4\\text{H}^+ + \\text{O}_2 \\rightarrow 2\\text{H}_2\\text{O}$) and pumps **$2\\text{ H}^+$** per electron pair."
+    },
+    {
+      "heading": "6.1 The Four Respiratory Complexes & Inhibitors Matrix",
+      "title": "6.1 The Four Respiratory Complexes & Inhibitors Matrix",
+      "type": "paragraph",
+      "content": "### Respiratory Complexes & Specific Inhibitors Matrix\n\n| Complex | Official Name | Prosthetic Groups / Components | $H^+$ Translocated per $2\\text{e}^-$ | Specific Inhibitors |\n| :--- | :--- | :--- | :--- | :--- |\n| **Complex I** | **$\\text{NADH}$-CoQ Oxidoreductase** | $\\text{FMN}$, $8\\text{--}9$ Iron-Sulfur ($\\text{Fe-S}$) centers | **$4\\text{ H}^+$** | **Rotenone**, Amytal, Piericidin A |\n| **Complex II** | **Succinate-CoQ Oxidoreductase** | $\\text{FAD}$, $3\\text{ Fe-S}$ centers, Cytochrome $b_{560}$ | **$0\\text{ H}^+$** (Does not span membrane) | **Malonate**, Oxaloacetate, TTFA |\n| **Complex III** | **CoQH$_2$-Cytochrome $c$ Oxidoreductase** | Cytochrome $b_L$, Cytochrome $b_H$, Rieske $\\text{Fe-S}$, Cytochrome $c_1$ | **$4\\text{ H}^+$** (via Q-Cycle) | **Antimycin A**, Myxothiazol |\n| **Complex IV** | **Cytochrome $c$ Oxidase** | Cytochrome $a$, Cytochrome $a_3$, $\\text{Cu}_A$ and $\\text{Cu}_B$ copper centers | **$2\\text{ H}^+$** | **Cyanide ($\\text{CN}^-$)**, Carbon Monoxide ($\\text{CO}$), Sodium Azide ($\\text{NaN}_3$) |"
+    },
+    {
+      "heading": "6.2 Mobile Electron Carriers (CoQ & Cytochrome c)",
+      "title": "6.2 Mobile Electron Carriers (CoQ & Cytochrome c)",
+      "type": "paragraph",
+      "content": "1. **Ubiquinone (Coenzyme Q / CoQ)**:\n   - A small, hydrophobic, lipid-soluble benzoquinone dissolved within the lipid core of the inner membrane.\n   - Acts as a mobile electron and proton carrier, collecting reducing equivalents from both Complex I and Complex II and delivering them to Complex III.\n2. **Cytochrome c**:\n   - A small, water-soluble peripheral hemeprotein electrostatically attached to the outer surface of the inner mitochondrial membrane (facing the intermembrane space).\n   - Shuttles electrons single-file from Complex III (Cytochrome $c_1$) to Complex IV (Cytochrome $a$)."
+    }
+  ]
+}

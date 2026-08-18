@@ -1,0 +1,62 @@
+{
+  "id": "chem-xi-u5-c5-l02",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit V \u2014 Chemical Thermodynamics",
+  "unitNumber": 5,
+  "chapter": "Chemical Thermodynamics",
+  "chapterNumber": 5,
+  "chapterSlug": "chemical-thermodynamics",
+  "slug": "lesson-02-work-mechanics-reversible-irreversible",
+  "title": "Work Mechanics: Reversible vs Irreversible Isothermal & Adiabatic Processes",
+  "topic": "Work Mechanics & Processes",
+  "topics": [
+    "Pressure-Volume (P-V) Work Integral (w = -\u222b P_ext dV)",
+    "Reversible vs Irreversible Isothermal Expansion (|w_rev| > |w_irr|)",
+    "Reversible Isothermal Work Formula (w = -2.303 nRT log(V\u2082/V\u2081))",
+    "Adiabatic Reversible Law (PV^\u03b3 = const, w = n C_v \u0394T)",
+    "Free Expansion into Vacuum (P_ext = 0 \u27f9 w = 0, q = 0, \u0394T = 0)"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "first-law-thermodynamics",
+  "quickSummary": "Work is defined by w = -\u222b P_ext dV. Maximum expansion work is produced in a reversible isothermal process (|w_rev| > |w_irr|). In free expansion into a vacuum (P_ext = 0), w = 0, q = 0, and \u0394T = 0 for an ideal gas.",
+  "summary": "Master reversible and irreversible work calculations, adiabatic Poisson relations, and vacuum free expansion.",
+  "conceptBreakdown": [
+    {
+      "heading": "2.1 Reversible vs Irreversible Work Mechanics",
+      "title": "2.1 Reversible vs Irreversible Work Mechanics",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Work Calculations",
+        "takeaway": "w = -\u222b P_ext dV. For expansion: |w_rev| > |w_irr|. Reversible isothermal: w = -2.303 nRT log\u2081\u2080(V\u2082/V\u2081)."
+      },
+      "codeSnippet": "REVERSIBLE vs IRREVERSIBLE EXPANSION WORK\n                     \n   Reversible Isothermal (|w_rev|) > Irreversible Isothermal (|w_irr|)\n   \n   Reversible:    w_rev = -2.303 nRT log\u2081\u2080(V\u2082 / V\u2081) = -2.303 nRT log\u2081\u2080(P\u2081 / P\u2082)\n   Irreversible:  w_irr = -P_ext (V\u2082 - V\u2081) = -P_ext nRT (1/P\u2082 - 1/P\u2081)",
+      "content": "\u2022 In a **Reversible Process**, the driving force differs infinitesimally from opposing force ($P_{\\text{ext}} = P_{\\text{int}} \\pm dP$), maintaining quasi-static equilibrium and extracting maximum work from the system.\n\u2022 In an **Irreversible Process**, expansion occurs against a constant external pressure $P_{\\text{ext}}$, yielding less work ($|w_{\\text{rev}}| > |w_{\\text{irr}}|$)."
+    },
+    {
+      "heading": "2.2 Adiabatic Expansion & Free Expansion",
+      "title": "2.2 Adiabatic Expansion & Free Expansion",
+      "type": "paragraph",
+      "content": "1. **Reversible Adiabatic Expansion ($q = 0 \\implies \\Delta U = w$)**:\n$$\\mathbf{P V^\\gamma = \\text{Constant} \\quad \\vert \\quad T V^{\\gamma-1} = \\text{Constant} \\quad \\vert \\quad T^\\gamma P^{1-\\gamma} = \\text{Constant}}$$\n$$\\mathbf{w_{\\text{rev, ad}} = n C_{v,m} (T_2 - T_1) = \\frac{P_2 V_2 - P_1 V_1}{\\gamma - 1} = \\frac{nR (T_2 - T_1)}{\\gamma - 1}}$$\n*(Note: Adiabatic expansion always causes cooling: $T_2 < T_1$)*.\n\n2. **Free Expansion into Vacuum ($P_{\\text{ext}} = 0$)**:\n$$\\mathbf{w = 0 \\quad \\text{for any free expansion!}}$$\nFor an Ideal Gas: $w = 0, q = 0 \\implies \\Delta U = 0 \\implies \\mathbf{\\Delta T = 0, \\Delta H = 0}$."
+    }
+  ],
+  "quickRevision": [
+    "w_rev = -2.303 nRT log\u2081\u2080(V\u2082/V\u2081).",
+    "w_irr = -P_ext (V\u2082 - V\u2081).",
+    "Expansion: |w_rev| > |w_irr|; Compression: |w_rev| < |w_irr|.",
+    "Adiabatic: T V^(\u03b3-1) = const; expansion causes cooling (T\u2082 < T\u2081).",
+    "Free expansion into vacuum: w = 0, q = 0, \u0394U = 0, \u0394T = 0."
+  ],
+  "keyFormulae": [
+    "w_rev = -2.303 nRT log\u2081\u2080(V\u2082 / V\u2081)",
+    "w_irr = -P_ext (V\u2082 - V\u2081)",
+    "w_ad = n C_v (T\u2082 - T\u2081) = nR(T\u2082 - T\u2081) / (\u03b3 - 1)",
+    "T V^(\u03b3-1) = Constant"
+  ]
+}

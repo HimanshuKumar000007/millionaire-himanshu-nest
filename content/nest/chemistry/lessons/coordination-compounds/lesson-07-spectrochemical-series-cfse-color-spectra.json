@@ -1,0 +1,63 @@
+{
+  "id": "chem-xii-u14-c5-l07",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XIV \u2014 Coordination Compounds",
+  "unitNumber": 14,
+  "chapter": "Coordination Compounds",
+  "chapterNumber": 5,
+  "chapterSlug": "coordination-compounds",
+  "slug": "lesson-07-spectrochemical-series-cfse-color-spectra",
+  "title": "Spectrochemical Series & CFSE Calculations",
+  "topic": "Spectrochemical Series & CFSE",
+  "topics": [
+    "The Spectrochemical Series of Ligands (I\u207b < Br\u207b < SCN\u207b < Cl\u207b < S\u00b2\u207b < F\u207b < OH\u207b < ox\u00b2\u207b < H\u2082O < NCS\u207b < EDTA\u2074\u207b < NH\u2083 < en < CN\u207b < CO)",
+    "Weak-Field (\u0394_o < P, High-Spin) vs Strong-Field (\u0394_o > P, Low-Spin) Configurations",
+    "7.1 Crystal Field Stabilization Energy (CFSE) Formula: CFSE = [-0.4 n_t2g + 0.6 n_eg] \u0394_o + mP",
+    "Worked CFSE Calculations for d\u2074 and d\u2076 Octahedral Systems",
+    "8.1 Electronic Spectra (d-d Transitions) & Complementary Color Wheel (Red absorbed \u2500\u2500\u25ba Green observed)",
+    "Colorless Complexes (d\u2070 and d\u00b9\u2070) vs Charge Transfer (LMCT) in MnO\u2084\u207b and Cr\u2082O\u2087\u00b2\u207b"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "coordination-compounds",
+  "quickSummary": "Spectrochemical series ranks ligand splitting power (I\u207b to CO). Strong fields (\u0394_o > P) yield low-spin complexes; weak fields (\u0394_o < P) yield high-spin. CFSE = [-0.4 n_t2g + 0.6 n_eg] \u0394_o + mP. Color arises from d-d transitions absorbing photons (\u0394E = hc/\u03bb), showing complementary colors. d\u2070 and d\u00b9\u2070 complexes are colorless; MnO\u2084\u207b purple and Cr\u2082O\u2087\u00b2\u207b orange are caused by LMCT.",
+  "summary": "Master the spectrochemical series, high/low-spin electronic filling, CFSE mathematical calculations, and d-d color spectra.",
+  "conceptBreakdown": [
+    {
+      "heading": "7. Spectrochemical Series & CFSE Calculations",
+      "title": "7. Spectrochemical Series & CFSE Calculations",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Spectrochemical Series & CFSE",
+        "takeaway": "Spectrochemical order: I\u207b < Br\u207b < Cl\u207b < F\u207b < OH\u207b < ox\u00b2\u207b < H\u2082O < NH\u2083 < en < CN\u207b < CO. CFSE = [-0.4 n_t2g + 0.6 n_eg] \u0394_o + mP."
+      },
+      "codeSnippet": "SPECTROCHEMICAL SERIES OF LIGANDS\n\nI\u207b < Br\u207b < SCN\u207b < Cl\u207b < S\u00b2\u207b < F\u207b < OH\u207b < ox\u00b2\u207b < H\u2082O < NCS\u207b < EDTA\u2074\u207b < NH\u2083 < en < CN\u207b < CO\n\nHIGH-SPIN vs LOW-SPIN CONFIGURATIONS:\n\u2022 Weak Field (\u0394_o < P):  High-Spin Complex (Hund's rule holds; e_g occupied before pairing).\n\u2022 Strong Field (\u0394_o > P): Low-Spin Complex (electrons pair in t_2g before entering e_g).\n\nCFSE FORMULA:\nCFSE = [-0.4 n_t2g + 0.6 n_eg] \u0394_o + m P\n\nWorked Example (d\u2074 Octahedral):\n\u2022 Weak Field (t_2g\u00b3 e_g\u00b9):  CFSE = [-0.4(3) + 0.6(1)] \u0394_o = -0.6 \u0394_o\n\u2022 Strong Field (t_2g\u2074 e_g\u2070): CFSE = [-0.4(4) + 0.6(0)] \u0394_o + 1P = -1.6 \u0394_o + P",
+      "content": "The Spectrochemical Series arranges ligands in increasing order of crystal field splitting power ($\\Delta_o$):\n$$\\mathbf{\\text{I}^- < \\text{Br}^- < \\text{SCN}^- < \\text{Cl}^- < \\text{S}^{2-} < \\text{F}^- < \\text{OH}^- < \\text{ox}^{2-} < \\text{H}_2\\text{O} < \\text{NCS}^- < \\text{EDTA}^{4-} < \\text{NH}_3 < \\text{en} < \\text{CN}^- < \\text{CO}}$$"
+    },
+    {
+      "heading": "8. Electronic Spectra (d-d Transitions) & Color Origins",
+      "title": "8. Electronic Spectra (d-d Transitions) & Color Origins",
+      "type": "paragraph",
+      "codeSnippet": "                         COMPLEMENTARY COLOR WHEEL\n                         \n   Absorbed Light Wavelength ($\\lambda$) \u2500\u2500\u25ba Observed Complementary Color\n   \u251c\u2500\u2500 Absorbs RED ($650\\text{ nm}$)      \u2500\u2500\u25ba Appears GREEN (*e.g., $\\text{Cr}^{3+}$*)\n   \u251c\u2500\u2500 Absorbs YELLOW ($580\\text{ nm}$)   \u2500\u2500\u25ba Appears BLUE / VIOLET (*e.g., $\\text{Cu}^{2+}$*)\n   \u2514\u2500\u2500 Absorbs BLUE ($450\\text{ nm}$)     \u2500\u2500\u25ba Appears YELLOW / ORANGE\n\n\u2022 Colorless Complexes (d\u2070 and d\u00b9\u2070): Sc\u00b3\u207a, Ti\u2074\u207a, Zn\u00b2\u207a, Cu\u207a have no d-d transitions.\n\u2022 LMCT Exception: MnO\u2084\u207b (Purple) and Cr\u2082O\u2087\u00b2\u207b (Orange) colors arise from LMCT, NOT d-d transitions!",
+      "content": "Color arises when an electron in $t_{2g}$ absorbs visible light ($\\Delta E = h\\nu = \\frac{hc}{\\lambda}$) and is promoted to $e_g$. The observed color is complementary to the absorbed wavelength."
+    }
+  ],
+  "quickRevision": [
+    "Spectrochemical series: I\u207b < Br\u207b < Cl\u207b < F\u207b < H\u2082O < NH\u2083 < en < CN\u207b < CO.",
+    "Weak field: \u0394_o < P (high-spin); Strong field: \u0394_o > P (low-spin).",
+    "CFSE = [-0.4 n_t2g + 0.6 n_eg] \u0394_o + mP.",
+    "For d\u2076 low-spin (t_2g\u2076): CFSE = -2.4 \u0394_o + 2P; for d\u2076 high-spin (t_2g\u2074 e_g\u00b2): CFSE = -0.4 \u0394_o.",
+    "Observed color is the complementary color of absorbed light.",
+    "d\u2070 and d\u00b9\u2070 complexes are colorless; MnO\u2084\u207b and Cr\u2082O\u2087\u00b2\u207b colors arise from LMCT."
+  ],
+  "keyFormulae": [
+    "\\text{CFSE} = \\left[ -0.4 n_{t_{2g}} + 0.6 n_{e_g} \\right] \\Delta_o + m P",
+    "\\Delta E = h\\nu = \\frac{hc}{\\lambda_{\\text{absorbed}}}"
+  ]
+}

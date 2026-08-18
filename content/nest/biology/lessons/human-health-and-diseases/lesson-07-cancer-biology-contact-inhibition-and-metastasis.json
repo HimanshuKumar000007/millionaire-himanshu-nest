@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u8-c7-l07",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VIII — Biology in Human Welfare",
+  "unitNumber": 8,
+  "chapter": "Human Health and Diseases",
+  "chapterNumber": 7,
+  "chapterSlug": "human-health-and-diseases",
+  "slug": "lesson-07-cancer-biology-contact-inhibition-and-metastasis",
+  "title": "Cancer Biology: Contact Inhibition & Metastasis",
+  "topic": "Neoplasia, Oncogenes vs Tumor Suppressors, Carcinogens, & Therapies",
+  "order": 7,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Cancer hallmarks: Loss of contact inhibition leading to uncontrolled tumor growth; Metastasis (cancer cells invade blood/lymph and establish secondary tumors; defining feature of malignancy). Carcinogens: Physical (X-rays, UV), Chemical (Tobacco 3,4-benzopyrene), Biological (Oncogenic viruses, c-onc/proto-oncogene activation). Therapies: Surgery, Radiation, Chemotherapy (Vincristine/Vinblastine), Immunotherapy (alpha-interferon).",
+  "summary": "Cancer hallmarks: Loss of contact inhibition leading to uncontrolled tumor growth; Metastasis (cancer cells invade blood/lymph and establish secondary tumors; defining feature of malignancy). Carcinogens: Physical (X-rays, UV), Chemical (Tobacco 3,4-benzopyrene), Biological (Oncogenic viruses, c-onc/proto-oncogene activation). Therapies: Surgery, Radiation, Chemotherapy (Vincristine/Vinblastine), Immunotherapy (alpha-interferon).",
+  "conceptBreakdown": [
+    {
+      "heading": "Cancer Biology: Hallmarks, Etiology & Diagnostics",
+      "title": "Cancer Biology: Hallmarks, Etiology & Diagnostics",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Neoplastic transformation results from loss of contact inhibition and dysregulation of cellular proto-oncogenes or tumor suppressors. Malignant tumors exhibit Metastasis—spreading to distant organs via bloodstream/lymph. Diagnostic modalities include biopsy, CT, MRI, and monoclonal antibodies. Therapies encompass surgery, radiotherapy, spindle-inhibiting chemotherapy, and alpha-interferon immunotherapy."
+      },
+      "codeSnippet": "CANCER HALLMARKS\n                                   │\n         ┌─────────────────────────┴─────────────────────────┐\n         ▼                                                   ▼\n  LOSS OF CONTACT INHIBITION                           METASTASIS\n  Normal cells stop dividing when touching adjacent   Cancer cells detach from primary tumor, enter blood/\n  cells. Cancer cells lose this property, forming      lymph, and colonize distant organs to form secondary\n  unorganized cell masses (Tumors).                   tumors. (Most feared property of cancer).",
+      "content": "### 7.1 Hallmarks of Neoplasia\n- **Loss of Contact Inhibition**: Normal eukaryotic cells arrest proliferation when contacting neighboring cells. Cancer cells lose contact inhibition, continuing uncontrolled mitosis to form unorganized cell masses (**Tumors**).\n- **Benign vs. Malignant Tumors**:\n  - *Benign Tumors*: Remain confined to original anatomical site enclosed in a fibrous capsule; do not invade surrounding tissues or spread to distant sites; cause minimal damage.\n  - *Malignant Tumors (Neoplasms)*: Proliferate aggressively, invade local tissues, starve normal cells by competing for nutrients, and display **Metastasis** (shed cells enter bloodstream/lymph to seed secondary tumors in distant organs).\n\n### 7.2 Carcinogens & Oncogenesis\n1. **Physical Carcinogens**: Ionizing radiation (X-rays, $\\gamma$-rays) induce double-strand DNA breaks; non-ionizing UV radiation causes thymine dimer formation.\n2. **Chemical Carcinogens**: **Tobacco smoke** chemicals (**3,4-Benzopyrene**, $N$-nitrosamines) cause lung, throat, and bladder cancers; asbestos and coal tar.\n3. **Biological Carcinogens**: Oncogenic viruses carrying viral oncogenes (*v-onc*); mutation or amplification of cellular **Proto-Oncogenes (*c-onc*)** or inactivation of **Tumor Suppressor Genes (*p53*, *Rb*)** transforms normal cells into cancer.\n\n### 7.3 Diagnostic & Therapeutic Modalities\n- **Diagnostics**: Biopsy and histopathological examination; blood and bone marrow smears for elevated leukemic blast cells; **Computed Tomography (CT)** (3D X-ray reconstruction); **Magnetic Resonance Imaging (MRI)** (uses non-ionizing magnetic fields); Monoclonal antibodies.\n- **Therapeutics**:\n  - *Surgery*: En bloc surgical resection of localized primary tumor masses.\n  - *Radiotherapy*: Targeted lethal ionizing radiation destroying tumor cells.\n  - *Chemotherapy*: Cytotoxic antineoplastic drugs, including plant vinca alkaloids (**Vinblastine** and **Vincristine** from *Catharanthus roseus* / Madagascar periwinkle) that arrest mitotic spindle assembly.\n  - *Immunotherapy*: Administration of **$\\alpha$-Interferon** (a biological response modifier) to activate the patient's own NK cells and cytotoxic T-cells to destroy malignant cells."
+    },
+    {
+      "heading": "Angiogenesis and VEGF",
+      "title": "Angiogenesis and VEGF",
+      "type": "paragraph",
+      "content": "Growing tumors secrete Vascular Endothelial Growth Factor (VEGF) to stimulate tumor angiogenesis (new capillary network sprouting) to supply oxygen and nutrients, targeted clinically by anti-angiogenic monoclonal antibodies (e.g., Bevacizumab)."
+    },
+    {
+      "heading": "p53: Guardian of the Genome",
+      "title": "p53: Guardian of the Genome",
+      "type": "paragraph",
+      "content": "The p53 tumor suppressor protein halts the cell cycle at G1/S upon sensing DNA damage, activating DNA repair pathways or triggering apoptosis; mutated in over 50% of human cancers."
+    }
+  ]
+}

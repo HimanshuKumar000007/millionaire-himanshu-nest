@@ -1,0 +1,51 @@
+{
+  "id": "bio-xi-u4-c12-l10",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Respiration in Plants",
+  "chapterNumber": 12,
+  "chapterSlug": "respiration-in-plants",
+  "slug": "lesson-10-respiratory-quotient-rq-dynamics",
+  "title": "Respiratory Quotient (RQ) Dynamics & Substrate Energetics",
+  "topic": "RQ Formulas, Substrate Calculations, & Physiological Diagnostic Contexts",
+  "topics": [
+    "Definition & Formula of Respiratory Quotient (RQ = Vol CO₂ evolved / Vol O₂ consumed)",
+    "Carbohydrate Aerobic Respiration (RQ = 1.0)",
+    "Fats / Lipids Oxidation: Tripalmitin (RQ = 0.70 in Germinating Oily Seeds)",
+    "Protein Catabolism / Starvation (RQ ≈ 0.9)",
+    "Organic Acids Respiration: Malic Acid (RQ = 1.33) & Oxalic Acid (RQ = 4.0)",
+    "Succulents / CAM Plants Nocturnal Incomplete Oxidation (RQ = 0.0)",
+    "Pure Anaerobic Fermentation (RQ = ∞, Infinity)",
+    "Comprehensive RQ Matrix Table"
+  ],
+  "order": 10,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "The Respiratory Quotient (RQ) is the volumetric ratio of CO₂ evolved to O₂ consumed during cellular respiration (RQ = CO₂/O₂). RQ serves as a physiological diagnostic for the respiratory substrate being oxidized: pure carbohydrates have RQ = 1.0; fats (e.g., tripalmitin in germinating oily seeds) have RQ = 0.7; proteins have RQ ≈ 0.9; organic acids (malic acid = 1.33, oxalic acid = 4.0) have RQ > 1.0; succulent CAM plants at night have RQ = 0.0 (no CO₂ released); and anaerobic fermentation has RQ = ∞ (no O₂ consumed).",
+  "summary": "The Respiratory Quotient (RQ) is the volumetric ratio of CO₂ evolved to O₂ consumed during cellular respiration (RQ = CO₂/O₂). RQ serves as a physiological diagnostic for the respiratory substrate being oxidized: pure carbohydrates have RQ = 1.0; fats (e.g., tripalmitin in germinating oily seeds) have RQ = 0.7; proteins have RQ ≈ 0.9; organic acids (malic acid = 1.33, oxalic acid = 4.0) have RQ > 1.0; succulent CAM plants at night have RQ = 0.0 (no CO₂ released); and anaerobic fermentation has RQ = ∞ (no O₂ consumed).",
+  "conceptBreakdown": [
+    {
+      "heading": "9. Respiratory Quotient (RQ) Dynamics",
+      "title": "9. Respiratory Quotient (RQ) Dynamics",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "RQ = Vol CO₂ evolved / Vol O₂ consumed. Carbohydrates = 1.0; Fats = 0.7; Proteins ≈ 0.9; Organic acids > 1.0; Nocturnal CAM = 0.0; Anaerobic = ∞."
+      },
+      "codeSnippet": "RESPIRATORY QUOTIENT FORMULA & RATIOS\n                        \n   $$\\mathbf{RQ = \\frac{\\text{Volume of } \\text{CO}_2 \\text{ Evolved}}{\\text{Volume of } \\text{O}_2 \\text{ Consumed}}}$$\n   \n   ├── Pure Carbohydrate (Glucose):  6 CO₂ / 6 O₂   = 1.0\n   ├── Fats / Lipids (Tripalmitin):  102 CO₂ / 145 O₂ = 0.7\n   ├── Proteins (Amino Acids):        ~0.85 to 0.9  = 0.9\n   ├── Organic Acids (Malic Acid):   4 CO₂ / 3 O₂   = 1.33\n   ├── Succulents at Night (CAM):    0 CO₂ / 3 O₂   = 0.0\n   └── Anaerobic Respiration:        2 CO₂ / 0 O₂   = ∞ (Infinity)",
+      "content": "The **Respiratory Quotient (RQ)** (also called Respiratory Ratio) is the stoichiometric ratio of the volume of carbon dioxide ($\\text{CO}_2$) evolved to the volume of oxygen ($\\text{O}_2$) consumed per unit time during cellular respiration.\n\n- **Diagnostic Significance**: RQ directly reveals the chemical nature and oxidation state of the primary respiratory substrate being catabolized by living tissues or organs (measured using a Ganong's respirometer)."
+    },
+    {
+      "heading": "9.1 Summary of RQ Values Across Substrates",
+      "title": "9.1 Summary of RQ Values Across Substrates",
+      "type": "paragraph",
+      "content": "### Summary of RQ Values Across Respiratory Substrates\n\n| Respiratory Substrate | Stoichiometric Equation | $RQ$ Value | Physiological Context |\n| :--- | :--- | :--- | :--- |\n| **Carbohydrates** | $\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2 \\rightarrow 6\\text{CO}_2 + 6\\text{H}_2\\text{O}$ | **$1.0$** | Aerobic respiration of pure glucose/starch |\n| **Fats / Lipids (Tripalmitin)** | $2\\text{C}_{51}\\text{H}_{98}\\text{O}_6 + 145\\text{O}_2 \\rightarrow 102\\text{CO}_2 + 98\\text{H}_2\\text{O}$ | **$0.7$** ($102/145$) | Germinating oily seeds (*Castor, Mustard*) |\n| **Proteins** | Complex polypeptide oxidation | **$\\approx 0.9$** | Starvation / Protein catabolism |\n| **Organic Acids (Malic Acid)** | $\\text{C}_4\\text{H}_6\\text{O}_5 + 3\\text{O}_2 \\rightarrow 4\\text{CO}_2 + 3\\text{H}_2\\text{O}$ | **$1.33$** ($4/3$) | Respiration of organic acids |\n| **Organic Acids (Oxalic Acid)** | $2\\text{C}_2\\text{H}_2\\text{O}_4 + \\text{O}_2 \\rightarrow 4\\text{CO}_2 + 2\\text{H}_2\\text{O}$ | **$4.0$** ($4/1$) | Oxidation of highly oxygenated substrates |\n| **Succulents / CAM (Night)** | $2\\text{C}_6\\text{H}_{12}\\text{O}_6 + 3\\text{O}_2 \\rightarrow 3\\text{C}_4\\text{H}_6\\text{O}_5 + 3\\text{H}_2\\text{O}$ | **$0.0$** ($0/3$) | Nocturnal acidification without $\\text{CO}_2$ release |\n| **Anaerobic Respiration** | $\\text{C}_6\\text{H}_{12}\\text{O}_6 \\rightarrow 2\\text{C}_2\\text{H}_5\\text{OH} + 2\\text{CO}_2$ | **$\\infty$ (Infinity)** ($2/0$) | Absence of $\\text{O}_2$ consumption |"
+    }
+  ]
+}

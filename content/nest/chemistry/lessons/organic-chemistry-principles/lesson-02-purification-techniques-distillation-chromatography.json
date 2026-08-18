@@ -1,0 +1,61 @@
+{
+  "id": "chem-xi-u8-c8-l02",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VIII \u2014 Organic Chemistry: Basic Principles and Techniques",
+  "unitNumber": 8,
+  "chapter": "Organic Chemistry Principles & Techniques",
+  "chapterNumber": 8,
+  "chapterSlug": "organic-chemistry-principles",
+  "slug": "lesson-02-purification-techniques-distillation-chromatography",
+  "title": "Purification Techniques: Distillation Variants & Chromatography",
+  "topic": "Purification & Separation",
+  "topics": [
+    "Sublimation, Crystallization, and Simple Distillation (\u0394T_bp > 25 K)",
+    "Fractional Distillation (\u0394T_bp < 25 K, Fractionating Columns)",
+    "Steam Distillation (P_total = P\u00b0_water + P\u00b0_organic = 1 atm, Aniline/Nitrobenzene)",
+    "Vacuum Distillation / Reduced Pressure (Glycerol at 180\u00b0C under 12 mmHg)",
+    "Adsorption Chromatography (TLC, Column, Retardation Factor R_f)",
+    "Partition Chromatography (Paper Chromatography)"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "organic-chemistry-principles",
+  "quickSummary": "Simple distillation for large \u0394T (>25 K). Fractional for close \u0394T (<25 K). Steam distillation for steam-volatile, water-immiscible liquids (boils <100\u00b0C). Vacuum distillation for heat-sensitive liquids (Glycerol). TLC R_f = distance of solute / distance of solvent.",
+  "summary": "Master organic purification techniques: distillation variants, sublimation, and adsorption/partition chromatography.",
+  "conceptBreakdown": [
+    {
+      "heading": "2.1 Distillation Variants Comparison Matrix",
+      "title": "2.1 Distillation Variants Comparison Matrix",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Distillation Selection",
+        "takeaway": "Simple (\u0394T > 25 K), Fractional (\u0394T < 25 K), Steam (steam-volatile + water-immiscible, boils <100\u00b0C), Vacuum (decomposes near normal BP, e.g., Glycerol)."
+      },
+      "codeSnippet": "PURIFICATION SELECTION MAP\n                                       \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                  \u25bc              \u25bc              \u25bc                  \u25bc\n  SUBLIMATION      DISTILLATION   FRACTIONAL DIST.  STEAM DISTILLATION  VACUUM DISTILLATION\n  Direct s \u2192 g     Large \u0394T_bp    Close \u0394T_bp       Steam volatile;     Decomposes below\n  transition.      (>25 K).       (<25 K).          water-immiscible.   normal boiling pt.\n  (Naphthalene)    (Ether/Toluene)(Crude Oil)       (Aniline)           (Glycerol)",
+      "content": "1. **Simple Distillation**: Used for liquids with non-volatile impurities or mixtures with **large boiling point differences ($\\Delta T_{\\text{bp}} > 25\\text{ K}$)** (*e.g., Ether $34^\\circ\\text{C}$ and Toluene $111^\\circ\\text{C}$*).\n2. **Fractional Distillation**: Used for liquid mixtures with **close boiling points ($\\Delta T_{\\text{bp}} < 25\\text{ K}$)** using fractionating columns (*e.g., Crude oil fractions, Acetone $56^\\circ\\text{C}$ and Methanol $65^\\circ\\text{C}$*).\n3. **Steam Distillation**: Used for substances that are **steam-volatile and completely immiscible with water**. Since $P_{\\text{total}} = P^\\circ_{\\text{water}} + P^\\circ_{\\text{organic}} = 1\\text{ atm}$, the mixture **boils at a temperature BELOW $100^\\circ\\text{C}$** (*e.g., Aniline, Nitrobenzene, Essential oils*).\n4. **Vacuum Distillation (Reduced Pressure)**: Used for liquids that decompose **at or below their normal boiling points** (*e.g., Glycerol decomposes at $290^\\circ\\text{C}$; distills safely at $180^\\circ\\text{C}$ under $12\\text{ mmHg}$*)."
+    },
+    {
+      "heading": "2.2 Chromatographic Separations & R_f Calculation",
+      "title": "2.2 Chromatographic Separations & R_f Calculation",
+      "type": "paragraph",
+      "codeSnippet": "RETARDATION FACTOR (R_f)\n\n   R_f = (Distance travelled by the substance from baseline) / (Distance travelled by the solvent front from baseline)",
+      "content": "\u2022 **Adsorption Chromatography (TLC / Column)**: Based on differential adsorption on a stationary solid adsorbent (Silica gel / Alumina). Components with higher affinity for adsorbent travel slower (lower $R_f$).\n\u2022 **Partition Chromatography (Paper)**: Based on continuous differential partitioning of solutes between water trapped in paper fibers (stationary phase) and a mobile solvent phase."
+    }
+  ],
+  "quickRevision": [
+    "In steam distillation, the mixture boils below 100\u00b0C because P_total = P_water + P_organic = 1 atm.",
+    "Glycerol is purified by vacuum distillation (distillation under reduced pressure).",
+    "Fractional distillation is mandatory when boiling points differ by less than 25 K.",
+    "Retardation factor R_f is always \u2264 1.0."
+  ],
+  "keyFormulae": [
+    "P_{\\text{total}} = P^\\circ_{\\text{water}} + P^\\circ_{\\text{organic}} = 1\\text{ atm}",
+    "R_f = \\frac{\\text{Distance travelled by substance}}{\\text{Distance travelled by solvent front}}"
+  ]
+}

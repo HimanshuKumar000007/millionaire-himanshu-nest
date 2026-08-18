@@ -1,0 +1,60 @@
+{
+  "id": "chem-xii-u10-c1-l07",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit X \u2014 Solutions",
+  "unitNumber": 10,
+  "chapter": "Solutions",
+  "chapterNumber": 1,
+  "chapterSlug": "solutions",
+  "slug": "lesson-07-osmotic-pressure-isotonicity-reverse-osmosis",
+  "title": "Osmotic Pressure (\u03a0), Isotonicity, & Reverse Osmosis (RO)",
+  "topic": "Osmotic Pressure & Cellular States",
+  "topics": [
+    "Osmosis and Osmotic Pressure Equation (\u03a0 = CRT = (w_B R T) / (M_B V))",
+    "Cellular Osmotic States: Isotonic (0.9% NaCl with RBCs), Hypertonic (Crenation/Shrinkage), Hypotonic (Hemolysis/Bursting)",
+    "Why Osmotic Pressure is Preferred for Macromolecules/Proteins (Room temperature, large measurable magnitude)",
+    "Reverse Osmosis (RO) Desalination (External pressure P > \u03a0 across Cellulose Acetate SPM)"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "solutions",
+  "quickSummary": "Osmotic pressure: \u03a0 = CRT = (w_B\u00b7R\u00b7T)/(M_B\u00b7V). 0.9% NaCl is isotonic with RBCs; Hypertonic causes crenation; Hypotonic causes hemolysis. \u03a0 is preferred for biomolecules. Reverse Osmosis (P > \u03a0) desalinates seawater.",
+  "summary": "Master osmotic pressure calculations, cellular tonicity dynamics, biomolecular mass determination, and RO desalination.",
+  "conceptBreakdown": [
+    {
+      "heading": "7.1 Osmotic Pressure & Cellular Tonicity",
+      "title": "7.1 Osmotic Pressure & Cellular Tonicity",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Osmotic States",
+        "takeaway": "\u03a0 = CRT. Isotonic (\u03a0\u2081 = \u03a0\u2082), Hypertonic (Water flows OUT \u27f9 Crenation), Hypotonic (Water flows IN \u27f9 Hemolysis)."
+      },
+      "codeSnippet": "CELLULAR OSMOTIC STATES\n                                     \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                           \u25bc                           \u25bc\n  ISOTONIC SOLUTIONS          HYPERTONIC SOLUTION         HYPOTONIC SOLUTION\n  \u03a0\u2081 = \u03a0\u2082                     \u03a0_soln > \u03a0_cell             \u03a0_soln < \u03a0_cell\n  No net fluid movement.      Water flows OUT of cell.    Water flows INTO cell.\n  (0.9% w/v NaCl for RBCs)    (Crenation / Shrinkage)     (Hemolysis / Bursting)",
+      "content": "\u2022 **Osmotic Pressure Equation**: $\\mathbf{\\Pi = C R T = \\frac{w_B R T}{M_B V}}$.\n\u2022 **RBC Isotonicity**: Human red blood cells are isotonic with $\\mathbf{0.9\\%\\ (w/v)\\ \\text{NaCl}}$ solution. In $>0.9\\%\\ \\text{NaCl}$ (Hypertonic), RBCs shrink (**Crenation**); in $<0.9\\%\\ \\text{NaCl}$ (Hypotonic), RBCs swell and burst (**Hemolysis**)."
+    },
+    {
+      "heading": "7.2 Molar Mass of Macromolecules & Reverse Osmosis (RO)",
+      "title": "7.2 Molar Mass of Macromolecules & Reverse Osmosis (RO)",
+      "type": "paragraph",
+      "codeSnippet": "MACROMOLECULES & REVERSE OSMOSIS\n\n\u2022 Why \u03a0 is Preferred for Proteins/Polymers:\n  1. Measured at room temperature (prevents thermal denaturation).\n  2. Magnitude of \u03a0 is large and easily measurable even at C ~ 10\u207b\u2074 M (unlike minute \u0394T_b or \u0394T_f).\n  3. Uses Molarity (M) rather than Molality.\n\n\u2022 Reverse Osmosis (RO) Desalination:\n  Applying external pressure P > \u03a0 to the saline side forces pure water backward through a Cellulose Acetate SPM.",
+      "content": "\u2022 **Biomolecule Mass Determination**: For high-molecular-weight polymers ($M > 10,000\\text{ g/mol}$), $\\Delta T_b$ and $\\Delta T_f$ values are negligibly small ($<0.001\\text{ K}$), whereas $\\Pi$ produces large, easily measurable hydrostatic heads at room temperature without denaturing proteins.\n\u2022 **Reverse Osmosis (RO)**: When $P > \\Pi$ is applied to seawater, water molecules migrate across a semi-permeable membrane into the pure water reservoir."
+    }
+  ],
+  "quickRevision": [
+    "\u03a0 = CRT = (w_B\u00b7R\u00b7T)/(M_B\u00b7V).",
+    "0.9% w/v NaCl is isotonic with red blood cells.",
+    "Hypertonic causes crenation (shrinkage); Hypotonic causes hemolysis (bursting).",
+    "Reverse Osmosis occurs when external P > \u03a0.",
+    "Osmotic pressure is the best colligative method for proteins/polymers."
+  ],
+  "keyFormulae": [
+    "\\Pi = C R T = \\frac{n_B}{V} R T = \\frac{w_B R T}{M_B V}",
+    "\\text{RO Condition: } P_{\\text{external}} > \\Pi"
+  ]
+}

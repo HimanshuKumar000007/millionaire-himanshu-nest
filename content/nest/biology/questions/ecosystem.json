@@ -1,0 +1,604 @@
+[
+  {
+    "id": "bio-xii-u10-c12-q01",
+    "questionNumber": 1,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Net Primary Productivity & Solar Radiation Efficiency",
+    "questionText": "An ecosystem ecologist measures the energy parameters of a temperate forest biome and records the following annual values:\n- Total Incident Solar Radiation: 1,000,000 kcal/m²/yr\n- Gross Primary Productivity (GPP): 20,000 kcal/m²/yr\n- Autotrophic Respiratory Loss (R): 12,000 kcal/m²/yr\nWhat is the Net Primary Productivity (NPP) of this forest, and what percentage of total incident solar radiation was converted into NPP?",
+    "options": [
+      {
+        "id": "A",
+        "text": "NPP = 32,000 kcal/m²/yr; Efficiency = 3.2%"
+      },
+      {
+        "id": "B",
+        "text": "NPP = 8,000 kcal/m²/yr; Efficiency = 0.8%"
+      },
+      {
+        "id": "C",
+        "text": "NPP = 12,000 kcal/m²/yr; Efficiency = 1.2%"
+      },
+      {
+        "id": "D",
+        "text": "NPP = 20,000 kcal/m²/yr; Efficiency = 2.0%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "1. Net Primary Productivity (NPP) = GPP - R = 20,000 - 12,000 = 8,000 kcal/m²/yr. 2. Conversion Efficiency = (NPP / Total Incident Radiation) * 100 = (8,000 / 1,000,000) * 100 = 0.8%."
+  },
+  {
+    "id": "bio-xii-u10-c12-q02",
+    "questionNumber": 2,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Inverted Biomass Pyramid in Oceans",
+    "questionText": "Why is the Pyramid of Biomass in an open sea or oceanic ecosystem inverted, with the standing crop biomass of Zooplankton and Fishes significantly exceeding that of Phytoplankton?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Phytoplankton undergo rapid 100% mortality without being consumed by zooplankton."
+      },
+      {
+        "id": "B",
+        "text": "Phytoplankton have an extremely small standing crop at any given instant, but possess a very high turnover rate and rapid reproduction that supports a larger, longer-lived consumer standing crop."
+      },
+      {
+        "id": "C",
+        "text": "Zooplankton fix atmospheric nitrogen directly to increase their biomass."
+      },
+      {
+        "id": "D",
+        "text": "Second Law of Thermodynamics does not operate in marine environments."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Phytoplankton (T1) have a small standing crop biomass at any single point in time, but their turnover rate is extremely rapid (short generation time). Their rapid rate of primary production supplies enough energy to sustain a larger, longer-lived standing crop of Zooplankton (T2) and Fishes (T3), creating an inverted biomass pyramid."
+  },
+  {
+    "id": "bio-xii-u10-c12-q03",
+    "questionNumber": 3,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Humification in Decomposition",
+    "questionText": "During the multi-step process of detritus decomposition, which specific step involves the formation of a dark-colored, amorphous, highly resistant colloidal substance that acts as a nutrient reservoir and undergoes extremely slow microbial breakdown?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fragmentation"
+      },
+      {
+        "id": "B",
+        "text": "Leaching"
+      },
+      {
+        "id": "C",
+        "text": "Humification"
+      },
+      {
+        "id": "D",
+        "text": "Mineralization"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Humification leads to the accumulation of Humus—a dark, amorphous, colloidal substance that is highly resistant to microbial catabolism and undergoes extremely slow decomposition, serving as a vital soil nutrient reservoir."
+  },
+  {
+    "id": "bio-xii-u10-c12-q04",
+    "questionNumber": 4,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Lindeman's 10% Energy Transfer Calculation",
+    "questionText": "According to Lindeman's 10% Energy Transfer Law, if the primary producers (T1) in a grassland ecosystem capture solar energy and synthesize biomass containing 10,000 Joules of energy, how much energy will be incorporated into the organic tissue of secondary consumers (T3 / primary carnivores)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1,000 J"
+      },
+      {
+        "id": "B",
+        "text": "100 J"
+      },
+      {
+        "id": "C",
+        "text": "10 J"
+      },
+      {
+        "id": "D",
+        "text": "1 J"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Applying Lindeman's 10% law across sequential trophic levels: T1 (Producers) = 10,000 J -> T2 (Primary Consumers / Herbivores) = 10% of 10,000 = 1,000 J -> T3 (Secondary Consumers / Primary Carnivores) = 10% of 1,000 = 100 J."
+  },
+  {
+    "id": "bio-xii-u10-c12-q05",
+    "questionNumber": 5,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Global Biospheric Net Primary Productivity",
+    "questionText": "What is the total estimated annual net primary productivity (NPP) of the entire global biosphere (dry weight of organic matter), and what proportion is contributed by oceanic ecosystems?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Total = 170 Billion Tonnes; Oceans = 55 Billion Tonnes (32.4%)"
+      },
+      {
+        "id": "B",
+        "text": "Total = 55 Billion Tonnes; Oceans = 170 Billion Tonnes (100%)"
+      },
+      {
+        "id": "C",
+        "text": "Total = 115 Billion Tonnes; Oceans = 115 Billion Tonnes (50%)"
+      },
+      {
+        "id": "D",
+        "text": "Total = 500 Billion Tonnes; Oceans = 350 Billion Tonnes (70%)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The total annual NPP of the biosphere is approximately 170 Billion Tonnes. Despite covering 70% of Earth's surface, oceans contribute only 55 Billion Tonnes due to light extinction and nutrient limitation in pelagic waters. Terrestrial ecosystems contribute 115 Billion Tonnes."
+  },
+  {
+    "id": "bio-xii-u10-c12-q06",
+    "questionNumber": 6,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Decomposition Rate Chemical & Environmental Factors",
+    "questionText": "Which combination of environmental factors and substrate chemical compositions will cause the SLOWEST rate of detrital decomposition in a forest soil?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Warm temperature (30°C), high moisture, and detritus rich in Nitrogen and water-soluble sugars"
+      },
+      {
+        "id": "B",
+        "text": "Cold temperature (<5°C), anaerobic soil conditions, and detritus rich in Lignin, Chitin, and Suberin"
+      },
+      {
+        "id": "C",
+        "text": "Aerobic conditions, neutral pH, and detritus rich in simple carbohydrates"
+      },
+      {
+        "id": "D",
+        "text": "Tropical climate, high earthworm activity, and low lignin content"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Decomposition is slowed significantly by cold temperatures, anaerobiosis (lack of oxygen), and detritus composed of complex, recalcitrant structural polymers like Lignin, Chitin, and Suberin."
+  },
+  {
+    "id": "bio-xii-u10-c12-q07",
+    "questionNumber": 7,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Photosynthetically Active Radiation PAR Fraction",
+    "questionText": "What percentage of total incident solar radiation constitutes Photosynthetically Active Radiation (PAR), and what percentage of PAR is typically captured by green plants for primary production?",
+    "options": [
+      {
+        "id": "A",
+        "text": "PAR = 100%; Plants capture 50% of PAR"
+      },
+      {
+        "id": "B",
+        "text": "PAR = 50%; Plants capture 2–10% of PAR"
+      },
+      {
+        "id": "C",
+        "text": "PAR = 10%; Plants capture 90% of PAR"
+      },
+      {
+        "id": "D",
+        "text": "PAR = 25%; Plants capture 100% of PAR"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Approximately 50% of total incident solar radiation constitutes Photosynthetically Active Radiation (PAR: 400–700 nm). Of this PAR, green plants capture only 2–10% (1–5% of total incident solar radiation) for photosynthesis."
+  },
+  {
+    "id": "bio-xii-u10-c12-q08",
+    "questionNumber": 8,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Pyramid of Numbers in a Single Tree Ecosystem",
+    "questionText": "In a single large Oak Tree ecosystem, a single tree (T1) supports 2,000 herbivorous insects (T2), which in turn support 50 insectivorous birds (T3), which are parasitized by 5,000 bird lice (T4). What is the structural shape of the Pyramid of Numbers for this specific ecosystem?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Always Upright"
+      },
+      {
+        "id": "B",
+        "text": "Inverted / Spindle-shaped"
+      },
+      {
+        "id": "C",
+        "text": "Completely Horizontal"
+      },
+      {
+        "id": "D",
+        "text": "Bell-shaped"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In a single tree ecosystem, T1 = 1 (single tree) -> T2 = 2000 (insects) -> T3 = 50 (birds) -> T4 = 5000 (hyperparasites). The initial step (1 -> 2000) creates an Inverted / Spindle-shaped Pyramid of Numbers."
+  },
+  {
+    "id": "bio-xii-u10-c12-q09",
+    "questionNumber": 9,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Catabolism in Detrital Degradation",
+    "questionText": "Which decomposition process involves extracellular digestion where saprophytic bacteria and fungi secrete enzymes onto dead detritus to hydrolyze organic polymers into simple inorganic nutrients?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fragmentation"
+      },
+      {
+        "id": "B",
+        "text": "Leaching"
+      },
+      {
+        "id": "C",
+        "text": "Catabolism"
+      },
+      {
+        "id": "D",
+        "text": "Stratification"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Catabolism is the step where extracellular bacterial and fungal saprophytic enzymes (cellulases, proteases, chitinases) break down fragmented detritus into simpler inorganic substances."
+  },
+  {
+    "id": "bio-xii-u10-c12-q10",
+    "questionNumber": 10,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Omission of Decomposers in Eltonian Pyramids",
+    "questionText": "Why are Decomposers / Saprotrophs completely excluded from standard Eltonian ecological pyramids, despite playing a vital functional role in ecosystem bioenergetics?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decomposers do not utilize energy or photosynthates."
+      },
+      {
+        "id": "B",
+        "text": "Ecological pyramids assume simple linear food chains and cannot accommodate organisms that operate simultaneously across multiple trophic levels."
+      },
+      {
+        "id": "C",
+        "text": "Decomposers are present only in marine ecosystems."
+      },
+      {
+        "id": "D",
+        "text": "Decomposers do not possess standing crop biomass."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Standard Eltonian pyramids assume simple, linear food chains (T1 -> T2 -> T3). Because saprotrophs/decomposers consume dead organic matter from all trophic levels simultaneously, they cannot be assigned to a single fixed numerical tier and are excluded from ecological pyramids."
+  },
+  {
+    "id": "bio-xii-u10-c12-q11",
+    "questionNumber": 11,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Fundamental Functional Ecosystem Attributes",
+    "questionText": "Which of the following functional attributes characterize a fully operational Ecosystem?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Primary and Secondary Productivity"
+      },
+      {
+        "id": "B",
+        "text": "Stepwise Detrital Decomposition"
+      },
+      {
+        "id": "C",
+        "text": "Unidirectional Energy Flow through food chains"
+      },
+      {
+        "id": "D",
+        "text": "Nutrient Cycling (Biogeochemical cycles)"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "The four fundamental functional attributes of any ecosystem are Productivity, Decomposition, Energy Flow, and Nutrient Cycling."
+  },
+  {
+    "id": "bio-xii-u10-c12-q12",
+    "questionNumber": 12,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Net Primary Productivity Dynamics",
+    "questionText": "Select the valid statements regarding Net Primary Productivity (NPP):",
+    "options": [
+      {
+        "id": "A",
+        "text": "NPP = GPP - R, where R represents autotrophic respiratory losses."
+      },
+      {
+        "id": "B",
+        "text": "NPP represents the net organic biomass available for consumption by heterotrophs (herbivores and decomposers)."
+      },
+      {
+        "id": "C",
+        "text": "Coral reefs, tropical rainforests, and estuaries display the highest NPP per unit area."
+      },
+      {
+        "id": "D",
+        "text": "Deep oceanic abyssal zones and deserts display the highest NPP per unit area."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: NPP = GPP - R, NPP is available to heterotrophs, and rainforests/coral reefs have the highest unit NPP. D is incorrect: Deserts and deep ocean abyssal zones have the lowest NPP per unit area."
+  },
+  {
+    "id": "bio-xii-u10-c12-q13",
+    "questionNumber": 13,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Five-Step Decomposition Sequence",
+    "questionText": "Which of the following steps are component processes of Detritus Decomposition in soil?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fragmentation by detritivores like earthworms"
+      },
+      {
+        "id": "B",
+        "text": "Leaching of water-soluble inorganic nutrients into lower soil horizons"
+      },
+      {
+        "id": "C",
+        "text": "Microbial Catabolism of complex polymers"
+      },
+      {
+        "id": "D",
+        "text": "Humification forming dark amorphous humus and Mineralization releasing free ions"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "All four options represent the five sequential steps of decomposition: Fragmentation, Leaching, Catabolism, Humification, and Mineralization."
+  },
+  {
+    "id": "bio-xii-u10-c12-q14",
+    "questionNumber": 14,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Ecological Pyramids Properties & Inversion",
+    "questionText": "Select the correct options regarding Ecological Pyramids:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Pyramid of Energy is ALWAYS upright without exception in all natural ecosystems."
+      },
+      {
+        "id": "B",
+        "text": "The Pyramid of Biomass in open oceans is INVERTED because phytoplankton have a small standing crop but rapid turnover."
+      },
+      {
+        "id": "C",
+        "text": "The Pyramid of Numbers in a single tree ecosystem is INVERTED."
+      },
+      {
+        "id": "D",
+        "text": "Decomposers occupy the primary producer (T1) base level in all ecological pyramids."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Energy pyramids are always upright, ocean biomass pyramids are inverted, and single tree number pyramids are inverted. D is incorrect: Decomposers are completely excluded from ecological pyramids."
+  },
+  {
+    "id": "bio-xii-u10-c12-q15",
+    "questionNumber": 15,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Inhibitory Factors of Decomposition",
+    "questionText": "Which of the following factors SLOW DOWN the rate of detrital decomposition in forest soils?",
+    "options": [
+      {
+        "id": "A",
+        "text": "High concentration of Lignin, Chitin, and Suberin in detritus"
+      },
+      {
+        "id": "B",
+        "text": "Low soil temperature (<10°C)"
+      },
+      {
+        "id": "C",
+        "text": "Anaerobic soil conditions"
+      },
+      {
+        "id": "D",
+        "text": "High concentration of Nitrogen and water-soluble sugars in detritus"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Lignin/chitin, cold temperatures, and anaerobiosis inhibit microbial enzymes, slowing decomposition. D is incorrect: High nitrogen and soluble sugars accelerate decomposition."
+  },
+  {
+    "id": "bio-xii-u10-c12-q16",
+    "questionNumber": 16,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Grazing vs Detritus Food Chains GFC vs DFC",
+    "questionText": "Select the valid statements regarding Grazing Food Chains (GFC) versus Detritus Food Chains (DFC):",
+    "options": [
+      {
+        "id": "A",
+        "text": "GFC begins with living autotrophic primary producers (T1)."
+      },
+      {
+        "id": "B",
+        "text": "DFC begins with dead organic matter (detritus) and is driven by saprophytic fungi and bacteria."
+      },
+      {
+        "id": "C",
+        "text": "In aquatic ecosystems, GFC is the major conduit for energy flow."
+      },
+      {
+        "id": "D",
+        "text": "In terrestrial ecosystems, a much larger fraction of energy flows through DFC than through GFC."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "All four statements accurately contrast Grazing and Detritus food chains across aquatic and terrestrial biomes."
+  },
+  {
+    "id": "bio-xii-u10-c12-q17",
+    "questionNumber": 17,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Structural Limitations of Eltonian Pyramids",
+    "questionText": "Which of the following structural limitations apply to standard Eltonian Ecological Pyramids?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They assume a simple linear food chain and cannot represent complex interconnected food webs."
+      },
+      {
+        "id": "B",
+        "text": "They fail to accommodate species that occupy multiple trophic levels simultaneously (e.g., sparrows eating seeds vs insects)."
+      },
+      {
+        "id": "C",
+        "text": "They completely omit decomposers and saprotrophs from the model."
+      },
+      {
+        "id": "D",
+        "text": "They cannot measure energy flow in Joules."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: These are the three primary textbook limitations of ecological pyramids. D is incorrect: Energy pyramids accurately express energy flow in Joules or kcal/m²/yr."
+  },
+  {
+    "id": "bio-xii-u10-c12-q18",
+    "questionNumber": 18,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Standing Crop vs Standing State Distinctions",
+    "questionText": "Select the correct statements regarding Standing Crop and Standing State in ecology:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Standing Crop refers to the total mass of living organic matter (biomass) in a unit area at a given time."
+      },
+      {
+        "id": "B",
+        "text": "Standing Crop is best measured as dry weight to avoid water content fluctuations."
+      },
+      {
+        "id": "C",
+        "text": "Standing State refers to the total amount of inorganic nutrients (N, P, K, Ca) present in the soil at a given time."
+      },
+      {
+        "id": "D",
+        "text": "Standing Crop and Standing State are identical concepts."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Standing Crop = living biomass (dry weight); Standing State = inorganic nutrient content of soil. D is incorrect: Standing Crop refers to biotic biomass, whereas Standing State refers to abiotic soil nutrients."
+  },
+  {
+    "id": "bio-xii-u10-c12-q19",
+    "questionNumber": 19,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Oceanic Net Primary Productivity Limitations",
+    "questionText": "Which of the following conditions explain why the total annual productivity of the oceans (55 Billion Tonnes) is surprisingly low compared to land (115 Billion Tonnes)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solar light penetration is restricted to the upper euphotic zone (<200 meters)."
+      },
+      {
+        "id": "B",
+        "text": "Essential mineral nutrients like Nitrogen, Phosphorus, and Iron are severely limiting in open pelagic waters."
+      },
+      {
+        "id": "C",
+        "text": "Oceans contain no primary producers."
+      },
+      {
+        "id": "D",
+        "text": "Phytoplankton cannot perform photosynthesis underwater."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B"
+    ],
+    "explanation": "A and B are correct: Light extinction below 200 m and severe nutrient limitation (N, P, Fe) restrict oceanic NPP. C and D are incorrect: Oceans contain vast populations of photosynthetic phytoplankton."
+  },
+  {
+    "id": "bio-xii-u10-c12-q20",
+    "questionNumber": 20,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Lindeman's 10% Law Principles",
+    "questionText": "Select the valid options regarding Lindeman's 10% Energy Transfer Law:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only ≈ 10% of energy at a given trophic level is incorporated into biomass at the next higher trophic level."
+      },
+      {
+        "id": "B",
+        "text": "Approximately 90% of energy is lost as metabolic heat (R), respiration, and unconsumed waste at each transfer."
+      },
+      {
+        "id": "C",
+        "text": "Energy transfer limits the length of natural food chains to 3–5 trophic levels."
+      },
+      {
+        "id": "D",
+        "text": "Energy flow across trophic levels is bidirectional."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: 10% transfer efficiency, 90% heat/respiratory loss, and restriction of food chain length to 3–5 levels are core principles. D is incorrect: Energy flow through ecosystems is strictly unidirectional."
+  }
+]

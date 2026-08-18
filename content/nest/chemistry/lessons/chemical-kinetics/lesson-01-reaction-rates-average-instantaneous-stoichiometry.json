@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u12-c3-l01",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XII \u2014 Chemical Kinetics",
+  "unitNumber": 12,
+  "chapter": "Chemical Kinetics",
+  "chapterNumber": 3,
+  "chapterSlug": "chemical-kinetics",
+  "slug": "lesson-01-reaction-rates-average-instantaneous-stoichiometry",
+  "title": "Rate of Reaction: Average vs. Instantaneous & Stoichiometric Relations",
+  "topic": "Reaction Rates & Stoichiometry",
+  "topics": [
+    "Chemical Kinetics Definition & Core Objectives",
+    "Average Rate (r_avg = -\u0394[A]/\u0394t = +\u0394[B]/\u0394t)",
+    "Instantaneous Rate (r_inst = -d[A]/dt = +d[B]/dt as dt \u2500\u2500\u25ba 0)",
+    "Stoichiometric Rate Equivalences: Rate = -(1/a) d[A]/dt = -(1/b) d[B]/dt = +(1/c) d[C]/dt = +(1/d) d[D]/dt",
+    "Rate of Consumption / Disappearance vs. Rate of Appearance / Formation"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "chemical-kinetics",
+  "quickSummary": "Chemical Kinetics evaluates reaction rates and microscopic mechanisms. Average rate r_avg = -\u0394[A]/\u0394t. Instantaneous rate r_inst = -d[A]/dt. Overall rate is normalized by stoichiometric coefficients: Rate = -(1/a)d[A]/dt = +(1/c)d[C]/dt. Rate of disappearance of A = a \u00d7 (Overall Reaction Rate).",
+  "summary": "Master reaction rate definitions, instantaneous vs average rates, and stoichiometric normalization equations.",
+  "conceptBreakdown": [
+    {
+      "heading": "1. Rate of Reaction: Average vs. Instantaneous Rates",
+      "title": "1. Rate of Reaction: Average vs. Instantaneous Rates",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Reaction Rate Concepts",
+        "takeaway": "Average rate is measured over a finite time interval \u0394t; Instantaneous rate is the derivative at a specific moment (dt \u2500\u2500\u25ba 0)."
+      },
+      "codeSnippet": "                           REACTION RATE CONCEPTS\n                                     \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                                                       \u25bc\n  AVERAGE RATE ($r_{\\text{avg}}$)                         INSTANTANEOUS RATE ($r_{\\text{inst}}$)\n  Change in concentration over a finite time             Rate of change of concentration at a specific\n  interval ($\\Delta t$).                                  infinitesimal instant ($dt \\to 0$).\n  $$r_{\\text{avg}} = -\\frac{\\Delta [A]}{\\Delta t} = \\frac{\\Delta [B]}{\\Delta t}$$  $$r_{\\text{inst}} = -\\frac{d[A]}{dt} = \\frac{d[B]}{dt}$$",
+      "content": "Chemical Kinetics is the branch of physical chemistry that evaluates reaction rates, factors influencing rates, and the microscopic step-by-step mechanisms of chemical transformations.\n\n\u2022 **Average Rate ($r_{\\text{avg}}$)**: Change in concentration over a finite time interval ($\\Delta t$).\n  $$r_{\\text{avg}} = -\\frac{\\Delta [A]}{\\Delta t} = +\\frac{\\Delta [B]}{\\Delta t}$$\n\u2022 **Instantaneous Rate ($r_{\\text{inst}}$)**: Rate of change of concentration at a specific infinitesimal instant ($dt \\to 0$).\n  $$r_{\\text{inst}} = -\\frac{d[A]}{dt} = +\\frac{d[B]}{dt}$$"
+    },
+    {
+      "heading": "1.1 Stoichiometric Rate Equivalences",
+      "title": "1.1 Stoichiometric Rate Equivalences",
+      "type": "paragraph",
+      "codeSnippet": "STOICHIOMETRIC RATE EQUIVALENCES\n\nFor a general chemical reaction:\n  a A + b B \u2500\u2500\u25ba c C + d D\n\nRate of Reaction = -(1/a) d[A]/dt = -(1/b) d[B]/dt = +(1/c) d[C]/dt = +(1/d) d[D]/dt\n\n\u2022 Rate of Disappearance of A = -d[A]/dt\n\u2022 Rate of Disappearance of B = -d[B]/dt\n\u2022 Rate of Appearance of C    = +d[C]/dt\n\u2022 Rate of Appearance of D    = +d[D]/dt\n\nRate of Disappearance of A = a \u00d7 (Overall Reaction Rate)",
+      "content": "For a general chemical reaction:\n$$a A + b B \\longrightarrow c C + d D$$\n\nThe overall rate of reaction is defined by normalizing individual rates of disappearance or appearance by their respective stoichiometric coefficients:\n$$\\mathbf{\\text{Rate of Reaction} = -\\frac{1}{a} \\frac{d[A]}{dt} = -\\frac{1}{b} \\frac{d[B]}{dt} = +\\frac{1}{c} \\frac{d[C]}{dt} = +\\frac{1}{d} \\frac{d[D]}{dt}}$$\n\n- **Rates of Consumption vs. Production**:\n  - Rate of Disappearance of $A = -\\frac{d[A]}{dt}$\n  - Rate of Disappearance of $B = -\\frac{d[B]}{dt}$\n  - Rate of Appearance of $C = +\\frac{d[C]}{dt}$\n  - Rate of Appearance of $D = +\\frac{d[D]}{dt}$\n\n$$\\mathbf{\\text{Rate of Disappearance of } A = a \\times (\\text{Overall Reaction Rate})}$$"
+    }
+  ],
+  "quickRevision": [
+    "r_avg = -\u0394[A]/\u0394t = +\u0394[B]/\u0394t.",
+    "r_inst = -d[A]/dt = +d[B]/dt (slope of tangent as dt \u2500\u2500\u25ba 0).",
+    "Rate = -(1/a) d[A]/dt = +(1/c) d[C]/dt.",
+    "Rate of disappearance of A = a \u00d7 (Overall Reaction Rate).",
+    "Rate is always a positive scalar quantity."
+  ],
+  "keyFormulae": [
+    "\\text{Rate of Reaction} = -\\frac{1}{a} \\frac{d[A]}{dt} = -\\frac{1}{b} \\frac{d[B]}{dt} = +\\frac{1}{c} \\frac{d[C]}{dt} = +\\frac{1}{d} \\frac{d[D]}{dt}",
+    "-\\frac{d[A]}{dt} = a \\times (\\text{Overall Reaction Rate})"
+  ]
+}

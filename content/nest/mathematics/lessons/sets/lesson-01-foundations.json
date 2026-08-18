@@ -1,0 +1,42 @@
+{
+  "id": "math-sets-lesson-01",
+  "exam": "NEST",
+  "subject": "Mathematics",
+  "classLevel": "Class XI",
+  "unit": "Unit 1 — Sets and Functions",
+  "unitNumber": 1,
+  "chapter": "Sets",
+  "chapterNumber": 1,
+  "chapterSlug": "sets",
+  "lessonNumber": 1,
+  "order": 1,
+  "slug": "lesson-01-foundations",
+  "title": "Axiomatic Foundations & Representations",
+  "topic": "Sets & representations",
+  "status": "published",
+  "estimatedTimeMinutes": 5,
+  "readingTimeMinutes": 5,
+  "diagramType": "sets",
+  "quickSummary": "A Set is a well-defined collection of distinct objects where x ∈ A has an invariant truth value.",
+  "summary": "Master the axiomatic foundations of sets, Russell's paradox in naive set theory, ZFC resolution, and the standard roster and set-builder notations.",
+  "coreConcepts": ["Well-defined sets", "Russell's Paradox", "ZFC Axioms", "Roster Form", "Set-Builder Form"],
+  "conceptBreakdown": [
+    {
+      "heading": "1. Axiomatic Foundations & Elementhood",
+      "title": "1. Axiomatic Foundations & Elementhood",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Axiomatic Core",
+        "takeaway": "Unrestricted comprehension leads to Russell's Paradox; ZFC set theory restricts set formation to well-defined predicates over existing domains."
+      },
+      "codeSnippet": "ELEMENTHOOD AND MEMBERSHIP\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n   STATEMENT: x ∈ A                                        STATEMENT: x ∉ A\n   x is an element of set A                                x is NOT an element of set A\n   (Truth Value = TRUE)                                    (Truth Value = FALSE)",
+      "content": "A **Set** is a well-defined collection of distinct objects, called elements or members. The phrase *well-defined* signifies that for any given object $x$ and any set $A$, there is a fundamental, non-ambiguous truth value to the statement $x \\in A$ or $x \\notin A$.\n\n### Axiomatic Note (Naive vs. Rigorous Set Theory)\nIn naive set theory, unrestricted comprehension permits the formation of sets like $R = \\{x \\mid x \\notin x\\}$. This leads directly to **Russell’s Paradox** ($R \\in R \\iff R \\notin R$). To avoid such antinomies, modern mathematics operates within Zermelo-Fraenkel Set Theory with the Axiom of Choice (ZFC), where sets are constructed from primitive elements under strict formation axioms."
+    },
+    {
+      "heading": "1.1 Methods of Representing Sets",
+      "title": "1.1 Methods of Representing Sets",
+      "type": "paragraph",
+      "content": "1. **Roster or Tabular Form**: All elements are listed explicitly within curly braces, separated by commas. The order of elements is irrelevant, and elements are non-repeating ($I = \\{1, 2, 3\\} \\equiv \\{3, 1, 2\\}$).\n2. **Set-Builder or Rule Form**: A set is specified by a characteristic predicate $P(x)$ that uniquely identifies its members:\n$$A = \\{x \\mid P(x)\\} \\quad \\text{or} \\quad A = \\{x \\in S \\mid P(x)\\}$$\nRead as: \"The set of all $x$ in $S$ such that $P(x)$ is true.\""
+    }
+  ]
+}

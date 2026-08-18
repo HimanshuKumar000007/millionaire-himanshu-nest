@@ -1,0 +1,338 @@
+{
+  "exam": "NEST",
+  "subject": "Mathematics",
+  "version": "NEST 2026",
+  "units": [
+    {
+      "unitNumber": 1,
+      "unitTitle": "Sets and Functions",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 1,
+          "chapterTitle": "Sets",
+          "slug": "sets",
+          "topics": [
+            "Sets & representations",
+            "Subsets & Venn diagrams",
+            "Union, intersection & complement of sets"
+          ]
+        },
+        {
+          "chapterNumber": 2,
+          "chapterTitle": "Relations and Functions",
+          "slug": "relations-and-functions",
+          "topics": [
+            "Cartesian product of sets",
+            "Domain, codomain & range",
+            "Standard functions & graphs (Modulus, Signum, GIF, Logarithmic)"
+          ]
+        },
+        {
+          "chapterNumber": 3,
+          "chapterTitle": "Trigonometric Functions",
+          "slug": "trigonometric-functions",
+          "topics": [
+            "Radian & degree measures",
+            "Trigonometric identities & compound angles",
+            "General solutions of trigonometric equations"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 2,
+      "unitTitle": "Algebra",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 4,
+          "chapterTitle": "Principle of Mathematical Induction",
+          "slug": "mathematical-induction",
+          "topics": [
+            "Principle of induction & applications"
+          ]
+        },
+        {
+          "chapterNumber": 5,
+          "chapterTitle": "Complex Numbers and Quadratic Equations",
+          "slug": "complex-numbers",
+          "topics": [
+            "Argand plane & polar form",
+            "Solutions of quadratic equations in C"
+          ]
+        },
+        {
+          "chapterNumber": 6,
+          "chapterTitle": "Linear Inequalities",
+          "slug": "linear-inequalities",
+          "topics": [
+            "Algebraic & graphical solutions of linear inequalities"
+          ]
+        },
+        {
+          "chapterNumber": 7,
+          "chapterTitle": "Permutations and Combinations",
+          "slug": "permutations-and-combinations",
+          "topics": [
+            "Fundamental principle of counting",
+            "nPr and nCr formulas & applications"
+          ]
+        },
+        {
+          "chapterNumber": 8,
+          "chapterTitle": "Binomial Theorem",
+          "slug": "binomial-theorem",
+          "topics": [
+            "Binomial expansion for positive integral index",
+            "General & middle terms"
+          ]
+        },
+        {
+          "chapterNumber": 9,
+          "chapterTitle": "Sequence and Series",
+          "slug": "sequence-and-series",
+          "topics": [
+            "Geometric Progression (GP) & sum to infinity",
+            "Relation between AM and GM",
+            "Sum of natural numbers, squares & cubes"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 3,
+      "unitTitle": "Coordinate Geometry",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 10,
+          "chapterTitle": "Straight Lines",
+          "slug": "straight-lines",
+          "topics": [
+            "Slope & angle between lines",
+            "Forms of equation of line",
+            "Distance of point from line"
+          ]
+        },
+        {
+          "chapterNumber": 11,
+          "chapterTitle": "Conic Sections",
+          "slug": "conic-sections",
+          "topics": [
+            "Circle, Parabola, Ellipse & Hyperbola standard equations and properties"
+          ]
+        },
+        {
+          "chapterNumber": 12,
+          "chapterTitle": "Introduction to Three-dimensional Geometry",
+          "slug": "introduction-to-3d-geometry",
+          "topics": [
+            "Coordinate planes & 3D distance formula",
+            "Section formula in 3D"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 4,
+      "unitTitle": "Calculus",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 13,
+          "chapterTitle": "Limits and Derivatives",
+          "slug": "limits-and-derivatives",
+          "topics": [
+            "Intuitive idea of limit & standard limits",
+            "Derivative definition, product & quotient rules"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 5,
+      "unitTitle": "Statistics and Probability",
+      "classLevel": "Class XI",
+      "chapters": [
+        {
+          "chapterNumber": 14,
+          "chapterTitle": "Statistics",
+          "slug": "statistics",
+          "topics": [
+            "Mean deviation, variance & standard deviation"
+          ]
+        },
+        {
+          "chapterNumber": 15,
+          "chapterTitle": "Probability",
+          "slug": "probability-xi",
+          "topics": [
+            "Events, sample space & set-theoretic probability"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 6,
+      "unitTitle": "Relations and Functions",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 1,
+          "chapterTitle": "Relations and Functions",
+          "slug": "relations-and-functions-xii",
+          "topics": [
+            "Reflexive, symmetric, transitive & equivalence relations",
+            "One-to-one and onto functions"
+          ]
+        },
+        {
+          "chapterNumber": 2,
+          "chapterTitle": "Inverse Trigonometric Functions",
+          "slug": "inverse-trigonometric-functions",
+          "topics": [
+            "Definition, domain, range & principal value branches"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 7,
+      "unitTitle": "Algebra",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 3,
+          "chapterTitle": "Matrices",
+          "slug": "matrices",
+          "topics": [
+            "Types of matrices & operations",
+            "Symmetric & skew-symmetric matrices",
+            "Invertible matrices"
+          ]
+        },
+        {
+          "chapterNumber": 4,
+          "chapterTitle": "Determinants",
+          "slug": "determinants",
+          "topics": [
+            "Minors, cofactors & area of triangle",
+            "Adjoint & inverse of matrix",
+            "Solving linear equations using matrix inverse"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 8,
+      "unitTitle": "Calculus",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 5,
+          "chapterTitle": "Continuity and Differentiability",
+          "slug": "continuity-and-differentiability",
+          "topics": [
+            "Continuity & differentiability",
+            "Chain rule & logarithmic differentiation",
+            "Second order derivatives"
+          ]
+        },
+        {
+          "chapterNumber": 6,
+          "chapterTitle": "Applications of Derivatives",
+          "slug": "applications-of-derivatives",
+          "topics": [
+            "Rate of change & increasing/decreasing functions",
+            "Maxima and minima (First & second derivative tests)"
+          ]
+        },
+        {
+          "chapterNumber": 7,
+          "chapterTitle": "Integrals",
+          "slug": "integrals",
+          "topics": [
+            "Indefinite integrals (Substitution, Partial fractions, Parts)",
+            "Standard integral forms",
+            "Definite integrals & Fundamental Theorem of Calculus"
+          ]
+        },
+        {
+          "chapterNumber": 8,
+          "chapterTitle": "Application of Integrals",
+          "slug": "application-of-integrals",
+          "topics": [
+            "Area under simple curves (Lines, Circles, Parabolas, Ellipses)"
+          ]
+        },
+        {
+          "chapterNumber": 9,
+          "chapterTitle": "Differential Equations",
+          "slug": "differential-equations",
+          "topics": [
+            "Order & degree of differential equations",
+            "Variable separation method & homogeneous equations",
+            "First order linear differential equations"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 9,
+      "unitTitle": "Vectors and Three-dimensional Geometry",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 10,
+          "chapterTitle": "Vectors",
+          "slug": "vectors",
+          "topics": [
+            "Dot & Cross products of vectors & applications"
+          ]
+        },
+        {
+          "chapterNumber": 11,
+          "chapterTitle": "Three-dimensional Geometry",
+          "slug": "three-dimensional-geometry",
+          "topics": [
+            "Direction cosines & direction ratios",
+            "Cartesian & Vector equations of a line",
+            "Shortest distance between skew lines"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 10,
+      "unitTitle": "Linear Programming",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 12,
+          "chapterTitle": "Linear Programming",
+          "slug": "linear-programming",
+          "topics": [
+            "Optimization & graphical solution of linear programming problems"
+          ]
+        }
+      ]
+    },
+    {
+      "unitNumber": 11,
+      "unitTitle": "Probability",
+      "classLevel": "Class XII",
+      "chapters": [
+        {
+          "chapterNumber": 13,
+          "chapterTitle": "Probability",
+          "slug": "probability-xii",
+          "topics": [
+            "Conditional probability & multiplication theorem",
+            "Bayes' theorem & total probability"
+          ]
+        }
+      ]
+    }
+  ]
+}

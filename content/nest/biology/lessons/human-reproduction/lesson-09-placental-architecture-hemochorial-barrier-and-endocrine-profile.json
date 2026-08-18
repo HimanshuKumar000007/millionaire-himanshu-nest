@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u6-c2-l09",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VI — Reproduction",
+  "unitNumber": 6,
+  "chapter": "Human Reproduction",
+  "chapterNumber": 2,
+  "chapterSlug": "human-reproduction",
+  "slug": "lesson-09-placental-architecture-hemochorial-barrier-and-endocrine-profile",
+  "title": "Placental Architecture & Endocrine Profile",
+  "topic": "Hemochorial Barrier & Placental Hormones",
+  "order": 9,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Placenta is Hemochorial (fetal villi bathed in maternal blood pools without RBC mixing). Hormones: hCG (maintains corpus luteum, pregnancy test), hPL (fetal glucose delivery), Estrogen, Progesterone, Relaxin.",
+  "summary": "Placenta is Hemochorial (fetal villi bathed in maternal blood pools without RBC mixing). Hormones: hCG (maintains corpus luteum, pregnancy test), hPL (fetal glucose delivery), Estrogen, Progesterone, Relaxin.",
+  "conceptBreakdown": [
+    {
+      "heading": "Placental Architecture & Endocrine Profile",
+      "title": "Placental Architecture & Endocrine Profile",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Placenta is Hemochorial: Fetal chorionic villi are bathed in maternal blood pools without RBC mixing. Placental hormones: hCG (maintains Corpus Luteum, pregnancy test basis), hPL (alters maternal metabolism for fetal glucose), Estrogens, Progesterone, and Relaxin (softens pubic symphysis)."
+      },
+      "codeSnippet": "PLACENTAL ARCHITECTURE\n                            \n   FETAL CONTRIBUTION  ──► **Chorionic Villi** (Finger-like syncytiotrophoblast projections)\n   MATERNAL CONTRIBUTION ─► **Decidua Basalis** (Modified pregnant uterine endometrium)\n   ──────────────────────────────────────────────────────────────────────────────────\n   **HEMOCHORIAL PLACENTA:** Fetal chorionic villi are bathed directly in maternal blood pools!",
+      "content": "The Placenta is an intimate, temporary structural and functional junction between the developing fetus and the maternal uterine wall, serving respiratory, nutritional, excretory, and endocrine functions.\n\n### 9.1 The Hemochorial Placental Barrier\nIn the human **Hemochorial Placenta**, maternal endometrial blood vessels are eroded by the invasive syncytiotrophoblast, creating large maternal blood-filled spaces (intervillous lacunae). Fetal chorionic villi containing fetal capillaries dip directly into these maternal blood pools. **No direct mixing of maternal and fetal red blood cells occurs**, preventing immunological destruction and hydraulic barotrauma.\n\n### 9.2 Placental Endocrine Profile\n\n```\n                            PLACENTAL HORMONES\n                                     │\n         ┌───────────────────────────┼───────────────────────────┐\n         ▼                           ▼                           ▼\n  hCG (Human Chorionic)       hPL (Human Placental)        STEROIDS & RELAXIN\n  Gonadotropin                Lactogen)                    ├── Estrogens & Progesterone\n  ├── Maintains Corpus Luteum ├── Alters maternal metabolism └── **Relaxin** (Secreted by\n  └── **Pregnancy Test Basis**└── Delivers glucose to fetus    ovary/placenta at term)\n```\n\n1. **Human Chorionic Gonadotropin (hCG)**: A glycoprotein hormone secreted by the syncytiotrophoblast starting at Day 8–9. Possesses LH-like bioactivity, maintaining the maternal Corpus Luteum and continuous high Progesterone output throughout the first trimester. Excreted in maternal urine; detected by monoclonal antibodies in **Early Pregnancy Test strips (Gravindex Test)**.\n2. **Human Placental Lactogen (hPL / Human Chorionic Somatomammotropin, hCS)**: Modulates maternal lipid and glucose metabolism, inducing maternal insulin resistance to ensure an uninterrupted, abundant glucose gradient for fetal transplacental diffusion.\n3. **Placental Estrogen & Progesterone**: By week 10–12, the placenta takes over complete steroid synthesis from the Corpus Luteum (Luteal-Placental Shift), maintaining the hypertrophied uterine myometrium.\n4. **Relaxin**: Secreted by the placenta and corpus luteum toward the end of gestation to soften pelvic ligaments."
+    },
+    {
+      "heading": "Luteal-Placental Shift",
+      "title": "Luteal-Placental Shift",
+      "type": "paragraph",
+      "content": "Around weeks 7-10 of gestation, the primary source of progesterone switches from the maternal corpus luteum to the syncytiotrophoblast of the placenta. Failure of this transition is a common cause of first-trimester miscarriage."
+    },
+    {
+      "heading": "Maternal IgG Transplacental Transport",
+      "title": "Maternal IgG Transplacental Transport",
+      "type": "paragraph",
+      "content": "Maternal IgG antibodies actively cross the hemochorial placenta via neonatal Fc receptors (FcRn), providing the developing fetus with passive humoral immunity against circulating maternal pathogens."
+    }
+  ]
+}

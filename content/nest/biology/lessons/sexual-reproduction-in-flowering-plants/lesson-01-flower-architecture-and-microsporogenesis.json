@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u6-c1-l01",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VI — Reproduction",
+  "unitNumber": 6,
+  "chapter": "Sexual Reproduction in Flowering Plants",
+  "chapterNumber": 1,
+  "chapterSlug": "sexual-reproduction-in-flowering-plants",
+  "slug": "lesson-01-flower-architecture-and-microsporogenesis",
+  "title": "Flower Architecture & Microsporogenesis",
+  "topic": "Floral Whorls & Anther Wall Histology",
+  "order": 1,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Anther is bilobed and tetrasporangiate with 4 wall layers: Epidermis, Endothecium (hygroscopic alpha-cellulose fibrous bands), Middle layers (1-3 ephemeral), and Tapetum (nutritive, polyploid via endomitosis, secretes Callase, Ubisch bodies, and Pollen-kit).",
+  "summary": "Anther is bilobed and tetrasporangiate with 4 wall layers: Epidermis, Endothecium (hygroscopic alpha-cellulose fibrous bands), Middle layers (1-3 ephemeral), and Tapetum (nutritive, polyploid via endomitosis, secretes Callase, Ubisch bodies, and Pollen-kit).",
+  "conceptBreakdown": [
+    {
+      "heading": "Flower Architecture & Microsporogenesis",
+      "title": "Flower Architecture & Microsporogenesis",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Anther is bilobed and tetrasporangiate with 4 wall layers: Epidermis (protective), Endothecium (hygroscopic alpha-cellulose fibrous bands for stomium dehiscence), Middle layers (1-3 ephemeral layers), and Tapetum (nutritive, polyploid via endomitosis, secretes Callase, Ubisch bodies coated with sporopollenin, and Pollen-kit)."
+      },
+      "codeSnippet": "ANTHER WALL HISTOLOGY (Outer ──► Inner)\n                        \n   EPIDERMIS ──────────► Single protective outer layer.\n   ENDOTHECIUM ────────► Hygroscopic α-cellulose fibrous bands; drives dehiscence at Stomium.\n   MIDDLE LAYERS ──────► 1–3 ephemeral parenchymatous layers; crushed during maturation.\n   TAPETUM ────────────► Innermost nutritive layer; dense cytoplasm, polyploid/multinucleate.",
+      "content": "Angiosperms reproduce sexually via the Flower, a highly modified, condensed reproductive shoot borne on a receptacle (Thalamus).\n\n```\n                            FLORAL WHORL ORGANIZATION\n                                        │\n         ┌──────────────────────────────┴──────────────────────────────┐\n         ▼                                                             ▼\n  ACCESSORY WHORLS (Non-Essential)                              ESSENTIAL REPRODUCTIVE WHORLS\n  ├── Calyx (Outer Sepals - Protection)                        ├── Androecium (Stamens - Male)\n  └── Corolla (Inner Petals - Attractant)                      └── Gynoecium (Carpels/Pistils - Female)\n```\n\n### 1.1 Anther Wall Histology\n1. **Epidermis**: Single outer protective cell layer; stretches during anther maturation.\n2. **Endothecium**: Sub-epidermal layer characterized by radially elongated cells possessing internal U-shaped fibrous bands of **$\\alpha$-cellulose**. Being hygroscopic, unequal expansion and shrinkage upon dehydration causes anther dehiscence along a longitudinal unthickened groove called the **Stomium**.\n3. **Middle Layers**: $1\\text{--}3$ ephemeral parenchymatous layers that store food and are crushed during microspore maturation.\n4. **Tapetum**: Innermost nutritive physiological layer completely surrounding the sporogenous tissue. Tapetal cells have dense cytoplasm and become multinucleate or polyploid via endomitosis.\n\n### 1.2 Microsporogenesis Pathway\n\n```\n                      MICROSPOROGENESIS REACTION PATHWAY\n                      \n   Sporogenous Cells (2n) ──► Microspore Mother Cells (MMC / PMC, 2n)\n                                       │\n   Meiosis I & II               ───────┴───────► Microspore Tetrads (n)\n                                       │\n   Callase Enzyme (from Tapetum)───────┴───────► 4 Free Microspores / Pollen Grains (n)\n```\n\n- **Special Tapetal Functions**:\n  1. **Callase ($\\beta$-1,3-glucanase)**: Dissolves the callose wall cementing microspores in tetrads.\n  2. **Ubisch Bodies (Orbicles)**: Granules coated in **Sporopollenin** that build the pollen exine.\n  3. **Pollen-kit**: A sticky, oily lipid/carotenoid coat deposited on entomophilous pollen grains."
+    },
+    {
+      "heading": "Endomitosis in Tapetal Cells",
+      "title": "Endomitosis in Tapetal Cells",
+      "type": "paragraph",
+      "content": "Tapetal cells replicate their nuclear DNA without entering nuclear or cytoplasmic division (endomitosis), resulting in high polyploidy (up to 16n) to support intense transcriptional activity for pollen wall synthesis."
+    },
+    {
+      "heading": "Amoeboid vs Secretory Tapetum",
+      "title": "Amoeboid vs Secretory Tapetum",
+      "type": "paragraph",
+      "content": "In Secretory (Glandular) tapetum, cells remain in situ and release secretions into the locule. In Amoeboid (Periplasmodial) tapetum, cell walls break down and the fused protoplasts invade the anther locule around developing microspores."
+    }
+  ]
+}

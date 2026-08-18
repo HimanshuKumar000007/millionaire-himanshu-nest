@@ -1,0 +1,94 @@
+[
+  {
+    "id": "q-bio-c7-001",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Structural Organisation in Animals",
+    "chapterNumber": 7,
+    "chapterSlug": "structural-organisation-in-animals",
+    "topic": "Thyroxine Regulation of Metamorphosis",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "An experimental biologist surgically removes the thyroid gland from a young aquatic tadpole larva of Rana tigrina and maintains it in an aquarium supplied with nutrient-rich water containing trace minerals. What will be the developmental outcome for this tadpole?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "The tadpole will undergo precocious metamorphosis into a dwarf adult frog.", "isCorrect": false },
+      { "id": "b", "text": "The tadpole will fail to undergo metamorphosis and remain a giant aquatic tadpole larva indefinitely.", "isCorrect": true },
+      { "id": "c", "text": "The tadpole will immediately develop lungs and move onto land as an infertile adult.", "isCorrect": false },
+      { "id": "d", "text": "The tadpole will switch from ammonotelic excretion to ureotelic excretion without structural changes.", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Amphibian metamorphosis is strictly dependent on Thyroxine (\\text{T}_4) produced by the Thyroid Gland. Thyroidectomy (or iodine deficiency) blocks thyroxine synthesis, completely halting metamorphosis. The tadpole continues to grow vegetatively as a giant aquatic tadpole larva without transforming into an adult.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c7-002",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Structural Organisation in Animals",
+    "chapterNumber": 7,
+    "chapterSlug": "structural-organisation-in-animals",
+    "topic": "Male Sperm Pathway & Bidder's Canal",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "During anatomical dissection of a male Rana tigrina, a student traces the pathway of spermatozoa from their site of origin to their point of release into the environment. What is the correct sequential anatomical pathway traveled by sperm?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Testes → Vasa Efferentia → Mesovarium → Oviduct → Cloaca", "isCorrect": false },
+      { "id": "b", "text": "Testes → Vasa Efferentia → Bidder's Canal → Urinogenital Duct → Cloaca", "isCorrect": true },
+      { "id": "c", "text": "Testes → Urinogenital Duct → Bidder's Canal → Renal Portal Vein → Cloaca", "isCorrect": false },
+      { "id": "d", "text": "Testes → Mesorchium → Ureter → Urinary Bladder → Cloaca", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Spermatozoa produced in the seminiferous tubules of the Testes exit via 10–12 Vasa Efferentia, cross the mesorchium to enter the kidney, empty into Bidder's Canal, pass through kidney collecting tubules into the Urinogenital Duct (male ureter), and discharge into the Cloaca.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c7-003",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Structural Organisation in Animals",
+    "chapterNumber": 7,
+    "chapterSlug": "structural-organisation-in-animals",
+    "topic": "Cardiovascular Anatomy & Portal Systems",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionText": "Which of the following statements represent VALID physiological facts regarding the cardiovascular and portal systems of Rana tigrina?",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "The heart is 3-chambered, consisting of two atria and a single ventricle containing internal muscular trabeculae.", "isCorrect": true },
+      { "id": "b", "text": "The Sinus Venosus is a triangular chamber situated on the ventral side of the heart that receives oxygenated blood from the lungs.", "isCorrect": false },
+      { "id": "c", "text": "The Renal Portal System collects venous blood from the hindlimbs and routes it through the kidneys before entering the postcaval vein.", "isCorrect": true },
+      { "id": "d", "text": "Frog erythrocytes (RBCs) are nucleated, large, oval, and contain hemoglobin.", "isCorrect": true }
+    ],
+    "correctAnswer": ["a", "c", "d"],
+    "solutionExplanation": "• A is correct: The heart has 2 atria, 1 ventricle, and internal muscular trabeculae/columnae carneae.\n• B is incorrect: The Sinus Venosus is situated on the DORSAL side (not ventral) and receives deoxygenated blood from precavals and postcaval. The Conus Arteriosus is on the ventral side.\n• C is correct: The Renal Portal System routes hindlimb blood through the kidneys.\n• D is correct: Frog RBCs are nucleated, oval, biconvex, and contain hemoglobin.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c7-004",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Structural Organisation in Animals",
+    "chapterNumber": 7,
+    "chapterSlug": "structural-organisation-in-animals",
+    "topic": "Cranial Nerves & Respiratory Mechanics",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionText": "Select the correct options regarding the cranial nerves and respiratory mechanics of Rana tigrina:",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Frogs possess strictly 10 pairs of cranial nerves (Cranial nerves XI and XII are absent).", "isCorrect": true },
+      { "id": "b", "text": "During cutaneous respiration, gas exchange occurs passively across the thin, moist skin during hibernation, aestivation, and aquatic submergence.", "isCorrect": true },
+      { "id": "c", "text": "Pulmonary inspiration is driven by a positive-pressure buccal force-pump mechanism involving sternohyal and petrohyal muscles.", "isCorrect": true },
+      { "id": "d", "text": "During buccopharyngeal respiration, the glottis remains wide open to force air into the lungs continuously.", "isCorrect": false }
+    ],
+    "correctAnswer": ["a", "b", "c"],
+    "solutionExplanation": "• A is correct: Amphibians possess 10 pairs of cranial nerves.\n• B is correct: Cutaneous respiration operates across vascular moist skin in water and during winter/summer sleep.\n• C is correct: Pulmonary respiration relies on buccal force-pumping (sternohyal lowers floor; petrohyal raises floor).\n• D is incorrect: During buccopharyngeal respiration, the glottis remains CLOSED; air is drawn into and out of the buccal cavity without entering the lungs.",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

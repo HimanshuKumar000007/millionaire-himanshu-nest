@@ -1,0 +1,62 @@
+{
+  "id": "chem-xii-u13-c4-l07",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XIII \u2014 d- and f-Block Elements",
+  "unitNumber": 13,
+  "chapter": "d- and f-Block Elements",
+  "chapterNumber": 4,
+  "chapterSlug": "d-and-f-block-elements",
+  "slug": "lesson-07-lanthanides-configurations-contraction-consequences",
+  "title": "Lanthanides (4f Series): Configurations, +3 Dominance, & Contraction",
+  "topic": "Lanthanides & Lanthanide Contraction",
+  "topics": [
+    "Lanthanide Electronic Configuration: [Xe] 4f^(1-14) 5d^(0-1) 6s\u00b2 (Ce Z=58 to Lu Z=71)",
+    "Dominant Oxidation State (+3) & Anomalous Stability (+2 in Eu\u00b2\u207a, Yb\u00b2\u207a; +4 in Ce\u2074\u207a, Tb\u2074\u207a)",
+    "Lanthanide Contraction Mechanism (Poor 4f Shielding: s > p > d > f)",
+    "Consequences: 4d/5d Radii Similarity (Zr \u2248 Hf = 1.59 \u00c5), Difficult Separation by Ion-Exchange, Basicity Trend of Hydroxides (La(OH)\u2083 > ... > Lu(OH)\u2083)",
+    "Mischmetall Alloy (95% Ln metals, Ce 50%, 5% Fe)"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "d-and-f-block-elements",
+  "quickSummary": "Lanthanides fill the 4f subshell ([Xe] 4f^(1-14) 5d^(0-1) 6s\u00b2). Dominant OS is +3; Ce\u2074\u207a (4f\u2070) and Tb\u2074\u207a (4f\u2077) are strong oxidants; Eu\u00b2\u207a (4f\u2077) and Yb\u00b2\u207a (4f\u00b9\u2074) are strong reducers. Lanthanide Contraction results from poor 4f shielding, causing Zr \u2248 Hf (1.59 \u00c5) and basicity decrease La(OH)\u2083 > ... > Lu(OH)\u2083.",
+  "summary": "Master lanthanide configurations, +3 dominance, redox behavior of anomalous states, lanthanide contraction, and hydroxide basicity.",
+  "conceptBreakdown": [
+    {
+      "heading": "7. Lanthanides Overview & Oxidation States",
+      "title": "7. Lanthanides Overview & Oxidation States",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Lanthanide Configurations & States",
+        "takeaway": "+3 is universal. Ce\u2074\u207a (4f\u2070) and Tb\u2074\u207a (4f\u2077) are oxidizing agents; Eu\u00b2\u207a (4f\u2077) and Yb\u00b2\u207a (4f\u00b9\u2074) are reducing agents."
+      },
+      "codeSnippet": "                           LANTHANIDE CONFIGURATION\n                           \n   $$\\mathbf{[\\text{Xe}] \\, 4f^{1-14} \\, 5d^{0-1} \\, 6s^2}$$\n   \n   \u251c\u2500\u2500 $\\text{La} (Z=57): [\\text{Xe}] 5d^1 6s^2$      \u251c\u2500\u2500 $\\text{Eu} (Z=63): [\\text{Xe}] 4f^7 6s^2$ (Half-filled $4f^7$)\n   \u251c\u2500\u2500 $\\text{Ce} (Z=58): [\\text{Xe}] 4f^1 5d^1 6s^2$  \u251c\u2500\u2500 $\\text{Yb} (Z=70): [\\text{Xe}] 4f^{14} 6s^2$ (Fully-filled $4f^{14}$)\n   \u2514\u2500\u2500 $\\text{Gd} (Z=64): [\\text{Xe}] 4f^7 5d^1 6s^2$  \u2514\u2500\u2500 $\\text{Lu} (Z=71): [\\text{Xe}] 4f^{14} 5d^1 6s^2$\n\n                      ANOMALOUS LANTHANIDE OXIDATION STATES\n                      \n   $\\mathbf{\\text{Ce}^{4+} (4f^0):}$   Noble gas core; strong **Oxidizing Agent** in aqueous solution ($\\text{Ce}^{4+} \\rightarrow \\text{Ce}^{3+}$).\n   $\\mathbf{\\text{Eu}^{2+} (4f^7):}$   Half-filled stability; strong **Reducing Agent** ($\\text{Eu}^{2+} \\rightarrow \\text{Eu}^{3+}$).\n   $\\mathbf{\\text{Yb}^{2+} (4f^{14}):}$ Fully-filled stability; strong **Reducing Agent** ($\\text{Yb}^{2+} \\rightarrow \\text{Yb}^{3+}$).\n   $\\mathbf{\\text{Tb}^{4+} (4f^7):}$   Half-filled stability; strong **Oxidizing Agent** ($\\text{Tb}^{4+} \\rightarrow \\text{Tb}^{3+}$).",
+      "content": "The Lanthanides (Inner Transition Elements) comprise the 14 elements from Cerium ($\\text{Ce}, Z=58$) to Lutetium ($\\text{Lu}, Z=71$), where 4f subshells are filled.\n- **Dominant OS**: $+3$ is the universal, most stable state ($\\text{Ln}^{3+}$).\n- **Anomalous States**: Attained by gaining $4f^0$, $4f^7$, or $4f^{14}$."
+    },
+    {
+      "heading": "7.2 Lanthanide Contraction & Its Consequences",
+      "title": "7.2 Lanthanide Contraction & Its Consequences",
+      "type": "paragraph",
+      "codeSnippet": "                      LANTHANIDE CONTRACTION CURVE\n                      \n   Ionic Radius ($\\text{Ln}^{3+}$) \u25b2\n                                 \u2502 \\\n                                 \u2502  \\   Steady, smooth decrease from\n                                 \u2502   \\  $\\text{La}^{3+} (1.06\\text{ \\AA})$ to $\\text{Lu}^{3+} (0.86\\text{ \\AA})$\n                                 0 \u2514\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba Atomic Number ($Z$)\n\nMajor Consequences of Lanthanide Contraction:\n1. 4d and 5d Series Radii Similarity: r(Zr_4d) \u2248 r(Hf_5d) = 1.59 \u00c5.\n2. Difficult Separation: Identical chemical properties require Ion-Exchange Chromatography.\n3. Basicity Trend: La(OH)\u2083 is MOST basic; Lu(OH)\u2083 is LEAST basic.\n   Basicity Order: La(OH)\u2083 > Ce(OH)\u2083 > ... > Lu(OH)\u2083",
+      "content": "Across the 14 lanthanides, nuclear charge increases by +1 per element into inner 4f orbitals. Because 4f orbitals are diffuse, they exhibit extremely poor electrostatic shielding ($\\mathbf{\\text{Shielding: } s > p > d > f}$).\n- **Consequences**:\n  1. **$4d$ and $5d$ Radii Similarity**: $r(\\text{Zr}_{4d}) \\approx r(\\text{Hf}_{5d}) = 1.59\\text{ \\AA}$.\n  2. **Difficult Separation**: Separated using Ion-Exchange Chromatography.\n  3. **Basicity of Hydroxides**: $\\mathbf{\\text{La(OH)}_3 > \\text{Ce(OH)}_3 > \\dots > \\text{Lu(OH)}_3}$."
+    }
+  ],
+  "quickRevision": [
+    "Lanthanide configuration: [Xe] 4f^(1-14) 5d^(0-1) 6s\u00b2.",
+    "+3 is the most stable state for all lanthanides.",
+    "Ce\u2074\u207a (4f\u2070) is a strong oxidizing agent; Eu\u00b2\u207a (4f\u2077) is a strong reducing agent.",
+    "Lanthanide Contraction causes r(Zr) \u2248 r(Hf) = 1.59 \u00c5.",
+    "Hydroxide basicity: La(OH)\u2083 (most basic) > ... > Lu(OH)\u2083 (least basic)."
+  ],
+  "keyFormulae": [
+    "\\text{Shielding Efficiency: } s > p > d > f",
+    "r(\\text{Zr}) \\approx r(\\text{Hf}) = 1.59\\text{ \\AA}",
+    "\\text{Basicity: } \\text{La(OH)}_3 > \\text{Ce(OH)}_3 > \\dots > \\text{Lu(OH)}_3"
+  ]
+}

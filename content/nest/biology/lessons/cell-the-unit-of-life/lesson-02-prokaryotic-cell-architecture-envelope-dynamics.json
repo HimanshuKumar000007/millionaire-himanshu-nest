@@ -1,0 +1,57 @@
+{
+  "id": "bio-xi-u3-c8-l02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Cell — The Unit of Life",
+  "chapterNumber": 8,
+  "chapterSlug": "cell-the-unit-of-life",
+  "slug": "lesson-02-prokaryotic-cell-architecture-envelope-dynamics",
+  "title": "Prokaryotic Cell Architecture & Envelope Dynamics",
+  "topic": "Glycocalyx (Capsule/Slime Layer), Peptidoglycan, Mesosomes, Pili/Fimbriae, & Inclusion Bodies",
+  "topics": [
+    "Three-Layered Prokaryotic Cell Envelope",
+    "Glycocalyx: Capsule vs Slime Layer (Immune Evasion & Adhesion)",
+    "Peptidoglycan Cell Wall (Gram-Positive vs Gram-Negative Dynamics)",
+    "Plasma Membrane & Mesosomes (Respiration, DNA Replication, Secretion)",
+    "Photosynthetic Chromatophores in Bacteria",
+    "Surface Appendages: Flagella (Basal Body/Hook/Filament), Pili ($F^+ \\times F^-$ Conjugation), Fimbriae",
+    "Inclusion Bodies: Volutin, Cyanophycean, Glycogen, & Gas Vacuoles"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "The prokaryotic cell envelope consists of an outer Glycocalyx (loose slime layer or rigid antiphagocytic capsule), a Peptidoglycan cell wall (thick in Gram+, thin with outer LPS membrane in Gram-), and an inner selectively permeable plasma membrane. Membranous invaginations form Mesosomes (respiration, DNA replication) and Chromatophores. Appendages include Flagella (locomotion), Pili (conjugation bridge), and Fimbriae (attachment). Non-membranous inclusion bodies store phosphate, protein, glycogen, and gas.",
+  "summary": "The prokaryotic cell envelope consists of an outer Glycocalyx (loose slime layer or rigid antiphagocytic capsule), a Peptidoglycan cell wall (thick in Gram+, thin with outer LPS membrane in Gram-), and an inner selectively permeable plasma membrane. Membranous invaginations form Mesosomes (respiration, DNA replication) and Chromatophores. Appendages include Flagella (locomotion), Pili (conjugation bridge), and Fimbriae (attachment). Non-membranous inclusion bodies store phosphate, protein, glycogen, and gas.",
+  "conceptBreakdown": [
+    {
+      "heading": "2. The Three-Layered Cell Envelope",
+      "title": "2. The Three-Layered Cell Envelope",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Envelope = Glycocalyx (protective capsule/slime) + Peptidoglycan cell wall (osmotic barrier) + Plasma membrane (transport & mesosomes)."
+      },
+      "codeSnippet": "PROKARYOTIC CELL ENVELOPE LAYERS\n                                        │\n         ┌──────────────────────────────┼──────────────────────────────┐\n         ▼                              ▼                              ▼\n    GLYCOCALYX                      CELL WALL                   PLASMA MEMBRANE\n(Capsule or Slime Layer)       (Peptidoglycan Layer)         (Phospholipid Bilayer)\n ├── Protection from Phagocytosis ├── Prevents Osmotic Lysis   ├── Selective Permeability\n └── Surface Adhesion             └── Gram+ vs Gram- Staining  └── Invaginates to Mesosomes",
+      "content": "Prokaryotic cells possess a complex, three-layered chemically protective envelope acting as a single coordinated structural unit:\n\n1. **Glycocalyx**: Outermost polymeric coat.\n   - **Slime Layer**: Loose, non-rigid gelatinous polysaccharide layer preventing desiccation and nutrient loss.\n   - **Capsule**: Thick, rigid, organized polysaccharide or poly-D-glutamic acid coat protecting pathogens (*e.g., Streptococcus pneumoniae*) from host immune phagocytosis.\n2. **Cell Wall**: Intermediate rigid layer preventing osmotic bursting or collapse.\n   - **Gram-Positive**: Thick peptidoglycan ($20\\text{--}80\\text{ nm}$) infused with teichoic and lipoteichoic acids.\n   - **Gram-Negative**: Thin peptidoglycan ($2\\text{--}7\\text{ nm}$) bounded by an outer membrane containing Lipopolysaccharide (LPS / Endotoxin) and porin channels.\n3. **Plasma Membrane**: Innermost selectively permeable lipid bilayer."
+    },
+    {
+      "heading": "2.1 Mesosomes & Photosynthetic Chromatophores",
+      "title": "2.1 Mesosomes & Photosynthetic Chromatophores",
+      "type": "paragraph",
+      "content": "• **Mesosomes**: Specialized invaginations of the plasma membrane into vesicles, tubules, or lamellae. They increase membrane surface area and enzymatic capacity, performing:\n  1. Cellular respiration (housing respiratory ETC enzymes).\n  2. Cell wall synthesis.\n  3. DNA replication and equal distribution of chromosomes to daughter cells.\n• **Chromatophores**: Pigment-containing membranous internal lamellae in photosynthetic bacteria (*cyanobacteria, purple/green sulfur bacteria*)."
+    },
+    {
+      "heading": "2.2 Surface Appendages & Cytoplasmic Inclusion Bodies",
+      "title": "2.2 Surface Appendages & Cytoplasmic Inclusion Bodies",
+      "type": "paragraph",
+      "codeSnippet": "PROKARYOTIC SURFACE APPENDAGES\n                                       │\n         ┌─────────────────────────────┼─────────────────────────────┐\n         ▼                             ▼                             ▼\n   FLAGELLA                       PILI (Pilins)                 FIMBRIAE\n (Locomotion)                  (Genetic Transfer)             (Surface Attachment)\n ├── Basal Body (Motor)        └── Sex Pilus forms Conjugation └── Small bristle-like fibers\n ├── Hook                         Bridge ($F^+\\times F^-$)        attaching to host tissue/rocks\n └── Filament (Flagellin)",
+      "content": "### Bacterial Surface Appendages\n• **Flagella**: Locomotory helical appendages composed of **Flagellin** protein, divided into Basal Body (motor), Hook, and Filament.\n• **Pili**: Elongated tubular protein structures composed of **Pilin**; the **Sex Pilus** forms a conjugation bridge during bacterial parasexual gene transfer ($F^+ \\times F^-$).\n• **Fimbriae**: Small, bristle-like fibrous appendages that allow bacteria to adhere to rocks in streams and to host mucosal epithelial tissues.\n\n### Non-Membranous Inclusion Bodies\n• **Phosphate Granules (Volutin / Metachromatic granules)**: Stores inorganic polyphosphate.\n• **Cyanophycean Granules**: Stores structured reserve proteins (arginine and aspartic acid polymers).\n• **Glycogen Granules**: Stores glucose polymers.\n• **Gas Vacuoles**: Proteinaceous hollow cylindrical membranes permeable to metabolic gases but impermeable to water, providing buoyancy in cyanobacteria and purple/green sulfur bacteria."
+    }
+  ]
+}

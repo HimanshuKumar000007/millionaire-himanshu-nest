@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u9-c9-l09",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit IX — Biotechnology",
+  "unitNumber": 9,
+  "chapter": "Biotechnology: Principles and Processes",
+  "chapterNumber": 9,
+  "chapterSlug": "biotechnology-principles-and-processes",
+  "slug": "lesson-09-stirred-tank-bioreactors-and-continuous-culture",
+  "title": "Stirred-Tank Bioreactors & Continuous Culture",
+  "topic": "Simple vs Sparged Bioreactors, Dissolved Oxygen, Continuous vs Batch Systems, & Log Phase Maintenance",
+  "order": 9,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Bioreactors: Large-scale vessels (100–1000 L) providing optimal temperature, pH, substrate, salts, vitamins, and oxygen. Types: (1) Simple Stirred-Tank (curved base, motorized agitator, foam breaker); (2) Sparged Stirred-Tank (sparger ring bubbles air, dramatically increasing oxygen transfer surface area). Continuous culture drains spent medium while adding fresh medium to maintain cells in exponential Log phase.",
+  "summary": "Bioreactors: Large-scale vessels (100–1000 L) providing optimal temperature, pH, substrate, salts, vitamins, and oxygen. Types: (1) Simple Stirred-Tank (curved base, motorized agitator, foam breaker); (2) Sparged Stirred-Tank (sparger ring bubbles air, dramatically increasing oxygen transfer surface area). Continuous culture drains spent medium while adding fresh medium to maintain cells in exponential Log phase.",
+  "conceptBreakdown": [
+    {
+      "heading": "Bioreactor Architecture & Continuous Culture Dynamics",
+      "title": "Bioreactor Architecture & Continuous Culture Dynamics",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Bioreactors scale up recombinant protein synthesis (100-1000 L) under tightly regulated physical parameters. Sparged stirred-tank reactors introduce a sparger ring to maximize oxygen transfer. Continuous culture systems replenish nutrients continuously to sustain cells in active exponential log phase."
+      },
+      "codeSnippet": "SPARGED STIRRED-TANK BIOREACTOR\n                     \n                              [ Motor Drive ]\n                                    │\n                              [ Foam Breaker ]\n                                    │\n   Culture Medium ──────► [ Impeller Blades ] ◄────── Temp / pH Sensors\n                                    │\n                              [ Sparger Ring ] ──► Air Bubbles (Sparged O₂)",
+      "content": "### 9.1 Industrial Scale-Up & Bioreactor Systems\n- Laboratory shake flasks produce limited yields ($<1\\text{ Liter}$). Commercial recombinant protein production requires large specialized vessels called **Bioreactors** ($100\\text{--}1000\\text{ Liters}$ capacity).\n- A bioreactor provides optimal growth conditions by continuously monitoring and regulating:\n  1. **Temperature** (cooling/heating water jackets).\n  2. **$\\text{pH}$** (acid/base injection ports).\n  3. **Substrate & Nutrient Feed**.\n  4. **Dissolved Oxygen ($\\text{DO}$)**.\n  5. **Foam Accumulation** (mechanical foam breaker blades).\n\n### 9.2 Bioreactor Typology: Simple vs. Sparged Stirred-Tank\n\n| Feature | Simple Stirred-Tank Bioreactor | Sparged Stirred-Tank Bioreactor |\n| :--- | :--- | :--- |\n| **Vessel Design** | Cylindrical tank with a curved base to prevent dead zones | Cylindrical vessel with flat or curved base |\n| **Agitation System** | Motorized flat-blade or marine impellers ensure even mixing | Impeller blades ensure homogenous nutrient distribution |\n| **Aeration Mechanism** | Surface aeration and vortex air entrainment | Perforated **Sparger Ring** at the base injects millions of pressurized sterile air bubbles |\n| **Oxygen Transfer Area** | Standard surface area | **Dramatically increased surface area for rapid oxygen dissolution** |\n\n### 9.3 Continuous vs. Batch Fermentation Systems\n- **Closed Batch Culture**: Nutrients are added only at the beginning. As cells grow, nutrients deplete and toxic secondary metabolites accumulate, driving cells into stationary and death phases.\n- **Open Continuous Culture (Chemostat / Turbidostat)**:\n  - Fresh sterile nutrient medium is continuously pumped in from one inlet port while spent medium and cells are drained at an identical flow rate from an outlet port.\n  - This dynamic steady state maintains transformed cells in their physiologically most active **Log / Exponential Growth Phase**, producing significantly higher yields of recombinant biomass and active target proteins."
+    },
+    {
+      "heading": "Fed-Batch Fermentation",
+      "title": "Fed-Batch Fermentation",
+      "type": "paragraph",
+      "content": "Fed-batch fermentation adds limiting nutrient feeds incrementally during fermentation to prevent substrate inhibition and catabolite repression without removing culture broth, achieving high cell densities."
+    },
+    {
+      "heading": "Airlift Bioreactors",
+      "title": "Airlift Bioreactors",
+      "type": "paragraph",
+      "content": "Airlift bioreactors rely on rising gas bubbles inside an internal draft tube to drive fluid circulation without mechanical impellers, reducing hydrodynamic shear stress for fragile mammalian and plant cell cultures."
+    }
+  ]
+}

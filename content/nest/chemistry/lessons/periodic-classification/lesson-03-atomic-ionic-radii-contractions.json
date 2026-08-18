@@ -1,0 +1,66 @@
+{
+  "id": "chem-xi-u3-c3-l03",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit III \u2014 Classification of Elements and Periodicity in Properties",
+  "unitNumber": 3,
+  "chapter": "Classification of Elements and Periodicity",
+  "chapterNumber": 3,
+  "chapterSlug": "periodic-classification",
+  "slug": "lesson-03-atomic-ionic-radii-contractions",
+  "title": "Atomic, Ionic & Van der Waals Radii: Contractions & Anomalies",
+  "topic": "Atomic Radii & Contraction Effects",
+  "topics": [
+    "Covalent, Metallic & Van der Waals Radii Hierarchy (r_vdw > r_met > r_cov)",
+    "3d Transition Series Radii Profile",
+    "Lanthanide Contraction (4f Shielding Failure & 4d \u2248 5d Radii)",
+    "Scandide Contraction in Group 13 (r(Ga) < r(Al))",
+    "Cation/Anion Radii & Isoelectronic Series (r \u221d 1/Z)"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "lanthanide-contraction",
+  "quickSummary": "Atomic dimensions are defined by Covalent, Metallic, and Van der Waals radii (r_vdw > r_met > r_cov). Poor shielding by 4f electrons (Lanthanide Contraction) causes 4d \u2248 5d radii, while poor 3d shielding causes r(Ga) < r(Al).",
+  "summary": "Master periodic trends in atomic/ionic radii, the 3d transition profile, Lanthanide contraction, Scandide contraction, and isoelectronic series.",
+  "conceptBreakdown": [
+    {
+      "heading": "3.1 Atomic Radii Types & Hierarchy",
+      "title": "3.1 Atomic Radii Types & Hierarchy",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Radii Hierarchy",
+        "takeaway": "r_vdw > r_met > r_cov. Radii decrease across a period (Z_eff increases) and increase down a group (shell addition)."
+      },
+      "codeSnippet": "ATOMIC RADII TYPES\n                                     \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                           \u25bc                           \u25bc\n   COVALENT RADIUS             METALLIC RADIUS           VAN DER WAALS RADIUS\n   Half inter-nuclear distance Half inter-nuclear distance Half distance between non-bonded\n   between single-bonded atoms.between adjacent metal ions. neighboring atoms in solid state.",
+      "content": "\u2022 **Covalent Radius ($r_{\\text{cov}}$)**: Half the equilibrium internuclear distance between two single-bonded identical atoms ($r_{\\text{cov}} = d / 2$).\n\u2022 **Metallic Radius ($r_{\\text{met}}$)**: Half the internuclear distance between adjacent metal ions in a crystal lattice.\n\u2022 **Van der Waals Radius ($r_{\\text{vdw}}$)**: Half the equilibrium distance between non-bonded adjacent atoms of neighboring molecules in the solid state.\n\n$$\\mathbf{r_{\\text{vdw}} > r_{\\text{met}} > r_{\\text{cov}}}$$"
+    },
+    {
+      "heading": "3.2 Periodic Anomalies: Lanthanide & Scandide Contractions",
+      "title": "3.2 Periodic Anomalies: Lanthanide & Scandide Contractions",
+      "type": "paragraph",
+      "content": "1. **3d Transition Series Profile**:\n\u2022 $\\text{Sc} \\rightarrow \\text{Cr}$: Radii decrease (increasing $Z_{\\text{eff}}$ dominates).\n\u2022 $\\text{Mn} \\rightarrow \\text{Ni}$: Radii remain nearly constant (3d electron shielding balances $Z_{\\text{eff}}$ increase).\n\u2022 $\\text{Cu} \\rightarrow \\text{Zn}$: Radii increase slightly ($3d^{10}$ inter-electronic repulsions dominate).\n\n2. **Lanthanide Contraction ($4f^{14}$ Shielding Failure)**: Intervening $14\\ f$-electrons shield extremely poorly, increasing $Z_{\\text{eff}}$ dramatically at the $5d$ series. Consequently, $4d$ and $5d$ elements possess nearly identical atomic radii:\n$$\\mathbf{r(\\text{Zr}_{4d}) \\approx r(\\text{Hf}_{5d}) = 1.59\\text{ \\AA} \\quad \\vert \\quad r(\\text{Nb}_{4d}) \\approx r(\\text{Ta}_{5d}) = 1.46\\text{ \\AA} \\quad \\vert \\quad r(\\text{Mo}_{4d}) \\approx r(\\text{W}_{5d}) = 1.39\\text{ \\AA}}$$\n\n3. **Scandide Contraction (Group 13 Anomaly)**: Gallium ($Z=31$) is preceded by $10\\ 3d$-elements. Poor $3d^{10}$ shielding increases $Z_{\\text{eff}}$ at Gallium, pulling its valence shell inward so that:\n$$\\mathbf{\\text{Actual Group 13 Trend: } \\text{B} < \\text{Ga } (1.35\\text{ \\AA}) < \\text{Al } (1.43\\text{ \\AA}) < \\text{In} < \\text{Tl}}$$"
+    },
+    {
+      "heading": "3.3 Ionic Radii & Isoelectronic Series",
+      "title": "3.3 Ionic Radii & Isoelectronic Series",
+      "type": "paragraph",
+      "content": "\u2022 **Cation Radius**: Always smaller than parent atom ($r_{\\text{cation}} < r_{\\text{atom}}$) due to electron loss and increased $\\frac{Z}{e^-}$ ratio.\n\u2022 **Anion Radius**: Always larger than parent atom ($r_{\\text{anion}} > r_{\\text{atom}}$) due to increased electron repulsion and decreased $\\frac{Z}{e^-}$ ratio.\n\u2022 **Isoelectronic Series**: For species with identical electron counts ($10\\ e^-$), ionic radius is inversely proportional to nuclear charge $Z$ ($r \\propto 1/Z$):\n\n$$\\mathbf{\\text{N}^{3-} (1.71\\text{ \\AA}) > \\text{O}^{2-} (1.40\\text{ \\AA}) > \\text{F}^- (1.33\\text{ \\AA}) > \\text{Na}^+ (1.02\\text{ \\AA}) > \\text{Mg}^{2+} (0.72\\text{ \\AA}) > \\text{Al}^{3+} (0.54\\text{ \\AA})}$$"
+    }
+  ],
+  "quickRevision": [
+    "r_vdw > r_met > r_cov.",
+    "Lanthanide contraction causes Zr \u2248 Hf, Nb \u2248 Ta, Mo \u2248 W.",
+    "Scandide contraction causes r(Ga) < r(Al) in Group 13.",
+    "Isoelectronic ionic radius: r \u221d 1/Z (N\u00b3\u207b > O\u00b2\u207b > F\u207b > Na\u207a > Mg\u00b2\u207a > Al\u00b3\u207a)."
+  ],
+  "keyFormulae": [
+    "r_vdw > r_met > r_cov",
+    "r_isoelectronic \u221d 1 / Z",
+    "r(Zr) \u2248 r(Hf) = 1.59 \u00c5"
+  ]
+}

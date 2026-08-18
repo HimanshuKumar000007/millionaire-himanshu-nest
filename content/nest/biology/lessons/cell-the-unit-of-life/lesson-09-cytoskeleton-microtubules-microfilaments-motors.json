@@ -1,0 +1,56 @@
+{
+  "id": "bio-xi-u3-c8-l09",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Cell — The Unit of Life",
+  "chapterNumber": 8,
+  "chapterSlug": "cell-the-unit-of-life",
+  "slug": "lesson-09-cytoskeleton-microtubules-microfilaments-motors",
+  "title": "Cytoskeleton Architecture & Molecular Motor Proteins",
+  "topic": "Microtubules, Microfilaments, Intermediate Filaments, & Kinesin vs Dynein",
+  "topics": [
+    "Cytoskeletal Triad Overview (Mechanical Support, Organelle Motility, Shape)",
+    "Microtubules ($25\\text{ nm}$ Tubulin Cylinders, GTP Instability, Plus/Minus Polarity)",
+    "Microfilaments ($7\\text{ nm}$ Double-Helical F-Actin, ATP Treadmilling, Cyclosis, Cleavage Furrow)",
+    "Intermediate Filaments ($8\\text{--}12\\text{ nm}$ Non-Polar Fibrous Ropes, Keratins/Lamins, Tensile Strength)",
+    "Molecular Motors: Kinesin (Anterograde: $-\\rightarrow +$) vs Dynein (Retrograde: $+\\rightarrow -$)",
+    "Myosin Motors on Actin Microfilaments"
+  ],
+  "order": 9,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "The eukaryotic cytoskeleton comprises: 1) Microtubules (25 nm hollow cylinders of α/β-tubulin heterodimers; polarized with fast-growing Plus and slow-growing Minus ends; transported by anterograde Kinesin and retrograde Dynein), 2) Microfilaments (7 nm double helices of actin driven by Myosin for cyclosis, muscle contraction, and cleavage furrows), and 3) Intermediate Filaments (8–12 nm tough non-polar fibrous cords like Keratin and Nuclear Lamins for tensile mechanical strength).",
+  "summary": "The eukaryotic cytoskeleton comprises: 1) Microtubules (25 nm hollow cylinders of α/β-tubulin heterodimers; polarized with fast-growing Plus and slow-growing Minus ends; transported by anterograde Kinesin and retrograde Dynein), 2) Microfilaments (7 nm double helices of actin driven by Myosin for cyclosis, muscle contraction, and cleavage furrows), and 3) Intermediate Filaments (8–12 nm tough non-polar fibrous cords like Keratin and Nuclear Lamins for tensile mechanical strength).",
+  "conceptBreakdown": [
+    {
+      "heading": "7. Cytoskeletal Triad Overview",
+      "title": "7. Cytoskeletal Triad Overview",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Microtubules = 25 nm (Tubulin, Kinesin/Dynein). Microfilaments = 7 nm (Actin, Myosin). Intermediate Filaments = 8–12 nm (Keratins/Lamins, non-polar, no motors)."
+      },
+      "codeSnippet": "CYTOSKELETAL FILAMENT TRIAD\n                                        │\n     ┌──────────────────────────────────┼──────────────────────────────────┐\n     ▼                                  ▼                                  ▼\nMICROTUBULES                       MICROFILAMENTS                 INTERMEDIATE FILAMENTS\n(Hollow Tubulin Cylinders)        (Double-Helical Actin)         (Fibrous Protein Ropes)\n├── Diameter: $25\\text{ nm}$       ├── Diameter: $7\\text{ nm}$    ├── Diameter: $8\\text{--}12\\text{ nm}$\n├── Motor: Kinesin & Dynein        └── Motor: Myosin              └── Structural Tension / Lamins",
+      "content": "The Cytoskeleton is a dynamic 3D network of filamentous proteins maintaining eukaryotic cell morphology, internal transport, and motility."
+    },
+    {
+      "heading": "7.1 Cytoskeletal Triad Comparison Matrix",
+      "title": "7.1 Cytoskeletal Triad Comparison Matrix",
+      "type": "paragraph",
+      "content": "| Property | Microtubules | Microfilaments (Actin) | Intermediate Filaments |\n| :--- | :--- | :--- | :--- |\n| **Structure & Diameter** | Unbranched hollow cylinders ($25\\text{ nm}$ OD, $15\\text{ nm}$ lumen) | Two parallel strands of F-actin wound in a double helix ($7\\text{ nm}$) | Tough, insoluble, fibrous protein cords ($8\\text{--}12\\text{ nm}$) |\n| **Protein Subunits** | Globular **$\\alpha$-Tubulin** and **$\\beta$-Tubulin** heterodimers | Globular **G-actin** monomers polymerized into **F-actin** | Heterogeneous fibrous proteins (**Keratins, Vimentin, Desmin, Neurofilaments, Nuclear Lamins**) |\n| **Structural Polarity** | Distinct **Plus ($+$) end** (fast-growing) and **Minus ($-$) end** (slow-growing) | Distinct **Plus ($+$) end** and **Minus ($-$) end** | **Non-polar** (no plus or minus ends) |\n| **Dynamic Instability** | High GTP-dependent dynamic instability (treadmilling) | ATP-dependent treadmilling | Highly stable; low subunit turnover |\n| **Associated Motors** | **Kinesin** (Anterograde: $-\\rightarrow +$) and **Dynein** (Retrograde: $+\\rightarrow -$) | **Myosin** motors (Type I, II, V) | **No associated motor proteins** |\n| **Cellular Functions** | Ciliary/flagellar motion, mitotic spindle assembly, organelle transport | Muscle contraction, amoeboid movement, cytoplasmic streaming (*cyclosis*), cleavage furrow | Mechanical tensile strength, anchoring nucleus, nuclear lamina matrix |"
+    },
+    {
+      "heading": "Microtubule Motor Directionality",
+      "title": "Microtubule Motor Directionality",
+      "type": "paragraph",
+      "codeSnippet": "MICROTUBULE MOTOR PROTEIN DIRECTIONALITY\n                       \n   Centrosome (Minus $-$ End) ◄────────[ DYNEIN ]───────── Peripheral Plasma Membrane\n   Centrosome (Minus $-$ End) ─────────[ KINESIN ]──────► Peripheral Plasma Membrane (Plus $+$ End)",
+      "content": "• **Kinesin**: Hydrolyzes ATP to step toward the **Plus ($+$) end** at the cell periphery (anterograde vesicle transport).\n• **Dynein**: Hydrolyzes ATP to walk toward the **Minus ($-$) end** anchored at the centrosome (retrograde vesicle transport)."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c4-l10",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Principles of Inheritance and Variation",
+  "chapterNumber": 4,
+  "chapterSlug": "principles-of-inheritance-and-variation",
+  "slug": "lesson-10-mendelian-monogenic-disorders-and-chromosomal-aneuploidies",
+  "title": "Mendelian Monogenic Disorders & Chromosomal Aneuploidies",
+  "topic": "Sickle-Cell, Thalassemia, PKU, Hemophilia, Down, Turner, & Klinefelter",
+  "order": 10,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Monogenic disorders: Sickle-Cell Anemia (GAG->GUG Glu6Val transversion), Thalassemia (quantitative globin defect), PKU (PAH deficiency), Hemophilia A/B & Color Blindness (X-linked recessive). Chromosomal aneuploidies: Down's (47, +21), Turner's (45, X0 - streak ovaries, 0 Barr bodies), Klinefelter's (47, XXY - gynecomastia, 1 Barr body).",
+  "summary": "Monogenic disorders: Sickle-Cell Anemia (GAG->GUG Glu6Val transversion), Thalassemia (quantitative globin defect), PKU (PAH deficiency), Hemophilia A/B & Color Blindness (X-linked recessive). Chromosomal aneuploidies: Down's (47, +21), Turner's (45, X0 - streak ovaries, 0 Barr bodies), Klinefelter's (47, XXY - gynecomastia, 1 Barr body).",
+  "conceptBreakdown": [
+    {
+      "heading": "Mendelian Monogenic Disorders & Molecular Etiology",
+      "title": "Mendelian Monogenic Disorders & Molecular Etiology",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Monogenic disorders result from single gene mutations. Sickle-Cell Anemia: autosomal recessive point mutation (GAG -> GUG, Glu6Val in beta-globin). Thalassemia: quantitative defect in alpha-globin (Chr 16) or beta-globin (Chr 11). PKU: inborn error of PAH enzyme. Hemophilia & Color Blindness: X-linked recessive. Aneuploidies: Down Syndrome (Trisomy 21), Turner Syndrome (Monosomy 45, X0), Klinefelter Syndrome (Trisomy 47, XXY)."
+      },
+      "codeSnippet": "SICKLE-CELL ANEMIA POINT MUTATION\n                       \n   Normal beta-Globin (HbA):   DNA: CTC ──► mRNA: GAG ──► Amino Acid: Glutamic Acid (Position 6)\n   Sickle beta-Globin (HbS):   DNA: CAC ──► mRNA: GUG ──► Amino Acid: VALINE (Position 6)",
+      "content": "### 10.1 Comprehensive Monogenic Pathologies Matrix\n\n| Disease Name | Inheritance Pattern | Molecular Etiology | Key Pathophysiological Features |\n| :--- | :--- | :--- | :--- |\n| **Sickle-Cell Anemia** | **Autosomal Recessive** | **Transversion ($A \\rightarrow T$)** at $6^{\\text{th}}$ codon of $\\beta$-globin: $\\text{GAG} \\rightarrow \\text{GUG}$ | Replaces **Glutamic acid with Valine** ($\\text{Glu}6\\text{Val}$). $\\text{Hb}^S$ polymerizes under low $\\text{O}_2$, sickling RBCs. Heterozygotes show **Malaria Resistance** |\n| **$\\alpha$-Thalassemia** | **Autosomal Recessive** | Deletion of $HBA1$ and $HBA2$ genes on **Chromosome 16** | Reduced synthesis of $\\alpha$-globin chains; quantitative microcytic anemia |\n| **$\\beta$-Thalassemia** | **Autosomal Recessive** | Mutation in $HBB$ gene on **Chromosome 11** | Reduced synthesis of $\\beta$-globin chains; quantitative Cooley's Anemia |\n| **Phenylketonuria (PKU)** | **Autosomal Recessive** | Mutation in **Phenylalanine Hydroxylase (PAH)** gene | Accumulation of **Phenylpyruvic acid** in brain causing severe mental retardation and hypopigmentation |\n| **Hemophilia A & B** | **$X$-Linked Recessive** | Mutation in **Factor VIII** (A) or **Factor IX** (B) | Defective clotting cascade; continuous bleeding from minor trauma |\n| **Color Blindness** | **$X$-Linked Recessive** | Mutation in **Red/Green Cone Photopigments** on $X$-chromosome | Red-green color confusion; affects **$8\\%$ of males** and **$0.5\\%$ of females** |\n\n### 10.2 Chromosomal Aneuploidies Matrix\n\n```\n                           CHROMOSOMAL ANEUPLOIDIES\n                                       │\n         ┌─────────────────────────────┴─────────────────────────────┐\n         ▼                                                           ▼\n  AUTOSOMAL TRISOMY                                            SEX CHROMOSOMAL ANEUPLOIDIES\n  ├── Down's Syndrome (47, XX/XY, +21)                        ├── Turner's Syndrome (45, X0) [Monosomy]\n  └── Trisomy of Chromosome 21                                └── Klinefelter's Syndrome (47, XXY) [Trisomy]\n```\n\n| Syndrome Name | Karyotype & Formula | Primary Nondisjunction Cause | Clinical Features & Phenotype |\n| :--- | :--- | :--- | :--- |\n| **Down's Syndrome** | **$47, XX/XY, +21$** | Autosomal nondisjunction yielding **Trisomy 21** (Langdon Down, 1866) | Short stature, small round head, **furrowed tongue**, partially open mouth, broad palm with single **Simian Crease**, congenital heart defects |\n| **Turner's Syndrome** | **$45, X0$** | Sex chromosomal monosomy (absence of one $X$ chromosome) | **Phenotypic Female**; sterile; **rudimentary / streak ovaries**; short stature; webbed neck; **0 Barr Bodies** |\n| **Klinefelter's Syndrome** | **$47, XXY$** | Sex chromosomal trisomy (presence of an extra $X$ chromosome) | **Phenotypic Male**; sterile; **Gynecomastia** (breast enlargement); long limbs; sparse body hair; **1 Barr Body** |"
+    },
+    {
+      "heading": "Cri-du-Chat Chromosomal Deletion",
+      "title": "Cri-du-Chat Chromosomal Deletion",
+      "type": "paragraph",
+      "content": "Cri-du-Chat (Cat's Cry) syndrome results from a partial terminal deletion of the short p-arm of Chromosome 5 (46, 5p-), causing microcephaly and a high-pitched infant cry resembling a distressed cat."
+    },
+    {
+      "heading": "Chronic Myeloid Leukemia (Philadelphia Chromosome)",
+      "title": "Chronic Myeloid Leukemia (Philadelphia Chromosome)",
+      "type": "paragraph",
+      "content": "A reciprocal translocation between chromosomes 9 and 22 [t(9;22)(q34;q11)] creates the BCR-ABL fusion oncogene (Philadelphia chromosome) driving constitutive tyrosine kinase activity and CML."
+    }
+  ]
+}

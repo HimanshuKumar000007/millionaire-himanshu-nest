@@ -1,0 +1,94 @@
+[
+  {
+    "id": "q-bio-c9-001",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "chapterNumber": 9,
+    "chapterSlug": "biomolecules",
+    "topic": "Competitive Enzyme Inhibition Kinetics",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "An enzymologist measures the kinetic parameters of a purified metabolic enzyme in the presence and absence of a specific synthetic inhibitor drug. The experimental data yields the following kinetic values:\n• Control (No Inhibitor): V_max = 100 μmol/min, K_m = 2.0 mM\n• Plus Inhibitor: V_max = 100 μmol/min, K_m = 8.0 mM\nWhat is the mechanism of inhibition exhibited by this drug, and how can its inhibitory effect be completely reversed?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Non-Competitive Inhibition; reversed by adding an allosteric activator.", "isCorrect": false },
+      { "id": "b", "text": "Competitive Inhibition; reversed by increasing the substrate concentration ([S]).", "isCorrect": true },
+      { "id": "c", "text": "Uncompetitive Inhibition; reversed by lowering the temperature to optimum.", "isCorrect": false },
+      { "id": "d", "text": "Irreversible Covalent Inhibition; reversed by dialysis against buffer.", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "The kinetic data shows that V_max remains unchanged (100 μmol/min) while the apparent K_m increases (from 2.0 mM to 8.0 mM). This is the diagnostic hallmark of Competitive Inhibition (inhibitor competes with substrate for the active site). Competitive inhibition can be completely reversed by adding high concentrations of substrate ([S] >> [I]).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c9-002",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "chapterNumber": 9,
+    "chapterSlug": "biomolecules",
+    "topic": "Nucleic Acid Chemistry & Chargaff's Rules",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "During structural analysis of a newly isolated single-stranded oligonucleotide, a biochemist determines the exact percentage of each nitrogenous base present: Adenine = 28%, Cytosine = 22%, Guanine = 30%, Thymine = 20%. Which statement regarding this nucleic acid sample is correct?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "It obeys Chargaff's rules because Adenine + Guanine = 58%.", "isCorrect": false },
+      { "id": "b", "text": "It represents double-stranded B-DNA because Thymine is present.", "isCorrect": false },
+      { "id": "c", "text": "It is single-stranded DNA because Adenine does not equal Thymine (28% ≠ 20%) and Guanine does not equal Cytosine (30% ≠ 22%).", "isCorrect": true },
+      { "id": "d", "text": "It represents single-stranded RNA that has undergone deamination.", "isCorrect": false }
+    ],
+    "correctAnswer": "c",
+    "solutionExplanation": "Chargaff's rules ([A]=[T] and [G]=[C]) apply exclusively to double-stranded DNA. Because Thymine is present, the nucleic acid is DNA. However, since [A] ≠ [T] (28% ≠ 20%) and [G] ≠ [C] (30% ≠ 22%), the sample violates Chargaff's parity rules, proving that it is Single-Stranded DNA (ssDNA).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c9-003",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "chapterNumber": 9,
+    "chapterSlug": "biomolecules",
+    "topic": "Secondary Metabolite Classifications",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionText": "Which of the following biomolecules belong strictly to the Category of Secondary Metabolites?",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Concanavalin A (Lectin protein)", "isCorrect": true },
+      { "id": "b", "text": "Morphine and Codeine (Alkaloids)", "isCorrect": true },
+      { "id": "c", "text": "Ricin and Abrin (Ribosome-inactivating toxins)", "isCorrect": true },
+      { "id": "d", "text": "Glutamic Acid and Glucose (Primary metabolites)", "isCorrect": false }
+    ],
+    "correctAnswer": ["a", "b", "c"],
+    "solutionExplanation": "• A is correct: Concanavalin A is a secondary metabolite belonging to the Lectin class.\n• B is correct: Morphine and Codeine are secondary metabolites belonging to the Alkaloid class.\n• C is correct: Ricin and Abrin are secondary metabolites belonging to the Toxin class.\n• D is incorrect: Glutamic acid (amino acid) and Glucose (monosaccharide) are Primary Metabolites essential for universal cellular metabolism.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c9-004",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "chapterNumber": 9,
+    "chapterSlug": "biomolecules",
+    "topic": "Protein Structural Hierarchy & Peptide Bond Geometry",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionText": "Select the valid scientific statements regarding protein structural hierarchy and peptide bond geometry:",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "The peptide bond possesses 40% partial double bond character due to resonance, making the C-N bond coplanar and rigid.", "isCorrect": true },
+      { "id": "b", "text": "Ramachandran plots map allowed backbone torsional angles Phi (φ, N-Cα) versus Psi (ψ, Cα-C).", "isCorrect": true },
+      { "id": "c", "text": "Glycine is the only standard amino acid that is achiral and optically inactive.", "isCorrect": true },
+      { "id": "d", "text": "Secondary structures (α-helices and β-sheets) are stabilized primarily by covalent disulfide bridges between cysteine side chains.", "isCorrect": false }
+    ],
+    "correctAnswer": ["a", "b", "c"],
+    "solutionExplanation": "• A is correct: Resonance delocalization gives the peptide bond 40% partial double bond character, enforcing coplanar planarity.\n• B is correct: Ramachandran plots map allowed backbone torsional angles φ versus ψ.\n• C is correct: Glycine (R = -H) possesses two hydrogen atoms on its α-carbon and is achiral.\n• D is incorrect: Secondary structures are stabilized EXCLUSIVELY by Hydrogen Bonds between backbone C=O and N-H groups. Disulfide bridges stabilize Tertiary (3°) and Quaternary (4°) structures.",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

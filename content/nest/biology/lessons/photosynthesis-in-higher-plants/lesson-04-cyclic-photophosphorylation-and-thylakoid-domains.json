@@ -1,0 +1,48 @@
+{
+  "id": "bio-xi-u4-c11-l04",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Photosynthesis in Higher Plants",
+  "chapterNumber": 11,
+  "chapterSlug": "photosynthesis-in-higher-plants",
+  "slug": "lesson-04-cyclic-photophosphorylation-and-thylakoid-domains",
+  "title": "Cyclic Photophosphorylation & Thylakoid Spatial Partitioning",
+  "topic": "PS I Recycling, Stroma Lamellae vs Appressed Grana, & ATP-Only Synthesis",
+  "topics": [
+    "Cyclic Photophosphorylation Mechanism (PS I -> Ferredoxin -> PQ Pool -> Cyt b6f -> PC -> P700)",
+    "Key Physiological Triggers (NADP+ Depletion, Elevated ATP/NADPH Ratio Demand)",
+    "Non-Cyclic vs Cyclic Comparative Matrix",
+    "Thylakoid Membrane Spatial Segregation: Appressed Grana (PS II + LHC II) vs Stroma Lamellae (PS I + ATP Synthase)",
+    "Absence of PS II and FNR in Stroma Lamellae"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Cyclic photophosphorylation involves PS I (P700) alone. Excited electrons pass from Ferredoxin back to the Plastoquinone pool and Cytochrome b6f before returning to P700. It produces ATP ONLY, without NADPH or O2 evolution. Spatially, PS II is confined to appressed (stacked) grana thylakoids, whereas stroma lamellae and unstacked grana margins lack PS II and FNR, performing cyclic electron transport exclusively.",
+  "summary": "Cyclic photophosphorylation involves PS I (P700) alone. Excited electrons pass from Ferredoxin back to the Plastoquinone pool and Cytochrome b6f before returning to P700. It produces ATP ONLY, without NADPH or O2 evolution. Spatially, PS II is confined to appressed (stacked) grana thylakoids, whereas stroma lamellae and unstacked grana margins lack PS II and FNR, performing cyclic electron transport exclusively.",
+  "conceptBreakdown": [
+    {
+      "heading": "3.2 Cyclic Photophosphorylation Mechanism",
+      "title": "3.2 Cyclic Photophosphorylation Mechanism",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Cyclic uses PS I only, generates ATP only, evolves NO O2, and occurs in stroma lamellae where PS II and FNR are absent."
+      },
+      "content": "When $\\text{NADP}^+$ is depleted or extra ATP is needed for the Calvin cycle, excited electrons from $\\text{P700}^*$ pass to **Ferredoxin (Fd)**, but are redirected to the **Plastoquinone (PQ) pool $\\rightarrow$ Cytochrome $b_6f \\rightarrow$ Plastocyanin (PC) $\\rightarrow$ back to $\\text{P700}$**.\n• Generates **$\\text{ATP}$ ONLY** via proton pumping at Cytochrome $b_6f$.\n• Produces **NO $\\text{NADPH}$** and evolves **NO $\\text{O}_2$** (water photolysis is absent)."
+    },
+    {
+      "heading": "Comparative Matrix & Membrane Spatial Partitioning",
+      "title": "Comparative Matrix & Membrane Spatial Partitioning",
+      "type": "paragraph",
+      "codeSnippet": "NON-CYCLIC vs CYCLIC PHOTOPHOSPHORYLATION\n                     \n   FEATURE                    NON-CYCLIC                     CYCLIC\n   Photosystems Involved      PS II (P680) + PS I (P700)     PS I (P700) Only\n   Membrane Location          Appressed Grana Thylakoids     Stroma Lamellae & Non-Appressed Grana\n   Electron Donor             $\\text{H}_2\\text{O}$ (via OEC) None (Recycled internally)\n   Final Electron Acceptor    $\\text{NADP}^+$                P700 (PS I Reaction Center)\n   Products Generated         $\\text{ATP} + \\text{NADPH} + \\text{O}_2$  $\\text{ATP}$ Only",
+      "content": "• **Appressed Grana Thylakoids (Stacked Regions)**: Rich in PS II and Light-Harvesting Complex II (LHC II); site of water photolysis and non-cyclic electron transport.\n• **Stroma Lamellae & Non-Appressed Grana Margins**: Contain PS I and $\\text{CF}_0\\text{--}\\text{CF}_1$ ATP Synthase, but completely lack PS II and FNR, restricting them exclusively to **Cyclic Photophosphorylation**."
+    }
+  ]
+}

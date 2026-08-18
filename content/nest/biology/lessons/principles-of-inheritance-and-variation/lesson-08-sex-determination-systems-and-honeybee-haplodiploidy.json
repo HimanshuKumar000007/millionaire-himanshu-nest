@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c4-l08",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Principles of Inheritance and Variation",
+  "chapterNumber": 4,
+  "chapterSlug": "principles-of-inheritance-and-variation",
+  "slug": "lesson-08-sex-determination-systems-and-honeybee-haplodiploidy",
+  "title": "Sex Determination Systems & Honeybee Haplodiploidy",
+  "topic": "XX-XY, XX-XO, ZZ-ZW Systems, & Parthenogenetic Drones",
+  "order": 8,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Sex determination systems: XX-XY (Humans/Drosophila - male heterogametic), XX-XO (Grasshopper - male heterogametic), ZZ-ZW (Birds - female heterogametic). Haplodiploidy in honeybees: Queen 2n=32, Drones n=16 (develop by parthenogenesis, produce sperm by MITOSIS).",
+  "summary": "Sex determination systems: XX-XY (Humans/Drosophila - male heterogametic), XX-XO (Grasshopper - male heterogametic), ZZ-ZW (Birds - female heterogametic). Haplodiploidy in honeybees: Queen 2n=32, Drones n=16 (develop by parthenogenesis, produce sperm by MITOSIS).",
+  "conceptBreakdown": [
+    {
+      "heading": "Sex Determination Systems Across Taxa",
+      "title": "Sex Determination Systems Across Taxa",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Taxa utilize diverse chromosomal sex determination systems: (1) XX-XY (Male Heterogametic: Humans, Drosophila); (2) XX-XO (Male Heterogametic: Grasshoppers, Cockroaches; Henking X-body); (3) ZZ-ZW (Female Heterogametic: Birds, Butterflies); (4) Haplodiploidy (Honeybees: Queen/Workers 2n=32, Drones n=16 developing via parthenogenesis and producing sperm by Mitosis)."
+      },
+      "codeSnippet": "SEX DETERMINATION SYSTEMS\n                                       │\n     ┌──────────────────┬──────────────┴──────────────┬──────────────────┐\n     ▼                  ▼                             ▼                  ▼\n  XX - XY SYSTEM     XX - XO SYSTEM                ZZ - ZW SYSTEM      HAPLODIPLOPIDY\n  Male Heterogametic Male Heterogametic           Female Heterogametic Females 2n; Males n\n  ├── Male: XY       ├── Male: XO (Henking X)     ├── Female: ZW       └── Parthenogenesis\n  └── Female: XX     └── Female: XX               └── Male: ZZ             (Honeybees)\n  (Humans, Drosophila)(Grasshoppers)              (Birds, Butterflies)",
+      "content": "### 8.1 Chromosomal Sex Determination Taxonomy\n1. **XX - XY Mechanism (Male Heterogamety)**: Female produces all identical $X$-bearing eggs ($XX$); male produces $50\\%\\text{ } X$-bearing and $50\\%\\text{ } Y$-bearing sperm ($XY$). *(Humans, Drosophila)*.\n2. **XX - XO Mechanism (Male Heterogamety)**: Henking (1891) discovered the 'X-body'. Females possess $XX$; males have only one sex chromosome ($XO$), producing $50\\%\\text{ } X$-bearing sperm and $50\\%$ sperm lacking any sex chromosome. *(Grasshoppers, Cockroaches)*.\n3. **ZZ - ZW Mechanism (Female Heterogamety)**: Males are homogametic ($ZZ$); females are heterogametic ($ZW$), producing $50\\%\\text{ } Z$-bearing and $50\\%\\text{ } W$-bearing ova. *(Birds, Reptiles, Butterflies)*.\n\n### 8.2 Haplodiploidy in Honeybees (*Apis mellifera*)\n\n```\n                         HONEYBEE HAPLODIPLOPIDY\n                         \n          QUEEN (2n = 32)                    DRONE (n = 16)\n                 │                                  │\n          [Meiosis]                          [MITOSIS]\n                 │                                  │\n          Eggs (n = 16)                      Sperm (n = 16)\n                 │                                  │\n        ┌────────┴────────┐                         │\n        ▼                 ▼                         │\n   Unfertilized        Fertilized ◄─────────────────┘\n        │                 │\n   [Parthenogenesis]   [Diploid Zygote] (2n = 32)\n        │                 │\n   DRONES (n=16)       QUEEN / WORKERS (2n=32)\n```\n\n- **Unique Drone Genetics**: Drones are haploid ($n = 16$) and produce sperm by **MITOSIS**. Thus, **drones have no father and cannot have sons, but they have a grandfather and can have grandsons!**"
+    },
+    {
+      "heading": "Genic Balance Theory in Drosophila (Bridges)",
+      "title": "Genic Balance Theory in Drosophila (Bridges)",
+      "type": "paragraph",
+      "content": "Calvin Bridges demonstrated that sex in Drosophila is determined by the ratio of X chromosomes to Autosome sets (X:A ratio); X:A = 1.0 produces normal females, X:A = 0.5 produces normal males, X:A > 1.0 yields metafemales, and 0.5 < X:A < 1.0 yields intersexes."
+    },
+    {
+      "heading": "Temperature-Dependent Sex Determination (TSD)",
+      "title": "Temperature-Dependent Sex Determination (TSD)",
+      "type": "paragraph",
+      "content": "In non-avian reptiles (alligators, sea turtles), incubation temperature of eggs during a thermosensitive developmental window determines sex: low temperatures yield females in alligators, while warm temperatures yield females in marine turtles."
+    }
+  ]
+}

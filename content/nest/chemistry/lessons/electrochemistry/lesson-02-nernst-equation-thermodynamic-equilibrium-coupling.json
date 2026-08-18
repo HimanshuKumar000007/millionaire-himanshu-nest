@@ -1,0 +1,59 @@
+{
+  "id": "chem-xii-u11-c2-l02",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XI \u2014 Electrochemistry",
+  "unitNumber": 11,
+  "chapter": "Electrochemistry",
+  "chapterNumber": 2,
+  "chapterSlug": "electrochemistry",
+  "slug": "lesson-02-nernst-equation-thermodynamic-equilibrium-coupling",
+  "title": "Nernst Equation & Thermodynamic Equilibrium Coupling",
+  "topic": "Nernst Equation & Thermodynamics",
+  "topics": [
+    "Nernst Equation Derivation and Room Temperature Form: E_cell = E\u00b0_cell - (0.05916 / n) log\u2081\u2080 Q",
+    "Thermodynamic Coupling: \u0394_r G = -n F E_cell and \u0394_r G\u00b0 = -n F E\u00b0_cell",
+    "Equilibrium Constant Relationship: log\u2081\u2080 K_eq = (n E\u00b0_cell) / 0.05916",
+    "Linear Nernst Potential vs log\u2081\u2080 Q Plots and Intercept/Slope Interpretations"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "electrochemistry",
+  "quickSummary": "Nernst equation: E_cell = E\u00b0_cell - (0.05916/n) log\u2081\u2080 Q. Spontaneity: E_cell > 0 \u27f9 \u0394G < 0. At equilibrium, E_cell = 0 and log\u2081\u2080 K_eq = (n\u00b7E\u00b0_cell)/0.05916.",
+  "summary": "Master Nernst equation calculations, free energy relationships, and equilibrium constant interconversions.",
+  "conceptBreakdown": [
+    {
+      "heading": "2.1 The Nernst Equation Formulation",
+      "title": "2.1 The Nernst Equation Formulation",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Nernst Equation",
+        "takeaway": "E_cell = E\u00b0_cell - (0.05916 / n) log\u2081\u2080 Q at 298 K. As Q increases (more products), cell potential E_cell decreases."
+      },
+      "codeSnippet": "NERNST EQUATION AT 298 K\n\nE_cell = E\u00b0_cell - (0.05916 / n) log\u2081\u2080 Q\n\nwhere n is moles of electrons transferred, and Q = [Products]^c / [Reactants]^a",
+      "content": "For a general redox reaction $aA + bB \\rightleftharpoons cC + dD$:\n$$E_{\\text{cell}} = E^\\circ_{\\text{cell}} - \\frac{RT}{nF} \\ln Q = \\mathbf{E^\\circ_{\\text{cell}} - \\frac{0.05916}{n} \\log_{10} Q \\quad (\\text{at } 298.15\\text{ K})}$$\n\u2022 Pure solids and pure liquids have unit activity (1.0) and are excluded from $Q$."
+    },
+    {
+      "heading": "2.2 Thermodynamic Coupling & Equilibrium Constant (K_eq)",
+      "title": "2.2 Thermodynamic Coupling & Equilibrium Constant (K_eq)",
+      "type": "paragraph",
+      "codeSnippet": "THERMODYNAMICS & EQUILIBRIUM COUPLING\n\n1. Gibbs Free Energy: \u0394_r G = -n F E_cell  |  \u0394_r G\u00b0 = -n F E\u00b0_cell\n   (Spontaneous if E_cell > 0 \u27f9 \u0394_r G < 0)\n\n2. Equilibrium Constant (K_eq):\n   At equilibrium, E_cell = 0 and Q = K_eq \u27f9 log\u2081\u2080 K_eq = (n \u00d7 E\u00b0_cell) / 0.05916",
+      "content": "\u2022 **Free Energy**: $\\mathbf{\\Delta_r G = -n F E_{\\text{cell}}}$. A positive cell potential corresponds to a thermodynamically spontaneous reaction.\n\u2022 **Equilibrium Constant**: When the cell is completely discharged ($E_{\\text{cell}} = 0$), $Q = K_{\\text{eq}}$:\n$$\\mathbf{\\log_{10} K_{\\text{eq}} = \\frac{n E^\\circ_{\\text{cell}}}{0.05916} \\implies K_{\\text{eq}} = 10^{\\frac{n E^\\circ_{\\text{cell}}}{0.05916}}}$$"
+    }
+  ],
+  "quickRevision": [
+    "E_cell = E\u00b0_cell - (0.05916/n) log\u2081\u2080 Q at 298 K.",
+    "\u0394_r G = -nFE_cell; \u0394_r G\u00b0 = -nFE\u00b0_cell.",
+    "log\u2081\u2080 K_eq = (n\u00b7E\u00b0_cell)/0.05916.",
+    "Pure solids have activity = 1.0."
+  ],
+  "keyFormulae": [
+    "E_{\\text{cell}} = E^\\circ_{\\text{cell}} - \\frac{0.05916}{n} \\log_{10} Q",
+    "\\Delta_r G^\\circ = -n F E^\\circ_{\\text{cell}}, \\quad K_{\\text{eq}} = 10^{\\frac{n E^\\circ_{\\text{cell}}}{0.05916}}"
+  ]
+}

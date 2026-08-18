@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u6-c1-l02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VI — Reproduction",
+  "unitNumber": 6,
+  "chapter": "Sexual Reproduction in Flowering Plants",
+  "chapterNumber": 1,
+  "chapterSlug": "sexual-reproduction-in-flowering-plants",
+  "slug": "lesson-02-pollen-grain-cytology-and-male-gametophyte-development",
+  "title": "Pollen Grain Cytology & Male Gametophyte Development",
+  "topic": "Sporoderm & Microgametogenesis",
+  "order": 2,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Pollen wall: Exine (Sporopollenin, interrupted at Germ Pores) and Intine (Cellulose + Pectin). 60% angiosperms shed at 2-celled stage (Vegetative + Generative), 40% at 3-celled stage (Vegetative + 2 male gametes).",
+  "summary": "Pollen wall: Exine (Sporopollenin, interrupted at Germ Pores) and Intine (Cellulose + Pectin). 60% angiosperms shed at 2-celled stage (Vegetative + Generative), 40% at 3-celled stage (Vegetative + 2 male gametes).",
+  "conceptBreakdown": [
+    {
+      "heading": "Pollen Grain Cytology & Male Gametophyte Development",
+      "title": "Pollen Grain Cytology & Male Gametophyte Development",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Pollen wall: Exine (composed of ultra-resistant Sporopollenin, interrupted at Germ Pores) and Intine (thin, continuous cellulose + pectin). Microgametogenesis: 60% angiosperms shed at 2-celled stage (Vegetative cell + Generative cell); 40% shed at 3-celled stage (Vegetative cell + 2 non-motile male gametes)."
+      },
+      "codeSnippet": "POLLEN GRAIN WALL LAYERS\n                                      │\n         ┌────────────────────────────┴────────────────────────────┐\n         ▼                                                         ▼\n   EXINE (Outer Layer)                                       INTINE (Inner Layer)\n   ├── Composed of Sporopollenin (Biopolymer)                ├── Composed of Cellulose + Pectin\n   ├── Extremely resistant to acids, alkalis, & enzymes       ├── Thin, continuous, non-sculptured\n   └── Interrupted at Germ Pores (lacks sporopollenin)        └── Emerges as Pollen Tube during germination",
+      "content": "Pollen grains (microspores) represent the male gametophytic generation in seed plants.\n\n### 2.1 Sporoderm Architecture\n- **Exine**: Heavy, intricately sculptured outer layer made of **Sporopollenin** (an oxidative polymer of carotenoids and fatty acid esters). It is resistant to acetolysis, strong mineral acids, concentrated alkalis, high heat, and biological enzymes, enabling pollen fossils to survive for millions of years.\n  - **Germ Pores**: Small circular apertures on the exine where sporopollenin deposition is absent. Monocots typically have $1$ germ pore (monocolpate/monoporate); Dicots typically have $3$ germ pores (tricolpate).\n- **Intine**: Thin, delicate, continuous inner wall layer composed of **Cellulose and Pectin**.\n\n### 2.2 Male Gametophyte Development (Microgametogenesis)\n\n```\n                      MALE GAMETOPHYTE DEVELOPMENT\n                      \n   Microspore (n) ──[Asymmetric Mitosis]──► 2-Celled Pollen Grain (60% Angiosperms)\n                                                      │\n                                   ┌──────────────────┴──────────────────┐\n                                   ▼                                     ▼\n                      VEGETATIVE / TUBE CELL                GENERATIVE CELL\n                      ├── Large, abundant food reserves     ├── Small, spindle-shaped\n                      └── Irregular, lobed nucleus          └── Floats in vegetative cytoplasm\n                                                                         │\n   3-Celled Stage (40% Angiosperms) ◄── [2nd Mitosis in Generative] ─────┘\n   (1 Vegetative Cell + 2 Non-Motile Male Gametes)\n```\n\n- **2-Celled Stage**: In over **$60\\%$ of angiosperms**, pollen grains are shed at this 2-celled stage. The generative cell divides inside the pollen tube as it grows down the style.\n- **3-Celled Stage**: In the remaining **$40\\%$ of angiosperms**, the generative cell divides by mitosis *prior* to anther dehiscence, shedding pollen in a 3-celled state (1 vegetative cell + 2 non-motile male gametes)."
+    },
+    {
+      "heading": "Pollen Viability Variations",
+      "title": "Pollen Viability Variations",
+      "type": "paragraph",
+      "content": "Pollen viability varies enormously by taxon: in cereals (Rice, Wheat), pollen loses viability within ~30 minutes of shedding; in Rosaceae, Leguminosae, and Solanaceae, pollen maintains viability for months."
+    },
+    {
+      "heading": "Cryopreservation of Pollen Grains",
+      "title": "Cryopreservation of Pollen Grains",
+      "type": "paragraph",
+      "content": "Pollen grains can be cryopreserved indefinitely in Liquid Nitrogen at -196°C in pollen banks for crop breeding and conservation genetics."
+    }
+  ]
+}

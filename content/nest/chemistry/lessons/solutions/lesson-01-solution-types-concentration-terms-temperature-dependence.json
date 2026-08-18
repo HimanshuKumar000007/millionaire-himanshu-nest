@@ -1,0 +1,59 @@
+{
+  "id": "chem-xii-u10-c1-l01",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit X \u2014 Solutions",
+  "unitNumber": 10,
+  "chapter": "Solutions",
+  "chapterNumber": 1,
+  "chapterSlug": "solutions",
+  "slug": "lesson-01-solution-types-concentration-terms-temperature-dependence",
+  "title": "Solution Classifications & Concentration Temperature Dependence",
+  "topic": "Solution Classifications & Concentration",
+  "topics": [
+    "Solution Classifications: Gaseous, Liquid, and Solid Solutions (Substitutional Brass Cu-Zn, Interstitial Steel)",
+    "Concentration Expressions: Molarity (M), Molality (m), Normality (N), Mole Fraction (x_i), % w/w, % w/v, % v/v, ppm",
+    "Temperature-Dependent (Volume-based: M, N, %w/v, %v/v) vs Temperature-Independent (Mass-based: m, x_i, %w/w, ppm)",
+    "Molality (m) vs Molarity (M) Interconversion Formula: m = (1000 M) / (1000 d - M M_B)"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "solutions",
+  "quickSummary": "Liquid, gaseous, and solid solutions. Molarity and normality are temperature-dependent (volume expands with T). Molality, mole fraction, and mass % are temperature-independent. m = (1000\u00b7M) / (1000\u00b7d - M\u00b7M_B).",
+  "summary": "Master solution types, concentration units, thermal dependencies, and interconversion mechanics.",
+  "conceptBreakdown": [
+    {
+      "heading": "1.1 Solution Classifications Matrix",
+      "title": "1.1 Solution Classifications Matrix",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Solution Types",
+        "takeaway": "Homogeneous single-phase mixtures: Gas in gas (Air), Gas in liquid (CO\u2082 in water), Solid in solid (Brass Cu-Zn, Steel)."
+      },
+      "codeSnippet": "SOLUTION CLASSIFICATIONS\n                                       \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                                 \u25bc                                 \u25bc\nGASEOUS SOLUTIONS                 LIQUID SOLUTIONS                  SOLID SOLUTIONS\nSolvent: Gas                      Solvent: Liquid                   Solvent: Solid\n\u251c\u2500\u2500 Gas in Gas (Air)              \u251c\u2500\u2500 Gas in Liquid (CO\u2082 in water)  \u251c\u2500\u2500 Substitutional (Brass: Cu-Zn)\n\u251c\u2500\u2500 Liquid in Gas (Humidity)      \u251c\u2500\u2500 Liquid in Liquid (Ethanol/H\u2082O)\u2514\u2500\u2500 Interstitial (Carbon in Steel)\n\u2514\u2500\u2500 Solid in Gas (Camphor in N\u2082)  \u2514\u2500\u2500 Solid in Liquid (NaCl in H\u2082O)",
+      "content": "A Solution is a homogeneous single-phase mixture of two or more chemical components. Classified by physical states of solvent and solute:\n1. **Gaseous Solutions**: Air ($\text{O}_2 + \text{N}_2$), Chloroform in $\text{N}_2$ gas, Camphor in $\text{N}_2$.\n2. **Liquid Solutions**: $\text{CO}_2$ in water (Soda), Ethanol in water, $\text{NaCl}$ in water.\n3. **Solid Solutions**: **Substitutional** (Brass: $\text{Cu-Zn}$, Bronze: $\text{Cu-Sn}$) and **Interstitial** (Carbon in iron forming Steel)."
+    },
+    {
+      "heading": "1.2 Concentration Terms & Thermal Stability",
+      "title": "1.2 Concentration Terms & Thermal Stability",
+      "type": "paragraph",
+      "codeSnippet": "CONCENTRATION EXPRESSIONS MATRIX\n\n\u2022 Temperature-Dependent (Volume-based; V expands as T rises \u27f9 Concentration decreases):\n  \u251c\u2500\u2500 Molarity (M = n_solute / V_solution in L)\n  \u251c\u2500\u2500 Normality (N = Equivalents_solute / V_solution in L)\n  \u2514\u2500\u2500 % w/v and % v/v\n\n\u2022 Temperature-Independent (Mass-based; invariant with temperature):\n  \u251c\u2500\u2500 Molality (m = n_solute / Mass of solvent in kg)\n  \u251c\u2500\u2500 Mole Fraction (x_i = n_i / \u03a3 n_total)\n  \u2514\u2500\u2500 Mass Percentage (% w/w) and ppm\n\n\u2022 Interconversion Formula: m = (1000 \u00d7 M) / (1000 \u00d7 d - M \u00d7 M_B)",
+      "content": "\u2022 **Molarity ($M$)**: Decreases as temperature increases because liquids expand ($V \\propto T$).\n\u2022 **Molality ($m$) & Mole Fraction ($x_i$)**: Temperature-independent because mass is invariant with temperature.\n\u2022 **Interconversion**: $\\mathbf{m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_B}}$ where $d$ is density ($\\text{g/mL}$) and $M_B$ is solute molar mass."
+    }
+  ],
+  "quickRevision": [
+    "Molarity (M) and Normality (N) depend on temperature.",
+    "Molality (m) and Mole fraction (x) are independent of temperature.",
+    "m = (1000\u00b7M) / (1000\u00b7d - M\u00b7M_B).",
+    "Brass is a substitutional solid solution; Steel is interstitial."
+  ],
+  "keyFormulae": [
+    "M = \\frac{n_B}{V_{(\\text{L})}}, \\quad m = \\frac{n_B}{w_{A,(\\text{kg})}}",
+    "m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_B}"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-18-07",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Locomotion and Movement",
+  "chapterNumber": 18,
+  "chapterSlug": "locomotion-and-movement",
+  "lessonNumber": 7,
+  "title": "Human Skeletal System Architecture: Appendicular Skeleton (126 Bones)",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Medium",
+  "prerequisites": ["Appendicular anatomy", "Bones of girdles and limbs"],
+  "learningObjectives": [
+    "Identify the 126 bones of the Appendicular Skeleton across Girdles and Limbs",
+    "Describe the anatomical landmarks of the Pectoral (Glenoid) and Pelvic (Acetabulum) Girdles",
+    "Explain the sesamoid origin of the Patella and list the human phalangeal formula"
+  ],
+  "content": "### 6.2 The Appendicular Skeleton (126 Bones)\n\n```\n                       APPENDICULAR SKELETON BREAKDOWN (126 Bones)\n                                      │\n         ┌────────────────────────────┴────────────────────────────┐\n         ▼                                                         ▼\n   GIRDLES (6 Bones)                                           LIMBS (120 Bones)\n   ├── Pectoral Girdle (4):                                    ├── Upper Limbs (60 = 30 × 2):\n   │   ├── Clavicle (2 - Collar bone)                              │   Humerus, Radius, Ulna, Carpals (8),\n   │   └── Scapula (2 - Glenoid Cavity)                            │   Metacarpals (5), Phalanges (14)\n   └── Pelvic Girdle (2 Coxal Bones):                          └── Lower Limbs (60 = 30 × 2):\n       └── Fusion of Ilium, Ischium, & Pubis                       Femur, Patella, Tibia, Fibula,\n           (Acetabulum Socket)                                     Tarsals (7), Metatarsals (5), Phalanges (14)\n```\n\n1. **Pectoral Girdle (4 Bones)**:\n   - **Clavicle (2)**: Curved collar bone articulating medially with the manubrium of the sternum and laterally with the acromion of the scapula.\n   - **Scapula (2)**: Large triangular flat bone situated dorsally over ribs 2 to 7. A prominent transverse **Spine** terminates in the expanded **Acromion Process**. Inferior to the acromion is the shallow **Glenoid Cavity**, which articulates with the head of the Humerus to form the shoulder joint.\n2. **Pelvic Girdle (2 Bones)**:\n   - Composed of two **Coxal (Innominate) Bones**, each formed by the embryonic fusion of **Ilium, Ischium, and Pubis**.\n   - **Acetabulum**: A deep lateral cup-shaped socket at the junction of the three bones that articulates with the hemispherical head of the Femur (hip joint).\n   - **Pubic Symphysis**: The ventral midline junction of the two pubic bones, containing fibrous cartilage.\n3. **Limbs (120 Bones = 60 Upper + 60 Lower)**:\n   - **Upper Limb ($30\\times 2$)**: Humerus (1 arm), Radius (1 lateral forearm), Ulna (1 medial forearm), Carpals (8 wrist bones: Scaphoid, Lunate, Triquetrum, Pisiform, Trapezium, Trapezoid, Capitate, Hamate), Metacarpals (5 palm bones), Phalanges (14 digits: formula $2.3.3.3.3$).\n   - **Lower Limb ($30\\times 2$)**: Femur (1 thigh bone - longest, heaviest, and strongest bone in the human body), **Patella (1 knee cap - triangular sesamoid bone formed by ossification in the quadriceps femoris tendon)**, Tibia (1 medial shin bone), Fibula (1 lateral leg bone), Tarsals (7 ankle bones: Talus, Calcaneus heel bone, Navicular, 3 Cuneiforms, Cuboid), Metatarsals (5 sole bones), Phalanges (14 toe digits: formula $2.3.3.3.3$).",
+  "conceptBreakdown": [
+    {
+      "heading": "Sesamoid Bones Defined",
+      "explanation": "A sesamoid bone is a bone embedded within a tendon where it passes over a joint (e.g., Patella in quadriceps tendon, Pisiform in flexor carpi ulnaris tendon), functioning to increase the mechanical leverage of the muscle."
+    },
+    {
+      "heading": "Glenoid vs Acetabulum Depth",
+      "explanation": "The Glenoid cavity is shallow, allowing maximum range of motion at the expense of stability (frequent shoulder dislocations). The Acetabulum is deep and reinforced by a fibrocartilaginous labrum, providing maximal weight-bearing stability."
+    }
+  ]
+}

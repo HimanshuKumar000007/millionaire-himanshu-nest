@@ -1,0 +1,60 @@
+{
+  "id": "chem-xi-u4-c4-l08",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit IV \u2014 Chemical Bonding and Molecular Structure",
+  "unitNumber": 4,
+  "chapter": "Chemical Bonding and Molecular Structure",
+  "chapterNumber": 4,
+  "chapterSlug": "chemical-bonding",
+  "slug": "lesson-08-hydrogen-bonding-traps-glossary",
+  "title": "Hydrogen Bonding, High-Yield NEST Traps & Master Glossary",
+  "topic": "H-Bonding, Exam Traps & Glossary",
+  "topics": [
+    "Intermolecular vs Intramolecular H-Bonding Dynamics",
+    "o-Nitrophenol vs p-Nitrophenol Boiling Points & Steam Volatility",
+    "Open-Cage Density Anomaly of Ice (Max Density at 4\u00b0C)",
+    "10 High-Yield NEST Chemical Bonding Misconceptions",
+    "36-Term Master Glossary for Chemical Bonding"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "hydrogen-bonding",
+  "quickSummary": "Intermolecular H-bonding elevates boiling points, while intramolecular H-bonding (chelation) lowers boiling points (o-nitrophenol is steam-volatile). Includes 10 high-yield NEST exam traps and a 36-term master glossary.",
+  "summary": "Master hydrogen bonding dynamics, ice open-cage structure, the 10 NEST traps, and 36 essential bonding definitions.",
+  "conceptBreakdown": [
+    {
+      "heading": "8.1 Hydrogen Bonding: Intermolecular vs Intramolecular",
+      "title": "8.1 Hydrogen Bonding: Intermolecular vs Intramolecular",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Hydrogen Bonding",
+        "takeaway": "Intermolecular: raises boiling point (p-nitrophenol, H\u2082O). Intramolecular (chelation): lowers boiling point, steam-volatile (o-nitrophenol). Ice floats due to 3D open-cage tetrahedral network."
+      },
+      "codeSnippet": "o-NITROPHENOL vs p-NITROPHENOL\n                     \n   o-Nitrophenol (Intramolecular H-Bond)       p-Nitrophenol (Intermolecular H-Bond)\n   \u251c\u2500\u2500 6-Membered Chelate Ring                 \u251c\u2500\u2500 Linear Polymer Association\n   \u251c\u2500\u2500 Steam Volatile                          \u251c\u2500\u2500 Non-steam Volatile\n   \u2514\u2500\u2500 Lower Boiling Point (214\u00b0C)             \u2514\u2500\u2500 Higher Boiling Point (279\u00b0C)",
+      "content": "\u2022 **Open-Cage Structure of Ice**: In ice, each $\\text{H}_2\\text{O}$ molecule forms 4 directional tetrahedral H-bonds, creating wide open interstitial cages. Density of ice is lower than liquid water at $0^\\circ\\text{C}$ (ice floats). Maximum density of water occurs at $4^\\circ\\text{C}$."
+    },
+    {
+      "heading": "8.2 10 High-Yield NEST Chemical Bonding Traps",
+      "title": "8.2 10 High-Yield NEST Chemical Bonding Traps",
+      "type": "paragraph",
+      "content": "1. **TBP Lone Pairs**: In $sp^3d$, lone pairs and multiple bonds ALWAYS occupy equatorial positions ($33.3\\%\\ s$).\n2. **$\\text{NH}_3$ vs $\\text{NF}_3$**: $\\text{NH}_3 (1.47\\text{ D}) > \\text{NF}_3 (0.23\\text{ D})$ because bond dipoles reinforce the lone pair in $\\text{NH}_3$.\n3. **$\\text{O}_2$ Paramagnetism**: $\\text{O}_2$ has 2 unpaired electrons in $\\pi^* 2p$ antibonding MOs (proved by MOT).\n4. **Intramolecular H-Bonding**: LOWERS boiling point by preventing intermolecular association ($o$-nitrophenol).\n5. **$s-p$ Mixing**: In $\\text{N}_2$ ($Z \\le 7$), $\\sigma 2p_z$ is higher in energy than $\\pi 2p_{x,y}$.\n6. **$\\text{XeF}_6$ Shape**: $\\text{XeF}_6$ ($6\\text{ bp} + 1\\text{ lp}$) is Distorted Octahedral in gas phase.\n7. **$\\sigma$ vs $\\pi$ Strength**: $\\sigma(p-p) > \\pi(p-p)$ due to axial vs lateral overlap.\n8. **$\\text{CO}^+$ Bond Order**: $\\text{CO}^+$ has anomalous $BO = 3.5$ (higher than $\\text{CO} = 3.0$).\n9. **Participating $d$-Orbitals**: $dsp^2$ uses $d_{x^2-y^2}$; $sp^3d$ uses $d_{z^2}$; $sp^3d^2$ uses $d_{x^2-y^2} + d_{z^2}$.\n10. **$\\Delta_{\\text{eg}} H_2$ Endothermicity**: Always positive ($+780\\text{ kJ/mol}$ for $\\text{O}^- \\rightarrow \\text{O}^{2-}$)."
+    }
+  ],
+  "quickRevision": [
+    "o-Nitrophenol is steam-volatile with lower BP due to intramolecular H-bonding.",
+    "Ice has open-cage structure; max density of water is at 4\u00b0C.",
+    "CO\u207a has anomalous BO = 3.5.",
+    "XeF\u2086 is Distorted Octahedral (6 bp + 1 lp)."
+  ],
+  "keyFormulae": [
+    "\u03bc = q \u00d7 d",
+    "BO = (N_b - N_a) / 2",
+    "Max Density of Water at 4\u00b0C"
+  ]
+}

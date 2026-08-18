@@ -1,0 +1,37 @@
+{
+  "id": "math-xi-u1-c2-l07",
+  "exam": "NEST",
+  "subject": "Mathematics",
+  "classLevel": "Class XI",
+  "unit": "Unit 1 — Sets and Functions",
+  "unitNumber": 1,
+  "chapter": "Relations and Functions",
+  "chapterNumber": 2,
+  "chapterSlug": "relations-and-functions",
+  "slug": "lesson-07-traps-and-glossary",
+  "title": "NEST Traps & Master Glossary",
+  "topic": "Standard functions & graphs (Modulus, Signum, GIF, Logarithmic)",
+  "order": 7,
+  "estimatedTimeMinutes": 5,
+  "readingTimeMinutes": 5,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "relations-and-functions",
+  "quickSummary": "7 high-yield NEST misconceptions and 20 master definitions for Relations and Functions.",
+  "summary": "Master exam traps, counterexamples, principal square roots, GIF discontinuities, and 20 essential terminology definitions.",
+  "conceptBreakdown": [
+    {
+      "heading": "7. High-Yield NEST Misconceptions & Traps",
+      "title": "7. High-Yield NEST Misconceptions & Traps",
+      "type": "paragraph",
+      "content": "| Misconception / Trap | Mathematical Reality | Exam Context & Fix |\n| :--- | :--- | :--- |\n| *\"The range of $\\sqrt{f(x)}$ can include negative numbers.\"* | Principal square root $\\sqrt{y}$ is **non-negative by definition** ($\\sqrt{y} \\ge 0$). | $\\text{Rng}(\\sqrt{f(x)}) \\subseteq [0, \\infty)$. Never write $\\sqrt{16} = \\pm 4$; $\\sqrt{16} = +4$. |\n| *\"The equation $f(x) = \\sqrt{x^2}$ simplifies to $x$.\"* | $\\mathbf{\\sqrt{x^2} = \\|x\\|}$. | $\\sqrt{x^2} = -x$ when $x < 0$. |\n| *\"For composite functions, $\\text{Dom}(g \\circ f)$ is simply equal to $\\text{Dom}(f)$.\"* | **False!** $\\text{Dom}(g \\circ f) \\subseteq \\text{Dom}(f)$. You must explicitly remove $x \\in \\text{Dom}(f)$ where $f(x) \\notin \\text{Dom}(g)$. | Example: $f(x) = x-2, g(x) = \\sqrt{x} \\implies (g \\circ f)(x) = \\sqrt{x-2}$. $\\text{Dom}(f)=\\mathbb{R}$, but $\\text{Dom}(g \\circ f) = [2, \\infty)$. |\n| *\"Greatest integer function $\\lfloor x \\rfloor$ is continuous everywhere.\"* | $\\lfloor x \\rfloor$ has **jump discontinuities at every integer $x = n \\in \\mathbb{Z}$**. | $\\lim_{x \\to n^-} \\lfloor x \\rfloor = n-1 \\neq \\lim_{x \\to n^+} \\lfloor x \\rfloor = n$. |\n| *\"The domain of $f(x) = \\log_a(g(x))$ requires $g(x) \\ge 0$.\"* | Logarithms require **strictly positive arguments**: $g(x) > 0$. | $g(x) = 0$ makes $\\log_a(0)$ undefined ($-\\infty$). |\n| *\"$\\text{sgn}(x)^2 = 1$ for all $x \\in \\mathbb{R}$.\"* | $\\text{sgn}(x)^2 = 1$ for $x \\neq 0$, but **$\\text{sgn}(0)^2 = 0$**. | Always check the boundary case $x = 0$ when simplifying signum expressions. |\n| *\"The relation $x^2 + y^2 = r^2$ represents a function $y = f(x)$.\"* | **False!** It fails the vertical line test (e.g., $x=0 \\implies y = \\pm r$). | It represents two distinct branches: $y = +\\sqrt{r^2 - x^2}$ and $y = -\\sqrt{r^2 - x^2}$. |"
+    },
+    {
+      "heading": "8. Master Glossary for Relations & Functions",
+      "title": "8. Master Glossary for Relations & Functions",
+      "type": "paragraph",
+      "content": "- **Abscissa**: The x-coordinate of an ordered pair in the Cartesian plane.\n- **Bi-directional Mapping**: An inverse-capable functional relation between two sets.\n- **Codomain**: The target set B in a function f: A → B.\n- **Composition (g ∘ f)**: The sequential application of two functions where output of f becomes input to g.\n- **Domain**: The set of all valid input values x for which a relation or function is defined.\n- **Evaluation**: Computing output f(c) by substituting x = c into a functional rule.\n- **Floor Function (⌊x⌋)**: Function mapping x to the greatest integer less than or equal to x.\n- **Fractional Part ({x})**: Function defined as x - ⌊x⌋, producing the non-integer remainder in [0, 1).\n- **Image**: The unique output y ∈ B associated with an input x ∈ A via y = f(x).\n- **Inversion**: Expressing input variable x in terms of output variable y to analyze range or inverse functions.\n- **Kuratowski Pair**: Set-theoretic definition of ordered pair (a, b) ≡ {{a}, {a, b}}.\n- **Monotonicity**: Property of a function being strictly increasing or strictly decreasing on an interval.\n- **Ordered Pair**: A pair of objects (a, b) where coordinate order is fixed and enforced.\n- **Piecewise Function**: A function defined by different analytical expressions on disjoint sub-domains.\n- **Pre-image**: The set of all input values x ∈ A that map to a given y ∈ B.\n- **Range**: The set of all actual output values y attained by a function (Rng(f) ⊆ B).\n- **Signum Function (sgn(x))**: Function extracting the sign of a real number (+1, 0, -1).\n- **Somatic Expression**: An analytical formula defining real-valued function outputs.\n- **Total Relation**: A relation containing 2^(|A||B|) ordered pairs.\n- **Vertical Line Test**: Geometric test verifying single-valuedness of a real function."
+    }
+  ]
+}

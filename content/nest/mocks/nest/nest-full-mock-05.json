@@ -1,0 +1,3954 @@
+{
+  "id": "nest-full-mock-05",
+  "exam": "NEST",
+  "year": 2026,
+  "title": "NEST 2026 Full Mock Test 05",
+  "category": "Full Length",
+  "difficulty": "High-Yield",
+  "status": "published",
+  "source": "production-mock",
+  "durationMinutes": 210,
+  "totalQuestions": 80,
+  "totalMarks": 240,
+  "evalMarks": 180,
+  "instructions": [
+    "Duration is 3 hours 30 minutes (210 minutes).",
+    "4 Sections: Physics, Chemistry, Biology, Mathematics (20 questions each).",
+    "All 80 questions are Single Correct Choice Questions (+3 for correct, -1 for incorrect).",
+    "Evaluated on Best 3 out of 4 subject sections (Total: 180 Marks)."
+  ],
+  "questions": [
+    {
+      "id": "phy-mock05-q01",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Mechanics",
+      "subtopic": "Variable Mass Systems & Falling Chain",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A chain of length $L$ and mass $M$ is coiled on a table with a tiny segment hanging over the edge. When released, it falls under gravity. The speed of the chain when a length $x$ has fallen is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\sqrt{\\frac{2gx}{3}}$",
+          "isCorrect": true,
+          "explanation": "Setting up the momentum equation for the falling link $\\frac{d(mv)}{dt} = mg$ gives $x v \\frac{dv}{dx} + v^2 = gx$, which integrates to $x^2 v^2 = \\frac{2}{3}gx^3 \\implies v = \\sqrt{\\frac{2gx}{3}}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\sqrt{2gx}$",
+          "isCorrect": false,
+          "explanation": "Free fall velocity ignoring the inertia of resting links being set into motion."
+        },
+        {
+          "id": "c",
+          "text": "$\\sqrt{\\frac{gx}{2}}$",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        },
+        {
+          "id": "d",
+          "text": "$\\sqrt{\\frac{gx}{3}}$",
+          "isCorrect": false,
+          "explanation": "Missing factor of 2 in numerator."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Let the linear mass density be $\\lambda = M/L$. For the hanging portion of length $x$ and mass $m = \\lambda x$ moving with velocity $v$:\n$$\\frac{d(mv)}{dt} = mg$$\n$$m\\frac{dv}{dt} + v\\frac{dm}{dt} = mg$$\n$$(\\lambda x) v \\frac{dv}{dx} + v (\\lambda v) = (\\lambda x) g$$\n$$x v \\frac{dv}{dx} + v^2 = gx$$\nMultiplying by $2x$:\n$$x^2 \\frac{d(v^2)}{dx} + 2x v^2 = 2gx^2 \\implies \\frac{d}{dx}(x^2 v^2) = 2gx^2$$\nIntegrating from $0$ to $x$:\n$$x^2 v^2 = \\frac{2}{3}gx^3 \\implies v^2 = \\frac{2gx}{3} \\implies v = \\sqrt{\\frac{2gx}{3}}$$",
+      "keyFormulae": [
+        "\\frac{d(mv)}{dt} = mg",
+        "v = \\sqrt{\\frac{2gx}{3}}"
+      ],
+      "hints": [
+        "Apply Newton's second law in the form $F = \\frac{d(mv)}{dt}$.",
+        "Notice that mass is continuously set into motion from rest."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "phy-mock05-q02",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Rotational Motion",
+      "subtopic": "Rolling on a Movable Incline",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A solid cylinder of mass $M$ and radius $R$ rolls without slipping down a wedge of mass $M$ and angle $\\theta$ that itself can slide freely on a smooth horizontal surface. The acceleration of the wedge is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{g\\sin\\theta\\cos\\theta}{3 - \\cos^2\\theta}$",
+          "isCorrect": true,
+          "explanation": "Solving horizontal momentum conservation together with relative rolling constraints gives the wedge acceleration $a = \\frac{g\\sin\\theta\\cos\\theta}{3 - \\cos^2\\theta}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{2g\\sin\\theta\\cos\\theta}{3 + \\sin^2\\theta}$",
+          "isCorrect": false,
+          "explanation": "Incorrect constraint formulation."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{g\\sin\\theta\\cos\\theta}{2 + \\sin^2\\theta}$",
+          "isCorrect": false,
+          "explanation": "Applies to sliding block without rotation."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{g\\sin\\theta}{3}$",
+          "isCorrect": false,
+          "explanation": "Applies to a fixed wedge."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Let $A$ be the horizontal acceleration of the wedge to the left, and $a_r$ be the acceleration of the cylinder relative to the incline.\n1. Horizontal force balance on wedge: $N\\sin\\theta - f\\cos\\theta = MA$.\n2. Cylinder rotational dynamics: $fR = I\\alpha = \\left(\\frac{1}{2}MR^2\\right)\\alpha \\implies f = \\frac{1}{2}Ma_r$.\n3. Cylinder equations along and perpendicular to the incline:\n$$Mg\\sin\\theta - f + MA\\cos\\theta = Ma_r$$\n$$N - MA\\sin\\theta = Mg\\cos\\theta$$\nSolving this system yields the horizontal acceleration of the wedge:\n$$A = \\frac{g\\sin\\theta\\cos\\theta}{3 - \\cos^2\\theta}$$",
+      "keyFormulae": [
+        "A = \\frac{g\\sin\\theta\\cos\\theta}{1 + \\frac{M_{\\text{wedge}}}{M_{\\text{cyl}}} + \\frac{I}{MR^2} - \\cos^2\\theta}"
+      ],
+      "hints": [
+        "Write equations of motion in the non-inertial frame of the accelerating wedge.",
+        "Apply the rolling without slipping constraint $a_r = R\\alpha$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "phy-mock05-q03",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Oscillations",
+      "subtopic": "Impulse & Modified Amplitude in SHM",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A particle executes SHM with amplitude $A$ and angular frequency $\\omega$. At the instant when its displacement is $x = A/2$ and it is moving toward the equilibrium position, a small impulse gives it an additional velocity $v_0 = A\\omega/2$ in the direction of motion. The new amplitude is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{A\\sqrt{7}}{2}$",
+          "isCorrect": true,
+          "explanation": "Initial velocity toward equilibrium is $v_1 = -\\omega\\sqrt{A^2 - (A/2)^2} = -\\frac{\\sqrt{3}}{2}A\\omega$. Adding $v_0$ in the direction of motion gives $v_{\\text{new}}^2 = \\frac{6}{4}A^2\\omega^2$. New amplitude $A' = \\sqrt{x^2 + v_{\\text{new}}^2/\\omega^2} = \\frac{A\\sqrt{7}}{2}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{A\\sqrt{5}}{2}$",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{3A}{2}$",
+          "isCorrect": false,
+          "explanation": "Linear addition of amplitudes."
+        },
+        {
+          "id": "d",
+          "text": "$A\\sqrt{2}$",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Speed in SHM at displacement $x = A/2$:\n$$v = \\omega\\sqrt{A^2 - x^2} = \\omega\\sqrt{A^2 - \\frac{A^2}{4}} = \\frac{\\sqrt{3}}{2}A\\omega$$\n2. The particle receives an impulse providing velocity increment $v_0 = \\frac{1}{2}A\\omega$ in the direction of motion.\n3. Using energy conservation for the new state $(x, v_{\\text{new}})$:\n$$A'^2 = x^2 + \\frac{v_{\\text{new}}^2}{\\omega^2} = \\left(\\frac{A}{2}\\right)^2 + \\frac{6}{4}A^2 = \\frac{7A^2}{4}$$\n$$A' = \\frac{A\\sqrt{7}}{2}$$",
+      "keyFormulae": [
+        "A'^2 = x^2 + \\frac{v^2}{\\omega^2}",
+        "v = \\omega\\sqrt{A^2 - x^2}"
+      ],
+      "hints": [
+        "Calculate the initial velocity at $x = A/2$.",
+        "Use the SHM invariant relation $A'^2 = x^2 + (v_{\\text{new}}/\\omega)^2$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "phy-mock05-q04",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Electromagnetism",
+      "subtopic": "Faraday's Law & Time-Varying Current",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A long solenoid of radius $R$ has $n$ turns per unit length and carries a current $I = I_0(1 - e^{-t/\\tau})$. A coaxial circular loop of radius $r < R$ and resistance $\\rho$ (resistance per unit length) is placed inside. The induced current in the loop as a function of time is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{\\mu_0 n I_0 r}{2\\rho} e^{-t/\\tau}$",
+          "isCorrect": false,
+          "explanation": "Missing time constant $\\tau$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{\\mu_0 n I_0 r}{2\\rho\\tau} e^{-t/\\tau}$",
+          "isCorrect": true,
+          "explanation": "$\\mathcal{E} = \\pi r^2 \\frac{dB}{dt} = \\frac{\\mu_0 n \\pi r^2 I_0}{\\tau}e^{-t/\\tau}$. Total resistance is $R = \\rho(2\\pi r)$, so $i = \\mathcal{E}/R = \\frac{\\mu_0 n I_0 r}{2\\rho\\tau}e^{-t/\\tau}$."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{\\mu_0 n I_0 R^2}{2\\rho r \\tau} e^{-t/\\tau}$",
+          "isCorrect": false,
+          "explanation": "Uses solenoid radius $R$ instead of loop radius $r$."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{\\mu_0 n I_0 r}{4\\rho\\tau} e^{-t/\\tau}$",
+          "isCorrect": false,
+          "explanation": "Incorrect numerical factor."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Magnetic field inside the solenoid:\n$$B(t) = \\mu_0 n I(t) = \\mu_0 n I_0 (1 - e^{-t/\\tau})$$\n2. Magnetic flux linked with the loop of radius $r < R$:\n$$\\Phi(t) = B(t) \\cdot \\pi r^2 = \\mu_0 n I_0 \\pi r^2 (1 - e^{-t/\\tau})$$\n3. Induced EMF by Faraday's law:\n$$\\mathcal{E} = -\\frac{d\\Phi}{dt} = \\frac{\\mu_0 n I_0 \\pi r^2}{\\tau} e^{-t/\\tau}$$\n4. Total resistance of the loop with perimeter $2\\pi r$:\n$$R_{\\text{loop}} = \\rho (2\\pi r)$$\n5. Induced current in the loop:\n$$i(t) = \\frac{\\mathcal{E}}{R_{\\text{loop}}} = \\frac{\\frac{\\mu_0 n I_0 \\pi r^2}{\\tau} e^{-t/\\tau}}{2\\pi r \\rho} = \\frac{\\mu_0 n I_0 r}{2\\rho\\tau} e^{-t/\\tau}$$",
+      "keyFormulae": [
+        "\\mathcal{E} = -\\frac{d\\Phi}{dt}",
+        "R_{\\text{total}} = \\rho (2\\pi r)",
+        "i = \\frac{\\mathcal{E}}{R}"
+      ],
+      "hints": [
+        "Calculate the magnetic flux through the loop of radius $r$.",
+        "Divide EMF by the loop's total resistance $2\\pi r \\rho$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "phy-mock05-q05",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Mechanics",
+      "subtopic": "Work-Energy Theorem & Springs",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "Two identical blocks $A$ and $B$ each of mass $m$ are connected by an ideal spring of spring constant $k$. Block $A$ rests on a smooth horizontal table while block $B$ hangs vertically over a frictionless pulley at the edge. The system is released from rest with the spring unstretched. The maximum extension of the spring is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{2mg}{k}$",
+          "isCorrect": true,
+          "explanation": "At maximum extension $x_{\\max}$, kinetic energy of both blocks is zero. Gravitational potential energy loss of $B$ equals elastic potential energy of spring: $mg x_{\\max} = \\frac{1}{2}k x_{\\max}^2 \\implies x_{\\max} = \\frac{2mg}{k}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{mg}{k}$",
+          "isCorrect": false,
+          "explanation": "Equilibrium extension, not maximum."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{mg}{2k}$",
+          "isCorrect": false,
+          "explanation": "Underestimated."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{4mg}{k}$",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Let $x$ be the extension of the spring.\nWhen block $B$ descends by distance $x$, block $A$ slides horizontally by the same distance $x$.\n1. Initial state: Both blocks at rest ($K_i = 0$), spring unstretched ($U_{s,i} = 0$).\n2. At maximum extension $x_{\\max}$: Both blocks momentarily come to rest ($K_f = 0$).\n3. By work-energy theorem / conservation of mechanical energy:\n$$\\Delta U_{\\text{grav}} + \\Delta U_{\\text{spring}} = 0$$\n$$-mg x_{\\max} + \\frac{1}{2}k x_{\\max}^2 = 0$$\n$$x_{\\max} = \\frac{2mg}{k}$$",
+      "keyFormulae": [
+        "mg x_{\\max} = \\frac{1}{2}k x_{\\max}^2 \\implies x_{\\max} = \\frac{2mg}{k}"
+      ],
+      "hints": [
+        "At maximum extension, velocities of both blocks momentarily drop to zero.",
+        "Equate the gravitational work done on block B to the spring potential energy."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "phy-mock05-q06",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "subtopic": "Conductors & Electrostatic Shielding",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A spherical conductor of radius $R$ contains two spherical cavities of radii $a$ and $b$ centered at distances $d_1$ and $d_2$ from the center. Point charges $q_1$ and $q_2$ are placed at the centers of the cavities. The charge density induced on the outer surface of the conductor is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Uniform with magnitude $\\frac{q_1 + q_2}{4\\pi R^2}$",
+          "isCorrect": true,
+          "explanation": "By Gauss's law, total charge on outer surface is $q_1 + q_2$. Because the outer boundary is a sphere and the conducting body shields external space from internal cavity fields, the surface charge distributes completely uniformly with $\\sigma = \\frac{q_1 + q_2}{4\\pi R^2}$."
+        },
+        {
+          "id": "b",
+          "text": "Non-uniform, proportional to $\\frac{1}{r^3}$ from each cavity center",
+          "isCorrect": false,
+          "explanation": "External distribution is independent of cavity positions."
+        },
+        {
+          "id": "c",
+          "text": "Zero everywhere",
+          "isCorrect": false,
+          "explanation": "Charge conservation requires net $+q_1+q_2$ on outer boundary."
+        },
+        {
+          "id": "d",
+          "text": "Uniform if $d_1 = d_2 = 0$, otherwise non-uniform",
+          "isCorrect": false,
+          "explanation": "Electrostatic shielding guarantees uniformity regardless of $d_1, d_2$."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Charge $q_1$ induces $-q_1$ on the inner surface of the first cavity, and $q_2$ induces $-q_2$ on the second cavity.\n2. By conservation of charge, the outer surface of the neutral conductor must acquire a total charge of $q_{\\text{outer}} = +(q_1 + q_2)$.\n3. Due to electrostatic shielding, the electric field inside the conducting material is zero, completely decoupling the outer surface from the positions and fields of the internal charges.\n4. Since the outer surface is spherical and isolated from external fields, the charge distributes uniformly to make the surface an equipotential:\n$$\\sigma = \\frac{q_1 + q_2}{4\\pi R^2} \\quad \\text{(strictly uniform)}$$",
+      "keyFormulae": [
+        "\\sigma_{\\text{outer}} = \\frac{q_{\\text{total, enclosed}}}{4\\pi R^2}"
+      ],
+      "hints": [
+        "Recall the principle of electrostatic shielding in conductors.",
+        "The shape of the outer surface determines the outer charge distribution."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "phy-mock05-q07",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Thermodynamics",
+      "subtopic": "Cyclic Processes on P-V Diagram",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A gas undergoes a cyclic process $ABCDA$ on a $P$-$V$ diagram where $AB$ is isothermal, $BC$ is isochoric, $CD$ is adiabatic, and $DA$ is isobaric. For an ideal diatomic gas, if $T_A = T_1$, $V_B = 2V_A$, and $P_D = P_A/2$, the net work done per cycle is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$RT_1\\left(\\ln 2 - \\frac{5}{14}\\right)$",
+          "isCorrect": true,
+          "explanation": "$W_{AB} = RT_1\\ln 2$. Summing the work done across the adiabatic, isobaric, and isochoric branches for a diatomic gas ($\\gamma = 7/5$) evaluates to $W_{\\text{net}} = RT_1\\left(\\ln 2 - \\frac{5}{14}\\right)$."
+        },
+        {
+          "id": "b",
+          "text": "$RT_1\\left(\\ln 2 - \\frac{2}{7}\\right)$",
+          "isCorrect": false,
+          "explanation": "Incorrect isobaric subtraction."
+        },
+        {
+          "id": "c",
+          "text": "$RT_1\\left(\\ln 2 - \\frac{1}{4}\\right)$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "$RT_1\\left(\\frac{1}{2}\\ln 2 - \\frac{1}{7}\\right)$",
+          "isCorrect": false,
+          "explanation": "Incorrect isothermal multiplier."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "For 1 mole of diatomic gas ($gamma = 7/5, C_V = 5R/2$):\n1. Isothermal $AB$: $W_{AB} = RT_1 \\ln(V_B/V_A) = RT_1 \\ln 2$.\n2. Isochoric $BC$: $W_{BC} = 0$.\n3. Adiabatic $CD$: $W_{CD} = -\\Delta U = -C_V(T_D - T_C) = \\frac{R(T_C - T_D)}{\\gamma - 1}$.\n4. Isobaric $DA$: $W_{DA} = P_A(V_A - V_D) = R(T_A - T_D)$.\nSumming all work components and substituting $P_D = P_A/2$ yields:\n$$W_{\\text{net}} = RT_1\\left(\\ln 2 - \\frac{5}{14}\\right)$$",
+      "keyFormulae": [
+        "W_{\\text{isothermal}} = RT\\ln(V_2/V_1)",
+        "W_{\\text{isobaric}} = P\\Delta V",
+        "W_{\\text{adiabatic}} = \\frac{nR\\Delta T}{1-\\gamma}"
+      ],
+      "hints": [
+        "Calculate the work done in each of the 4 individual branches.",
+        "Sum the algebraic work terms taking signs into account."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "phy-mock05-q08",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Waves",
+      "subtopic": "Standing Wave Nodes and Antinodes",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A plane wave $\\psi(x,t) = A\\sin(kx - \\omega t)$ is incident on a fixed boundary at $x = 0$. The superposition of incident and reflected waves forms a standing wave. The distance between a node and the nearest antinode is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{\\pi}{k}$",
+          "isCorrect": false,
+          "explanation": "Distance between two consecutive nodes."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{\\pi}{2k}$",
+          "isCorrect": false,
+          "explanation": "Correct in terms of wavenumber $k$."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{\\lambda}{4}$",
+          "isCorrect": false,
+          "explanation": "Correct in terms of wavelength $\\lambda$."
+        },
+        {
+          "id": "d",
+          "text": "Both (B) and (C)",
+          "isCorrect": true,
+          "explanation": "Distance between adjacent node and antinode is $\\frac{\\lambda}{4} = \\frac{2\\pi/k}{4} = \\frac{\\pi}{2k}$. Both (B) and (C) are mathematically identical and correct."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "In any standing wave:\n- Wavelength is related to wavenumber by $\\lambda = \\frac{2\\pi}{k}$.\n- Consecutive nodes (or consecutive antinodes) are separated by $\\frac{\\lambda}{2} = \\frac{\\pi}{k}$.\n- A node and its nearest adjacent antinode are separated by a quarter wavelength:\n$$d = \\frac{\\lambda}{4} = \\frac{2\\pi / k}{4} = \\frac{\\pi}{2k}$$\nTherefore, both expressions **(B)** and **(C)** correctly represent this distance.",
+      "keyFormulae": [
+        "d_{\\text{node-antinode}} = \\frac{\\lambda}{4} = \\frac{\\pi}{2k}"
+      ],
+      "hints": [
+        "Recall that distance from a node to the adjacent antinode is $\\lambda/4$.",
+        "Express $\\lambda$ in terms of wavenumber $k = 2\\pi/\\lambda$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "d"
+    },
+    {
+      "id": "phy-mock05-q09",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Gravitation",
+      "subtopic": "Keplerian Orbits & Angular Momentum Conservation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A satellite orbits Earth in an elliptical orbit with perigee distance $r_p$ and apogee distance $r_a$. The speed at perigee is $v_p$. The speed at apogee is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$v_p \\left(\\frac{r_p}{r_a}\\right)$",
+          "isCorrect": true,
+          "explanation": "By conservation of angular momentum about Earth's center: $L = m r_p v_p = m r_a v_a \\implies v_a = v_p\\left(\\frac{r_p}{r_a}\\right)$."
+        },
+        {
+          "id": "b",
+          "text": "$v_p \\sqrt{\\frac{r_p}{r_a}}$",
+          "isCorrect": false,
+          "explanation": "Incorrect square root."
+        },
+        {
+          "id": "c",
+          "text": "$v_p \\left(\\frac{r_a}{r_p}\\right)$",
+          "isCorrect": false,
+          "explanation": "Inverted distance ratio (would make apogee speed faster)."
+        },
+        {
+          "id": "d",
+          "text": "$v_p \\sqrt{\\frac{r_a}{r_p}}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Gravitational force is purely central, exerting zero torque about the center of mass of the Earth.\nTherefore, the orbital angular momentum of the satellite is strictly conserved:\n$$L = m r_p v_p = m r_a v_a$$\n$$v_a = v_p \\left(\\frac{r_p}{r_a}\\right)$$",
+      "keyFormulae": [
+        "L = m r_p v_p = m r_a v_a",
+        "v_a = v_p \\frac{r_p}{r_a}"
+      ],
+      "hints": [
+        "Apply conservation of angular momentum at the apsides (perigee and apogee)."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "phy-mock05-q10",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "subtopic": "Capacitor with Inhomogeneous Dielectric",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A parallel-plate capacitor with plate area $A$ and separation $d$ is filled with a dielectric whose permittivity varies linearly from $\\varepsilon_1$ at one plate to $\\varepsilon_2$ at the other. The capacitance is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{A(\\varepsilon_2 - \\varepsilon_1)}{d\\ln(\\varepsilon_2/\\varepsilon_1)}$",
+          "isCorrect": true,
+          "explanation": "Integrating infinitesimal slices $d(1/C) = \\frac{dx}{A\\varepsilon(x)}$ with $\\varepsilon(x) = \\varepsilon_1 + \\frac{\\varepsilon_2 - \\varepsilon_1}{d}x$ yields $\\frac{1}{C} = \\frac{d}{A(\\varepsilon_2 - \\varepsilon_1)}\\ln(\\varepsilon_2/\\varepsilon_1)$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{A(\\varepsilon_1 + \\varepsilon_2)}{2d}$",
+          "isCorrect": false,
+          "explanation": "Arithmetic mean approximation."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{A\\sqrt{\\varepsilon_1\\varepsilon_2}}{d}$",
+          "isCorrect": false,
+          "explanation": "Geometric mean approximation."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{2A(\\varepsilon_2 - \\varepsilon_1)}{d\\ln(\\varepsilon_2/\\varepsilon_1)}$",
+          "isCorrect": false,
+          "explanation": "Incorrect coefficient."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Let the permittivity profile be $\\varepsilon(x) = \\varepsilon_1 + \\left(\\frac{\\varepsilon_2 - \\varepsilon_1}{d}\\right)x$.\nTreating thin slabs of thickness $dx$ as capacitors connected in series:\n$$\\frac{1}{C} = \\int_0^d \\frac{dx}{A \\varepsilon(x)} = \\frac{1}{A} \\int_0^d \\frac{dx}{\\varepsilon_1 + \\left(\\frac{\\varepsilon_2 - \\varepsilon_1}{d}\\right)x}$$\n$$= \\frac{1}{A} \\cdot \\frac{d}{\\varepsilon_2 - \\varepsilon_1} \\left[ \\ln\\left(\\varepsilon_1 + \\frac{\\varepsilon_2 - \\varepsilon_1}{d}x\\right) \\right]_0^d = \\frac{d}{A(\\varepsilon_2 - \\varepsilon_1)} \\ln\\left(\\frac{\\varepsilon_2}{\\varepsilon_1}\\right)$$\nInverting gives the capacitance:\n$$C = \\frac{A(\\varepsilon_2 - \\varepsilon_1)}{d \\ln(\\varepsilon_2 / \\varepsilon_1)}$$",
+      "keyFormulae": [
+        "\\frac{1}{C} = \\int_0^d \\frac{dx}{A\\varepsilon(x)}"
+      ],
+      "hints": [
+        "Treat the medium as continuous thin capacitive elements in series.",
+        "Integrate $\\frac{1}{A\\varepsilon(x)} dx$ across the plate separation $d$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "phy-mock05-q11",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Rotational Motion",
+      "subtopic": "Angular Momentum & Collisions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A rod of length $L$ and mass $M$ is pivoted at one end and held horizontally. It is released and collides with a small ball of mass $m$ at the bottom of its swing. If the ball flies off horizontally with speed $v$ and the rod comes to rest, the value of $m$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{M}{3}$",
+          "isCorrect": true,
+          "explanation": "Conservation of angular momentum about pivot: $I\\omega = m v L$. With $I = ML^2/3$, mechanical energy conservation gives $m = M/3$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{M}{2}$",
+          "isCorrect": false,
+          "explanation": "Incorrect ratio."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{M}{4}$",
+          "isCorrect": false,
+          "explanation": "Underestimated."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{2M}{3}$",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Speed of rod at the bottom of swing from energy conservation:\n$$Mg\\frac{L}{2} = \\frac{1}{2}I\\omega^2 = \\frac{1}{2}\\left(\\frac{1}{3}ML^2\\right)\\omega^2 \\implies \\omega = \\sqrt{\\frac{3g}{L}}$$\n2. Conservation of angular momentum about the fixed pivot during collision (rod comes to rest):\n$$L_i = L_f \\implies I\\omega = m v L$$\n$$\\left(\\frac{1}{3}ML^2\\right)\\omega = m v L \\implies v = \\frac{M\\omega L}{3m}$$\n3. Conservation of kinetic energy (elastic collision):\n$$\\frac{1}{2}I\\omega^2 = \\frac{1}{2}m v^2 \\implies \\frac{1}{2}\\left(\\frac{1}{3}ML^2\\right)\\omega^2 = \\frac{1}{2}m \\left(\\frac{M\\omega L}{3m}\\right)^2$$\n$$\\frac{1}{3}M = \\frac{M^2}{9m} \\implies m = \\frac{M}{3}$$",
+      "keyFormulae": [
+        "I = \\frac{1}{3}ML^2",
+        "I\\omega = mvL",
+        "\\frac{1}{2}I\\omega^2 = \\frac{1}{2}mv^2"
+      ],
+      "hints": [
+        "Conserve angular momentum about the pivot point.",
+        "Use kinetic energy conservation for the elastic impact."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "phy-mock05-q12",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Wave Optics",
+      "subtopic": "YDSE Multi-Wavelength Coincidence",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In a Young's double-slit experiment, the slits are illuminated by two wavelengths $\\lambda_1 = 600$ nm and $\\lambda_2 = 480$ nm. The slit separation is $d = 0.5$ mm and screen distance $D = 1$ m. The minimum distance from the central maximum where a bright fringe of $\\lambda_1$ coincides with a bright fringe of $\\lambda_2$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "2.4 mm",
+          "isCorrect": false,
+          "explanation": "Half of coincidence position."
+        },
+        {
+          "id": "b",
+          "text": "4.8 mm",
+          "isCorrect": true,
+          "explanation": "$n_1 \\lambda_1 = n_2 \\lambda_2 \\implies n_1(600) = n_2(480) \\implies n_1/n_2 = 4/5$. Minimum non-zero coincidence is at $n_1 = 4$: $y = \\frac{n_1 \\lambda_1 D}{d} = \\frac{4(600 \\times 10^{-9})(1)}{0.5 \\times 10^{-3}} = 4.8\\text{ mm}$."
+        },
+        {
+          "id": "c",
+          "text": "6.0 mm",
+          "isCorrect": false,
+          "explanation": "Coincidence of 5th order."
+        },
+        {
+          "id": "d",
+          "text": "1.2 mm",
+          "isCorrect": false,
+          "explanation": "Single fringe width."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "For bright fringes of $\\lambda_1$ and $\\lambda_2$ to coincide at position $y$:\n$$y = \\frac{n_1 \\lambda_1 D}{d} = \\frac{n_2 \\lambda_2 D}{d}$$\n$$n_1 \\lambda_1 = n_2 \\lambda_2 \\implies \\frac{n_1}{n_2} = \\frac{\\lambda_2}{\\lambda_1} = \\frac{480\\text{ nm}}{600\\text{ nm}} = \\frac{4}{5}$$\nThe smallest non-zero integers are $n_1 = 4$ and $n_2 = 5$.\nEvaluating the coincidence position:\n$$y = \\frac{4 \\times (600 \\times 10^{-9}\\text{ m}) \\times 1.0\\text{ m}}{0.5 \\times 10^{-3}\\text{ m}} = \\frac{2.4 \\times 10^{-6}}{0.5 \\times 10^{-3}} = 4.8 \\times 10^{-3}\\text{ m} = 4.8\\text{ mm}$$",
+      "keyFormulae": [
+        "n_1 \\lambda_1 = n_2 \\lambda_2",
+        "y = \\frac{n_1 \\lambda_1 D}{d}"
+      ],
+      "hints": [
+        "Equate the positions of the $n_1$-th and $n_2$-th bright fringes.",
+        "Find the smallest integer ratio for $n_1/n_2 = \\lambda_2/\\lambda_1$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "phy-mock05-q13",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Thermodynamics",
+      "subtopic": "Free Expansion of an Ideal Gas",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A thermally insulated cylinder is divided into two equal parts by a frictionless piston. One part contains $n$ moles of an ideal monatomic gas at temperature $T$, the other is evacuated. The piston is released and the gas expands to fill the entire cylinder. The final temperature is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$T$",
+          "isCorrect": true,
+          "explanation": "The process is adiabatic free expansion into a vacuum ($W = 0, Q = 0$). By First Law $\\Delta U = 0$; for an ideal gas, constant internal energy implies constant temperature $T_f = T$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{T}{2^{2/3}}$",
+          "isCorrect": false,
+          "explanation": "Applies to reversible adiabatic expansion."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{T}{2^{3/5}}$",
+          "isCorrect": false,
+          "explanation": "Applies to reversible expansion of diatomic gas."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{T}{2}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. The container is thermally insulated $\\implies Q = 0$.\n2. The gas expands against an evacuated space (vacuum), so the external opposing pressure is zero $\\implies W = \\int P_{\\text{ext}} dV = 0$.\n3. By the First Law of Thermodynamics:\n$$\\Delta U = Q - W = 0 - 0 = 0$$\n4. Since internal energy of an ideal gas depends solely on temperature ($U = n C_V T$):\n$$\\Delta U = 0 \\implies T_{\\text{final}} = T_{\\text{initial}} = T$$",
+      "keyFormulae": [
+        "Q = 0, W = 0 \\implies \\Delta U = 0 \\implies T_f = T_i"
+      ],
+      "hints": [
+        "Identify this process as Joule free expansion into a vacuum.",
+        "No work is done when expanding against zero external pressure."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "phy-mock05-q14",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "subtopic": "Method of Images for Conducting Plane",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A charge $+q$ is placed at a distance $d$ from an infinite grounded conducting plane. The force on the charge is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{q^2}{16\\pi\\varepsilon_0 d^2}$ toward the plane",
+          "isCorrect": true,
+          "explanation": "Using method of images, image charge $-q$ is at distance $d$ behind the plane (total separation $2d$). Force $F = \\frac{q^2}{4\\pi\\varepsilon_0(2d)^2} = \\frac{q^2}{16\\pi\\varepsilon_0 d^2}$ attractive."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{q^2}{4\\pi\\varepsilon_0 d^2}$ toward the plane",
+          "isCorrect": false,
+          "explanation": "Uses separation $d$ instead of $2d$."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{q^2}{16\\pi\\varepsilon_0 d^2}$ away from the plane",
+          "isCorrect": false,
+          "explanation": "Repulsive direction error."
+        },
+        {
+          "id": "d",
+          "text": "Zero",
+          "isCorrect": false,
+          "explanation": "Force is non-zero due to induced charge."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "By the method of images for an infinite grounded conducting plane:\n1. The induced surface charge distribution is electrostatically equivalent to an image charge $-q$ positioned at a distance $d$ behind the plane (at $-d$).\n2. Total separation between the real charge $+q$ and image charge $-q$ is $r = 2d$.\n3. The electrostatic force of attraction on $+q$ is:\n$$F = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q |-q|}{(2d)^2} = \\frac{q^2}{16\\pi\\varepsilon_0 d^2} \\quad \\text{(directed toward the plane)}$$",
+      "keyFormulae": [
+        "F = \\frac{q^2}{16\\pi\\varepsilon_0 d^2}"
+      ],
+      "hints": [
+        "Place an image charge $-q$ at distance $d$ behind the conducting plane.",
+        "Compute the Coulomb attraction over separation $2d$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "phy-mock05-q15",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Classical Mechanics",
+      "subtopic": "Effective Potential & Radial Oscillations",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A particle moves in a central potential $V(r) = -\\frac{k}{r} + \\frac{L^2}{2mr^2}$. For a circular orbit of radius $r_0$, the effective potential has a minimum. The angular frequency of small radial oscillations about this circular orbit is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\sqrt{\\frac{k}{m r_0^3}}$",
+          "isCorrect": true,
+          "explanation": "$V_{\\text{eff}}''(r_0) = -\\frac{2k}{r_0^3} + \\frac{3L^2}{m r_0^4}$. At circular equilibrium $\\frac{k}{r_0^2} = \\frac{L^2}{m r_0^3} \\implies V_{\\text{eff}}''(r_0) = \\frac{k}{r_0^3}$. Thus $\\omega_r = \\sqrt{\\frac{k}{m r_0^3}}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\sqrt{\\frac{2k}{m r_0^3}}$",
+          "isCorrect": false,
+          "explanation": "Incorrect derivative simplification."
+        },
+        {
+          "id": "c",
+          "text": "$\\sqrt{\\frac{k}{2m r_0^3}}$",
+          "isCorrect": false,
+          "explanation": "Underestimated."
+        },
+        {
+          "id": "d",
+          "text": "$\\sqrt{\\frac{3k}{m r_0^3}}$",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Effective potential: $V_{\\text{eff}}(r) = -\\frac{k}{r} + \\frac{L^2}{2mr^2}$.\n2. Equilibrium condition $V'_{\\text{eff}}(r_0) = 0$:\n$$\\frac{k}{r_0^2} - \\frac{L^2}{m r_0^3} = 0 \\implies \\frac{L^2}{m r_0^3} = \\frac{k}{r_0^2} \\implies L^2 = m k r_0$$\n3. Second derivative for small oscillations:\n$$V''_{\\text{eff}}(r) = -\\frac{2k}{r^3} + \\frac{3L^2}{m r^4}$$\nEvaluating at $r = r_0$:\n$$V''_{\\text{eff}}(r_0) = -\\frac{2k}{r_0^3} + \\frac{3(m k r_0)}{m r_0^4} = -\\frac{2k}{r_0^3} + \\frac{3k}{r_0^3} = \\frac{k}{r_0^3}$$\n4. Frequency of radial oscillations:\n$$\\omega_r = \\sqrt{\\frac{V''_{\\text{eff}}(r_0)}{m}} = \\sqrt{\\frac{k}{m r_0^3}}$$",
+      "keyFormulae": [
+        "V''_{\\text{eff}}(r_0) = \\frac{k}{r_0^3}",
+        "\\omega_r = \\sqrt{\\frac{k}{m r_0^3}}"
+      ],
+      "hints": [
+        "Set $V'_{\\text{eff}}(r_0) = 0$ to find the relation between $L^2$ and $k$.",
+        "Evaluate $V''_{\\text{eff}}(r_0)$ and use $\\omega = \\sqrt{V''/m}$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "phy-mock05-q16",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Magnetism",
+      "subtopic": "Magnetic Dipole Approximation of Loop",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A current $I$ flows in a square loop of side $a$ placed in the $xy$-plane with center at origin. The magnetic field at a point on the $z$-axis at distance $z \\gg a$ is approximately:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{\\mu_0 I a^2}{2\\pi z^3}$",
+          "isCorrect": true,
+          "explanation": "Magnetic dipole moment of square loop is $m = I a^2$. On the magnetic axis at $z \\gg a$, $B = \\frac{\\mu_0 (2m)}{4\\pi z^3} = \\frac{\\mu_0 I a^2}{2\\pi z^3}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{\\mu_0 I a^2}{4\\pi z^3}$",
+          "isCorrect": false,
+          "explanation": "Equatorial field formula."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{\\sqrt{2}\\mu_0 I a^2}{4\\pi z^3}$",
+          "isCorrect": false,
+          "explanation": "Incorrect multiplier."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{\\mu_0 I a^2}{\\pi z^3}$",
+          "isCorrect": false,
+          "explanation": "Overestimated by factor of 2."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. For any planar closed current loop at distances $z \\gg \\text{size}$, the magnetic field along the axial dipole axis is given by:\n$$B(z) = \\frac{\\mu_0}{4\\pi} \\frac{2m}{z^3}$$\n2. The magnetic dipole moment of a square loop of side $a$ carrying current $I$ is:\n$$m = I \\cdot \\text{Area} = I a^2$$\n3. Substituting $m$ into the dipole field equation:\n$$B(z) = \\frac{\\mu_0}{4\\pi} \\frac{2 I a^2}{z^3} = \\frac{\\mu_0 I a^2}{2\\pi z^3}$$",
+      "keyFormulae": [
+        "m = I a^2",
+        "B_{\\text{axial}} = \\frac{\\mu_0}{4\\pi}\\frac{2m}{z^3} = \\frac{\\mu_0 I a^2}{2\\pi z^3}"
+      ],
+      "hints": [
+        "Calculate the magnetic dipole moment of the square loop ($m = I a^2$).",
+        "Apply the standard axial magnetic dipole field formula for $z \\gg a$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "phy-mock05-q17",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Mechanics",
+      "subtopic": "Pseudo Forces & Accelerated Frames",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A block of mass $m$ slides down a frictionless inclined plane of angle $\\theta$ that is accelerating horizontally with acceleration $a$. For the block to remain at constant height relative to the ground, the required acceleration is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$g\\cot\\theta$",
+          "isCorrect": false,
+          "explanation": "Applies when block is stationary relative to incline."
+        },
+        {
+          "id": "b",
+          "text": "$g\\tan\\theta$",
+          "isCorrect": true,
+          "explanation": "Constant height relative to ground requires vertical acceleration $a_y = 0 \\implies N\\cos\\theta = mg$ and $N\\sin\\theta = ma \\implies a = g\\tan\\theta$."
+        },
+        {
+          "id": "c",
+          "text": "$g\\sin\\theta$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "$g\\cos\\theta$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "For the block to maintain constant height relative to the ground, its vertical acceleration in the ground frame must be zero ($a_y = 0$):\n1. Vertical forces: $N\\cos\\theta - mg = m a_y = 0 \\implies N = \\frac{mg}{\\cos\\theta}$.\n2. Horizontal force provides the horizontal acceleration $a$:\n$$N\\sin\\theta = ma$$\n3. Substituting $N$:\n$$\\left(\\frac{mg}{\\cos\\theta}\\right)\\sin\\theta = ma \\implies a = g\\tan\\theta$$",
+      "keyFormulae": [
+        "N\\cos\\theta = mg",
+        "N\\sin\\theta = ma \\implies a = g\\tan\\theta"
+      ],
+      "hints": [
+        "Set vertical acceleration of the block equal to zero in the ground frame.",
+        "Resolve normal force $N$ into vertical and horizontal components."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "phy-mock05-q18",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Oscillations",
+      "subtopic": "Coupled Forced Harmonic Motion",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "Two identical springs each of spring constant $k$ are attached to a mass $m$ as shown: one spring connects the mass to a fixed wall on the left, the other connects the mass to a moving support on the right that oscillates as $x_{\\text{sup}} = A\\cos(\\omega t)$. The equation of motion for the mass is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$m\\ddot{x} + 2kx = kA\\cos(\\omega t)$",
+          "isCorrect": true,
+          "explanation": "Left spring exerts $-kx$, right spring exerts $-k(x - A\\cos\\omega t)$, yielding $m\\ddot{x} = -2kx + kA\\cos(\\omega t) \\implies m\\ddot{x} + 2kx = kA\\cos(\\omega t)$."
+        },
+        {
+          "id": "b",
+          "text": "$m\\ddot{x} + kx = kA\\cos(\\omega t)$",
+          "isCorrect": false,
+          "explanation": "Missing second spring restoring force."
+        },
+        {
+          "id": "c",
+          "text": "$m\\ddot{x} + kx = 2kA\\cos(\\omega t)$",
+          "isCorrect": false,
+          "explanation": "Incorrect coefficients."
+        },
+        {
+          "id": "d",
+          "text": "$m\\ddot{x} + 2kx = 2kA\\cos(\\omega t)$",
+          "isCorrect": false,
+          "explanation": "Overcounted driving force."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Let $x$ be the displacement of mass $m$ to the right:\n- Force from left fixed spring: $F_1 = -kx$\n- Force from right spring (moving end at $x_{\\text{sup}} = A\\cos(\\omega t)$): $F_2 = -k(x - x_{\\text{sup}}) = -kx + kA\\cos(\\omega t)$\nApplying Newton's second law:\n$$m\\ddot{x} = F_1 + F_2 = -kx - kx + kA\\cos(\\omega t)$$\n$$m\\ddot{x} + 2kx = kA\\cos(\\omega t)$$",
+      "keyFormulae": [
+        "m\\ddot{x} + 2kx = kA\\cos(\\omega t)"
+      ],
+      "hints": [
+        "Write the Hooke's law restoring force for each spring separately.",
+        "Sum forces and rearrange into standard differential form."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "phy-mock05-q19",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Modern Physics",
+      "subtopic": "Compton Scattering",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A photon of wavelength $\\lambda$ is Compton scattered by a stationary electron. The maximum wavelength of the scattered photon is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\lambda + \\frac{h}{m_e c}$",
+          "isCorrect": false,
+          "explanation": "Wavelength shift for $90^\\circ$ scattering."
+        },
+        {
+          "id": "b",
+          "text": "$\\lambda + \\frac{2h}{m_e c}$",
+          "isCorrect": true,
+          "explanation": "Compton formula $\\lambda' - \\lambda = \\frac{h}{m_e c}(1 - \\cos\\theta)$ has maximum at $\\theta = 180^\\circ$ (backscattering), giving $\\lambda'_{\\max} = \\lambda + \\frac{2h}{m_e c}$."
+        },
+        {
+          "id": "c",
+          "text": "$\\lambda + \\frac{h}{2m_e c}$",
+          "isCorrect": false,
+          "explanation": "Incorrect fraction."
+        },
+        {
+          "id": "d",
+          "text": "$\\lambda$",
+          "isCorrect": false,
+          "explanation": "Zero scattering angle."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "The Compton scattering formula for wavelength shift is:\n$$\\lambda' - \\lambda = \\frac{h}{m_e c}(1 - \\cos\\theta)$$\nTo maximize $\\lambda'$, the term $(1 - \\cos\\theta)$ must be maximized:\n$$(1 - \\cos\\theta)_{\\max} = 1 - (-1) = 2 \\quad \\text{at } \\theta = 180^\\circ \\text{ (backscattering)}$$\n$$\\lambda'_{\\max} = \\lambda + \\frac{2h}{m_e c}$$",
+      "keyFormulae": [
+        "\\Delta\\lambda = \\frac{h}{m_e c}(1 - \\cos\\theta)",
+        "\\Delta\\lambda_{\\max} = \\frac{2h}{m_e c}"
+      ],
+      "hints": [
+        "Use the Compton shift formula $\\Delta\\lambda = \\frac{h}{m_e c}(1 - \\cos\\theta)$.",
+        "Find the maximum value of $(1 - \\cos\\theta)$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "phy-mock05-q20",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Rotational Motion",
+      "subtopic": "Detachment of Mass from Rotating Body",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A uniform disk of mass $M$ and radius $R$ is rotating about its center with angular velocity $\\omega_0$. A small piece of mass $m$ breaks off from the rim and flies vertically upward. The new angular velocity of the disk is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\omega_0$",
+          "isCorrect": true,
+          "explanation": "The detaching mass carries away its own tangential momentum and angular momentum without exerting any torque on the remaining disk, so $\\omega$ remains $\\omega_0$."
+        },
+        {
+          "id": "b",
+          "text": "$\\omega_0\\left(1 - \\frac{2m}{M}\\right)$",
+          "isCorrect": false,
+          "explanation": "Incorrect torque assumption."
+        },
+        {
+          "id": "c",
+          "text": "$\\omega_0\\left(\\frac{M}{M-m}\\right)$",
+          "isCorrect": false,
+          "explanation": "Assumes zero angular momentum carried by detached mass."
+        },
+        {
+          "id": "d",
+          "text": "$\\omega_0\\left(\\frac{M-2m}{M}\\right)$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. When the small mass $m$ detaches smoothly from the rim, it flies off with instantaneous tangential velocity $v = \\omega_0 R$.\n2. The separating mass carries away specific angular momentum $L_m = m v R = m R^2 \\omega_0$.\n3. No internal or external torque acts on the remaining part of the rotating disk.\n4. Therefore, the angular speed of the remaining disk remains unchanged at **$\\omega_0$**.",
+      "keyFormulae": [
+        "\\tau_{\\text{net}} = 0 \\implies \\omega_{\\text{rem}} = \\omega_0"
+      ],
+      "hints": [
+        "Check if any torque is exerted on the remaining disk during detachment.",
+        "The detached particle carries away its exact share of angular momentum."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "chem-mock05-q21",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Chemical Kinetics",
+      "subtopic": "First-Order Integrated Rate Law",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The decomposition of $\\text{N}_2\\text{O}_5$ follows first-order kinetics with $k = 4.8 \\times 10^{-4}$ $\\text{s}^{-1}$. The time required for the concentration to drop from $0.10$ M to $0.025$ M is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$2.9 \\times 10^3$ s",
+          "isCorrect": true,
+          "explanation": "Concentration drops from $0.10\\text{ M}$ to $0.025\\text{ M}$ ($1/4$ of initial), representing exactly 2 half-lives: $t = 2 t_{1/2} = 2 \\times \\frac{\\ln 2}{4.8 \\times 10^{-4}} = \\frac{1.386}{4.8 \\times 10^{-4}} = 2888\\text{ s} \\approx 2.9 \\times 10^3\\text{ s}$."
+        },
+        {
+          "id": "b",
+          "text": "$1.4 \\times 10^3$ s",
+          "isCorrect": false,
+          "explanation": "Single half-life."
+        },
+        {
+          "id": "c",
+          "text": "$4.8 \\times 10^3$ s",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        },
+        {
+          "id": "d",
+          "text": "$9.6 \\times 10^3$ s",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "For a first-order reaction:\n$$t = \\frac{2.303}{k} \\log\\left(\\frac{[A]_0}{[A]_t}\\right)$$\nGiven $[A]_0 = 0.10\\text{ M}$, $[A]_t = 0.025\\text{ M}$, and $k = 4.8 \\times 10^{-4}\\text{ s}^{-1}$:\n$$\\frac{[A]_0}{[A]_t} = \\frac{0.10}{0.025} = 4 = 2^2$$\n$$t = 2 \\times t_{1/2} = 2 \\times \\frac{0.693}{4.8 \\times 10^{-4}} = 2.888 \\times 10^3\\text{ s} \\approx 2.9 \\times 10^3\\text{ s}$$",
+      "keyFormulae": [
+        "t = \\frac{1}{k}\\ln\\left(\\frac{[A]_0}{[A]_t}\\right)",
+        "t_{1/2} = \\frac{0.693}{k}"
+      ],
+      "hints": [
+        "Notice that $0.025\\text{ M}$ is exactly one-fourth of $0.10\\text{ M}$.",
+        "Calculate the time for 2 half-lives."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "chem-mock05-q22",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Electrochemistry",
+      "subtopic": "Concentration Cells",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "For the concentration cell: $\\text{Ag} \\mid \\text{Ag}^+(0.001\\text{ M}) \\mid\\mid \\text{Ag}^+(0.10\\text{ M}) \\mid \\text{Ag}$ at $298$ K, the cell potential is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.059 V",
+          "isCorrect": false,
+          "explanation": "10-fold concentration ratio."
+        },
+        {
+          "id": "b",
+          "text": "0.118 V",
+          "isCorrect": true,
+          "explanation": "$E_{\\text{cell}} = \\frac{0.0591}{1}\\log\\left(\\frac{[\\text{Ag}^+]_{\\text{cathode}}}{[\\text{Ag}^+]_{\\text{anode}}}\\right) = 0.0591\\log\\left(\\frac{0.10}{0.001}\\right) = 0.0591 \\times 2 = 0.1182\\text{ V}$."
+        },
+        {
+          "id": "c",
+          "text": "0.0295 V",
+          "isCorrect": false,
+          "explanation": "Divided by $n=2$ incorrectly."
+        },
+        {
+          "id": "d",
+          "text": "0.177 V",
+          "isCorrect": false,
+          "explanation": "Corresponds to 3 decades."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "For a concentration cell, standard cell potential $E^\\circ_{\\text{cell}} = 0$.\nNernst equation for silver concentration cell ($n = 1$):\n$$E_{\\text{cell}} = -\\frac{0.0591}{n} \\log\\left(\\frac{[\\text{Ag}^+]_{\\text{anode}}}{[\\text{Ag}^+]_{\\text{cathode}}}\\right) = \\frac{0.0591}{1} \\log\\left(\\frac{0.10}{0.001}\\right)$$\n$$E_{\\text{cell}} = 0.0591 \\times \\log(100) = 0.0591 \\times 2 = 0.1182\\text{ V} \\approx 0.118\\text{ V}$$",
+      "keyFormulae": [
+        "E_{\\text{cell}} = \\frac{0.0591}{n}\\log\\left(\\frac{C_2}{C_1}\\right)"
+      ],
+      "hints": [
+        "Recall that $E^\\circ = 0$ for a concentration cell.",
+        "Evaluate $\\log(C_2/C_1) = \\log(100) = 2$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "chem-mock05-q23",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Coordination Chemistry",
+      "subtopic": "Spectrochemical Series & Ligand Field Strength",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The correct order of increasing crystal field splitting energy ($\\Delta_o$) for the complexes $[\\text{CoF}_6]^{3-}$, $[\\text{Co}(\\text{NH}_3)_6]^{3+}$, $[\\text{Co}(\\text{CN})_6]^{3-}$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$[\\text{CoF}_6]^{3-} < [\\text{Co}(\\text{NH}_3)_6]^{3+} < [\\text{Co}(\\text{CN})_6]^{3-}$",
+          "isCorrect": true,
+          "explanation": "Following the spectrochemical series for ligand field strength: $F^- < \\text{NH}_3 < CN^-$, crystal field splitting follows $[\\text{CoF}_6]^{3-} < [\\text{Co}(\\text{NH}_3)_6]^{3+} < [\\text{Co}(\\text{CN})_6]^{3-}$."
+        },
+        {
+          "id": "b",
+          "text": "$[\\text{Co}(\\text{CN})_6]^{3-} < [\\text{Co}(\\text{NH}_3)_6]^{3+} < [\\text{CoF}_6]^{3-}$",
+          "isCorrect": false,
+          "explanation": "Inverted field strength."
+        },
+        {
+          "id": "c",
+          "text": "$[\\text{Co}(\\text{NH}_3)_6]^{3+} < [\\text{CoF}_6]^{3-} < [\\text{Co}(\\text{CN})_6]^{3-}$",
+          "isCorrect": false,
+          "explanation": "Incorrect ligand order."
+        },
+        {
+          "id": "d",
+          "text": "$[\\text{CoF}_6]^{3-} < [\\text{Co}(\\text{CN})_6]^{3-} < [\\text{Co}(\\text{NH}_3)_6]^{3+}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Crystal field splitting $\\Delta_o$ depends on the position of the coordinating ligand in the **spectrochemical series**:\n$$I^- < Br^- < S^{2-} < Cl^- < F^- < OH^- < H_2O < NH_3 < en < CN^- < CO$$\n- Halide $F^-$ is a weak-field ligand (lowest $\\Delta_o$).\n- Nitrogen donor $\\text{NH}_3$ is an intermediate/strong field ligand.\n- Carbon donor $CN^-$ is a strong $\\pi$-acceptor field ligand (highest $\\Delta_o$).\nOrder: $[\\text{CoF}_6]^{3-} < [\\text{Co}(\\text{NH}_3)_6]^{3+} < [\\text{Co}(\\text{CN})_6]^{3-}$.",
+      "keyFormulae": [
+        "\\Delta_o: F^- < NH_3 < CN^-"
+      ],
+      "hints": [
+        "Rank the ligands according to the spectrochemical series.",
+        "Halides provide smaller splitting than nitrogen and carbon donor ligands."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "chem-mock05-q24",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "subtopic": "Electrophilic Bromination of Phenol",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In the reaction of phenol with $\\text{Br}_2/\\text{CS}_2$ at low temperature, the major product is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "2,4,6-tribromophenol",
+          "isCorrect": false,
+          "explanation": "Obtained using bromine water (aqueous)."
+        },
+        {
+          "id": "b",
+          "text": "o-bromophenol",
+          "isCorrect": false,
+          "explanation": "Minor product."
+        },
+        {
+          "id": "c",
+          "text": "p-bromophenol",
+          "isCorrect": true,
+          "explanation": "In non-polar solvents like $CS_2$ at low temperature, ionization of phenol is suppressed, yielding monobromination with 4-bromophenol (para) as the major product."
+        },
+        {
+          "id": "d",
+          "text": "m-bromophenol",
+          "isCorrect": false,
+          "explanation": "Phenol is ortho/para-directing."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. In polar aqueous medium (bromine water), phenol ionizes to phenoxide ion, highly activating the ring toward polybromination to yield 2,4,6-tribromophenol.\n2. In non-polar solvents with low dielectric constant (such as $CS_2$ or $CHCl_3$) at $273\\text{ K}$, ionization is prevented. Phenol undergoes monobromination.\n3. The para position suffers minimal steric hindrance compared to the ortho position, making **$p$-bromophenol (4-bromophenol)** the major product ($>80\\%$).",
+      "keyFormulae": [
+        "\\text{Phenol} + \\text{Br}_2/\\text{CS}_2 \\xrightarrow{273\\text{ K}} p\\text{-bromophenol (major)}"
+      ],
+      "hints": [
+        "Non-polar solvents like $CS_2$ limit bromination to monobromination.",
+        "Para-isomer is favored over ortho due to steric effects."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "c"
+    },
+    {
+      "id": "chem-mock05-q25",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Physical Chemistry",
+      "subtopic": "Weak Base Ionization & pH",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The pH of a $0.10$ M solution of a weak base BOH with $K_b = 1.0 \\times 10^{-5}$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "9.0",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        },
+        {
+          "id": "b",
+          "text": "11.0",
+          "isCorrect": true,
+          "explanation": "$[OH^-] = \\sqrt{K_b C} = \\sqrt{10^{-5} \\times 0.1} = 10^{-3}\\text{ M} \\implies \\text{pOH} = 3.0 \\implies \\text{pH} = 14.0 - 3.0 = 11.0$."
+        },
+        {
+          "id": "c",
+          "text": "10.0",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        },
+        {
+          "id": "d",
+          "text": "8.0",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "For a weak monoacidic base BOH with $K_b = 1.0 \\times 10^{-5}$ and $C = 0.10\\text{ M}$:\n$$[\\text{OH}^-] = \\sqrt{K_b C} = \\sqrt{(1.0 \\times 10^{-5})(0.10)} = \\sqrt{1.0 \\times 10^{-6}} = 1.0 \\times 10^{-3}\\text{ M}$$\n$$\\text{pOH} = -\\log[\\text{OH}^-] = -\\log(10^{-3}) = 3.0$$\n$$\\text{pH} = 14.0 - \\text{pOH} = 14.0 - 3.0 = 11.0$$",
+      "keyFormulae": [
+        "[\\text{OH}^-] = \\sqrt{K_b C}",
+        "\\text{pH} = 14 - \\text{pOH}"
+      ],
+      "hints": [
+        "Calculate $[OH^-]$ using $\\sqrt{K_b C}$.",
+        "Find $\\text{pOH}$ and subtract from 14 to obtain $\\text{pH}$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "chem-mock05-q26",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Coordination Chemistry",
+      "subtopic": "Stereoisomerism in Octahedral Complexes",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The number of stereoisomers possible for $[\\text{Co}(\\text{en})_2\\text{Cl}_2]^+$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "2",
+          "isCorrect": false,
+          "explanation": "Geometrical isomers only."
+        },
+        {
+          "id": "b",
+          "text": "3",
+          "isCorrect": true,
+          "explanation": "Forms cis and trans geometrical isomers. The cis-isomer is chiral (exists as a pair of enantiomers $d$ and $l$), while the trans-isomer is achiral (meso) $\\implies 2 + 1 = 3$ total stereoisomers."
+        },
+        {
+          "id": "c",
+          "text": "4",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        },
+        {
+          "id": "d",
+          "text": "6",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "The complex $[\\text{Co}(\\text{en})_2\\text{Cl}_2]^+$ of type $[M(AA)_2 b_2]$ exhibits:\n1. **trans-isomer**: The two chloride ligands are opposite to each other ($180^\\circ$). It has an inversion center and plane of symmetry $\\implies$ optically inactive (1 isomer).\n2. **cis-isomer**: The two chloride ligands are adjacent ($90^\\circ$). It lacks $S_n$ improper axes and is chiral, existing as a non-superimposable pair of optical enantiomers ($d$-cis and $l$-cis) (2 isomers).\nTotal stereoisomers $= 1\\text{ (trans)} + 2\\text{ (cis optical pair)} = 3$.",
+      "keyFormulae": [
+        "[M(AA)_2 b_2] \\implies 1\\text{ trans} + 2\\text{ cis enantiomers} = 3\\text{ stereoisomers}"
+      ],
+      "hints": [
+        "Draw both cis and trans geometric arrangements.",
+        "Check for optical activity in the cis isomer."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "chem-mock05-q27",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Physical Chemistry",
+      "subtopic": "Le Chatelier's Principle",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "For the reaction $2\\text{SO}_2(g) + \\text{O}_2(g) \\rightleftharpoons 2\\text{SO}_3(g)$, $\\Delta H^\\circ = -198$ kJ. Which change will increase the equilibrium yield of $\\text{SO}_3$?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Increasing temperature at constant pressure",
+          "isCorrect": false,
+          "explanation": "Exothermic reaction shifts backward with temperature increase."
+        },
+        {
+          "id": "b",
+          "text": "Decreasing pressure at constant temperature",
+          "isCorrect": false,
+          "explanation": "Shifts toward side with more moles (backward)."
+        },
+        {
+          "id": "c",
+          "text": "Adding a catalyst",
+          "isCorrect": false,
+          "explanation": "Catalysts increase rate without altering equilibrium position."
+        },
+        {
+          "id": "d",
+          "text": "Increasing pressure at constant temperature",
+          "isCorrect": true,
+          "explanation": "Reactants have 3 gas moles while products have 2; increasing pressure shifts equilibrium forward toward fewer gas moles, increasing $\\text{SO}_3$ yield."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "By Le Chatelier's Principle:\n- Forward reaction is exothermic ($\\Delta H^\\circ < 0$) $\\implies$ Lowering temperature increases yield.\n- Moles of gas decrease from $3\\text{ mol (reactants)}$ to $2\\text{ mol (products)}$ ($\\Delta n_g = -1$).\n- **Increasing pressure** at constant temperature shifts equilibrium toward the side with fewer gas molecules (forward), thereby increasing the yield of $\\text{SO}_3$.",
+      "keyFormulae": [
+        "\\Delta n_g = 2 - 3 = -1 < 0 \\implies \\uparrow P \\implies \\text{Forward Shift}"
+      ],
+      "hints": [
+        "Count the moles of gaseous reactants (3) and products (2).",
+        "Increasing pressure favors the side with fewer gas moles."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "d"
+    },
+    {
+      "id": "chem-mock05-q28",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "subtopic": "Side-Chain Oxidation of Aromatic Hydrocarbons",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The product of the following reaction sequence is:\n$$\\text{Benzene} \\xrightarrow[\\text{AlCl}_3]{\\text{CH}_3\\text{CH}_2\\text{Cl}} \\text{A} \\xrightarrow[\\text{H}_2\\text{SO}_4]{\\text{HNO}_3} \\text{B} \\xrightarrow[\\text{H}_3\\text{O}^+]{\\text{KMnO}_4} \\text{C}$$",
+      "options": [
+        {
+          "id": "a",
+          "text": "3-nitrobenzoic acid",
+          "isCorrect": false,
+          "explanation": "Meta product obtained if nitration preceded alkylation."
+        },
+        {
+          "id": "b",
+          "text": "4-nitrobenzoic acid",
+          "isCorrect": true,
+          "explanation": "A is ethylbenzene. The ethyl group is $o,p$-directing; nitration produces $p$-nitroethylbenzene as major product. Vigorous oxidation with alkaline $\\text{KMnO}_4$ converts the alkyl side-chain to $-COOH$, yielding 4-nitrobenzoic acid."
+        },
+        {
+          "id": "c",
+          "text": "2-nitrobenzoic acid",
+          "isCorrect": false,
+          "explanation": "Ortho isomer is minor due to steric hindrance."
+        },
+        {
+          "id": "d",
+          "text": "3-nitro-4-methylbenzoic acid",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Reaction sequence:\n1. Friedel-Crafts alkylation: Benzene $+ \\text{CH}_3\\text{CH}_2\\text{Cl}/\\text{AlCl}_3 \\to$ Ethylbenzene (A).\n2. Nitration: Ethyl group is ortho/para-directing; steric hindrance makes **$p$-nitroethylbenzene** the major product (B).\n3. Oxidation: Alkaline $\\text{KMnO}_4$ oxidizes any benzylic alkyl chain having at least one $\\alpha$-hydrogen directly to carboxylic acid: $p\\text{-nitroethylbenzene} \\xrightarrow{\\text{KMnO}_4} \\mathbf{4\\text{-nitrobenzoic acid}}$ (C).",
+      "keyFormulae": [
+        "\\text{Ar-CH}_2\\text{R} \\xrightarrow{\\text{KMnO}_4} \\text{Ar-COOH}"
+      ],
+      "hints": [
+        "Identify A as ethylbenzene.",
+        "Nitration of alkylbenzenes gives para-isomer as major product, which oxidizes to $-COOH$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "chem-mock05-q29",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Physical Chemistry",
+      "subtopic": "Real Gases at Extreme Conditions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The van der Waals equation for 1 mole of gas is $\\left(P + \\frac{a}{V^2}\\right)(V - b) = RT$. At very high temperatures, the compressibility factor $Z = \\frac{PV}{RT}$ approaches:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$1 + \\frac{b}{V}$",
+          "isCorrect": true,
+          "explanation": "At high $T$, attractive term $a/(RTV) \\to 0$, giving $P(V-b) = RT \\implies Z = \\frac{PV}{RT} = \\frac{V}{V-b} \\approx 1 + \\frac{b}{V}$."
+        },
+        {
+          "id": "b",
+          "text": "$1 - \\frac{a}{RTV}$",
+          "isCorrect": false,
+          "explanation": "Low pressure approximation."
+        },
+        {
+          "id": "c",
+          "text": "1",
+          "isCorrect": false,
+          "explanation": "Ideal limit as $P \\to 0$, not first-order expansion."
+        },
+        {
+          "id": "d",
+          "text": "$1 + \\frac{b}{V} - \\frac{a}{RTV}$",
+          "isCorrect": false,
+          "explanation": "General temperature virial expansion."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Virial expansion of van der Waals equation:\n$$Z = \\frac{PV}{RT} = 1 + \\left(b - \\frac{a}{RT}\\right)\\frac{1}{V} + \\frac{b^2}{V^2} + \\cdots$$\nAt very high temperatures ($T \\to \\infty$), the thermal kinetic energy dwarfs intermolecular attractions, so the attraction parameter term $\\frac{a}{RT} \\to 0$:\n$$Z \\approx 1 + \\frac{b}{V}$$",
+      "keyFormulae": [
+        "Z = 1 + \\left(b - \\frac{a}{RT}\\right)\\frac{1}{V}",
+        "T \\to \\infty \\implies \\frac{a}{RT} \\to 0 \\implies Z \\approx 1 + \\frac{b}{V}"
+      ],
+      "hints": [
+        "Examine the second virial coefficient $B(T) = b - \\frac{a}{RT}$ as $T \\to \\infty$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "chem-mock05-q30",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Chemical Bonding",
+      "subtopic": "Molecular Orbital Bond Order",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The bond order of $\\text{O}_2^{2-}$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "2",
+          "isCorrect": false,
+          "explanation": "Bond order of $O_2$."
+        },
+        {
+          "id": "b",
+          "text": "1.5",
+          "isCorrect": false,
+          "explanation": "Bond order of $O_2^-$."
+        },
+        {
+          "id": "c",
+          "text": "1",
+          "isCorrect": true,
+          "explanation": "Peroxide ion has 18 electrons (10 bonding, 8 antibonding). $\\text{Bond Order} = \\frac{10-8}{2} = 1$."
+        },
+        {
+          "id": "d",
+          "text": "2.5",
+          "isCorrect": false,
+          "explanation": "Bond order of $O_2^+$."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Total electrons in $\\text{O}_2^{2-} = 8 + 8 + 2 = 18$.\nMO configuration:\n$$(\\sigma_{1s})^2 (\\sigma^*_{1s})^2 (\\sigma_{2s})^2 (\\sigma^*_{2s})^2 (\\sigma_{2p_z})^2 (\\pi_{2p_x})^2 (\\pi_{2p_y})^2 (\\pi^*_{2p_x})^2 (\\pi^*_{2p_y})^2$$\n- Bonding electrons: $N_b = 2 + 2 + 2 + 2 + 2 = 10$\n- Antibonding electrons: $N_a = 2 + 2 + 2 + 2 = 8$\n$$\\text{Bond Order} = \\frac{N_b - N_a}{2} = \\frac{10 - 8}{2} = 1.0$$",
+      "keyFormulae": [
+        "\\text{Bond Order} = \\frac{N_b - N_a}{2}"
+      ],
+      "hints": [
+        "Count total electrons ($18 e^-$).",
+        "Calculate $(N_b - N_a)/2$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "c"
+    },
+    {
+      "id": "chem-mock05-q31",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Chemical Kinetics",
+      "subtopic": "First-Order Kinetics & Completion Times",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In a first-order reaction, the time required for 99.9% completion is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 half-lives",
+          "isCorrect": false,
+          "explanation": "87.5% completion."
+        },
+        {
+          "id": "b",
+          "text": "6 half-lives",
+          "isCorrect": false,
+          "explanation": "98.44% completion."
+        },
+        {
+          "id": "c",
+          "text": "10 half-lives",
+          "isCorrect": true,
+          "explanation": "$[A]_t = 0.001 [A]_0 = 10^{-3}[A]_0$. $t_{99.9\\%} = \\frac{\\ln 1000}{k} = \\frac{3\\ln 10}{k} \\approx \\frac{6.908}{k} \\approx 10 \\times \\frac{0.693}{k} = 10 t_{1/2}$."
+        },
+        {
+          "id": "d",
+          "text": "100 half-lives",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "For 99.9% completion, the fraction remaining is:\n$$\\frac{[A]_t}{[A]_0} = 1 - 0.999 = 0.001 = 10^{-3}$$\nUsing the first-order integrated rate law:\n$$t_{99.9\\%} = \\frac{2.303}{k}\\log\\left(\\frac{[A]_0}{[A]_t}\\right) = \\frac{2.303}{k}\\log(10^3) = \\frac{3 \\times 2.303}{k} = \\frac{6.909}{k}$$\nSince $t_{1/2} = \\frac{0.693}{k}$:\n$$\\frac{t_{99.9\\%}}{t_{1/2}} = \\frac{6.909 / k}{0.693 / k} \\approx 10$$\n$$t_{99.9\\%} = 10 \\times t_{1/2}$$",
+      "keyFormulae": [
+        "t_{99.9\\%} \\approx 10 \\cdot t_{1/2}"
+      ],
+      "hints": [
+        "Express remaining concentration as $[A]_0 / 1000$.",
+        "Compare $\\ln(1000) \\approx 6.908$ with $\\ln(2) \\approx 0.693$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "c"
+    },
+    {
+      "id": "chem-mock05-q32",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "subtopic": "IUPAC Nomenclature of Aldehydes",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The IUPAC name of the compound $\\text{CH}_3\\text{CH(OH)}\\text{CH}_2\\text{CHO}$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "3-hydroxybutanal",
+          "isCorrect": true,
+          "explanation": "Principal group is aldehyde $-CHO$ at C1; hydroxy group is at C3 $\\implies$ 3-hydroxybutanal (aldol product)."
+        },
+        {
+          "id": "b",
+          "text": "2-hydroxybutanal",
+          "isCorrect": false,
+          "explanation": "Incorrect numbering."
+        },
+        {
+          "id": "c",
+          "text": "3-oxobutan-1-ol",
+          "isCorrect": false,
+          "explanation": "Incorrect priority."
+        },
+        {
+          "id": "d",
+          "text": "2-hydroxybutan-1-al",
+          "isCorrect": false,
+          "explanation": "Incorrect numbering."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Functional group priority: Aldehyde ($-CHO$) > Alcohol ($-OH$).\n2. The aldehyde carbon is designated as C1.\n3. Numbering the 4-carbon parent chain: $\\text{C}_4\\text{H}_3-\\text{C}_3\\text{H(OH)}-\\text{C}_2\\text{H}_2-\\text{C}_1\\text{HO}$.\n4. The substituent at position 3 is 'hydroxy'.\n5. Correct IUPAC name: **3-hydroxybutanal**.",
+      "keyFormulae": [
+        "-\\text{CHO} > -\\text{OH} \\text{ (Priority Rule)}"
+      ],
+      "hints": [
+        "The aldehyde group has higher priority than the alcohol group and gets C1."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "chem-mock05-q33",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Electrochemistry",
+      "subtopic": "Standard Free Energy & Cell Potential",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "For the electrochemical cell: $\\text{Zn} \\mid \\text{Zn}^{2+}(1\\text{ M}) \\mid\\mid \\text{Cu}^{2+}(1\\text{ M}) \\mid \\text{Cu}$, the standard Gibbs free energy change $\\Delta G^\\circ$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$-212.3$ kJ $\\text{mol}^{-1}$",
+          "isCorrect": true,
+          "explanation": "$E^\\circ_{\\text{cell}} = 1.10\\text{ V}, n=2$. $\\Delta G^\\circ = -nFE^\\circ = -2(96485)(1.10) = -212267\\text{ J} = -212.3\\text{ kJ/mol}$."
+        },
+        {
+          "id": "b",
+          "text": "$+212.3$ kJ $\\text{mol}^{-1}$",
+          "isCorrect": false,
+          "explanation": "Non-spontaneous positive sign."
+        },
+        {
+          "id": "c",
+          "text": "$-106.15$ kJ $\\text{mol}^{-1}$",
+          "isCorrect": false,
+          "explanation": "Uses $n=1$."
+        },
+        {
+          "id": "d",
+          "text": "$+106.15$ kJ $\\text{mol}^{-1}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "For the Daniell cell $\\text{Zn} + \\text{Cu}^{2+} \\to \\text{Zn}^{2+} + \\text{Cu}$:\n- $E^\\circ_{\\text{cell}} = E^\\circ_{\\text{Cu}^{2+}/\\text{Cu}} - E^\\circ_{\\text{Zn}^{2+}/\\text{Zn}} = 0.34 - (-0.76) = 1.10\\text{ V}$\n- Electrons transferred: $n = 2$\n- Faraday constant: $F = 96485\\text{ C mol}^{-1}$\n$$\\Delta G^\\circ = -n F E^\\circ_{\\text{cell}} = -(2)(96485\\text{ C mol}^{-1})(1.10\\text{ V}) = -212267\\text{ J mol}^{-1} = -212.3\\text{ kJ mol}^{-1}$$",
+      "keyFormulae": [
+        "\\Delta G^\\circ = -n F E^\\circ"
+      ],
+      "hints": [
+        "Calculate $E^\\circ_{\\text{cell}} = 1.10\\text{ V}$.",
+        "Use $\\Delta G^\\circ = -nFE^\\circ$ with $n = 2$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "chem-mock05-q34",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "subtopic": "Peroxide Effect on Alkenes",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The major product of the reaction of 2-methyl-2-butene with HBr in presence of peroxide is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "2-bromo-2-methylbutane",
+          "isCorrect": false,
+          "explanation": "Ionic Markovnikov addition product."
+        },
+        {
+          "id": "b",
+          "text": "2-bromo-3-methylbutane",
+          "isCorrect": true,
+          "explanation": "Radical anti-Markovnikov addition: $\\text{Br}^\\bullet$ adds to the less substituted C3 position to yield the stable $3^\\circ$ radical at C2, giving 2-bromo-3-methylbutane."
+        },
+        {
+          "id": "c",
+          "text": "1-bromo-2-methylbutane",
+          "isCorrect": false,
+          "explanation": "Incorrect substitution."
+        },
+        {
+          "id": "d",
+          "text": "3-bromo-2-methylbutane",
+          "isCorrect": false,
+          "explanation": "Non-IUPAC numbering."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Free radical addition of HBr (Kharasch effect):\n$$\\text{CH}_3-\\text{C}(\\text{CH}_3)=\\text{CH}-\\text{CH}_3 + \\text{Br}^\\bullet \\to \\text{CH}_3-\\overset{\\bullet}{\\text{C}}(\\text{CH}_3)-\\text{CH(Br)}-\\text{CH}_3$$\n- Addition of $\\text{Br}^\\bullet$ to C3 generates the stable tertiary free radical at C2.\n- Subsequent hydrogen abstraction from HBr yields **2-bromo-3-methylbutane** as the major product.",
+      "keyFormulae": [
+        "\\text{Alkene} + \\text{HBr} \\xrightarrow{\\text{Peroxide}} \\text{Anti-Markovnikov Alkyl Bromide}"
+      ],
+      "hints": [
+        "Peroxides direct free radical addition.",
+        "Addition yields the most stable tertiary carbon radical."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "chem-mock05-q35",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Physical Chemistry",
+      "subtopic": "Solubility Product & Common Ion Effect",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The solubility product of $\\text{PbI}_2$ is $7.1 \\times 10^{-9}$. The solubility of $\\text{PbI}_2$ in a $0.10$ M $\\text{Pb(NO}_3)_2$ solution is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$7.1 \\times 10^{-8}$ M",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        },
+        {
+          "id": "b",
+          "text": "$1.3 \\times 10^{-4}$ M",
+          "isCorrect": true,
+          "explanation": "$K_{sp} = [\\text{Pb}^{2+}][\\text{I}^-]^2 = (0.10)(2s)^2 = 0.4s^2 = 7.1 \\times 10^{-9} \\implies s^2 = 1.775 \\times 10^{-8} \\implies s = 1.33 \\times 10^{-4}\\text{ M}$."
+        },
+        {
+          "id": "c",
+          "text": "$2.6 \\times 10^{-4}$ M",
+          "isCorrect": false,
+          "explanation": "Concentration of iodide ions $[I^-] = 2s$."
+        },
+        {
+          "id": "d",
+          "text": "$4.2 \\times 10^{-4}$ M",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Dissociation: $\\text{PbI}_2(s) \\rightleftharpoons \\text{Pb}^{2+}(aq) + 2\\text{I}^-(aq)$.\nLet solubility be $s$ mol/L:\n- Due to $0.10\\text{ M } \\text{Pb(NO}_3)_2$, $[\\text{Pb}^{2+}] \\approx 0.10\\text{ M}$.\n- $[\\text{I}^-] = 2s$.\n$$K_{sp} = [\\text{Pb}^{2+}][\\text{I}^-]^2$$\n$$7.1 \\times 10^{-9} = (0.10)(2s)^2 = 0.10 \\times 4s^2 = 0.40 s^2$$\n$$s^2 = \\frac{7.1 \\times 10^{-9}}{0.40} = 1.775 \\times 10^{-8}$$\n$$s = \\sqrt{1.775 \\times 10^{-8}} = 1.33 \\times 10^{-4}\\text{ M}$$",
+      "keyFormulae": [
+        "K_{sp} = [\\text{Pb}^{2+}][\\text{I}^-]^2",
+        "s = \\sqrt{\\frac{K_{sp}}{4[\\text{Pb}^{2+}]}}"
+      ],
+      "hints": [
+        "Express $[I^-]$ as $2s$.",
+        "Approximate $[Pb^{2+}] = 0.10\\text{ M}$ from the soluble salt."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "chem-mock05-q36",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Chemical Bonding",
+      "subtopic": "VSEPR & Hybridization of Noble Gas Compounds",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The hybridization of the central atom in $\\text{XeF}_4$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$sp^3$",
+          "isCorrect": false,
+          "explanation": "Steric number 4."
+        },
+        {
+          "id": "b",
+          "text": "$sp^3d$",
+          "isCorrect": false,
+          "explanation": "Steric number 5."
+        },
+        {
+          "id": "c",
+          "text": "$sp^3d^2$",
+          "isCorrect": true,
+          "explanation": "Xenon has 8 valence electrons + 4 bonding pairs + 2 lone pairs = steric number 6 $\\implies sp^3d^2$ (square planar)."
+        },
+        {
+          "id": "d",
+          "text": "$sp^3d^3$",
+          "isCorrect": false,
+          "explanation": "Steric number 7 (applies to $XeF_6$)."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "In $\\text{XeF}_4$:\n- Valence electrons on Xe $= 8$\n- Monovalent fluorine atoms $= 4$\n$$\\text{Steric Number} = \\frac{1}{2}[8 + 4] = 6$$\n- Steric number 6 corresponds to **$sp^3d^2$ hybridization**.\n- 4 bond pairs and 2 lone pairs give a **square planar** geometry.",
+      "keyFormulae": [
+        "\\text{Steric Number} = \\text{bp} + \\text{lp} = 4 + 2 = 6 \\implies sp^3d^2"
+      ],
+      "hints": [
+        "Count valence electrons on Xenon (8) and bonding pairs to Fluorine (4).",
+        "Determine steric number = 6."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "c"
+    },
+    {
+      "id": "chem-mock05-q37",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Chemical Kinetics",
+      "subtopic": "Reaction Mechanism & Rate-Determining Step",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The rate law for the reaction $2\\text{NO}_2 + \\text{F}_2 \\to 2\\text{NO}_2\\text{F}$ is found to be $\\text{Rate} = k[\\text{NO}_2][\\text{F}_2]$. The mechanism consistent with this rate law is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Single-step bimolecular collision",
+          "isCorrect": false,
+          "explanation": "Stoichiometry requires 3 reactant molecules."
+        },
+        {
+          "id": "b",
+          "text": "$\\text{NO}_2 + \\text{F}_2 \\to \\text{NO}_2\\text{F} + \\text{F}$ (slow), $\\text{F} + \\text{NO}_2 \\to \\text{NO}_2\\text{F}$ (fast)",
+          "isCorrect": true,
+          "explanation": "The slow rate-determining step involves 1 molecule of $\\text{NO}_2$ and 1 molecule of $\\text{F}_2$, matching the observed rate law $\\text{Rate} = k[\\text{NO}_2][\\text{F}_2]$."
+        },
+        {
+          "id": "c",
+          "text": "$\\text{NO}_2 + \\text{F}_2 \\rightleftharpoons \\text{NO}_2\\text{F}_2$ (fast), $\\text{NO}_2\\text{F}_2 \\to \\text{NO}_2\\text{F} + \\text{F}$ (slow)",
+          "isCorrect": false,
+          "explanation": "Would involve intermediate kinetics."
+        },
+        {
+          "id": "d",
+          "text": "$\\text{F}_2 \\to 2\\text{F}$ (slow), $\\text{F} + \\text{NO}_2 \\to \\text{NO}_2\\text{F}$ (fast)",
+          "isCorrect": false,
+          "explanation": "Rate would be independent of $[\\text{NO}_2]$."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "A multi-step mechanism's rate law is governed by its slow (rate-determining) elementary step:\n- Step 1 (slow): $\\text{NO}_2 + \\text{F}_2 \\xrightarrow{k_1} \\text{NO}_2\\text{F} + \\text{F}^\\bullet \\implies \\text{Rate} = k_1 [\\text{NO}_2][\\text{F}_2]$\n- Step 2 (fast): $\\text{F}^\\bullet + \\text{NO}_2 \\xrightarrow{k_2} \\text{NO}_2\\text{F}$\nThis elementary sequence matches the experimentally determined overall rate law exactly.",
+      "keyFormulae": [
+        "\\text{Rate} = k_{\\text{RDS}} [\\text{Reactants in slow step}]"
+      ],
+      "hints": [
+        "The rate law matches the molecularity of the slowest elementary step.",
+        "Identify the mechanism where slow step reactants are $\\text{NO}_2$ and $\\text{F}_2$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "chem-mock05-q38",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Coordination Chemistry",
+      "subtopic": "Optical Isomerism in Metal Complexes",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The compound that exhibits optical isomerism is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$[\\text{Co}(\\text{NH}_3)_6]^{3+}$",
+          "isCorrect": false,
+          "explanation": "Octahedral with planes of symmetry (achiral)."
+        },
+        {
+          "id": "b",
+          "text": "$[\\text{Co}(\\text{en})_3]^{3+}$",
+          "isCorrect": true,
+          "explanation": "Tris-bidentate complex $[M(AA)_3]$ lacks planes and centers of inversion, forming non-superimposable chiral enantiomers ($\\Delta$ and $\\Lambda$ forms)."
+        },
+        {
+          "id": "c",
+          "text": "$[\\text{Pt}(\\text{NH}_3)_2\\text{Cl}_2]$",
+          "isCorrect": false,
+          "explanation": "Square planar complexes have horizontal plane of symmetry."
+        },
+        {
+          "id": "d",
+          "text": "$[\\text{Co}(\\text{NH}_3)_5\\text{Cl}]^{2+}$",
+          "isCorrect": false,
+          "explanation": "Possesses multiple mirror planes."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "A coordination complex exhibits optical isomerism (chirality) if it lacks an improper axis of rotation ($S_n$, plane of symmetry $\\sigma$, or center of inversion $i$):\n- **$[\\text{Co}(\\text{en})_3]^{3+}$**: Belongs to the $D_3$ point group (propeller-like chiral geometry). It exists as dextrorotatory ($\\Delta$) and levorotatory ($\\Lambda$) enantiomers.\n- Homoleptic unidentate and square planar complexes possess mirror symmetry and are achiral.",
+      "keyFormulae": [
+        "[M(AA)_3] \\implies \\text{Chiral (Optical Enantiomers)}"
+      ],
+      "hints": [
+        "Look for tris-chelate octahedral complexes.",
+        "Tris(ethylenediamine)cobalt(III) forms propeller-shaped optical isomers."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "chem-mock05-q39",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Physical Chemistry",
+      "subtopic": "Buffer Solutions & Henderson-Hasselbalch Equation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The pH of a buffer solution containing $0.20$ M $\\text{CH}_3\\text{COOH}$ and $0.10$ M $\\text{CH}_3\\text{COONa}$ ($K_a = 1.8 \\times 10^{-5}$) is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "4.44",
+          "isCorrect": true,
+          "explanation": "$\\text{pH} = \\text{p}K_a + \\log\\left(\\frac{[\\text{Salt}]}{[\\text{Acid}]}\\right) = 4.74 + \\log\\left(\\frac{0.10}{0.20}\\right) = 4.74 + \\log(0.5) = 4.74 - 0.301 = 4.44$."
+        },
+        {
+          "id": "b",
+          "text": "4.74",
+          "isCorrect": false,
+          "explanation": "pH when $[\\text{Salt}] = [\\text{Acid}]$."
+        },
+        {
+          "id": "c",
+          "text": "5.04",
+          "isCorrect": false,
+          "explanation": "Applies when $[\\text{Salt}] = 0.20$ and $[\\text{Acid}] = 0.10$."
+        },
+        {
+          "id": "d",
+          "text": "3.74",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Calculate $\\text{p}K_a$:\n$$\\text{p}K_a = -\\log(1.8 \\times 10^{-5}) = 4.74$$\n2. Apply the Henderson-Hasselbalch equation for an acidic buffer:\n$$\\text{pH} = \\text{p}K_a + \\log\\left(\\frac{[\\text{CH}_3\\text{COO}^-]}{[\\text{CH}_3\\text{COOH}]}\\right)$$\n$$\\text{pH} = 4.74 + \\log\\left(\\frac{0.10}{0.20}\\right) = 4.74 + \\log(0.50) = 4.74 - 0.301 = 4.439 \\approx 4.44$$",
+      "keyFormulae": [
+        "\\text{pH} = \\text{p}K_a + \\log\\left(\\frac{[\\text{Salt}]}{[\\text{Acid}]}\\right)"
+      ],
+      "hints": [
+        "Use the Henderson-Hasselbalch equation.",
+        "Note that $[\\text{Salt}]/[\\text{Acid}] = 0.10/0.20 = 1/2$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "chem-mock05-q40",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "subtopic": "Cannizzaro Disproportionation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The product of the Cannizzaro reaction of benzaldehyde is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Benzoic acid and phenol",
+          "isCorrect": false,
+          "explanation": "Phenol is not formed."
+        },
+        {
+          "id": "b",
+          "text": "Benzoic acid and benzyl alcohol",
+          "isCorrect": true,
+          "explanation": "Benzaldehyde lacks $\\alpha$-hydrogens; in concentrated alkali, it undergoes self-redox (disproportionation) into benzoate (benzoic acid) and benzyl alcohol."
+        },
+        {
+          "id": "c",
+          "text": "Benzyl alcohol and phenol",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "Benzoic acid only",
+          "isCorrect": false,
+          "explanation": "Reduction product missing."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Aldehydes lacking $\\alpha$-hydrogens (such as benzaldehyde $\\text{C}_6\\text{H}_5\\text{CHO}$) undergo self-oxidation-reduction (disproportionation) in concentrated basic medium (Cannizzaro Reaction):\n$$2\\text{C}_6\\text{H}_5\\text{CHO} \\xrightarrow{50\\%\\text{ NaOH}} \\text{C}_6\\text{H}_5\\text{COONa} + \\text{C}_6\\text{H}_5\\text{CH}_2\\text{OH}$$\nUpon acidification, the products are **benzoic acid** (oxidation product) and **benzyl alcohol** (reduction product).",
+      "keyFormulae": [
+        "2\\text{ArCHO} \\xrightarrow{OH^-} \\text{ArCOOH} + \\text{ArCH}_2\\text{OH}"
+      ],
+      "hints": [
+        "Benzaldehyde has no alpha-hydrogens and undergoes disproportionation.",
+        "One molecule is oxidized to carboxylic acid and the other reduced to alcohol."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "bio-mock05-q41",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Biochemistry",
+      "subtopic": "Enzyme Kinetics (Lineweaver-Burk Vmax)",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In an enzyme kinetics experiment, the following data were obtained:\n\n| [S] (mM) | $v$ ($\\mu$mol/min) |\n|---|---|\n| 0.5 | 8 |\n| 1.0 | 14 |\n| 2.0 | 22 |\n| 4.0 | 32 |\n| 8.0 | 40 |\n\nUsing Lineweaver-Burk analysis, the approximate $V_{\\max}$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "48 $\\mu$mol/min",
+          "isCorrect": true,
+          "explanation": "Plotting $1/v$ against $1/[S]$ yields y-intercept $= 1/V_{\\max} \\approx 0.021 \\implies V_{\\max} \\approx 48\\,\\mu\\text{mol/min}$."
+        },
+        {
+          "id": "b",
+          "text": "56 $\\mu$mol/min",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        },
+        {
+          "id": "c",
+          "text": "64 $\\mu$mol/min",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        },
+        {
+          "id": "d",
+          "text": "40 $\\mu$mol/min",
+          "isCorrect": false,
+          "explanation": "Observed velocity at $[S]=8$, not theoretical maximum."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Transforming data to Lineweaver-Burk reciprocals ($1/[S]$ and $1/v$):\n- $[S] = 1.0 \\implies 1/[S] = 1.0, \\; 1/v = 1/14 = 0.0714$\n- $[S] = 4.0 \\implies 1/[S] = 0.25, \\; 1/v = 1/32 = 0.0313$\n- $[S] = 8.0 \\implies 1/[S] = 0.125, \\; 1/v = 1/40 = 0.0250$\nLinear extrapolation to $1/[S] = 0$ (y-intercept):\n$$\\text{Intercept} = \\frac{1}{V_{\\max}} \\approx 0.021\\text{ (min/}\\mu\\text{mol)}$$\n$$V_{\\max} = \\frac{1}{0.021} \\approx 48\\,\\mu\\text{mol/min}$$",
+      "keyFormulae": [
+        "\\frac{1}{v} = \\frac{K_m}{V_{\\max}}\\frac{1}{[S]} + \\frac{1}{V_{\\max}}"
+      ],
+      "hints": [
+        "Calculate reciprocals $1/[S]$ and $1/v$.",
+        "Extrapolate $1/[S] \\to 0$ to determine $1/V_{\\max}$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "bio-mock05-q42",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Genetics",
+      "subtopic": "Binomial Probability in Genetics",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A pedigree shows an autosomal recessive trait. If two carriers have four children, the probability that exactly two are affected is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{3}{8}$",
+          "isCorrect": false,
+          "explanation": "Incorrect fraction."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{1}{4}$",
+          "isCorrect": false,
+          "explanation": "Probability for 1 child."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{27}{128}$",
+          "isCorrect": true,
+          "explanation": "Binomial probability: $\\binom{4}{2}(1/4)^2(3/4)^2 = 6 \\times \\frac{1}{16} \\times \\frac{9}{16} = \\frac{54}{256} = \\frac{27}{128}$."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{9}{64}$",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "For an autosomal recessive condition from carrier parents ($Aa \\times Aa$):\n- Probability of an affected child ($aa$): $p = 1/4$\n- Probability of an unaffected child ($AA$ or $Aa$): $q = 3/4$\nUsing the binomial probability formula for $n = 4$ children with $k = 2$ affected:\n$$P(X = 2) = \\binom{n}{k} p^k q^{n-k} = \\binom{4}{2} \\left(\\frac{1}{4}\\right)^2 \\left(\\frac{3}{4}\\right)^2$$\n$$P(X = 2) = 6 \\times \\frac{1}{16} \\times \\frac{9}{16} = \\frac{54}{256} = \\frac{27}{128}$$",
+      "keyFormulae": [
+        "P(k) = \\binom{n}{k} p^k (1-p)^{n-k}"
+      ],
+      "hints": [
+        "Identify $p = 1/4$ for affected and $q = 3/4$ for unaffected.",
+        "Use the binomial expansion formula $\\binom{4}{2} p^2 q^2$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "c"
+    },
+    {
+      "id": "bio-mock05-q43",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Genetics",
+      "subtopic": "Gene Mapping from Recombination Frequencies",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In a mapping cross, genes $A$, $B$, and $C$ show recombination frequencies: $A-B = 8\\%$, $B-C = 12\\%$, $A-C = 4\\%$. The gene order is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$A-C-B$",
+          "isCorrect": false,
+          "explanation": "Would make $A-B$ the longest distance."
+        },
+        {
+          "id": "b",
+          "text": "$C-A-B$",
+          "isCorrect": true,
+          "explanation": "$d(C,A) + d(A,B) = 4\\text{ cM} + 8\\text{ cM} = 12\\text{ cM} = d(C,B)$, placing gene $A$ between $C$ and $B$."
+        },
+        {
+          "id": "c",
+          "text": "$A-B-C$",
+          "isCorrect": false,
+          "explanation": "Would make $A-C$ the longest distance."
+        },
+        {
+          "id": "d",
+          "text": "$B-A-C$",
+          "isCorrect": false,
+          "explanation": "Reverse sequence of C-A-B."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Given pairwise recombination distances:\n- $A-C = 4\\text{ cM}$\n- $A-B = 8\\text{ cM}$\n- $B-C = 12\\text{ cM}$\nSince $d(C,A) + d(A,B) = 4 + 8 = 12\\text{ cM} = d(B,C)$, gene $A$ must lie directly between $C$ and $B$.\nTherefore, the linear gene order is **$C-A-B$** (or $B-A-C$).",
+      "keyFormulae": [
+        "d(C,B) = d(C,A) + d(A,B) \\implies C-A-B"
+      ],
+      "hints": [
+        "Identify the largest recombination frequency ($B-C = 12\\%$).",
+        "The remaining gene ($A$) is located in the middle."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "bio-mock05-q44",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "subtopic": "Hemoglobin Dissociation Curve Shifts",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The oxygen dissociation curve of hemoglobin shifts to the right in response to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Decreased $CO_2$ concentration",
+          "isCorrect": false,
+          "explanation": "Shifts curve to the left."
+        },
+        {
+          "id": "b",
+          "text": "Increased pH",
+          "isCorrect": false,
+          "explanation": "Shifts curve to the left."
+        },
+        {
+          "id": "c",
+          "text": "Increased temperature",
+          "isCorrect": true,
+          "explanation": "Elevated temperature weakens the iron-oxygen bond, favoring oxygen release to tissues and shifting the dissociation curve to the right."
+        },
+        {
+          "id": "d",
+          "text": "Decreased 2,3-BPG concentration",
+          "isCorrect": false,
+          "explanation": "Shifts curve to the left."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "A right shift in the oxygen-hemoglobin dissociation curve represents decreased affinity and enhanced $O_2$ unloading to metabolically active tissues. Causes of right shift include:\n1. Increased temperature\n2. Increased $pCO_2$\n3. Increased $H^+$ concentration (decreased pH / Bohr effect)\n4. Increased 2,3-bisphosphoglycerate (2,3-BPG)",
+      "keyFormulae": [
+        "\\uparrow\\text{Temp}, \\uparrow CO_2, \\downarrow\\text{pH}, \\uparrow 2,3\\text{-BPG} \\implies \\text{Right Shift}"
+      ],
+      "hints": [
+        "Factors associated with active muscle metabolism (heat, acid, CO2) shift the curve to the right."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "c"
+    },
+    {
+      "id": "bio-mock05-q45",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Molecular Biology",
+      "subtopic": "Lac Operon Operator Mutations",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In the lac operon, a mutation in the operator that prevents repressor binding results in:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Constitutive expression regardless of lactose presence",
+          "isCorrect": true,
+          "explanation": "Because the LacI repressor cannot bind the mutated operator ($O^c$), transcription of structural genes is permanently derepressed and constitutive."
+        },
+        {
+          "id": "b",
+          "text": "No expression even with lactose",
+          "isCorrect": false,
+          "explanation": "Occurs in super-repressor $I^s$ or promoter mutations."
+        },
+        {
+          "id": "c",
+          "text": "Normal inducible expression",
+          "isCorrect": false,
+          "explanation": "Wild-type behavior."
+        },
+        {
+          "id": "d",
+          "text": "Expression only in presence of glucose",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "In the wild-type lac operon, the LacI repressor binds the operator ($O^+$) to block RNA polymerase in the absence of lactose.\nA cis-dominant constitutive operator mutation ($O^c$) changes the operator sequence so the repressor can never bind. Consequently, RNA polymerase has continuous access to the promoter, resulting in **constitutive (continuous) expression** of structural genes ($lacZ, lacY, lacA$).",
+      "keyFormulae": [
+        "O^c \\implies \\text{Constitutive Expression}"
+      ],
+      "hints": [
+        "Without repressor binding, negative regulation is abolished.",
+        "The operon remains permanently turned on."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "bio-mock05-q46",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Microbiology",
+      "subtopic": "Bacterial Exponential Doubling",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A population of bacteria in exponential phase shows a doubling time of 30 minutes. Starting with $10^3$ cells, the number after 3 hours is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$6.4 \\times 10^4$",
+          "isCorrect": true,
+          "explanation": "Number of doublings $n = 3\\text{ h} / 0.5\\text{ h} = 6$. $N = 10^3 \\times 2^6 = 10^3 \\times 64 = 6.4 \\times 10^4$ cells."
+        },
+        {
+          "id": "b",
+          "text": "$1.28 \\times 10^5$",
+          "isCorrect": false,
+          "explanation": "Corresponds to 7 doublings."
+        },
+        {
+          "id": "c",
+          "text": "$2.56 \\times 10^5$",
+          "isCorrect": false,
+          "explanation": "Corresponds to 8 doublings."
+        },
+        {
+          "id": "d",
+          "text": "$5.12 \\times 10^5$",
+          "isCorrect": false,
+          "explanation": "Corresponds to 9 doublings."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Number of generation cycles in $3\\text{ hours} = 180\\text{ min}$ with doubling time $t_d = 30\\text{ min}$:\n$$n = \\frac{180}{30} = 6$$\n2. Population size after $n$ generations:\n$$N = N_0 \\times 2^n = 10^3 \\times 2^6 = 1000 \\times 64 = 6.4 \\times 10^4\\text{ cells}$$",
+      "keyFormulae": [
+        "N = N_0 \\cdot 2^n",
+        "n = \\frac{t}{t_d}"
+      ],
+      "hints": [
+        "Calculate the number of generation cycles: $3\\text{ h} / 0.5\\text{ h} = 6$.",
+        "Multiply initial count by $2^6 = 64$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "bio-mock05-q47",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Genetics",
+      "subtopic": "Modified Dihybrid Ratios (Complementary Genes)",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A dihybrid cross $AaBb \\times AaBb$ produces offspring in the ratio 9:7 instead of 9:3:3:1. This indicates:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dominant epistasis",
+          "isCorrect": false,
+          "explanation": "Produces 12:3:1 ratio."
+        },
+        {
+          "id": "b",
+          "text": "Recessive epistasis",
+          "isCorrect": false,
+          "explanation": "Produces 9:3:4 ratio."
+        },
+        {
+          "id": "c",
+          "text": "Complementary gene action",
+          "isCorrect": true,
+          "explanation": "Duplicate recessive epistasis (complementary genes) requires at least one dominant allele at both loci ($A\\_B\\_, 9/16$) for the dominant phenotype; all other genotypes ($A\\_bb, aaB\\_, aabb, 7/16$) yield the recessive phenotype."
+        },
+        {
+          "id": "d",
+          "text": "Duplicate genes",
+          "isCorrect": false,
+          "explanation": "Produces 15:1 ratio."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "A 9:7 phenotypic ratio in an $F_2$ dihybrid cross represents **Complementary Gene Action** (Duplicate Recessive Epistasis):\n- Genotypes with at least one dominant allele at both loci ($A\\_B\\_ \\to 9/16$) express the trait (e.g. purple flowers in sweet pea).\n- Homozygous recessive at either or both loci ($A\\_bb = 3/16, aaB\\_ = 3/16, aabb = 1/16$) result in the same mutant/white phenotype, combining to $3 + 3 + 1 = 7/16$.",
+      "keyFormulae": [
+        "9:7 \\implies \\text{Complementary Genes (Duplicate Recessive Epistasis)}"
+      ],
+      "hints": [
+        "Notice that $3 + 3 + 1 = 7$ phenotypic classes are pooled together.",
+        "Recall Bateson and Punnett's flower color inheritance in sweet pea."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "c"
+    },
+    {
+      "id": "bio-mock05-q48",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Plant Physiology",
+      "subtopic": "Limiting Factors in Photosynthesis",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The rate of photosynthesis as a function of light intensity plateaus at a higher level at elevated $CO_2$ concentration. The difference in the plateau levels is due to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Light saturation",
+          "isCorrect": false,
+          "explanation": "Light is saturating at the plateau for both curves."
+        },
+        {
+          "id": "b",
+          "text": "$CO_2$ limitation of the Calvin cycle",
+          "isCorrect": true,
+          "explanation": "At light saturation, photon capture is no longer rate-limiting; substrate availability ($CO_2$) for the dark enzymatic reactions of the Calvin cycle limits the maximum rate."
+        },
+        {
+          "id": "c",
+          "text": "Temperature dependence",
+          "isCorrect": false,
+          "explanation": "Secondary factor."
+        },
+        {
+          "id": "d",
+          "text": "Photorespiration",
+          "isCorrect": false,
+          "explanation": "Decreases with higher CO2."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "According to Blackman's Law of Limiting Factors:\n- At low light intensities, light is the limiting factor.\n- Once light saturation is achieved (the curve plateaus), the rate becomes limited by the next least available resource—specifically **$\\text{CO}_2$ concentration** supplying the Rubisco-catalyzed carbon fixation reactions in the Calvin cycle.\n- Increasing ambient $\\text{CO}_2$ provides more substrate, elevating the saturation plateau.",
+      "keyFormulae": [
+        "\\text{Plateau level at light saturation} \\propto [\\text{CO}_2]"
+      ],
+      "hints": [
+        "At the plateau, light is no longer limiting.",
+        "Identify which substrate limits the Calvin cycle enzyme Rubisco."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "bio-mock05-q49",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Plant Physiology",
+      "subtopic": "Environmental Influences on Transpiration",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In a transpiration experiment, four plants are placed under: (A) light, high humidity; (B) light, low humidity; (C) dark, high humidity; (D) dark, low humidity. The highest transpiration rate occurs in:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Plant A",
+          "isCorrect": false,
+          "explanation": "High humidity slows diffusion."
+        },
+        {
+          "id": "b",
+          "text": "Plant B",
+          "isCorrect": true,
+          "explanation": "Light stimulates stomatal opening, and low ambient humidity creates the steepest water vapor concentration gradient (VPD) between leaf and air, maximizing transpiration."
+        },
+        {
+          "id": "c",
+          "text": "Plant C",
+          "isCorrect": false,
+          "explanation": "Stomata closed, lowest rate."
+        },
+        {
+          "id": "d",
+          "text": "Plant D",
+          "isCorrect": false,
+          "explanation": "Stomata mostly closed in the dark."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Transpiration requires two conditions for maximal rate:\n1. **Stomatal opening**: Light activates proton pumps in guard cells, driving $K^+$ influx and stomatal opening.\n2. **Vapor pressure deficit (VPD)**: Low external humidity creates a steep water potential and vapor concentration gradient between the saturated substomatal cavity and the atmosphere.\nTherefore, **Plant B (Light + Low Humidity)** exhibits the highest transpiration rate.",
+      "keyFormulae": [
+        "\\text{Transpiration} \\propto \\text{Stomatal Aperture (Light)} \\times \\text{Vapor Pressure Deficit (Low Humidity)}"
+      ],
+      "hints": [
+        "Stomata open in response to light.",
+        "Transpiration is fastest when ambient air is dry (low humidity)."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "bio-mock05-q50",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Cell Biology",
+      "subtopic": "GPCR & Adenylyl Cyclase Activation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A mutation causing constitutive activation of a G-protein that normally stimulates adenylyl cyclase would result in:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Continuously low cAMP",
+          "isCorrect": false,
+          "explanation": "Occurs with inhibitory $G_i$."
+        },
+        {
+          "id": "b",
+          "text": "Continuously high cAMP",
+          "isCorrect": true,
+          "explanation": "Constitutively active $G_{\\alpha s}$ permanently stimulates adenylyl cyclase to convert ATP to cAMP, producing persistently elevated intracellular cAMP levels."
+        },
+        {
+          "id": "c",
+          "text": "Normal cAMP levels",
+          "isCorrect": false,
+          "explanation": "Disrupted regulation."
+        },
+        {
+          "id": "d",
+          "text": "Loss of receptor function",
+          "isCorrect": false,
+          "explanation": "Downstream signaling is independent of receptor."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. The stimulatory G-protein subunit ($G_{\\alpha s}$) in its GTP-bound state activates the effector enzyme **adenylyl cyclase**.\n2. Adenylyl cyclase catalyzes the synthesis of secondary messenger cAMP from ATP.\n3. A mutation preventing intrinsic GTP hydrolysis (constitutively active) locks $G_{\\alpha s}$ in the permanent \"ON\" state, leading to **continuously high cAMP levels** (as seen in cholera toxin mechanism).",
+      "keyFormulae": [
+        "G_{\\alpha s}\\text{-GTP (constitutive)} \\to \\text{Adenylyl Cyclase (active)} \\to \\uparrow\\uparrow\\text{cAMP}"
+      ],
+      "hints": [
+        "Stimulatory G-protein ($G_s$) activates adenylyl cyclase.",
+        "Persistent activation means continuous production of cAMP."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "bio-mock05-q51",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Genetics",
+      "subtopic": "Hardy-Weinberg Heterozygote Frequency",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In a population at Hardy-Weinberg equilibrium with allele frequencies $p(A) = 0.7$ and $q(a) = 0.3$, the frequency of heterozygotes is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.42",
+          "isCorrect": true,
+          "explanation": "$2pq = 2(0.7)(0.3) = 0.42$ (or 42%)."
+        },
+        {
+          "id": "b",
+          "text": "0.21",
+          "isCorrect": false,
+          "explanation": "$p \\times q$ without factor of 2."
+        },
+        {
+          "id": "c",
+          "text": "0.09",
+          "isCorrect": false,
+          "explanation": "Homozygous recessive $q^2$."
+        },
+        {
+          "id": "d",
+          "text": "0.49",
+          "isCorrect": false,
+          "explanation": "Homozygous dominant $p^2$."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "By the Hardy-Weinberg principle:\n$$p^2 + 2pq + q^2 = 1$$\nGiven dominant allele frequency $p = 0.7$ and recessive allele frequency $q = 0.3$:\n$$\\text{Frequency of heterozygotes } (Aa) = 2pq = 2(0.7)(0.3) = 0.42$$",
+      "keyFormulae": [
+        "2pq = 2(0.7)(0.3) = 0.42"
+      ],
+      "hints": [
+        "Apply $2pq$ for the heterozygous genotype frequency."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "bio-mock05-q52",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Genetics",
+      "subtopic": "Complementation Groups (Cistrons)",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "Complementation testing of five mutants showing the same phenotype yields the following results (+ = complementation, - = no complementation):\n\n| | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| 1 | - | + | + | - | + |\n| 2 | + | - | + | + | + |\n| 3 | + | + | - | + | - |\n| 4 | - | + | + | - | + |\n| 5 | + | + | - | + | - |\n\nThe number of genes involved is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "2",
+          "isCorrect": false,
+          "explanation": "Underestimated."
+        },
+        {
+          "id": "b",
+          "text": "3",
+          "isCorrect": true,
+          "explanation": "Mutants that fail to complement (marked '-') reside in the same gene. Group 1 = {1, 4}, Group 2 = {2}, Group 3 = {3, 5} $\\implies$ 3 distinct functional genes."
+        },
+        {
+          "id": "c",
+          "text": "4",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        },
+        {
+          "id": "d",
+          "text": "5",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "In complementation analysis, a minus (-) sign indicates alleles of the same functional gene:\n1. Mutants 1 and 4 fail to complement ($1 \\times 4 = -$) $\\implies$ **Gene A = {1, 4}**\n2. Mutant 2 complements all others $\\implies$ **Gene B = {2}**\n3. Mutants 3 and 5 fail to complement ($3 \\times 5 = -$) $\\implies$ **Gene C = {3, 5}**\nTotal number of functional genes (complementation groups) is **3**.",
+      "keyFormulae": [
+        "\\text{Complementation group} = \\text{Alleles showing '-' with each other}"
+      ],
+      "hints": [
+        "Group the mutants that show a '-' with one another.",
+        "Count the total number of independent groups."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "bio-mock05-q53",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "subtopic": "Biomagnification Calculations",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In the food chain: Algae $\\to$ Zooplankton $\\to$ Small fish $\\to$ Large fish, DDT concentration is $0.04$, $0.5$, $2.0$, and $25$ ppm respectively. The biomagnification factor from small fish to large fish is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "5",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "b",
+          "text": "10",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "c",
+          "text": "12.5",
+          "isCorrect": true,
+          "explanation": "$\\text{Factor} = \\frac{[\\text{DDT}]_{\\text{Large fish}}}{[\\text{DDT}]_{\\text{Small fish}}} = \\frac{25\\text{ ppm}}{2.0\\text{ ppm}} = 12.5$."
+        },
+        {
+          "id": "d",
+          "text": "50",
+          "isCorrect": false,
+          "explanation": "Zooplankton to large fish."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Biomagnification factor is defined as the ratio of pollutant concentration in consumer to prey:\n$$\\text{Biomagnification Factor} = \\frac{[\\text{DDT}]_{\\text{Large Fish}}}{[\\text{DDT}]_{\\text{Small Fish}}} = \\frac{25\\text{ ppm}}{2.0\\text{ ppm}} = 12.5$$",
+      "keyFormulae": [
+        "\\text{Biomagnification Factor} = \\frac{C_{\\text{predator}}}{C_{\\text{prey}}}"
+      ],
+      "hints": [
+        "Divide the DDT concentration of the large fish by that of the small fish."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "c"
+    },
+    {
+      "id": "bio-mock05-q54",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Plant Physiology",
+      "subtopic": "Water Potential Equilibrium in Pure Water",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A plant cell with $\\psi_s = -0.8$ MPa and $\\psi_p = 0.3$ MPa is placed in pure water. At equilibrium, the cell's water potential is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$-0.5$ MPa",
+          "isCorrect": false,
+          "explanation": "Initial water potential before placement in water."
+        },
+        {
+          "id": "b",
+          "text": "0 MPa",
+          "isCorrect": true,
+          "explanation": "Pure water at atmospheric pressure has $\\psi = 0\\text{ MPa}$. At osmotic equilibrium, the cell's water potential must equal the surrounding water potential: $\\psi_{\\text{cell}} = \\psi_{\\text{ext}} = 0\\text{ MPa}$ (turgor pressure balances solute potential)."
+        },
+        {
+          "id": "c",
+          "text": "$-0.8$ MPa",
+          "isCorrect": false,
+          "explanation": "Solute potential alone."
+        },
+        {
+          "id": "d",
+          "text": "0.3 MPa",
+          "isCorrect": false,
+          "explanation": "Initial turgor pressure."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Water potential of pure water at atmospheric pressure is $\\psi_{\\text{water}} = 0\\text{ MPa}$.\n2. When a plant cell is placed in pure water, endosmosis occurs until turgor pressure rises to fully balance the internal solute potential ($\\psi_p = -\\psi_s = +0.8\\text{ MPa}$).\n3. At full turgid equilibrium:\n$$\\psi_{\\text{cell}} = \\psi_s + \\psi_p = -0.8 + 0.8 = 0\\text{ MPa}$$",
+      "keyFormulae": [
+        "\\text{Equilibrium in pure water} \\implies \\psi_{\\text{cell}} = \\psi_{\\text{pure water}} = 0\\text{ MPa}"
+      ],
+      "hints": [
+        "What is the water potential of pure water?",
+        "At osmotic equilibrium, cell water potential equals surrounding water potential."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "bio-mock05-q55",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "subtopic": "Resting Membrane Potential & Nernst Equation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The resting membrane potential of a neuron is closest to the equilibrium potential of:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\text{Na}^+$",
+          "isCorrect": false,
+          "explanation": "$E_{\\text{Na}} \\approx +60\\text{ mV}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\text{K}^+$",
+          "isCorrect": true,
+          "explanation": "At rest, neuronal membrane permeability to $\\text{K}^+$ is 20-50 times higher than to $\\text{Na}^+$, pulling the resting potential ($-70\\text{ mV}$) closest to the potassium Nernst potential ($E_K \\approx -90\\text{ mV}$)."
+        },
+        {
+          "id": "c",
+          "text": "$\\text{Ca}^{2+}$",
+          "isCorrect": false,
+          "explanation": "$E_{\\text{Ca}} \\approx +120\\text{ mV}$."
+        },
+        {
+          "id": "d",
+          "text": "$\\text{Cl}^-$",
+          "isCorrect": false,
+          "explanation": "Plays secondary role in resting potential."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "By the Goldman-Hodgkin-Katz (GHK) equation, resting potential is governed predominantly by the ion with the highest resting membrane permeability.\nBecause resting leak channels make the membrane far more permeable to potassium than to other ions ($P_K \\gg P_{Na}$), the resting membrane potential ($\\approx -70\\text{ mV}$) is closest to the **potassium equilibrium potential ($E_K \\approx -90\\text{ mV}$)**.",
+      "keyFormulae": [
+        "V_m \\approx E_K = \\frac{RT}{F}\\ln\\left(\\frac{[K^+]_{\\text{out}}}{[K^+]_{\\text{in}}}\\right) \\approx -90\\text{ mV}"
+      ],
+      "hints": [
+        "Which ion has the greatest resting leak permeability?",
+        "Potassium equilibrium potential is negative ($-90\\text{ mV}$)."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "bio-mock05-q56",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Plant Physiology",
+      "subtopic": "Action Spectrum vs Absorption Spectrum",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In photosynthesis, the action spectrum closely matches the absorption spectrum of:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Carotenoids only",
+          "isCorrect": false,
+          "explanation": "Accessory pigments absorbing only in blue region."
+        },
+        {
+          "id": "b",
+          "text": "Chlorophyll a only",
+          "isCorrect": false,
+          "explanation": "Does not account for accessory pigment contributions."
+        },
+        {
+          "id": "c",
+          "text": "Chlorophyll b only",
+          "isCorrect": false,
+          "explanation": "Accessory pigment."
+        },
+        {
+          "id": "d",
+          "text": "All photosynthetic pigments",
+          "isCorrect": true,
+          "explanation": "Light energy absorbed by accessory pigments (chlorophyll b, carotenoids) is efficiently transferred via resonance energy transfer to chlorophyll a, making the overall action spectrum match the combined absorption spectrum of all photosynthetic pigments."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "The action spectrum plots the rate of photosynthesis ($O_2$ evolution) against wavelength.\nWhile chlorophyll $a$ is the essential reaction center pigment, accessory pigments (chlorophyll $b$, xanthophylls, and $\\beta$-carotene) absorb light in regions where chlorophyll $a$ absorbs weakly and transfer that excitation energy to chlorophyll $a$.\nConsequently, the overall photosynthetic action spectrum closely reflects the **combined absorption spectrum of all photosynthetic pigments**.",
+      "keyFormulae": [
+        "\\text{Action Spectrum} \\approx \\sum \\text{Absorption Spectrum of all pigments}"
+      ],
+      "hints": [
+        "Accessory pigments harvest light and transfer excitation energy to chlorophyll a."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "d"
+    },
+    {
+      "id": "bio-mock05-q57",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Genetics",
+      "subtopic": "Double Crossover Frequency & Interference",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In a three-point test cross, the parental genotypes are $ABC/abc$. The double crossover class represents:",
+      "options": [
+        {
+          "id": "a",
+          "text": "1% of progeny if map distances are 10 and 20 cM",
+          "isCorrect": false,
+          "explanation": "Underestimated for zero interference."
+        },
+        {
+          "id": "b",
+          "text": "2% if map distances are 10 and 20 cM with no interference",
+          "isCorrect": true,
+          "explanation": "Expected DCO frequency $= RF_1 \\times RF_2 = 0.10 \\times 0.20 = 0.02 = 2\\%$."
+        },
+        {
+          "id": "c",
+          "text": "0.2% if interference is complete",
+          "isCorrect": false,
+          "explanation": "Complete interference yields 0% DCO."
+        },
+        {
+          "id": "d",
+          "text": "Both (B) and (C) are possible",
+          "isCorrect": false,
+          "explanation": "C is incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "In three-point linkage mapping without genetic interference ($I = 0$):\n$$\\text{Expected DCO frequency} = RF(A-B) \\times RF(B-C)$$\nGiven map distances of $10\\text{ cM} = 0.10$ and $20\\text{ cM} = 0.20$:\n$$P(\\text{DCO}) = 0.10 \\times 0.20 = 0.02 = 2\\%$$",
+      "keyFormulae": [
+        "P(\\text{DCO}) = RF_1 \\times RF_2 \\times (1 - I)"
+      ],
+      "hints": [
+        "Multiply the independent single crossover recombination probabilities."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "bio-mock05-q58",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Cell Biology",
+      "subtopic": "Phospholipase C & IP3 Second Messenger Pathway",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In signal transduction, $\\text{IP}_3$ (inositol trisphosphate) directly causes:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Activation of protein kinase A",
+          "isCorrect": false,
+          "explanation": "Activated by cAMP."
+        },
+        {
+          "id": "b",
+          "text": "Release of $\\text{Ca}^{2+}$ from ER",
+          "isCorrect": true,
+          "explanation": "$\\text{IP}_3$ diffuses to the endoplasmic reticulum membrane and binds $\\text{IP}_3$-gated calcium channel receptors, opening them to release stored $\\text{Ca}^{2+}$ into the cytosol."
+        },
+        {
+          "id": "c",
+          "text": "Activation of adenylyl cyclase",
+          "isCorrect": false,
+          "explanation": "Activated by $G_{\\alpha s}$."
+        },
+        {
+          "id": "d",
+          "text": "Phosphorylation of tyrosine residues",
+          "isCorrect": false,
+          "explanation": "Function of receptor tyrosine kinases."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "In the Phospholipase C (PLC) pathway:\n1. $\\text{PIP}_2$ is cleaved into Diacylglycerol (DAG) and Inositol 1,4,5-trisphosphate ($\\text{IP}_3$).\n2. Water-soluble $\\text{IP}_3$ diffuses through cytoplasm to the **endoplasmic reticulum**.\n3. $\\text{IP}_3$ binds specifically to ligand-gated $\\text{IP}_3$ receptor channels on the ER membrane, stimulating rapid **efflux of $\\text{Ca}^{2+}$ ions into the cytosol**.",
+      "keyFormulae": [
+        "\\text{IP}_3 \\to \\text{Binds ER } \\text{IP}_3\\text{ Receptors} \\to \\text{Release of } \\text{Ca}^{2+}"
+      ],
+      "hints": [
+        "What organelle stores intracellular calcium?",
+        "$\\text{IP}_3$ acts as a ligand for calcium channels on the ER membrane."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "bio-mock05-q59",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Molecular Biology",
+      "subtopic": "Catabolite Repression (Glucose Effect)",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In the lac operon, catabolite repression prevents transcription when:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lactose is present and glucose is absent",
+          "isCorrect": false,
+          "explanation": "Optimal induction condition."
+        },
+        {
+          "id": "b",
+          "text": "Glucose is present, regardless of lactose",
+          "isCorrect": true,
+          "explanation": "Glucose inhibits adenylyl cyclase, lowering cAMP and preventing CAP-cAMP activator from binding to promoter, thereby repressing operon transcription."
+        },
+        {
+          "id": "c",
+          "text": "Both lactose and glucose are absent",
+          "isCorrect": false,
+          "explanation": "Repressed by LacI repressor."
+        },
+        {
+          "id": "d",
+          "text": "Both lactose and glucose are present",
+          "isCorrect": false,
+          "explanation": "Option B is more comprehensive."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "**Catabolite repression** (the glucose effect) ensures *E. coli* preferentially metabolizes glucose:\n- When **glucose is present**, glucose transport suppresses adenylyl cyclase activity.\n- Cellular levels of cAMP drop, so the CAP-cAMP activator complex cannot form.\n- Without CAP binding upstream of the lac promoter, RNA polymerase cannot efficiently initiate transcription, keeping the operon repressed even if lactose is present.",
+      "keyFormulae": [
+        "\\text{Glucose present} \\implies \\downarrow\\text{cAMP} \\implies \\text{No CAP binding} \\implies \\text{Catabolite Repression}"
+      ],
+      "hints": [
+        "Catabolite repression is mediated by glucose availability.",
+        "Glucose prevents the formation of active CAP-cAMP activator."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "bio-mock05-q60",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "subtopic": "Sliding Filament Theory & Power Stroke",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "During muscle contraction, the power stroke is directly caused by:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\text{Ca}^{2+}$ binding to troponin",
+          "isCorrect": false,
+          "explanation": "Exposes myosin-binding sites on actin."
+        },
+        {
+          "id": "b",
+          "text": "ATP hydrolysis",
+          "isCorrect": false,
+          "explanation": "Cocks the myosin head into high-energy state."
+        },
+        {
+          "id": "c",
+          "text": "Pivoting of the myosin head",
+          "isCorrect": true,
+          "explanation": "Release of inorganic phosphate ($P_i$) triggers the conformational pivoting of the myosin head (power stroke), pulling the thin actin filament toward the M-line."
+        },
+        {
+          "id": "d",
+          "text": "Sliding of thin filaments past thick filaments",
+          "isCorrect": false,
+          "explanation": "The overall result, not the molecular cause."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Cross-bridge cycle steps in skeletal muscle contraction:\n1. Myosin head binds actin forming cross-bridge.\n2. **Power stroke**: Release of inorganic phosphate ($P_i$) triggers the **conformational tilting / pivoting of the myosin head** from $90^\\circ$ to $45^\\circ$, forcefully pulling the actin filament toward the center of the sarcomere.\n3. ADP is released; new ATP binding detaches myosin from actin.",
+      "keyFormulae": [
+        "\\text{Release of } P_i \\implies \\text{Myosin Head Pivots (Power Stroke)}"
+      ],
+      "hints": [
+        "The conformational change in the cross-bridge is the mechanical power stroke.",
+        "It is triggered by the release of inorganic phosphate."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "c"
+    },
+    {
+      "id": "math-mock05-q61",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Functions",
+      "subtopic": "Cauchy Functional Equation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "If $f(x+y) = f(x) + f(y)$ for all $x, y \\in \\mathbb{R}$ and $f$ is continuous at 0, then $f(3)$ equals:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$3f(1)$",
+          "isCorrect": true,
+          "explanation": "Continuous solution of Cauchy additive equation is $f(x) = cx$, where $c = f(1)$. Thus $f(3) = 3c = 3f(1)$."
+        },
+        {
+          "id": "b",
+          "text": "$f(1)^3$",
+          "isCorrect": false,
+          "explanation": "Applies to multiplicative equation $f(x+y)=f(x)f(y)$."
+        },
+        {
+          "id": "c",
+          "text": "$9f(1)$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "Cannot be determined",
+          "isCorrect": false,
+          "explanation": "Uniquely determined."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. The functional equation $f(x+y) = f(x) + f(y)$ with continuity at $x = 0$ is the Cauchy additive functional equation, whose general solution is linear:\n$$f(x) = cx \\quad \\text{for some constant } c \\in \\mathbb{R}$$\n2. Evaluating at $x = 1$:\n$$f(1) = c(1) = c$$\n3. Evaluating at $x = 3$:\n$$f(3) = c(3) = 3f(1)$$",
+      "keyFormulae": [
+        "f(x+y) = f(x) + f(y) \\implies f(x) = x f(1)"
+      ],
+      "hints": [
+        "Recall that continuous functions satisfying $f(x+y)=f(x)+f(y)$ are of the form $f(x) = cx$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "math-mock05-q62",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "subtopic": "Riemann Sums of Trigonometric Functions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "$\\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{k=1}^n \\sin\\left(\\frac{k\\pi}{2n}\\right)$ equals:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{2}{\\pi}$",
+          "isCorrect": true,
+          "explanation": "Converts to Riemann integral $\\int_0^1 \\sin\\left(\\frac{\\pi x}{2}\\right) dx = \\left[-\\frac{2}{\\pi}\\cos\\left(\\frac{\\pi x}{2}\\right)\\right]_0^1 = \\frac{2}{\\pi}(1 - 0) = \\frac{2}{\\pi}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{\\pi}{2}$",
+          "isCorrect": false,
+          "explanation": "Reciprocal error."
+        },
+        {
+          "id": "c",
+          "text": "1",
+          "isCorrect": false,
+          "explanation": "Missing coefficient factor."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{1}{2}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Convert the limit of Riemann sum into a definite integral with $x = k/n$ and $dx = 1/n$:\n$$\\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{k=1}^n \\sin\\left(\\frac{\\pi}{2} \\cdot \\frac{k}{n}\\right) = \\int_0^1 \\sin\\left(\\frac{\\pi x}{2}\\right) dx$$\nEvaluating the integral:\n$$= \\left[ -\\frac{2}{\\pi} \\cos\\left(\\frac{\\pi x}{2}\\right) \\right]_0^1 = -\\frac{2}{\\pi}\\cos\\left(\\frac{\\pi}{2}\\right) - \\left(-\\frac{2}{\\pi}\\cos(0)\\right)$$\n$$= 0 + \\frac{2}{\\pi}(1) = \\frac{2}{\\pi}$$",
+      "keyFormulae": [
+        "\\lim_{n \\to \\infty}\\frac{1}{n}\\sum_{k=1}^n f(k/n) = \\int_0^1 f(x)dx",
+        "\\int_0^1 \\sin\\left(\\frac{\\pi x}{2}\\right)dx = \\frac{2}{\\pi}"
+      ],
+      "hints": [
+        "Convert the sum into $\\int_0^1 \\sin\\left(\\frac{\\pi x}{2}\\right) dx$.",
+        "Integrate $\\sin(ax)$ using $-\\frac{1}{a}\\cos(ax)$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "math-mock05-q63",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Complex Numbers",
+      "subtopic": "Real Part on Unit Circle",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "If $|z| = 1$ and $z \\neq 1$, then $\\text{Re}\\left(\\frac{1}{1-z}\\right)$ equals:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{1}{2}$",
+          "isCorrect": true,
+          "explanation": "Let $z = e^{i\\theta}$. $\\frac{1}{1-e^{i\\theta}} = \\frac{1-\\cos\\theta + i\\sin\\theta}{2(1-\\cos\\theta)} \\implies \\text{Re} = \\frac{1-\\cos\\theta}{2(1-\\cos\\theta)} = \\frac{1}{2}$."
+        },
+        {
+          "id": "b",
+          "text": "1",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "c",
+          "text": "0",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{1}{|1-z|^2}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Let $z = \\cos\\theta + i\\sin\\theta$ with $\\theta \\neq 2k\\pi$:\n$$\\frac{1}{1-z} = \\frac{1}{(1-\\cos\\theta) - i\\sin\\theta} = \\frac{(1-\\cos\\theta) + i\\sin\\theta}{(1-\\cos\\theta)^2 + \\sin^2\\theta}$$\nDenominator:\n$$(1 - \\cos\\theta)^2 + \\sin^2\\theta = 1 - 2\\cos\\theta + \\cos^2\\theta + \\sin^2\\theta = 2(1 - \\cos\\theta)$$\nTaking the real part:\n$$\\text{Re}\\left(\\frac{1}{1-z}\\right) = \\frac{1 - \\cos\\theta}{2(1 - \\cos\\theta)} = \\frac{1}{2}$$",
+      "keyFormulae": [
+        "\\text{Re}\\left(\\frac{1}{1-z}\\right) = \\frac{1}{2} \\quad \\forall |z|=1, z \\neq 1"
+      ],
+      "hints": [
+        "Substitute $z = \\cos\\theta + i\\sin\\theta$.",
+        "Multiply by conjugate $(1-\\bar{z})$ and simplify."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "math-mock05-q64",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "subtopic": "Number of Real Solutions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The number of real solutions of $2^x = x^2$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "0",
+          "isCorrect": false,
+          "explanation": "Solutions exist."
+        },
+        {
+          "id": "b",
+          "text": "1",
+          "isCorrect": false,
+          "explanation": "Underestimated."
+        },
+        {
+          "id": "c",
+          "text": "2",
+          "isCorrect": false,
+          "explanation": "Misses negative root."
+        },
+        {
+          "id": "d",
+          "text": "3",
+          "isCorrect": true,
+          "explanation": "Graph $y = 2^x$ intersects $y = x^2$ at $x = 2$, $x = 4$, and exactly one negative root $x \\approx -0.767$, giving 3 distinct real solutions."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Analyzing intersections of $f(x) = 2^x$ and $g(x) = x^2$:\n1. For $x > 0$: By inspection, $x = 2$ ($2^2 = 2^2 = 4$) and $x = 4$ ($2^4 = 4^2 = 16$) are **2 positive integer solutions**.\n2. For $x < 0$: $2^x$ is strictly positive and decreasing to $0$ as $x \\to -\\infty$, while $x^2$ increases to $\\infty$.\n   - At $x = -1$: $2^{-1} = 0.5 < (-1)^2 = 1$\n   - At $x = 0$: $2^0 = 1 > 0^2 = 0$\n   By Intermediate Value Theorem, there exists **1 negative solution** in $(-1, 0)$ ($x \\approx -0.7667$).\nTotal number of real solutions $= 2 + 1 = 3$.",
+      "keyFormulae": [
+        "2^x = x^2 \\implies x = 2, \\; 4, \\; \\approx -0.767"
+      ],
+      "hints": [
+        "Check obvious integer powers for positive $x$.",
+        "Use the Intermediate Value Theorem on the interval $(-1, 0)$ for negative $x$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "d"
+    },
+    {
+      "id": "math-mock05-q65",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "subtopic": "Roots of Composite Polynomials",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "Let $f(x) = x^3 - 3x + 1$. The number of distinct real roots of $f(f(x)) = 0$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "5",
+          "isCorrect": false,
+          "explanation": "Underestimated."
+        },
+        {
+          "id": "b",
+          "text": "7",
+          "isCorrect": false,
+          "explanation": "Underestimated."
+        },
+        {
+          "id": "c",
+          "text": "9",
+          "isCorrect": true,
+          "explanation": "$f(t) = 0$ has 3 roots: $t_1 \\in (-2,-1), t_2 \\in (0,1), t_3 \\in (1,2)$. Since all $t_i \\in (-1, 3)$ (the range between local min $-1$ and local max $3$), each equation $f(x) = t_i$ has 3 distinct real roots $\\implies 3 \\times 3 = 9$ real roots."
+        },
+        {
+          "id": "d",
+          "text": "3",
+          "isCorrect": false,
+          "explanation": "Roots of $f(x)=0$ alone."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Critical points of $f(x) = x^3 - 3x + 1$:\n$$f'(x) = 3x^2 - 3 = 0 \\implies x = \\pm 1$$\n- Local maximum: $f(-1) = -1 + 3 + 1 = 3$\n- Local minimum: $f(1) = 1 - 3 + 1 = -1$\n2. The roots of $f(t) = 0$ are three distinct values $t_1, t_2, t_3$:\n$$t_1 \\in (-2, -1), \\quad t_2 \\in (0, 1), \\quad t_3 \\in (1, 2)$$\n3. Notice that all three roots satisfy $-1 < t_i < 3$ (strictly between local minimum and local maximum values of $f$).\n4. Therefore, the horizontal line $y = t_i$ intersects $y = f(x)$ at **3 distinct points** for each of $t_1, t_2, t_3$.\n5. Total distinct real roots of $f(f(x)) = 0$ is $3 \\times 3 = 9$.",
+      "keyFormulae": [
+        "f_{\\min} = -1 < t_i < f_{\\max} = 3 \\implies 3 \\times 3 = 9\\text{ roots}"
+      ],
+      "hints": [
+        "Find the local extrema of $f(x)$ and locate the 3 roots $t_1, t_2, t_3$ of $f(t) = 0$.",
+        "Check how many times $y = t_i$ intersects $y = f(x)$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "c"
+    },
+    {
+      "id": "math-mock05-q66",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "subtopic": "King's Property in Definite Integrals",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "$\\int_0^{\\pi/2} \\frac{\\sqrt{\\sin x}}{\\sqrt{\\sin x} + \\sqrt{\\cos x}} \\, dx$ equals:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{\\pi}{4}$",
+          "isCorrect": true,
+          "explanation": "Applying King's rule $x \\to \\pi/2 - x$ gives $I = \\int_0^{\\pi/2}\\frac{\\sqrt{\\cos x}}{\\sqrt{\\cos x}+\\sqrt{\\sin x}}dx \\implies 2I = \\int_0^{\\pi/2} 1 dx = \\pi/2 \\implies I = \\pi/4$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{\\pi}{2}$",
+          "isCorrect": false,
+          "explanation": "Value of $2I$."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{\\pi}{6}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "0",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Let $I = \\int_0^{\\pi/2} \\frac{\\sqrt{\\sin x}}{\\sqrt{\\sin x} + \\sqrt{\\cos x}} dx$.\nUsing the property $\\int_0^a f(x) dx = \\int_0^a f(a-x) dx$ with $a = \\pi/2$:\n$$I = \\int_0^{\\pi/2} \\frac{\\sqrt{\\sin(\\pi/2 - x)}}{\\sqrt{\\sin(\\pi/2 - x)} + \\sqrt{\\cos(\\pi/2 - x)}} dx = \\int_0^{\\pi/2} \\frac{\\sqrt{\\cos x}}{\\sqrt{\\cos x} + \\sqrt{\\sin x}} dx$$\nAdding both integrals:\n$$2I = \\int_0^{\\pi/2} \\frac{\\sqrt{\\sin x} + \\sqrt{\\cos x}}{\\sqrt{\\sin x} + \\sqrt{\\cos x}} dx = \\int_0^{\\pi/2} 1 \\, dx = \\frac{\\pi}{2}$$\n$$I = \\frac{\\pi}{4}$$",
+      "keyFormulae": [
+        "\\int_0^a f(x)dx = \\int_0^a f(a-x)dx"
+      ],
+      "hints": [
+        "Apply the identity $\\int_0^{\\pi/2} f(x)dx = \\int_0^{\\pi/2} f(\\pi/2 - x)dx$.",
+        "Add the original and transformed integrals."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "math-mock05-q67",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "subtopic": "Three Dice Probability",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "Three fair dice are rolled. The probability that the sum is 10 is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{1}{8}$",
+          "isCorrect": true,
+          "explanation": "Number of favorable outcomes summing to 10 with 3 dice is 27. Total outcomes $= 6^3 = 216$. Probability $= 27/216 = 1/8$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{27}{216}$",
+          "isCorrect": false,
+          "explanation": "Unsimplified form of A."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{1}{12}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{1}{6}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Total outcomes when rolling 3 fair dice: $n(S) = 6^3 = 216$.\nFinding favorable ordered triplets $(x_1, x_2, x_3)$ such that $x_1 + x_2 + x_3 = 10$ with $1 \\le x_i \\le 6$:\n- $(1,3,6): 3! = 6$\n- $(1,4,5): 3! = 6$\n- $(2,2,6): 3!/2! = 3$\n- $(2,3,5): 3! = 6$\n- $(2,4,4): 3!/2! = 3$\n- $(3,3,4): 3!/2! = 3$\nTotal favorable outcomes $= 6 + 6 + 3 + 6 + 3 + 3 = 27$.\n$$P(\\text{Sum} = 10) = \\frac{27}{216} = \\frac{1}{8}$$",
+      "keyFormulae": [
+        "P = \\frac{n(E)}{n(S)} = \\frac{27}{216} = \\frac{1}{8}"
+      ],
+      "hints": [
+        "List partitions of 10 into 3 integers between 1 and 6.",
+        "Account for permutations of each partition."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "math-mock05-q68",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Combinatorics",
+      "subtopic": "Distribution of Identical Objects",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The number of ways to distribute 12 identical chocolates among 4 children such that each gets at least 1 is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "165",
+          "isCorrect": true,
+          "explanation": "Positive integer solutions to $x_1+x_2+x_3+x_4 = 12$ is $\\binom{12-1}{4-1} = \\binom{11}{3} = \\frac{11 \\times 10 \\times 9}{6} = 165$."
+        },
+        {
+          "id": "b",
+          "text": "220",
+          "isCorrect": false,
+          "explanation": "$\\binom{12}{3}$."
+        },
+        {
+          "id": "c",
+          "text": "286",
+          "isCorrect": false,
+          "explanation": "Non-negative integer solutions $\\binom{15}{3}$."
+        },
+        {
+          "id": "d",
+          "text": "495",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Distributing $n = 12$ identical items among $k = 4$ distinct recipients with each receiving $\\ge 1$ item corresponds to positive integer solutions of:\n$$x_1 + x_2 + x_3 + x_4 = 12 \\quad (x_i \\ge 1)$$\nBy the stars and bars theorem:\n$$\\text{Number of ways} = \\binom{n-1}{k-1} = \\binom{12-1}{4-1} = \\binom{11}{3} = \\frac{11 \\times 10 \\times 9}{3 \\times 2 \\times 1} = 165$$",
+      "keyFormulae": [
+        "\\binom{n-1}{k-1}"
+      ],
+      "hints": [
+        "Give 1 chocolate to each child first, leaving 8 chocolates.",
+        "Distribute 8 chocolates among 4 children using $\\binom{8+4-1}{4-1} = \\binom{11}{3}$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "math-mock05-q69",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "subtopic": "Leibniz Rule & Local Minima",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "Let $f(x) = \\int_0^x (t^2 - 4t + 3)e^{t^2} \\, dt$. The number of points of local minima is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "0",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "b",
+          "text": "1",
+          "isCorrect": true,
+          "explanation": "$f'(x) = (x-1)(x-3)e^{x^2} = 0 \\implies x = 1, 3$. Sign of $f'(x)$ changes $- \\to +$ only at $x = 3$, giving 1 local minimum."
+        },
+        {
+          "id": "c",
+          "text": "2",
+          "isCorrect": false,
+          "explanation": "Total critical points count."
+        },
+        {
+          "id": "d",
+          "text": "3",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "By the Fundamental Theorem of Calculus (Leibniz Rule):\n$$f'(x) = (x^2 - 4x + 3)e^{x^2} = (x - 1)(x - 3)e^{x^2}$$\nSince $e^{x^2} > 0$ for all real $x$, critical points occur where $f'(x) = 0 \\implies x = 1, 3$.\n- For $x < 1$: $f'(x) > 0$\n- For $1 < x < 3$: $f'(x) < 0 \\implies x = 1$ is a **local maximum**\n- For $x > 3$: $f'(x) > 0 \\implies x = 3$ is a **local minimum**\nThus, there is exactly **1 point of local minimum** (at $x = 3$).",
+      "keyFormulae": [
+        "f'(x) = (x-1)(x-3)e^{x^2}"
+      ],
+      "hints": [
+        "Differentiate $f(x)$ using Leibniz Rule.",
+        "Test sign change of $f'(x)$ at $x = 1$ and $x = 3$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "math-mock05-q70",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Complex Numbers",
+      "subtopic": "Apollonius Circle",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The locus of $z$ satisfying $\\left|\\frac{z-1}{z+1}\\right| = 2$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "A circle with center $\\left(-\\frac{5}{3}, 0\\right)$ and radius $\\frac{4}{3}$",
+          "isCorrect": true,
+          "explanation": "$|z-1|^2 = 4|z+1|^2 \\implies (x-1)^2+y^2 = 4((x+1)^2+y^2) \\implies 3x^2+3y^2+10x+3=0 \\implies (x+5/3)^2+y^2 = (4/3)^2$."
+        },
+        {
+          "id": "b",
+          "text": "A circle with center $\\left(\\frac{5}{3}, 0\\right)$ and radius $\\frac{4}{3}$",
+          "isCorrect": false,
+          "explanation": "Center sign error."
+        },
+        {
+          "id": "c",
+          "text": "A straight line",
+          "isCorrect": false,
+          "explanation": "Ratio equals 1 gives line."
+        },
+        {
+          "id": "d",
+          "text": "A circle with center $(-3, 0)$ and radius 4",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Let $z = x + iy$:\n$$|x - 1 + iy|^2 = 4|x + 1 + iy|^2$$\n$$(x - 1)^2 + y^2 = 4\\left[(x + 1)^2 + y^2\\right]$$\n$$x^2 - 2x + 1 + y^2 = 4x^2 + 8x + 4 + 4y^2$$\n$$3x^2 + 3y^2 + 10x + 3 = 0$$\n$$x^2 + y^2 + \\frac{10}{3}x + 1 = 0$$\n$$\\left(x + \\frac{5}{3}\\right)^2 + y^2 = \\frac{25}{9} - 1 = \\frac{16}{9} = \\left(\\frac{4}{3}\\right)^2$$\nThis is a circle with **center $\\left(-\\frac{5}{3}, 0\\right)$ and radius $\\frac{4}{3}$**.",
+      "keyFormulae": [
+        "\\left(x + \\frac{5}{3}\\right)^2 + y^2 = \\left(\\frac{4}{3}\\right)^2"
+      ],
+      "hints": [
+        "Substitute $z = x + iy$ and square both sides.",
+        "Complete the square for $x$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "math-mock05-q71",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Combinatorics",
+      "subtopic": "Binomial Identity via Integration",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "$\\sum_{k=0}^n \\binom{n}{k} \\frac{(-1)^k}{k+2}$ equals:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{1}{(n+1)(n+2)}$",
+          "isCorrect": true,
+          "explanation": "$\\sum_{k=0}^n \\binom{n}{k}(-1)^k \\frac{1}{k+2} = \\int_0^1 x(1-x)^n dx = B(2, n+1) = \\frac{1! n!}{(n+2)!} = \\frac{1}{(n+1)(n+2)}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{1}{n+2}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{1}{n+1}$",
+          "isCorrect": false,
+          "explanation": "Applies to $\\sum (-1)^k \\binom{n}{k}/(k+1)$."
+        },
+        {
+          "id": "d",
+          "text": "0",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Using the integral identity $\\frac{1}{k+2} = \\int_0^1 x^{k+1} dx = \\int_0^1 x \\cdot x^k dx$:\n$$\\sum_{k=0}^n \\binom{n}{k} (-1)^k \\frac{1}{k+2} = \\int_0^1 x \\left[\\sum_{k=0}^n \\binom{n}{k}(-x)^k\\right] dx = \\int_0^1 x(1 - x)^n dx$$\nUsing Beta function / integration by parts:\n$$\\int_0^1 x(1-x)^n dx = \\left[ -x \\frac{(1-x)^{n+1}}{n+1} \\right]_0^1 + \\frac{1}{n+1} \\int_0^1 (1-x)^{n+1} dx$$\n$$= 0 + \\frac{1}{n+1} \\left[ -\\frac{(1-x)^{n+2}}{n+2} \\right]_0^1 = \\frac{1}{(n+1)(n+2)}$$",
+      "keyFormulae": [
+        "\\int_0^1 x(1-x)^n dx = \\frac{1}{(n+1)(n+2)}"
+      ],
+      "hints": [
+        "Express $\\frac{1}{k+2}$ as $\\int_0^1 x^{k+1} dx$.",
+        "Use the binomial theorem to collapse the sum into $(1-x)^n$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "math-mock05-q72",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "subtopic": "Differentiability vs Derivative Continuity",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "Let $f(x) = \\begin{cases} x^2 \\sin(1/x) & x \\neq 0 \\\\ 0 & x = 0 \\end{cases}$. At $x = 0$:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$f$ is not differentiable",
+          "isCorrect": false,
+          "explanation": "Derivative exists and is 0."
+        },
+        {
+          "id": "b",
+          "text": "$f$ is differentiable but $f'$ is not continuous",
+          "isCorrect": true,
+          "explanation": "$f'(0) = 0$, but for $x \\neq 0$, $f'(x) = 2x\\sin(1/x) - \\cos(1/x)$, which oscillates between $-1$ and $+1$ without a limit as $x \\to 0$."
+        },
+        {
+          "id": "c",
+          "text": "$f'$ is continuous",
+          "isCorrect": false,
+          "explanation": "$\\lim_{x\\to 0} \\cos(1/x)$ does not exist."
+        },
+        {
+          "id": "d",
+          "text": "$f$ is not continuous",
+          "isCorrect": false,
+          "explanation": "Continuous everywhere."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Differentiability at $x = 0$:\n$$f'(0) = \\lim_{h \\to 0} \\frac{f(h) - f(0)}{h} = \\lim_{h \\to 0} \\frac{h^2 \\sin(1/h)}{h} = \\lim_{h \\to 0} h \\sin(1/h) = 0$$\nSo $f$ is differentiable at $x = 0$ with $f'(0) = 0$.\n2. Derivative for $x \\neq 0$:\n$$f'(x) = 2x \\sin(1/x) - \\cos(1/x)$$\n3. Limit as $x \\to 0$:\n$$\\lim_{x \\to 0} f'(x) = \\lim_{x \\to 0} [2x \\sin(1/x) - \\cos(1/x)]$$\nSince $\\lim_{x \\to 0} 2x\\sin(1/x) = 0$ while $-\\cos(1/x)$ oscillates between $-1$ and $+1$, the limit does not exist.\nTherefore, $f$ is **differentiable everywhere, but $f'$ is discontinuous at $x = 0$**.",
+      "keyFormulae": [
+        "f'(0) = 0",
+        "f'(x) = 2x\\sin(1/x) - \\cos(1/x) \\implies \\lim_{x\\to 0} f'(x) \\text{ DNE}"
+      ],
+      "hints": [
+        "Evaluate $f'(0)$ using the limit definition.",
+        "Differentiate using product rule and check $\\lim_{x \\to 0} f'(x)$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "math-mock05-q73",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "subtopic": "Area Bounded by Absolute Value Functions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The area bounded by $y = |x-1|$ and $y = 1$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "1",
+          "isCorrect": true,
+          "explanation": "Intersection points: $|x-1| = 1 \\implies x = 0, 2$. Area of triangle with base from $x=0$ to $x=2$ (base $= 2$) and height $= 1$ is $\\frac{1}{2} \\times 2 \\times 1 = 1$."
+        },
+        {
+          "id": "b",
+          "text": "2",
+          "isCorrect": false,
+          "explanation": "Double the area."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{1}{2}$",
+          "isCorrect": false,
+          "explanation": "Half of the triangle."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{3}{2}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Find intersection points of $y = |x - 1|$ and $y = 1$:\n$$|x - 1| = 1 \\implies x - 1 = \\pm 1 \\implies x = 0, \\; x = 2$$\n2. The enclosed region is a triangle with vertices at $(0, 1)$, $(2, 1)$, and $(1, 0)$:\n- Base along line $y = 1$: $b = 2 - 0 = 2$\n- Height from apex $(1, 0)$ to base: $h = 1 - 0 = 1$\n$$\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 2 \\times 1 = 1$$",
+      "keyFormulae": [
+        "\\text{Area} = \\int_0^2 (1 - |x-1|) dx = 1"
+      ],
+      "hints": [
+        "Plot the line $y = 1$ and the V-shaped curve $y = |x-1|$.",
+        "Calculate the area of the resulting triangle."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "math-mock05-q74",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Number Theory",
+      "subtopic": "Quadratic Residues & Modular Solvability",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The number of integers $n$ with $1 \\le n \\le 100$ such that $n^2 + 2$ is divisible by 7 is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "0",
+          "isCorrect": true,
+          "explanation": "$n^2+2 \\equiv 0 \\pmod 7 \\implies n^2 \\equiv 5 \\pmod 7$. The quadratic residues mod 7 are $\\{0, 1, 2, 4\\}$; since 5 is a non-residue, no integer satisfies this congruence."
+        },
+        {
+          "id": "b",
+          "text": "14",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "c",
+          "text": "28",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "100",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "We need to solve the congruence:\n$$n^2 + 2 \\equiv 0 \\pmod 7 \\implies n^2 \\equiv -2 \\equiv 5 \\pmod 7$$\nTesting all possible squares modulo 7:\n- $0^2 \\equiv 0 \\pmod 7$\n- $(\\pm 1)^2 \\equiv 1 \\pmod 7$\n- $(\\pm 2)^2 \\equiv 4 \\pmod 7$\n- $(\\pm 3)^2 \\equiv 9 \\equiv 2 \\pmod 7$\nThe quadratic residues modulo 7 are $\\{0, 1, 2, 4\\}$.\nSince $5$ is not a quadratic residue modulo 7, the congruence has **0 solutions** for all integers $n$.",
+      "keyFormulae": [
+        "n^2 \\not\\equiv 5 \\pmod 7 \\implies 0\\text{ solutions}"
+      ],
+      "hints": [
+        "Calculate the square of every integer modulo 7 ($0, 1, 2, 3, 4, 5, 6$).",
+        "Check if any square leaves remainder 5."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "math-mock05-q75",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Algebra",
+      "subtopic": "AM-HM & Cauchy-Schwarz Inequality",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "If $a, b, c > 0$ and $a + b + c = 1$, the minimum value of $\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c}$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "3",
+          "isCorrect": false,
+          "explanation": "Underestimated."
+        },
+        {
+          "id": "b",
+          "text": "6",
+          "isCorrect": false,
+          "explanation": "Underestimated."
+        },
+        {
+          "id": "c",
+          "text": "9",
+          "isCorrect": true,
+          "explanation": "By AM-HM inequality: $\\frac{a+b+c}{3} \\ge \\frac{3}{1/a + 1/b + 1/c} \\implies \\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} \\ge \\frac{9}{a+b+c} = 9$."
+        },
+        {
+          "id": "d",
+          "text": "12",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "By the Arithmetic Mean - Harmonic Mean (AM-HM) inequality for positive numbers $a, b, c$:\n$$\\frac{a + b + c}{3} \\ge \\frac{3}{\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c}}$$\n$$\\left(\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c}\\right)(a + b + c) \\ge 9$$\nGiven $a + b + c = 1$:\n$$\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} \\ge 9$$\nEquality holds when $a = b = c = 1/3$, giving minimum value **9**.",
+      "keyFormulae": [
+        "(a+b+c)\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) \\ge 9"
+      ],
+      "hints": [
+        "Use the AM-HM inequality or Cauchy-Schwarz inequality.",
+        "The minimum occurs when $a = b = c = 1/3$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "c"
+    },
+    {
+      "id": "math-mock05-q76",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Algebra",
+      "subtopic": "Binomial Polynomial Roots",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The number of real roots of $x^4 - 4x^3 + 6x^2 - 4x + 1 = 0$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "0",
+          "isCorrect": false,
+          "explanation": "Root exists."
+        },
+        {
+          "id": "b",
+          "text": "1",
+          "isCorrect": true,
+          "explanation": "The polynomial is $(x-1)^4 = 0$, which has exactly 1 distinct real root ($x = 1$ with multiplicity 4)."
+        },
+        {
+          "id": "c",
+          "text": "2",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "4",
+          "isCorrect": false,
+          "explanation": "Total roots counting multiplicity, not distinct."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Recognize the binomial expansion coefficients: $\\binom{4}{0}, -\\binom{4}{1}, \\binom{4}{2}, -\\binom{4}{3}, \\binom{4}{4}$:\n$$x^4 - 4x^3 + 6x^2 - 4x + 1 = (x - 1)^4 = 0$$\n$$(x - 1)^4 = 0 \\implies x = 1$$\nTherefore, there is exactly **1 distinct real root** ($x = 1$ of multiplicity 4).",
+      "keyFormulae": [
+        "(x - 1)^4 = x^4 - 4x^3 + 6x^2 - 4x + 1"
+      ],
+      "hints": [
+        "Recognize the coefficients $1, -4, 6, -4, 1$ as the 4th row of Pascal's triangle."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "math-mock05-q77",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "subtopic": "Continuous Random Variable Probability",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A continuous random variable $X$ has PDF $f(x) = kx^2$ for $0 \\le x \\le 1$. Then $P(X > 1/2)$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{1}{8}$",
+          "isCorrect": false,
+          "explanation": "$P(X \\le 1/2)$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{7}{8}$",
+          "isCorrect": true,
+          "explanation": "$\\int_0^1 k x^2 dx = 1 \\implies k = 3$. $P(X > 1/2) = \\int_{1/2}^1 3x^2 dx = [x^3]_{1/2}^1 = 1 - (1/2)^3 = 1 - 1/8 = 7/8$."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{1}{2}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{3}{4}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Normalization condition $\\int_0^1 f(x) dx = 1$:\n$$\\int_0^1 k x^2 dx = k \\left[ \\frac{x^3}{3} \\right]_0^1 = \\frac{k}{3} = 1 \\implies k = 3$$\n2. Calculate probability $P(X > 1/2)$:\n$$P\\left(X > \\frac{1}{2}\\right) = \\int_{1/2}^1 3x^2 dx = \\left[ x^3 \\right]_{1/2}^1 = 1^3 - \\left(\\frac{1}{2}\\right)^3 = 1 - \\frac{1}{8} = \\frac{7}{8}$$",
+      "keyFormulae": [
+        "\\int_0^1 f(x)dx = 1",
+        "P(X > a) = \\int_a^1 f(x)dx"
+      ],
+      "hints": [
+        "Normalize the probability density function to find $k = 3$.",
+        "Integrate $3x^2$ from $1/2$ to $1$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "math-mock05-q78",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Sequences & Series",
+      "subtopic": "Telescoping Series",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "$\\sum_{n=1}^\\infty \\frac{1}{n(n+1)}$ equals:",
+      "options": [
+        {
+          "id": "a",
+          "text": "1",
+          "isCorrect": true,
+          "explanation": "Telescoping sum $\\sum_{n=1}^\\infty \\left(\\frac{1}{n} - \\frac{1}{n+1}\\right) = 1 - \\lim_{N\\to\\infty}\\frac{1}{N+1} = 1$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{1}{2}$",
+          "isCorrect": false,
+          "explanation": "First term."
+        },
+        {
+          "id": "c",
+          "text": "$\\infty$",
+          "isCorrect": false,
+          "explanation": "Series converges."
+        },
+        {
+          "id": "d",
+          "text": "2",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Using partial fractions:\n$$\\frac{1}{n(n+1)} = \\frac{1}{n} - \\frac{1}{n+1}$$\nThe partial sum $S_N$ is a telescoping series:\n$$S_N = \\sum_{n=1}^N \\left(\\frac{1}{n} - \\frac{1}{n+1}\\right) = \\left(1 - \\frac{1}{2}\\right) + \\left(\\frac{1}{2} - \\frac{1}{3}\\right) + \\cdots + \\left(\\frac{1}{N} - \\frac{1}{N+1}\\right) = 1 - \\frac{1}{N+1}$$\nTaking the limit as $N \\to \\infty$:\n$$\\sum_{n=1}^\\infty \\frac{1}{n(n+1)} = \\lim_{N \\to \\infty} \\left(1 - \\frac{1}{N+1}\\right) = 1$$",
+      "keyFormulae": [
+        "\\frac{1}{n(n+1)} = \\frac{1}{n} - \\frac{1}{n+1}"
+      ],
+      "hints": [
+        "Decompose the term into partial fractions.",
+        "Sum terms and cancel intermediate opposites."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    },
+    {
+      "id": "math-mock05-q79",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Functions",
+      "subtopic": "Range of Rational Algebraic Functions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The range of $f(x) = \\frac{x}{x^2+1}$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$[-1, 1]$",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        },
+        {
+          "id": "b",
+          "text": "$\\left[-\\frac{1}{2}, \\frac{1}{2}\\right]$",
+          "isCorrect": true,
+          "explanation": "$y(x^2+1) = x \\implies yx^2 - x + y = 0$. For real $x$, $\\Delta = 1 - 4y^2 \\ge 0 \\implies y^2 \\le 1/4 \\implies -1/2 \\le y \\le 1/2$."
+        },
+        {
+          "id": "c",
+          "text": "$\\left(-\\frac{1}{2}, \\frac{1}{2}\\right)$",
+          "isCorrect": false,
+          "explanation": "Excludes boundaries (attained at $x = \\pm 1$)."
+        },
+        {
+          "id": "d",
+          "text": "$\\mathbb{R}$",
+          "isCorrect": false,
+          "explanation": "Bounded function."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Let $y = \\frac{x}{x^2 + 1}$:\n$$y x^2 - x + y = 0$$\n1. If $y = 0$, $x = 0 \\in \\mathbb{R}$.\n2. For $y \\neq 0$, the quadratic in $x$ must have real roots, so its discriminant must be non-negative:\n$$\\Delta = (-1)^2 - 4(y)(y) \\ge 0$$\n$$1 - 4y^2 \\ge 0 \\implies 4y^2 \\le 1 \\implies y^2 \\le \\frac{1}{4}$$\n$$-\\frac{1}{2} \\le y \\le \\frac{1}{2}$$\nHence, the range of $f(x)$ is **$\\left[-\\frac{1}{2}, \\frac{1}{2}\\right]$**.",
+      "keyFormulae": [
+        "y x^2 - x + y = 0 \\implies \\Delta = 1 - 4y^2 \\ge 0 \\implies y \\in [-1/2, 1/2]"
+      ],
+      "hints": [
+        "Set $y = \\frac{x}{x^2+1}$ and form a quadratic in $x$.",
+        "Apply the condition $\\text{Discriminant} \\ge 0$ for real $x$."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "b"
+    },
+    {
+      "id": "math-mock05-q80",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Permutations & Combinations",
+      "subtopic": "Permutations with Repetition & Gap Method",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The number of ways to arrange the letters of \"MISSISSIPPI\" such that no two S's are adjacent is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "7350",
+          "isCorrect": true,
+          "explanation": "Arrange non-S letters (1 M, 4 I, 2 P) in $\\frac{7!}{4! 2!} = 105$ ways, creating 8 gaps. Choose 4 gaps for the 4 identical S's in $\\binom{8}{4} = 70$ ways. Total $= 105 \\times 70 = 7350$."
+        },
+        {
+          "id": "b",
+          "text": "8820",
+          "isCorrect": false,
+          "explanation": "Overcounted."
+        },
+        {
+          "id": "c",
+          "text": "4410",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "2205",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Letters of 'MISSISSIPPI': 1 M, 4 I, 4 S, 2 P (total 11 letters).\n1. First arrange the 7 non-S letters (1 M, 4 I, 2 P):\n$$\\text{Ways} = \\frac{7!}{1! \\cdot 4! \\cdot 2!} = \\frac{5040}{24 \\times 2} = 105$$\n2. These 7 arranged letters create 8 available spaces (gaps) at the ends and between them.\n3. Place the 4 identical S's into 4 of these 8 gaps so that no two S's are adjacent:\n$$\\text{Ways} = \\binom{8}{4} = \\frac{8 \\times 7 \\times 6 \\times 5}{4 \\times 3 \\times 2 \\times 1} = 70$$\n4. Total valid arrangements:\n$$N = 105 \\times 70 = 7350$$",
+      "keyFormulae": [
+        "\\text{Total Ways} = \\frac{7!}{4! 2!} \\times \\binom{8}{4} = 105 \\times 70 = 7350"
+      ],
+      "hints": [
+        "Arrange the letters M, I, I, I, I, P, P first.",
+        "Use the gap method to place the 4 identical S's into the 8 available spaces."
+      ],
+      "isImageBased": false,
+      "correctAnswer": "a"
+    }
+  ]
+}

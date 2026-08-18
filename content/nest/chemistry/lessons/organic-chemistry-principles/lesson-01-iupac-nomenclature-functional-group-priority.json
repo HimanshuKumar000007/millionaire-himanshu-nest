@@ -1,0 +1,58 @@
+{
+  "id": "chem-xi-u8-c8-l01",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VIII \u2014 Organic Chemistry: Basic Principles and Techniques",
+  "unitNumber": 8,
+  "chapter": "Organic Chemistry Principles & Techniques",
+  "chapterNumber": 8,
+  "chapterSlug": "organic-chemistry-principles",
+  "slug": "lesson-01-iupac-nomenclature-functional-group-priority",
+  "title": "IUPAC Nomenclature Rules & Functional Group Priority Hierarchy",
+  "topic": "IUPAC Nomenclature",
+  "topics": [
+    "IUPAC Name Architecture (Secondary Prefix + Primary Prefix + Root Word + Primary Suffix + Secondary Suffix)",
+    "Principal Functional Group Priority Hierarchy (-COOH > -SO\u2083H > -COOR > -COX > -CONH\u2082 > -CN > -CHO > -C=O > -OH > -SH > -NH\u2082 > -C=C- > -C\u2261C-)",
+    "Substituent Prefixes vs Principal Suffixes",
+    "Poly-functional Compound Numbering and Alphabetical Locant Rules"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "organic-chemistry-principles",
+  "quickSummary": "IUPAC name = Secondary Prefix + Primary Prefix + Root Word + Primary Suffix + Secondary Suffix. Priority: -COOH > -SO\u2083H > -COOR > -COX > -CONH\u2082 > -CN > -CHO > -C=O > -OH > -SH > -NH\u2082 > -C=C- > -C\u2261C-.",
+  "summary": "Master IUPAC naming architecture, functional group priority order, and poly-functional compound nomenclature.",
+  "conceptBreakdown": [
+    {
+      "heading": "1.1 IUPAC Name Architecture",
+      "title": "1.1 IUPAC Name Architecture",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "IUPAC Framework",
+        "takeaway": "Secondary Prefix (Substituents) \u2192 Primary Prefix (Cyclo/Bicyclo) \u2192 Root Word (C-Chain length) \u2192 Primary Suffix (Alkane/ene/yne) \u2192 Secondary Suffix (Principal Functional Group)."
+      },
+      "codeSnippet": "IUPAC NAME ARCHITECTURE\n                                    \u2502\n   [ Secondary Prefix ] \u2500\u2500\u25ba [ Primary Prefix ] \u2500\u2500\u25ba [ Root Word ] \u2500\u2500\u25ba [ Primary Suffix ] \u2500\u2500\u25ba [ Secondary Suffix ]\n   (Substituents/Cl,Me)    (Cyclo/Bicyclo)       (C-Chain length)  (Alkane/ene/yne)      (Principal Functional)",
+      "content": "Organic compounds are systematically named according to IUPAC rules:\n\n1. **Root Word**: Indicates the length of the longest continuous principal carbon chain (*meth-, eth-, prop-, but-, pent-, hex-, etc.*).\n2. **Primary Suffix**: Indicates saturation/unsaturation (*-ane, -ene, -yne*).\n3. **Secondary Suffix**: Identifies the principal functional group (*-oic acid, -al, -one, -ol, -amine*).\n4. **Primary Prefix**: Distinguishes cyclic/acyclic framework (*cyclo-, bicyclo-, spiro-*).\n5. **Secondary Prefix**: Denotes substituents/side chains (*chloro-, bromo-, methyl-, nitro-, alkoxy-*)."
+    },
+    {
+      "heading": "1.2 Principal Functional Group Priority Hierarchy",
+      "title": "1.2 Principal Functional Group Priority Hierarchy",
+      "type": "paragraph",
+      "codeSnippet": "FUNCTIONAL GROUP PRIORITY ORDER (HIGHEST TO LOWEST)\n\n   -COOH > -SO\u2083H > -COOR > -COX > -CONH\u2082 > -CN > -CHO > -C=O > -OH > -SH > -NH\u2082 > -C=C- > -C\u2261C-",
+      "content": "When a molecule contains multiple functional groups, the highest-ranking group serves as the **Principal Functional Group** (Secondary Suffix), while all lower priority groups are named as **Secondary Prefixes (Substituents)**:\n\n\u2022 $-\\text{COOH}$ (*-oic acid* / *Carboxy-*)\n\u2022 $-\\text{SO}_3\\text{H}$ (*-sulfonic acid* / *Sulfo-*)\n\u2022 $-\\text{COOR}$ (*-oate* / *Alkoxycarbonyl-*)\n\u2022 $-\\text{COX}$ (*-oyl halide* / *Halocarbonyl-*)\n\u2022 $-\\text{CONH}_2$ (*-amide* / *Carbamoyl-*)\n\u2022 $-\\text{CN}$ (*-nitrile* / *Cyano-*)\n\u2022 $-\\text{CHO}$ (*-al* / *Formyl-* or *Oxo-*)\n\u2022 $-\\text{COR}$ (*-one* / *Oxo-* or *Keto-*)\n\u2022 $-\\text{OH}$ (*-ol* / *Hydroxy-*)\n\u2022 $-\\text{SH}$ (*-thiol* / *Mercapto-*)\n\u2022 $-\\text{NH}_2$ (*-amine* / *Amino-*)\n\u2022 $-\\text{C=C}-$ (*-ene*) $>$ $-\\text{C}\\equiv\\text{C}-$ (*-yne*)."
+    }
+  ],
+  "quickRevision": [
+    "-COOH has the highest priority among all functional groups.",
+    "Double bonds take priority over triple bonds when deciding numbering direction in a tie.",
+    "All functional groups lower than the principal group are named as prefixes in alphabetical order.",
+    "Aldehyde is -CHO (Formyl/Oxo); Ketone is -CO- (Oxo/Keto)."
+  ],
+  "keyFormulae": [
+    "\\text{IUPAC Name} = \\text{Prefix} + \\text{Root Word} + \\text{Primary Suffix} + \\text{Secondary Suffix}"
+  ]
+}

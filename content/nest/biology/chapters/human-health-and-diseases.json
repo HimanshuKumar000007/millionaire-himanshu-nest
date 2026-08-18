@@ -1,0 +1,158 @@
+{
+  "id": "bio-xii-u8-c7",
+  "chapterNumber": 7,
+  "chapterTitle": "Human Health and Diseases",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unitNumber": 8,
+  "unitTitle": "Biology in Human Welfare",
+  "slug": "human-health-and-diseases",
+  "estimatedReadingTimeMinutes": 170,
+  "difficulty": "High-Yield",
+  "status": "published",
+  "summary": "Covers human pathology and immunology: Spectrum of human pathogens (Bacterial: Typhoid, Pneumonia; Viral: Common cold, Dengue, Chikungunya; Helminthic: Filariasis, Ascariasis; Protozoan: Amoebiasis; Fungal: Ringworm), Dual-host life cycle of Plasmodium and malarial pathogenesis (Hemozoin toxin), Innate immunity barriers (Physical, Physiological, Cellular, Cytokine Interferons), Acquired immunity (Humoral H2L2 antibodies, Cell-Mediated CMI and graft rejection), Five immunoglobulin isotypes (IgG, IgA, IgM, IgE, IgD), Active vs Passive immunity and vaccine biotechnology (Hepatitis B recombinant in yeast), Allergic hypersensitivity cascade and Autoimmunity, Cancer biology (loss of contact inhibition, metastasis, carcinogens, alpha-interferon immunotherapy), HIV/AIDS virology (Reverse transcriptase, Macrophage HIV factory, CD4+ T-cell collapse), Pharmacology of abused substances (Opioids/Heroin, Cannabinoids, Cocaine dopamine reuptake, Hallucinogens), and Alcohol/Tobacco pathology.",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "id": "sec-07-01",
+      "title": "Pathogens & Parasitic Human Diseases: Spectrum & Vectors",
+      "topic": "Bacterial, Viral, Helminthic, Protozoan, & Fungal Pathologies",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Pathogens encompass Bacteria (Typhoid - Widal test; Pneumonia - fluid alveoli), Viruses (Common cold - Rhinovirus; Dengue - Aedes), Helminths (Filariasis - Culex, Ascariasis), Protozoans (Amoebiasis - Entamoeba), and Fungi (Ringworm)."
+      },
+      "codeSnippet": "HUMAN PATHOGEN CLASSES\n                                       │\n     ┌──────────────────┬──────────────┼──────────────┬──────────────────┐\n     ▼                  ▼              ▼              ▼                  ▼\n  BACTERIAL          VIRAL           PROTOZOAN      HELMINTHIC          FUNGAL\n  ├── Typhoid        ├── Common Cold ├── Malaria    ├── Filariasis      └── Ringworm\n  └── Pneumonia      ├── Dengue      └── Amoebiasis └── Ascariasis\n                     └── Chikungunya",
+      "content": "### 1.1 Pathogen Classification & Clinical Spectrum\n- **Bacterial**: Typhoid (*S. typhi*, Widal test) and Pneumonia (*S. pneumoniae*, alveoli fluid).\n- **Viral**: Common cold (*Rhinovirus*, nose/upper passage), Dengue & Chikungunya (*Aedes aegypti*).\n- **Helminthic & Others**: Filariasis (*Wuchereria*, *Culex* vector), Amoebiasis (*Entamoeba*), Ringworm (*Microsporum*)."
+    },
+    {
+      "sectionNumber": 2,
+      "id": "sec-07-02",
+      "title": "Life Cycle of Plasmodium & Malarial Pathogenesis",
+      "topic": "Dual-Host Schizogony, Hemozoin Toxin, & Anopheles Vector Transmission",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Plasmodium dual-host cycle: Human (asexual liver and RBC schizogony releasing Hemozoin fever toxin) and Mosquito (sexual gut syngamy, ookinete, oocyst, and sporozoite salivary migration)."
+      },
+      "codeSnippet": "PLASMODIUM DUAL-HOST LIFE CYCLE\n                        \n    HUMAN HOST (Asexual Cycle / Intermediate)      MOSQUITO HOST (Sexual Cycle / Definitive)\n    \n  Anopheles bite injects SPOROZOITES            Female Anopheles ingests GAMETOCYTES\n                 │                                                │\n  Liver Schizogony (Exo-erythrocytic)               Syngamy in Mosquito Midgut Stomach\n                 │                                                │\n  Erythrocytic Schizogony (RBCs)                    Ookinete ──► Oocyst ──► Sporogony\n                 │                                                │\n  RBC Rupture releases HEMOZOIN TOXIN            SPOROZOITES migrate to Salivary Glands\n  (Causes cyclic high fever & chills)                             │\n                 │                                                ▼\n  Forms Gametocytes (n) ─────────────────────────► Injected into Human Blood",
+      "content": "### 2.1 Malarial Life Cycle\n- **Human Stage**: Sporozoites enter liver cells $\\rightarrow$ merozoites burst liver cells $\\rightarrow$ invade RBCs $\\rightarrow$ RBC lysis releases **Hemozoin** (cyclic fever/chills) + gametocytes.\n- **Mosquito Stage**: Midgut syngamy $\\rightarrow$ motile ookinete $\\rightarrow$ oocyst $\\rightarrow$ sporozoites in salivary glands."
+    },
+    {
+      "sectionNumber": 3,
+      "id": "sec-07-03",
+      "title": "Innate Immunity Barriers & Cytokine Signaling",
+      "topic": "Physical, Physiological, Cellular, & Cytokine Barriers (Interferons)",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Innate immunity: Physical (skin/mucus), Physiological (HCl/lysozyme), Cellular (PMN-neutrophils, macrophages, NK cells), and Cytokines (antiviral Interferons protecting uninfected cells)."
+      },
+      "codeSnippet": "INNATE IMMUNITY BARRIERS\n                                       │\n     ┌──────────────────┬──────────────┴──────────────┬──────────────────┐\n     ▼                  ▼                             ▼                  ▼\nPHYSICAL BARRIERS   PHYSIOLOGICAL BARRIERS        CELLULAR BARRIERS    CYTOKINE BARRIERS\n├── Skin (Keratin)  ├── Stomach HCl (pH 1.8)      ├── PMN-Neutrophils  └── Interferons\n└── Mucous Epithelium└── Tears/Saliva (Lysozyme)  ├── Monocytes & Macrophages (IFN-α, β, γ)\n                                                  └── Natural Killer (NK) Cells",
+      "content": "### 3.1 Innate Barriers\n- **Four Barriers**: Physical (Skin, Mucus), Physiological (Stomach $\\text{HCl}$, Lysozyme), Cellular (PMNs, Macrophages, NK cells), and Cytokine (Interferons $\\text{IFN}-\\alpha, \\beta, \\gamma$)."
+    },
+    {
+      "sectionNumber": 4,
+      "id": "sec-07-04",
+      "title": "Acquired Immunity: Humoral vs Cell-Mediated & Antibodies",
+      "topic": "B vs T Lymphocytes, H2L2 Antibody Structure, & Immunoglobulin Isotypes (IgG, IgA, IgM, IgE, IgD)",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Humoral immunity (B-cells, plasma cells, antibodies) vs Cell-Mediated CMI (T-cells, graft rejection). H2L2 antibody structure with disulfide bonds. Isotypes: IgG (placenta), IgA (colostrum), IgM (pentamer), IgE (allergy)."
+      },
+      "codeSnippet": "ACQUIRED IMMUNITY BRANCHES\n                                        │\n         ┌──────────────────────────────┴──────────────────────────────┐\n         ▼                                                             ▼\n  HUMORAL IMMUNITY (AMI)                                       CELL-MEDIATED IMMUNITY (CMI)\n  ├── Driven by B-Lymphocytes                                 ├── Driven by T-Lymphocytes\n  ├── Secretes soluble Antibodies into plasma                  ├── CD4⁺ Helper T-cells & CD8⁺ Cytotoxic T-cells\n  └── Fights extracellular bacteria & toxins                   └── Fights intracellular viruses, cancer, & drives\n                                                                   GRAFT / ORGAN REJECTION",
+      "content": "### 4.1 Acquired Immunity & Antibodies\n- **Humoral vs CMI**: B-cells produce plasma antibodies; T-cells drive CMI and graft rejection.\n- **Antibody $\\text{H}_2\\text{L}_2$**: $2\\text{ Heavy} + 2\\text{ Light chains}$ linked by disulfide bonds. $\\text{IgG}$ crosses placenta; $\\text{IgA}$ in colostrum."
+    },
+    {
+      "sectionNumber": 5,
+      "id": "sec-07-05",
+      "title": "Active vs Passive Immunity & Vaccine Biotechnology",
+      "topic": "Natural vs Artificial Immunity, Colostrum, ATS, & 1st/2nd/3rd Gen Vaccines",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Active immunity (host builds own antibodies and memory via infection or vaccine) vs Passive immunity (pre-formed antibodies via maternal IgG/IgA or ATS). Recombinant Hepatitis B vaccine produced in yeast."
+      },
+      "codeSnippet": "IMMUNITY TYPES\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n  ACTIVE IMMUNITY                                         PASSIVE IMMUNITY\n  Host produces its OWN antibodies upon antigen contact.   Pre-formed antibodies transferred directly to host.\n  ├── Natural: Recovery from chickenpox infection         ├── Natural: Maternal IgG via placenta / IgA in colostrum\n  └── Artificial: Vaccination (BCG, Polio, MMR)           └── Artificial: Anti-Tetanus Serum (ATS) / Anti-snake venom",
+      "content": "### 5.1 Active vs Passive Immunity\n- **Active**: Long-lasting memory (natural recovery, vaccines).\n- **Passive**: Immediate, temporary protection (maternal $\\text{IgG}/\\text{IgA}$, ATS).\n- **Vaccines**: $1^{\\text{st}}$ gen (whole), $2^{\\text{nd}}$ gen (recombinant yeast Hep B), $3^{\\text{rd}}$ gen (nucleic acid)."
+    },
+    {
+      "sectionNumber": 6,
+      "id": "sec-07-06",
+      "title": "Hypersensitivity (Allergies) & Autoimmune Pathologies",
+      "topic": "Type I IgE Allergy Cascade, Histamine/Serotonin, Anaphylaxis, & Autoimmune Breakdown",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Allergies: Allergen cross-links IgE on mast cells, releasing histamine and serotonin (treated with antihistamines, epinephrine, steroids). Autoimmunity: breakdown of self-tolerance (Rheumatoid arthritis, Myasthenia gravis)."
+      },
+      "codeSnippet": "ALLERGIC HYPERSENSITIVITY CASCADE\n                         \n   First Exposure to Allergen ──► B-cells produce excess IgE Antibodies\n                                             │\n   IgE binds Fc receptors on Mast Cells and Basophils\n                                             │\n   Re-exposure to Allergen ──► Allergen cross-links IgE ──► Mast Cell Degranulation\n                                             │\n   Releases Vasoactive Amines: Histamine and Serotonin\n                                             │\n   Symptoms: Vasodilation, broncho-spasm, watery eyes, running nose, Anaphylaxis",
+      "content": "### 6.1 Allergies & Autoimmunity\n- **Allergy**: $\\text{IgE}$ cross-linking on mast cells releases histamine and serotonin.\n- **Autoimmune Disorders**: Rheumatoid arthritis (synovial IgM), Myasthenia gravis (ACh receptor auto-antibodies), Type 1 diabetes, Hashimoto's disease."
+    },
+    {
+      "sectionNumber": 7,
+      "id": "sec-07-07",
+      "title": "Cancer Biology: Contact Inhibition & Metastasis",
+      "topic": "Neoplasia, Oncogenes vs Tumor Suppressors, Carcinogens, & Therapies",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Cancer hallmarks: Loss of contact inhibition (uncontrolled tumors) and Metastasis (invasion of distant organs). Carcinogens: UV, tobacco benzopyrene, oncogenic viruses. Treatment: surgery, radiotherapy, chemotherapy (Vincristine), and alpha-interferon."
+      },
+      "codeSnippet": "CANCER HALLMARKS\n                                   │\n         ┌─────────────────────────┴─────────────────────────┐\n         ▼                                                   ▼\n  LOSS OF CONTACT INHIBITION                           METASTASIS\n  Normal cells stop dividing when touching adjacent   Cancer cells detach from primary tumor, enter blood/\n  cells. Cancer cells lose this property, forming      lymph, and colonize distant organs to form secondary\n  unorganized cell masses (Tumors).                   tumors. (Most feared property of cancer).",
+      "content": "### 7.1 Cancer Biology\n- **Hallmarks**: Loss of contact inhibition, angiogenesis, and **Metastasis** (hallmark of malignancy).\n- **Therapies**: Chemotherapy (*Catharanthus* vinca alkaloids: Vincristine/Vinblastine) and Immunotherapy ($\\alpha$-Interferon)."
+    },
+    {
+      "sectionNumber": 8,
+      "id": "sec-07-08",
+      "title": "HIV/AIDS Virology & CD4+ T-Cell Collapse",
+      "topic": "Retrovirus Structure, Reverse Transcriptase, Macrophage Factory, & Opportunistic Infections",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "HIV (diploid ssRNA retrovirus with reverse transcriptase): gp120 binds CD4 receptors. Macrophages act as persistent HIV factory; CD4+ T-cells burst, collapsing count (<200/μL) leading to fatal opportunistic infections. ELISA screening, Western Blot confirmatory."
+      },
+      "codeSnippet": "HIV VIRION STRUCTURE & REPLICATION\n                            \n   Virion: Diploid ssRNA (2 x ssRNA) + Reverse Transcriptase, Integrase, Protease\n           Envelope studded with gp120 and gp41 glycoproteins.\n                            │\n   Replication:\n   gp120 binds CD4⁺ Receptor ──► Viral ssRNA converted to dsDNA via Reverse Transcriptase\n   ──► Integrated into host genome via Integrase ──► Viral transcription & budding\n   ├── Macrophages: Act as \"HIV Factory\" (produce virus continuously without dying)\n   └── CD4⁺ T-Cells: Burst & deplete (<200/μL) ──► Severe Opportunistic Infections",
+      "content": "### 8.1 HIV & AIDS\n- **Retrovirus**: $2 \\times \\text{ssRNA}$, Reverse Transcriptase, $gp120$ spike.\n- **Pathogenesis**: Macrophage HIV factory; $\\text{CD4}^+$ T-cell destruction ($<200/\\mu\\text{L}$) causes AIDS.\n- **Diagnostics**: ELISA screening, Western Blot confirmation; AZT therapy."
+    },
+    {
+      "sectionNumber": 9,
+      "id": "sec-07-09",
+      "title": "Pharmacology of Abused Substances: Opioids, Cannabinoids, & Cocaine",
+      "topic": "Opioids (Heroin/Morphine), Cannabinoids, Cocaine Dopamine Transport, & Hallucinogens",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Opioids (*Papaver somniferum* - Heroin/diacetylmorphine, CNS/GI depressant); Cannabinoids (*Cannabis sativa* - brain receptors, cardiovascular effects); Cocaine (*Erythroxylum coca* - dopamine reuptake block, CNS stimulant, hallucinations); Hallucinogens (LSD, Datura, Belladonna)."
+      },
+      "codeSnippet": "CLASSES OF ABUSED DRUGS\n                                      │\n         ┌────────────────────────────┼────────────────────────────┐\n         ▼                            ▼                            ▼\n      OPIOIDS                    CANNABINOIDS               COCA ALKALOIDS\n (Depressants & Analgesics)     (Cardiovascular System)     (CNS Stimulants)\n ├── Receptor: CNS & GI Tract   ├── Receptor: Brain         ├── Receptor: Dopamine Transporter\n ├── Source: Papaver somniferum ├── Source: Cannabis sativa └── Source: Erythroxylum coca\n └── Heroin (\"Smack\")           └── Marijuana, Hashish, Ganja   └── Cocaine / Crack (\"Coke\")",
+      "content": "### 9.1 Abused Substances\n- **Opioids**: Morphine & Heroin (diacetylmorphine, \"Smack\") from *Papaver somniferum*; CNS/GI depressant.\n- **Cannabinoids**: *Cannabis sativa*; affects cardiovascular system.\n- **Cocaine**: *Erythroxylum coca*; blocks dopamine reuptake; CNS stimulant."
+    },
+    {
+      "sectionNumber": 10,
+      "id": "sec-07-10",
+      "title": "Alcohol & Tobacco Abuse Pathology",
+      "topic": "Nicotine Adrenal Stimulation, CO Hypoxia, Alcohol Metabolism, Cirrhosis, & Withdrawal Syndrome",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Tobacco: Nicotine stimulates adrenal adrenaline release (raises BP/HR); CO causes hypoxia; carcinogens cause lung/bladder cancer. Alcohol: oxidized to acetaldehyde, causing fatty liver and cirrhosis. Abrupt withdrawal causes tremors, tachycardia, seizures."
+      },
+      "codeSnippet": "ADDICTION PATHOPHYSIOLOGY & WITHDRAWAL\n                         \n   Tobacco (Nicotine) ──► Adrenal Medulla ──► Adrenaline/Noradrenaline (↑ BP & HR)\n   Tobacco Smoke      ──► Carbon Monoxide (CO) ──► Carboxyhemoglobin ──► Tissue Hypoxia\n   Alcohol (Ethanol)  ──► Acetaldehyde ──► Fatty Liver ──► Cirrhosis of Liver\n   Abrupt Cessation   ──► Physical Withdrawal Syndrome (Tremors, Anxiety, Sweating, Seizures)",
+      "content": "### 10.1 Tobacco & Alcohol Pathology\n- **Tobacco**: Nicotine stimulates adrenal adrenaline (↑ BP & HR); $\\text{CO}$ forms carboxyhemoglobin; $3,4$-benzopyrene causes cancer.\n- **Alcohol**: Acetaldehyde intermediate causes fatty liver and irreversible **Cirrhosis**; abrupt cessation causes Withdrawal Syndrome."
+    },
+    {
+      "sectionNumber": 11,
+      "id": "sec-07-11",
+      "title": "Human Health & Immunology Glossary & High-Yield Traps",
+      "topic": "Master Glossary & 10 NEST Traps",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Master human health, pathology, and immunology glossary with 50+ definitions and 10 high-yield NEST misconceptions and diagnostic traps."
+      },
+      "content": "### 11.1 Master Human Health Glossary & Traps\n- **Common Cold vs Pneumonia**: Rhinovirus infects nose/upper respiratory tract, NOT lungs; Pneumonia infects alveoli.\n- **Graft Rejection**: Mediated by CMI (T-cells, $\\text{CD8}^+$), NOT B-cells.\n- **Placental Antibody**: $\\text{IgG}$ is the ONLY antibody that crosses the placenta.\n- **Interferons**: Secreted by virus-infected cells to protect healthy neighbors."
+    }
+  ]
+}

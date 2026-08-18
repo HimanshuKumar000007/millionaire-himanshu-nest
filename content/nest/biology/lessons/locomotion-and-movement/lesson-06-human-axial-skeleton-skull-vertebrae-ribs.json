@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-18-06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Locomotion and Movement",
+  "chapterNumber": 18,
+  "chapterSlug": "locomotion-and-movement",
+  "lessonNumber": 6,
+  "title": "Human Skeletal System Architecture: Axial Skeleton (80 Bones)",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Medium",
+  "prerequisites": ["Osteology", "Vertebrate body plan"],
+  "learningObjectives": [
+    "Identify the 80 bones of the Axial Skeleton across the Skull, Vertebral Column, and Thoracic Cage",
+    "Describe the anatomy of the dicondylic skull, Atlas (C1), and Axis (C2)",
+    "Classify True (1–7), False (8–10), and Floating (11–12) ribs"
+  ],
+  "content": "The adult human skeleton consists of **206 Bones**, divided into the **Axial Skeleton (80 bones)** and the **Appendicular Skeleton (126 bones)**.\n\n```\n                          AXIAL SKELETON BREAKDOWN (80 Bones)\n                                     │\n     ┌───────────────────────────────┼───────────────────────────────┐\n     ▼                               ▼                               ▼\n  SKULL (22 + 7 = 29)            VERTEBRAL COLUMN (26)           THORACIC CAGE (25)\n  ├── Cranial Bones (8)          ├── Cervical (C₇)               ├── Sternum (1)\n  ├── Facial Bones (14)          ├── Thoracic (T₁₂)              └── Ribs (24 = 12 pairs)\n  ├── Hyoid Bone (1)             ├── Lumbar (L₅)                    ├── True (1–7)\n  └── Auditory Ossicles (6)      ├── Sacral (S₍₅₎→₁)                ├── False (8–10)\n      (Malleus, Incus, Stapes)   └── Coccygeal (Co₍₄₎→₁)            └── Floating (11–12)\n```\n\n### 6.1 Regional Anatomy of the Axial Skeleton\n\n1. **The Skull (29 Bones)**:\n   - **Cranial Bones (8)**: Frontal (1), Parietal (2), Temporal (2), Occipital (1), Sphenoid (1 butterfly-shaped bone forming cranial floor), Ethmoid (1).\n   - **Facial Bones (14)**: Nasal (2), Maxillae (2), Zygomatic (2 cheek bones), Lacrimal (2), Palatine (2), Inferior Conchae (2), Vomer (1), Mandible (1 lower jaw - only movable skull bone).\n   - **Dicondylic Articulation**: Features **2 Occipital Condyles** that articulate with the superior articular facets of the Atlas vertebra.\n   - **Associated Bones (7)**: Single U-shaped **Hyoid Bone (1)** in the floor of the buccal cavity + **6 Auditory Ossicles** (Malleus, Incus, Stapes).\n2. **The Vertebral Column (26 Bones)**:\n   - Formula: $\\mathbf{\\text{C}_7\\ \\text{T}_{12}\\ \\text{L}_5\\ \\text{S}_{(5)\\rightarrow 1}\\ \\text{Co}_{(4)\\rightarrow 1} = 26\\text{ Vertebrae}}$.\n   - **Atlas ($\\text{C}_1$)**: Lacks vertebral body and spinous process; forms atlanto-occipital condyloid joint for \"Yes\" nodding.\n   - **Axis ($\\text{C}_2$)**: Possesses vertical **Odontoid Process (Dens)** fitting into Atlas to form pivot joint for \"No\" rotation.\n3. **Thoracic Cage & Ribs (25 Bones)**:\n   - **Sternum (1)**: Flat ventral breastbone consisting of Manubrium, Body, and Xiphoid process.\n   - **Ribs (12 Pairs = 24 Bones)**: Bicephalic (possessing Capitulum and Tuberculum dorsal facets):\n     - **True Ribs (1st to 7th pairs)**: Vertebrosternal ribs; attach dorsally to thoracic vertebrae and ventrally directly to sternum via hyaline costal cartilage.\n     - **False Ribs (8th, 9th, 10th pairs)**: Vertebrochondral ribs; join the costal cartilage of the 7th rib instead of articulating directly with the sternum.\n     - **Floating Ribs (11th and 12th pairs)**: Vertebral ribs; remain unattached ventrally, protecting the retroperitoneal kidneys.",
+  "conceptBreakdown": [
+    {
+      "heading": "Evolutionary Origin of Auditory Ossicles",
+      "explanation": "In mammalian evolution, lower jaw bones migrated to the middle ear: (1) Malleus is derived from the reptilian Articular bone, (2) Incus is derived from the Quadrate bone, and (3) Stapes is derived from the Hyomandibular."
+    },
+    {
+      "heading": "Bicephalic Nature of Ribs",
+      "explanation": "Human ribs have two articulation points on their posterior end: the Capitulum (head) articulates with the demifacet on the vertebral body, and the Tuberculum articulates with the facet on the transverse process of the thoracic vertebra."
+    }
+  ]
+}

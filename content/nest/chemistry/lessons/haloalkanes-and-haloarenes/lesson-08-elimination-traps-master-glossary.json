@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u15-c6-l08",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XV \u2014 Haloalkanes and Haloarenes",
+  "unitNumber": 15,
+  "chapter": "Haloalkanes and Haloarenes",
+  "chapterNumber": 6,
+  "chapterSlug": "haloalkanes-and-haloarenes",
+  "slug": "lesson-08-elimination-traps-master-glossary",
+  "title": "Elimination Dynamics, 10 High-Yield NEST Traps, & Master Glossary",
+  "topic": "Elimination Dynamics, Traps & Glossary",
+  "topics": [
+    "Elimination Reaction Dynamics (E2 vs E1 Mechanisms)",
+    "Saytzeff Regioselectivity (Unhindered base alc. KOH) vs Hofmann Regioselectivity (Bulky base t-BuOK)",
+    "Anti-Periplanar Stereoelectronic Geometry Requirement in E2",
+    "8. High-Yield NEST Misconceptions & Traps Table (All 10 Items)",
+    "9. Master Glossary for Haloalkanes and Haloarenes (All 52 Definitions)"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "Comprehensive Review",
+  "source": "production",
+  "status": "published",
+  "diagramType": "haloalkanes-and-haloarenes",
+  "quickSummary": "E2 dehydrohalogenation requires anti-periplanar \u03b1-X and \u03b2-H. Unhindered bases give Saytzeff alkene (more substituted); bulky bases (t-BuOK) give Hofmann alkene. Review all 10 NEST traps (neopentyl halide inert to S_N2, CCl\u2084 \u03bc=0, propan-1-ol negative iodoform, protic solvent inhibits S_N2) and the complete 52-term master glossary.",
+  "summary": "Master E2 elimination regiochemistry, the 10 high-yield NEST traps, and the complete master glossary.",
+  "conceptBreakdown": [
+    {
+      "heading": "8. Elimination Regioselectivity & Stereochemistry",
+      "title": "8. Elimination Regioselectivity & Stereochemistry",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "E2 Regioselectivity & Stereochemistry",
+        "takeaway": "Saytzeff Rule (more substituted alkene) with alc. KOH; Hofmann Rule (less substituted alkene) with bulky t-BuOK. Requires anti-periplanar geometry."
+      },
+      "codeSnippet": "ELIMINATION REGIOSELECTIVITY:\n\n\u2022 Saytzeff (Zaitsev) Rule: Unhindered base (alc. KOH / EtO\u207b) \u2500\u2500\u25ba More substituted alkene (2-butene 81% major).\n\u2022 Hofmann Rule: Bulky base (t-BuOK) \u2500\u2500\u25ba Less substituted alkene (1-butene major).\n\u2022 Stereochemistry: E2 requires anti-periplanar arrangement of \u03b1-H and \u03b2-X (180\u00b0 dihedral angle).",
+      "content": "Dehydrohalogenation of alkyl halides follows an E2 concerted elimination requiring an anti-periplanar conformation between the departing halogen and $\\beta$-hydrogen."
+    },
+    {
+      "heading": "9. 10 High-Yield NEST Traps & Master Glossary",
+      "title": "9. 10 High-Yield NEST Traps & Master Glossary",
+      "type": "paragraph",
+      "codeSnippet": "10 NEST HALOALKANES & HALOARENES TRAPS SUMMARY\n\n1. Neopentyl bromide (1\u00b0) is extremely inert to S_N2 due to t-butyl steric hindrance.\n2. S_N1 yields Racemization with partial inversion (100% inversion is S_N2).\n3. CCl\u2084 has zero net dipole moment (\u03bc = 0) due to tetrahedral symmetry.\n4. Chlorobenzene is inert to room temperature S_N2.\n5. Propan-1-ol gives a NEGATIVE iodoform test; Propan-2-ol gives a positive test.\n6. Polar protic solvents inhibit S_N2 by solvating nucleophiles; Polar Aprotic favor S_N2.\n7. DDT is non-biodegradable and lipophilic, biomagnifying to 25 ppm in birds.\n8. Meisenheimer complex formed in S_NAr is a CARBANION \u03c3-complex (not carbocation).\n9. Glycerol is purified by vacuum distillation; aniline by steam distillation.\n10. A racemic mixture is an equimolar (1:1) d/l mixture and is OPTICALLY INACTIVE (\u03b1 = 0).",
+      "content": "Review all 10 high-yield traps and the complete 52-term master glossary before proceeding to the 20-question self-assessment module."
+    }
+  ],
+  "quickRevision": [
+    "Saytzeff = more substituted alkene (alc. KOH); Hofmann = less substituted (t-BuOK).",
+    "E2 requires anti-periplanar geometry.",
+    "Neopentyl bromide is inert to S_N2.",
+    "CCl\u2084 is non-polar (\u03bc = 0).",
+    "All 10 NEST traps and 52 glossary definitions reviewed."
+  ],
+  "keyFormulae": [
+    "\\text{Saytzeff (Zaitsev): Major Alkene} = \\text{More Substituted / More Stable Alkene}",
+    "\\text{Hofmann: Major Alkene with Bulky Base} = \\text{Less Substituted Alkene}"
+  ]
+}

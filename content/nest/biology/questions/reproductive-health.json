@@ -1,0 +1,603 @@
+[
+  {
+    "id": "bio-xii-u6-c3-q01",
+    "questionNumber": 1,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Assisted Reproductive Technologies (ART)",
+    "questionText": "An infertile couple seeks medical assistance at an ART clinic. Diagnostic evaluation shows that the husband suffers from severe oligospermia (sperm count <2 million/mL) with poor progressive motility, while the wife possesses healthy, normal ovaries and patent Fallopian tubes. Which specialized Assisted Reproductive Technology is most appropriate to achieve fertilization in this scenario?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gamete Intra-Fallopian Transfer (GIFT)"
+      },
+      {
+        "id": "B",
+        "text": "Intra-Cytoplasmic Sperm Injection (ICSI)"
+      },
+      {
+        "id": "C",
+        "text": "Lactational Amenorrhea Method (LAM)"
+      },
+      {
+        "id": "D",
+        "text": "Zygote Intra-Fallopian Transfer (ZIFT) using un-processed semen"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Intra-Cytoplasmic Sperm Injection (ICSI) is specifically indicated for severe male factor infertility (severe oligospermia / asthenozoospermia), as a single viable sperm is selected and injected directly into the cytoplasm of the harvested ovum under a microscope."
+  },
+  {
+    "id": "bio-xii-u6-c3-q02",
+    "questionNumber": 2,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Amniocentesis & PCPNDT Act",
+    "questionText": "A pregnant woman at 15 weeks gestation undergoes amniocentesis. The cultured fetal cells reveal a karyotype of 47, XX, +21. What developmental condition does this fetus have, and why is amniocentesis legally restricted under the Indian PCPNDT Act (1994)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Klinefelter Syndrome; restricted to prevent spread of STIs"
+      },
+      {
+        "id": "B",
+        "text": "Down Syndrome (Trisomy 21); restricted to prevent female foeticide following prenatal sex determination"
+      },
+      {
+        "id": "C",
+        "text": "Turner Syndrome; restricted due to high risk of maternal hemorrhage"
+      },
+      {
+        "id": "D",
+        "text": "Edward Syndrome; restricted because it induces severe MTP"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A karyotype of 47, XX, +21 represents Down Syndrome (Trisomy 21). Amniocentesis is legally restricted in India under the PCPNDT Act to prevent its misuse for female sex determination and female foeticide."
+  },
+  {
+    "id": "bio-xii-u6-c3-q03",
+    "questionNumber": 3,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Oral Contraceptive Saheli",
+    "questionText": "How does the non-steroidal oral contraceptive pill Saheli (developed by CDRI Lucknow) prevent pregnancy, and what is its active chemical ingredient?",
+    "options": [
+      {
+        "id": "A",
+        "text": "High-dose Progesterone; inhibits pituitary TSH"
+      },
+      {
+        "id": "B",
+        "text": "Ormeloxifene / Centchroman; acts as a Selective Estrogen Receptor Modulator (SERM) that alters endometrium and prevents implantation"
+      },
+      {
+        "id": "C",
+        "text": "Copper ions; suppresses sperm motility"
+      },
+      {
+        "id": "D",
+        "text": "Levonorgestrel; induces immediate MTP"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Saheli contains Centchroman / Ormeloxifene, a non-steroidal Selective Estrogen Receptor Modulator (SERM). Taken once a week, it competitively inhibits estrogen receptors in the endometrium, preventing endometrial maturation and blastocyst implantation with minimal side effects."
+  },
+  {
+    "id": "bio-xii-u6-c3-q04",
+    "questionNumber": 4,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Intrauterine Devices (IUDs)",
+    "questionText": "What is the precise mechanism of action of Copper-Releasing IUDs like CuT and Multiload 375 inserted into the uterine cavity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They release high doses of estrogen that block LH surge and ovulation."
+      },
+      {
+        "id": "B",
+        "text": "They continuously release Cu2+ ions into the uterine lumen, suppressing sperm motility, viability, and fertilizing capacity."
+      },
+      {
+        "id": "C",
+        "text": "They surgically block the Fallopian tubes to prevent ovum transport."
+      },
+      {
+        "id": "D",
+        "text": "They release human chorionic gonadotropin (hCG) to maintain the corpus luteum."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Copper-releasing IUDs continuously release Cu2+ ions into the uterine cavity. Cu2+ ions are toxic to spermatozoa, drastically suppressing sperm motility, acrosomal enzyme activity, and fertilizing capacity, while triggering a sterile local endometrial inflammatory response."
+  },
+  {
+    "id": "bio-xii-u6-c3-q05",
+    "questionNumber": 5,
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "topic": "Medical Termination of Pregnancy (MTP)",
+    "questionText": "A woman seeking medical termination of pregnancy at 8 weeks gestation is prescribed a non-surgical combined medical abortion regimen consisting of Mifepristone (RU-486) followed 48 hours later by Misoprostol. What are the specific pharmacological mechanisms of these two drugs?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mifepristone is an Estrogen agonist; Misoprostol blocks Oxytocin receptors"
+      },
+      {
+        "id": "B",
+        "text": "Mifepristone is a Progesterone Receptor Antagonist (causes decidual detachment); Misoprostol is a Prostaglandin E1 analog (induces uterine contractions)"
+      },
+      {
+        "id": "C",
+        "text": "Mifepristone is an anti-fungal agent; Misoprostol is a local anesthetic"
+      },
+      {
+        "id": "D",
+        "text": "Mifepristone inhibits hCG; Misoprostol relaxes the cervix permanently"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Mifepristone (RU-486) is a competitive Progesterone Receptor Antagonist that blocks progesterone support, causing decidual degeneration and endometrial detachment. Misoprostol is a Prostaglandin E1 analog that induces powerful myometrial contractions and cervical softening to expel the detached embryo."
+  },
+  {
+    "id": "bio-xii-u6-c3-q06",
+    "questionNumber": 6,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "ART Embryo Transfer",
+    "questionText": "During an ART procedure, an embryo developed in-vitro by fertilizing a harvested ovum with donor sperm reaches the 16-blastomere stage. Which specific ART transfer technique must be performed to transfer this embryo into the female recipient?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Zygote Intra-Fallopian Transfer (ZIFT)"
+      },
+      {
+        "id": "B",
+        "text": "Gamete Intra-Fallopian Transfer (GIFT)"
+      },
+      {
+        "id": "C",
+        "text": "Intra-Uterine Transfer (IUT)"
+      },
+      {
+        "id": "D",
+        "text": "Intra-Uterine Insemination (IUI)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Embryos with more than 8 blastomeres (e.g., 16–32 cell stage) are transferred directly into the Uterine Cavity, a procedure termed Intra-Uterine Transfer (IUT). (Embryos up to 8 blastomeres are transferred into the Fallopian tube via ZIFT)."
+  },
+  {
+    "id": "bio-xii-u6-c3-q07",
+    "questionNumber": 7,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Sexually Transmitted Infections (STIs)",
+    "questionText": "Which of the following sexually transmitted infections is INCURABLE and caused by an enveloped double-stranded DNA virus that produces painful, recurrent vesicles on the genitalia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Syphilis (Treponema pallidum)"
+      },
+      {
+        "id": "B",
+        "text": "Genital Herpes (Herpes Simplex Virus 2 / HSV-2)"
+      },
+      {
+        "id": "C",
+        "text": "Trichomoniasis (Trichomonas vaginalis)"
+      },
+      {
+        "id": "D",
+        "text": "Chlamydiasis (Chlamydia trachomatis)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Genital Herpes is caused by HSV-2 (a dsDNA virus) and produces painful recurrent genital vesicles. Along with HIV and Hepatitis B, Genital Herpes is an INCURABLE STI. Bacterial STIs (Syphilis, Chlamydia) and protozoan STIs (Trichomoniasis) are curable with antibiotics/antiprotozoals."
+  },
+  {
+    "id": "bio-xii-u6-c3-q08",
+    "questionNumber": 8,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Surgical Sterilization (Vasectomy)",
+    "questionText": "A male patient undergoes a Vasectomy procedure. Which statement correctly describes the post-surgical physiological status of this patient?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Testosterone secretion ceases and the patient loses secondary male sexual characteristics."
+      },
+      {
+        "id": "B",
+        "text": "Ejaculated semen volume drops by 90% because accessory glands stop secreting."
+      },
+      {
+        "id": "C",
+        "text": "Spermatogenesis continues in testes, but ejaculate contains NO spermatozoa because vasa deferentia are severed."
+      },
+      {
+        "id": "D",
+        "text": "The patient develops immediate erectile dysfunction and prostatic atrophy."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Vasectomy cuts and ties the vasa deferentia. Spermatogenesis and testosterone secretion continue normally, and accessory glands (seminal vesicles, prostate) continue to produce ~99% of normal semen fluid volume. However, the ejaculate is completely devoid of spermatozoa (azoospermia)."
+  },
+  {
+    "id": "bio-xii-u6-c3-q09",
+    "questionNumber": 9,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "In-Vivo ART (GIFT)",
+    "questionText": "A woman unable to produce viable ova wishes to have a child. Her Fallopian tubes, uterus, and hormonal profile are completely normal, and her husband's sperm count is optimal. Which ART method allows her to receive an ovum from a donor and conceive inside her own Fallopian tube?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intra-Cytoplasmic Sperm Injection (ICSI)"
+      },
+      {
+        "id": "B",
+        "text": "Gamete Intra-Fallopian Transfer (GIFT)"
+      },
+      {
+        "id": "C",
+        "text": "Intra-Uterine Transfer (IUT)"
+      },
+      {
+        "id": "D",
+        "text": "Vasectomy Reversal"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "GIFT (Gamete Intra-Fallopian Transfer) is indicated for females who cannot produce ova but possess patent Fallopian tubes and a healthy uterus. A donor ovum along with the husband's sperm is placed directly into her Fallopian tube, where in-vivo fertilization occurs naturally."
+  },
+  {
+    "id": "bio-xii-u6-c3-q10",
+    "questionNumber": 10,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Natural Contraception (LAM)",
+    "questionText": "How does the Lactational Amenorrhea Method (LAM) act as a natural contraceptive during the first 6 months post-parturition?",
+    "options": [
+      {
+        "id": "A",
+        "text": "High oxytocin levels cause permanent destruction of ovarian primary follicles"
+      },
+      {
+        "id": "B",
+        "text": "Intense suckling stimulates high Prolactin levels, which suppress hypothalamic GnRH and pituitary LH, preventing ovulation"
+      },
+      {
+        "id": "C",
+        "text": "Progesterone levels plunge to zero, preventing endometrial repair"
+      },
+      {
+        "id": "D",
+        "text": "Maternal IgG antibodies neutralize all incoming spermatozoa"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "High prolactin levels driven by intense infant suckling exert negative feedback on the hypothalamus and pituitary, suppressing GnRH and the LH Surge. This halts ovarian follicular maturation and prevents ovulation (Amenorrhea) for up to 6 months post-parturition."
+  },
+  {
+    "id": "bio-xii-u6-c3-q11",
+    "questionNumber": 11,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "MTP Amendment Act",
+    "questionText": "Which of the following conditions represent valid legal requirements or features of the Medical Termination of Pregnancy (MTP) Amendment Act in India?",
+    "options": [
+      {
+        "id": "A",
+        "text": "MTP is performed to terminate pregnancies resulting from contraceptive failure or rape."
+      },
+      {
+        "id": "B",
+        "text": "Termination up to 12 weeks of gestation requires the opinion of ONE Registered Medical Practitioner (RMP)."
+      },
+      {
+        "id": "C",
+        "text": "Termination between 12 and 24 weeks of gestation requires the opinion of TWO Registered Medical Practitioners (RMPs)."
+      },
+      {
+        "id": "D",
+        "text": "MTP can be legally performed at 36 weeks of gestation for gender balancing."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: MTP is legal for contraceptive failure/rape/fetal malformation, requiring 1 RMP (≤12 weeks) or 2 RMPs (12–24 weeks). D is incorrect: MTP for sex selection/gender balancing is ILLEGAL under the PCPNDT Act at any stage."
+  },
+  {
+    "id": "bio-xii-u6-c3-q12",
+    "questionNumber": 12,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Intrauterine Devices (IUDs)",
+    "questionText": "Select the correct options regarding Intrauterine Devices (IUDs):",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lippes Loop is a non-medicated IUD that stimulates endometrial phagocytosis of sperm."
+      },
+      {
+        "id": "B",
+        "text": "CuT and Multiload 375 are copper-releasing IUDs that suppress sperm motility and fertilizing capacity."
+      },
+      {
+        "id": "C",
+        "text": "LNG-20 and Progestasert are hormone-releasing IUDs that alter cervical mucus and make the endometrium unsuitable for implantation."
+      },
+      {
+        "id": "D",
+        "text": "All IUDs protect the user against HIV and Hepatitis B infection."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Lippes loop (non-medicated/phagocytic), CuT (copper/motility suppression), and LNG-20 (hormone/cervical mucus alteration) are correct. D is incorrect: IUDs DO NOT protect against STIs/HIV. Only Condoms provide protection against STIs."
+  },
+  {
+    "id": "bio-xii-u6-c3-q13",
+    "questionNumber": 13,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "STIs Curability",
+    "questionText": "Which of the following Sexually Transmitted Infections (STIs) are INCURABLE even with early antibiotic treatment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Human Immunodeficiency Virus (AIDS / HIV)"
+      },
+      {
+        "id": "B",
+        "text": "Hepatitis B Virus (HBV)"
+      },
+      {
+        "id": "C",
+        "text": "Herpes Simplex Virus 2 (Genital Herpes / HSV-2)"
+      },
+      {
+        "id": "D",
+        "text": "Treponema pallidum (Syphilis)"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: HIV, Hepatitis B, and Genital Herpes are viral STIs that are INCURABLE. D is incorrect: Syphilis is a bacterial STI caused by Treponema pallidum and is completely curable with Penicillin/antibiotics."
+  },
+  {
+    "id": "bio-xii-u6-c3-q14",
+    "questionNumber": 14,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "In-Vivo ART",
+    "questionText": "Which of the following techniques represent IN-VIVO Assisted Reproductive Technologies (where fertilization occurs INSIDE the female body)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "GIFT (Gamete Intra-Fallopian Transfer)"
+      },
+      {
+        "id": "B",
+        "text": "IUI (Intra-Uterine Insemination)"
+      },
+      {
+        "id": "C",
+        "text": "Artificial Insemination (AI)"
+      },
+      {
+        "id": "D",
+        "text": "ZIFT (Zygote Intra-Fallopian Transfer)"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: GIFT, IUI, and AI involve fertilization occurring naturally in-vivo inside the female reproductive tract. D is incorrect: ZIFT is an IN-VITRO technique where fertilization occurs in a culture dish before the zygote is transferred."
+  },
+  {
+    "id": "bio-xii-u6-c3-q15",
+    "questionNumber": 15,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Amniocentesis Diagnostics",
+    "questionText": "Select the correct statements regarding Amniocentesis:",
+    "options": [
+      {
+        "id": "A",
+        "text": "It involves analyzing amniotic fluid containing fetal skin/epithelial cells."
+      },
+      {
+        "id": "B",
+        "text": "It can detect chromosomal nondisjunction disorders like Down Syndrome (47, +21)."
+      },
+      {
+        "id": "C",
+        "text": "It can detect metabolic disorders like Phenylketonuria and Sickle Cell Anemia."
+      },
+      {
+        "id": "D",
+        "text": "It is routinely used legally in India to select fetal gender."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Amniocentesis tests fetal cells in amniotic fluid for chromosomal abnormalities and inborn metabolic errors. D is incorrect: Using amniocentesis for sex determination is STRICTLY BANNED in India under the PCPNDT Act."
+  },
+  {
+    "id": "bio-xii-u6-c3-q16",
+    "questionNumber": 16,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Surgical Sterilization",
+    "questionText": "Which of the following features characterize Surgical Sterilization methods (Vasectomy and Tubectomy)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are terminal contraceptive methods with very high efficacy (>99%)."
+      },
+      {
+        "id": "B",
+        "text": "Reversibility of surgical sterilization is generally poor."
+      },
+      {
+        "id": "C",
+        "text": "Tubectomy prevents ovulation and halts the female menstrual cycle."
+      },
+      {
+        "id": "D",
+        "text": "Vasectomy involves cutting and tying a section of the Vas Deferens."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "A, B, D are correct: Sterilization is terminal, highly effective, has poor reversibility, and vasectomy severs the vas deferens. C is incorrect: Tubectomy blocks the Fallopian tubes to prevent sperm-egg meeting; ovulation and menstruation continue normally."
+  },
+  {
+    "id": "bio-xii-u6-c3-q17",
+    "questionNumber": 17,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Emergency Contraception",
+    "questionText": "Select the valid options regarding emergency contraception:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Administration of high-dose progestogens or LNG within 72 hours of unprotected coitus."
+      },
+      {
+        "id": "B",
+        "text": "Insertion of a Copper-IUD within 72 hours of unprotected coitus."
+      },
+      {
+        "id": "C",
+        "text": "Emergency contraceptives act primarily by inhibiting ovulation or altering endometrial receptivity."
+      },
+      {
+        "id": "D",
+        "text": "Emergency contraceptives are intended for routine daily use throughout the menstrual cycle."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: High-dose progestogens/IUDs within 72 hours prevent ovulation/implantation during emergency situations. D is incorrect: Emergency contraceptives are meant ONLY for emergency casual use (e.g., rape, condom rupture), NOT for routine daily contraception."
+  },
+  {
+    "id": "bio-xii-u6-c3-q18",
+    "questionNumber": 18,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "STI Complications",
+    "questionText": "Which of the following complications can arise from untreated, chronic Sexually Transmitted Infections (STIs)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pelvic Inflammatory Disease (PID)"
+      },
+      {
+        "id": "B",
+        "text": "Ectopic Pregnancies and Stillbirths"
+      },
+      {
+        "id": "C",
+        "text": "Cervical Cancer (associated with high-risk HPV types 16 and 18)"
+      },
+      {
+        "id": "D",
+        "text": "Increased risk of Infertility"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "All options represent serious long-term clinical sequelae of untreated STIs/RTIs."
+  },
+  {
+    "id": "bio-xii-u6-c3-q19",
+    "questionNumber": 19,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "ZIFT vs IUT",
+    "questionText": "Which of the following statements correctly compare ZIFT and IUT?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ZIFT involves transferring an embryo up to 8 blastomeres into the Fallopian Tube."
+      },
+      {
+        "id": "B",
+        "text": "IUT involves transferring an embryo with more than 8 blastomeres directly into the Uterine Cavity."
+      },
+      {
+        "id": "C",
+        "text": "Both ZIFT and IUT are modalities of In-Vitro Fertilization (IVF) Embryo Transfer."
+      },
+      {
+        "id": "D",
+        "text": "Both ZIFT and IUT require unfertilized ova to be injected into the ovary."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: ZIFT transfers ≤8 cell embryos to Fallopian tube; IUT transfers >8 cell embryos to uterus; both are post-IVF embryo transfer methods. D is incorrect: Neither involves injecting ova into the ovary; embryos are transferred to the tube or uterus after in-vitro fertilization."
+  },
+  {
+    "id": "bio-xii-u6-c3-q20",
+    "questionNumber": 20,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Saheli Pharmacology",
+    "questionText": "Select the correct options regarding the oral contraceptive pill Saheli:",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is a non-steroidal formulation containing Centchroman / Ormeloxifene."
+      },
+      {
+        "id": "B",
+        "text": "It was developed by scientists at the Central Drug Research Institute (CDRI) in Lucknow, India."
+      },
+      {
+        "id": "C",
+        "text": "It is taken as a 'once-a-week' pill after an initial introductory schedule."
+      },
+      {
+        "id": "D",
+        "text": "It produces high systemic side effects because it is a high-dose combination of estrogen and progesterone."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Saheli is a non-steroidal SERM (Centchroman), developed by CDRI Lucknow, taken once a week. D is incorrect: Because it is non-steroidal, Saheli has VERY FEW / MINIMAL side effects, unlike high-dose steroidal combination pills."
+  }
+]

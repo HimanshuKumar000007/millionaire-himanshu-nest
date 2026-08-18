@@ -1,0 +1,483 @@
+[
+  {
+    "id": "q-bio-c02-001",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "LH Surge & Ovulatory Cytology",
+    "difficulty": "Medium",
+    "questionText": "An endocrinologist measures the serum hormone profile of an adult female over a 28-day menstrual cycle. On Day 13, a sharp peak in Circulating Estrogen is recorded. Within 24 hours (Day 14), this estrogen surge triggers a massive, rapid release of a specific pituitary gonadotropin that directly induces follicular rupture. What is this phenomenon, and what cell state is released from the ovary?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "FSH Surge; releases a Primary Oocyte arrested in Diplotene", "isCorrect": false },
+      { "id": "b", "text": "LH Surge; releases a Secondary Oocyte arrested in Metaphase II", "isCorrect": true },
+      { "id": "c", "text": "Progesterone Surge; releases a mature diploid Ootid", "isCorrect": false },
+      { "id": "d", "text": "hCG Surge; releases a Graafian Follicle directly into the uterus", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Peak estrogen levels on Day 13 exert positive feedback on the anterior pituitary, triggering the LH Surge on Day 14. This LH surge causes the mature Graafian follicle to rupture and release a Secondary Oocyte arrested at Metaphase II into the pelvic cavity (Ovulation).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c02-002",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "ZP3 Receptor & Calcium Wave Polyspermy Block",
+    "difficulty": "Hard",
+    "questionText": "During human fertilization, a sperm makes contact with the Zona Pellucida of a secondary oocyte. Which specific zona pellucida glycoprotein acts as the primary species-specific sperm receptor, and what immediate ion wave inside the egg prevents polyspermy following sperm-egg fusion?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "ZP₁ receptor; K⁺ Efflux", "isCorrect": false },
+      { "id": "b", "text": "ZP₃ receptor; Ca²⁺ Wave", "isCorrect": true },
+      { "id": "c", "text": "ZP₂ receptor; Cl⁻ Efflux", "isCorrect": false },
+      { "id": "d", "text": "Hyaluronidase receptor; Mg²⁺ Influx", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Sperm heads bind specifically to the ZP₃ glycoprotein receptor on the Zona Pellucida, triggering the acrosomal reaction. Subsequent fusion of sperm and egg plasma membranes triggers a massive cytosolic Ca²⁺ Wave from the ER, inducing cortical granule exocytosis (Cortical Reaction / Slow Block to Polyspermy).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c02-003",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "Syncytiotrophoblast hCG Pregnancy Test",
+    "difficulty": "Easy",
+    "questionText": "A female patient experiencing an irregular menstrual cycle takes a home urine-based early pregnancy test kit 8 days after suspected fertilization. The test displays a positive result (two color bands). What specific hormone produced by the embryonic blastocyst is detected by the antibody test strip, and what cell layer secretes it?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Human Placental Lactogen (hPL); secreted by the Inner Cell Mass", "isCorrect": false },
+      { "id": "b", "text": "Human Chorionic Gonadotropin (hCG); secreted by the Syncytiotrophoblast", "isCorrect": true },
+      { "id": "c", "text": "Progesterone; secreted by the Decidua Basalis", "isCorrect": false },
+      { "id": "d", "text": "Luteinizing Hormone (LH); secreted by the Amnion", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Early home pregnancy test kits (Gravindex tests) use monoclonal antibodies to detect Human Chorionic Gonadotropin (hCG) in urine. hCG is secreted by the embryonic Syncytiotrophoblast immediately following blastocyst implantation.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c02-004",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "Spermiogenesis Organelle Morphogenesis",
+    "difficulty": "Medium",
+    "questionText": "During spermiogenesis, a spherical, non-motile haploid spermatid (n, C) undergoes extensive cytological metamorphosis to transform into a functional, flagellated spermatozoon. Which organelle gives rise to the acrosomal cap, and what structural arrangement forms the spiral Nebenkern in the middle piece?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Acrosome derived from Lysosomes; Nebenkern formed by Endoplasmic Reticulum", "isCorrect": false },
+      { "id": "b", "text": "Acrosome derived from Golgi Apparatus; Nebenkern formed by Mitochondria", "isCorrect": true },
+      { "id": "c", "text": "Acrosome derived from Centrioles; Nebenkern formed by Nucleolus", "isCorrect": false },
+      { "id": "d", "text": "Acrosome derived from Peroxisomes; Nebenkern formed by Ribosomes", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "During spermiogenesis, the Golgi Apparatus packages hydrolytic enzymes to form the Acrosome cap over the nucleus. Mitochondria aggregate and coil spirally around the axial filament in the middle piece to form the Nebenkern, which supplies ATP for flagellar propulsion.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c02-005",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "Parturition Oxytocin Ferguson Reflex",
+    "difficulty": "Easy",
+    "questionText": "A 28-year-old female at 39 weeks gestation enters active labor. The fully developed fetus and placenta initiate mild uterine contractions, triggering the Fetal Ejection Reflex. What maternal hormone is released from the posterior pituitary via a positive feedback loop to drive powerful myometrial contractions during parturition?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Prolactin", "isCorrect": false },
+      { "id": "b", "text": "Oxytocin", "isCorrect": true },
+      { "id": "c", "text": "Progesterone", "isCorrect": false },
+      { "id": "d", "text": "Human Chorionic Gonadotropin (hCG)", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "The Fetal Ejection Reflex transmits neural signals to the maternal hypothalamus, triggering the release of Oxytocin from the posterior pituitary. Oxytocin binds myometrial receptors, inducing stronger uterine contractions, which further stimulate oxytocin release in a positive feedback loop (Ferguson Reflex) until delivery.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c02-006",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "Sertoli Cells Blood-Testis Barrier",
+    "difficulty": "Easy",
+    "questionText": "What unique histological barrier formed by tight junctions between adjacent Sertoli cells prevents maternal autoimmune antibodies from contacting and destroying haploid germ cells (n) in seminiferous tubules?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Blood-Brain Barrier", "isCorrect": false },
+      { "id": "b", "text": "Blood-Testis Barrier (BTB)", "isCorrect": true },
+      { "id": "c", "text": "Placental Syncytial Barrier", "isCorrect": false },
+      { "id": "d", "text": "Glomerular Filtration Barrier", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Tight junctions (occluding zonules) between adjacent Sertoli Cells establish the Blood-Testis Barrier (BTB). The BTB isolates haploid spermatids and spermatozoa (n)—which express novel surface auto-antigens—from circulating immunoglobulins and lymphocytes.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c02-007",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "Oogenesis Meiotic DNA Partitioning",
+    "difficulty": "Hard",
+    "questionText": "If a human primary oocyte undergoing oogenesis contains 2n = 46 chromosomes and 4C = 18.4 picograms (pg) of nuclear DNA during Prophase I arrest, what will be the exact chromosome number and DNA content in the resulting Secondary Oocyte and First Polar Body following completion of Meiosis I?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "2° Oocyte: 23 chromosomes / 9.2 pg; 1st Polar Body: 23 chromosomes / 9.2 pg", "isCorrect": true },
+      { "id": "b", "text": "2° Oocyte: 46 chromosomes / 18.4 pg; 1st Polar Body: 0 chromosomes / 0 pg", "isCorrect": false },
+      { "id": "c", "text": "2° Oocyte: 23 chromosomes / 18.4 pg; 1st Polar Body: 23 chromosomes / 4.6 pg", "isCorrect": false },
+      { "id": "d", "text": "2° Oocyte: 46 chromosomes / 9.2 pg; 1st Polar Body: 23 chromosomes / 9.2 pg", "isCorrect": false }
+    ],
+    "correctAnswer": "a",
+    "solutionExplanation": "Meiosis I is a reductional division (2n, 4C → n, 2C + n, 2C). Both the Secondary Oocyte and the First Polar Body receive a haploid set of n = 23 duplicated chromosomes and half the nuclear DNA mass: 18.4 pg / 2 = 9.2 pg. (Cytokinesis is asymmetric, so the 2° Oocyte receives almost all cytoplasm, but nuclear genetic material is partitioned equally).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c02-008",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "Unfertilized Secondary Oocyte Fate",
+    "difficulty": "Easy",
+    "questionText": "What happens to the secondary oocyte if it is ovulated into the Fallopian tube but fails to meet a sperm within its 24-hour viability window?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "It completes Meiosis II and implants in the uterine wall as a haploid blastocyst.", "isCorrect": false },
+      { "id": "b", "text": "It remains permanently arrested at Metaphase II, degenerates, and is sloughed off during menstruation.", "isCorrect": true },
+      { "id": "c", "text": "It transforms directly into a Corpus Luteum inside the Fallopian tube.", "isCorrect": false },
+      { "id": "d", "text": "It undergoes immediate parthenogenesis to form a teratoma.", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Ovulated secondary oocytes are arrested at Metaphase II. If fertilization does not occur, the secondary oocyte fails to complete Meiosis II, degenerates within 24 hours, and is eliminated during the subsequent menstrual flow.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c02-009",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "Trophoblast Hatching & Implantation",
+    "difficulty": "Medium",
+    "questionText": "Which embryonic cell layer of the blastocyst shed its Zona Pellucida during 'hatching' and directly invades the uterine endometrium during implantation on Day 6–7 post-fertilization?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Inner Cell Mass (Embryoblast)", "isCorrect": false },
+      { "id": "b", "text": "Trophoblast", "isCorrect": true },
+      { "id": "c", "text": "Corona Radiata", "isCorrect": false },
+      { "id": "d", "text": "Epiblast", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "On Day 6–7, the blastocyst sheds its Zona Pellucida ('hatching'). The outer single layer of Trophoblast cells secretes proteolytic enzymes that digest and invade the uterine Endometrium, establishing implantation.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c02-010",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "Colostrum Secretory IgA Antibodies",
+    "difficulty": "Easy",
+    "questionText": "What is the primary biological function of Colostrum, the yellowish fluid secreted by human breasts during the first 2–3 days post-parturition?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Supplying high fat content for rapid infant weight gain", "isCorrect": false },
+      { "id": "b", "text": "Providing high concentrations of Secretory IgA antibodies to confer passive mucosal immunity to the newborn", "isCorrect": true },
+      { "id": "c", "text": "Suppressing infant thyroid hormone synthesis", "isCorrect": false },
+      { "id": "d", "text": "Inducing immediate ovulation in the nursing mother", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Colostrum is rich in proteins and low in fat, and is packed with maternal Secretory IgA antibodies. These antibodies coat the infant's GI tract, conferring vital Passive Mucosal Immunity against bacterial and viral pathogens.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c02-011",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "Sertoli Cell Functions Profile",
+    "difficulty": "Medium",
+    "questionText": "Which of the following functions are actively performed by Sertoli Cells (Nurse Cells) inside seminiferous tubules? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Secretion of Androgen-Binding Protein (ABP) to concentrate testosterone", "isCorrect": true },
+      { "id": "b", "text": "Formation of the Blood-Testis Barrier (BTB) via inter-Sertoli tight junctions", "isCorrect": true },
+      { "id": "c", "text": "Secretion of Inhibin to exert negative feedback on pituitary FSH", "isCorrect": true },
+      { "id": "d", "text": "Direct synthesis and secretion of Testosterone", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Sertoli cells secrete ABP, form the BTB, and secrete Inhibin. D is incorrect: Testosterone is synthesized by Leydig Cells (Interstitial Cells), NOT Sertoli cells.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c02-012",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "Spermatogenesis vs Oogenesis Contrasts",
+    "difficulty": "Medium",
+    "questionText": "Select the valid statements contrasting Spermatogenesis and Oogenesis in humans: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Spermatogenesis is initiated at puberty, whereas Oogenesis is initiated during fetal development.", "isCorrect": true },
+      { "id": "b", "text": "Spermatogenesis produces 4 equal functional spermatozoa; Oogenesis produces 1 functional Ovum and 2–3 Polar Bodies.", "isCorrect": true },
+      { "id": "c", "text": "Oogenesis involves two prolonged meiotic arrests (Diplotene I and Metaphase II).", "isCorrect": true },
+      { "id": "d", "text": "Both processes undergo continuous, uninterrupted meiotic divisions without arrest.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Spermatogenesis starts at puberty and is continuous; Oogenesis starts in the fetus, yields 1 ovum + 3 polar bodies, and features meiotic arrests at Prophase I (Diplotene) and Metaphase II. D is incorrect: Oogenesis is highly discontinuous with two long arrests.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c02-013",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "Luteal Phase Endocrine Dynamics",
+    "difficulty": "Medium",
+    "questionText": "Which of the following endocrine events occur during the Luteal / Secretory Phase (Days 15–28) of the Menstrual Cycle? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Ruptured Graafian follicle transforms into the Corpus Luteum under LH influence.", "isCorrect": true },
+      { "id": "b", "text": "Corpus Luteum secretes large amounts of Progesterone to maintain the vascularized endometrium.", "isCorrect": true },
+      { "id": "c", "text": "High progesterone and estrogen levels exert negative feedback on pituitary FSH and LH.", "isCorrect": true },
+      { "id": "d", "text": "A massive surge in LH triggers immediate breakdown of the Stratum Functionale.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Corpus Luteum forms, secretes progesterone, and high steroids exert negative feedback on FSH/LH. D is incorrect: LH surge occurs on Day 14 (Ovulation). Drop in progesterone (due to luteal breakdown) causes endometrial sloughing on Day 1.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c02-014",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "Capacitation & Acrosomal Exocytosis",
+    "difficulty": "Hard",
+    "questionText": "Which of the following events occur during Sperm Capacitation and the Acrosomal Reaction? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Capacitation removes acrosomal cholesterol and glycoproteins, hyperactivating sperm motility.", "isCorrect": true },
+      { "id": "b", "text": "Acrosomal exocytosis releases Hyaluronidase and Acrosin (Sperm Lysins).", "isCorrect": true },
+      { "id": "c", "text": "Sperm binds specifically to ZP₃ glycoprotein receptors on the Zona Pellucida.", "isCorrect": true },
+      { "id": "d", "text": "Capacitation occurs inside the male epididymis prior to ejaculation.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Capacitation hyperactivates motility, acrosome releases hyaluronidase/acrosin, and sperm binds ZP₃ receptors. D is incorrect: Capacitation occurs strictly inside the FEMALE reproductive tract (≈ 5–6 h), NOT the epididymis.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c02-015",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "Polyspermy Blocks Mechanics",
+    "difficulty": "Medium",
+    "questionText": "Select the correct options regarding the blocks to Polyspermy during human fertilization: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Fast block involves rapid electrical depolarization of the oolemma (Na⁺ influx).", "isCorrect": true },
+      { "id": "b", "text": "Slow block (Cortical Reaction) is triggered by an intracellular Ca²⁺ wave releasing cortical granules.", "isCorrect": true },
+      { "id": "c", "text": "Cortical granule enzymes destroy ZP₃ receptors and harden the Zona Pellucida into a Fertilization Envelope.", "isCorrect": true },
+      { "id": "d", "text": "Fast block permanently cross-links glycoproteins for 9 months.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Fast block is electrical depolarization (Na⁺); Slow block is Ca²⁺-driven cortical granule release that cleaves ZP₃ and hardens the ZP. D is incorrect: Fast block is transient (≈ 60 seconds); Slow block is the permanent structural block.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c02-016",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "Placental Hormones Profile",
+    "difficulty": "Easy",
+    "questionText": "Which of the following hormones are synthesized or secreted by the Human Placenta? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Human Chorionic Gonadotropin (hCG)", "isCorrect": true },
+      { "id": "b", "text": "Human Placental Lactogen (hPL)", "isCorrect": true },
+      { "id": "c", "text": "Estrogens and Progesterone", "isCorrect": true },
+      { "id": "d", "text": "Follicle Stimulating Hormone (FSH)", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Placenta secretes hCG, hPL, Estrogens, Progesterone, and Relaxin. D is incorrect: FSH is secreted by the Anterior Pituitary Gland, NOT the placenta.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c02-017",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "Blastocyst Cytological Anatomy",
+    "difficulty": "Medium",
+    "questionText": "Which structural features characterize a Human Blastocyst prior to implantation? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "An outer single layer of Trophoblast cells that form the embryonic placenta.", "isCorrect": true },
+      { "id": "b", "text": "An Inner Cell Mass (Embryoblast) containing pluripotent stem cells that form the embryo proper.", "isCorrect": true },
+      { "id": "c", "text": "A fluid-filled central cavity called the Blastocoel.", "isCorrect": true },
+      { "id": "d", "text": "A thick, intact Zona Pellucida that anchors it to the Fallopian tube wall.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Blastocyst comprises Trophoblast, Inner Cell Mass, and Blastocoel cavity. D is incorrect: The blastocyst must SHED (hatch from) the Zona Pellucida before it can implant in the uterine endometrium.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c02-018",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "Lactation Neuroendocrine Regulation",
+    "difficulty": "Medium",
+    "questionText": "Select the correct statements regarding the hormonal regulation of Lactation: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Prolactin (from Anterior Pituitary) stimulates milk synthesis and alveoli development.", "isCorrect": true },
+      { "id": "b", "text": "Oxytocin (from Posterior Pituitary) stimulates myoepithelial cell contraction for the Milk Ejection (Let-Down) reflex.", "isCorrect": true },
+      { "id": "c", "text": "Suckling by the infant triggers a neuroendocrine reflex that stimulates both Prolactin and Oxytocin release.", "isCorrect": true },
+      { "id": "d", "text": "Progesterone directly induces milk ejection during the third trimester.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Prolactin drives milk synthesis; Oxytocin drives milk ejection; suckling stimulates both. D is incorrect: High Progesterone during pregnancy INHIBITS milk production; ejection is driven by Oxytocin.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c02-019",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "Male Accessory Glands Secretions",
+    "difficulty": "Medium",
+    "questionText": "Which of the following male accessory glands correctly match their anatomical/secretory descriptions? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Seminal Vesicles → Paired glands; secretes 60% of alkaline semen volume rich in Fructose and Prostaglandins.", "isCorrect": true },
+      { "id": "b", "text": "Prostate Gland → Single gland; secretes 30% of slightly acidic fluid containing Citrate and PSA.", "isCorrect": true },
+      { "id": "c", "text": "Bulbourethral (Cowper's) Glands → Paired glands; secretes alkaline mucus for urethral lubrication and neutralization.", "isCorrect": true },
+      { "id": "d", "text": "Testicular Lobules → Secretes high concentrations of hCG.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Seminal vesicles (fructose/alkaline), Prostate (citrate/PSA), and Cowper's glands (alkaline mucus) are accurate. D is incorrect: Testicular lobules contain seminiferous tubules (sperm/testosterone); hCG is a placental hormone.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c02-020",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Human Reproduction",
+    "chapterNumber": 2,
+    "chapterSlug": "human-reproduction",
+    "topic": "Female Reproductive System Anatomy",
+    "difficulty": "Easy",
+    "questionText": "Select the correct statements regarding human female reproductive structures: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Fertilization occurs in the Ampulla of the Fallopian tube.", "isCorrect": true },
+      { "id": "b", "text": "The Myometrium is the middle smooth muscle layer of the uterus that contracts during labor.", "isCorrect": true },
+      { "id": "c", "text": "The Endometrium undergoes cyclic structural breakdown during the menstrual cycle.", "isCorrect": true },
+      { "id": "d", "text": "Fimbriae are finger-like projections of the infundibulum that collect the ovulated oocyte.", "isCorrect": true }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "solutionExplanation": "All four options represent accurate anatomical and physiological facts regarding the female reproductive tract.",
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

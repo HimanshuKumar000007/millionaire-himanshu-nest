@@ -1,0 +1,58 @@
+{
+  "id": "chem-xii-u18-c9-l01",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVIII \u2014 Amines",
+  "unitNumber": 18,
+  "chapter": "Amines",
+  "chapterNumber": 9,
+  "chapterSlug": "amines",
+  "slug": "lesson-01-nitrogen-pyramidal-geometry-inversion-chirality",
+  "title": "Nitrogen Pyramidal Geometry, Inversion Dynamics, & Basicity Rules",
+  "topic": "Nitrogen Geometry & Pyramidal Inversion",
+  "topics": [
+    "1. Nitrogen Pyramidal Geometry (sp\u00b3 Hybridization, 108\u00b0 Bond Angle in Trimethylamine)",
+    "Pyramidal Inversion (Umbrella Inversion Dynamics, Planar sp\u00b2 Transition State, \u0394E\u00b0 \u2248 25 kJ/mol)",
+    "Spontaneous Racemization of Unsymmetrical Tertiary Amines (NR\u2081R\u2082R\u2083 at 10\u00b9\u00b9 s\u207b\u00b9)",
+    "Exceptions to Inversion Racemization: Quaternary Ammonium Salts (N\u207aR\u2081R\u2082R\u2083R\u2084 X\u207b) & Rigid Amines (Tr\u00f6ger's Base)"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "amines",
+  "quickSummary": "Nitrogen in amines is sp\u00b3 pyramidal with a non-bonding lone pair. Tertiary amines (NR\u2081R\u2082R\u2083) undergo rapid umbrella inversion at room temperature (\u0394E\u00b0 \u2248 25 kJ/mol, 10\u00b9\u00b9 s\u207b\u00b9), causing complete racemization. Chiral amines can be resolved only if they lack a lone pair (quaternary ammonium salts) or are bridgehead/rigid (Tr\u00f6ger's base).",
+  "summary": "Master amine pyramidal geometry, umbrella inversion dynamics, and chiral resolution constraints.",
+  "conceptBreakdown": [
+    {
+      "heading": "1. Nitrogen Pyramidal Geometry & Umbrella Inversion",
+      "title": "1. Nitrogen Pyramidal Geometry & Umbrella Inversion",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Pyramidal Inversion & Racemization",
+        "takeaway": "Rapid oscillation through a planar sp\u00b2 transition state (Ea \u2248 25 kJ/mol) interconverts enantiomers 10\u00b9\u00b9 times/second, making simple chiral tertiary amines impossible to resolve."
+      },
+      "codeSnippet": "                      PYRAMIDAL INVERSION (UMBRELLA INVERSION)\n                      \n   (R\u2081)               (R\u2081)                    (R\u2081)\n     \\                 \u2502                        /\n      N :  \u2500\u2500\u2500\u2500\u2500\u2500\u25ba  \u2500\u2500 N \u2500\u2500 (Planar $sp^2$) \u2500\u2500\u25ba  : N\n     / \\               \u2502                        / \\\n   (R\u2082) (R\u2083)          (R\u2082) (R\u2083)               (R\u2083) (R\u2082)\n   \n   * Activation Energy Barrier $\\Delta E^\\circ \\approx 25\\text{ kJ/mol}$ ($6\\text{ kcal/mol}$).\n   * Occurs rapidly at room temperature ($10^{11}\\text{ times/sec}$), causing unsymmetrically\n     substituted amines ($NR_1 R_2 R_3$) to undergo complete **Racemization** (cannot be resolved!).",
+      "content": "Amines are organic derivatives of ammonia ($\\text{NH}_3$) wherein one, two, or three hydrogen atoms are replaced by alkyl or aryl groups ($1^\\circ, 2^\\circ, 3^\\circ$ amines). The central nitrogen atom is $sp^3$-hybridized with a distorted pyramidal 3D geometry ($108^\\circ$ bond angle in trimethylamine due to lone pair-bond pair repulsions)."
+    },
+    {
+      "heading": "1.1 Exceptions to Inversion Racemization",
+      "title": "1.1 Exceptions to Inversion Racemization",
+      "type": "paragraph",
+      "codeSnippet": "                     EXCEPTIONS TO INVERSION RACEMIZATION\n                     \n   1. QUATERNARY AMMONIUM SALTS ($N^+ R_1 R_2 R_3 R_4 X^-$): Lacks a non-bonding lone pair;\n      rigid $sp^3$ tetrahedral geometry preserves optical activity ($\\text{Chiral}$).\n   2. CYCLIC / RIGID AMINES (*e.g., Tr\u00f6ger's Base*): Ring strain prevents planar $sp^2$ transition state;\n      resolvable into stable $d$- and $l$-enantiomers.",
+      "content": "Optical activity in nitrogen compounds is preserved in:\n1. **Quaternary Ammonium Salts**: Because nitrogen has four bonded groups and NO lone pair, tetrahedral geometry is rigid and chiral centers are stable.\n2. **Bridgehead / Rigid Amines (Tr\u00f6ger's Base)**: Cage geometry prevents the nitrogen atom from adopting a planar $sp^2$ transition state."
+    }
+  ],
+  "quickRevision": [
+    "Amine nitrogen is sp\u00b3 pyramidal with a lone pair (108\u00b0 in Me\u2083N).",
+    "Umbrella inversion occurs 10\u00b9\u00b9 times/second at room temp (Ea \u2248 25 kJ/mol).",
+    "Chiral amines (NR\u2081R\u2082R\u2083) cannot be resolved due to rapid racemization.",
+    "Quaternary ammonium salts and Tr\u00f6ger's base preserve chirality."
+  ],
+  "keyFormulae": [
+    "\\text{Pyramidal Inversion: } \\Delta E^\\circ \\approx 25\\text{ kJ/mol} \\quad (10^{11} \\text{ s}^{-1} \\implies \\text{Racemic})"
+  ]
+}

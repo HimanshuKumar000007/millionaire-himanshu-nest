@@ -1,0 +1,35 @@
+{
+  "id": "bio-xi-u5-c15-l06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Body Fluids and Circulation",
+  "chapterNumber": 15,
+  "chapterSlug": "body-fluids-and-circulation",
+  "slug": "lesson-06-human-heart-anatomy-and-nodal-system",
+  "title": "Human Heart Anatomy, Nodal Conducting System, & Blood Vessels",
+  "topic": "Cardiac Anatomy & Myogenic Autorhythmicity",
+  "order": 6,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Internal anatomy of the human heart, atrioventricular and semilunar valves, chordae tendineae, the myogenic nodal conduction pathway, and comparative histology of arteries, veins, and capillaries.",
+  "summary": "Internal anatomy of the human heart, atrioventricular and semilunar valves, chordae tendineae, the myogenic nodal conduction pathway, and comparative histology of arteries, veins, and capillaries.",
+  "conceptBreakdown": [
+    {
+      "heading": "Human Heart Anatomy, Nodal Conducting System, & Blood Vessels",
+      "title": "Human Heart Anatomy, Nodal Conducting System, & Blood Vessels",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Heart has 4 chambers, Tricuspid (right) & Bicuspid/Mitral (left) AV valves anchored by Chordae Tendineae. SA Node (pacemaker, 70–75 bpm) -> AV Node (0.1s delay) -> Bundle of His -> Purkinje fibers. Arteries have thick Tunica Media; veins have valves."
+      },
+      "codeSnippet": "NODAL CONDUCTION PATHWAY\n                      \n   SA NODE (Sinu-Atrial Node) ──► AV NODE (Atrioventricular Node)\n   [Upper right Right Atrium]     [Lower left Right Atrium]\n   (Rate: 70–75 bpm)              (Conduction Delay: 0.1 s)\n              │                              │\n              └──────────────┬───────────────┘\n                             ▼\n                    BUNDLE OF HIS (AV Bundle)\n                             │\n            ┌────────────────┴────────────────┐\n            ▼                                 ▼\n   Left Bundle Branch               Right Bundle Branch\n            │                                 │\n            └────────────────┬────────────────┘\n                             ▼\n                    PURKINJE FIBERS (Ventricular Myocardium)",
+      "content": "### 5.1 Valvular Architecture & Myogenic Nodal System\n- **Tricuspid Valve**: 3 cusps between Right Atrium & Right Ventricle.\n- **Bicuspid (Mitral) Valve**: 2 cusps between Left Atrium & Left Ventricle.\n- **Chordae Tendineae**: Tough fibrous cords connecting valve cusps to **Papillary Muscles** to prevent eversion during systole.\n- **SA Node (\"Pacemaker\")**: Generates auto-rhythmic action potentials at $70\\text{--}75\\text{ bpm}$.\n- **AV Node (\"Pacesetter\")**: Imposes a **$0.1\\text{-second}$ conduction delay** to permit complete atrial emptying.\n\n### 5.2 Blood Vessel Histology\n```\n                          BLOOD VESSEL WALL LAYERS\n                          \n   TUNICA INTIMA   ──► Innermost layer; Simple Squamous Endothelium on basement membrane.\n   TUNICA MEDIA    ──► Middle layer; Smooth Muscle & Elastic fibers (Much THICKER in Arteries).\n   TUNICA EXTERNA  ──► Outermost layer; Fibrous Collagenous Connective Tissue.\n```"
+    }
+  ]
+}

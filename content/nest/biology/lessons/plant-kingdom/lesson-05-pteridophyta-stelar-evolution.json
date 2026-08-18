@@ -1,0 +1,61 @@
+{
+  "id": "bio-xi-u1-c3-l05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit I — Diversity of Living Organisms",
+  "unitNumber": 1,
+  "chapter": "Plant Kingdom",
+  "chapterNumber": 3,
+  "chapterSlug": "plant-kingdom",
+  "slug": "lesson-05-pteridophyta-stelar-evolution",
+  "title": "Pteridophyta: First Vascular Cryptogams & Stelar Evolution",
+  "topic": "Vascular Cryptogams, Stele Trends, & Prothallus",
+  "topics": [
+    "Pteridophyta 4 Classes (Psilopsida, Lycopsida, Sphenopsida, Pteropsida)",
+    "Dominant Sporophyte & Vascular System (Tracheids & Sieve Cells)",
+    "Stelar Evolution (Protostele, Siphonostele, Solenostele, Dictyostele)",
+    "Pteridophyte Life Cycle & Prothallus Gametophyte"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High-Yield Advanced",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Pteridophytes are the first vascular land plants with a dominant diploid sporophyte (2n). Stelar evolution progressed from solid Protostele (Haplostele/Actinostele/Plectostele) to medullated Siphonostele and dissected Dictyostele in true ferns.",
+  "summary": "Pteridophytes are the first vascular land plants with a dominant diploid sporophyte (2n). Stelar evolution progressed from solid Protostele (Haplostele/Actinostele/Plectostele) to medullated Siphonostele and dissected Dictyostele in true ferns.",
+  "conceptBreakdown": [
+    {
+      "heading": "5. Pteridophyta: First Vascular Cryptogams & Stelar Evolution",
+      "title": "5. Pteridophyta: First Vascular Cryptogams & Stelar Evolution",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Pteridophytes are seedless Tracheophytes with xylem tracheids and phloem sieve cells. Their free-living photosynthetic prothallus requires water for zooidogamous fertilization."
+      },
+      "codeSnippet": "PTERIDOPHYTA CLASSIFICATION\n                                          │\n         ┌──────────────────┬─────────────┴─────────────┬──────────────────┐\n         ▼                  ▼                           ▼                  ▼\n    PSILOPSIDA          LYCOPSIDA                   SPHENOPSIDA        PTEROPSIDA\n  (Fossil Ferns)      (Club Mosses)                (Horsetails)       (True Ferns)\n  ├── Psilotum        ├── Selaginella              ├── Equisetum       ├── Dryopteris\n  └── Rhynia          └── Lycopodium               └── Silica Stems    └── Adiantum",
+      "content": "Pteridophytes (*Pteris* = fern) are the First Vascular Land Plants (**Tracheophytes**). They are seedless, spore-bearing plants (**Vascular Cryptogams**) that possess fully differentiated vascular tissues (xylem and phloem)."
+    },
+    {
+      "heading": "5.1 Dominant Sporophyte & Vascular Anatomy",
+      "title": "5.1 Dominant Sporophyte & Vascular Anatomy",
+      "type": "paragraph",
+      "content": "1. **Dominant Generation**: The main plant body is an independent, autotrophic, dominant diploid Sporophyte ($2n$), differentiated into true roots, stems, and leaves.\n\n2. **Vascular Architecture**:\n- **Xylem**: Consists exclusively of tracheids (true xylem vessels are **ABSENT**, except in rare genera: *Selaginella*, *Equisetum*, and *Marsilea*).\n- **Phloem**: Consists exclusively of sieve cells (companion cells are **ABSENT**; albuminous cells present)."
+    },
+    {
+      "heading": "5.2 Stelar Evolution in Pteridophytes",
+      "title": "5.2 Stelar Evolution in Pteridophytes",
+      "type": "paragraph",
+      "codeSnippet": "STELAR EVOLUTIONARY TREND\n                            \n    PROTOSTELE                 SIPHONOSTELE                DICTYOSTELE\n (Solid Core Xylem)  ──►   (Central Pith Ring)   ──►   (Dissected Bundles)\n ├── Haplostele            ├── Ectophloic              └── Overlapping Leaf Gaps\n ├── Actinostele           └── Amphiphloic                 (True Ferns)\n └── Plectostele               (Soleno/Siphonostele)",
+      "content": "The stele is the central vascular cylinder of the stem and root, comprising xylem, phloem, pericycle, and pith (if present).\n\n1. **Protostele (Primitive Solid Stele)**: Central solid core of xylem surrounded completely by phloem; **pith is ABSENT**.\n- **Haplostele**: Smooth, circular xylem core (*Rhynia*).\n- **Actinostele**: Star-shaped xylem core with radiating arms (*Lycopodium serratum*).\n- **Plectostele**: Xylem core broken into parallel plate-like strands (*Lycopodium clavatum*).\n\n2. **Siphonostele (Medullated Stele)**: Central core of parenchymatous pith surrounded by vascular tissue.\n- **Ectophloic Siphonostele**: Phloem lies only on the outside of xylem (*Equisetum*).\n- **Amphiphloic Siphonostele**: Phloem rings lie on both outer and inner sides of xylem (*Marsilea* rhizome).\n\n3. **Solenostele**: Siphonostele with non-overlapping leaf gaps.\n\n4. **Dictyostele**: Stele dissected into multiple isolated vascular strands (**meristeles**) by numerous overlapping leaf gaps (*Dryopteris*, *Pteris*)."
+    },
+    {
+      "heading": "5.3 Gametophyte Generation (The Prothallus)",
+      "title": "5.3 Gametophyte Generation (The Prothallus)",
+      "type": "paragraph",
+      "codeSnippet": "PTERIDOPHYTE LIFE CYCLE\n                           \n     SPOROPHYTE (2n) ──[Meiosis]──► Spores (n) ──► Germination ──► PROTHALLUS (n)\n            ▲                                                          │\n            └─────── [Syngamy] ◄── Antherozoid + Egg ◄── [Antheridium / Archegonium]",
+      "content": "Sporangia produce haploid spores via meiosis. Germinating spores produce an inconspicuous, small, free-living, photosynthetic, thalloid gametophyte called a **Prothallus**.\n\n• **Prothallus Requirements**: Requires cool, damp, shady places to survive, restricting the geographical distribution of pteridophytes.\n• **Fertilization (Zooidogamy)**: Water is required for the flagellated antherozoids (biflagellate in *Selaginella*, multiflagellate in ferns) to swim to the archegonium venter."
+    }
+  ]
+}

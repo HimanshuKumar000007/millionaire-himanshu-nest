@@ -1,0 +1,51 @@
+{
+  "id": "bio-xii-u8-c7-l08",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VIII — Biology in Human Welfare",
+  "unitNumber": 8,
+  "chapter": "Human Health and Diseases",
+  "chapterNumber": 7,
+  "chapterSlug": "human-health-and-diseases",
+  "slug": "lesson-08-hiv-aids-virology-and-cd4-t-cell-collapse",
+  "title": "HIV/AIDS Virology & CD4+ T-Cell Collapse",
+  "topic": "Retrovirus Structure, Reverse Transcriptase, Macrophage Factory, & Opportunistic Infections",
+  "order": 8,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "AIDS caused by Human Immunodeficiency Virus (HIV - diploid ssRNA retrovirus with Reverse Transcriptase). HIV gp120 binds CD4 receptors on Macrophages (which act as persistent HIV factories without dying) and CD4+ Helper T-cells. Lysis of TH cells leads to progressive collapse of CD4+ count (<200/μL), allowing fatal opportunistic infections (Mycobacterium, Toxoplasma, Pneumocystis). Diagnosed by ELISA & Western Blot.",
+  "summary": "AIDS caused by Human Immunodeficiency Virus (HIV - diploid ssRNA retrovirus with Reverse Transcriptase). HIV gp120 binds CD4 receptors on Macrophages (which act as persistent HIV factories without dying) and CD4+ Helper T-cells. Lysis of TH cells leads to progressive collapse of CD4+ count (<200/μL), allowing fatal opportunistic infections (Mycobacterium, Toxoplasma, Pneumocystis). Diagnosed by ELISA & Western Blot.",
+  "conceptBreakdown": [
+    {
+      "heading": "HIV Virology, Macrophage Factory, & Immunodeficiency Cascade",
+      "title": "HIV Virology, Macrophage Factory, & Immunodeficiency Cascade",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "HIV is an enveloped retrovirus possessing 2 copies of ssRNA and Reverse Transcriptase. It infects CD4+ cells. Macrophages serve as an 'HIV Factory' producing virus continuously, while CD4+ Helper T-cells are lysed, causing progressive immune collapse (<200/μL) and opportunistic infections. Screening is by ELISA, confirmatory testing by Western Blot."
+      },
+      "codeSnippet": "HIV VIRION STRUCTURE & REPLICATION\n                            \n   Virion: Diploid ssRNA (2 x ssRNA) + Reverse Transcriptase, Integrase, Protease\n           Envelope studded with gp120 and gp41 glycoproteins.\n                            │\n   Replication:\n   gp120 binds CD4⁺ Receptor ──► Viral ssRNA converted to dsDNA via Reverse Transcriptase\n   ──► Integrated into host genome via Integrase ──► Viral transcription & budding\n   ├── Macrophages: Act as \"HIV Factory\" (produce virus continuously without dying)\n   └── CD4⁺ T-Cells: Burst & deplete (<200/μL) ──► Severe Opportunistic Infections",
+      "content": "### 8.1 Virion Architecture of HIV\n- Enveloped, spherical **Retrovirus** with a diameter of $\\approx 100\\text{ nm}$.\n- **Genetic Material**: **Two identical copies of single-stranded RNA ($2 \\times \\text{ssRNA}$)** (diploid genome).\n- **Enzymatic Core**: Contains three key viral enzymes: **Reverse Transcriptase (RNA-dependent DNA polymerase)**, **Integrase**, and **Protease**.\n- **Envelope Spikes**: Lipid bilayer envelope studded with **$gp120$** (docking glycoprotein) and **$gp41$** (transmembrane glycoprotein).\n\n### 8.2 Pathogenesis & Progression to AIDS\n1. **Cellular Entry**: Viral envelope spike $gp120$ binds high-affinity **$\\text{CD4}$ receptors** and coreceptors (CCR5 / CXCR4) on host **Macrophages** and **$\\text{CD4}^+$ Helper T-Cells ($T_H$)**.\n2. **Reverse Transcription & Integration**: Inside host cytosol, viral Reverse Transcriptase synthesizes a complementary viral double-stranded DNA (dsDNA) from the viral ssRNA template. Viral Integrase incorporates this DNA into the host nuclear genome (provirus).\n3. **Dual Host Cell Fate**:\n   - **Macrophages (\"HIV Factory\")**: Continuously transcribe and produce new virions without being destroyed immediately.\n   - **$\\text{CD4}^+$ Helper T-Cells**: Virus replicates vigorously, lysing and destroying $T_H$ cells upon release.\n4. **Immunological Collapse**: Over a latent period of $5\\text{--}10\\text{ years}$, circulating $\\text{CD4}^+$ T-cell counts plummet from normal ($800\\text{--}1200/\\mu\\text{L}$) to critical levels (**$<200/\\mu\\text{L}$**).\n5. **Opportunistic Infections**: Characterized by recurrent bouts of fever, diarrhea, and severe weight loss with infections by *Mycobacterium avium*, *Pneumocystis jirovecii* pneumonia, *Toxoplasma gondii*, and fungal candidiasis.\n\n### 8.3 Diagnostics & Antiretroviral Therapy (ART)\n- **Diagnostic Protocol**: Screening via **ELISA (Enzyme-Linked Immunosorbent Assay)**; confirmed by **Western Blot** (identifying specific viral proteins like $p24, gp120, gp41$).\n- **Antiretroviral Drugs**: Nucleoside reverse transcriptase inhibitors (**AZT / Zidovudine**) and protease inhibitors prolong patient lifespan but cannot eradicate the provirus from host reservoirs."
+    },
+    {
+      "heading": "Modes of Transmission & NACO Guidelines",
+      "title": "Modes of Transmission & NACO Guidelines",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "HIV transmits via sexual contact, contaminated blood, needle sharing, and transplacental/breastfeeding routes. It is NOT spread by casual social touch. NACO in India coordinates prevention campaigns."
+      },
+      "content": "HIV is transmitted strictly through sexual intercourse with infected persons, transfusion of contaminated blood/blood products, sharing unsterilized intravenous needles, and vertical transmission from infected mother to fetus via placenta or colostrum; it is NOT spread by casual physical contact or vectors."
+    },
+    {
+      "heading": "Elite Controllers and CCR5-delta32 Mutation",
+      "title": "Elite Controllers and CCR5-delta32 Mutation",
+      "type": "paragraph",
+      "content": "Individuals homozygous for the CCR5-delta32 deletion lack functional CCR5 coreceptors on their macrophage membranes, rendering them naturally resistant to HIV-1 infection."
+    }
+  ]
+}

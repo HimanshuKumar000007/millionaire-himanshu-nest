@@ -1,0 +1,57 @@
+{
+  "id": "bio-xi-u2-c6-l10",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit II — Structural Organization in Plants and Animals",
+  "unitNumber": 2,
+  "chapter": "Anatomy of Flowering Plants",
+  "chapterNumber": 6,
+  "chapterSlug": "anatomy-of-flowering-plants",
+  "slug": "lesson-10-wood-histology-annual-rings-heartwood-sapwood",
+  "title": "Wood Histology: Annual Rings, Heartwood, & Sapwood",
+  "topic": "Spring Wood vs Autumn Wood, Dendrochronology, Duramen vs Alburnum, & Tyloses",
+  "topics": [
+    "Wood Classification Framework (Seasonal, Physiological, Taxonomic)",
+    "Spring Wood (Early Wood) vs Autumn Wood (Late Wood)",
+    "Annual Rings & Dendrochronology in Temperate Trees",
+    "Heartwood / Duramen (Non-functional, Dark, Tyloses, Preservative Resins)",
+    "Sapwood / Alburnum (Functional, Light, Active Water Conduction)",
+    "Tyloses Formation & Vessel Occlusion",
+    "Softwood (Gymnosperms) vs Hardwood (Angiosperms)"
+  ],
+  "order": 10,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Spring wood (wide vessels, low density, light color) + Autumn wood (narrow vessels, high density, dark color) form one Annual Growth Ring (Dendrochronology). Heartwood (Duramen) is the dark, non-conducting central core blocked by balloon-like parenchymatous Tyloses and impregnated with tannins/resins, providing rot resistance; Sapwood (Alburnum) is the peripheral functional region that conducts water.",
+  "summary": "Spring wood (wide vessels, low density, light color) + Autumn wood (narrow vessels, high density, dark color) form one Annual Growth Ring (Dendrochronology). Heartwood (Duramen) is the dark, non-conducting central core blocked by balloon-like parenchymatous Tyloses and impregnated with tannins/resins, providing rot resistance; Sapwood (Alburnum) is the peripheral functional region that conducts water.",
+  "conceptBreakdown": [
+    {
+      "heading": "8. Wood Histology Classifications",
+      "title": "8. Wood Histology Classifications",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Annual Ring = 1 Spring Wood ring + 1 Autumn Wood ring. Heartwood = Dark, dead, blocked by tyloses (no conduction); Sapwood = Light, functional (active conduction)."
+      },
+      "codeSnippet": "WOOD CLASSIFICATIONS\n                                     │\n         ┌───────────────────────────┼───────────────────────────┐\n         ▼                           ▼                           ▼\n  SEASONAL WOOD TYPES          PHYSIOLOGICAL WOOD TYPES      TAXONOMIC WOOD TYPES\n  ├── Spring / Early Wood      ├── Heartwood (Duramen)       ├── Softwood (Non-Porous - Gymnosperms)\n  └── Autumn / Late Wood       └── Sapwood (Alburnum)        └── Hardwood (Porous - Angiosperms)",
+      "content": "Secondary xylem (**Wood**) reflects seasonal cambial rhythms, physiological aging, and taxonomic lineage."
+    },
+    {
+      "heading": "8.1 Spring Wood vs. Autumn Wood (Annual Rings)",
+      "title": "8.1 Spring Wood vs. Autumn Wood (Annual Rings)",
+      "type": "paragraph",
+      "content": "| Parameter | Spring Wood (Early Wood) | Autumn Wood (Late Wood) |\n| :--- | :--- | :--- |\n| **Formation Period** | Formed during spring season when cambium is highly active | Formed during winter/autumn when cambium is less active |\n| **Vessel Lumen Size** | **Wide, broad lumens** with thin-walled tracheary elements | **Narrow lumens** with thick-walled tracheary elements |\n| **Wood Color & Density** | **Lighter in color**; **lower density** | **Darker in color**; **higher density** |\n| **Dendrochronology** | One concentric ring of Spring Wood + one ring of Autumn Wood form a single **Annual Ring** used to estimate tree age. | |"
+    },
+    {
+      "heading": "8.2 Heartwood (Duramen) vs. Sapwood (Alburnum)",
+      "title": "8.2 Heartwood (Duramen) vs. Sapwood (Alburnum)",
+      "type": "paragraph",
+      "codeSnippet": "WOOD ANATOMICAL REGIONS\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n  HEARTWOOD (Duramen)                                     SAPWOOD (Alburnum)\n ├── Central older region of stem                        ├── Peripheral younger region of stem\n ├── Non-functional (Does NOT conduct)                   ├── Functional (Active water conduction)\n ├── Impregnated with tannins, resins, oils, & gums      ├── Lighter in color; non-impregnated\n └── Tracheary elements blocked by **Tyloses**           └── Susceptible to fungal decay",
+      "content": "• **Heartwood (Duramen)**: The central, darker, older secondary xylem. Tracheary elements are permanently occluded by **Tyloses** and filled with preservative aromatic substances (tannins, resins, oils, gums). It is non-functional for sap conduction and provides immense mechanical strength and decay resistance.\n• **Sapwood (Alburnum)**: The peripheral, lighter-colored secondary xylem. Actively conducts water and dissolved mineral nutrients from roots to leaves.\n• **Tyloses**: Balloon-like bladder outgrowths of adjacent living xylem ray parenchyma cells that protrude into vessel/tracheid lumens through pit cavities, sealing the conduits during heartwood transformation."
+    }
+  ]
+}

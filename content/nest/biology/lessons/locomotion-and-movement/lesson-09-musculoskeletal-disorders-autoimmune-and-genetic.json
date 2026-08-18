@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-18-09",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Locomotion and Movement",
+  "chapterNumber": 18,
+  "chapterSlug": "locomotion-and-movement",
+  "lessonNumber": 9,
+  "title": "Pathophysiology of Musculoskeletal Disorders: Autoimmune & Genetic",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Hard",
+  "prerequisites": ["Neuromuscular junction", "Dystrophin complex"],
+  "learningObjectives": [
+    "Explain the autoimmune pathophysiology of Myasthenia Gravis targeting Nicotinic ACh receptors",
+    "Describe the genetics and sarcolemmal degeneration in Duchenne Muscular Dystrophy (DMD)",
+    "Detail the neuro-excitatory mechanism of Hypocalcemic Tetany"
+  ],
+  "content": "### 8.1 Autoimmune & Genetic Neuromuscular Pathologies\n\n```\n                        MUSCULOSKELETAL PATHOLOGIES\n                                     │\n         ┌───────────────────────────┼───────────────────────────┐\n         ▼                           ▼                           ▼\n   AUTOIMMUNE / GENETIC           METABOLIC / SPASM             INFLAMMATORY\n ├── Myasthenia Gravis (AChR)    ├── Tetany (Hypocalcemia)       ├── Osteoarthritis (Wear)\n └── Muscular Dystrophy (DMD)    └── Osteoporosis (Estrogen)     ├── Rheumatoid (Pannus)\n                                                                 └── Gout (Urate Crystals)\n```\n\n1. **Myasthenia Gravis**:\n   - **Etiology**: Chronic **Autoimmune disease** characterized by circulating auto-antibodies directed against **Nicotinic Acetylcholine Receptors (AChR)** at the neuromuscular junction (motor end plate).\n   - **Pathology**: Auto-antibodies block ACh binding and accelerate receptor endocytosis and destruction, drastically impairing neuromuscular transmission.\n   - **Clinical Picture**: Progressive skeletal muscle weakness, easy fatiguability, **Ptosis (drooping eyelids)**, diplopia (double vision), dysphagia (difficulty swallowing), and potential life-threatening paralysis of diaphragm and intercostal respiratory muscles.\n2. **Tetany (Hypocalcemic Spasm)**:\n   - **Etiology**: Caused by **Hypocalcemia** (abnormally low serum $\\text{Ca}^{2+} < 7.0\\text{ mg/dL}$), frequently resulting from hypoparathyroidism (deficient PTH).\n   - **Mechanism**: Extracellular $\\text{Ca}^{2+}$ stabilizes resting membrane potentials. Low serum $\\text{Ca}^{2+}$ increases neuronal cell membrane permeability to $\\text{Na}^+$ ions, lowering excitation thresholds and causing spontaneous repetitive depolarizations.\n   - **Clinical Picture**: Painful involuntary carpopedal spasms, twitching, and sustained tetanic muscle contractions.\n3. **Duchenne Muscular Dystrophy (DMD)**:\n   - **Etiology**: **X-linked recessive genetic disorder** resulting from mutations in the *DMD* gene on the short arm of the X-chromosome (Xp21), causing absence of the cytoskeletal protein **Dystrophin**.\n   - **Pathology**: Dystrophin links intracellular F-actin to the extracellular matrix (via the dystroglycan-sarcoglycan complex). Without dystrophin, repeated contraction tears the sarcolemma, leading to continuous $\\text{Ca}^{2+}$ influx, myofibril necrosis, pseudohypertrophy of calves, and progressive loss of ambulation.",
+  "conceptBreakdown": [
+    {
+      "heading": "Treatment of Myasthenia Gravis",
+      "explanation": "Treated with Acetylcholinesterase Inhibitors (e.g., Pyridostigmine, Neostigmine) to prolong the lifespan of acetylcholine in the synaptic cleft, compensating for the reduced number of functional ACh receptors."
+    },
+    {
+      "heading": "Gowers' Sign in DMD",
+      "explanation": "Young boys with DMD exhibit Gowers' sign: using their hands and arms to 'walk up' their own thighs to stand up from a kneeling position due to profound pelvic girdle weakness."
+    }
+  ]
+}

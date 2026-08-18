@@ -1,0 +1,926 @@
+[
+  {
+    "id": "chem-org-001",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "Dumas Nitrogen Estimation",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "In a quantitative Dumas nitrogen estimation, 0.28 g of a pure organic compound yields 33.6 mL of dry Nitrogen gas (N\u2082) collected over concentrated KOH solution at STP (0\u00b0C, 1 atm). What is the percentage of Nitrogen by mass in the organic compound?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15.0%",
+        "isCorrect": true,
+        "explanation": "% N = (28 / 22400) \u00d7 (33.6 / 0.28) \u00d7 100 = 15.0%."
+      },
+      {
+        "id": "B",
+        "text": "28.0%",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      },
+      {
+        "id": "C",
+        "text": "12.5%",
+        "isCorrect": false,
+        "explanation": "Used incorrect molar volume at STP."
+      },
+      {
+        "id": "D",
+        "text": "30.0%",
+        "isCorrect": false,
+        "explanation": "Multiplied by 2 unnecessarily."
+      }
+    ],
+    "solutionExplanation": "1. Dumas Nitrogen Percentage Formula at STP:\n   % N = (28 / 22400) \u00d7 (V_N2 at STP in mL / Mass of Sample in g) \u00d7 100\n2. Calculation:\n   % N = (28 / 22400) \u00d7 (33.6 / 0.28) \u00d7 100 = (28 \u00d7 33.6 \u00d7 100) / (22400 \u00d7 0.28) = 940.8 / 62.72 = 15.0%.",
+    "keyFormulae": [
+      "\\%\\text{ N} = \\frac{28}{22400} \\times \\frac{V_{\\text{N}_2 \\text{ (STP, mL)}}}{w_{(\\text{g})}} \\times 100"
+    ],
+    "hints": [
+      "At STP, 1 mole of N\u2082 (28 g) occupies 22,400 mL."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-org-002",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "Kjeldahl Nitrogen Estimation",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "During elemental analysis by the Kjeldahl method, 0.50 g of an organic compound is digested with concentrated H\u2082SO\u2084. The liberated Ammonia (NH\u2083) is absorbed in 50.0 mL of 0.10 M H\u2082SO\u2084 solution. The unreacted excess H\u2082SO\u2084 requires 30.0 mL of 0.10 M NaOH solution for complete neutralization. What is the mass percentage of Nitrogen in the compound?",
+    "options": [
+      {
+        "id": "A",
+        "text": "19.6%",
+        "isCorrect": true,
+        "explanation": "Initial acid meq = 50.0 \u00d7 0.10 \u00d7 2 = 10.0 meq. Excess meq = 30.0 \u00d7 0.10 = 3.0 meq. Acid consumed by NH\u2083 = 7.0 meq. % N = (1.4 \u00d7 7.0) / 0.50 = 19.6%."
+      },
+      {
+        "id": "B",
+        "text": "14.0%",
+        "isCorrect": false,
+        "explanation": "Omitted the n-factor of H\u2082SO\u2084 (n=2)."
+      },
+      {
+        "id": "C",
+        "text": "28.0%",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      },
+      {
+        "id": "D",
+        "text": "7.0%",
+        "isCorrect": false,
+        "explanation": "Divided by 2 instead of accounting for normality."
+      }
+    ],
+    "solutionExplanation": "1. Initial milliequivalents of H\u2082SO\u2084 (n-factor = 2):\n   Initial meq H\u2082SO\u2084 = 50.0 mL \u00d7 0.10 M \u00d7 2 = 10.0 meq.\n2. Excess H\u2082SO\u2084 neutralized by NaOH (n-factor = 1):\n   Excess meq H\u2082SO\u2084 = 30.0 mL \u00d7 0.10 M \u00d7 1 = 3.0 meq.\n3. Meq of H\u2082SO\u2084 consumed by NH\u2083 = 10.0 - 3.0 = 7.0 meq.\n4. Kjeldahl Nitrogen percentage formula:\n   % N = (1.4 \u00d7 Meq of Acid consumed) / (Mass of Sample in g) = (1.4 \u00d7 7.0) / 0.50 = 19.6%.",
+    "keyFormulae": [
+      "\\text{Meq of acid consumed} = (V_1 N_1) - (V_2 N_2)",
+      "\\%\\text{ N} = \\frac{1.4 \\times \\text{Meq of acid consumed}}{w_{(\\text{g})}}"
+    ],
+    "hints": [
+      "Remember that 0.10 M H\u2082SO\u2084 is 0.20 N (n-factor = 2)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-org-003",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "Kjeldahl Method Limitations",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Which of the following organic compounds will FAIL to give a positive Nitrogen test during the Kjeldahl estimation method?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Glycine (H\u2082N-CH\u2082-COOH)",
+        "isCorrect": false,
+        "explanation": "Aliphatic amine nitrogen in glycine quantitatively converts to (NH\u2084)\u2082SO\u2084."
+      },
+      {
+        "id": "B",
+        "text": "Nitrobenzene (Ph-NO\u2082)",
+        "isCorrect": true,
+        "explanation": "Kjeldahl fails for Nitro (-NO\u2082), Azo (-N=N-), and ring-bound nitrogen (Pyridine) because nitrogen is not converted to (NH\u2084)\u2082SO\u2084."
+      },
+      {
+        "id": "C",
+        "text": "Acetamide (CH\u2083CONH\u2082)",
+        "isCorrect": false,
+        "explanation": "Amide nitrogen is converted to (NH\u2084)\u2082SO\u2084."
+      },
+      {
+        "id": "D",
+        "text": "Urea (H\u2082N-CO-NH\u2082)",
+        "isCorrect": false,
+        "explanation": "Urea nitrogen readily converts to (NH\u2084)\u2082SO\u2084."
+      }
+    ],
+    "solutionExplanation": "The Kjeldahl method FAILS for Nitro compounds (-NO\u2082), Azo compounds (-N=N-), and Nitrogen present in a stable aromatic ring (e.g., Pyridine, Quinoline, Pyrrole) because the nitrogen in these structural environments is not quantitatively converted into Ammonium Sulfate during acid digestion.",
+    "keyFormulae": [
+      "\\text{Kjeldahl Fails For: } -\\text{NO}_2, \\; -\\text{N=N}-, \\; \\text{Pyridine/Heterocycles}"
+    ],
+    "hints": [
+      "Nitro group nitrogen cannot be digested to ammonium sulfate by sulfuric acid."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-org-004",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "Free Radical Stability Hierarchy",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Arrange the following free-radical species in order of INCREASING thermodynamic stability: CH\u2083\u2022, (CH\u2083)\u2082CH\u2022, (CH\u2083)\u2083C\u2022, CH\u2083CH\u2082\u2022, Ph\u2083C\u2022.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ph\u2083C\u2022 < (CH\u2083)\u2083C\u2022 < (CH\u2083)\u2082CH\u2022 < CH\u2083CH\u2082\u2022 < CH\u2083\u2022",
+        "isCorrect": false,
+        "explanation": "Reversed stability order."
+      },
+      {
+        "id": "B",
+        "text": "CH\u2083\u2022 < CH\u2083CH\u2082\u2022 < (CH\u2083)\u2082CH\u2022 < (CH\u2083)\u2083C\u2022 < Ph\u2083C\u2022",
+        "isCorrect": true,
+        "explanation": "Methyl (0 \u03b1-H) < 1\u00b0 Ethyl (3 \u03b1-H) < 2\u00b0 Isopropyl (6 \u03b1-H) < 3\u00b0 tert-Butyl (9 \u03b1-H) < Triphenylmethyl (extensive 3-ring resonance)."
+      },
+      {
+        "id": "C",
+        "text": "CH\u2083\u2022 < (CH\u2083)\u2083C\u2022 < Ph\u2083C\u2022 < CH\u2083CH\u2082\u2022 < (CH\u2083)\u2082CH\u2022",
+        "isCorrect": false,
+        "explanation": "Incorrect ordering."
+      },
+      {
+        "id": "D",
+        "text": "(CH\u2083)\u2083C\u2022 < Ph\u2083C\u2022 < CH\u2083\u2022 < CH\u2083CH\u2082\u2022 < (CH\u2083)\u2082CH\u2022",
+        "isCorrect": false,
+        "explanation": "Incorrect ordering."
+      }
+    ],
+    "solutionExplanation": "1. Free radical stability increases with +I and Hyperconjugation (\u03b1-H count):\n   Methyl (0 \u03b1-H) < 1\u00b0 Ethyl (3 \u03b1-H) < 2\u00b0 Isopropyl (6 \u03b1-H) < 3\u00b0 tert-Butyl (9 \u03b1-H).\n2. Triphenylmethyl radical (Ph\u2083C\u2022) is exceptionally stable due to extensive resonance delocalization across 3 aromatic benzene rings.\n3. Increasing stability order:\n   CH\u2083\u2022 < CH\u2083CH\u2082\u2022 < (CH\u2083)\u2082CH\u2022 < (CH\u2083)\u2083C\u2022 < Ph\u2083C\u2022.",
+    "keyFormulae": [
+      "\\text{Stability: } \\text{CH}_3^\\bullet < 1^\\circ (3\\alpha\\text{H}) < 2^\\circ (6\\alpha\\text{H}) < 3^\\circ (9\\alpha\\text{H}) < \\text{Ph}_3\\text{C}^\\bullet"
+    ],
+    "hints": [
+      "Count the number of \u03b1-hydrogens and look for resonance in Ph\u2083C\u2022."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-org-005",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "IUPAC Polyfunctional Nomenclature",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the correct IUPAC name for the poly-functional organic compound shown below?\nHO-CH\u2082-CH(CH\u2083)-CH\u2082-CO-CH\u2082-COOH",
+    "options": [
+      {
+        "id": "A",
+        "text": "6-Hydroxy-5-methyl-3-oxohexanoic acid",
+        "isCorrect": true,
+        "explanation": "-COOH is C-1. C-3 is oxo, C-5 is methyl, C-6 is hydroxy. Alphabetical: Hydroxy (h) before Methyl (m) before Oxo (o)."
+      },
+      {
+        "id": "B",
+        "text": "1-Hydroxy-2-methyl-4-oxohexan-6-oic acid",
+        "isCorrect": false,
+        "explanation": "Numbered from alcohol instead of carboxylic acid."
+      },
+      {
+        "id": "C",
+        "text": "5-Methyl-6-hydroxy-3-ketohexanoic acid",
+        "isCorrect": false,
+        "explanation": "Used non-IUPAC 'keto' and non-alphabetical prefix order."
+      },
+      {
+        "id": "D",
+        "text": "3-Oxo-5-methyl-6-hydroxyhexanoic acid",
+        "isCorrect": false,
+        "explanation": "Did not follow alphabetical order of prefixes."
+      }
+    ],
+    "solutionExplanation": "1. Principal Functional Group: Carboxylic Acid (-COOH), which gets locant C-1.\n2. Longest continuous carbon chain containing -COOH: 6 carbons \u27f9 hexanoic acid.\n3. Numbering from -COOH carbon (C-1):\n   HO\u207d\u2076\u207eC - CH\u2082\u207d\u2075\u207e(CH\u2083) - CH\u2082\u207d\u2074\u207e - CO\u207d\u00b3\u207e - CH\u2082\u207d\u00b2\u207e - COOH\u207d\u00b9\u207e\n4. Substituents:\n   \u2022 C-3: Oxo group (=O)\n   \u2022 C-5: Methyl group (-CH\u2083)\n   \u2022 C-6: Hydroxy group (-OH)\n5. Alphabetical prefix ordering: Hydroxy (h) before Methyl (m) before Oxo (o):\n   6-Hydroxy-5-methyl-3-oxohexanoic acid.",
+    "keyFormulae": [
+      "\\text{Principal Group: } -\\text{COOH (C-1)} \\implies \\text{Secondary Suffix = -oic acid}",
+      "\\text{Alphabetical Order: Hydroxy } (h) > \\text{Methyl } (m) > \\text{Oxo } (o)"
+    ],
+    "hints": [
+      "-COOH gets priority C-1. Order prefixes alphabetically."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-org-006",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "Purification Techniques Selection",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What purification technique is used industrially to purify Glycerol (boiling point 290\u00b0C) from spent lye in soap manufacturing, given that glycerol decomposes thermally near its normal boiling point?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Steam Distillation",
+        "isCorrect": false,
+        "explanation": "Glycerol is completely miscible with water and not steam volatile."
+      },
+      {
+        "id": "B",
+        "text": "Fractional Distillation at atmospheric pressure",
+        "isCorrect": false,
+        "explanation": "Decomposes before reaching atmospheric boiling point (290\u00b0C)."
+      },
+      {
+        "id": "C",
+        "text": "Distillation under Reduced Pressure (Vacuum Distillation)",
+        "isCorrect": true,
+        "explanation": "Lowering pressure to 12 mmHg drops glycerol's boiling point to 180\u00b0C, preventing decomposition."
+      },
+      {
+        "id": "D",
+        "text": "Sublimation",
+        "isCorrect": false,
+        "explanation": "Glycerol is a liquid, not a sublimable solid."
+      }
+    ],
+    "solutionExplanation": "Glycerol undergoes thermal decomposition at or near its normal boiling point (290\u00b0C). By applying Vacuum Distillation (Distillation under Reduced Pressure), the external pressure is lowered to 12 mmHg, dropping glycerol's boiling point safely to 180\u00b0C without thermal decomposition.",
+    "keyFormulae": [
+      "\\text{Vacuum Distillation: Lowering } P_{\\text{ext}} \\implies \\text{Lowers Boiling Point below decomposition temperature}"
+    ],
+    "hints": [
+      "Substances decomposing below normal boiling points are purified under reduced pressure."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-org-007",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "Lassaigne's Test for N and S",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "When Sodium Fusion Extract (SFE) containing BOTH Nitrogen and Sulfur is treated with FeCl\u2083 solution in acidic medium, a blood-red color appears. What chemical complex is responsible for this blood-red coloration?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fe\u2084[Fe(CN)\u2086]\u2083 (Prussian Blue)",
+        "isCorrect": false,
+        "explanation": "Prussian blue forms only when Sulfur is absent."
+      },
+      {
+        "id": "B",
+        "text": "[Fe(SCN)]\u00b2\u207a (Iron(III) Thiocyanate)",
+        "isCorrect": true,
+        "explanation": "Na + C + N + S \u2192 NaSCN. Fe\u00b3\u207a + SCN\u207b \u2192 [Fe(SCN)]\u00b2\u207a (blood-red complex)."
+      },
+      {
+        "id": "C",
+        "text": "Na\u2084[Fe(CN)\u2085NOS] (Sodium Nitroprusside complex)",
+        "isCorrect": false,
+        "explanation": "This gives a purple/violet color in the test for Sulfur alone."
+      },
+      {
+        "id": "D",
+        "text": "FeS (Ferrous Sulfide)",
+        "isCorrect": false,
+        "explanation": "Black precipitate, not a blood-red solution."
+      }
+    ],
+    "solutionExplanation": "When N and S are present together, sodium fusion forms Sodium Thiocyanate (NaSCN). Reaction with Fe\u00b3\u207a yields the Blood-Red complex [Fe(SCN)]\u00b2\u207a (or Fe(SCN)\u2083). No free CN\u207b remains to form Prussian Blue.",
+    "keyFormulae": [
+      "\\text{Na} + \\text{C} + \\text{N} + \\text{S} \\xrightarrow{\\Delta} \\text{NaSCN}",
+      "\\text{Fe}^{3+} + \\text{SCN}^- \\rightarrow [\\text{Fe(SCN)}]^{2+} \\text{ (Blood-Red Complex)}"
+    ],
+    "hints": [
+      "Sodium thiocyanate (NaSCN) forms when both N and S are present in the extract."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-org-008",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "Alkene Stability & Heat of Hydrogenation",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Which of the following alkenes releases the LEAST amount of heat per mole upon complete catalytic hydrogenation (Lowest Heat of Hydrogenation - HoH)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ethene (CH\u2082=CH\u2082)",
+        "isCorrect": false,
+        "explanation": "0 \u03b1-H (least stable alkene, highest HoH)."
+      },
+      {
+        "id": "B",
+        "text": "Propene (CH\u2083CH=CH\u2082)",
+        "isCorrect": false,
+        "explanation": "3 \u03b1-H."
+      },
+      {
+        "id": "C",
+        "text": "trans-2-Butene (CH\u2083CH=CHCH\u2083)",
+        "isCorrect": false,
+        "explanation": "6 \u03b1-H."
+      },
+      {
+        "id": "D",
+        "text": "2,3-Dimethyl-2-butene ((CH\u2083)\u2082C=C(CH\u2083)\u2082)",
+        "isCorrect": true,
+        "explanation": "Has 12 \u03b1-H (most stable alkene by hyperconjugation \u27f9 lowest heat of hydrogenation)."
+      }
+    ],
+    "solutionExplanation": "1. Heat of Hydrogenation (HoH) is inversely proportional to Alkene Stability:\n   HoH \u221d 1 / Alkene Stability \u221d 1 / (Number of \u03b1-Hydrogens)\n2. \u03b1-Hydrogen count:\n   \u2022 Ethene = 0 \u03b1-H\n   \u2022 Propene = 3 \u03b1-H\n   \u2022 trans-2-Butene = 6 \u03b1-H\n   \u2022 2,3-Dimethyl-2-butene = 12 \u03b1-H (Most stable alkene!).\n3. Because 2,3-dimethyl-2-butene is the most stable alkene, it releases the least heat upon hydrogenation.",
+    "keyFormulae": [
+      "\\text{HoH} \\propto \\frac{1}{\\text{Alkene Stability}} \\propto \\frac{1}{\\alpha\\text{-H count}}"
+    ],
+    "hints": [
+      "Most stable alkene has the lowest heat of hydrogenation. Count \u03b1-hydrogens."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-org-009",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "Carius Sulfur Estimation",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "During Carius quantitative estimation of Sulfur, 0.32 g of an organic compound yields 0.466 g of Barium Sulfate (BaSO\u2084, M = 233.36 g/mol) precipitate. What is the percentage of Sulfur in the compound?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20.0%",
+        "isCorrect": true,
+        "explanation": "% S = (32 / 233.36) \u00d7 (0.466 / 0.32) \u00d7 100 = 20.0%."
+      },
+      {
+        "id": "B",
+        "text": "10.0%",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      },
+      {
+        "id": "C",
+        "text": "32.0%",
+        "isCorrect": false,
+        "explanation": "Assumed molar mass of sulfur equals percentage."
+      },
+      {
+        "id": "D",
+        "text": "15.0%",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      }
+    ],
+    "solutionExplanation": "1. Carius Sulfur percentage formula:\n   % S = (32 / 233.36) \u00d7 (Mass of BaSO\u2084 / Mass of Sample) \u00d7 100\n2. Calculation:\n   % S = (32 / 233.36) \u00d7 (0.466 / 0.32) \u00d7 100 = 0.1371 \u00d7 1.45625 \u00d7 100 = 20.0%.",
+    "keyFormulae": [
+      "\\%\\text{ S} = \\frac{32}{233.36} \\times \\frac{\\text{Mass of BaSO}_4}{w} \\times 100"
+    ],
+    "hints": [
+      "Molar mass of BaSO\u2084 is 233.36 g/mol, containing 32 g of Sulfur."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-org-010",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "Neopentyl Carbocation Rearrangement",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What type of reactive intermediate is generated when Neopentyl chloride undergoes S_N1 solvolysis, and what structural rearrangement occurs immediately prior to nucleophilic attack?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1\u00b0 Neopentyl Carbanion \u2500\u2500\u25ba No rearrangement",
+        "isCorrect": false,
+        "explanation": "Solvolysis generates carbocations, not carbanions."
+      },
+      {
+        "id": "B",
+        "text": "1\u00b0 Neopentyl Carbocation \u2500\u2500\u25ba 1,2-Methyl Shift to form 3\u00b0 2-Methyl-2-butyl Carbocation",
+        "isCorrect": true,
+        "explanation": "(CH\u2083)\u2083C-CH\u2082\u207a undergoes a 1,2-methyl shift to form the stable 3\u00b0 cation (CH\u2083)\u2082C\u207a-CH\u2082CH\u2083."
+      },
+      {
+        "id": "C",
+        "text": "1\u00b0 Free Radical \u2500\u2500\u25ba 1,2-Hydride Shift",
+        "isCorrect": false,
+        "explanation": "Free radicals do not rearrange under standard solvolysis."
+      },
+      {
+        "id": "D",
+        "text": "2\u00b0 Carbocation \u2500\u2500\u25ba Ring Expansion",
+        "isCorrect": false,
+        "explanation": "Neopentyl system is acyclic and initially 1\u00b0."
+      }
+    ],
+    "solutionExplanation": "Ionization of neopentyl chloride forms an unstable 1\u00b0 carbocation: (CH\u2083)\u2083C-CH\u2082\u207a. To achieve higher thermodynamic stability, it undergoes an immediate 1,2-Methyl Shift, forming the highly stable 3\u00b0 carbocation: (CH\u2083)\u2082C\u207a-CH\u2082CH\u2083 prior to nucleophilic attack.",
+    "keyFormulae": [
+      "(\\text{CH}_3)_3\\text{C}-\\text{CH}_2^+ \\xrightarrow{1,2-\\text{CH}_3 \\text{ Shift}} (\\text{CH}_3)_2\\text{C}^+-\\text{CH}_2\\text{CH}_3 \\; (3^\\circ)"
+    ],
+    "hints": [
+      "1\u00b0 neopentyl carbocation undergoes a 1,2-methyl shift to become 3\u00b0."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-org-011",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "Permanent Electronic Effects",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following electronic displacement effects are PERMANENT effects operating in ground-state organic molecules in the absence of attacking reagents? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inductive Effect (I)",
+        "isCorrect": true,
+        "explanation": "Permanent \u03c3-bond polarization."
+      },
+      {
+        "id": "B",
+        "text": "Resonance / Mesomeric Effect (M / R)",
+        "isCorrect": true,
+        "explanation": "Permanent \u03c0-electron delocalization."
+      },
+      {
+        "id": "C",
+        "text": "Hyperconjugation (H)",
+        "isCorrect": true,
+        "explanation": "Permanent \u03c3_C-H to p/\u03c0* delocalization."
+      },
+      {
+        "id": "D",
+        "text": "Electromeric Effect (E)",
+        "isCorrect": false,
+        "explanation": "Electromeric effect is a TEMPORARY effect occurring strictly during reagent attack."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Inductive, Resonance, and Hyperconjugation are permanent electronic effects existing in ground-state molecules.\n\u2022 D is incorrect: The Electromeric Effect (E) is a TEMPORARY effect operating exclusively in the presence of an attacking reagent.",
+    "keyFormulae": [
+      "\\text{Permanent Effects: Inductive, Resonance, Hyperconjugation}",
+      "\\text{Temporary Effect: Electromeric Effect (E)}"
+    ],
+    "hints": [
+      "Electromeric effect is the only temporary effect among the four."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-org-012",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "Carbocation Characteristics",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding Carbocation reactive intermediates: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "They possess a positively charged carbon with 6 valence electrons and sp\u00b2 planar geometry",
+        "isCorrect": true,
+        "explanation": "Carbocations are sextet, sp\u00b2 hybridized with 120\u00b0 bond angles."
+      },
+      {
+        "id": "B",
+        "text": "Their stability order is: Tropylium > Ph\u2083C\u207a > 3\u00b0 > 2\u00b0 > 1\u00b0 > CH\u2083\u207a",
+        "isCorrect": true,
+        "explanation": "Aromatic tropylium and resonance-stabilized triphenylmethyl are exceptionally stable."
+      },
+      {
+        "id": "C",
+        "text": "Electron-donating groups (+I, +M, Hyperconjugation) stabilize carbocations",
+        "isCorrect": true,
+        "explanation": "Electron release disperses positive charge."
+      },
+      {
+        "id": "D",
+        "text": "1\u00b0 and 2\u00b0 carbocations can undergo 1,2-hydride or 1,2-methyl shifts to yield more stable 3\u00b0 carbocations",
+        "isCorrect": true,
+        "explanation": "Intramolecular 1,2-shifts are characteristic of carbocations."
+      }
+    ],
+    "solutionExplanation": "All four statements represent accurate structural, stability, and rearrangement properties of carbocations.",
+    "keyFormulae": [
+      "\\text{Carbocation Geometry: } sp^2 \\text{ Planar, } 6e^-"
+    ],
+    "hints": [
+      "Review carbocation orbital hybridization, electronic stability, and 1,2-shifts."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-org-013",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "-I Effect Group Identification",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following structural groups exhibit an Electron-Withdrawing Inductive Effect (-I Effect)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "-NO\u2082",
+        "isCorrect": true,
+        "explanation": "Strong -I group."
+      },
+      {
+        "id": "B",
+        "text": "-NF\u2083\u207a",
+        "isCorrect": true,
+        "explanation": "Extremely powerful -I group due to positive charge and electronegative Fluorine."
+      },
+      {
+        "id": "C",
+        "text": "-COOH",
+        "isCorrect": true,
+        "explanation": "Electronegative carbonyl/hydroxyl group (-I)."
+      },
+      {
+        "id": "D",
+        "text": "-C(CH\u2083)\u2083",
+        "isCorrect": false,
+        "explanation": "tert-Butyl is an electron-donating (+I) alkyl group."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: -NO\u2082, -NF\u2083\u207a, and -COOH are electronegative/cationic groups displaying strong -I effects.\n\u2022 D is incorrect: -C(CH\u2083)\u2083 (tert-butyl) is an electron-donating group displaying a strong +I effect.",
+    "keyFormulae": [
+      "-\\text{I Groups: } -\\text{NF}_3^+ > -\\text{NO}_2 > -\\text{COOH} > \\text{Halogens}"
+    ],
+    "hints": [
+      "Alkyl groups show +I effect."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-org-014",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "Carius Method Capabilities",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding Carius quantitative elemental estimation: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Digestion with fuming HNO\u2083 and AgNO\u2083 estimates Halogens as AgX precipitates",
+        "isCorrect": true,
+        "explanation": "AgX precipitation for halogens."
+      },
+      {
+        "id": "B",
+        "text": "Digestion with fuming HNO\u2083 and BaCl\u2082 estimates Sulfur as BaSO\u2084 precipitate",
+        "isCorrect": true,
+        "explanation": "BaSO\u2084 precipitation for sulfur."
+      },
+      {
+        "id": "C",
+        "text": "Phosphorous is estimated by precipitating as Magnesium Ammonium Phosphate (MgNH\u2084PO\u2084) followed by ignition to Mg\u2082P\u2082O\u2087",
+        "isCorrect": true,
+        "explanation": "Standard Carius estimation for phosphorus."
+      },
+      {
+        "id": "D",
+        "text": "Carbon and Nitrogen are estimated simultaneously in Carius tubes as CN gas",
+        "isCorrect": false,
+        "explanation": "Carbon is estimated by Liebig combustion; Nitrogen by Dumas/Kjeldahl."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Carius estimation protocols for Halogens (AgX), Sulfur (BaSO\u2084), and Phosphorus (Mg\u2082P\u2082O\u2087) are accurate.\n\u2022 D is incorrect: Carbon/Hydrogen are estimated via Liebig combustion; Nitrogen is estimated via Dumas or Kjeldahl methods.",
+    "keyFormulae": [
+      "\\text{Carius: Halogens } (\\text{AgX}), \\; \\text{Sulfur } (\\text{BaSO}_4), \\; \\text{Phosphorus } (\\text{Mg}_2\\text{P}_2\\text{O}_7)"
+    ],
+    "hints": [
+      "Carius method is used for Halogens, Sulfur, and Phosphorus."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-org-015",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "Electrophile Taxonomy",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following species are classified as ELECTROPHILES (Lewis Acids / Electron-Pair Acceptors)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nitronium Ion (NO\u2082\u207a)",
+        "isCorrect": true,
+        "explanation": "Positively charged electrophile in aromatic nitration."
+      },
+      {
+        "id": "B",
+        "text": "Boron Trifluoride (BF\u2083)",
+        "isCorrect": true,
+        "explanation": "Neutral Lewis acid with incomplete octet (6 valence e\u207b)."
+      },
+      {
+        "id": "C",
+        "text": "Dichlorocarbene (:CCl\u2082)",
+        "isCorrect": true,
+        "explanation": "Neutral carbene intermediate with vacant p-orbital (electrophile in Reimer-Tiemann)."
+      },
+      {
+        "id": "D",
+        "text": "Hydroxide Anion (OH\u207b)",
+        "isCorrect": false,
+        "explanation": "OH\u207b is an electron-rich Lewis base (Nucleophile)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: NO\u2082\u207a (cation), BF\u2083 (incomplete octet), and :CCl\u2082 (carbene with 6 e\u207b) are electrophiles.\n\u2022 D is incorrect: OH\u207b is a negatively charged electron donor (Nucleophile).",
+    "keyFormulae": [
+      "\\text{Electrophiles: } \\text{NO}_2^+, \\; \\text{BF}_3, \\; \\text{:CCl}_2, \\; \\text{AlCl}_3, \\; \\text{SO}_3"
+    ],
+    "hints": [
+      "Electrophiles are electron-deficient species (Lewis acids)."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-org-016",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "Hyperconjugation Principles",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding Hyperconjugation (No-Bond Resonance): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "It involves delocalization of \u03c3_C-H electrons into adjacent vacant p or \u03c0* orbitals",
+        "isCorrect": true,
+        "explanation": "Definition of hyperconjugative overlap."
+      },
+      {
+        "id": "B",
+        "text": "The number of hyperconjugative canonical structures equals the number of \u03b1-hydrogens attached to sp\u00b2 carbon",
+        "isCorrect": true,
+        "explanation": "Canonical structures = count of \u03b1-H."
+      },
+      {
+        "id": "C",
+        "text": "Hyperconjugation stabilizes carbocations, carbon free radicals, and alkenes",
+        "isCorrect": true,
+        "explanation": "All three systems with adjacent sp\u00b2 carbons are stabilized by hyperconjugation."
+      },
+      {
+        "id": "D",
+        "text": "Hyperconjugation operates through a 30 nm solenoid fiber matrix",
+        "isCorrect": false,
+        "explanation": "Solenoid fibers refer to chromatin packaging in biology, not chemistry."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Hyperconjugation involves \u03c3_C-H \u2192 p / \u03c0* delocalization, depends on \u03b1-H count, and stabilizes carbocations, radicals, and alkenes.\n\u2022 D is incorrect: Solenoid fibers refer to chromatin packaging in biology, NOT organic hyperconjugation!",
+    "keyFormulae": [
+      "\\text{Canonical Forms} = \\text{Number of } \\alpha\\text{-H}"
+    ],
+    "hints": [
+      "Hyperconjugation is No-Bond Resonance involving \u03c3_C-H electrons."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-org-017",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "Steam Distillation Applications",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following techniques are based on STEAM DISTILLATION (P_total = P\u00b0_water + P\u00b0_organic = 1 atm)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Purification of Aniline from reaction mixtures",
+        "isCorrect": true,
+        "explanation": "Aniline is steam-volatile and water-immiscible."
+      },
+      {
+        "id": "B",
+        "text": "Isolation of Nitrobenzene",
+        "isCorrect": true,
+        "explanation": "Nitrobenzene is steam-volatile and water-immiscible."
+      },
+      {
+        "id": "C",
+        "text": "Extraction of essential oils (Eucalyptus / Rose oil)",
+        "isCorrect": true,
+        "explanation": "Essential oils are steam-volatile plant essences."
+      },
+      {
+        "id": "D",
+        "text": "Separation of Crude Petroleum fractions",
+        "isCorrect": false,
+        "explanation": "Crude petroleum is separated by Fractional Distillation."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Aniline, Nitrobenzene, and essential oils are steam-volatile and water-immiscible, purified by steam distillation below 100\u00b0C.\n\u2022 D is incorrect: Crude petroleum components are miscible liquids separated by Fractional Distillation.",
+    "keyFormulae": [
+      "P_{\\text{total}} = P^\\circ_{\\text{water}} + P^\\circ_{\\text{organic}} = 1\\text{ atm} \\implies T_{\\text{bp}} < 100^\\circ\\text{C}"
+    ],
+    "hints": [
+      "Look for steam-volatile, water-immiscible organic liquids."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-org-018",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "IUPAC Priority Hierarchy",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding IUPAC priority rules for poly-functional compounds: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "-COOH has higher priority than -CHO and -OH",
+        "isCorrect": true,
+        "explanation": "-COOH > -CHO > -OH."
+      },
+      {
+        "id": "B",
+        "text": "-CN (Nitrile) has higher priority than -C=O (Ketone)",
+        "isCorrect": true,
+        "explanation": "-CN > -CHO > -CO-."
+      },
+      {
+        "id": "C",
+        "text": "Double bonds (-C=C-) have higher priority than triple bonds (-C\u2261C-) when choosing numbering direction in case of a tie",
+        "isCorrect": true,
+        "explanation": "In a tie from either end, alkene gets lower locant over alkyne."
+      },
+      {
+        "id": "D",
+        "text": "-OH (Alcohol) has higher priority than -COOH",
+        "isCorrect": false,
+        "explanation": "-COOH has the highest priority of all functional groups."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Priority order: -COOH > -CN > -CHO > -C=O > -OH > ene > yne. In ties, double bonds get lower locant over triple bonds.\n\u2022 D is incorrect: -COOH has the highest priority of all organic functional groups.",
+    "keyFormulae": [
+      "-\\text{COOH} > -\\text{SO}_3\\text{H} > -\\text{COOR} > -\\text{COX} > -\\text{CONH}_2 > -\\text{CN} > -\\text{CHO} > -\\text{C=O} > -\\text{OH} > -\\text{C=C}- > -\\text{C}\\equiv\\text{C}-"
+    ],
+    "hints": [
+      "Carboxylic acid has the highest priority."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-org-019",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "Lassaigne's Test Color Reactions",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following qualitative test observations correctly match their respective elements in Lassaigne\u2019s Sodium Fusion Extract? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nitrogen \u2192 Prussian Blue precipitate (Fe\u2084[Fe(CN)\u2086]\u2083) with FeSO\u2084 / FeCl\u2083",
+        "isCorrect": true,
+        "explanation": "Prussian blue confirms Nitrogen."
+      },
+      {
+        "id": "B",
+        "text": "Sulfur \u2192 Violet/Purple color with Sodium Nitroprusside (Na\u2084[Fe(CN)\u2085NOS])",
+        "isCorrect": true,
+        "explanation": "Purple nitroprusside complex confirms Sulfur."
+      },
+      {
+        "id": "C",
+        "text": "Chlorine \u2192 White precipitate (AgCl) soluble in ammonium hydroxide",
+        "isCorrect": true,
+        "explanation": "AgCl is soluble in NH\u2084OH forming [Ag(NH\u2083)\u2082]\u207a."
+      },
+      {
+        "id": "D",
+        "text": "Iodine \u2192 Yellow precipitate (AgI) completely insoluble in ammonium hydroxide",
+        "isCorrect": true,
+        "explanation": "AgI is insoluble in NH\u2084OH."
+      }
+    ],
+    "solutionExplanation": "All four options represent accurate qualitative Lassaigne's test reactions for N, S, Cl, and I.",
+    "keyFormulae": [
+      "\\text{N} \\rightarrow \\text{Fe}_4[\\text{Fe(CN)}_6]_3, \\; \\text{S} \\rightarrow \\text{Na}_4[\\text{Fe(CN)}_5\\text{NOS}], \\; \\text{Cl} \\rightarrow \\text{AgCl}, \\; \\text{I} \\rightarrow \\text{AgI}"
+    ],
+    "hints": [
+      "Review solubility of silver halides in ammonium hydroxide."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-org-020",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry Principles & Techniques",
+    "subtopic": "Carbanion Characteristics",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding Carbanion intermediates (R\u207b): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The central carbon is sp\u00b3-hybridized with pyramidal geometry carrying a lone pair (unless conjugated)",
+        "isCorrect": true,
+        "explanation": "Carbanions are sp\u00b3 hybridized with pyramidal geometry."
+      },
+      {
+        "id": "B",
+        "text": "Carbanion stability order is: Allyl \u2248 Benzyl > CH\u2083\u207b > 1\u00b0 > 2\u00b0 > 3\u00b0",
+        "isCorrect": true,
+        "explanation": "Alkyl groups (+I) destabilize carbanions, reversing stability order."
+      },
+      {
+        "id": "C",
+        "text": "Electron-withdrawing groups (-I, -M) stabilize carbanions by dispersing negative charge",
+        "isCorrect": true,
+        "explanation": "Dispersal of negative charge stabilizes carbanions."
+      },
+      {
+        "id": "D",
+        "text": "Carbanions readily undergo 1,2-methyl shifts to form 3\u00b0 carbanions",
+        "isCorrect": false,
+        "explanation": "Carbanions do NOT undergo 1,2-rearrangements."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Carbanions are sp\u00b3 pyramidal, stabilized by -I/-M groups, and follow CH\u2083\u207b > 1\u00b0 > 2\u00b0 > 3\u00b0 stability.\n\u2022 D is incorrect: Carbanions do NOT undergo 1,2-rearrangements (rearrangements are characteristic of carbocations).",
+    "keyFormulae": [
+      "\\text{Carbanion Stability: } \\text{CH}_3^- > 1^\\circ > 2^\\circ > 3^\\circ"
+    ],
+    "hints": [
+      "Carbanions do not rearrange via 1,2-shifts."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

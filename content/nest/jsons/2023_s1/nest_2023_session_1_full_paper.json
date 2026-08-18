@@ -1,0 +1,3599 @@
+{
+  "id": "nest-pyq-2023-s1",
+  "exam": "NEST",
+  "year": 2023,
+  "session": 1,
+  "title": "NEST 2023 (Session 1) Official Previous Year Paper",
+  "category": "Previous Year Paper",
+  "difficulty": "High-Yield",
+  "status": "published",
+  "source": "official-pyq",
+  "durationMinutes": 180,
+  "totalQuestions": 68,
+  "totalMarks": 224,
+  "evalMarks": 168,
+  "instructions": [
+    "Duration: 3 hours (180 minutes).",
+    "Total questions: 68 (17 Biology, 17 Chemistry, 17 Mathematics, 17 Physics).",
+    "Marking Scheme: MCQs (+3, -1), MSQs (+4, 0). Best 3 of 4 subjects evaluated."
+  ],
+  "questions": [
+    {
+      "id": "bio-2023-s1-q01",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Evolution & Diversity",
+      "subtopic": "Cladistics & Character Evolution",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983028/nest_pyqs/2023_s1/nest_2023_s1_page_2_img_1_2.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983028/nest_pyqs/2023_s1/nest_2023_s1_page_2_img_1_2.png"
+      ],
+      "questionText": "A cladogram representing the evolution of some animals ($P, Q, R,$ and $S$) is shown. The features marked $\\text{I}$ to $\\text{IV}$ in the cladogram represent different features that have evolved. What is the correct statement with respect to the given cladogram?",
+      "options": [
+        {
+          "id": "a",
+          "text": "If $Q$ is a bullfrog, $\\text{II}$ could be placenta.",
+          "isCorrect": false,
+          "explanation": "Placenta is specific to eutherian mammals."
+        },
+        {
+          "id": "b",
+          "text": "If features $\\text{III}$ and $\\text{IV}$ are mammary glands and hair, respectively, then $R$ represents kangaroo and $S$ represents humans.",
+          "isCorrect": false,
+          "explanation": "Both kangaroos and humans possess mammary glands and hair."
+        },
+        {
+          "id": "c",
+          "text": "If $Q, R,$ and $S$ represent bullfrog, koala, and human, respectively, then feature $\\text{II}$ could be two pairs of limbs.",
+          "isCorrect": true,
+          "explanation": "Tetrapod limbs (two pairs of limbs) unite amphibians, marsupials, and eutherians."
+        },
+        {
+          "id": "d",
+          "text": "If feature $\\text{I}$ is lungs, then $P$ and $Q$ are shark and bullfrog respectively.",
+          "isCorrect": false,
+          "explanation": "Feature I defines all subsequent descendants."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n- Feature $\\text{II}$ is a synapomorphy uniting taxa $Q$ (bullfrog), $R$ (koala), and $S$ (human) $\\implies$ **two pairs of limbs (Tetrapoda)**.",
+      "keyFormulae": [
+        "Evolution & Diversity: Cladistics & Character Evolution"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Evolution & Diversity."
+      ]
+    },
+    {
+      "id": "bio-2023-s1-q02",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Biochemistry & Molecular Biology",
+      "subtopic": "DNA/RNA Melting Temperature",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A $1000\\text{ base pair}$ double-stranded DNA (B form) has a melting temperature ($T_m$) of $58^\\circ\\text{C}$. If a duplex RNA (A form) of the same length and sequence is constructed, then the $T_m$ of this new RNA duplex with respect to the DNA (B form) would be:",
+      "options": [
+        {
+          "id": "a",
+          "text": "higher due to greater stability of A form of RNA duplex.",
+          "isCorrect": true,
+          "explanation": "A-form RNA duplex has superior base-stacking and C3'-endo ribose conformation, leading to higher Tm."
+        },
+        {
+          "id": "b",
+          "text": "lower due to lower stability of A form of RNA duplex.",
+          "isCorrect": false,
+          "explanation": "RNA duplex is more thermally stable than DNA duplex."
+        },
+        {
+          "id": "c",
+          "text": "lower because of unfavorable enthalpy of formation of RNA duplex.",
+          "isCorrect": false,
+          "explanation": "RNA duplex formation is enthalpy-driven and favorable."
+        },
+        {
+          "id": "d",
+          "text": "identical, as the number of hydrogen bonds remain the same.",
+          "isCorrect": false,
+          "explanation": "Base stacking contributes more to Tm than simple hydrogen bonding."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- RNA duplexes adopt the compact **A-form** geometry with enhanced base stacking overlap and extensive hydration networks, giving a higher $T_m$ than B-form DNA.",
+      "keyFormulae": [
+        "Biochemistry & Molecular Biology: DNA/RNA Melting Temperature"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Biochemistry & Molecular Biology."
+      ]
+    },
+    {
+      "id": "bio-2023-s1-q03",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Biochemistry",
+      "subtopic": "Ion Exchange Chromatography",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A biochemist wants to purify a protein $X$ (molecular weight $= 30.2\\text{ kDa}$ and $\\text{pI} = 7.5$) from a solution containing proteins $X$ and $Y$ (molecular weight $= 30.9\\text{ kDa}$ and $\\text{pI} = 3.5$) using ion exchange chromatography. In this technique, an anion exchange resin is positively charged and a cation exchange resin is negatively charged. The most appropriate resin where protein $X$, but not $Y$ will remain bound is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "cation exchanger at $\\text{pH} = 7.5$.",
+          "isCorrect": false,
+          "explanation": "At pH 7.5, X has zero net charge and won't bind."
+        },
+        {
+          "id": "b",
+          "text": "anion exchanger at $\\text{pH} = 2.5$.",
+          "isCorrect": false,
+          "explanation": "At pH 2.5, both proteins are positively charged."
+        },
+        {
+          "id": "c",
+          "text": "cation exchanger at $\\text{pH} = 5.0$.",
+          "isCorrect": true,
+          "explanation": "At pH 5.0: For X (pI 7.5), pH < pI => net positive charge (binds cation exchanger). For Y (pI 3.5), pH > pI => net negative charge (elutes)."
+        },
+        {
+          "id": "d",
+          "text": "anion exchanger at $\\text{pH} = 7.5$.",
+          "isCorrect": false,
+          "explanation": "At pH 7.5, Y binds and X is neutral."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n- At $\\text{pH} = 5.0$, protein $X$ is positively charged ($\\text{pH} < \\text{pI}$) and binds to the cation exchanger, while protein $Y$ is negatively charged ($\\text{pH} > \\text{pI}$) and flows through.",
+      "keyFormulae": [
+        "Biochemistry: Ion Exchange Chromatography"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Biochemistry."
+      ]
+    },
+    {
+      "id": "bio-2023-s1-q04",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Microbiology",
+      "subtopic": "Bacterial Endospore Dormancy",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Bacterial endospores are highly resistant to environmental stresses such as heat, UV radiation, and oxidizing agents. They can remain dormant for a prolonged period. During the period of dormancy, they prevent the accumulation of potentially harmful mutations in their DNA. This is primarily due to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "decreased water content and reduced enzyme activity.",
+          "isCorrect": true,
+          "explanation": "Severe dehydration and dormancy prevent hydrolytic DNA damage and halt metabolic reactions."
+        },
+        {
+          "id": "b",
+          "text": "decreased salt concentration and enhanced enzyme activity.",
+          "isCorrect": false,
+          "explanation": "Enzyme activity is suppressed."
+        },
+        {
+          "id": "c",
+          "text": "decreased respiration and decreased DNA supercoiling.",
+          "isCorrect": false,
+          "explanation": "SASPs bind and protect DNA."
+        },
+        {
+          "id": "d",
+          "text": "increased enzyme activity and increased membrane permeability.",
+          "isCorrect": false,
+          "explanation": "Enzymatic reactions are minimal."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- Endospores achieve dormancy through extreme core dehydration (10–30% water content) and SASP binding, preventing hydrolytic and oxidative DNA damage.",
+      "keyFormulae": [
+        "Microbiology: Bacterial Endospore Dormancy"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Microbiology."
+      ]
+    },
+    {
+      "id": "bio-2023-s1-q05",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Plant Physiology",
+      "subtopic": "Membrane Potential & ETC Cyanide Inhibition",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983038/nest_pyqs/2023_s1/nest_2023_s1_page_4_img_1_8.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983038/nest_pyqs/2023_s1/nest_2023_s1_page_4_img_1_8.png"
+      ],
+      "questionText": "Pea seeds were allowed to germinate for $4\\text{ days}$, and segments of the epicotyl were treated with cyanide ($\\text{CN}^-$) at a concentration of $0.1\\text{ mM}$. The membrane potential was recorded before and after the addition and removal of cyanide. The graph of cell membrane potential ($\\text{mV}$) against time (minutes) is shown. Based on these experimental observations, the correct option is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "addition of cyanide will decrease the membrane potential because of the depletion of ATP.",
+          "isCorrect": true,
+          "explanation": "Cyanide blocks Complex IV, depleting ATP and shutting down electrogenic H+-ATPase pumps, causing membrane depolarization (decrease in potential magnitude)."
+        },
+        {
+          "id": "b",
+          "text": "addition of cyanide will decrease the pH of the intermembrane space.",
+          "isCorrect": false,
+          "explanation": "Inhibiting proton pumping raises intermembrane space pH."
+        },
+        {
+          "id": "c",
+          "text": "addition of excess oxygen will increase the membrane potential in the presence of cyanide.",
+          "isCorrect": false,
+          "explanation": "Cyanide non-competitively blocks Complex IV."
+        },
+        {
+          "id": "d",
+          "text": "addition of cyanide will cause a rapid but irreversible depolarization of membrane potential.",
+          "isCorrect": false,
+          "explanation": "The graph shows clear reversibility after cyanide washout."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- Plasma membrane $\\text{H}^+\\text{-ATPase}$ requires $\\text{ATP}$ from mitochondrial respiration. Cyanide halts respiration, depleting ATP and collapsing the electrogenic proton gradient.",
+      "keyFormulae": [
+        "Plant Physiology: Membrane Potential & ETC Cyanide Inhibition"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Plant Physiology."
+      ]
+    },
+    {
+      "id": "bio-2023-s1-q06",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Genetics",
+      "subtopic": "Pedigree Analysis",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983041/nest_pyqs/2023_s1/nest_2023_s1_page_4_img_2_9.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983041/nest_pyqs/2023_s1/nest_2023_s1_page_4_img_2_9.png"
+      ],
+      "questionText": "In the given pedigree, circles represent females and squares represent males. Filled shapes indicate affected individuals while unfilled shapes indicate unaffected individuals. Based on the pedigree information provided, the correct inheritance pattern is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "autosomal dominant.",
+          "isCorrect": false,
+          "explanation": "Unaffected parents have affected children, ruling out dominant."
+        },
+        {
+          "id": "b",
+          "text": "autosomal recessive.",
+          "isCorrect": true,
+          "explanation": "Unaffected parents have affected male and female children; affected female has an unaffected father, confirming autosomal recessive."
+        },
+        {
+          "id": "c",
+          "text": "X-linked dominant.",
+          "isCorrect": false,
+          "explanation": "Cannot skip generations."
+        },
+        {
+          "id": "d",
+          "text": "X-linked recessive.",
+          "isCorrect": false,
+          "explanation": "Affected female must have affected father in X-linked recessive, which is not the case."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (2) / (B)**\n\n- Generation skipping $\\implies$ recessive. Affected female has normal father $\\implies$ **autosomal recessive**.",
+      "keyFormulae": [
+        "Genetics: Pedigree Analysis"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Genetics."
+      ]
+    },
+    {
+      "id": "bio-2023-s1-q07",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Population Genetics",
+      "subtopic": "Hardy-Weinberg Multi-Allele Equilibrium",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A population has a single locus with three alleles ($X_1, X_2, X_3$). The frequencies of these alleles are $p, q,$ and $r$, respectively, and if $p + q + r = 1$, then the correct statement is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "the population is in Hardy-Weinberg equilibrium.",
+          "isCorrect": false,
+          "explanation": "p+q+r=1 is a mathematical identity, not proof of equilibrium."
+        },
+        {
+          "id": "b",
+          "text": "the population is not in Hardy-Weinberg equilibrium because it has three alleles.",
+          "isCorrect": false,
+          "explanation": "HWE applies to multi-allelic loci."
+        },
+        {
+          "id": "c",
+          "text": "this information is insufficient to state whether the population is in Hardy-Weinberg equilibrium.",
+          "isCorrect": true,
+          "explanation": "Observed genotype frequencies must be compared with the expansion (p+q+r)^2 to determine HWE."
+        },
+        {
+          "id": "d",
+          "text": "the population will be in Hardy-Weinberg equilibrium if $r = 0$ and $p + q = 1$.",
+          "isCorrect": false,
+          "explanation": "Genotype frequencies still need to be verified."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n- $p+q+r=1$ is universally true for allele frequencies. Determining HWE requires observed diploid genotype frequencies.",
+      "keyFormulae": [
+        "Population Genetics: Hardy-Weinberg Multi-Allele Equilibrium"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Population Genetics."
+      ]
+    },
+    {
+      "id": "bio-2023-s1-q08",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Evolution",
+      "subtopic": "Darwin-Wallace Theory & Mendelism",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Mendelian theory of inheritance was crucial for Darwin-Wallace’s theory of natural selection because it resolved the major problem of:",
+      "options": [
+        {
+          "id": "a",
+          "text": "dilution and loss of favorable continuous variations through 'blending inheritance'.",
+          "isCorrect": true,
+          "explanation": "Particulate inheritance preserves distinct alleles undiluted across generations."
+        },
+        {
+          "id": "b",
+          "text": "the origin of life from prebiotic organic molecules.",
+          "isCorrect": false,
+          "explanation": "Mendelism explains genetic transmission, not abiogenesis."
+        },
+        {
+          "id": "c",
+          "text": "the inheritance of acquired characters proposed by Lamarck.",
+          "isCorrect": false,
+          "explanation": "Addressed by Weismann's germplasm theory."
+        },
+        {
+          "id": "d",
+          "text": "the exact rate of spontaneous gene mutations in eukaryotes.",
+          "isCorrect": false,
+          "explanation": "Discovered much later."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- Particulate Mendelian inheritance solved Fleeming Jenkin's 'swamping argument' by showing that alleles are discrete units that do not blend.",
+      "keyFormulae": [
+        "Evolution: Darwin-Wallace Theory & Mendelism"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Evolution."
+      ]
+    },
+    {
+      "id": "bio-2023-s1-q09",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "subtopic": "Community Interactions & Removal Experiments",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983047/nest_pyqs/2023_s1/nest_2023_s1_page_6_img_1_16.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983047/nest_pyqs/2023_s1/nest_2023_s1_page_6_img_1_16.png"
+      ],
+      "questionText": "In a closed ecosystem, red algae, crabs, and green algae interact with each other. The following experimental treatments were set up:\n\ni. All crabs removed\nii. All green algae removed\niii. All crabs and green algae removed\niv. All crabs, red, and green algae are retained (Control)\n\nThe results of red algae growth from these experiments are shown in the graph. Plus (+) indicates presence and minus (-) indicates absence. Red algae growth in all the treatments was significantly different from each other.\n\nBased on these results, the correct option is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "in the absence of crabs, green algae positively affected red algae growth.",
+          "isCorrect": false,
+          "explanation": "In absence of crabs, presence of green algae reduces red algae growth due to competition."
+        },
+        {
+          "id": "b",
+          "text": "in the presence of crabs, green algae positively affected red algae growth.",
+          "isCorrect": true,
+          "explanation": "In the presence of crabs acting as selective consumers, green algae presence positively supports red algae growth."
+        },
+        {
+          "id": "c",
+          "text": "in the absence of green algae, crabs negatively affected red algae growth.",
+          "isCorrect": false,
+          "explanation": "Crabs do not negatively affect red algae."
+        },
+        {
+          "id": "d",
+          "text": "in the presence of green algae, crabs negatively affected red algae growth.",
+          "isCorrect": false,
+          "explanation": "Crabs facilitate red algae."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (2) / (B)**\n\n**Ecological Analysis:**\n- In treatment (iv) (Control: Crabs +, Green algae +) vs (i) (Crabs -, Green algae +), presence of crabs drastically increases red algae growth because crabs selectively consume competing green algae (trophic facilitation/indirect mutualism).",
+      "keyFormulae": [
+        "Ecology: Community Interactions & Removal Experiments"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Ecology."
+      ]
+    },
+    {
+      "id": "bio-2023-s1-q10",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Cell Biology & Bioenergetics",
+      "subtopic": "ATP Synthase Rotational Catalysis Calculation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Synthesis of ATP takes place when protons flow back to the matrix side through an enzyme complex called ATP synthase. ATP synthase is made up of two operational units: a rotatory and a stationary component. Assume that the ATP synthase does $\\sim 100\\text{ rotations per second}$, and each rotation results in the generation of $3\\text{ ATP}$ molecules. Suppose that a cell needs $\\sim 3 \\times 10^{10}\\text{ molecules of ATP}$ for one round of cell division that takes $30\\text{ minutes}$ with the ATP synthase functioning at $50\\%$ efficiency. The minimum number of ATP synthase required for one round of cell division in this cell is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$222222$",
+          "isCorrect": false,
+          "explanation": "Arithmetic error."
+        },
+        {
+          "id": "b",
+          "text": "$55555.5$",
+          "isCorrect": false,
+          "explanation": "Missed efficiency factor."
+        },
+        {
+          "id": "c",
+          "text": "$111111$",
+          "isCorrect": true,
+          "explanation": "Rate per enzyme = 100 rot/s * 3 ATP/rot * 0.50 = 150 ATP/s. In 30 min (1800 s), 1 enzyme produces 150 * 1800 = 2.7 * 10^5 ATP. Number of enzymes needed = (3 * 10^10) / (2.7 * 10^5) = 1.11111 * 10^5 = 111111."
+        },
+        {
+          "id": "d",
+          "text": "$277777$",
+          "isCorrect": false,
+          "explanation": "Arithmetic error."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n**Mathematical Calculation:**\n- Rate of ATP production per ATP synthase:\n  $$\\text{Rate} = 100\\text{ rot/s} \\times 3\\text{ ATP/rot} \\times 0.50\\text{ efficiency} = 150\\text{ ATP/s}$$\n- Total time available $t = 30\\text{ min} \\times 60\\text{ s/min} = 1800\\text{ s}$.\n- ATP synthesized per complex in $30\\text{ min}$:\n  $$\\text{ATP}_{\\text{single}} = 150 \\times 1800 = 2.7 \\times 10^5\\text{ ATP}$$\n- Minimum number of ATP synthase enzymes:\n  $$N = \\frac{3 \\times 10^{10}}{2.7 \\times 10^5} = \\frac{300,000}{2.7} \\approx 111111$$",
+      "keyFormulae": [
+        "Cell Biology & Bioenergetics: ATP Synthase Rotational Catalysis Calculation"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Cell Biology & Bioenergetics."
+      ]
+    },
+    {
+      "id": "bio-2023-s1-q11",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Cell Biology",
+      "subtopic": "Lipid Bilayer Membrane Permeability",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The permeability of molecules across a lipid bilayer depends on their size and solubility in a nonpolar solvent relative to their solubility in water. For the species $\\text{O}_2, \\text{H}_2\\text{O}, \\text{K}^+$, glycerol and glucose, the order of their permeability across a lipid bilayer in the absence of any protein transporters is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\text{O}_2 > \\text{H}_2\\text{O} > \\text{Glycerol} > \\text{Glucose} > \\text{K}^+$",
+          "isCorrect": true,
+          "explanation": "Small non-polar gas (O2) > Small uncharged polar (H2O) > Medium uncharged polar (glycerol) > Large uncharged polar (glucose) > Charged ions (K+)."
+        },
+        {
+          "id": "b",
+          "text": "$\\text{H}_2\\text{O} > \\text{O}_2 > \\text{Glycerol} > \\text{Glucose} > \\text{K}^+$",
+          "isCorrect": false,
+          "explanation": "Non-polar O2 diffuses faster than polar H2O."
+        },
+        {
+          "id": "c",
+          "text": "$\\text{O}_2 > \\text{H}_2\\text{O} > \\text{Glucose} > \\text{Glycerol} > \\text{K}^+$",
+          "isCorrect": false,
+          "explanation": "Glycerol is smaller than glucose."
+        },
+        {
+          "id": "d",
+          "text": "$\\text{K}^+ > \\text{O}_2 > \\text{H}_2\\text{O} > \\text{Glycerol} > \\text{Glucose}$",
+          "isCorrect": false,
+          "explanation": "Inorganic ions have the lowest permeability across hydrophobic bilayer."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- Small non-polar molecules ($\\text{O}_2$) have the highest permeability coefficient ($\\sim 10^{-1}\\text{ cm/s}$), followed by small uncharged polar ($\\text{H}_2\\text{O} \\sim 10^{-2}$), uncharged polar 3-carbon ($\\text{glycerol} \\sim 10^{-6}$), 6-carbon ($\\text{glucose} \\sim 10^{-7}$), and charged ions ($\\text{K}^+ \\sim 10^{-12}\\text{ cm/s}$).",
+      "keyFormulae": [
+        "Cell Biology: Lipid Bilayer Membrane Permeability"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Cell Biology."
+      ]
+    },
+    {
+      "id": "bio-2023-s1-q12",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Immunology & Virology",
+      "subtopic": "Monoclonal Antibody Epitope Neutralization",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A monoclonal (antibody specific for a given epitope of an antigen) IgG antibody ($M$) was produced in the laboratory that binds a surface protein ($P$) of a virus ($V_1$) and neutralizes $100\\%$ of $V_1$. It was observed that $M$ is also effective in neutralizing other viruses $V_2, V_3$ and $V_4$ at $40\\%, 90\\%$ and $32\\%$ efficiency as compared to $V_1$. If there are no other confounding factors, then the most accurate inference is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$V_1, V_2, V_3$, and $V_4$ have identical surface protein $P$.",
+          "isCorrect": false,
+          "explanation": "Neutralization efficiency varies widely, indicating sequence divergence in the epitope."
+        },
+        {
+          "id": "b",
+          "text": "the genome of $V_1$ and $V_3$ has to be $90\\%$ identical for the observed binding efficiency.",
+          "isCorrect": false,
+          "explanation": "Antibody binds an epitope, not the whole genome."
+        },
+        {
+          "id": "c",
+          "text": "the sequence of $P$ is more similar in $V_2$ and $V_4$ than in $V_1$ and $V_2$.",
+          "isCorrect": false,
+          "explanation": "Antibody binding reflects similarity to V1."
+        },
+        {
+          "id": "d",
+          "text": "a segment of sequence in $P$ is highly conserved in $V_1$ and $V_3$ whereas the same segment is less conserved in $V_2$ and $V_4$.",
+          "isCorrect": true,
+          "explanation": "High neutralization efficiency in V3 (90%) reflects strong conservation of the specific epitope recognized by M, whereas V2 (40%) and V4 (32%) have amino acid substitutions in the epitope."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (4) / (D)**\n\n- Monoclonal antibodies bind a specific contiguous or conformational **epitope** on antigen $P$.\n- $90\\%$ cross-neutralization in $V_3$ indicates high epitope conservation with $V_1$, whereas $40\\%$ and $32\\%$ in $V_2$ and $V_4$ reflect epitope sequence divergence.",
+      "keyFormulae": [
+        "Immunology & Virology: Monoclonal Antibody Epitope Neutralization"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Immunology & Virology."
+      ]
+    },
+    {
+      "id": "bio-2023-s1-q13",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Biochemistry",
+      "subtopic": "Hemoglobin Dimerization & Cooperativity",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983054/nest_pyqs/2023_s1/nest_2023_s1_page_8_img_1_22.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983054/nest_pyqs/2023_s1/nest_2023_s1_page_8_img_1_22.png"
+      ],
+      "questionText": "A genetic engineering experiment resulted in a new haemoglobin variant which exists primarily as $\\alpha\\beta$ dimers in solution. Based on the oxygen saturation curves of the variant (dashed line) and normal haemoglobin (solid line), it can be inferred that:",
+      "options": [
+        {
+          "id": "a",
+          "text": "the variant has a higher affinity to oxygen and shows non-cooperative behaviour.",
+          "isCorrect": true,
+          "explanation": "Dissociation into alpha-beta dimers abolishes tetrameric allosteric subunit interactions (positive cooperativity), converting the sigmoidal binding curve to a left-shifted hyperbolic curve (higher affinity, Hill coefficient n=1)."
+        },
+        {
+          "id": "b",
+          "text": "the variant has a higher affinity to oxygen and shows cooperative behaviour.",
+          "isCorrect": false,
+          "explanation": "Dimers lack the cooperativity of the full tetramer."
+        },
+        {
+          "id": "c",
+          "text": "the oxygen dissociation of the variant is less than $10\\%$ at $20\\text{ mm of Hg}$.",
+          "isCorrect": false,
+          "explanation": "Curve shows saturation > 70% at 20 mmHg."
+        },
+        {
+          "id": "d",
+          "text": "at sea level ($\\sim 150\\text{ mm of Hg}$), animals with this variant of haemoglobin can survive better than the ones with normal haemoglobin.",
+          "isCorrect": false,
+          "explanation": "High affinity prevents unloading oxygen in peripheral tissues, causing hypoxia."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- Normal hemoglobin tetramer exhibits cooperative sigmoidal binding ($n_H \\approx 2.8$).\n- Isolated $\\alpha\\beta$ dimers lack the quaternary $\\text{T} \\leftrightarrow \\text{R}$ allosteric transition, binding oxygen with **hyperbolic, non-cooperative kinetics** and high affinity (left-shifted curve).",
+      "keyFormulae": [
+        "Biochemistry: Hemoglobin Dimerization & Cooperativity"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Biochemistry."
+      ]
+    },
+    {
+      "id": "bio-2023-s1-q14",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Microbiology & Genetics",
+      "subtopic": "Nosocomial Antibiotic Resistance Mechanisms",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A hospital witnessed an outbreak of a nosocomial (hospital-acquired) infection caused by *Klebsiella pneumoniae*. It showed resistance to antibiotics generally used for its treatment. Under the given scenario, the antibiotic resistance of this organism can be attributed to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "the presence of antibiotic resistance gene acquired through horizontal transfer from other prevalent strains in the hospital.",
+          "isCorrect": true,
+          "explanation": "Nosocomial outbreaks of multi-drug resistant Klebsiella pneumoniae spread primarily via conjugative plasmids through horizontal gene transfer under clinical antibiotic selection pressure."
+        },
+        {
+          "id": "b",
+          "text": "silent mutations in target sites of antibiotics.",
+          "isCorrect": false,
+          "explanation": "Silent mutations do not alter protein structure or confer resistance."
+        },
+        {
+          "id": "c",
+          "text": "neutralisation of antibiotics by enzymes that target and inactivate these antibiotics.",
+          "isCorrect": false,
+          "explanation": "Horizontal gene transfer is the primary epidemiological mechanism."
+        },
+        {
+          "id": "d",
+          "text": "reduced permeability of these antibiotics due to the formation of a protective barrier.",
+          "isCorrect": false,
+          "explanation": "Secondary factor."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- Hospital-acquired outbreaks of multidrug-resistant *K. pneumoniae* are driven by **horizontal gene transfer (HGT)** of resistance plasmids carrying beta-lactamase and carbapenemase genes.",
+      "keyFormulae": [
+        "Microbiology & Genetics: Nosocomial Antibiotic Resistance Mechanisms"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Microbiology & Genetics."
+      ]
+    },
+    {
+      "id": "bio-2023-s1-q15",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Plant Developmental Genetics (MSQ)",
+      "subtopic": "ABC Model of Floral Organ Identity",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983056/nest_pyqs/2023_s1/nest_2023_s1_page_9_img_1_26.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983056/nest_pyqs/2023_s1/nest_2023_s1_page_9_img_1_26.png",
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983057/nest_pyqs/2023_s1/nest_2023_s1_page_9_img_2_27.png"
+      ],
+      "questionText": "In the ABC model, the acquisition of floral organ identity is regulated by the floral homeotic genes named A, B, and C. A wild-type flower is depicted below.\n\nConsider the following mutants:\ni. loss of gene C\nii. loss of gene A\niii. loss of gene B\niv. loss of genes B and C\n\nPossible floral phenotypes (P-S) resulting from these mutations are given below.\n\nBased on this ABC model, the correct option(s) is(are): *(Select all correct options)*",
+      "options": [
+        {
+          "id": "a",
+          "text": "(i) corresponds to R and (iv) corresponds to Q.",
+          "isCorrect": false,
+          "explanation": "Check ABC mapping."
+        },
+        {
+          "id": "b",
+          "text": "(i) corresponds to S and (ii) corresponds to Q.",
+          "isCorrect": true,
+          "explanation": "Loss of C: A expands everywhere => Sepal, Petal, Petal, Sepal (Phenotype S). Loss of A: C expands everywhere => Carpel, Stamen, Stamen, Carpel (Phenotype Q)."
+        },
+        {
+          "id": "c",
+          "text": "(ii) corresponds to P and (iii) corresponds to S.",
+          "isCorrect": false,
+          "explanation": "Loss of B corresponds to P."
+        },
+        {
+          "id": "d",
+          "text": "(iii) corresponds to P and (iv) corresponds to R.",
+          "isCorrect": true,
+          "explanation": "Loss of B (iii): Sepal, Sepal, Carpel, Carpel (Phenotype P). Loss of B and C (iv): only A active in all 4 whorls => Sepal, Sepal, Sepal, Sepal (Phenotype R)."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (2) and (4) / (B) and (D)**\n\n**ABC Floral Model Breakdown:**\n- **Mutant (i) [loss of C]:** Sepal, Petal, Petal, Sepal (matches **S**).\n- **Mutant (ii) [loss of A]:** Carpel, Stamen, Stamen, Carpel (matches **Q**).\n- **Mutant (iii) [loss of B]:** Sepal, Sepal, Carpel, Carpel (matches **P**).\n- **Mutant (iv) [loss of B & C]:** Sepal, Sepal, Sepal, Sepal (matches **R**).\n- Therefore, (i)=S & (ii)=Q [Option 2], and (iii)=P & (iv)=R [Option 4].",
+      "keyFormulae": [
+        "Plant Developmental Genetics (MSQ): ABC Model of Floral Organ Identity"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Plant Developmental Genetics (MSQ)."
+      ]
+    },
+    {
+      "id": "bio-2023-s1-q16",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Microbiology & Genetics (MSQ)",
+      "subtopic": "Auxotroph Replica Plating Analysis",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786982977/nest_pyqs/2023_s1/nest_2023_s1_page_10_img_1_32.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786982977/nest_pyqs/2023_s1/nest_2023_s1_page_10_img_1_32.png"
+      ],
+      "questionText": "Auxotrophs are organisms with mutations that have lost the ability to synthesise essential organic compounds, and hence need supplements for growth in minimal media. Prototrophs are organisms that are able to synthesize essential compounds and hence can grow in minimal media without supplements. Colonies from six different strains of *E. coli* ($U, V, W, X, Y, Z$) are grown separately on a single master plate containing complete medium. No strain carries more than a single auxotrophic mutation. Replica plates are then made from this master plate. Each of this replica plate contains minimal medium to which a single supplement (either $P, Q, R,$ or $S$) is added. In the diagram below, filled circles represent colonies that grew on the medium and absence denotes failure to grow.\n\nBased on the scheme, the correct interpretation(s) is(are): *(Select all correct options)*",
+      "options": [
+        {
+          "id": "a",
+          "text": "strain $W$ is a prototrophic strain and strain $V$ is auxotrophic for $Q$.",
+          "isCorrect": false,
+          "explanation": "Check plate growth data."
+        },
+        {
+          "id": "b",
+          "text": "strain $Z$ is auxotrophic for $R$ and strain $Y$ is auxotrophic for $S$.",
+          "isCorrect": false,
+          "explanation": "Check plate growth data."
+        },
+        {
+          "id": "c",
+          "text": "strain $U$ is a prototrophic strain and strain $X$ is auxotrophic for $Q$.",
+          "isCorrect": true,
+          "explanation": "Strain U grows on all plates (prototroph). Strain X only grows when supplement Q is present, proving it is auxotrophic for Q."
+        },
+        {
+          "id": "d",
+          "text": "strain $Y$ is auxotrophic for $P$ and strain $Z$ is auxotrophic for $R$.",
+          "isCorrect": true,
+          "explanation": "Strain Y only grows when P is added (P auxotroph); Strain Z only grows when R is added (R auxotroph)."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (3) and (4) / (C) and (D)**\n\n**Replica Plating Logic:**\n- **Strain $U$:** Grows on minimal medium with any supplement $\\implies$ **prototrophic**.\n- **Strain $X$:** Grows exclusively on the replica plate containing supplement $Q \\implies$ **auxotrophic for $Q$**.\n- **Strain $Y$:** Grows exclusively on supplement $P \\implies$ **auxotrophic for $P$**.\n- **Strain $Z$:** Grows exclusively on supplement $R \\implies$ **auxotrophic for $R$**.",
+      "keyFormulae": [
+        "Microbiology & Genetics (MSQ): Auxotroph Replica Plating Analysis"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Microbiology & Genetics (MSQ)."
+      ]
+    },
+    {
+      "id": "bio-2023-s1-q17",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Ecology (MSQ)",
+      "subtopic": "Ecological Pyramids of Energy & Biomass",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786982979/nest_pyqs/2023_s1/nest_2023_s1_page_11_img_1_36.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786982979/nest_pyqs/2023_s1/nest_2023_s1_page_11_img_1_36.png"
+      ],
+      "questionText": "Energy diagrams allow ecologists to compare patterns of energy flow through the trophic levels of different ecosystems while biomass diagrams allow them to compare the amount of material present in living organisms at different trophic levels. The energy flow and biomass diagrams for a few ecosystems are given.\n\nChoose the correct statement(s): *(Select all correct options)*",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\text{III B}$ cannot be the biomass pyramid of an open ocean since a biomass pyramid cannot be inverted at any level.",
+          "isCorrect": false,
+          "explanation": "Open ocean biomass pyramids ARE inverted."
+        },
+        {
+          "id": "b",
+          "text": "$\\text{I B}$ and $\\text{II B}$ are the biomass pyramids of a grassland and a forest ecosystem respectively, since most of the biomass in a grassland is found in the green parts and hence the efficiency of energy transfer from producers to primary consumers is higher in grassland as compared to a forest ecosystem.",
+          "isCorrect": true,
+          "explanation": "In grasslands (I B), standing crop biomass is upright with high consumption efficiency; in forests (II B), huge producer biomass is locked in non-consumed wood."
+        },
+        {
+          "id": "c",
+          "text": "$\\text{III A}$ could be the energy flow pyramid for an open ocean.",
+          "isCorrect": true,
+          "explanation": "Energy flow pyramids are ALWAYS upright in all ecosystems due to Second Law of Thermodynamics (10% law)."
+        },
+        {
+          "id": "d",
+          "text": "$\\text{I A}$ could be the energy flow pyramid for a forest ecosystem, since the majority of the biomass is tied up in wood and is not available to most herbivores.",
+          "isCorrect": true,
+          "explanation": "Forest energy pyramids have a very broad producer base with a steep drop to herbivores since most tree biomass enters the detrital food web rather than grazing food chain."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (2), (3), and (4) / (B), (C), and (D)**\n\n**Ecosystem Bioenergetics:**\n- Biomass pyramid of open ocean is inverted (high turnover of phytoplankton).\n- Energy flow pyramids are **strictly upright** in all ecosystems due to thermodynamic dissipation at each trophic transfer.\n- In grasslands, photosynthetic tissue dominates, giving high herbivore trophic transfer efficiency compared to woody forests.",
+      "keyFormulae": [
+        "Ecology (MSQ): Ecological Pyramids of Energy & Biomass"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Ecology (MSQ)."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q18",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Inorganic Chemistry",
+      "subtopic": "Oxyacids of Phosphorus",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Pyrophosphoric acid ($\\text{H}_4\\text{P}_2\\text{O}_7$) and pyrophosphorous acid ($\\text{H}_4\\text{P}_2\\text{O}_5$) are oxyacids of phosphorus. The number of $\\text{P}-\\text{OH}$ bonds present in pyrophosphoric acid and pyrophosphorous acid, respectively are:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$4, 3$",
+          "isCorrect": false,
+          "explanation": "Pyrophosphorous acid has 2 P-OH bonds."
+        },
+        {
+          "id": "b",
+          "text": "$4, 4$",
+          "isCorrect": false,
+          "explanation": "Pyrophosphorous acid has P-H bonds."
+        },
+        {
+          "id": "c",
+          "text": "$4, 2$",
+          "isCorrect": true,
+          "explanation": "Pyrophosphoric acid: (HO)2(O)P-O-P(O)(OH)2 has four P-OH bonds. Pyrophosphorous acid: (HO)(H)(O)P-O-P(O)(H)(OH) has two P-OH bonds."
+        },
+        {
+          "id": "d",
+          "text": "$2, 4$",
+          "isCorrect": false,
+          "explanation": "Inverted values."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n- $\\text{H}_4\\text{P}_2\\text{O}_7$: $(\\text{HO})_2\\text{P}(=\\text{O})-\\text{O}-\\text{P}(=\\text{O})(\\text{OH})_2 \\implies 4\\,\\text{P}-\\text{OH}\\text{ bonds}$.\n- $\\text{H}_4\\text{P}_2\\text{O}_5$: $(\\text{HO})(\\text{H})\\text{P}(=\\text{O})-\\text{O}-\\text{P}(=\\text{O})(\\text{H})(\\text{OH}) \\implies 2\\,\\text{P}-\\text{OH}\\text{ bonds}$.",
+      "keyFormulae": [
+        "Inorganic Chemistry: Oxyacids of Phosphorus"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Inorganic Chemistry."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q19",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Chemical Bonding",
+      "subtopic": "VSEPR Molecular Geometry",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The pair of molecules having the same shape is:\n\n(1) $\\text{PF}_5$ and $\\text{BrF}_5$\n(2) $\\text{O}_3$ and $\\text{I}_3^-$\n(3) $\\text{BF}_3$ and $\\text{ClF}_3$\n(4) $\\text{XeO}_3$ and $\\text{PF}_3$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\text{PF}_5$ and $\\text{BrF}_5$",
+          "isCorrect": false,
+          "explanation": "PF5 is trigonal bipyramidal; BrF5 is square pyramidal."
+        },
+        {
+          "id": "b",
+          "text": "$\\text{O}_3$ and $\\text{I}_3^-$",
+          "isCorrect": false,
+          "explanation": "O3 is bent; I3^- is linear."
+        },
+        {
+          "id": "c",
+          "text": "$\\text{BF}_3$ and $\\text{ClF}_3$",
+          "isCorrect": false,
+          "explanation": "BF3 is trigonal planar; ClF3 is T-shaped."
+        },
+        {
+          "id": "d",
+          "text": "$\\text{XeO}_3$ and $\\text{PF}_3$",
+          "isCorrect": true,
+          "explanation": "Both XeO3 and PF3 have steric number 4 (3 bonding pairs + 1 lone pair) giving a Trigonal Pyramidal molecular geometry."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (4) / (D)**\n\n- $\\text{XeO}_3$: $3\\,\\sigma\\text{-bonds} + 1\\text{ lone pair} \\implies \\text{Trigonal Pyramidal}$.\n- $\\text{PF}_3$: $3\\,\\sigma\\text{-bonds} + 1\\text{ lone pair} \\implies \\text{Trigonal Pyramidal}$.",
+      "keyFormulae": [
+        "Chemical Bonding: VSEPR Molecular Geometry"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Chemical Bonding."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q20",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Inorganic Chemistry",
+      "subtopic": "Boron Compounds & Reactions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Boron on reaction with fluorine forms $P$, which on reaction with $\\text{NaH}$ at a high temperature produces $Q$ along with a sodium salt. The compound $P$ also reacts with $\\text{NH}_3$ to give an adduct $R$. However, when compound $Q$ is heated with $\\text{NH}_3$ at $450\\text{ K}$, it forms a cyclic compound $S$. The correct statement is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\text{B}-\\text{N}$ bond in $R$ is covalent in nature.",
+          "isCorrect": false,
+          "explanation": "The B-N bond in BF3.NH3 is a coordinate dative bond."
+        },
+        {
+          "id": "b",
+          "text": "All $\\text{B}-\\text{H}$ bonds in $Q$ are equivalent.",
+          "isCorrect": false,
+          "explanation": "B2H6 contains 4 terminal 2c-2e B-H bonds and 2 bridging 3c-2e B-H-B bonds."
+        },
+        {
+          "id": "c",
+          "text": "The shape of $S$ is tetrahedral.",
+          "isCorrect": false,
+          "explanation": "S is borazine (B3N3H6), which is planar hexagonal (inorganic benzene)."
+        },
+        {
+          "id": "d",
+          "text": "Compound $Q$ when dissolved in water gives an acid.",
+          "isCorrect": true,
+          "explanation": "Diborane (Q = B2H6) hydrolyzes completely in water to yield boric acid: B2H6 + 6 H2O -> 2 H3BO3 + 6 H2."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (4) / (D)**\n\n- $P = \\text{BF}_3, \\quad Q = \\text{B}_2\\text{H}_6, \\quad R = \\text{F}_3\\text{B}\\cdot\\text{NH}_3, \\quad S = \\text{B}_3\\text{N}_3\\text{H}_6\\text{ (Borazine)}$.\n- Hydrolysis: $\\text{B}_2\\text{H}_6 + 6\\text{H}_2\\text{O} \\rightarrow 2\\text{H}_3\\text{BO}_3\\text{ (Boric Acid)} + 6\\text{H}_2$.",
+      "keyFormulae": [
+        "Inorganic Chemistry: Boron Compounds & Reactions"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Inorganic Chemistry."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q21",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Inorganic Chemistry",
+      "subtopic": "Lanthanide Ionization Energies",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786982982/nest_pyqs/2023_s1/nest_2023_s1_page_13_img_1_44.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786982982/nest_pyqs/2023_s1/nest_2023_s1_page_13_img_1_44.png"
+      ],
+      "questionText": "Among the following graphs, the one that represents the correct trend in the third ionization energy of lanthanum and the lanthanides is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Graph (1) showing sharp local maxima at Eu and Yb.",
+          "isCorrect": true,
+          "explanation": "Europium ([Xe]4f7 6s2) and Ytterbium ([Xe]4f14 6s2) achieve stable half-filled (4f7) and completely-filled (4f14) configurations upon losing two electrons. Removing the 3rd electron from the stable 4f subshell requires exceptionally high energy, creating prominent spikes."
+        },
+        {
+          "id": "b",
+          "text": "Graph (2) showing monotonic continuous increase.",
+          "isCorrect": false,
+          "explanation": "Fails to account for extra stability of 4f7 and 4f14 configurations."
+        },
+        {
+          "id": "c",
+          "text": "Graph (3) showing a minimum at Gd.",
+          "isCorrect": false,
+          "explanation": "Incorrect shape."
+        },
+        {
+          "id": "d",
+          "text": "Graph (4) showing uniform regular oscillations.",
+          "isCorrect": false,
+          "explanation": "Incorrect shape."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- The 3rd ionization energy ($\\text{IE}_3$) exhibits pronounced maxima at $\\text{Eu}$ and $\\text{Yb}$ because their $+2$ ions have stable $4f^7$ and $4f^{14}$ configurations.",
+      "keyFormulae": [
+        "Inorganic Chemistry: Lanthanide Ionization Energies"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Inorganic Chemistry."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q22",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure & Quantum Chemistry",
+      "subtopic": "Helium Atom Ground State Energy",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The ground state electronic energy of He atom ($E_{\\text{He}}$) can be expressed in terms of the ground state energy of the hydrogen atom ($E_H$). If $x|E_H|$ is the electron-electron interaction energy, then the correct expression for $E_{\\text{He}}$ is (neglect the interaction between the nucleus and the electrons):",
+      "options": [
+        {
+          "id": "a",
+          "text": "$E_{\\text{He}} = 8E_H + x|E_H|$",
+          "isCorrect": false,
+          "explanation": "Repulsion makes total energy less negative, so it must be 8EH + x|EH| since EH is negative."
+        },
+        {
+          "id": "b",
+          "text": "$E_{\\text{He}} = 8E_H - x|E_H|$",
+          "isCorrect": true,
+          "explanation": "For He with Z=2, unperturbed 2-electron energy E0 = 2 * (Z^2 * EH) = 2 * 4 EH = 8 EH (where EH = -13.6 eV). Electron-electron repulsion +V_ee adds a positive contribution: E_He = 8 EH + (+x |EH|) = 8 EH - x EH."
+        },
+        {
+          "id": "c",
+          "text": "$E_{\\text{He}} = 4E_H + x|E_H|$",
+          "isCorrect": false,
+          "explanation": "Used Z=1."
+        },
+        {
+          "id": "d",
+          "text": "$E_{\\text{He}} = 4E_H - x|E_H|$",
+          "isCorrect": false,
+          "explanation": "Used Z=1."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (2) / (B)**\n\n- $E^{(0)} = 2 \\times Z^2 E_H = 8E_H$.\n- With electron-electron repulsion, $E_{\\text{He}} = 8E_H - x|E_H|$.",
+      "keyFormulae": [
+        "Atomic Structure & Quantum Chemistry: Helium Atom Ground State Energy"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Atomic Structure & Quantum Chemistry."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q23",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Solid State",
+      "subtopic": "Crystal Packing & Void Space",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Consider a metal crystal with simple cubic, fcc, and bcc structures. Assume that the nearest neighbour atoms (spheres) touch each other in the unit cells. The correct statement is:\n\n(1) The percentage of the void space in different crystal structures follow the order: fcc < bcc < simple cubic.\n(2) The number of atoms in the unit cell are 14, 9 and 8 for fcc, bcc and simple cubic structures, respectively.\n(3) The lowest percentage of the void space among the three crystal structures is approximately 48%.\n(4) The percentage of the void space in any of the above crystal structures will depend on the lattice parameter and hence cannot be predicted without the knowledge of the lattice parameter.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The percentage of the void space in different crystal structures follow the order: fcc < bcc < simple cubic.",
+          "isCorrect": true,
+          "explanation": "Packing efficiencies: fcc = 74% (void 26%), bcc = 68% (void 32%), simple cubic = 52.4% (void 47.6%). Void space order: fcc (26%) < bcc (32%) < sc (47.6%)."
+        },
+        {
+          "id": "b",
+          "text": "The number of atoms in the unit cell are 14, 9 and 8 for fcc, bcc and simple cubic structures, respectively.",
+          "isCorrect": false,
+          "explanation": "Effective number of atoms Z are 4, 2, and 1."
+        },
+        {
+          "id": "c",
+          "text": "The lowest percentage of the void space among the three crystal structures is approximately 48%.",
+          "isCorrect": false,
+          "explanation": "Lowest void space is in fcc (26%)."
+        },
+        {
+          "id": "d",
+          "text": "The percentage of the void space in any of the above crystal structures will depend on the lattice parameter and hence cannot be predicted without the knowledge of the lattice parameter.",
+          "isCorrect": false,
+          "explanation": "Void space percentage is constant and independent of lattice parameter a."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- $\\text{Packing Efficiency: } \\text{fcc (74\\%)} > \\text{bcc (68\\%)} > \\text{simple cubic (52.4\\%)}$.\n- $\\text{Void Space: } \\text{fcc (26\\%)} < \\text{bcc (32\\%)} < \\text{simple cubic (47.6\\%)}$.",
+      "keyFormulae": [
+        "Solid State: Crystal Packing & Void Space"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Solid State."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q24",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Thermodynamics",
+      "subtopic": "Enthalpy & Entropy Relations",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A certain amount ($n\\text{ moles}$) of a monoatomic ideal gas changes from an initial state $X(P_1, V_1, T_1)$ to a final state $Y(P_2, V_2, T_2)$. Let $\\Delta U, \\Delta H,$ and $\\Delta S$ represent the changes in internal energy, enthalpy, and entropy, respectively in this process. The correct expression is:\n\n(1) $\\Delta H = \\Delta U + P_2(V_2 - V_1)$\n(2) $\\Delta H = \\Delta U + P_2(V_2 - V_1) + V_2(P_2 - P_1)$\n(3) $\\Delta S = C_v \\ln(T_2/T_1) + nR \\ln(V_2/V_1)$\n(4) $\\Delta S = (3/2)(P_1V_1/T_1)\\ln(T_2/T_1) + (P_2V_2/T_2)\\ln(V_2/V_1)$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\Delta H = \\Delta U + P_2(V_2 - V_1)$",
+          "isCorrect": false,
+          "explanation": "Delta H = Delta U + Delta(PV) = Delta U + P2 V2 - P1 V1."
+        },
+        {
+          "id": "b",
+          "text": "$\\Delta H = \\Delta U + P_2(V_2 - V_1) + V_2(P_2 - P_1)$",
+          "isCorrect": false,
+          "explanation": "Algebraic error in Delta(PV)."
+        },
+        {
+          "id": "c",
+          "text": "$\\Delta S = C_v \\ln(T_2/T_1) + nR \\ln(V_2/V_1)$",
+          "isCorrect": true,
+          "explanation": "Fundamental thermodynamic formula for entropy change of an ideal gas: Delta S = n C_{v,m} ln(T2/T1) + nR ln(V2/V1) = C_v ln(T2/T1) + nR ln(V2/V1)."
+        },
+        {
+          "id": "d",
+          "text": "$\\Delta S = (3/2)(P_1V_1/T_1)\\ln(T_2/T_1) + (P_2V_2/T_2)\\ln(V_2/V_1)$",
+          "isCorrect": false,
+          "explanation": "Uses different state variables inconsistently."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n$$\\Delta S = C_v \\ln\\left(\\frac{T_2}{T_1}\\right) + nR \\ln\\left(\\frac{V_2}{V_1}\\right)$$",
+      "keyFormulae": [
+        "Thermodynamics: Enthalpy & Entropy Relations"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Thermodynamics."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q25",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Solutions & Colligative Properties",
+      "subtopic": "Elevation in Boiling Point & Degree of Dissociation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A mixture of $0.1\\text{ mol}$ of a weak acid $\\text{HX}$ and $0.2\\text{ mol}$ of another weak acid $\\text{HY}$ is dissolved in $1\\text{ kg}$ of water. The degrees of ionization of the two acids $\\text{HX}$ and $\\text{HY}$ in the final solution are $0.1$ and $0.2$, respectively. Assuming Raoult's law to be valid, the elevation of boiling point ($\\Delta T_b$), in terms of the boiling point elevation constant ($K_b$), is given by:\n\n(1) $\\Delta T_b = 0.25 K_b$\n(2) $\\Delta T_b = 0.35 K_b$\n(3) $\\Delta T_b = 0.30 K_b$\n(4) $\\Delta T_b = 0.32 K_b$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\Delta T_b = 0.25 K_b$",
+          "isCorrect": false,
+          "explanation": "Arithmetic error."
+        },
+        {
+          "id": "b",
+          "text": "$\\Delta T_b = 0.35 K_b$",
+          "isCorrect": true,
+          "explanation": "For HX: i1 = 1 + alpha1 = 1 + 0.1 = 1.1; effective molality = 0.1 * 1.1 = 0.11 m. For HY: i2 = 1 + alpha2 = 1 + 0.2 = 1.2; effective molality = 0.2 * 1.2 = 0.24 m. Total effective molality = 0.11 + 0.24 = 0.35 m. Delta T_b = m_total * K_b = 0.35 K_b."
+        },
+        {
+          "id": "c",
+          "text": "$\\Delta T_b = 0.30 K_b$",
+          "isCorrect": false,
+          "explanation": "Neglected ionization."
+        },
+        {
+          "id": "d",
+          "text": "$\\Delta T_b = 0.32 K_b$",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (2) / (B)**\n\n- $m_{\\text{eff}}(\\text{HX}) = 0.1(1 + 0.1) = 0.11\\text{ m}$.\n- $m_{\\text{eff}}(\\text{HY}) = 0.2(1 + 0.2) = 0.24\\text{ m}$.\n- $\\Delta T_b = (0.11 + 0.24)K_b = 0.35 K_b$.",
+      "keyFormulae": [
+        "Solutions & Colligative Properties: Elevation in Boiling Point & Degree of Dissociation"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Solutions & Colligative Properties."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q26",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry & Stereochemistry",
+      "subtopic": "Reaction Mechanisms & Retention of Configuration",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "When levorotatory 2-methylbutan-1-ol ($P$) is heated with concentrated $\\text{HCl}$, dextrorotatory 1-chloro-2-methylbutane ($Q$) is formed. The correct statement is:\n\n(1) $P$ and $Q$ have identical absolute configuration.\n(2) The reaction takes place at the asymmetric centre.\n(3) The reaction involves a carbocationic intermediate.\n(4) If the concentration of $P$ is doubled, keeping the concentration of $\\text{HCl}$ unchanged, the rate of the reaction does not change.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$P$ and $Q$ have identical absolute configuration.",
+          "isCorrect": true,
+          "explanation": "The reaction replaces -OH with -Cl at C1. No bonds to the chiral center at C2 are broken or formed, so the absolute configuration (R/S) at C2 remains strictly unchanged/identical, even though the optical rotation sign flips from (-) to (+)."
+        },
+        {
+          "id": "b",
+          "text": "The reaction takes place at the asymmetric centre.",
+          "isCorrect": false,
+          "explanation": "Asymmetric center is C2, while reaction occurs at C1."
+        },
+        {
+          "id": "c",
+          "text": "The reaction involves a carbocationic intermediate.",
+          "isCorrect": false,
+          "explanation": "Primary alcohol reacts via SN2 pathway without rearrangement."
+        },
+        {
+          "id": "d",
+          "text": "If the concentration of $P$ is doubled, keeping the concentration of $\\text{HCl}$ unchanged, the rate of the reaction does not change.",
+          "isCorrect": false,
+          "explanation": "Rate depends on alcohol concentration."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- The chiral carbon $\\text{C}_2$ does not participate in bond breaking/making $\\implies$ **identical absolute configuration**.",
+      "keyFormulae": [
+        "Organic Chemistry & Stereochemistry: Reaction Mechanisms & Retention of Configuration"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Organic Chemistry & Stereochemistry."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q27",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Organic Reaction Mechanisms",
+      "subtopic": "Acid-Catalyzed Dehydration & Alkene Stability",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983015/nest_pyqs/2023_s1/nest_2023_s1_page_16_img_3_64.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983015/nest_pyqs/2023_s1/nest_2023_s1_page_16_img_3_64.png"
+      ],
+      "questionText": "In the reaction shown below, the major hydrocarbon product is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Structure (1) - 2,3-dimethylbut-2-ene (most substituted alkene)",
+          "isCorrect": true,
+          "explanation": "Acid-catalyzed elimination with rearrangement yields the thermodynamically most stable tetrasubstituted alkene with 12 hyperconjugative alpha-hydrogens."
+        },
+        {
+          "id": "b",
+          "text": "Structure (2)",
+          "isCorrect": false,
+          "explanation": "Less substituted alkene."
+        },
+        {
+          "id": "c",
+          "text": "Structure (3)",
+          "isCorrect": false,
+          "explanation": "Terminal alkene."
+        },
+        {
+          "id": "d",
+          "text": "Structure (4)",
+          "isCorrect": false,
+          "explanation": "Unrearranged product."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- Dehydration with carbocation rearrangement $\\implies$ **2,3-dimethylbut-2-ene** (thermodynamic major product).",
+      "keyFormulae": [
+        "Organic Reaction Mechanisms: Acid-Catalyzed Dehydration & Alkene Stability"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Organic Reaction Mechanisms."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q28",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "subtopic": "Resonance Structures Criteria",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983015/nest_pyqs/2023_s1/nest_2023_s1_page_16_img_3_64.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983015/nest_pyqs/2023_s1/nest_2023_s1_page_16_img_3_64.png"
+      ],
+      "questionText": "Among the following pairs, the pairs that represent resonance structures are:\n\n(1) $P, Q$ and $R$\n(2) $Q, R$ and $S$\n(3) $Q$ and $S$\n(4) $R$ and $S$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$P, Q$ and $R$",
+          "isCorrect": false,
+          "explanation": "Check connectivity and atomic positions."
+        },
+        {
+          "id": "b",
+          "text": "$Q, R$ and $S$",
+          "isCorrect": false,
+          "explanation": "Check connectivity."
+        },
+        {
+          "id": "c",
+          "text": "$Q$ and $S$",
+          "isCorrect": true,
+          "explanation": "Pairs Q and S have identical sigma frameworks with differing pi-electron and lone pair distributions, satisfying all criteria for true resonance canonical structures."
+        },
+        {
+          "id": "d",
+          "text": "$R$ and $S$",
+          "isCorrect": false,
+          "explanation": "Nuclear positions differ."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n- Valid resonance structures require fixed atomic/nuclear positions and identical numbers of unpaired electrons $\\implies$ **$Q$ and $S$**.",
+      "keyFormulae": [
+        "Organic Chemistry: Resonance Structures Criteria"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Organic Chemistry."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q29",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Organic Synthesis",
+      "subtopic": "Multi-Step Organic Transformation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983016/nest_pyqs/2023_s1/nest_2023_s1_page_17_img_1_70.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983016/nest_pyqs/2023_s1/nest_2023_s1_page_17_img_1_70.png"
+      ],
+      "questionText": "In the reaction shown below, the product $P$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Structure (1)",
+          "isCorrect": true,
+          "explanation": "Addition of Grignard reagent to carbonyl followed by acid workup and oxidation yields ketone product P (propiophenone derivative)."
+        },
+        {
+          "id": "b",
+          "text": "Structure (2)",
+          "isCorrect": false,
+          "explanation": "Different oxidation state."
+        },
+        {
+          "id": "c",
+          "text": "Structure (3)",
+          "isCorrect": false,
+          "explanation": "Different alkyl group."
+        },
+        {
+          "id": "d",
+          "text": "Structure (4)",
+          "isCorrect": false,
+          "explanation": "Elimination product."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- Reaction sequence gives ketone product (Structure 1).",
+      "keyFormulae": [
+        "Organic Synthesis: Multi-Step Organic Transformation"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Organic Synthesis."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q30",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "s-Block Elements",
+      "subtopic": "Alkali Metal Oxides & Space Applications",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The reaction of the alkali metals with oxygen results in the formation of different alkali metal oxides, monoxides, peroxides and superoxides. These oxides have interesting chemical properties and applications. The ease of formation and stability of these oxides depend mainly on the charge and size of the alkali metals in relation to the size of the anions. In an application like in a space suit, a chemical may be used which gives oxygen and also absorbs carbon dioxide from exhalation. In this context, the correct statement(s) is(are):\n\n(1) The order of the stability of alkali metal monoxides is $\\text{Li}_2\\text{O} < \\text{Na}_2\\text{O} < \\text{K}_2\\text{O}$.\n(2) Superoxide formation decreases down the group.\n(3) $\\text{Na}_2\\text{O}_2$ on reaction with $\\text{CO}_2$ gives $\\text{Na}_2\\text{CO}_3$ and itself gets oxidized to oxygen.\n(4) Potassium superoxide can be used in a space suit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The order of the stability of alkali metal monoxides is $\\text{Li}_2\\text{O} < \\text{Na}_2\\text{O} < \\text{K}_2\\text{O}$.",
+          "isCorrect": false,
+          "explanation": "Li2O is the most stable monoxide due to high lattice energy."
+        },
+        {
+          "id": "b",
+          "text": "Superoxide formation decreases down the group.",
+          "isCorrect": false,
+          "explanation": "Superoxide stability increases down the group (K < Rb < Cs)."
+        },
+        {
+          "id": "c",
+          "text": "$\\text{Na}_2\\text{O}_2$ on reaction with $\\text{CO}_2$ gives $\\text{Na}_2\\text{CO}_3$ and itself gets oxidized to oxygen.",
+          "isCorrect": false,
+          "explanation": "Disproportionation of peroxide."
+        },
+        {
+          "id": "d",
+          "text": "Potassium superoxide can be used in a space suit.",
+          "isCorrect": true,
+          "explanation": "KO2 reacts with moisture and exhaled CO2 to regenerate O2: 4 KO2 + 2 CO2 -> 2 K2CO3 + 3 O2, making it standard for space suits and submarines."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (4) / (D)**\n\n- Potassium superoxide ($\\text{KO}_2$) is used in portable breathing apparatus and space suits to absorb $\\text{CO}_2$ and release $\\text{O}_2$.",
+      "keyFormulae": [
+        "s-Block Elements: Alkali Metal Oxides & Space Applications"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of s-Block Elements."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q31",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Coordination Chemistry (MSQ)",
+      "subtopic": "Crystal Field Theory & High/Low Spin Complexes",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Negatively charged monodentate strong field ligand ($X^-$) and weak field ligand ($Y^-$) form complexes $[\\text{Mn}X_6]^{4-}$ and $[\\text{Mn}Y_6]^{4-}$, respectively. The correct statement(s) is(are): *(Select all correct options)*\n\n(1) The magnetic moment of $[\\text{Mn}X_6]^{4-}$ is less than that of $[\\text{Mn}Y_6]^{4-}$.\n(2) $[\\text{Mn}Y_6]^{4-}$ is more stabilized than $[\\text{Mn}X_6]^{4-}$.\n(3) The $t_{2g}$ orbitals in $[\\text{Mn}X_6]^{4-}$ are stabilized by $2\\Delta_0$ as compared to degenerate $d$ orbitals.\n(4) $[\\text{Mn}Y_6]^{4-}$ is intense in colour as compared to $[\\text{Mn}X_6]^{4-}$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The magnetic moment of $[\\text{Mn}X_6]^{4-}$ is less than that of $[\\text{Mn}Y_6]^{4-}$.",
+          "isCorrect": true,
+          "explanation": "Mn2+ is d5. Strong field X- gives low-spin t2g^5 (1 unpaired e-, mu = 1.73 BM). Weak field Y- gives high-spin t2g^3 eg^2 (5 unpaired e-, mu = 5.92 BM). Thus mu(low-spin) < mu(high-spin)."
+        },
+        {
+          "id": "b",
+          "text": "$[\\text{Mn}Y_6]^{4-}$ is more stabilized than $[\\text{Mn}X_6]^{4-}$.",
+          "isCorrect": false,
+          "explanation": "Strong field complex has higher crystal field stabilization energy (CFSE)."
+        },
+        {
+          "id": "c",
+          "text": "The $t_{2g}$ orbitals in $[\\text{Mn}X_6]^{4-}$ are stabilized by $2\\Delta_0$ as compared to degenerate $d$ orbitals.",
+          "isCorrect": true,
+          "explanation": "In octahedral field, t2g is stabilized by -0.4 Delta_0 per electron. For 5 electrons: CFSE = 5 * (-0.4 Delta_0) = -2.0 Delta_0."
+        },
+        {
+          "id": "d",
+          "text": "$[\\text{Mn}Y_6]^{4-}$ is intense in colour as compared to $[\\text{Mn}X_6]^{4-}$.",
+          "isCorrect": false,
+          "explanation": "Both are centrosymmetric octahedral complexes; d-d transitions are Laporte forbidden."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (1) and (3) / (A) and (C)**\n\n- $\\text{Mn}^{2+} (d^5)$:\n  - Low spin $[\\text{Mn}X_6]^{4-}: t_{2g}^5 e_g^0 \\implies n = 1\\text{ unpaired } e^- \\implies \\mu = 1.73\\text{ BM}$; $\\text{CFSE} = 5(-0.4\\Delta_0) = -2\\Delta_0$.\n  - High spin $[\\text{Mn}Y_6]^{4-}: t_{2g}^3 e_g^2 \\implies n = 5\\text{ unpaired } e^- \\implies \\mu = 5.92\\text{ BM}$; $\\text{CFSE} = 0$.",
+      "keyFormulae": [
+        "Coordination Chemistry (MSQ): Crystal Field Theory & High/Low Spin Complexes"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Coordination Chemistry (MSQ)."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q32",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Chemical Bonding & Molecular Orbitals (MSQ)",
+      "subtopic": "Heteronuclear Diatomic MO Theory",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The bonding in the species $\\text{HeH}$ can be studied in a way similar to that of $\\text{H}_2$. The correct statement(s) is(are): *(Select all correct options)*\n\n(1) The dipole moment of $\\text{HeH}$ is larger than that of $\\text{H}_2^+$.\n(2) Among $\\text{HeH}, \\text{HeH}^+,$ and $\\text{HeH}_2^{2+}$, the species that is most stable is $\\text{HeH}_2^{2+}$.\n(3) Among $\\text{HeH}, \\text{HeH}^-,$ and $\\text{HeH}^+$, the system with the smallest bond length is $\\text{HeH}^+$.\n(4) $\\text{HeH}^+$ has a symmetrical distribution of electrons about the bond axis.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The dipole moment of $\\text{HeH}$ is larger than that of $\\text{H}_2^+$.",
+          "isCorrect": true,
+          "explanation": "H2+ is homonuclear with zero permanent dipole moment. Heteronuclear HeH has high permanent dipole moment due to electronegativity difference between He and H."
+        },
+        {
+          "id": "b",
+          "text": "Among $\\text{HeH}, \\text{HeH}^+,$ and $\\text{HeH}_2^{2+}$, the species that is most stable is $\\text{HeH}_2^{2+}$.",
+          "isCorrect": false,
+          "explanation": "HeH+ is the most stable 2-electron isoelectronic analogue of H2."
+        },
+        {
+          "id": "c",
+          "text": "Among $\\text{HeH}, \\text{HeH}^-,$ and $\\text{HeH}^+$, the system with the smallest bond length is $\\text{HeH}^+$.",
+          "isCorrect": true,
+          "explanation": "HeH+ has bond order 1.0 (sigma_1s^2). HeH has bond order 0.5 (sigma_1s^2 sigma*_1s^1). HeH- has bond order 0 (sigma_1s^2 sigma*_1s^2). Highest bond order => shortest bond length."
+        },
+        {
+          "id": "d",
+          "text": "$\\text{HeH}^+$ has a symmetrical distribution of electrons about the bond axis.",
+          "isCorrect": true,
+          "explanation": "Sigma molecular orbitals are cylindrically symmetric about the internuclear bond axis."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (1), (3), and (4) / (A), (C), and (D)**\n\n- $\\text{HeH}^+$ has $2\\,e^-$ in $\\sigma_{1s}$ (bond order $= 1$, shortest bond length).\n- $\\sigma$-bonding is cylindrically symmetric about the internuclear axis.",
+      "keyFormulae": [
+        "Chemical Bonding & Molecular Orbitals (MSQ): Heteronuclear Diatomic MO Theory"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Chemical Bonding & Molecular Orbitals (MSQ)."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q33",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Chemical Kinetics (MSQ)",
+      "subtopic": "Sucrose Inversion Polarimetry Kinetics",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The hydrolysis of sucrose in excess acid solution follows first-order kinetics and results in D-glucose and D-fructose. Since, sucrose, D-glucose, and D-fructose are optically active compounds, the progress of the reaction can be monitored by measuring the angle of rotation of the polarized light in a polarimeter at different times. In a certain experiment, $1\\text{ L}$ of $0.1\\text{ M}$ sucrose solution is hydrolyzed and the angle of rotation ($R_t$) is measured at different times ($t$). Let $R_0 = 25^\\circ, R_\\infty = -15^\\circ,$ and $R_{30} = 5^\\circ$ be the angles of rotation at times $t = 0\\text{ min}, t = \\infty,$ and $t = 30\\text{ min}$ respectively. The concentration of sucrose at time $t$ is proportional to the change in the angle of rotation ($R_t - R_\\infty$). Molecular mass of sucrose is $342.3\\text{ g/mol}$. The correct statement(s) is(are): *(Select all correct options)*\n\n(1) The half-life of the reaction is $15\\text{ min}$.\n(2) The rate constant ($k$) is $3.85 \\times 10^{-4}\\text{ s}^{-1}$.\n(3) The mass of sucrose hydrolyzed in $60\\text{ min}$ is $25.6\\text{ g}$.\n(4) The rate of the reaction at $30\\text{ min}$ is $1.925 \\times 10^{-5}\\text{ M s}^{-1}$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The half-life of the reaction is $15\\text{ min}$.",
+          "isCorrect": false,
+          "explanation": "Half-life is 30 min, because at 30 min (Rt - R_inf)/(R0 - R_inf) = (5 - (-15))/(25 - (-15)) = 20/40 = 0.5."
+        },
+        {
+          "id": "b",
+          "text": "The rate constant ($k$) is $3.85 \\times 10^{-4}\\text{ s}^{-1}$.",
+          "isCorrect": true,
+          "explanation": "k = (ln 2)/t_1/2 = 0.69315 / (30 * 60 s) = 0.69315 / 1800 s = 3.85 * 10^-4 s^-1."
+        },
+        {
+          "id": "c",
+          "text": "The mass of sucrose hydrolyzed in $60\\text{ min}$ is $25.6\\text{ g}$.",
+          "isCorrect": true,
+          "explanation": "At 60 min (2 half-lives), 75% of sucrose is hydrolyzed: 0.75 * 0.1 mol * 342.3 g/mol = 0.075 * 342.3 = 25.67 g."
+        },
+        {
+          "id": "d",
+          "text": "The rate of the reaction at $30\\text{ min}$ is $1.925 \\times 10^{-5}\\text{ M s}^{-1}$.",
+          "isCorrect": true,
+          "explanation": "Rate at 30 min = k * [A]_30 = (3.85 * 10^-4 s^-1) * (0.05 M) = 1.925 * 10^-5 M s^-1."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (2), (3), and (4) / (B), (C), and (D)**\n\n- $t_{1/2} = 30\\text{ min} = 1800\\text{ s} \\implies k = \\frac{\\ln 2}{1800} = 3.85 \\times 10^{-4}\\text{ s}^{-1}$.\n- At $t = 60\\text{ min}$ ($2\\,t_{1/2}$): $\\text{Hydrolyzed} = 75\\% \\times 0.1\\text{ mol} \\times 342.3\\text{ g/mol} = 25.67\\text{ g}$.\n- $\\text{Rate}_{30} = k [\\text{Sucrose}]_{30} = 3.85 \\times 10^{-4} \\times 0.05 = 1.925 \\times 10^{-5}\\text{ M/s}$.",
+      "keyFormulae": [
+        "Chemical Kinetics (MSQ): Sucrose Inversion Polarimetry Kinetics"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Chemical Kinetics (MSQ)."
+      ]
+    },
+    {
+      "id": "chem-2023-s1-q34",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry (MSQ)",
+      "subtopic": "Cannizzaro Reaction Mechanism",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Consider the following mechanism of a reaction (Cannizzaro disproportionation of non-enolizable aldehyde $P$). The correct statement(s) is(are): *(Select all correct options)*\n\n(1) The same mechanism will operate, if compound $P$ does not have one of the methyl groups.\n(2) The reaction involves both oxidation and reduction of $P$.\n(3) The equilibrium is favoured towards products $T$ and $W$ because $T$ and $W$ are weaker conjugate base and acid as compared to $R$ and $S$ respectively.\n(4) Hydride is a nucleophile in the reaction of $Q$ with $P$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The same mechanism will operate, if compound $P$ does not have one of the methyl groups.",
+          "isCorrect": false,
+          "explanation": "If an alpha-hydrogen is present, aldol condensation occurs instead of Cannizzaro."
+        },
+        {
+          "id": "b",
+          "text": "The reaction involves both oxidation and reduction of $P$.",
+          "isCorrect": true,
+          "explanation": "Cannizzaro reaction is a redox disproportionation: one molecule of aldehyde is oxidized to carboxylate and another is reduced to primary alcohol."
+        },
+        {
+          "id": "c",
+          "text": "The equilibrium is favoured towards products $T$ and $W$ because $T$ and $W$ are weaker conjugate base and acid as compared to $R$ and $S$ respectively.",
+          "isCorrect": true,
+          "explanation": "Proton transfer from carboxylic acid to alkoxide strongly drives the equilibrium forward irreversibly."
+        },
+        {
+          "id": "d",
+          "text": "Hydride is a nucleophile in the reaction of $Q$ with $P$.",
+          "isCorrect": true,
+          "explanation": "Hydride shift from the tetrahedral intermediate Q attacks the electrophilic carbonyl carbon of P."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (2), (3), and (4) / (B), (C), and (D)**\n\n- The Cannizzaro reaction is an intermolecular redox disproportionation driven forward by the hydride transfer step and terminal proton exchange to form stable carboxylate.",
+      "keyFormulae": [
+        "Organic Chemistry (MSQ): Cannizzaro Reaction Mechanism"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Organic Chemistry (MSQ)."
+      ]
+    },
+    {
+      "id": "math-2023-s1-q35",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "subtopic": "Differentiable Function Properties",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let $g : \\mathbb{R} \\rightarrow \\mathbb{R}$ be a differentiable function such that $g(x)g'(x) > 0$ for all $x \\in \\mathbb{R}$. Then:\n\n(1) $g$ is increasing.\n(2) $g$ is decreasing.\n(3) $|g|$ is increasing.\n(4) $|g|$ is decreasing.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$g$ is increasing.",
+          "isCorrect": false,
+          "explanation": "If g(x) < 0, then g'(x) < 0, making g decreasing."
+        },
+        {
+          "id": "b",
+          "text": "$g$ is decreasing.",
+          "isCorrect": false,
+          "explanation": "If g(x) > 0, then g'(x) > 0, making g increasing."
+        },
+        {
+          "id": "c",
+          "text": "$|g|$ is increasing.",
+          "isCorrect": true,
+          "explanation": "d/dx [g(x)^2] = 2 g(x) g'(x) > 0 for all x. Since g(x)^2 = |g(x)|^2 is strictly increasing on R, |g(x)| is strictly increasing on R."
+        },
+        {
+          "id": "d",
+          "text": "$|g|$ is decreasing.",
+          "isCorrect": false,
+          "explanation": "Derivative of |g|^2 is strictly positive."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n$$\\frac{d}{dx}|g(x)|^2 = \\frac{d}{dx}[g(x)^2] = 2g(x)g'(x) > 0 \\implies |g(x)|\\text{ is strictly increasing}$$",
+      "keyFormulae": [
+        "Calculus: Differentiable Function Properties"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Calculus."
+      ]
+    },
+    {
+      "id": "math-2023-s1-q36",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Algebra",
+      "subtopic": "Real Roots of Polynomial",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The number of real roots of $f(x) = x^6 + x^3 - 1$ is:\n\n(1) $0$\n(2) $2$\n(3) $4$\n(4) $6$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$0$",
+          "isCorrect": false,
+          "explanation": "There are real roots."
+        },
+        {
+          "id": "b",
+          "text": "$2$",
+          "isCorrect": true,
+          "explanation": "Let y = x^3. Then y^2 + y - 1 = 0. Discriminant Delta = 1 - 4(1)(-1) = 5 > 0. The two real roots are y1 = (-1 + sqrt(5))/2 > 0 and y2 = (-1 - sqrt(5))/2 < 0. For each real y, x = y^(1/3) gives exactly 1 real solution. Total real roots = 2."
+        },
+        {
+          "id": "c",
+          "text": "$4$",
+          "isCorrect": false,
+          "explanation": "Only 2 real roots."
+        },
+        {
+          "id": "d",
+          "text": "$6$",
+          "isCorrect": false,
+          "explanation": "4 roots are complex conjugates."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (2) / (B)**\n\n- Substitute $y = x^3 \\implies y^2 + y - 1 = 0$. Two distinct real roots $y_1, y_2 \\implies$ **$2\\text{ real roots}$**.",
+      "keyFormulae": [
+        "Algebra: Real Roots of Polynomial"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Algebra."
+      ]
+    },
+    {
+      "id": "math-2023-s1-q37",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "subtopic": "Biased Die Sum of Outcomes",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "In a throw of a (biased single) dice, the probability of the outcome being a number $n$ is $\\frac{1}{4}$ if $n$ is even, and $\\frac{1}{12}$ if $n$ is odd. If the dice is thrown twice, then the probability that the sum of the two outcomes is an even number is:\n\n(1) $\\frac{3}{8}$\n(2) $\\frac{1}{2}$\n(3) $\\frac{5}{8}$\n(4) $\\frac{3}{4}$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{3}{8}$",
+          "isCorrect": false,
+          "explanation": "P(Sum odd) = 3/8."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{1}{2}$",
+          "isCorrect": false,
+          "explanation": "Applies to fair die."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{5}{8}$",
+          "isCorrect": true,
+          "explanation": "P(Even) = P(2) + P(4) + P(6) = 3 * (1/4) = 3/4. P(Odd) = P(1) + P(3) + P(5) = 3 * (1/12) = 1/4. Sum is even iff both are even or both are odd: P(Sum Even) = P(Even, Even) + P(Odd, Odd) = (3/4)*(3/4) + (1/4)*(1/4) = 9/16 + 1/16 = 10/16 = 5/8."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{3}{4}$",
+          "isCorrect": false,
+          "explanation": "Arithmetic error."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n$$P(\\text{Sum Even}) = P(E)P(E) + P(O)P(O) = \\left(\\frac{3}{4}\\right)^2 + \\left(\\frac{1}{4}\\right)^2 = \\frac{10}{16} = \\frac{5}{8}$$",
+      "keyFormulae": [
+        "Probability: Biased Die Sum of Outcomes"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Probability."
+      ]
+    },
+    {
+      "id": "math-2023-s1-q38",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Calculus & Limits",
+      "subtopic": "Continuity of Composite Signum Functions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let $\\text{sgn}(x)$ be the function defined as:\n$$\\text{sgn}(x) = \\begin{cases} 1, & \\text{if } x > 0, \\\\ -1, & \\text{if } x < 0, \\\\ 0, & \\text{if } x = 0. \\end{cases}$$\nLet $f : \\mathbb{R} \\rightarrow \\mathbb{R}$ be the function defined by $f(x) = (x - \\sqrt{5})\\,\\text{sgn}(x^2 - 5)$. Then the number of discontinuities of $f$ is:\n\n(1) $0$\n(2) $1$\n(3) $2$\n(4) $3$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$0$",
+          "isCorrect": false,
+          "explanation": "Discontinuous at -sqrt(5)."
+        },
+        {
+          "id": "b",
+          "text": "$1$",
+          "isCorrect": true,
+          "explanation": "sgn(x^2 - 5) changes sign at x = sqrt(5) and x = -sqrt(5). At x = sqrt(5): lim_{x->sqrt(5)} (x - sqrt(5))*sgn(x^2-5) = 0 * (+-1) = 0 = f(sqrt(5)), so f is CONTINUOUS at x = sqrt(5). At x = -sqrt(5): left limit = (-2 sqrt(5))*(+1) = -2 sqrt(5), while right limit = (-2 sqrt(5))*(-1) = +2 sqrt(5), so f is DISCONTINUOUS at x = -sqrt(5). Total discontinuities = 1."
+        },
+        {
+          "id": "c",
+          "text": "$2$",
+          "isCorrect": false,
+          "explanation": "Continuous at +sqrt(5) due to the factor (x - sqrt(5))."
+        },
+        {
+          "id": "d",
+          "text": "$3$",
+          "isCorrect": false,
+          "explanation": "Overcounted."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (2) / (B)**\n\n- At $x = \\sqrt{5}$, $\\lim_{x \\to \\sqrt{5}} (x - \\sqrt{5})\\text{sgn}(x^2-5) = 0 = f(\\sqrt{5})$ (Continuous).\n- At $x = -\\sqrt{5}$, the left and right limits are $-2\\sqrt{5} \\neq 2\\sqrt{5}$ (Discontinuous) $\\implies$ **$1\\text{ discontinuity}$**.",
+      "keyFormulae": [
+        "Calculus & Limits: Continuity of Composite Signum Functions"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Calculus & Limits."
+      ]
+    },
+    {
+      "id": "math-2023-s1-q39",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Combinatorics",
+      "subtopic": "3-Digit Numbers Digit Sum Constraint",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let $S$ be the set of all natural numbers $x$ such that\n(i) $100 \\le x \\le 999$,\n(ii) $0$ appears at least once as a digit in the decimal expansion of $x$, and\n(iii) the sum of the digits of $x$ is $10$.\n\nThe number of elements in $S$ is:\n(1) $18$\n(2) $20$\n(3) $27$\n(4) $30$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$18$",
+          "isCorrect": true,
+          "explanation": "Number is abc with a in {1..9}, b, c in {0..9}, and a+b+c=10. Case 1: c=0 => a+b=10. Since a in {1..9}, b in {1..9}, there are 9 solutions: (1,9), (2,8), ..., (9,1). Case 2: b=0, c != 0 => a+c=10. Since a in {1..9}, c in {1..9}, there are 9 solutions: (1,9), ..., (9,1). Total elements = 9 + 9 = 18."
+        },
+        {
+          "id": "b",
+          "text": "$20$",
+          "isCorrect": false,
+          "explanation": "Overcounted."
+        },
+        {
+          "id": "c",
+          "text": "$27$",
+          "isCorrect": false,
+          "explanation": "Included cases without zero."
+        },
+        {
+          "id": "d",
+          "text": "$30$",
+          "isCorrect": false,
+          "explanation": "Overcounted."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- Units digit $0 \\implies a + b = 10 \\implies 9\\text{ numbers}$.\n- Tens digit $0 \\implies a + c = 10 \\implies 9\\text{ numbers}$.\n- Total $|S| = 9 + 9 = 18$.",
+      "keyFormulae": [
+        "Combinatorics: 3-Digit Numbers Digit Sum Constraint"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Combinatorics."
+      ]
+    },
+    {
+      "id": "math-2023-s1-q40",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Coordinate Geometry",
+      "subtopic": "Parabola Chord Length & Parameter",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The horizontal line $y = k$ intersects the parabola $y = 2(x - 4)(x - 6)$ at points $A$ and $B$. If the length of $AB$ is $8$, then the value of $k$ is:\n\n(1) $30$\n(2) $10$\n(3) $20$\n(4) $8$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$30$",
+          "isCorrect": true,
+          "explanation": "The axis of symmetry of y = 2(x - 4)(x - 6) = 2(x^2 - 10x + 24) is x = 5. A chord of length 8 centered on x = 5 has endpoints at x = 5 +- 4, i.e., x1 = 1 and x2 = 9. Substituting x = 1 gives k = 2(1 - 4)(1 - 6) = 2(-3)(-5) = 30."
+        },
+        {
+          "id": "b",
+          "text": "$10$",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        },
+        {
+          "id": "c",
+          "text": "$20$",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        },
+        {
+          "id": "d",
+          "text": "$8$",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- Symmetry axis is $x = 5$. Points are $x = 5 \\pm 4 \\implies x = 1, 9$.\n- $k = 2(1 - 4)(1 - 6) = 30$.",
+      "keyFormulae": [
+        "Coordinate Geometry: Parabola Chord Length & Parameter"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Coordinate Geometry."
+      ]
+    },
+    {
+      "id": "math-2023-s1-q41",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Calculus & Limits",
+      "subtopic": "Limit of Riemann Sum",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let $S(n) = \\frac{1}{n^4} \\sum_{l=1}^{n} (l + 2)(l + 4)(l + 6)$. The value of $\\lim_{n \\rightarrow \\infty} S(n)$ is:\n\n(1) $\\frac{1}{6}$\n(2) $\\frac{1}{2}$\n(3) $\\frac{1}{4}$\n(4) $1$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{1}{6}$",
+          "isCorrect": false,
+          "explanation": "Limit for sum of squares."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{1}{2}$",
+          "isCorrect": false,
+          "explanation": "Limit for sum of linear terms."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{1}{4}$",
+          "isCorrect": true,
+          "explanation": "(l+2)(l+4)(l+6) = l^3 + 12 l^2 + 44 l + 48. Lim_{n->inf} (1/n^4) sum l^3 = int_0^1 x^3 dx = [x^4 / 4]_0^1 = 1/4. Lower degree terms (l^2, l, 1) divided by n^4 vanish in the limit as n -> infty."
+        },
+        {
+          "id": "d",
+          "text": "$1$",
+          "isCorrect": false,
+          "explanation": "Incorrect limit."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n$$\\lim_{n \\to \\infty} S(n) = \\int_0^1 x^3\\,dx = \\left[ \\frac{x^4}{4} \\right]_0^1 = \\frac{1}{4}$$",
+      "keyFormulae": [
+        "Calculus & Limits: Limit of Riemann Sum"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Calculus & Limits."
+      ]
+    },
+    {
+      "id": "math-2023-s1-q42",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Matrices & Determinants",
+      "subtopic": "Matrix Geometric Series & Roots of Unity",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let $\\alpha$ be a complex number such that $\\alpha \\neq 1$ and $\\alpha^5 = 1$. Let $A = \\begin{pmatrix} 0 & 0 & \\alpha \\\\ 0 & \\alpha & 0 \\\\ \\alpha & 0 & 0 \\end{pmatrix}$ and $I$ denote the identity matrix. Then the value of $I + A + A^2 + A^3 + A^4$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$(1 + \\alpha^2 + \\alpha^4) \\begin{pmatrix} 1 & 0 & -1 \\\\ 0 & 0 & 0 \\\\ -1 & 0 & 1 \\end{pmatrix}$",
+          "isCorrect": true,
+          "explanation": "A = alpha * P where P = [0 0 1; 0 1 0; 1 0 0]. Since P^2 = I, P is an involution. Summing the geometric series with alpha^5 = 1 yields (1 + alpha^2 + alpha^4) [1 0 -1; 0 0 0; -1 0 1]."
+        },
+        {
+          "id": "b",
+          "text": "$\\alpha(1 + \\alpha^2) \\begin{pmatrix} 1 & 0 & -1 \\\\ 0 & 0 & 0 \\\\ -1 & 0 & 1 \\end{pmatrix}$",
+          "isCorrect": false,
+          "explanation": "Missing alpha^4 term."
+        },
+        {
+          "id": "c",
+          "text": "$(1 + \\alpha^2 + \\alpha^4) \\begin{pmatrix} -1 & 0 & 1 \\\\ 0 & 0 & 0 \\\\ 1 & 0 & -1 \\end{pmatrix}$",
+          "isCorrect": false,
+          "explanation": "Opposite sign."
+        },
+        {
+          "id": "d",
+          "text": "$(1 + \\alpha^2 + \\alpha^4) \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}$",
+          "isCorrect": false,
+          "explanation": "Non-diagonal elements remain."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- Notice $A^2 = \\alpha^2 I_3$ for odd powers and anti-diagonal structure, summing to $(1 + \\alpha^2 + \\alpha^4) \\begin{pmatrix} 1 & 0 & -1 \\\\ 0 & 0 & 0 \\\\ -1 & 0 & 1 \\end{pmatrix}$.",
+      "keyFormulae": [
+        "Matrices & Determinants: Matrix Geometric Series & Roots of Unity"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Matrices & Determinants."
+      ]
+    },
+    {
+      "id": "math-2023-s1-q43",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Coordinate Geometry",
+      "subtopic": "Parabola Vertices & Intersection Slope",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983022/nest_pyqs/2023_s1/nest_2023_s1_page_22_img_1_92.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983022/nest_pyqs/2023_s1/nest_2023_s1_page_22_img_1_92.png"
+      ],
+      "questionText": "Let $P$ and $Q$ be the vertices of the parabolas $y = x^2 + bx + c$ and $y = -x^2 + dx + e$, respectively. If $P$ and $Q$ are the points of intersection of the parabolas, then the slope of the line through $P$ and $Q$ is:\n\n(1) $\\frac{c + e}{2}$\n(2) $\\frac{c + d}{2}$\n(3) $\\frac{b + d}{2}$\n(4) $\\frac{b + e}{2}$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{c + e}{2}$",
+          "isCorrect": false,
+          "explanation": "Incorrect coefficients."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{c + d}{2}$",
+          "isCorrect": false,
+          "explanation": "Incorrect coefficients."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{b + d}{2}$",
+          "isCorrect": true,
+          "explanation": "Vertex of y = x^2 + bx + c is at x1 = -b/2. Vertex of y = -x^2 + dx + e is at x2 = d/2. Intersection condition 2x^2 + (b-d)x + (c-e) = 0 has roots x1, x2. Equating y-coordinates at the vertices gives slope m = (y2 - y1)/(x2 - x1) = (b + d)/2."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{b + e}{2}$",
+          "isCorrect": false,
+          "explanation": "Incorrect coefficients."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n- The line passing through the two vertices has slope $m = \\frac{b + d}{2}$.",
+      "keyFormulae": [
+        "Coordinate Geometry: Parabola Vertices & Intersection Slope"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Coordinate Geometry."
+      ]
+    },
+    {
+      "id": "math-2023-s1-q44",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "subtopic": "Triangle Cevian Length",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983023/nest_pyqs/2023_s1/nest_2023_s1_page_23_img_1_96.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983023/nest_pyqs/2023_s1/nest_2023_s1_page_23_img_1_96.png"
+      ],
+      "questionText": "Let $ABC$ be a triangle with $AC = 2048, AB = 512,$ and $BC = 2000$. Let $P$ be a point on the segment $AB$ such that $AP = 1$, and $Q$ be a point on the segment $AC$ such that $AQ = 1024$. Let $R$ be the midpoint of $PQ$. Let $Z$ be the point of intersection of $AR$ and $BC$. Then the length of $ZC$ is:\n\n(1) $\\frac{2000}{256}$\n(2) $\\frac{2000}{257}$\n(3) $\\frac{1000}{256}$\n(4) $\\frac{1000}{257}$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{2000}{256}$",
+          "isCorrect": false,
+          "explanation": "Ratio calculation error."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{2000}{257}$",
+          "isCorrect": true,
+          "explanation": "Using barycentric coordinates with respect to A, B, C: P lies on AB with AP/AB = 1/512 => P = (1 - 1/512) A + (1/512) B. Q lies on AC with AQ/AC = 1024/2048 = 1/2 => Q = (1/2) A + (1/2) C. Midpoint R = (P + Q)/2 has B-weight (1/1024) and C-weight (1/4) = (256/1024). The ray AR meets BC at Z with ratio BZ/ZC = (C-weight)/(B-weight) = 256/1 = 256. Thus BZ = 256 * ZC => BC = BZ + ZC = 257 * ZC => ZC = BC / 257 = 2000 / 257."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{1000}{256}$",
+          "isCorrect": false,
+          "explanation": "Incorrect ratio."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{1000}{257}$",
+          "isCorrect": false,
+          "explanation": "Incorrect ratio."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (2) / (B)**\n\n- Position vector analysis on $\\triangle ABC$ gives $\\frac{BZ}{ZC} = 256 \\implies ZC = \\frac{BC}{257} = \\frac{2000}{257}$.",
+      "keyFormulae": [
+        "Geometry: Triangle Cevian Length"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Geometry."
+      ]
+    },
+    {
+      "id": "math-2023-s1-q45",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Calculus & Analysis",
+      "subtopic": "Lipschitz Differentiability & Derivative Evaluation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let $f : \\mathbb{R} \\rightarrow \\mathbb{R}$ be a continuous function such that $f(0) = 1$ and $|f(x) - f(y)| \\le |\\sin((x - y)^2)|$ for all $x, y \\in \\mathbb{R}$, and let $g$ be the function defined by $g(x) = x^2 f(x^2)$ for all $x \\in \\mathbb{R}$. Then the value of $g'(2)$ is:\n\n(1) $2$\n(2) $4$\n(3) $6$\n(4) $0$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$2$",
+          "isCorrect": false,
+          "explanation": "Arithmetic error."
+        },
+        {
+          "id": "b",
+          "text": "$4$",
+          "isCorrect": true,
+          "explanation": "|f'(x)| = lim_{h->0} |f(x+h) - f(x)|/|h| <= lim_{h->0} |sin(h^2)|/|h| = lim |h| = 0 => f'(x) = 0 for all x => f(x) = f(0) = 1 is a constant function! Thus g(x) = x^2 * 1 = x^2 => g'(x) = 2x => g'(2) = 2(2) = 4."
+        },
+        {
+          "id": "c",
+          "text": "$6$",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        },
+        {
+          "id": "d",
+          "text": "$0$",
+          "isCorrect": false,
+          "explanation": "g'(2) is non-zero."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (2) / (B)**\n\n- $|f'(x)| \\le \\lim_{h \\to 0} \\frac{h^2}{|h|} = 0 \\implies f(x) = 1\\text{ (constant)}$.\n- $g(x) = x^2 \\implies g'(x) = 2x \\implies g'(2) = 4$.",
+      "keyFormulae": [
+        "Calculus & Analysis: Lipschitz Differentiability & Derivative Evaluation"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Calculus & Analysis."
+      ]
+    },
+    {
+      "id": "math-2023-s1-q46",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Combinatorics & Geometry",
+      "subtopic": "Obtuse Triangles in Regular 2n-gon",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let $n \\ge 3$ be an integer. Let $P_1, P_2, \\dots, P_{2n}$ be points in the plane, which are the vertices of a regular $2n$-gon. The number of obtuse-angled triangles with vertices contained in the set $\\{P_1, P_2, \\dots, P_{2n}\\}$ is:\n\n(1) $n(n - 1)(n - 2)$\n(2) $\\frac{n^2(n - 1)(n - 2)}{3}$\n(3) $\\frac{n(n - 1)^2}{2}$\n(4) $2n(2n - 1)(2n - 2)$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$n(n - 1)(n - 2)$",
+          "isCorrect": true,
+          "explanation": "A triangle is obtuse iff all 3 vertices lie strictly within an open semicircle of length < pi. For a regular 2n-gon, there are 2n choices for the initial vertex. The remaining 2 vertices must be chosen from the n-1 strictly subsequent vertices in the semicircle in C(n-1, 2) ways. Total = 2n * [(n-1)(n-2)/2] = n(n-1)(n-2)."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{n^2(n - 1)(n - 2)}{3}$",
+          "isCorrect": false,
+          "explanation": "Incorrect formula."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{n(n - 1)^2}{2}$",
+          "isCorrect": false,
+          "explanation": "Incorrect formula."
+        },
+        {
+          "id": "d",
+          "text": "$2n(2n - 1)(2n - 2)$",
+          "isCorrect": false,
+          "explanation": "Overcounted."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n$$N = 2n \\binom{n - 1}{2} = 2n \\frac{(n - 1)(n - 2)}{2} = n(n - 1)(n - 2)$$",
+      "keyFormulae": [
+        "Combinatorics & Geometry: Obtuse Triangles in Regular 2n-gon"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Combinatorics & Geometry."
+      ]
+    },
+    {
+      "id": "math-2023-s1-q47",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Linear Algebra (MSQ)",
+      "subtopic": "Matrix Properties & Determinants",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "If $A, B, C$ are $3 \\times 3$ matrices with entries in $\\mathbb{R}$, satisfying the condition $AB = AC$, then:\n\n(1) the determinant of $AB$ is $0$.\n(2) either $A$ is the zero matrix or $B = C$.\n(3) either $B = C$ or $A$ is not an invertible matrix.\n(4) either $A$ is the zero matrix or the determinant of $B - C$ is $0$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "the determinant of $AB$ is $0$.",
+          "isCorrect": false,
+          "explanation": "If A, B are invertible and B=C, det(AB) != 0."
+        },
+        {
+          "id": "b",
+          "text": "either $A$ is the zero matrix or $B = C$.",
+          "isCorrect": false,
+          "explanation": "Non-zero singular matrix A can satisfy A(B-C) = 0."
+        },
+        {
+          "id": "c",
+          "text": "either $B = C$ or $A$ is not an invertible matrix.",
+          "isCorrect": true,
+          "explanation": "A(B - C) = 0. If A is invertible, A^-1 exists => B - C = 0 => B = C. Thus, if B != C, A cannot be invertible (det(A) = 0)."
+        },
+        {
+          "id": "d",
+          "text": "either $A$ is the zero matrix or the determinant of $B - C$ is $0$.",
+          "isCorrect": true,
+          "explanation": "If B - C is invertible, then A = A(B - C)(B - C)^-1 = 0. Thus, if A is non-zero, B - C must be singular (det(B - C) = 0)."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (3) and (4) / (C) and (D)**\n\n- $A(B - C) = 0$:\n  - If $A$ is invertible $\\implies B = C$.\n  - If $B - C$ is invertible $\\implies A = 0$.",
+      "keyFormulae": [
+        "Linear Algebra (MSQ): Matrix Properties & Determinants"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Linear Algebra (MSQ)."
+      ]
+    },
+    {
+      "id": "math-2023-s1-q48",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Set Theory & Functions (MSQ)",
+      "subtopic": "Composition of Functions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let $X, Y, Z$ be sets and $f : X \\rightarrow Y$ and $g : Y \\rightarrow Z$ be functions. Then:\n\n(1) $g \\circ f$ being injective implies $f$ injective.\n(2) $g \\circ f$ being surjective implies $g$ surjective.\n(3) $g \\circ f$ being injective implies $g$ injective.\n(4) $g$ being surjective implies $g \\circ f$ surjective.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$g \\circ f$ being injective implies $f$ injective.",
+          "isCorrect": true,
+          "explanation": "If f(x1) = f(x2) => g(f(x1)) = g(f(x2)) => x1 = x2 by injectivity of g o f."
+        },
+        {
+          "id": "b",
+          "text": "$g \\circ f$ being surjective implies $g$ surjective.",
+          "isCorrect": true,
+          "explanation": "For any z in Z, there is x in X such that g(f(x)) = z => y = f(x) in Y satisfies g(y) = z."
+        },
+        {
+          "id": "c",
+          "text": "$g \\circ f$ being injective implies $g$ injective.",
+          "isCorrect": false,
+          "explanation": "Counterexample: g can map elements outside range(f) to identical values."
+        },
+        {
+          "id": "d",
+          "text": "$g$ being surjective implies $g \\circ f$ surjective.",
+          "isCorrect": false,
+          "explanation": "f might not cover the full domain of g."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (1) and (2) / (A) and (B)**\n\n- Fundamental set mapping theorems: $(g \\circ f)\\text{ injective} \\implies f\\text{ injective}$, and $(g \\circ f)\\text{ surjective} \\implies g\\text{ surjective}$.",
+      "keyFormulae": [
+        "Set Theory & Functions (MSQ): Composition of Functions"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Set Theory & Functions (MSQ)."
+      ]
+    },
+    {
+      "id": "math-2023-s1-q49",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Calculus (MSQ)",
+      "subtopic": "Derivative on Disconnected Domain",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let $f : (0, 3) \\cup (6, 9) \\rightarrow \\mathbb{R}$ be a differentiable function such that $f'(x) = \\frac{1}{2}$ for all $x \\in (0, 3) \\cup (6, 9)$. Then:\n\n(1) $f$ is an increasing function.\n(2) $f$ is a one-to-one function.\n(3) $f(8) - f(7) = f(2) - f(1)$.\n(4) There exists a number $c \\in \\mathbb{R}$ such that $f(x + 6) = f(x) + c$ for all $x \\in (0, 3)$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$f$ is an increasing function.",
+          "isCorrect": false,
+          "explanation": "Since the domain is disconnected, we can choose f(x) = x/2 + 100 on (0,3) and f(x) = x/2 on (6,9), which is NOT monotonically increasing across the union."
+        },
+        {
+          "id": "b",
+          "text": "$f$ is a one-to-one function.",
+          "isCorrect": false,
+          "explanation": "Independent constants can make the ranges overlap, violating injectivity."
+        },
+        {
+          "id": "c",
+          "text": "$f(8) - f(7) = f(2) - f(1)$.",
+          "isCorrect": true,
+          "explanation": "On (6,9): f(8) - f(7) = 1/2(8 - 7) = 1/2. On (0,3): f(2) - f(1) = 1/2(2 - 1) = 1/2. Both equal 1/2."
+        },
+        {
+          "id": "d",
+          "text": "There exists a number $c \\in \\mathbb{R}$ such that $f(x + 6) = f(x) + c$ for all $x \\in (0, 3)$.",
+          "isCorrect": true,
+          "explanation": "f(x) = x/2 + c1 for x in (0,3) and f(y) = y/2 + c2 for y in (6,9). For x in (0,3), x+6 in (6,9), so f(x+6) = (x+6)/2 + c2 = x/2 + 3 + c2 = (f(x) - c1) + 3 + c2 = f(x) + c where c = 3 + c2 - c1 is constant."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (3) and (4) / (C) and (D)**\n\n- Independent intervals satisfy $f(8)-f(7) = 1/2 = f(2)-f(1)$, and $f(x+6) = f(x) + (3 + c_2 - c_1)$.",
+      "keyFormulae": [
+        "Calculus (MSQ): Derivative on Disconnected Domain"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Calculus (MSQ)."
+      ]
+    },
+    {
+      "id": "math-2023-s1-q50",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Coordinate Geometry (MSQ)",
+      "subtopic": "Parabola Triangles & Geometry",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let $A$ and $B$ be two points on the parabola $y - 2x^2 = 0$ and $O$ be the origin $(0, 0)$. If:\n\n(1) $OAB$ is an isosceles triangle, then the $y$-coordinates of $A$ and $B$ are equal.\n(2) $OAB$ is an equilateral triangle, then the length of each side is $\\sqrt{3}$.\n(3) $OAB$ is an isosceles triangle and the two equal sides are of length $\\sqrt{3}$, then $OAB$ is an equilateral triangle.\n(4) $OAB$ is an equilateral triangle, then its altitude is $\\sqrt{3}$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$OAB$ is an isosceles triangle, then the $y$-coordinates of $A$ and $B$ are equal.",
+          "isCorrect": true,
+          "explanation": "If OA = OB, then x1^2 + y1^2 = x2^2 + y2^2. Since y = 2x^2, y1/2 + y1^2 = y2/2 + y2^2. Because g(y) = y/2 + y^2 is strictly monotonic for y >= 0, y1 = y2."
+        },
+        {
+          "id": "b",
+          "text": "$OAB$ is an equilateral triangle, then the length of each side is $\\sqrt{3}$.",
+          "isCorrect": true,
+          "explanation": "In an equilateral triangle with vertex at origin, slope of OA is tan(60) = sqrt(3) => y1/x1 = 2x1 = sqrt(3) => x1 = sqrt(3)/2. Side length = 2 * x1 = sqrt(3)."
+        },
+        {
+          "id": "c",
+          "text": "$OAB$ is an isosceles triangle and the two equal sides are of length $\\sqrt{3}$, then $OAB$ is an equilateral triangle.",
+          "isCorrect": false,
+          "explanation": "Isosceles sides do not enforce 60 degree angle."
+        },
+        {
+          "id": "d",
+          "text": "$OAB$ is an equilateral triangle, then its altitude is $\\sqrt{3}$.",
+          "isCorrect": false,
+          "explanation": "Altitude is y = 2(sqrt(3)/2)^2 = 3/2, not sqrt(3)."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (1) and (2) / (A) and (B)**\n\n- Monotonicity of $y/2 + y^2$ enforces $y_A = y_B$ for $OA = OB$.\n- Equilateral triangle geometry yields side length $s = \\sqrt{3}$.",
+      "keyFormulae": [
+        "Coordinate Geometry (MSQ): Parabola Triangles & Geometry"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Coordinate Geometry (MSQ)."
+      ]
+    },
+    {
+      "id": "math-2023-s1-q51",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Real Analysis (MSQ)",
+      "subtopic": "Connectedness & Polynomial Pre-images",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let $f : [0, 1] \\rightarrow \\mathbb{R}$ be a continuous function and $P$ be a polynomial of degree $4$ with coefficients in $\\mathbb{R}$. If $P(f(x)) = 0$ for all $x \\in [0, 1]$, then:\n\n(1) $f(x) = 0$ for all $x \\in \\mathbb{R}$.\n(2) $f$ is a constant function.\n(3) for all continuous functions $g$, there exists $x \\in [0, 1]$ such that $P(g(x)) = 0$.\n(4) $P$ has at most two roots which do not belong to $\\mathbb{R}$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$f(x) = 0$ for all $x \\in \\mathbb{R}$.",
+          "isCorrect": false,
+          "explanation": "f can be constant at any real root r of P, not necessarily 0."
+        },
+        {
+          "id": "b",
+          "text": "$f$ is a constant function.",
+          "isCorrect": true,
+          "explanation": "The image f([0, 1]) is a connected subset of R because [0, 1] is connected and f is continuous. But f([0, 1]) is contained in the finite set of roots of P(x). The only connected subsets of a finite set are singletons. Hence f([0, 1]) = {c}, so f is constant."
+        },
+        {
+          "id": "c",
+          "text": "for all continuous functions $g$, there exists $x \\in [0, 1]$ such that $P(g(x)) = 0$.",
+          "isCorrect": false,
+          "explanation": "A continuous function g whose range avoids roots of P has P(g(x)) != 0 everywhere."
+        },
+        {
+          "id": "d",
+          "text": "$P$ has at most two roots which do not belong to $\\mathbb{R}$.",
+          "isCorrect": false,
+          "explanation": "A degree 4 polynomial can have 4 non-real roots."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answer: Option (2) / (B)**\n\n- The continuous image of a connected interval $[0,1]$ in a discrete finite root set must be a **singleton** $\\implies f(x) = c$ (constant).",
+      "keyFormulae": [
+        "Real Analysis (MSQ): Connectedness & Polynomial Pre-images"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Real Analysis (MSQ)."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q52",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Mechanics & Rotational Motion",
+      "subtopic": "Angular Momentum & Draining Liquid",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A thin spherical copper shell of radius $R$, completely filled with a viscous fluid, is rotating about the vertical axis with a constant angular speed $\\omega_0$. Due to a leak at the bottom of the shell, the fluid starts dripping steadily and vertically from the shell. The net change in angular speed ($\\delta\\omega$) when the shell gets empty is:\n\n(1) proportional to $R^2$.\n(2) proportional to $R$.\n(3) proportional to $R^3$.\n(4) independent of $R$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "proportional to $R^2$.",
+          "isCorrect": false,
+          "explanation": "delta omega = 0."
+        },
+        {
+          "id": "b",
+          "text": "proportional to $R$.",
+          "isCorrect": false,
+          "explanation": "delta omega = 0."
+        },
+        {
+          "id": "c",
+          "text": "proportional to $R^3$.",
+          "isCorrect": false,
+          "explanation": "delta omega = 0."
+        },
+        {
+          "id": "d",
+          "text": "independent of $R$.",
+          "isCorrect": true,
+          "explanation": "The leak is at the bottom of the shell on the axis of rotation (r=0). Fluid dripped along the axis carries away zero angular momentum (dL/dt = 0). The angular speed of the shell remains constant at omega_0 throughout, so delta omega = 0, which is independent of R."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (4) / (D)**\n\n- Fluid draining on the rotation axis ($r = 0$) exerts zero external torque $\\implies \\delta\\omega = 0$ (independent of $R$).",
+      "keyFormulae": [
+        "Mechanics & Rotational Motion: Angular Momentum & Draining Liquid"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Mechanics & Rotational Motion."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q53",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Gravitation",
+      "subtopic": "Tidal Forces & Roche Disruption Distance",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983024/nest_pyqs/2023_s1/nest_2023_s1_page_26_img_1_104.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983024/nest_pyqs/2023_s1/nest_2023_s1_page_26_img_1_104.png"
+      ],
+      "questionText": "A spherical comet having mass $M_s$ and radius $r$ is moving towards a planet of mass $M_p$ as shown in the figure. At a separation distance $d$, equal gravitational force is experienced by the two identical test masses $m$ which are placed at diametrically opposite ends ($A$ and $B$) of the comet. Assuming $d \\gg r$, the correct choice about the separation distance $d$ is:\n\n(1) $d$ is proportional to $M_p^{1/3}$.\n(2) $d$ is proportional to $M_s^{2/3}$.\n(3) $d$ is independent of $r$.\n(4) $d$ is inversely proportional to $M_s^{2/3}$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$d$ is proportional to $M_p^{1/3}$.",
+          "isCorrect": true,
+          "explanation": "Tidal force gradient of planet = 2 G Mp r / d^3. Comet self-gravitational force = G Ms / r^2. Equating gives 2 Mp r / d^3 = Ms / r^2 => d^3 = 2 r^3 (Mp / Ms) => d = r (2 Mp / Ms)^(1/3) proportional to Mp^(1/3)."
+        },
+        {
+          "id": "b",
+          "text": "$d$ is proportional to $M_s^{2/3}$.",
+          "isCorrect": false,
+          "explanation": "d is proportional to Ms^(-1/3)."
+        },
+        {
+          "id": "c",
+          "text": "$d$ is independent of $r$.",
+          "isCorrect": false,
+          "explanation": "d is proportional to r."
+        },
+        {
+          "id": "d",
+          "text": "$d$ is inversely proportional to $M_s^{2/3}$.",
+          "isCorrect": false,
+          "explanation": "Exponent is 1/3."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n$$d = r \\left(\\frac{2M_p}{M_s}\\right)^{1/3} \\implies d \\propto M_p^{1/3}$$",
+      "keyFormulae": [
+        "Gravitation: Tidal Forces & Roche Disruption Distance"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Gravitation."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q54",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Thermal Physics & Radiation",
+      "subtopic": "Stefan-Boltzmann Law & Wien's Displacement",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A metal rod, connected between two high voltage electrodes, attains steady-state temperature through a balance between radiated power loss and Joule heating. The temperature of the surrounding is negligible compared to that of the rod and the resistance of the rod is independent of its temperature. Assuming the current through the rod to be $I$, the dominant wavelength of radiation ($\\lambda$) is given by $\\lambda \\propto I^\\alpha$. Then, the value of $\\alpha$ is:\n\n(1) $1.0$\n(2) $-0.5$\n(3) $2.0$\n(4) $-1.0$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$1.0$",
+          "isCorrect": false,
+          "explanation": "Incorrect sign/exponent."
+        },
+        {
+          "id": "b",
+          "text": "$-0.5$",
+          "isCorrect": true,
+          "explanation": "Joule heat = I^2 R. Radiated power = e sigma A T^4. At steady state: I^2 R = e sigma A T^4 => T proportional to I^(1/2). By Wien's Displacement Law: lambda_max * T = b => lambda_max proportional to T^(-1) proportional to (I^(1/2))^(-1) = I^(-0.5). Thus alpha = -0.5."
+        },
+        {
+          "id": "c",
+          "text": "$2.0$",
+          "isCorrect": false,
+          "explanation": "Incorrect exponent."
+        },
+        {
+          "id": "d",
+          "text": "$-1.0$",
+          "isCorrect": false,
+          "explanation": "Incorrect exponent."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (2) / (B)**\n\n- $I^2 R = \\epsilon \\sigma A T^4 \\implies T \\propto I^{1/2}$.\n- By Wien's Law: $\\lambda \\propto T^{-1} \\propto I^{-1/2} = I^{-0.5} \\implies \\alpha = -0.5$.",
+      "keyFormulae": [
+        "Thermal Physics & Radiation: Stefan-Boltzmann Law & Wien's Displacement"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Thermal Physics & Radiation."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q55",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Thermodynamics",
+      "subtopic": "Thermodynamic State Processes",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983025/nest_pyqs/2023_s1/nest_2023_s1_page_27_img_1_108.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983025/nest_pyqs/2023_s1/nest_2023_s1_page_27_img_1_108.png"
+      ],
+      "questionText": "Thermodynamic processes ($P_1, P_2, P_3, P_4$) in which an ideal gas passes through states $1, 2,$ and $3$ are shown in the figure where $P, V, T$ are pressure, volume, and temperature, respectively. The process(processes) that could be identical to the process $P_1$ is (are):\n\n(1) $P_2$ only.\n(2) $P_2$ and $P_3$ only.\n(3) $P_3$ and $P_4$ only.\n(4) $P_2$ and $P_4$ only.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$P_2$ only.",
+          "isCorrect": true,
+          "explanation": "Process P1 on P-V: 1->2 is isobaric expansion (V increases at constant P => T increases linearly with V, straight line through origin on V-T). 2->3 is isochoric cooling (V constant, P and T decrease). 3->1 is isothermal compression (T constant, V decreases, P increases). Process P2 on V-T exactly mirrors all three state changes."
+        },
+        {
+          "id": "b",
+          "text": "$P_2$ and $P_3$ only.",
+          "isCorrect": false,
+          "explanation": "P3 does not match."
+        },
+        {
+          "id": "c",
+          "text": "$P_3$ and $P_4$ only.",
+          "isCorrect": false,
+          "explanation": "P3 and P4 do not match."
+        },
+        {
+          "id": "d",
+          "text": "$P_2$ and $P_4$ only.",
+          "isCorrect": false,
+          "explanation": "P4 cycle is inverted."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- The thermodynamic cycle $P_1$ is identically matched by $P_2$ on the $V-T$ diagram.",
+      "keyFormulae": [
+        "Thermodynamics: Thermodynamic State Processes"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Thermodynamics."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q56",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Modern Physics",
+      "subtopic": "De Broglie Wavelength of Charged Ions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A proton accelerated from rest by a potential difference of $V\\text{ volts}$ has a de Broglie wavelength of $0.20\\text{ \\AA}$ ($1.0\\text{ \\AA} = 10^{-10}\\text{ m}$). A fully ionized Helium atom is similarly accelerated by a potential difference of $2V\\text{ volts}$. Its de Broglie wavelength (in $\\text{\\AA}$) is closest to:\n\n(1) $0.05$\n(2) $0.07$\n(3) $0.10$\n(4) $0.20$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$0.05$",
+          "isCorrect": true,
+          "explanation": "lambda = h / sqrt(2 m q V_acc). For proton: m_p, q_p = e, V_1 = V. For alpha particle: m_alpha = 4 m_p, q_alpha = 2e, V_2 = 2V. Ratio lambda_alpha / lambda_p = sqrt[ (m_p * e * V) / (4 m_p * 2e * 2V) ] = sqrt(1/16) = 1/4. lambda_alpha = 0.20 / 4 = 0.05 Angstrom."
+        },
+        {
+          "id": "b",
+          "text": "$0.07$",
+          "isCorrect": false,
+          "explanation": "Used factor sqrt(8)."
+        },
+        {
+          "id": "c",
+          "text": "$0.10$",
+          "isCorrect": false,
+          "explanation": "Used factor 2."
+        },
+        {
+          "id": "d",
+          "text": "$0.20$",
+          "isCorrect": false,
+          "explanation": "Unchanged."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n$$\\lambda_\\alpha = \\frac{\\lambda_p}{\\sqrt{4 \\times 2 \\times 2}} = \\frac{0.20\\text{ \\AA}}{4} = 0.05\\text{ \\AA}$$",
+      "keyFormulae": [
+        "Modern Physics: De Broglie Wavelength of Charged Ions"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Modern Physics."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q57",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Atomic Physics",
+      "subtopic": "Bohr Radius & Reduced Mass Dependence",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Consider the Bohr model of the hydrogen atom with Bohr radius $a_B$. If the mass of the electron and that of the proton become twice the present values, then the new Bohr radius will:\n\n(1) remain unchanged.\n(2) change to $2a_B$.\n(3) change to $\\frac{a_B}{2}$.\n(4) change to $4a_B$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "remain unchanged.",
+          "isCorrect": false,
+          "explanation": "Reduced mass changes."
+        },
+        {
+          "id": "b",
+          "text": "change to $2a_B$.",
+          "isCorrect": false,
+          "explanation": "Bohr radius is inversely proportional to mass."
+        },
+        {
+          "id": "c",
+          "text": "change to $\\frac{a_B}{2}$.",
+          "isCorrect": true,
+          "explanation": "Bohr radius a_B = 4 pi eps0 hbar^2 / (mu e^2), where reduced mass mu = (me * mp)/(me + mp). If both me' = 2 me and mp' = 2 mp, then mu' = (2 me * 2 mp)/(2 me + 2 mp) = 2 mu. Therefore a_B' = a_B / 2."
+        },
+        {
+          "id": "d",
+          "text": "change to $4a_B$.",
+          "isCorrect": false,
+          "explanation": "Incorrect scaling."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n$$\\mu' = 2\\mu \\implies a_B' = \\frac{a_B}{2}$$",
+      "keyFormulae": [
+        "Atomic Physics: Bohr Radius & Reduced Mass Dependence"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Atomic Physics."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q58",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Nuclear Physics",
+      "subtopic": "Radioactive Decay Half-Life & Mean Life Ratio",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Two radioactive samples $X$ and $Y$ have the same number of atoms initially [$N_X(t = 0) = N_Y(t = 0)$]. The half-life $\\tau_{1/2}^X$ of $X$ is half the mean life of $Y$. Then $N_Y(t)$ is seven times $N_X(t)$ when $t / \\tau_{1/2}^X$ is closest to:\n\n(1) $1$\n(2) $2$\n(3) $5$\n(4) $10$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$1$",
+          "isCorrect": false,
+          "explanation": "Ratio is 4/e = 1.47."
+        },
+        {
+          "id": "b",
+          "text": "$2$",
+          "isCorrect": false,
+          "explanation": "Ratio is 16/e^2 = 2.16."
+        },
+        {
+          "id": "c",
+          "text": "$5$",
+          "isCorrect": true,
+          "explanation": "Let T = tau_1/2^X. Then tau_Y = 2T. N_X(t) = N0 2^(-t/T). N_Y(t) = N0 e^(-t/(2T)). Ratio N_Y / N_X = e^(-t/2T) / 2^(-t/T) = 2^(t/T) / e^(t/2T) = [2 / e^0.5]^(t/T) = [2 / 1.6487]^(t/T) = (1.213)^(t/T). Set (1.213)^(t/T) = 7 => (t/T) * ln(1.213) = ln 7 => (t/T) * 0.193 = 1.9459 => t/T = 1.9459 / 0.193 = 10.08 ~ 10, wait: let's verify if tau_Y = 2T => at t/T = 5: 2^5 / e^2.5 = 32 / 12.18 = 2.6. At t/T = 10: 2^10 / e^5 = 1024 / 148.4 = 6.90 ~ 7. Thus t/T = 10."
+        },
+        {
+          "id": "d",
+          "text": "$10$",
+          "isCorrect": true,
+          "explanation": "N_Y(t)/N_X(t) = 2^(t/T) / e^(t/(2T)). For t/T = 10: 2^10 / e^5 = 1024 / 148.41 = 6.90, which is closest to 7."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (4) / (D)**\n\n$$\\frac{N_Y(t)}{N_X(t)} = \\frac{2^{t/T}}{e^{t/2T}} \\implies \\text{For } \\frac{t}{T} = 10: \\frac{1024}{e^5} \\approx 6.90 \\approx 7$$",
+      "keyFormulae": [
+        "Nuclear Physics: Radioactive Decay Half-Life & Mean Life Ratio"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Nuclear Physics."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q59",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Electromagnetism",
+      "subtopic": "Expanding Conducting Ring Magnetic Moment",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "An elastic conducting ring of mass $m$ is extended radially with constant speed $v$ in an uniform magnetic field of strength $B$, which is perpendicular to the plane of the ring. Take the resistance $R$ of the ring to be a constant. The magnetic moment ($\\mu$) of the ring in terms of the instantaneous radius of the ring ($r$) is given by $\\mu = Kr^\\alpha$, where $K$ and $\\alpha$ are constants. Then, the value of $\\alpha$ is:\n\n(1) $0$\n(2) $1$\n(3) $4$\n(4) $3$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$0$",
+          "isCorrect": false,
+          "explanation": "Radius dependent."
+        },
+        {
+          "id": "b",
+          "text": "$1$",
+          "isCorrect": false,
+          "explanation": "Area contributes r^2."
+        },
+        {
+          "id": "c",
+          "text": "$4$",
+          "isCorrect": false,
+          "explanation": "Overcounted."
+        },
+        {
+          "id": "d",
+          "text": "$3$",
+          "isCorrect": true,
+          "explanation": "EMF e = d(Phi)/dt = B * d(pi r^2)/dt = 2 pi r v B. Current I = e/R = (2 pi v B / R) r. Magnetic moment mu = I * Area = I * (pi r^2) = (2 pi^2 v B / R) r^3. Thus mu = K r^3 with alpha = 3."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (4) / (D)**\n\n$$\\mathcal{E} = 2\\pi r v B \\implies I \\propto r \\implies \\mu = I(\\pi r^2) \\propto r^3 \\implies \\alpha = 3$$",
+      "keyFormulae": [
+        "Electromagnetism: Expanding Conducting Ring Magnetic Moment"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Electromagnetism."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q60",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Magnetism",
+      "subtopic": "Magnetic Force on Perpendicular Segment",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983026/nest_pyqs/2023_s1/nest_2023_s1_page_29_img_1_116.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983026/nest_pyqs/2023_s1/nest_2023_s1_page_29_img_1_116.png"
+      ],
+      "questionText": "A horizontal straight wire of length $a$ is placed perpendicular to a long current carrying straight vertical wire at a distance of $2a$ and lies in the same plane as shown in the figure. Both wires carry steady current $I$. The magnitude of the force on the horizontal wire due to the vertical wire is:\n\n(1) $\\frac{\\mu_0 I^2 \\ln(3/2)}{2\\pi}$\n(2) $0$\n(3) $\\frac{\\mu_0 I^2 \\ln 3}{\\pi}$\n(4) $\\frac{3\\mu_0 I^2 \\ln 2}{2\\pi}$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{\\mu_0 I^2 \\ln(3/2)}{2\\pi}$",
+          "isCorrect": true,
+          "explanation": "dF = I B(x) dx = I (mu0 I / (2 pi x)) dx. Integrating from x = 2a to x = 3a gives F = (mu0 I^2 / (2 pi)) ln(3a / 2a) = (mu0 I^2 / (2 pi)) ln(3/2)."
+        },
+        {
+          "id": "b",
+          "text": "$0$",
+          "isCorrect": false,
+          "explanation": "Force is non-zero."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{\\mu_0 I^2 \\ln 3}{\\pi}$",
+          "isCorrect": false,
+          "explanation": "Incorrect limits."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{3\\mu_0 I^2 \\ln 2}{2\\pi}$",
+          "isCorrect": false,
+          "explanation": "Incorrect integral."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n$$F = \\int_{2a}^{3a} I \\left(\\frac{\\mu_0 I}{2\\pi x}\\right) dx = \\frac{\\mu_0 I^2}{2\\pi}\\ln\\left(\\frac{3}{2}\\right)$$",
+      "keyFormulae": [
+        "Magnetism: Magnetic Force on Perpendicular Segment"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Magnetism."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q61",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Ray Optics",
+      "subtopic": "Plano-Convex & Biconvex Lens Parameters",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A double convex lens of the objective is changed to plano-convex. The objective is made of a plastic material with refractive index $1.3$. Then:\n\n(1) the numerical aperture of the double convex lens is $1.3$.\n(2) the numerical aperture of the plano-convex lens is $0.39$.\n(3) the diameter to focal length ratio of the plano-convex lens is $1.2$.\n(4) the critical angle of the double convex lens is $60^\\circ$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "the numerical aperture of the double convex lens is $1.3$.",
+          "isCorrect": false,
+          "explanation": "NA = n sin(alpha) < 1.3 in air."
+        },
+        {
+          "id": "b",
+          "text": "the numerical aperture of the plano-convex lens is $0.39$.",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        },
+        {
+          "id": "c",
+          "text": "the diameter to focal length ratio of the plano-convex lens is $1.2$.",
+          "isCorrect": true,
+          "explanation": "1/f' = (n-1)/R = 0.3/R => f' = R/0.3 = 10R/3. Maximum aperture diameter D = 2R. D/f' = 2R / (10R/3) = 6/5 = 1.2."
+        },
+        {
+          "id": "d",
+          "text": "the critical angle of the double convex lens is $60^\\circ$.",
+          "isCorrect": false,
+          "explanation": "sin(theta_c) = 1/1.3 = 0.769 => theta_c = 50.3 deg."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n- Focal length $f' = \\frac{R}{n-1} = \\frac{R}{0.3}$. Maximum diameter $D = 2R$.\n- $\\frac{D}{f'} = \\frac{2R}{R/0.3} = 2 \\times 0.3 = 0.6 \\times 2 = 1.2$.",
+      "keyFormulae": [
+        "Ray Optics: Plano-Convex & Biconvex Lens Parameters"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Ray Optics."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q62",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Wave Mechanics",
+      "subtopic": "Lattice Dispersion Relation & Linear Density",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "An elastic wave generates a stress of magnitude $N$ while propagating in a wire. The relation between its frequency $\\omega$ and the wavevector $k$ is given by $\\omega = \\omega_0 \\sqrt{1 - \\cos(ka)}$, where $\\omega_0$ and $a$ are constants. In the long wavelength approximation ($\\lambda \\gg a$), the linear density of the wire is:\n\n(1) $\\frac{2N}{\\omega_0 a}$\n(2) $\\frac{\\omega_0 a}{N}$\n(3) $\\frac{2N}{(\\omega_0 a)^2}$\n(4) $\\frac{N}{\\omega_0^2 a}$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{2N}{\\omega_0 a}$",
+          "isCorrect": false,
+          "explanation": "Missing squared terms."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{\\omega_0 a}{N}$",
+          "isCorrect": false,
+          "explanation": "Inverted dimensions."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{2N}{(\\omega_0 a)^2}$",
+          "isCorrect": true,
+          "explanation": "For ka << 1: 1 - cos(ka) ~ (ka)^2 / 2 => omega = omega_0 (ka) / sqrt(2). Phase velocity v = omega / k = omega_0 a / sqrt(2). Wave speed on string v = sqrt(N / mu). Equating: sqrt(N / mu) = omega_0 a / sqrt(2) => N / mu = (omega_0 a)^2 / 2 => mu = 2N / (omega_0 a)^2."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{N}{\\omega_0^2 a}$",
+          "isCorrect": false,
+          "explanation": "Missing factor of 2 and a^2."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n$$\\omega \\approx \\frac{\\omega_0 a k}{\\sqrt{2}} \\implies v = \\frac{\\omega_0 a}{\\sqrt{2}} = \\sqrt{\\frac{N}{\\mu}} \\implies \\mu = \\frac{2N}{(\\omega_0 a)^2}$$",
+      "keyFormulae": [
+        "Wave Mechanics: Lattice Dispersion Relation & Linear Density"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Wave Mechanics."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q63",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Acoustics & Waves",
+      "subtopic": "Bucket Filling Frequency Variation Graph",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983029/nest_pyqs/2023_s1/nest_2023_s1_page_30_img_1_120.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983029/nest_pyqs/2023_s1/nest_2023_s1_page_30_img_1_120.png"
+      ],
+      "questionText": "A slow steady stream of water is falling into a tall cylindrical bucket. Let $f(t)$ denote the dominant frequency of the sound of the fall onto the horizontal water surface in the bucket. The possible time dependencies of this frequency are shown in the figures. The graph which best describes the variation of $f$ with $t$ qualitatively is:\n\n(1) $(P)$\n(2) $(Q)$\n(3) $(R)$\n(4) $(S)$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$(P)$",
+          "isCorrect": false,
+          "explanation": "Linear variation is incorrect."
+        },
+        {
+          "id": "b",
+          "text": "$(Q)$",
+          "isCorrect": true,
+          "explanation": "The resonant air column length L(t) = H - ct decreases with time. Fundamental frequency f(t) = v_sound / (4 L(t)) = v / (4(H - ct)) is a hyperbolic curve that increases monotonically with increasing positive curvature (accelerating upward slope) as t increases, correctly depicted in graph Q."
+        },
+        {
+          "id": "c",
+          "text": "$(R)$",
+          "isCorrect": false,
+          "explanation": "Decreasing frequency is incorrect."
+        },
+        {
+          "id": "d",
+          "text": "$(S)$",
+          "isCorrect": false,
+          "explanation": "Constant frequency is incorrect."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (2) / (B)**\n\n$$f(t) = \\frac{v}{4(H - ct)} \\implies \\text{Hyperbolic monotonic increase (Graph Q)}$$",
+      "keyFormulae": [
+        "Acoustics & Waves: Bucket Filling Frequency Variation Graph"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Acoustics & Waves."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q64",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Mechanics & Elasticity",
+      "subtopic": "Accelerating Train Cable Stresses",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983031/nest_pyqs/2023_s1/nest_2023_s1_page_31_img_1_124.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983031/nest_pyqs/2023_s1/nest_2023_s1_page_31_img_1_124.png"
+      ],
+      "questionText": "An accelerating train (acceleration $a = 1\\text{ m/s}^2$) of $n$ blocks has a mass distribution as shown in the figure. The rightmost block of mass $nM$ is the engine. The blocks are connected through an Aluminum cable of cross-section $10\\text{ cm}^2$. The maximum allowed strain in the connecting cables is $0.001$. Taking $M = 1000\\text{ kg}$ and Young's modulus of Aluminum to be $7 \\times 10^{10}\\text{ Pa}$, the correct choice(s) is (are):\n\n(1) All connecting cables will have equal strain.\n(2) The difference of stress in any two consecutive cables is in arithmetic progression.\n(3) The train can have at most $12$ blocks.\n(4) The maximum stress is between blocks having masses $M$ and $2M$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "All connecting cables will have equal strain.",
+          "isCorrect": false,
+          "explanation": "Tension varies from rear to engine."
+        },
+        {
+          "id": "b",
+          "text": "The difference of stress in any two consecutive cables is in arithmetic progression.",
+          "isCorrect": false,
+          "explanation": "Differences are constant."
+        },
+        {
+          "id": "c",
+          "text": "The train can have at most $12$ blocks.",
+          "isCorrect": true,
+          "explanation": "Max tension occurs at cable accelerating rear (n-1) blocks: masses M, 2M, ..., (n-1)M. Total mass pulled = M * sum_{k=1}^{n-1} k = M * n(n-1)/2. Max tension T_max = [M n(n-1)/2] * a. Max allowed tension = Stress_max * Area = (Y * strain) * A = (7 * 10^10 * 10^-3) * (10 * 10^-4 m^2) = 7 * 10^7 * 10^-3 = 70000 N. With M=1000, a=1: 1000 * n(n-1)/2 <= 70000 => n(n-1) <= 140. For n=12: 12 * 11 = 132 <= 140. For n=13: 13 * 12 = 156 > 140. Thus max n = 12 blocks."
+        },
+        {
+          "id": "d",
+          "text": "The maximum stress is between blocks having masses $M$ and $2M$.",
+          "isCorrect": false,
+          "explanation": "Maximum stress is in the front cable next to the engine."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n- $T_{\\text{max}} = M a \\frac{n(n-1)}{2} \\le Y \\cdot \\text{strain} \\cdot A = 70,000\\text{ N} \\implies n(n-1) \\le 140 \\implies n_{\\text{max}} = 12$.",
+      "keyFormulae": [
+        "Mechanics & Elasticity: Accelerating Train Cable Stresses"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Mechanics & Elasticity."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q65",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Gravitation & Electrostatics (MSQ)",
+      "subtopic": "Central Force Free-Fall Collapse Times",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A point object $P$ of mass $m$ and charge $q$ is placed at a distance $r$ from a stationary object $Q$ of mass $M$ and charge $-q$. Let $T_g$ be the time for $P$ to reach $Q$ if it is moving only under gravitational attraction. Similarly, let $T_e$ be the time for $P$ to reach $Q$ if it is moving only under electrostatic attraction. Then:\n\n(1) $T_g$ depends on $M$ but not on $m$.\n(2) $T_e$ depends on $m$ but not on $M$.\n(3) $T_g^2$ is directly proportional to $G$.\n(4) $T_e^2$ is directly proportional to $\\epsilon_0$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$T_g$ depends on $M$ but not on $m$.",
+          "isCorrect": true,
+          "explanation": "Gravitational acceleration of m towards stationary M is a_g = G M / r^2 (independent of test mass m). Thus collapse time T_g depends on M and G, but not on m."
+        },
+        {
+          "id": "b",
+          "text": "$T_e$ depends on $m$ but not on $M$.",
+          "isCorrect": true,
+          "explanation": "Electrostatic acceleration of m towards stationary Q is a_e = q^2 / (4 pi eps0 m r^2). The acceleration depends on m (and not on stationary mass M), so collapse time T_e depends on m but not on M."
+        },
+        {
+          "id": "c",
+          "text": "$T_g^2$ is directly proportional to $G$.",
+          "isCorrect": false,
+          "explanation": "T_g is proportional to 1/sqrt(G), so T_g^2 is inversely proportional to G."
+        },
+        {
+          "id": "d",
+          "text": "$T_e^2$ is directly proportional to $\\epsilon_0$.",
+          "isCorrect": true,
+          "explanation": "T_e is proportional to sqrt(eps0), so T_e^2 is directly proportional to eps0."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (1), (2), and (4) / (A), (B), and (D)**\n\n- $a_g = \\frac{GM}{r^2} \\implies T_g = \\frac{\\pi}{2\\sqrt{2}}\\sqrt{\\frac{r^3}{GM}}$ (depends on $M$, not $m$).\n- $a_e = \\frac{q^2}{4\\pi\\epsilon_0 m r^2} \\implies T_e = \\frac{\\pi}{2\\sqrt{2}}\\sqrt{\\frac{4\\pi\\epsilon_0 m r^3}{q^2}} \\implies T_e^2 \\propto \\epsilon_0$ and depends on $m$.",
+      "keyFormulae": [
+        "Gravitation & Electrostatics (MSQ): Central Force Free-Fall Collapse Times"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Gravitation & Electrostatics (MSQ)."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q66",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Thermodynamics (MSQ)",
+      "subtopic": "Ideal Gas Laws & Enthalpy",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The correct statement(s) about an ideal gas is(are): *(Select all correct options)*\n\n(1) for an adiabatic process, the work-done does not depend upon the path.\n(2) for an isobaric process, the change in enthalpy is equal to the net heat input to the system.\n(3) the total potential energy of an ideal gas can be a function of time.\n(4) for an isothermal process, the entropy of an ideal gas remains constant.",
+      "options": [
+        {
+          "id": "a",
+          "text": "for an adiabatic process, the work-done does not depend upon the path.",
+          "isCorrect": true,
+          "explanation": "First law: dQ = dU + dW. For adiabatic (dQ=0), W = -Delta U. Since U is a state function, W depends only on initial and final states, independent of path."
+        },
+        {
+          "id": "b",
+          "text": "for an isobaric process, the change in enthalpy is equal to the net heat input to the system.",
+          "isCorrect": true,
+          "explanation": "dH = dU + d(PV) = dU + P dV = dQ_p at constant pressure."
+        },
+        {
+          "id": "c",
+          "text": "the total potential energy of an ideal gas can be a function of time.",
+          "isCorrect": true,
+          "explanation": "If an ideal gas is situated in a time-varying external gravitational or electrostatic potential field, its macroscopic potential energy varies with time."
+        },
+        {
+          "id": "d",
+          "text": "for an isothermal process, the entropy of an ideal gas remains constant.",
+          "isCorrect": false,
+          "explanation": "Delta S = nR ln(V2/V1) != 0 for isothermal volume change."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (1), (2), and (3) / (A), (B), and (C)**\n\n- Key thermodynamic relations: $W_{\\text{ad}} = -\\Delta U$, $\\Delta H = Q_p$, and external potential energy can vary with time.",
+      "keyFormulae": [
+        "Thermodynamics (MSQ): Ideal Gas Laws & Enthalpy"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Thermodynamics (MSQ)."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q67",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Electrostatics (MSQ)",
+      "subtopic": "Coaxial Cylinders Potential & Charge Densities",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983033/nest_pyqs/2023_s1/nest_2023_s1_page_32_img_1_128.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983033/nest_pyqs/2023_s1/nest_2023_s1_page_32_img_1_128.png"
+      ],
+      "questionText": "The electrostatic potential in the region between two long coaxial cylinders of radii $a$ and $b$ is given by $\\phi = \\alpha \\ln(r/a) + \\beta$, where $\\alpha$ and $\\beta$ are constants. Here, $\\alpha > 0$ and $r$ denotes radial distance from the axis such that $a < r < b$. Then, the correct option(s) is (are): *(Select all correct options)*\n\n(1) The charge per unit length on the inner cylinder is $-2\\pi\\epsilon_0\\alpha$.\n(2) Capacitance per unit length is $\\frac{\\ln(b/a)}{2\\pi\\epsilon_0}$.\n(3) The charge density on the outer cylinder is $-\\frac{\\epsilon_0\\alpha}{b^2}$.\n(4) The electric field in the region between two cylinders is $-\\left(\\frac{\\alpha}{r}\\right)\\hat{r}$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The charge per unit length on the inner cylinder is $-2\\pi\\epsilon_0\\alpha$.",
+          "isCorrect": true,
+          "explanation": "E = -grad(phi) = -d/dr[alpha ln(r/a) + beta] r_hat = -(alpha/r) r_hat. By Gauss's law on cylinder of radius r: E(2 pi r L) = q_enclosed / eps0 => -(alpha/r)(2 pi r L) = (lambda_inner * L) / eps0 => lambda_inner = -2 pi eps0 alpha."
+        },
+        {
+          "id": "b",
+          "text": "Capacitance per unit length is $\\frac{\\ln(b/a)}{2\\pi\\epsilon_0}$.",
+          "isCorrect": false,
+          "explanation": "Capacitance per unit length is 2 pi eps0 / ln(b/a) (inverted)."
+        },
+        {
+          "id": "c",
+          "text": "The charge density on the outer cylinder is $-\\frac{\\epsilon_0\\alpha}{b^2}$.",
+          "isCorrect": false,
+          "explanation": "Surface charge density sigma_outer = -lambda_inner / (2 pi b) = eps0 alpha / b."
+        },
+        {
+          "id": "d",
+          "text": "The electric field in the region between two cylinders is $-\\left(\\frac{\\alpha}{r}\\right)\\hat{r}$.",
+          "isCorrect": true,
+          "explanation": "E = -grad(phi) = - (d(phi)/dr) r_hat = -(alpha / r) r_hat."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (1) and (4) / (A) and (D)**\n\n- $\\vec{E}(r) = -\\frac{d\\phi}{dr}\\hat{r} = -\\frac{\\alpha}{r}\\hat{r}$.\n- By Gauss's Law: $\\lambda_{\\text{inner}} = 2\\pi r \\epsilon_0 E_r = -2\\pi\\epsilon_0\\alpha$.",
+      "keyFormulae": [
+        "Electrostatics (MSQ): Coaxial Cylinders Potential & Charge Densities"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Electrostatics (MSQ)."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q68",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Wave Optics & Electromagnetism (MSQ)",
+      "subtopic": "Superposition of Non-Collinear Plane EM Waves",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Two plane waves having amplitude $E_0$ are described by $\\vec{E}_1 = E_0 \\cos(\\vec{k}_1 \\cdot \\vec{r} - \\omega t)\\hat{z}$ and $\\vec{E}_2 = E_0 \\cos(\\vec{k}_2 \\cdot \\vec{r} - \\omega t)\\hat{z}$. The wavevectors $\\vec{k}_1$ and $\\vec{k}_2$ pass through the origin making an angle of $45^\\circ$ with the $x$-axis, as shown in the figure. At $t = 0$ and $x = 0$ plane, the correct option(s) is (are): *(Select all correct options)*\n\n(1) The periodicity of interference pattern in the $yz$-plane is $\\sqrt{2}\\lambda$.\n(2) The amplitude of resultant wave is $2E_0$.\n(3) The direction of polarization of resultant wave will change.\n(4) The maximum intensity is $E_0^2$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The periodicity of interference pattern in the $yz$-plane is $\\sqrt{2}\\lambda$.",
+          "isCorrect": true,
+          "explanation": "k1 = k(cos 45 i + sin 45 j) = (k/sqrt(2))(i + j). k2 = k(cos 45 i - sin 45 j) = (k/sqrt(2))(i - j). At x=0, t=0: E_total = E0 cos(ky/sqrt(2)) z_hat + E0 cos(-ky/sqrt(2)) z_hat = 2 E0 cos(k y / sqrt(2)) z_hat. Spatial periodicity along y: Delta y = 2 pi / (k / sqrt(2)) = sqrt(2) (2 pi / k) = sqrt(2) lambda."
+        },
+        {
+          "id": "b",
+          "text": "The amplitude of resultant wave is $2E_0$.",
+          "isCorrect": true,
+          "explanation": "Resultant electric field amplitude reaches 2 E0 at constructive interference planes where cos(k y / sqrt(2)) = +-1."
+        },
+        {
+          "id": "c",
+          "text": "The direction of polarization of resultant wave will change.",
+          "isCorrect": false,
+          "explanation": "Both waves are polarized strictly along z_hat; superposition remains linearly polarized along z_hat at all times."
+        },
+        {
+          "id": "d",
+          "text": "The maximum intensity is $E_0^2$.",
+          "isCorrect": false,
+          "explanation": "Maximum intensity scales as (2 E0)^2 = 4 E0^2."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (1) and (2) / (A) and (B)**\n\n- Interference along the $y$-axis has spatial wavelength $\\Lambda = \\frac{\\lambda}{\\sin 45^\\circ} = \\sqrt{2}\\lambda$.\n- Both waves have identical polarization $\\hat{z}$, producing a resultant maximum amplitude of $2E_0$.",
+      "keyFormulae": [
+        "Wave Optics & Electromagnetism (MSQ): Superposition of Non-Collinear Plane EM Waves"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Wave Optics & Electromagnetism (MSQ)."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,922 @@
+[
+  {
+    "id": "chem-ami-001",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "Hofmann Bromamide & Optically Active Product",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "An unknown primary amide X (C\u2085H\u2089NO) is subjected to the Hofmann Bromamide Degradation reaction using Br\u2082 and aqueous KOH. The resulting primary amine Y is isolated and subjected to the Hinsberg test, forming a sulfonamide derivative that is completely SOLUBLE in aqueous NaOH. When amine Y is treated with HNO\u2082 at 0\u20135\u00b0C, it liberates N\u2082 gas \u2191 and yields an optically active 2\u00b0 alcohol Z. What is the structural formula of original amide X?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pentanamide (CH\u2083CH\u2082CH\u2082CH\u2082CONH\u2082)",
+        "isCorrect": false,
+        "explanation": "Yields 1-aminobutane, which on HNO\u2082 treatment gives butan-1-ol (achiral)."
+      },
+      {
+        "id": "B",
+        "text": "2-Methylbutanamide (CH\u2083CH\u2082CH(CH\u2083)CONH\u2082)",
+        "isCorrect": true,
+        "explanation": "1. Amide X (C\u2085H\u2089NO) undergoes Hofmann degradation to yield 1\u00b0 amine Y with one carbon less (C\u2084H\u2081\u2081N). 2. 1\u00b0 amine Y with HNO\u2082 yields an optically active 2\u00b0 alcohol Z (C\u2084H\u2081\u2080O). 3. The only optically active 2\u00b0 four-carbon alcohol is Butan-2-ol (CH\u2083-C*H(OH)-CH\u2082CH\u2083). 4. Amine Y yielding Butan-2-ol must be sec-butylamine (CH\u2083CH\u2082CH(CH\u2083)NH\u2082). 5. The parent amide X containing 1 extra carbon is 2-Methylbutanamide (CH\u2083CH\u2082CH(CH\u2083)CONH\u2082)."
+      },
+      {
+        "id": "C",
+        "text": "2,2-Dimethylpropanamide ((CH\u2083)\u2083C-CONH\u2082)",
+        "isCorrect": false,
+        "explanation": "Yields t-butylamine, which gives t-butanol (achiral 3\u00b0 alcohol)."
+      },
+      {
+        "id": "D",
+        "text": "Benzamide (C\u2086H\u2085CONH\u2082)",
+        "isCorrect": false,
+        "explanation": "Benzamide contains 7 carbons and yields aniline."
+      }
+    ],
+    "solutionExplanation": "1. Amide X (C\u2085H\u2089NO) undergoes Hofmann degradation to yield 1\u00b0 amine Y with one carbon less (C\u2084H\u2081\u2081N).\n2. 1\u00b0 amine Y with HNO\u2082 yields an optically active 2\u00b0 alcohol Z (C\u2084H\u2081\u2080O).\n3. The only optically active 2\u00b0 four-carbon alcohol is Butan-2-ol (CH\u2083-C*H(OH)-CH\u2082CH\u2083).\n4. Amine Y yielding Butan-2-ol must be sec-butylamine (CH\u2083CH\u2082CH(CH\u2083)NH\u2082).\n5. The parent amide X containing 1 extra carbon is 2-Methylbutanamide (CH\u2083CH\u2082CH(CH\u2083)CONH\u2082).",
+    "keyFormulae": [
+      "R\\text{-CONH}_2 \\xrightarrow{\\text{Br}_2/\\text{KOH}} R\\text{-NH}_2 \\xrightarrow{\\text{HNO}_2} R\\text{-OH} + \\text{N}_2 \\uparrow"
+    ],
+    "hints": [
+      "Trace the optically active 4-carbon 2\u00b0 alcohol back through sec-butylamine to the 5-carbon branched primary amide."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-ami-002",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "Aqueous Basicity Order of Methylamines",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Arrange the following methyl-substituted amine species in order of INCREASING basic strength (pK_b sequence) in AQUEOUS solution:\n\n1. NH\u2083 (Ammonia)\n2. CH\u2083NH\u2082 (Methylamine)\n3. (CH\u2083)\u2082NH (Dimethylamine)\n4. (CH\u2083)\u2083N (Trimethylamine)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 < 4 < 2 < 3",
+        "isCorrect": true,
+        "explanation": "In aqueous solution, basicity of methyl-substituted amines follows the 213 Order: (CH\u2083)\u2082NH (2\u00b0) > CH\u2083NH\u2082 (1\u00b0) > (CH\u2083)\u2083N (3\u00b0) > NH\u2083. Therefore, in order of INCREASING basic strength (weakest to strongest): NH\u2083 (1) < (CH\u2083)\u2083N (4) < CH\u2083NH\u2082 (2) < (CH\u2083)\u2082NH (3), which corresponds to 1 < 4 < 2 < 3."
+      },
+      {
+        "id": "B",
+        "text": "3 < 2 < 4 < 1",
+        "isCorrect": false,
+        "explanation": "Decreasing order instead of increasing."
+      },
+      {
+        "id": "C",
+        "text": "1 < 2 < 3 < 4",
+        "isCorrect": false,
+        "explanation": "Gas-phase order, not aqueous."
+      },
+      {
+        "id": "D",
+        "text": "4 < 3 < 2 < 1",
+        "isCorrect": false,
+        "explanation": "Incorrect basicity sequence."
+      }
+    ],
+    "solutionExplanation": "In aqueous solution, basicity of methyl-substituted amines follows the 213 Order:\n(CH\u2083)\u2082NH (2\u00b0) > CH\u2083NH\u2082 (1\u00b0) > (CH\u2083)\u2083N (3\u00b0) > NH\u2083.\nTherefore, in order of INCREASING basic strength (weakest to strongest):\nNH\u2083 (1) < (CH\u2083)\u2083N (4) < CH\u2083NH\u2082 (2) < (CH\u2083)\u2082NH (3) \u27f9 1 < 4 < 2 < 3.",
+    "keyFormulae": [
+      "\\text{Aqueous Methyl Basicity: } (\\text{CH}_3)_2\\text{NH } (2^\\circ) > \\text{CH}_3\\text{NH}_2 \\ (1^\\circ) > (\\text{CH}_3)_3\\text{N } (3^\\circ) > \\text{NH}_3 \\quad (213)"
+    ],
+    "hints": [
+      "Mnemonic for aqueous methylamines is 213 (2\u00b0 > 1\u00b0 > 3\u00b0 > NH\u2083)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-ami-003",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "Anilinium Meta-Nitration Anomaly",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Why does direct nitration of Aniline with concentrated HNO\u2083 / H\u2082SO\u2084 mixture at 288 K yield an unusually high proportion (47% yield) of m-nitroaniline, alongside p-nitroaniline (51%) and o-nitroaniline (2%)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nitric acid acts as a strong reducing agent that cleaves the benzene ring.",
+        "isCorrect": false,
+        "explanation": "Nitric acid is an oxidizing agent."
+      },
+      {
+        "id": "B",
+        "text": "In strongly acidic medium, basic aniline is protonated to form the Anilinium ion (Ph-NH\u2083\u207a), which is a powerful -I / -M meta-director.",
+        "isCorrect": true,
+        "explanation": "In the strongly acidic nitrating mixture (H\u2082SO\u2084), the basic amino group of aniline accepts a proton to form the Anilinium Ion (Ph-NH\u2083\u207a). The positive charge on nitrogen makes the anilinium ion a powerful -I / -M Meta-Director, directing incoming nitronium ions (NO\u2082\u207a) to the meta position (47%)."
+      },
+      {
+        "id": "C",
+        "text": "The -NH\u2082 group undergoes 1,2-methyl shift during nitration.",
+        "isCorrect": false,
+        "explanation": "There are no methyl groups on aniline."
+      },
+      {
+        "id": "D",
+        "text": "m-nitroaniline is formed by a free radical pathway.",
+        "isCorrect": false,
+        "explanation": "Nitration is electrophilic aromatic substitution (S_EAr)."
+      }
+    ],
+    "solutionExplanation": "In the strongly acidic nitrating mixture (H\u2082SO\u2084), the basic amino group of aniline accepts a proton to form the Anilinium Ion (Ph-NH\u2083\u207a). The positive charge on nitrogen makes the anilinium ion a powerful -I / -M Meta-Director, directing incoming nitronium ions (NO\u2082\u207a) to the meta position (47%).",
+    "keyFormulae": [
+      "\\text{Ph-NH}_2 + \\text{H}^+ \\rightleftharpoons \\text{Ph-NH}_3^+ \\text{ (Anilinium Ion, } -I/-M \\text{ Meta-Director)}"
+    ],
+    "hints": [
+      "Strongly acidic conditions protonate the amine to an anilinium ion with a full positive charge on nitrogen."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-ami-004",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "Carbylamine Test Electrophile",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the active electrophilic species involved in the Carbylamine Test when a primary amine (1\u00b0) is heated with Chloroform (CHCl\u2083) and alcoholic KOH?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nitronium Ion (NO\u2082\u207a)",
+        "isCorrect": false,
+        "explanation": "Electrophile in aromatic nitration."
+      },
+      {
+        "id": "B",
+        "text": "Dichlorocarbene (:CCl\u2082)",
+        "isCorrect": true,
+        "explanation": "Base (OH\u207b) abstracts an acidic proton from CHCl\u2083 to yield the trichloromethyl anion (:CCl\u2083\u207b), which undergoes \u03b1-elimination of Cl\u207b to generate the neutral 6-electron electrophile Dichlorocarbene (:CCl\u2082). The 1\u00b0 amine lone pair attacks :CCl\u2082, eventually yielding the foul-smelling Isocyanide (R-NC)."
+      },
+      {
+        "id": "C",
+        "text": "Trichloromethyl carbanion (:CCl\u2083\u207b)",
+        "isCorrect": false,
+        "explanation": "Precursor intermediate before \u03b1-elimination."
+      },
+      {
+        "id": "D",
+        "text": "Carbonium ion (CH\u2083\u207a)",
+        "isCorrect": false,
+        "explanation": "Not formed in this reaction."
+      }
+    ],
+    "solutionExplanation": "Base (OH\u207b) abstracts an acidic proton from CHCl\u2083 to yield the trichloromethyl anion (:CCl\u2083\u207b), which undergoes \u03b1-elimination of Cl\u207b to generate the neutral 6-electron electrophile Dichlorocarbene (:CCl\u2082). The 1\u00b0 amine lone pair attacks :CCl\u2082, eventually yielding the foul-smelling Isocyanide (R-NC).",
+    "keyFormulae": [
+      "\\text{CHCl}_3 + \\text{OH}^- \\rightleftharpoons :\\text{CCl}_3^- \\xrightarrow{-\\text{Cl}^-} :\\text{CCl}_2 \\text{ (Dichlorocarbene)}"
+    ],
+    "hints": [
+      "\u03b1-Elimination of HCl from chloroform generates a neutral 6-electron divalent carbon intermediate."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-ami-005",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "Phenol Diazonium Coupling Product",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Benzenediazonium chloride (Ph-N\u2082\u207aCl\u207b) is coupled with Phenol (Ph-OH) in aqueous medium at pH 9\u201310. What is the chemical structure, color, and name of the resulting azo dye product?",
+    "options": [
+      {
+        "id": "A",
+        "text": "p-Aminoazobenzene; Yellow dye",
+        "isCorrect": false,
+        "explanation": "Formed by coupling diazonium with aniline at pH 4\u20135."
+      },
+      {
+        "id": "B",
+        "text": "p-Hydroxyazobenzene; Orange dye",
+        "isCorrect": true,
+        "explanation": "Coupling of benzenediazonium cation with Phenol in faintly basic medium (pH 9\u201310, which converts phenol to the reactive phenoxide ion) occurs at the para-position to yield p-Hydroxyazobenzene, which is an Orange Azo Dye."
+      },
+      {
+        "id": "C",
+        "text": "o-Nitroazobenzene; Red dye",
+        "isCorrect": false,
+        "explanation": "Incorrect coupling product."
+      },
+      {
+        "id": "D",
+        "text": "Aniline black; Dark brown precipitate",
+        "isCorrect": false,
+        "explanation": "Product of aniline oxidation."
+      }
+    ],
+    "solutionExplanation": "Coupling of benzenediazonium cation with Phenol in faintly basic medium (pH 9\u201310, which converts phenol to the reactive phenoxide ion) occurs at the para-position to yield p-Hydroxyazobenzene, which is an Orange Azo Dye.",
+    "keyFormulae": [
+      "\\text{Ph-N}_2^+\\text{Cl}^- + \\text{Ph-OH} \\xrightarrow{\\text{pH } 9\\text{--}10} \\text{HO-C}_6\\text{H}_4\\text{-N=N-Ph (p-Hydroxyazobenzene / Orange Dye)}"
+    ],
+    "hints": [
+      "Coupling with phenol in basic medium yields an orange p-hydroxy azo dye."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-ami-006",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "Balz-Schiemann Reaction Reagent",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What reagent is used in the Balz-Schiemann reaction to convert Benzenediazonium chloride into Fluorobenzene (Ph-F)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cu\u2082F\u2082 / HF",
+        "isCorrect": false,
+        "explanation": "Copper fluoride does not participate in a Sandmeyer-type reaction for fluorine."
+      },
+      {
+        "id": "B",
+        "text": "Fluoroboric Acid (HBF\u2084) followed by thermal decomposition (\u0394)",
+        "isCorrect": true,
+        "explanation": "In the Balz-Schiemann Reaction, benzenediazonium chloride is reacted with Fluoroboric Acid (HBF\u2084) to precipitate benzenediazonium fluoroborate (Ph-N\u2082\u207aBF\u2084\u207b), which is isolated, dried, and heated gently (\u0394) to undergo nitrogen loss yielding Fluorobenzene (Ph-F) + N\u2082 \u2191 + BF\u2083."
+      },
+      {
+        "id": "C",
+        "text": "NaF / DMSO",
+        "isCorrect": false,
+        "explanation": "Aryl diazonium does not react directly with NaF."
+      },
+      {
+        "id": "D",
+        "text": "AgF in ethanol",
+        "isCorrect": false,
+        "explanation": "Incorrect reagent."
+      }
+    ],
+    "solutionExplanation": "In the Balz-Schiemann Reaction, benzenediazonium chloride is reacted with Fluoroboric Acid (HBF\u2084) to precipitate benzenediazonium fluoroborate (Ph-N\u2082\u207aBF\u2084\u207b), which is isolated, dried, and heated gently (\u0394) to undergo nitrogen loss yielding Fluorobenzene (Ph-F) + N\u2082 \u2191 + BF\u2083.",
+    "keyFormulae": [
+      "\\text{Ph-N}_2^+\\text{Cl}^- + \\text{HBF}_4 \\longrightarrow \\text{Ph-N}_2^+\\text{BF}_4^- \\xrightarrow{\\Delta} \\text{Ph-F} + \\text{N}_2 \\uparrow + \\text{BF}_3"
+    ],
+    "hints": [
+      "HBF\u2084 precipitates the diazonium fluoroborate which undergoes thermal fluorination."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-ami-007",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "Hinsberg Test 2\u00b0 Amine Identification",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "An unknown amine Z (C\u2083H\u2089N) reacts with Benzenesulfonyl chloride (Hinsberg Reagent) to form a solid derivative that is completely INSOLUBLE in aqueous NaOH solution. What is the structural formula of amine Z?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Propan-1-amine (CH\u2083CH\u2082CH\u2082NH\u2082)",
+        "isCorrect": false,
+        "explanation": "1\u00b0 amine, forms an N-H sulfonamide that is soluble in NaOH."
+      },
+      {
+        "id": "B",
+        "text": "N-Methylethanamine (CH\u2083NH-CH\u2082CH\u2083)",
+        "isCorrect": true,
+        "explanation": "1\u00b0 amines react with Hinsberg reagent to form N-alkylbenzenesulfonamides containing acidic N-H, making them soluble in NaOH. 2\u00b0 amines react to form N,N-dialkylbenzenesulfonamides lacking N-H, making them INSOLUBLE in NaOH. 3\u00b0 amines do not react. Among C\u2083H\u2089N isomers, N-Methylethanamine (CH\u2083NH-CH\u2082CH\u2083) is a Secondary (2\u00b0) amine, so its Hinsberg derivative is insoluble in NaOH."
+      },
+      {
+        "id": "C",
+        "text": "N,N-Dimethylmethanamine ((CH\u2083)\u2083N)",
+        "isCorrect": false,
+        "explanation": "3\u00b0 amine, does not react with Hinsberg reagent."
+      },
+      {
+        "id": "D",
+        "text": "Propan-2-amine",
+        "isCorrect": false,
+        "explanation": "1\u00b0 amine, forms an NaOH-soluble sulfonamide."
+      }
+    ],
+    "solutionExplanation": "\u2022 1\u00b0 amines react with Hinsberg reagent to form N-alkylbenzenesulfonamides containing acidic N-H, making them soluble in NaOH.\n\u2022 2\u00b0 amines react to form N,N-dialkylbenzenesulfonamides lacking N-H, making them INSOLUBLE in NaOH.\n\u2022 3\u00b0 amines do not react.\nAmong C\u2083H\u2089N isomers, N-Methylethanamine (CH\u2083NH-CH\u2082CH\u2083) is a Secondary (2\u00b0) amine, so its Hinsberg derivative is insoluble in NaOH.",
+    "keyFormulae": [
+      "2^\\circ \\text{ Amine: } R_2\\text{NH} + \\text{Ph-SO}_2\\text{Cl} \\longrightarrow \\text{Ph-SO}_2\\text{NR}_2 \\text{ (Insoluble in NaOH)}"
+    ],
+    "hints": [
+      "A 2\u00b0 amine forms a sulfonamide lacking an acidic hydrogen on nitrogen, rendering it insoluble in base."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-ami-008",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "Diazonium Reduction to Benzene",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What organic product is formed when Benzenediazonium chloride (Ph-N\u2082\u207aCl\u207b) is treated with Hypophosphorous Acid (H\u2083PO\u2082) in the presence of Cuprous ions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Phenol (Ph-OH)",
+        "isCorrect": false,
+        "explanation": "Formed by warming diazonium with water."
+      },
+      {
+        "id": "B",
+        "text": "Benzene (C\u2086H\u2086)",
+        "isCorrect": true,
+        "explanation": "Hypophosphorous acid (H\u2083PO\u2082) (or ethanol) acts as a mild reducing agent that replaces the diazonium group (-N\u2082\u207aCl\u207b) with hydrogen, converting benzenediazonium chloride into Benzene (C\u2086H\u2086): Ph-N\u2082\u207aCl\u207b + H\u2083PO\u2082 + H\u2082O \u2500\u2500\u25ba C\u2086H\u2086 + N\u2082 \u2191 + H\u2083PO\u2083 + HCl."
+      },
+      {
+        "id": "C",
+        "text": "Phenylhydrazine (Ph-NH-NH\u2082)",
+        "isCorrect": false,
+        "explanation": "Formed by reduction with SnCl\u2082/HCl."
+      },
+      {
+        "id": "D",
+        "text": "Chlorobenzene (Ph-Cl)",
+        "isCorrect": false,
+        "explanation": "Formed in Sandmeyer reaction with Cu\u2082Cl\u2082/HCl."
+      }
+    ],
+    "solutionExplanation": "Hypophosphorous acid (H\u2083PO\u2082) (or ethanol) acts as a mild reducing agent that replaces the diazonium group (-N\u2082\u207aCl\u207b) with hydrogen, converting benzenediazonium chloride into Benzene (C\u2086H\u2086):\nPh-N\u2082\u207aCl\u207b + H\u2083PO\u2082 + H\u2082O \u2500\u2500\u25ba C\u2086H\u2086 + N\u2082 \u2191 + H\u2083PO\u2083 + HCl.",
+    "keyFormulae": [
+      "\\text{Ph-N}_2^+\\text{Cl}^- + \\text{H}_3\\text{PO}_2 + \\text{H}_2\\text{O} \\xrightarrow{\\text{Cu}^+} \\text{C}_6\\text{H}_6 + \\text{N}_2 \\uparrow + \\text{H}_3\\text{PO}_3 + \\text{HCl}"
+    ],
+    "hints": [
+      "H\u2083PO\u2082 acts as a mild reducing agent replacing -N\u2082\u207a with -H."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-ami-009",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "Pyramidal Inversion Racemization",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Why can unsymmetrically substituted tertiary amines (N R\u2081 R\u2082 R\u2083) NOT be resolved into optically active enantiomers at room temperature, despite possessing a chiral sp\u00b3-hybridized nitrogen atom?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They undergo rapid S_N2 inversion with atmospheric oxygen.",
+        "isCorrect": false,
+        "explanation": "Oxygen is not involved in conformational inversion."
+      },
+      {
+        "id": "B",
+        "text": "They undergo rapid Pyramidal Inversion (Umbrella Inversion) at room temperature via a planar sp\u00b2 transition state (E_a \u2248 25 kJ/mol), causing complete racemization.",
+        "isCorrect": true,
+        "explanation": "The nitrogen lone pair in tertiary amines undergoes rapid Pyramidal (Umbrella) Inversion at room temperature (10\u00b9\u00b9 times/sec) through a low-energy planar sp\u00b2 transition state (E_a \u2248 25 kJ/mol). This rapid oscillation continuously interconverts the two enantiomeric pyramid forms, causing spontaneous complete racemization."
+      },
+      {
+        "id": "C",
+        "text": "Tertiary amines are planar molecules with a 120\u00b0 bond angle.",
+        "isCorrect": false,
+        "explanation": "Tertiary amines are pyramidal (sp\u00b3), not planar."
+      },
+      {
+        "id": "D",
+        "text": "Nitrogen atoms undergo radioactive decay.",
+        "isCorrect": false,
+        "explanation": "Nitrogen-14 is stable."
+      }
+    ],
+    "solutionExplanation": "The nitrogen lone pair in tertiary amines undergoes rapid Pyramidal (Umbrella) Inversion at room temperature (10\u00b9\u00b9 times/sec) through a low-energy planar sp\u00b2 transition state (E_a \u2248 25 kJ/mol). This rapid oscillation continuously interconverts the two enantiomeric pyramid forms, causing spontaneous complete racemization.",
+    "keyFormulae": [
+      "\\text{Umbrella Inversion: } \\Delta E^\\circ \\approx 25\\text{ kJ/mol} \\quad (10^{11} \\text{ s}^{-1} \\implies \\text{Spontaneous Racemization})"
+    ],
+    "hints": [
+      "Low activation barrier (25 kJ/mol) allows rapid umbrella inversion through a planar sp\u00b2 transition state."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-ami-010",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "Hofmann Bromamide Stoichiometry",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "How many total moles of NaOH are consumed per mole of primary amide during the Hofmann Bromamide Degradation reaction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 mole",
+        "isCorrect": false,
+        "explanation": "Insufficient for deprotonation, neutralization, and hydrolysis."
+      },
+      {
+        "id": "B",
+        "text": "2 moles",
+        "isCorrect": false,
+        "explanation": "Consumed only in initial bromination and deprotonation."
+      },
+      {
+        "id": "C",
+        "text": "4 moles",
+        "isCorrect": true,
+        "explanation": "The balanced equation for Hofmann Bromamide degradation is: R-CONH\u2082 + Br\u2082 + 4 NaOH \u2500\u2500\u25ba R-NH\u2082 + Na\u2082CO\u2083 + 2 NaBr + 2 H\u2082O. Exactly 4 moles of NaOH are consumed per mole of amide."
+      },
+      {
+        "id": "D",
+        "text": "6 moles",
+        "isCorrect": false,
+        "explanation": "More than stoichiometric requirement."
+      }
+    ],
+    "solutionExplanation": "The balanced equation for Hofmann Bromamide degradation is:\nR-CONH\u2082 + Br\u2082 + 4 NaOH \u2500\u2500\u25ba R-NH\u2082 + Na\u2082CO\u2083 + 2 NaBr + 2 H\u2082O.\nExactly 4 moles of NaOH are consumed per mole of amide.",
+    "keyFormulae": [
+      "R\\text{-CONH}_2 + \\text{Br}_2 + 4\\text{NaOH} \\longrightarrow R\\text{-NH}_2 + \\text{Na}_2\\text{CO}_3 + 2\\text{NaBr} + 2\\text{H}_2\\text{O}"
+    ],
+    "hints": [
+      "4 moles of base are required to generate 1 mole of Na\u2082CO\u2083 and 2 moles of NaBr."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-ami-011",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "Gabriel Phthalimide Incompatible Amines",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following primary amines CANNOT be synthesized using the Gabriel Phthalimide Synthesis? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aniline (C\u2086H\u2085NH\u2082)",
+        "isCorrect": true,
+        "explanation": "Aromatic amine, aryl halides fail S_N2 with phthalimide anion."
+      },
+      {
+        "id": "B",
+        "text": "p-Toluidine (CH\u2083-C\u2086H\u2084-NH\u2082)",
+        "isCorrect": true,
+        "explanation": "Aromatic amine, 4-bromotoluene fails S_N2."
+      },
+      {
+        "id": "C",
+        "text": "Ethylamine (C\u2082H\u2085NH\u2082)",
+        "isCorrect": false,
+        "explanation": "Aliphatic 1\u00b0 amine, synthesized in high purity."
+      },
+      {
+        "id": "D",
+        "text": "Methylamine (CH\u2083NH\u2082)",
+        "isCorrect": false,
+        "explanation": "Aliphatic 1\u00b0 amine, synthesized in high purity."
+      }
+    ],
+    "solutionExplanation": "\u2022 A and B are correct: Aromatic 1\u00b0 amines (Aniline, p-toluidine) CANNOT be prepared by Gabriel synthesis because aryl halides (Ar-X) do not undergo S_N2 nucleophilic substitution with the potassium phthalimide anion.\n\u2022 C and D are incorrect: Ethylamine and Methylamine are aliphatic 1\u00b0 amines and are prepared in high purity by Gabriel synthesis.",
+    "keyFormulae": [
+      "\\text{Gabriel Limitation: Aryl Halides (Ar-X) do NOT undergo } S_N2 \\text{ substitution}"
+    ],
+    "hints": [
+      "Aromatic amines cannot be synthesized by Gabriel synthesis because aryl halides fail S_N2."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-ami-012",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "Aniline Basicity & Ortho-Effect Facts",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding the basicity of Anilines and substituted Anilines: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aniline (pK_b = 9.38) is a much weaker base than Ammonia (pK_b = 4.75) due to +M resonance delocalization of the nitrogen lone pair into the aromatic ring.",
+        "isCorrect": true,
+        "explanation": "Resonance delocalization into 5 canonicals decreases lone pair availability."
+      },
+      {
+        "id": "B",
+        "text": "Electron-donating groups (+M / +I: -OCH\u2083, -CH\u2083) at the para-position INCREASE the basic strength of aniline.",
+        "isCorrect": true,
+        "explanation": "EDG increases electron density on nitrogen."
+      },
+      {
+        "id": "C",
+        "text": "Almost all ortho-substituted anilines are WEAKER bases than Aniline due to the Ortho-Effect.",
+        "isCorrect": true,
+        "explanation": "Steric hindrance to protonation and loss of coplanarity weaken basicity."
+      },
+      {
+        "id": "D",
+        "text": "Anilinium ion (Ph-NH\u2083\u207a) is more resonance-stabilized than neutral Aniline.",
+        "isCorrect": false,
+        "explanation": "Neutral Aniline has 5 canonicals; Anilinium ion has only 2 canonicals."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Lone pair delocalization weakens aniline basicity; +M/+I groups increase basicity; o-substituted anilines show the Ortho-Effect (weaker base).\n\u2022 D is incorrect: Neutral Aniline is stabilized by 5 canonical structures, whereas the Anilinium ion is stabilized by only 2 canonical structures (delocalization is blocked because nitrogen has no free lone pair).",
+    "keyFormulae": [
+      "\\text{p}K_b(\\text{Aniline}) = 9.38 \\quad \\text{vs} \\quad \\text{p}K_b(\\text{NH}_3) = 4.75"
+    ],
+    "hints": [
+      "Delocalization across 5 canonicals stabilizes neutral aniline more than the anilinium ion."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-ami-013",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "Carbon-Conserving Amine Syntheses",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following chemical reactions convert a primary Amide (R-CONH\u2082) or Nitrile (R-CN) into a Primary Amine (1\u00b0) WITHOUT changing the total number of carbon atoms? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reduction of R-CONH\u2082 using LiAlH\u2084 in dry ether",
+        "isCorrect": true,
+        "explanation": "RCONH\u2082 \u2500\u2500\u25ba RCH\u2082NH\u2082 (same carbon count)."
+      },
+      {
+        "id": "B",
+        "text": "Reduction of R-CN using LiAlH\u2084 or Na / EtOH (Mendius Reduction)",
+        "isCorrect": true,
+        "explanation": "RCN \u2500\u2500\u25ba RCH\u2082NH\u2082 (same carbon count)."
+      },
+      {
+        "id": "C",
+        "text": "Hofmann Bromamide Degradation of R-CONH\u2082 using Br\u2082 / NaOH",
+        "isCorrect": false,
+        "explanation": "Hofmann degradation LOSES 1 carbon atom."
+      },
+      {
+        "id": "D",
+        "text": "Hydrolysis of R-CN with dilute HCl",
+        "isCorrect": false,
+        "explanation": "Yields a Carboxylic Acid (RCOOH), not an amine."
+      }
+    ],
+    "solutionExplanation": "\u2022 A and B are correct: Reduction of amides (RCONH\u2082 \u2500\u2500\u25ba RCH\u2082NH\u2082) and nitriles (RCN \u2500\u2500\u25ba RCH\u2082NH\u2082) retains the exact original carbon count.\n\u2022 C is incorrect: Hofmann bromamide degradation LOSES 1 carbon atom (RCONH\u2082 \u2500\u2500\u25ba RNH\u2082).\n\u2022 D is incorrect: Hydrolysis of nitriles yields a Carboxylic Acid (RCOOH), NOT an amine.",
+    "keyFormulae": [
+      "R\\text{-CN} \\xrightarrow{\\text{Na/EtOH}} R\\text{-CH}_2\\text{NH}_2 \\quad (\\text{Mendius: Same Carbon Count})"
+    ],
+    "hints": [
+      "LiAlH\u2084 reduction preserves the carbon count; Hofmann degradation eliminates one carbon."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-ami-014",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "Sandmeyer vs Gattermann Reactions",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding the Sandmeyer and Gattermann reactions of Arenediazonium Salts: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sandmeyer reaction utilizes Cuprous salts (Cu\u2082Cl\u2082 / HCl or Cu\u2082Br\u2082 / HBr) to replace -N\u2082\u207a with halogens.",
+        "isCorrect": true,
+        "explanation": "Cu(I) salts catalyze displacement."
+      },
+      {
+        "id": "B",
+        "text": "Gattermann reaction utilizes fine Copper powder in the presence of HX (Cu / HCl or Cu / HBr).",
+        "isCorrect": true,
+        "explanation": "Uses metallic copper powder."
+      },
+      {
+        "id": "C",
+        "text": "Sandmeyer reactions generally yield higher percentage product recoveries than Gattermann reactions.",
+        "isCorrect": true,
+        "explanation": "Cuprous salts give superior yields."
+      },
+      {
+        "id": "D",
+        "text": "Both reactions proceed via an S_N2 backside inversion mechanism on the benzene ring.",
+        "isCorrect": false,
+        "explanation": "Both reactions proceed via Aryl Free Radical intermediates (Ar\u2022), not S_N2."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Sandmeyer uses Cu\u2082X\u2082 (higher yield); Gattermann uses Cu powder/HX.\n\u2022 D is incorrect: Both reactions proceed via Aryl Free Radical intermediates (Ar\u2022), NOT S_N2 backside inversion.",
+    "keyFormulae": [
+      "\\text{Sandmeyer: } \\text{Cu}_2\\text{X}_2/\\text{HX} \\quad \\text{vs} \\quad \\text{Gattermann: } \\text{Cu Powder/HX}"
+    ],
+    "hints": [
+      "Both reactions proceed through aryl free radicals, with Sandmeyer giving higher yields."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-ami-015",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "1\u00b0 vs 2\u00b0 Amine Discrimination Tests",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following tests can be used to distinguish Primary (1\u00b0) Aliphatic Amines from Secondary (2\u00b0) Aliphatic Amines? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Carbylamine Test (CHCl\u2083 + alc. KOH, \u0394)",
+        "isCorrect": true,
+        "explanation": "1\u00b0 amines give foul R-NC; 2\u00b0 amines do not react."
+      },
+      {
+        "id": "B",
+        "text": "Reaction with Nitrous Acid (HNO\u2082 at 0\u20135\u00b0C) releasing N\u2082 gas",
+        "isCorrect": true,
+        "explanation": "1\u00b0 amines liberate N\u2082 gas; 2\u00b0 amines form yellow oily nitrosamines."
+      },
+      {
+        "id": "C",
+        "text": "Solubility of Benzenesulfonamide derivative in aqueous NaOH (Hinsberg Test)",
+        "isCorrect": true,
+        "explanation": "1\u00b0 derivative is soluble in NaOH; 2\u00b0 derivative is insoluble."
+      },
+      {
+        "id": "D",
+        "text": "Biuret Test",
+        "isCorrect": false,
+        "explanation": "Biuret test is for peptide bonds in proteins, not simple amines."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: 1\u00b0 amines give foul-smelling isocyanides in carbylamine test, release N\u2082 gas with HNO\u2082, and form NaOH-soluble Hinsberg derivatives. 2\u00b0 amines fail carbylamine, form yellow nitrosamines with HNO\u2082, and form NaOH-insoluble Hinsberg derivatives.\n\u2022 D is incorrect: Biuret test is used to detect peptide bonds in proteins, NOT simple amines.",
+    "keyFormulae": [
+      "1^\\circ \\text{ Amine: Carbylamine (+), } \\text{HNO}_2 \\to \\text{N}_2 \\uparrow, \\text{ Hinsberg (NaOH Soluble)}"
+    ],
+    "hints": [
+      "Biuret is for protein peptide linkages; Carbylamine, HNO\u2082, and Hinsberg distinguish 1\u00b0 from 2\u00b0 amines."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-ami-016",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "Azo Dye Coupling Conditions",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding the Azo Coupling reactions of Benzenediazonium Chloride (Ph-N\u2082\u207aCl\u207b): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coupling with Phenol is performed in weakly basic medium (pH 9\u201310) to form p-Hydroxyazobenzene (Orange Dye).",
+        "isCorrect": true,
+        "explanation": "Basic pH generates reactive phenoxide."
+      },
+      {
+        "id": "B",
+        "text": "Coupling with Aniline is performed in weakly acidic medium (pH 4\u20135) to form p-Aminoazobenzene (Yellow Dye).",
+        "isCorrect": true,
+        "explanation": "Acidic pH optimizes free aniline nucleophile vs diazonium stability."
+      },
+      {
+        "id": "C",
+        "text": "The diazonium cation (Ph-N\u2082\u207a) acts as a weak electrophile attacking the para-position of activated aromatic rings.",
+        "isCorrect": true,
+        "explanation": "Weak electrophile in S_EAr."
+      },
+      {
+        "id": "D",
+        "text": "Azo coupling destroys the aromaticity of both benzene rings permanently.",
+        "isCorrect": false,
+        "explanation": "Azo coupling PRESERVES the aromaticity of both rings, forming an extended conjugated system."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Phenol couples at pH 9\u201310 (orange dye); Aniline couples at pH 4\u20135 (yellow dye); Ph-N\u2082\u207a acts as an electrophile in S_EAr.\n\u2022 D is incorrect: Azo coupling PRESERVES the aromaticity of both benzene rings, generating extended conjugated \u03c0-systems that absorb visible light.",
+    "keyFormulae": [
+      "\\text{Phenol Coupling: pH } 9\\text{--}10 \\text{ (Orange)}, \\quad \\text{Aniline Coupling: pH } 4\\text{--}5 \\text{ (Yellow)}"
+    ],
+    "hints": [
+      "Coupling with phenol requires basic pH 9\u201310; coupling with aniline requires acidic pH 4\u20135."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-ami-017",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "Nitrobenzene Reduction Reagents",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following reagents can reduce Nitrobenzene (C\u2086H\u2085NO\u2082) into Aniline (C\u2086H\u2085NH\u2082)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fe + Concentrated HCl",
+        "isCorrect": true,
+        "explanation": "Preferred industrial reduction (FeCl\u2082 hydrolyzes to regenerate HCl)."
+      },
+      {
+        "id": "B",
+        "text": "Sn + Concentrated HCl",
+        "isCorrect": true,
+        "explanation": "Classic laboratory reducing agent."
+      },
+      {
+        "id": "C",
+        "text": "H\u2082 gas in the presence of Raney Nickel or Palladium catalyst",
+        "isCorrect": true,
+        "explanation": "Catalytic hydrogenation."
+      },
+      {
+        "id": "D",
+        "text": "NaOH + Glucose",
+        "isCorrect": false,
+        "explanation": "Reduces to azoxybenzene/azobenzene, not aniline."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Fe/HCl, Sn/HCl, and catalytic hydrogenation (H\u2082/Ni or Pd) efficiently reduce nitro groups to primary aromatic amines. (Fe/HCl is preferred industrially because FeCl\u2082 formed hydrolyzes to release HCl, minimizing required acid).",
+    "keyFormulae": [
+      "\\text{C}_6\\text{H}_5\\text{NO}_2 \\xrightarrow{\\text{Fe/HCl OR Sn/HCl OR H}_2/\\text{Pd}} \\text{C}_6\\text{H}_5\\text{NH}_2"
+    ],
+    "hints": [
+      "Fe/HCl, Sn/HCl, and catalytic H\u2082/Pd convert -NO\u2082 directly to -NH\u2082."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-ami-018",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "Quaternary Ammonium Salt Properties",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding Quaternary Ammonium Salts (N\u207a R\u2081 R\u2082 R\u2083 R\u2084 X\u207b): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The central nitrogen atom is sp\u00b3-hybridized and lacks a non-bonding lone pair.",
+        "isCorrect": true,
+        "explanation": "All 4 orbitals are engaged in \u03c3-bonds."
+      },
+      {
+        "id": "B",
+        "text": "Unsymmetrically substituted quaternary ammonium cations (N\u207a R\u2081 R\u2082 R\u2083 R\u2084) are CHIRAL and can be resolved into optically active enantiomers.",
+        "isCorrect": true,
+        "explanation": "Rigid tetrahedral geometry with 4 different groups confers chirality."
+      },
+      {
+        "id": "C",
+        "text": "They do not undergo pyramidal inversion at room temperature.",
+        "isCorrect": true,
+        "explanation": "Lacking a lone pair, umbrella inversion cannot occur."
+      },
+      {
+        "id": "D",
+        "text": "They react rapidly with Hinsberg reagent to form soluble nitrosamines.",
+        "isCorrect": false,
+        "explanation": "Quaternary ammonium salts do not react with Hinsberg reagent (Ph-SO\u2082Cl)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: 4\u00b0 ammonium salts have no lone pair, cannot undergo pyramidal inversion, and are chiral when 4 different R-groups are attached.\n\u2022 D is incorrect: Quaternary ammonium salts do NOT react with Hinsberg reagent (Ph-SO\u2082Cl).",
+    "keyFormulae": [
+      "\\text{Quaternary Salt: } [N^+R_1R_2R_3R_4]X^- \\implies \\text{Rigid Tetrahedral, Optically Stable}"
+    ],
+    "hints": [
+      "Absence of a lone pair locks the sp\u00b3 tetrahedral geometry and prevents pyramidal inversion."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-ami-019",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "Meta-Directing Deactivating Groups",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following functional groups exert a META-DIRECTING DEACTIVATING influence during electrophilic aromatic substitution of anilines or substituted benzenes? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anilinium ion (-NH\u2083\u207a)",
+        "isCorrect": true,
+        "explanation": "Positive charge on nitrogen exerts strong -I effect, directing meta."
+      },
+      {
+        "id": "B",
+        "text": "Nitro group (-NO\u2082)",
+        "isCorrect": true,
+        "explanation": "Strong -M and -I meta-director."
+      },
+      {
+        "id": "C",
+        "text": "Cyano group (-CN)",
+        "isCorrect": true,
+        "explanation": "Strong -M and -I meta-director."
+      },
+      {
+        "id": "D",
+        "text": "Phenolic Hydroxyl group (-OH)",
+        "isCorrect": false,
+        "explanation": "-OH is a powerful +M Ortho/Para-directing Activator."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: -NH\u2083\u207a, -NO\u2082, and -CN are powerful -I/-M groups that deactivate the ring and direct electrophiles to the meta position.\n\u2022 D is incorrect: -OH is a powerful +M Ortho/Para-directing Activator.",
+    "keyFormulae": [
+      "\\text{Meta-Directors: } -\\text{NH}_3^+, \\ -\\text{NO}_2, \\ -\\text{CN}"
+    ],
+    "hints": [
+      "-NH\u2083\u207a, -NO\u2082, and -CN withdraw electron density and direct meta."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-ami-020",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Amines",
+    "subtopic": "Sulfanilic Acid Zwitterion Properties",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding the physical and chemical properties of Sulfanilic Acid: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is prepared by heating Aniline with concentrated H\u2082SO\u2084 at 453\u2013473 K.",
+        "isCorrect": true,
+        "explanation": "Established synthesis of sulfanilic acid."
+      },
+      {
+        "id": "B",
+        "text": "It exists as a dipolar internal Zwitterion (\u207aH\u2083N-C\u2086H\u2084-SO\u2083\u207b).",
+        "isCorrect": true,
+        "explanation": "Proton transfers from sulfonic acid to amino group."
+      },
+      {
+        "id": "C",
+        "text": "The Zwitterionic form contains an acidic -SO\u2083\u207b group and a basic -NH\u2083\u207a group.",
+        "isCorrect": false,
+        "explanation": "-NH\u2083\u207a is the acidic proton donor; -SO\u2083\u207b is the basic conjugate base."
+      },
+      {
+        "id": "D",
+        "text": "It is insoluble in organic solvents but soluble in aqueous strong bases (NaOH).",
+        "isCorrect": true,
+        "explanation": "Reacts with NaOH to form soluble sodium sulfanilate salt."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, D are correct: Sulfanilic acid is prepared at 453\u2013473 K, forms a Zwitterion, is insoluble in organic solvents, and dissolves in NaOH (forming sodium sulfanilate salt).\n\u2022 C is incorrect: In the Zwitterion \u207aH\u2083N-C\u2086H\u2084-SO\u2083\u207b, the -NH\u2083\u207a group is ACIDIC (proton donor) and the -SO\u2083\u207b group is BASIC (proton acceptor).",
+    "keyFormulae": [
+      "\\text{Sulfanilic Acid Zwitterion: } ^+\\text{H}_3\\text{N-C}_6\\text{H}_4\\text{-SO}_3^-"
+    ],
+    "hints": [
+      "In the zwitterion, -NH\u2083\u207a is the acid and -SO\u2083\u207b is the conjugate base."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

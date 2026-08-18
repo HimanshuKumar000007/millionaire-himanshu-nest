@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-17-07",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Excretory Products and their Elimination",
+  "chapterNumber": 17,
+  "chapterSlug": "excretory-products-and-their-elimination",
+  "lessonNumber": 7,
+  "title": "Neuro-Hormonal Regulation: The RAAS Cascade",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Medium",
+  "prerequisites": ["Juxtaglomerular apparatus", "Endocrine cascades"],
+  "learningObjectives": [
+    "Identify the trigger stimuli and cellular sources of Renin in the JGA",
+    "Trace the sequential enzymatic conversions of Angiotensinogen to Angiotensin II",
+    "Describe the downstream actions of Angiotensin II and Aldosterone on blood pressure and GFR"
+  ],
+  "content": "The **Renin-Angiotensin-Aldosterone System (RAAS)** is the master endocrine compensatory mechanism responding to hypovolemia, hypotension, or decreased renal perfusion.\n\n```\n                              RAAS HORMONAL CASCADE\n                              \n   Drop in Blood Pressure / GFR ──► Juxtaglomerular (JG) Cells release RENIN\n                                                 │\n   Liver secretes Angiotensinogen ───────────────┴──► Angiotensin I\n                                                         │\n   Lungs secrete ACE (Angiotensin Converting Enzyme) ────┘\n                                 │\n                                 ▼\n                          ANGIOTENSIN II (Active Octapeptide)\n                                 │\n         ┌───────────────────────┴───────────────────────┐\n         ▼                                               ▼\n   Arteriolar Vasoconstriction               Adrenal Cortex secretes ALDOSTERONE\n   (Raises Systemic BP & GFR)                            │\n                                             Reabsorbs Na⁺ & H₂O in DCT/CD\n                                                         │\n                                             Raises Blood Volume & BP\n```\n\n### 6.1 Stepwise RAAS Cascade Steps\n\n1. **Trigger Stimuli**: A fall in glomerular filtration pressure, systemic arterial BP, or reduced $\\text{NaCl}$ delivery sensed by **Macula Densa** cells stimulates **Juxtaglomerular (JG) Cells** of the afferent arteriole to synthesize and exocytose the protease hormone **Renin**.\n2. **Angiotensinogen Cleavage**: Circulating Renin enzymatically cleaves plasma **Angiotensinogen** (an $\\alpha_2$-globulin produced by the liver) into the inactive decapeptide **Angiotensin I**.\n3. **ACE Cleavage**: As Angiotensin I passes through pulmonary capillary endothelium, membrane-bound **Angiotensin Converting Enzyme (ACE)** removes two C-terminal amino acids, yielding the potent octapeptide **Angiotensin II**.\n4. **Dual Effector Mechanisms of Angiotensin II**:\n   - **Vasoconstriction**: Constricts systemic arterioles and efferent renal arterioles, raising systemic total peripheral resistance and glomerular capillary hydrostatic pressure (restoring GFR).\n   - **Adrenal Stimulation**: Stimulates the *zona glomerulosa* of the **Adrenal Cortex** to secrete **Aldosterone**.\n5. **Aldosterone Effector Actions**: Binds mineralocorticoid receptors in DCT and Collecting Duct principal cells, increasing expression of apical epithelial $\\text{Na}^+$ channels (ENaC) and basolateral $\\text{Na}^+/\\text{K}^+$ ATPases, promoting **active $\\text{Na}^+$ and secondary osmotic water retention**, expanding plasma volume.",
+  "conceptBreakdown": [
+    {
+      "heading": "Juxtaglomerular Apparatus (JGA) Microanatomy",
+      "explanation": "The JGA is a specialized regulatory triangle formed where the DCT makes contact with the vascular pole of its originating nephron. It consists of: (1) Macula Densa cells in DCT wall (osmolarity/NaCl sensors), (2) JG cells in afferent arteriole wall (baroreceptors & renin producers), and (3) Extraglomerular mesangial (Lacis) cells."
+    },
+    {
+      "heading": "Pharmacological Relevance: ACE Inhibitors & ARBs",
+      "explanation": "Drugs ending in '-pril' (e.g. Enalapril, Lisinopril) inhibit ACE, while '-sartan' drugs (e.g. Losartan) block Angiotensin II AT1 receptors, making them first-line therapies for hypertension and diabetic nephropathy."
+    }
+  ]
+}

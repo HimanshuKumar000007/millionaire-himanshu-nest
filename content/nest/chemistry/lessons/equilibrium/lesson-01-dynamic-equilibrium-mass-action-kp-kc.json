@@ -1,0 +1,62 @@
+{
+  "id": "chem-xi-u6-c6-l01",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VI \u2014 Equilibrium",
+  "unitNumber": 6,
+  "chapter": "Equilibrium",
+  "chapterNumber": 6,
+  "chapterSlug": "equilibrium",
+  "slug": "lesson-01-dynamic-equilibrium-mass-action-kp-kc",
+  "title": "Dynamic Equilibrium, Law of Mass Action & Equilibrium Constants (K_c, K_p, K_x)",
+  "topic": "Chemical Equilibrium & K_p - K_c",
+  "topics": [
+    "Dynamic Equilibrium Kinetics (r_f = r_b)",
+    "The Law of Mass Action (Guldberg & Waage, 1864)",
+    "Mathematical Inter-Relationships Between K_p, K_c, and K_x",
+    "Units & \u0394n_g Dependence (\u0394n_g = 0, > 0, < 0)",
+    "Heterogeneous Equilibrium Rules (Activity of pure solids/liquids = 1.0)"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "chemical-equilibrium",
+  "quickSummary": "Dynamic equilibrium is established when r_f = r_b. Mass action law gives K_c and K_p. Inter-relationships: K_p = K_c(RT)^\u0394n_g and K_p = K_x(P_total)^\u0394n_g. Pure solids and liquids have unit activity and are omitted.",
+  "summary": "Master dynamic equilibrium kinetics, mass action expressions, K_p-K_c-K_x relations, and heterogeneous equilibria.",
+  "conceptBreakdown": [
+    {
+      "heading": "1.1 Dynamic Equilibrium & Mass Action",
+      "title": "1.1 Dynamic Equilibrium & Mass Action",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Dynamic Equilibrium",
+        "takeaway": "Dynamic equilibrium: r_f = r_b. Macroscopic concentrations remain constant. Pure solids/liquids are excluded."
+      },
+      "codeSnippet": "DYNAMIC EQUILIBRIUM KINETICS\n                     \n   Rate \u25b2                                     Concentration \u25b2\n        \u2502 \\  Forward Rate ($r_f$)                           \u2502 \\  [Reactants]\n        \u2502  \\_______                                         \u2502  \\_______\n        \u2502   \u2500\u2500\u2500\u2500\u2500\u2500\u2500 Rate Equilibrium ($r_f = r_b$)          \u2502   \u2500\u2500\u2500\u2500\u2500\u2500\u2500 [Equilibrium]\n        \u2502  /                                                \u2502  /\n        \u2502 /  Backward Rate ($r_b$)                          \u2502 /  [Products]\n      0 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba Time                  0 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba Time\n            Equilibrium Established                             Equilibrium Established",
+      "content": "A chemical system achieves Dynamic Equilibrium in a closed container when the rate of the forward reaction ($r_f$) equals the rate of the reverse reaction ($r_b$), causing macroscopic concentrations of reactants and products to remain constant over time.\n\n\u2022 **The Law of Mass Action (Guldberg & Waage, 1864)**: At a given temperature, the rate of a chemical reaction is directly proportional to the product of the active masses (molar concentrations or partial pressures) of the reacting species raised to powers equal to their respective stoichiometric coefficients.\n\nFor a general reversible gaseous reaction:\n$$a\\text{A}(g) + b\\text{B}(g) \\rightleftharpoons c\\text{C}(g) + d\\text{D}(g)$$\n$$\\mathbf{K_c = \\frac{[\\text{C}]^c [\\text{D}]^d}{[\\text{A}]^a [\\text{B}]^b}} \\quad \\text{and} \\quad \\mathbf{K_p = \\frac{P_C^c P_D^d}{P_A^a P_B^b}}$$"
+    },
+    {
+      "heading": "1.2 Mathematical Inter-Relationships Between K_p, K_c, and K_x",
+      "title": "1.2 Mathematical Inter-Relationships Between K_p, K_c, and K_x",
+      "type": "paragraph",
+      "codeSnippet": "UNITS & \u0394n_g DEPENDENCE\n                       \n   If \u0394n_g = 0 \u27f9 K_p = K_c = K_x (Dimensionless, e.g., H\u2082 + I\u2082 \u21cc 2HI)\n   If \u0394n_g > 0 \u27f9 K_p > K_c (Units: bar^\u0394n_g or M^\u0394n_g, e.g., PCl\u2085 \u21cc PCl\u2083 + Cl\u2082)\n   If \u0394n_g < 0 \u27f9 K_p < K_c (e.g., N\u2082 + 3H\u2082 \u21cc 2NH\u2083)",
+      "content": "Applying the Ideal Gas Law ($P_i = \\frac{n_i}{V} RT = [C_i] RT$):\n$$\\mathbf{K_p = K_c (RT)^{\\Delta n_g}}$$\nwhere $\\Delta n_g = (c + d) - (a + b)$ is the net change in gaseous moles.\n\n\u2022 **Relation with Mole Fraction Constant ($K_x$)**:\n$$\\mathbf{K_p = K_x (P_{\\text{total}})^{\\Delta n_g}} \\quad \\vert \\quad \\mathbf{K_c = K_x \\left( \\frac{P_{\\text{total}}}{RT} \\right)^{\\Delta n_g}}$$\n\n\u2022 **Heterogeneous Equilibrium Rule**: Pure solids and pure liquids have constant active masses ($\\text{activity} = 1.0$) and are EXCLUDED from equilibrium constant expressions (e.g., for $\\text{CaCO}_3(s) \\rightleftharpoons \\text{CaO}(s) + \\text{CO}_2(g)$, $K_c = [\\text{CO}_2]$ and $K_p = P_{\\text{CO}_2}$)."
+    }
+  ],
+  "quickRevision": [
+    "At dynamic equilibrium: r_f = r_b.",
+    "K_p = K_c (RT)^\u0394n_g.",
+    "K_p = K_x (P_total)^\u0394n_g.",
+    "When \u0394n_g = 0, K_p = K_c = K_x and the constant is dimensionless.",
+    "Pure solids and liquids have activity = 1.0 and are excluded from K expressions."
+  ],
+  "keyFormulae": [
+    "K_p = K_c (RT)^\u0394n_g",
+    "K_p = K_x (P_total)^\u0394n_g",
+    "K_c = K_x (P_total / RT)^\u0394n_g"
+  ]
+}

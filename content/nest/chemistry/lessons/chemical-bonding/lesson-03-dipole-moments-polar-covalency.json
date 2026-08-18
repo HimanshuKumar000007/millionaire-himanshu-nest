@@ -1,0 +1,62 @@
+{
+  "id": "chem-xi-u4-c4-l03",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit IV \u2014 Chemical Bonding and Molecular Structure",
+  "unitNumber": 4,
+  "chapter": "Chemical Bonding and Molecular Structure",
+  "chapterNumber": 4,
+  "chapterSlug": "chemical-bonding",
+  "slug": "lesson-03-dipole-moments-polar-covalency",
+  "title": "Polar Character in Covalent Bonds: Dipole Moments & The NH3 vs NF3 Paradox",
+  "topic": "Dipole Moments & Polar Covalency",
+  "topics": [
+    "Dipole Moment Vector Formula (\u03bc = q \u00d7 d)",
+    "Debye Conversion Units (1 D = 3.336 \u00d7 10\u207b\u00b3\u2070 C\u00b7m = 10\u207b\u00b9\u2078 esu\u00b7cm)",
+    "Vector Summation in Polyatomic Geometries",
+    "Symmetric Cancellation (CO\u2082, BF\u2083, CCl\u2084, \u03bc_net = 0)",
+    "The NH\u2083 vs NF\u2083 Dipole Paradox (1.47 D vs 0.23 D)",
+    "Percentage Ionic Character & Hannay-Smyth Equation"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "dipole-moments",
+  "quickSummary": "Dipole moment (\u03bc = q \u00d7 d) measures bond polarity. Symmetrical molecules have \u03bc_net = 0. In NH\u2083 vs NF\u2083, NH\u2083 has a higher dipole moment (1.47 D vs 0.23 D) because N-H bond dipoles reinforce the lone pair dipole vector.",
+  "summary": "Master dipole moment calculations, vector summation in polyatomic shapes, the NH\u2083 vs NF\u2083 paradox, and percentage ionic character.",
+  "conceptBreakdown": [
+    {
+      "heading": "3.1 Dipole Moment Vector Formulation",
+      "title": "3.1 Dipole Moment Vector Formulation",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Dipole Moment",
+        "takeaway": "\u03bc = q \u00d7 d (in Debye). 1 D = 3.33564 \u00d7 10\u207b\u00b3\u2070 C\u00b7m = 10\u207b\u00b9\u2078 esu\u00b7cm. % Ionic Character = (\u03bc_exp / \u03bc_ionic) \u00d7 100."
+      },
+      "codeSnippet": "DIPOLE MOMENT VECTOR (\u03bc)\n                         \n   \u03bc = q \u00d7 d\n   \n   \u251c\u2500\u2500 Units: Debye (D) \u27f9 1 D = 3.33564 \u00d7 10\u207b\u00b3\u2070 C\u00b7m = 10\u207b\u00b9\u2078 esu\u00b7cm\n   \u2514\u2500\u2500 Direction: Vector points from Electropositive (\u03b4+) to Electronegative (\u03b4-).",
+      "content": "For polyatomic molecules, the net dipole moment ($\\mu_{\\text{net}}$) is the vector sum of bond dipoles and lone-pair dipoles:\n\n$$\\mathbf{\\mu_{\\text{net}} = \\sqrt{\\mu_1^2 + \\mu_2^2 + 2\\mu_1\\mu_2 \\cos\\theta}}$$\n\n\u2022 **Symmetric Cancellation**:\n- $\\text{CO}_2$ (Linear, $180^\\circ$): $\\text{O} \\leftarrow \\text{C} \\rightarrow \\text{O} \\implies \\mathbf{\\mu_{\\text{net}} = 0}$\n- $\\text{BF}_3$ (Trigonal Planar, $120^\\circ$): Vectors cancel completely $\\implies \\mathbf{\\mu_{\\text{net}} = 0}$\n- $\\text{CCl}_4$ (Tetrahedral, $109.5^\\circ$): Vectors cancel completely $\\implies \\mathbf{\\mu_{\\text{net}} = 0}$"
+    },
+    {
+      "heading": "3.2 The NH3 vs NF3 Dipole Paradox",
+      "title": "3.2 The NH3 vs NF3 Dipole Paradox",
+      "type": "paragraph",
+      "codeSnippet": "NH\u2083 vs NF\u2083 DIPOLE MOMENT COMPARISON\n                       \n   NH\u2083 (\u03bc_net = 1.47 D)             NF\u2083 (\u03bc_net = 0.23 D)\n   Lone Pair (\u25b2)                    Lone Pair (\u25b2)\n       \u2502                                \u2502\n       N                                N\n     / \u2502 \\                            / \u2502 \\\n    H  H  H                          F  F  F\n   (\u25b2  \u25b2  \u25b2)                        (\u25bc  \u25bc  \u25bc)\n   Bond dipoles REINFORCE           Bond dipoles OPPOSE\n   lone pair moment.                lone pair moment.",
+      "content": "\u2022 In $\\text{NH}_3$, Nitrogen is more electronegative than Hydrogen; the three $\\text{N-H}$ bond dipoles point toward Nitrogen, **reinforcing** the lone pair dipole ($\\mathbf{\\mu = 1.47\\text{ D}}$).\n\u2022 In $\\text{NF}_3$, Fluorine is more electronegative than Nitrogen; the three $\\text{N-F}$ bond dipoles point away from Nitrogen, **opposing** the lone pair dipole ($\\mathbf{\\mu = 0.23\\text{ D}}$).\n\n\u2022 **Percentage Ionic Character (Hannay-Smyth Equation)**:\n$$\\mathbf{\\% \\text{ Ionic Character} = 16(\\chi_A - \\chi_B) + 3.5(\\chi_A - \\chi_B)^2 = \\left( \\frac{\\mu_{\\text{exp}}}{\\mu_{\\text{ionic}}} \\right) \\times 100}$$"
+    }
+  ],
+  "quickRevision": [
+    "\u03bc = q \u00d7 d (Debye).",
+    "Symmetrical molecules (CO\u2082, BF\u2083, CCl\u2084, XeF\u2082, SF\u2086) have \u03bc_net = 0.",
+    "NH\u2083 (1.47 D) > NF\u2083 (0.23 D) because bond dipoles reinforce the lone pair in NH\u2083 but oppose it in NF\u2083.",
+    "% Ionic Character = (\u03bc_exp / \u03bc_ionic) \u00d7 100."
+  ],
+  "keyFormulae": [
+    "\u03bc = q \u00d7 d",
+    "\u03bc_net = \u221a(\u03bc\u2081\u00b2 + \u03bc\u2082\u00b2 + 2\u03bc\u2081\u03bc\u2082 cos\u03b8)",
+    "% Ionic = 16(\u0394\u03c7) + 3.5(\u0394\u03c7)\u00b2"
+  ]
+}

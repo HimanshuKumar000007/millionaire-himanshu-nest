@@ -1,0 +1,56 @@
+{
+  "id": "bio-xi-u3-c9-l01",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Biomolecules",
+  "chapterNumber": 9,
+  "chapterSlug": "biomolecules",
+  "slug": "lesson-01-chemical-fractionation-and-metabolites",
+  "title": "Chemical Analysis of Tissues & Metabolite Profiles",
+  "topic": "Trichloroacetic Acid Fractionation, Acid Pools, The Lipid Paradox, & Secondary Metabolites",
+  "topics": [
+    "Chemical Fractionation Protocol (5% Trichloroacetic Acid $\\text{Cl}_3\\text{CCOOH}$)",
+    "Acid-Soluble Pool / Filtrate (Micromolecules, $MW < 1000\\text{ Da}$, Cytoplasm)",
+    "Acid-Insoluble Pool / Retentate (Macromolecules, $MW > 1000\\text{ Da}$)",
+    "The Lipid Paradox ($MW \\approx 800\\text{ Da}$ Vesicle Entrapment)",
+    "Primary vs Secondary Metabolite Dynamics",
+    "High-Yield Secondary Metabolite Taxa Matrix (Pigments, Alkaloids, Terpenoids, Toxins, Lectins, Drugs, Polymers)"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Tissue homogenized in 5% Trichloroacetic Acid separates into: 1) Acid-Soluble Pool (filtrate of micromolecules <1000 Da like amino acids, sugars, nucleotides), and 2) Acid-Insoluble Pool (retentate of macromolecules >1000 Da like proteins, nucleic acids, polysaccharides). Lipids (MW ~800 Da) are micromolecules that partition into the retentate because hydrophobic membranes form insoluble vesicles. Secondary metabolites are taxon-specific compounds with ecological/defense/pharmaceutical roles.",
+  "summary": "Tissue homogenized in 5% Trichloroacetic Acid separates into: 1) Acid-Soluble Pool (filtrate of micromolecules <1000 Da like amino acids, sugars, nucleotides), and 2) Acid-Insoluble Pool (retentate of macromolecules >1000 Da like proteins, nucleic acids, polysaccharides). Lipids (MW ~800 Da) are micromolecules that partition into the retentate because hydrophobic membranes form insoluble vesicles. Secondary metabolites are taxon-specific compounds with ecological/defense/pharmaceutical roles.",
+  "conceptBreakdown": [
+    {
+      "heading": "1. Chemical Fractionation Protocol & Acid Pools",
+      "title": "1. Chemical Fractionation Protocol & Acid Pools",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Acid-soluble = Micromolecules (<1000 Da, cytoplasm). Acid-insoluble = Macromolecules (>1000 Da) PLUS Lipids (trapped as insoluble membrane vesicles)."
+      },
+      "codeSnippet": "CHEMICAL FRACTIONATION PROTOCOL\n                                    │\n  Living Tissue (Liver / Leaf) ──► Grind in 5% Trichloroacetic Acid ($\\text{Cl}_3\\text{CCOOH}$)\n                                    │\n  Filter through Cheesecloth / Cheesecloth mesh ──► TWO FRACTIONS\n                                    │\n         ┌──────────────────────────┴──────────────────────────┐\n         ▼                                                     ▼\nACID-SOLUBLE POOL (Filtrate)                          ACID-INSOLUBLE POOL (Retentate)\n├── Micromolecules ($MW < 1000\\text{ Da}$)            ├── Macromolecules ($MW > 1000\\text{ Da}$)\n├── Monosaccharides, Amino Acids,                     ├── Proteins, Polysaccharides,\n│   Nucleotides, Organic Acids                        │   Nucleic Acids\n└── Represents Cytoplasmic Composition                └── **LIPIDS** ($MW \\approx 800\\text{ Da}$) [Membrane vesicles]",
+      "content": "All living organisms are composed of carbon-based chemical compounds called **Biomolecules**.\n\n### Analytical Fractions\n1. **Acid-Soluble Pool (Filtrate)**: Contains low-molecular-weight compounds ($18\\text{--}800\\text{ Da}$) representing the cytoplasmic solute composition (monosaccharides, amino acids, nucleotides, organic acids).\n2. **Acid-Insoluble Fraction (Retentate)**: Contains polymeric macromolecules ($MW > 10,000\\text{ Da}$) including proteins, polysaccharides, and nucleic acids.\n3. **The Lipid Paradox (CRITICAL NEST TRAP)**: Lipids have molecular weights $<800\\text{ Da}$ and are structurally **micromolecules**. However, during tissue grinding, cellular membranes fragment into insoluble water-impermeable lipid vesicles that cannot pass through the filter mesh, partitioning into the acid-insoluble retentate."
+    },
+    {
+      "heading": "1.1 Primary vs. Secondary Metabolites",
+      "title": "1.1 Primary vs. Secondary Metabolites",
+      "type": "paragraph",
+      "codeSnippet": "METABOLITE CLASSES\n                                         │\n         ┌───────────────────────────────┴───────────────────────────────┐\n         ▼                                                               ▼\n  PRIMARY METABOLITES                                             SECONDARY METABOLITES\n  ├── Direct role in basic physiological processes                ├── No direct primary role in organism growth/dev\n  ├── Ubiquitous across all living taxa                           ├── Taxon-specific (plants, fungi, microbes)\n  └── Examples: Amino acids, Sugars, Nucleotides,                 └── Examples: Alkaloids, Antibiotics, Pigments,\n      Lipids, Coenzymes                                               Toxins, Lectins, Gums, Rubber",
+      "content": "• **Primary Metabolites**: Ubiquitous molecules with direct, identifiable roles in normal physiological processes (amino acids, sugars, nucleotides, lipids, chlorophyll).\n• **Secondary Metabolites**: Taxon-specific ecological, defensive, or specialized chemical products in plants, fungi, and microbes."
+    },
+    {
+      "heading": "Secondary Metabolites Taxonomic Matrix",
+      "title": "Secondary Metabolites Taxonomic Matrix",
+      "type": "paragraph",
+      "content": "| Secondary Metabolite Category | Specific Representative Compounds | Biological / Economic Significance |\n| :--- | :--- | :--- |\n| **Pigments** | Carotenoids ($\\alpha/\\beta$-Carotene, Lutein), Anthocyanins | Photosynthetic accessory pigments; floral attractants |\n| **Alkaloids** | **Morphine**, **Codeine**, Quinine, Nicotine, Strychnine | Narcotic analgesics; plant defense compounds |\n| **Terpenoids** | Monoterpenes, Sesquiterpenes, **Camphor**, Citronellal | Volatile essential oils; herbivore deterrents |\n| **Toxins** | **Abrin** (from *Abrus precatorius*), **Ricin** (from *Ricinus communis*) | Ribosome-inactivating toxic proteins |\n| **Lectins** | **Concanavalin A** (from *Canavalia ensiformis*) | Carbohydrate-binding agglutinating proteins |\n| **Drugs / Pharmaceuticals** | **Vinblastine**, **Vincristine** (from *Catharanthus*), **Curcumin** (from *Curcuma*) | Anti-cancer mitotic spindle inhibitors; anti-inflammatory |\n| **Polymeric Substances** | **Rubber** (*Hevea* latex), **Gums**, **Cellulose** | Industrial polymers, structural cell walls |\n| **Essential Oils** | Lemon grass oil, Eucalyptus oil, Rose oil | Perfumery, antimicrobial agents |"
+    }
+  ]
+}

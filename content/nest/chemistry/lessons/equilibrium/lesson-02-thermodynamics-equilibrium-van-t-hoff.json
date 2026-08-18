@@ -1,0 +1,62 @@
+{
+  "id": "chem-xi-u6-c6-l02",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VI \u2014 Equilibrium",
+  "unitNumber": 6,
+  "chapter": "Equilibrium",
+  "chapterNumber": 6,
+  "chapterSlug": "equilibrium",
+  "slug": "lesson-02-thermodynamics-equilibrium-van-t-hoff",
+  "title": "Thermodynamics of Equilibrium (\u0394_r G\u00b0) & Temperature Dependence (van 't Hoff Equation)",
+  "topic": "Thermodynamics & van 't Hoff",
+  "topics": [
+    "Thermodynamic Position of Equilibrium (\u0394_r G = \u0394_r G\u00b0 + RT ln Q)",
+    "Equilibrium Coupling Formula (\u0394_r G\u00b0 = -RT ln K = -2.303 RT log\u2081\u2080 K)",
+    "Thermodynamic Position Criteria (\u0394_r G\u00b0 < 0 \u27f9 K > 1; \u0394_r G\u00b0 > 0 \u27f9 K < 1)",
+    "The van 't Hoff Isochore Equation (d(ln K)/dT = \u0394_r H\u00b0 / (RT\u00b2))",
+    "Temperature Shift Mechanics for Endothermic and Exothermic Reactions"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "chemical-equilibrium",
+  "quickSummary": "Equilibrium constant K is thermodynamically linked to free energy by \u0394_r G\u00b0 = -RT ln K. The van 't Hoff equation governs temperature dependence: heating increases K for endothermic reactions (\u0394H > 0) and decreases K for exothermic reactions (\u0394H < 0).",
+  "summary": "Master standard free energy relations, equilibrium constant magnitude criteria, and van 't Hoff temperature shifts.",
+  "conceptBreakdown": [
+    {
+      "heading": "2.1 Thermodynamics of Equilibrium (\u0394_r G\u00b0)",
+      "title": "2.1 Thermodynamics of Equilibrium (\u0394_r G\u00b0)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Free Energy & Equilibrium",
+        "takeaway": "\u0394_r G\u00b0 = -RT ln K. If \u0394_r G\u00b0 < 0 \u27f9 K > 1 (Products favored). If \u0394_r G\u00b0 > 0 \u27f9 K < 1 (Reactants favored)."
+      },
+      "codeSnippet": "THERMODYNAMIC POSITION OF EQUILIBRIUM\n                      \n   If \u0394_r G\u00b0 < 0 \u27f9 K > 1:  Products favored at equilibrium (Exergonic).\n   If \u0394_r G\u00b0 = 0 \u27f9 K = 1:  Reactants and Products present in equal proportions.\n   If \u0394_r G\u00b0 > 0 \u27f9 K < 1:  Reactants favored at equilibrium (Endergonic).",
+      "content": "The standard Gibbs free energy change ($\\Delta_r G^\\circ$) dictates the thermodynamic position of equilibrium:\n$$\\Delta_r G = \\Delta_r G^\\circ + RT \\ln Q$$\nAt equilibrium, $\\Delta_r G = 0$ and the reaction quotient $Q = K_{\\text{eq}}$:\n$$\\mathbf{\\Delta_r G^\\circ = -RT \\ln K = -2.303 RT \\log_{10} K} \\quad \\implies \\quad \\mathbf{K = e^{-\\Delta_r G^\\circ / RT}}$$"
+    },
+    {
+      "heading": "2.2 The van 't Hoff Equation (Temperature Dependence of K)",
+      "title": "2.2 The van 't Hoff Equation (Temperature Dependence of K)",
+      "type": "paragraph",
+      "codeSnippet": "TEMPERATURE SHIFT MECHANICS\n                       \n   ENDOTHERMIC REACTION (\u0394_r H\u00b0 > 0):  T\u2082 > T\u2081 \u27f9 K\u2082 > K\u2081 (K increases as T rises).\n   EXOTHERMIC REACTION  (\u0394_r H\u00b0 < 0):  T\u2082 > T\u2081 \u27f9 K\u2082 < K\u2081 (K decreases as T rises).",
+      "content": "The equilibrium constant $K$ is independent of initial concentrations, pressure, volume, or catalysts, and varies STRICTLY with Temperature ($T$):\n$$\\frac{d \\ln K}{dT} = \\frac{\\Delta_r H^\\circ}{R T^2}$$\nIntegrating from $T_1$ to $T_2$ assuming constant reaction enthalpy $\\Delta_r H^\\circ$:\n$$\\mathbf{\\ln \\left( \\frac{K_2}{K_1} \\right) = \\frac{\\Delta_r H^\\circ}{R} \\left( \\frac{1}{T_1} - \\frac{1}{T_2} \\right) = \\frac{\\Delta_r H^\\circ}{R} \\left( \\frac{T_2 - T_1}{T_1 T_2} \\right)}$$\n$$\\mathbf{\\log_{10} \\left( \\frac{K_2}{K_1} \\right) = \\frac{\\Delta_r H^\\circ}{2.303 R} \\left( \\frac{T_2 - T_1}{T_1 T_2} \\right)}$$"
+    }
+  ],
+  "quickRevision": [
+    "\u0394_r G\u00b0 = -2.303 RT log\u2081\u2080 K.",
+    "K > 1 when \u0394_r G\u00b0 < 0; K < 1 when \u0394_r G\u00b0 > 0.",
+    "van 't Hoff equation: log\u2081\u2080(K\u2082/K\u2081) = (\u0394_r H\u00b0 / 2.303R) [(T\u2082 - T\u2081) / (T\u2081 T\u2082)].",
+    "Endothermic (\u0394H > 0): K increases with temperature.",
+    "Exothermic (\u0394H < 0): K decreases with temperature."
+  ],
+  "keyFormulae": [
+    "\u0394_r G\u00b0 = -RT ln K",
+    "K = e^(-\u0394_r G\u00b0 / RT)",
+    "log\u2081\u2080(K\u2082 / K\u2081) = (\u0394_r H\u00b0 / 2.303 R) [ (T\u2082 - T\u2081) / (T\u2081 T\u2082) ]"
+  ]
+}

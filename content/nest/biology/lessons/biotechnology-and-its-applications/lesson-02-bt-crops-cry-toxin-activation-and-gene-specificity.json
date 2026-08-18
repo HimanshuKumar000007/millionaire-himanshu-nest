@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u9-c10-l02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit IX — Biotechnology",
+  "unitNumber": 9,
+  "chapter": "Biotechnology and its Applications",
+  "chapterNumber": 10,
+  "chapterSlug": "biotechnology-and-its-applications",
+  "slug": "lesson-02-bt-crops-cry-toxin-activation-and-gene-specificity",
+  "title": "Bt Crops: Cry Toxin Activation & Gene Specificity",
+  "topic": "Bacillus thuringiensis, Inactive Cry Protoxins, Alkaline Midgut Solubilization, & cry1Ac/cry2Ab/cry1Ab",
+  "order": 2,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Bt crops express crystal Cry proteins from Bacillus thuringiensis. Mechanism: Cry protoxin is an inactive crystal in the bacterium. When ingested by insect larvae, the alkaline pH (>8.5) of the insect midgut solubilizes the crystal; midgut proteases cleave it into active Cry toxin, which binds cadherin receptors on midgut cells, forming pores that cause lysis and death. Gene specificity: cry1Ac & cry2Ab control Cotton Bollworms; cry1Ab controls Corn Borer.",
+  "summary": "Bt crops express crystal Cry proteins from Bacillus thuringiensis. Mechanism: Cry protoxin is an inactive crystal in the bacterium. When ingested by insect larvae, the alkaline pH (>8.5) of the insect midgut solubilizes the crystal; midgut proteases cleave it into active Cry toxin, which binds cadherin receptors on midgut cells, forming pores that cause lysis and death. Gene specificity: cry1Ac & cry2Ab control Cotton Bollworms; cry1Ab controls Corn Borer.",
+  "conceptBreakdown": [
+    {
+      "heading": "Bt Cry Toxin Activation Cascade & Specificity",
+      "title": "Bt Cry Toxin Activation Cascade & Specificity",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Bt Cry toxins exist as harmless crystalline protoxins in Bacillus thuringiensis. Upon ingestion, insect midgut alkaline pH (>8.5) solubilizes the crystals and proteases cleave them into active toxins that form lethal midgut pores. cry1Ac & cry2Ab target cotton bollworms; cry1Ab targets corn borers."
+      },
+      "codeSnippet": "Bt CRY TOXIN MIDGUT SOLUBILIZATION CASCADE\n                   \n   Inert Insecticidal Cry Protoxin Crystals synthesized in Bacillus thuringiensis\n                                          │\n   Ingested by Target Insect Larva ───────┘\n               │\n   Reaches Insect Midgut ──► ALKALINE pH solubilizes crystalline protoxin\n                                          │\n   Midgut Proteases cleave protoxin ──────┴──► ACTIVE CRY TOXIN\n                                                    │\n   Binds Cadherin Receptors on Midgut Epithelial Cells ──► Forms Pores & Causes Lysis\n                                                    │\n   Insect Gut Swells, Lyses, and Insect Dies of Septicemia",
+      "content": "### 2.1 Why Bt Toxin Does Not Kill the Host Bacterium\n- In *Bacillus thuringiensis*, the protein is synthesized during the sporulation phase as an **inactive, insoluble crystalline inclusion body (Protoxin)**.\n- The protoxin is biologically inert and requires two mandatory biochemical triggers present strictly inside the insect digestive tract:\n  1. **Alkaline $\\text{pH}$ ($>8.5$)**: The insect midgut environment provides the high $\\text{pH}$ required to dissolve and solubilize the protein crystals.\n  2. **Midgut Endoproteases**: Specific insect digestive proteases cleave the $130\\text{ kDa}$ protoxin, releasing a toxic $60\\text{ kDa}$ core active **Cry Toxin**.\n\n### 2.2 Mechanism of Insect Cell Lysis\n1. The active Cry toxin binds specifically to **cadherin and aminopeptidase-N receptors** located on the apical microvillar membrane of **midgut epithelial cells**.\n2. Toxin molecules oligomerize into a cation-permeable lytic pore assembly.\n3. Massive influx of ions and water causes osmotic cell swelling, cell membrane perforation, midgut lysis, gut paralysis, and fatal septicemia.\n- **Human & Mammalian Safety**: In humans, the stomach has a strongly acidic environment ($\\text{pH } 1.5\\text{--}2.0$) that denatures the crystal protoxin, and human enterocytes completely lack the specific cadherin receptor targets.\n\n### 2.3 Bt Cry Gene Specificity Matrix\n\n```\n                        Bt CRY GENE TARGET SPECIFICITY\n                        \n   `cry1Ac` and `cry2Ab` Genes ──────► Controls Cotton Bollworms (Helicoverpa armigera)\n   `cry1Ab` Gene               ──────► Controls Corn Borer (Ostrinia nubilalis)\n   `cry3Aa` / `cry3Bb` Genes    ──────► Controls Potato and Corn Root Beetles (Coleoptera)\n   `cry4Aa` / `cry4Ba` Genes    ──────► Controls Mosquito & Blackfly Larvae (Diptera)\n```"
+    },
+    {
+      "heading": "Insect Order Susceptibility Spectrum",
+      "title": "Insect Order Susceptibility Spectrum",
+      "type": "paragraph",
+      "content": "Bt toxins exhibit selective toxicity across specific insect orders: Lepidopterans (tobacco budworm, armyworm, cotton bollworm), Coleopterans (beetles), and Dipterans (flies, mosquitoes)."
+    },
+    {
+      "heading": "Refugia Planting Strategy",
+      "title": "Refugia Planting Strategy",
+      "type": "paragraph",
+      "content": "Farmers plant a border of non-Bt refuge crops around Bt fields to maintain susceptible insect populations, diluting recessive resistance alleles and delaying the evolution of insect resistance to Bt crops."
+    }
+  ]
+}

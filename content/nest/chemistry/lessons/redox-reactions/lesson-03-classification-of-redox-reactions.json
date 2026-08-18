@@ -1,0 +1,60 @@
+{
+  "id": "chem-xi-u7-c7-l03",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VII \u2014 Redox Reactions",
+  "unitNumber": 7,
+  "chapter": "Redox Reactions",
+  "chapterNumber": 7,
+  "chapterSlug": "redox-reactions",
+  "slug": "lesson-03-classification-of-redox-reactions",
+  "title": "Classification of Redox Reactions & Disproportionation vs. Comproportionation",
+  "topic": "Reaction Types & Disproportionation",
+  "topics": [
+    "Combination, Decomposition, and Displacement Redox Reactions",
+    "Disproportionation Reactions (Self-Oxidation and Self-Reduction)",
+    "Halogens in Cold Dilute vs Hot Concentrated Alkaline Media",
+    "Fluorine Exception (Inability to Disproportionate)",
+    "Comproportionation (Conproportionation) as the Reverse Process"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "redox-reactions",
+  "quickSummary": "Disproportionation: one intermediate oxidation state splits into higher and lower states. Comproportionation: two different states react to give a single intermediate state. Fluorine cannot disproportionate.",
+  "summary": "Examine combination, decomposition, displacement, disproportionation, and comproportionation redox reactions.",
+  "conceptBreakdown": [
+    {
+      "heading": "3.1 Redox Reaction Types Overview",
+      "title": "3.1 Redox Reaction Types Overview",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "5 Redox Types",
+        "takeaway": "Combination, Decomposition, Displacement, Disproportionation, Comproportionation."
+      },
+      "codeSnippet": "REDOX REACTION TYPES\n                                     \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc               \u25bc               \u25bc               \u25bc               \u25bc\nCOMBINATION     DECOMPOSITION   DISPLACEMENT    DISPROPORTIONATION COMPROPORTIONATION\nA + B \u2192 C       C \u2192 A + B       X + YZ \u2192 XZ + Y Same element       Opposite of\n(Redox state    (At least one   (Metal or Non-  oxidized AND       disproportionation.\nchanges).       product free).  metal swap).    reduced.           Two states \u2192 One.",
+      "content": "Redox reactions are classified into five major groups:\n\n1. **Combination**: $A + B \\rightarrow C$ where oxidation states change (*e.g., $\\text{C}(0) + \\text{O}_2(0) \\rightarrow \\text{CO}_2(+4, -2)$*).\n2. **Decomposition**: Breakdown into two or more components with at least one in elemental state (*e.g., $2\\text{KClO}_3 \\rightarrow 2\\text{KCl} + 3\\text{O}_2$*).\n3. **Displacement**: A metal or non-metal displaces another ion (*e.g., $\\text{Zn}(s) + \\text{CuSO}_4(aq) \\rightarrow \\text{ZnSO}_4(aq) + \\text{Cu}(s)$*).\n4. **Disproportionation**: Simultaneous oxidation and reduction of the same element.\n5. **Comproportionation**: Reverse of disproportionation."
+    },
+    {
+      "heading": "3.2 Disproportionation vs. Comproportionation",
+      "title": "3.2 Disproportionation vs. Comproportionation",
+      "type": "paragraph",
+      "codeSnippet": "DISPROPORTIONATION vs COMPROPORTIONATION\n\nDisproportionation:\n\u2022 2 H\u2082O\u2082(-1) \u2192 2 H\u2082O(-2) + O\u2082(0)\n\u2022 P\u2084(0) + 3 OH\u207b + 3 H\u2082O \u2192 PH\u2083(-3) + 3 H\u2082PO\u2082\u207b(+1)\n\u2022 Cl\u2082(0) + 2 OH\u207b (cold) \u2192 Cl\u207b(-1) + ClO\u207b(+1) + H\u2082O\n\u2022 3 Cl\u2082(0) + 6 OH\u207b (hot) \u2192 5 Cl\u207b(-1) + ClO\u2083\u207b(+5) + 3 H\u2082O\n\nComproportionation:\n\u2022 Ag(0) + Ag\u00b2\u207a(aq) \u2192 2 Ag\u207a(+1)\n\u2022 IO\u2083\u207b(+5) + 5 I\u207b(-1) + 6 H\u207a \u2192 3 I\u2082(0) + 3 H\u2082O",
+      "content": "\u2022 **Disproportionation**: Occurs only when an element exists in an **intermediate oxidation state**:\n  - $\\text{P}_4(0) \\rightarrow \\text{PH}_3(-3) + \\text{H}_2\\text{PO}_2^-(+1)$\n  - $\\text{Cl}_2(0) + \\text{OH}^- \\text{ (cold)} \\rightarrow \\text{Cl}^-(-1) + \\text{ClO}^-(+1)$\n  - $\\text{Cl}_2(0) + \\text{OH}^- \\text{ (hot)} \\rightarrow \\text{Cl}^-(-1) + \\text{ClO}_3^-(+5)$\n  - *Fluorine Exception*: $\\text{F}_2$ NEVER disproportionates because it has no positive oxidation states!\n\n\u2022 **Comproportionation**: Two species containing the same element in different oxidation states react to form a single intermediate state (*e.g., $\\text{IO}_3^-(+5) + 5\\text{I}^-(-1) + 6\\text{H}^+ \\rightarrow 3\\text{I}_2(0) + 3\\text{H}_2\\text{O}$*)."
+    }
+  ],
+  "quickRevision": [
+    "Disproportionation requires an intermediate oxidation state.",
+    "Fluorine (F\u2082) CANNOT disproportionate because it cannot exhibit positive oxidation states.",
+    "Hot alkaline Cl\u2082 forms Chlorate (ClO\u2083\u207b, +5) and Chloride (Cl\u207b, -1).",
+    "Comproportionation is the exact reverse of disproportionation."
+  ],
+  "keyFormulae": [
+    "\\text{Disproportionation: } X^n \\rightarrow X^{n+a} + X^{n-b}",
+    "\\text{Comproportionation: } X^p + X^q \\rightarrow X^r \\quad (p < r < q)"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "bio-xi-u3-c8-l03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Cell — The Unit of Life",
+  "chapterNumber": 8,
+  "chapterSlug": "cell-the-unit-of-life",
+  "slug": "lesson-03-plasma-membrane-fluid-mosaic-transport",
+  "title": "Plasma Membrane Structure & Biophysical Transport Mechanics",
+  "topic": "Fluid Mosaic Model, Transbilayer Flip-Flop, Na+/K+ ATPase, & Aquaporins",
+  "topics": [
+    "The Fluid Mosaic Model (Singer & Nicolson, 1972)",
+    "Amphipathic Phosphoglycerides & Membrane Fluidity Buffers (Sterols/Hopanoids)",
+    "Peripheral vs Integral / Transmembrane Proteins",
+    "Transbilayer Lipid Dynamics: Flippase, Floppase, & Scramblase",
+    "Passive Transport (Simple vs Facilitated Diffusion, Aquaporins)",
+    "Primary Active Transport (P-type $Na^+/K^+$ ATPase Pump: $3Na^+ \\text{ out} / 2K^+ \\text{ in}$)",
+    "Secondary Active Transport & Bulk Vesicular Transport (Endo/Exocytosis)"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "The plasma membrane is a dynamic quasi-fluid lipid bilayer (Singer & Nicolson, 1972). Phosphoglycerides have hydrophilic polar heads facing water and hydrophobic tails facing inward. Integral transmembrane proteins span the bilayer; peripheral proteins bind electrostatically. Lipid transbilayer flip-flop is catalyzed by ATP-dependent Flippase (inward) and Floppase (outward), and ATP-independent Scramblase. Transport occurs via simple diffusion, facilitated channels/aquaporins, and primary active P-type Na+/K+ ATPase (pumps 3 Na+ out and 2 K+ in per ATP).",
+  "summary": "The plasma membrane is a dynamic quasi-fluid lipid bilayer (Singer & Nicolson, 1972). Phosphoglycerides have hydrophilic polar heads facing water and hydrophobic tails facing inward. Integral transmembrane proteins span the bilayer; peripheral proteins bind electrostatically. Lipid transbilayer flip-flop is catalyzed by ATP-dependent Flippase (inward) and Floppase (outward), and ATP-independent Scramblase. Transport occurs via simple diffusion, facilitated channels/aquaporins, and primary active P-type Na+/K+ ATPase (pumps 3 Na+ out and 2 K+ in per ATP).",
+  "conceptBreakdown": [
+    {
+      "heading": "3. The Fluid Mosaic Model (Singer & Nicolson, 1972)",
+      "title": "3. The Fluid Mosaic Model (Singer & Nicolson, 1972)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Lipids provide a fluid matrix; proteins float as a mosaic. Flip-flop movement is slow and enzyme-dependent (Flippase/Floppase/Scramblase)."
+      },
+      "codeSnippet": "FLUID MOSAIC MODEL OVERVIEW\n                           \n                      [ Glycoprotein / Glycolipid ] (Extracellular)\n                                   │\n              O   O   O   O   O   O   O   O   O  <-- Hydrophilic Polar Heads\n              ││  ││  ││  ││  ││  ││  ││  ││  ││ <-- Hydrophobic Non-Polar Fatty Acid Tails\n              O   O   O   O   O   O   O   O   O  <-- Hydrophilic Polar Heads\n                          │               │\n                   [ Integral ]    [ Peripheral ]\n                    Protein          Protein",
+      "content": "The biological membrane is a dynamic, quasi-fluid phospholipid bilayer studded with mosaic protein complexes.\n\n### Membrane Components\n• **Lipid Matrix**: Primarily **Phosphoglycerides** (amphipathic molecules with hydrophilic polar heads exposed to water and hydrophobic non-polar hydrocarbon tails shielded in the interior).\n• **Fluidity Buffers**: Fluidity is regulated by unsaturated fatty acids and sterols (**Cholesterol** in animals, **Ergosterol** in fungi, **Phytosterols** in plants, and **Hopanoids** in eubacteria).\n• **Protein Classes**:\n  1. **Peripheral (Extrinsic) Proteins** (30%): Loosely attached to membrane surfaces via electrostatic interactions; readily extracted by mild salt buffers.\n  2. **Integral (Intrinsic) Proteins** (70%): Embedded deeply in the hydrophobic core; transmembrane proteins cross the bilayer via $\\alpha$-helical hydrophobic spans (*e.g., Glycophorins, Aquaporins, Porins*)."
+    },
+    {
+      "heading": "3.1 Transbilayer Lipid Movement (Flip-Flop)",
+      "title": "3.1 Transbilayer Lipid Movement (Flip-Flop)",
+      "type": "paragraph",
+      "codeSnippet": "TRANSBILAYER LIPID MOVEMENT (FLIP-FLOP)\n                      \n   FLIPPASE: ATP-dependent; moves lipids from Outer ──► Inner (Cytosolic) Leaflet\n   FLOPPASE: ATP-dependent; moves lipids from Inner ──► Outer Leaflet\n   SCRAMBLASE: ATP-independent; bi-directionally scrambles lipids down concentration gradient",
+      "content": "While lateral diffusion of lipids within the same leaflet is extremely rapid, spontaneous transbilayer ('flip-flop') movement between leaflets is thermodynamically unfavorable and slow. Cells employ specific enzymes:\n• **Flippase**: P-type ATPase that utilizes ATP to move phospholipids from outer to inner (cytosolic) leaflet.\n• **Floppase**: ABC transporter that uses ATP to move lipids from inner to outer leaflet.\n• **Scramblase**: Calcium-activated, ATP-independent enzyme that scrambles lipids bidirectionally down concentration gradients."
+    },
+    {
+      "heading": "3.2 Biophysical Membrane Transport Mechanisms",
+      "title": "3.2 Biophysical Membrane Transport Mechanisms",
+      "type": "paragraph",
+      "codeSnippet": "MEMBRANE TRANSPORT MODES\n                                        │\n         ┌──────────────────────────────┴──────────────────────────────┐\n         ▼                                                             ▼\n  PASSIVE TRANSPORT (No ATP)                                    ACTIVE TRANSPORT (ATP Used)\n ├── Simple Diffusion (Non-polar solutes down gradient)         ├── Primary Active ($Na^+/K^+$ ATPase Pump)\n └── Facilitated Diffusion (Polar solutes via Channels/Carriers) └── Secondary Active (SGLT Symport / Antiport)",
+      "content": "1. **Passive Transport** (No ATP expenditure):\n   - **Simple Diffusion**: Small non-polar molecules ($\\text{O}_2, \\text{CO}_2, \\text{N}_2$, steroid hormones) diffuse directly through the lipid bilayer down their concentration gradient.\n   - **Facilitated Diffusion**: Polar or charged solutes ($\\text{Na}^+, \\text{K}^+, \\text{Cl}^-$, glucose, water via **Aquaporin** channels) cross via selective transport proteins (exhibiting saturation kinetics $V_{\\max}$).\n2. **Primary Active Transport ($Na^+/K^+$ ATPase Pump)**:\n   - A P-type ATPase pump that hydrolyzes 1 molecule of ATP to pump **$3\\text{ Na}^+$ OUT of the cell** and **$2\\text{ K}^+$ INTO the cell**, establishing the negative resting membrane potential.\n3. **Bulk Vesicular Transport**:\n   - **Endocytosis**: Phagocytosis ('cell eating' of solids) and Pinocytosis ('cell drinking' of fluids).\n   - **Exocytosis**: Fusion of secretory vesicles with the plasma membrane to discharge cargo outside."
+    }
+  ]
+}

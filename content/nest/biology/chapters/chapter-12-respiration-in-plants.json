@@ -1,0 +1,654 @@
+{
+  "id": "bio-xi-u4-c12-chapter-master",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Respiration in Plants",
+  "chapterNumber": 12,
+  "chapterSlug": "respiration-in-plants",
+  "title": "CHAPTER 12: RESPIRATION IN PLANTS (NEST & INBO MODULE)",
+  "description": "Complete master module covering Cellular Respiration, EMP Glycolysis, Fermentation, Pyruvate Dehydrogenase Complex, TCA (Krebs) Cycle, Electron Transport System, Chemiosmosis & Complex V, NADH Shuttles, ATP Balance Sheet, Amphibolic Pathways, Respiratory Quotient (RQ), High-Yield Traps, Master Glossary, and 20 Rigorous Practice Questions.",
+  "estimatedTotalTimeMinutes": 145,
+  "totalSections": 11,
+  "totalQuestions": 20,
+  "status": "published",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "id": "sec-12-01",
+      "title": "Plant Gas Exchange Mechanisms & Cellular Respiration Principles",
+      "topic": "Gas Exchange Structures & Why Plants Lack Specialized Respiratory Systems",
+      "readingTimeMinutes": 10,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Cellular respiration is a stepwise catabolic oxidation of organic substrates yielding 30–32 ATP per glucose molecule (ΔG°' = -2870 kJ/mol)."
+      },
+      "codeSnippet": "PLANT GAS EXCHANGE STRUCTURES\n                                       │\n         ┌─────────────────────────────┼─────────────────────────────┐\n         ▼                             ▼                             ▼\n     STOMATA                       LENTICELS                 PNEUMATOPHORES\n  Microscopic epidermal pores   Lens-shaped periderm openings  Negatively geotropic breathing\n  in leaves & green stems.      in woody stems & roots.       roots in halophilic mangroves.",
+      "content": "Cellular respiration is the enzyme-catalyzed, stepwise catabolic oxidation of organic respiratory substrates (carbohydrates, fats, proteins, organic acids) within living cells, liberating energy in the form of Adenosine Triphosphate ($\\text{ATP}$):\n\n$$\\Large \\mathbf{\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2 \\longrightarrow 6\\text{CO}_2 + 6\\text{H}_2\\text{O} + \\text{Energy } (30\\text{--}32\\text{ ATP} / \\Delta G^{\\circ \\prime} = -2870\\text{ kJ/mol})}$$\n\n### Absence of Specialized Respiratory Systems in Plants\nPlants lack localized respiratory organs (lungs/gills) because:\n1. **Autonomous Organ Gas Exchange**: Every plant organ (leaf, stem, root) manages its own gas exchange needs.\n2. **Low Volumetric Demand**: Gas transport demands across plant tissues are low; leaves are adapted to maximize photosynthesis ($\\text{O}_2$ evolved during light reactions meets internal respiratory demands).\n3. **Loose Parenchyma Packing**: Plant parenchyma cells are loosely packed with extensive intercellular air spaces, ensuring that almost every cell is in direct contact with air."
+    },
+    {
+      "sectionNumber": 2,
+      "id": "sec-12-02",
+      "title": "Glycolysis (The EMP Pathway): 10-Step Enzymatic Cascade",
+      "topic": "Preparatory vs Pay-off Phases, PFK-1 Commitment Step, & Detailed Reaction Matrix",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Glycolysis operates strictly in the cytosol. Consumes 2 ATP in the Preparatory Phase; Generates 4 ATP (Substrate-Level) + 2 NADH in the Pay-Off Phase. Net: 2 ATP + 2 NADH + 2 Pyruvate."
+      },
+      "codeSnippet": "GLYCOLYSIS 10-STEP CASCADE\n                        \n   Glucose (6C) ──[1. Hexokinase + ATP]──► Glucose-6-P ──[2. Phosphohexose Isomerase]──► Fructose-6-P\n                                                                                         │\n   Fructose-1,6-BP ◄──[3. PFK-1 + ATP (RATE-LIMITING)]───────────────────────────────────┘\n          │\n  [4. Aldolase]\n          │\n   GAP (3C) ◄──[5. Triose Phosphate Isomerase]──► DHAP (3C)\n      │ (2 Molecules of GAP enter Pay-off Phase)\n      ▼\n   [6. GAPDH + 2 NAD⁺ + 2 P_i] ──► 2 x 1,3-Bisphosphoglycerate + **2 NADH + 2 H⁺**\n      │\n   [7. Phosphoglycerate Kinase + 2 ADP] ──► 2 x 3-Phosphoglycerate + **2 ATP (SUBSTRATE-LEVEL)**\n      │\n   [8. Phosphoglycerate Mutase] ──► 2 x 2-Phosphoglycerate\n      │\n   [9. Enolase - H₂O] ──► 2 x Phosphoenolpyruvate (PEP)\n      │\n   [10. Pyruvate Kinase + 2 ADP] ──► 2 x Pyruvate (3C) + **2 ATP (SUBSTRATE-LEVEL)**",
+      "content": "Glycolysis (discovered by Embden, Meyerhof, and Parnas — EMP Pathway) is the universal, oxygen-independent, 10-step enzymatic breakdown of one molecule of 6-carbon glucose into two molecules of 3-carbon Pyruvic Acid (Pyruvate) in the cytosol.\n\n### Detailed 10-Step Glycolytic Reaction Matrix\n\n| Step | Reaction Name | Substrate $\\rightarrow$ Product | Enzyme | Energy Yield / Consumption |\n| :--- | :--- | :--- | :--- | :--- |\n| **1** | Phosphorylation I | Glucose $\\rightarrow$ Glucose-6-Phosphate (G-6-P) | **Hexokinase** ($\\text{Mg}^{2+}$ dependent) | **Consumes $1\\text{ ATP}$** |\n| **2** | Isomerization | G-6-P $\\rightarrow$ Fructose-6-Phosphate (F-6-P) | Phosphohexose Isomerase | None |\n| **3** | Phosphorylation II | F-6-P $\\rightarrow$ Fructose-1,6-Bisphosphate | **Phosphofructokinase-1 (PFK-1)** | **Consumes $1\\text{ ATP}$** *(Commitment Step)* |\n| **4** | Cleavage | F-1,6-BP $\\rightarrow$ GAP + DHAP | **Aldolase** | None |\n| **5** | Isomerization | DHAP $\\rightleftharpoons$ Glyceraldehyde-3-Phosphate (GAP) | Triose Phosphate Isomerase | None |\n| **6** | Oxidation & Phosphorylation | $2\\text{ GAP} + 2\\text{ P}_i \\rightarrow 2\\text{ (1,3-BPG)}$ | **GAPDH** | **Generates $2\\text{ NADH} + 2\\text{ H}^+$** |\n| **7** | Substrate-Level Phosphorylation I | $2\\text{ (1,3-BPG)} + 2\\text{ ADP} \\rightarrow 2\\text{ (3-PGA)}$ | **Phosphoglycerate Kinase** | **Generates $2\\text{ ATP}$** |\n| **8** | Shift | $2\\text{ (3-PGA)} \\rightarrow 2\\text{ (2-PGA)}$ | Phosphoglycerate Mutase | None |\n| **9** | Dehydration | $2\\text{ (2-PGA)} \\rightarrow 2\\text{ PEP} + 2\\text{ H}_2\\text{O}$ | **Enolase** ($\\text{Mg}^{2+}$ / Fluoride inhibited) | Releases $2\\text{ H}_2\\text{O}$ |\n| **10** | Substrate-Level Phosphorylation II | $2\\text{ PEP} + 2\\text{ ADP} \\rightarrow 2\\text{ Pyruvate}$ | **Pyruvate Kinase** ($\\text{K}^+/\\text{Mg}^{2+}$) | **Generates $2\\text{ ATP}$** |\n\n$$\\mathbf{\\text{Net EMP Equation: Glucose} + 2\\text{ NAD}^+ + 2\\text{ ADP} + 2\\text{ P}_i \\longrightarrow 2\\text{ Pyruvate} + 2\\text{ NADH} + 2\\text{ H}^+ + 2\\text{ ATP}}$$"
+    },
+    {
+      "sectionNumber": 3,
+      "id": "sec-12-03",
+      "title": "Anaerobic Fate of Pyruvate: Fermentation Pathways",
+      "topic": "Lactic Acid vs Alcoholic Fermentation & Bioenergetics",
+      "readingTimeMinutes": 10,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Fermentation regenerates cytosolic NAD⁺. Lactic acid produces 3C lactate without CO₂; Alcoholic fermentation produces 2C ethanol + CO₂. Fermentation extracts <7% total glucose energy."
+      },
+      "codeSnippet": "FERMENTATION BIOENERGETICS\n                        \n   1. Lactic Acid: Pyruvate + NADH + H⁺ ──[Lactate Dehydrogenase]──► Lactic Acid + NAD⁺\n   \n   2. Alcoholic:   Pyruvate ──[Pyruvate Decarboxylase + TPP]──► Acetaldehyde + CO₂ ↑\n                   Acetaldehyde + NADH + H⁺ ──[Alcohol Dehydrogenase + Zn²⁺]──► Ethanol + NAD⁺",
+      "content": "In the absence of molecular oxygen ($\\text{O}_2$), cells regenerate the cytosolic $\\text{NAD}^+$ required for Step 6 of glycolysis via Fermentation.\n\n- **Lactic Acid Fermentation**:\n  - Occurs in lactic acid bacteria and vigorous muscle cells.\n  - Enzyme: **Lactate Dehydrogenase** reduces pyruvate to lactic acid ($3\\text{C}$); no $\\text{CO}_2$ is evolved.\n- **Alcoholic Fermentation**:\n  - Occurs in yeast (*Saccharomyces*).\n  - Pyruvate is decarboxylated by **Pyruvate Decarboxylase** (requires $\\text{TPP}$) to acetaldehyde and $\\text{CO}_2$, then reduced by **Alcohol Dehydrogenase** (requires $\\text{Zn}^{2+}$) to ethanol ($2\\text{C}$).\n- **Energetic Waste & Toxicity**:\n  - Fermentation extracts $<7\\%$ of the total energy available in glucose.\n  - Ethanol concentrations $\\approx 13\\%$ are toxic to yeast, causing autolysis."
+    },
+    {
+      "sectionNumber": 4,
+      "id": "sec-12-04",
+      "title": "The Link Reaction: Pyruvate Dehydrogenase Complex (PDC)",
+      "topic": "Matrix Localization, Oxidative Decarboxylation, & 5 Co-enzymes",
+      "readingTimeMinutes": 10,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Link reaction occurs strictly in the Mitochondrial Matrix via PDC. Converts 2 Pyruvate (3C) ➔ 2 Acetyl-CoA (2C) + 2 CO₂ + 2 NADH + 2 H⁺. Requires 5 B-vitamin coenzymes."
+      },
+      "codeSnippet": "PYRUVATE DEHYDROGENASE COMPLEX (PDC)\n                      \n   2 Pyruvate (3C) + 2 CoA-SH + 2 NAD⁺ ──[PDC Complex]──► 2 Acetyl-CoA (2C) + 2 CO₂ ↑ + 2 NADH + 2 H⁺",
+      "content": "Under aerobic conditions, pyruvate produced in the cytosol is actively transported across the mitochondrial membranes into the **Mitochondrial Matrix** to undergo oxidative decarboxylation via the **Pyruvate Dehydrogenase Complex (PDC)**.\n\n### The 5 Essential Co-enzymes of PDC\n1. **Thiamine Pyrophosphate (TPP)**: Vitamin $B_1$\n2. **Lipoic Acid / Lipoamide**\n3. **Coenzyme A (CoA-SH)**: Vitamin $B_5$\n4. **Flavin Adenine Dinucleotide (FAD)**: Vitamin $B_2$\n5. **Nicotinamide Adenine Dinucleotide (NAD⁺)**: Vitamin $B_3$ (Terminal electron acceptor)"
+    },
+    {
+      "sectionNumber": 5,
+      "id": "sec-12-05",
+      "title": "The Tricarboxylic Acid (TCA / Krebs) Cycle",
+      "topic": "Eight-Step Matrix Cycle, Substrate-Level GTP Synthesis, & Succinate Dehydrogenase",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "TCA cycle operates in the Mitochondrial Matrix (except membrane-bound Succinate Dehydrogenase). 2 turns per glucose yield 6 NADH + 2 FADH₂ + 2 GTP/ATP + 4 CO₂."
+      },
+      "codeSnippet": "TCA CYCLE SCHEMATIC\n                             \n          Acetyl-CoA (2C) + Oxaloacetate (4C)\n                          │\n                   [Citrate Synthase]\n                          │\n                    Citrate (6C) ──► Isocitrate (6C)\n                                         │\n                                [Isocitrate Dehydrogenase]\n                                         │\n    CO₂ + **NADH** ◄─────────────────────┴──► $\\alpha$-Ketoglutarate (5C)\n                                                   │\n                                          [$\\alpha$-KGDH Complex]\n                                                   │\n    CO₂ + **NADH** ◄───────────────────────────────┴──► Succinyl-CoA (4C)\n                                                   │\n                                          [Succinyl-CoA Synthetase]\n                                                   │\n    **GTP / ATP** ◄────────────────────────────────┴──► Succinate (4C)\n                                                   │\n                                          [Succinate Dehydrogenase (Complex II)]\n                                                   │\n    **FADH₂** ◄────────────────────────────────────┴──► Fumarate (4C)\n                                                   │\n                                          [Fumarase]\n                                                   │\n                                                Malate (4C)\n                                                   │\n                                          [Malate Dehydrogenase]\n                                                   │\n    **NADH** ◄─────────────────────────────────────┴──► Oxaloacetate (4C)",
+      "content": "Discovered by Sir Hans Krebs (1937), the TCA Cycle operates in the **Mitochondrial Matrix** to oxidize Acetyl-$\\text{CoA}$ into $\\text{CO}_2$, generating reducing equivalents ($\\text{NADH}$ and $\\text{FADH}_2$) and $\\text{GTP/ATP}$.\n\n### Step-by-Step Enzymatic Inventory of the Krebs Cycle\n\n| Step | Enzyme | Substrate $\\rightarrow$ Product | High-Yield Energy / By-product |\n| :--- | :--- | :--- | :--- |\n| **1** | **Citrate Synthase** | Acetyl-$\\text{CoA}$ ($2\\text{C}$) + $\\text{OAA}$ ($4\\text{C}$) $\\rightarrow$ Citrate ($6\\text{C}$) | Consumes $1\\text{ H}_2\\text{O}$; releases $\\text{CoA-SH}$ |\n| **2** | Aconitase | Citrate $\\rightleftharpoons$ cis-Aconitate $\\rightleftharpoons$ Isocitrate ($6\\text{C}$) | Dehydration followed by rehydration |\n| **3** | **Isocitrate Dehydrogenase** | Isocitrate ($6\\text{C}$) $\\rightarrow$ $\\alpha$-Ketoglutarate ($5\\text{C}$) | **1st $\\text{CO}_2$ released**; **Generates $1\\text{ NADH}$** |\n| **4** | **$\\alpha$-Ketoglutarate Dehydrogenase** | $\\alpha$-Ketoglutarate ($5\\text{C}$) $\\rightarrow$ Succinyl-$\\text{CoA}$ ($4\\text{C}$) | **2nd $\\text{CO}_2$ released**; **Generates $1\\text{ NADH}$** |\n| **5** | **Succinyl-CoA Synthetase** | Succinyl-$\\text{CoA}$ ($4\\text{C}$) $\\rightarrow$ Succinate ($4\\text{C}$) | **Substrate-Level Phosphorylation ($1\\text{ GTP/ATP}$)** |\n| **6** | **Succinate Dehydrogenase** | Succinate ($4\\text{C}$) $\\rightarrow$ Fumarate ($4\\text{C}$) | **Generates $1\\text{ FADH}_2$** *(Bound to Inner Membrane as Complex II)* |\n| **7** | Fumarase | Fumarate ($4\\text{C}$) $\\rightarrow$ L-Malate ($4\\text{C}$) | Hydration reaction (adds $\\text{H}_2\\text{O}$) |\n| **8** | **Malate Dehydrogenase** | L-Malate ($4\\text{C}$) $\\rightarrow$ Oxaloacetate ($4\\text{C}$) | **Generates $1\\text{ NADH}$** |\n\n$$\\mathbf{\\text{TCA Yield per Glucose (2 Turns): 2 Acetyl-CoA} \\longrightarrow 6\\text{ NADH} + 2\\text{ FADH}_2 + 2\\text{ GTP (ATP)} + 4\\text{ CO}_2\\uparrow}$$"
+    },
+    {
+      "sectionNumber": 6,
+      "id": "sec-12-06",
+      "title": "Electron Transport System (ETS) & Respiratory Complexes",
+      "topic": "Complexes I to IV, CoQ Pool, Cytochrome c Carrier, & Inhibitors Matrix",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "ETS couples electron flow from NADH/FADH₂ to O₂ reduction, pumping 10 H⁺ per NADH (I, III, IV) and 6 H⁺ per FADH₂ (III, IV) into the intermembrane space."
+      },
+      "codeSnippet": "MITOCHONDRIAL INNER MEMBRANE ETS\n                    \n  INTERMEMBRANE SPACE (High H⁺)\n  ══════════════════════════════════════════════════════════════════════ (Inner Membrane)\n   [Complex I] ──► [CoQ Pool] ──► [Complex III] ──► [Cyt c] ──► [Complex IV] ──► O₂\n   (NADH Oxid.)                   (Q-Cycle)                     (Cyt c Oxidase)  (0.5 O₂ ──► H₂O)\n        ▲                              ▲\n   [Complex II] ───────────────────────┘\n   (Succinate Dehyd.)\n  ══════════════════════════════════════════════════════════════════════\n  MATRIX (Low H⁺)",
+      "content": "The ETS is a series of inner mitochondrial membrane-bound protein complexes (I to IV) and mobile electron carriers ($\\text{CoQ}$ and Cytochrome c) that transfer electrons from $\\text{NADH}$ and $\\text{FADH}_2$ to molecular oxygen ($\\text{O}_2$), coupling electron flow to proton translocation into the intermembrane space.\n\n### The Four Respiratory Complexes & Inhibitors Matrix\n\n| Complex | Official Name | Prosthetic Groups / Components | $H^+$ Translocated per $2\\text{e}^-$ | Specific Inhibitors |\n| :--- | :--- | :--- | :--- | :--- |\n| **Complex I** | **$\\text{NADH}$-CoQ Oxidoreductase** | $\\text{FMN}$, $8\\text{--}9$ Iron-Sulfur ($\\text{Fe-S}$) centers | **$4\\text{ H}^+$** | **Rotenone**, Amytal, Piericidin A |\n| **Complex II** | **Succinate-CoQ Oxidoreductase** | $\\text{FAD}$, $3\\text{ Fe-S}$ centers, Cytochrome $b_{560}$ | **$0\\text{ H}^+$** (Does not span membrane) | **Malonate**, Oxaloacetate, TTFA |\n| **Complex III** | **CoQH$_2$-Cytochrome $c$ Oxidoreductase** | Cytochrome $b_L$, Cytochrome $b_H$, Rieske $\\text{Fe-S}$, Cytochrome $c_1$ | **$4\\text{ H}^+$** (via Q-Cycle) | **Antimycin A**, Myxothiazol |\n| **Complex IV** | **Cytochrome $c$ Oxidase** | Cytochrome $a$, Cytochrome $a_3$, $\\text{Cu}_A$ and $\\text{Cu}_B$ copper centers | **$2\\text{ H}^+$** | **Cyanide ($\\text{CN}^-$)**, Carbon Monoxide ($\\text{CO}$), Sodium Azide ($\\text{NaN}_3$) |\n\n### Mobile Electron Carriers\n1. **Ubiquinone (Coenzyme Q / CoQ)**: Small, lipid-soluble benzoquinone within the hydrophobic core of the inner membrane. Accepts electrons from both Complex I and Complex II and translocates protons to Complex III.\n2. **Cytochrome c**: Small, water-soluble peripheral hemeprotein attached to the outer surface of the inner mitochondrial membrane. Transfers electrons single-file from Complex III to Complex IV."
+    },
+    {
+      "sectionNumber": 7,
+      "id": "sec-12-07",
+      "title": "Complex V (F₀F₁ ATP Synthase), Chemiosmosis, & Uncouplers",
+      "topic": "Proton-Motive Force, F₀ Rotor vs F₁ Headpiece, Oligomycin, & Uncoupler Energetics",
+      "readingTimeMinutes": 12,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Complex V uses proton-motive force (4 H⁺ per ATP). F₀ is the transmembrane channel (inhibited by Oligomycin); F₁ is the catalytic matrix headpiece."
+      },
+      "content": "Complex V (ATP Synthase) harnesses the proton gradient established by the electron transport chain:\n- **$\\text{F}_0$ Subunit**: Transmembrane proton channel ($a_1 b_2 c_{10-14}$). $\\text{H}^+$ flux through $\\text{F}_0$ causes the $c$-ring rotor to spin. Specifically inhibited by **Oligomycin**.\n- **$\\text{F}_1$ Subunit**: Catalytic headpiece ($\\alpha_3 \\beta_3$) projecting into the matrix that synthesizes ATP.\n- **Proton-to-ATP Ratio**: Translocation of **$4\\text{ H}^+$ ions** ($3\\text{ H}^+$ for $\\text{F}_0$ rotation $+ 1\\text{ H}^+$ for phosphate symport) drives the synthesis of **$1\\text{ ATP}$**.\n- **Uncouplers**: Chemical agents (e.g., **2,4-DNP**, **FCCP**) or physiological proteins (**Thermogenin / UCP-1**) that dissipate the inner membrane proton gradient by carrying $\\text{H}^+$ across the lipid bilayer. They uncouple electron transport from ATP synthesis, releasing energy purely as **heat**."
+    },
+    {
+      "sectionNumber": 8,
+      "id": "sec-12-08",
+      "title": "Shuttle Systems & Theoretical Respiratory Balance Sheet",
+      "topic": "Malate-Aspartate vs Glycerol-3-Phosphate Shuttles & Modern P/O Stoichiometry",
+      "readingTimeMinutes": 12,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Malate-Aspartate shuttle yields 2.5 ATP/NADH (32 ATP net per glucose). Glycerol-3-Phosphate shuttle yields 1.5 ATP/NADH (30 ATP net per glucose)."
+      },
+      "codeSnippet": "CYTOSOLIC NADH SHUTTLE SYSTEMS\n                                       │\n         ┌─────────────────────────────┴─────────────────────────────┐\n         ▼                                                           ▼\n  MALATE-ASPARTATE SHUTTLE                                   GLYCEROL-3-PHOSPHATE SHUTTLE\n  ├── Dominant in Heart, Liver, Kidneys                      ├── Dominant in Skeletal Muscle, Brain\n  ├── Transfers $e^-$ to Matrix $\\text{NAD}^+$               ├── Transfers $e^-$ to Membrane $\\text{FAD}$\n  ├── Enters at **Complex I**                                └── Enters at **Complex II / CoQ**\n  └── Yields **2.5 ATP per cytosolic NADH**                  └── Yields **1.5 ATP per cytosolic NADH**",
+      "content": "The inner mitochondrial membrane is strictly impermeable to cytosolic $\\text{NADH}$ produced during glycolysis. Cytosolic $\\text{NADH}$ must transfer its reducing equivalents to the matrix via specialized shuttle systems:\n- **Malate-Aspartate Shuttle**: Dominant in heart, liver, and kidneys. Enters at Complex I, yielding **$2.5\\text{ ATP}$** per cytosolic $\\text{NADH}$ ($32\\text{ ATP}$ total).\n- **Glycerol-3-Phosphate Shuttle**: Dominant in skeletal muscle and brain. Enters at Complex II / CoQ, yielding **$1.5\\text{ ATP}$** per cytosolic $\\text{NADH}$ ($30\\text{ ATP}$ total).\n\n### Theoretical Net ATP Balance Sheet per Glucose Molecule\n\n| Stage | Reaction Step | Primary Product Yield | ATP Yield (Malate-Aspartate) | ATP Yield (Glycerol-P) |\n| :--- | :--- | :--- | :--- | :--- |\n| **Glycolysis** | Steps 7 & 10 (Substrate-Level) | $4\\text{ ATP}$ ($-\\ 2\\text{ ATP}$ in Prep) | $2\\text{ ATP}$ | $2\\text{ ATP}$ |\n| | Step 6 (GAPDH Oxidation) | $2\\text{ Cytosolic NADH}$ | $2 \\times 2.5 = \\mathbf{5\\text{ ATP}}$ | $2 \\times 1.5 = \\mathbf{3\\text{ ATP}}$ |\n| **Link Reaction** | PDC Oxidative Decarboxylation | $2\\text{ Matrix NADH}$ | $2 \\times 2.5 = \\mathbf{5\\text{ ATP}}$ | $2 \\times 2.5 = \\mathbf{5\\text{ ATP}}$ |\n| **TCA Cycle** | Step 5 (Substrate-Level) | $2\\text{ GTP (ATP)}$ | $2\\text{ ATP}$ | $2\\text{ ATP}$ |\n| | Steps 3, 4, 8 (Dehydrogenases) | $6\\text{ Matrix NADH}$ | $6 \\times 2.5 = \\mathbf{15\\text{ ATP}}$ | $6 \\times 2.5 = \\mathbf{15\\text{ ATP}}$ |\n| | Step 6 (Succinate Dehyd.) | $2\\text{ Matrix FADH}_2$ | $2 \\times 1.5 = \\mathbf{3\\text{ ATP}}$ | $2 \\times 1.5 = \\mathbf{3\\text{ ATP}}$ |\n| **TOTAL NET YIELD** | Complete Aerobic Oxidation | | **$32\\text{ ATP}$** | **$30\\text{ ATP}$** |"
+    },
+    {
+      "sectionNumber": 9,
+      "id": "sec-12-09",
+      "title": "Respiration as an Amphibolic Pathway & Anaplerotic Reactions",
+      "topic": "Catabolic vs Anabolic Crossroads & Pyruvate Carboxylase Replenishment",
+      "readingTimeMinutes": 10,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Respiration is amphibolic (catabolic + anabolic). Intermediates feed biosyntheses: α-KG ➔ Glutamate, Succinyl-CoA ➔ Chlorophyll/Heme, OAA ➔ Aspartate."
+      },
+      "codeSnippet": "AMPHIBOLIC INTERCONNECTIVITY\n                      \n           PROTEINS               CARBOHYDRATES             FATS / LIPIDS\n              │                         │                         │\n         Amino Acids                 Glucose                   Glycerol + Fatty Acids\n              │                         │                         │\n     [Transamination]               Glycolysis               [$\\beta$-Oxidation]\n              │                         │                         │\n              ▼                         ▼                         ▼\n        Pyruvate ──────────────► Pyruvate ──────────────► Acetyl-CoA\n              │                         │                         │\n              └─────────────────────────┼─────────────────────────┘\n                                        ▼\n                                    TCA CYCLE\n                                        │\n           ┌────────────────────────────┼────────────────────────────┐\n           ▼                            ▼                            ▼\n   $\\alpha$-Ketoglutarate           Succinyl-CoA                Oxaloacetate\n   (Precursor for Glutamate)        (Precursor for Heme)        (Precursor for Aspartate)",
+      "content": "Respiration is an **Amphibolic Pathway**—it involves both **Catabolism** (breakdown of respiratory substrates) and **Anabolism** (synthesis of metabolic precursors).\n\n- **TCA Intermediates as Precursors**:\n  - **$\\alpha$-Ketoglutarate**: Precursor for Glutamate and other amino acids.\n  - **Succinyl-CoA**: Precursor for Chlorophyll and Heme synthesis.\n  - **Oxaloacetate**: Precursor for Aspartate and pyrimidines.\n- **Anaplerotic Reactions (\"Filling-Up\" Reactions)**:\n  - Enzymatic reactions that replenish TCA cycle intermediates removed for biosynthetic anabolic pathways.\n  - *Example*: **Pyruvate Carboxylase** converts $\\text{Pyruvate} + \\text{CO}_2 + \\text{ATP} \\rightarrow \\text{Oxaloacetate} + \\text{ADP} + \\text{P}_i$."
+    },
+    {
+      "sectionNumber": 10,
+      "id": "sec-12-10",
+      "title": "Respiratory Quotient (RQ) Dynamics & Substrate Energetics",
+      "topic": "RQ Formulas, Substrate Calculations, & Physiological Diagnostic Contexts",
+      "readingTimeMinutes": 10,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "RQ = Vol CO₂ evolved / Vol O₂ consumed. Carbohydrates = 1.0; Fats = 0.7; Proteins ≈ 0.9; Organic acids > 1.0; Nocturnal CAM = 0.0; Anaerobic = ∞."
+      },
+      "content": "The **Respiratory Quotient (RQ)** is the volumetric ratio of $\\text{CO}_2$ evolved to $\\text{O}_2$ consumed during cellular respiration over a given time:\n\n$$\\mathbf{\\text{RQ} = \\frac{\\text{Volume of } \\text{CO}_2 \\text{ Evolved}}{\\text{Volume of } \\text{O}_2 \\text{ Consumed}}}$$\n\n### Summary of RQ Values Across Respiratory Substrates\n\n| Respiratory Substrate | Stoichiometric Equation | $RQ$ Value | Physiological Context |\n| :--- | :--- | :--- | :--- |\n| **Carbohydrates** | $\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2 \\rightarrow 6\\text{CO}_2 + 6\\text{H}_2\\text{O}$ | **$1.0$** | Aerobic respiration of pure glucose/starch |\n| **Fats / Lipids (Tripalmitin)** | $2\\text{C}_{51}\\text{H}_{98}\\text{O}_6 + 145\\text{O}_2 \\rightarrow 102\\text{CO}_2 + 98\\text{H}_2\\text{O}$ | **$0.7$** ($102/145$) | Germinating oily seeds (*Castor, Mustard*) |\n| **Proteins** | Complex polypeptide oxidation | **$\\approx 0.9$** | Starvation / Protein catabolism |\n| **Organic Acids (Malic Acid)** | $\\text{C}_4\\text{H}_6\\text{O}_5 + 3\\text{O}_2 \\rightarrow 4\\text{CO}_2 + 3\\text{H}_2\\text{O}$ | **$1.33$** ($4/3$) | Respiration of organic acids |\n| **Organic Acids (Oxalic Acid)** | $2\\text{C}_2\\text{H}_2\\text{O}_4 + \\text{O}_2 \\rightarrow 4\\text{CO}_2 + 2\\text{H}_2\\text{O}$ | **$4.0$** ($4/1$) | Oxidation of highly oxygenated substrates |\n| **Succulents / CAM (Night)** | $2\\text{C}_6\\text{H}_{12}\\text{O}_6 + 3\\text{O}_2 \\rightarrow 3\\text{C}_4\\text{H}_6\\text{O}_5 + 3\\text{H}_2\\text{O}$ | **$0.0$** ($0/3$) | Nocturnal acidification without $\\text{CO}_2$ release |\n| **Anaerobic Respiration** | $\\text{C}_6\\text{H}_{12}\\text{O}_6 \\rightarrow 2\\text{C}_2\\text{H}_5\\text{OH} + 2\\text{CO}_2$ | **$\\infty$ (Infinity)** ($2/0$) | Absence of $\\text{O}_2$ consumption |"
+    },
+    {
+      "sectionNumber": 11,
+      "id": "sec-12-11",
+      "title": "High-Yield NEST Misconceptions & Master Glossary",
+      "topic": "10 High-Yield Exam Traps, 30+ Definitive Terms, & Self-Assessment Module",
+      "readingTimeMinutes": 18,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Review these 10 critical exam traps to avoid common negative marking pitfalls in NEST & INBO."
+      },
+      "content": "### High-Yield NEST Misconceptions & Exam Traps\n\n| Misconception / Trap | Biological Reality | Exam Tip / Context |\n| :--- | :--- | :--- |\n| *\"Glycolysis occurs in the mitochondrial matrix alongside the Krebs cycle.\"* | Glycolysis occurs strictly in the **Cytosol**. Pyruvate must be transported into the matrix. | Glycolysis is oxygen-independent and universal. |\n| *\"Succinate Dehydrogenase is a soluble enzyme in the mitochondrial matrix.\"* | Succinate Dehydrogenase is **bound to the INNER mitochondrial membrane** as **Complex II**. | It is the only TCA cycle enzyme attached to the membrane. |\n| *\"Cyanide inhibits Complex I of the respiratory electron transport chain.\"* | Cyanide ($\\text{CN}^-$) specifically binds and inhibits **Complex IV (Cytochrome $c$ Oxidase)**. | Rotenone inhibits Complex I; Antimycin A inhibits Complex III. |\n| *\"One molecule of glucose yields exactly 38 ATP molecules under all physiological conditions.\"* | Modern bioenergetic stoichiometry yields **$30\\text{ to }32\\text{ ATP}$** depending on the cytosolic $\\text{NADH}$ shuttle used. | Malate-Aspartate $= 32\\text{ ATP}$; Glycerol-P $= 30\\text{ ATP}$. |\n| *\"The Respiratory Quotient ($RQ$) of germinating castor seeds is $1.0$.\"* | Castor seeds are rich in fats/oils; their $RQ$ is **$\\approx 0.7$**. | $RQ = 1.0$ applies only to carbohydrate respiration. |\n| *\"Fermentation generates 2 ATP via oxidative phosphorylation.\"* | Fermentation generates ATP **strictly via Substrate-Level Phosphorylation** during glycolysis. | No ETS or oxidative phosphorylation occurs in fermentation. |\n| *\"Uncouplers like 2,4-DNP inhibit electron transport from Complex I to Complex IV.\"* | Uncouplers **do NOT inhibit electron flow**; they dissipate the proton gradient, so ETS accelerates while ATP synthesis drops to zero. | Energy is released entirely as heat. |\n| *\"Oxygen participates directly in the enzymatic steps of the Krebs cycle.\"* | $\\text{O}_2$ **does NOT participate in any TCA reaction**; it acts as the terminal electron acceptor at Complex IV of the ETS. | TCA cycle halts anaerobically due to $\\text{NAD}^+$ depletion. |\n| *\"Fluoride inhibits Hexokinase during early glycolysis.\"* | Fluoride inhibits **Enolase (Step 9)** by chelating required $\\text{Mg}^{2+}$ ions, stopping PEP formation. | Fluoride is used in blood collection tubes to prevent glycolysis. |\n| *\"CAM plants have an $RQ$ of infinity ($\\infty$) during the night.\"* | CAM plants have an **$RQ = 0.0$ at night** because they absorb $\\text{O}_2$ without releasing any $\\text{CO}_2$. | $RQ = \\infty$ occurs during pure anaerobic fermentation. |\n\n### Master Glossary for Advanced Plant Respiration\n\n- **Alcoholic Fermentation**: The anaerobic conversion of pyruvate to ethanol and $\\text{CO}_2$ catalyzed by Pyruvate Decarboxylase and Alcohol Dehydrogenase.\n- **Amphibolic Pathway**: A metabolic pathway that functions in both catabolic (breakdown) and anabolic (synthesis) processes.\n- **Anaplerotic Reaction**: An enzymatic reaction that replenishes metabolic intermediates of a pathway (e.g., Pyruvate Carboxylase replenishing OAA).\n- **Antimycin A**: An antibiotic inhibitor that blocks electron transfer at Complex III (CoQH$_2$-Cytochrome $c$ Oxidoreductase).\n- **ATP Synthase (F₀F₁)**: A multi-subunit inner mitochondrial membrane complex that synthesizes ATP driven by proton flux through $\\text{F}_0$.\n- **Cyanide ($\\text{CN}^-$)**: A potent respiratory poison that binds the heme iron of Cytochrome $a_3$ in Complex IV, halting electron flow to $\\text{O}_2$.\n- **Cytochrome c**: A small, water-soluble, hemeprotein electron carrier attached to the outer surface of the inner mitochondrial membrane.\n- **Dinitrophenol (2,4-DNP)**: A lipophilic chemical uncoupler that translocates protons across the inner membrane, collapsing the proton gradient.\n- **Enolase**: The glycolytic dehydration enzyme converting 2-phosphoglycerate to phosphoenolpyruvate, inhibited by fluoride.\n- **Flavin Adenine Dinucleotide (FAD)**: A redox coenzyme derived from Riboflavin (Vitamin $B_2$) that accepts $2\\text{e}^-$ and $2\\text{H}^+$ to form $\\text{FADH}_2$.\n- **Glycerol-3-Phosphate Shuttle**: A cytosolic $\\text{NADH}$ shuttle operating in muscle and brain that transfers electrons to membrane $\\text{FAD}$, yielding $1.5\\text{ ATP}$ per $\\text{NADH}$.\n- **Glycolysis (EMP Pathway)**: The universal 10-step cytosolic pathway converting 1 glucose into 2 pyruvate, yielding $2\\text{ ATP}$ and $2\\text{ NADH}$.\n- **Hexokinase**: The first enzyme of glycolysis that phosphorylates glucose to glucose-6-phosphate using $1\\text{ ATP}$.\n- **Krebs Cycle (TCA Cycle)**: An 8-step mitochondrial matrix cycle that oxidizes acetyl-$\\text{CoA}$ into $2\\text{ CO}_2$, yielding $3\\text{ NADH}$, $1\\text{ FADH}_2$, and $1\\text{ GTP/ATP}$.\n- **Lactic Acid Fermentation**: The anaerobic reduction of pyruvate to lactate by Lactate Dehydrogenase, regenerating $\\text{NAD}^+$.\n- **Lenticel**: A lens-shaped pore in the periderm of woody stems and roots facilitating internal gas exchange.\n- **Link Reaction**: The oxidative decarboxylation of pyruvate to acetyl-$\\text{CoA}$ by Pyruvate Dehydrogenase Complex in the matrix.\n- **Malate-Aspartate Shuttle**: A cytosolic $\\text{NADH}$ shuttle operating in liver and heart that transfers electrons to matrix $\\text{NAD}^+$, yielding $2.5\\text{ ATP}$ per $\\text{NADH}$.\n- **Nicotinamide Adenine Dinucleotide ($\\text{NAD}^+$)**: A primary electron-accepting coenzyme derived from Niacin (Vitamin $B_3$) involved in catabolic dehydrogenations.\n- **Oligomycin**: An antibiotic that inhibits $\\text{F}_0\\text{F}_1$ ATP Synthase by blocking the $\\text{F}_0$ proton channel.\n- **Oxidative Phosphorylation**: The synthesis of ATP coupled to electron transport through mitochondrial Complexes I–IV.\n- **Phosphofructokinase-1 (PFK-1)**: The key rate-limiting, allosterically regulated glycolytic enzyme converting fructose-6-phosphate to fructose-1,6-bisphosphate.\n- **P/O Ratio**: The number of ATP molecules synthesized per oxygen atom ($\\frac{1}{2}\\text{O}_2$) reduced during oxidative phosphorylation.\n- **Pyruvate Dehydrogenase Complex (PDC)**: A 3-enzyme, 5-coenzyme mitochondrial matrix complex catalyzing the link reaction.\n- **Q-Cycle**: The cyclic pathway of electron and proton transfer through Complex III that translocates $4\\text{ H}^+$ per pair of electrons.\n- **Respiratory Quotient (RQ)**: The ratio of $\\text{CO}_2$ volume evolved to $\\text{O}_2$ volume consumed during respiration ($\\frac{\\text{CO}_2}{\\text{O}_2}$).\n- **Rotenone**: A plant-derived piscicide/pesticide that specifically inhibits Complex I ($\\text{NADH}$-CoQ Oxidoreductase).\n- **Substrate-Level Phosphorylation**: The direct transfer of a high-energy phosphate group from a phosphorylated metabolic intermediate to ADP/GDP.\n- **Succinate Dehydrogenase (Complex II)**: The membrane-bound TCA cycle enzyme that converts succinate to fumarate, reducing $\\text{FAD} \\rightarrow \\text{FADH}_2$.\n- **Thermogenin (UCP-1)**: An uncoupling protein in brown adipose tissue that dissipates the proton gradient to generate heat.\n- **Ubiquinone (Coenzyme Q)**: A mobile, lipid-soluble electron/proton carrier within the inner mitochondrial membrane."
+    }
+  ],
+  "chapterCommonMistakes": [
+    "Glycolysis occurs in the mitochondrial matrix alongside the Krebs cycle (Reality: Cytosol strictly).",
+    "Succinate Dehydrogenase is a soluble matrix enzyme (Reality: Bound to inner membrane as Complex II).",
+    "Cyanide inhibits Complex I of the ETS (Reality: Specifically inhibits Complex IV Cytochrome c Oxidase).",
+    "Glucose always yields 38 ATP (Reality: Modern stoichiometry yields 30–32 ATP depending on shuttle).",
+    "The RQ of germinating castor seeds is 1.0 (Reality: Castor seeds are rich in fats, RQ ≈ 0.7).",
+    "Fermentation generates 2 ATP via oxidative phosphorylation (Reality: Substrate-level phosphorylation in glycolysis only).",
+    "Uncouplers like 2,4-DNP stop electron flow (Reality: Dissipate proton gradient; ETS accelerates while ATP synthesis = 0).",
+    "Oxygen participates directly in Krebs cycle enzymatic steps (Reality: Acts only as terminal ETS electron acceptor).",
+    "Fluoride inhibits Hexokinase (Reality: Specifically inhibits Enolase at Step 9 via Mg²⁺ chelation).",
+    "CAM plants have RQ of infinity at night (Reality: RQ = 0.0 at night due to zero CO₂ release)."
+  ],
+  "questions": [
+    {
+      "id": "q-bio-c12-001",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "Chemical Uncouplers & Oxidative Phosphorylation",
+      "difficulty": "Hard",
+      "questionText": "An isolated mitochondrial suspension is supplied with pyruvate, inorganic phosphate, ADP, and oxygen. The addition of an unknown chemical compound X causes the rate of oxygen consumption to increase significantly while the synthesis of ATP completely drops to zero. What is the identity and mechanism of compound X?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Rotenone; inhibits electron transfer at Complex I", "isCorrect": false },
+        { "id": "b", "text": "Cyanide; blocks Cytochrome c Oxidase at Complex IV", "isCorrect": false },
+        { "id": "c", "text": "2,4-Dinitrophenol (2,4-DNP); acts as a protonophore that dissipates the inner membrane proton gradient", "isCorrect": true },
+        { "id": "d", "text": "Oligomycin; inhibits the F1 catalytic headpiece of ATP Synthase", "isCorrect": false }
+      ],
+      "correctAnswer": "c",
+      "solutionExplanation": "2,4-DNP is a lipophilic uncoupler. It carries protons across the inner mitochondrial membrane, collapsing the proton motive force (Δp). Because electron transport is freed from the thermodynamic back-pressure of the proton gradient, ETS accelerates (increasing O2 consumption), while ATP synthesis drops to zero because protons bypass the F0F1 ATP Synthase channel.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c12-002",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "Glycolytic Substrate-Level Phosphorylation",
+      "difficulty": "Medium",
+      "questionText": "During the glycolytic pay-off phase, 1,3-Bisphosphoglycerate is converted to 3-Phosphoglycerate by Phosphoglycerate Kinase, generating ATP. What type of reaction is this, and how many ATP molecules are produced per glucose molecule at this specific step?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Oxidative Phosphorylation; 2 ATP", "isCorrect": false },
+        { "id": "b", "text": "Substrate-Level Phosphorylation; 2 ATP", "isCorrect": true },
+        { "id": "c", "text": "Photophosphorylation; 4 ATP", "isCorrect": false },
+        { "id": "d", "text": "Anaplerotic Phosphorylation; 1 ATP", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Transferring a high-energy phosphate group directly from a metabolic intermediate (1,3-BPG) to ADP is Substrate-Level Phosphorylation. Since 1 glucose yields 2 molecules of 1,3-BPG, this step produces 2 ATP molecules per glucose.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c12-003",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "Mixed Respiratory Quotient (RQ) Calculations",
+      "difficulty": "Hard",
+      "questionText": "If a plant tissue is respiring a mixture containing equal moles of pure Tripalmitin (RQ = 0.7) and pure Glucose (RQ = 1.0), what will be the measured overall Respiratory Quotient (RQ) of the tissue if both substrates are oxidized at equal rates?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "0.70", "isCorrect": false },
+        { "id": "b", "text": "0.85", "isCorrect": true },
+        { "id": "c", "text": "1.00", "isCorrect": false },
+        { "id": "d", "text": "1.70", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "When mixed substrates are respired simultaneously, the measured RQ reflects the weighted average of the individual substrate values. For equal molar oxidation rates of tripalmitin and glucose: RQ_avg = (0.7 + 1.0) / 2 = 0.85.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c12-004",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "Glycolytic Inhibitors & Enolase",
+      "difficulty": "Medium",
+      "questionText": "Fluoride ions (F-) are added to a cell-free muscle extract metabolizing glucose. Glycolysis halts immediately, and a specific 3-carbon intermediate accumulates in large quantities. Which enzyme is inhibited by fluoride, and which metabolite accumulates?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Hexokinase; Glucose-6-Phosphate", "isCorrect": false },
+        { "id": "b", "text": "Phosphofructokinase-1; Fructose-1,6-Bisphosphate", "isCorrect": false },
+        { "id": "c", "text": "Enolase; 2-Phosphoglycerate", "isCorrect": true },
+        { "id": "d", "text": "Pyruvate Kinase; Phosphoenolpyruvate", "isCorrect": false }
+      ],
+      "correctAnswer": "c",
+      "solutionExplanation": "Fluoride inhibits Enolase (Step 9 of glycolysis) by forming an inactive complex with Mg2+ and phosphate at the active site. Blockade of Enolase prevents the conversion of 2-Phosphoglycerate (2-PGA) to Phosphoenolpyruvate (PEP), causing an immediate accumulation of 2-PGA.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c12-005",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "Pyruvate Dehydrogenase Complex (PDC) Cofactors",
+      "difficulty": "Medium",
+      "questionText": "The Pyruvate Dehydrogenase Complex (PDC) catalyzes the link reaction inside the mitochondrial matrix. Which of the following co-enzymes acts as the terminal electron acceptor within the PDC complex to form reduced NADH?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Thiamine Pyrophosphate (TPP)", "isCorrect": false },
+        { "id": "b", "text": "Lipoic acid", "isCorrect": false },
+        { "id": "c", "text": "FAD", "isCorrect": false },
+        { "id": "d", "text": "NAD+", "isCorrect": true }
+      ],
+      "correctAnswer": "d",
+      "solutionExplanation": "PDC operates via 3 enzymes (E1, E2, E3) and 5 coenzymes (TPP, Lipoamide, CoA-SH, FAD, NAD+). Electrons transferred from pyruvate sequentially pass: Pyruvate -> TPP -> Lipoamide -> FAD -> NAD+, yielding NADH + H+ as the final reduced product.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c12-006",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "TCA Cycle Membrane Attachment & Complex II",
+      "difficulty": "Medium",
+      "questionText": "Which specific enzyme of the Krebs cycle is physically bound to the inner mitochondrial membrane rather than existing as a soluble matrix enzyme?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Citrate Synthase", "isCorrect": false },
+        { "id": "b", "text": "Isocitrate Dehydrogenase", "isCorrect": false },
+        { "id": "c", "text": "Succinate Dehydrogenase", "isCorrect": true },
+        { "id": "d", "text": "Malate Dehydrogenase", "isCorrect": false }
+      ],
+      "correctAnswer": "c",
+      "solutionExplanation": "Succinate Dehydrogenase (Step 6 of the TCA cycle) is an integral membrane protein complex anchored to the inner mitochondrial membrane, where it functions simultaneously as Complex II of the respiratory Electron Transport System.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c12-007",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "Oxidative Phosphorylation ATP Partitioning",
+      "difficulty": "Hard",
+      "questionText": "If 1 molecule of Glucose is completely oxidized via aerobic respiration in a hepatocyte utilizing the Malate-Aspartate Shuttle, how many total ATP molecules are generated strictly by Oxidative Phosphorylation (excluding substrate-level ATP)?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "26 ATP", "isCorrect": false },
+        { "id": "b", "text": "28 ATP", "isCorrect": true },
+        { "id": "c", "text": "30 ATP", "isCorrect": false },
+        { "id": "d", "text": "32 ATP", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Total net ATP yield via Malate-Aspartate shuttle = 32 ATP. Substrate-Level ATP = 2 (Glycolysis) + 2 (TCA GTP/ATP) = 4 ATP. Oxidative Phosphorylation ATP = Total (32) - Substrate Level (4) = 28 ATP. (Breakdown: 2 Cytosolic NADH x 2.5 = 5; 2 PDC NADH x 2.5 = 5; 6 TCA NADH x 2.5 = 15; 2 TCA FADH2 x 1.5 = 3 => 5 + 5 + 15 + 3 = 28 ATP).",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c12-008",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "CAM Nocturnal Acidification RQ",
+      "difficulty": "Medium",
+      "questionText": "What is the RQ value of a succulent CAM plant (Opuntia) during the night when it opens its stomata and converts glucose into malic acid without evolving CO2?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "1.0", "isCorrect": false },
+        { "id": "b", "text": "0.7", "isCorrect": false },
+        { "id": "c", "text": "0.0", "isCorrect": true },
+        { "id": "d", "text": "Infinity (∞)", "isCorrect": false }
+      ],
+      "correctAnswer": "c",
+      "solutionExplanation": "At night, succulent CAM plants absorb O2 for incomplete oxidation of carbohydrates into malic acid, but close their metabolic loops so that zero CO2 is evolved (Volume of CO2 = 0). Thus, RQ = 0 / (Volume of O2) = 0.0.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c12-009",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "Complex IV Structure & Prosthetic Groups",
+      "difficulty": "Medium",
+      "questionText": "Which respiratory complex in the inner mitochondrial membrane contains Cytochrome a and Cytochrome a3 along with binuclear Copper centers (Cu_A and Cu_B), catalyzing the reduction of molecular oxygen to water?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Complex I", "isCorrect": false },
+        { "id": "b", "text": "Complex II", "isCorrect": false },
+        { "id": "c", "text": "Complex III", "isCorrect": false },
+        { "id": "d", "text": "Complex IV", "isCorrect": true }
+      ],
+      "correctAnswer": "d",
+      "solutionExplanation": "Complex IV (Cytochrome c Oxidase) contains Cytochromes a and a3 and copper centers Cu_A and Cu_B. It receives electrons from Cytochrome c and transfers them to O2 (4 e- + 4 H+ + O2 -> 2 H2O).",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c12-010",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "Enzymology of Alcoholic Fermentation",
+      "difficulty": "Medium",
+      "questionText": "In alcoholic fermentation by yeast, what is the role of the enzyme Pyruvate Decarboxylase, and what co-factor does it strictly require?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Reduces pyruvate to lactate; requires NADH", "isCorrect": false },
+        { "id": "b", "text": "Decarboxylates pyruvate to acetaldehyde; requires Thiamine Pyrophosphate (TPP)", "isCorrect": true },
+        { "id": "c", "text": "Oxidizes acetaldehyde to ethanol; requires Zn2+", "isCorrect": false },
+        { "id": "d", "text": "Phosphorylates pyruvate to PEP; requires ATP", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Pyruvate Decarboxylase converts Pyruvate (3C) into Acetaldehyde (2C) + CO2. This decarboxylation strictly requires Thiamine Pyrophosphate (TPP) and Mg2+ as co-factors.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c12-011",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "Glycolytic Substrate-Level Reactions",
+      "difficulty": "Medium",
+      "questionText": "Which of the following glycolytic reactions involve Substrate-Level Phosphorylation? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Conversion of Glucose to Glucose-6-Phosphate by Hexokinase", "isCorrect": false },
+        { "id": "b", "text": "Conversion of 1,3-Bisphosphoglycerate to 3-Phosphoglycerate by Phosphoglycerate Kinase", "isCorrect": true },
+        { "id": "c", "text": "Conversion of Phosphoenolpyruvate to Pyruvate by Pyruvate Kinase", "isCorrect": true },
+        { "id": "d", "text": "Conversion of Fructose-6-Phosphate to Fructose-1,6-Bisphosphate by PFK-1", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "Steps 1 (Hexokinase) and 3 (PFK-1) consume ATP. Steps 7 (Phosphoglycerate Kinase) and 10 (Pyruvate Kinase) directly transfer high-energy phosphate groups to ADP, generating ATP via Substrate-Level Phosphorylation.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c12-012",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "Pyruvate Dehydrogenase Complex Function & Regulation",
+      "difficulty": "Hard",
+      "questionText": "Select the valid statements regarding the Pyruvate Dehydrogenase Complex (PDC): (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "PDC catalyzes the oxidative decarboxylation of Pyruvate to Acetyl-CoA inside the mitochondrial matrix.", "isCorrect": true },
+        { "id": "b", "text": "The reaction requires 5 co-enzymes: TPP, Lipoic acid, CoA-SH, FAD, and NAD+.", "isCorrect": true },
+        { "id": "c", "text": "PDC activity generates 1 ATP via substrate-level phosphorylation per pyruvate.", "isCorrect": false },
+        { "id": "d", "text": "PDC connects cytosolic glycolysis to the mitochondrial TCA cycle.", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "solutionExplanation": "PDC catalyzes the link reaction in the matrix, requires 5 co-enzymes, and bridges glycolysis to the TCA cycle. It generates NADH and CO2, NOT ATP directly via substrate-level phosphorylation.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c12-013",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "Proton Pumping Complexes of the ETS",
+      "difficulty": "Hard",
+      "questionText": "Which of the following mitochondrial Respiratory Complexes translocate protons (H+) from the matrix into the intermembrane space during electron transport? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Complex I (NADH-CoQ Oxidoreductase)", "isCorrect": true },
+        { "id": "b", "text": "Complex II (Succinate-CoQ Oxidoreductase)", "isCorrect": false },
+        { "id": "c", "text": "Complex III (CoQH2-Cytochrome c Oxidoreductase)", "isCorrect": true },
+        { "id": "d", "text": "Complex IV (Cytochrome c Oxidase)", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "c",
+        "d"
+      ],
+      "solutionExplanation": "Complex I pumps 4 H+, Complex III pumps 4 H+ (via Q-cycle), and Complex IV pumps 2 H+ per pair of electrons. Complex II does NOT pump protons across the membrane because it does not span the entire lipid bilayer.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c12-014",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "Respiratory Chain Inhibitors",
+      "difficulty": "Hard",
+      "questionText": "Which chemical inhibitors correctly match their target complexes in the respiratory Electron Transport System? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Rotenone -> Inhibits Complex I", "isCorrect": true },
+        { "id": "b", "text": "Malonate -> Competitive inhibitor of Complex II (Succinate Dehydrogenase)", "isCorrect": true },
+        { "id": "c", "text": "Antimycin A -> Inhibits Complex III", "isCorrect": true },
+        { "id": "d", "text": "Cyanide (CN-) -> Inhibits Complex IV", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "solutionExplanation": "All options represent correct complex-inhibitor pairings: Rotenone (Complex I), Malonate (Complex II), Antimycin A (Complex III), and Cyanide (Complex IV).",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c12-015",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "TCA Cycle Mechanics & Stoichiometry",
+      "difficulty": "Hard",
+      "questionText": "Which of the following statements regarding the Tricarboxylic Acid (TCA) Cycle are TRUE? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Citrate Synthase catalyzes the condensation of Acetyl-CoA (2C) and Oxaloacetate (4C) to form Citrate (6C).", "isCorrect": true },
+        { "id": "b", "text": "Substrate-level phosphorylation occurs during the conversion of Succinyl-CoA to Succinate.", "isCorrect": true },
+        { "id": "c", "text": "CO2 is released during the Isocitrate Dehydrogenase and α-Ketoglutarate Dehydrogenase reactions.", "isCorrect": true },
+        { "id": "d", "text": "Oxygen (O2) is consumed directly as a reactant in the conversion of Malate to Oxaloacetate.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "Step 1 forms citrate, Step 5 generates GTP/ATP via substrate-level phosphorylation, and Steps 3 and 4 release CO2. O2 is NOT a direct reactant in any TCA step; the conversion of Malate to OAA uses NAD+ as the electron acceptor.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c12-016",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "Cytosolic NADH Shuttles",
+      "difficulty": "Hard",
+      "questionText": "Select the correct options regarding the Glycerol-3-Phosphate Shuttle and Malate-Aspartate Shuttle: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "The Malate-Aspartate shuttle yields 2.5 ATP per cytosolic NADH because electrons enter at Complex I.", "isCorrect": true },
+        { "id": "b", "text": "The Glycerol-3-Phosphate shuttle yields 1.5 ATP per cytosolic NADH because electrons enter at Complex II / CoQ via FAD.", "isCorrect": true },
+        { "id": "c", "text": "Both shuttles yield identical amounts of ATP per glucose molecule (38 ATP).", "isCorrect": false },
+        { "id": "d", "text": "Liver, heart, and kidney cells primarily utilize the Malate-Aspartate shuttle.", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "solutionExplanation": "Malate-Aspartate transfers e- to matrix NAD+ (2.5 ATP/NADH, 32 ATP net); Glycerol-P transfers e- to membrane FAD (1.5 ATP/NADH, 30 ATP net). Malate-Aspartate is dominant in liver/heart.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c12-017",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "Amphibolic Pathways & Anabolism",
+      "difficulty": "Hard",
+      "questionText": "Which of the following intermediate compounds of cellular respiration serve as anabolic precursors in amphibolic pathways? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Acetyl-CoA -> Precursor for fatty acids and carotenoids", "isCorrect": true },
+        { "id": "b", "text": "α-Ketoglutarate -> Precursor for Glutamate and other amino acids", "isCorrect": true },
+        { "id": "c", "text": "Succinyl-CoA -> Precursor for Chlorophyll and Heme synthesis", "isCorrect": true },
+        { "id": "d", "text": "Oxaloacetate -> Precursor for Aspartate and pyrimidines", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "solutionExplanation": "All options represent valid anabolic branch-points demonstrating that cellular respiration is an Amphibolic Pathway (both catabolic and anabolic).",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c12-018",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "Substrates with RQ > 1.0",
+      "difficulty": "Medium",
+      "questionText": "Which of the following conditions lead to a Respiratory Quotient (RQ) GREATER than 1.0? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Respiration of organic acids such as Malic Acid (RQ = 1.33)", "isCorrect": true },
+        { "id": "b", "text": "Respiration of organic acids such as Oxalic Acid (RQ = 4.0)", "isCorrect": true },
+        { "id": "c", "text": "Pure aerobic oxidation of Glucose (RQ = 1.0)", "isCorrect": false },
+        { "id": "d", "text": "Respiration of oxygen-rich substrates where CO2 evolved exceeds O2 consumed", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "solutionExplanation": "Organic acids contain high internal oxygen content, requiring less atmospheric O2 for complete oxidation (CO2/O2 > 1.0). Glucose oxidation has RQ = 1.0, which is equal to 1.0, not greater than 1.0.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c12-019",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "Fermentation Comparative Mechanics",
+      "difficulty": "Hard",
+      "questionText": "Select the valid statements regarding fermentation pathways: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Both lactic acid and alcoholic fermentation regenerate NAD+ to allow glycolysis to continue.", "isCorrect": true },
+        { "id": "b", "text": "Alcoholic fermentation involves decarboxylation (CO2 release), whereas lactic acid fermentation does not release CO2.", "isCorrect": true },
+        { "id": "c", "text": "Fermentation extracts >50% of the total potential energy stored in glucose.", "isCorrect": false },
+        { "id": "d", "text": "Lactate Dehydrogenase reduces pyruvate to lactic acid using cytosolic NADH.", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "solutionExplanation": "Both regenerate NAD+. Alcoholic fermentation releases CO2 (3C -> 2C); lactic acid fermentation produces 3C lactate without CO2 loss. Lactate Dehydrogenase uses NADH. Fermentation extracts <7% of the total energy in glucose.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c12-020",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Respiration in Plants",
+      "chapterNumber": 12,
+      "chapterSlug": "respiration-in-plants",
+      "topic": "ATP Synthase Structure & Chemiosmosis",
+      "difficulty": "Hard",
+      "questionText": "Which of the following statements regarding F0F1 ATP Synthase and chemiosmosis are TRUE? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Protons accumulate in the intermembrane space, creating an electrochemical gradient (Δp) across the inner membrane.", "isCorrect": true },
+        { "id": "b", "text": "F0 is a hydrophobic transmembrane channel through which protons pass passively down their gradient.", "isCorrect": true },
+        { "id": "c", "text": "F1 is a catalytic headpiece in the matrix that undergoes conformational changes to synthesize ATP.", "isCorrect": true },
+        { "id": "d", "text": "Oligomycin binds to F1 and accelerates ATP synthesis.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "H+ accumulates in the intermembrane space; F0 is the transmembrane H+ channel; F1 is the catalytic matrix headpiece. Oligomycin INHIBITS ATP Synthase by binding to the F0 channel and blocking proton flow.",
+      "marks": 4,
+      "negativeMarks": 0
+    }
+  ]
+}

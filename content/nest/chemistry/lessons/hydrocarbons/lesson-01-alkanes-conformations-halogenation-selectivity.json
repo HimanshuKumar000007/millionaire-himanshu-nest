@@ -1,0 +1,59 @@
+{
+  "id": "chem-xi-u9-c9-l01",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit IX \u2014 Hydrocarbons",
+  "unitNumber": 9,
+  "chapter": "Hydrocarbons",
+  "chapterNumber": 9,
+  "chapterSlug": "hydrocarbons",
+  "slug": "lesson-01-alkanes-conformations-halogenation-selectivity",
+  "title": "Alkanes: Conformations, Radical Halogenation, & Selectivity",
+  "topic": "Alkanes & Conformations",
+  "topics": [
+    "Ethane Conformations: Staggered (\u03b8 = 60\u00b0, D_3d) vs Eclipsed (\u03b8 = 0\u00b0, Torsional Strain = 12.5 kJ/mol)",
+    "Newman and Sawhorse Projections",
+    "Free Radical Halogenation Mechanism (Initiation, Propagation, Termination)",
+    "Halogen Reactivity vs Selectivity (F\u2082 > Cl\u2082 > Br\u2082 > I\u2082; Br\u2082 Selectivity: 3\u00b0:2\u00b0:1\u00b0 = 1600:82:1)",
+    "Monochlorination Statistical Product Ratio Calculations"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "hydrocarbons",
+  "quickSummary": "Staggered ethane is 12.5 kJ/mol more stable than eclipsed due to minimal torsional strain. Halogenation proceeds via free radical chain mechanism. Bromination is highly selective (3\u00b0:2\u00b0:1\u00b0 = 1600:82:1); Chlorination is unselective (5:3.8:1).",
+  "summary": "Master ethane conformational dynamics, free radical halogenation mechanism, and halogen selectivity ratios.",
+  "conceptBreakdown": [
+    {
+      "heading": "1.1 Conformations of Ethane (Newman & Sawhorse)",
+      "title": "1.1 Conformations of Ethane (Newman & Sawhorse)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Ethane Conformations",
+        "takeaway": "Staggered (\u03b8 = 60\u00b0) is 12.5 kJ/mol (3.0 kcal/mol) more stable than Eclipsed (\u03b8 = 0\u00b0) due to minimal torsional strain."
+      },
+      "codeSnippet": "ETHANE CONFORMATIONAL SPECTRUM (C\u2082H\u2086)\n                                       \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                                                           \u25bc\n   STAGGERED CONFORMATION                                      ECLIPSED CONFORMATION\n   \u251c\u2500\u2500 Dihedral Angle (\u03b8) = 60\u00b0                                \u251c\u2500\u2500 Dihedral Angle (\u03b8) = 0\u00b0\n   \u251c\u2500\u2500 Maximum spatial separation of C-H bonds                 \u251c\u2500\u2500 Overlapping C-H bonds\n   \u251c\u2500\u2500 Minimal Torsional Strain                                \u251c\u2500\u2500 Max Torsional Strain (12.5 kJ/mol)\n   \u2514\u2500\u2500 MORE STABLE by 12.5 kJ/mol                              \u2514\u2500\u2500 LESS STABLE (Energy Barrier)",
+      "content": "\u2022 **Staggered Conformation ($\\theta = 60^\\circ$)**: Maximum spatial separation of $\\text{C-H}$ bonds, minimal torsional strain, and possesses $D_{3d}$ symmetry. It is $\\mathbf{12.5\\text{ kJ/mol}}$ more stable than the eclipsed conformer.\n\u2022 **Eclipsed Conformation ($\\theta = 0^\\circ$)**: Maximum electrostatic repulsion between overlapping $\\text{C-H}$ electron pairs (**Torsional Strain**).\n\u2022 **Rotational Barrier**: The $12.5\\text{ kJ/mol}$ barrier is small enough to permit rapid rotation ($10^{11}\\text{ rotations/sec}$) at room temperature."
+    },
+    {
+      "heading": "1.2 Free Radical Halogenation & Selectivity Ratios",
+      "title": "1.2 Free Radical Halogenation & Selectivity Ratios",
+      "type": "paragraph",
+      "codeSnippet": "HALOGEN SELECTIVITY RATIOS (3\u00b0 : 2\u00b0 : 1\u00b0)\n\n\u2022 Chlorination (25\u00b0C): 3\u00b0 : 2\u00b0 : 1\u00b0 = 5.0 : 3.8 : 1.0 (Low Selectivity)\n\u2022 Bromination (127\u00b0C): 3\u00b0 : 2\u00b0 : 1\u00b0 = 1600 : 82 : 1.0 (High Selectivity)\n\nMonochlorination Product Yield = (Number of n\u00b0-H) \u00d7 (Relative Reactivity of n\u00b0-H)",
+      "content": "1. **Mechanism**: Initiation ($h\\nu \\to 2\\text{X}^\\bullet$), Propagation ($\\text{X}^\\bullet + \\text{R-H} \\to \\text{R}^\\bullet + \\text{HX}$, rate-determining for $\\text{Br}_2$), and Termination (radical recombination).\n2. **Hammond Postulate**: Bromination is endothermic and has a late, product-like transition state, making it highly selective for $3^\\circ$ hydrogens ($1600:1$). Chlorination is exothermic with an early transition state, leading to low selectivity ($5:1$).\n3. **Reactivity Order**: $\\text{F}_2 > \\text{Cl}_2 > \\text{Br}_2 > \\text{I}_2$ (Fluorination explosive; Iodination reversible, requiring $\\text{HNO}_3/\\text{HIO}_3$ oxidants)."
+    }
+  ],
+  "quickRevision": [
+    "Staggered ethane is 12.5 kJ/mol more stable than eclipsed.",
+    "Bromination selectivity is 3\u00b0:2\u00b0:1\u00b0 = 1600:82:1.",
+    "Chlorination selectivity is 3\u00b0:2\u00b0:1\u00b0 = 5.0:3.8:1.0.",
+    "Iodination requires HNO\u2083/HIO\u2083 to remove HI and drive equilibrium forward."
+  ],
+  "keyFormulae": [
+    "\\text{Yield Ratio} = (\\text{No. of } n^\\circ\\text{-H}) \\times (\\text{Relative Reactivity})"
+  ]
+}

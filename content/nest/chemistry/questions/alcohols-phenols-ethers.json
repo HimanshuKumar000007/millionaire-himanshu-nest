@@ -1,0 +1,923 @@
+[
+  {
+    "id": "chem-alc-001",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "Victor Meyer Test & Aldol Condensation Diagnostic",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "An unknown monohydric alcohol X (C\u2085H\u2081\u2082O) is subjected to the Victor Meyer test, producing an intense Blood-Red solution. When alcohol X is passed over hot metallic copper at 573 K, it yields an aldehyde Y. Oxidation of X with PCC produces Y, which upon treatment with dilute NaOH undergoes an Aldol condensation. What is the structural formula and IUPAC name of alcohol X?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2-Methylbutan-2-ol",
+        "isCorrect": false,
+        "explanation": "3\u00b0 alcohol, gives colorless Victor Meyer test and alkene over hot Cu."
+      },
+      {
+        "id": "B",
+        "text": "3-Methylbutan-1-ol",
+        "isCorrect": true,
+        "explanation": "1. Victor Meyer test yielding Blood-Red color confirms a Primary (1\u00b0) alcohol (R-CH\u2082OH). 2. Copper at 573 K converts 1\u00b0 alcohol to aldehyde Y (R-CHO). 3. Aldehyde Y undergoes Aldol condensation \u27f9 Y MUST possess at least one \u03b1-hydrogen. 4. Neopentyl alcohol ((CH\u2083)\u2083C-CH\u2082OH) gives (CH\u2083)\u2083C-CHO which has ZERO \u03b1-hydrogens and cannot undergo aldol condensation. 3-Methylbutan-1-ol (CH\u2083CH(CH\u2083)CH\u2082CH\u2082OH) yields 3-methylbutanal with 2 \u03b1-hydrogens, readily undergoing Aldol condensation."
+      },
+      {
+        "id": "C",
+        "text": "2,2-Dimethylpropan-1-ol (Neopentyl alcohol)",
+        "isCorrect": false,
+        "explanation": "Yields pivalaldehyde ((CH\u2083)\u2083C-CHO) which lacks \u03b1-hydrogens and cannot undergo Aldol condensation."
+      },
+      {
+        "id": "D",
+        "text": "Pentan-2-ol",
+        "isCorrect": false,
+        "explanation": "2\u00b0 alcohol, gives Blue Victor Meyer color and ketone over Cu."
+      }
+    ],
+    "solutionExplanation": "1. Victor Meyer test yielding Blood-Red color confirms a Primary (1\u00b0) alcohol (R-CH\u2082OH).\n2. Copper at 573 K converts 1\u00b0 alcohol to aldehyde Y (R-CHO).\n3. Aldehyde Y undergoes Aldol condensation \u27f9 Y MUST possess at least one \u03b1-hydrogen.\n4. Testing options:\n   \u2022 Neopentyl alcohol gives pivalaldehyde, which has ZERO \u03b1-hydrogens and CANNOT undergo Aldol condensation!\n   \u2022 3-Methylbutan-1-ol yields 3-methylbutanal, which has 2 \u03b1-hydrogens and readily undergoes Aldol condensation.\nTherefore, alcohol X is 3-Methylbutan-1-ol.",
+    "keyFormulae": [
+      "\\text{Victor Meyer (1\u00b0 Alcohol)} \\longrightarrow \\text{Blood-Red (Nitrolic Acid)}",
+      "\\text{Aldol Condensation Requirement: } \\ge 1 \\ \\alpha\\text{-Hydrogen in Carbonyl}"
+    ],
+    "hints": [
+      "Blood-Red in Victor Meyer confirms a 1\u00b0 alcohol; Aldol condensation requires \u03b1-hydrogens on the resulting aldehyde."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-alc-002",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "Industrial Cumene Process Byproduct",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "During the industrial production of Phenol via the Cumene Hydroperoxide process, Benzene is reacted with Propene in the presence of H\u2083PO\u2084 catalyst at 523 K to yield Cumene. Cumene is oxidized with air to Cumene Hydroperoxide, which is cleaved with dilute H\u2082SO\u2084. What is the valuable organic co-product formed alongside Phenol in this industrial synthesis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acetaldehyde",
+        "isCorrect": false,
+        "explanation": "Not formed in cumene cleavage."
+      },
+      {
+        "id": "B",
+        "text": "Acetone (Propanone)",
+        "isCorrect": true,
+        "explanation": "Acid-catalyzed rearrangement of Cumene Hydroperoxide (C\u2086H\u2085-C(CH\u2083)\u2082-O-O-H) cleaves the molecule quantitatively into Phenol (C\u2086H\u2085OH) and Acetone (CH\u2083COCH\u2083). Acetone is a valuable industrial solvent byproduct that makes this route commercially dominant."
+      },
+      {
+        "id": "C",
+        "text": "Benzaldehyde",
+        "isCorrect": false,
+        "explanation": "Not formed in this route."
+      },
+      {
+        "id": "D",
+        "text": "Ethanol",
+        "isCorrect": false,
+        "explanation": "Not formed in this route."
+      }
+    ],
+    "solutionExplanation": "Acid-catalyzed rearrangement of Cumene Hydroperoxide (C\u2086H\u2085-C(CH\u2083)\u2082-O-O-H) cleaves the molecule quantitatively into Phenol (C\u2086H\u2085OH) and Acetone (CH\u2083COCH\u2083). Acetone is a valuable industrial solvent byproduct that makes this route commercially dominant.",
+    "keyFormulae": [
+      "\\text{Cumene Hydroperoxide} \\xrightarrow{\\text{H}^+} \\text{Phenol} + \\text{Acetone (CH}_3\\text{COCH}_3\\text{)}"
+    ],
+    "hints": [
+      "Cumene has an isopropyl group that transforms into a 3-carbon ketone co-product."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-alc-003",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "Phenol Acidity Hierarchy",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Arrange the following phenolic compounds in order of INCREASING Acidic Strength (lowest pK_a / highest acidity):\n\n1. Phenol\n2. p-Nitrophenol\n3. p-Cresol (4-Methylphenol)\n4. 2,4,6-Trinitrophenol (Picric Acid)",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 < 1 < 2 < 4",
+        "isCorrect": true,
+        "explanation": "\u2022 Electron-donating (+I/+M) -CH\u2083 in p-cresol decreases acidity (p-cresol < phenol). \u2022 Electron-withdrawing (-M/-I) -NO\u2082 increases acidity. 1 nitro group (p-nitrophenol, pK_a = 7.15) increases acidity. 3 nitro groups (Picric Acid, pK_a = 0.38) increase acidity drastically. Increasing acidity order: 3 < 1 < 2 < 4."
+      },
+      {
+        "id": "B",
+        "text": "4 < 2 < 1 < 3",
+        "isCorrect": false,
+        "explanation": "Decreasing order instead of increasing."
+      },
+      {
+        "id": "C",
+        "text": "1 < 3 < 2 < 4",
+        "isCorrect": false,
+        "explanation": "p-cresol is less acidic than phenol."
+      },
+      {
+        "id": "D",
+        "text": "3 < 2 < 1 < 4",
+        "isCorrect": false,
+        "explanation": "p-nitrophenol is more acidic than phenol."
+      }
+    ],
+    "solutionExplanation": "\u2022 Electron-donating groups (+I / +M) like -CH\u2083 in p-cresol decrease acidity (p-cresol < phenol).\n\u2022 Electron-withdrawing groups (-M / -I) like -NO\u2082 increase acidity heavily.\n\u2022 1 nitro group (p-nitrophenol) increases acidity significantly (pK_a = 7.15).\n\u2022 3 nitro groups (Picric Acid) increase acidity drastically (pK_a = 0.38, highly acidic!).\nIncreasing acidity order: 4-Methylphenol (3) < Phenol (1) < p-Nitrophenol (2) < Picric Acid (4).",
+    "keyFormulae": [
+      "\\text{Acidity: } p\\text{-Cresol} < \\text{Phenol} < p\\text{-Nitrophenol} < \\text{Picric Acid}"
+    ],
+    "hints": [
+      "EDG (-CH\u2083) decreases acidity; EWG (-NO\u2082) strongly increases acidity."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-alc-004",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "Reimer-Tiemann Active Electrophile",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the active electrophilic species generated during the Reimer-Tiemann reaction of Phenol with Chloroform (CHCl\u2083) and aqueous NaOH to synthesize Salicylaldehyde?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Trichloromethyl carbocation (CCl\u2083\u207a)",
+        "isCorrect": false,
+        "explanation": "A carbocation is not generated."
+      },
+      {
+        "id": "B",
+        "text": "Dichlorocarbene (:CCl\u2082)",
+        "isCorrect": true,
+        "explanation": "Base (OH\u207b) abstracts an acidic proton from chloroform (CHCl\u2083) to form the trichloromethyl anion (:CCl\u2083\u207b), which undergoes \u03b1-elimination of Cl\u207b to generate the neutral, 6-electron reactive intermediate Dichlorocarbene (:CCl\u2082)."
+      },
+      {
+        "id": "C",
+        "text": "Formyl cation (CHO\u207a)",
+        "isCorrect": false,
+        "explanation": "Formyl cation is in Gatterman-Koch synthesis."
+      },
+      {
+        "id": "D",
+        "text": "Chloronium ion (Cl\u207a)",
+        "isCorrect": false,
+        "explanation": "Not the Reimer-Tiemann electrophile."
+      }
+    ],
+    "solutionExplanation": "Base (OH\u207b) abstracts an acidic proton from chloroform (CHCl\u2083) to form the trichloromethyl anion (:CCl\u2083\u207b), which undergoes \u03b1-elimination of Cl\u207b to generate the neutral, 6-electron reactive intermediate Dichlorocarbene (:CCl\u2082).",
+    "keyFormulae": [
+      "\\text{CHCl}_3 + \\text{OH}^- \\rightleftharpoons :\\text{CCl}_3^- + \\text{H}_2\\text{O} \\longrightarrow :\\text{CCl}_2 \\text{ (Dichlorocarbene)} + \\text{Cl}^-"
+    ],
+    "hints": [
+      "\u03b1-Elimination of HCl from chloroform produces a neutral 6-electron carbene."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-alc-005",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "Williamson Ether Synthesis 3\u00b0 Halide Constraint",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "A student attempts to prepare tert-Butyl Ethyl Ether by reacting 2-bromo-2-methylpropane (3\u00b0 alkyl halide) with Sodium Ethoxide (NaOCH\u2082CH\u2083) in ethanol. What major organic product is actually recovered from this reaction mixture?",
+    "options": [
+      {
+        "id": "A",
+        "text": "tert-Butyl Ethyl Ether via S_N2",
+        "isCorrect": false,
+        "explanation": "S_N2 is impossible at a crowded 3\u00b0 carbon."
+      },
+      {
+        "id": "B",
+        "text": "2-Methylpropene (Isobutene) via E2 elimination",
+        "isCorrect": true,
+        "explanation": "In Williamson ether synthesis, sodium ethoxide (EtO\u207b) is a strong base. Reacting it with a 3\u00b0 alkyl halide (2-bromo-2-methylpropane) causes E2 elimination to dominate completely over S_N2 substitution due to extreme steric hindrance at the 3\u00b0 carbon. The major product formed is 2-Methylpropene (Isobutene)."
+      },
+      {
+        "id": "C",
+        "text": "Diethyl Ether via substitution",
+        "isCorrect": false,
+        "explanation": "Incorrect substrate coupling."
+      },
+      {
+        "id": "D",
+        "text": "2-Methylpropan-2-ol via S_N1",
+        "isCorrect": false,
+        "explanation": "Strong base enforces E2 elimination."
+      }
+    ],
+    "solutionExplanation": "In Williamson ether synthesis, sodium ethoxide (EtO\u207b) is a strong base. Reacting it with a 3\u00b0 alkyl halide (2-bromo-2-methylpropane) causes E2 elimination to dominate completely over S_N2 substitution due to extreme steric hindrance at the 3\u00b0 carbon. The major product formed is 2-Methylpropene (Isobutene).",
+    "keyFormulae": [
+      "3^\\circ \\text{ Alkyl Halide} + \\text{Alkoxide} \\xrightarrow{\\text{E2}} \\text{Alkene (Isobutene)} + \\text{Alcohol}"
+    ],
+    "hints": [
+      "A 3\u00b0 alkyl halide with a strong basic alkoxide undergoes E2 elimination rather than substitution."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-alc-006",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "Anisole HI Cleavage Products",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What organic products are formed when Anisole (Methoxybenzene, Ph-O-CH\u2083) is cleaved by heating with 1 equivalent of concentrated Hydroiodic Acid (HI)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chlorobenzene + Methanol",
+        "isCorrect": false,
+        "explanation": "HI contains iodine, not chlorine."
+      },
+      {
+        "id": "B",
+        "text": "Phenol (C\u2086H\u2085OH) + Methyl Iodide (CH\u2083I)",
+        "isCorrect": true,
+        "explanation": "Protonation of Anisole forms the oxonium ion Ph-O\u207a(H)-CH\u2083. The C_aryl-O bond has partial double-bond character due to resonance with the benzene ring and cannot be cleaved by I\u207b. The iodide nucleophile attacks the less hindered methyl carbon via an S_N2 pathway, cleaving the O-CH\u2083 bond to yield Phenol (C\u2086H\u2085OH) and Methyl Iodide (CH\u2083I)."
+      },
+      {
+        "id": "C",
+        "text": "Iodobenzene (C\u2086H\u2085I) + Methanol (CH\u2083OH)",
+        "isCorrect": false,
+        "explanation": "C_aryl-O bond is too strong to cleave."
+      },
+      {
+        "id": "D",
+        "text": "Benzene + Formaldehyde",
+        "isCorrect": false,
+        "explanation": "Incorrect cleavage products."
+      }
+    ],
+    "solutionExplanation": "Protonation of Anisole forms the oxonium ion Ph-O\u207a(H)-CH\u2083. The C_aryl-O bond has partial double-bond character due to resonance with the benzene ring and cannot be cleaved by I\u207b. The iodide nucleophile attacks the less hindered methyl carbon via an S_N2 pathway, cleaving the O-CH\u2083 bond to yield Phenol (C\u2086H\u2085OH) and Methyl Iodide (CH\u2083I).",
+    "keyFormulae": [
+      "\\text{C}_6\\text{H}_5\\text{-O-CH}_3 + \\text{HI} \\longrightarrow \\text{C}_6\\text{H}_5\\text{OH (Phenol)} + \\text{CH}_3\\text{I}"
+    ],
+    "hints": [
+      "The phenyl-oxygen bond has partial double-bond character and cannot be broken by iodide."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-alc-007",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "Lucas Test Immediate Turbidity Alcohol",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "An unknown alcohol A (C\u2084H\u2081\u2080O) gives an immediate turbidity when shaken with Lucas Reagent (Conc. HCl + Anhydrous ZnCl\u2082) at room temperature. What is the structural formula and IUPAC name of alcohol A?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Butan-1-ol",
+        "isCorrect": false,
+        "explanation": "1\u00b0 alcohol, only reacts upon heating."
+      },
+      {
+        "id": "B",
+        "text": "Butan-2-ol",
+        "isCorrect": false,
+        "explanation": "2\u00b0 alcohol, gives turbidity in 5\u201310 minutes."
+      },
+      {
+        "id": "C",
+        "text": "2-Methylpropan-2-ol (tert-Butyl alcohol)",
+        "isCorrect": true,
+        "explanation": "Producing immediate turbidity in the Lucas test at room temperature is diagnostic of a Tertiary (3\u00b0) alcohol. Among the C\u2084H\u2081\u2080O isomers, 2-Methylpropan-2-ol (t-butyl alcohol) is the only 3\u00b0 alcohol."
+      },
+      {
+        "id": "D",
+        "text": "2-Methylpropan-1-ol",
+        "isCorrect": false,
+        "explanation": "1\u00b0 alcohol, clear at room temp."
+      }
+    ],
+    "solutionExplanation": "Producing immediate turbidity in the Lucas test at room temperature is diagnostic of a Tertiary (3\u00b0) alcohol. Among the C\u2084H\u2081\u2080O isomers, 2-Methylpropan-2-ol (t-butyl alcohol) is the only 3\u00b0 alcohol.",
+    "keyFormulae": [
+      "3^\\circ \\text{ Alcohol} + \\text{Lucas Reagent} \\xrightarrow{\\text{Room Temp}} \\text{Immediate Turbidity}"
+    ],
+    "hints": [
+      "Immediate turbidity at room temperature indicates a 3\u00b0 alcohol."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-alc-008",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "Bromine Water Reaction with Phenol",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "When Phenol is treated with Bromine Water (Br\u2082 / H\u2082O) at room temperature, a dense precipitate P is formed immediately. What is the chemical identity and color of precipitate P?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4-Bromophenol; Pale yellow",
+        "isCorrect": false,
+        "explanation": "Formed in non-polar solvents like CS\u2082."
+      },
+      {
+        "id": "B",
+        "text": "2,4,6-Tribromophenol; White precipitate",
+        "isCorrect": true,
+        "explanation": "In aqueous medium, water polarizes phenol into phenoxide ions (Ph-O\u207b), which strongly activates all ortho and para positions. Reaction with bromine water results in complete polybromination, yielding 2,4,6-Tribromophenol as a White Precipitate (\u2193)."
+      },
+      {
+        "id": "C",
+        "text": "2-Bromophenol; Brown liquid",
+        "isCorrect": false,
+        "explanation": "Minor product in non-polar solvents."
+      },
+      {
+        "id": "D",
+        "text": "Bromobenzene; Colorless liquid",
+        "isCorrect": false,
+        "explanation": "Incorrect product."
+      }
+    ],
+    "solutionExplanation": "In aqueous medium, water polarizes phenol into phenoxide ions (Ph-O\u207b), which strongly activates all ortho and para positions. Reaction with bromine water results in complete polybromination, yielding 2,4,6-Tribromophenol as a White Precipitate (\u2193).",
+    "keyFormulae": [
+      "\\text{Phenol} + 3\\text{Br}_2(aq) \\longrightarrow 2,4,6\\text{-Tribromophenol} \\downarrow \\text{ (White Precipitate)} + 3\\text{HBr}"
+    ],
+    "hints": [
+      "Aqueous medium induces polybromination at all activated o,p-positions to give a white precipitate."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-alc-009",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "Salicylic Acid Acetylation to Aspirin",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What organic compound is produced when Salicylic Acid is heated with Acetic Anhydride in the presence of a few drops of concentrated H\u2082SO\u2084?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Salicylaldehyde",
+        "isCorrect": false,
+        "explanation": "Produced in Reimer-Tiemann reaction."
+      },
+      {
+        "id": "B",
+        "text": "Aspirin (Acetylsalicylic Acid)",
+        "isCorrect": true,
+        "explanation": "Acetylation of the phenolic -OH group of Salicylic Acid with Acetic Anhydride ((CH\u2083CO)\u2082O) in acid medium yields Acetylsalicylic Acid, commercially known as Aspirin (an analgesic/antipyretic drug)."
+      },
+      {
+        "id": "C",
+        "text": "Methyl Salicylate (Oil of Wintergreen)",
+        "isCorrect": false,
+        "explanation": "Formed by esterification with methanol."
+      },
+      {
+        "id": "D",
+        "text": "Phenyl Salicylate (Salol)",
+        "isCorrect": false,
+        "explanation": "Formed by esterification with phenol."
+      }
+    ],
+    "solutionExplanation": "Acetylation of the phenolic -OH group of Salicylic Acid with Acetic Anhydride ((CH\u2083CO)\u2082O) in acid medium yields Acetylsalicylic Acid, commercially known as Aspirin (an analgesic/antipyretic drug).",
+    "keyFormulae": [
+      "\\text{Salicylic Acid} + (\\text{CH}_3\\text{CO})_2\\text{O} \\xrightarrow{\\text{H}^+} \\text{Aspirin (Acetylsalicylic Acid)} + \\text{CH}_3\\text{COOH}"
+    ],
+    "hints": [
+      "Acetylation of the phenolic hydroxyl in salicylic acid gives the analgesic drug Aspirin."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-alc-010",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "Ethanol Acid Dehydration Temperature Dependence",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the major product obtained when 2.0 moles of Ethanol are heated with concentrated H\u2082SO\u2084 at 413 K (140\u00b0C) versus 443 K (170\u00b0C)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "At 413 K: Diethyl Ether; At 443 K: Ethene",
+        "isCorrect": true,
+        "explanation": "\u2022 At 413 K (140\u00b0C): Bimolecular nucleophilic condensation of two ethanol molecules occurs via an S_N2 mechanism to yield Diethyl Ether (C\u2082H\u2085-O-C\u2082H\u2085). \u2022 At 443 K (170\u00b0C): Unimolecular elimination (E1) dominates, yielding Ethene (CH\u2082=CH\u2082)."
+      },
+      {
+        "id": "B",
+        "text": "At 413 K: Ethene; At 443 K: Diethyl Ether",
+        "isCorrect": false,
+        "explanation": "Temperatures inverted."
+      },
+      {
+        "id": "C",
+        "text": "At both temperatures: Ethyl hydrogen sulfate",
+        "isCorrect": false,
+        "explanation": "Formed at 373 K (100\u00b0C)."
+      },
+      {
+        "id": "D",
+        "text": "At 413 K: Ethane; At 443 K: Acetaldehyde",
+        "isCorrect": false,
+        "explanation": "Incorrect reaction pathways."
+      }
+    ],
+    "solutionExplanation": "\u2022 At 413 K (140\u00b0C): Nucleophilic bimolecular condensation of two ethanol molecules occurs via an S_N2 mechanism to yield Diethyl Ether (C\u2082H\u2085-O-C\u2082H\u2085).\n\u2022 At 443 K (170\u00b0C): Unimolecular elimination (E1) dominates, yielding Ethene (CH\u2082=CH\u2082).",
+    "keyFormulae": [
+      "2\\text{C}_2\\text{H}_5\\text{OH} \\xrightarrow{\\text{H}_2\\text{SO}_4, 413\\text{ K}} \\text{C}_2\\text{H}_5\\text{OC}_2\\text{H}_5 \\quad \\text{vs} \\quad \\text{C}_2\\text{H}_5\\text{OH} \\xrightarrow{\\text{H}_2\\text{SO}_4, 443\\text{ K}} \\text{CH}_2\\text{=CH}_2"
+    ],
+    "hints": [
+      "Lower temperature (413 K) favors bimolecular ether formation; higher temperature (443 K) favors elimination to ethene."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-alc-011",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "1\u00b0 vs 3\u00b0 Alcohol Discrimination Tests",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following experimental tests can be used to explicitly distinguish a Primary (1\u00b0) Alcohol from a Tertiary (3\u00b0) Alcohol? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lucas Test (Conc. HCl + Anhyd. ZnCl\u2082)",
+        "isCorrect": true,
+        "explanation": "3\u00b0 gives immediate turbidity; 1\u00b0 gives no turbidity at room temp."
+      },
+      {
+        "id": "B",
+        "text": "Victor Meyer Test (R-B-C test)",
+        "isCorrect": true,
+        "explanation": "1\u00b0 gives Blood-Red color; 3\u00b0 gives a Colorless solution."
+      },
+      {
+        "id": "C",
+        "text": "Dehydrogenation over hot copper at 573 K",
+        "isCorrect": true,
+        "explanation": "1\u00b0 gives an aldehyde; 3\u00b0 undergoes dehydration to give an alkene."
+      },
+      {
+        "id": "D",
+        "text": "Neutral FeCl\u2083 Test",
+        "isCorrect": false,
+        "explanation": "Neutral FeCl\u2083 tests for Phenols, not for distinguishing 1\u00b0 vs 3\u00b0 aliphatic alcohols."
+      }
+    ],
+    "solutionExplanation": "\u2022 A is correct: 3\u00b0 gives immediate turbidity; 1\u00b0 gives no turbidity at room temp.\n\u2022 B is correct: 1\u00b0 gives Blood-Red color; 3\u00b0 gives a Colorless solution.\n\u2022 C is correct: 1\u00b0 undergoes dehydrogenation to give an aldehyde; 3\u00b0 undergoes dehydration to give an alkene.\n\u2022 D is incorrect: Neutral FeCl\u2083 tests for Phenols (purple color), not for distinguishing 1\u00b0 vs 3\u00b0 aliphatic alcohols.",
+    "keyFormulae": [
+      "\\text{Alcohol Distinction: Lucas (Turbidity), Victor Meyer (Color), Hot Cu (Oxidation/Dehydration)}"
+    ],
+    "hints": [
+      "FeCl\u2083 is specific for phenols; Lucas, Victor Meyer, and hot Cu differentiate alcohol classes."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-alc-012",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "Phenol vs Ethanol Acidity Mechanics",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding the acidity of Phenol relative to Ethanol: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Phenol (pK_a \u2248 9.98) is much more acidic than Ethanol (pK_a \u2248 16.0).",
+        "isCorrect": true,
+        "explanation": "Phenol is ~10\u2076 times more acidic."
+      },
+      {
+        "id": "B",
+        "text": "Deprotonation of phenol yields the Phenoxide ion, which is resonance-stabilized by delocalizing negative charge into the aromatic ring.",
+        "isCorrect": true,
+        "explanation": "Resonance delocalization stabilizes the anion."
+      },
+      {
+        "id": "C",
+        "text": "Deprotonation of ethanol yields the Ethoxide ion, where negative charge is localized on oxygen and destabilized by the +I effect of the ethyl group.",
+        "isCorrect": true,
+        "explanation": "Ethoxide lacks resonance and is destabilized by +I."
+      },
+      {
+        "id": "D",
+        "text": "Phenol reacts with aqueous NaHCO\u2083 solution to liberate CO\u2082 gas.",
+        "isCorrect": false,
+        "explanation": "Phenol is weaker than carbonic acid (pKa 6.35) and cannot liberate CO\u2082 from NaHCO\u2083."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Phenol is more acidic due to phenoxide resonance stabilization, while ethoxide lacks resonance and is destabilized by +I.\n\u2022 D is incorrect: Phenol (pK_a \u2248 10) is a weaker acid than carbonic acid (H\u2082CO\u2083, pK_a \u2248 6.35), so it CANNOT react with NaHCO\u2083 to evolve CO\u2082 (only carboxylic acids and picric acid react with NaHCO\u2083).",
+    "keyFormulae": [
+      "\\text{Acidity: } \\text{p}K_a(\\text{Phenol}) \\approx 10 \\quad \\text{vs} \\quad \\text{p}K_a(\\text{Ethanol}) \\approx 16"
+    ],
+    "hints": [
+      "Phenol is a weaker acid than carbonic acid, so it cannot liberate CO\u2082 from NaHCO\u2083."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-alc-013",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "Phenol Synthetic Preparations",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following reactions represent valid synthetic preparations of PHENOL? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hydrolysis of Chlorobenzene with NaOH at 623 K and 300 atm pressure (Dow Process).",
+        "isCorrect": true,
+        "explanation": "Established Dow process."
+      },
+      {
+        "id": "B",
+        "text": "Air oxidation of Cumene to Cumene Hydroperoxide followed by cleavage with dilute H\u2082SO\u2084.",
+        "isCorrect": true,
+        "explanation": "Dominant industrial cumene process."
+      },
+      {
+        "id": "C",
+        "text": "Hydrolysis of Benzenediazonium chloride by warming with water.",
+        "isCorrect": true,
+        "explanation": "Laboratory diazonium route."
+      },
+      {
+        "id": "D",
+        "text": "Hydrolysis of Ethyl Acetate with dilute HCl.",
+        "isCorrect": false,
+        "explanation": "Yields Ethanol and Acetic Acid, not phenol."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Dow process, Cumene hydroperoxide process, and Diazonium salt hydrolysis are established preparations of phenol.\n\u2022 D is incorrect: Hydrolysis of ethyl acetate yields Ethanol and Acetic acid, NOT phenol.",
+    "keyFormulae": [
+      "\\text{Phenol Synthesis: Cumene Process, Dow Process, Diazonium Hydrolysis}"
+    ],
+    "hints": [
+      "Ethyl acetate hydrolysis produces aliphatic ethanol, not aromatic phenol."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-alc-014",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "Reimer-Tiemann and Kolbe's Reaction Facts",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding the Reimer-Tiemann and Kolbe's reactions of Phenol: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reimer-Tiemann reaction uses CHCl\u2083 + NaOH to convert phenol into Salicylaldehyde.",
+        "isCorrect": true,
+        "explanation": "Synthesizes 2-hydroxybenzaldehyde."
+      },
+      {
+        "id": "B",
+        "text": "The active electrophile in the Reimer-Tiemann reaction is Dichlorocarbene (:CCl\u2082).",
+        "isCorrect": true,
+        "explanation": "Neutral 6-electron reactive intermediate."
+      },
+      {
+        "id": "C",
+        "text": "Kolbe's reaction uses CO\u2082 + NaOH under pressure to convert phenol into Salicylic Acid.",
+        "isCorrect": true,
+        "explanation": "Synthesizes 2-hydroxybenzoic acid."
+      },
+      {
+        "id": "D",
+        "text": "Both reactions proceed via an S_N2 nucleophilic substitution mechanism on an sp\u00b3 carbon.",
+        "isCorrect": false,
+        "explanation": "Both reactions are Electrophilic Aromatic Substitutions (S_EAr) on the benzene ring."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Reimer-Tiemann uses CHCl\u2083/NaOH via :CCl\u2082 to make salicylaldehyde; Kolbe uses CO\u2082/NaOH to make salicylic acid.\n\u2022 D is incorrect: Both reactions are Electrophilic Aromatic Substitutions (S_EAr) on the aromatic ring, NOT S_N2 substitutions.",
+    "keyFormulae": [
+      "\\text{Kolbe: } \\text{S}_E\\text{Ar by CO}_2, \\quad \\text{Reimer-Tiemann: } \\text{S}_E\\text{Ar by } :\\text{CCl}_2"
+    ],
+    "hints": [
+      "Both named reactions are electrophilic aromatic substitutions on the phenol ring."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-alc-015",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "Ether Cleavage by HI forming 3\u00b0 Alkyl Iodide",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following unsymmetrical ethers, when cleaved by 1 equivalent of concentrated HI, yield tert-Butyl Iodide ((CH\u2083)\u2083C-I) via an S_N1 mechanism? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "tert-Butyl Methyl Ether ((CH\u2083)\u2083C-O-CH\u2083)",
+        "isCorrect": true,
+        "explanation": "Forms 3\u00b0 t-butyl cation which combines with I\u207b."
+      },
+      {
+        "id": "B",
+        "text": "tert-Butyl Ethyl Ether ((CH\u2083)\u2083C-O-CH\u2082CH\u2083)",
+        "isCorrect": true,
+        "explanation": "Forms 3\u00b0 t-butyl cation which combines with I\u207b."
+      },
+      {
+        "id": "C",
+        "text": "Anisole (C\u2086H\u2085-O-CH\u2083)",
+        "isCorrect": false,
+        "explanation": "Cleaves to Phenol and Methyl Iodide."
+      },
+      {
+        "id": "D",
+        "text": "Diethyl Ether (CH\u2083CH\u2082-O-CH\u2082CH\u2083)",
+        "isCorrect": false,
+        "explanation": "Cleaves via S_N2 to Ethyl Iodide + Ethanol."
+      }
+    ],
+    "solutionExplanation": "\u2022 A and B are correct: When an ether contains a 3\u00b0 alkyl group, protonation yields an oxonium ion that cleaves via an S_N1 pathway to form a highly stable 3\u00b0 carbocation (CH\u2083)\u2083C\u207a, which combines with I\u207b to form t-butyl iodide.\n\u2022 C is incorrect: Anisole cleaves to form Phenol and Methyl Iodide (CH\u2083I).\n\u2022 D is incorrect: Diethyl ether is symmetrical and contains no 3\u00b0 group.",
+    "keyFormulae": [
+      "3^\\circ \\text{ Ether} + \\text{HI} \\xrightarrow{S_N1} 3^\\circ \\text{ Alkyl Iodide} + \\text{Alcohol}"
+    ],
+    "hints": [
+      "Ethers with a 3\u00b0 alkyl group cleave via S_N1 to give the 3\u00b0 alkyl iodide."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-alc-016",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "Williamson Ether Synthesis Rules",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding the Williamson Ether Synthesis: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "It involves an S_N2 attack of an alkoxide ion (R'O\u207b) on an alkyl halide (R-X).",
+        "isCorrect": true,
+        "explanation": "Core bimolecular mechanism."
+      },
+      {
+        "id": "B",
+        "text": "High yields of mixed ethers are obtained when the alkyl halide is primary (1\u00b0) or methyl.",
+        "isCorrect": true,
+        "explanation": "Minimizes competing elimination."
+      },
+      {
+        "id": "C",
+        "text": "Using a tertiary (3\u00b0) alkyl halide results predominantly in E2 elimination to yield an alkene.",
+        "isCorrect": true,
+        "explanation": "Strong base induces E2 dehydrohalogenation."
+      },
+      {
+        "id": "D",
+        "text": "Phenols can be converted to aryl ethers by reacting sodium phenoxide with alkyl halides.",
+        "isCorrect": true,
+        "explanation": "Ph-O\u207bNa\u207a + R-X \u2500\u2500\u25ba Ph-O-R."
+      }
+    ],
+    "solutionExplanation": "All four statements correctly state the mechanism, substrate limits (1\u00b0 halide required), 3\u00b0 elimination drawback, and application to aryl ethers.",
+    "keyFormulae": [
+      "\\text{Williamson: } \\text{R-X (1\u00b0)} + \\text{R'O}^-\\text{Na}^+ \\xrightarrow{S_N2} \\text{R-O-R'} + \\text{NaX}"
+    ],
+    "hints": [
+      "Williamson synthesis requires a 1\u00b0 halide to avoid E2 elimination."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-alc-017",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "Methanol and Ethanol Toxicology Facts",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following statements regarding Methanol and Ethanol toxicology/properties are TRUE? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Methanol is metabolized in the liver by alcohol dehydrogenase to Formaldehyde and Formic acid, causing optic nerve damage and blindness.",
+        "isCorrect": true,
+        "explanation": "Metabolites cause retinal damage and acidosis."
+      },
+      {
+        "id": "B",
+        "text": "Ethanol poisoning is treated by intravenous administration of methanol.",
+        "isCorrect": false,
+        "explanation": "Methanol poisoning is treated by administering ETHANOL, not vice versa."
+      },
+      {
+        "id": "C",
+        "text": "Denatured alcohol is ethanol mixed with toxic methanol, pyridine, and copper sulfate to prevent human consumption.",
+        "isCorrect": true,
+        "explanation": "Standard denaturing formula."
+      },
+      {
+        "id": "D",
+        "text": "Methanol is also known as 'Wood Spirit'.",
+        "isCorrect": true,
+        "explanation": "Historically obtained by destructive distillation of wood."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, C, D are correct: Methanol oxidizes to toxic HCHO/HCOOH causing blindness, denatured alcohol contains additives, and methanol is wood spirit.\n\u2022 B is incorrect: Methanol poisoning is treated by administering ETHANOL (not vice versa), because ethanol acts as a competitive substrate for alcohol dehydrogenase.",
+    "keyFormulae": [
+      "\\text{Methanol Toxicity: } \\text{CH}_3\\text{OH} \\xrightarrow{\\text{Enzyme}} \\text{HCHO} \\longrightarrow \\text{HCOOH}"
+    ],
+    "hints": [
+      "Ethanol is the antidote for methanol poisoning, not the reverse."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-alc-018",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "Selective 1\u00b0 Alcohol Oxidants to Aldehydes",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following reagents selectively oxidize a primary alcohol (R-CH\u2082OH) to an Aldehyde (R-CHO) without further oxidation to a carboxylic acid? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pyridinium Chlorochromate (PCC) in CH\u2082Cl\u2082",
+        "isCorrect": true,
+        "explanation": "Mild anhydrous reagent stopping at aldehyde."
+      },
+      {
+        "id": "B",
+        "text": "Pyridinium Dichromate (PDC) in CH\u2082Cl\u2082",
+        "isCorrect": true,
+        "explanation": "Mild oxidant stopping at aldehyde."
+      },
+      {
+        "id": "C",
+        "text": "Copper catalyst at 573 K (Cu / 300\u00b0C)",
+        "isCorrect": true,
+        "explanation": "Dehydrogenates 1\u00b0 alcohol to aldehyde."
+      },
+      {
+        "id": "D",
+        "text": "Acidified Potassium Permanganate (KMnO\u2084 / H\u207a)",
+        "isCorrect": false,
+        "explanation": "Strong oxidant converting 1\u00b0 alcohol directly to Carboxylic Acid."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: PCC, PDC, and hot Cu at 573 K stop oxidation cleanly at the Aldehyde stage.\n\u2022 D is incorrect: Acidified KMnO\u2084 is a powerful oxidant that oxidizes primary alcohols all the way to Carboxylic Acids.",
+    "keyFormulae": [
+      "1^\\circ \\text{ Alcohol} \\xrightarrow{\\text{PCC / PDC / Cu, 573 K}} \\text{Aldehyde}"
+    ],
+    "hints": [
+      "PCC, PDC, and Cu at 573 K stop at aldehydes; acidified KMnO\u2084 oxidizes completely to carboxylic acids."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-alc-019",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "Alcohol & Phenol Physical Properties",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding the physical properties of Alcohols and Phenols: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alcohols have higher boiling points than isomeric ethers due to intermolecular hydrogen bonding.",
+        "isCorrect": true,
+        "explanation": "Extensive H-bonding elevates alcohol boiling points."
+      },
+      {
+        "id": "B",
+        "text": "Among isomeric alcohols, 1\u00b0 alcohols have higher boiling points than 3\u00b0 alcohols due to larger surface area.",
+        "isCorrect": true,
+        "explanation": "Branching decreases surface area and van der Waals forces."
+      },
+      {
+        "id": "C",
+        "text": "o-Nitrophenol is steam-volatile because it forms Intramolecular Hydrogen Bonds.",
+        "isCorrect": true,
+        "explanation": "Intramolecular H-bonding prevents intermolecular association."
+      },
+      {
+        "id": "D",
+        "text": "p-Nitrophenol has a lower boiling point than o-nitrophenol.",
+        "isCorrect": false,
+        "explanation": "p-Nitrophenol forms intermolecular H-bonds and has a HIGHER boiling point."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: H-bonding raises alcohol BP over ethers; 1\u00b0 alcohols have larger surface areas than branched 3\u00b0 isomers; o-nitrophenol is steam volatile due to intramolecular H-bonding.\n\u2022 D is incorrect: p-Nitrophenol has a HIGHER boiling point than o-nitrophenol because it forms extensive intermolecular hydrogen bonds.",
+    "keyFormulae": [
+      "\\text{Boiling Point: } p\\text{-Nitrophenol (Intermolecular H-bond)} > o\\text{-Nitrophenol (Intramolecular H-bond)}"
+    ],
+    "hints": [
+      "p-Nitrophenol associates via intermolecular H-bonds, giving it a higher boiling point than o-nitrophenol."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-alc-020",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Alcohols, Phenols and Ethers",
+    "subtopic": "Phenol Reactions forming C-C Bonds",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following reactions of Phenol result in the formation of a NEW CARBON-CARBON BOND on the aromatic ring? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kolbe\u2019s Reaction (formation of Salicylic acid)",
+        "isCorrect": true,
+        "explanation": "Forms ring C-COOH bond."
+      },
+      {
+        "id": "B",
+        "text": "Reimer-Tiemann Reaction (formation of Salicylaldehyde)",
+        "isCorrect": true,
+        "explanation": "Forms ring C-CHO bond."
+      },
+      {
+        "id": "C",
+        "text": "Friedel-Crafts Alkylation with CH\u2083Cl / AlCl\u2083",
+        "isCorrect": true,
+        "explanation": "Forms ring C-CH\u2083 bond."
+      },
+      {
+        "id": "D",
+        "text": "Reaction with neutral FeCl\u2083 solution",
+        "isCorrect": false,
+        "explanation": "Forms Fe-O coordination bonds in [Fe(OPh)\u2086]\u00b3\u207b, not a C-C bond."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Kolbe's (C-COOH bond), Reimer-Tiemann (C-CHO bond), and Friedel-Crafts (C-CH\u2083 bond) all form new C-C bonds on the benzene ring.\n\u2022 D is incorrect: Reaction with FeCl\u2083 is a coordination complex formation involving the phenolic Oxygen atom ([Fe(OPh)\u2086]\u00b3\u207b), forming a Fe-O bond, NOT a C-C bond.",
+    "keyFormulae": [
+      "\\text{New C-C Bonds: Kolbe (C-COOH), Reimer-Tiemann (C-CHO), Friedel-Crafts (C-R)}"
+    ],
+    "hints": [
+      "FeCl\u2083 forms an Fe-O coordinate bond; Kolbe, Reimer-Tiemann, and Friedel-Crafts form ring C-C bonds."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

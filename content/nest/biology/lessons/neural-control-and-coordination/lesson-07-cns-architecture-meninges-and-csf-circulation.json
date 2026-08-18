@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-19-07",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Neural Control and Coordination",
+  "chapterNumber": 19,
+  "chapterSlug": "neural-control-and-coordination",
+  "lessonNumber": 7,
+  "title": "Gross CNS Architecture, Meninges, & Cerebrospinal Fluid (CSF) Flow",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Medium",
+  "prerequisites": ["Cranial anatomy", "Ventricular system"],
+  "learningObjectives": [
+    "Identify the three cranial and spinal meningeal layers: Dura, Arachnoid, and Pia Mater",
+    "Describe the secretion, volume, and composition of Cerebrospinal Fluid (CSF)",
+    "Trace the complete pathway of ventricular CSF flow through brain foramina into dural venous sinuses"
+  ],
+  "content": "The Central Nervous System (CNS) comprises the Brain and Spinal Cord, protected by the bony cranium/vertebral column, three connective tissue Meninges, and Cerebrospinal Fluid (CSF).\n\n```\n                          MENINGEAL LAYERS (Outer to Inner)\n                          \n   Cranium ──► DURA MATER (Outer, tough) ──► ARACHNOID MATER (Web-like) ──► PIA MATER (Inner, vascular)\n                                                  │\n                                       [ Subarachnoid Space ]\n                                       (Contains CSF)\n```\n\n### 7.1 Cerebrospinal Fluid (CSF) Circulation Pathway\n\nCSF is a clear, acellular ultrafiltrate of blood plasma ($\\approx 150\\text{ mL}$ volume; daily production $\\approx 500\\text{ mL}$) secreted by specialized capillary networks called **Choroid Plexuses** located within brain ventricles.\n\n```\n                         VENTRICULAR CSF FLOW PATHWAY\n                         \n   Lateral Ventricles (1st & 2nd - Cerebral Hemispheres)\n             │\n   [ Foramen of Monro / Interventricular Foramen ]\n             │\n             ▼\n   Third Ventricle (Diencephalon)\n             │\n   [ Aqueduct of Sylvius / Cerebral Aqueduct (Midbrain) ]\n             │\n             ▼\n   Fourth Ventricle (Pons & Medulla)\n             │\n   [ Foramina of Luschka & Magendie ]\n             │\n             ▼\n   Subarachnoid Space (Surrounds Brain & Spinal Cord) ──► Dural Venous Sinuses (via Arachnoid Villi)\n```",
+  "conceptBreakdown": [
+    {
+      "heading": "Non-Communicating vs Communicating Hydrocephalus",
+      "explanation": "Non-communicating hydrocephalus is caused by structural blockage of CSF flow (e.g., aqueductal stenosis of the Aqueduct of Sylvius). Communicating hydrocephalus is caused by impaired CSF reabsorption by arachnoid villi into the superior sagittal sinus."
+    },
+    {
+      "heading": "Lumbar Puncture Site",
+      "explanation": "CSF is clinically sampled via lumbar puncture performed between vertebrae L3/L4 or L4/L5 in adults (below the conus medullaris of the spinal cord which terminates at L1/L2) to prevent spinal cord trauma."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u6-c2-l06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VI — Reproduction",
+  "unitNumber": 6,
+  "chapter": "Human Reproduction",
+  "chapterNumber": 2,
+  "chapterSlug": "human-reproduction",
+  "slug": "lesson-06-capacitation-acrosomal-reaction-and-blocks-to-polyspermy",
+  "title": "Capacitation, Acrosomal Reaction, & Blocks to Polyspermy",
+  "topic": "Capacitation, ZP3 Binding, & Polyspermy Blocks",
+  "order": 6,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Capacitation occurs in female tract (5-6h). Acrosomal reaction: ZP3 binding -> Hyaluronidase & Acrosin release. Prevention of Polyspermy: Fast Na+ block (depolarization ~60s) vs Slow Ca2+ cortical reaction (hardens ZP).",
+  "summary": "Capacitation occurs in female tract (5-6h). Acrosomal reaction: ZP3 binding -> Hyaluronidase & Acrosin release. Prevention of Polyspermy: Fast Na+ block (depolarization ~60s) vs Slow Ca2+ cortical reaction (hardens ZP).",
+  "conceptBreakdown": [
+    {
+      "heading": "Capacitation, Acrosomal Reaction, & Blocks to Polyspermy",
+      "title": "Capacitation, Acrosomal Reaction, & Blocks to Polyspermy",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Capacitation occurs in female tract (5-6h: cholesterol removal, motility hyperactivation). Acrosomal reaction: ZP3 binding -> Hyaluronidase & Acrosin release. Prevention of Polyspermy: Fast Block (electrical depolarization via Na+ influx, -70 mV to +20 mV for ~60s) vs Slow Block (intracellular Ca2+ wave -> Cortical granule exocytosis cleaves ZP3 and hardens Zona Pellucida). Sperm entry triggers completion of Meiosis II -> Ootid + 2nd polar body."
+      },
+      "codeSnippet": "FERTILIZATION CASCADE\n                                    │\n  Sperm Insemination ──► Capacitation in Female Tract (~5-6 h)\n                                    │\n  Contact with Corona Radiata & Zona Pellucida (ZP3 Receptor)\n                                    │\n  Acrosomal Reaction (Hyaluronidase & Acrosin Release)\n                                    │\n  Sperm-Egg Plasma Membrane Fusion ──► Ca2+ Wave\n                                    │\n  ┌─────────────────────────────────┴─────────────────────────────────┐\n  ▼                                                                   ▼\n  BLOCK TO POLYSPERMY                                       MEIOSIS II COMPLETED\n  ├── Fast Block: Membrane Depolarization (Na+)             ├── Secondary Oocyte completes Meiosis II\n  └── Slow Block: Cortical Reaction (Hardens ZP)           └── Yields Ootid (Ovum) + 2nd Polar Body",
+      "content": "### 6.1 Capacitation & The Acrosomal Reaction\n1. **Capacitation**: Physiological conditioning of sperm in the female reproductive tract ($\\approx 5\\text{--}6\\text{ hours}$). Female secretions remove decapacitation factors, cholesterol, and glycoproteins from the acrosomal membrane, increasing permeability to $\\text{Ca}^{2+}$ and driving hyperactivated flagellar motility.\n2. **Acrosomal Reaction**: Binding of sperm surface galactosyltransferase to the **$\\text{ZP}_3$ glycoprotein receptor** triggers acrosomal exocytosis:\n   - **Hyaluronidase**: Hydrolyzes hyaluronic acid cementing corona radiata cells.\n   - **Acrosin / Corona Penetrating Enzyme**: Serine proteases that digest a path through the Zona Pellucida.\n\n### 6.2 Prevention of Polyspermy: Fast vs. Slow Blocks\n\n```\n                        BLOCKS TO POLYSPERMY\n                        \n   1. FAST BLOCK (Transient):\n      Sperm fusion ──► Rapid Na+ Influx ──► Depolarizes Oolemma (-70 mV to +20 mV).\n      Prevents further sperm fusion for ~60 seconds.\n      \n   2. SLOW BLOCK / CORTICAL REACTION (Permanent):\n      Depolarization triggers cytosolic Ca2+ Wave from Endoplasmic Reticulum.\n      ├── Cortical Granules undergo exocytosis into the Perivitelline Space.\n      ├── Granular enzymes cleave ZP3 receptors (destroying sperm binding).\n      └── Cross-links ZP glycoproteins, hardening the Zona Pellucida into a Fertilization Envelope.\n```"
+    },
+    {
+      "heading": "Cytosolic Calcium Wave Mechanics",
+      "title": "Cytosolic Calcium Wave Mechanics",
+      "type": "paragraph",
+      "content": "Sperm introduces a soluble phospholipase C zeta (PLC-zeta) into the egg cytoplasm, generating IP3 which binds IP3 receptors on the endoplasmic reticulum, releasing waves of Ca2+ that activate cortical granule exocytosis and restart the cell cycle."
+    },
+    {
+      "heading": "Metaphase II Anaphase-Promoting Complex Activation",
+      "title": "Metaphase II Anaphase-Promoting Complex Activation",
+      "type": "paragraph",
+      "content": "The Ca2+ surge activates the Anaphase-Promoting Complex (APC/C), which degrades cyclin B and Securin, permitting separase to cleave cohesins and allowing the secondary oocyte to complete anaphase II."
+    }
+  ]
+}

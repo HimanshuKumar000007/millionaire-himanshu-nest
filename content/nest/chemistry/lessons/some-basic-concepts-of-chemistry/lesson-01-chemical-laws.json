@@ -1,0 +1,55 @@
+{
+  "id": "chem-xi-u1-c1-l01",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit I \u2014 Some Basic Concepts of Chemistry",
+  "unitNumber": 1,
+  "chapter": "Some Basic Concepts of Chemistry",
+  "chapterNumber": 1,
+  "chapterSlug": "some-basic-concepts-of-chemistry",
+  "slug": "lesson-01-chemical-laws",
+  "title": "Laws of Chemical Combination & Non-Stoichiometric Exceptions",
+  "topic": "Chemical Laws",
+  "topics": [
+    "Conservation of Mass & Mass Defect",
+    "Definite Proportions & Berthollide Compounds",
+    "Multiple Proportions & Polymer Limitations",
+    "Reciprocal Proportions",
+    "Gay-Lussac's Law of Combining Volumes",
+    "Avogadro's Hypothesis: Atom vs Molecule"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 7,
+  "estimatedTimeMinutes": 7,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "laws-of-chemical-combination",
+  "quickSummary": "Classical chemistry establishes five fundamental Laws of Chemical Combination governing matter transformation. At NEST/IChO level, understanding their advanced exceptions (mass defect in nuclear reactions, non-stoichiometric Berthollides like Fe0.95O, and organic polymer limits) is critical.",
+  "summary": "Master the 5 fundamental laws of chemical combination, their quantitative mathematical formulations, and high-yield NEST exceptions.",
+  "conceptBreakdown": [
+    {
+      "heading": "1. Laws of Chemical Combination & Non-Stoichiometric Exceptions",
+      "title": "1. Laws of Chemical Combination & Non-Stoichiometric Exceptions",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Core Postulate & Classification",
+        "takeaway": "Lavoisier (Mass), Proust (Definite), Dalton (Multiple), Richter (Reciprocal), Gay-Lussac (Combining Volumes). Exceptions arise in nuclear physics, non-stoichiometric crystals (Berthollides), and isotopic mixtures."
+      },
+      "codeSnippet": "LAWS OF CHEMICAL COMBINATION\n                                    \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                  \u25bc                       \u25bc                  \u25bc\nCONSERVATION OF MASS  DEFINITE PROPORTIONS   MULTIPLE PROPORTIONS   RECIPROCAL PROPORTIONS\n(Lavoisier, 1789)     (Proust, 1799)         (Dalton, 1803)         (Richter, 1792)\nMass reacts = Mass    Fixed mass ratio of    Fixed mass of A +      Mass ratios of A & B\nproducts.             elements in compound.  varying masses of B.   with C.",
+      "content": "Matter is anything that possesses mass and occupies space. Classical chemistry establishes five fundamental Laws of Chemical Combination governing chemical transformations:\n\n1. **Law of Conservation of Mass (Lavoisier, 1789)**: In any chemical change, total mass of reactants equals total mass of products (\u03a3 m_reactants = \u03a3 m_products). *Exception*: Nuclear reactions where mass converts to energy (\u0394E = \u0394m\u00b7c\u00b2).\n\n2. **Law of Definite Proportions (Proust, 1799)**: A pure compound always contains its constituent elements in a fixed ratio by mass (m_A / m_B = Constant). *Exceptions*: Isotopic variation (\u00b9\u00b2CO\u2082 vs \u00b9\u2074CO\u2082) and Non-Stoichiometric Berthollide compounds (e.g., Fe\u2080.\u2089\u2085O, Cu\u2081.\u2088S).\n\n3. **Law of Multiple Proportions (Dalton, 1803)**: When two elements form multiple compounds, masses of element B combining with a fixed mass of A are in simple whole-number ratios (m_B1 : m_B2 = n\u2081 : n\u2082). *Exception*: High molecular mass organic polymers (e.g., C\u2082\u2080H\u2084\u2082 vs C\u2082\u2081H\u2084\u2084).\n\n4. **Law of Reciprocal Proportions (Richter, 1792)**: The ratio of masses of A and B combining separately with a fixed mass of C is a simple integer multiple of the ratio in which A and B combine directly. *Exception*: When elements exhibit multiple oxidation states with C (e.g., SO\u2082 vs SO\u2083).\n\n5. **Gay-Lussac's Law of Combining Volumes (1808)**: Reacting gases combine in simple integer volume ratios at constant T and P. Valid strictly for ideal gases (Z = 1)."
+    },
+    {
+      "heading": "1.2 Avogadro's Hypothesis (1811)",
+      "title": "1.2 Avogadro's Hypothesis (1811)",
+      "type": "paragraph",
+      "content": "Amedeo Avogadro reconciled Dalton's atomic theory with Gay-Lussac's volume law by proposing that equal volumes of all gases under identical conditions of temperature and pressure contain an equal number of molecules:\n\n$$\\mathbf{V \\propto n \\quad (\\text{at constant } T, P)}$$\n\n\u2022 **Atom**: The smallest particle of an element participating in a chemical reaction; may or may not be capable of independent existence (e.g., He exists independently; O exists as O\u2082).\n\u2022 **Molecule**: The smallest particle of an element or compound capable of independent, stable existence."
+    }
+  ],
+  "quickRevision": [
+    "Law of Conservation of Mass fails in nuclear mass-energy conversions (\u0394E = \u0394m\u00b7c\u00b2).",
+    "Berthollides (Fe0.95O) violate Proust's Law of Definite Proportions.",
+    "Avogadro's Law establishes V \u221d n at constant T and P."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "chem-xi-u3-c3-l07",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit III \u2014 Classification of Elements and Periodicity in Properties",
+  "unitNumber": 3,
+  "chapter": "Classification of Elements and Periodicity",
+  "chapterNumber": 3,
+  "chapterSlug": "periodic-classification",
+  "slug": "lesson-07-anomalous-first-row-inert-pair-effect",
+  "title": "Anomalous Behavior of First-Row Elements, Diagonal Relationships & Inert Pair Effect",
+  "topic": "First-Row Anomalies & Inert Pair Effect",
+  "topics": [
+    "Causes of First-Row Anomalies (Small Size, High IE/EN, No d-Orbitals)",
+    "Maximum Covalency Rule (Period 2 Covalency Capped at 4)",
+    "p\u03c0-p\u03c0 Multiple Bonding Capabilities",
+    "Diagonal Relationships (Li ~ Mg, Be ~ Al, B ~ Si)",
+    "Inert Pair Effect Mechanism (Reluctance of 6s\u00b2 Electrons to Bond)",
+    "Heavy p-Block Oxidation State Stabilities & Redox Behavior"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "inert-pair-effect",
+  "quickSummary": "First-row elements (B, C, N, O, F) cannot expand octets due to the absence of d-orbitals. In heavy p-block (Tl, Pb, Bi), the Inert Pair Effect stabilizes lower oxidation states (Tl\u207a, Pb\u00b2\u207a, Bi\u00b3\u207a), making PbO\u2082 an oxidizing agent.",
+  "summary": "Master first-row element anomalies, octet expansion restrictions, diagonal relationships, and the Inert Pair Effect in heavy p-block chemistry.",
+  "conceptBreakdown": [
+    {
+      "heading": "7.1 Causes of Anomalous First-Row Behavior",
+      "title": "7.1 Causes of Anomalous First-Row Behavior",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "First-Row Anomalies",
+        "takeaway": "1. Exceptional small size; 2. High electronegativity/IE; 3. Complete absence of vacant d-orbitals (max covalency = 4, no octet expansion)."
+      },
+      "codeSnippet": "CAUSES OF ANOMALOUS FIRST-ROW BEHAVIOR\n                                     \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                               \u25bc                               \u25bc\nEXCEPTIONAL SMALL SIZE          HIGH ELECTRONEGATIVITY & IE    ABSENCE OF VACANT d-ORBITALS\nUnusually small atomic and      Strong electron attraction;    Valence shell limited to n=2;\nionic radii; high charge/size.  high covalent character.       Maximum Covalency = 4 (2s, 2p).",
+      "content": "\u2022 **Octet Expansion Restriction**: Heavier elements utilize vacant $d$-orbitals to expand valence shells ($\\text{SF}_6, \\text{PCl}_5, \\text{SiF}_6^{2-}$). First-row elements lack $2d$ orbitals; their maximum covalency is capped at **4** ($\\text{BF}_4^-$ exists, but $\\text{BF}_6^{3-}$ and $\\text{NCl}_5$ are IMPOSSIBLE).\n\u2022 **$p\\pi-p\\pi$ Multiple Bonding**: First-row elements readily form strong $p\\pi-p\\pi$ bonds ($\\text{C}=\\text{C}, \\text{N}\\equiv\\text{N}, \\text{C}=\\text{O}$). Heavier congeners overlap weakly and prefer single $\\sigma$-bonds."
+    },
+    {
+      "heading": "7.2 Diagonal Relationships & Inert Pair Effect",
+      "title": "7.2 Diagonal Relationships & Inert Pair Effect",
+      "type": "paragraph",
+      "codeSnippet": "STABILITY SPECTRUM (Heavy p-Block)\n                        \n   GROUP 13:   Al\u00b3\u207a > Ga\u00b3\u207a > In\u00b3\u207a > Tl\u207a > Tl\u00b3\u207a  (Tl\u207a is most stable)\n   GROUP 14:   C\u2074\u207a > Si\u2074\u207a > Ge\u2074\u207a > Sn\u2074\u207a > Pb\u00b2\u207a > Pb\u2074\u207a (Pb\u00b2\u207a is most stable)\n   GROUP 15:   N\u2075\u207a > P\u2075\u207a > As\u2075\u207a > Sb\u2075\u207a > Bi\u00b3\u207a > Bi\u2075\u207a (Bi\u00b3\u207a is most stable)",
+      "content": "\u2022 **Diagonal Relationships ($\\text{Li} \\sim \\text{Mg}, \\text{Be} \\sim \\text{Al}, \\text{B} \\sim \\text{Si}$)**: Arise because moving across a period increases $Z_{\\text{eff}}$ while moving down a group decreases it, giving diagonal pairs almost identical ionic radii and polarising power ($\\frac{\\text{Charge}}{\\text{Radius}^2}$).\n\n\u2022 **Inert Pair Effect**: Intervening $4f^{14}$ and $5d^{10}$ subshells shield poorly, drawing outer $6s^2$ electrons tightly toward the nucleus so they refuse to unpair and bond:\n- **Group 13**: $\\text{Tl}^+$ is much more stable than $\\text{Tl}^{3+}$.\n- **Group 14**: $\\text{Pb}^{2+}$ is much more stable than $\\text{Pb}^{4+}$. (Hence $\\text{PbO}_2$ is a strong oxidizing agent).\n- **Group 15**: $\\text{Bi}^{3+}$ is much more stable than $\\text{Bi}^{5+}$."
+    }
+  ],
+  "quickRevision": [
+    "Period 2 elements have max covalency = 4 (NCl\u2085 and BF\u2086\u00b3\u207b cannot exist).",
+    "Diagonal pairs: Li ~ Mg, Be ~ Al, B ~ Si.",
+    "Inert pair effect makes lower oxidation states (+1 for Tl, +2 for Pb, +3 for Bi) most stable.",
+    "PbO\u2082 (Pb\u2074\u207a) is a powerful oxidizing agent; SnCl\u2082 (Sn\u00b2\u207a) is a strong reducing agent."
+  ],
+  "keyFormulae": [
+    "Max Covalency for n=2 is 4",
+    "Polarising Power = Charge / Radius\u00b2",
+    "Inert Pair Stability: Tl\u207a > Tl\u00b3\u207a, Pb\u00b2\u207a > Pb\u2074\u207a, Bi\u00b3\u207a > Bi\u2075\u207a"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "chem-xii-u13-c4-l04",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XIII \u2014 d- and f-Block Elements",
+  "unitNumber": 13,
+  "chapter": "d- and f-Block Elements",
+  "chapterNumber": 4,
+  "chapterSlug": "d-and-f-block-elements",
+  "slug": "lesson-04-magnetism-colors-catalysis-interstitial-alloys",
+  "title": "Magnetism, d-d vs. LMCT Colors, Catalysis, & Interstitial Alloys",
+  "topic": "Magnetism, Colors, Catalysis & Alloys",
+  "topics": [
+    "4.1 Magnetic Properties & Spin-Only Formula: \u03bc_s = \u221a(n(n+2)) BM",
+    "Paramagnetism (n \u2265 1) vs Diamagnetism (n = 0)",
+    "4.2 Origin of Color: d-d Electronic Transitions vs Ligand-to-Metal Charge Transfer (LMCT)",
+    "Colorless Species (d\u2070 and d\u00b9\u2070 configurations: Sc\u00b3\u207a, Ti\u2074\u207a, V\u2075\u207a, Zn\u00b2\u207a, Cd\u00b2\u207a, Hg\u00b2\u207a, Cu\u207a)",
+    "4.3 Catalytic Mechanisms, Interstitial Compounds (TiC, Fe\u2083C, VH_0.56), & Solid-Solution Alloy Formation"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "d-and-f-block-elements",
+  "quickSummary": "Spin-only magnetic moment \u03bc_s = \u221a(n(n+2)) BM. Color arises from d-d transitions (incomplete d^(1-9)) or LMCT in d\u2070 ions with high metal OS (purple MnO\u2084\u207b, orange Cr\u2082O\u2087\u00b2\u207b). d\u2070 and d\u00b9\u2070 ions are colorless. Transition metals form interstitial compounds (hard, high MP, metallic conductivity) and alloys (Hume-Rothery radii match).",
+  "summary": "Master spin-only magnetic moment calculations, d-d vs LMCT color origins, interstitial compounds, and alloy formation rules.",
+  "conceptBreakdown": [
+    {
+      "heading": "4.1 Magnetic Properties & Spin-Only Formula",
+      "title": "4.1 Magnetic Properties & Spin-Only Formula",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Magnetic Moments",
+        "takeaway": "\u03bc_s = \u221a(n(n+2)) BM where n is number of unpaired electrons. (n=1 \u27f9 1.73 BM, n=2 \u27f9 2.84 BM, n=3 \u27f9 3.87 BM, n=4 \u27f9 4.90 BM, n=5 \u27f9 5.92 BM)."
+      },
+      "codeSnippet": "                     SPIN-ONLY MAGNETIC MOMENTS\n                     \n   $n = 1 \\implies \\mu_s = \\sqrt{3}  = \\mathbf{1.73\\text{ BM}}$   ($\\text{Ti}^{3+}, \\text{V}^{4+}, \\text{Cu}^{2+}$)\n   $n = 2 \\implies \\mu_s = \\sqrt{8}  = \\mathbf{2.84\\text{ BM}}$   ($\\text{V}^{3+}, \\text{Ni}^{2+}$)\n   $n = 3 \\implies \\mu_s = \\sqrt{15} = \\mathbf{3.87\\text{ BM}}$   ($\\text{V}^{2+}, \\text{Cr}^{3+}, \\text{Mn}^{4+}$)\n   $n = 4 \\implies \\mu_s = \\sqrt{24} = \\mathbf{4.90\\text{ BM}}$   ($\\text{Cr}^{2+}, \\text{Fe}^{2+}$)\n   $n = 5 \\implies \\mu_s = \\sqrt{35} = \\mathbf{5.92\\text{ BM}}$   ($\\text{Mn}^{2+}, \\text{Fe}^{3+}$)",
+      "content": "\u2022 **Paramagnetism**: Arises from unpaired electrons ($n \\ge 1$). Paramagnetic species are attracted into external magnetic fields.\n\u2022 **Diamagnetism**: Arises when all electrons are paired ($n = 0$). Diamagnetic species are weakly repelled by magnetic fields.\n\u2022 **Spin-Only Magnetic Moment ($\\mu_s$)**:\n$$\\mathbf{\\mu_s = \\sqrt{n(n+2)} \\text{ BM (Bohr Magnetons)}}$$"
+    },
+    {
+      "heading": "4.2 Mechanisms of Color Origin: d-d Transitions vs. LMCT",
+      "title": "4.2 Mechanisms of Color Origin: d-d Transitions vs. LMCT",
+      "type": "paragraph",
+      "codeSnippet": "                          ORIGIN OF COLOR IN d-BLOCK\n                                       \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                                                           \u25bc\n  $d-d$ ELECTRONIC TRANSITIONS                                LIGAND-TO-METAL CHARGE TRANSFER (LMCT)\n  Operates in ions with incomplete $d^{1-9}$ subshells.       Operates in $d^0$ ions with high metal oxidation states.\n  \u251c\u2500\u2500 Ligand field splits $d$-orbitals ($t_{2g}$ & $e_g$).   \u251c\u2500\u2500 Electron transiently moves from Ligand \u2500\u2500\u25ba Metal.\n  \u251c\u2500\u2500 Electron absorbs visible $\\lambda$, promoting $t_{2g} \\to e_g$.\u2514\u2500\u2500 **Intense, deep coloration** (*No $d-d$ transition!*).\n  \u2514\u2500\u2500 Examples: $\\text{Cu}^{2+}$ (Blue), $\\text{Fe}^{3+}$ (Yellow), $\\text{Cr}^{3+}$ (Green)\u2514\u2500\u2500 Examples: **$\\text{MnO}_4^-$ (Deep Purple)**, **$\\text{Cr}_2\\text{O}_7^{2-}$ (Orange)**",
+      "content": "\u2022 **$d-d$ Electronic Transitions**: Ligand fields split d-orbitals into $t_{2g}$ and $e_g$ sets. Visible light absorption promotes electrons between split levels (e.g., $\\text{Cu}^{2+}$ blue, $\\text{Cr}^{3+}$ green).\n\u2022 **Ligand-to-Metal Charge Transfer (LMCT)**: In $d^0$ systems with high metal oxidation states, color is caused by transient electron transfer from oxygen $2p$ to vacant metal $3d$ orbitals (e.g., $\\text{MnO}_4^-$ intense purple, $\\text{Cr}_2\\text{O}_7^{2-}$ orange).\n\u2022 **Colorless Ions**: $d^0$ ($\\text{Sc}^{3+}, \\text{Ti}^{4+}, \\text{V}^{5+}$) and $d^{10}$ ($\\text{Zn}^{2+}, \\text{Cd}^{2+}, \\text{Hg}^{2+}, \\text{Cu}^+$) lack incomplete d-orbitals and are colorless."
+    },
+    {
+      "heading": "4.3 Catalysis, Interstitial Compounds, & Alloys",
+      "title": "4.3 Catalysis, Interstitial Compounds, & Alloys",
+      "type": "paragraph",
+      "codeSnippet": "CATALYTIC, INTERSTITIAL, & ALLOY PROPERTIES\n\n1. Catalysis: Variable oxidation states form intermediates (V\u2082O\u2085 in Contact process, Fe in Haber, Raney Ni, TiCl\u2084 + Al(C\u2082H\u2085)\u2083 Ziegler-Natta).\n2. Interstitial Compounds: Non-metal atoms (H, C, N, B) trapped in voids (TiC, Mn\u2084N, Fe\u2083C, VH_0.56). Properties: non-stoichiometric, extreme hardness, high MP, retain metallic conductivity.\n3. Alloys: Atomic radii differ by <15% (Hume-Rothery rules), enabling solid solutions (Brass [Cu-Zn], Bronze [Cu-Sn], Stainless Steel [Fe-Cr-Ni]).",
+      "content": "Transition metals excel as industrial catalysts, form non-stoichiometric interstitial compounds with retained electrical conductivity, and easily form homogeneous alloys due to similar atomic radii."
+    }
+  ],
+  "quickRevision": [
+    "\u03bc_s = \u221a(n(n+2)) BM.",
+    "Color in d\u00b9-d\u2079 ions is from d-d transitions.",
+    "Color in d\u2070 ions (MnO\u2084\u207b, Cr\u2082O\u2087\u00b2\u207b) is from Ligand-to-Metal Charge Transfer (LMCT).",
+    "d\u2070 and d\u00b9\u2070 ions are colorless (no d-d transitions).",
+    "Interstitial compounds retain metallic conductivity and have high hardness/MPs."
+  ],
+  "keyFormulae": [
+    "\\mu_s = \\sqrt{n(n+2)} \\text{ BM}",
+    "\\text{Bohr Magneton: } 1\\text{ BM} = \\frac{eh}{4\\pi m_e} = 9.274 \\times 10^{-24}\\text{ J/T}"
+  ]
+}

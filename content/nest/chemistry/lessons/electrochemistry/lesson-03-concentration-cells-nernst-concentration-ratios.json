@@ -1,0 +1,59 @@
+{
+  "id": "chem-xii-u11-c2-l03",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XI \u2014 Electrochemistry",
+  "unitNumber": 11,
+  "chapter": "Electrochemistry",
+  "chapterNumber": 2,
+  "chapterSlug": "electrochemistry",
+  "slug": "lesson-03-concentration-cells-nernst-concentration-ratios",
+  "title": "Concentration Cells & Nernst Concentration Ratios",
+  "topic": "Concentration Cells & pH Sensors",
+  "topics": [
+    "Concentration Cells Definition and Characteristic: E\u00b0_cell = 0",
+    "Nernst Potential for Concentration Cells: E_cell = (0.05916 / n) log\u2081\u2080 (C_2 / C_1)",
+    "Spontaneity Requirement (C_2 > C_1)",
+    "Hydrogen Concentration Cells and pH Determination Mechanics"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "electrochemistry",
+  "quickSummary": "Concentration cells use identical electrodes (E\u00b0_cell = 0). E_cell = (0.05916/n) log\u2081\u2080(C_2/C_1). Spontaneous when C_2 > C_1. Used in electrochemical pH meters: E_cell = 0.0591 \u00d7 (pH_anode - pH_cathode).",
+  "summary": "Master concentration cell potential equations, concentration ratio limits, and electrochemical pH sensor principles.",
+  "conceptBreakdown": [
+    {
+      "heading": "3.1 Concentration Cell Mechanics & Equations",
+      "title": "3.1 Concentration Cell Mechanics & Equations",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Concentration Cells",
+        "takeaway": "E\u00b0_cell = 0 because electrodes are identical. E_cell = (0.05916/n) log\u2081\u2080(C_cathode / C_anode). Spontaneous if C_cathode > C_anode."
+      },
+      "codeSnippet": "CONCENTRATION CELL NOTATION\n\nM(s) | M\u207f\u207a(aq, C\u2081) || M\u207f\u207a(aq, C\u2082) | M(s)\n\nAnode:   M(s) \u2500\u2500\u25ba M\u207f\u207a(C\u2081) + ne\u207b\nCathode: M\u207f\u207a(C\u2082) + ne\u207b \u2500\u2500\u25ba M(s)\nNet:     M\u207f\u207a(C\u2082) \u21cc M\u207f\u207a(C\u2081)\n\nE_cell = (0.05916 / n) log\u2081\u2080 (C\u2082 / C\u2081)",
+      "content": "A Concentration Cell consists of identical electrodes immersed in solutions of the same electrolyte at different concentrations ($C_1 \\neq C_2$).\n\u2022 Because the electrodes are identical, $\\mathbf{E^\\circ_{\\text{cell}} = 0}$.\n\u2022 The cell potential is driven solely by concentration gradient: $\\mathbf{E_{\\text{cell}} = \\frac{0.05916}{n} \\log_{10} \\left( \\frac{C_2}{C_1} \\right)}$.\n\u2022 For spontaneous discharge, $\\mathbf{C_2 > C_1}$ (cathode concentration must be higher than anode)."
+    },
+    {
+      "heading": "3.2 Hydrogen Concentration Cells & pH Measurement",
+      "title": "3.2 Hydrogen Concentration Cells & pH Measurement",
+      "type": "paragraph",
+      "codeSnippet": "HYDROGEN CONCENTRATION CELL & pH\n\nPt | H\u2082(1 bar) | H\u207a(pH\u2081) || H\u207a(pH\u2082) | H\u2082(1 bar) | Pt\n\nE_cell = 0.05916 \u00d7 log\u2081\u2080 ([H\u207a]\u2082 / [H\u207a]\u2081) = 0.05916 \u00d7 (pH\u2081 - pH\u2082)",
+      "content": "Hydrogen concentration cells are used in electrochemical $\\text{pH}$ meters. If the cathode is standard $1.0\\text{ M } \\text{H}^+$ ($\\text{pH} = 0$), then $E_{\\text{cell}} = 0.05916 \\times \\text{pH}_{\\text{anode}}$."
+    }
+  ],
+  "quickRevision": [
+    "E\u00b0_cell = 0 for all concentration cells.",
+    "E_cell = (0.05916/n) log\u2081\u2080(C_cathode / C_anode).",
+    "Spontaneous only when C_cathode > C_anode.",
+    "E_cell = 0.05916 \u00d7 (pH_anode - pH_cathode)."
+  ],
+  "keyFormulae": [
+    "E_{\\text{cell}} = \\frac{0.05916}{n} \\log_{10} \\left( \\frac{C_{\\text{cathode}}}{C_{\\text{anode}}} \\right)",
+    "E_{\\text{cell}} = 0.05916 \\times (\\text{pH}_1 - \\text{pH}_2)"
+  ]
+}

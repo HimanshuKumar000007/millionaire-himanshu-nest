@@ -1,0 +1,165 @@
+{
+  "id": "bio-xi-biological-classification-s1",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit I — Diversity of Living Organisms",
+  "unitNumber": 1,
+  "chapter": "Biological Classification",
+  "chapterNumber": 2,
+  "chapterSlug": "biological-classification",
+  "slug": "lesson-01-systems-overview",
+  "title": "Systems of Classification & Historical Development",
+  "topic": "Historical Systems & Five Kingdom Criteria",
+  "topics": [
+    "Aristotle to Linnaeus Two-Kingdom System",
+    "Haeckel, Copeland, & Whittaker Schemes",
+    "Whittaker's Five Classification Criteria",
+    "Deep-Dive Five Kingdom Comparative Matrix"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "heroImage": "/images/biological_classification.jpg",
+  "quickSummary": "Biological classification organizes Earth's biodiversity into stable taxa that reflect evolutionary descent. Robert H. Whittaker (1969) established the 5-Kingdom system based on cell complexity, body organization, mode of nutrition, reproduction, and phylogenetic relationships.",
+  "summary": "Biological classification organizes Earth's biodiversity into stable taxa that reflect evolutionary descent. Robert H. Whittaker (1969) established the 5-Kingdom system based on cell complexity, body organization, mode of nutrition, reproduction, and phylogenetic relationships.",
+  "conceptBreakdown": [
+    {
+      "heading": "Systems of Classification & Historical Development",
+      "title": "Systems of Classification & Historical Development",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Biological classification has evolved from empirical, human-centric groupings to phylogenetic, molecularly driven frameworks to organize Earth's biodiversity into stable taxa that reflect evolutionary descent (cladogenesis)."
+      },
+      "content": "Biological classification has evolved from empirical, human-centric groupings to phylogenetic, molecularly driven frameworks. The goal of biological classification is to organize Earth’s biodiversity into stable taxa that reflect evolutionary descent (cladogenesis)."
+    },
+    {
+      "heading": "Historical Systems of Classification",
+      "title": "Historical Systems of Classification",
+      "type": "paragraph",
+      "diagramType": "branching-tree",
+      "treeData": {
+        "badgeText": "CHAPTER 2: CLASSIFICATION SYSTEMS",
+        "title": "HISTORICAL SYSTEMS OF CLASSIFICATION",
+        "subtitle": "Evolution from empirical two-kingdom groupings to 16S/18S rRNA phylogenetic molecular clocks",
+        "takeawayText": "NEST Concept: Linnaeus (2 Kingdoms) → Haeckel (3) → Copeland (4) → Whittaker (5) → Woese (3 Domains / 6 Kingdoms)",
+        "branches": [
+          {
+            "title": "TWO-KINGDOM SYSTEM",
+            "subtitle": "Carl Linnaeus (1758)",
+            "badge": "Linnaean",
+            "iconName": "TreePine",
+            "accentColor": "indigo",
+            "items": [
+              { "text": "• Kingdom Plantae" },
+              { "text": "• Kingdom Animalia" }
+            ],
+            "note": "Deficiency: Grouped fungi with plants, prokaryotes (bacteria) with complex eukaryotes, and unicellular with multicellular organisms.",
+            "footer": "Basic Anatomical Habit & Locomotion"
+          },
+          {
+            "title": "FIVE-KINGDOM SYSTEM",
+            "subtitle": "R. H. Whittaker (1969)",
+            "badge": "Standard NCERT",
+            "iconName": "Layers",
+            "accentColor": "purple",
+            "items": [
+              { "text": "1. Monera (Prokaryotes)", "badge": "Cellular" },
+              { "text": "2. Protista (Unicell Eukaryotes)", "badge": "Cellular" },
+              { "text": "3. Fungi (Absorptive Heterotroph)", "badge": "Mycelial" },
+              { "text": "4. Plantae (Photosynthetic)", "badge": "Tissue/Organ" },
+              { "text": "5. Animalia (Ingestive)", "badge": "Organ System" }
+            ],
+            "footer": "5 Criteria: Cell, Body, Nutrition, Reproduction, Phylogeny"
+          },
+          {
+            "title": "THREE-DOMAIN SYSTEM",
+            "subtitle": "Carl Woese et al. (1990)",
+            "badge": "Molecular Clock",
+            "iconName": "Dna",
+            "accentColor": "emerald",
+            "items": [
+              { "text": "• Domain Bacteria (Eubacteria)" },
+              { "text": "• Domain Archaea (Extremophiles)" },
+              { "text": "• Domain Eukarya (4 Eukaryotic Kingdoms)" }
+            ],
+            "note": "Based on 16S/18S rRNA small subunit gene sequencing. Split Monera into 2 separate domains.",
+            "footer": "Molecular Phylogeny & 16S/18S rRNA Clock"
+          }
+        ]
+      },
+      "content": "From Linnaeus's early two-kingdom morphology to Carl Woese's three-domain molecular ribosomal framework, biological classification has progressively refined the boundaries separating major lineages of life."
+    },
+    {
+      "heading": "1.1 Chronological Evolution of Classificatory Systems",
+      "title": "1.1 Chronological Evolution of Classificatory Systems",
+      "type": "paragraph",
+      "content": "Biological classification progressed through six key chronological milestones, advancing from gross habit observation to deep molecular phylogenetics:",
+      "listPills": [
+        {
+          "title": "1. Aristotle (384–322 BCE) — First Scientific Attempt",
+          "text": "Plants categorized by anatomical habit: Herbs, Shrubs, and Trees. Animals categorized by red blood presence: Enaima (vertebrates with red blood) and Anaima (invertebrates without red blood)."
+        },
+        {
+          "title": "2. Two-Kingdom System — Carl Linnaeus (1758)",
+          "text": "Divided life into Kingdom Plantae and Kingdom Animalia. Core Deficiency: Grouped photosynthetic autotrophs (plants) with heterotrophic saprotrophs (fungi); grouped unicellular prokaryotes (bacteria) with complex multicellular eukaryotes (flowering plants); failed to distinguish unicellular from multicellular organisms."
+        },
+        {
+          "title": "3. Three-Kingdom System — Ernst Haeckel (1866)",
+          "text": "Created Kingdom Protista to accommodate microscopic, unicellular or simple colonial organisms lacking tissue differentiation (bacteria, algae, fungi, protozoa)."
+        },
+        {
+          "title": "4. Four-Kingdom System — Herbert F. Copeland (1956)",
+          "text": "Created Kingdom Mychota (later renamed Monera) to separate prokaryotic organisms (lacking a membrane-enclosed nucleus) from eukaryotic protists."
+        },
+        {
+          "title": "5. Five-Kingdom System — Robert H. Whittaker (1969)",
+          "text": "Divided all living organisms into Monera, Protista, Fungi, Plantae, and Animalia based on five fundamental biological criteria."
+        },
+        {
+          "title": "6. Six-Kingdom / Three-Domain System — Carl Woese et al. (1990)",
+          "text": "Split Kingdom Monera into Domain Bacteria (Eubacteria) and Domain Archaea (Archaebacteria) based on 16S rRNA small subunit gene sequencing, establishing the three primary evolutionary domains: Bacteria, Archaea, and Eukarya."
+        }
+      ]
+    },
+    {
+      "heading": "1.2 Whittaker’s Five Criteria for Kingdom Assignment",
+      "title": "1.2 Whittaker’s Five Criteria for Kingdom Assignment",
+      "type": "paragraph",
+      "diagramType": "whittaker-criteria",
+      "content": "Robert H. Whittaker (1969) formulated the Five-Kingdom classification based on five fundamental biological criteria:",
+      "listPills": [
+        {
+          "title": "1. Complexity of Cell Structure",
+          "text": "Prokaryotic (lacking a nuclear membrane and membrane-bound organelles) vs. Eukaryotic (possessing a true membrane-enclosed nucleus and specialized organelles)."
+        },
+        {
+          "title": "2. Complexity of Body Organization",
+          "text": "Unicellular (cellular grade) vs. Multicellular / Tissue-level / Organ-system level organization."
+        },
+        {
+          "title": "3. Mode of Nutrition (Primary Major Lineage Distinction)",
+          "text": "Holophytic / Photosynthetic (Autotrophic - Plantae), Absorptive / Saprotrophic (Heterotrophic - Fungi), and Holozoic / Ingestive (Heterotrophic - Animalia)."
+        },
+        {
+          "title": "4. Primary Reproduction Strategy",
+          "text": "Asexual division, vegetative propagation, or complex sexual cycles involving syngamy, meiosis, and gametic fusion."
+        },
+        {
+          "title": "5. Phylogenetic / Evolutionary Relationships",
+          "text": "Inferred lines of common ancestry and evolutionary cladogenesis based on comparative morphology, cytogenetics, and fossil records."
+        }
+      ]
+    },
+    {
+      "heading": "1.3 Deep-Dive Comparison of Whittaker’s Five Kingdoms",
+      "title": "1.3 Deep-Dive Comparison of Whittaker’s Five Kingdoms",
+      "type": "table",
+      "content": "| Feature | Monera | Protista | Fungi | Plantae | Animalia |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Cell Type** | Prokaryotic | Eukaryotic | Eukaryotic | Eukaryotic | Eukaryotic |\n| **Cell Wall Structure** | Non-cellulosic (**Peptidoglycan** / Polysaccharide + amino acids) | Present in some (e.g., cellulose in dinoflagellates; silica in diatoms); absent in others | Present; composed of **Chitin** ($\\beta$-1,4-$N$-acetylglucosamine) | Present; composed of **Cellulose**, hemicellulose, and pectin | **Absent** entirely |\n| **Nuclear Membrane** | **Absent** | Present | Present | Present | Present |\n| **Body Organization** | Cellular (Unicellular / Colonial / Filamentous) | Cellular (Unicellular / Simple colonial) | Multicellular / Loose tissue (**Mycelial**) | Tissue / Organ level | Tissue / Organ / Organ System level |\n| **Mode of Nutrition** | Autotrophic (phototrophic/chemotrophic) AND Heterotrophic (saprophytic/parasitic) | Autotrophic (photosynthetic) AND Heterotrophic (holozoic/saprophytic/parasitic/mixotrophic) | Heterotrophic (**Absorptive Saprophytic** or Parasitic) | Autotrophic (**Photosynthetic / Holophytic**) | Heterotrophic (**Holozoic / Ingestive**) |\n| **Motility / Locomotor Structures** | Flagella (flagellin protein), gliding, or non-motile | Cilia, flagella (9+2 tubulin), pseudopodia, or non-motile | Non-motile (except zoosporic stages in Chytrids) | Generally non-motile (except motile gametes in lower plants) | Highly motile via neuromuscular systems |"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "chem-xi-u6-c6-l06",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VI \u2014 Equilibrium",
+  "unitNumber": 6,
+  "chapter": "Equilibrium",
+  "chapterNumber": 6,
+  "chapterSlug": "equilibrium",
+  "slug": "lesson-06-salt-hydrolysis-mechanics-ph-formulas",
+  "title": "Salt Hydrolysis Mechanics & Exact pH Derivation Formulas",
+  "topic": "Salt Hydrolysis",
+  "topics": [
+    "Salt Hydrolysis Classification Types",
+    "Comprehensive Hydrolysis Derivation Matrix",
+    "Strong Acid + Strong Base (NaCl, pH = 7.00)",
+    "Weak Acid + Strong Base (CH\u2083COONa, pH = 1/2 [pK_w + pK_a + log\u2081\u2080 C])",
+    "Strong Acid + Weak Base (NH\u2084Cl, pH = 1/2 [pK_w - pK_b - log\u2081\u2080 C])",
+    "Weak Acid + Weak Base (CH\u2083COONH\u2084, pH = 1/2 [pK_w + pK_a - pK_b], Concentration-Independent!)"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "salt-hydrolysis",
+  "quickSummary": "Salt hydrolysis alters water pH balance. SA+SB: pH = 7.00. WA+SB: pH = 1/2 [pK_w + pK_a + log C] (>7). SA+WB: pH = 1/2 [pK_w - pK_b - log C] (<7). WA+WB: pH = 1/2 [pK_w + pK_a - pK_b] (independent of concentration C!).",
+  "summary": "Master hydrolysis constant derivations, degrees of hydrolysis, and exact pH formulas for all four salt types.",
+  "conceptBreakdown": [
+    {
+      "heading": "6.1 Salt Hydrolysis Classification",
+      "title": "6.1 Salt Hydrolysis Classification",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Hydrolysis Types",
+        "takeaway": "WA-SB: pH > 7. SA-WB: pH < 7. WA-WB: pH depends on pK_a - pK_b (independent of C!)."
+      },
+      "codeSnippet": "SALT HYDROLYSIS TYPES\n                                      \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                  \u25bc                           \u25bc                  \u25bc\nSTRONG ACID +          WEAK ACID +                 STRONG ACID +       WEAK ACID +\nSTRONG BASE            STRONG BASE                 WEAK BASE           WEAK BASE\n(e.g., NaCl)           (e.g., CH\u2083COONa)            (e.g., NH\u2084Cl)       (e.g., CH\u2083COONH\u2084)\n\u251c\u2500\u2500 NO Hydrolysis      \u251c\u2500\u2500 Anionic Hydrolysis      \u251c\u2500\u2500 Cationic Hydrolysis\u251c\u2500\u2500 Both Hydrolyze\n\u2514\u2500\u2500 Neutral (pH=7)     \u2514\u2500\u2500 Alkaline (pH > 7)       \u2514\u2500\u2500 Acidic (pH < 7) \u2514\u2500\u2500 pH depends on K_a/K_b",
+      "content": "Salt hydrolysis is the interaction of salt cations or anions with water to alter the $[\\text{H}^+] / [\\text{OH}^-]$ balance, yielding acidic, basic, or neutral solutions."
+    },
+    {
+      "heading": "6.2 Comprehensive Hydrolysis Derivation Matrix",
+      "title": "6.2 Comprehensive Hydrolysis Derivation Matrix",
+      "type": "paragraph",
+      "content": "1. **Strong Acid + Strong Base (SA + SB)** (e.g., $\\text{NaCl}$): No Hydrolysis, $h = 0$, $[\\text{H}^+] = 10^{-7}\\text{ M} \\implies \\mathbf{\\text{pH} = \\frac{1}{2} \\text{p}K_w = 7.00}$ (Neutral).\n\n2. **Weak Acid + Strong Base (WA + SB)** (e.g., $\\text{CH}_3\\text{COONa}$): Anionic Hydrolysis ($K_h = K_w/K_a$), $h = \\sqrt{K_w / (K_a C)}$, $[\\text{OH}^-] = \\sqrt{(K_w C)/K_a} \\implies \\mathbf{\\text{pH} = \\frac{1}{2} [\\text{p}K_w + \\text{p}K_a + \\log_{10} C]}$ (Basic, $>7$).\n\n3. **Strong Acid + Weak Base (SA + WB)** (e.g., $\\text{NH}_4\\text{Cl}$): Cationic Hydrolysis ($K_h = K_w/K_b$), $h = \\sqrt{K_w / (K_b C)}$, $[\\text{H}^+] = \\sqrt{(K_w C)/K_b} \\implies \\mathbf{\\text{pH} = \\frac{1}{2} [\\text{p}K_w - \\text{p}K_b - \\log_{10} C]}$ (Acidic, $<7$).\n\n4. **Weak Acid + Weak Base (WA + WB)** (e.g., $\\text{CH}_3\\text{COONH}_4$): Both Cation & Anion Hydrolyze ($K_h = K_w / (K_a K_b)$), $h = \\sqrt{K_w / (K_a K_b)}$ (No $C$!), $[\\text{H}^+] = \\sqrt{(K_w K_a)/K_b} \\implies \\mathbf{\\text{pH} = \\frac{1}{2} [\\text{p}K_w + \\text{p}K_a - \\text{p}K_b]}$ (Concentration Independent!)."
+    }
+  ],
+  "quickRevision": [
+    "NaCl: No hydrolysis, pH = 7.00.",
+    "CH\u2083COONa: Anionic hydrolysis, pH = 1/2 [pK_w + pK_a + log C] > 7.",
+    "NH\u2084Cl: Cationic hydrolysis, pH = 1/2 [pK_w - pK_b - log C] < 7.",
+    "CH\u2083COONH\u2084: pH = 1/2 [pK_w + pK_a - pK_b] (independent of C).",
+    "Hydrolysis degree h = \u221a(K_h / C) for single-ion hydrolysis."
+  ],
+  "keyFormulae": [
+    "pH = 1/2 [pK_w + pK_a + log\u2081\u2080 C] (WA + SB)",
+    "pH = 1/2 [pK_w - pK_b - log\u2081\u2080 C] (SA + WB)",
+    "pH = 1/2 [pK_w + pK_a - pK_b] (WA + WB)"
+  ]
+}

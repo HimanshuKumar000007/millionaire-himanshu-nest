@@ -1,0 +1,59 @@
+{
+  "id": "chem-xi-u1-c1-l06",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit I \u2014 Some Basic Concepts of Chemistry",
+  "unitNumber": 1,
+  "chapter": "Some Basic Concepts of Chemistry",
+  "chapterNumber": 1,
+  "chapterSlug": "some-basic-concepts-of-chemistry",
+  "slug": "lesson-06-stoichiometry-limiting-reagents",
+  "title": "Stoichiometry, Limiting Reagent Protocol & Reaction Yields",
+  "topic": "Stoichiometry & calculations",
+  "topics": [
+    "The Stoichiometric Conversion Bridge",
+    "3-Step Limiting Reagent (LR) Protocol",
+    "Theoretical vs Actual Yield (% Yield)",
+    "Reactant Sample Purity (% Purity)"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 7,
+  "estimatedTimeMinutes": 7,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "limiting-reagent",
+  "quickSummary": "Stoichiometry evaluates quantitative reactant-product relationships. The limiting reagent is determined by the minimum stoichiometric ratio (n_initial / coefficient) and dictates the theoretical yield of products.",
+  "summary": "Master the step-by-step limiting reagent identification protocol and sample purity calculations.",
+  "conceptBreakdown": [
+    {
+      "heading": "7. The Stoichiometric Conversion Bridge",
+      "title": "7. The Stoichiometric Conversion Bridge",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Stoichiometry Conversion Path",
+        "takeaway": "Mass A (g) \u2192 Moles A (n_A = w_A / M_A) \u2192 Moles B (n_B = n_A \u00b7 b/a) \u2192 Mass B (w_B = n_B \u00b7 M_B)."
+      },
+      "codeSnippet": "STOICHIOMETRIC CONVERSION BRIDGE\n                      \n   Mass Reactant A (g) \u2500\u2500\u25ba Moles A ($n_A = w_A/M_A$) \u2500\u2500\u25ba Moles B ($n_B = n_A \\cdot \\frac{b}{a}$) \u2500\u2500\u25ba Mass B ($w_B = n_B M_B$)",
+      "content": "For a balanced chemical equation: $a A + b B \\longrightarrow c C + d D$\n\nStoichiometry connects quantities through molar relationships. Always convert given reactant quantities into moles before applying stoichiometric coefficients."
+    },
+    {
+      "heading": "7.1 The Limiting Reagent (LR) Protocol",
+      "title": "7.1 The Limiting Reagent (LR) Protocol",
+      "type": "paragraph",
+      "content": "The Limiting Reagent is the reactant completely consumed first, placing an absolute upper bound on product yield.\n\n**3-Step Protocol**:\n1. Calculate initial moles available for each reactant ($n_A$ and $n_B$).\n2. Divide moles by balanced stoichiometric coefficients: $\\frac{n_A}{a}$ and $\\frac{n_B}{b}$.\n3. Compare:\n   \u2022 If $\\frac{n_A}{a} < \\frac{n_B}{b} \\implies \\mathbf{A\\text{ is the Limiting Reagent (LR)}}$.\n   \u2022 If $\\frac{n_B}{b} < \\frac{n_A}{a} \\implies \\mathbf{B\\text{ is the Limiting Reagent (LR)}}$.\n   \u2022 If $\\frac{n_A}{a} = \\frac{n_B}{b} \\implies \\text{Stoichiometric proportion (both consumed completely)}.$"
+    },
+    {
+      "heading": "7.2 Reaction Yields & Sample Purity",
+      "title": "7.2 Reaction Yields & Sample Purity",
+      "type": "paragraph",
+      "content": "\u2022 **Percentage Yield**:\n$$\\mathbf{\\% \\text{ Yield} = \\frac{\\text{Actual Experimental Yield}}{\\text{Theoretical Calculated Yield}} \\times 100}$$\n\n\u2022 **Percentage Purity**:\n$$\\mathbf{\\% \\text{ Purity} = \\frac{\\text{Mass of Pure Reactive Component}}{\\text{Total Mass of Impure Sample}} \\times 100}$$"
+    }
+  ],
+  "quickRevision": [
+    "Limiting reagent is identified by min(n_initial / coefficient).",
+    "Theoretical yield is calculated strictly from the limiting reagent.",
+    "% Yield = (Actual Yield / Theoretical Yield) \u00d7 100."
+  ]
+}

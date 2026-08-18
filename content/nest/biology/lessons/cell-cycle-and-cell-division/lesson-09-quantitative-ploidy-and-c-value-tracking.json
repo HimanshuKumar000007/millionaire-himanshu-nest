@@ -1,0 +1,50 @@
+{
+  "id": "bio-xi-u3-c10-l09",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Cell Cycle and Cell Division",
+  "chapterNumber": 10,
+  "chapterSlug": "cell-cycle-and-cell-division",
+  "slug": "lesson-09-quantitative-ploidy-and-c-value-tracking",
+  "title": "Quantitative Ploidy & C-Value Tracking Across Cell Divisions",
+  "topic": "Ploidy (n), DNA Mass (C), Chromosome vs Chromatid Counts, & Numerical Problem Solving",
+  "topics": [
+    "Definition of Ploidy (n) vs DNA Content (C-Value)",
+    "Human Chromosome and Chromatid Tracking Across All 10 Stages",
+    "G1, S, G2 Interphase Transitions (2n, 2C -> 2n, 4C)",
+    "Mitotic Progression (Metaphase 2n, 4C -> Anaphase 4n, 4C -> Daughter 2n, 2C)",
+    "Meiosis I Reduction (Metaphase I 2n, 4C -> Telophase I n, 2C)",
+    "Meiosis II Equational Split (Anaphase II 2n, 2C -> Gamete n, C)",
+    "Numerical Formula Shortcuts for NEST/INBO Calculations"
+  ],
+  "order": 9,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Ploidy (n) represents chromosome number, while C-value represents nuclear DNA mass. In humans (2n=46): G1 has 46 chromosomes (2C). S-phase doubles DNA to 4C (92 chromatids) while chromosomes remain 2n=46. Mitotic anaphase temporarily has 92 chromosomes (4n, 4C) as centromeres split. Meiosis I separates homologues to produce cells with n=23 chromosomes (2C). Anaphase II temporarily doubles chromosome count to 46 before cytokinesis yields 4 gametes with n=23 and 1C DNA mass.",
+  "summary": "Ploidy (n) represents chromosome number, while C-value represents nuclear DNA mass. In humans (2n=46): G1 has 46 chromosomes (2C). S-phase doubles DNA to 4C (92 chromatids) while chromosomes remain 2n=46. Mitotic anaphase temporarily has 92 chromosomes (4n, 4C) as centromeres split. Meiosis I separates homologues to produce cells with n=23 chromosomes (2C). Anaphase II temporarily doubles chromosome count to 46 before cytokinesis yields 4 gametes with n=23 and 1C DNA mass.",
+  "conceptBreakdown": [
+    {
+      "heading": "6. Ploidy & C-Value Master Tracking Matrix",
+      "title": "6. Ploidy & C-Value Master Tracking Matrix",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "DNA doubles in S-phase (2C -> 4C). Chromosome count halves in Anaphase I (2n -> n). Sister chromatids separate in Anaphase II (2C -> C)."
+      },
+      "codeSnippet": "PLOIDY (n) AND DNA (C) SPECTRUM\n                        \n   STAGE               PLOIDY (n)     DNA CONTENT (C)     HUMAN CHROMOSOME / CHROMATID COUNT\n   G₁ Phase                2n               2C            46 Chromosomes / 46 Chromatids\n   S Phase                 2n            2C ──► 4C        46 Chromosomes / 46 ──► 92 Chromatids\n   G₂ Phase                2n               4C            46 Chromosomes / 92 Chromatids\n   Mitotic Metaphase       2n               4C            46 Chromosomes / 92 Chromatids\n   Mitotic Anaphase        4n               4C            92 Chromosomes / 92 Chromatids\n   Telophase Daughter      2n               2C            46 Chromosomes / 46 Chromatids\n   Meiosis I Metaphase I   2n               4C            46 Chromosomes / 92 Chromatids\n   Meiosis I Telophase I   n                2C            23 Chromosomes / 46 Chromatids\n   Meiosis II Anaphase II  2n               2C            46 Chromosomes / 46 Chromatids\n   Meiotic Gamete          n                C             23 Chromosomes / 23 Chromatids",
+      "content": "Understanding the exact relationship between **chromosome number ($n$)** and **nuclear DNA mass ($C$)** is the cornerstone of solving quantitative genetics and cell division problems in NEST and INBO exams."
+    },
+    {
+      "heading": "Numerical Calculations & Problem Solving Rules",
+      "title": "Numerical Calculations & Problem Solving Rules",
+      "type": "paragraph",
+      "content": "1. **Rule 1**: Counting centromeres gives the exact chromosome number. Counting individual DNA strands/arms gives the chromatid count.\n2. **Rule 2**: In S-phase, DNA replication doubles the mass ($2C \\rightarrow 4C$), but creates attached sister chromatids, leaving the chromosome count ($2n$) constant.\n3. **Rule 3**: In Anaphase of Mitosis and Anaphase II of Meiosis, splitting of centromeres temporarily doubles the apparent chromosome number within that single dividing cell before cytokinesis completes.\n4. **Rule 4**: In Meiosis I, reduction occurs because whole duplicated chromosomes move to opposite poles ($2n, 4C \\rightarrow 2 \\times [n, 2C]$)."
+    }
+  ]
+}

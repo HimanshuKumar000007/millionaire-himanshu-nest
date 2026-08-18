@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u9-c9-l03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit IX — Biotechnology",
+  "unitNumber": 9,
+  "chapter": "Biotechnology: Principles and Processes",
+  "chapterNumber": 9,
+  "chapterSlug": "biotechnology-principles-and-processes",
+  "slug": "lesson-03-cloning-vectors-anatomy-of-pbr322-and-ti-plasmid",
+  "title": "Cloning Vectors: Anatomy of pBR322 & Ti Plasmid",
+  "topic": "Ori, Selectable Markers, MCS, pBR322 Map, Agrobacterium Ti Plasmid, & Disarmed Retroviruses",
+  "order": 3,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Cloning vectors must possess: (1) Ori (Origin of Replication controlling copy number); (2) Selectable markers (ampR, tetR); (3) Unique restriction cloning sites; (4) Low molecular weight. pBR322 (4361 bp): ampR (Pst I, Pvu I), tetR (Bam HI, Sal I), Rop (Pvu II), and Ori. Plant vector: Ti plasmid of Agrobacterium tumefaciens with disarmed T-DNA. Animal vector: Disarmed retroviruses.",
+  "summary": "Cloning vectors must possess: (1) Ori (Origin of Replication controlling copy number); (2) Selectable markers (ampR, tetR); (3) Unique restriction cloning sites; (4) Low molecular weight. pBR322 (4361 bp): ampR (Pst I, Pvu I), tetR (Bam HI, Sal I), Rop (Pvu II), and Ori. Plant vector: Ti plasmid of Agrobacterium tumefaciens with disarmed T-DNA. Animal vector: Disarmed retroviruses.",
+  "conceptBreakdown": [
+    {
+      "heading": "Essential Vector Features & Anatomy of pBR322",
+      "title": "Essential Vector Features & Anatomy of pBR322",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Cloning vectors require an Ori (copy number control), selectable markers (ampR, tetR), and unique restriction sites. pBR322 contains ampR (Pst I/Pvu I), tetR (Bam HI/Sal I), and Rop (Pvu II). Disarmed Ti plasmids (Agrobacterium) transform plants, while disarmed retroviruses transform mammals."
+      },
+      "codeSnippet": "pBR322 RESTRICTION MAP\n                         \n                                [ Pst I, Pvu I ]\n                                       │\n                                  ┌────┴────┐\n                   [ Cla I ] ───► │  ampⓇ   │ ◄─── [ Bam HI ]\n                   [ Hind III ] ─►│         │ ◄─── [ Sal I ]\n                                  │  pBR322 │\n                                  │  (4361) │\n                   [ Eco RI ] ──► │  tetⓇ   │\n                                  └────┬────┘\n                                       │\n                                [ Ori / Rop (Pvu II) ]",
+      "content": "### 3.1 Four Essential Features of Cloning Vectors\n1. **Origin of Replication (Ori)**: DNA sequence where replication initiates. Any foreign DNA ligated to this sequence replicates along with the vector. It determines and controls the **copy number** of the plasmid ($15\\text{--}20\\text{ to }100\\text{ copies/cell}$).\n2. **Selectable Marker Genes**: Genes encoding resistance to antibiotics (e.g., *ampicillin*, *tetracycline*, *kanamycin*, *chloramphenicol*) that allow selective growth and identification of transformants while eliminating non-transformed cells.\n3. **Unique Restriction Sites (Multiple Cloning Site / MCS)**: Vector must possess single, unique recognition sites for common restriction enzymes. Multiple sites for a single enzyme would cut the vector into multiple fragments, complicating gene cloning.\n4. **Small Molecular Size**: Low molecular weight facilitates easy extraction, laboratory manipulation, and high transformation efficiency into host cells.\n\n### 3.2 Anatomy of Plasmid pBR322 ($4361\\text{ bp}$)\n- Engineered artificial plasmid designed by **Bolivar and Rodriguez**.\n- **$amp^R$ (Ampicillin Resistance Gene)**: Contains unique restriction sites for ***Pst I*** and ***Pvu I***.\n- **$tet^R$ (Tetracycline Resistance Gene)**: Contains unique restriction sites for ***Bam HI*** and ***Sal I***.\n- **$Eco\\text{ RI}$, $Cla\\text{ I}$, $Hind\\text{ III}$ Sites**: Located upstream outside the resistance genes.\n- **$Rop$ Gene**: Encodes the *Repressor of Priming* protein involved in regulating plasmid replication copy number; contains a unique site for ***Pvu II***.\n\n### 3.3 Plant & Animal Cloning Vectors\n- **Plant Vector (The Ti Plasmid)**: ***Agrobacterium tumefaciens*** (\"Nature's Genetic Engineer\") naturally transfers its **T-DNA** segment from the **Ti (Tumor-Inducing) Plasmid** into dicot plant genomes, forming crown gall tumors. The plasmid is *disarmed* by removing oncogenic genes while retaining the T-DNA borders to shuttle beneficial genes.\n- **Mammalian Vector (Disarmed Retroviruses)**: Retroviruses capable of transforming normal animal cells into cancerous cells are *disarmed* and repurposed as gene delivery vehicles for mammalian cell culture and human gene therapy."
+    },
+    {
+      "heading": "Cosmids and BACs",
+      "title": "Cosmids and BACs",
+      "type": "paragraph",
+      "content": "Cosmids (plasmids containing bacteriophage lambda cos sites) accept inserts up to 45 kb; Bacterial Artificial Chromosomes (BACs) and Yeast Artificial Chromosomes (YACs) clone large genomic fragments up to 300 kb and 1 Mb respectively for genome sequencing."
+    },
+    {
+      "heading": "Expression Vectors vs Cloning Vectors",
+      "title": "Expression Vectors vs Cloning Vectors",
+      "type": "paragraph",
+      "content": "Cloning vectors are optimized for DNA propagation and gene sequencing; Expression vectors contain strong inducible promoters (e.g., T7, lac), ribosomal binding sites (Shine-Dalgarno), and transcription terminators to drive high-level recombinant protein synthesis."
+    }
+  ]
+}

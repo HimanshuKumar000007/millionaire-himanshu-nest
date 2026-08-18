@@ -1,0 +1,50 @@
+{
+  "id": "bio-xi-u3-c9-l02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Biomolecules",
+  "chapterNumber": 9,
+  "chapterSlug": "biomolecules",
+  "slug": "lesson-02-carbohydrate-stereochemistry-anomers-epimers",
+  "title": "Carbohydrate Chemistry: Stereochemistry, Epimers, & Anomers",
+  "topic": "Aldohexoses vs Ketohexoses, C-2/C-4 Epimers, & Alpha/Beta Haworth Anomers",
+  "topics": [
+    "Carbohydrate Definition & Empirical Formula $\\text{C}_x(\\text{H}_2\\text{O})_y$",
+    "Carbohydrate Taxonomy (Monosaccharides, Oligosaccharides, Polysaccharides)",
+    "Aldose vs Ketose Stereoisomers (D-Glucose vs D-Fructose Fischer Projections)",
+    "Epimers (C-2: D-Glucose/D-Mannose; C-4: D-Glucose/D-Galactose)",
+    "Cyclization & Anomeric Carbon ($C_1$ in Aldoses; $C_2$ in Ketoses)",
+    "Haworth Projections: $\\alpha$-Anomer (OH Below) vs $\\beta$-Anomer (OH Above)"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Carbohydrates are polyhydroxy aldehydes (aldoses like D-Glucose) or ketones (ketoses like D-Fructose). Epimers differ in configuration at a single chiral center (C-2: Glucose & Mannose; C-4: Glucose & Galactose). Hexose cyclization creates a new asymmetric center at C-1 (anomeric carbon): α-anomer has the -OH group below the Haworth ring; β-anomer has the -OH group above the ring.",
+  "summary": "Carbohydrates are polyhydroxy aldehydes (aldoses like D-Glucose) or ketones (ketoses like D-Fructose). Epimers differ in configuration at a single chiral center (C-2: Glucose & Mannose; C-4: Glucose & Galactose). Hexose cyclization creates a new asymmetric center at C-1 (anomeric carbon): α-anomer has the -OH group below the Haworth ring; β-anomer has the -OH group above the ring.",
+  "conceptBreakdown": [
+    {
+      "heading": "2. Carbohydrate Taxonomy & Chemical Nature",
+      "title": "2. Carbohydrate Taxonomy & Chemical Nature",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Carbohydrates = polyhydroxy aldehydes or ketones. Monosaccharides are classified by carbon count and functional carbonyl group."
+      },
+      "codeSnippet": "CARBOHYDRATE TAXONOMY\n                                      │\n         ┌────────────────────────────┼────────────────────────────┐\n         ▼                            ▼                            ▼\n  MONOSACCHARIDES              OLIGOSACCHARIDES             POLYSACCHARIDES\n(Single Sugar Unit)          (2–10 Monosaccharides)       (>10 Monosaccharide Units)\n├── Aldoses (Aldehyde)       ├── Maltose ($\\alpha$-1,4)   ├── Homopolysaccharides\n└── Ketoses (Ketone)         ├── Lactose ($\\beta$-1,4)    │   (Starch, Glycogen, Cellulose)\n                             └── Sucrose ($\\alpha$-1,2)   └── Heteropolysaccharides\n                                 (Non-Reducing)           (Peptidoglycan, Hyaluronic Acid)",
+      "content": "Carbohydrates are polyhydroxy aldehydes or polyhydroxy ketones following the empirical formula $\\text{C}_x(\\text{H}_2\\text{O})_y$ (*exceptions: deoxyribose $\\text{C}_5\\text{H}_{10}\\text{O}_4$ and rhamnose $\\text{C}_6\\text{H}_{12}\\text{O}_5$*)."
+    },
+    {
+      "heading": "2.1 Stereochemistry, Epimers, & Anomers",
+      "title": "2.1 Stereochemistry, Epimers, & Anomers",
+      "type": "paragraph",
+      "codeSnippet": "ALDOSE vs KETOSE STEREOISOMERS\n                      \n    $\\text{D}$-Glucose (Aldohexose)           $\\text{D}$-Fructose (Ketohexose)\n          $\\text{CHO}$                              $\\text{CH}_2\\text{OH}$\n          │                                         │\n    $\\text{H}─\\text{C}─\\text{OH}$                 $\\text{C} = \\text{O}$\n          │                                         │\n  $\\text{HO}─\\text{C}─\\text{H}$             $\\text{HO}─\\text{C}─\\text{H}$\n          │                                         │\n    $\\text{H}─\\text{C}─\\text{OH}$           $\\text{H}─\\text{C}─\\text{OH}$\n          │                                         │\n    $\\text{H}─\\text{C}─\\text{OH}$           $\\text{H}─\\text{C}─\\text{OH}$\n          │                                         │\n          $\\text{CH}_2\\text{OH}$                    $\\text{CH}_2\\text{OH}$",
+      "content": "### Epimeric Relationships\nEpimers are diastereomers differing in configuration around a single asymmetric carbon:\n• **C-2 Epimers**: $\\text{D}$-Glucose and $\\text{D}$-Mannose.\n• **C-4 Epimers**: $\\text{D}$-Glucose and $\\text{D}$-Galactose.\n\n### Anomers ($\\alpha$ vs $\\beta$ Forms)\nIntramolecular hemiacetal cyclization creates a new chiral center at **C-1 (the Anomeric Carbon)**:\n• **$\\alpha$-Anomer**: Hydroxyl ($-\\text{OH}$) group at $\\text{C}-1$ lies **below** the Haworth ring plane.\n• **$\\beta$-Anomer**: Hydroxyl ($-\\text{OH}$) group at $\\text{C}-1$ lies **above** the Haworth ring plane."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "chem-xi-u5-c5-l04",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit V \u2014 Chemical Thermodynamics",
+  "unitNumber": 5,
+  "chapter": "Chemical Thermodynamics",
+  "chapterNumber": 5,
+  "chapterSlug": "chemical-thermodynamics",
+  "slug": "lesson-04-enthalpy-transformations-hess-law",
+  "title": "Thermochemical Enthalpies & Hess\u2019s Law of Constant Heat Summation",
+  "topic": "Enthalpies & Hess's Law",
+  "topics": [
+    "Enthalpy State Function (H = U + PV, \u0394H = \u0394U + \u0394n_g RT)",
+    "Standard Formation Enthalpy (\u0394_f H\u00b0) & Elemental Reference States",
+    "Combustion Enthalpy (\u0394_c H\u00b0) & Bond Dissociation Enthalpies (B.E.)",
+    "Hess's Law of Constant Heat Summation (Path Independence)",
+    "Three Hess's Law Operational Bridges (Formation, Combustion, Bond Energies)"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "hess-law",
+  "quickSummary": "Enthalpy H = U + PV satisfies \u0394H = \u0394U + \u0394n_g RT. Hess's law establishes that total reaction enthalpy is path-independent: \u0394_r H\u00b0 = \u03a3 \u0394H_steps, evaluated using formation enthalpies, combustion enthalpies, or bond dissociation energies.",
+  "summary": "Master enthalpy relations, standard thermochemical definitions, and the three operational calculation bridges of Hess's Law.",
+  "conceptBreakdown": [
+    {
+      "heading": "4.1 Enthalpy Relations & Standard Enthalpies",
+      "title": "4.1 Enthalpy Relations & Standard Enthalpies",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Enthalpy Relations",
+        "takeaway": "\u0394H = \u0394U + \u0394n_g RT. Standard formation enthalpy \u0394_f H\u00b0 of pure elements in reference states is ZERO (e.g. O\u2082(g), C(graphite), Br\u2082(l))."
+      },
+      "codeSnippet": "THERMOCHEMICAL ENTHALPIES\n                                       \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                  \u25bc                             \u25bc                  \u25bc\nSTANDARD FORMATION     COMBUSTION                    BOND DISSOCIATION   ATOMIZATION\n(\u0394_f H\u00b0)               (\u0394_c H\u00b0)                      (\u0394_bd H\u00b0)           (\u0394_a H\u00b0)\n1 mole compound formed 1 mole substance burned       1 mole covalent     1 mole substance converted\nfrom standard elements. completely in excess O\u2082.     bond broken (gas).  to free gaseous atoms.",
+      "content": "\u2022 **Fundamental Enthalpy Relation**:\n$$\\mathbf{\\Delta H = \\Delta U + \\Delta(PV) = \\Delta U + \\Delta n_g R T}$$\nwhere $\\Delta n_g = \\sum n_g (\\text{gaseous products}) - \\sum n_g (\\text{gaseous reactants})$."
+    },
+    {
+      "heading": "4.2 Hess's Law & The Three Operational Bridges",
+      "title": "4.2 Hess's Law & The Three Operational Bridges",
+      "type": "paragraph",
+      "codeSnippet": "HESS'S LAW APPLICATIONS\n                          \n   1. From Formation Enthalpies:  \u0394_r H\u00b0 = \u03a3 \u03bd_p \u0394_f H\u00b0(products) - \u03a3 \u03bd_r \u0394_f H\u00b0(reactants)\n   2. From Combustion Enthalpies: \u0394_r H\u00b0 = \u03a3 \u03bd_r \u0394_c H\u00b0(reactants) - \u03a3 \u03bd_p \u0394_c H\u00b0(products)\n   3. From Bond Enthalpies:       \u0394_r H\u00b0 = \u03a3 B.E.(reactants broken) - \u03a3 B.E.(products formed)",
+      "content": "\u2022 **Hess's Law**: The net enthalpy change of a chemical reaction is identical whether the process occurs in one single step or through a series of intermediate steps:\n$$\\mathbf{\\Delta_r H^\\circ = \\sum \\Delta H_{\\text{step } i}}$$"
+    }
+  ],
+  "quickRevision": [
+    "\u0394H = \u0394U + \u0394n_g RT.",
+    "\u0394_f H\u00b0 of reference elements (O\u2082(g), C(graphite), N\u2082(g), H\u2082(g)) = 0.",
+    "\u0394_f H\u00b0 of Ozone (O\u2083(g)) = +142.7 kJ/mol (NOT zero!).",
+    "From Formation: Products - Reactants.",
+    "From Combustion & Bond Energies: Reactants - Products."
+  ],
+  "keyFormulae": [
+    "\u0394H = \u0394U + \u0394n_g RT",
+    "\u0394_r H\u00b0 = \u03a3 \u03bd_p \u0394_f H\u00b0(prod) - \u03a3 \u03bd_r \u0394_f H\u00b0(react)",
+    "\u0394_r H\u00b0 = \u03a3 B.E.(broken) - \u03a3 B.E.(formed)"
+  ]
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "q-bio-c10-001",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "chapterNumber": 10,
+    "chapterSlug": "cell-cycle-and-cell-division",
+    "topic": "Quantitative Ploidy & C-Value Tracking",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "A cell biologist analyzes the somatic chromosome number (2n) and nuclear DNA content (C) of a mammal during gametogenesis. If a diploid primary spermatocyte entering G1 phase contains 2n = 46 chromosomes and a DNA content of 2C = 20 picograms (pg), what will be the exact chromosome count and nuclear DNA mass in a single cell during Metaphase I and Anaphase II, respectively?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Metaphase I: 46 chromosomes / 40 pg; Anaphase II: 23 chromosomes / 20 pg", "isCorrect": false },
+      { "id": "b", "text": "Metaphase I: 23 chromosomes / 40 pg; Anaphase II: 46 chromosomes / 10 pg", "isCorrect": false },
+      { "id": "c", "text": "Metaphase I: 46 chromosomes / 40 pg; Anaphase II: 46 chromosomes / 20 pg", "isCorrect": true },
+      { "id": "d", "text": "Metaphase I: 23 chromosomes / 20 pg; Anaphase II: 23 chromosomes / 10 pg", "isCorrect": false }
+    ],
+    "correctAnswer": "c",
+    "solutionExplanation": "1. In G1 Phase: 2n = 46 chromosomes, DNA = 20 pg (2C).\n2. In S & G2 Phase: DNA doubles to 40 pg (4C), while chromosome count remains 2n = 46.\n3. At Metaphase I: Bivalents align on the double plate; chromosome count is still 2n = 46, and DNA mass is 40 pg (4C).\n4. After Telophase I: Each daughter cell gets n = 23 chromosomes (23 duplicated chromosomes = 46 chromatids) and 20 pg (2C) DNA.\n5. At Anaphase II: Centromeres split simultaneously, temporarily doubling the chromosome count in the single dividing cell from 23 duplicated chromosomes to 46 individual daughter chromosomes, while the DNA mass in that cell remains 20 pg. (After Cytokinesis II, each gamete receives 23 chromosomes and 10 pg DNA).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c10-002",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "chapterNumber": 10,
+    "chapterSlug": "cell-cycle-and-cell-division",
+    "topic": "Spindle Assembly Checkpoint & APC/C Cascade",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionText": "During a molecular genetics study on cell cycle regulation, a mutant human cell line is identified that lacks functional Anaphase-Promoting Complex / Cyclosome (APC/C) activity. At which specific stage of the cell cycle will these mutant cells arrest, and what will be the state of their sister chromatids?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Arrested at G1/S transition with un-replicated 2C DNA content.", "isCorrect": false },
+      { "id": "b", "text": "Arrested at G2/M transition with hyper-phosphorylated Rb protein.", "isCorrect": false },
+      { "id": "c", "text": "Arrested at Metaphase with sister chromatids held together by intact Cohesin complexes.", "isCorrect": true },
+      { "id": "d", "text": "Arrested at Telophase with un-cleaved cell plate phragmoplasts.", "isCorrect": false }
+    ],
+    "correctAnswer": "c",
+    "solutionExplanation": "Active APC/C ubiquitinates Securin, targeting it for degradation. Securin degradation releases active Separase, which cleaves the Cohesin rings holding sister chromatids together to trigger Anaphase onset. Without functional APC/C, Securin remains active, Separase remains inhibited, and Cohesin cannot be cleaved. Consequently, the cells arrest at Metaphase with intact sister chromatids unable to separate.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c10-003",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "chapterNumber": 10,
+    "chapterSlug": "cell-cycle-and-cell-division",
+    "topic": "Prophase I Meiotic Sub-Stages",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionText": "Which of the following events occur strictly during Prophase I of Meiosis I?",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Synapsis of homologous chromosomes mediated by the tripartite Synaptonemal Complex during Zygotene.", "isCorrect": true },
+      { "id": "b", "text": "Recombinase-catalyzed crossing over between non-sister chromatids of homologous chromosomes during Pachytene.", "isCorrect": true },
+      { "id": "c", "text": "Visualization of X-shaped Chiasmata following dissolution of the Synaptonemal Complex during Diplotene.", "isCorrect": true },
+      { "id": "d", "text": "Simultaneous splitting of centromeres leading to sister chromatid separation toward opposite poles.", "isCorrect": false }
+    ],
+    "correctAnswer": ["a", "b", "c"],
+    "solutionExplanation": "• A is correct: Synapsis and synaptonemal complex formation occur during Zygotene.\n• B is correct: Crossing over occurs during Pachytene at recombination nodules.\n• C is correct: Chiasmata become visible during Diplotene.\n• D is incorrect: Centromere splitting does NOT occur in Meiosis I; centromeres split during Anaphase II (and Mitotic Anaphase).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c10-004",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "chapterNumber": 10,
+    "chapterSlug": "cell-cycle-and-cell-division",
+    "topic": "Cytokinesis Mechanisms in Animals vs Plants",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionText": "Select the valid statements comparing cytokinesis in animal cells versus higher plant cells:",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Animal cell cytokinesis proceeds centripetally (outside to inside) via an actin-myosin II contractile cleavage furrow.", "isCorrect": true },
+      { "id": "b", "text": "Plant cell cytokinesis proceeds centrifugally (inside to outside) via Golgi-derived vesicles fusing at the phragmoplast to form the cell plate.", "isCorrect": true },
+      { "id": "c", "text": "The middle lamella of the plant cell plate is composed primarily of calcium and magnesium pectate.", "isCorrect": true },
+      { "id": "d", "text": "Both plant and animal cytokinesis rely on astral microtubule cleavage furrows.", "isCorrect": false }
+    ],
+    "correctAnswer": ["a", "b", "c"],
+    "solutionExplanation": "• A is correct: Animal cells pinch inward centripetally via an actin-myosin contractile ring.\n• B is correct: Plant cells assemble a cell plate centrifugally via Golgi vesicle fusion along the phragmoplast.\n• C is correct: The cell plate matures into the middle lamella composed of calcium/magnesium pectate.\n• D is incorrect: Higher plant cells lack asters (anastral) and do not form cleavage furrows.",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

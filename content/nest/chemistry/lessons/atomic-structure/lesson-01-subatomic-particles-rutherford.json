@@ -1,0 +1,70 @@
+{
+  "id": "chem-xi-u2-c2-l01",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit II \u2014 Structure of Atom",
+  "unitNumber": 2,
+  "chapter": "Structure of Atom",
+  "chapterNumber": 2,
+  "chapterSlug": "atomic-structure",
+  "slug": "lesson-01-subatomic-particles-rutherford",
+  "title": "Discovery of Subatomic Particles, Isotopic Taxonomy & Rutherford Scattering",
+  "topic": "Subatomic Particles & Nuclear Model",
+  "topics": [
+    "Discovery of Electron (e/m Ratio & Millikan Oil Drop)",
+    "Discovery of Proton (Anode/Canal Rays)",
+    "Discovery of Neutron (Chadwick Alpha Bombardment)",
+    "Isotopes, Isobars, Isotones, Isodiaphers, Isoelectronic & Isosteres",
+    "Rutherford \u03b1-Scattering & Closest Approach r\u2080",
+    "Nuclear Radius (R = R\u2080 A^(1/3)) & Classical Collapse"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "subatomic-particles",
+  "quickSummary": "Matter consists of fundamental subatomic particles: Electrons (Thomson, 1897), Protons (Goldstein, 1886), and Neutrons (Chadwick, 1932). Rutherford's gold foil experiment revealed the dense, positively charged nucleus with dimensions R = R\u2080 A^(1/3).",
+  "summary": "Master fundamental subatomic particle properties, isotopic classification (isodiaphers, isosteres), and Rutherford scattering mathematics.",
+  "conceptBreakdown": [
+    {
+      "heading": "1. Fundamental Subatomic Particles Matrix",
+      "title": "1. Fundamental Subatomic Particles Matrix",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Subatomic Particles Summary",
+        "takeaway": "Electron: e/m = 1.7588 \u00d7 10\u00b9\u00b9 C/kg (gas invariant); Proton: e/m varies with gas; Neutron: Chadwick nuclear reaction \u2079\u2084Be + \u2074\u2082He \u2192 \u00b9\u00b2\u2086C + \u00b9\u2080n."
+      },
+      "codeSnippet": "SUBATOMIC PARTICLES MATRIX\n                                       \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                             \u25bc                             \u25bc\n  ELECTRON (e\u207b)                 PROTON (p\u207a)                 NEUTRON (n\u2070)\n  \u251c\u2500\u2500 J.J. Thomson (1897)        \u251c\u2500\u2500 E. Goldstein (1886)      \u251c\u2500\u2500 James Chadwick (1932)\n  \u251c\u2500\u2500 e/m = 1.7588 \u00d7 10\u00b9\u00b9 C/kg   \u251c\u2500\u2500 e/m depends on gas       \u251c\u2500\u2500 Alpha bombardment on Be\n  \u2514\u2500\u2500 m_e = 9.10938 \u00d7 10\u207b\u00b3\u00b9 kg   \u2514\u2500\u2500 m_p = 1.67262 \u00d7 10\u207b\u00b2\u2077 kg \u2514\u2500\u2500 m_n = 1.67493 \u00d7 10\u207b\u00b2\u2077 kg",
+      "content": "Atoms are built from three fundamental subatomic particles:\n\n1. **Electron ($e^-$ / $\\beta^-$)**: Discovered by J.J. Thomson (1897) in cathode ray discharge tubes. Specific charge $\\frac{e}{m_e} = 1.7588 \\times 10^{11}\\text{ C/kg}$ is constant regardless of cathode material or residual gas. Absolute mass $m_e = 9.109383 \\times 10^{-31}\\text{ kg} = 0.00054857\\text{ u}$. Absolute charge $-1.602176 \\times 10^{-19}\\text{ C}$.\n\n2. **Proton ($p^+$ / $^1_1\\text{H}^+$)**: Discovered in perforated cathode tubes (Canal/Anode rays) by E. Goldstein (1886), characterized by Rutherford (1919). $\\frac{e}{m}$ depends on the residual gas and is maximum for Hydrogen gas. Absolute mass $m_p = 1.672622 \\times 10^{-27}\\text{ kg} = 1.007276\\text{ u}$. Absolute charge $+1.602176 \\times 10^{-19}\\text{ C}$.\n\n3. **Neutron ($n^0$ / $^1_0\\text{n}$)**: Discovered by James Chadwick (1932) by bombarding a Beryllium target with high-speed $\\alpha$-particles:\n\n$$^{9}_{4}\\text{Be} + ^{4}_{2}\\text{He} \\longrightarrow ^{12}_{6}\\text{C} + ^{1}_{0}\\text{n}$$\n\nNeutral charge ($0\\text{ C}$), absolute mass $m_n = 1.674927 \\times 10^{-27}\\text{ kg} = 1.008665\\text{ u}$ (slightly heavier than a proton)."
+    },
+    {
+      "heading": "1.2 Atomic Terminology & Isotopic Classification",
+      "title": "1.2 Atomic Terminology & Isotopic Classification",
+      "type": "paragraph",
+      "content": "\u2022 **Atomic Number ($Z$)**: Total nuclear protons ($Z = p = e^-$ in neutral atom).\n\u2022 **Mass Number ($A$)**: Total nucleons ($A = Z + N$).\n\u2022 **Isotopes**: Same $Z$, different $A$ ($^1_1\\text{H}, ^2_1\\text{H}, ^3_1\\text{H}$).\n\u2022 **Isobars**: Same $A$, different $Z$ ($^{40}_{18}\\text{Ar}, ^{40}_{19}\\text{K}, ^{40}_{20}\\text{Ca}$).\n\u2022 **Isotones**: Identical neutrons $N = A - Z$ ($^{14}_6\\text{C}, ^{15}_7\\text{N}, ^{16}_8\\text{O}$ where $N = 8$).\n\u2022 **Isodiaphers**: Identical neutron excess $N - Z = A - 2Z$ ($^{238}_{92}\\text{U}$ and $^{234}_{90}\\text{Th}$ where $N - Z = 54$).\n\u2022 **Isoelectronic Species**: Equal total electrons ($\\text{N}^{3-}, \\text{O}^{2-}, \\text{F}^-, \\text{Ne}, \\text{Na}^+, \\text{Mg}^{2+}, \\text{Al}^{3+}$ all have $10\\ e^-$).\n\u2022 **Isosteres**: Molecules with same number of atoms AND same number of electrons ($\\text{CO}_2$ and $\\text{N}_2\\text{O}$ both have 3 atoms and 22 electrons)."
+    },
+    {
+      "heading": "1.3 Rutherford \u03b1-Scattering & Nuclear Dimensions",
+      "title": "1.3 Rutherford \u03b1-Scattering & Nuclear Dimensions",
+      "type": "paragraph",
+      "content": "Bombardment of thin Gold foil ($400\\text{ nm}$) with $^{4}_{2}\\text{He}^{2+}$ $\\alpha$-particles showed:\n1. Most $\\alpha$-particles pass undeflected $\\implies$ Atom is mostly empty space.\n2. Few deflected at large angles $\\implies$ Positive charge concentrated in tiny region.\n3. 1 in 20,000 recoils at $\\approx 180^\\circ$ $\\implies$ Dense, massive nucleus at center.\n\n\u2022 **Scattering Distribution**: $N(\\theta) \\propto \\frac{1}{\\sin^4(\\theta/2)}$.\n\n\u2022 **Distance of Closest Approach ($r_0$)**: Kinetic energy equals electrostatic potential energy at reversal:\n\n$$E_k = \\frac{1}{2}m_\\alpha v^2 = \\frac{1}{4\\pi\\varepsilon_0} \\frac{(2e)(Ze)}{r_0} \\implies \\mathbf{r_0 = \\frac{1}{4\\pi\\varepsilon_0} \\cdot \\frac{2Ze^2}{E_k}}$$\n\n\u2022 **Nuclear Radius ($R$)**: $\\mathbf{R = R_0 A^{1/3}}$ where $R_0 \\approx 1.2\\text{--}1.4 \\times 10^{-15}\\text{ m}$ ($1.2\\text{--}1.4\\text{ fm}$) and $A$ is the Mass Number.\n\n\u2022 **Classical Collapse Failure**: Accelerating electrons must continuously radiate electromagnetic energy (Maxwell electrodynamics), spiraling into the nucleus within $\\approx 10^{-8}\\text{ s}$. Rutherford's model also failed to explain discrete atomic line spectra."
+    }
+  ],
+  "quickRevision": [
+    "Electron e/m = 1.7588 \u00d7 10\u00b9\u00b9 C/kg (independent of gas).",
+    "Chadwick discovered neutron via \u2079\u2084Be + \u2074\u2082He \u2192 \u00b9\u00b2\u2086C + \u00b9\u2080n.",
+    "Isodiaphers have identical N - Z = A - 2Z.",
+    "Isosteres have identical atom counts and electron counts.",
+    "Distance of closest approach r\u2080 = (1/4\u03c0\u03b5\u2080) \u00b7 (2Ze\u00b2 / E_k).",
+    "Nuclear radius R = R\u2080 \u00b7 A^(1/3) where R\u2080 \u2248 1.2\u20131.4 fm."
+  ],
+  "keyFormulae": [
+    "r\u2080 = (1 / 4\u03c0\u03b5\u2080) \u00b7 (2Ze\u00b2 / E_k)",
+    "R = R\u2080 \u00b7 A^(1/3)",
+    "N(\u03b8) \u221d 1 / sin\u2074(\u03b8/2)",
+    "N - Z = A - 2Z (Isodiapher condition)"
+  ]
+}

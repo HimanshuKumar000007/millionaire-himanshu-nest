@@ -1,0 +1,605 @@
+[
+  {
+    "id": "bio-xii-u10-c13-q01",
+    "questionNumber": 1,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Genetic Diversity in Rauvolfia vomitoria",
+    "questionText": "A plant population of the medicinal herb Rauvolfia vomitoria growing across different elevation gradients in the Himalayan ranges exhibits significant variations in the concentration and potency of its active antihypertensive chemical compound, Reserpine. What specific level of biological diversity does this variation represent?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ecological Diversity"
+      },
+      {
+        "id": "B",
+        "text": "Species Diversity"
+      },
+      {
+        "id": "C",
+        "text": "Genetic Diversity"
+      },
+      {
+        "id": "D",
+        "text": "Ecosystem Stratification"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Variation in the potency and concentration of an active chemical compound (Reserpine) within a single species (Rauvolfia vomitoria) across its geographic range represents Genetic Diversity (diversity at the gene/allelic level within a species)."
+  },
+  {
+    "id": "bio-xii-u10-c13-q02",
+    "questionNumber": 2,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Robert May Global Species Estimate",
+    "questionText": "Ecologist Robert May applied sound scientific extrapolations based on tropical-to-temperate insect ratios to calculate the total global species richness of Earth. What was May's conservative scientific estimate for global species diversity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.7–1.8 million species"
+      },
+      {
+        "id": "B",
+        "text": "7 million species"
+      },
+      {
+        "id": "C",
+        "text": "20–50 million species"
+      },
+      {
+        "id": "D",
+        "text": "100 million species"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Robert May provided a globally accepted, conservative scientific estimate placing total Earth species richness at approximately 7 million species (of which only ≈ 1.7–1.8 million have been scientifically described so far)."
+  },
+  {
+    "id": "bio-xii-u10-c13-q03",
+    "questionNumber": 3,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Species-Area Relationship Z Slope Values",
+    "questionText": "An ecologist uses Alexander von Humboldt's logarithmic formula log S = log C + Z log A to plot the species-area relationship for frugivorous birds across large tropical forests covering entire continental masses. What range of values will the regression slope (Z) assume for this continental-scale analysis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.1–0.2"
+      },
+      {
+        "id": "B",
+        "text": "0.6–1.2 (Z ≈ 1.15)"
+      },
+      {
+        "id": "C",
+        "text": "2.0–3.5"
+      },
+      {
+        "id": "D",
+        "text": "0.01–0.05"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "When species-area relationships are calculated across very large regional or continental scales (such as frugivorous birds and mammals in tropical forests), the slope Z becomes significantly steeper, ranging between 0.6 and 1.2 (specifically 1.15 for tropical frugivorous vertebrates). On small local scales, Z = 0.1–0.2."
+  },
+  {
+    "id": "bio-xii-u10-c13-q04",
+    "questionNumber": 4,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Paul Ehrlich Rivet Popper Hypothesis",
+    "questionText": "In Stanford ecologist Paul Ehrlich's \"Rivet Popper Hypothesis\", an airplane is used as an analogy for an ecosystem. What do the individual \"rivets\" on the wings of the airplane represent, and what ecological event corresponds to popping a rivet from a wing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rivets = Abiotic factors; Popping = Primary succession"
+      },
+      {
+        "id": "B",
+        "text": "Rivets = Species; Popping a wing rivet = Extinction of a Keystone Species causing structural ecosystem collapse"
+      },
+      {
+        "id": "C",
+        "text": "Rivets = Genes; Popping = Polyploidy"
+      },
+      {
+        "id": "D",
+        "text": "Rivets = Trophic levels; Popping = Eutrophication"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In Ehrlich's hypothesis: Airplane = Ecosystem; Rivets = Species; Popping a rivet = Species Extinction; Removing a rivet from a critical structural location like the wings represents the extinction of a Keystone Species, which directly threatens the structural stability and safety of the entire ecosystem."
+  },
+  {
+    "id": "bio-xii-u10-c13-q05",
+    "questionNumber": 5,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Alien Species Invasions: Nile Perch in Lake Victoria",
+    "questionText": "In East Africa's Lake Victoria, the intentional introduction of an exotic predatory fish—the Nile Perch—led to the catastrophic extinction of over 200 endemic species of which family of native fish?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Catfish (Clarias)"
+      },
+      {
+        "id": "B",
+        "text": "Cichlid Fish"
+      },
+      {
+        "id": "C",
+        "text": "Salmon"
+      },
+      {
+        "id": "D",
+        "text": "Gambusia"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The introduction of the invasive predatory Nile Perch into Lake Victoria resulted in the mass extinction of >200 endemic species of Cichlid Fish due to intense alien species predation."
+  },
+  {
+    "id": "bio-xii-u10-c13-q06",
+    "questionNumber": 6,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Ex-Situ Conservation & Cryopreservation",
+    "questionText": "Which of the following protected area networks represents an EX-SITU (Off-Site) conservation modality where threatened plant gametes are preserved in a viable state for decades using liquid nitrogen at -196°C?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Biosphere Reserve Core Zone"
+      },
+      {
+        "id": "B",
+        "text": "Cryopreservation in Gene/Seed Banks"
+      },
+      {
+        "id": "C",
+        "text": "Sacred Groves"
+      },
+      {
+        "id": "D",
+        "text": "National Parks"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Preserving gametes, seeds, or tissue explants in liquid nitrogen at -196°C is Cryopreservation, an advanced Ex-Situ (Off-Site) conservation technology. (Biosphere reserves, sacred groves, and national parks are In-situ modalities)."
+  },
+  {
+    "id": "bio-xii-u10-c13-q07",
+    "questionNumber": 7,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Indian Mega-Diversity Share",
+    "questionText": "India accounts for only 2.4% of the world's total land surface area, yet it contributes what percentage to global species diversity, placing it among the 12 Mega-Diversity countries of the world?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2.4%"
+      },
+      {
+        "id": "B",
+        "text": "8.1%"
+      },
+      {
+        "id": "C",
+        "text": "18%"
+      },
+      {
+        "id": "D",
+        "text": "25%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "India holds an impressive 8.1% of global species diversity despite occupying only 2.4% of total global land area, earning its classification as one of the 12 Mega-Diversity nations."
+  },
+  {
+    "id": "bio-xii-u10-c13-q08",
+    "questionNumber": 8,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Indian Sacred Groves Regions",
+    "questionText": "The Khasi and Jaintia Hills in Meghalaya, the Aravalli Hills of Rajasthan, and the Sarguja, Chanda, and Bastar areas of Madhya Pradesh are famous Indian examples of which In-Situ conservation modality?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ramsar Wetland Sites"
+      },
+      {
+        "id": "B",
+        "text": "Sacred Groves"
+      },
+      {
+        "id": "C",
+        "text": "Ex-Situ Botanical Gardens"
+      },
+      {
+        "id": "D",
+        "text": "Marine Biosphere Core Zones"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "These regions represent famous Indian Sacred Groves—forest patches traditionally protected by indigenous tribal communities owing to deep religious veneration, serving as the last refuges for rare and threatened endemic species."
+  },
+  {
+    "id": "bio-xii-u10-c13-q09",
+    "questionNumber": 9,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "The Earth Summit Rio 1992",
+    "questionText": "Which global treaty on environmental protection was signed at the historic \"Earth Summit\" held in Rio de Janeiro in 1992?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kyoto Protocol on greenhouse gas reduction"
+      },
+      {
+        "id": "B",
+        "text": "The United Nations Convention on Biological Diversity (UNCED)"
+      },
+      {
+        "id": "C",
+        "text": "Montreal Protocol on ozone-depleting substances"
+      },
+      {
+        "id": "D",
+        "text": "Ramsar Convention on Wetlands"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The landmark \"Earth Summit\" (United Nations Conference on Environment and Development - UNCED) held in Rio de Janeiro in 1992 called upon all nations to take appropriate measures for the conservation of biological diversity and sustainable utilization of bio-resources."
+  },
+  {
+    "id": "bio-xii-u10-c13-q10",
+    "questionNumber": 10,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Global & Indian Biodiversity Hotspots",
+    "questionText": "How many total Biodiversity Hotspots exist globally today according to Norman Myers' expanded criteria, and how many cover regions within India?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Global: 14; India: 1"
+      },
+      {
+        "id": "B",
+        "text": "Global: 34; India: 3 (Western Ghats/Sri Lanka, Indo-Burma, Himalaya)"
+      },
+      {
+        "id": "C",
+        "text": "Global: 90; India: 14"
+      },
+      {
+        "id": "D",
+        "text": "Global: 448; India: 34"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Originally 25, there are currently 34 Biodiversity Hotspots globally. 3 of these hotspots extend into India: Western Ghats and Sri Lanka, Indo-Burma, and the Himalaya."
+  },
+  {
+    "id": "bio-xii-u10-c13-q11",
+    "questionNumber": 11,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "The Evil Quartet Drivers of Extinction",
+    "questionText": "Which of the following factors constitute the \"Evil Quartet\"—the four primary drivers of global biodiversity loss and extinction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Habitat Loss and Fragmentation"
+      },
+      {
+        "id": "B",
+        "text": "Over-Exploitation of biological resources"
+      },
+      {
+        "id": "C",
+        "text": "Alien / Exotic Species Invasions"
+      },
+      {
+        "id": "D",
+        "text": "Co-Extinctions of obligate mutualists"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "The \"Evil Quartet\" refers specifically to these four major drivers of extinction: Habitat Loss/Fragmentation, Over-Exploitation, Alien Species Invasions, and Co-Extinctions."
+  },
+  {
+    "id": "bio-xii-u10-c13-q12",
+    "questionNumber": 12,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Global Taxonomic Diversity Proportions",
+    "questionText": "Select the valid statements regarding the global distribution of plant, animal, and fungal species diversity:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Animals represent more than 70% of all described biological species."
+      },
+      {
+        "id": "B",
+        "text": "Insects account for more than 70% of all animal species on Earth."
+      },
+      {
+        "id": "C",
+        "text": "The total number of Fungi species on Earth is greater than the combined total of all fishes, amphibians, reptiles, and mammals."
+      },
+      {
+        "id": "D",
+        "text": "Plants (including algae, fungi, bryophytes, pteridophytes, gymnosperms, and angiosperms) comprise >80% of total species."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Animals >70%, Insects >70% of animals, and Fungi count exceeds all vertebrate classes combined. D is incorrect: Plants comprise LESS than 22% of total recorded species."
+  },
+  {
+    "id": "bio-xii-u10-c13-q13",
+    "questionNumber": 13,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Hypotheses for High Tropical Diversity",
+    "questionText": "Which of the following hypotheses explain why Tropical regions (23.5°N to 23.5°S) harbor far higher species richness than Temperate regions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tropical latitudes remained glaciologically undisturbed for millions of years, allowing prolonged evolutionary speciation time."
+      },
+      {
+        "id": "B",
+        "text": "Tropical environments are less seasonal, relatively constant, and predictable, promoting niche specialization."
+      },
+      {
+        "id": "C",
+        "text": "Tropics receive higher solar energy radiation, driving higher net primary productivity."
+      },
+      {
+        "id": "D",
+        "text": "Tropics experience frequent destructive glaciations that wipe out competing species every 10,000 years."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Evolutionary stability (no glaciations), constant/predictable climate, and high solar energy input/NPP drive tropical speciation. D is incorrect: Frequent glaciations occurred in Temperate regions, NOT the tropics."
+  },
+  {
+    "id": "bio-xii-u10-c13-q14",
+    "questionNumber": 14,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "In-Situ Conservation Modalities",
+    "questionText": "Select the IN-SITU (On-Site) conservation modalities from the list below:",
+    "options": [
+      {
+        "id": "A",
+        "text": "National Parks"
+      },
+      {
+        "id": "B",
+        "text": "Biosphere Reserves"
+      },
+      {
+        "id": "C",
+        "text": "Sacred Groves"
+      },
+      {
+        "id": "D",
+        "text": "Cryopreservation Gene Banks"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: National Parks, Biosphere Reserves, and Sacred Groves protect species within their natural habitats (In-Situ). D is incorrect: Cryopreservation is an Ex-Situ (Off-Site) technology."
+  },
+  {
+    "id": "bio-xii-u10-c13-q15",
+    "questionNumber": 15,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Ex-Situ Conservation Modalities",
+    "questionText": "Which of the following represent EX-SITU (Off-Site) conservation modalities?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Zoological Parks and Botanical Gardens"
+      },
+      {
+        "id": "B",
+        "text": "Wildlife Safari Parks"
+      },
+      {
+        "id": "C",
+        "text": "Cryopreservation of gametes in liquid nitrogen at -196°C"
+      },
+      {
+        "id": "D",
+        "text": "Seed Banks and Tissue Culture Gene Banks"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "All four options represent Ex-Situ conservation modalities where threatened organisms or their gametes are protected outside their natural habitats."
+  },
+  {
+    "id": "bio-xii-u10-c13-q16",
+    "questionNumber": 16,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Invasive Alien Weeds in India",
+    "questionText": "Which invasive alien plant species introduced into India have caused severe ecological damage to indigenous native flora?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parthenium hysterophorus (Carrot grass)"
+      },
+      {
+        "id": "B",
+        "text": "Lantana camara"
+      },
+      {
+        "id": "C",
+        "text": "Eichhornia crassipes (Water Hyacinth / \"Terror of Bengal\")"
+      },
+      {
+        "id": "D",
+        "text": "Mangifera indica (Mango)"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Parthenium, Lantana, and Eichhornia are notorious invasive alien plant weeds in India that choke native ecosystems. D is incorrect: Mangifera indica (Mango) is an indigenous native crop."
+  },
+  {
+    "id": "bio-xii-u10-c13-q17",
+    "questionNumber": 17,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Amazonian Rainforest Biodiversity Features",
+    "questionText": "Select the correct options regarding the Amazonian Rainforest:",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is the most species-rich tropical rainforest on Earth, situated in South America."
+      },
+      {
+        "id": "B",
+        "text": "It is referred to as the \"Lungs of the Planet\" because it produces ≈ 20% of Earth's atmospheric oxygen."
+      },
+      {
+        "id": "C",
+        "text": "It originally covered 14% of Earth's land surface, but has been deforested down to <6% for soy cultivation and beef cattle ranching."
+      },
+      {
+        "id": "D",
+        "text": "It contains zero invertebrate or amphibian species."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Amazon is the most species-rich forest, produces 20% O2, and has been heavily deforested for soy/cattle. D is incorrect: Amazon contains >125,000 invertebrate species and 427 amphibian species."
+  },
+  {
+    "id": "bio-xii-u10-c13-q18",
+    "questionNumber": 18,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Recent Historical Extinctions",
+    "questionText": "Which of the following species have suffered complete extinction within the last 500 years due to human over-exploitation or habitat destruction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dodo (Raphus cucullatus) from Mauritius"
+      },
+      {
+        "id": "B",
+        "text": "Quagga from Africa"
+      },
+      {
+        "id": "C",
+        "text": "Thylacine (Tasmanian Tiger) from Australia"
+      },
+      {
+        "id": "D",
+        "text": "Steller's Sea Cow from Russia"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "All four species represent classic documented recent extinctions listed in the IUCN Red List."
+  },
+  {
+    "id": "bio-xii-u10-c13-q19",
+    "questionNumber": 19,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "IUCN Threatened Species Categories",
+    "questionText": "Which of the following IUCN Red List categories are collectively classified as \"THREATENED SPECIES\"?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Critically Endangered (CR)"
+      },
+      {
+        "id": "B",
+        "text": "Endangered (EN)"
+      },
+      {
+        "id": "C",
+        "text": "Vulnerable (VU)"
+      },
+      {
+        "id": "D",
+        "text": "Least Concern (LC)"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Critically Endangered (CR), Endangered (EN), and Vulnerable (VU) are the three categories that constitute Threatened Species. D is incorrect: Least Concern (LC) represents species that are abundant and secure."
+  },
+  {
+    "id": "bio-xii-u10-c13-q20",
+    "questionNumber": 20,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "David Tilman Grassland Plot Experiments",
+    "questionText": "Select the correct statements regarding David Tilman's long-term field experiments on grassland plots:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Plots with higher species richness showed less year-to-year variation in total biomass."
+      },
+      {
+        "id": "B",
+        "text": "Increased species diversity contributed to higher overall ecosystem productivity."
+      },
+      {
+        "id": "C",
+        "text": "Tilman proved that species-poor monocultures are structurally more stable than diverse ecosystems."
+      },
+      {
+        "id": "D",
+        "text": "Tilman's experiments provided experimental validation that high biodiversity enhances ecosystem stability."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "A, B, D are correct: Tilman showed that higher species richness stabilizes year-to-year biomass, increases productivity, and enhances ecosystem stability. C is incorrect: Tilman proved that species-poor plots are less stable than species-rich plots."
+  }
+]

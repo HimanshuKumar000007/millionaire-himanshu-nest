@@ -1,0 +1,36 @@
+{
+  "id": "math-sets-lesson-08",
+  "exam": "NEST",
+  "subject": "Mathematics",
+  "classLevel": "Class XI",
+  "unit": "Unit 1 — Sets and Functions",
+  "unitNumber": 1,
+  "chapter": "Sets",
+  "chapterNumber": 1,
+  "chapterSlug": "sets",
+  "lessonNumber": 8,
+  "order": 8,
+  "slug": "lesson-08-characteristic-functions",
+  "title": "Characteristic Functions & Boolean Isomorphisms",
+  "topic": "Union, intersection & complement of sets",
+  "status": "published",
+  "estimatedTimeMinutes": 5,
+  "readingTimeMinutes": 5,
+  "diagramType": "sets",
+  "quickSummary": "A powerful algebraic tool for proving complex set identities by converting set operations into polynomial equations over {0, 1}.",
+  "summary": "Master characteristic indicator functions, indicator polynomials, and algebraic isomorphism proofs for complex set identities.",
+  "coreConcepts": ["Indicator Function", "Boolean Algebra", "Polynomial Equivalence", "Symmetric Difference Modulo 2"],
+  "conceptBreakdown": [
+    {
+      "heading": "8. Characteristic Function Algebra",
+      "title": "8. Characteristic Function Algebra",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Algebraic Shortcut",
+        "takeaway": "Since χ_A² = χ_A for any binary indicator, set identities reduce to simple high-school algebra over {0, 1}."
+      },
+      "codeSnippet": "CHARACTERISTIC FUNCTION ALGEBRA\n                   \n   1. Complement:             χ_{A'}(x) = 1 - χ_A(x)\n   2. Intersection:           χ_{A ∩ B}(x) = χ_A(x) · χ_B(x)\n   3. Union:                  χ_{A ∪ B}(x) = χ_A(x) + χ_B(x) - χ_A(x)χ_B(x)\n   4. Set Difference:         χ_{A \\ B}(x) = χ_A(x)(1 - χ_B(x))\n   5. Symmetric Difference:   χ_{A Δ B}(x) = χ_A(x) + χ_B(x) - 2χ_A(x)χ_B(x) ≡ χ_A(x) ⊕ χ_B(x) (mod 2)",
+      "content": "A powerful algebraic tool for proving set identities is the **Characteristic Function** (or Indicator Function) $\\chi_A: U \\to \\{0, 1\\}$:\n\n$$\\chi_A(x) = \\begin{cases} 1 & \\text{if } x \\in A \\\\ 0 & \\text{if } x \\notin A \\end{cases}$$\n\n### Algebraic Isomorphism Advantage\nTo prove a complex set identity like $A \\cap (B \\Delta C) = (A \\cap B) \\Delta (A \\cap C)$, evaluate the indicator polynomials:\n- **L.H.S.**:\n  $$\\chi_A(\\chi_B + \\chi_C - 2\\chi_B\\chi_C) = \\chi_A\\chi_B + \\chi_A\\chi_C - 2\\chi_A\\chi_B\\chi_C$$\n- **R.H.S.**:\n  $$(\\chi_A\\chi_B) + (\\chi_A\\chi_C) - 2(\\chi_A\\chi_B)(\\chi_A\\chi_C) = \\chi_A\\chi_B + \\chi_A\\chi_C - 2\\chi_A\\chi_B\\chi_C$$\n  *(since $\\chi_A^2 = \\chi_A$)*.\n\nBoth polynomials match identically for all binary truth assignments! $\\blacksquare$"
+    }
+  ]
+}

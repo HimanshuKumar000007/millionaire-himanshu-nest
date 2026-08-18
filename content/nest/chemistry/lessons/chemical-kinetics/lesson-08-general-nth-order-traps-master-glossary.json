@@ -1,0 +1,57 @@
+{
+  "id": "chem-xii-u12-c3-l08",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XII \u2014 Chemical Kinetics",
+  "unitNumber": 12,
+  "chapter": "Chemical Kinetics",
+  "chapterNumber": 3,
+  "chapterSlug": "chemical-kinetics",
+  "slug": "lesson-08-general-nth-order-traps-master-glossary",
+  "title": "General n-th Order Kinetics, 10 NEST Traps, & Master Glossary",
+  "topic": "General Kinetics, Traps & Master Glossary",
+  "topics": [
+    "General n-th Order Half-Life Scaling: t_1/2 \u221d [A]_0^(1-n)",
+    "9. High-Yield NEST Misconceptions & Traps Table (All 10 Items)",
+    "10. Master Glossary for Chemical Kinetics (All 22 Definitions)"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "Comprehensive Review",
+  "source": "production",
+  "status": "published",
+  "diagramType": "chemical-kinetics",
+  "quickSummary": "General n-th order half-life: t_1/2 \u221d [A]\u2080^(1-n). Master all 10 NEST kinetics traps and the complete 22-term chemical kinetics glossary.",
+  "summary": "Master n-th order half-life scaling laws, exam traps, and full chemical kinetics glossary.",
+  "conceptBreakdown": [
+    {
+      "heading": "8. General n-th Order Half-Life Scaling",
+      "title": "8. General n-th Order Half-Life Scaling",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Half-Life Scaling",
+        "takeaway": "t_1/2 \u221d 1 / [A]\u2080^(n-1) = [A]\u2080^(1-n). For n=0 \u27f9 t_1/2 \u221d [A]\u2080; n=1 \u27f9 independent; n=2 \u27f9 1/[A]\u2080."
+      },
+      "codeSnippet": "GENERAL n-TH ORDER HALF-LIFE SCALING\n\nt_1/2 \u221d 1 / [A]\u2080^(n-1) = [A]\u2080^(1-n)\n\n\u2022 Zero-Order (n=0):   t_1/2 \u221d [A]\u2080\u00b9   (Directly proportional)\n\u2022 First-Order (n=1):  t_1/2 \u221d [A]\u2080\u2070   (Independent of [A]\u2080)\n\u2022 Second-Order (n=2): t_1/2 \u221d [A]\u2080\u207b\u00b9  (Inversely proportional)\n\u2022 Third-Order (n=3):  t_1/2 \u221d [A]\u2080\u207b\u00b2  (Inversely proportional to square)",
+      "content": "For any $n$-th order chemical reaction, the half-life scales with initial reactant concentration $[A]_0$ as:\n$$\\mathbf{t_{1/2} \\propto \\frac{1}{[A]_0^{n-1}} = [A]_0^{1-n}}$$"
+    },
+    {
+      "heading": "9. 10 High-Yield NEST Misconceptions & Traps Table",
+      "title": "9. 10 High-Yield NEST Misconceptions & Traps Table",
+      "type": "paragraph",
+      "codeSnippet": "10 NEST KINETICS TRAPS\n\n1. Zero-order t_1/2 is DIRECTLY PROPORTIONAL to [A]\u2080 (First-order is independent).\n2. Catalyst lowers E_a (does NOT change collision frequency Z_AB significantly).\n3. Molecularity MUST be a positive integer (1, 2, 3).\n4. Second-order k units are M\u207b\u00b9\u00b7s\u207b\u00b9 or L\u00b7mol\u207b\u00b9\u00b7s\u207b\u00b9.\n5. E_a,f is ALWAYS positive (> 0), even in exothermic reactions.\n6. Doubling [A]\u2080 doubles first-order rate, but t_1/2 is UNCHANGED.\n7. Rate law is EXPERIMENTAL (cannot deduce from overall stoichiometry).\n8. Radioactive decay strictly follows FIRST-ORDER kinetics.\n9. Catalyst does NOT change \u0394H, \u0394G\u00b0, or K_eq.\n10. Slope of ln k vs 1/T is -E_a / R (Slope of log\u2081\u2080 k is -E_a / 2.303 R).",
+      "content": "Carefully review the 10 High-Yield NEST Misconceptions and Traps table from the syllabus before undertaking the 20-question self-assessment module."
+    }
+  ],
+  "quickRevision": [
+    "t_1/2 \u221d [A]\u2080^(1-n).",
+    "Molecularity is always a positive integer (1, 2, 3).",
+    "Catalysts change activation energy barrier, not state functions (\u0394H, \u0394G\u00b0, K_eq).",
+    "All 10 NEST traps reviewed and internalized."
+  ],
+  "keyFormulae": [
+    "t_{1/2} \\propto [A]_0^{1-n}"
+  ]
+}

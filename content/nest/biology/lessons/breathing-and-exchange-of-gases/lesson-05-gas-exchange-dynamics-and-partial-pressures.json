@@ -1,0 +1,36 @@
+{
+  "id": "bio-xi-u5-c14-l05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Breathing and Exchange of Gases",
+  "chapterNumber": 14,
+  "chapterSlug": "breathing-and-exchange-of-gases",
+  "slug": "lesson-05-gas-exchange-dynamics-and-partial-pressures",
+  "title": "Gas Exchange Dynamics: Partial Pressure Gradients",
+  "topic": "Alveolar vs Capillary vs Tissue Pressures & Fick's Law CO2 Solubility",
+  "order": 5,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Alveoli (pO2=104, pCO2=40), Arterial blood (pO2=95, pCO2=40), Deox blood (pO2=40, pCO2=45). CO2 solubility is 20–25× higher than O2, ensuring rapid diffusion despite smaller pressure gradients.",
+  "summary": "Alveoli (pO2=104, pCO2=40), Arterial blood (pO2=95, pCO2=40), Deox blood (pO2=40, pCO2=45). CO2 solubility is 20–25× higher than O2, ensuring rapid diffusion despite smaller pressure gradients.",
+  "conceptBreakdown": [
+    {
+      "heading": "Gas Exchange Dynamics: Partial Pressure Gradients",
+      "title": "Gas Exchange Dynamics: Partial Pressure Gradients",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Alveoli (pO2=104, pCO2=40), Arterial blood (pO2=95, pCO2=40), Deox blood (pO2=40, pCO2=45). CO2 solubility is 20–25× higher than O2, ensuring rapid diffusion despite smaller pressure gradients."
+      },
+      "codeSnippet": "PARTIAL PRESSURE GRADIENTS\n                         \n    Alveoli (pO2 = 104, pCO2 = 40)\n            │                                 ▲\n            ▼                                 │\n    Deoxygenated Blood (pO2 = 40, pCO2 = 45)\n            │                                 ▲\n            ▼                                 │\n    Oxygenated Blood (pO2 = 95, pCO2 = 40)\n            │                                 ▲\n            ▼                                 │\n    Tissues (pO2 ≤ 40, pCO2 ≥ 45)",
+      "content": "Gas diffusion across the respiratory membrane is driven by **Partial Pressure ($p$) Gradients**, governed by **Fick's Law of Diffusion**:\n\n$$V_{\\text{gas}} \\propto \\frac{A \\cdot S \\cdot (P_1 - P_2)}{T \\cdot \\sqrt{MW}}$$\n\n### 5.1 Partial Pressures Comparison Matrix (in $\\text{mmHg}$)\n\n| Respiratory Gas | Atmospheric Air | Alveoli | Deoxygenated Blood (Pulmonary Artery) | Oxygenated Blood (Systemic Arteries) | Tissues |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Oxygen ($p\\text{O}_2$)** | $159\\text{ mmHg}$ | **$104\\text{ mmHg}$** | $40\\text{ mmHg}$ | **$95\\text{ mmHg}$** | $\\le 40\\text{ mmHg}$ |\n| **Carbon Dioxide ($p\\text{CO}_2$)** | $0.3\\text{ mmHg}$ | **$40\\text{ mmHg}$** | $45\\text{ mmHg}$ | **$40\\text{ mmHg}$** | $\\ge 45\\text{ mmHg}$ |\n\n- **Solubility Factor**: The solubility of $\\text{CO}_2$ in blood plasma is **$20\\text{--}25\\text{ times higher}$** than that of $\\text{O}_2$. Consequently, $\\text{CO}_2$ diffuses across the respiratory membrane with exceptional speed despite a narrow partial pressure gradient ($\\Delta p\\text{CO}_2 = 5\\text{ mmHg}$ vs $\\Delta p\\text{O}_2 = 64\\text{ mmHg}$).",
+      "contentMarkdown": "Gas diffusion across the respiratory membrane is driven by **Partial Pressure ($p$) Gradients**, governed by **Fick's Law of Diffusion**:\n\n$$V_{\\text{gas}} \\propto \\frac{A \\cdot S \\cdot (P_1 - P_2)}{T \\cdot \\sqrt{MW}}$$\n\n### 5.1 Partial Pressures Comparison Matrix (in $\\text{mmHg}$)\n\n| Respiratory Gas | Atmospheric Air | Alveoli | Deoxygenated Blood (Pulmonary Artery) | Oxygenated Blood (Systemic Arteries) | Tissues |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Oxygen ($p\\text{O}_2$)** | $159\\text{ mmHg}$ | **$104\\text{ mmHg}$** | $40\\text{ mmHg}$ | **$95\\text{ mmHg}$** | $\\le 40\\text{ mmHg}$ |\n| **Carbon Dioxide ($p\\text{CO}_2$)** | $0.3\\text{ mmHg}$ | **$40\\text{ mmHg}$** | $45\\text{ mmHg}$ | **$40\\text{ mmHg}$** | $\\ge 45\\text{ mmHg}$ |\n\n- **Solubility Factor**: The solubility of $\\text{CO}_2$ in blood plasma is **$20\\text{--}25\\text{ times higher}$** than that of $\\text{O}_2$. Consequently, $\\text{CO}_2$ diffuses across the respiratory membrane with exceptional speed despite a narrow partial pressure gradient ($\\Delta p\\text{CO}_2 = 5\\text{ mmHg}$ vs $\\Delta p\\text{O}_2 = 64\\text{ mmHg}$)."
+    }
+  ]
+}

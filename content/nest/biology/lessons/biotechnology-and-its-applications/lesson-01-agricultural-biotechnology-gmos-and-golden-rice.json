@@ -1,0 +1,51 @@
+{
+  "id": "bio-xii-u9-c10-l01",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit IX — Biotechnology",
+  "unitNumber": 9,
+  "chapter": "Biotechnology and its Applications",
+  "chapterNumber": 10,
+  "chapterSlug": "biotechnology-and-its-applications",
+  "slug": "lesson-01-agricultural-biotechnology-gmos-and-golden-rice",
+  "title": "Agricultural Biotechnology: GMOs & Golden Rice",
+  "topic": "Green Revolution Limitations, GM Crop Advantages, & Provitamin A Biofortification",
+  "order": 1,
+  "readingTimeMinutes": 15,
+  "estimatedTimeMinutes": 15,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Agricultural biotechnology: Overcomes Green Revolution limitations (chemical runoff, soil exhaustion). Genetically Modified Organisms (GMOs) confer abiotic tolerance, pest resistance, post-harvest loss reduction, and nutritional enrichment. Golden Rice: Transgenic Oryza sativa biofortified with beta-carotene (provitamin A) using daffodil (psy) and Erwinia (crtI) genes to prevent childhood blindness.",
+  "summary": "Agricultural biotechnology: Overcomes Green Revolution limitations (chemical runoff, soil exhaustion). Genetically Modified Organisms (GMOs) confer abiotic tolerance, pest resistance, post-harvest loss reduction, and nutritional enrichment. Golden Rice: Transgenic Oryza sativa biofortified with beta-carotene (provitamin A) using daffodil (psy) and Erwinia (crtI) genes to prevent childhood blindness.",
+  "conceptBreakdown": [
+    {
+      "heading": "Green Revolution Limitations & Advantages of GM Crops",
+      "title": "Green Revolution Limitations & Advantages of GM Crops",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "While the Green Revolution relied heavily on synthetic agrochemicals and irrigation, Genetically Modified (GM) crops integrate precision foreign genes to confer abiotic stress tolerance, pest resistance, and biofortified nutrition such as provitamin A in Golden Rice."
+      },
+      "codeSnippet": "ADVANTAGES OF GM CROPS\n                                       │\n     ┌──────────────────┬──────────────┴──────────────┬──────────────────┐\n     ▼                  ▼                             ▼                  ▼\nABIOTIC RESISTANCE   PEST RESISTANCE              NUTRITIONAL ENRICHMENT EFFICIENT MINERAL USE\n├── Cold & Salt      ├── Bt Cotton (Bollworms)    └── Golden Rice        └── Prevents early soil\n└── Drought & Heat   └── Bt Corn (Corn Borer)         (β-Carotene)           nutrient exhaustion",
+      "content": "### 1.1 Limitations of the Green Revolution\n- Spearheaded by **Norman Borlaug** and **M.S. Swaminathan**, the Green Revolution tripled food grain production using high-yielding semi-dwarf wheat (*Norin-10*) and rice (*Dee-geo-woo-gen*) varieties.\n- **Ecological & Economic Bottlenecks**: Heavy reliance on expensive synthetic fertilizers and chemical pesticides, massive irrigation water depletion, soil salinization, and toxic biomagnification.\n\n### 1.2 Genetically Modified Organisms (GMOs) in Agriculture\n- **Definition**: Plants, bacteria, fungi, and animals whose genes have been altered by genetic manipulation.\n- **Agronomic Advantages**:\n  1. **Abiotic Stress Tolerance**: Enhanced tolerance to cold, drought, salinity, and extreme heat.\n  2. **Reduced Chemical Dependence**: Pest-resistant crops (e.g., *Bt Cotton*) eliminate hazardous chemical insecticides.\n  3. **Reduced Post-Harvest Losses**: Extended shelf-life (e.g., *Flavr Savr* tomato with antisense polygalacturonase gene).\n  4. **Increased Mineral Utilization Efficiency**: Prevents premature exhaustion of soil fertility.\n  5. **Nutritional Biofortification**: Transgenic enrichment of essential micronutrients.\n\n### 1.3 Golden Rice ($\\beta$-Carotene Provitamin A Enriched Rice)\n- **Medical Rationale**: Engineered to alleviate chronic **Vitamin A Deficiency (VAD)** and prevent xerophthalmia and childhood blindness in developing nations.\n- **Biochemical Engineering**: The endosperm of normal rice synthesizes geranylgeranyl diphosphate (GGDP) but lacks downstream enzymes. Golden Rice was created by introducing:\n  1. **Phytoene Synthase (*psy*)** gene from the Wild Daffodil (*Narcissus pseudonarcissus*).\n  2. **Phytoene Desaturase (*crtI*)** gene from the soil bacterium *Erwinia uredovora*.\n- **Phenotype**: Grains accumulate rich yellow-orange **$\\beta$-Carotene (Provitamin A)**, converted into retinal in the human intestine."
+    },
+    {
+      "heading": "Biofortified Crops via Conventional Breeding",
+      "title": "Biofortified Crops via Conventional Breeding",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Conventional biofortification produced Atlas 66 wheat (high protein), lysine/tryptophan-rich maize hybrids (Protina, Shakti, Ratan), and iron-fortified rice."
+      },
+      "content": "Conventional breeding programs produced Atlas 66 wheat with high protein content, iron-fortified rice varieties containing 5 times normal iron, and biofortified maize hybrids rich in the essential amino acids lysine and tryptophan."
+    },
+    {
+      "heading": "Flavr Savr Tomato",
+      "title": "Flavr Savr Tomato",
+      "type": "paragraph",
+      "content": "The Flavr Savr tomato was engineered using antisense RNA technology against the polygalacturonase gene, preventing pectin breakdown in cell walls and significantly delaying fruit softening and rotting during transport."
+    }
+  ]
+}

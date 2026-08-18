@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c4-l06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Principles of Inheritance and Variation",
+  "chapterNumber": 4,
+  "chapterSlug": "principles-of-inheritance-and-variation",
+  "slug": "lesson-06-chromosome-theory-and-morgans-drosophila-experiments",
+  "title": "Chromosome Theory & Morgan's Drosophila Experiments",
+  "topic": "Sutton-Boveri Chromosome Theory & Drosophila Melanogaster",
+  "order": 6,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Walter Sutton & Theodor Boveri (1902) formulated Chromosome Theory of Inheritance based on gene-chromosome behavior parallelism during meiosis. T.H. Morgan experimentally proved chromosome theory using Drosophila melanogaster (fruit fly: 2-week cycle, 2n=8, clear sexual dimorphism).",
+  "summary": "Walter Sutton & Theodor Boveri (1902) formulated Chromosome Theory of Inheritance based on gene-chromosome behavior parallelism during meiosis. T.H. Morgan experimentally proved chromosome theory using Drosophila melanogaster (fruit fly: 2-week cycle, 2n=8, clear sexual dimorphism).",
+  "conceptBreakdown": [
+    {
+      "heading": "Chromosome Theory & Morgan's Drosophila Experiments",
+      "title": "Chromosome Theory & Morgan's Drosophila Experiments",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Walter Sutton and Theodor Boveri (1902) formulated the Chromosomal Theory of Inheritance, establishing that Mendelian genes reside on physical chromosomes. Parallelism during meiosis: occur in pairs, segregate at Anaphase I, and assort independently. Thomas Hunt Morgan experimentally verified the theory using Drosophila melanogaster."
+      },
+      "codeSnippet": "GENE vs CHROMOSOME BEHAVIOR PARALLELISM\n                      \n   GENES (Mendelian Factors)                   CHROMOSOMES (Cytological Units)\n   ├── Occur in pairs in diploid cells         ├── Occur in homologous pairs in diploid cells\n   ├── Segregate at gamete formation (1/2)     ├── Homologs segregate at Anaphase I (1/2)\n   └── Independent assortment of gene pairs    └── Independent alignment at Metaphase I",
+      "content": "### 6.1 Sutton & Boveri's Chromosome Theory of Inheritance (1902)\n- Sutton and Boveri unified Mendelian principles of segregation and independent assortment with the cytological behavior of chromosomes during meiosis.\n- **Chromosomal Parallelism**:\n  1. Both genes and homologous chromosomes exist in pairs in diploid somatic cells.\n  2. Both segregate during gamete formation so that only one member of each pair enters a gamete.\n  3. Different gene pairs and non-homologous chromosome pairs assort independently during Metaphase I and Anaphase I.\n\n### 6.2 Morgan's Drosophila Experimental System\n\n```\n                      DROSOPHILA EXPERIMENTAL ADVANTAGES\n                                       │\n  1. Short 2-week life cycle on simple synthetic yeast medium.\n  2. Single mating produces hundreds of progeny flies.\n  3. Clear Sexual Dimorphism (Females larger with rounded abdomen; males smaller with dark tail).\n  4. Low chromosome number (2n = 8: 3 pairs of autosomes + 1 pair of sex chromosomes).\n  5. Giant polytene salivary gland chromosomes visible under low-power microscope.\n```"
+    },
+    {
+      "heading": "Discovery of White-Eye Mutant in Drosophila",
+      "title": "Discovery of White-Eye Mutant in Drosophila",
+      "type": "paragraph",
+      "content": "In 1910, Morgan identified a spontaneous white-eyed male mutant; reciprocal crosses with wild-type red-eyed females demonstrated that the eye-color gene was physically located on the X-chromosome (sex-linkage)."
+    },
+    {
+      "heading": "Male Drosophila Absence of Recombination",
+      "title": "Male Drosophila Absence of Recombination",
+      "type": "paragraph",
+      "content": "In Drosophila, crossing over occurs EXCLUSIVELY in females; male fruit flies display achiasmatic meiosis with zero crossing over (100% complete linkage)."
+    }
+  ]
+}

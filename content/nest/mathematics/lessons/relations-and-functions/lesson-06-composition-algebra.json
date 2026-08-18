@@ -1,0 +1,43 @@
+{
+  "id": "math-xi-u1-c2-l06",
+  "exam": "NEST",
+  "subject": "Mathematics",
+  "classLevel": "Class XI",
+  "unit": "Unit 1 — Sets and Functions",
+  "unitNumber": 1,
+  "chapter": "Relations and Functions",
+  "chapterNumber": 2,
+  "chapterSlug": "relations-and-functions",
+  "slug": "lesson-06-composition-algebra",
+  "title": "Algebra & Composition of Functions",
+  "topic": "Domain, codomain & range",
+  "order": 6,
+  "estimatedTimeMinutes": 6,
+  "readingTimeMinutes": 6,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "relations-and-functions",
+  "quickSummary": "Pointwise function operations and the composite function (g ∘ f)(x) = g(f(x)) with rigorous domain restriction and piecewise evaluation algorithms.",
+  "summary": "Master algebra of functions, composite functions, domain intersection rules, and piecewise composition decomposition.",
+  "conceptBreakdown": [
+    {
+      "heading": "6. Pointwise Operations & Composite Functions",
+      "title": "6. Pointwise Operations & Composite Functions",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Composition Domain",
+        "takeaway": "Dom(g ∘ f) = {x ∈ Dom(f) | f(x) ∈ Dom(g)}. Never assume Dom(g ∘ f) equals Dom(f)."
+      },
+      "codeSnippet": "COMPOSITION MAPPING FLOW\n                        \n          x ──[ f ]──► f(x) ──[ g ]──► g(f(x))\n         (Domain A)    (Codomain B)    (Codomain C)\n         └─────────────── g ∘ f ────────────────┘",
+      "content": "Let $f: D_1 \\to \\mathbb{R}$ and $g: D_2 \\to \\mathbb{R}$.\n\n1. **Sum & Difference**: $(f \\pm g)(x) = f(x) \\pm g(x)$, with domain $D_1 \\cap D_2$.\n2. **Product**: $(f \\cdot g)(x) = f(x) \\cdot g(x)$, with domain $D_1 \\cap D_2$.\n3. **Quotient**: $(f/g)(x) = f(x)/g(x)$, with domain $(D_1 \\cap D_2) \\setminus \\{x \\mid g(x) = 0\\}$.\n\n### Composite Functions ($g \\circ f$)\nLet $f: A \\to B$ and $g: B \\to C$. The **Composite Function** $g \\circ f: A \\to C$ is defined by:\n$$\\mathbf{(g \\circ f)(x) = g(f(x))}$$\n\n$$\\mathbf{\\text{Dom}(g \\circ f) = \\{x \\in \\mathbb{R} \\mid x \\in \\text{Dom}(f) \\land f(x) \\in \\text{Dom}(g)\\}}$$"
+    },
+    {
+      "heading": "6.1 Piecewise Composition Algorithm",
+      "title": "6.1 Piecewise Composition Algorithm",
+      "type": "paragraph",
+      "codeSnippet": "PIECEWISE COMPOSITION ALGORITHM\n                       \n   Let f(x) and g(x) be defined piecewise over split sub-domains.\n   To construct g(f(x)):\n   1. Substitute f(x) into g(y) wherever variable y appears.\n   2. Restrict each branch using the compound condition: x ∈ Dom(f) ∧ f(x) ∈ Sub-domain of g.",
+      "content": "To construct $g(f(x))$ when $f$ and $g$ are defined piecewise:\n1. Substitute $f(x)$ into each formula branch of $g(y)$.\n2. Enforce the two simultaneous domain restrictions: $x$ must lie in the branch domain of $f(x)$, and the resulting $f(x)$ must fall inside the branch condition for $g(y)$."
+    }
+  ]
+}

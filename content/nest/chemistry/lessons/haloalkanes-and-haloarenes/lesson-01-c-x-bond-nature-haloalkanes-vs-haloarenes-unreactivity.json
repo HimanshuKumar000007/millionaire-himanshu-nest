@@ -1,0 +1,60 @@
+{
+  "id": "chem-xii-u15-c6-l01",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XV \u2014 Haloalkanes and Haloarenes",
+  "unitNumber": 15,
+  "chapter": "Haloalkanes and Haloarenes",
+  "chapterNumber": 6,
+  "chapterSlug": "haloalkanes-and-haloarenes",
+  "slug": "lesson-01-c-x-bond-nature-haloalkanes-vs-haloarenes-unreactivity",
+  "title": "Nature of C\u2013X Bond in Haloalkanes vs. Haloarenes & Unreactivity Causes",
+  "topic": "C\u2013X Bond Nature & Haloarene Unreactivity",
+  "topics": [
+    "C\u2013X Bond Comparison: Haloalkanes (sp\u00b3, 1.78 \u00c5, reactive) vs Haloarenes (sp\u00b2, 1.69 \u00c5, partial double bond, inert)",
+    "1.1 Four Synergistic Causes of Haloarene Unreactivity toward Nucleophilic Substitution",
+    "Resonance Effect & Chlorobenzene Resonance Canonicals (Partial double-bond character)",
+    "sp\u00b2 Carbon Hybridization (33% s-character holds electrons tightly)",
+    "Instability of Phenyl Cation in S_N1 Ionization & \u03c0-Electron Cloud Repulsion"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "haloalkanes-and-haloarenes",
+  "quickSummary": "Haloalkane C-X is sp\u00b3 (1.78 \u00c5 for C-Cl, highly reactive). Haloarene C-X is sp\u00b2 (1.69 \u00c5 for Ph-Cl, inert). Haloarenes resist nucleophilic substitution due to 4 factors: 1. Resonance partial double bond character, 2. sp\u00b2 carbon holding electrons closer, 3. Instability of phenyl cation, 4. Electrostatic repulsion from aromatic \u03c0-cloud.",
+  "summary": "Master the electronic and steric differences between aliphatic and aromatic carbon-halogen bonds and the 4 causes of haloarene unreactivity.",
+  "conceptBreakdown": [
+    {
+      "heading": "1. Nature of C\u2013X Bond in Haloalkanes vs. Haloarenes",
+      "title": "1. Nature of C\u2013X Bond in Haloalkanes vs. Haloarenes",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "C\u2013X Bond Comparison",
+        "takeaway": "Haloalkanes: sp\u00b3 carbon, 1.78 \u00c5, no resonance, highly reactive. Haloarenes: sp\u00b2 carbon, 1.69 \u00c5, partial double-bond character, inert."
+      },
+      "codeSnippet": "                          C\u2013X BOND COMPARISON\n                                   \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                                                   \u25bc\n  HALOALKANES ($R-\\text{X}$)                            HALOARENES ($\\text{Ar-X}$)\n  \u251c\u2500\u2500 Carbon Hybridization: **$sp^3$**                  \u251c\u2500\u2500 Carbon Hybridization: **$sp^2$**\n  \u251c\u2500\u2500 Bond Length: Longer ($1.78\\text{ \\AA}$ for $\\text{C-Cl}$) \u251c\u2500\u2500 Bond Length: Shorter ($1.69\\text{ \\AA}$ for $\\text{Ph-Cl}$)\n  \u251c\u2500\u2500 Resonance: Absent                                \u251c\u2500\u2500 Resonance: **Partial Double-Bond Character**\n  \u2514\u2500\u2500 Nucleophilic Substitution: **HIGHLY REACTIVE**    \u2514\u2500\u2500 Nucleophilic Substitution: **INERT**",
+      "content": "Halogenated organic compounds are divided into Haloalkanes (alkyl halides, $\\text{R-X}$) and Haloarenes (aryl halides, $\\text{Ar-X}$). The chemical reactivity of the carbon-halogen ($\\text{C-X}$) bond is governed by carbon hybridization and electronic resonance."
+    },
+    {
+      "heading": "1.1 Why Haloarenes are Unreactive toward Nucleophilic Substitution",
+      "title": "1.1 Why Haloarenes are Unreactive toward Nucleophilic Substitution",
+      "type": "paragraph",
+      "codeSnippet": "                  UNREACTIVITY CAUSES OF HALOARENES\n                                   \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                  \u25bc                      \u25bc                  \u25bc\nRESONANCE EFFECT      $sp^2$ HYBRIDIZATION     PHENYL CATION      $\\pi$-ELECTRON\nLone pairs on $X$     $sp^2$ carbon has $33\\%$ INSTABILITY        REPULSION\ndelocalize into ring; $s$-character; holds    $S_N1$ ionization   Incoming nucleophile\nimparts **partial      $e^-$ tightly; shorter  yields unstable     is repelled by dense\ndouble-bond character**. bond ($1.69\\text{ \\AA}$).     phenyl cation.      aromatic $\\pi$-cloud.\n\n                   CHLOROBENZENE RESONANCE CANONICALS\n                   \n   :Cl:               :Cl\u207a:              :Cl\u207a:              :Cl\u207a:\n    \u2502                  \u2551                  \u2551                  \u2551\n   / \\   \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba    / \\\u207b   \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba   / \\    \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba   /\u207b \\\n  |   |              |   |              |\u207b  |              |   |\n   \\ /                \\ /                \\ /                \\ /",
+      "content": "Haloarenes are extraordinarily resistant to standard nucleophilic substitution ($S_N1$ or $S_N2$) due to four synergistic factors:\n1. **Resonance Effect**: Delocalization of halogen lone pairs into the benzene ring imparts partial double-bond character to the $\\text{C-X}$ bond, making bond cleavage difficult.\n2. **Difference in Hybridization**: $sp^2$ hybridized carbon has $33\\%$ s-character, making it more electronegative and holding the shared pair closer than $sp^3$ ($25\\%$ s-character), shortening the bond to $1.69\\text{ \\AA}$.\n3. **Instability of Phenyl Cation**: Heterolytic cleavage in an $S_N1$ pathway would generate an unstable phenyl cation with a vacant $sp^2$ orbital orthogonal to the $\\pi$-system.\n4. **Electronic Repulsion**: The electron-rich aromatic $\\pi$-electron cloud repels approaching nucleophiles."
+    }
+  ],
+  "quickRevision": [
+    "Haloalkane C-X is sp\u00b3 (1.78 \u00c5); Haloarene C-X is sp\u00b2 (1.69 \u00c5).",
+    "Resonance in haloarenes imparts partial double-bond character.",
+    "sp\u00b2 carbon has 33% s-character and holds electrons more tightly.",
+    "Phenyl cation (C\u2086H\u2085\u207a) is extremely unstable (no S_N1).",
+    "Aromatic \u03c0-cloud electrostatically repels incoming nucleophiles (no S_N2)."
+  ],
+  "keyFormulae": [
+    "\\text{C-Cl Bond Length: } 1.78\\text{ \\AA (Alkyl)} \\quad \\text{vs} \\quad 1.69\\text{ \\AA (Aryl)}"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "chem-xii-u15-c6-l07",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XV \u2014 Haloalkanes and Haloarenes",
+  "unitNumber": 15,
+  "chapter": "Haloalkanes and Haloarenes",
+  "chapterNumber": 6,
+  "chapterSlug": "haloalkanes-and-haloarenes",
+  "slug": "lesson-07-environmental-toxicology-freons-cfcs-ozone-ddt-biomagnification",
+  "title": "Environmental Toxicology: Freons, Ozone Depletion, & DDT Biomagnification",
+  "topic": "Freons, Ozone Depletion & DDT",
+  "topics": [
+    "Freons (Chlorofluorocarbons, Freon-12 CCl\u2082F\u2082) Synthesis via Swarts Reaction (CCl\u2084 + SbF\u2083)",
+    "Stratospheric Photolysis of Freon-12 & Catalytic Ozone Destruction Chain (Cl\u2022 Radicals destroying >100,000 O\u2083 molecules)",
+    "DDT (p,p'-Dichlorodiphenyltrichloroethane) Synthesis: Chloral + 2 Chlorobenzene with Conc. H\u2082SO\u2084",
+    "Biomagnification in Aquatic Food Chains (Water 0.003 ppb \u2500\u2500\u25ba Fish-eating Birds 25 ppm)",
+    "Avian Toxicity: Calcium Metabolism Disruption & Eggshell Thinning",
+    "Elimination Regioselectivity: Saytzeff (2-butene major) vs Hofmann (bulky base t-BuOK) and Anti-Periplanar E2 Geometry"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "haloalkanes-and-haloarenes",
+  "quickSummary": "Freon-12 (CCl\u2082F\u2082) releases Cl\u2022 radicals in stratosphere under UV, catalytically destroying >100,000 ozone molecules per radical. DDT (prepared from chloral + chlorobenzene) is lipophilic, non-biodegradable, and biomagnifies up aquatic food chains to 25 ppm in birds, causing calcium deficiency and eggshell thinning. Elimination of 2-bromobutane gives 2-butene major (Saytzeff) with alc. KOH, but Hofmann product with bulky t-BuOK.",
+  "summary": "Master Freon ozone depletion mechanisms, DDT biomagnification toxicity, and E2 elimination regioselectivity rules.",
+  "conceptBreakdown": [
+    {
+      "heading": "7. Freons & Stratospheric Ozone Depletion Mechanism",
+      "title": "7. Freons & Stratospheric Ozone Depletion Mechanism",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Catalytic Ozone Destruction",
+        "takeaway": "Cl\u2022 + O\u2083 \u2500\u2500\u25ba ClO\u2022 + O\u2082; ClO\u2022 + O\u2022 \u2500\u2500\u25ba Cl\u2022 + O\u2082. A single Cl\u2022 radical destroys >100,000 ozone molecules."
+      },
+      "codeSnippet": "                     CATALYTIC OZONE DESTRUCTION CYCLE\n                     \n   $$\\text{CCl}_2\\text{F}_2 \\xrightarrow{h\\nu \\text{ (UV)}} \\text{C}^\\bullet\\text{ClF}_2 + \\mathbf{\\text{Cl}^\\bullet}$$\n   $$\\text{Cl}^\\bullet + \\text{O}_3 \\longrightarrow \\text{ClO}^\\bullet + \\text{O}_2$$\n   $$\\text{ClO}^\\bullet + \\text{O}^\\bullet \\longrightarrow \\mathbf{\\text{Cl}^\\bullet} + \\text{O}_2$$\n   *(A single Chlorine radical can destroy $>100,000$ Ozone molecules in a chain reaction!)*",
+      "content": "Chlorofluorocarbons (CFCs, e.g., Freon-12, $\\text{CCl}_2\\text{F}_2$) diffuse into the stratosphere, where UV radiation cleaves the weaker $\\text{C-Cl}$ bond homolytically, releasing chlorine radicals ($\\text{Cl}^\\bullet$) that catalytically destroy the ozone layer."
+    },
+    {
+      "heading": "7.2 DDT Synthesis & Biomagnification Toxicity",
+      "title": "7.2 DDT Synthesis & Biomagnification Toxicity",
+      "type": "paragraph",
+      "codeSnippet": "                           DDT CHEMICAL STRUCTURE\n                           \n                 Cl \u2500\u2500\u2500 (C\u2086H\u2084) \u2500\u2500\u2500 CH \u2500\u2500\u2500 (C\u2086H\u2084) \u2500\u2500\u2500 Cl\n                                   \u2502\n                                 CCl\u2083\n\n\u2022 Synthesis: Chloral + 2 Chlorobenzene \u2500\u2500[Conc. H\u2082SO\u2084]\u2500\u2500\u25ba DDT + H\u2082O\n\u2022 Biomagnification: Water (0.003 ppb) \u2500\u2500\u25ba Zooplankton (0.04 ppm) \u2500\u2500\u25ba Small Fish (0.5 ppm) \u2500\u2500\u25ba Large Fish (2 ppm) \u2500\u2500\u25ba Fish-eating Birds (25 ppm)\n\u2022 Toxicity: Inhibits calcium-ATPase in shell glands, causing eggshell thinning and egg breakage.",
+      "content": "DDT ($p,p'$-Dichlorodiphenyltrichloroethane) is fat-soluble and resistant to metabolism, concentrating through biomagnification in birds and disrupting calcium deposition."
+    }
+  ],
+  "quickRevision": [
+    "Freon-12 (CCl\u2082F\u2082) releases Cl\u2022 radicals under UV light.",
+    "One Cl\u2022 radical destroys >100,000 ozone molecules in a chain reaction.",
+    "DDT is prepared from Chloral + 2 Chlorobenzene with conc. H\u2082SO\u2084.",
+    "DDT biomagnifies in aquatic food chains, reaching 25 ppm in birds.",
+    "DDT causes calcium deficiency, thinning eggshells and collapsing bird populations.",
+    "Saytzeff's rule: Major alkene is more substituted (2-butene > 1-butene)."
+  ],
+  "keyFormulae": [
+    "\\text{CCl}_3\\text{CHO} + 2\\text{C}_6\\text{H}_5\\text{Cl} \\xrightarrow{\\text{Conc. }\\text{H}_2\\text{SO}_4} \\text{DDT} + \\text{H}_2\\text{O}"
+  ]
+}

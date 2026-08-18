@@ -1,0 +1,51 @@
+{
+  "id": "bio-xii-u10-c12-l06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit X — Ecology",
+  "unitNumber": 10,
+  "chapter": "Ecosystem",
+  "chapterNumber": 12,
+  "chapterSlug": "ecosystem",
+  "slug": "lesson-06-energy-flow-thermodynamics-and-par-capture",
+  "title": "Energy Flow: Thermodynamics & PAR Capture",
+  "topic": "Unidirectional Energy Flow, 1st & 2nd Laws of Thermodynamics, PAR (400-700 nm), & 2-10% Capture Efficiency",
+  "order": 6,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Energy flow in ecosystems is strictly UNIDIRECTIONAL from the sun to autotrophs and higher consumer trophic levels. Governed by the Laws of Thermodynamics: First Law (light energy converted into chemical bond energy) and Second Law (inefficient transfers with continuous entropy increase as energy dissipates as metabolic heat). Solar radiation metrics: 50% of incident solar radiation constitutes Photosynthetically Active Radiation (PAR: 400-700 nm); green plants capture only 2-10% of PAR (1-5% of total incident solar radiation).",
+  "summary": "Energy flow in ecosystems is strictly UNIDIRECTIONAL from the sun to autotrophs and higher consumer trophic levels. Governed by the Laws of Thermodynamics: First Law (light energy converted into chemical bond energy) and Second Law (inefficient transfers with continuous entropy increase as energy dissipates as metabolic heat). Solar radiation metrics: 50% of incident solar radiation constitutes Photosynthetically Active Radiation (PAR: 400-700 nm); green plants capture only 2-10% of PAR (1-5% of total incident solar radiation).",
+  "conceptBreakdown": [
+    {
+      "heading": "Thermodynamics of Ecosystem Bioenergetics & PAR",
+      "title": "Thermodynamics of Ecosystem Bioenergetics & PAR",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Energy flow through ecological networks is unidirectional. Ecosystems obey the First and Second Laws of Thermodynamics, requiring constant solar inputs to offset metabolic entropy losses. Autotrophs capture 2-10% of Photosynthetically Active Radiation (PAR)."
+      },
+      "codeSnippet": "SOLAR RADIATION CAPTURE\n                       \n   Incident Solar Radiation ──► 50% is Photosynthetically Active Radiation (PAR: 400–700 nm)\n                                             │\n   Producers capture ONLY 2–10% of PAR (1–5% of Total Incident Radiation)",
+      "content": "### 6.1 Unidirectional Energy Flow & Thermodynamic Principles\n- Unlike mineral nutrients (which cycle endlessly between biotic and abiotic compartments), **Energy Flow through an ecosystem is strictly UNIDIRECTIONAL** and non-cyclic:\n  $$\\mathbf{\\text{Sun} \\longrightarrow \\text{Primary Producers } (T_1) \\longrightarrow \\text{Consumers } (T_2, T_3, T_4) \\longrightarrow \\text{Dissipated Heat}}$$\n- **Application of Thermodynamic Laws**:\n  1. **First Law of Thermodynamics (Conservation of Energy)**:\n     - Radiant solar energy is transformed into chemical bond energy of carbohydrates through photosynthetic photophosphorylation without creation or destruction of energy.\n  2. **Second Law of Thermodynamics (Entropy Increase)**:\n     - No energy transfer is $100\\%$ efficient. Every energy conversion involves thermodynamic dissipation of free energy as unusable **metabolic heat ($R$)**, increasing system entropy.\n     - Consequently, an ecosystem requires a **continuous, uninterrupted influx of solar radiant energy** to maintain internal structural organization and sustain life.\n\n### 6.2 Solar Radiation Budget & PAR Metrics\n- **Total Incident Solar Radiation**:\n  - Less than **$50\\%$** of total incident solar radiation reaching the upper biosphere falls within the **Photosynthetically Active Radiation (PAR)** waveband ($400\\text{--}700\\text{ nm}$).\n  - The remaining $>50\\%$ comprises biologically inactive ultraviolet (UV) and infrared thermal wavelengths.\n- **Plant Capture Efficiency**:\n  - Green autotrophic plants capture only **$2\\text{--}10\\%$ of incident PAR** for conversion into gross chemical photosynthate.\n  - Relative to total incident sunlight reaching the atmosphere, plants capture a mere **$1\\text{--}5\\%$** of total solar radiation.\n  - This small fraction of captured solar energy fuels the entire biotic architecture of Earth!"
+    },
+    {
+      "heading": "Odum's Universal Energy Flow Model",
+      "title": "Odum's Universal Energy Flow Model",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Eugene Odum's Y-shaped model illustrates energy partitioning into unutilized biomass (NU), assimilated energy (A), respiration (R), and new secondary biomass (P)."
+      },
+      "content": "Eugene Odum's universal Y-shaped energy flow diagram partitions ingested energy into non-utilized energy excreted as feces, assimilated energy channeled into respiration (R), and net production (P) available to higher trophic consumers."
+    },
+    {
+      "heading": "Albedo Effect in Ecosystems",
+      "title": "Albedo Effect in Ecosystems",
+      "type": "paragraph",
+      "content": "Albedo is the fraction of incident solar radiation reflected by Earth's surfaces without absorption: fresh snow (80–90%), deserts (30–40%), open oceans (6–10%), and tropical forest canopies (10–15%)."
+    }
+  ]
+}

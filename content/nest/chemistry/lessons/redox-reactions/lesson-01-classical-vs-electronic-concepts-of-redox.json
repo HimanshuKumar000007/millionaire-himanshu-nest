@@ -1,0 +1,59 @@
+{
+  "id": "chem-xi-u7-c7-l01",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VII \u2014 Redox Reactions",
+  "unitNumber": 7,
+  "chapter": "Redox Reactions",
+  "chapterNumber": 7,
+  "chapterSlug": "redox-reactions",
+  "slug": "lesson-01-classical-vs-electronic-concepts-of-redox",
+  "title": "Classical vs. Electronic Concepts of Redox Processes",
+  "topic": "Redox Principles & Definitions",
+  "topics": [
+    "Classical Definitions (Oxygen/Hydrogen & Electronegative/Electropositive elements)",
+    "Electronic Concept: De-electronation vs Electronation",
+    "Oxidation Number Shifts",
+    "Oxidant (Oxidizing Agent) vs Reductant (Reducing Agent) Roles"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "redox-reactions",
+  "quickSummary": "Oxidation is de-electronation (loss of e\u207b, ON increases). Reduction is electronation (gain of e\u207b, ON decreases). Reductants get oxidized; oxidants get reduced.",
+  "summary": "Master classical and modern electronic definitions of oxidation, reduction, reducing agents, and oxidizing agents.",
+  "conceptBreakdown": [
+    {
+      "heading": "1.1 Redox Definitional Spectrum",
+      "title": "1.1 Redox Definitional Spectrum",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Redox Spectrum",
+        "takeaway": "Oxidation = De-electronation (ON increases). Reduction = Electronation (ON decreases). Reductant loses e\u207b; Oxidant gains e\u207b."
+      },
+      "codeSnippet": "REDOX DEFINITIONAL SPECTRUM\n                                     \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                                                       \u25bc\n  OXIDATION PROCESS                                        REDUCTION PROCESS\n  \u251c\u2500\u2500 Classical: Gain of Oxygen / Loss of Hydrogen        \u251c\u2500\u2500 Classical: Loss of Oxygen / Gain of Hydrogen\n  \u251c\u2500\u2500 Electronic: De-electronation (Loss of e\u207b)           \u251c\u2500\u2500 Electronic: Electronation (Gain of e\u207b)\n  \u2514\u2500\u2500 Oxidation Number: INCREASES                         \u2514\u2500\u2500 Oxidation Number: DECREASES",
+      "content": "Chemical reactions involving simultaneous transfer of electrons or changes in oxidation states are classified as Redox (Reduction-Oxidation) Reactions.\n\n\u2022 **Oxidation**: The removal/loss of electrons (**de-electronation**) from an atom, ion, or molecule, leading to an increase in oxidation number (*e.g., $\\text{Fe}^{2+} \\rightarrow \\text{Fe}^{3+} + e^-$*).\n\u2022 **Reduction**: The addition/gain of electrons (**electronation**) by an atom, ion, or molecule, leading to a decrease in oxidation number (*e.g., $\\text{Cl}_2 + 2e^- \\rightarrow 2\\text{Cl}^-$*).\n\n```\nOXIDIZING AGENT (Oxidant):   Gains e\u207b \u2500\u2500\u25ba Undergoes Reduction \u2500\u2500\u25ba ON Decreases\nREDUCING AGENT (Reductant):  Loses e\u207b \u2500\u2500\u25ba Undergoes Oxidation \u2500\u2500\u25ba ON Increases\n```"
+    },
+    {
+      "heading": "1.2 Comparative Operational Definitions",
+      "title": "1.2 Comparative Operational Definitions",
+      "type": "paragraph",
+      "codeSnippet": "COMPARATIVE OPERATIONAL DEFINITIONS\n\n\u2022 Oxidation: Addition of O/electronegative element; Loss of e\u207b; ON increases; Reductant.\n\u2022 Reduction: Removal of O/electronegative element; Gain of e\u207b; ON decreases; Oxidant.",
+      "content": "A detailed operational comparison:\n\n1. **Classical Framework**:\n   - *Oxidation*: Addition of Oxygen or any electronegative element (or removal of Hydrogen/electropositive element).\n   - *Reduction*: Removal of Oxygen or any electronegative element (or addition of Hydrogen/electropositive element).\n2. **Modern Electronic Framework**:\n   - *Oxidation*: Loss of one or more electrons ($e^-$).\n   - *Reduction*: Gain of one or more electrons ($e^-$).\n3. **Oxidation State Criteria**:\n   - *Oxidation*: Increase in algebraic oxidation number.\n   - *Reduction*: Decrease in algebraic oxidation number."
+    }
+  ],
+  "quickRevision": [
+    "Oxidation = Loss of electrons (De-electronation) = Increase in ON.",
+    "Reduction = Gain of electrons (Electronation) = Decrease in ON.",
+    "Oxidant (Oxidizing Agent) undergoes reduction and gains electrons.",
+    "Reductant (Reducing Agent) undergoes oxidation and loses electrons."
+  ],
+  "keyFormulae": [
+    "\\text{Oxidation: } M \\rightarrow M^{n+} + ne^-",
+    "\\text{Reduction: } X + ne^- \\rightarrow X^{n-}"
+  ]
+}

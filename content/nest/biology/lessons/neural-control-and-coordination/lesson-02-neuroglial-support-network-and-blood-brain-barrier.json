@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-19-02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Neural Control and Coordination",
+  "chapterNumber": 19,
+  "chapterSlug": "neural-control-and-coordination",
+  "lessonNumber": 2,
+  "title": "Neuroglial Support Network & Blood-Brain Barrier",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Medium",
+  "prerequisites": ["Embryonic germ layers", "Membrane transport"],
+  "learningObjectives": [
+    "Differentiate the 5 neuroglial cell types by developmental origin, anatomical location, and function",
+    "Describe the cellular composition and barrier mechanics of the Blood-Brain Barrier (BBB)",
+    "Contrast CNS myelination by Oligodendrocytes with PNS myelination by Schwann Cells"
+  ],
+  "content": "Neuroglia are non-excitable supporting cells that outnumber neurons by $10:1$ in the central nervous system.\n\n```\n                             NEUROGLIAL CELL TYPES\n                                       │\n         ┌─────────────────────────────┼─────────────────────────────┐\n         ▼                             ▼                             ▼\n  ASTROCYTES (CNS)              OLIGODENDROCYTES (CNS)       SCHWANN CELLS (PNS)\n  ├── Forms Blood-Brain Barrier ├── Myelinates MULTIPLE       ├── Myelinates SINGLE\n  └── K⁺ Homeostasis                CNS axons simultaneously     PNS axon segment\n                                                                 └── Forms Neurilemma\n```\n\n### 2.1 Neuroglial Cells Matrix\n\n| Glial Cell Type | Anatomical Location | Developmental Origin | Primary Physiological Role |\n| :--- | :--- | :--- | :--- |\n| **Astrocytes** | Central Nervous System (CNS) | Ectodermal | Star-shaped cells; perivascular feet form the **Blood-Brain Barrier (BBB)**; regulates extracellular $\\text{K}^+$ concentrations and recycles neurotransmitters |\n| **Oligodendrocytes** | Central Nervous System (CNS) | Ectodermal | Synthesizes **Myelin Sheaths** around **multiple CNS axons** simultaneously; lacks neurilemma *(No regeneration in CNS)* |\n| **Schwann Cells** | Peripheral Nervous System (PNS) | Neural Crest (Ectodermal) | Wraps around **PNS axons** to form the **Myelin Sheath** and outer **Neurilemma (Sheath of Schwann)**; drives PNS axon regeneration |\n| **Microglia** | Central Nervous System (CNS) | **Mesodermal** (Unique!) | Specialized resident macrophages of the CNS; phagocytoses cellular debris and pathogens |\n| **Ependymal Cells** | CNS (Ventricular Lining) | Ectodermal | Simple ciliated columnar epithelium lining brain ventricles and spinal central canal; forms **Choroid Plexus** to secrete **Cerebrospinal Fluid (CSF)** |",
+  "conceptBreakdown": [
+    {
+      "heading": "Blood-Brain Barrier Tight Junctions",
+      "explanation": "The Blood-Brain Barrier (BBB) is formed by continuous brain capillary endothelial cells joined by high-resistance Zonula Occludens (tight junctions), surrounded by a basal lamina and astrocyte end-feet (podocytes), restricting polar and macromolecular diffusion."
+    },
+    {
+      "heading": "Multiple Sclerosis vs Guillain-Barré Syndrome",
+      "explanation": "Multiple Sclerosis (MS) is an autoimmune demyelinating disease targeting Oligodendrocytes in the CNS. Guillain-Barré Syndrome (GBS) is an autoimmune demyelinating polyneuropathy targeting Schwann Cells in the PNS."
+    }
+  ]
+}

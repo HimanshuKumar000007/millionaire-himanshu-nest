@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c4-l02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Principles of Inheritance and Variation",
+  "chapterNumber": 4,
+  "chapterSlug": "principles-of-inheritance-and-variation",
+  "slug": "lesson-02-dihybrid-cross-and-the-test-cross-mechanics",
+  "title": "Dihybrid Cross & Test Cross Mechanics",
+  "topic": "Independent Assortment, Dihybrid 9:3:3:1, & Test Cross Ratios",
+  "order": 2,
+  "readingTimeMinutes": 15,
+  "estimatedTimeMinutes": 15,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Dihybrid cross (RRYY x rryy): F2 Phenotypic ratio 9:3:3:1 (9 distinct genotypes 1:2:1:2:4:2:1:2:1). Test cross: dominant individual (T_) crossed with homozygous recessive (tt); Monohybrid test cross = 1:1, Dihybrid test cross = 1:1:1:1.",
+  "summary": "Dihybrid cross (RRYY x rryy): F2 Phenotypic ratio 9:3:3:1 (9 distinct genotypes 1:2:1:2:4:2:1:2:1). Test cross: dominant individual (T_) crossed with homozygous recessive (tt); Monohybrid test cross = 1:1, Dihybrid test cross = 1:1:1:1.",
+  "conceptBreakdown": [
+    {
+      "heading": "Dihybrid Cross Mechanics & Independent Assortment",
+      "title": "Dihybrid Cross Mechanics & Independent Assortment",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Dihybrid Cross (RRYY × rryy) yields F1 RrYy (Round Yellow). F2 generation produces 4 phenotypic classes in 9:3:3:1 ratio and 9 distinct genotypic classes (1:2:1:2:4:2:1:2:1). Test cross determines unknown dominant genotype by crossing with homozygous recessive parent (Monohybrid test cross: 1:1; Dihybrid test cross: 1:1:1:1)."
+      },
+      "codeSnippet": "TEST CROSS ARCHITECTURE\n                            \n      Homozygous Dominant (TT x tt)          Heterozygous Dominant (Tt x tt)\n            t       t                                     t       t\n        T  Tt      Tt                                 T  Tt      Tt\n        T  Tt      Tt                                 t  tt      tt\n      Ratio: 100% Dominant                          Ratio: 1:1 Dominant : Recessive",
+      "content": "### 2.1 Dihybrid Cross Mechanics\n\n$$\\text{Dihybrid Cross: } RRYY \\text{ (Round Yellow)} \\times rryy \\text{ (Wrinkled Green)} \\longrightarrow F_1: RrYy \\text{ (Round Yellow)}$$\n\n$$F_2 \\text{ Phenotypic Ratio} = \\mathbf{9:3:3:1}$$\n\n$$\\text{(9 Round Yellow : 3 Round Green : 3 Wrinkled Yellow : 1 Wrinkled Green)}$$\n\n$$F_2 \\text{ Genotypic Ratio} = \\mathbf{1:2:1:2:4:2:1:2:1} \\quad (9\\text{ distinct genotypes})$$\n\n### 2.2 Test Cross Mechanics\n- **Definition**: Crossing an individual exhibiting a dominant phenotype ($T\\_$) with a homozygous recessive parent ($tt$) to determine whether the dominant individual is homozygous ($TT$) or heterozygous ($Tt$).\n  - If $TT \\times tt \\longrightarrow 100\\%$ Tall (Homozygous Dominant).\n  - If $Tt \\times tt \\longrightarrow \\mathbf{1:1}$ ratio ($50\\%$ Tall : $50\\%$ Dwarf) (Heterozygous).\n- **Dihybrid Test Cross**: $RrYy \\times rryy \\longrightarrow \\mathbf{1:1:1:1}$ ($25\\%$ Round Yellow : $25\\%$ Round Green : $25\\%$ Wrinkled Yellow : $25\\%$ Wrinkled Green)."
+    },
+    {
+      "heading": "Back Cross vs Test Cross",
+      "title": "Back Cross vs Test Cross",
+      "type": "paragraph",
+      "content": "Every test cross is a back cross (crossing F1 with any parent), but not every back cross is a test cross (which specifically requires the homozygous recessive parent)."
+    },
+    {
+      "heading": "Forked-Line Probability Method",
+      "title": "Forked-Line Probability Method",
+      "type": "paragraph",
+      "content": "Multi-locus phenotypic ratios can be computed as the product of independent monohybrid ratios: $(3:1) \\times (3:1) = 9:3:3:1$ for dihybrids; $(3:1)^3 = 27:9:9:9:3:3:3:1$ for trihybrids."
+    }
+  ]
+}

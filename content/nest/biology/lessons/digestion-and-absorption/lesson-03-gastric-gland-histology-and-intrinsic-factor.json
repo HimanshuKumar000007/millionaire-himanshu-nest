@@ -1,0 +1,35 @@
+{
+  "id": "bio-xi-u5-c16-l03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Digestion and Absorption",
+  "chapterNumber": 16,
+  "chapterSlug": "digestion-and-absorption",
+  "slug": "lesson-03-gastric-gland-histology-and-intrinsic-factor",
+  "title": "Gastric Gland Histology & Secretory Cascade",
+  "topic": "Chief Cells (Pepsinogen), Oxyntic Cells (HCl & Castle's Intrinsic Factor), & Pernicious Anemia",
+  "order": 3,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Gastric pit architecture, Chief cells (Pepsinogen, Prorennin), Oxyntic cells (HCl pH 1.8 via H+/K+ ATPase, Castle's Intrinsic Factor for Vitamin B12 absorption in ileum), and autoimmune Pernicious Anemia.",
+  "summary": "Gastric pit architecture, Chief cells (Pepsinogen, Prorennin), Oxyntic cells (HCl pH 1.8 via H+/K+ ATPase, Castle's Intrinsic Factor for Vitamin B12 absorption in ileum), and autoimmune Pernicious Anemia.",
+  "conceptBreakdown": [
+    {
+      "heading": "Gastric Gland Histology & Secretory Cascade",
+      "title": "Gastric Gland Histology & Secretory Cascade",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Parietal/Oxyntic cells secrete HCl (pH 1.8 via H+/K+ ATPase) and Castle's Intrinsic Factor (vital for Vit B12 absorption in ileum). Chief/Peptic cells secrete Pepsinogen and Prorennin. Loss of parietal cells causes Pernicious Anemia."
+      },
+      "codeSnippet": "GASTRIC GLAND CELL TYPES\n                                       │\n     ┌─────────────────────────────────┼─────────────────────────────────┐\n     ▼                                 ▼                                 ▼\nCHIEF / PEPTIC CELLS              PARIETAL / OXYNTIC CELLS          MUCOUS NECK CELLS\n(Zymogenic)                       ├── Secretes Hydrochloric Acid    Secrete alkaline mucus\n├── Secretes Pepsinogen           │   (HCl, pH 1.8)                 and HCO₃⁻ to protect\n└── Secretes Prorennin            └── Secretes Castle's             gastric mucosal barrier\n    (Infant milk curdling)            Intrinsic Factor              from autolysis.",
+      "content": "The mucosal lining of the stomach contains vertical invaginations called Gastric Pits leading into tubular Gastric Glands.\n\n### 3.1 Oxyntic Cell Function & Pernicious Anemia\n- **Hydrochloric Acid ($\\text{HCl}$ Secretion)**: Secreted by active $\\text{H}^+/\\text{K}^+$ ATPase proton pumps in parietal cells. Lowers luminal $\\text{pH}$ to $1.5\\text{--}2.0$, killing ingested pathogens and autocatalytically cleaving inactive pepsinogen into active **Pepsin**.\n- **Castle’s Intrinsic Factor**: A glycoprotein secreted by parietal cells that binds dietary Vitamin $\\text{B}_{12}$ (Cyanocobalamin). The Intrinsic Factor-$\\text{B}_{12}$ complex is absorbed via receptor-mediated endocytosis specifically in the terminal ileum.\n  - **Pernicious Anemia**: Autoimmune destruction of parietal cells causes loss of Intrinsic Factor, halting Vitamin $\\text{B}_{12}$ absorption and causing severe megaloblastic anemia."
+    }
+  ]
+}

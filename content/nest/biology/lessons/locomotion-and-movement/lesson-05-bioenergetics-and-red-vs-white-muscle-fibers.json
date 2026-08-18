@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-18-05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Locomotion and Movement",
+  "chapterNumber": 18,
+  "chapterSlug": "locomotion-and-movement",
+  "lessonNumber": 5,
+  "title": "Bioenergetics of Muscle Contraction & Red vs. White Fibers",
+  "readingTimeMinutes": 12,
+  "status": "published",
+  "difficulty": "Medium",
+  "prerequisites": ["Oxidative phosphorylation", "Lactic fermentation"],
+  "learningObjectives": [
+    "Differentiate ATP generation by Phosphagen, Anaerobic Glycolytic, and Aerobic pathways",
+    "Describe the role of the Cori Cycle in resolving lactic acidosis",
+    "Compare Type I Red vs Type II White muscle fibers in biochemical and physiological traits"
+  ],
+  "content": "### 5.1 Muscle ATP Regeneration Pathways\n\n```\n                           MUSCLE ATP SOURCES\n                                    │\n         ┌──────────────────────────┼──────────────────────────┐\n         ▼                          ▼                          ▼\n  STORED ATP & CREATINE PHOSPHATE  ANAEROBIC GLYCOLYSIS       AEROBIC RESPIRATION\n  ├── Direct ATP (2–3 seconds)     ├── Glycogen ──► Lactic Acid ├── Oxidative Phosphorylation\n  └── Creatine Phosphate + ADP     └── Rapid, yields 2 ATP     └── Mitochondria (Myoglobin O₂)\n      ──[Creatine Kinase]──► ATP       Causes Muscle Fatigue       Sustained contraction\n```\n\n1. **Phosphagen System (Creatine Phosphate)**: High-energy phosphate buffer sustaining maximal contraction for 2–8 seconds:\n   $$\\text{Creatine Phosphate} + \\text{ADP} \\xrightarrow{\\text{Creatine Kinase}} \\text{Creatine} + \\text{ATP}$$\n2. **Anaerobic Glycolysis (Glycogen-Lactic Acid Pathway)**: Fast ATP supply during explosive bursts; produces lactic acid that is transported to the liver via the **Cori Cycle** to regenerate glucose.\n3. **Aerobic Respiration**: Mitochondrial oxidative phosphorylation utilizing oxygen stored in **Myoglobin** for continuous, non-fatiguing muscle activity.\n\n### 5.2 Red (Slow-Twitch) vs. White (Fast-Twitch) Muscle Fibers\n\n| Trait | Red Muscle Fibers (Type I / Slow-Twitch) | White Muscle Fibers (Type II / Fast-Twitch) |\n| :--- | :--- | :--- |\n| **Myoglobin Content** | **High** (imparts deep red color) | **Low** (pale or white appearance) |\n| **Mitochondria Count** | **Abundant / Numerous** | Sparse / Few |\n| **Vascularization** | Dense capillary beds | Sparse capillaries |\n| **Sarcoplasmic Reticulum** | Moderately developed | **Extensively developed** (rapid $\\text{Ca}^{2+}$ release) |\n| **Primary Metabolism** | **Aerobic Respiration** (Oxidative Phosphorylation) | **Anaerobic Glycolysis** |\n| **Contraction Kinetics** | Slow contraction velocity; **Fatigue-Resistant** | Rapid, powerful contraction; **Fatigues Quickly** |\n| **Physiological Examples** | Postural back muscles, flight muscles of migratory birds | Extraocular eye muscles, muscles of human hands/digits |",
+  "conceptBreakdown": [
+    {
+      "heading": "The Cori Cycle in Muscle Bioenergetics",
+      "explanation": "During strenuous anaerobic exercise, muscle glycogen is converted into lactate. Lactate diffuses into the bloodstream and reaches the liver, where hepatic gluconeogenesis converts it back into glucose (consuming 6 ATP equivalents) to replenish muscle glycogen stores."
+    },
+    {
+      "heading": "Oxygen Debt (EPOC)",
+      "explanation": "Following heavy exercise, elevated oxygen consumption persists (Excess Post-Exercise Oxygen Consumption) to replenish ATP, phosphocreatine, and myoglobin O2 stores, and clear accumulated lactic acid."
+    }
+  ]
+}

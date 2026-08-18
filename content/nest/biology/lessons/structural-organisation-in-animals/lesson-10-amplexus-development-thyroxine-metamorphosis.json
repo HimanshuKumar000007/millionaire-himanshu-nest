@@ -1,0 +1,48 @@
+{
+  "id": "bio-xi-u2-c7-l10",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit II — Structural Organization in Plants and Animals",
+  "unitNumber": 2,
+  "chapter": "Structural Organisation in Animals",
+  "chapterNumber": 7,
+  "chapterSlug": "structural-organisation-in-animals",
+  "slug": "lesson-10-amplexus-development-thyroxine-metamorphosis",
+  "title": "Amplexus, Development, & Thyroxine-Driven Metamorphosis",
+  "topic": "External Fertilization, Herbivorous Tadpole Larva, & Iodine Hormonal Control",
+  "topics": [
+    "Amplexus Clasping & Synchronized External Fertilization",
+    "Tadpole Larval Morphology (Tail fin, Gills, Long Coiled Gut, Ammonotelic)",
+    "Metamorphosis Architectural Remodeling (Tail Resorption, Gut Shortening, Limbs)",
+    "Hormonal Regulation by Thyroid Gland & Thyroxine ($T_4$)",
+    "Obligate Iodine Dependency & Blocked Metamorphosis Experiments"
+  ],
+  "order": 10,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "During amplexus, nuptial pads grip the female, synchronizing external fertilization in water. The aquatic tadpole larva is herbivorous with a long coiled gut, gills, swimming tail, and ammonotelic excretion. Metamorphosis is strictly driven by thyroid-secreted Thyroxine (T4), which requires dissolved Iodine: tail and gills are resorbed, lungs/limbs develop, gut shortens drastically for carnivory, and excretion shifts to urea.",
+  "summary": "During amplexus, nuptial pads grip the female, synchronizing external fertilization in water. The aquatic tadpole larva is herbivorous with a long coiled gut, gills, swimming tail, and ammonotelic excretion. Metamorphosis is strictly driven by thyroid-secreted Thyroxine (T4), which requires dissolved Iodine: tail and gills are resorbed, lungs/limbs develop, gut shortens drastically for carnivory, and excretion shifts to urea.",
+  "conceptBreakdown": [
+    {
+      "heading": "8.2 Amplexus & Development Mechanics",
+      "title": "8.2 Amplexus & Development Mechanics",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Thyroxine ($T_4$) drives metamorphosis. If water lacks dissolved Iodine ($I_2$), metamorphosis is arrested and the tadpole remains a giant aquatic larva."
+      },
+      "codeSnippet": "FROG DEVELOPMENTAL METAMORPHOSIS\n                                     │\n   Fertilized Egg (In Water) ──► TADPOLE LARVA (Herbivorous, Aquatic)\n                                     │\n   Thyroxine Hormone Cascade ◄── Thyroid Gland Secretion (Iodine-dependent)\n                                     │\n   METAMORPHOSIS CHANGES:\n   ├── Tail and Gills Resorbed via Autophagy / Lysosomal Enzymes\n   ├── Lungs and Limbs Develop\n   ├── Intestine Shortens drastically (Carnivorous Adaptation)\n   └── Nitrogenous Waste Shifts: AMMONIA (Tadpole) ──► UREA (Adult)",
+      "content": "• **Amplexus & External Fertilization**: During breeding season, the male mounts the female, gripping her with glandular nuptial pads on his forelimbs. As eggs are spawned into water, the male simultaneously deposits sperm over them.\n• **Tadpole Larva Characteristics**:\n  1. Free-swimming aquatic larva equipped with a finned **swimming Tail**.\n  2. Breathes via **external and internal Gills**.\n  3. Strictly **herbivorous** with a **long, spirally coiled intestine** to digest algae.\n  4. Excretes **Ammonia (Ammonotelic)**."
+    },
+    {
+      "heading": "Hormonal Control & Iodine Dependency",
+      "title": "Hormonal Control & Iodine Dependency",
+      "type": "paragraph",
+      "content": "• **Thyroxine ($T_4$) Regulation**: Metamorphosis from an aquatic tadpole into a terrestrial frog is driven exclusively by Thyroxine secreted by the **Thyroid Gland**.\n• **Iodine ($I_2$) Prerequisite**: Thyroid synthesis of thyroxine requires dissolved environmental iodine. If tadpoles are reared in iodine-deficient water or undergo thyroidectomy, **metamorphosis is permanently blocked**, resulting in giant neotenic-like tadpole larvae."
+    }
+  ]
+}

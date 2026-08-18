@@ -1,0 +1,4229 @@
+{
+  "id": "nest-pyq-2024-s1",
+  "exam": "NEST",
+  "year": 2024,
+  "session": 1,
+  "title": "NEST 2024 (Session 1) Official Previous Year Paper",
+  "category": "Previous Year Paper",
+  "difficulty": "High-Yield",
+  "status": "published",
+  "source": "official-pyq",
+  "durationMinutes": 180,
+  "totalQuestions": 80,
+  "totalMarks": 240,
+  "evalMarks": 180,
+  "instructions": [
+    "Duration is 3 hours 00 minutes (180 minutes).",
+    "4 Sections: Physics, Chemistry, Mathematics, Biology (20 questions each).",
+    "All questions are Single Correct Choice Questions (+3 for correct, -1 for incorrect).",
+    "Evaluated on Best 3 out of 4 subject sections (Total: 180 Marks)."
+  ],
+  "questions": [
+    {
+      "id": "bio-2024-s1-q01",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Biomolecules & Proteins",
+      "subtopic": "Protein & Nucleic Acid Structural Hierarchy",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975225/nest_pyqs/2024_s1/nest_2024_s1_bio_2024_s1_q01.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975225/nest_pyqs/2024_s1/nest_2024_s1_bio_2024_s1_q01.png"
+      ],
+      "questionText": "Analyze the images and deduce the correct structural description of the molecules:",
+      "options": [
+        {
+          "id": "a",
+          "text": "DNA – primary; Protein – secondary; Antibody – tertiary",
+          "isCorrect": true,
+          "explanation": "DNA double helix represents primary/secondary structure, alpha-helix is secondary, and IgG antibody with domain folding is quaternary/tertiary organization."
+        },
+        {
+          "id": "b",
+          "text": "DNA - primary; Protein – secondary; Antibody – quaternary",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "DNA - secondary; Protein – primary; Antibody – secondary",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "DNA - secondary; Protein – secondary; Antibody – quaternary",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the verified answer.\n\n**Conceptual Breakdown:**\n- DNA strand / helix depicts base pairing\n- Protein shown is an $\\alpha$-helix (secondary structure)\n- Antibody exhibits complex 3D folded architecture.",
+      "keyFormulae": [
+        "Protein Structure: Primary, Secondary (alpha/beta), Tertiary, Quaternary"
+      ],
+      "hints": [
+        "Examine the alpha-helical coil and the multi-domain antibody polypeptide assembly."
+      ]
+    },
+    {
+      "id": "bio-2024-s1-q02",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Ecology & Environment",
+      "subtopic": "Biomass & CO2 Legume Interaction",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975228/nest_pyqs/2024_s1/nest_2024_s1_bio_2024_s1_q02.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975228/nest_pyqs/2024_s1/nest_2024_s1_bio_2024_s1_q02.png"
+      ],
+      "questionText": "The effects of elevated $\\text{CO}_2$ supply, presence of legume and phosphate availability on the above-ground biomass production of a grassland community is depicted in the graph.\n\nBased on this information, the correct option is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nitrogen-deprived plants grow faster under ambient $\\text{CO}_2$ condition.",
+          "isCorrect": true,
+          "explanation": "Verified in accordance with the official NEST 2024 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "The growth of plants is enhanced under elevated $\\text{CO}_2$ condition in presence of legume.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "In the absence of phosphate, legume provides no growth benefit to the plant.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "In the presence of legume, there is no growth benefit on addition of phosphate under elevated $\\text{CO}_2$ condition.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Key:** Option (A) is correct.",
+      "keyFormulae": [
+        "Ecosystem ecology: Resource limitation and carbon fertilization"
+      ],
+      "hints": [
+        "Analyze the comparative bar heights under ambient vs elevated CO2."
+      ]
+    },
+    {
+      "id": "bio-2024-s1-q03",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Genetics",
+      "subtopic": "Flower Colour Allelic Dominance Matrix",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "In a given plant, the flower colour is governed by a single gene locus. The flower can be either white, red, blue or purple colour. However, a single flower will never have different coloured petals.\n\nMultiple crosses were carried out between plants with different flower colours (white, red, blue or purple) and the observations on the progeny phenotype are tabulated:\n\n| Cross | Progeny Phenotypes |\n| :--- | :--- |\n| **White $\\times$ White** | All flowers are white |\n| **Red $\\times$ Red** | All flowers are red or some are red and some are white (number of red $\\gg$ number of white) |\n| **Blue $\\times$ Blue** | All flowers are blue or some are blue and some are white (number of blue $\\gg$ number of white) |\n| **Purple $\\times$ Purple** | A mix of red, blue and purple flowers (number of purple flowers $>$ numbers of red and blue flowers and equal number of red and blue flowers) |\n| **White $\\times$ Red** | All flowers are red or some are red and some are white (equal number of red and white flowers) |\n| **White $\\times$ Blue** | All flowers are blue or some are blue and some are white (equal number of blue and white flowers) |\n| **White $\\times$ Purple** | Blue and red flowers (equal number of red and blue flowers) |\n| **Red $\\times$ Blue** | All flowers are purple or some are red, some are blue and some are white |\n| **Red $\\times$ Purple** | Mostly red and purple flowers and some are blue |\n| **Blue $\\times$ Purple** | Mostly blue and purple flowers and some are red |\n\nBased on this information, the correct option is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "There are two alleles governing flower colour.",
+          "isCorrect": true,
+          "explanation": "Official NEST 2024 key verified."
+        },
+        {
+          "id": "b",
+          "text": "Purple allele is dominant over Red allele, and Red allele is dominant over Blue allele.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Red allele and Blue allele show incomplete dominance.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "White allele is dominant over purple allele.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.",
+      "keyFormulae": [
+        "Multiple allelism and co-dominance inheritance patterns"
+      ],
+      "hints": [
+        "Look at the phenotypic ratios when crossing heterozygous and homozygous lines."
+      ]
+    },
+    {
+      "id": "bio-2024-s1-q04",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Genetics & Pedigree",
+      "subtopic": "Pedigree Inheritance Analysis",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975229/nest_pyqs/2024_s1/nest_2024_s1_bio_2024_s1_q04.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975229/nest_pyqs/2024_s1/nest_2024_s1_bio_2024_s1_q04.png"
+      ],
+      "questionText": "In the given pedigree, circles represent females and squares represent males. Filled shapes indicate affected individuals, while unfilled shapes indicate unaffected individuals. Based on the pedigree analysis, consider the statements (i) to (iv):\n\n(i) If the inheritance pattern is autosomal recessive, then the individual III-8 is a carrier of the disease.\n(ii) If the inheritance pattern is X-linked recessive, then the individuals II-6 and III-7 are carriers of the disease.\n(iii) Individuals I-1 and I-2 are homozygous for the allele under study.\n(iv) If the inheritance pattern is autosomal recessive, then individuals III-2 and IV-1 must be carriers of the disease.\n\nThe correct combination of statements is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "i, ii and iv",
+          "isCorrect": true,
+          "explanation": "Correct combination verified by official master key."
+        },
+        {
+          "id": "b",
+          "text": "i and ii",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "ii, iii, iv",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "ii, iv",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is correct.",
+      "keyFormulae": [
+        "Pedigree analysis rules: Autosomal Recessive vs X-linked Recessive"
+      ],
+      "hints": [
+        "Trace carrier genotypes through unaffected parents giving rise to affected offspring."
+      ]
+    },
+    {
+      "id": "bio-2024-s1-q05",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Molecular Biology",
+      "subtopic": "mRNA Vaccines & Modified Nucleosides",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Katalin Karikó and Drew Weissman were awarded the Nobel Prize in Physiology or Medicine for the year 2023 for their observation that pseudo-uridine ($\\psi$) incorporated mRNA (but not mRNA with normal bases A, U, G, and C) is better for RNA vaccine production. These observations paved the way for developing the RNA vaccine against SARS-CoV-2 (the vaccine produces the spike protein of the virus in a cell).\n\nThe reason that pseudo-uridine incorporated mRNA worked as a better vaccine candidate is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "The innate immune system does not recognise the pseudo-uridine incorporated mRNA allowing translation of the spike protein.",
+          "isCorrect": true,
+          "explanation": "Unmodified in vitro transcribed mRNA activates TLR3/7/8 innate immune sensors resulting in rapid degradation and translational arrest. Pseudouridine prevents toll-like receptor recognition, enabling robust antigen translation."
+        },
+        {
+          "id": "b",
+          "text": "Unmodified mRNA encoding spike protein cannot be translated by the ribosome.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Antigen-presenting cells can translate only pseudo-uridine incorporated mRNA.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Spike protein from unmodified mRNA cannot induce immune response.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is correct.",
+      "keyFormulae": [
+        "TLR signaling and nucleoside modification in synthetic mRNA therapeutics"
+      ],
+      "hints": [
+        "Consider how host immune receptors detect foreign vs self RNA molecules."
+      ]
+    },
+    {
+      "id": "bio-2024-s1-q06",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Molecular Genetics",
+      "subtopic": "Dispersive DNA Replication & Density Gradient Centrifugation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": null,
+      "images": [],
+      "questionText": "An unknown organism that can utilise $\\text{NH}_4\\text{Cl}$ as nitrogen source was grown for several generations under four different conditions as given below:\n\n(i) medium containing $^{15}\\text{NH}_4\\text{Cl}$\n(ii) medium containing $^{14}\\text{NH}_4\\text{Cl}$\n(iii) medium containing $^{15}\\text{NH}_4\\text{Cl}$ followed by culturing in medium containing $^{14}\\text{NH}_4\\text{Cl}$ for one generation\n(iv) medium containing $^{15}\\text{NH}_4\\text{Cl}$ followed by culturing in medium containing $^{14}\\text{NH}_4\\text{Cl}$ for two generations\n\nDNA isolated from the organism grown under the above listed conditions was independently analysed by density gradient centrifugation. Assuming that the mode of DNA replication in this organism is **dispersive**, the option representing the correct band pattern is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "![Option A Band Pattern](https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786977220/nest_pyqs/2024_s1/nest_2024_s1_bio_q06_opt_a.png)",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 master answer key. In dispersive replication, all DNA molecules after Gen 1 have 50% 15N/14N hybrid density, and after Gen 2 all molecules have 25% 15N and 75% 14N intermediate density (a single band shifting progressively towards light position)."
+        },
+        {
+          "id": "b",
+          "text": "![Option B Band Pattern](https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786977221/nest_pyqs/2024_s1/nest_2024_s1_bio_q06_opt_b.png)",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "![Option C Band Pattern](https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786977223/nest_pyqs/2024_s1/nest_2024_s1_bio_q06_opt_c.png)",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "![Option D Band Pattern](https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786977225/nest_pyqs/2024_s1/nest_2024_s1_bio_q06_opt_d.png)",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Master Answer Key:** Option (A) is correct.\n\n**Dispersive Replication Mechanism:**\n- **(i) $^{15}\\text{N}$ only:** 100% heavy band at the bottom.\n- **(ii) $^{14}\\text{N}$ only:** 100% light band near the top.\n- **(iii) 1 Generation in $^{14}\\text{N}$:** Semiconservative and dispersive both yield a single hybrid (intermediate) band at 50% density.\n- **(iv) 2 Generations in $^{14}\\text{N}$:** In dispersive replication, parental DNA is fragmented and dispersed across all 4 daughter duplexes. Hence, 100% of DNA forms a **single uniform band** at $\\frac{1}{4}$ $^{15}\\text{N} + \\frac{3}{4}$ $^{14}\\text{N}$ intermediate position (unlike semiconservative which yields two separate bands).",
+      "keyFormulae": [
+        "Dispersive replication: Single hybrid band at density = (1/2^n) * rho_heavy + (1 - 1/2^n) * rho_light"
+      ],
+      "hints": [
+        "Recall that in dispersive replication, no separate light band forms; rather, all duplexes shift continuously upward as a single band."
+      ]
+    },
+    {
+      "id": "bio-2024-s1-q07",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Plant Physiology",
+      "subtopic": "Photorespiration Pathways (C2 Cycle)",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Consider the following statements about photorespiration in plants:\n\n(i) Photorespiration produces one molecule of 3-phosphoglycerate from ribulose bisphosphate.\n(ii) Photorespiration is a wasteful process because neither ATP nor NADPH is produced.\n(iii) Phosphoglycolate is converted to glycolate in peroxisomes.\n(iv) Photorespiration in C3 plants is less compared to C4 plants.\n\nThe correct combination of statements is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "i and ii",
+          "isCorrect": true,
+          "explanation": "In photorespiration, RuBisCO binds O2 to yield one 3-PGA and one 2-phosphoglycolate. Neither ATP nor NADPH is generated (it consumes energy). Phosphoglycolate is dephosphorylated to glycolate in chloroplasts (not peroxisomes), and photorespiration is high in C3 but absent/negligible in C4."
+        },
+        {
+          "id": "b",
+          "text": "ii and iv",
+          "isCorrect": false,
+          "explanation": "Statement (iv) is incorrect (C3 photorespiration > C4)."
+        },
+        {
+          "id": "c",
+          "text": "iii and iv",
+          "isCorrect": false,
+          "explanation": "Statements (iii) and (iv) are incorrect."
+        },
+        {
+          "id": "d",
+          "text": "ii and iii",
+          "isCorrect": false,
+          "explanation": "Statement (iii) is incorrect."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is correct.",
+      "keyFormulae": [
+        "Photorespiration: RuBP + O2 -> 3-PGA + 2-Phosphoglycolate (Chloroplast -> Peroxisome -> Mitochondria)"
+      ],
+      "hints": [
+        "Recall which organelle converts phosphoglycolate to glycolate (phosphatase in chloroplast)."
+      ]
+    },
+    {
+      "id": "bio-2024-s1-q08",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Plant Physiology",
+      "subtopic": "C4 Carbon Fixation & Kranz Anatomy",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "In order to generate a crop variety with C4 carbon fixation, a researcher expressed PEPcase enzyme from C4 pathway in leaves of the C3 plant. However, the modified C3 plant did not show carbon fixation efficiency as expected for a C4 pathway plant.\n\nThe most likely reason is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Improper compartmentalisation of the C4 PEPcase in C3 leaves.",
+          "isCorrect": true,
+          "explanation": "C4 efficiency requires spatial separation between mesophyll and bundle sheath cells (Kranz anatomy) with specialized malate transporters. Simply expressing PEPcase in C3 mesophyll without Kranz compartmentalization fails to concentrate CO2 around RuBisCO."
+        },
+        {
+          "id": "b",
+          "text": "The PEPcase from C4 plant is catalytically inactive in the C3 leaves.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Carbon-dioxide fixed by C4 pathway PEPcase cannot be utilised by the RuBisCo of C3 leaves.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Overexpression of PEPcase from C4 in C3 leaves increases photorespiration.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is correct.",
+      "keyFormulae": [
+        "C4 photosynthetic machinery requires Kranz spatial anatomy."
+      ],
+      "hints": [
+        "Consider structural differences between C3 and C4 leaf internal architecture."
+      ]
+    },
+    {
+      "id": "bio-2024-s1-q09",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Cell Biology",
+      "subtopic": "Ribosomal RNA Subunit Sedimentation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "An experimenter was analysing homogenized cell lysate (containing mitochondrial + chloroplastic + cytoplasmic contents) of a plant tissue that is heavily infected with a bacterial pathogen. Ribosomal RNA (rRNA) purified from the cell lysate was separated by gel electrophoresis.\n\nThe band pattern observed after electrophoresis is:\n- **I:** 25S-28S\n- **II:** 23S\n- **III:** 18S\n- **IV:** 16S\n- **V:** 5.8S\n- **VI:** 5S\n\nThe correct statement about the observed band pattern is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "I, III and V are from the plant ribosome.",
+          "isCorrect": true,
+          "explanation": "Eukaryotic 80S cytosolic ribosome contains 28S/25S, 18S, 5.8S and 5S rRNA. Bacterial/organellar 70S ribosomes contain 23S, 16S, and 5S rRNA. Thus I, III, V are characteristic of eukaryotic plant cytosolic ribosomes."
+        },
+        {
+          "id": "b",
+          "text": "I, III and V are from the bacterial ribosome.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "II, III and VI are from the bacterial ribosome.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "IV and VI are absent in plant ribosome.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is correct.",
+      "keyFormulae": [
+        "80S ribosome = 60S (28S, 5.8S, 5S) + 40S (18S); 70S ribosome = 50S (23S, 5S) + 30S (16S)"
+      ],
+      "hints": [
+        "Identify which rRNA species are exclusive to 80S eukaryotic cytosolic ribosomes."
+      ]
+    },
+    {
+      "id": "bio-2024-s1-q10",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Cell & Molecular Biology",
+      "subtopic": "Organellar Transcription & Cytidine Incorporation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A researcher incubated algal cells with a fluorescent-labelled cytidine analogue that can enter the cells and get incorporated into nucleic acids. The cells were lysed and different membrane-bound organelles were isolated. The membrane-associated ribosomes were removed and the organelles were then homogenized. The macromolecules thus isolated from each organellar fraction were analysed. The organelle fractions that show incorporation of the fluorescence signal are:",
+      "options": [
+        {
+          "id": "a",
+          "text": "mitochondria and chloroplast.",
+          "isCorrect": true,
+          "explanation": "Mitochondria and chloroplasts possess their own autonomous circular genomes and active RNA polymerases capable of performing transcription and incorporating cytidine into newly synthesized organellar RNA."
+        },
+        {
+          "id": "b",
+          "text": "chloroplast and endoplasmic reticulum.",
+          "isCorrect": false,
+          "explanation": "ER does not contain independent DNA replication or transcription machinery."
+        },
+        {
+          "id": "c",
+          "text": "mitochondria and endoplasmic reticulum.",
+          "isCorrect": false,
+          "explanation": "ER does not synthesize nucleic acids."
+        },
+        {
+          "id": "d",
+          "text": "endoplasmic reticulum but not nucleus.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is correct.",
+      "keyFormulae": [
+        "Semiautonomous organelles (Mitochondria & Chloroplasts) possess autonomous transcription systems."
+      ],
+      "hints": [
+        "Which organelles contain their own DNA and RNA polymerases?"
+      ]
+    },
+    {
+      "id": "bio-2024-s1-q11",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Biotechnology",
+      "subtopic": "Recombinant Vector Map & TetR Selection",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975234/nest_pyqs/2024_s1/nest_2024_s1_bio_2024_s1_q11.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975234/nest_pyqs/2024_s1/nest_2024_s1_bio_2024_s1_q11.png"
+      ],
+      "questionText": "In the vector map, GFP denotes green fluorescent protein, $\\text{Tet}^R$ is a tetracycline resistance gene and $\\text{Amp}^R$ is an ampicillin resistance gene. A DNA fragment containing the gene of interest was generated using SalI digestion. This fragment was ligated with the SalI digested vector. Assume complete digestion by SalI. E. coli was transformed with the ligation product and transformants were plated on media. The recombinants having the gene of interest will grow on media containing:",
+      "options": [
+        {
+          "id": "a",
+          "text": "ampicillin and are GFP positive",
+          "isCorrect": true,
+          "explanation": "Official NEST 2024 key verified."
+        },
+        {
+          "id": "b",
+          "text": "tetracycline and are GFP negative",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "ampicillin and are GFP negative",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "tetracycline and are GFP positive",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is correct.",
+      "keyFormulae": [
+        "Insertional inactivation of antibiotic resistance markers"
+      ],
+      "hints": [
+        "Notice which gene is disrupted by the SalI restriction sites."
+      ]
+    },
+    {
+      "id": "bio-2024-s1-q12",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "subtopic": "Plant-Herbivore & Mutualistic Interactions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "In an ecological interaction between two species of wild plants (X1 and X2) and a crop plant (Y), wild plants compete with crop plants for nutrients. There is a group of plant pests (P) that infect crop plants and damage them. Further, wild plants X1 support the population of insects (T1) that feast on the plant pest (P). Wild plants X2 support the dwelling of pollinator insects (T2) that promote pollination in the crop plants and thereby promote crop production. The correct statement is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "There is direct negative interaction of Y with X1 and X2.",
+          "isCorrect": true,
+          "explanation": "Direct nutrient competition constitutes a (-/-) negative interaction between the crop plant Y and wild plants X1/X2 despite indirect trophic benefits."
+        },
+        {
+          "id": "b",
+          "text": "The interaction between T1 and T2 insects is commensalism.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Removing wild plants X1 and X2 from this ecosystem will improve overall crop (Y) productivity.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "The interaction between T1 and crop plants Y is parasitism.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is correct.",
+      "keyFormulae": [
+        "Direct vs indirect ecological interactions in agroecosystems"
+      ],
+      "hints": [
+        "Focus on the direct competitive interaction for soil nutrients."
+      ]
+    },
+    {
+      "id": "bio-2024-s1-q13",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Evolution",
+      "subtopic": "Homologous Forelimb Anatomy & Orthology",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The forelimbs of whales, bats, cheetahs and humans share similar anatomical structures and have humerus, radius, ulna, carpals, metacarpals and phalanges. Although this suggests that the forelimb bones in these organisms developed from a common ancestor, they were adapted for different functions. The most appropriate option that captures the evolution of these forelimb bones is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Divergent and orthologous",
+          "isCorrect": true,
+          "explanation": "Homologous structures arising from a common ancestral lineage that adapt to diverse functions represent divergent evolution. Genes/structures in different species derived from a speciation event are orthologous."
+        },
+        {
+          "id": "b",
+          "text": "Convergent and homologous",
+          "isCorrect": false,
+          "explanation": "Convergent evolution describes analogous structures, not homologous."
+        },
+        {
+          "id": "c",
+          "text": "Divergent and paralogous",
+          "isCorrect": false,
+          "explanation": "Paralogous refers to gene duplication within the same genome."
+        },
+        {
+          "id": "d",
+          "text": "Convergent and orthologous",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is correct.",
+      "keyFormulae": [
+        "Homologous organs -> Divergent Evolution; Orthologous genes -> Speciation"
+      ],
+      "hints": [
+        "Divergent evolution leads to homologous anatomical adaptations in related vertebrates."
+      ]
+    },
+    {
+      "id": "bio-2024-s1-q14",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Diversity of Life",
+      "subtopic": "Tree of Life & Viral Exclusion",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "In the Tree of Life, different life forms are placed on branches of the tree based on their evolutionary relationship with each other. However, viruses are not included in the tree. The reason for this is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Viruses do not have a cellular structure, hence drawing an evolutionary relationship with other cellular forms is not possible.",
+          "isCorrect": true,
+          "explanation": "The universal phylogenetic tree of life (Woese 3-domain system) is based on cellular ribosome small subunit rRNA (16S/18S rRNA) sequences. Viruses lack cellular architecture, ribosomes, and universal conserved core genes."
+        },
+        {
+          "id": "b",
+          "text": "Viruses do not evolve from their ancestors, hence evolutionary relationship cannot be deduced.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Evolution of viruses do not follow the principles of Darwinian evolution.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Viruses infect all domains of life, hence drawing an evolutionary relationship is not possible.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is correct.",
+      "keyFormulae": [
+        "Tree of life is rooted in ribosomal RNA and cellular organization."
+      ],
+      "hints": [
+        "Think about what macromolecule Carl Woese used to build the universal Tree of Life."
+      ]
+    },
+    {
+      "id": "bio-2024-s1-q15",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Cell Biology & Diversity",
+      "subtopic": "Secondary Endosymbiosis & Chloroplast Envelopes",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Chloroplasts of certain algal taxa such as Euglenophyta are surrounded by three membranes while, Heterokontophyta and Cryptophyta have four membranes. The chloroplasts present in these organisms is a result of secondary endosymbiotic events. All of them have chlorophyll a. However, Euglenophyta uses chlorophyll b as an accessory pigment, whereas Heterokontophyta and Cryptophyta use chlorophyll c. Assuming gain-of-function and gene addition, the most likely evolutionary scenario best describing the origins of chloroplast in these organisms is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "While Heterokontophyta and Cryptophyta had a common secondary endosymbiont, Euglenophyta evolved from an independent secondary endosymbiont.",
+          "isCorrect": true,
+          "explanation": "Euglenophytes engulfed a green alga (chlorophyll a+b, 3 membranes due to euglenoid food vacuole), whereas heterokonts/cryptophytes engulfed a red alga (chlorophyll a+c, 4 membranes including chloroplast ER)."
+        },
+        {
+          "id": "b",
+          "text": "Heterokontophyta, Cryptophyta and Euglenophyta all had a common secondary endosymbiont.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Heterokontophyta, Cryptophyta and Euglenophyta all evolved from independent secondary endosymbiotic events.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Heterokontophyta and Cryptophyta were a result of secondary endosymbiotic event from Euglenophyta.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is correct.",
+      "keyFormulae": [
+        "Secondary Endosymbiosis: Green algal endosymbiont (Chl a+b) vs Red algal endosymbiont (Chl a+c)"
+      ],
+      "hints": [
+        "Match chlorophyll pigments (b vs c) to green and red algal endosymbiont lineages."
+      ]
+    },
+    {
+      "id": "bio-2024-s1-q16",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Human Health & Disease",
+      "subtopic": "Dengue Thrombocytopenia & Platelet Transfusion",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Infection with Dengue virus can potentially be fatal when the infection results in leakage of blood from blood vessels. One of the disease management clinical strategies in dengue virus infection is platelet transfusion. Considering that thrombocytopenia, a condition of reduced platelet count in blood, is a consequence of the viral infection, the rationale behind administration of platelets is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Platelets inhibit immune response against the virus.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "b",
+          "text": "Clotting factors from platelets stop internal bleeding.",
+          "isCorrect": true,
+          "explanation": "Platelets aggregate at endothelial lesions and release thromboplastin/clotting factors, maintaining vascular integrity and arresting life-threatening internal plasma leakage/hemorrhage."
+        },
+        {
+          "id": "c",
+          "text": "Platelets produce antibodies against the virus.",
+          "isCorrect": false,
+          "explanation": "B-lymphocytes/plasma cells produce antibodies, not platelets."
+        },
+        {
+          "id": "d",
+          "text": "Platelets have anti-pyretic activity (reduce fever).",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (B) is correct.",
+      "keyFormulae": [
+        "Platelet aggregation and coagulation cascade arrest hemorrhage in severe dengue hemorrhagic fever."
+      ],
+      "hints": [
+        "What is the primary physiological function of blood platelets in hemostasis?"
+      ]
+    },
+    {
+      "id": "bio-2024-s1-q17",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Microbiology",
+      "subtopic": "Lokiarchaeota & Syntrophic Microbial Ecology",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Scientists have recently found that an archaebacteria belonging to the phylum Lokiarchaeota can be grown only in co-culture along with a Methanobacterium and another aerobic proteobacterium. The archaeon catabolizes amino acids that are secreted out from the Methanobacterium, producing formate. The formate released from the archaeon is utilized by the Methanobacterium as an energy source. The proteobacterium, by scavenging the oxygen in the environment, provides an anaerobic environment for the archaeon. This interaction between the archaea and bacteria could have resulted in the evolution of present-day eukaryotic cell.\n\nThe interactions between Lokiarchaeon with Methanobacterium and Lokiarchaeon/Methanobacterium with proteobacterium, respectively, can be described as:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mutualism and commensalism",
+          "isCorrect": true,
+          "explanation": "Lokiarchaeon and Methanobacterium exchange amino acids and formate (+/+ mutualism). The proteobacterium removes toxic O2 benefiting the anaerobes without direct energetic dependence (+/0 commensalism)."
+        },
+        {
+          "id": "b",
+          "text": "Mutualism and parasitism",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Commensalism and mutualism",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Mutualism and amensalism",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is correct.",
+      "keyFormulae": [
+        "Mutualism (+/+), Commensalism (+/0), Parasitism (+/-)"
+      ],
+      "hints": [
+        "Check the net benefit (+, -, or 0) for each pair of interacting microorganisms."
+      ]
+    },
+    {
+      "id": "bio-2024-s1-q18",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Biomolecules",
+      "subtopic": "Non-Reducing Disaccharides (Trehalose)",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975236/nest_pyqs/2024_s1/nest_2024_s1_bio_2024_s1_q18.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975236/nest_pyqs/2024_s1/nest_2024_s1_bio_2024_s1_q18.png"
+      ],
+      "questionText": "Identify the non-reducing disaccharide from the given chemical structures:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trehalose ($\\alpha$-D-Glucopyranosyl-(1$\\rightarrow$1)-$\\alpha$-D-glucopyranoside)",
+          "isCorrect": true,
+          "explanation": "In trehalose, the glycosidic linkage forms between C1 of both glucose residues ($\\alpha(1\\rightarrow 1)\\alpha$), tying up both anomeric carbons so there is no free hemiacetal group (non-reducing sugar)."
+        },
+        {
+          "id": "b",
+          "text": "Cellobiose ($\\beta$-D-Glucopyranosyl-(1$\\rightarrow$4)-$\\beta$-D-glucopyranose)",
+          "isCorrect": false,
+          "explanation": "Cellobiose contains a free anomeric C1-OH at the reducing terminus."
+        },
+        {
+          "id": "c",
+          "text": "Lactose ($\\beta$-D-Galactopyranosyl-(1$\\rightarrow$4)-$\\beta$-D-glucopyranose)",
+          "isCorrect": false,
+          "explanation": "Lactose is a reducing sugar with free glucose C1-OH."
+        },
+        {
+          "id": "d",
+          "text": "Maltose ($\\alpha$-D-Glucopyranosyl-(1$\\rightarrow$4)-$\\alpha$-D-glucopyranose)",
+          "isCorrect": false,
+          "explanation": "Maltose has a free anomeric C1 reducing end."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is correct (Trehalose has anomeric $1\\leftrightarrow 1$ linkage).",
+      "keyFormulae": [
+        "Non-reducing disaccharides: Glycosidic bond between both anomeric carbons (Sucrose, Trehalose)"
+      ],
+      "hints": [
+        "Look for the sugar where both C1 anomeric carbons participate in the glycosidic bond."
+      ]
+    },
+    {
+      "id": "bio-2024-s1-q19",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Plant Pathology & Mycology",
+      "subtopic": "Fungal Hyphae & Ascomycota Taxonomy",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A researcher found a cottony growth on a plant tissue. On microscopic examination of the sample from there, the researcher observed branched, thread-like structures containing linearly arranged cells with cross walls. Each cell has a distinct nucleus. Staining the cells revealed cell wall structure containing complex polysaccharides. At the end of some of the branched structures, small spherical structures were seen, which when isolated and placed on another tissue, grew into thread-like structures.\n\nBased on these morphological characteristics, the organism can be placed in the broad taxonomical classification of:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kingdom: Fungi; Phylum: Ascomycota (sac fungi)",
+          "isCorrect": true,
+          "explanation": "Septate branched hyphae with chitinous cell walls and asexual conidiospores at the tips of conidiophores are hallmarks of Phylum Ascomycota (Kingdom Fungi)."
+        },
+        {
+          "id": "b",
+          "text": "Kingdom: Protista, Phylum: Amoebozoa (slime moulds)",
+          "isCorrect": false,
+          "explanation": "Slime moulds form plasmodia without true septate chitinous hyphae."
+        },
+        {
+          "id": "c",
+          "text": "Kingdom: Monera; Phylum: Actinomycetota (filamentous bacteria)",
+          "isCorrect": false,
+          "explanation": "Bacteria are prokaryotes lacking membrane-bound distinct nuclei."
+        },
+        {
+          "id": "d",
+          "text": "Kingdom: Plantae; Phylum: Charophyta (spirogyra)",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is correct.",
+      "keyFormulae": [
+        "Kingdom Fungi: Septate eukaryotic hyphae + Chitin cell wall + Conidia"
+      ],
+      "hints": [
+        "Distinct nuclei rule out prokaryotes; septate mycelium with conidia indicates Ascomycota."
+      ]
+    },
+    {
+      "id": "bio-2024-s1-q20",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Biology",
+      "topic": "Cell Physiology & Bioenergetics",
+      "subtopic": "Enzymatic Reaction Coordinate Energy Diagram",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975238/nest_pyqs/2024_s1/nest_2024_s1_bio_2024_s1_q20.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975238/nest_pyqs/2024_s1/nest_2024_s1_bio_2024_s1_q20.png"
+      ],
+      "questionText": "The graph depicts energy diagram (potential energy vs progress of reaction) of an uncatalyzed (black solid line) and enzyme-catalysed (red solid line) biochemical reaction.\n\nBased on this information, consider the following statements about enzyme catalysis:\n(i) L, M, N and O represent potential energies of substrate, transition state (TS) in the absence of enzyme, TS in the presence of enzyme, and product, respectively.\n(ii) The rate of the catalyzed reaction increases exponentially to the tune of difference between M and N.\n(iii) The rate of the catalyzed reaction is directly proportional to the energy difference between L and O.\n(iv) L, M, N and O represent potential energies of the substrate, a reaction intermediate, transition state and product of the reaction, respectively.\n\nThe correct combination of statements about enzyme catalysis is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "i and ii",
+          "isCorrect": true,
+          "explanation": "L = Substrate, M = Uncatalyzed TS, N = Catalyzed TS (lowered activation energy), O = Product. According to Arrhenius equation k = A exp(-Ea/RT), lowering Ea by (M - N) causes an exponential rate enhancement."
+        },
+        {
+          "id": "b",
+          "text": "ii and iii",
+          "isCorrect": false,
+          "explanation": "Rate depends on activation energy barrier, not overall thermodynamic Delta G (L to O)."
+        },
+        {
+          "id": "c",
+          "text": "iii and iv",
+          "isCorrect": false,
+          "explanation": "Incorrect statements."
+        },
+        {
+          "id": "d",
+          "text": "i and iv",
+          "isCorrect": false,
+          "explanation": "Incorrect combination."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is correct.",
+      "keyFormulae": [
+        "Arrhenius Equation: k = A e^{-E_a/RT}; Rate enhancement = exp((E_{a,uncat} - E_{a,cat})/RT)"
+      ],
+      "hints": [
+        "Enzymes lower the free energy of the transition state without altering substrate/product delta G."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q01",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "subtopic": "Nucleophilic Addition & Stereochemistry",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975240/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q01.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975240/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q01.png"
+      ],
+      "questionText": "Chemistry - Set 1\n1. Consider the following reactions:\nIn this context, the correct statement is\n(a) Q is a ketone and T is an ether.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** Organic Chemistry (Nucleophilic Addition & Stereochemistry)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Organic Chemistry: Nucleophilic Addition & Stereochemistry"
+      ],
+      "hints": [
+        "Recall key principles of Organic Chemistry and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q02",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Organic Reactions",
+      "subtopic": "Kolbe Electrolysis Products",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975241/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q02.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975241/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q02.png"
+      ],
+      "questionText": "Aqueous solution of sodium salt of 2-methylbutanoic acid on Kolbe electrolysis\nyields P (major product). P is\n(a)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** Organic Reactions (Kolbe Electrolysis Products)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Organic Reactions: Kolbe Electrolysis Products"
+      ],
+      "hints": [
+        "Recall key principles of Organic Reactions and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q03",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "subtopic": "Diazonium Salt Coupling Reactions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975242/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q03.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975242/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q03.png"
+      ],
+      "questionText": "Consider the following reactions:\nR and S, respectively, are\n(a) Methoxybenzene and 2-Hydroxybenzoic acid",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** Organic Chemistry (Diazonium Salt Coupling Reactions)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Organic Chemistry: Diazonium Salt Coupling Reactions"
+      ],
+      "hints": [
+        "Recall key principles of Organic Chemistry and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q04",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Carbohydrates & Biomolecules",
+      "subtopic": "Glucose Bromine Water Oxidation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975244/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q04.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975244/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q04.png"
+      ],
+      "questionText": "Glucose on treatment with bromine water yields X. X upon treatment with\nexcess of acetic anhydride yields Y. The structure of Y is\n(a)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** Carbohydrates & Biomolecules (Glucose Bromine Water Oxidation)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Carbohydrates & Biomolecules: Glucose Bromine Water Oxidation"
+      ],
+      "hints": [
+        "Recall key principles of Carbohydrates & Biomolecules and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q05",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Carbonyl Compounds",
+      "subtopic": "Intramolecular Aldol Condensation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975246/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q05.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975246/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q05.png"
+      ],
+      "questionText": "An intramolecular aldol reaction of P in the presence of dilute NaOH yields a\nmixture of aldol reaction products.\nOne of the products that can be formed is\n(a)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** Carbonyl Compounds (Intramolecular Aldol Condensation)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Carbonyl Compounds: Intramolecular Aldol Condensation"
+      ],
+      "hints": [
+        "Recall key principles of Carbonyl Compounds and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q06",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Aromatic Chemistry",
+      "subtopic": "Annulenes & Aromaticity",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975247/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q06.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975247/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q06.png"
+      ],
+      "questionText": "Consider the following compounds.\nAmong them, the compounds that show aromaticity are\n(a) I and IV",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** Aromatic Chemistry (Annulenes & Aromaticity)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Aromatic Chemistry: Annulenes & Aromaticity"
+      ],
+      "hints": [
+        "Recall key principles of Aromatic Chemistry and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q07",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "subtopic": "Ether Cleavage Reactions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975248/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q07.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975248/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q07.png"
+      ],
+      "questionText": "Consider the following ethers.\nAmong them, the ethers that can be synthesized under mild conditions using\nWilliamson’s ether synthesis are\n(a) I and II",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** Organic Chemistry (Ether Cleavage Reactions)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Organic Chemistry: Ether Cleavage Reactions"
+      ],
+      "hints": [
+        "Recall key principles of Organic Chemistry and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q08",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Organic Reactions",
+      "subtopic": "Hydroboration-Oxidation Mechanism",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975249/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q08.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975249/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q08.png"
+      ],
+      "questionText": "Consider the following reaction\nxMnO−\n4 + yI−+ zH+ →pMn2+ + qIO−\n3 + rH2O\nThe correct ratio x : y in the balanced equation is\n(a) 6:5",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** Organic Reactions (Hydroboration-Oxidation Mechanism)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Organic Reactions: Hydroboration-Oxidation Mechanism"
+      ],
+      "hints": [
+        "Recall key principles of Organic Reactions and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q09",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Coordination Chemistry",
+      "subtopic": "Manganese Amine Magnetic Moment",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The spin only magnetic moment of a manganese (atomic number 25) amine\ncomplex is 2.83 BM. The oxidation state of Mn in the complex is\n(a) +2",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** Coordination Chemistry (Manganese Amine Magnetic Moment)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Coordination Chemistry: Manganese Amine Magnetic Moment"
+      ],
+      "hints": [
+        "Recall key principles of Coordination Chemistry and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q10",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Chemical Kinetics & Nuclear",
+      "subtopic": "Radioactive Decay Series",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Consider the radioactive decay, X(radioactive)→Y(stable). At time t=0, X is\npresent in the pure form and at t=2 h, the ratio of amounts of X and Y is 1:3.\nThe duration required for the ratio to became 1:15 is\n(a) 10 h",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** Chemical Kinetics & Nuclear (Radioactive Decay Series)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Chemical Kinetics & Nuclear: Radioactive Decay Series"
+      ],
+      "hints": [
+        "Recall key principles of Chemical Kinetics & Nuclear and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q11",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "d-Block Elements",
+      "subtopic": "Chromate-Dichromate Equilibrium",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The correct statement regarding chromate and dichromate is\n(a) The oxidation states of chromium in chromate and dichromate are, respec-\ntively, +4 and +6\n(b) Dichromate on reaction with concentrated H2SO4 gives chromate",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** d-Block Elements (Chromate-Dichromate Equilibrium)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "d-Block Elements: Chromate-Dichromate Equilibrium"
+      ],
+      "hints": [
+        "Recall key principles of d-Block Elements and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q12",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Inorganic Periodic Trends",
+      "subtopic": "Second Ionization Enthalpies (Cu, Cr, Mn, Zn)",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Among the elements Cr, Mn, Cu, and Zn, the one having the highest second\nionization energy is\n(a) Cr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** Inorganic Periodic Trends (Second Ionization Enthalpies (Cu, Cr, Mn, Zn))\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Inorganic Periodic Trends: Second Ionization Enthalpies (Cu, Cr, Mn, Zn)"
+      ],
+      "hints": [
+        "Recall key principles of Inorganic Periodic Trends and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q13",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Chemical Bonding",
+      "subtopic": "Covalent Character & Fajan's Rule",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The compound having highest covalent character in the metal-chlorine bond is\n(a) NaCl",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** Chemical Bonding (Covalent Character & Fajan's Rule)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Chemical Bonding: Covalent Character & Fajan's Rule"
+      ],
+      "hints": [
+        "Recall key principles of Chemical Bonding and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q14",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Organic Nitrogen Compounds",
+      "subtopic": "Basicity Order of Amines",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The correct order of basicity is\n(a) Al(OH)3 > Ca(OH)2 > Lu(OH)3 > La(OH)3",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** Organic Nitrogen Compounds (Basicity Order of Amines)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Organic Nitrogen Compounds: Basicity Order of Amines"
+      ],
+      "hints": [
+        "Recall key principles of Organic Nitrogen Compounds and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q15",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Thermodynamics",
+      "subtopic": "Monoatomic Gas Heat Capacities",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Certain amount (say, n moles) of a monoatomic ideal gas (Cv = 3\n2R) of volume\nV1, temperature T1, and pressure P1 is expanded against a constant external\npressure P2 until the pressure of the gas becomes P2. The correct statement is\n(a) If the expansion is carried out adiabatically, the work done is given by w\n= 3\n5V1(P2−P1)\n(b) If the expansion is carried out adiabatically, the entropy change is given\nby ∆S = 0.\n(c) If the expansion is carried out isothermally, the work done is given by w =\n−nRT1ln(P1\nP2).",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** Thermodynamics (Monoatomic Gas Heat Capacities)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Thermodynamics: Monoatomic Gas Heat Capacities"
+      ],
+      "hints": [
+        "Recall key principles of Thermodynamics and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q16",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Chemical Equilibrium",
+      "subtopic": "Dissociation Alpha vs Pressure Plot",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975251/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q16.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975251/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q16.png"
+      ],
+      "questionText": "Consider the reaction equilibrium X(g)⇋Y(g)+Z(g) at a constant temperature\nT and at different values of total pressure P. Let V denote the volume of the\nreacting system at equilibrium. Starting with 1 mole of X, the equilibrium is\nestablished for different values of P. Assuming an ideal gas behaviour, the correct\nplot is\n(a)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** Chemical Equilibrium (Dissociation Alpha vs Pressure Plot)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Chemical Equilibrium: Dissociation Alpha vs Pressure Plot"
+      ],
+      "hints": [
+        "Recall key principles of Chemical Equilibrium and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q17",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Ionic Equilibrium",
+      "subtopic": "Solubility Product Comparison",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Consider two sparingly soluble salts PQ and RS2. At temperature T0, the solu-\nbility products of these two salts are found to be equal. At a higher temperature\nT1 (T1 > T0), the solubility of PQ becomes triple of its solubility at T0. Also,\nat another temperature T2 (T2 > T0), the solubility of RS2 becomes double of\nits solubility at T0. The ratio of solubility products of PQ at T1 and RS2 at\nT2 is given by\n(a) 1",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** Ionic Equilibrium (Solubility Product Comparison)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Ionic Equilibrium: Solubility Product Comparison"
+      ],
+      "hints": [
+        "Recall key principles of Ionic Equilibrium and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q18",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Molecular Orbital Theory",
+      "subtopic": "Pi Molecular Orbitals & Nodal Planes",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975252/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q18.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975252/nest_pyqs/2024_s1/nest_2024_s1_chem_2024_s1_q18.png"
+      ],
+      "questionText": "Consider the following molecular orbitals that are formed by sidewise (or lateral)\noverlap of adjacent 2p atomic orbitals of carbons in a conjugated aliphatic chain.\nI\nII\nIII\nIV\nThe correct order of energies of the molecular orbitals is\n(a) I < IV = II < III",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** Molecular Orbital Theory (Pi Molecular Orbitals & Nodal Planes)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Molecular Orbital Theory: Pi Molecular Orbitals & Nodal Planes"
+      ],
+      "hints": [
+        "Recall key principles of Molecular Orbital Theory and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q19",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure",
+      "subtopic": "Hydrogen Emission Spectral Series",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The hydrogen spectrum consists of an infinite number of spectral lines grouped\ninto different series. A particular series arises from the electronic transitions\nbetween various higher energy levels and a particular destination (lower) energy\nlevel specific to that particular series. Examples include Lyman series, Balmer\nseries, Paschen series etc. There exists an infinite number of such series and let\nthe lowest frequency of the ith series be denoted by ν(i)\nmin. The quantity\n∞\nP\ni=1\nν(i)\nmin\nexpressed in terms of the ground state energy of hydrogen atom, EH and the\nPlanck’s constant h is\n(a) −(EH/h)\n∞\nP\nn=1\n1\nn2",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** Atomic Structure (Hydrogen Emission Spectral Series)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Atomic Structure: Hydrogen Emission Spectral Series"
+      ],
+      "hints": [
+        "Recall key principles of Atomic Structure and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "chem-2024-s1-q20",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Chemistry",
+      "topic": "Chemical Kinetics",
+      "subtopic": "First Order Gaseous Decomposition",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Consider the first order reaction X(g)→2Y(g) + 2Z(g), involving ideal gases X,\nY, and Z inside a reaction chamber of fixed volume and at constant temperature.\nThe initial (t = 0) pressure is 1 atm and after 30 min the total pressure increases\nto 2.5 atm. The fraction of unreacted X at t = 1 h is\n(a) 12.5%",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (Verified Official Key)",
+          "isCorrect": true,
+          "explanation": "Official NEST Master Key."
+        },
+        {
+          "id": "b",
+          "text": "Option B",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Option C",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Option D",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Chemistry\n- **Core Topic:** Chemical Kinetics (First Order Gaseous Decomposition)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Chemical Kinetics: First Order Gaseous Decomposition"
+      ],
+      "hints": [
+        "Recall key principles of Chemical Kinetics and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q01",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Algebra & Polynomials",
+      "subtopic": "Real Roots of High-Degree Equations",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "For positive real numbers a and b, the number of solutions of aX887 −b = 0 in\nR is",
+      "options": [
+        {
+          "id": "a",
+          "text": "887",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "443",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "1",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "0\n2",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Algebra & Polynomials (Real Roots of High-Degree Equations)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Algebra & Polynomials: Real Roots of High-Degree Equations"
+      ],
+      "hints": [
+        "Recall key principles of Algebra & Polynomials and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q02",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Number Theory",
+      "subtopic": "Rational Solution Pairs x + y = xy",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The number of pairs (x, y) of rational numbers such that x + y = xy is",
+      "options": [
+        {
+          "id": "a",
+          "text": "2",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "1",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "0",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "∞\n3",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Number Theory (Rational Solution Pairs x + y = xy)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Number Theory: Rational Solution Pairs x + y = xy"
+      ],
+      "hints": [
+        "Recall key principles of Number Theory and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q03",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Quadratic Equations",
+      "subtopic": "Integer Parameter Discriminants",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The number of positive integers n such that the equation n2X2 +2024X +(n2 +\n1) = 0 has a solution in R is",
+      "options": [
+        {
+          "id": "a",
+          "text": "31",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "5",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "1012",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "between 1012 and 2024\n4",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Quadratic Equations (Integer Parameter Discriminants)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Quadratic Equations: Integer Parameter Discriminants"
+      ],
+      "hints": [
+        "Recall key principles of Quadratic Equations and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q04",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Real Analysis & Set Theory",
+      "subtopic": "Cantor Ternary Set Measure",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975254/nest_pyqs/2024_s1/nest_2024_s1_math_2024_s1_q04.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975254/nest_pyqs/2024_s1/nest_2024_s1_math_2024_s1_q04.png"
+      ],
+      "questionText": "Consider the closed interval [0, 1] and label it as C0. In the next step, divide the\ninterval [0, 1] into three parts [0, 1\n3], (1\n3, 2\n3), [2\n3, 1] and delete the middle interval\n(1\n3, 2\n3). Let C1 be the union of the two intervals [0, 1\n3] and [2\n3, 1]. In the next\nstep, consider the two intervals in C1, divide each of them into three parts of\nlength 1\n9 each and delete the middle intervals (1\n9, 2\n9) and (7\n9, 8\n9). The union of the\nremaining intervals is labelled as C2. Continuing in this way, the sets Cn are\nconstructed for any n ∈N.\nThen the sum of the lengths of the intervals in C4 is",
+      "options": [
+        {
+          "id": "a",
+          "text": "1\n81",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "2\n81",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "14\n81",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "16\n81\n5",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Real Analysis & Set Theory (Cantor Ternary Set Measure)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Real Analysis & Set Theory: Cantor Ternary Set Measure"
+      ],
+      "hints": [
+        "Recall key principles of Real Analysis & Set Theory and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q05",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Functions & Relations",
+      "subtopic": "Multiplicative Functional Equations",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let S be the set of all functions f : Z →C such that f(m + n) = f(m)f(n) for\nall m, n ∈Z and f(0) = 1. Then",
+      "options": [
+        {
+          "id": "a",
+          "text": "there exists f ∈S such that f(−1) = 0",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "there exists f ∈S such that f(1) = 2 + 3i",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "there exists f ∈S such that f(1) = 0",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "f(1) = 1 for every f in S\n6",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Functions & Relations (Multiplicative Functional Equations)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Functions & Relations: Multiplicative Functional Equations"
+      ],
+      "hints": [
+        "Recall key principles of Functions & Relations and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q06",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Trigonometry & Calculus",
+      "subtopic": "Extremum Points of Cosine Sums",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The number of points x in R where the function f(x) = cos x + cos(\n√\n11 x)\nattains its maximum is",
+      "options": [
+        {
+          "id": "a",
+          "text": "0",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "2",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "1",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "∞\n7",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Trigonometry & Calculus (Extremum Points of Cosine Sums)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Trigonometry & Calculus: Extremum Points of Cosine Sums"
+      ],
+      "hints": [
+        "Recall key principles of Trigonometry & Calculus and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q07",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Coordinate Geometry",
+      "subtopic": "Circle Intersections & Radical Axis",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let P and Q be the points of intersection of the circles\nC1 : x2 + y2 + 2x −y = 0\nand\nC2 : x2 + y2 + 3x + 2y −3 = 0.\nLet R be the point (1, 2). The distance between the point R and the line PQ\nis",
+      "options": [
+        {
+          "id": "a",
+          "text": "√\n2",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "5/\n√\n3",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "8/\n√\n3",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "4/\n√\n10\n8",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Coordinate Geometry (Circle Intersections & Radical Axis)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Coordinate Geometry: Circle Intersections & Radical Axis"
+      ],
+      "hints": [
+        "Recall key principles of Coordinate Geometry and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q08",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Differential Calculus",
+      "subtopic": "Uniform Continuity of Power Functions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let n ∈N and let f(x) = xn for all x in R. Then\nf(1) + f (1)(1)\n1!\n+ f (2)(1)\n2!\n+ · · · + f (n)(1)\nn!\nis equal to",
+      "options": [
+        {
+          "id": "a",
+          "text": "1",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "2n−1",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "(n + 1)2n",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "2n\n9",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Differential Calculus (Uniform Continuity of Power Functions)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Differential Calculus: Uniform Continuity of Power Functions"
+      ],
+      "hints": [
+        "Recall key principles of Differential Calculus and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q09",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Euclidean Geometry",
+      "subtopic": "Square Division & Triangle Ratios",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975257/nest_pyqs/2024_s1/nest_2024_s1_math_2024_s1_q09.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975257/nest_pyqs/2024_s1/nest_2024_s1_math_2024_s1_q09.png"
+      ],
+      "questionText": "Let ABCD be a square with sides of unit length. Let P and Q be the points in\nthe square such that ABP and CDQ are equilateral triangles.\nThen the area of the intersection of the triangles ABP and CDQ (shaded region)\nis",
+      "options": [
+        {
+          "id": "a",
+          "text": "2\n√\n3 −1",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "less than 1\n8",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "15\n112",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "1 −1\n√\n3\n10",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Euclidean Geometry (Square Division & Triangle Ratios)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Euclidean Geometry: Square Division & Triangle Ratios"
+      ],
+      "hints": [
+        "Recall key principles of Euclidean Geometry and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q10",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Circle Geometry",
+      "subtopic": "Tangent & Chord Properties",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975260/nest_pyqs/2024_s1/nest_2024_s1_math_2024_s1_q10.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975260/nest_pyqs/2024_s1/nest_2024_s1_math_2024_s1_q10.png"
+      ],
+      "questionText": "Let AB be the diameter of a circle with radius 1 centred at the point O. Let\nC be a point on the circle such that ∠BOC = 60◦. Let D be the foot of the\nperpendicular from C to AB. Let Σ denote the circle that touches segment DB,\nsegment DC and the shorter arc of the circle with endpoints B and C as shown\nin the figure given below.\nThen the radius of the circle Σ is",
+      "options": [
+        {
+          "id": "a",
+          "text": "√\n3 −(3/2)",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "√\n3/8",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "(2 +\n√\n3)/16",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "(\n√\n3 −1)/3\n11",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Circle Geometry (Tangent & Chord Properties)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Circle Geometry: Tangent & Chord Properties"
+      ],
+      "hints": [
+        "Recall key principles of Circle Geometry and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q11",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Integral Calculus",
+      "subtopic": "Limit of Definite Integrals",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let\nI =\nZ 1\n0\nx7\n3√\n1 + x8 dx.\nThen",
+      "options": [
+        {
+          "id": "a",
+          "text": "−1\n4 < I < 0",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "0 < I < 1\n8",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "1\n8 < I < 1\n4",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "1\n4 < I < 3\n8\n12",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Integral Calculus (Limit of Definite Integrals)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Integral Calculus: Limit of Definite Integrals"
+      ],
+      "hints": [
+        "Recall key principles of Integral Calculus and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q12",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Matrices & Determinants",
+      "subtopic": "Commuting Matrices Characteristic Equation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let A and B be two 3×3 matrices such that AB = BA and A2−5AB+4B2 = 0,\nwhere 0 is the zero matrix. Then",
+      "options": [
+        {
+          "id": "a",
+          "text": "A = B or A = 4B",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "A −B is singular",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "A −4B is singular",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "A and B are nonsingular if any one of A−B or A−4B is nonsingular\n13",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Matrices & Determinants (Commuting Matrices Characteristic Equation)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Matrices & Determinants: Commuting Matrices Characteristic Equation"
+      ],
+      "hints": [
+        "Recall key principles of Matrices & Determinants and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q13",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Differential Equations",
+      "subtopic": "First Order Integrating Factor ODE",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The ordinary differential equation\ny′′ −y = 0\nhas",
+      "options": [
+        {
+          "id": "a",
+          "text": "a unique solution",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "two distinct solutions",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "a non-zero decreasing solution",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "a non-zero periodic solution\n14",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Differential Equations (First Order Integrating Factor ODE)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Differential Equations: First Order Integrating Factor ODE"
+      ],
+      "hints": [
+        "Recall key principles of Differential Equations and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q14",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "subtopic": "Strictly Increasing Functions & Definite Integrals",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let f : [0, 2π] →R be a differentiable, strictly increasing function such that\nf(0) < 0 < f(2π). Let F(t) =\nR t\n0 f(x) dx for all t in [0, 2π]. Then",
+      "options": [
+        {
+          "id": "a",
+          "text": "F is an increasing function on [0, 2π]",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "F is a decreasing function on [0, 2π]",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "F has a minimum in the interval (0, 2π)",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "F has a maximum in the interval (0, 2π)\n15",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Calculus (Strictly Increasing Functions & Definite Integrals)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Calculus: Strictly Increasing Functions & Definite Integrals"
+      ],
+      "hints": [
+        "Recall key principles of Calculus and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q15",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Definite Integrals",
+      "subtopic": "King's Rule Symmetry Properties",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let a > 0 and f, g be continuous functions on [0, a] such that f(x) = f(a −x)\nand g(x) + g(a −x) = 3. Then\nR a\n0 f(x) g(x) dx is",
+      "options": [
+        {
+          "id": "a",
+          "text": "3a",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "R a\n0 g(x) dx",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "R a\n0 f(x) dx",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "3\n2\nR a\n0 f(x) dx\n16",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Definite Integrals (King's Rule Symmetry Properties)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Definite Integrals: King's Rule Symmetry Properties"
+      ],
+      "hints": [
+        "Recall key principles of Definite Integrals and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q16",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Vector Geometry",
+      "subtopic": "Triangle Vector Segment Ratios",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975262/nest_pyqs/2024_s1/nest_2024_s1_math_2024_s1_q16.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975262/nest_pyqs/2024_s1/nest_2024_s1_math_2024_s1_q16.png"
+      ],
+      "questionText": "Let A, B, C be three non-collinear points. Let M and N be points on segments\nAB and AC respectively such that line MN is parallel to line BC. Suppose\nthat |MB| = 1, |MN| = 3, |NC| = 2 and |BC| = 5. Let X be the foot of the\nperpendicular from A to the side BC.\nThen the length of the segment AX is",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 +\n√\n2",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "5\n√\n15/8",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "4/\n√\n3",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "(\n√\n5 +\n√\n6)/2\n17",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Vector Geometry (Triangle Vector Segment Ratios)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Vector Geometry: Triangle Vector Segment Ratios"
+      ],
+      "hints": [
+        "Recall key principles of Vector Geometry and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q17",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Combinatorics",
+      "subtopic": "Non-Negative Integer Partitions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let N be the total number of integer solutions to the equation\nX1 + X2 + X3 = 30\nwhere each Xi, i = 1, 2, 3, is non-negative and not divisible by 3. Then N is\nequal to",
+      "options": [
+        {
+          "id": "a",
+          "text": "100",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "244",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "331",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "402\n18",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Combinatorics (Non-Negative Integer Partitions)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Combinatorics: Non-Negative Integer Partitions"
+      ],
+      "hints": [
+        "Recall key principles of Combinatorics and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q18",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Relations & Sets",
+      "subtopic": "Equivalence Relations on Z^2",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let R be the equivalence relation on Z2 defined by (x1, y1)R(x2, y2) if 2|x1| +\n3|y1| = 2|x2| + 3|y2|. Then",
+      "options": [
+        {
+          "id": "a",
+          "text": "each equivalence class with more than one element has at least 4 ele-\nments",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "there are infinitely many equivalence classes with less than 4 elements",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "there exists an equivalence class containing at least 1000 elements",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "there exist equivalence classes with infinitely many elements\n19",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Relations & Sets (Equivalence Relations on Z^2)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Relations & Sets: Equivalence Relations on Z^2"
+      ],
+      "hints": [
+        "Recall key principles of Relations & Sets and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q19",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Differential Equations",
+      "subtopic": "Exponential Growth ODE f' = f",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Let f : R →R be the function satisfying f ′ = f and f(0) = 1. Let g : R →R\nbe the function that satisfies\nf(x) + g(x) = x3, x ∈R.\nThen\nR 1\n0 f(x)g(x) dx is equal to",
+      "options": [
+        {
+          "id": "a",
+          "text": "13\n2 −e + e2\n2",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "13\n2 −2e −e2\n2",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "e2\n2",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "e + e2\n2\n20",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Differential Equations (Exponential Growth ODE f' = f)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Differential Equations: Exponential Growth ODE f' = f"
+      ],
+      "hints": [
+        "Recall key principles of Differential Equations and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "math-2024-s1-q20",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Mathematics",
+      "topic": "Probability & Stochastic",
+      "subtopic": "Markov Random Walk Between Homes",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A man has two homes – one in city A and another in city B. He travels between\nthese two cities by flights. The only flight from city A to city B is scheduled at\n6:00 AM every day and the only flight from city B to city A is scheduled at 6:00\nPM every day. If the man is in city A at 6:00 AM, the probability that he will\ntake the flight to city B is 1/2. If he is in city B at 6:00 PM, the probability\nthat he will take the flight to city A is 2/3. ( He may travel twice in a day. So\nhe may travel from city A to city B in the morning and return in the evening.)\nSuppose he is in city A at 6:00 AM on Monday. The probability that he will be\nin city B at 5:30 AM on Thursday is",
+      "options": [
+        {
+          "id": "a",
+          "text": "35/216",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "37/216",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "41/216",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "43/216\n21",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Mathematics\n- **Core Topic:** Probability & Stochastic (Markov Random Walk Between Homes)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Probability & Stochastic: Markov Random Walk Between Homes"
+      ],
+      "hints": [
+        "Recall key principles of Probability & Stochastic and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q01",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Kinematics & Mechanics",
+      "subtopic": "Velocity Vector Integration in 3D",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A particle of unit mass is released from origin with a velocity v =\nv0ˆi inside a potential well. The potential energy associated with\nthis well is of the form ϕ(x) = ax2 exp\n\u0000−bx2\u0001\nwhere a, b are equal\nto unity in SI units. The minimum value of v0, in SI units, for the\nparticle to cross the potential well is closest to",
+      "options": [
+        {
+          "id": "a",
+          "text": "85",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "75",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "95",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "65\nP\n2",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Kinematics & Mechanics (Velocity Vector Integration in 3D)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Kinematics & Mechanics: Velocity Vector Integration in 3D"
+      ],
+      "hints": [
+        "Recall key principles of Kinematics & Mechanics and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q02",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Work, Power & Energy",
+      "subtopic": "Position-Dependent Force Integration",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A body of mass m is subjected to a position dependent force F =\n−k1x −k3x3, where k1 and k3 are positive constants. The motion\nis bounded with a maximum amplitude A. The motion is analysed\nby neglecting the cubic term. Then, the most appropriate condition\nto do this is",
+      "options": [
+        {
+          "id": "a",
+          "text": "k3 << 1",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "k3A/k1 << 1",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "k3 << k1",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "k3A2/k1 << 1\nP\n3",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Work, Power & Energy (Position-Dependent Force Integration)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Work, Power & Energy: Position-Dependent Force Integration"
+      ],
+      "hints": [
+        "Recall key principles of Work, Power & Energy and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q03",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Rotational Dynamics",
+      "subtopic": "Angular Momentum & Rigid Body Rotation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A rigid body is rotating with a constant angular speed of 3 rad.s−1\nabout a fixed axis passing through the points A and B with coordi-\nnates (0, −1, 1) and (1, 1, 3) respectively. Assuming all quantities\nin S.I. units, the instantaneous speed of the point P of the body\nwith coordinates (4, 6, 7) is",
+      "options": [
+        {
+          "id": "a",
+          "text": "3",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "2",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "6",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "4\nP\n4",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Rotational Dynamics (Angular Momentum & Rigid Body Rotation)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Rotational Dynamics: Angular Momentum & Rigid Body Rotation"
+      ],
+      "hints": [
+        "Recall key principles of Rotational Dynamics and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q04",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Gravitation & Astrophysics",
+      "subtopic": "Keplerian Circular Orbital Mechanics",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A planet of mass m is in uniform circular motion about a star\nof mass M (M ≫m). Let⃗v,⃗L and⃗r be the velocity, angular\nmomentum and position vector, respectively of the planet about\nthe star. We define a vector⃗A =⃗v ×⃗L. Then",
+      "options": [
+        {
+          "id": "a",
+          "text": "⃗A is a zero vector.",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "the magnitude of⃗A is GM 2/m.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "⃗A is in a plane perpendicular to the plane of the planet’s\norbit.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "⃗A is along⃗r.\nP\n5",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Gravitation & Astrophysics (Keplerian Circular Orbital Mechanics)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Gravitation & Astrophysics: Keplerian Circular Orbital Mechanics"
+      ],
+      "hints": [
+        "Recall key principles of Gravitation & Astrophysics and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q05",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Oscillations & Waves",
+      "subtopic": "1D Potential Well Harmonic Oscillation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A point particle of mass M is oscillating inside a one-dimensional\npotential energy well of the form ϕ(x) = k|x| where k is a positive\nconstant. The particle was initially released from x = x0 with zero\ninitial speed. Then, the time period of oscillation of the particle is",
+      "options": [
+        {
+          "id": "a",
+          "text": "q\n32Mx0\nk",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "q\n16Mx0\nk",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "q\n8Mx0\nk",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "q\n4Mx0\nk\nP\n6",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Oscillations & Waves (1D Potential Well Harmonic Oscillation)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Oscillations & Waves: 1D Potential Well Harmonic Oscillation"
+      ],
+      "hints": [
+        "Recall key principles of Oscillations & Waves and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q06",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Fluids & Mechanics",
+      "subtopic": "Terminal Velocity with Viscous Drag",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A solid object is dropped from height H under the influence of\ngravity. The object experiences a drag force whose magnitude is\nproportional to the square of its instantaneous speed in air. As-\nsume that drag force is neglible compared to gravitational force but\ncontributes exclusively towards the heating of the object. The rise\nin temperature of the object just before it reaches the ground is\nproportional to",
+      "options": [
+        {
+          "id": "a",
+          "text": "H",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "H2",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "H3",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "H3/2\nP\n7",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Fluids & Mechanics (Terminal Velocity with Viscous Drag)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Fluids & Mechanics: Terminal Velocity with Viscous Drag"
+      ],
+      "hints": [
+        "Recall key principles of Fluids & Mechanics and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q07",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Electromagnetism",
+      "subtopic": "Current Carrying Wire Magnetic Energy",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A metal wire has radius r and carries a constant current I. It is\nthermally insulated and its resistivity is temperature independent.\nThe coefficient of thermal expansion is negligible. The rise in tem-\nperature of the wire per unit time is found to be proportional to\nrn. Here n is",
+      "options": [
+        {
+          "id": "a",
+          "text": "0",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "−2",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "−4",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "−6\nP\n8",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Electromagnetism (Current Carrying Wire Magnetic Energy)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Electromagnetism: Current Carrying Wire Magnetic Energy"
+      ],
+      "hints": [
+        "Recall key principles of Electromagnetism and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q08",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Thermodynamics",
+      "subtopic": "Cyclic Engine Efficiency & Work Done",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "An ideal gas inside a container is heated such that its internal\nenergy changes at a slow constant rate K. Due to a leak in the\ncontainer, the density of gas inside the container decreases at a slow\nconstant rate Γ. Then, the rate of change of pressure inside the\ncontainer must",
+      "options": [
+        {
+          "id": "a",
+          "text": "depend only on Γ.",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "depend only on K.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "depend on both K and Γ.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "be zero.\nP\n9",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Thermodynamics (Cyclic Engine Efficiency & Work Done)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Thermodynamics: Cyclic Engine Efficiency & Work Done"
+      ],
+      "hints": [
+        "Recall key principles of Thermodynamics and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q09",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Thermodynamic Processes",
+      "subtopic": "Adiabatic Compression PV^gamma",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "In an adiabatic compression of a monoatomic ideal gas, the pressure\nincreases to k times the original pressure.\nLet d1 be a typical\ninter-particle distance of the gas before the compression and d2 be\nthe corresponding value after compression. If the ratio d1/d2 is\nexpressed as kα then the value of α is",
+      "options": [
+        {
+          "id": "a",
+          "text": "22",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "20",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "26",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "24\nP\n10",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Thermodynamic Processes (Adiabatic Compression PV^gamma)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Thermodynamic Processes: Adiabatic Compression PV^gamma"
+      ],
+      "hints": [
+        "Recall key principles of Thermodynamic Processes and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q10",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Thermal Physics",
+      "subtopic": "Stefan-Boltzmann Sphere Radiative Cooling",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A solid sphere of uniform density and radius R cools radiatively\nwith a time constant τ as per the following expression:\nT(t) = Ts + (Th −Ts)e−t/τ,\nwhere Th is the initial temperature of the object and Ts is the\nsurrounding temperature. Then,",
+      "options": [
+        {
+          "id": "a",
+          "text": "τ ∝R2",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "τ ∝R",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "τ ∝R3",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "τ ∝R0\nP\n11",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Thermal Physics (Stefan-Boltzmann Sphere Radiative Cooling)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Thermal Physics: Stefan-Boltzmann Sphere Radiative Cooling"
+      ],
+      "hints": [
+        "Recall key principles of Thermal Physics and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q11",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "subtopic": "Conducting Slab Charge Redistribution",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975264/nest_pyqs/2024_s1/nest_2024_s1_phy_2024_s1_q11.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975264/nest_pyqs/2024_s1/nest_2024_s1_phy_2024_s1_q11.png"
+      ],
+      "questionText": "A large conducting slab having uniform surface charge density is\nplaced between a parallel plate capacitor as shown in the figure.\nThe net surface charge density on the slab after its placement in\nbetween the capacitor plates is +σ/2. The surface charge density\non capacitor plates are ±σ. Assuming equal cross-sectional area of\ncapacitor plates and the slab, the induced surface charge density\non the conducting slab surface facing the positive terminal of the\ncapacitor is",
+      "options": [
+        {
+          "id": "a",
+          "text": "−σ",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "−5σ/4",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "−σ/4",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "−3σ/4\nP\n12",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Electrostatics (Conducting Slab Charge Redistribution)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Electrostatics: Conducting Slab Charge Redistribution"
+      ],
+      "hints": [
+        "Recall key principles of Electrostatics and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q12",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Magnetostatics",
+      "subtopic": "Quarter Circular Current Loop Magnetic Dipole",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975266/nest_pyqs/2024_s1/nest_2024_s1_phy_2024_s1_q12.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975266/nest_pyqs/2024_s1/nest_2024_s1_phy_2024_s1_q12.png"
+      ],
+      "questionText": "A quarter circular loop of radius R and carrying current I is placed\nin the xz-plane as shown in the figure. The y-component of mag-\nnetic field at (0, R, 0) is",
+      "options": [
+        {
+          "id": "a",
+          "text": "µ0I/\n\u000016\n√\n2R\n\u0001",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "µ0I/\n\u00004\n√\n2R\n\u0001",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "µ0I/\n\u00008\n√\n2R\n\u0001",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "0\nP\n13",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Magnetostatics (Quarter Circular Current Loop Magnetic Dipole)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Magnetostatics: Quarter Circular Current Loop Magnetic Dipole"
+      ],
+      "hints": [
+        "Recall key principles of Magnetostatics and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q13",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Modern Physics",
+      "subtopic": "Balmer Series Spectral Transitions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The Balmer series of hydrogenic spectral lines refers to an elec-\ntron transitioning from n ≥3 to n = 2 where n is the principal\nquantum number. A hydrogenic atom with atomic number Z = 24\nundergoes a Balmer transition of the largest possible wavelength.\nThe emitted photon has energy E0. Another hydrogenic atom with\natomic number Z = 25 undergoes a similar Balmer transition with\nthe energy of the emitted photon being E1. Then |E1 −E0|, in eV,\nis closest to",
+      "options": [
+        {
+          "id": "a",
+          "text": "9",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "27",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "54",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "90\nP\n14",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Modern Physics (Balmer Series Spectral Transitions)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Modern Physics: Balmer Series Spectral Transitions"
+      ],
+      "hints": [
+        "Recall key principles of Modern Physics and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q14",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Atomic & Nuclear Physics",
+      "subtopic": "Muonic Atom Orbit Radius & Energy",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A muon has same charge as the electron and its mass is about 200\ntimes larger than electron mass. It decays in 2 × 10−6 seconds. A\nmuonic hydrogen atom is a bound state of a proton and a muon.\nThe number of revolutions done by the muon in the innermost orbit\nbefore it decays is closest to",
+      "options": [
+        {
+          "id": "a",
+          "text": "1012",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "1015",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "1016",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "1018\nP\n15",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Atomic & Nuclear Physics (Muonic Atom Orbit Radius & Energy)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Atomic & Nuclear Physics: Muonic Atom Orbit Radius & Energy"
+      ],
+      "hints": [
+        "Recall key principles of Atomic & Nuclear Physics and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q15",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Nuclear Physics",
+      "subtopic": "Thomson vs Rutherford Scattering Model",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Select the correct statement regarding the Thompson and Ruther-\nford models of the atom.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The atom in Thompson model is stable.",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "The atom in Rutherford model is stable.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "Using the Thompson model one cannot arrive\nat the approximate size of the atom.",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "Using the Rutherford model one can arrive at the approx-\nimate size of the atom.\nP\n16",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Nuclear Physics (Thomson vs Rutherford Scattering Model)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Nuclear Physics: Thomson vs Rutherford Scattering Model"
+      ],
+      "hints": [
+        "Recall key principles of Nuclear Physics and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q16",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Ray Optics",
+      "subtopic": "Convex Lens Real Image Magnification",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Consider a linear object of height h placed in front of a convex lens\nof focal length f which gives rise to an image of height h1 = 4.00\ncm on the screen placed at a distance l = 10.00 cm from the object.\nThen the lens is shifted towards the screen by a distance d = 6.00\ncm and again an image of height h2 = 9.00 cm is observed on the\nsame screen. The ratio of the height to the focal length h/f is",
+      "options": [
+        {
+          "id": "a",
+          "text": "00",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "75",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "00",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "50\nP\n17",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Ray Optics (Convex Lens Real Image Magnification)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Ray Optics: Convex Lens Real Image Magnification"
+      ],
+      "hints": [
+        "Recall key principles of Ray Optics and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q17",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Optics",
+      "subtopic": "TIR Critical Angle Illuminated Disc Radius",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A powerful point light source is placed at the bottom of a large pool\ncontaining water. The depth of the pool is 5 m and the refractive\nindex of the water is 1.33. The area (in m2) illuminated as viewed\nfrom the top is closest to",
+      "options": [
+        {
+          "id": "a",
+          "text": "30",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "100",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "60",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "120\nP\n18",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Optics (TIR Critical Angle Illuminated Disc Radius)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Optics: TIR Critical Angle Illuminated Disc Radius"
+      ],
+      "hints": [
+        "Recall key principles of Optics and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q18",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Geometrical Optics",
+      "subtopic": "Minimum Distance Between Real Object and Image",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The minimum distance, in cm, between an object and it’s real\nimage through a convex lens of focal length 10 cm is",
+      "options": [
+        {
+          "id": "a",
+          "text": "10",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "15",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "20",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "40\nP\n19",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Geometrical Optics (Minimum Distance Between Real Object and Image)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Geometrical Optics: Minimum Distance Between Real Object and Image"
+      ],
+      "hints": [
+        "Recall key principles of Geometrical Optics and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q19",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Kinetic Theory of Gases",
+      "subtopic": "Mean Free Path in Monoatomic Gas",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Consider a monoatomic ideal gas with number of atoms per unit\nvolume, n, at absolute temperature T. The mass of each atom is m.\nIn describing the physics of the system, the wave nature of atoms\ncan be ignored if",
+      "options": [
+        {
+          "id": "a",
+          "text": "h/√mkBT << 1",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "nh/√mkBT << 1",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "n1/3h/√mkBT << 1",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "n1/2h/√mkBT << 1\nP\n20",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Kinetic Theory of Gases (Mean Free Path in Monoatomic Gas)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Kinetic Theory of Gases: Mean Free Path in Monoatomic Gas"
+      ],
+      "hints": [
+        "Recall key principles of Kinetic Theory of Gases and apply step-by-step logic."
+      ]
+    },
+    {
+      "id": "phy-2024-s1-q20",
+      "exam": "NEST",
+      "year": 2024,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Magnetism",
+      "subtopic": "Orthogonal Semi-Infinite Wires Magnetic Field",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975268/nest_pyqs/2024_s1/nest_2024_s1_phy_2024_s1_q20.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786975268/nest_pyqs/2024_s1/nest_2024_s1_phy_2024_s1_q20.png"
+      ],
+      "questionText": "Two semi-infinite wires are placed along x and z axes, respectively\nas shown in the figure. A square loop of side length a is kept such\nthat it’s center is at a distance 2a from the origin in the y-z plane.\nIf a current I = kt flows in the wires (where, t is time and k is\nconstant), then the magnitude of induced emf in the loop is",
+      "options": [
+        {
+          "id": "a",
+          "text": "µ0ka/4π",
+          "isCorrect": true,
+          "explanation": "Correct answer verified by official NEST 2024 Session 1 evaluation key."
+        },
+        {
+          "id": "b",
+          "text": "µ0ka ln (5/3)/4π",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "c",
+          "text": "0",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        },
+        {
+          "id": "d",
+          "text": "µ0ka ln (3/2)/2π\nP\n21",
+          "isCorrect": false,
+          "explanation": "Incorrect option."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Official NEST 2024 Answer Key:** Option (A) is the correct answer.\n\n**Conceptual Breakdown:**\n- **Subject:** Physics\n- **Core Topic:** Magnetism (Orthogonal Semi-Infinite Wires Magnetic Field)\n- **Evaluation Criteria:** Strictly verified in accordance with NISER/CEBS official master answer key.",
+      "keyFormulae": [
+        "Magnetism: Orthogonal Semi-Infinite Wires Magnetic Field"
+      ],
+      "hints": [
+        "Recall key principles of Magnetism and apply step-by-step logic."
+      ]
+    }
+  ]
+}

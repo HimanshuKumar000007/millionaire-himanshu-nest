@@ -1,0 +1,64 @@
+{
+  "id": "chem-xi-u2-c2-l04",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit II \u2014 Structure of Atom",
+  "unitNumber": 2,
+  "chapter": "Structure of Atom",
+  "chapterNumber": 2,
+  "chapterSlug": "atomic-structure",
+  "slug": "lesson-04-de-broglie-heisenberg-uncertainty",
+  "title": "Matter-Wave Duality (de Broglie) & Heisenberg Uncertainty Principle",
+  "topic": "Dual Nature of Matter & Uncertainty",
+  "topics": [
+    "de Broglie Dualism (\u03bb = h/p = h/mv)",
+    "Accelerated Electron Wavelength (\u03bb_e = 12.27/\u221aV \u00c5)",
+    "Bohr Orbit Standing Wave Condition (2\u03c0r = n\u03bb)",
+    "Heisenberg Uncertainty Principle (\u0394x \u00b7 \u0394p \u2265 \u210f/2)",
+    "Energy-Time Uncertainty (\u0394E \u00b7 \u0394t \u2265 \u210f/2)",
+    "Proof of Non-existence of Electrons in the Nucleus"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "heisenberg-uncertainty",
+  "quickSummary": "Louis de Broglie unified wave and particle mechanics (\u03bb = h/p). Werner Heisenberg established the fundamental limit of simultaneous measurement (\u0394x \u00b7 \u0394p \u2265 \u210f/2), proving electrons cannot exist inside an atomic nucleus.",
+  "summary": "Master de Broglie matter waves, accelerated electron equations, standing wave orbit criteria, and Heisenberg uncertainty calculations.",
+  "conceptBreakdown": [
+    {
+      "heading": "4.1 de Broglie Matter-Wave Duality (1924)",
+      "title": "4.1 de Broglie Matter-Wave Duality (1924)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Matter Wave Duality",
+        "takeaway": "All moving matter has wave character: \u03bb = h/p = h/(mv). For accelerated electrons: \u03bb_e = 12.27 / \u221aV \u00c5."
+      },
+      "content": "Louis de Broglie proposed that moving material particles exhibit wave-particle duality:\n\n$$\\mathbf{\\lambda = \\frac{h}{p} = \\frac{h}{m v} = \\frac{h}{\\sqrt{2 m E_k}} = \\frac{h}{\\sqrt{2 m q V}}}$$\n\n\u2022 **Accelerated Electron Formula**: For an electron accelerated from rest across potential difference $V$ Volts:\n\n$$\\mathbf{\\lambda_e = \\frac{12.27}{\\sqrt{V}} \\text{ \\AA} = \\sqrt{\\frac{150}{V}} \\text{ \\AA} = \\frac{1.227}{\\sqrt{V}} \\text{ nm}}$$\n\n\u2022 **Bohr-de Broglie Connection**: Standing wave condition requires constructive interference along the circular orbit:\n\n$$2\\pi r = n \\lambda \\implies 2\\pi r = n \\left( \\frac{h}{m_e v} \\right) \\implies \\mathbf{m_e v r = \\frac{n h}{2\\pi}}$$\n\nThus, Bohr's empirical angular momentum quantization is naturally explained as a standing matter wave condition with $n$ full wavelengths."
+    },
+    {
+      "heading": "4.2 Heisenberg Uncertainty Principle (1927)",
+      "title": "4.2 Heisenberg Uncertainty Principle (1927)",
+      "type": "paragraph",
+      "codeSnippet": "HEISENBERG UNCERTAINTY EQUATIONS\n\n   Position-Momentum: \u0394x \u00b7 \u0394p_x \u2265 h / 4\u03c0 = \u210f / 2\n   Position-Velocity: \u0394x \u00b7 (m \u0394v_x) \u2265 h / 4\u03c0\n   Energy-Time:       \u0394E \u00b7 \u0394t \u2265 h / 4\u03c0 = \u210f / 2",
+      "content": "It is physically impossible to measure simultaneously both the exact position and exact momentum (or velocity) of a subatomic particle:\n\n$$\\mathbf{\\Delta x \\cdot \\Delta p_x \\ge \\frac{h}{4\\pi} = \\frac{\\hbar}{2}}$$\n$$\\mathbf{\\Delta x \\cdot (m \\Delta v_x) \\ge \\frac{h}{4\\pi}}$$\n$$\\mathbf{\\Delta E \\cdot \\Delta t \\ge \\frac{h}{4\\pi}}$$\n\n\u2022 **Proof of Non-existence of Free Electrons in the Nucleus**:\nNuclear diameter is $\\Delta x \\approx 10^{-14}\\text{ m}$. For an electron ($m_e = 9.1 \\times 10^{-31}\\text{ kg}$):\n\n$$\\Delta v \\ge \\frac{h}{4\\pi m_e \\Delta x} = \\frac{6.626 \\times 10^{-34}}{4\\pi \\times (9.1 \\times 10^{-31}) \\times 10^{-14}} \\approx 5.7 \\times 10^{10}\\text{ m/s}$$\n\nSince $\\Delta v > 3 \\times 10^8\\text{ m/s}$ ($c$, speed of light), which violates special relativity, free electrons cannot reside inside the nucleus."
+    }
+  ],
+  "quickRevision": [
+    "\u03bb = h / p = h / (mv) = h / \u221a(2mE_k).",
+    "Accelerated electron: \u03bb_e = 12.27 / \u221aV \u00c5.",
+    "Bohr orbit standing wave: 2\u03c0r = n\u03bb implies L = n\u210f.",
+    "Heisenberg principle: \u0394x \u00b7 \u0394p \u2265 h / 4\u03c0 = \u210f / 2.",
+    "Uncertainty principle proves electrons cannot exist inside atomic nuclei."
+  ],
+  "keyFormulae": [
+    "\u03bb = h / (mv) = h / \u221a(2mqV)",
+    "\u03bb_e = 12.27 / \u221aV \u00c5",
+    "2\u03c0r = n\u03bb",
+    "\u0394x \u00b7 \u0394p \u2265 \u210f / 2",
+    "\u0394E \u00b7 \u0394t \u2265 \u210f / 2"
+  ]
+}

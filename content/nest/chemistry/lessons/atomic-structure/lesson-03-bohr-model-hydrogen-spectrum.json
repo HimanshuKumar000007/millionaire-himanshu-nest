@@ -1,0 +1,64 @@
+{
+  "id": "chem-xi-u2-c2-l03",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit II \u2014 Structure of Atom",
+  "unitNumber": 2,
+  "chapter": "Structure of Atom",
+  "chapterNumber": 2,
+  "chapterSlug": "atomic-structure",
+  "slug": "lesson-03-bohr-model-hydrogen-spectrum",
+  "title": "Bohr's Quantized Model, Hydrogen Emission Spectrum & Rydberg Mechanics",
+  "topic": "Bohr Model & Hydrogen Spectrum",
+  "topics": [
+    "Bohr's Three Fundamental Postulates",
+    "Derivation of Bohr Radius (r_n = 0.529 n\u00b2/Z \u00c5)",
+    "Derivation of Electron Velocity (v_n = 2.188 \u00d7 10\u2076 Z/n m/s)",
+    "Kinetic, Potential & Total Energy Derivations (E_n = -13.6 Z\u00b2/n\u00b2 eV)",
+    "Hydrogen Spectral Series (Lyman, Balmer, Paschen, Brackett, Pfund, Humphreys)",
+    "Rydberg Formula & Total Spectral Emission Lines"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "bohr-model",
+  "quickSummary": "Niels Bohr applied quantum principles to single-electron species (H, He\u207a, Li\u00b2\u207a, Be\u00b3\u207a), quantizing angular momentum (L = n\u210f). The Rydberg formula quantifies all hydrogen atomic transitions across Lyman, Balmer, and infrared series.",
+  "summary": "Master Bohr's postulates, parameter scaling derivations (radius, velocity, energy components), the Rydberg formula, and spectral series calculations.",
+  "conceptBreakdown": [
+    {
+      "heading": "3.1 Bohr's Postulates & Mathematical Derivations",
+      "title": "3.1 Bohr's Postulates & Mathematical Derivations",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Bohr Model Postulates",
+        "takeaway": "1. Stationary non-radiating orbits; 2. Angular momentum quantization L = m_e v r = n\u210f; 3. Frequency condition \u0394E = h\u03bd."
+      },
+      "content": "Bohr's model applies strictly to single-electron hydrogenic systems ($\\text{H}, \\text{He}^+, \\text{Li}^{2+}, \\text{Be}^{3+}$):\n\n1. **Electrostatic = Centripetal Force**:\n$$\\frac{1}{4\\pi\\varepsilon_0} \\frac{Z e^2}{r^2} = \\frac{m_e v^2}{r} \\implies m_e v^2 = \\frac{1}{4\\pi\\varepsilon_0} \\frac{Z e^2}{r}$$\n\n2. **Quantization of Angular Momentum**:\n$$v = \\frac{n h}{2\\pi m_e r} = \\frac{n \\hbar}{m_e r}$$\n\n3. **Bohr Radius ($r_n$)**:\n$$\\mathbf{r_n = \\frac{\\varepsilon_0 h^2}{\\pi m_e e^2} \\cdot \\frac{n^2}{Z} = a_0 \\frac{n^2}{Z} = 0.529177 \\times \\frac{n^2}{Z} \\text{ \\AA}}$$\n\n4. **Electron Velocity ($v_n$)**:\n$$\\mathbf{v_n = \\frac{e^2}{2\\varepsilon_0 h} \\cdot \\frac{Z}{n} = v_1 \\frac{Z}{n} = 2.188 \\times 10^6 \\times \\frac{Z}{n} \\text{ m/s}}$$\n\n5. **Energy Components ($K_n, U_n, E_n$)**:\n\u2022 **Kinetic Energy ($K_n$)**: $K_n = \\frac{1}{2}m_e v^2 = +\\frac{1}{8\\pi\\varepsilon_0}\\frac{Ze^2}{r_n} = \\mathbf{+13.6 \\frac{Z^2}{n^2}\\text{ eV}}$\n\u2022 **Potential Energy ($U_n$)**: $U_n = -\\frac{1}{4\\pi\\varepsilon_0}\\frac{Ze^2}{r_n} = \\mathbf{-27.2 \\frac{Z^2}{n^2}\\text{ eV}}$\n\u2022 **Total Energy ($E_n$)**: $E_n = K_n + U_n = \\mathbf{-K_n = \\frac{U_n}{2} = -13.6 \\frac{Z^2}{n^2}\\text{ eV/atom}}$\n\n$$\\mathbf{E_n = -2.18 \\times 10^{-18} \\times \\frac{Z^2}{n^2}\\text{ J/atom} = -1312 \\times \\frac{Z^2}{n^2}\\text{ kJ/mol}}$$"
+    },
+    {
+      "heading": "3.2 Hydrogen Emission Spectrum & Rydberg Mechanics",
+      "title": "3.2 Hydrogen Emission Spectrum & Rydberg Mechanics",
+      "type": "paragraph",
+      "codeSnippet": "HYDROGEN ATOMIC TRANSITIONS\n                       \n   E (eV)\n    0.00 \u2500\u2500\u2500 n = \u221e \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n   -0.54 \u2500\u2500\u2500 n = 5 \u2500\u2500\u2500 Pfund Series (n\u2081 = 5, Far IR)\n   -0.85 \u2500\u2500\u2500 n = 4 \u2500\u2500\u2500 Brackett Series (n\u2081 = 4, Mid IR)\n   -1.51 \u2500\u2500\u2500 n = 3 \u2500\u2500\u2500 Paschen Series (n\u2081 = 3, Near IR)\n   -3.40 \u2500\u2500\u2500 n = 2 \u2500\u2500\u2500 Balmer Series (n\u2081 = 2, VISIBLE)\n   \n  -13.60 \u2500\u2500\u2500 n = 1 \u2500\u2500\u2500 Lyman Series (n\u2081 = 1, ULTRAVIOLET)",
+      "content": "Transition between quantum states $n_2 \\rightarrow n_1$ ($n_2 > n_1$):\n\n$$\\mathbf{\\bar{\\nu} = \\frac{1}{\\lambda} = R_H Z^2 \\left( \\frac{1}{n_1^2} - \\frac{1}{n_2^2} \\right)}$$\n\nwhere $R_H = \\frac{m_e e^4}{8 \\varepsilon_0^2 h^3 c} \\approx \\mathbf{109677\\text{ cm}^{-1} = 1.09677 \\times 10^7\\text{ m}^{-1}}$.\n\n**Spectral Series Classifications**:\n\u2022 **Lyman ($n_1 = 1, n_2 = 2,3,4\\dots$)**: Ultraviolet (UV). $\\lambda_{\\min} = \\frac{1}{R_H} \\approx 912\\text{ \\AA}$.\n\u2022 **Balmer ($n_1 = 2, n_2 = 3,4,5,6\\dots$)**: Visible ($n_2=3,4,5,6$) & Near UV. $\\lambda_{\\min} = \\frac{4}{R_H} \\approx 3646\\text{ \\AA}$.\n\u2022 **Paschen ($n_1 = 3, n_2 = 4,5,6\\dots$)**: Near Infrared (NIR). $\\lambda_{\\min} = \\frac{9}{R_H} \\approx 8206\\text{ \\AA}$.\n\u2022 **Brackett ($n_1 = 4, n_2 = 5,6,7\\dots$)**: Mid Infrared (MIR). $\\lambda_{\\min} = \\frac{16}{R_H} \\approx 14588\\text{ \\AA}$.\n\u2022 **Pfund ($n_1 = 5, n_2 = 6,7,8\\dots$)**: Far Infrared (FIR). $\\lambda_{\\min} = \\frac{25}{R_H} \\approx 22793\\text{ \\AA}$.\n\u2022 **Humphreys ($n_1 = 6, n_2 = 7,8,9\\dots$)**: Far Infrared (FIR). $\\lambda_{\\min} = \\frac{36}{R_H} \\approx 32823\\text{ \\AA}$.\n\n\u2022 **Total Emission Lines**: $N = \\frac{(n_2 - n_1)(n_2 - n_1 + 1)}{2}$ (returning to ground state $n_1=1 \\implies N = \\frac{n(n-1)}{2}$)."
+    }
+  ],
+  "quickRevision": [
+    "r_n = 0.529 \u00b7 (n\u00b2 / Z) \u00c5.",
+    "v_n = 2.188 \u00d7 10\u2076 \u00b7 (Z / n) m/s.",
+    "E_n = -13.6 \u00b7 (Z\u00b2 / n\u00b2) eV = -K_n = U_n / 2.",
+    "Rydberg formula: \u03bd\u0304 = 1/\u03bb = R_H \u00b7 Z\u00b2 \u00b7 (1/n\u2081\u00b2 - 1/n\u2082\u00b2).",
+    "Balmer series (n\u2081=2) is the only series with lines in the visible region (400\u2013700 nm)."
+  ],
+  "keyFormulae": [
+    "r_n = 0.529 (n\u00b2 / Z) \u00c5",
+    "v_n = 2.188 \u00d7 10\u2076 (Z / n) m/s",
+    "E_n = -13.6 (Z\u00b2 / n\u00b2) eV",
+    "\u03bd\u0304 = R_H Z\u00b2 (1/n\u2081\u00b2 - 1/n\u2082\u00b2)",
+    "N = \u0394n(\u0394n + 1) / 2"
+  ]
+}

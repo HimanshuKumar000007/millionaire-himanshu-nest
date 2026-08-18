@@ -1,0 +1,47 @@
+{
+  "id": "math-xi-u1-c2-l04",
+  "exam": "NEST",
+  "subject": "Mathematics",
+  "classLevel": "Class XI",
+  "unit": "Unit 1 — Sets and Functions",
+  "unitNumber": 1,
+  "chapter": "Relations and Functions",
+  "chapterNumber": 2,
+  "chapterSlug": "relations-and-functions",
+  "slug": "lesson-04-standard-functions-graphs",
+  "title": "Master Catalog of Real Functions & Graphs",
+  "topic": "Standard functions & graphs (Modulus, Signum, GIF, Logarithmic)",
+  "order": 4,
+  "estimatedTimeMinutes": 7,
+  "readingTimeMinutes": 7,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "relations-and-functions",
+  "quickSummary": "Master catalogue of real functions: Identity, Constant, Modulus |x|, Signum sgn(x), Floor ⌊x⌋ with Hermite's identity, Fractional part {x}, and Exponential/Logarithmic duality.",
+  "summary": "Master standard real functions, piecewise definitions, domains, ranges, algebraic identities, and graph topologies.",
+  "conceptBreakdown": [
+    {
+      "heading": "4. Identity, Constant, Polynomial, and Rational Functions",
+      "title": "4. Identity, Constant, Polynomial, and Rational Functions",
+      "type": "paragraph",
+      "content": "A function $f: A \\to B$ is a **Real-Valued Function** if $B \\subseteq \\mathbb{R}$, and a **Real Function** if both $A, B \\subseteq \\mathbb{R}$.\n\n1. **Identity Function ($I_A$)**: $f(x) = x$. $\\text{Dom} = \\mathbb{R}, \\text{Rng} = \\mathbb{R}$. Line through origin at $45^\\circ$.\n2. **Constant Function**: $f(x) = c$. $\\text{Dom} = \\mathbb{R}, \\text{Rng} = \\{c\\}$. Horizontal line at height $y = c$.\n3. **Polynomial Function**: $f(x) = a_n x^n + \\dots + a_0$. $\\text{Dom} = \\mathbb{R}$. Continuous and smooth on $\\mathbb{R}$.\n4. **Rational Function**: $f(x) = \\frac{P(x)}{Q(x)}$. $\\mathbf{\\text{Dom}(f) = \\{x \\in \\mathbb{R} \\mid Q(x) \\neq 0\\} = \\mathbb{R} \\setminus \\{x \\mid Q(x) = 0\\}}$."
+    },
+    {
+      "heading": "4.1 Modulus, Signum, Floor (GIF), and Fractional Part Functions",
+      "title": "4.1 Modulus, Signum, Floor (GIF), and Fractional Part Functions",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Piecewise Catalog",
+        "takeaway": "|x| = √(x²). sgn(x) ∈ {-1, 0, 1}. ⌊x⌋ + ⌊-x⌋ = 0 (x ∈ ℤ) or -1 (x ∉ ℤ). {x} = x - ⌊x⌋ is periodic with T = 1."
+      },
+      "content": "1. **Modulus Function**: $f(x) = |x| = \\begin{cases} x & x \\ge 0 \\\\ -x & x < 0 \\end{cases}$. $\\text{Dom} = \\mathbb{R}, \\text{Rng} = [0, \\infty)$.\n   - Core Identities: $|x| = \\sqrt{x^2}$, $|x| \\le a \\iff -a \\le x \\le a$, $||x| - |y|| \\le |x \\pm y| \\le |x| + |y|$.\n\n2. **Signum Function**: $f(x) = \\text{sgn}(x) = \\begin{cases} 1 & x > 0 \\\\ 0 & x = 0 \\\\ -1 & x < 0 \\end{cases}$. $\\text{Dom} = \\mathbb{R}, \\text{Rng} = \\{-1, 0, 1\\}$.\n\n3. **Greatest Integer Function ($\\lfloor x \\rfloor$)**: $\\lfloor x \\rfloor = n \\iff n \\le x < n + 1$ ($n \\in \\mathbb{Z}$).\n   - $\\text{Dom} = \\mathbb{R}, \\text{Rng} = \\mathbb{Z}$.\n   - Identities: $x - 1 < \\lfloor x \\rfloor \\le x$; $\\lfloor x + k \\rfloor = \\lfloor x \\rfloor + k$ ($k \\in \\mathbb{Z}$).\n   - **Hermite's Identity**: $\\sum_{k=0}^{n-1} \\lfloor x + k/n \\rfloor = \\lfloor nx \\rfloor$.\n\n4. **Fractional Part Function ($\\{x\\}$)**: $f(x) = \\{x\\} = x - \\lfloor x \\rfloor$.\n   - $\\text{Dom} = \\mathbb{R}, \\text{Rng} = [0, 1)$. Periodic with fundamental period $T = 1$.\n   - Identity: $\\{x\\} + \\{-x\\} = 0$ ($x \\in \\mathbb{Z}$) and $1$ ($x \\notin \\mathbb{Z}$)."
+    },
+    {
+      "heading": "4.2 Exponential and Logarithmic Dualities",
+      "title": "4.2 Exponential and Logarithmic Dualities",
+      "type": "paragraph",
+      "content": "1. **Exponential Function**: $f(x) = a^x$ ($a > 0, a \\neq 1$). $\\text{Dom} = \\mathbb{R}, \\text{Rng} = (0, \\infty)$.\n2. **Logarithmic Function**: $f(x) = \\log_a x$ ($a > 0, a \\neq 1, x > 0$). $\\mathbf{\\text{Dom} = (0, \\infty)}, \\text{Rng} = \\mathbb{R}$.\n- $\\log_a x$ and $a^x$ are inverse reflections across the line $y = x$."
+    }
+  ]
+}

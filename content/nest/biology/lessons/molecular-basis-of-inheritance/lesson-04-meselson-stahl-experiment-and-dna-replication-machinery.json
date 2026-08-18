@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c5-l04",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Molecular Basis of Inheritance",
+  "chapterNumber": 5,
+  "chapterSlug": "molecular-basis-of-inheritance",
+  "slug": "lesson-04-meselson-stahl-experiment-and-dna-replication-machinery",
+  "title": "Meselson-Stahl Experiment & Replication Machinery",
+  "topic": "Semiconservative Replication, Replication Fork Enzymes, & DNA Pol III/I",
+  "order": 4,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Meselson & Stahl (1958): CsCl density gradient centrifugation proved semiconservative replication. Replication fork: DnaB helicase unwinds, SSBs stabilize, DNA gyrase relieves supercoiling, Primase synthesizes RNA primer, DNA Pol III elongates 5'->3', DNA Pol I removes primers (5'->3' exonuclease) and fills gaps, DNA Ligase seals nicks.",
+  "summary": "Meselson & Stahl (1958): CsCl density gradient centrifugation proved semiconservative replication. Replication fork: DnaB helicase unwinds, SSBs stabilize, DNA gyrase relieves supercoiling, Primase synthesizes RNA primer, DNA Pol III elongates 5'->3', DNA Pol I removes primers (5'->3' exonuclease) and fills gaps, DNA Ligase seals nicks.",
+  "conceptBreakdown": [
+    {
+      "heading": "Meselson-Stahl Experiment & Replication Machinery",
+      "title": "Meselson-Stahl Experiment & Replication Machinery",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Meselson & Stahl (1958) used 15N/14N isotope equilibrium density gradient centrifugation in CsCl to prove semiconservative DNA replication. Replication proceeds 5'->3'. Key enzymes in E. coli: DnaB Helicase, SSBs, DNA Gyrase (Topoisomerase II), DnaG Primase, DNA Polymerase III (main replicase with 3'->5' proofreading), DNA Polymerase I (primer removal via 5'->3' exonuclease), and DNA Ligase."
+      },
+      "codeSnippet": "MESELSON & STAHL EXPERIMENT (1958)\n                      \n   Generation 0: Grown on ¹⁵NH₄Cl (Heavy) ──► Single Heavy Band (¹⁵N-¹⁵N)\n                                                     │\n   Generation 1: Transferred to ¹⁴NH₄Cl ──► Single Hybrid Intermediate Band (¹⁵N-¹⁴N)\n                                                     │\n   Generation 2: Continued on ¹⁴NH₄Cl    ──► 50% Hybrid Band (¹⁵N-¹⁴N) + 50% Light Band (¹⁴N-¹⁴N)",
+      "content": "### 4.1 Meselson & Stahl Experiment (1958)\n- Proved that DNA replication is **semiconservative** (each daughter DNA molecule conserves one parental strand and synthesizes one new strand).\n- **Isotope Tracking in *E. coli***:\n  - Gen 0 ($^{15}\\text{N}$): $100\\%$ Heavy ($^{15}\\text{N-}^{15}\\text{N}$).\n  - Gen 1 ($1^{\\text{st}}$ generation in $^{14}\\text{N}$): $100\\%$ Hybrid ($^{15}\\text{N-}^{14}\\text{N}$).\n  - Gen 2 ($2^{\\text{nd}}$ generation in $^{14}\\text{N}$): $50\\%$ Hybrid + $50\\%$ Light ($^{14}\\text{N-}^{14}\\text{N}$).\n  - Gen 3 ($3^{\\text{rd}}$ generation in $^{14}\\text{N}$): $25\\%$ Hybrid + $75\\%$ Light ($2\\text{ Hybrid} : 6\\text{ Light}$).\n\n### 4.2 Enzymatic Machinery at the Replication Fork\n\n```\n                       REPLICATION FORK ARCHITECTURE\n                       \n                           3' ─────────────────── 5' (Leading Template)\n                                \\   Continuous\n                                 \\  5' ────────► 3' (Leading Strand)\n     Unwinding by                 \\\n   DnaB Helicase ────────────► \\\n   (Stabilized by SSBs)           /  3' ◄─── 5' (Okazaki Fragment)\n                                 /   Discontinuous\n                                /    5' ────────── 3' (Lagging Template)\n```\n\n| Replication Enzyme | Function in *E. coli* (Prokaryotes) | Eukaryotic Homologue |\n| :--- | :--- | :--- |\n| **DNA Helicase** | **DnaB**; unwinds double helix using ATP | **MCM Complex** |\n| **SSBs** | **SSB**; prevents single strand re-annealing | **RPA** |\n| **Topoisomerase** | **DNA Gyrase** (Type II); relieves positive supercoiling ahead of fork | **Topoisomerase I & II** |\n| **Primase** | **DnaG**; synthesizes short RNA primers ($10\\text{--}12\\text{ nt}$) | **DNA Pol $\\alpha$ / Primase** |\n| **Main Replicase** | **DNA Polymerase III** ($5' \\rightarrow 3'$ synthesis $+ 3' \\rightarrow 5'$ proofreading) | **DNA Pol $\\delta$ / $\\epsilon$** |\n| **Primer Removal** | **DNA Polymerase I** (unique **$5' \\rightarrow 3'$ exonuclease** activity) | **FEN1 $+ \\text{DNA Pol }\\delta$** |\n| **DNA Ligase** | Seals phosphodiester nicks using $\\text{NAD}^+$ | **DNA Ligase I** (uses ATP) |"
+    },
+    {
+      "heading": "Taylor's Vicia faba Experiment",
+      "title": "Taylor's Vicia faba Experiment",
+      "type": "paragraph",
+      "content": "J. Herbert Taylor (1958) demonstrated semiconservative replication in eukaryotic chromosomes of broad bean (Vicia faba) root tip cells using radioactive tritiated thymidine (^3H-thymidine) and autoradiography."
+    },
+    {
+      "heading": "Trombone Model of the Replisome",
+      "title": "Trombone Model of the Replisome",
+      "type": "paragraph",
+      "content": "The dimeric DNA Pol III holoenzyme coordinates leading and lagging strand synthesis simultaneously by looping the lagging strand template through the replisome in a trombone-like cycle."
+    }
+  ]
+}

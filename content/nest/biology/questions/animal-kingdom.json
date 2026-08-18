@@ -1,0 +1,94 @@
+[
+  {
+    "id": "q-bio-c4-001",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "chapterNumber": 4,
+    "chapterSlug": "animal-kingdom",
+    "topic": "Phylum Mollusca Diagnosis",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "An expedition team collects an unsegmented, soft-bodied marine invertebrate possessing a head, a muscular foot, and a visceral mass covered by a mantle. Microscopic examination of its mantle cavity reveals feather-like ctenidia paired with a chemoreceptive osphradium. Its mouth contains a rasping ribbon armed with chitinous teeth, and its circulatory system contains a blue copper-based protein dissolved in plasma. To which phylum and larval class does this animal belong?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Phylum Arthropoda; Nauplius larva", "isCorrect": false },
+      { "id": "b", "text": "Phylum Mollusca; Veliger / Trochophore larva", "isCorrect": true },
+      { "id": "c", "text": "Phylum Annelida; Trochophore larva", "isCorrect": false },
+      { "id": "d", "text": "Phylum Echinodermata; Bipinnaria larva", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "The combination of an unsegmented soft body divided into head, muscular foot, and visceral hump covered by a mantle (pallium), a mantle cavity housing respiratory ctenidia and chemosensory osphradia, a chitinous radula feeding organ, and blue copper-based hemocyanin respiratory pigment is exclusively diagnostic of Phylum Mollusca. Molluscs undergo indirect development via Veliger, Trochophore, or Glochidium larval stages.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c4-002",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "chapterNumber": 4,
+    "chapterSlug": "animal-kingdom",
+    "topic": "Echinodermata Ambulacral Mechanics",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionText": "During a marine biology survey, an organism is found that exhibits enterocoelous coelom development, radial indeterminate cleavage, an endoskeleton of calcareous ossicles, and an excretory system that is COMPLETELY ABSENT. Its free-swimming larva is bilaterally symmetrical, but the adult exhibits pentamerous radial symmetry. Which system drives locomotion and food capture in this animal?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Tracheal system driven by spiracles", "isCorrect": false },
+      { "id": "b", "text": "Water vascular system driven by the madreporite and tube feet", "isCorrect": true },
+      { "id": "c", "text": "Pseudocoelomic hydraulic system driven by syncytial muscles", "isCorrect": false },
+      { "id": "d", "text": "Canal system driven by choanocyte flagella", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Enterocoely, secondary pentamerous radial symmetry in adults combined with primary bilateral symmetry in free-swimming larvae (e.g., Bipinnaria/Pluteus), mesodermal calcareous ossicles, and total absence of excretory organs are unique hallmarks of Phylum Echinodermata. Locomotion, respiration, and food capture are driven by the specialized enterocoelic Water Vascular System (Ambulacral system) via the madreporite, stone canal, ring canal, radial canals, and tube feet (podia).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c4-003",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "chapterNumber": 4,
+    "chapterSlug": "animal-kingdom",
+    "topic": "Chondrichthyes vs Osteichthyes",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "questionText": "Which of the following statements correctly contrast Class Chondrichthyes with Class Osteichthyes? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Chondrichthyes possess placoid scales and a ventrally located mouth, whereas Osteichthyes possess cycloid/ctenoid scales and a terminal mouth.", "isCorrect": true },
+      { "id": "b", "text": "Chondrichthyes possess a bony operculum covering 4 pairs of gills, whereas Osteichthyes lack an operculum.", "isCorrect": false },
+      { "id": "c", "text": "Chondrichthyes lack an air/swim bladder and must swim continuously to avoid sinking, whereas Osteichthyes possess a hydrostatic swim bladder.", "isCorrect": true },
+      { "id": "d", "text": "Male Chondrichthyes possess pelvic claspers for internal fertilization, whereas Osteichthyes typically lack claspers and undergo external fertilization.", "isCorrect": true }
+    ],
+    "correctAnswer": ["a", "c", "d"],
+    "solutionExplanation": "Statement a is correct: Chondrichthyes exhibit placoid scales and ventral mouths; Osteichthyes have cycloid/ctenoid scales and terminal mouths.\nStatement b is incorrect: Osteichthyes possess the bony operculum protecting 4 gill pairs; Chondrichthyes lack an operculum (gill slits are exposed, except in Chimaera).\nStatement c is correct: Swim bladders are absent in cartilaginous fishes (they sink if stationary) but present in bony fishes for buoyancy control.\nStatement d is correct: Pelvic claspers are male intromittent organs in Chondrichthyes ensuring internal fertilization.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c4-004",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "chapterNumber": 4,
+    "chapterSlug": "animal-kingdom",
+    "topic": "Chordates & Vertebrates Diagnostic Hallmarks",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "questionText": "Select the statements that represent VALID scientific facts regarding Chordates and Vertebrates: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "In Subphylum Urochordata (Ascidia), the notochord is present only in the larval tail and disappears during retrogressive metamorphosis.", "isCorrect": true },
+      { "id": "b", "text": "In Subphylum Cephalochordata (Branchiostoma), the notochord extends from head to tail and persists throughout life.", "isCorrect": true },
+      { "id": "c", "text": "All mammals are strictly viviparous and give birth to live young without exception.", "isCorrect": false },
+      { "id": "d", "text": "Class Cyclostomata contains jawless marine ectoparasites that execute anadromous spawning migrations into freshwater streams.", "isCorrect": true }
+    ],
+    "correctAnswer": ["a", "b", "d"],
+    "solutionExplanation": "Statement a is correct: Urochordates (Tunicates) exhibit notochord and dorsal nerve cord strictly in the free-swimming larval tail, which undergo degenerative/retrogressive metamorphosis into sessile adults.\nStatement b is correct: Cephalochordates (Amphioxus) retain a persistent head-to-tail (100% body length) notochord throughout life.\nStatement c is incorrect: Monotremes (Prototheria: Ornithorhynchus / Platypus and Echidna) are oviparous (egg-laying) mammals.\nStatement d is correct: Cyclostomes (lampreys / Petromyzon) are jawless ectoparasites on fishes that migrate from marine waters up freshwater streams to spawn (anadromous migration).",
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "bio-xi-u4-c12-l02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Respiration in Plants",
+  "chapterNumber": 12,
+  "chapterSlug": "respiration-in-plants",
+  "slug": "lesson-02-glycolysis-emp-pathway-ten-step-cascade",
+  "title": "Glycolysis (The EMP Pathway): 10-Step Enzymatic Cascade",
+  "topic": "Preparatory vs Pay-off Phases, PFK-1 Commitment Step, & Detailed Reaction Matrix",
+  "topics": [
+    "Discovery of Glycolysis by Gustav Embden, Otto Meyerhof, and Jakub Parnas (EMP Pathway)",
+    "Cytosolic Localization & Universal Oxygen Independence",
+    "Preparatory Phase (Steps 1–5, Consumes 2 ATP) & Rate-Limiting PFK-1 Step",
+    "Pay-off Phase (Steps 6–10, Produces 4 ATP + 2 NADH via Substrate-Level Phosphorylation)",
+    "Enolase Inhibition by Fluoride (Mg²⁺ Chelation)",
+    "Complete 10-Step Glycolytic Reaction Matrix"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Glycolysis (EMP pathway) is the universal, cytosolic, oxygen-independent 10-step breakdown of 1 glucose into 2 pyruvate molecules. The Preparatory Phase (Steps 1–5) consumes 2 ATP to cleave glucose into 2 triose phosphates (GAP and DHAP), with Phosphofructokinase-1 (PFK-1) catalyzing the key committed step. The Pay-off Phase (Steps 6–10) generates 4 ATP via substrate-level phosphorylation (PGK and Pyruvate Kinase) and 2 NADH + 2 H⁺ (GAPDH). Net yield per glucose = 2 Pyruvate + 2 ATP + 2 NADH.",
+  "summary": "Glycolysis (EMP pathway) is the universal, cytosolic, oxygen-independent 10-step breakdown of 1 glucose into 2 pyruvate molecules. The Preparatory Phase (Steps 1–5) consumes 2 ATP to cleave glucose into 2 triose phosphates (GAP and DHAP), with Phosphofructokinase-1 (PFK-1) catalyzing the key committed step. The Pay-off Phase (Steps 6–10) generates 4 ATP via substrate-level phosphorylation (PGK and Pyruvate Kinase) and 2 NADH + 2 H⁺ (GAPDH). Net yield per glucose = 2 Pyruvate + 2 ATP + 2 NADH.",
+  "conceptBreakdown": [
+    {
+      "heading": "2. Glycolysis Phase Division & Architecture",
+      "title": "2. Glycolysis Phase Division & Architecture",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Glycolysis operates strictly in the cytosol. Consumes 2 ATP in the Preparatory Phase; Generates 4 ATP (Substrate-Level) + 2 NADH in the Pay-Off Phase. Net: 2 ATP + 2 NADH + 2 Pyruvate."
+      },
+      "codeSnippet": "GLYCOLYSIS PHASE DIVISION\n                                    │\n         ┌──────────────────────────┴──────────────────────────┐\n         ▼                                                     ▼\nPREPARATORY PHASE (Energy-Investment)                 PAY-OFF PHASE (Energy-Generation)\n├── Steps 1 to 5                                      ├── Steps 6 to 10\n├── Cleaves Glucose (6C) ──► 2 Triose-P (3C)          ├── Converts 2 Triose-P ──► 2 Pyruvate\n└── **CONSUMES 2 ATP**                                └── **PRODUCES 4 ATP + 2 NADH**",
+      "content": "Glycolysis (discovered by Embden, Meyerhof, and Parnas — EMP Pathway) is the universal, oxygen-independent, 10-step enzymatic breakdown of one molecule of 6-carbon glucose into two molecules of 3-carbon Pyruvic Acid (Pyruvate) in the cytosol.\n\n- **Universal Ancestral Pathway**: Present in all living organisms (aerobes and anaerobes alike).\n- **Dual Energetic Phases**:\n  1. **Preparatory Phase (Energy Investment, Steps 1–5)**: Glucose is phosphorylated twice and cleaved into two triose phosphates (Glyceraldehyde-3-Phosphate and Dihydroxyacetone Phosphate), consuming $2\\text{ ATP}$.\n  2. **Pay-off Phase (Energy Generation, Steps 6–10)**: Both triose phosphates are oxidized and dephosphorylated, generating $4\\text{ ATP}$ and $2\\text{ NADH} + 2\\text{ H}^+$."
+    },
+    {
+      "heading": "2.1 Glycolysis 10-Step Enzymatic Flow",
+      "title": "2.1 Glycolysis 10-Step Enzymatic Flow",
+      "type": "paragraph",
+      "codeSnippet": "GLYCOLYSIS 10-STEP CASCADE\n                        \n   Glucose (6C) ──[1. Hexokinase + ATP]──► Glucose-6-P ──[2. Phosphohexose Isomerase]──► Fructose-6-P\n                                                                                         │\n   Fructose-1,6-BP ◄──[3. PFK-1 + ATP (RATE-LIMITING)]───────────────────────────────────┘\n          │\n  [4. Aldolase]\n          │\n   GAP (3C) ◄──[5. Triose Phosphate Isomerase]──► DHAP (3C)\n      │ (2 Molecules of GAP enter Pay-off Phase)\n      ▼\n   [6. GAPDH + 2 NAD⁺ + 2 P_i] ──► 2 x 1,3-Bisphosphoglycerate + **2 NADH + 2 H⁺**\n      │\n   [7. Phosphoglycerate Kinase + 2 ADP] ──► 2 x 3-Phosphoglycerate + **2 ATP (SUBSTRATE-LEVEL)**\n      │\n   [8. Phosphoglycerate Mutase] ──► 2 x 2-Phosphoglycerate\n      │\n   [9. Enolase - H₂O] ──► 2 x Phosphoenolpyruvate (PEP)\n      │\n   [10. Pyruvate Kinase + 2 ADP] ──► 2 x Pyruvate (3C) + **2 ATP (SUBSTRATE-LEVEL)**",
+      "content": "The 10 steps of the EMP pathway operate sequentially in the cytoplasm:\n\n- **Step 1 (Hexokinase)**: Traps glucose inside the cell by phosphorylating it to G-6-P, utilizing $1\\text{ ATP}$ and $\\text{Mg}^{2+}$.\n- **Step 3 (PFK-1)**: The primary committed, irreversible rate-limiting step of glycolysis, allosterically activated by AMP/ADP and inhibited by ATP and citrate.\n- **Step 6 (GAPDH)**: The only oxidation step in glycolysis; GAP is oxidized while inorganic phosphate ($\\text{P}_i$) is incorporated, reducing $\\text{NAD}^+$ to $\\text{NADH} + \\text{H}^+$.\n- **Steps 7 & 10 (Substrate-Level Phosphorylation)**: Phosphoglycerate Kinase and Pyruvate Kinase directly transfer high-energy phosphate groups to ADP, generating $2\\text{ ATP}$ each (total $4\\text{ ATP}$ gross).\n- **Step 9 (Enolase)**: Dehydrates 2-PGA into PEP; specifically inhibited by Fluoride ions ($\\text{F}^-$) via $\\text{Mg}^{2+}$ chelation."
+    },
+    {
+      "heading": "2.2 Detailed 10-Step Glycolytic Reaction Matrix",
+      "title": "2.2 Detailed 10-Step Glycolytic Reaction Matrix",
+      "type": "paragraph",
+      "content": "### Detailed 10-Step Glycolytic Reaction Matrix\n\n| Step | Reaction Name | Substrate $\\rightarrow$ Product | Enzyme | Energy Yield / Consumption |\n| :--- | :--- | :--- | :--- | :--- |\n| **1** | Phosphorylation I | Glucose $\\rightarrow$ Glucose-6-Phosphate (G-6-P) | **Hexokinase** ($\\text{Mg}^{2+}$ dependent) | **Consumes $1\\text{ ATP}$** |\n| **2** | Isomerization | G-6-P $\\rightarrow$ Fructose-6-Phosphate (F-6-P) | Phosphohexose Isomerase | None |\n| **3** | Phosphorylation II | F-6-P $\\rightarrow$ Fructose-1,6-Bisphosphate | **Phosphofructokinase-1 (PFK-1)** | **Consumes $1\\text{ ATP}$** *(Commitment Step)* |\n| **4** | Cleavage | F-1,6-BP $\\rightarrow$ GAP + DHAP | **Aldolase** | None |\n| **5** | Isomerization | DHAP $\\rightleftharpoons$ Glyceraldehyde-3-Phosphate (GAP) | Triose Phosphate Isomerase | None |\n| **6** | Oxidation & Phosphorylation | $2\\text{ GAP} + 2\\text{ P}_i \\rightarrow 2\\text{ (1,3-BPG)}$ | **GAPDH** | **Generates $2\\text{ NADH} + 2\\text{ H}^+$** |\n| **7** | Substrate-Level Phosphorylation I | $2\\text{ (1,3-BPG)} + 2\\text{ ADP} \\rightarrow 2\\text{ (3-PGA)}$ | **Phosphoglycerate Kinase** | **Generates $2\\text{ ATP}$** |\n| **8** | Shift | $2\\text{ (3-PGA)} \\rightarrow 2\\text{ (2-PGA)}$ | Phosphoglycerate Mutase | None |\n| **9** | Dehydration | $2\\text{ (2-PGA)} \\rightarrow 2\\text{ PEP} + 2\\text{ H}_2\\text{O}$ | **Enolase** ($\\text{Mg}^{2+}$ / Fluoride inhibited) | Releases $2\\text{ H}_2\\text{O}$ |\n| **10** | Substrate-Level Phosphorylation II | $2\\text{ PEP} + 2\\text{ ADP} \\rightarrow 2\\text{ Pyruvate}$ | **Pyruvate Kinase** ($\\text{K}^+/\\text{Mg}^{2+}$) | **Generates $2\\text{ ATP}$** |\n\n$$\\mathbf{\\text{Net EMP Equation: Glucose} + 2\\text{ NAD}^+ + 2\\text{ ADP} + 2\\text{ P}_i \\longrightarrow 2\\text{ Pyruvate} + 2\\text{ NADH} + 2\\text{ H}^+ + 2\\text{ ATP}}$$"
+    }
+  ]
+}

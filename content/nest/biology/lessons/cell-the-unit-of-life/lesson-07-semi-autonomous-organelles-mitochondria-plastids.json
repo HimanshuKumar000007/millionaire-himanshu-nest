@@ -1,0 +1,58 @@
+{
+  "id": "bio-xi-u3-c8-l07",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Cell — The Unit of Life",
+  "chapterNumber": 8,
+  "chapterSlug": "cell-the-unit-of-life",
+  "slug": "lesson-07-semi-autonomous-organelles-mitochondria-plastids",
+  "title": "Semi-Autonomous Bioenergetic Organelles: Mitochondria & Plastids",
+  "topic": "Endosymbiont Theory, Cristae & Oxysomes, Thylakoid Grana, & Plastid Types",
+  "topics": [
+    "The Endosymbiont Theory (Lynn Margulis)",
+    "Semi-Autonomous Nature (Naked Circular dsDNA, 70S Ribosomes, Binary Fission)",
+    "Mitochondrial Ultrastructure (Outer Porins, Intermembrane Space, Inner Membrane Cardiolipin & Cristae)",
+    "Oxysomes ($F_0\\text{-}F_1$ Complexes / ATP Synthase)",
+    "Mitochondrial Matrix (Krebs Cycle Enzymes, Succinate Dehydrogenase Exception)",
+    "Plastid Classifications: Chloroplasts, Chromoplasts, Leucoplasts (Amyloplasts, Elaioplasts, Aleuroplasts)",
+    "Chloroplast Ultrastructure (Thylakoid Grana, Stroma Lamellae, RuBisCO)"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Mitochondria and Plastids are double-membrane, semi-autonomous organelles originating from engulfed prokaryotic endosymbionts (containing circular dsDNA and 70S ribosomes). Mitochondria feature inner membrane Cristae with Cardiolipin and F0-F1 ATP Synthase complexes (Oxysomes), generating ATP via oxidative phosphorylation. Plastids include photosynthetic Chloroplasts (thylakoid grana and RuBisCO-rich stroma), pigment-rich Chromoplasts, and storage Leucoplasts (Amyloplasts, Elaioplasts, Aleuroplasts).",
+  "summary": "Mitochondria and Plastids are double-membrane, semi-autonomous organelles originating from engulfed prokaryotic endosymbionts (containing circular dsDNA and 70S ribosomes). Mitochondria feature inner membrane Cristae with Cardiolipin and F0-F1 ATP Synthase complexes (Oxysomes), generating ATP via oxidative phosphorylation. Plastids include photosynthetic Chloroplasts (thylakoid grana and RuBisCO-rich stroma), pigment-rich Chromoplasts, and storage Leucoplasts (Amyloplasts, Elaioplasts, Aleuroplasts).",
+  "conceptBreakdown": [
+    {
+      "heading": "5. The Endosymbiont Theory & Semi-Autonomy",
+      "title": "5. The Endosymbiont Theory & Semi-Autonomy",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Mitochondria and chloroplasts have double membranes, naked circular dsDNA, 70S ribosomes, and divide by binary fission (Endosymbiont theory)."
+      },
+      "codeSnippet": "THE ENDOSYMBIONT THEORY (Lynn Margulis)\n                      \n   Primitive Anaerobic ──[Engulfed Aerobic Proteobacterium]──► MITOCHONDRIA\n   Eukaryotic Ancestor ──[Engulfed Photosynthetic Cyanobacterium]──► CHLOROPLASTS",
+      "content": "Mitochondria and Plastids are energy-transducing organelles that contain their own naked circular double-stranded DNA, 70S ribosomes, and RNA transcripts, dividing independently by binary fission within eukaryotic host cells."
+    },
+    {
+      "heading": "5.1 Mitochondria (Altmann / Benda)",
+      "title": "5.1 Mitochondria (Altmann / Benda)",
+      "type": "paragraph",
+      "codeSnippet": "MITOCHONDRIAL ULTRASTRUCTURE\n                         \n           Outer Membrane (Porin Channels, Smooth)\n             │\n           Intermembrane Space ($H^+$ accumulation)\n             │\n           Inner Membrane (Cardiolipin, Cristae, $F_0\\text{-}F_1$ ATP Synthase)\n             │\n           Matrix (Krebs Enzymes, dsDNA, 70S Ribosomes)",
+      "content": "• **Outer Membrane**: Smooth and highly permeable due to pore-forming **Porins** ($<5,000\\text{ Da}$). \n• **Inner Membrane**: Highly impermeable; rich in the unique phospholipid **Cardiolipin** (four fatty acid tails). Folded into tubular/plate-like **Cristae** to maximize surface area.\n• **Oxysomes ($F_0\\text{-}F_1$ ATP Synthase Complexes)**: The inner membrane houses ETC complexes I–IV and $F_0\\text{-}F_1$ ATP Synthase (Complex V). The hydrophobic $F_0$ base forms a transmembrane proton channel; the spherical $F_1$ headpiece in the matrix catalyzes ATP synthesis.\n• **Matrix**: Houses soluble Krebs cycle enzymes (*Citrate Synthase, Isocitrate Dehydrogenase; Succinate Dehydrogenase is anchored to inner membrane as Complex II*), circular dsDNA, and 70S ribosomes."
+    },
+    {
+      "heading": "5.2 Plastids & Chloroplast Ultrastructure",
+      "title": "5.2 Plastids & Chloroplast Ultrastructure",
+      "type": "paragraph",
+      "codeSnippet": "PLASTID CLASSIFICATIONS\n                                       │\n     ┌─────────────────────────────────┼─────────────────────────────────┐\n     ▼                                 ▼                                 ▼\nCHLOROPLASTS                      CHROMOPLASTS                      LEUCOPLASTS\n(Photosynthetic)                  (Pigmented Non-Photosynthetic)   (Non-Pigmented Storage)\n├── Chlorophyll *a*, *b*          ├── Carotenoids ($\\beta$-Carotene,├── Amyloplasts (Starch)\n└── Thylakoid Grana Architecture     Lycopene, Lutein)             ├── Elaioplasts (Lipids/Oils)\n                                  └── Red/Orange/Yellow Colors      └── Aleuroplasts (Proteins)",
+      "content": "• **Plastid Functional Classes**:\n  1. **Chloroplasts**: Green photosynthetic plastids containing Chlorophyll *a*, *b* and carotenoids.\n  2. **Chromoplasts**: Fat-soluble carotenoid pigments ($\\beta$-carotene, lycopene, lutein) imparting yellow, orange, and red colors to petals, fruits (*e.g., Tomato*), and roots (*Carrot*).\n  3. **Leucoplasts**: Colorless storage plastids:\n     - **Amyloplasts**: Store starch (*e.g., Potato tubers*).\n     - **Elaioplasts (Lipidoplasts)**: Store oils and fats (*e.g., Castor seeds*).\n     - **Aleuroplasts (Proteoplasts)**: Store proteins (*e.g., Maize aleurone layer*).\n• **Chloroplast Architecture**:\n  - **Thylakoids & Grana**: Disc-shaped membrane sacs stacked into columns called **Grana**, interconnected by unstacked **Stroma Lamellae (Fret Membranes)**. Thylakoid membranes contain PS-I, PS-II, Cytochrome $b_6f$, and ATP synthase.\n  - **Stroma Matrix**: Contains dark reaction enzymes, notably **RuBisCO** (the most abundant enzyme on Earth), circular dsDNA, and 70S ribosomes."
+    }
+  ]
+}

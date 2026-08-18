@@ -1,0 +1,63 @@
+{
+  "id": "chem-xii-u19-c10-l05",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XIX \u2014 Biomolecules",
+  "unitNumber": 19,
+  "chapter": "Biomolecules",
+  "chapterNumber": 10,
+  "chapterSlug": "biomolecules-chemistry",
+  "slug": "lesson-05-amino-acids-zwitterions-isoelectric-point-peptide-bond",
+  "title": "Amino Acids: Isoelectric Point (pI), Zwitterions, & Peptide Bonds",
+  "topic": "Amino Acid Zwitterions, pI, & Peptide Planarity",
+  "topics": [
+    "5. Amino Acid General Architecture (-NH\u2082, -COOH, -H, -R on \u03b1-Carbon)",
+    "Zwitterionic Dissociation: Cationic (pH < pI) \u21cb Zwitterion (pH = pI, Net Charge = 0) \u21cb Anionic (pH > pI)",
+    "5.1 Isoelectric Point (pI) Mechanics & Electrophoretic Migration Behavior (pI = (pK_a1 + pK_a2)/2)",
+    "5.2 Chirality & Essential Amino Acids (PVT TIM HALL; Glycine is the Only Achiral Amino Acid)",
+    "5.3 Peptide Bond Geometry: Rigid Planar Trans Amide Linkage (-CO-NH-) with 40% Double-Bond Character"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "biomolecules-chemistry",
+  "quickSummary": "Amino acids exist as dipolar Zwitterions carrying net zero charge at their Isoelectric Point (pI). At pH < pI, amino acids are cationic (migrate to cathode); at pH > pI, they are anionic (migrate to anode). All standard amino acids are chiral L-isomers EXCEPT Glycine (achiral). The 10 essential amino acids are PVT TIM HALL. Peptide bonds (-CO-NH-) have 40% partial double-bond character and are rigid and planar.",
+  "summary": "Master amino acid zwitterion equilibria, isoelectric point calculations, electrophoretic migration, and peptide bond planarity.",
+  "conceptBreakdown": [
+    {
+      "heading": "5. Zwitterionic Dissociation & 5.1 Isoelectric Point (pI)",
+      "title": "5. Zwitterionic Dissociation & 5.1 Isoelectric Point (pI)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Isoelectric Point & Electrophoresis",
+        "takeaway": "At pH < pI: Cation (migrates to Cathode -). At pH > pI: Anion (migrates to Anode +). At pH = pI: Zwitterion with net charge = 0 (no migration)."
+      },
+      "codeSnippet": "                         ZWITTERIONIC DISSOCIATION\n                         \n       H\u2083N\u207a\u2500CH(R)\u2500COOH  \u25c4\u2500\u2500[pH < pI]\u2500\u2500  H\u2083N\u207a\u2500CH(R)\u2500COO\u207b  \u2500\u2500[pH > pI]\u2500\u2500\u25ba  H\u2082N\u2500CH(R)\u2500COO\u207b\n        (Cationic Form)                   (ZWITTERION)                    (Anionic Form)\n\nIsoelectric Point Formula: pI = [pKa1(COOH) + pKa2(NH3+)] / 2\n\u2022 For Aspartic Acid (pKa1=1.88, pKa2=3.65, pKa3=9.60): pI = (1.88 + 3.65)/2 = 2.77.",
+      "content": "The Isoelectric Point ($\text{pI}$) is the specific $\text{pH}$ at which an amino acid carries a net electrical charge of zero and exists predominantly as a dipolar Zwitterion."
+    },
+    {
+      "heading": "5.2 Chirality & 5.3 Peptide Bond Planarity",
+      "title": "5.2 Chirality & 5.3 Peptide Bond Planarity",
+      "type": "paragraph",
+      "codeSnippet": "                           PEPTIDE BOND PLANARITY\n                           \n                                  R\u2081       H   R\u2082\n                                  \u2502        \u2502   \u2502\n                                \u2500\u2500C\u2500\u2500 C \u2500\u2500 N \u2500\u2500 C\u2500\u2500\n                                  \u2502   \u2551   \u2551    \u2502\n                                  H   O   O    H\n                                     [Peptide Bond]\n\n\u2022 Glycine (H\u2082N-CH\u2082-COOH) is the ONLY achiral standard amino acid.\n\u2022 10 Essential Amino Acids (PVT TIM HALL): Phenylalanine, Valine, Threonine, Tryptophan, Isoleucine, Methionine, Histidine, Arginine, Leucine, Lysine.\n\u2022 Peptide Bond (-CO-NH-) has ~40% partial double-bond character due to resonance, forcing rigid coplanar trans geometry.",
+      "content": "Peptide bonds are synthesized by dehydration condensation between the $\u0007lpha$-carboxyl and $\u0007lpha$-amino groups. Resonance delocalization creates a rigid planar unit preventing free rotation around the $\text{C-N}$ bond."
+    }
+  ],
+  "quickRevision": [
+    "At pH = pI, amino acid exists as Zwitterion (net charge = 0).",
+    "At pH < pI, cationic (migrates to Cathode -).",
+    "At pH > pI, anionic (migrates to Anode +).",
+    "Glycine is the only achiral standard amino acid.",
+    "All natural amino acids in proteins belong to L-series.",
+    "Essential amino acids mnemonic: PVT TIM HALL.",
+    "Peptide bond has 40% double-bond character (rigid planar trans)."
+  ],
+  "keyFormulae": [
+    "\\text{pI (Diprotic)} = \\frac{\\text{p}K_{a1} + \\text{p}K_{a2}}{2}",
+    "\\text{pI (Acidic AA)} = \\frac{\\text{p}K_{a1}(\\alpha\\text{-COOH}) + \\text{p}K_{a2}(\\text{side-COOH})}{2}"
+  ]
+}

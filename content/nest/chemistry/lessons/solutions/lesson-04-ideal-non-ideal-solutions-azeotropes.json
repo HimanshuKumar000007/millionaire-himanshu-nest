@@ -1,0 +1,59 @@
+{
+  "id": "chem-xii-u10-c1-l04",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit X \u2014 Solutions",
+  "unitNumber": 10,
+  "chapter": "Solutions",
+  "chapterNumber": 1,
+  "chapterSlug": "solutions",
+  "slug": "lesson-04-ideal-non-ideal-solutions-azeotropes",
+  "title": "Ideal vs. Non-Ideal Solutions & Azeotropic Mixtures",
+  "topic": "Ideal & Non-Ideal Solutions, Azeotropes",
+  "topics": [
+    "Ideal Solutions (A-B = A-A = B-B; \u0394H_mix = 0, \u0394V_mix = 0, \u0394S_mix > 0, \u0394G_mix < 0; Benzene/Toluene)",
+    "Non-Ideal Solutions with Positive Deviations (A-B < A-A/B-B; \u0394H_mix > 0, \u0394V_mix > 0; Minimum Boiling Azeotrope)",
+    "Non-Ideal Solutions with Negative Deviations (A-B > A-A/B-B; \u0394H_mix < 0, \u0394V_mix < 0; Maximum Boiling Azeotrope)",
+    "Azeotropes: Minimum Boiling (95.6% Ethanol + 4.4% H\u2082O) vs Maximum Boiling (68% HNO\u2083 + 32% H\u2082O)"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "solutions",
+  "quickSummary": "Ideal: \u0394H_mix=0, \u0394V_mix=0 (Benzene+Toluene). Positive deviation: A-B weaker, \u0394H>0, \u0394V>0, forms Minimum Boiling Azeotrope (95.6% Ethanol). Negative deviation: A-B stronger, \u0394H<0, \u0394V<0, forms Maximum Boiling Azeotrope (68% HNO\u2083, Acetone+Chloroform).",
+  "summary": "Master ideal vs non-ideal thermodynamics, molecular interactions, and minimum/maximum boiling azeotropes.",
+  "conceptBreakdown": [
+    {
+      "heading": "4.1 Ideal Solutions Thermodynamics",
+      "title": "4.1 Ideal Solutions Thermodynamics",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Ideal Solutions",
+        "takeaway": "Obeys Raoult's law at all concentrations. \u0394H_mix = 0, \u0394V_mix = 0, \u0394S_mix > 0, \u0394G_mix < 0. Intermolecular forces A-B = A-A = B-B."
+      },
+      "codeSnippet": "IDEAL SOLUTION THERMODYNAMICS\n\n\u0394_mix H = 0  |  \u0394_mix V = 0  |  \u0394_mix S > 0  |  \u0394_mix G < 0\n\nExamples: Benzene + Toluene; n-Hexane + n-Heptane; Bromoethane + Chloroethane; Chlorobenzene + Bromobenzene.",
+      "content": "An ideal solution obeys Raoult\u2019s Law across the entire concentration range. The cohesive forces between solute-solute ($B-B$) and solvent-solvent ($A-A$) are identical to adhesive solute-solvent ($A-B$) interactions."
+    },
+    {
+      "heading": "4.2 Non-Ideal Solutions & Azeotropic Mixtures",
+      "title": "4.2 Non-Ideal Solutions & Azeotropic Mixtures",
+      "type": "paragraph",
+      "codeSnippet": "NON-IDEAL SOLUTIONS & AZEOTROPES\n\n1. POSITIVE DEVIATION:\n   \u2022 A-B forces WEAKER than A-A and B-B\n   \u2022 \u0394_mix H > 0 (Endothermic) | \u0394_mix V > 0 (Expansion) | P_total > Ideal\n   \u2022 Forms MINIMUM BOILING AZEOTROPE (Boils lower than pure components)\n   \u2022 Example: Ethanol (95.6%) + Water (4.4%) (Boils at 351.15 K)\n\n2. NEGATIVE DEVIATION:\n   \u2022 A-B forces STRONGER than A-A and B-B (e.g., H-bonding in Acetone + Chloroform)\n   \u2022 \u0394_mix H < 0 (Exothermic) | \u0394_mix V < 0 (Contraction) | P_total < Ideal\n   \u2022 Forms MAXIMUM BOILING AZEOTROPE (Boils higher than pure components)\n   \u2022 Example: Nitric Acid (68%) + Water (32%) (Boils at 393.5 K)",
+      "content": "\u2022 **Azeotrope**: A binary mixture boiling at a constant temperature with identical liquid and vapor compositions ($x_i = y_i$). Cannot be separated by fractional distillation.\n\u2022 **Positive Deviation** $\\implies$ Minimum boiling azeotrope (*Ethanol/Water*).\n\u2022 **Negative Deviation** $\\implies$ Maximum boiling azeotrope (*$\\text{HNO}_3$/Water, Acetone/Chloroform*)."
+    }
+  ],
+  "quickRevision": [
+    "Ideal: \u0394H=0, \u0394V=0 (Benzene+Toluene).",
+    "Positive deviation: Minimum boiling azeotrope (95.6% ethanol).",
+    "Negative deviation: Maximum boiling azeotrope (68% HNO\u2083).",
+    "Acetone + Chloroform exhibits negative deviation due to H-bonding."
+  ],
+  "keyFormulae": [
+    "\\text{Ideal: } \\Delta_{\\text{mix}} H = 0, \\; \\Delta_{\\text{mix}} V = 0",
+    "\\text{Azeotrope: } x_i = y_i \\implies \\text{Constant Boiling}"
+  ]
+}

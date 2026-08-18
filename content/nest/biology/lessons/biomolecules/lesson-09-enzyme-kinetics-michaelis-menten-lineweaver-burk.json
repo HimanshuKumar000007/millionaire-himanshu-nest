@@ -1,0 +1,51 @@
+{
+  "id": "bio-xi-u3-c9-l09",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Biomolecules",
+  "chapterNumber": 9,
+  "chapterSlug": "biomolecules",
+  "slug": "lesson-09-enzyme-kinetics-michaelis-menten-lineweaver-burk",
+  "title": "Enzyme Kinetics: Michaelis-Menten & Lineweaver-Burk Analysis",
+  "topic": "Vmax, Km Affinity Constant, kcat Turnover Number, & Double-Reciprocal Plots",
+  "topics": [
+    "Enzyme-Substrate Complex Intermediate ($E + S \\rightleftharpoons ES \\rightarrow E + P$)",
+    "The Michaelis-Menten Equation ($v_0 = \\frac{V_{\\max}[S]}{K_m + [S]}$)",
+    "Maximum Velocity ($V_{\\max}$) & Saturation State",
+    "Michaelis Constant ($K_m$) as an Inverse Affinity Metric",
+    "Turnover Number ($k_{\\text{cat}} = \\frac{V_{\\max}}{[E]_T}$)",
+    "Catalytic Efficiency Ratio ($\\frac{k_{\\text{cat}}}{K_m}$)",
+    "Lineweaver-Burk Double-Reciprocal Plot ($\\frac{1}{v_0} = \\frac{K_m}{V_{\\max}} \\frac{1}{[S]} + \\frac{1}{V_{\\max}}$)"
+  ],
+  "order": 9,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Under steady-state kinetics, initial velocity follows the Michaelis-Menten equation: v0 = Vmax[S] / (Km + [S]). Vmax is the maximum reaction rate at enzyme saturation. Km is the substrate concentration at half-maximal velocity (v0 = 1/2 Vmax) and serves as an inverse measure of substrate affinity (lower Km = higher affinity). kcat is the turnover number per active site, and kcat/Km measures catalytic efficiency. Lineweaver-Burk double reciprocal plots linearize kinetics to determine exact Km and Vmax.",
+  "summary": "Under steady-state kinetics, initial velocity follows the Michaelis-Menten equation: v0 = Vmax[S] / (Km + [S]). Vmax is the maximum reaction rate at enzyme saturation. Km is the substrate concentration at half-maximal velocity (v0 = 1/2 Vmax) and serves as an inverse measure of substrate affinity (lower Km = higher affinity). kcat is the turnover number per active site, and kcat/Km measures catalytic efficiency. Lineweaver-Burk double reciprocal plots linearize kinetics to determine exact Km and Vmax.",
+  "conceptBreakdown": [
+    {
+      "heading": "7. The Michaelis-Menten Kinetic Model",
+      "title": "7. The Michaelis-Menten Kinetic Model",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "v0 = Vmax[S] / (Km + [S]). Km is the substrate concentration at 1/2 Vmax (lower Km = higher affinity). Lineweaver-Burk x-intercept is -1/Km; y-intercept is 1/Vmax."
+      },
+      "codeSnippet": "MICHAELIS-MENTEN SATURATION CURVE\n                       \n            v₀ ▲                    ----------- V_max\n               │                  /\n               │                 /\n         ½V_max│................/\n               │               /│\n               │              / │\n               └─────────────┴──┴─────────────────► [S]\n                            K_m",
+      "content": "Enzyme reactions proceed through an intermediate **Enzyme-Substrate (ES)** complex:\n$$E + S \\underset{k_{-1}}{\\overset{k_1}{\\rightleftharpoons}} ES \\xrightarrow{k_{\\text{cat}}} E + P$$\n\n### The Michaelis-Menten Equation\n$$\\Large \\mathbf{v_0 = \\frac{V_{\\max} [S]}{K_m + [S]}}$$\n\n• **$V_{\\max}$ (Maximum Velocity)**: Velocity achieved when all active sites are completely saturated with substrate ($[S] \\gg K_m$).\n• **$K_m$ (Michaelis Constant)**: Substrate concentration at which initial velocity equals half of maximum velocity ($v_0 = \\frac{1}{2}V_{\\max}$).\n  - **Affinity Indicator**: $K_m$ is **inversely proportional to affinity**. A low $K_m$ indicates strong substrate affinity; a high $K_m$ indicates weak affinity.\n• **$k_{\\text{cat}}$ (Turnover Number)**: Maximum substrate molecules transformed per active site per second ($k_{\\text{cat}} = \\frac{V_{\\max}}{[E]_T}$).\n• **Catalytic Efficiency**: Ratio $\\frac{k_{\\text{cat}}}{K_m}$."
+    },
+    {
+      "heading": "7.1 Lineweaver-Burk Double-Reciprocal Plot",
+      "title": "7.1 Lineweaver-Burk Double-Reciprocal Plot",
+      "type": "paragraph",
+      "codeSnippet": "LINEWEAVER-BURK DOUBLE RECIPROCAL PLOT\n                       \n           1/v₀ ▲\n                │      / Slope = K_m / V_max\n                │     /\n                │    /\n    1/V_max ────┼───/\n                │  /\n  ──┴───────────┼─/────────────────► 1/[S]\n -1/K_m         │",
+      "content": "Taking the double reciprocal of the Michaelis-Menten equation linearizes the hyperbolic saturation curve ($y = mx + c$):\n$$\\Large \\mathbf{\\frac{1}{v_0} = \\left( \\frac{K_m}{V_{\\max}} \\right) \\frac{1}{[S]} + \\frac{1}{V_{\\max}}}$$\n\n• **y-intercept** $= \\frac{1}{V_{\\max}}$\n• **x-intercept** $= -\\frac{1}{K_m}$\n• **Slope** $= \\frac{K_m}{V_{\\max}}$"
+    }
+  ]
+}

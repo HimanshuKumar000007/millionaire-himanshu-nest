@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u9-c9-l06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit IX — Biotechnology",
+  "unitNumber": 9,
+  "chapter": "Biotechnology: Principles and Processes",
+  "chapterNumber": 9,
+  "chapterSlug": "biotechnology-principles-and-processes",
+  "slug": "lesson-06-genomic-dna-isolation-cell-wall-lysis-and-chilled-ethanol",
+  "title": "Genomic DNA Isolation: Lysis & Chilled Ethanol Spooling",
+  "topic": "Cell Wall Lytic Enzymes (Lysozyme, Cellulase, Chitinase), RNase, Protease, & Spooling",
+  "order": 6,
+  "readingTimeMinutes": 15,
+  "estimatedTimeMinutes": 15,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Genomic DNA extraction protocol: (1) Enzymatic cell wall lysis (Lysozyme for bacteria, Cellulase for plants, Chitinase for fungi); (2) Enzymatic purification (RNase degrades RNA, Protease degrades proteins; DNase must NEVER be added!); (3) Chilled (ice-cold) ethanol precipitation yielding long fibrous DNA threads retrieved by spooling.",
+  "summary": "Genomic DNA extraction protocol: (1) Enzymatic cell wall lysis (Lysozyme for bacteria, Cellulase for plants, Chitinase for fungi); (2) Enzymatic purification (RNase degrades RNA, Protease degrades proteins; DNase must NEVER be added!); (3) Chilled (ice-cold) ethanol precipitation yielding long fibrous DNA threads retrieved by spooling.",
+  "conceptBreakdown": [
+    {
+      "heading": "Genomic DNA Isolation Workflow & Enzymatic Lysis",
+      "title": "Genomic DNA Isolation Workflow & Enzymatic Lysis",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "DNA isolation follows a stepwise biochemical sequence: (1) Cell wall lysis using Lysozyme (bacteria), Cellulase (plants), or Chitinase (fungi); (2) Macromolecular degradation of RNA by RNase and proteins by Protease; (3) Precipitation of pure DNA threads using ice-cold chilled ethanol (spooling)."
+      },
+      "codeSnippet": "rDNA PROCESS WORKFLOW\n                       \n   1. Cell Lysis & Genomic Extraction (Lysozyme/Cellulase/Chitinase)\n                           │\n   2. Enzymatic Purification (RNA digest by RNase; Protein digest by Protease)\n                           │\n   3. Chilled Ethanol Precipitation (Spooling of purified DNA threads)\n                           │\n   4. Restriction Endonuclease Cleavage ──► Agarose Gel Electrophoresis",
+      "content": "### 6.1 Stepwise Genomic DNA Isolation Protocol\n\n1. **Enzymatic Cell Wall Lysis**:\n   - To release intracellular macromolecules, the protective outer cell walls are degraded using specific hydrolases:\n     - **Bacterial Cells**: ***Lysozyme*** (hydrolyzes $\\beta-1,4$ peptidoglycan linkages).\n     - **Plant Cells**: ***Cellulase*** and *Pectinase* (hydrolyzes cellulose and pectin matrix).\n     - **Fungal Cells**: ***Chitinase*** (hydrolyzes polymer of $N$-acetylglucosamine).\n2. **Enzymatic Deproteinization & RNA Clearance**:\n   - Cell membranes are dissolved using detergents (such as Sodium Dodecyl Sulfate - SDS).\n   - **RNA Removal**: The lysate is treated with **Ribonuclease (RNase A)** to digest contaminating cellular RNA molecules into soluble ribonucleotides.\n   - **Protein Removal**: Lysate is treated with **Proteases** (e.g., *Proteinase K*) to digest histones, polymerases, and nucleases.\n   - **CRITICAL EXAM TRAP**: *Deoxyribonuclease (DNase)* is NEVER added during DNA extraction because DNase would destroy the target genomic DNA!\n3. **Chilled Ethanol Precipitation & Spooling**:\n   - Salt ions (e.g., sodium acetate) are added to neutralize the negative charges on the phosphate backbone.\n   - **Ice-Cold (Chilled) Absolute Ethanol** or isopropanol is slowly layered on top of the aqueous solution.\n   - DNA is insoluble in cold alcohol and precipitates out of solution as fine, white, stringy fibrous threads.\n   - **Spooling**: The long, viscous DNA threads are collected and wound around a sterile glass rod."
+    },
+    {
+      "heading": "Phenol-Chloroform Extraction",
+      "title": "Phenol-Chloroform Extraction",
+      "type": "paragraph",
+      "content": "Phenol:Chloroform:Isoamyl alcohol (25:24:1) partitions nucleic acids into the upper aqueous phase while denaturing proteins into the interphase; chloroform strips residual phenol and isoamyl alcohol prevents foaming."
+    },
+    {
+      "heading": "Spectrophotometric DNA Quantification",
+      "title": "Spectrophotometric DNA Quantification",
+      "type": "paragraph",
+      "content": "DNA purity is assessed by measuring UV absorbance ratios at A260/A280; pure double-stranded DNA exhibits an A260/A280 absorbance ratio of ~1.8, whereas protein contamination skews the ratio significantly lower (<1.6)."
+    }
+  ]
+}

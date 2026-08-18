@@ -1,0 +1,67 @@
+{
+  "id": "chem-xi-u5-c5-l03",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit V \u2014 Chemical Thermodynamics",
+  "unitNumber": 5,
+  "chapter": "Chemical Thermodynamics",
+  "chapterNumber": 5,
+  "chapterSlug": "chemical-thermodynamics",
+  "slug": "lesson-03-heat-capacities-equipartition-kirchhoff",
+  "title": "Heat Capacities (C_v, C_p), Equipartition Theorem & Kirchhoff\u2019s Thermochemistry",
+  "topic": "Heat Capacities & Kirchhoff's Law",
+  "topics": [
+    "Isochoric (C_v) & Isobaric (C_p) Heat Capacities",
+    "Mayer's Relation (C_p,m - C_v,m = R)",
+    "Equipartition of Energy & Degrees of Freedom (f)",
+    "Heat Capacity Ratios (\u03b3 = C_p / C_v for Monatomic, Diatomic, Triatomic)",
+    "Kirchhoff's Law for Temperature Dependence of Reaction Enthalpies"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "heat-capacities",
+  "quickSummary": "Heat capacities quantify energy required to raise temperature by 1 K. Mayer's relation gives C_p,m - C_v,m = R. Degrees of freedom dictate heat capacity ratios (\u03b3 = 1.67 for monatomic, 1.40 for diatomic). Kirchhoff's law governs temperature dependence of \u0394_r H\u00b0.",
+  "summary": "Master heat capacities at constant V and P, equipartition degrees of freedom, and Kirchhoff's thermochemical law.",
+  "conceptBreakdown": [
+    {
+      "heading": "3.1 Heat Capacities & Mayer's Relation",
+      "title": "3.1 Heat Capacities & Mayer's Relation",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Heat Capacities",
+        "takeaway": "C_v = (\u2202U/\u2202T)_V \u27f9 \u0394U = n C_v,m \u0394T. C_p = (\u2202H/\u2202T)_P \u27f9 \u0394H = n C_p,m \u0394T. Mayer's: C_p,m - C_v,m = R."
+      },
+      "content": "\u2022 **Isochoric Heat Capacity ($C_v$)**: $\\mathbf{C_v = \\left( \\frac{\\partial U}{\\partial T} \\right)_V \\implies \\Delta U = n C_{v,m} \\Delta T}$\n\u2022 **Isobaric Heat Capacity ($C_p$)**: $\\mathbf{C_p = \\left( \\frac{\\partial H}{\\partial T} \\right)_P \\implies \\Delta H = n C_{p,m} \\Delta T}$\n\u2022 **Mayer's Relation (Ideal Gas)**: $\\mathbf{C_{p,m} - C_{v,m} = R}$ (For $n$ moles: $C_p - C_v = nR$)."
+    },
+    {
+      "heading": "3.2 Equipartition Theorem & Heat Capacity Ratios (\u03b3)",
+      "title": "3.2 Equipartition Theorem & Heat Capacity Ratios (\u03b3)",
+      "type": "paragraph",
+      "codeSnippet": "DEGREE OF FREEDOM & HEAT CAPACITIES\n                      \n   GAS MOLECULARITY           f    C_v,m     C_p,m     \u03b3 = C_p / C_v\n   Monatomic (He, Ne, Ar)     3    3/2 R     5/2 R     5/3 \u2248 1.67\n   Diatomic (N\u2082, O\u2082, CO)      5    5/2 R     7/2 R     7/5 = 1.40\n   Non-linear Triatomic (H\u2082O) 6    3 R       4 R       4/3 \u2248 1.33",
+      "content": "Each quadratic translational and rotational degree of freedom contributes $\\frac{1}{2}RT$ to molar internal energy."
+    },
+    {
+      "heading": "3.3 Kirchhoff\u2019s Law (Temperature Dependence of \u0394_r H\u00b0)",
+      "title": "3.3 Kirchhoff\u2019s Law (Temperature Dependence of \u0394_r H\u00b0)",
+      "type": "paragraph",
+      "content": "The variation of reaction enthalpy ($\\Delta_r H^\\circ$) with temperature:\n\n$$\\mathbf{\\Delta_r H^\\circ (T_2) - \\Delta_r H^\\circ (T_1) = \\Delta C_p^\\circ (T_2 - T_1)}$$\n$$\\mathbf{\\Delta_r U^\\circ (T_2) - \\Delta_r U^\\circ (T_1) = \\Delta C_v^\\circ (T_2 - T_1)}$$\nwhere $\\Delta C_p^\\circ = \\sum \\nu_p C_{p,m}^\\circ (\\text{products}) - \\sum \\nu_r C_{p,m}^\\circ (\\text{reactants})$."
+    }
+  ],
+  "quickRevision": [
+    "C_p,m - C_v,m = R.",
+    "Monatomic: C_v = 3/2 R, C_p = 5/2 R, \u03b3 = 1.67.",
+    "Diatomic: C_v = 5/2 R, C_p = 7/2 R, \u03b3 = 1.40.",
+    "Non-linear Triatomic: C_v = 3R, C_p = 4R, \u03b3 = 1.33.",
+    "Kirchhoff's law: \u0394_r H\u00b0(T\u2082) - \u0394_r H\u00b0(T\u2081) = \u0394C_p\u00b0 (T\u2082 - T\u2081)."
+  ],
+  "keyFormulae": [
+    "C_p,m - C_v,m = R",
+    "\u03b3 = C_p / C_v = 1 + 2/f",
+    "\u0394_r H\u00b0(T\u2082) - \u0394_r H\u00b0(T\u2081) = \u0394C_p\u00b0 (T\u2082 - T\u2081)"
+  ]
+}

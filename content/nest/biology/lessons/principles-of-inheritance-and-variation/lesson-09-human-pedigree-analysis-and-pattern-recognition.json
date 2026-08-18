@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c4-l09",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Principles of Inheritance and Variation",
+  "chapterNumber": 4,
+  "chapterSlug": "principles-of-inheritance-and-variation",
+  "slug": "lesson-09-human-pedigree-analysis-and-pattern-recognition",
+  "title": "Human Pedigree Analysis & Pattern Recognition",
+  "topic": "Standard Pedigree Symbols, Autosomal vs X-Linked Rules",
+  "order": 9,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Pedigree analysis: squares (males), circles (females), double lines (consanguineous mating), shaded (affected). Pattern recognition: Autosomal Dominant (does not skip generations), Autosomal Recessive (skips generations, carrier parents), X-Linked Recessive (criss-cross inheritance, mostly males).",
+  "summary": "Pedigree analysis: squares (males), circles (females), double lines (consanguineous mating), shaded (affected). Pattern recognition: Autosomal Dominant (does not skip generations), Autosomal Recessive (skips generations, carrier parents), X-Linked Recessive (criss-cross inheritance, mostly males).",
+  "conceptBreakdown": [
+    {
+      "heading": "Human Pedigree Analysis & Pattern Recognition Rules",
+      "title": "Human Pedigree Analysis & Pattern Recognition Rules",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Pedigree analysis tracks transmission of genetic traits across successive generations using standardized symbols. Three major modes: (1) Autosomal Dominant: does NOT skip generations; affected child MUST have an affected parent; (2) Autosomal Recessive: skips generations; unaffected carrier parents (Aa × Aa) yield affected children (aa); (3) X-Linked Recessive: predominantly affects males (XdY); carrier mother passes to 50% of sons; affected father passes to 100% of daughters (carriers)."
+      },
+      "codeSnippet": "PEDIGREE SYMBOLS\n                         \n   Square       ──► Normal Male               Filled Square  ──► Affected Male\n   Circle       ──► Normal Female             Filled Circle  ──► Affected Female\n   Diamond      ──► Sex Unspecified           Filled Diamond ──► Affected Unspecified\n   Single Line  ──► Mating                    Double Line    ──► Consanguineous Mating (Relatives)",
+      "content": "### 9.1 Standard Pedigree Symbols\n- **Square**: Normal male; **Circle**: Normal female; **Diamond**: Sex unspecified.\n- **Filled/Solid Symbols**: Affected individuals expressing the phenotype.\n- **Single Horizontal Line**: Mating; **Double Horizontal Line**: Consanguineous mating (mating between biological relatives).\n- **Roman Numerals (I, II, III)**: Successive generations; **Arabic Numerals (1, 2, 3)**: Individuals within a generation.\n\n### 9.2 Pedigree Pattern Recognition Algorithms\n\n```\n                     PEDIGREE PATTERN RECOGNITION RULES\n                     \n   1. AUTOSOMAL DOMINANT (e.g., Myotonic Dystrophy, Huntington's):\n      ├── Does NOT skip generations; affected child MUST have affected parent.\n      └── Both males and females affected with equal frequency.\n      \n   2. AUTOSOMAL RECESSIVE (e.g., Sickle-Cell, PKU, Thalassemia):\n      ├── Skips generations; affected child can have unaffected carrier parents (Aa x Aa).\n      └── Consanguineous mating increases incidence.\n      \n   3. X-LINKED RECESSIVE (e.g., Hemophilia, Color Blindness):\n      ├── Preponderance of affected MALES (X^d Y).\n      └── Criss-cross inheritance: Affected mother (X^d X^d) passes to ALL sons (X^d Y).\n          Affected father (X^d Y) passes mutant X to ALL daughters (carriers X^d X), NEVER to sons.\n```"
+    },
+    {
+      "heading": "X-Linked Dominant and Y-Linked Rules",
+      "title": "X-Linked Dominant and Y-Linked Rules",
+      "type": "paragraph",
+      "content": "In X-Linked Dominant pedigrees (e.g. Hypophosphatemic Rickets), an affected male passes the trait to ALL daughters and NO sons. In Y-linked (Holandric) traits (e.g. Hypertrichosis of pinna), affected fathers transmit the trait strictly to ALL sons."
+    },
+    {
+      "heading": "Mitochondrial (Maternal) Inheritance Patterns",
+      "title": "Mitochondrial (Maternal) Inheritance Patterns",
+      "type": "paragraph",
+      "content": "Mitochondrial DNA (mtDNA) is transmitted strictly through the egg cytoplasm; an affected mother transmits the condition (e.g. Leber's Hereditary Optic Neuropathy) to 100% of her children (both sons and daughters), while affected fathers never transmit it."
+    }
+  ]
+}

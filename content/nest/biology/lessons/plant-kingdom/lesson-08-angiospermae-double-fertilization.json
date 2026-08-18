@@ -1,0 +1,55 @@
+{
+  "id": "bio-xi-u1-c3-l08",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit I — Diversity of Living Organisms",
+  "unitNumber": 1,
+  "chapter": "Plant Kingdom",
+  "chapterNumber": 3,
+  "chapterSlug": "plant-kingdom",
+  "slug": "lesson-08-angiospermae-double-fertilization",
+  "title": "Angiospermae: Flowering Plants & Double Fertilization",
+  "topic": "Dicot vs Monocot & Double Fertilization Mechanism",
+  "topics": [
+    "Angiospermae Innovations (Flowers, Vessels, Sieve Tubes)",
+    "Dicotyledonae vs Monocotyledonae Architecture",
+    "7-Celled 8-Nucleate Embryo Sac",
+    "Double Fertilization & Triple Fusion (S.G. Nawaschin)",
+    "Triploid Endosperm (3n)"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Angiosperms enclose ovules in ovaries and lack archegonia entirely. Double fertilization involves Syngamy (n + n -> 2n Zygote) and Triple Fusion (n + 2n -> 3n PEN), generating triploid endosperm post-fertilization.",
+  "summary": "Angiosperms enclose ovules in ovaries and lack archegonia entirely. Double fertilization involves Syngamy (n + n -> 2n Zygote) and Triple Fusion (n + 2n -> 3n PEN), generating triploid endosperm post-fertilization.",
+  "conceptBreakdown": [
+    {
+      "heading": "8. Angiospermae: Flowering Plants & Double Fertilization",
+      "title": "8. Angiospermae: Flowering Plants & Double Fertilization",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Double fertilization is unique to angiosperms: Syngamy produces the 2n zygote; Triple fusion produces the 3n primary endosperm nucleus (PEN)."
+      },
+      "codeSnippet": "ANGIOSPERMAE\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n   DICOTYLEDONAE                                           MONOCOTYLEDONAE\n ├── Two Cotyledons in Seed                               ├── Single Cotyledon (Scutellum)\n ├── Reticulate Leaf Venation                             ├── Parallel Leaf Venation\n ├── Tetramerous / Pentamerous Flowers                    ├── Trimerous Flowers\n └── Ring Vascular Bundles (Cambium Present)              └── Scattered Bundles (Closed)",
+      "content": "Angiosperms (*Angion* = vessel; *Sperma* = seed) represent the dominant terrestrial plant group. Ovules are enclosed within a specialized floral structure called the **Ovary**. Upon fertilization, ovules mature into Seeds, while the enclosing ovary transforms into a Fruit."
+    },
+    {
+      "heading": "8.1 Key Angiospermic Innovations",
+      "title": "8.1 Key Angiospermic Innovations",
+      "type": "paragraph",
+      "content": "1. **Flower**: Highly modified reproductive shoot bearing sepals (calyx), petals (corolla), stamens (androecium), and carpels (gynoecium).\n\n2. **Advanced Vascular Systems**: Fully developed **Xylem Vessels** (tracheids + vessel elements with perforated end plates) and **Phloem Companion Cells** paired with sieve tube elements.\n\n3. **Extreme Gametophyte Reduction**:\n- **Male Gametophyte**: 3-celled pollen grain (1 vegetative tube cell + 2 male gametes).\n- **Female Gametophyte**: 7-celled, 8-nucleate **Embryo Sac** (*Polygonum* type: 3 antipodal cells + 1 central cell with 2 polar nuclei + 1 egg cell + 2 synergids with filiform apparatus).\n\n4. **Loss of Archegonia**: Archegonia are **COMPLETELY ABSENT** in angiosperms."
+    },
+    {
+      "heading": "8.2 Double Fertilization & Triple Fusion (S.G. Nawaschin, 1898)",
+      "title": "8.2 Double Fertilization & Triple Fusion (S.G. Nawaschin, 1898)",
+      "type": "paragraph",
+      "codeSnippet": "DOUBLE FERTILIZATION\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n   FIRST FERTILIZATION (Syngamy)                   SECOND FERTILIZATION (Triple Fusion)\n   1st Male Gamete (n) + Egg Cell (n)              2nd Male Gamete (n) + Central Cell\n               │                                   Polar Nuclei (n + n)\n               ▼                                               │\n        Zygote (2n)                                            ▼\n               │                                 Primary Endosperm Nucleus (PEN, 3n)\n               ▼                                               │\n         Embryo (2n)                                           ▼\n                                                      Endosperm Tissue (3n)",
+      "content": "Double fertilization is a diagnostic hallmark unique to Angiosperms. Upon pollen tube penetration into a synergid cell via the filiform apparatus, two male gametes are discharged:\n\n$$\\text{Syngamy: } n \\text{ (male gamete)} + n \\text{ (egg)} \\longrightarrow 2n \\text{ (diploid zygote)}$$\n\n$$\\text{Triple Fusion: } n \\text{ (male gamete)} + 2n \\text{ (polar nuclei)} \\longrightarrow 3n \\text{ (PEN / Endosperm)}$$\n\n• **Endosperm Ploidy**: Angiosperm endosperm forms **AFTER FERTILIZATION** and is strictly **TRIPLOID (3n)**, serving as a nutrient-rich storage tissue."
+    }
+  ]
+}

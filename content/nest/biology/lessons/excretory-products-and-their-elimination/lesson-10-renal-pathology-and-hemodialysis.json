@@ -1,0 +1,34 @@
+{
+  "id": "les-bio-17-10",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Excretory Products and their Elimination",
+  "chapterNumber": 17,
+  "chapterSlug": "excretory-products-and-their-elimination",
+  "lessonNumber": 10,
+  "title": "Pathophysiology of Renal Disorders & Hemodialysis Circuit",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Hard",
+  "prerequisites": ["Glomerular filtration", "Anticoagulation"],
+  "learningObjectives": [
+    "Differentiate Uremia, Renal Calculi, and Glomerulonephritis etiologically and clinically",
+    "Diagram the Hemodialysis circuit with Heparin and Anti-Heparin timing",
+    "Explain the concentration gradient dynamics between blood and dialyzing fluid",
+    "Describe prerequisites for successful renal transplantation"
+  ],
+  "content": "### 8.1 Pathophysiology of Major Renal Disorders\n\n```\n                           RENAL DISORDER CLASSES\n                                     │\n         ┌───────────────────────────┼───────────────────────────┐\n         ▼                           ▼                           ▼\n      UREMIA                     RENAL CALCULI             GLOMERULONEPHRITIS\nAccumulation of Urea in      Insoluble crystalline masses Inflammation of glomeruli\nblood (>40 mg/dL) due to    of Calcium Oxalate or Uric   triggered by autoimmune\nrenal filtration failure.    acid in renal pelvis/calyces. complexes (Streptococcal).\n```\n\n- **Uremia**: Accumulation of dangerous concentrations of urea and nitrogenous wastes in blood ($>40\\text{ mg/dL}$, normal is $15\\text{--}40\\text{ mg/dL}$) resulting from acute or chronic renal failure, requiring artificial clearance.\n- **Renal Calculi (Kidney Stones / Nephrolithiasis)**: Precipitation of insoluble crystalline masses within the renal pelvis, calyces, or ureters. $\\approx 80\\%$ of all stones are composed of **Calcium Oxalate** crystals (radio-opaque), with uric acid and cystine stones forming the remainder.\n- **Glomerulonephritis (Bright's Disease)**: Autoimmune or post-streptococcal immune-complex deposition in glomerular capillaries, provoking inflammation, hematuria (RBCs in urine), proteinuria, and edema.\n\n### 8.2 Hemodialysis (Artificial Kidney) Circuit\n\n```\n                            HEMODIALYSIS CIRCUIT\n                            \n   Radial Artery Blood ──► Add Heparin (Anticoagulant) ──► Dialyzing Unit\n                                                                    │\n   Coiled Cellophane Tubing immersed in Dialyzing Fluid ◄───────────┘\n   (Fluid is identical to Plasma MINUS Nitrogenous Wastes)\n                               │\n   Urea, Uric Acid, Creatinine Diffuse Out down Concentration Gradient\n                               │\n   Cleared Blood ──► Add Anti-Heparin ──► Return via Radial Vein\n```\n\n1. **Arterial Extraction & Heparinization**: Blood drained from a patient's radial artery is cooled to $0^\\circ\\text{C}$ and mixed with the anticoagulant **Heparin** to prevent clotting within the tubing.\n2. **Dialyzing Unit**: Blood passes through coiled semi-permeable **Cellophane Tubing** immersed in a temperature-controlled bath of dialyzing fluid.\n3. **Dialyzing Fluid Mechanics**: The dialyzing fluid contains electrolytes, glucose, and buffers at concentrations **identical to normal blood plasma, but contains ZERO nitrogenous wastes (Urea, Uric Acid, Creatinine)**.\n4. **Passive Diffusion**: Nitrogenous wastes diffuse freely out of the cellophane pores into the bath along their steep concentration gradient.\n5. **Anti-Heparin & Venous Infusion**: Cleared blood is rewarmed to body temperature, treated with **Anti-Heparin** (e.g., Protamine Sulfate) to restore normal clotting ability, and infused back into the patient via a radial vein.",
+  "conceptBreakdown": [
+    {
+      "heading": "Why Dialyzing Fluid Has Zero Urea",
+      "explanation": "If the dialysate contained urea, the concentration gradient would be abolished or reversed. Zero waste in the dialysate maximizes the diffusion rate of urea and creatinine out of patient blood until normal plasma levels are restored."
+    },
+    {
+      "heading": "Kidney Transplantation & Graft Rejection",
+      "explanation": "Transplantation replaces failed kidneys with a viable donor graft. To minimize hyperacute, acute, or chronic Cell-Mediated Immunity (T-cell) graft rejection, meticulous HLA and ABO cross-matching is followed by lifelong administration of immunosuppressants (e.g., Cyclosporin A, Tacrolimus, Prednisone)."
+    }
+  ]
+}

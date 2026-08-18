@@ -1,0 +1,59 @@
+{
+  "id": "chem-xii-u11-c2-l06",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XI \u2014 Electrochemistry",
+  "unitNumber": 11,
+  "chapter": "Electrochemistry",
+  "chapterNumber": 2,
+  "chapterSlug": "electrochemistry",
+  "slug": "lesson-06-electrolysis-mechanics-faradays-quantitative-laws",
+  "title": "Electrolysis Mechanics & Faraday\u2019s Quantitative Laws",
+  "topic": "Electrolysis & Faraday's Laws",
+  "topics": [
+    "Electrolysis Preferential Discharge Theory (Cathode reduction: higher E\u00b0_red; Anode oxidation: lower E\u00b0_red)",
+    "Electrolysis of Aqueous NaCl (Anodic Cl\u2082 via overpotential, Cathodic H\u2082, residual NaOH causes pH rise)",
+    "Faraday's First Law (w = Z \u00b7 I \u00b7 t = (M \u00b7 I \u00b7 t) / (n \u00b7 96485))",
+    "Faraday's Second Law (w\u2081 / w\u2082 = E\u2081 / E\u2082 = Z\u2081 / Z\u2082 for cells in series)"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "electrochemistry",
+  "quickSummary": "Cathode discharges higher E\u00b0_red; Anode discharges lower E\u00b0_red. Aqueous NaCl yields Cl\u2082 at anode (overpotential), H\u2082 at cathode, and residual NaOH (pH rises). Faraday's First Law: w = (M\u00b7I\u00b7t)/(n\u00b7F). Faraday's Second Law: w\u2081/w\u2082 = E\u2081/E\u2082.",
+  "summary": "Master preferential discharge rules, aqueous salt electrolysis products, and quantitative Faraday's law calculations.",
+  "conceptBreakdown": [
+    {
+      "heading": "6.1 Preferential Discharge Theory & Aqueous NaCl Electrolysis",
+      "title": "6.1 Preferential Discharge Theory & Aqueous NaCl Electrolysis",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Preferential Discharge",
+        "takeaway": "Cathode: Ion with HIGHER reduction potential discharges first. Anode: Ion with LOWER reduction potential discharges first. Overpotential can alter kinetic order (e.g. Cl\u2082 vs O\u2082)."
+      },
+      "codeSnippet": "ELECTROLYSIS OF AQUEOUS NaCl (BRINE)\n\n\u2022 Anode Reaction:   2Cl\u207b(aq) \u2500\u2500\u25ba Cl\u2082(g) + 2e\u207b  (Overpotential suppresses O\u2082 evolution)\n\u2022 Cathode Reaction: 2H\u2082O(l) + 2e\u207b \u2500\u2500\u25ba H\u2082(g) + 2OH\u207b(aq)  (E\u00b0 = -0.83 V > -2.71 V for Na\u207a)\n\u2022 Residual Solution: Accumulates Na\u207a and OH\u207b ions \u27f9 pH RISES!",
+      "content": "\u2022 **Cathode (Reduction)**: Between $\\text{Na}^+$ ($E^\\circ = -2.71\\text{ V}$) and $\\text{H}_2\\text{O}$ ($E^\\circ = -0.83\\text{ V}$), water is reduced preferentially, liberating $\\mathbf{\\text{H}_2(g)}$.\n\u2022 **Anode (Oxidation)**: Thermodynamically $\\text{O}_2$ evolution is favored, but due to **Oxygen Overpotential**, oxidation of $\\text{Cl}^-$ is kinetically faster, releasing $\\mathbf{\\text{Cl}_2(g)}$.\n\u2022 **Solution**: Accumulates $\\text{OH}^-$ ions, causing $\\mathbf{\\text{pH to rise}}$."
+    },
+    {
+      "heading": "6.2 Faraday's Quantitative Laws of Electrolysis",
+      "title": "6.2 Faraday's Quantitative Laws of Electrolysis",
+      "type": "paragraph",
+      "codeSnippet": "FARADAY'S QUANTITATIVE LAWS\n\n1. Faraday's First Law: w = Z \u00d7 I \u00d7 t = (M \u00d7 I \u00d7 t) / (n \u00d7 96485)\n   where Z = Equivalent Mass / 96485 = M / (n \u00d7 96485)\n\n2. Faraday's Second Law: w\u2081 / w\u2082 = E\u2081 / E\u2082 = Z\u2081 / Z\u2082 (for series connections)",
+      "content": "\u2022 **First Law**: Mass deposited is directly proportional to charge ($q = I \\cdot t$): $\\mathbf{w = \\frac{M \\cdot I \\cdot t}{n \\cdot 96485}}$.\n\u2022 **Second Law**: When the same charge passes through different electrolytic cells in series, $\\mathbf{\\frac{w_1}{w_2} = \\frac{E_1}{E_2}}$."
+    }
+  ],
+  "quickRevision": [
+    "Aqueous NaCl electrolysis: Anode = Cl\u2082, Cathode = H\u2082, Solution = NaOH (pH rises).",
+    "w = (M \u00b7 I \u00b7 t) / (n \u00b7 96485).",
+    "w\u2081 / w\u2082 = E\u2081 / E\u2082 in series.",
+    "1 Faraday = 96485 C/mol of electrons."
+  ],
+  "keyFormulae": [
+    "w = Z \\cdot I \\cdot t = \\frac{M \\cdot I \\cdot t}{n \\cdot 96485}",
+    "\\frac{w_1}{w_2} = \\frac{E_1}{E_2}"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u12-c3-l03",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XII \u2014 Chemical Kinetics",
+  "unitNumber": 12,
+  "chapter": "Chemical Kinetics",
+  "chapterNumber": 3,
+  "chapterSlug": "chemical-kinetics",
+  "slug": "lesson-03-zero-order-kinetics-half-life-mechanics",
+  "title": "Zero-Order Reaction Kinetics & Half-Life Mechanics",
+  "topic": "Zero-Order Kinetics",
+  "topics": [
+    "Zero-Order Definition: Rate = -d[A]/dt = k [A]\u2070 = k",
+    "Integrated Rate Law: [A]_t = [A]_0 - kt and k = ([A]_0 - [A]_t) / t",
+    "Zero-Order Graphical Plots ([A]_t vs t slope = -k; Rate vs [A] slope = 0)",
+    "Half-Life for Zero-Order: t_1/2 = [A]_0 / (2k) (directly proportional to [A]_0)",
+    "Completion Time: t_100% = [A]_0 / k = 2 \u00b7 t_1/2",
+    "Classic Chemical Examples (Enzyme saturation, Hot Pt NH\u2083 decomposition, Photochemical H\u2082 + Cl\u2082)"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "chemical-kinetics",
+  "quickSummary": "Zero-order rate is independent of reactant concentration: Rate = k. Integrated: [A]_t = [A]_0 - kt. Half-life: t_1/2 = [A]_0 / (2k) (proportional to [A]_0). Total completion: t_100% = [A]_0 / k = 2\u00b7t_1/2. Examples: enzyme saturation, NH\u2083 decomposition on hot Pt.",
+  "summary": "Master zero-order integrated kinetics, linear plots, half-life scaling, and surface-catalyzed reactions.",
+  "conceptBreakdown": [
+    {
+      "heading": "3. Zero-Order Reaction Kinetics & Integrated Rate Law",
+      "title": "3. Zero-Order Reaction Kinetics & Integrated Rate Law",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Zero-Order Integrated Kinetics",
+        "takeaway": "[A]_t = [A]_0 - kt. Rate is constant (slope = 0 on Rate vs [A]). [A]_t vs t is linear with slope = -k."
+      },
+      "codeSnippet": "                       ZERO-ORDER INTEGRATED KINETICS\n                       \n   Differential Rate Law:  $-d[A] = k \\cdot dt$\n   Integration:            $$\\mathbf{[A]_t = [A]_0 - k t} \\quad \\implies \\quad \\mathbf{k = \\frac{[A]_0 - [A]_t}{t}}$$\n\n                        ZERO-ORDER GRAPHICAL PLOTS\n                        \n         [A]_t \u25b2                                 Rate \u25b2\n               \u2502 * (y-intercept = [A]\u2080)               \u2502\n               \u2502  \\                                   \u2502 ------------------- (Slope = 0)\n               \u2502   \\  Slope = -k                      \u2502\n               \u2502    \\\n             0 \u2514\u2500\u2500\u2500\u2500\u2500*\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba Time (t)         0 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba [A]",
+      "content": "A Zero-Order Reaction is one where the reaction rate is completely independent of the concentration of reactants:\n$$\\text{Reaction: } A \\longrightarrow \\text{Products} \\quad \\implies \\quad \\text{Rate} = -\\frac{d[A]}{dt} = k [A]^0 = k$$\n\n$$\\mathbf{[A]_t = [A]_0 - k t \\quad \\implies \\quad k = \\frac{[A]_0 - [A]_t}{t}}$$"
+    },
+    {
+      "heading": "3.1 Half-Life & Completion Time for Zero-Order",
+      "title": "3.1 Half-Life & Completion Time for Zero-Order",
+      "type": "paragraph",
+      "codeSnippet": "ZERO-ORDER HALF-LIFE & COMPLETION\n\n\u2022 Half-Life (t_1/2):       t_1/2 = [A]\u2080 / (2k)  \u27f9  t_1/2 \u221d [A]\u2080\n\u2022 Completion Time (t_100%): t_100% = [A]\u2080 / k = 2 \u00d7 t_1/2\n\nClassic Examples:\n1. Enzyme-catalyzed reactions at substrate saturation ([S] \u226b K_m)\n2. Thermal decomposition of gases on hot metal surfaces (e.g., 2NH\u2083(g) \u2500\u2500[Hot Pt]\u2500\u2500\u25ba N\u2082(g) + 3H\u2082(g))\n3. Photochemical combination of H\u2082(g) and Cl\u2082(g) over water",
+      "content": "- **Half-Life ($t_{1/2}$)**: Time required for reactant concentration to drop to half its initial value ($[A]_{t_{1/2}} = \\frac{[A]_0}{2}$):\n  $$\\mathbf{t_{1/2} = \\frac{[A]_0}{2k} \\implies t_{1/2} \\propto [A]_0}$$\n- **Completion Time ($t_{100\\%}$)**: Time required for the reaction to reach $100\\%$ completion ($[A]_t = 0$):\n  $$\\mathbf{t_{100\\%} = \\frac{[A]_0}{k} = 2 t_{1/2}}$$\n- **Classic Examples of Zero-Order Kinetics**:\n  1. Enzyme-catalyzed reactions at substrate saturation ($[S] \\gg K_m$).\n  2. Thermal decomposition of gases on hot metal surfaces (e.g., $2\\text{NH}_3(g) \\xrightarrow{\\text{Hot Pt}} \\text{N}_2(g) + 3\\text{H}_2(g)$).\n  3. Photochemical combination of $\\text{H}_2(g)$ and $\\text{Cl}_2(g)$ over water."
+    }
+  ],
+  "quickRevision": [
+    "[A]_t = [A]_0 - kt.",
+    "t_1/2 = [A]_0 / (2k) (directly proportional to [A]_0).",
+    "t_100% = [A]_0 / k = 2\u00b7t_1/2.",
+    "Enzyme saturation and NH\u2083 decomposition on hot Pt are zero-order."
+  ],
+  "keyFormulae": [
+    "[A]_t = [A]_0 - k t, \\quad k = \\frac{[A]_0 - [A]_t}{t}",
+    "t_{1/2} = \\frac{[A]_0}{2k}, \\quad t_{100\\%} = \\frac{[A]_0}{k} = 2 t_{1/2}"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "chem-xii-u17-c8-l01",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVII \u2014 Aldehydes, Ketones and Carboxylic Acids",
+  "unitNumber": 17,
+  "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+  "chapterNumber": 8,
+  "chapterSlug": "aldehydes-ketones-carboxylic-acids",
+  "slug": "lesson-01-carbonyl-geometry-reactivity-name-reactions-synthesis",
+  "title": "Carbonyl Geometry, Reactivity Patterns, & Specific Preparations",
+  "topic": "Carbonyl Structure & Synthesis Matrix",
+  "topics": [
+    "Carbonyl Group Structure (sp\u00b2 Hybridization, Planar 120\u00b0 Geometry, C=O Polarization)",
+    "B\u00fcrgi-Dunitz Angle of Nucleophilic Approach (107\u00b0)",
+    "1.1 Reactivity Order Toward Nucleophilic Addition (HCHO > RCHO > ArCHO > R-CO-R > Ar-CO-R > Ar-CO-Ar)",
+    "Steric Hindrance & Electronic Inductive/Resonance Deactivation",
+    "1.2 Name Reactions for Aldehyde & Ketone Synthesis Matrix",
+    "Rosenmund Reduction (Pd/BaSO\u2084, S/Quinoline; Formyl chloride unstable)",
+    "Stephen Reaction (SnCl\u2082 + HCl), DIBAL-H Selective Reduction (-78\u00b0C)",
+    "Etard Reaction (CrO\u2082Cl\u2082), Gattermann-Koch Reaction (CO + HCl, AlCl\u2083/CuCl)",
+    "Ketone Syntheses: Grignard Nitrile Route & Dialkylcadmium Route (R'\u2082Cd)"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "aldehydes-ketones-carboxylic-acids",
+  "quickSummary": "Carbonyl carbon is sp\u00b2 planar (120\u00b0). Nucleophiles attack at the B\u00fcrgi-Dunitz angle (107\u00b0). Reactivity: HCHO > RCHO > ArCHO > R-CO-R > Ar-CO-R > Ar-CO-Ar due to steric and electronic (+I/+M) factors. Key syntheses: Rosenmund (Pd/BaSO\u2084), Stephen (SnCl\u2082), DIBAL-H (-78\u00b0C), Etard (CrO\u2082Cl\u2082), Gattermann-Koch (CO+HCl), Dialkylcadmium (R'\u2082Cd).",
+  "summary": "Master carbonyl electronic geometry, nucleophilic approach trajectory, reactivity hierarchy, and classic named synthetic preparations.",
+  "conceptBreakdown": [
+    {
+      "heading": "1. Carbonyl Geometry & B\u00fcrgi-Dunitz Trajectory",
+      "title": "1. Carbonyl Geometry & B\u00fcrgi-Dunitz Trajectory",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Carbonyl Polarity & Approach Angle",
+        "takeaway": "Planar sp\u00b2 carbon with polarized C\u03b4+=O\u03b4-. Nucleophiles attack at the B\u00fcrgi-Dunitz angle (107\u00b0) to optimize HOMO-LUMO overlap with the \u03c0* orbital."
+      },
+      "codeSnippet": "                         CARBONYL POLARITY & APPROACH\n                         \n                             :O:\u207b (Electronegative Oxygen)\n                             \u2551\n                       R\u2081 \u2500\u2500 C \u2500\u2500 R\u2082  (Planar $107^\\circ$ B\u00fcrgi-Dunitz Angle)\n                             \u2502\n                             \u25b2\n                    Nucleophile ($\\text{Nu}^-$)",
+      "content": "The Carbonyl Group ($>\\text{C=O}$) consists of an $sp^2$-hybridized carbon doubly bonded to oxygen ($1\\sigma + 1\\pi$ bond), displaying planar $120^\\circ$ geometry. The $\\text{C=O}$ bond is strongly polarized ($\\overset{\\delta+}{\\text{C}}=\\overset{\\delta-}{\\text{O}}$) due to oxygen's high electronegativity ($\\chi = 3.5$ vs $2.5$). Nucleophiles approach at the **B\u00fcrgi-Dunitz angle of $107^\\circ$** relative to the $\\text{C=O}$ axis."
+    },
+    {
+      "heading": "1.1 Reactivity Order & 1.2 Synthesis Matrix",
+      "title": "1.1 Reactivity Order & 1.2 Synthesis Matrix",
+      "type": "paragraph",
+      "codeSnippet": "                       CARBONYL REACTIVITY FACTORS\n                                     \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                                                       \u25bc\n  STERIC HINDRANCE                                      ELECTRONIC EFFECTS\n  Two bulky alkyl/aryl groups in ketones                $+I$ alkyl groups donate electron density,\n  sterically block nucleophilic approach relative      reducing the electrophilic $\\delta+$ charge on\n  to a single alkyl group in aldehydes.                 carbonyl carbon. Aromatic $+M$ resonance\n                                                        heavily deactivates carbonyls.\n\nReactivity Order: HCHO > RCHO > ArCHO > R-CO-R > Ar-CO-R > Ar-CO-Ar",
+      "content": "- **Rosenmund Reduction**: $R\\text{COCl} + \\text{H}_2 \\xrightarrow{\\text{Pd/BaSO}_4, \\text{ S/Quinoline}} R\\text{CHO}$ (Formaldehyde cannot be made).\n- **Stephen Reaction**: $R\\text{-CN} + \\text{SnCl}_2 + \\text{HCl} \\xrightarrow{\\text{Ether}} R\\text{-CH=NH}\\cdot\\text{HCl} \\xrightarrow{\\text{H}_3\\text{O}^+} R\\text{CHO}$.\n- **DIBAL-H Reduction**: Selectively reduces nitriles and esters to aldehydes at $-78^\\circ\\text{C}$, leaving double bonds intact.\n- **Etard Reaction**: $\\text{Ph-CH}_3 + \\text{CrO}_2\\text{Cl}_2 \\xrightarrow{\\text{CS}_2} \\text{Complex} \\xrightarrow{\\text{H}_3\\text{O}^+} \\text{PhCHO}$.\n- **Gattermann-Koch**: $\\text{Benzene} + \\text{CO} + \\text{HCl} \\xrightarrow{\\text{AlCl}_3/\\text{CuCl}} \\text{PhCHO}$.\n- **Dialkylcadmium Route**: $2 R\\text{COCl} + R'_2\\text{Cd} \\to 2 R\\text{-CO-}R' + \\text{CdCl}_2$ (does not react with ketones)."
+    }
+  ],
+  "quickRevision": [
+    "B\u00fcrgi-Dunitz angle is 107\u00b0 for nucleophilic attack.",
+    "Reactivity: HCHO > RCHO > ArCHO > R-CO-R > Ar-CO-R > Ar-CO-Ar.",
+    "Rosenmund reduction uses poisoned Pd/BaSO\u2084 to stop at aldehyde.",
+    "DIBAL-H selectively reduces esters and nitriles to aldehydes at -78\u00b0C.",
+    "Dialkylcadmium (R'\u2082Cd) converts acid chlorides to ketones without over-addition."
+  ],
+  "keyFormulae": [
+    "\\text{Reactivity: } \\text{HCHO} > R\\text{CHO} > \\text{ArCHO} > R\\text{-CO-}R > \\text{Ar-CO-}R > \\text{Ar-CO-Ar}",
+    "R\\text{COCl} + \\text{H}_2 \\xrightarrow{\\text{Pd/BaSO}_4, \\text{ S}} R\\text{CHO} + \\text{HCl}"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "chem-xi-u9-c9-l06",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit IX \u2014 Hydrocarbons",
+  "unitNumber": 9,
+  "chapter": "Hydrocarbons",
+  "chapterNumber": 9,
+  "chapterSlug": "hydrocarbons",
+  "slug": "lesson-06-alkynes-terminal-acidity-kucherov-polymerization",
+  "title": "Alkynes: Terminal Acidity, Kucherov Hydration, & Polymerization",
+  "topic": "Alkynes & Terminal Acidity",
+  "topics": [
+    "Alkyne Structure (sp Hybridization, 1\u03c3 + 2\u03c0 bonds, 1.20 \u00c5 length, 837 kJ/mol)",
+    "Terminal Alkyne Acidity (50% s-character, pKa \u2248 25, Sodium Acetylide with NaNH\u2082)",
+    "Diagnostic Heavy Metal Tests: Tollens' Reagent (White Ag-ppt) and Fehling's/Cu\u2082Cl\u2082 (Red Cu-ppt)",
+    "Kucherov Hydration (1% HgSO\u2084 / 40% H\u2082SO\u2084, 60\u00b0C \u2192 Enol \u2192 Ketone; Acetylene \u2192 Acetaldehyde)",
+    "Cyclic Trimerization (3 HC\u2261CH over Red-Hot Fe at 873 K \u2192 Benzene)",
+    "Stereospecific Alkyne Reductions: Lindlar's Catalyst (cis-alkene) vs Birch Reduction (trans-alkene)"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "hydrocarbons",
+  "quickSummary": "Terminal alkynes are acidic (sp C has 50% s-character) and form precipitates with Tollens' (white Ag-acetylide) and Cu\u2082Cl\u2082 (red Cu-acetylide). Kucherov hydration yields ketones (acetylene yields acetaldehyde). Lindlar gives cis-alkene; Birch gives trans-alkene.",
+  "summary": "Master alkyne terminal acidity, diagnostic precipitate tests, Kucherov hydration, cyclic polymerization, and stereospecific reductions.",
+  "conceptBreakdown": [
+    {
+      "heading": "6.1 Terminal Alkyne Acidity & Diagnostic Tests",
+      "title": "6.1 Terminal Alkyne Acidity & Diagnostic Tests",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Terminal Acidity",
+        "takeaway": "sp-Carbon (50% s-character) makes C-H acidic. Tollens' gives white Ag-ppt; Ammoniacal Cu\u2082Cl\u2082 gives red Cu-ppt. Internal alkynes DO NOT react."
+      },
+      "codeSnippet": "TERMINAL ALKYNE DIAGNOSTIC TESTS\n\n1. Tollens' Test:\n   R-C\u2261C-H + [Ag(NH\u2083)\u2082]\u207a \u2192 R-C\u2261C-Ag \u2193 (White Precipitate) + NH\u2084\u207a + NH\u2083\n\n2. Ammoniacal Cuprous Chloride Test:\n   R-C\u2261C-H + Cu\u2082Cl\u2082 + 2 NH\u2084OH \u2192 R-C\u2261C-Cu \u2193 (Red Precipitate) + 2 NH\u2084Cl + 2 H\u2082O\n\nInternal alkynes (R-C\u2261C-R') do NOT have acidic terminal protons and give NO precipitate!",
+      "content": "Because $sp$-hybridized carbon atoms have $50\\%$ $s$-character, their valence electrons are tightly held by the nucleus, conferring high electronegativity and making the terminal $\\text{C-H}$ bond acidic ($\\text{p}K_a \\approx 25$). Reaction with heavy metal cations produces insoluble metal acetylide precipitates."
+    },
+    {
+      "heading": "6.2 Kucherov Hydration & Stereospecific Reductions",
+      "title": "6.2 Kucherov Hydration & Stereospecific Reductions",
+      "type": "paragraph",
+      "codeSnippet": "KUCHEROV HYDRATION & REDUCTIONS\n\n\u2022 Kucherov Hydration:\n  R-C\u2261C-H + H\u2082O \u2500\u2500[1% HgSO\u2084 / 40% H\u2082SO\u2084, 60\u00b0C]\u2500\u2500\u25ba [R-C(OH)=CH\u2082] \u2500\u2500[Tautomerism]\u2500\u2500\u25ba R-CO-CH\u2083 (Ketone)\n  (Exception: HC\u2261CH yields Acetaldehyde CH\u2083CHO)\n\n\u2022 Stereospecific Reductions:\n  \u251c\u2500\u2500 Lindlar's Catalyst (Pd/CaCO\u2083/quinoline) + H\u2082 \u2500\u2500\u25ba cis-alkene (Syn-addition)\n  \u2514\u2500\u2500 Birch Reduction (Na / Li in liquid NH\u2083)      \u2500\u2500\u25ba trans-alkene (Anti-addition)\n\n\u2022 Cyclic Polymerization:\n  3 HC\u2261CH \u2500\u2500[Red-hot Fe tube, 873 K]\u2500\u2500\u25ba Benzene (C\u2086H\u2086)",
+      "content": "\u2022 **Kucherov Hydration**: Mercuric sulfate-catalyzed hydration adds water across the triple bond to form an enol, which tautomerizes to a ketone (Ethyne exclusively yields acetaldehyde).\n\u2022 **Lindlar's Reduction**: $\\text{Pd/CaCO}_3$ poisoned with quinoline/lead acetate reduces alkynes with syn-stereospecificity to *cis*-alkenes.\n\u2022 **Birch Reduction**: Sodium or Lithium in liquid ammonia reduces alkynes with anti-stereospecificity to *trans*-alkenes."
+    }
+  ],
+  "quickRevision": [
+    "Terminal alkynes give white ppt with Tollens' and red ppt with Cu\u2082Cl\u2082.",
+    "Kucherov hydration of propyne gives acetone.",
+    "Lindlar's catalyst produces cis-alkenes; Birch reduction produces trans-alkenes.",
+    "3 moles of ethyne over red-hot iron at 873 K yield benzene."
+  ],
+  "keyFormulae": [
+    "\\text{Lindlar: Alkyne} \\xrightarrow{\\text{Pd/CaCO}_3/\\text{quinoline}} \\text{cis-alkene}",
+    "\\text{Birch: Alkyne} \\xrightarrow{\\text{Na/liq. NH}_3} \\text{trans-alkene}"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c5-l10",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Molecular Basis of Inheritance",
+  "chapterNumber": 5,
+  "chapterSlug": "molecular-basis-of-inheritance",
+  "slug": "lesson-10-human-and-rice-genome-projects-and-dna-fingerprinting",
+  "title": "Human & Rice Genome Projects & DNA Fingerprinting",
+  "topic": "HGP Key Findings, ESTs vs Sequence Annotation, & Alec Jeffreys VNTR Fingerprinting",
+  "order": 10,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "HGP (1990-2003): 3.1647 billion bp, ~20,000-25,000 genes, <2% protein coding, Dystrophin largest gene (2.4 Mb), Chromosome 1 has 2,968 genes, Y has 231. Methodologies: ESTs & Sequence Annotation. DNA Fingerprinting (Alec Jeffreys): VNTR minisatellites (11-60 bp), Southern blotting, and radiolabeled probe hybridization.",
+  "summary": "HGP (1990-2003): 3.1647 billion bp, ~20,000-25,000 genes, <2% protein coding, Dystrophin largest gene (2.4 Mb), Chromosome 1 has 2,968 genes, Y has 231. Methodologies: ESTs & Sequence Annotation. DNA Fingerprinting (Alec Jeffreys): VNTR minisatellites (11-60 bp), Southern blotting, and radiolabeled probe hybridization.",
+  "conceptBreakdown": [
+    {
+      "heading": "Human & Rice Genome Projects (HGP & IRGSP)",
+      "title": "Human & Rice Genome Projects (HGP & IRGSP)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "The Human Genome Project (1990–2003) sequenced the 3.1647 billion bp human genome (~20,000–25,000 genes). Key findings: <2% codes for proteins, 99.9% nucleotide identity across all humans, largest gene is Dystrophin (2.4 Mb), Chromosome 1 has most genes (2,968), and Y chromosome has fewest (231). DNA Fingerprinting (Alec Jeffreys, 1985) utilizes hypervariable non-coding VNTR minisatellites (11–60 bp) detected via Southern Blotting."
+      },
+      "codeSnippet": "HGP SALIENT FINDINGS\n                          \n   Total Human Genome Size  ──► 3.1647 x 10⁹ base pairs (3.16 Billion bp)\n   Total Gene Count         ──► ~20,000--25,000 genes (Much lower than expected!)\n   Average Gene Size        ──► 3,000 bp (Largest: Dystrophin gene = 2.4 Million bp)\n   Protein-Coding DNA       ──► < 2% of the genome\n   Chromosome Extremes      ──► Chromosome 1 has MOST genes (2,968); Y Chromosome has FEWEST (231)\n   Nucleotide Identity      ──► 99.9% identical in all human beings\n   SNPs (Single Nucleotide) ──► 1.4 Million SNP locations identified",
+      "content": "### 10.1 Human Genome Project (HGP) Methodologies\n1. **Expressed Sequence Tags (ESTs)**: Focused on identifying and sequencing all genes expressed as RNA transcripts.\n2. **Sequence Annotation**: Sequenced the entire genome (coding and non-coding) followed by functional assignment using automated Sanger sequencers and cloning in **BAC (Bacterial Artificial Chromosomes)** and **YAC (Yeast Artificial Chromosomes)** vectors.\n3. **International Rice Genome Sequencing Project (IRGSP)**: Completed in 2004 (*Oryza sativa* - $430\\text{ Mb}$ genome, $\\approx 37,500\\text{ genes}$). Model monocot crop.\n\n### 10.2 DNA Fingerprinting Workflow (Alec Jeffreys, 1985)\n\n```\n                      DNA FINGERPRINTING WORKFLOW\n                      \n   1. Isolation of Genomic DNA (Blood, Hair follicle, Semen)\n                           │\n   2. Restriction Digestion using Restriction Endonucleases\n                           │\n   3. Gel Electrophoresis (Separates fragments by size on Agarose Gel)\n                           │\n   4. Southern Blotting (Transfers DNA fragments to Nylon/Nitrocellulose membrane)\n                           │\n   5. Hybridization using radiolabeled ³²P-VNTR Probes\n                           │\n   6. Autoradiography (X-Ray film exposure reveals individual-specific band patterns)\n```\n\n- **Variable Number of Tandem Repeats (VNTRs)**: Belong to the **minisatellite** class of non-coding repetitive DNA ($11\\text{--}60\\text{ bp}$ repeat units). Highly polymorphic among individuals due to unequal crossing over."
+    },
+    {
+      "heading": "Microsatellites (STRs) in Modern Forensics",
+      "title": "Microsatellites (STRs) in Modern Forensics",
+      "type": "paragraph",
+      "content": "Modern forensic DNA typing utilizes Short Tandem Repeats (STRs / Microsatellites, 2-6 bp repeats) amplified via multiplex PCR and analyzed by capillary electrophoresis with automated fluorescent detection (CODIS 20 core loci)."
+    },
+    {
+      "heading": "Lalji Singh and Indian DNA Fingerprinting",
+      "title": "Lalji Singh and Indian DNA Fingerprinting",
+      "type": "paragraph",
+      "content": "Dr. Lalji Singh (Father of Indian DNA Fingerprinting) developed indigenous Bkm (Banded krait minor) satellite DNA probes for forensic and paternity applications in India."
+    }
+  ]
+}

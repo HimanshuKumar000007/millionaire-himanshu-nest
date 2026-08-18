@@ -1,0 +1,49 @@
+{
+  "id": "bio-xi-u3-c8-l06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Cell — The Unit of Life",
+  "chapterNumber": 8,
+  "chapterSlug": "cell-the-unit-of-life",
+  "slug": "lesson-06-lysosomes-vacuoles-tonoplast",
+  "title": "Lysosomes, Vacuoles, & The Tonoplast Membrane",
+  "topic": "Acid Hydrolases (pH 4.5–5.0), V-type H+ ATPase, Lysosome Polymorphism, & Tonoplast Dynamics",
+  "topics": [
+    "Lysosome Ultrastructure (Christian de Duve, 1955)",
+    "Acid Hydrolase Enzymes & Optimal Catalytic Acidic pH (4.5–5.0)",
+    "V-type $H^+$-ATPase Proton Pump Mechanism",
+    "Lysosomal Polymorphic States (Primary, Secondary/Heterophagosome, Residual Body, Autophagosome)",
+    "Vacuolar Compartments & The Tonoplast Membrane (Active Ion Accumulation)",
+    "Functional Vacuolar Classes: Sap Vacuoles, Contractile Vacuoles (Osmoregulation), Food Vacuoles"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Lysosomes contain >50 acid hydrolases active at acidic pH (4.5–5.0) maintained by a membrane V-type H+-ATPase proton pump. They exhibit polymorphism: primary lysosomes, secondary heterophagosomes, residual bodies, and autophagosomes (autophagy). Vacuoles occupy up to 90% of plant cell volume, bounded by a selectively permeable Tonoplast that pumps ions against concentration gradients. Classes include sap, contractile (osmoregulatory in Amoeba), and food vacuoles.",
+  "summary": "Lysosomes contain >50 acid hydrolases active at acidic pH (4.5–5.0) maintained by a membrane V-type H+-ATPase proton pump. They exhibit polymorphism: primary lysosomes, secondary heterophagosomes, residual bodies, and autophagosomes (autophagy). Vacuoles occupy up to 90% of plant cell volume, bounded by a selectively permeable Tonoplast that pumps ions against concentration gradients. Classes include sap, contractile (osmoregulatory in Amoeba), and food vacuoles.",
+  "conceptBreakdown": [
+    {
+      "heading": "4.3 Lysosomes (Christian de Duve, 1955)",
+      "title": "4.3 Lysosomes (Christian de Duve, 1955)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Lysosomes require pH 4.5–5.0 powered by a V-type H+-ATPase proton pump. Tonoplast pumps ions against steep concentration gradients into the sap vacuole."
+      },
+      "codeSnippet": "LYSOSOMAL POLYMORPHISM\n                                       │\n     ┌──────────────────┬──────────────┴──────────────┬──────────────────┐\n     ▼                  ▼                             ▼                  ▼\nPRIMARY LYSOSOME   SECONDARY LYSOSOME            RESIDUAL BODY      AUTOPHAGOSOME\n(Inactive enzymes  (Heterophagosome: fused with  (Undigested waste  (Fused with damaged\n freshly released) phago/pinocytic vesicle)       retained/exocytosed) intracellular organelle)",
+      "content": "Single membrane-bound spherical digestive vesicles produced by packaging at the trans-Golgi network.\n\n### Acid Hydrolases & pH Maintenance\n• **Enzyme Profile**: Contains over 50 hydrolytic digestive enzymes (proteases, nucleases, glycosidases, lipases, phosphatases, sulfatases) active exclusively at an **acidic pH ($\\approx 4.5\\text{--}5.0$)**.\n• **V-type $H^+$-ATPase Pump**: Luminal acidity is actively sustained by a vacuolar-type proton pump in the lysosomal membrane that hydrolyzes ATP to pump $H^+$ ions into the lumen.\n• **Safety Mechanism**: If a lysosome accidentally ruptures into the cytosol, the neutral cytosolic pH (~7.2) renders the acid hydrolases inactive, preventing catastrophic self-digestion."
+    },
+    {
+      "heading": "4.4 Vacuoles & The Tonoplast",
+      "title": "4.4 Vacuoles & The Tonoplast",
+      "type": "paragraph",
+      "content": "Vacuoles are single-membrane-bound cytoplasmic compartments predominant in mature plant cells (occupying up to 90% of total cellular volume).\n\n### The Tonoplast Membrane\nThe specialized selectively permeable single vacuolar membrane. Features primary and secondary active transporters that pump ions ($\\text{Na}^+, \\text{K}^+, \\text{Ca}^{2+}, \\text{H}^+$) and organic acids against steep concentration gradients into the vacuolar lumen, maintaining internal hypertonicity and cellular turgor.\n\n### Functional Classes\n1. **Sap Vacuole**: Stores water, mineral ions, metabolic wastes, and water-soluble **anthocyanin / anthoxanthin** pigments (imparting red, purple, and blue flower petal colors).\n2. **Contractile Vacuole**: Present in freshwater protists (*Amoeba, Paramecium*); periodically fills with water and contracts to pump excess water out across the plasma membrane (**Osmoregulation**).\n3. **Food Vacuole**: Formed by phagocytic engulfment of nutrients in protists and phagocytic animal cells."
+    }
+  ]
+}

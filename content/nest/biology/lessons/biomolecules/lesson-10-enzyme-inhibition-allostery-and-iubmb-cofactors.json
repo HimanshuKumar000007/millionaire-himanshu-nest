@@ -1,0 +1,65 @@
+{
+  "id": "bio-xi-u3-c9-l10",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Biomolecules",
+  "chapterNumber": 9,
+  "chapterSlug": "biomolecules",
+  "slug": "lesson-10-enzyme-inhibition-allostery-and-iubmb-cofactors",
+  "title": "Enzyme Inhibition, Allostery, IUBMB Classes, & Cofactors",
+  "topic": "Competitive/Non-Competitive Inhibition, Feedback Allostery, EC 1–6 Classes, & Holoenzymes",
+  "topics": [
+    "Enzyme Inhibition Modes (Competitive, Non-Competitive, Uncompetitive)",
+    "Inhibition Effects on $V_{\\max}$ and $K_m$",
+    "Lineweaver-Burk Diagnostic Inhibition Plots",
+    "Allosteric Regulation & Sigmoidal Kinetics",
+    "Feedback Inhibition (Threonine Deaminase by Isoleucine)",
+    "IUBMB Enzyme Classification (EC 1–6: Oxidoreductases, Transferases, Hydrolases, Lyases, Isomerases, Ligases)",
+    "Holoenzyme Formula ($\\text{Holoenzyme} = \\text{Apoenzyme} + \\text{Cofactor}$)",
+    "Cofactor Classes: Prosthetic Groups (Heme, Biotin), Coenzymes ($\\text{NAD}^+$, $\\text{FAD}$), Metal Ions ($\\text{Zn}^{2+}$, $\\text{Mg}^{2+}$)"
+  ],
+  "order": 10,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Competitive inhibitors bind active sites (Km increased, Vmax unchanged; e.g., malonate on succinate dehydrogenase). Non-competitive inhibitors bind allosteric sites (Km unchanged, Vmax decreased; e.g., heavy metals, cyanide). Uncompetitive inhibitors bind only ES complex (Km decreased, Vmax decreased). Feedback inhibition regulates pathways (e.g., isoleucine inhibits threonine deaminase). IUBMB categorizes 6 classes (EC 1–6). Holoenzyme = protein Apoenzyme + non-protein Cofactor (Prosthetic group tightly bound, Coenzyme loosely bound, Metal ion activator).",
+  "summary": "Competitive inhibitors bind active sites (Km increased, Vmax unchanged; e.g., malonate on succinate dehydrogenase). Non-competitive inhibitors bind allosteric sites (Km unchanged, Vmax decreased; e.g., heavy metals, cyanide). Uncompetitive inhibitors bind only ES complex (Km decreased, Vmax decreased). Feedback inhibition regulates pathways (e.g., isoleucine inhibits threonine deaminase). IUBMB categorizes 6 classes (EC 1–6). Holoenzyme = protein Apoenzyme + non-protein Cofactor (Prosthetic group tightly bound, Coenzyme loosely bound, Metal ion activator).",
+  "conceptBreakdown": [
+    {
+      "heading": "8. Enzyme Inhibition Modes",
+      "title": "8. Enzyme Inhibition Modes",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Competitive: Km increases, Vmax unchanged. Non-competitive: Vmax decreases, Km unchanged. Uncompetitive: both decrease."
+      },
+      "codeSnippet": "ENZYME INHIBITION MODES\n                                       │\n     ┌─────────────────────────────────┼─────────────────────────────────┐\n     ▼                                 ▼                                 ▼\nCOMPETITIVE INHIBITION            NON-COMPETITIVE INHIBITION      UNCOMPETITIVE INHIBITION\n├── Inhibitor resembles Substrate ├── Inhibitor binds Allosteric  ├── Inhibitor binds ONLY\n├── Competes for ACTIVE SITE          site on Free E or ES complex    to $ES$ Complex\n├── **$V_{\\max}$ UNCHANGED**       ├── **$V_{\\max}$ DECREASED**    ├── **$V_{\\max}$ DECREASED**\n└── **$K_m$ INCREASED**           └── **$K_m$ UNCHANGED**         └── **$K_m$ DECREASED**",
+      "content": "Chemical inhibitors reduce enzymatic catalytic activity through distinct kinetic mechanisms."
+    },
+    {
+      "heading": "8.1 Comparative Inhibition Kinetics Matrix",
+      "title": "8.1 Comparative Inhibition Kinetics Matrix",
+      "type": "paragraph",
+      "content": "| Inhibition Type | Active Site Competition | Effect on $V_{\\max}$ | Effect on $K_m$ | Classic Biochemical Example |\n| :--- | :--- | :--- | :--- | :--- |\n| **Competitive** | **YES** (Inhibitor binds free active site) | **Unchanged** (Reversible by adding excess $[S]$) | **Increased** (Apparent affinity decreases) | **Malonate** inhibits *Succinate Dehydrogenase*; **Statins** inhibit *HMG-CoA Reductase* |\n| **Non-Competitive** | **NO** (Inhibitor binds allosteric site on $E$ or $ES$) | **Decreased** (Catalytic efficiency ruined) | **Unchanged** (Substrate binding unaffected) | **Heavy metal ions** ($\\text{Pb}^{2+}, \\text{Hg}^{2+}, \\text{Ag}^+$) inhibiting sulfhydryl enzymes; **Cyanide** inhibiting *Cytochrome c Oxidase* |\n| **Uncompetitive** | **NO** (Inhibitor binds ONLY to $ES$ complex) | **Decreased** | **Decreased** | **Lithium** inhibiting *Inositol Monophosphatase*; **Glyphosate** inhibiting plant *EPSP Synthase* |"
+    },
+    {
+      "heading": "8.2 Allosteric Regulation & Feedback Inhibition",
+      "title": "8.2 Allosteric Regulation & Feedback Inhibition",
+      "type": "paragraph",
+      "codeSnippet": "FEEDBACK INHIBITION CASCADE\n                       \n L-Threonine ──[Threonine Deaminase]──► Intermediate A ──► ... ──► L-Isoleucine\n      ▲                                                                │\n      └─────────────────── [ALLOSTERIC INHIBITION] ────────────────────┘",
+      "content": "• **Allosteric Enzymes**: Multi-subunit enzymes exhibiting sigmoidal (S-shaped) saturation kinetics due to subunit cooperativity.\n• **Feedback Inhibition**: The accumulated end-product allosterically inhibits the first committed rate-limiting enzyme (*e.g., L-Isoleucine allosterically inhibits Threonine Deaminase*)."
+    },
+    {
+      "heading": "9. IUBMB Classes & Cofactor Biochemistry",
+      "title": "9. IUBMB Classes & Cofactor Biochemistry",
+      "type": "paragraph",
+      "codeSnippet": "COFACTOR CLASSIFICATIONS\n                                       │\n         ┌─────────────────────────────┼─────────────────────────────┐\n         ▼                             ▼                             ▼\n  PROSTHETIC GROUPS                COENZYMES                    METAL IONS\n  Organic; **tightly / covalently** Organic; **transiently / loosely** Inorganic metal cations\n  bound to apoenzyme.              bound organic molecules.     coordinating with active site.\n  ├── **Heme** in Catalase         ├── **$\\text{NAD}^+ / \\text{NADP}^+$** (Niacin) ├── **$\\text{Zn}^{2+}$** in *Carboxypeptidase*\n  └── **Biotin** in Carboxylases   └── **$\\text{FAD} / \\text{FMN}$** (Riboflavin)  └── **$\\text{Mg}^{2+}$** in *Hexokinase*",
+      "content": "### IUBMB Enzyme Classification (EC 1–6)\n1. **Oxidoreductases**: Redox reactions (*Dehydrogenases, Oxidases*).\n2. **Transferases**: Group transfer (*Kinases, Transaminases*).\n3. **Hydrolases**: Hydrolytic bond cleavage (*Esterases, Proteases*).\n4. **Lyases**: Cleave bonds without water or redox (*Decarboxylases, Aldolases*).\n5. **Isomerases**: Geometric/structural isomer interconversions (*Isomerases, Mutases*).\n6. **Ligases**: Join 2 molecules linked with ATP hydrolysis (*DNA Ligase, Synthetases*).\n\n### Holoenzyme Formula\n$$\\Large \\mathbf{\\text{HOLOENZYME (Active)} = \\text{APOENZYME (Protein)} + \\text{COFACTOR (Non-Protein)}}$$\n\n• **Prosthetic Groups**: Tightly or covalently bound organic cofactors (*e.g., Heme in Catalase and Peroxidase, Biotin*).\n• **Coenzymes**: Transiently bound organic cofactors derived from vitamins (*e.g., $\\text{NAD}^+/\\text{NADP}^+$ from Niacin; $\\text{FAD}/\\text{FMN}$ from Riboflavin; Coenzyme A from Pantothenic acid*).\n• **Metal Ion Activators**: Inorganic cations coordinating with active site residues (*e.g., $\\text{Zn}^{2+}$ in Carboxypeptidase; $\\text{Mg}^{2+}$ in Hexokinase; $\\text{Fe}^{2+}$ in Cytochromes*)."
+    }
+  ]
+}

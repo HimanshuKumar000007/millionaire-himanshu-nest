@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u8-c8-l07",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VIII — Biology in Human Welfare",
+  "unitNumber": 8,
+  "chapter": "Microbes in Human Welfare",
+  "chapterNumber": 8,
+  "chapterSlug": "microbes-in-human-welfare",
+  "slug": "lesson-07-anaerobic-sludge-digestion-and-biogas-plant-technology",
+  "title": "Anaerobic Sludge Digestion & Biogas Plant Technology",
+  "topic": "Methanogens (Methanobacterium), Biogas Composition (CH4 50-70%), & Gobar Gas Plants (IARI/KVIC)",
+  "order": 7,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Biogas production by Methanogens (Methanobacterium) growing anaerobically on cellulosic biomass. Composition: Methane CH4 (50-70%), Carbon Dioxide CO2 (30-40%), H2S & H2 (traces). Biogas Plant Architecture: Concrete tank (10-15 ft deep), floating gas holder cover, spent sludge outlet (organic fertilizer). Developed in India by IARI & KVIC.",
+  "summary": "Biogas production by Methanogens (Methanobacterium) growing anaerobically on cellulosic biomass. Composition: Methane CH4 (50-70%), Carbon Dioxide CO2 (30-40%), H2S & H2 (traces). Biogas Plant Architecture: Concrete tank (10-15 ft deep), floating gas holder cover, spent sludge outlet (organic fertilizer). Developed in India by IARI & KVIC.",
+  "conceptBreakdown": [
+    {
+      "heading": "Methanogens, Biogas Composition, & Plant Architecture",
+      "title": "Methanogens, Biogas Composition, & Plant Architecture",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Methanogenic archaebacteria (Methanobacterium) anaerobically digest cellulosic material to generate combustible Biogas (50-70% CH4, 30-40% CO2). Gobar gas plants use cattle dung slurry in concrete digesters with floating gasholders; technology standardized by IARI and KVIC."
+      },
+      "codeSnippet": "BIOGAS PLANT ARCHITECTURE\n                          \n                  [ Floating Gas Holder Cover ] ──► Gas Outlet Pipe\n                             │\n    [ Slurry Inlet ] ──► [ Concrete Digester Tank ] ──► [ Spent Sludge Outlet ]\n                         (10–15 feet deep)               (Used as Fertilizer)",
+      "content": "### 7.1 Methanogens & Natural Habitats\n- **Methanogens**: Obligate anaerobic archaebacteria (such as ***Methanobacterium***) that synthesize methane gas by catabolizing cellulosic substrates and volatile organic acids under strictly anaerobic conditions:\n  $$\\text{CO}_2 + 4\\text{H}_2 \\longrightarrow \\text{CH}_4 + 2\\text{H}_2\\text{O}$$\n  $$\\text{CH}_3\\text{COOH} \\longrightarrow \\text{CH}_4 + \\text{CO}_2$$\n- **Natural Habitats**:\n  1. Anaerobic sludge in STPs (digesting aerobic bacterial/fungal flocs).\n  2. Waterlogged marshy and swampy soils (\"Marsh Gas\").\n  3. **Rumen of Herbivorous Cattle**: Essential for digesting dietary cellulose; consequently, cattle dung (**Gobar**) is rich in methanogens and serves as ideal feedstock.\n\n### 7.2 Biogas Composition Spectrum\n- **Methane ($\\text{CH}_4$)**: **$50\\text{--}70\\%$** (Primary combustible fuel gas).\n- **Carbon Dioxide ($\\text{CO}_2$)**: $30\\text{--}40\\%$.\n- **Hydrogen ($\\text{H}_2$) & Hydrogen Sulfide ($\\text{H}_2\\text{S}$)**: Trace concentrations ($1\\text{--}5\\%$).\n- **Oxygen ($\\text{O}_2$)**: Strictly **ABSENT** ($0\\%$) because methanogenesis is an obligate anaerobic process.\n\n### 7.3 Rural Biogas Plant Components & Indian Leadership\n1. **Concrete Digester Tank**: $10\\text{--}15\\text{ feet}$ deep pit where dung-and-water slurry ($1:1$ ratio) is collected.\n2. **Floating Cover / Gasholder**: Steel or fiberglass dome placed over slurry that rises as methane gas accumulates.\n3. **Gas Outlet**: Pipeline connected to the gas dome that supplies fuel for cooking and lighting in village homes.\n4. **Spent Sludge Outlet**: Digested slurry is extracted through an overflow chamber and dried for use as rich **organic manure / fertilizer**.\n- **Indian R&D Pioneers**: Biogas technology in India was developed and deployed via collaborative initiatives between the **Indian Agricultural Research Institute (IARI)** and the **Khadi and Village Industries Commission (KVIC)**."
+    },
+    {
+      "heading": "Three Stages of Anaerobic Digestion",
+      "title": "Three Stages of Anaerobic Digestion",
+      "type": "paragraph",
+      "content": "Anaerobic digestion proceeds via: (1) Hydrolysis (complex polymers broken into monomers by extracellular enzymes); (2) Acidogenesis / Acetogenesis (monomers converted to volatile fatty acids and acetic acid); (3) Methanogenesis (methanogens convert acetate and H2/CO2 into CH4)."
+    },
+    {
+      "heading": "Calorific Value of Biogas",
+      "title": "Calorific Value of Biogas",
+      "type": "paragraph",
+      "content": "Biogas has a high calorific value of 20–25 MJ/m³ and burns cleanly with a non-luminous blue flame without producing smoke or soot, making it an eco-friendly rural energy alternative to firewood."
+    }
+  ]
+}

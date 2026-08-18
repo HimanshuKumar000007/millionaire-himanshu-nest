@@ -1,0 +1,62 @@
+{
+  "id": "chem-xii-u12-c3-l06",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XII \u2014 Chemical Kinetics",
+  "unitNumber": 12,
+  "chapter": "Chemical Kinetics",
+  "chapterNumber": 3,
+  "chapterSlug": "chemical-kinetics",
+  "slug": "lesson-06-temperature-dependence-arrhenius-equation",
+  "title": "Temperature Dependence, Temperature Coefficient, & Arrhenius Equation",
+  "topic": "Temperature Dependence & Arrhenius Equation",
+  "topics": [
+    "Temperature Coefficient (TC = k_(T+10) / k_T \u2248 2 to 3)",
+    "6.1 The Arrhenius Equation (k = A \u00b7 e^(-E_a / RT))",
+    "Arrhenius Parameters: Frequency Factor A, Activation Energy E_a, Boltzmann Factor e^(-E_a/RT)",
+    "Arrhenius Linear Plots (log\u2081\u2080 k vs 1/T with slope = -E_a / (2.303 R))",
+    "6.2 Two-Temperature Form: log\u2081\u2080(k_2 / k_1) = (E_a / 2.303 R) \u00b7 ((T_2 - T_1) / (T_1 T_2))"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "chemical-kinetics",
+  "quickSummary": "TC = k_(T+10)/k_T \u2248 2-3. Arrhenius equation: k = A\u00b7e^(-E_a/RT). Linear plot: log\u2081\u2080 k = log\u2081\u2080 A - E_a / (2.303 RT) with slope = -E_a / (2.303 R). Two-temperature form: log\u2081\u2080(k\u2082/k\u2081) = (E_a / 2.303 R)\u00b7((T\u2082 - T\u2081)/(T\u2081\u00b7T\u2082)).",
+  "summary": "Master the Arrhenius equation, linear log k vs 1/T plots, activation energy calculations, and temperature coefficients.",
+  "conceptBreakdown": [
+    {
+      "heading": "6. Temperature Dependence & Arrhenius Equation",
+      "title": "6. Temperature Dependence & Arrhenius Equation",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Arrhenius Equation",
+        "takeaway": "k = A e^(-E_a / RT). TC = k_(T+10) / k_T \u2248 2 to 3. Rate doubles because the Boltzmann fraction e^(-E_a/RT) expands exponentially."
+      },
+      "codeSnippet": "                           TEMPERATURE COEFFICIENT (TC)\n                           \n   $$\\mathbf{\\text{TC} = \\frac{k_{T + 10^\\circ\\text{C}}}{k_T} \\approx 2 \\text{ to } 3}$$\n   For most chemical reactions, a $10^\\circ\\text{C}$ rise in temperature DOUBLES or TRIPLES the rate constant $k$.\n\n6.1 The Arrhenius Equation (Svante Arrhenius, 1889)\n\n   $$\\mathbf{k = A e^{-E_a / RT}}$$\n\n   \u2022 A = Frequency Factor / Pre-exponential Factor\n   \u2022 E_a = Activation Energy (J/mol or kJ/mol)\n   \u2022 R = 8.314 J/mol\u00b7K (Gas Constant)\n   \u2022 e^(-E_a / RT) = Boltzmann Factor (fraction of molecules possessing energy \u2265 E_a)",
+      "content": "Reaction rates increase sharply with increasing temperature:\n$$\\mathbf{\\text{TC} = \\frac{k_{T + 10^\\circ\\text{C}}}{k_T} \\approx 2 \\text{ to } 3}$$\n\n### 6.1 The Arrhenius Equation (Svante Arrhenius, 1889)\nQuantifies the temperature dependence of the rate constant $k$:\n$$\\mathbf{k = A e^{-E_a / RT}}$$\nwhere:\n- $A$ = Frequency Factor / Pre-exponential Factor (measures total collision frequency and orientation)\n- $E_a$ = Activation Energy ($\\text{J/mol}$ or $\\text{kJ/mol}$)\n- $R = 8.314\\text{ J/mol}\\cdot\\text{K}$ (Gas Constant)\n- $e^{-E_a / RT}$ = Boltzmann Factor (fraction of molecules possessing energy $\\ge E_a$)"
+    },
+    {
+      "heading": "6.2 Linear Arrhenius Plots & Two-Temperature Equation",
+      "title": "6.2 Linear Arrhenius Plots & Two-Temperature Equation",
+      "type": "paragraph",
+      "codeSnippet": "                       ARRHENIUS LINEAR PLOTS\n                       \n   Logarithmic Form:   $$\\mathbf{\\ln k = \\ln A - \\frac{E_a}{RT}} \\implies \\mathbf{\\log_{10} k = \\log_{10} A - \\frac{E_a}{2.303 RT}}$$\n\n                        ARRHENIUS GRAPHICAL PLOT\n                        \n       log\u2081\u2080 k \u25b2\n               \u2502 * (y-intercept = log\u2081\u2080 A)\n               \u2502  \\\n               \u2502   \\  Slope = -E_a / (2.303 R)\n               \u2502    \\\n             0 \u2514\u2500\u2500\u2500\u2500\u2500*\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba 1/T (K\u207b\u00b9)\n\n6.2 Two-Temperature Form of Arrhenius Equation:\n$$\\mathbf{\\log_{10} \\left( \\frac{k_2}{k_1} \\right) = \\frac{E_a}{2.303 R} \\left( \\frac{T_2 - T_1}{T_1 T_2} \\right) = \\frac{E_a}{2.303 R} \\left( \\frac{1}{T_1} - \\frac{1}{T_2} \\right)}$$",
+      "content": "Evaluating rate constants $k_1$ and $k_2$ at temperatures $T_1$ and $T_2$ ($T_2 > T_1$):\n$$\\mathbf{\\log_{10} \\left( \\frac{k_2}{k_1} \\right) = \\frac{E_a}{2.303 R} \\left( \\frac{T_2 - T_1}{T_1 T_2} \\right) = \\frac{E_a}{2.303 R} \\left( \\frac{1}{T_1} - \\frac{1}{T_2} \\right)}$$"
+    }
+  ],
+  "quickRevision": [
+    "k = A e^(-E_a/RT).",
+    "TC = k_(T+10)/k_T \u2248 2-3.",
+    "Slope of ln k vs 1/T is -E_a / R.",
+    "Slope of log\u2081\u2080 k vs 1/T is -E_a / (2.303 R).",
+    "log\u2081\u2080(k\u2082/k\u2081) = (E_a / 2.303 R)\u00b7((T\u2082 - T\u2081)/(T\u2081\u00b7T\u2082))."
+  ],
+  "keyFormulae": [
+    "k = A e^{-E_a / RT}",
+    "\\log_{10} k = \\log_{10} A - \\frac{E_a}{2.303 R T}",
+    "\\log_{10} \\left( \\frac{k_2}{k_1} \\right) = \\frac{E_a}{2.303 R} \\left( \\frac{T_2 - T_1}{T_1 T_2} \\right)"
+  ]
+}

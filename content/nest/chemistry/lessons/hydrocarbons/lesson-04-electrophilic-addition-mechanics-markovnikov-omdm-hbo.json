@@ -1,0 +1,61 @@
+{
+  "id": "chem-xi-u9-c9-l04",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit IX \u2014 Hydrocarbons",
+  "unitNumber": 9,
+  "chapter": "Hydrocarbons",
+  "chapterNumber": 9,
+  "chapterSlug": "hydrocarbons",
+  "slug": "lesson-04-electrophilic-addition-mechanics-markovnikov-omdm-hbo",
+  "title": "Electrophilic Addition Mechanics (A_E): Markovnikov, Kharasch, & OMDM/HBO",
+  "topic": "Alkene Additions & Hydration",
+  "topics": [
+    "Electrophilic Addition Mechanics (A_E) and Markovnikov's Rule",
+    "Kharasch Anti-Markovnikov Peroxide Effect (HBr only; Free-Radical Chain Mechanism)",
+    "Why Peroxide Effect Fails for HCl (strong bond) and HI (I\u2022 recombination to I\u2082)",
+    "Alkene Hydration: Acid-Catalyzed (H\u207a/H\u2082O; Carbocation + Rearrangements)",
+    "Oxymercuration-Demercuration (OMDM; Markovnikov; Cyclic Mercurinium Ion; NO Rearrangements)",
+    "Hydroboration-Oxidation (HBO; Anti-Markovnikov; Syn-Addition of H and OH)"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "hydrocarbons",
+  "quickSummary": "Markovnikov addition forms more stable carbocation. Kharasch peroxide effect applies ONLY to HBr (fails for HCl/HI). Hydration comparison: Acid-catalyzed (rearrangements), OMDM (Markovnikov, no rearrangements), HBO (Anti-Markovnikov, syn-addition).",
+  "summary": "Master electrophilic additions to alkenes, Markovnikov and Anti-Markovnikov rules, and the three hydration pathways.",
+  "conceptBreakdown": [
+    {
+      "heading": "4.1 Markovnikov's Rule & Kharasch Peroxide Effect",
+      "title": "4.1 Markovnikov's Rule & Kharasch Peroxide Effect",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "A_E Regioselectivity",
+        "takeaway": "Markovnikov: H\u207a adds to carbon with more H's (forming stable carbocation). Kharasch: HBr + peroxide gives Anti-Markovnikov via Br\u2022 radical."
+      },
+      "codeSnippet": "KHARASCH PEROXIDE MECHANISM (HBr ONLY)\n\nInitiation:   R-O-O-R \u2192 2 RO\u2022 \u2500\u2500[+HBr]\u2500\u2500\u25ba ROH + Br\u2022\nPropagation:  R-CH=CH\u2082 + Br\u2022 \u2192 R-\u010aH-CH\u2082Br (More stable 2\u00b0 radical!)\n              R-\u010aH-CH\u2082Br + HBr \u2192 R-CH\u2082-CH\u2082Br (Anti-Markovnikov) + Br\u2022\n\nWhy Peroxide Effect Fails for HCl & HI (NEST TRAP):\n\u2022 HCl: H-Cl bond is too strong (431 kJ/mol); step 1 is endothermic.\n\u2022 HI: H-I bond is weak, but I\u2022 radicals combine to form I\u2082 (2I\u2022 \u2192 I\u2082) instead of adding to alkenes.",
+      "content": "\u2022 **Markovnikov Addition**: The electrophile $\\text{H}^+$ adds to the $sp^2$ carbon with more hydrogen atoms to generate the more stable carbocation intermediate.\n\u2022 **Anti-Markovnikov Peroxide Effect (Kharasch Effect)**: Applies **STRICTLY to $\\text{HBr}$** in the presence of organic peroxides via a free-radical chain mechanism. $\\text{HCl}$ and $\\text{HI}$ fail this test."
+    },
+    {
+      "heading": "4.2 Alkene Hydration Pathways Comparison Matrix",
+      "title": "4.2 Alkene Hydration Pathways Comparison Matrix",
+      "type": "paragraph",
+      "codeSnippet": "ALKENE HYDRATION MATRIX\n                                     \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                               \u25bc                               \u25bc\nACID-CATALYZED HYDRATION        OXYMERCURATION-DEMERCURATION    HYDROBORATION-OXIDATION\n(H\u207a / H\u2082O)                      (OMDM)                          (HBO)\n\u251c\u2500\u2500 Markovnikov addition        \u251c\u2500\u2500 Markovnikov addition        \u251c\u2500\u2500 Anti-Markovnikov addition\n\u251c\u2500\u2500 Carbocation intermediate    \u251c\u2500\u2500 Cyclic mercurinium ion      \u251c\u2500\u2500 Syn-addition of H\u2082O\n\u2514\u2500\u2500 PRONE TO REARRANGEMENTS     \u2514\u2500\u2500 NO REARRANGEMENTS           \u2514\u2500\u2500 BH\u2083\u00b7THF \u2192 H\u2082O\u2082/OH\u207b",
+      "content": "1. **Acid-Catalyzed Hydration**: $\\text{H}^+/\\text{H}_2\\text{O}$ adds via classical carbocation; prone to 1,2-hydride/methyl shifts (*e.g., 3-methyl-1-butene yields 2-methyl-2-butanol*).\n2. **OMDM**: $\\text{Hg(OAc)}_2 / \\text{H}_2\\text{O}$ followed by $\\text{NaBH}_4$. Adds $\\text{H}_2\\text{O}$ Markovnikov **WITHOUT rearrangement** via a cyclic mercurinium ion.\n3. **HBO**: $\\text{BH}_3\\cdot\\text{THF}$ followed by alkaline $\\text{H}_2\\text{O}_2$. Adds $\\text{H}_2\\text{O}$ in an **Anti-Markovnikov, Syn-addition** manner."
+    }
+  ],
+  "quickRevision": [
+    "Peroxide effect applies ONLY to HBr.",
+    "OMDM gives Markovnikov product with NO rearrangements.",
+    "HBO gives Anti-Markovnikov, Syn-addition product.",
+    "Acid-catalyzed hydration involves carbocation rearrangements."
+  ],
+  "keyFormulae": [
+    "\\text{OMDM: Markovnikov, No Rearrangements}",
+    "\\text{HBO: Anti-Markovnikov, Syn-Addition}"
+  ]
+}

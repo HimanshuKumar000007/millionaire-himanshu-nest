@@ -1,0 +1,60 @@
+{
+  "id": "chem-xii-u16-c7-l04",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVI \u2014 Alcohols, Phenols and Ethers",
+  "unitNumber": 16,
+  "chapter": "Alcohols, Phenols and Ethers",
+  "chapterNumber": 7,
+  "chapterSlug": "alcohols-phenols-ethers",
+  "slug": "lesson-04-industrial-alcohols-methanol-toxicity-denatured-ethanol",
+  "title": "Industrial Alcohols: Methanol Toxicity & Denatured Ethanol",
+  "topic": "Industrial Alcohols & Toxicology",
+  "topics": [
+    "Methanol (CH\u2083OH, 'Wood Spirit') Catalytic Synthesis: CO + 2H\u2082 \u2500\u2500[ZnO-Cr\u2082O\u2083, 200\u2013300 atm, 573\u2013673 K]\u2500\u2500\u25ba CH\u2083OH",
+    "Biochemical Toxicity Mechanism: Liver Alcohol Dehydrogenase converts Methanol \u2500\u2500\u25ba Formaldehyde (HCHO) + Formic Acid (HCOOH)",
+    "Pathology: Protein Coagulation, Irreversible Optic Nerve Destruction (Blindness), Acidosis & Death",
+    "Toxicity Antidote: Intravenous Ethanol (Competitive Inhibitor for Alcohol Dehydrogenase)",
+    "Denatured Alcohol Formulation: Ethanol + 5% Methanol + Pyridine (foul odor) + CuSO\u2084 (blue color)"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Easy",
+  "source": "production",
+  "status": "published",
+  "diagramType": "alcohols-phenols-ethers",
+  "quickSummary": "Methanol ('Wood Spirit') is made by catalytic hydrogenation of CO. Ingested methanol oxidizes in the liver via alcohol dehydrogenase into Formaldehyde and Formic Acid, causing optic nerve damage, blindness, and death. Antidote is intravenous Ethanol (competitive inhibitor). Denatured alcohol is ethanol rendered toxic with methanol, pyridine, and copper sulfate.",
+  "summary": "Master industrial alcohol manufacturing, methanol enzymatic toxicity mechanisms, and denatured ethanol formulations.",
+  "conceptBreakdown": [
+    {
+      "heading": "4. Methanol Industrial Synthesis & Biochemical Toxicity",
+      "title": "4. Methanol Industrial Synthesis & Biochemical Toxicity",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Methanol Toxicity & Antidote",
+        "takeaway": "Methanol \u2500\u2500\u25ba Formaldehyde (HCHO) \u2500\u2500\u25ba Formic Acid (HCOOH), causing blindness and death. Antidote: Intravenous Ethanol."
+      },
+      "codeSnippet": "METHANOL SYNTHESIS & ENZYMATIC TOXICITY:\n\n\u2022 Synthesis: CO(g) + 2H\u2082(g) \u2500\u2500[ZnO-Cr\u2082O\u2083, 200\u2013300 atm, 573\u2013673 K]\u2500\u2500\u25ba CH\u2083OH(l)\n\u2022 Toxicity:  CH\u2083OH \u2500\u2500[Alcohol Dehydrogenase]\u2500\u2500\u25ba HCHO (Formaldehyde) \u2500\u2500\u25ba HCOOH (Formic Acid)\n\u2022 Pathology: Coagulates retinal proteins \u2500\u2500\u25ba Blindness; Acidosis \u2500\u2500\u25ba Respiratory arrest & death.\n\u2022 Antidote:  Intravenous Ethanol (Competitively binds alcohol dehydrogenase).",
+      "content": "Methanol ($\\text{CH}_3\\text{OH}$ - \"Wood Spirit\") is produced by high-pressure catalytic hydrogenation of $\\text{CO}$.\n- **Biochemical Toxicity**: Ingested methanol is oxidized in the liver by Alcohol Dehydrogenase into Formaldehyde ($\\text{HCHO}$) and Formic Acid ($\\text{HCOOH}$), coagulating proteins and destroying the optic nerve.\n- **Antidote**: Intravenous administration of Ethanol (competes for the enzyme, allowing kidneys to excrete intact methanol)."
+    },
+    {
+      "heading": "4.1 Denatured Ethanol & Commercial Formulations",
+      "title": "4.1 Denatured Ethanol & Commercial Formulations",
+      "type": "paragraph",
+      "codeSnippet": "DENATURED ALCOHOL COMPOSITION:\n\n\u2022 Commercial Ethanol rendered undrinkable by adding:\n  1. 5% Methanol (toxic wood spirit)\n  2. Pyridine (imparts repulsive foul odor)\n  3. Copper Sulfate (imparts diagnostic blue color)",
+      "content": "Denatured alcohol is commercial ethanol rendered unfit for human consumption by adding toxic and foul-smelling additives."
+    }
+  ],
+  "quickRevision": [
+    "Methanol is made from CO + 2H\u2082 over ZnO-Cr\u2082O\u2083 catalyst.",
+    "Methanol is metabolized to Formaldehyde and Formic Acid in the liver.",
+    "Causes protein coagulation, optic nerve damage (blindness), and death.",
+    "Ethanol is the competitive antidote for methanol poisoning.",
+    "Denatured alcohol contains ethanol + methanol + pyridine + CuSO\u2084."
+  ],
+  "keyFormulae": [
+    "\\text{CO}(g) + 2\\text{H}_2(g) \\xrightarrow{\\text{ZnO-Cr}_2\\text{O}_3, \\ 200\\text{--}300\\text{ atm}, \\ 573\\text{--}673\\text{ K}} \\text{CH}_3\\text{OH}(l)"
+  ]
+}

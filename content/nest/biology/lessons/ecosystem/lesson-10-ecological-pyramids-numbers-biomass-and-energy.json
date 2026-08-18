@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u10-c12-l10",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit X — Ecology",
+  "unitNumber": 10,
+  "chapter": "Ecosystem",
+  "chapterNumber": 12,
+  "chapterSlug": "ecosystem",
+  "slug": "lesson-10-ecological-pyramids-numbers-biomass-and-energy",
+  "title": "Ecological Pyramids: Numbers, Biomass, & Energy",
+  "topic": "Eltonian Pyramids, Upright vs Inverted Models, Inverted Marine Biomass, & Inverted Tree Numbers",
+  "order": 10,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Ecological (Eltonian) Pyramids graphically depict trophic structures: (1) Pyramid of Numbers: Upright in grasslands/ponds; INVERTED in single tree ecosystems (1 tree T1 -> thousands of herbivorous insects T2 -> hyper-parasites T3). (2) Pyramid of Biomass: Upright in forests/grasslands; INVERTED in open oceans/seas because a small standing crop of rapidly turning-over phytoplankton T1 supports a larger biomass of zooplankton/fishes T2-T3. (3) Pyramid of Energy: ALWAYS UPRIGHT without exception in all natural ecosystems due to Lindeman's 10% law and the Second Law of Thermodynamics.",
+  "summary": "Ecological (Eltonian) Pyramids graphically depict trophic structures: (1) Pyramid of Numbers: Upright in grasslands/ponds; INVERTED in single tree ecosystems (1 tree T1 -> thousands of herbivorous insects T2 -> hyper-parasites T3). (2) Pyramid of Biomass: Upright in forests/grasslands; INVERTED in open oceans/seas because a small standing crop of rapidly turning-over phytoplankton T1 supports a larger biomass of zooplankton/fishes T2-T3. (3) Pyramid of Energy: ALWAYS UPRIGHT without exception in all natural ecosystems due to Lindeman's 10% law and the Second Law of Thermodynamics.",
+  "conceptBreakdown": [
+    {
+      "heading": "Eltonian Ecological Pyramids & Inverted Morphologies",
+      "title": "Eltonian Ecological Pyramids & Inverted Morphologies",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Ecological pyramids illustrate trophic numbers, biomass, and energy. Number pyramids invert in single tree systems; biomass pyramids invert in open oceans; energy pyramids are ALWAYS upright without exception."
+      },
+      "codeSnippet": "INVERTED PYRAMIDS EXAMPLES\n                     \n   1. INVERTED BIOMASS (Sea)                  2. INVERTED NUMBERS (Tree)\n   \n      Fishes / T₂ (12 g/m²)                     Hyper-parasites / T₃ (10,000)\n      ─────────────────────────                 ─────────────────────────\n      Phytoplankton / T₁ (4 g/m²)               Insects / T₂ (1,000)\n      ─────────────────                         ───────────────\n                                                Single Tree / T₁ (1)\n                                                ───────",
+      "content": "### 10.1 The Three Types of Eltonian Pyramids (Charles Elton, 1927)\n- Ecological pyramids graphically portray the structural parameters of successive trophic levels ($T_1 \\rightarrow T_2 \\rightarrow T_3 \\rightarrow T_4$) in an ecosystem.\n\n### 10.2 Comprehensive Matrix of Ecological Pyramids\n\n| Pyramid Type | Standard Orientation | Classic Inverted Exceptions | Biological / Ecological Cause |\n| :--- | :--- | :--- | :--- |\n| **Pyramid of Numbers** | **Upright** (Grassland, Pond) | **Inverted / Spindle-Shaped** in a **Single Tree Ecosystem** | A single large producer oak/tree ($T_1 = 1$) supports thousands of herbivorous insects ($T_2 = 1000$), which support birds ($T_3 = 50$) and thousands of ectoparasitic lice ($T_4 = 5000$) |\n| **Pyramid of Biomass** | **Upright** (Forest, Savanna) | **INVERTED** in **Open Ocean / Sea Ecosystems** | The instantaneous standing crop of **Phytoplankton ($T_1 = 4\\text{ g/m}^2$)** is very small, but their rapid turnover rate and high primary productivity support a much larger standing crop of **Zooplankton/Fishes ($T_2, T_3 = 12\\text{ g/m}^2$)** |\n| **Pyramid of Energy** | **ALWAYS UPRIGHT** | **NO EXCEPTIONS EVER** | At each trophic transfer, $\\approx 90\\%$ of energy is dissipated as metabolic heat ($R$). Energy reaching higher levels is strictly less than preceding levels (**Second Law of Thermodynamics**) |\n\n### 10.3 Invariant Exam Diagnostic Rules\n1. **Rule 1**: The base ($T_1$) always represents primary producers; the apex represents top carnivores.\n2. **Rule 2**: If asked about an inverted energy pyramid, the answer is **IMPOSSIBLE IN NATURE**."
+    },
+    {
+      "heading": "Spindle-Shaped Pyramids",
+      "title": "Spindle-Shaped Pyramids",
+      "type": "paragraph",
+      "content": "In a forest tree ecosystem where a single tree (T1 = 1) supports many herbivorous birds (T2 = 50) that are preyed upon by a single top hawk (T3 = 1), the pyramid of numbers is spindle-shaped (narrow at base and apex, wide in the middle)."
+    },
+    {
+      "heading": "Dry Weight vs Fresh Weight in Biomass Pyramids",
+      "title": "Dry Weight vs Fresh Weight in Biomass Pyramids",
+      "type": "paragraph",
+      "content": "Constructing biomass pyramids using fresh wet weight introduces significant artifacts because succulent plants (e.g., Opuntia) and jellyfish contain >95% water; drying to constant weight (dry biomass) provides true caloric accuracy."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "chem-xi-u7-c7-l07",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VII \u2014 Redox Reactions",
+  "unitNumber": 7,
+  "chapter": "Redox Reactions",
+  "chapterNumber": 7,
+  "chapterSlug": "redox-reactions",
+  "slug": "lesson-07-redox-titrations-permanganometry-dichrometry-iodometry",
+  "title": "Redox Titrations: Permanganometry, Dichrometry, & Iodometry vs. Iodimetry",
+  "topic": "Redox Titrations & Iodometry",
+  "topics": [
+    "Permanganometry (KMnO\u2084 as Self-Indicator, Purple to Colorless)",
+    "Dichrometry (K\u2082Cr\u2082O\u2087 with Diphenylamine Internal Indicator, Orange to Green/Blue-Violet)",
+    "Iodimetry: Direct titration of reductants against standard I\u2082 (Deep blue appears)",
+    "Iodometry: Indirect titration of liberated I\u2082 against Hypo (Deep blue disappears)",
+    "n-Factor of Hypo (Na\u2082S\u2082O\u2083 \u2192 Na\u2082S\u2084O\u2086, n=1, E.M.=Molar Mass)"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "redox-reactions",
+  "quickSummary": "KMnO\u2084 is a self-indicator. K\u2082Cr\u2082O\u2087 uses diphenylamine. Iodimetry is direct I\u2082 titration (blue appears). Iodometry is indirect I\u2082 titration against Hypo (blue disappears). Hypo n=1.",
+  "summary": "Master permanganometry, dichrometry, direct iodimetry, indirect iodometry, and sodium thiosulfate mechanics.",
+  "conceptBreakdown": [
+    {
+      "heading": "7.1 Redox Titration Methodologies",
+      "title": "7.1 Redox Titration Methodologies",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "3 Titration Modes",
+        "takeaway": "Permanganometry: self-indicator. Dichrometry: diphenylamine indicator. Iodometry/Iodimetry: starch indicator."
+      },
+      "codeSnippet": "REDOX TITRATION TYPES\n                                       \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                                 \u25bc                                 \u25bc\nPERMANGANOMETRY                  DICHROMETRY                      IODOMETRY / IODIMETRY\n\u251c\u2500\u2500 KMnO\u2084 in Acidic Medium       \u251c\u2500\u2500 K\u2082Cr\u2082O\u2087 in Acidic            \u251c\u2500\u2500 Iodimetry: Direct I\u2082 titration\n\u251c\u2500\u2500 Self-Indicator               \u251c\u2500\u2500 Requires Diphenylamine       \u2514\u2500\u2500 Iodometry: Indirect I\u2082 release\n\u2514\u2500\u2500 Purple \u2192 Colorless (Mn\u00b2\u207a)    \u2514\u2500\u2500 Orange \u2192 Green (Cr\u00b3\u207a)            via Hypo (Na\u2082S\u2082O\u2083) + Starch",
+      "content": "1. **Permanganometry**:\n   - Titrant: $\\text{KMnO}_4$ in $\\text{H}_2\\text{SO}_4$ medium.\n   - **Self-Indicator**: Deep purple $\\text{MnO}_4^-$ acts as its own indicator, discharging to colorless $\\text{Mn}^{2+}$ until a faint pink persistence marks the end point.\n2. **Dichrometry**:\n   - Titrant: $\\text{K}_2\\text{Cr}_2\\text{O}_7$ in $\\text{H}_2\\text{SO}_4$ medium.\n   - Requires an **Internal Redox Indicator** (Diphenylamine) because orange $\\text{Cr}_2\\text{O}_7^{2-}$ reduces to green $\\text{Cr}^{3+}$, obscuring visual end points. Excess oxidant oxidizes diphenylamine to deep blue-violet diphenylbenzidine."
+    },
+    {
+      "heading": "7.2 Iodimetry vs. Iodometry and Hypo Mechanics",
+      "title": "7.2 Iodimetry vs. Iodometry and Hypo Mechanics",
+      "type": "paragraph",
+      "codeSnippet": "IODIMETRY vs IODOMETRY SCHEMATIC\n                       \nIODIMETRY (Direct Titration):\nReducing Agent + Standard I\u2082 Solution \u2500\u2500[Starch]\u2500\u2500\u25ba 2I\u207b (End point: Deep Blue appears)\n   \nIODOMETRY (Indirect Titration):\nStep 1: Oxidant (Cu\u00b2\u207a, Cr\u2082O\u2087\u00b2\u207b) + Excess KI \u2500\u2500\u25ba Liberated I\u2082\nStep 2: Liberated I\u2082 + 2Na\u2082S\u2082O\u2083 \u2500\u2500[Starch]\u2500\u2500\u25ba 2NaI + Na\u2082S\u2084O\u2086 (End point: Blue disappears)\n\nHypo Reaction: I\u2082 + 2S\u2082O\u2083\u00b2\u207b \u2192 2I\u207b + S\u2084O\u2086\u00b2\u207b  \u27f9  n-factor of Hypo = 1 (E.M. = Molar Mass)",
+      "content": "\u2022 **Iodimetry (Direct Titration)**: Reducing agents are titrated directly with standard $\\text{I}_2$ in the presence of starch. End point: **Deep blue color appears**.\n\u2022 **Iodometry (Indirect Titration)**: An oxidizing agent ($\\text{Cu}^{2+}, \\text{Cr}_2\\text{O}_7^{2-}$) reacts with excess $\\text{KI}$ to liberate free $\\text{I}_2$. The liberated $\\text{I}_2$ is titrated against standard Sodium Thiosulfate (Hypo, $\\text{Na}_2\\text{S}_2\\text{O}_3$). End point: **Deep blue starch-iodine color DISAPPEARS** (becomes colorless).\n\u2022 **n-Factor of Hypo**:\n  $$\\text{I}_2^{(0)} + 2\\text{S}_2\\text{O}_3^{2- (+2)} \\rightarrow 2\\text{I}^{- (-1)} + \\text{S}_4\\text{O}_6^{2- (+2.5)}$$\n  $$n\\text{-factor of } \\text{Na}_2\\text{S}_2\\text{O}_3 = 2 \\times |2.5 - 2.0| = \\mathbf{1} \\implies \\mathbf{\\text{E.M.} = \\text{Molar Mass}}$$"
+    }
+  ],
+  "quickRevision": [
+    "KMnO\u2084 is a self-indicator (purple to colorless/faint pink).",
+    "K\u2082Cr\u2082O\u2087 requires diphenylamine indicator (turns deep blue-violet).",
+    "Iodimetry: direct titration (blue appears).",
+    "Iodometry: indirect titration against Hypo (blue disappears).",
+    "n-Factor of Hypo (Na\u2082S\u2082O\u2083) in iodometry is 1 (E.M. = Molar Mass)."
+  ],
+  "keyFormulae": [
+    "\\text{Equivalents of Oxidant} = \\text{Equivalents of } \\text{I}_2 = \\text{Equivalents of Hypo}",
+    "\\text{n-factor of Hypo (}\\text{Na}_2\\text{S}_2\\text{O}_3\\text{)} = 1"
+  ]
+}

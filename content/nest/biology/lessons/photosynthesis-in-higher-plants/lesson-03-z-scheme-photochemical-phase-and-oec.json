@@ -1,0 +1,51 @@
+{
+  "id": "bio-xi-u4-c11-l03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Photosynthesis in Higher Plants",
+  "chapterNumber": 11,
+  "chapterSlug": "photosynthesis-in-higher-plants",
+  "slug": "lesson-03-z-scheme-photochemical-phase-and-oec",
+  "title": "Photochemical Phase: The Z-Scheme & Oxygen Evolving Complex",
+  "topic": "PS II, Kok S-State Clock (Mn4CaO5), Plastoquinone Q-Cycle, Cytochrome b6f, Plastocyanin, & FNR",
+  "topics": [
+    "Non-Cyclic Photophosphorylation Overview ($PS II \\rightarrow PS I$ in Series)",
+    "Redox Potential Scale ($E_0^\\prime$ in Volts) & Z-Scheme Energetics",
+    "Oxygen Evolving Complex (OEC / $\\text{Mn}_4\\text{CaO}_5$ Cluster) on the Luminal Surface",
+    "Kok S-State Clock ($S_0 \\rightarrow S_4$ Five Oxidation States)",
+    "Electron Carrier Progression: $\\text{Y}_Z \\rightarrow \\text{P680} \\rightarrow \\text{Pheophytin} \\rightarrow \\text{PQ}_A/\\text{PQ}_B$",
+    "Cytochrome $b_6f$ Complex & Q-Cycle Luminal Proton Accumulation",
+    "Plastocyanin (Copper Protein) & Ferredoxin-NADP+ Reductase (FNR Flavoenzyme)"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Non-cyclic photophosphorylation connects PS II (P680) and PS I (P700) along a redox potential gradient (the Z-Scheme). The luminal Oxygen Evolving Complex (Mn4CaO5 cluster) splits 2 H2O into 4 H+ (in lumen), 4 electrons, and 1 O2 across the Kok S-state cycle. Excited electrons flow: P680 -> Pheophytin -> Plastoquinone -> Cytochrome b6f (pumps 8 H+ via Q-cycle) -> Plastocyanin -> P700 -> A0/A1 -> Fx -> FA/FB -> Ferredoxin -> FNR -> NADPH + H+.",
+  "summary": "Non-cyclic photophosphorylation connects PS II (P680) and PS I (P700) along a redox potential gradient (the Z-Scheme). The luminal Oxygen Evolving Complex (Mn4CaO5 cluster) splits 2 H2O into 4 H+ (in lumen), 4 electrons, and 1 O2 across the Kok S-state cycle. Excited electrons flow: P680 -> Pheophytin -> Plastoquinone -> Cytochrome b6f (pumps 8 H+ via Q-cycle) -> Plastocyanin -> P700 -> A0/A1 -> Fx -> FA/FB -> Ferredoxin -> FNR -> NADPH + H+.",
+  "conceptBreakdown": [
+    {
+      "heading": "3. The Z-Scheme Redox Framework",
+      "title": "3. The Z-Scheme Redox Framework",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Z-scheme connects PS II and PS I in series. OEC on the LUMINAL face splits water. 1 O2 evolution yields 12 luminal H+, 3 ATP, and 2 NADPH."
+      },
+      "codeSnippet": "THE Z-SCHEME ELECTRON FLOW\n                        \n  E₀' (Volts)\n   -0.8 ──                     Pheo ──► PQ ──► Cyt b₆f ──► PC\n   -0.4 ──                    /                             \\\n    0.0 ──                   /                               \\\n   +0.4 ──       P680* (PS II)                                P700* (PS I) ──► Fd ──► FNR ──► NADP⁺\n   +0.8 ──       /\n   +1.2 ── OEC ─/ P680                                      P700",
+      "content": "The light reactions (Photochemical Phase) convert photon energy into assimilatory power ($\\text{ATP}$ and $\\text{NADPH}$) in the thylakoid membrane."
+    },
+    {
+      "heading": "3.1 Non-Cyclic Pathway & OEC Biochemistry",
+      "title": "3.1 Non-Cyclic Pathway & OEC Biochemistry",
+      "type": "paragraph",
+      "codeSnippet": "NON-CYCLIC ELECTRON PATHWAY\n                      \n   2 H₂O ──► [OEC (Mn₄CaO₅)] ──► Y_Z ──► P680 ──► Pheophytin ──► Plastoquinone (PQ_A ──► PQ_B)\n                                                                       │\n   P700 (PS I) ◄── Plastocyanin (PC) ◄── Cytochrome b₆f Complex ◄──────┘\n       │\n       ▼\n   A₀ (Chl) ──► A₁ (Phylloquinone) ──► F_X ──► F_A/F_B ──► Ferredoxin (Fd) ──► FNR ──► NADP⁺",
+      "content": "1. **Oxygen Evolving Complex (OEC)**: Located on the **LUMINAL side** of the thylakoid membrane, bound to PS II. Contains a **$\\text{Mn}_4\\text{CaO}_5$ cluster** cycling through 5 oxidation states ($S_0\\text{--}S_4$ Kok cycle) to split water:\n   $$2\\text{H}_2\\text{O} \\xrightarrow[\\text{Tyrosine}_Z]{\\text{OEC / }\\text{Mn}_4\\text{CaO}_5} 4\\text{H}^+\\text{ (Lumen)} + 4\\text{e}^- + \\text{O}_2\\uparrow$$\n2. **Plastoquinone Pool (PQ)**: Mobile lipid-soluble quinone that picks up $2\\text{e}^-$ from PS II and $2\\text{H}^+$ from stroma, transferring electrons to Cytochrome $b_6f$ while pumping protons into the lumen via the Q-cycle.\n3. **Plastocyanin (PC)**: Soluble, copper-containing luminal protein delivering electrons to $\\text{P700}^+$ (PS I).\n4. **Ferredoxin-NADP+ Reductase (FNR)**: Stroma-facing flavoenzyme with an FAD cofactor catalyzing:\n   $$\\text{NADP}^+ + 2\\text{H}^+\\text{ (Stroma)} + 2\\text{e}^- \\xrightarrow{\\text{FNR}} \\text{NADPH} + \\text{H}^+$$"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "math-sets-lesson-07",
+  "exam": "NEST",
+  "subject": "Mathematics",
+  "classLevel": "Class XI",
+  "unit": "Unit 1 — Sets and Functions",
+  "unitNumber": 1,
+  "chapter": "Sets",
+  "chapterNumber": 1,
+  "chapterSlug": "sets",
+  "lessonNumber": 7,
+  "order": 7,
+  "slug": "lesson-07-inclusion-exclusion",
+  "title": "Principle of Inclusion-Exclusion (PIE) & Cardinality",
+  "topic": "Subsets & Venn diagrams",
+  "status": "published",
+  "estimatedTimeMinutes": 5,
+  "readingTimeMinutes": 5,
+  "diagramType": "sets",
+  "quickSummary": "PIE calculates the cardinality of the union of non-disjoint sets without overcounting intersections.",
+  "summary": "Master PIE formulas for 2 and 3 sets, exact disjoint partitions, and generalized Bonferroni inequalities.",
+  "coreConcepts": ["PIE for 2 Sets", "PIE for 3 Sets", "Exactly One Set", "Exactly Two Sets", "Bonferroni Inequalities"],
+  "conceptBreakdown": [
+    {
+      "heading": "7. Principle of Inclusion-Exclusion Formulations",
+      "title": "7. Principle of Inclusion-Exclusion Formulations",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Bonferroni Bounds",
+        "takeaway": "When full intersections are unknown, Bonferroni inequalities establish strict mathematical upper and lower bounds."
+      },
+      "codeSnippet": "3-SET VENN DIAGRAM DECOMPOSITION\n                   \n                          Universal Set U\n              ┌─────────────────────────────────────┐\n              │    Set A               Set B        │\n              │   ┌───────────┐      ┌───────────┐  │\n              │   │   a       │  d   │       b   │  │\n              │   │     ┌─────┼──────┼─────┐     │  │\n              │   │     │  g  │  g   │  f  │     │  │\n              │   └─────┼─────┼──────┼─────┘     │  │\n              │         │  e  │  g   │           │  │\n              │         └─────┼──────┘           │  │\n              │               │     c            │  │\n              │               └──────────────────┘  │\n              │                      Set C          │\n              └─────────────────────────────────────┘",
+      "content": "The **Principle of Inclusion-Exclusion (PIE)** calculates the cardinality of the union of multiple non-disjoint finite sets without overcounting intersections.\n\n### 5.1 PIE Formulations for 2 and 3 Sets\n\n1. **Cardinality of Two Sets**:\n   $$\\mathbf{|A \\cup B| = |A| + |B| - |A \\cap B|}$$\n   *Corollary (Exact Disjoint Partition)*:\n   $$|A \\cup B| = |A \\setminus B| + |B \\setminus A| + |A \\cap B|$$\n\n2. **Cardinality of Three Sets**:\n   $$\\mathbf{|A \\cup B \\cup C| = |A| + |B| + |C| - |A \\cap B| - |B \\cap C| - |C \\cap A| + |A \\cap B \\cap C|}$$\n\n3. **Number of Elements in EXACTLY One Set**:\n   $$\\mathbf{N_{\\text{exact1}} = |A| + |B| + |C| - 2(|A \\cap B| + |B \\cap C| + |C \\cap A|) + 3|A \\cap B \\cap C|}$$\n\n4. **Number of Elements in EXACTLY Two Sets**:\n   $$\\mathbf{N_{\\text{exact2}} = |A \\cap B| + |B \\cap C| + |C \\cap A| - 3|A \\cap B \\cap C|}$$\n\n5. **Number of Elements in AT LEAST Two Sets**:\n   $$\\mathbf{N_{\\text{atleast2}} = |A \\cap B| + |B \\cap C| + |C \\cap A| - 2|A \\cap B \\cap C|}$$\n\n### 5.2 Generalization to n Sets (Bonferroni Inequalities)\n\nFor finite sets $A_1, A_2, \\dots, A_n$:\n\n$$|\\bigcup_{i=1}^n A_i| = \\sum_{1 \\le i \\le n} |A_i| - \\sum_{1 \\le i < j \\le n} |A_i \\cap A_j| + \\sum_{1 \\le i < j < k \\le n} |A_i \\cap A_j \\cap A_k| - \\dots + (-1)^{n-1} |A_1 \\cap A_2 \\cap \\dots \\cap A_n|$$\n\nTruncating the PIE expansion yields the **Bonferroni Inequalities**:\n- **Odd-term truncation** gives an upper bound: $|\\bigcup A_i| \\le \\sum |A_i|$.\n- **Even-term truncation** gives a lower bound: $|\\bigcup A_i| \\ge \\sum |A_i| - \\sum |A_i \\cap A_j|$."
+    }
+  ]
+}

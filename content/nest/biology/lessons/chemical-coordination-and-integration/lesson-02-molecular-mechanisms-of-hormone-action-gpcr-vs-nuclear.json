@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-20-02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Chemical Coordination and Integration",
+  "chapterNumber": 20,
+  "chapterSlug": "chemical-coordination-and-integration",
+  "lessonNumber": 2,
+  "title": "Molecular Mechanisms of Hormone Action: GPCR vs. Nuclear Receptors",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Hard",
+  "prerequisites": ["Signal transduction", "Gene transcription"],
+  "learningObjectives": [
+    "Trace the Adenylate Cyclase-cAMP-PKA signal transduction cascade",
+    "Describe the Phospholipase C (PLC) IP3/DAG and Ca2+-Calmodulin pathway",
+    "Detail how lipid-soluble hormone-receptor complexes bind Hormone Response Elements (HRE) on DNA"
+  ],
+  "content": "Hormones trigger physiological responses in target tissues by binding specific protein Hormone Receptors.\n\n```\n                        HORMONE RECEPTOR MECHANISMS\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n  MEMBRANE-BOUND RECEPTORS                                INTRACELLULAR / NUCLEAR RECEPTORS\n  (Water-Soluble: Peptides & Catecholamines)              (Lipid-Soluble: Steroids & T₃/T₄)\n  ├── Cannot cross lipid bilayer                          ├── Diffuses directly across plasma membrane\n  ├── Generates Second Messengers                         ├── Binds nuclear receptor to form Hormone-\n  │   (cAMP, IP₃, DAG, Ca²⁺)                              │   Receptor Complex\n  └── Activates Protein Kinases (PKA / PKC)               └── Binds DNA HRE to regulate Transcription\n```\n\n### 2.1 Second Messenger Signal Transduction Cascades\n\n```\n                     GPCR-cAMP SIGNAL TRANSDUCTION CASCADES\n                     \n   Water-Soluble Hormone (1st Messenger) ──► Binds Cell-Surface GPCR Receptor\n                                                     │\n   Activates Transmembrane Adenylate Cyclase ◄───────┘\n               │\n   Converts ATP ──► Cyclic AMP (cAMP) (2nd Messenger)\n                           │\n   Activates Protein Kinase A (PKA) ──► Phosphorylates Target Proteins ──► Physiological Response\n```\n\n```\n                     PLC-IP₃ / DAG SIGNAL TRANSDUCTION CASCADES\n                     \n   Hormone ──► GPCR ──► Activates Phospholipase C (PLC) ──► Cleaves PIP₂ into IP₃ + DAG\n                                                                   │\n   ┌───────────────────────────────────────────────────────────────┴───────────────────────────────┐\n   ▼                                                                                               ▼\n   IP₃ triggers Ca²⁺ release from ER lumen                                                         DAG activates Protein\n   Ca²⁺ binds Calmodulin ──► Downstream Kinase Activation                                          Kinase C (PKC)\n```\n\n### 2.2 Gene Expression Regulation by Nuclear Receptors\n\n```\n                   INTRACELLULAR / NUCLEAR RECEPTOR CASCADE\n                   \n   Lipid-Soluble Hormone (Steroid/T₃) ──► Diffuses across lipid bilayer into Cytosol / Nucleus\n                                                    │\n   Binds Intracellular Receptor ──► Forms Hormone-Receptor Complex\n                                                    │\n   Translocates to Nucleus ──► Binds Hormone Response Element (HRE) on DNA\n                                                    │\n   Alters mRNA Transcription ──► Protein Translation ──► Physiological Response\n```",
+  "conceptBreakdown": [
+    {
+      "heading": "Amplification Cascade of Second Messengers",
+      "explanation": "A single hormone molecule binding to a GPCR can activate multiple G-proteins, generating thousands of cAMP molecules and activating numerous PKA enzymes to phosphorylate millions of substrate proteins within seconds."
+    },
+    {
+      "heading": "Zinc Finger Motifs in Nuclear Receptors",
+      "explanation": "Intracellular nuclear hormone receptors possess a central DNA-binding domain containing conserved Zinc Finger motifs that recognize specific palindromic or direct-repeat nucleotide sequences in Hormone Response Elements (HREs)."
+    }
+  ]
+}

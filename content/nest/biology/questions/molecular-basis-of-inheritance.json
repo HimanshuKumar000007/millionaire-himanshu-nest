@@ -1,0 +1,602 @@
+[
+  {
+    "id": "bio-xii-u7-c5-q01",
+    "questionNumber": 1,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Hershey-Chase Experiment",
+    "questionText": "In the classic Hershey-Chase experiment (1952), T2 bacteriophages were labeled with either radioactive ^35S or ^32P and allowed to infect E. coli cells. After blending and centrifugation, where was the radioactivity detected for the ^35S-labeled phage batch and the ^32P-labeled phage batch, respectively?",
+    "options": [
+      {
+        "id": "A",
+        "text": "^35S in Bacterial Pellet; ^32P in Supernatant"
+      },
+      {
+        "id": "B",
+        "text": "^35S in Supernatant (Phage ghosts); ^32P in Bacterial Pellet"
+      },
+      {
+        "id": "C",
+        "text": "Both ^35S and ^32P in the Bacterial Pellet"
+      },
+      {
+        "id": "D",
+        "text": "Both ^35S and ^32P in the Supernatant"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Radioactive ^35S selectively labels viral protein coats, which remain outside the host cell and separate into the Supernatant after blending. Radioactive ^32P selectively labels the viral DNA core, which is injected into the bacterium and separates into the Bacterial Pellet upon centrifugation."
+  },
+  {
+    "id": "bio-xii-u7-c5-q02",
+    "questionNumber": 2,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "DNA Polymerase I Exonuclease Activity",
+    "questionText": "During semi-conservative DNA replication in E. coli, which enzyme possesses unique 5' -> 3' exonuclease activity that allows it to remove RNA primers ahead of it while simultaneously filling the resulting gaps with deoxyribonucleotides 5' -> 3'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "DNA Polymerase III"
+      },
+      {
+        "id": "B",
+        "text": "DNA Polymerase I (Klenow fragment)"
+      },
+      {
+        "id": "C",
+        "text": "DNA Gyrase"
+      },
+      {
+        "id": "D",
+        "text": "Primase (DnaG)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "DNA Polymerase I is unique among prokaryotic DNA polymerases in possessing 5' -> 3' exonuclease activity. This activity enables primer removal in the 5' -> 3' direction, removing RNA primers while its 5' -> 3' polymerase activity fills the gap with DNA."
+  },
+  {
+    "id": "bio-xii-u7-c5-q03",
+    "questionNumber": 3,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "5'-Capping of Eukaryotic hnRNA",
+    "questionText": "A molecular biologist analyzes a pre-mRNA transcript (hnRNA) inside the nucleus of a human cell line. The primary transcript undergoes three sequential processing events before nuclear export. What chemical structure is added to the 5' end of hnRNA, and what bond links it to the terminal nucleotide?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Poly-A tail; linked by 3'-5' phosphodiester bond"
+      },
+      {
+        "id": "B",
+        "text": "7-Methylguanosine (7-mG); linked by an unusual 5'-5' triphosphate linkage"
+      },
+      {
+        "id": "C",
+        "text": "Inosine; linked by beta-N-glycosidic bond"
+      },
+      {
+        "id": "D",
+        "text": "CCA tail; linked by peptide bond"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "5'-Capping involves the addition of a 7-methylguanosine triphosphate (7-mGPPP) residue to the 5' terminal nucleotide of hnRNA via an unusual 5'-5' triphosphate linkage."
+  },
+  {
+    "id": "bio-xii-u7-c5-q04",
+    "questionNumber": 4,
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "topic": "Dual Regulation of Lac Operon",
+    "questionText": "In the E. coli Lac Operon, what is the exact molecular state of the system when Glucose levels are extremely LOW and Lactose levels are HIGH?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Repressor bound to Operator; CAP inactive; Operon OFF"
+      },
+      {
+        "id": "B",
+        "text": "Allolactose bound to Repressor (Repressor detached); cAMP high, cAMP-CAP bound to CAP site; Operon MAXIMALLY ON"
+      },
+      {
+        "id": "C",
+        "text": "Repressor bound to Operator; cAMP-CAP bound to CAP site; Operon OFF"
+      },
+      {
+        "id": "D",
+        "text": "Allolactose bound to Repressor; Glucose binds Operator directly"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "High lactose yields Allolactose, which binds the Lac Repressor causing it to detach from the operator. Low glucose causes cAMP to rise, forming active cAMP-CAP complex that binds the CAP site, resulting in MAXIMAL operon transcription."
+  },
+  {
+    "id": "bio-xii-u7-c5-q05",
+    "questionNumber": 5,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Crick's Wobble Hypothesis",
+    "questionText": "According to Francis Crick's Wobble Hypothesis (1966), why can a single tRNA anticodon with Inosine (I) at its 5' position decode three different mRNA codons ending in U, C, or A at their 3' position?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inosine forms covalent peptide bonds with all bases."
+      },
+      {
+        "id": "B",
+        "text": "Non-standard, flexible base pairing is permitted at the 3' base of the mRNA codon (1st base of tRNA anticodon)."
+      },
+      {
+        "id": "C",
+        "text": "Wobble pairing alters the amino acid binding site on the 3'-CCA stem."
+      },
+      {
+        "id": "D",
+        "text": "Inosine deletes the stop codon from mRNA."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The Wobble Hypothesis states that steric constraints are relaxed at the 3' base of the mRNA codon (1st position of the tRNA anticodon). Inosine at the 5' anticodon position can form non-standard hydrogen bonds with U, C, or A at the 3' codon position."
+  },
+  {
+    "id": "bio-xii-u7-c5-q06",
+    "questionNumber": 6,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Peptidyl Transferase Ribozyme",
+    "questionText": "During eukaryotic translation elongation, which enzyme / ribozyme catalyzes the formation of peptide bonds between the amino acid at the A-site and the growing polypeptide chain at the P-site?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aminoacyl-tRNA Synthetase"
+      },
+      {
+        "id": "B",
+        "text": "28S rRNA (Peptidyl Transferase)"
+      },
+      {
+        "id": "C",
+        "text": "RNA Polymerase II"
+      },
+      {
+        "id": "D",
+        "text": "DNA Ligase I"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Peptide bond formation is catalyzed by Peptidyl Transferase, which is a Ribozyme residing in the large ribosomal subunit: 23S rRNA in prokaryotes (70S) and 28S rRNA in eukaryotes (80S)."
+  },
+  {
+    "id": "bio-xii-u7-c5-q07",
+    "questionNumber": 7,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Human Genome Project Findings",
+    "questionText": "Human Genome Project (HGP) data revealed that the human diploid genome contains approximately 3.1647 x 10^9 base pairs. What percentage of the human genome actually codes for proteins?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Approximately 50%"
+      },
+      {
+        "id": "B",
+        "text": "Less than 2%"
+      },
+      {
+        "id": "C",
+        "text": "Exactly 25%"
+      },
+      {
+        "id": "D",
+        "text": "Over 90%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Less than 2% of the human genome codes for proteins. Over 98% consists of non-coding introns, regulatory sequences, and repetitive DNA elements."
+  },
+  {
+    "id": "bio-xii-u7-c5-q08",
+    "questionNumber": 8,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "DNA Fingerprinting & VNTRs",
+    "questionText": "In DNA fingerprinting using Southern Blotting, radiolabeled ^32P-VNTR probes are hybridized to restriction-digested genomic DNA fragments on a nylon membrane. What type of repetitive DNA sequence do VNTRs represent?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Protein-coding exons"
+      },
+      {
+        "id": "B",
+        "text": "Non-coding Minisatellite DNA (11-60 bp repeat units) displaying high population polymorphism"
+      },
+      {
+        "id": "C",
+        "text": "Ribosomal RNA operons"
+      },
+      {
+        "id": "D",
+        "text": "Single Nucleotide Polymorphisms in histone genes"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Variable Number of Tandem Repeats (VNTRs) are hypervariable, non-coding Minisatellite DNA sequences (11-60 bp repeat units). The number of tandem repeats varies among individuals, creating unique band patterns."
+  },
+  {
+    "id": "bio-xii-u7-c5-q09",
+    "questionNumber": 9,
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "topic": "Meselson-Stahl Generation Ratios",
+    "questionText": "Meselson and Stahl proved semiconservative DNA replication using heavy ^15N and light ^14N isotopes in E. coli. If E. coli cells grown in ^15N medium (Generation 0) are transferred to ^14N medium and allowed to replicate for THREE generations (60 minutes), what proportion of the DNA molecules will be Hybrid (^15N-^14N) vs. Light (^14N-^14N)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "100% Hybrid"
+      },
+      {
+        "id": "B",
+        "text": "50% Hybrid : 50% Light"
+      },
+      {
+        "id": "C",
+        "text": "25% Hybrid : 75% Light (2 Hybrid : 6 Light)"
+      },
+      {
+        "id": "D",
+        "text": "75% Hybrid : 25% Light"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Gen 0 (^15N) = 1 Heavy; Gen 1 (^14N) = 2 Hybrid; Gen 2 (^14N) = 2 Hybrid + 2 Light (50%:50%); Gen 3 (^14N) = 2 Hybrid + 6 Light (25% Hybrid : 75% Light)."
+  },
+  {
+    "id": "bio-xii-u7-c5-q10",
+    "questionNumber": 10,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Prokaryotic Transcription Sigma Factor",
+    "questionText": "What specific prokaryotic transcription factor subunit associates with core RNA Polymerase (alpha_2 beta beta' omega) to recognize -35 (TTGACA) and -10 (Pribnow box TATAAT) promoter sequences and initiate transcription?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rho (rho) Factor"
+      },
+      {
+        "id": "B",
+        "text": "Sigma (sigma) Factor"
+      },
+      {
+        "id": "C",
+        "text": "Tau (tau) Factor"
+      },
+      {
+        "id": "D",
+        "text": "TATA-Binding Protein (TBP)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The Sigma (sigma) Factor joins the core bacterial RNA polymerase (alpha_2 beta beta' omega) to form the Holoenzyme. Sigma factor specifically recognizes and binds the -35 and -10 (Pribnow box) promoter elements for transcription initiation."
+  },
+  {
+    "id": "bio-xii-u7-c5-q11",
+    "questionNumber": 11,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Genetic Material Milestones",
+    "questionText": "Which of the following experiments provided biochemical or physical evidence confirming DNA as the genetic material?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Avery, MacLeod, and McCarty showing that DNase enzyme abolishes bacterial transformation."
+      },
+      {
+        "id": "B",
+        "text": "Hershey and Chase demonstrating that radioactive ^32P-labeled phage DNA enters E. coli cells while ^35S-labeled protein coat remains outside."
+      },
+      {
+        "id": "C",
+        "text": "Griffith demonstrating that heat-killed S-strain transforms live R-strain S. pneumoniae."
+      },
+      {
+        "id": "D",
+        "text": "Miller and Urey synthesizing amino acids in a reducing spark-discharge flask."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Griffith discovered transformation, Avery et al. proved DNA is the chemical transforming factor, and Hershey-Chase provided unequivocal proof with radioactive phages. D is incorrect: Miller-Urey demonstrated chemical evolution of organic compounds, not DNA as genetic material."
+  },
+  {
+    "id": "bio-xii-u7-c5-q12",
+    "questionNumber": 12,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "DNA vs RNA Chemical Contrast",
+    "questionText": "Select the valid scientific facts contrasting B-DNA with RNA:",
+    "options": [
+      {
+        "id": "A",
+        "text": "B-DNA contains 2'-deoxyribose sugar lacking a reactive 2'-OH group, making it chemically more stable than RNA."
+      },
+      {
+        "id": "B",
+        "text": "RNA contains Uracil, which lacks the methyl group present at position 5 of Thymine (5-methyluracil) in DNA."
+      },
+      {
+        "id": "C",
+        "text": "B-DNA is a right-handed double helix with 10 bp per turn and a pitch of 3.4 nm (34 Å)."
+      },
+      {
+        "id": "D",
+        "text": "RNA is completely incapable of exhibiting secondary structures or catalytic enzymatic activity."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: 2'-deoxyribose stability, Thymine (5-methyluracil), and B-DNA dimensions (10 bp/turn, 3.4 nm pitch) are accurate. D is incorrect: RNA folds into secondary/tertiary structures (e.g. tRNA) and acts as catalytic ribozymes (e.g. 23S rRNA)."
+  },
+  {
+    "id": "bio-xii-u7-c5-q13",
+    "questionNumber": 13,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Replication Fork Enzymology",
+    "questionText": "Which of the following enzymes participate directly in the DNA Replication Fork in E. coli?",
+    "options": [
+      {
+        "id": "A",
+        "text": "DnaB Helicase (unwinds parental strands using ATP)"
+      },
+      {
+        "id": "B",
+        "text": "DNA Gyrase (Type II Topoisomerase; relieves supercoiling strain ahead of fork)"
+      },
+      {
+        "id": "C",
+        "text": "DNA Polymerase III (synthesizes leading and lagging strands 5' -> 3')"
+      },
+      {
+        "id": "D",
+        "text": "Peptidyl Transferase (forms phosphodiester bonds between Okazaki fragments)"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Helicase, Gyrase, and DNA Pol III are core replication enzymes. D is incorrect: Peptidyl Transferase is a ribosomal ribozyme forming peptide bonds during translation. (Okazaki fragments are sealed by DNA Ligase)."
+  },
+  {
+    "id": "bio-xii-u7-c5-q14",
+    "questionNumber": 14,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "hnRNA Post-Transcriptional Modifications",
+    "questionText": "Select the correct statements regarding Post-Transcriptional Modifications of eukaryotic hnRNA:",
+    "options": [
+      {
+        "id": "A",
+        "text": "5'-Capping involves adding 7-methylguanosine triphosphate via an unusual 5'-5' triphosphate linkage."
+      },
+      {
+        "id": "B",
+        "text": "3'-Polyadenylation involves adding 200-300 adenylate residues to form a Poly-A tail."
+      },
+      {
+        "id": "C",
+        "text": "Splicing removes non-coding Introns and ligates coding Exons together via Spliceosomes."
+      },
+      {
+        "id": "D",
+        "text": "Post-transcriptional processing occurs in the cytoplasm after mRNA export."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Capping (7-mG 5'-5'), Polyadenylation (Poly-A tail), and Splicing (intron removal) are accurate. D is incorrect: All three processing steps occur strictly INSIDE THE NUCLEUS before mRNA export."
+  },
+  {
+    "id": "bio-xii-u7-c5-q15",
+    "questionNumber": 15,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Genetic Code Characteristics",
+    "questionText": "Which of the following features correctly characterize the Genetic Code?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is triplet: 3 nucleotides code for 1 amino acid."
+      },
+      {
+        "id": "B",
+        "text": "It is degenerate: multiple distinct codons can code for the same amino acid."
+      },
+      {
+        "id": "C",
+        "text": "AUG serves as the dual-function Initiation codon (coding for Methionine) and start signal."
+      },
+      {
+        "id": "D",
+        "text": "UAA, UAG, and UGA are sense codons coding for Tryptophan and Tyrosine."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Triplet, degenerate, and dual-function AUG (start + Met) are correct. D is incorrect: UAA, UAG, and UGA are Stop/Nonsense codons that do not code for any amino acid."
+  },
+  {
+    "id": "bio-xii-u7-c5-q16",
+    "questionNumber": 16,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Lac Operon Genes & Mechanism",
+    "questionText": "Select the correct options regarding the E. coli Lac Operon:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The z gene encodes beta-Galactosidase, which cleaves lactose into glucose and galactose."
+      },
+      {
+        "id": "B",
+        "text": "The y gene encodes beta-Galactoside Permease, which increases cell membrane permeability to lactose."
+      },
+      {
+        "id": "C",
+        "text": "The i gene encodes the Lac Repressor protein, which is expressed constitutively."
+      },
+      {
+        "id": "D",
+        "text": "In the presence of allolactose (inducer), the repressor binds tightly to the operator, shutting OFF transcription."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: z (beta-gal), y (permease), and i (constitutive repressor) are accurate. D is incorrect: Allolactose binds the repressor causing it to DETACH from the operator, turning transcription ON."
+  },
+  {
+    "id": "bio-xii-u7-c5-q17",
+    "questionNumber": 17,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "HGP Methodologies & Salient Features",
+    "questionText": "Which of the following methodologies and findings are associated with the Human Genome Project (HGP)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sequence Annotation involved sequencing both coding and non-coding DNA using BAC and YAC vectors."
+      },
+      {
+        "id": "B",
+        "text": "Expressed Sequence Tags (ESTs) focused on identifying all genes expressed as RNA."
+      },
+      {
+        "id": "C",
+        "text": "The human genome contains approximately 3.1647 x 10^9 base pairs and ~20,000-25,000 genes."
+      },
+      {
+        "id": "D",
+        "text": "Over 50% of the human genome directly encodes functional protein sequences."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: HGP used Sequence Annotation (BAC/YAC vectors), ESTs, and determined genome size (3.16 B bp) and gene count (~20K-25K). D is incorrect: Less than 2% of the human genome encodes proteins."
+  },
+  {
+    "id": "bio-xii-u7-c5-q18",
+    "questionNumber": 18,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "DNA Fingerprinting Workflow",
+    "questionText": "Select the correct statements regarding DNA Fingerprinting:",
+    "options": [
+      {
+        "id": "A",
+        "text": "It relies on hypervariable non-coding repetitive DNA sequences called Variable Number of Tandem Repeats (VNTRs)."
+      },
+      {
+        "id": "B",
+        "text": "Southern Blotting is used to transfer restriction-digested DNA fragments from agarose gel to a nylon membrane."
+      },
+      {
+        "id": "C",
+        "text": "Radiolabeled ^32P-VNTR probes hybridize to complementary VNTR bands on the membrane."
+      },
+      {
+        "id": "D",
+        "text": "Two monozygotic (identical) twins will display completely different DNA fingerprint band patterns."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: VNTRs, Southern blotting to nylon membranes, and radiolabeled probe hybridization are core workflow steps. D is incorrect: Monozygotic (identical) twins share 100% identical DNA and exhibit identical DNA fingerprints."
+  },
+  {
+    "id": "bio-xii-u7-c5-q19",
+    "questionNumber": 19,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Eukaryotic RNA Polymerases",
+    "questionText": "Which of the following Eukaryotic RNA Polymerases correctly match their transcribed RNA products?",
+    "options": [
+      {
+        "id": "A",
+        "text": "RNA Polymerase I -> 28S, 18S, 5.8S pre-rRNA"
+      },
+      {
+        "id": "B",
+        "text": "RNA Polymerase II -> hnRNA / precursor mRNA"
+      },
+      {
+        "id": "C",
+        "text": "RNA Polymerase III -> tRNA, 5S rRNA, and 7SL/snRNA"
+      },
+      {
+        "id": "D",
+        "text": "RNA Polymerase II -> Bacterial 16S rRNA"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Pol I transcribes major pre-rRNAs; Pol II transcribes hnRNA/pre-mRNA; Pol III transcribes tRNA, 5S rRNA, and snRNAs. D is incorrect: 16S rRNA is a prokaryotic ribosomal RNA."
+  },
+  {
+    "id": "bio-xii-u7-c5-q20",
+    "questionNumber": 20,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "tRNA Structure & Wobble",
+    "questionText": "Select the correct options regarding the Wobble Hypothesis and tRNA adapter structure:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The 3' terminal end of all mature tRNAs contains an unpaired 5'-CCA-3' sequence where amino acids attach."
+      },
+      {
+        "id": "B",
+        "text": "The Anticodon loop contains 3 nucleotides complementary to the mRNA codon."
+      },
+      {
+        "id": "C",
+        "text": "Inosine at the 5' position of the tRNA anticodon can base-pair with U, C, or A at the 3' position of the codon."
+      },
+      {
+        "id": "D",
+        "text": "Aminoacyl-tRNA Synthetase attaches amino acids to tRNA without consuming ATP."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: 3'-CCA acceptor stem, anticodon loop, and Inosine wobble pairing rules are accurate. D is incorrect: Aminoacylation (tRNA charging) by Aminoacyl-tRNA Synthetase strictly consumes ATP (ATP -> AMP + PPi)."
+  }
+]

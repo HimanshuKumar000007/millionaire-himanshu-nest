@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u9-c9-l07",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit IX — Biotechnology",
+  "unitNumber": 9,
+  "chapter": "Biotechnology: Principles and Processes",
+  "chapterNumber": 9,
+  "chapterSlug": "biotechnology-principles-and-processes",
+  "slug": "lesson-07-agarose-gel-electrophoresis-etbr-and-elution",
+  "title": "Agarose Gel Electrophoresis: EtBr & Elution",
+  "topic": "Negative DNA Charge, Anode Migration, Sieving Matrix, Ethidium Bromide, & Gel Elution",
+  "order": 7,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Agarose gel electrophoresis separates DNA fragments by molecular size. Because DNA carries a net negative charge (phosphate backbone), it migrates toward the Positive Anode (+). The porous agarose polymer acts as a molecular sieve (smaller fragments move faster and further). Staining with Ethidium Bromide (EtBr) under UV radiation reveals bright orange fluorescent bands. Elution extracts the target DNA band from the gel.",
+  "summary": "Agarose gel electrophoresis separates DNA fragments by molecular size. Because DNA carries a net negative charge (phosphate backbone), it migrates toward the Positive Anode (+). The porous agarose polymer acts as a molecular sieve (smaller fragments move faster and further). Staining with Ethidium Bromide (EtBr) under UV radiation reveals bright orange fluorescent bands. Elution extracts the target DNA band from the gel.",
+  "conceptBreakdown": [
+    {
+      "heading": "Agarose Gel Electrophoresis: Biophysics, Staining & Elution",
+      "title": "Agarose Gel Electrophoresis: Biophysics, Staining & Elution",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "DNA fragments carry a net negative charge and migrate toward the positive anode (+) through an agarose matrix. Smaller fragments experience less sieving resistance and travel further. Bands are stained with EtBr, visualized under UV light as bright orange bands, and physically recovered by Elution."
+      },
+      "codeSnippet": "AGAROSE GEL ELECTROPHORESIS\n                       \n   WELLS (-) ──► [ Large Fragments ] ──► [ Medium Fragments ] ──► [ Small Fragments ] ──► ANODE (+)\n   (Cathode)                                                      (Migrate fastest)",
+      "content": "### 7.1 Biophysical Principles of Gel Separation\n- **Electrical Charge**: DNA molecules carry a uniform net negative charge across their entire length due to ionized phosphate groups ($\\text{PO}_4^{3-}$).\n- **Direction of Migration**: When submerged in an electrolytic buffer (TAE or TBE) and subjected to an electric field, DNA fragments loaded into negative cathode ($-$) wells migrate toward the **Positive Anode (+)**.\n- **Agarose Sieving Matrix**: Agarose is a natural linear polysaccharide extracted from marine red seaweeds (*Gelidium*, *Gracilaria*). Dissolved in hot buffer and cooled, it polymerizes into a three-dimensional porous meshwork.\n- **Size-Dependent Resolution**: The matrix exerts a **molecular sieving effect**—smaller DNA fragments encounter lower friction and navigate the pore channels faster, traveling significantly further toward the anode than larger fragments.\n\n### 7.2 Staining, UV Visualization & Elution\n1. **Staining with Ethidium Bromide ($\\text{EtBr}$)**:\n   - DNA fragments are colorless and cannot be seen under ordinary visible room light.\n   - The gel is stained with **Ethidium Bromide (EtBr)**, a flat planar dye that intercalates between stacked nitrogenous base pairs.\n2. **Ultraviolet (UV) Visualization**:\n   - When exposed to **Ultraviolet (UV) radiation ($\\approx 302\\text{ nm}$)** on a transilluminator, intercalated EtBr fluoresces as **Bright Orange bands**.\n3. **Elution**:\n   - The desired bright orange DNA band containing the gene of interest is physically excised from the agarose gel with a sterile scalpel blade.\n   - The gel slice is dissolved in a chaotropic salt buffer, and purified DNA is extracted and eluted from a silica spin column for downstream PCR or ligation."
+    },
+    {
+      "heading": "Pulsed-Field Gel Electrophoresis (PFGE)",
+      "title": "Pulsed-Field Gel Electrophoresis (PFGE)",
+      "type": "paragraph",
+      "content": "Standard agarose gels cannot resolve DNA molecules larger than 20–50 kb (which comigrate at a constant limiting velocity); Pulsed-Field Gel Electrophoresis (PFGE) alternates the electrical field direction across multiple angles, resolving megabase-sized chromosomes up to 10 Mb."
+    },
+    {
+      "heading": "PAGE vs Agarose Gels",
+      "title": "PAGE vs Agarose Gels",
+      "type": "paragraph",
+      "content": "Polyacrylamide Gel Electrophoresis (PAGE) provides ultra-high resolution down to a single nucleotide difference (1 bp), used for DNA sequencing gels and small oligonucleotides, whereas Agarose resolves larger fragments from 100 bp to 25 kb."
+    }
+  ]
+}

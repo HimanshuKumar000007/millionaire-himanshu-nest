@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u6-c2-l10",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VI — Reproduction",
+  "unitNumber": 6,
+  "chapter": "Human Reproduction",
+  "chapterNumber": 2,
+  "chapterSlug": "human-reproduction",
+  "slug": "lesson-10-parturition-fetal-ejection-reflex-and-lactation-physiology",
+  "title": "Parturition, Fetal Ejection Reflex, & Lactation",
+  "topic": "Ferguson Reflex, Oxytocin, & Colostrum",
+  "order": 10,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Parturition: Neuroendocrine Fetal Ejection Reflex (Ferguson Reflex) via Oxytocin positive feedback. Lactation: Prolactin (alveolar milk synthesis) vs Oxytocin (myoepithelial milk let-down reflex). Colostrum provides maternal secretory IgA.",
+  "summary": "Parturition: Neuroendocrine Fetal Ejection Reflex (Ferguson Reflex) via Oxytocin positive feedback. Lactation: Prolactin (alveolar milk synthesis) vs Oxytocin (myoepithelial milk let-down reflex). Colostrum provides maternal secretory IgA.",
+  "conceptBreakdown": [
+    {
+      "heading": "Parturition, Fetal Ejection Reflex, & Lactation",
+      "title": "Parturition, Fetal Ejection Reflex, & Lactation",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Parturition is a complex neuroendocrine reflex initiated by the fully developed fetus and placenta, producing the Fetal Ejection Reflex (Ferguson Reflex), driving maternal posterior pituitary Oxytocin release in a self-amplifying positive feedback loop. Lactation: Prolactin (anterior pituitary, milk synthesis in alveoli) vs Oxytocin (posterior pituitary, milk let-down / ejection via myoepithelial contraction). Colostrum provides rich maternal Secretory IgA antibodies."
+      },
+      "codeSnippet": "FETAL EJECTION REFLEX (FERGUSON REFLEX)\n                                     │\n  Fully Developed Fetus & Placenta ──► Mild Uterine Contractions\n                                     │\n  Pressure on Cervix ──► Sensory Afferent Signals to Maternal Hypothalamus\n                                     │\n  Maternal Posterior Pituitary releases **Oxytocin (Pitocin)**\n                                     │\n  Powerful Myometrial Contractions ──► More Cervical Stretch ──► More Oxytocin\n                                     │\n                         [POSITIVE FEEDBACK LOOP]\n                                     │\n                             Expulsion of Baby (Parturition)",
+      "content": "### 10.1 Neuroendocrine Mechanism of Parturition\n\nParturition (childbirth) is the expulsion of the mature fetus from the uterus at the end of gestation (average duration $\\approx 280\\text{ days}$ or $40\\text{ weeks}$ from the first day of the last menstrual period, LMP).\n\n1. **Initiation**: Signals for parturition originate from the **fully developed fetus and placenta**, which induce mild uterine contractions called the **Fetal Ejection Reflex**.\n2. **The Ferguson Reflex**: Mechanical stretching of the cervix by the descending fetal presenting part activates baroreceptors, sending sensory neural impulses up the spinal cord to the maternal hypothalamus.\n3. **Oxytocin Positive Feedback Loop**: In response, the maternal posterior pituitary neurohypophysis discharges **Oxytocin**. Oxytocin binds myometrial G-protein coupled receptors, generating vigorous contractions. Each contraction drives the fetus deeper into the cervix, increasing cervical stretch, firing more neural signals, and releasing even higher surges of oxytocin in a self-amplifying positive feedback cycle until delivery occurs.\n\n### 10.2 Lactation Physiology & Colostrum\n\n```\n                         HORMONAL CONTROL OF LACTATION\n                                       │\n         ┌─────────────────────────────┴─────────────────────────────┐\n         ▼                                                           ▼\n   PROLACTIN (PRL)                                            OXYTOCIN\n   ├── Anterior Pituitary Hormone                             ├── Posterior Pituitary Hormone\n   ├── Stimulates **Milk Synthesis & Secretion**              ├── Stimulates **Milk Ejection / Let-Down Reflex**\n   └── Acts on Mammary Alveolar Epithelial Cells              └── Contracts Mammary **Myoepithelial Cells**\n```\n\n- **Suckling Reflex**: Infant suckling on the nipple sends tactile neural signals to the maternal hypothalamus, simultaneously suppressing Dopamine (Prolactin Inhibiting Hormone, PIH) to release Prolactin, and firing supraoptic/paraventricular nuclei to discharge Oxytocin.\n- **Colostrum**: The yellowish, viscous milk secreted during the first $2\\text{--}3\\text{ days}$ postpartum. It is low in fat and high in proteins, minerals, and rich in **Secretory $\\text{IgA}$ Antibodies (sIgA)**, which coat the infant's gut mucosa to provide passive mucosal immunity against gastrointestinal and respiratory infections."
+    },
+    {
+      "heading": "Cervical Ripening with Prostaglandins",
+      "title": "Cervical Ripening with Prostaglandins",
+      "type": "paragraph",
+      "content": "Prior to labor contractions, fetal cortisol and maternal estrogens induce endometrial production of Prostaglandins (PGE2, PGF2alpha) that degrade collagen fibers to soften and efface the cervix (cervical ripening)."
+    },
+    {
+      "heading": "Lactational Amenorrhea",
+      "title": "Lactational Amenorrhea",
+      "type": "paragraph",
+      "content": "Intense, frequent infant suckling maintains high systemic prolactin levels, which suppress hypothalamic GnRH pulsatility and pituitary LH/FSH secretion, preventing follicular maturation and ovulation during exclusive breastfeeding for up to 6 months."
+    }
+  ]
+}

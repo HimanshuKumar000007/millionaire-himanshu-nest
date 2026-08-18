@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c5-l02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Molecular Basis of Inheritance",
+  "chapterNumber": 5,
+  "chapterSlug": "molecular-basis-of-inheritance",
+  "slug": "lesson-02-rna-world-hypothesis-and-trna-cloverleaf-structure",
+  "title": "The RNA World & tRNA Cloverleaf Structure",
+  "topic": "Chemical Stability, 2'-OH, Ribozymes, & tRNA Adapter Molecule",
+  "order": 2,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "RNA World hypothesis: primordial RNA functioned as genetic material and catalyst (Ribozymes). DNA evolved for chemical stability (loss of 2'-OH, Thymine substitution). tRNA adapter: 2D cloverleaf (3'-CCA acceptor, Anticodon loop, DHU loop, TpsiC loop) folding into 3D L-shaped structure.",
+  "summary": "RNA World hypothesis: primordial RNA functioned as genetic material and catalyst (Ribozymes). DNA evolved for chemical stability (loss of 2'-OH, Thymine substitution). tRNA adapter: 2D cloverleaf (3'-CCA acceptor, Anticodon loop, DHU loop, TpsiC loop) folding into 3D L-shaped structure.",
+  "conceptBreakdown": [
+    {
+      "heading": "The RNA World & tRNA Cloverleaf Structure",
+      "title": "The RNA World & tRNA Cloverleaf Structure",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "RNA World hypothesis states that RNA was the primordial genetic material and catalytic enzyme (Ribozyme). DNA evolved through 2'-deoxy modification and Thymine substitution for superior chemical stability. tRNA acts as an adapter molecule: 2D Cloverleaf model (3'-CCA acceptor, Anticodon loop, DHU loop, TpsiC loop) folding into a tertiary 3D L-shape."
+      },
+      "codeSnippet": "THE RNA WORLD HYPOTHESIS\n                                         │\n   RNA evolved as the primordial genetic material AND biological catalyst (Ribozymes).\n                                         │\n   DNA evolved from RNA through 2'-deoxy modification and Thymine substitution,\n   conferring superior chemical stability and double-stranded repair mechanisms.",
+      "content": "### 2.1 Chemical Stability: DNA vs. RNA\n1. **$2'$-Hydroxyl Group ($2'\\text{-OH}$)**: RNA contains ribose with a reactive $2'\\text{-OH}$ group, making RNA chemically labile, reactive, and susceptible to alkaline hydrolysis. DNA contains $2'$-deoxyribose, conferring higher stability.\n2. **Uracil vs. Thymine**: Uracil in RNA is susceptible to spontaneous cytosine deamination ($C \\rightarrow U$). DNA utilizes **Thymine (5-methyluracil)**, allowing cellular repair systems to recognize deaminated cytosines as abnormal.\n\n### 2.2 Structural Classes of RNA\n\n```\n                                  RNA CLASSES\n                                       │\n         ┌─────────────────────────────┼─────────────────────────────┐\n         ▼                             ▼                             ▼\n   MESSENGER RNA (mRNA)          RIBOSOMAL RNA (rRNA)          TRANSFER RNA (tRNA)\n   ├── 1--5% total RNA           ├── 80% of total cellular RNA ├── 15% total cellular RNA\n   ├── Short-lived template       ├── Structural & Catalytic    ├── Adapter molecule (73--93 nt)\n   └── Monocistronic/Polycistr.       (Ribozyme: 23S/28S)       └── Cloverleaf 2D / L-shaped 3D\n```\n\n### 2.3 The Transfer RNA (tRNA) Adapter Molecule\n\n```\n                          tRNA CLOVERLEAF vs L-SHAPE\n                          \n        2D CLOVERLEAF MODEL                        3D L-SHAPED MODEL\n        \n          3'-ACC-5' (Acceptor)                         3'-Acceptor\n             │                                            │\n        ┌────┴────┐                                       │\n        │ TψC Loop│ ──► Binds Ribosome                    │\n        └────┬────┘                                       │\n             │                                            ▼\n        ┌────┴────┐                                 Anticodon Loop\n        │ DHU Loop│ ──► Binds Synthetase\n        └────┬────┘\n             │\n      [Anticodon Loop] ──► Binds mRNA Codon\n```\n\n- **Functional Sites of tRNA**:\n  1. **$3'$-Acceptor Stem**: Unpaired terminal **$5'\\text{-CCA}-3'$** sequence; amino acid attaches covalently to the $3'\\text{-OH}$ of the terminal Adenylate.\n  2. **Anticodon Loop**: $3$-nucleotide sequence complementary to the mRNA codon.\n  3. **DHU Loop (D-Loop)**: Contains dihydrouridine; recognized by aminoacyl-tRNA synthetase.\n  4. **$\\text{T}\\psi\\text{C}$ Loop**: Contains ribothymidine and pseudouridine; binds the large ribosomal subunit."
+    },
+    {
+      "heading": "Ribozymes and Catalytic RNA",
+      "title": "Ribozymes and Catalytic RNA",
+      "type": "paragraph",
+      "content": "Ribozymes (such as 23S rRNA peptidyl transferase, RNase P, and self-splicing Group I/II introns) demonstrate that polynucleotide chains can fold into tertiary catalytic conformations to accelerate biochemical reactions without protein enzymes."
+    },
+    {
+      "heading": "Aminoacyl-tRNA Synthetase Proofreading",
+      "title": "Aminoacyl-tRNA Synthetase Proofreading",
+      "type": "paragraph",
+      "content": "Aminoacyl-tRNA synthetases possess a two-sieve proofreading mechanism: the activation site excludes amino acids larger than the correct substrate, while the hydrolytic editing site destroys mischarged smaller amino acids."
+    }
+  ]
+}

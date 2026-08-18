@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-18-03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Locomotion and Movement",
+  "chapterNumber": 18,
+  "chapterSlug": "locomotion-and-movement",
+  "lessonNumber": 3,
+  "title": "Skeletal Muscle Microanatomy & Sarcomere Architecture",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Hard",
+  "prerequisites": ["Protein polymers", "Myofibril banding"],
+  "learningObjectives": [
+    "Diagram the banding pattern of a sarcomere from Z-disc to Z-disc",
+    "Identify the subunit organization of thin filaments (F-Actin, Tropomyosin, Troponin)",
+    "Detail the structure of meromyosin (HMM head/cross-arm + LMM tail) and its catalytic sites"
+  ],
+  "content": "### 3.1 Structural Bands of the Sarcomere\n\n```\n                        SARCOMERE ULTRASTRUCTURE (Z to Z)\n                        \n          I-BAND            A-BAND (Dark)            I-BAND\n        (Light/Actin)     (Overlap + H-Zone)       (Light/Actin)\n     ├─────────────┤┌─────────────────────────┐├─────────────┤\n     │       :     ││     |      |      |     ││     :       │\n     Z-DISC  :     ││     |   H-ZONE    |     ││     :     Z-DISC\n     (Line)  :     ││     |  (Myosin)   |     ││     :     (Line)\n             :     ││     |      |      |     ││     :     \n             :     ││     |    M-LINE   |     ││     :     \n                          └──────┼──────┘\n                          \n     * SARCOMERE = Functional unit of contraction between two adjacent Z-discs.\n```\n\n1. **I-Band (Isotropic / Light Band)**: Contains Thin Filaments (Actin) only. Bisected vertically by a dense proteinaceous line called the **Z-disc / Z-line (Krause’s membrane)**.\n2. **A-Band (Anisotropic / Dark Band)**: Extends the full physical length of the Thick Filaments (Myosin), including the peripheral overlap zone with thin filaments.\n3. **H-Zone (Hensen’s Zone)**: The central region of the A-band containing thick filaments ONLY (no overlapping thin filaments present during relaxation).\n4. **M-Line**: A delicate fibrous membrane running vertically through the center of the H-zone linking adjacent thick filaments together.\n\n### 3.2 Contractile & Regulatory Proteins\n\n```\n                           MYOFILAMENT PROTEINS\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n   THIN FILAMENT (Actin Complex)                           THICK FILAMENT (Myosin Complex)\n   ├── F-Actin (Double-helical G-actin polymer)            ├── Meromyosin Polymers\n   ├── Tropomyosin (Covers Myosin-binding sites)           ├── Heavy Meromyosin (HMM: Cross-arm + Head)\n   └── Troponin Complex (TnT, TnI, TnC [binds Ca²⁺])       └── Light Meromyosin (LMM: Fibrous Tail)\n```\n\n- **Thin Filament (Actin Complex)**:\n  - **F-Actin**: 2 helically wound polymers of globular **G-actin** monomers.\n  - **Tropomyosin**: 2 filamentous strands wrapping along the grooves of F-actin to mask myosin-binding sites at rest.\n  - **Troponin Heterotrimer**: Bound at regular intervals along tropomyosin:\n    - **Troponin-T (TnT)**: Binds Tropomyosin.\n    - **Troponin-I (TnI)**: Inhibits actin-myosin cross-bridge binding.\n    - **Troponin-C (TnC)**: **Binds $\\text{Ca}^{2+}$ ions** (contains $4\\ \\text{Ca}^{2+}$-binding sites).\n- **Thick Filament (Myosin Complex)**: Polymer of $\\approx 300$ **Meromyosin** subunits.\n  - **Heavy Meromyosin (HMM)**: Globular Head + flexible Short Arm (Cross-arm). Projects outward at regular intervals.\n  - **Light Meromyosin (LMM)**: Fibrous Tail forming the central filament backbone.\n  - **Myosin Head Functional Sites**: (1) Actin-Binding Site, (2) ATP-Binding Site with intrinsic $\\text{Mg}^{2+}$-dependent **Myosin ATPase** activity.",
+  "conceptBreakdown": [
+    {
+      "heading": "Titin (Connectin) & Nebulin",
+      "explanation": "Titin is the largest known human protein (~3.8 MDa), acting as a molecular spring anchoring thick myosin filaments to the Z-disc and preventing over-stretching of the sarcomere. Nebulin acts as a molecular ruler stabilizing thin actin filament length."
+    },
+    {
+      "heading": "Troponin Subunit Stoichiometry",
+      "explanation": "Every 7 G-actin monomers along the thin filament are associated with 1 tropomyosin molecule and 1 heterotrimeric troponin complex (TnT-TnI-TnC)."
+    }
+  ]
+}

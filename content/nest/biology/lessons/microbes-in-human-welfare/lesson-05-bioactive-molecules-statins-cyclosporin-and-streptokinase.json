@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u8-c8-l05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VIII — Biology in Human Welfare",
+  "unitNumber": 8,
+  "chapter": "Microbes in Human Welfare",
+  "chapterNumber": 8,
+  "chapterSlug": "microbes-in-human-welfare",
+  "slug": "lesson-05-bioactive-molecules-statins-cyclosporin-and-streptokinase",
+  "title": "Bioactive Molecules: Statins, Cyclosporin A, & Streptokinase",
+  "topic": "Competitive Inhibition of HMG-CoA Reductase, Immunosuppression, & Clot Busters",
+  "order": 5,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "High-yield bioactive molecules: (1) Statins (Monascus purpureus yeast; blood-cholesterol lowering agent via competitive inhibition of HMG-CoA Reductase); (2) Cyclosporin A (Trichoderma polysporum fungus; immunosuppressive agent in organ transplants suppressing T-cell graft rejection); (3) Streptokinase (Streptococcus bacterium; clot buster enzyme dissolving thrombi in myocardial infarction).",
+  "summary": "High-yield bioactive molecules: (1) Statins (Monascus purpureus yeast; blood-cholesterol lowering agent via competitive inhibition of HMG-CoA Reductase); (2) Cyclosporin A (Trichoderma polysporum fungus; immunosuppressive agent in organ transplants suppressing T-cell graft rejection); (3) Streptokinase (Streptococcus bacterium; clot buster enzyme dissolving thrombi in myocardial infarction).",
+  "conceptBreakdown": [
+    {
+      "heading": "Bioactive Molecules: Mechanisms & Clinical Pharmacology",
+      "title": "Bioactive Molecules: Mechanisms & Clinical Pharmacology",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Statins from Monascus purpureus competitively inhibit HMG-CoA reductase to lower blood cholesterol. Cyclosporin A from Trichoderma polysporum selectively suppresses T-lymphocytes to prevent graft rejection in organ transplants. Streptokinase from Streptococcus acts as a fibrinolytic clot buster for myocardial infarction."
+      },
+      "codeSnippet": "INDUSTRIAL BIOACTIVE MOLECULES\n                                   │\n     ┌─────────────────────────────┼─────────────────────────────┐\n     ▼                             ▼                             ▼\n  STATINS                    CYCLOSPORIN A                 STREPTOKINASE\n  ├── Source: *Monascus*     ├── Source: *Trichoderma*     ├── Source: *Streptococcus*\n  │   *purpureus* (Yeast)    │   *polysporum* (Fungus)     │   (Bacterium)\n  ├── Lowers Blood           ├── Immunosuppressive         └── \"Clot Buster\" to\n  │   Cholesterol            │   Agent in organ transplants    dissolve myocardial\n  └── Competitive Inhibitor  └── Inhibits T-Cell               intravascular clots\n      of HMG-CoA Reductase       Graft Rejection",
+      "content": "### 5.1 Comprehensive Bioactive Molecules Pharmacology\n\n1. **Statins (Blood-Cholesterol Lowering Agents)**:\n   - **Microbial Source**: Produced by the red yeast ***Monascus purpureus***.\n   - **Mechanism of Action**: Statins share a structural resemblance with HMG-CoA, acting as **competitive inhibitors** of **$\\text{HMG-CoA Reductase}$** ($3$-hydroxy-$3$-methylglutaryl-coenzyme A reductase), the rate-limiting enzyme in the hepatic biosynthesis of cholesterol.\n   - **Clinical Outcome**: Significantly lowers circulating serum Low-Density Lipoprotein (LDL) cholesterol, preventing atherosclerosis, hypertension, and coronary artery disease.\n\n2. **Cyclosporin A (Immunosuppressive Drug)**:\n   - **Microbial Source**: Isolated from the soil fungus ***Trichoderma polysporum*** (Fungi Imperfecti / Deuteromycota).\n   - **Mechanism of Action**: A cyclic non-ribosomal peptide containing 11 amino acids. It binds intracellular cyclophilin, inhibiting the phosphatase calcineurin and blocking IL-2 transcription, thereby selectively suppressing **$\\text{T-Lymphocyte activation}$**.\n   - **Clinical Role**: Routine immunosuppressive medication administered to patients undergoing kidney, liver, and heart **organ transplantations** to avert acute and chronic Cell-Mediated graft rejection.\n\n3. **Streptokinase (\"Clot Buster\" / Thrombolytic Agent)**:\n   - **Microbial Source**: Produced by pathogenic bacterium ***Streptococcus* species** (and genetically modified for human clinical administration).\n   - **Mechanism of Action**: Binds plasminogen to generate an active catalytic complex that converts systemic plasminogen into active **plasmin**, which cleaves fibrin meshworks.\n   - **Clinical Role**: Intravenous infusion dissolves intravascular blood clots (thrombi) in coronary blood vessels, restoring myocardial perfusion in acute **Myocardial Infarction (Heart Attack)** and ischemic stroke."
+    },
+    {
+      "heading": "Tissue Plasminogen Activator (tPA)",
+      "title": "Tissue Plasminogen Activator (tPA)",
+      "type": "paragraph",
+      "content": "Recombinant Tissue Plasminogen Activator (r-tPA) produced in mammalian cell cultures functions as a fibrin-specific thrombolytic agent with reduced systemic bleeding risks compared to first-generation streptokinase."
+    },
+    {
+      "heading": "Monoclonal Antibodies (mAb) from Hybridomas",
+      "title": "Monoclonal Antibodies (mAb) from Hybridomas",
+      "type": "paragraph",
+      "content": "Hybridoma technology (fusing sensitized B-lymphocytes with immortal myeloma cells) produces monospecific monoclonal antibodies used in targeted cancer therapies, autoimmune disease management, and pregnancy test kits."
+    }
+  ]
+}

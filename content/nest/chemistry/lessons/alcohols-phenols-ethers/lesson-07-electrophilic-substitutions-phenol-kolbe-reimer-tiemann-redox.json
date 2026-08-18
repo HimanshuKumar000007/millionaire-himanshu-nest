@@ -1,0 +1,62 @@
+{
+  "id": "chem-xii-u16-c7-l07",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVI \u2014 Alcohols, Phenols and Ethers",
+  "unitNumber": 16,
+  "chapter": "Alcohols, Phenols and Ethers",
+  "chapterNumber": 7,
+  "chapterSlug": "alcohols-phenols-ethers",
+  "slug": "lesson-07-electrophilic-substitutions-phenol-kolbe-reimer-tiemann-redox",
+  "title": "Electrophilic Substitutions of Phenol: Kolbe, Reimer-Tiemann, & Redox",
+  "topic": "Phenol Electrophilic Substitutions",
+  "topics": [
+    "Phenol Activating Effect (+M Ortho/Para Directing)",
+    "7.1 Kolbe\u2019s Reaction: Sodium Phenoxide + CO\u2082 (400 K, 4\u20137 atm) \u2500\u2500[H\u207a]\u2500\u2500\u25ba Salicylic Acid (Precursor for Aspirin)",
+    "7.2 Reimer-Tiemann Reaction: Phenol + CHCl\u2083 + NaOH at 340 K \u2500\u2500\u25ba Salicylaldehyde",
+    "Active Electrophile in Reimer-Tiemann: Dichlorocarbene (:CCl\u2082, neutral 6-electron species via \u03b1-elimination)",
+    "7.3 Bromination: Br\u2082 in CS\u2082 (273 K) \u2500\u2500\u25ba p-Bromophenol Major vs Br\u2082/H\u2082O \u2500\u2500\u25ba 2,4,6-Tribromophenol (White Precipitate)",
+    "Oxidation to 1,4-Benzoquinone & Neutral FeCl\u2083 Qualitative Complex Test (Violet [Fe(OPh)\u2086]\u00b3\u207b)"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "alcohols-phenols-ethers",
+  "quickSummary": "Kolbe's reaction: Phenoxide + CO\u2082 \u2500\u2500\u25ba Salicylic acid (acetylated to Aspirin). Reimer-Tiemann: Phenol + CHCl\u2083 + NaOH \u2500\u2500\u25ba Salicylaldehyde via neutral Dichlorocarbene (:CCl\u2082). Bromine in CS\u2082 gives p-bromophenol; bromine water gives 2,4,6-tribromophenol white ppt. Oxidation yields 1,4-benzoquinone. Neutral FeCl\u2083 gives violet [Fe(OPh)\u2086]\u00b3\u207b.",
+  "summary": "Master Kolbe's carboxylation, Reimer-Tiemann formylation, bromination selectivity, and phenol redox reactions.",
+  "conceptBreakdown": [
+    {
+      "heading": "7. Kolbe's Reaction & Reimer-Tiemann Formylation",
+      "title": "7. Kolbe's Reaction & Reimer-Tiemann Formylation",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Named Electrophilic Substitutions",
+        "takeaway": "Kolbe: Phenoxide + CO\u2082 \u2500\u2500\u25ba Salicylic acid. Reimer-Tiemann: Phenol + CHCl\u2083 + NaOH \u2500\u2500\u25ba Salicylaldehyde via :CCl\u2082 electrophile."
+      },
+      "codeSnippet": "                        PHENOL ELECTROPHILIC REACTIONS\n                                       \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                             \u25bc                             \u25bc\n   KOLBE'S REACTION             REIMER-TIEMANN REACTION        NITRATION & BROMINATION\n   Phenoxide $+ \\text{CO}_2 \\xrightarrow{400\\text{ K, 4\u20137 atm}}$ Phenol $+ \\text{CHCl}_3 + \\text{NaOH} \\rightarrow$  \u251c\u2500\u2500 Dil. $\\text{HNO}_3 \\to o/p$-Nitrophenol\n   $\\xrightarrow{\\text{H}^+} \\mathbf{\\text{Salicylic Acid}}$    Electrophile: **Dichlorocarbene ($:\\text{CCl}_2$)**\u2514\u2500\u2500 $\\text{Br}_2/\\text{H}_2\\text{O} \\to \\mathbf{2,4,6\\text{-Tribromophenol}\\downarrow}$\n                                \u2514\u2500\u2500 Yields **Salicylaldehyde**     (White Precipitate)",
+      "content": "- **Kolbe's Reaction**: Sodium phenoxide reacts with $\\text{CO}_2$ ($400\\text{ K, 4\u20137 atm}$) to form Salicylic Acid (acetylated with acetic anhydride to make **Aspirin**).\n- **Reimer-Tiemann Reaction**: Phenol reacts with $\\text{CHCl}_3$ and $\\text{NaOH}$ to yield Salicylaldehyde via the neutral 6-electron electrophile **Dichlorocarbene ($:\\text{CCl}_2$)**."
+    },
+    {
+      "heading": "7.3 Bromination, Oxidation, & FeCl\u2083 Qualitative Test",
+      "title": "7.3 Bromination, Oxidation, & FeCl\u2083 Qualitative Test",
+      "type": "paragraph",
+      "codeSnippet": "PHENOL BROMINATION & QUALITATIVE TESTS:\n\n\u2022 Br\u2082 in CS\u2082 (273 K):   Phenol + Br\u2082 \u2500\u2500\u25ba p-Bromophenol (Major) + o-Bromophenol\n\u2022 Bromine Water:        Phenol + 3Br\u2082(aq) \u2500\u2500\u25ba 2,4,6-Tribromophenol \u2193 (White Precipitate)\n\u2022 Chromic Acid:         Phenol + Na\u2082Cr\u2082O\u2087/H\u2082SO\u2084 \u2500\u2500\u25ba 1,4-Benzoquinone (Conjugated Diketone)\n\u2022 Neutral FeCl\u2083 Test:   Phenol + FeCl\u2083 \u2500\u2500\u25ba [Fe(OPh)\u2086]\u00b3\u207b (Intense Violet / Purple Solution)",
+      "content": "Water polarizes phenol into phenoxide, causing polybromination to $2,4,6$-tribromophenol white precipitate. In non-polar $\\text{CS}_2$, monobromination dominates ($p$-bromophenol major)."
+    }
+  ],
+  "quickRevision": [
+    "Kolbe's reaction makes Salicylic acid using CO\u2082 and phenoxide.",
+    "Salicylic acid + Acetic Anhydride gives Aspirin (Acetylsalicylic acid).",
+    "Reimer-Tiemann uses CHCl\u2083 + NaOH to make Salicylaldehyde via :CCl\u2082.",
+    "Br\u2082/CS\u2082 gives p-bromophenol; Br\u2082/H\u2082O gives 2,4,6-tribromophenol white ppt.",
+    "Neutral FeCl\u2083 gives an intense violet color ([Fe(OPh)\u2086]\u00b3\u207b)."
+  ],
+  "keyFormulae": [
+    "\\text{Kolbe: Phenoxide} + \\text{CO}_2 \\xrightarrow{400\\text{ K, 4--7 atm}} \\text{Salicylic Acid}",
+    "\\text{Reimer-Tiemann: Phenol} + \\text{CHCl}_3 + 3\\text{NaOH} \\xrightarrow{340\\text{ K}} \\text{Salicylaldehyde} \\quad (:\\text{CCl}_2 \\text{ Electrophile})"
+  ]
+}

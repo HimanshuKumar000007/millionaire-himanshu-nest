@@ -1,0 +1,49 @@
+{
+  "id": "bio-xi-u4-c12-l03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Respiration in Plants",
+  "chapterNumber": 12,
+  "chapterSlug": "respiration-in-plants",
+  "slug": "lesson-03-anaerobic-fate-and-fermentation-pathways",
+  "title": "Anaerobic Fate of Pyruvate: Fermentation Pathways",
+  "topic": "Lactic Acid vs Alcoholic Fermentation, Bioenergetics, & Yeast Ethanol Toxicity",
+  "topics": [
+    "Necessity of Cytosolic NAD⁺ Regeneration for Sustained Glycolytic Flux",
+    "Lactic Acid Fermentation (Lactate Dehydrogenase, Muscle & Lactic Bacteria)",
+    "Alcoholic Fermentation (Pyruvate Decarboxylase with TPP & Alcohol Dehydrogenase with Zn²⁺)",
+    "Bioenergetics of Anaerobic Respiration (<7% Energy Extraction, Zero ETS ATP)",
+    "Ethanol Toxicity (13% Concentration Limit) in Yeast (Saccharomyces)"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "Medium",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "In the absence of oxygen, fermentation pathways regenerate the cytosolic NAD⁺ required by GAPDH in glycolysis. In lactic acid fermentation, Lactate Dehydrogenase reduces pyruvate directly to lactic acid (3C) without CO₂ release. In alcoholic fermentation (yeast), Pyruvate Decarboxylase (requiring TPP) decarboxylates pyruvate to acetaldehyde (releasing CO₂), followed by reduction to ethanol (2C) by Alcohol Dehydrogenase (requiring Zn²⁺). Fermentation captures <7% of glucose free energy, and yeast undergoes autolysis at ~13% ethanol.",
+  "summary": "In the absence of oxygen, fermentation pathways regenerate the cytosolic NAD⁺ required by GAPDH in glycolysis. In lactic acid fermentation, Lactate Dehydrogenase reduces pyruvate directly to lactic acid (3C) without CO₂ release. In alcoholic fermentation (yeast), Pyruvate Decarboxylase (requiring TPP) decarboxylates pyruvate to acetaldehyde (releasing CO₂), followed by reduction to ethanol (2C) by Alcohol Dehydrogenase (requiring Zn²⁺). Fermentation captures <7% of glucose free energy, and yeast undergoes autolysis at ~13% ethanol.",
+  "conceptBreakdown": [
+    {
+      "heading": "3. Fermentation Pathways & Comparative Architecture",
+      "title": "3. Fermentation Pathways & Comparative Architecture",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Fermentation regenerates cytosolic NAD⁺. Lactic acid produces 3C lactate without CO₂; Alcoholic fermentation produces 2C ethanol + CO₂. Fermentation extracts <7% total glucose energy."
+      },
+      "codeSnippet": "FERMENTATION PATHWAYS\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n  LACTIC ACID FERMENTATION                                ALCOHOLIC FERMENTATION\n  (Lactic Acid Bacteria / Muscle Cells)                   (Yeast - *Saccharomyces*)\n  ├── Pyruvate ──► Lactic Acid (3C)                       ├── Pyruvate ──► Acetaldehyde (2C) + $\\text{CO}_2$\n  └── Enzyme: **Lactate Dehydrogenase**                    └── Acetaldehyde ──► Ethanol (2C)\n                                                               Enzymes: **Pyruvate Decarboxylase** (TPP)\n                                                                        & **Alcohol Dehydrogenase** ($\\text{Zn}^{2+}$)",
+      "content": "In the absence of molecular oxygen ($\\text{O}_2$), cells cannot regenerate mitochondrial $\\text{NAD}^+$ via electron transport. Fermentation pathways re-oxidize cytosolic $\\text{NADH}$ back to $\\text{NAD}^+$, allowing the glyceraldehyde-3-phosphate dehydrogenase (GAPDH) step of glycolysis to continue producing $2\\text{ ATP}$ net per glucose.\n\n- **Lactic Acid Fermentation**:\n  - Occurs in lactic acid bacteria (*Lactobacillus*) and vertebrate skeletal muscle under vigorous hypoxic exercise.\n  - Catalyzed by **Lactate Dehydrogenase** ($\\text{LDH}$):\n    $$\\mathbf{\\text{Pyruvate} + \\text{NADH} + \\text{H}^+ \\xrightarrow{\\text{Lactate Dehydrogenase}} \\text{Lactic Acid (3C)} + \\text{NAD}^+}$$\n  - No carbon dioxide ($\\text{CO}_2$) is released (both pyruvate and lactate are 3-carbon compounds).\n\n- **Alcoholic Fermentation**:\n  - Occurs in brewing/baking yeast (*Saccharomyces cerevisiae*) and certain microorganisms.\n  - Operates via a two-step sequence:\n    1. **Decarboxylation**: **Pyruvate Decarboxylase** (requires Thiamine Pyrophosphate, $\\text{TPP}$, and $\\text{Mg}^{2+}$) converts Pyruvate ($3\\text{C}$) into Acetaldehyde ($2\\text{C}$) with the release of $\\text{CO}_2\\uparrow$.\n    2. **Reduction**: **Alcohol Dehydrogenase** (requires $\\text{Zn}^{2+}$) reduces Acetaldehyde to Ethanol ($2\\text{C}$), re-oxidizing $\\text{NADH}$ to $\\text{NAD}^+$."
+    },
+    {
+      "heading": "3.1 Fermentation Bioenergetics & Yeast Toxicity Limits",
+      "title": "3.1 Fermentation Bioenergetics & Yeast Toxicity Limits",
+      "type": "paragraph",
+      "codeSnippet": "FERMENTATION BIOENERGETICS\n                        \n   1. Lactic Acid: Pyruvate + NADH + H⁺ ──[Lactate Dehydrogenase]──► Lactic Acid + NAD⁺\n   \n   2. Alcoholic:   Pyruvate ──[Pyruvate Decarboxylase + TPP]──► Acetaldehyde + CO₂ ↑\n                   Acetaldehyde + NADH + H⁺ ──[Alcohol Dehydrogenase + Zn²⁺]──► Ethanol + NAD⁺",
+      "content": "- **Low Energetic Efficiency**: Less than $7\\%$ of the total potential chemical energy present in a glucose molecule is trapped as ATP during fermentation. The remaining energy resides unreleased within the reduced end-products (ethanol or lactic acid) or is lost as heat.\n- **Zero ETS Phosphorylation**: Fermentation produces ATP strictly by substrate-level phosphorylation during glycolysis ($2\\text{ ATP}$ net per glucose); no proton gradients or oxidative phosphorylation occur.\n- **Alcohol Toxicity Threshold**: Accumulation of ethanol above $\\approx 13\\%$ by volume is naturally toxic to yeast cells, disrupting membrane fluidity and leading to autolysis (self-poisoning)."
+    }
+  ]
+}

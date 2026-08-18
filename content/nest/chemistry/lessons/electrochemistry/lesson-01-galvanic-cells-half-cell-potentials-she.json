@@ -1,0 +1,59 @@
+{
+  "id": "chem-xii-u11-c2-l01",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XI \u2014 Electrochemistry",
+  "unitNumber": 11,
+  "chapter": "Electrochemistry",
+  "chapterNumber": 2,
+  "chapterSlug": "electrochemistry",
+  "slug": "lesson-01-galvanic-cells-half-cell-potentials-she",
+  "title": "Galvanic Cells, Half-Cell Potentials, & Electrochemical Series",
+  "topic": "Galvanic Cells & Electrochemical Series",
+  "topics": [
+    "Galvanic (Voltaic) vs. Electrolytic Cells (Anode/Cathode charges and spontaneity conditions)",
+    "Daniell Cell Anatomy (Zn-Cu system, cell notation, salt bridge inert electrolytes and dual functions)",
+    "Standard Electrode Potentials (E\u00b0_cell = E\u00b0_cathode - E\u00b0_anode) and Standard Hydrogen Electrode (SHE E\u00b0 = 0.000 V at all T)",
+    "Electrochemical Series: Strongest Reducing Agent (Li, -3.05 V) to Strongest Oxidizing Agent (F\u2082, +2.87 V)"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "electrochemistry",
+  "quickSummary": "Galvanic cells: Spontaneous (\u0394G < 0, E_cell > 0), Anode is negative (-), Cathode is positive (+). Daniell cell E\u00b0_cell = +1.10 V. Salt bridge completes circuit and maintains neutrality. SHE reference potential is 0.000 V at all temperatures.",
+  "summary": "Master galvanic cell construction, salt bridge physics, standard reduction potentials, and the electrochemical series.",
+  "conceptBreakdown": [
+    {
+      "heading": "1.1 Electrochemical Cell Classes & Daniell Cell Anatomy",
+      "title": "1.1 Electrochemical Cell Classes & Daniell Cell Anatomy",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Galvanic vs Electrolytic",
+        "takeaway": "Galvanic: Spontaneous (\u0394G < 0, E_cell > 0), Anode is (-). Electrolytic: Non-spontaneous (\u0394G > 0, E_cell < 0), Anode is (+). ANOX: Anode is ALWAYS Oxidation!"
+      },
+      "codeSnippet": "DANIELL CELL ANATOMY (Zn-Cu System)\n\nAnode Half-Cell:   Zn(s) \u2500\u2500\u25ba Zn\u00b2\u207a(aq) + 2e\u207b  (E\u00b0_ox = +0.76 V)\nCathode Half-Cell: Cu\u00b2\u207a(aq) + 2e\u207b \u2500\u2500\u25ba Cu(s)  (E\u00b0_red = +0.34 V)\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nCell Notation:     Zn(s) | Zn\u00b2\u207a(aq, 1 M) || Cu\u00b2\u207a(aq, 1 M) | Cu(s)\nE\u00b0_cell = E\u00b0_cathode - E\u00b0_anode = +0.34 - (-0.76) = +1.10 V",
+      "content": "\u2022 **Galvanic (Voltaic) Cell**: Converts spontaneous chemical energy into electrical energy ($\\Delta G < 0, E_{\\text{cell}} > 0$). The Anode is **Negative (-)** (oxidation site) and the Cathode is **Positive (+)** (reduction site).\n\u2022 **Salt Bridge Functions**: Contains an inert electrolyte ($\\text{KCl}, \\text{KNO}_3, \\text{NH}_4\\text{NO}_3$) in agar-agar gel.\n  1. Completes the internal circuit by permitting migration of ions without bulk liquid mixing.\n  2. Maintains electrical neutrality in both half-cell reservoirs."
+    },
+    {
+      "heading": "1.2 Standard Hydrogen Electrode (SHE) & Electrochemical Series",
+      "title": "1.2 Standard Hydrogen Electrode (SHE) & Electrochemical Series",
+      "type": "paragraph",
+      "codeSnippet": "ELECTROCHEMICAL SERIES HIGHLIGHTS\n\nLi\u207a + e\u207b \u21cc Li(s)    E\u00b0 = -3.05 V  \u2500\u2500\u25ba Strongest Reducing Agent (Li)\n2H\u207a + 2e\u207b \u21cc H\u2082(g)   E\u00b0 = 0.000 V \u2500\u2500\u25ba Standard Reference (SHE at all T)\nF\u2082(g) + 2e\u207b \u21cc 2F\u207b   E\u00b0 = +2.87 V  \u2500\u2500\u25ba Strongest Oxidizing Agent (F\u2082)",
+      "content": "\u2022 **Standard Hydrogen Electrode (SHE)**: Primary reference half-cell ($2\\text{H}^+ + 2e^- \\rightleftharpoons \\text{H}_2$) assigned $E^\\circ = \\mathbf{0.000\\text{ V}}$ by international convention at **all temperatures**.\n\u2022 **Electrochemical Series**: Elements with lower (more negative) $E^\\circ$ are stronger reducing agents and can displace metals with higher $E^\\circ$ from their aqueous solutions."
+    }
+  ],
+  "quickRevision": [
+    "In Galvanic cells, Anode is (-) and Cathode is (+).",
+    "Salt bridge maintains electrical neutrality and completes internal circuit.",
+    "SHE standard potential is 0.000 V at all temperatures.",
+    "E\u00b0_cell = E\u00b0_cathode - E\u00b0_anode."
+  ],
+  "keyFormulae": [
+    "E^\\circ_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}}",
+    "\\Delta G^\\circ = -n F E^\\circ_{\\text{cell}}"
+  ]
+}

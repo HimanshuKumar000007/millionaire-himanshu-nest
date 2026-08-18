@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-20-07",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Chemical Coordination and Integration",
+  "chapterNumber": 20,
+  "chapterSlug": "chemical-coordination-and-integration",
+  "lessonNumber": 7,
+  "title": "Endocrine Pancreas: Glucose Homeostasis & Diabetes Mellitus",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Hard",
+  "prerequisites": ["Carbohydrate metabolism", "GLUT transporters"],
+  "learningObjectives": [
+    "Identify pancreatic islet cell types: Alpha (Glucagon), Beta (Insulin), and Delta (Somatostatin)",
+    "Explain Insulin hypoglycemic mechanisms (GLUT4 translocation, glycogenesis, lipogenesis)",
+    "Contrast Type 1 (IDDM) vs Type 2 (NIDDM) Diabetes Mellitus, including the 3 Polys, Glucosuria, and Ketonuria"
+  ],
+  "content": "The Islets of Langerhans constitute the endocrine pancreas ($\\approx 1\\text{--}2\\text{ Million}$ islets representing $1\\text{--}2\\%$ of total pancreatic mass).\n\n```\n                      PANCREATIC ISLET CELL TYPES\n                                   │\n         ┌─────────────────────────┼─────────────────────────┐\n         ▼                         ▼                         ▼\n   α-CELLS (15–20%)          β-CELLS (70–75%)          δ-CELLS (5%)\n   Secretes GLUCAGON         Secretes INSULIN          Secretes SOMATOSTATIN\n   (Hyperglycemic Factor)    (Hypoglycemic Factor)     (Inhibits Insulin & Glucagon)\n```\n\n### 7.1 Insulin vs. Glucagon Antagonistic Cascade\n\nNormal fasting blood glucose is strictly maintained between **$70\\text{ and }110\\text{ mg/dL}$**.\n\n```\n                   BLOOD GLUCOSE REGULATORY CASCADES\n                   \n   HYPERGLYCEMIA (High Glucose >110 mg/dL) ──► Pancreatic β-cells release INSULIN\n                                                                     │\n   Lowers Blood Glucose ◄── Stimulates GLUT4 Glucose Transporters + ──┤\n                             Promotes Glycogenesis & Lipogenesis +    │\n                             Inhibits Gluconeogenesis ───────────────┘\n                             \n   HYPOGLYCEMIA (Low Glucose <70 mg/dL)   ──► Pancreatic α-cells release GLUCAGON\n                                                                     │\n   Raises Blood Glucose ◄── Stimulates Liver Glycogenolysis + ──────┤\n                            Promotes Gluconeogenesis & Lipolysis ────┘\n```\n\n### 7.2 Diabetes Mellitus Pathophysiology\n\n```\n                        DIABETES MELLITUS TYPE COMPARISON\n                        \n      TYPE 1 DIABETES (IDDM)                    TYPE 2 DIABETES (NIDDM)\n      ├── Autoimmune destruction of β-cells     ├── Down-regulation / Resistance of\n      ├── Absolute Insulin Deficiency           │   Insulin Receptors\n      └── Requires daily insulin injections     └── Relative Insulin Resistance\n```\n\n- **Hallmark Manifestations of Diabetes Mellitus**:\n  1. **Hyperglycemia**: Abnormally elevated fasting blood glucose ($>126\\text{ mg/dL}$).\n  2. **Glucosuria**: Excretion of glucose in urine when blood levels exceed the renal threshold ($>180\\text{ mg/dL}$).\n  3. **Ketonuria**: Formation and urinary excretion of toxic ketone bodies (**Acetoacetate, $\\beta$-Hydroxybutyrate, Acetone**) resulting from excessive uninhibited lipolysis.\n  4. **The \"Three Polys\"**: **Polyuria** (frequent urination due to osmotic diuresis), **Polydipsia** (excessive thirst), and **Polyphagia** (excessive hunger).",
+  "conceptBreakdown": [
+    {
+      "heading": "GLUT4 Translocation Mechanism",
+      "explanation": "Insulin binds its receptor tyrosine kinase (RTK) -> activates IRS-1 -> activates PI3K/Akt pathway -> causes exocytic fusion of intracellular vesicles containing GLUT4 glucose transporters into the plasma membrane of skeletal muscle and adipocytes."
+    },
+    {
+      "heading": "Diabetic Ketoacidosis (DKA) Mechanics",
+      "explanation": "In absolute insulin deficiency, hormone-sensitive lipase in adipose tissue becomes hyperactive, flooding the liver with free fatty acids. Accelerated beta-oxidation overwhelms the Krebs cycle, shunting acetyl-CoA into ketogenesis, causing metabolic acidosis and Kussmaul breathing."
+    }
+  ]
+}

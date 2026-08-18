@@ -1,0 +1,50 @@
+{
+  "id": "bio-xi-u3-c8-l04",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Cell — The Unit of Life",
+  "chapterNumber": 8,
+  "chapterSlug": "cell-the-unit-of-life",
+  "slug": "lesson-04-cell-wall-plasmodesmata-desmotubules",
+  "title": "Plant Cell Wall Anatomy & Plasmodesmatal Symplastic Bridges",
+  "topic": "Middle Lamella (Ca/Mg Pectates), Primary & Secondary Walls, & Desmotubules",
+  "topics": [
+    "Cell Wall Layered Stratigraphy",
+    "Middle Lamella (Calcium & Magnesium Pectate Cementing Layer, Pectinase Fruit Softening)",
+    "Primary Cell Wall (Extensible Cellulose Microfibrils, Hemicellulose, Pectin, Extensins)",
+    "Secondary Cell Wall ($S_1, S_2, S_3$ Layers, Lignin & Suberin Impregnation)",
+    "Plasmodesmata Microscopic Channels",
+    "Desmotubules (Smooth ER Symplastic Continuation)"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "The plant cell wall comprises: 1) Middle Lamella (cementing layer of Calcium and Magnesium pectates; dissolved during fruit ripening), 2) Primary Wall (thin, flexible, extensible cellulose microfibril mesh capable of intussusception growth), 3) Secondary Wall (thick, rigid, non-extensible inner S1, S2, S3 layers impregnated with lignin/suberin). Plasmodesmata are intercellular cytoplasmic channels containing central Desmotubules derived from the Smooth ER.",
+  "summary": "The plant cell wall comprises: 1) Middle Lamella (cementing layer of Calcium and Magnesium pectates; dissolved during fruit ripening), 2) Primary Wall (thin, flexible, extensible cellulose microfibril mesh capable of intussusception growth), 3) Secondary Wall (thick, rigid, non-extensible inner S1, S2, S3 layers impregnated with lignin/suberin). Plasmodesmata are intercellular cytoplasmic channels containing central Desmotubules derived from the Smooth ER.",
+  "conceptBreakdown": [
+    {
+      "heading": "3.3 Cell Wall Architecture & Layered Stratigraphy",
+      "title": "3.3 Cell Wall Architecture & Layered Stratigraphy",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Middle lamella = Ca/Mg pectate. Primary wall = Extensible cellulose/pectin. Secondary wall = Rigid lignified S1/S2/S3. Plasmodesmata contain ER-derived Desmotubules."
+      },
+      "codeSnippet": "CELL WALL LAYERED STRUCTURE\n                          \n   Middle Lamella (Ca/Mg Pectate) ──► Primary Wall ──► Secondary Wall (S₁, S₂, S₃) ──► Plasma Membrane",
+      "content": "The plant cell wall is a rigid, non-living extracellular exoskeleton providing tensile support and osmotic protection.\n\n### Cell Wall Layers\n1. **Middle Lamella**: Outermost cementing layer between adjacent plant cells composed of **Calcium and Magnesium Pectates**. During fruit ripening, pectinase enzymes dissolve pectates, softening the fruit.\n2. **Primary Cell Wall**: Thin ($1\\text{--}3\\ \\mu\\text{m}$), flexible, extensible layer formed by young growing cells. Composed of cellulose microfibrils in a matrix of hemicellulose, pectin, and structural extensin proteins. Grows by **intussusception** (insertion of new wall material).\n3. **Secondary Cell Wall**: Thick, rigid, non-extensible layer deposited inner to the primary wall after cell expansion ceases. Stratified into $S_1, S_2, S_3$ layers, heavily impregnated with **Lignin** (in sclerenchyma and xylem) or **Suberin** (in cork)."
+    },
+    {
+      "heading": "Plasmodesmatal Symplastic Bridges",
+      "title": "Plasmodesmatal Symplastic Bridges",
+      "type": "paragraph",
+      "codeSnippet": "PLASMODESMATAL SYMPLASTIC BRIDGE\n                        \n     Cell A Cytoplasm ──► [ Plasma Membrane Continuum ] ──► Cell B Cytoplasm\n                                    │\n                         [ Central DESMOTUBULE ]\n                         (Derived from Smooth ER)",
+      "content": "• **Plasmodesmata**: Microscopic membrane-lined cytoplasmic bridges traversing primary cell walls and middle lamellae, linking neighboring protoplasts into a continuous **Symplast**.\n• **Desmotubule**: A central, tightly rolled cylindrical tubule traversing the plasmodesmatal pore, derived directly from the **Smooth Endoplasmic Reticulum (SER)**."
+    }
+  ]
+}

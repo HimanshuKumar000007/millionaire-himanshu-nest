@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-17-02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Excretory Products and their Elimination",
+  "chapterNumber": 17,
+  "chapterSlug": "excretory-products-and-their-elimination",
+  "lessonNumber": 2,
+  "title": "Human Urinary System Anatomy & Nephron Heterogeneity",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Medium",
+  "prerequisites": ["Vertebrate organ systems", "Epithelial histology"],
+  "learningObjectives": [
+    "Identify retroperitoneal coordinates and macro-anatomical landmarks of the human kidney",
+    "Differentiate Cortical vs Juxtamedullary nephrons structurally and functionally",
+    "Understand the role of Vasa Recta in medullary architecture"
+  ],
+  "content": "### 2.1 Macro-Anatomy of the Human Kidney\n\n```\n                         HUMAN KIDNEY ANATOMICAL REGIONS\n                                        │\n  Renal Capsule (Fibrous) ──► Cortex (Outer) ──► Medulla (Pyramids) ──► Calyces ──► Renal Pelvis ──► Ureter\n```\n\n- **Coordinates**: Retroperitoneal organs located between $\\text{T}_{12}$ and $\\text{L}_3$ vertebrae. Dimensions: $10\\text{--}12\\text{ cm}$ length, $5\\text{--}7\\text{ cm}$ width, $2\\text{--}3\\text{ cm}$ thickness, weight $120\\text{--}170\\text{ g}$.\n- **Internal Zonation**:\n  - **Renal Cortex**: Outer granular layer extending between medullary pyramids as **Columns of Bertini**.\n  - **Renal Medulla**: Divided into 8–18 conical Medullary Pyramids terminating in renal papillae, draining into Minor and Major Calyces $\\rightarrow$ **Renal Pelvis** $\\rightarrow$ Ureter.\n\n### 2.2 Cortical vs Juxtamedullary Nephron Heterogeneity\n\n```\n                     CORTICAL vs JUXTAMEDULLARY NEPHRONS\n                     \n   CORTICAL NEPHRONS (85% of total):\n   ├── Glomerulus situated in outer renal cortex.\n   ├── Short Loop of Henle extending only slightly into medulla.\n   └── Vasa Recta is reduced or COMPLETELY ABSENT.\n   \n   JUXTAMEDULLARY NEPHRONS (15% of total):\n   ├── Glomerulus situated deep near the corticomedullary junction.\n   ├── Long Loop of Henle extending deep into the inner medulla.\n   └── Well-developed Vasa Recta operating parallel to Henle's loop.\n   └── ESSENTIAL FOR CONCENTRATING URINE (Counter-Current Mechanism)!\n```\n\n- **Cortical Nephrons ($85\\%$)**: High abundance, short Henle loops, low Vasa Recta presence, primarily perform bulk filtration and basic reabsorption.\n- **Juxtamedullary Nephrons ($15\\%$)**: Deep corticomedullary position, long hairpin loops extending to papillae, richly wrapped by hairpin Vasa Recta loops that establish hyperosmolar medullary gradients.",
+  "conceptBreakdown": [
+    {
+      "heading": "Columns of Bertini",
+      "explanation": "Inward extensions of cortical tissue that project between adjacent medullary pyramids, housing interlobar arteries and veins that supply the renal parenchyma."
+    },
+    {
+      "heading": "Functional Significance of Juxtamedullary Nephrons",
+      "explanation": "Although comprising only 15% of the nephron pool, juxtamedullary nephrons are solely responsible for generating the 1200 mOsmol/L hyperosmotic gradient required to concentrate urine during water deprivation."
+    }
+  ]
+}

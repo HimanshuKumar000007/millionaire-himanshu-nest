@@ -1,0 +1,441 @@
+[
+  {
+    "id": "bio-living-world-q001",
+    "exam": "NEST",
+    "subject": "Biology",
+    "classLevel": "Class XI",
+    "unit": "Unit I — Diversity of Living Organisms",
+    "chapter": "The Living World",
+    "topic": "Biodiversity",
+    "difficulty": "Core Foundation",
+    "status": "published",
+    "source": "development-example",
+    "questionText": "Biodiversity refers to the total variety of living organisms on Earth. Which of the following levels of biodiversity accounts for the variation in nucleotide sequences among individuals of the same species?",
+    "questionType": "MCQ",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ecosystem Diversity",
+        "isCorrect": false,
+        "explanation": "Ecosystem diversity refers to the variety of habitats, biotic communities, and ecological processes in a biosphere."
+      },
+      {
+        "id": "b",
+        "text": "Genetic Diversity",
+        "isCorrect": true,
+        "explanation": "Genetic diversity represents the total genetic information contained within the individuals of a species, reflected in variation in nucleotide sequences."
+      },
+      {
+        "id": "c",
+        "text": "Species Diversity",
+        "isCorrect": false,
+        "explanation": "Species diversity is the variety of species within a region or habitat."
+      },
+      {
+        "id": "d",
+        "text": "Phylogenetic Diversity",
+        "isCorrect": false,
+        "explanation": "Phylogenetic diversity measures the evolutionary lineage distance between species."
+      }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Genetic diversity is diversity at the gene level within a single species. It encompasses variation in DNA sequences, alleles, and chromosomal architecture.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "bio-living-world-q002",
+    "exam": "NEST",
+    "subject": "Biology",
+    "classLevel": "Class XI",
+    "unit": "Unit I — Diversity of Living Organisms",
+    "chapter": "The Living World",
+    "topic": "Need for Classification",
+    "difficulty": "Core Foundation",
+    "status": "published",
+    "source": "development-example",
+    "questionText": "Why is a scientific system of biological classification essential for global biological research?",
+    "questionType": "MCQ",
+    "options": [
+      {
+        "id": "a",
+        "text": "It guarantees that all known organisms are photosynthetic.",
+        "isCorrect": false,
+        "explanation": "Classification includes heterotrophs, saprotrophs, and chemolithotrophs as well as autotrophs."
+      },
+      {
+        "id": "b",
+        "text": "It organizes millions of diverse species into systematic groups based on evolutionary relationships and shared characteristics.",
+        "isCorrect": true,
+        "explanation": "Classification organizes vast biodiversity into hierarchical groups based on homologies and evolutionary relationships, avoiding confusion caused by common names."
+      },
+      {
+        "id": "c",
+        "text": "It eliminates the need for binomial nomenclature.",
+        "isCorrect": false,
+        "explanation": "Binomial nomenclature is an essential component of biological classification."
+      },
+      {
+        "id": "d",
+        "text": "It ensures that species names change every ten years.",
+        "isCorrect": false,
+        "explanation": "Classification aims for stability and universal acceptance of scientific names."
+      }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Biological classification allows scientists worldwide to communicate unambiguously, predict characteristics of newly discovered organisms, and understand evolutionary relationships.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "bio-living-world-q003",
+    "exam": "NEST",
+    "subject": "Biology",
+    "classLevel": "Class XI",
+    "unit": "Unit I — Diversity of Living Organisms",
+    "chapter": "The Living World",
+    "topic": "Three Domains of Life",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "development-example",
+    "questionText": "Carl Woese proposed the Three-Domain system of classification based on molecular phylogenetics. Which key molecular biomarker was sequenced to divide cellular life into Archaea, Bacteria, and Eukarya?",
+    "questionType": "MCQ",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cytochrome c oxidase gene",
+        "isCorrect": false,
+        "explanation": "Cytochrome c is widely used in eukaryotic animal phylogenetics, but not universal across all prokaryotes."
+      },
+      {
+        "id": "b",
+        "text": "16S ribosomal RNA (rRNA) gene sequence",
+        "isCorrect": true,
+        "explanation": "Woese used 16S rRNA (and 18S in eukaryotes) sequence alignment because rRNA is universally conserved and essential for translation in all cellular organisms."
+      },
+      {
+        "id": "c",
+        "text": "ATP synthase subunit beta amino acid sequence",
+        "isCorrect": false,
+        "explanation": "ATP synthase is conserved, but 16S rRNA was the primary marker used by Woese in 1977/1990."
+      },
+      {
+        "id": "d",
+        "text": "Messenger RNA (mRNA) poly-A tail length",
+        "isCorrect": false,
+        "explanation": "Prokaryotic mRNAs generally lack stable poly-A tails."
+      }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Carl Woese analyzed 16S rRNA gene sequences, revealing that Archaea are distinct from Bacteria despite sharing a prokaryotic cell organization.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "bio-living-world-q004",
+    "exam": "NEST",
+    "subject": "Biology",
+    "classLevel": "Class XI",
+    "unit": "Unit I — Diversity of Living Organisms",
+    "chapter": "The Living World",
+    "topic": "Three Domains of Life",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "development-example",
+    "questionText": "Which of the following cellular features uniquely distinguish members of Domain Archaea from Domain Bacteria? (Select all correct statements)",
+    "questionType": "MSQ",
+    "options": [
+      {
+        "id": "a",
+        "text": "Archaean cell membranes contain ether-linked branched isoprenoid lipids rather than ester-linked fatty acids.",
+        "isCorrect": true,
+        "explanation": "Archaean cell membranes contain ether linkages and branched isoprenoid side chains, providing extreme chemical stability."
+      },
+      {
+        "id": "b",
+        "text": "Archaean cell walls lack true peptidoglycan (murein).",
+        "isCorrect": true,
+        "explanation": "Archaea cell walls possess pseudomurein, S-layers, or glycoproteins, but lack peptidoglycan."
+      },
+      {
+        "id": "c",
+        "text": "Archaean RNA polymerases and transcription initiation factors closely resemble eukaryotic transcription machinery.",
+        "isCorrect": true,
+        "explanation": "Archaea transcription machinery (multi-subunit RNA polymerase, TATA-binding protein, TFIIB) is homologous to eukaryotic RNA polymerase II."
+      },
+      {
+        "id": "d",
+        "text": "Archaea contain a membrane-bound nucleus and linear chromosomes surrounded by a nuclear envelope.",
+        "isCorrect": false,
+        "explanation": "Archaea are prokaryotes and lack a membrane-bound nucleus."
+      }
+    ],
+    "solutionExplanation": "Archaea possess unique ether-linked isoprenoid membrane lipids, lack peptidoglycan in cell walls, and possess eukaryotic-like transcription/translation machinery.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "bio-living-world-q005",
+    "exam": "NEST",
+    "subject": "Biology",
+    "classLevel": "Class XI",
+    "unit": "Unit I — Diversity of Living Organisms",
+    "chapter": "The Living World",
+    "topic": "Taxonomy and Systematics",
+    "difficulty": "Core Foundation",
+    "status": "published",
+    "source": "development-example",
+    "questionText": "Systematics differs from classical taxonomy in that systematics specifically incorporates:",
+    "questionType": "MCQ",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only gross morphological traits of preserved specimens.",
+        "isCorrect": false,
+        "explanation": "Gross morphology is the primary focus of classical/alpha taxonomy."
+      },
+      {
+        "id": "b",
+        "text": "Phylogenetic (evolutionary) relationships among organisms.",
+        "isCorrect": true,
+        "explanation": "Systematics is the study of diversification of living forms and their evolutionary (phylogenetic) relationships."
+      },
+      {
+        "id": "c",
+        "text": "Only vernacular names in regional languages.",
+        "isCorrect": false,
+        "explanation": "Vernacular names are non-scientific."
+      },
+      {
+        "id": "d",
+        "text": "Artificial grouping based strictly on habitat.",
+        "isCorrect": false,
+        "explanation": "Habitat-based grouping is characteristic of early artificial classification systems (e.g., Aristotle)."
+      }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Systematics = Taxonomy + Phylogeny. It studies evolutionary history, lineage relationships, and comparative traits across taxa.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "bio-living-world-q006",
+    "exam": "NEST",
+    "subject": "Biology",
+    "classLevel": "Class XI",
+    "unit": "Unit I — Diversity of Living Organisms",
+    "chapter": "The Living World",
+    "topic": "Concept of Species",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "development-example",
+    "questionText": "Ernst Mayr formulated the Biological Species Concept (BSC). According to the BSC, a species is defined as a group of interbreeding natural populations that are:",
+    "questionType": "MCQ",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reproductively isolated from other such groups.",
+        "isCorrect": true,
+        "explanation": "Mayr defined species as groups of actually or potentially interbreeding natural populations that are reproductively isolated from other such groups."
+      },
+      {
+        "id": "b",
+        "text": "Identical in chromosome number only.",
+        "isCorrect": false,
+        "explanation": "Karyotypic similarity alone does not define a biological species."
+      },
+      {
+        "id": "c",
+        "text": "Found in the exact same geographical niche.",
+        "isCorrect": false,
+        "explanation": "Sympatric or allopatric populations can belong to the same species as long as reproductive compatibility exists."
+      },
+      {
+        "id": "d",
+        "text": "Capable of asexual cloning only.",
+        "isCorrect": false,
+        "explanation": "The BSC applies primarily to sexually reproducing organisms."
+      }
+    ],
+    "correctAnswer": "a",
+    "solutionExplanation": "The Biological Species Concept focuses on gene flow and reproductive isolation as the primary criteria for species boundaries.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "bio-living-world-q007",
+    "exam": "NEST",
+    "subject": "Biology",
+    "classLevel": "Class XI",
+    "unit": "Unit I — Diversity of Living Organisms",
+    "chapter": "The Living World",
+    "topic": "Taxonomical Hierarchy",
+    "difficulty": "Core Foundation",
+    "status": "published",
+    "source": "development-example",
+    "questionText": "Arrange the following obligate taxonomic categories in ascending order (from lowest to highest rank):\n1. Class\n2. Order\n3. Species\n4. Genus\n5. Family\n6. Phylum\n7. Kingdom",
+    "questionType": "MCQ",
+    "options": [
+      {
+        "id": "a",
+        "text": "3 → 4 → 5 → 2 → 1 → 6 → 7",
+        "isCorrect": true,
+        "explanation": "Ascending order: Species (3) → Genus (4) → Family (5) → Order (2) → Class (1) → Phylum (6) → Kingdom (7)."
+      },
+      {
+        "id": "b",
+        "text": "7 → 6 → 1 → 2 → 5 → 4 → 3",
+        "isCorrect": false,
+        "explanation": "This is descending order (highest to lowest)."
+      },
+      {
+        "id": "c",
+        "text": "3 → 4 → 2 → 5 → 1 → 6 → 7",
+        "isCorrect": false,
+        "explanation": "Order comes after Family, not before."
+      },
+      {
+        "id": "d",
+        "text": "4 → 3 → 5 → 2 → 1 → 6 → 7",
+        "isCorrect": false,
+        "explanation": "Species is lower than Genus."
+      }
+    ],
+    "correctAnswer": "a",
+    "solutionExplanation": "The obligate taxonomic hierarchy in ascending order is: Species < Genus < Family < Order < Class < Phylum/Division < Kingdom.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "bio-living-world-q008",
+    "exam": "NEST",
+    "subject": "Biology",
+    "classLevel": "Class XI",
+    "unit": "Unit I — Diversity of Living Organisms",
+    "chapter": "The Living World",
+    "topic": "Taxonomical Hierarchy",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "development-example",
+    "questionText": "As we move from Species to Kingdom in the taxonomical hierarchy, what happens to the number of shared common characteristics among member organisms?",
+    "questionType": "MCQ",
+    "options": [
+      {
+        "id": "a",
+        "text": "The number of shared common characteristics increases.",
+        "isCorrect": false,
+        "explanation": "Common characteristics are maximum at the species level."
+      },
+      {
+        "id": "b",
+        "text": "The number of shared common characteristics decreases.",
+        "isCorrect": true,
+        "explanation": "Lower taxa (species) share maximum common features; higher taxa (kingdom) share fewer specific common features and broader general features."
+      },
+      {
+        "id": "c",
+        "text": "The number of shared characteristics remains completely constant.",
+        "isCorrect": false,
+        "explanation": "Shared features change dramatically across taxonomic levels."
+      },
+      {
+        "id": "d",
+        "text": "It increases in plants but decreases in animals.",
+        "isCorrect": false,
+        "explanation": "The rule applies universally across all biological domains."
+      }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Species have maximum shared characteristics. As hierarchy ascends (Genus -> Family -> Order -> Class -> Phylum -> Kingdom), specific common characteristics decrease while general broader features increase.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "bio-living-world-q009",
+    "exam": "NEST",
+    "subject": "Biology",
+    "classLevel": "Class XI",
+    "unit": "Unit I — Diversity of Living Organisms",
+    "chapter": "The Living World",
+    "topic": "Binomial Nomenclature",
+    "difficulty": "Core Foundation",
+    "status": "published",
+    "source": "development-example",
+    "questionText": "According to the International Code of Nomenclature for algae, fungi, and plants (ICN) and animals (ICZN), which of the following represents a correctly formatted scientific binomial name?",
+    "questionType": "MCQ",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mangifera Indica L.",
+        "isCorrect": false,
+        "explanation": "The specific epithet 'indica' must start with a lowercase letter ('indica', not 'Indica')."
+      },
+      {
+        "id": "b",
+        "text": "*Mangifera indica* Linn.",
+        "isCorrect": true,
+        "explanation": "Generic name starts with capital letter, specific epithet starts with lowercase letter, printed in italics, followed by author citation in Roman script."
+      },
+      {
+        "id": "c",
+        "text": "mangifera Indica",
+        "isCorrect": false,
+        "explanation": "Genus name must be capitalized, and specific epithet must be lowercase."
+      },
+      {
+        "id": "d",
+        "text": "MANGIFERA INDICA",
+        "isCorrect": false,
+        "explanation": "All caps formatting violates binomial rules."
+      }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Binomial Rules: 1. Genus capitalized, species lowercase. 2. Italics in print, underlined separately when handwritten. 3. Author citation written in Roman script after species epithet (e.g. *Mangifera indica* Linn.).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "bio-living-world-q010",
+    "exam": "NEST",
+    "subject": "Biology",
+    "classLevel": "Class XI",
+    "unit": "Unit I — Diversity of Living Organisms",
+    "chapter": "The Living World",
+    "topic": "Binomial Nomenclature",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "development-example",
+    "questionText": "In biological nomenclature, what is a 'tautonym' and under which code of nomenclature is it strictly prohibited?",
+    "questionType": "MCQ",
+    "options": [
+      {
+        "id": "a",
+        "text": "A name where generic name and specific epithet are identical (e.g. *Rattus rattus*); prohibited in Botanical Nomenclature (ICN).",
+        "isCorrect": true,
+        "explanation": "Tautonyms (e.g. *Naja naja*, *Rattus rattus*) are valid in Zoology (ICZN) but strictly invalid/prohibited in Botany (ICN)."
+      },
+      {
+        "id": "b",
+        "text": "A name named after two different authors; prohibited in Zoological Nomenclature.",
+        "isCorrect": false,
+        "explanation": "Tautonym refers to identical generic and specific names."
+      },
+      {
+        "id": "c",
+        "text": "A name derived from Latinized Greek words; prohibited in Bacteriological Nomenclature.",
+        "isCorrect": false,
+        "explanation": "Latinization is required in all botanical/zoological nomenclature."
+      },
+      {
+        "id": "d",
+        "text": "A name with more than three words; prohibited in ICZN.",
+        "isCorrect": false,
+        "explanation": "Trinomials (subspecies) are permitted; tautonym refers to identical genus and species names."
+      }
+    ],
+    "correctAnswer": "a",
+    "solutionExplanation": "A tautonym occurs when the generic name and specific epithet are spelled identically (e.g. *Malus malus* or *Naja naja*). Tautonyms are permitted in ICZN (zoology) but strictly forbidden in ICN (botany).",
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

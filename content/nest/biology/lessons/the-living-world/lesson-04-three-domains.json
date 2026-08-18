@@ -1,0 +1,68 @@
+{
+  "id": "bio-xi-u1-c1-l04",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit I — Diversity of Living Organisms",
+  "unitNumber": 1,
+  "chapter": "The Living World",
+  "chapterNumber": 1,
+  "chapterSlug": "the-living-world",
+  "slug": "lesson-04-three-domains",
+  "title": "The Three-Domain System & Molecular Phylogeny",
+  "topic": "Three-Domain System",
+  "topics": [
+    "Carl Woese 3-Domain Model (1990)",
+    "UNIVERSAL ANCESTOR (LUCA)",
+    "16S / 18S rRNA Molecular Clock Marker",
+    "Comprehensive Comparative Table (Bacteria vs Archaea vs Eukarya)",
+    "Membrane Lipid Biochemistry (Ether vs Ester)",
+    "Prokaryote Grade vs Clade & Sister Taxa"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 6,
+  "estimatedTimeMinutes": 6,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Proposed by Carl Woese, Otto Kandler, and Mark Wheelis (1990), the Three-Domain Model elevated classification above the Kingdom level. It replaced the Five-Kingdom system by demonstrating that prokaryotes do not constitute a single monophyletic kingdom (Monera), but rather two distinct evolutionary domains: Bacteria and Archaea.",
+  "summary": "Proposed by Carl Woese, Otto Kandler, and Mark Wheelis (1990), the Three-Domain Model elevated classification above the Kingdom level. It replaced the Five-Kingdom system by demonstrating that prokaryotes do not constitute a single monophyletic kingdom (Monera), but rather two distinct evolutionary domains: Bacteria and Archaea.",
+  "conceptBreakdown": [
+    {
+      "heading": "4. The Three-Domain System & Molecular Phylogeny",
+      "title": "4. The Three-Domain System & Molecular Phylogeny",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary Box",
+        "takeaway": "Carl Woese elevated biological classification above kingdom level into 3 domains (Bacteria, Archaea, Eukarya) using 16S/18S rRNA sequencing, establishing that Archaea and Eukarya are sister domains derived from LUCA."
+      },
+      "codeSnippet": "UNIVERSAL ANCESTOR (LUCA)\n                                              │\n                       ┌──────────────────────┴──────────────────────┐\n                       ▼                                             ▼\n                Domain BACTERIA                               Domain ARCHAEA\n                                                                     │\n                                                                     └─────────────┐\n                                                                                   ▼\n                                                                            Domain EUKARYA",
+      "content": "Proposed by Carl Woese, Otto Kandler, and Mark Wheelis (1990), the Three-Domain Model elevated the highest level of biological classification above the Kingdom level. It replaced the traditional Five-Kingdom system (Whittaker, 1969) by demonstrating that prokaryotes do not constitute a single monophyletic kingdom (Monera), but rather two distinct evolutionary domains: Bacteria and Archaea."
+    },
+    {
+      "heading": "4.1 The Molecular Clock: 16S / 18S rRNA Marker",
+      "title": "4.1 The Molecular Clock: 16S / 18S rRNA Marker",
+      "type": "paragraph",
+      "content": "Woese selected the small subunit ribosomal RNA (SSU rRNA) gene—specifically 16S rRNA in prokaryotes and 18S rRNA in eukaryotes—as the ultimate evolutionary chronometer based on the following structural criteria:\n\n• Universal Distribution: Present in every cellular organism as a core component of translation machinery.\n\n• Functional Constancy: Performs identical functional roles in protein synthesis across all life; thus, mutations are strictly filtered by natural selection.\n\n• Conserved and Variable Regions: Contains highly conserved nucleotide regions (allowing universal PCR primer alignment) flanked by hypervariable regions that accumulate neutral mutations over evolutionary time scales (acting as a molecular clock)."
+    },
+    {
+      "heading": "4.2 Comprehensive Comparative Analysis of the Three Domains",
+      "title": "4.2 Comprehensive Comparative Analysis of the Three Domains",
+      "type": "paragraph",
+      "codeSnippet": "MEMBRANE LIPID BIOCHEMISTRY\n                       \n        BACTERIA / EUKARYA                           ARCHAEA\n        \n     D-Glycerol-3-Phosphate                   L-Glycerol-1-Phosphate\n            │                                        │\n      [Ester Linkage]                          [Ether Linkage]\n            │                                        │\n     O=C─O─CH₂                                  O─CH₂\n       │                                         │\n     Unbranched Fatty Acid                    Branched Isoprenoid\n       (Straight Chain)                        (Phytanyl Chain)",
+      "content": "| Feature | Domain BACTERIA | Domain ARCHAEA | Domain EUKARYA |\n| :--- | :--- | :--- | :--- |\n| **Cellular Organization** | Prokaryotic (no membrane-enclosed nucleus or organelles) | Prokaryotic (no membrane-enclosed nucleus or organelles) | Eukaryotic (enclosed nucleus and membrane-bound organelles) |\n| **Cell Wall Structure** | Present; composed of **Peptidoglycan** (Murein with $\\beta$-1,4-linked NAG and NAM) | Lacks peptidoglycan; contains **Pseudopeptidoglycan** ($\\beta$-1,3-linked NAG and NAT), S-layers, or complex polysaccharides | Present in plants/algae (cellulose, pectin) and fungi (chitin); absent in animals |\n| **Membrane Lipid Architecture** | **Ester-linked**, unbranched fatty acid chains bound to D-glycerol-3-phosphate | **Ether-linked**, branched **isoprenoid** (phytanyl) chains bound to L-glycerol-1-phosphate | **Ester-linked**, unbranched fatty acid chains bound to D-glycerol-3-phosphate |\n| **Membrane Bilayer vs. Monolayer** | Exclusively lipid bilayer | Can form **lipid monolayers** (biphytanyl tetraethers) conferring thermal stability in hyperthermophiles | Lipid bilayer containing sterols (cholesterol, ergosterol, phytosterols) |\n| **First Amino Acid in Translation** | Formylmethionine (fMet) | Methionine (Met) | Methionine (Met) |\n| **RNA Polymerase Enzymes** | Single simple RNA Polymerase (4 core subunits: $\\alpha_2 \\beta \\beta^\\prime \\omega$) | Single complex RNA Polymerase (8–12 subunits; structurally homologous to Eukaryotic RNAP II) | Three complex RNA Polymerases (RNAP I, II, III; 12–14 subunits each) |\n| **Introns in Genes** | Extremely rare (present only in tRNA/rRNA in special lineages) | Present in some structural and tRNA/rRNA genes | Ubiquitous in protein-coding nuclear genes |\n| **Histone Proteins** | Absent; DNA condensed by HU and H-NS nucleoid proteins | Present in most lineages (form tetramer nucleosome-like structures) | Present (octameric histone complexes: H2A, H2B, H3, H4 + H1) |\n| **Ribosomal Subunit Profile** | **70S** (30S subunit [16S rRNA] + 50S subunit [5S & 23S rRNA]) | **70S** (30S subunit [16S rRNA] + 50S subunit [5S & 23S rRNA]); structural shape closer to Eukarya | **80S** cytoplasmic (40S subunit [18S rRNA] + 60S subunit [5S, 5.8S, 28S rRNA]); 70S in organelles |\n| **Sensitivity to Antibiotics** | Inhibited by Streptomycin, Chloramphenicol, Ampicillin | Insensitive to Streptomycin, Chloramphenicol, and Ampicillin | Insensitive to prokaryotic translation inhibitors |\n| **Sensitivity to Diphtheria Toxin** | Insensitive | Sensitive (ADP-ribosylation of elongation factor EF-2) | Sensitive (ADP-ribosylation of elongation factor EF-2) |"
+    },
+    {
+      "heading": "4.3 Key Evolutionary Insights for NEST",
+      "title": "4.3 Key Evolutionary Insights for NEST",
+      "type": "paragraph",
+      "content": "• Prokaryote is a Grade, Not a Clade: The term 'prokaryote' describes a structural grade (absence of a membrane-enclosed nucleus), not a monophyletic taxon.\n\n• Sister Taxa Relationship: Molecular analysis of transcription, translation, and replication machinery shows that Archaea and Eukarya are sister domains, sharing a more recent common ancestor with each other than either does with Bacteria."
+    }
+  ],
+  "quickRevision": [
+    "Woese 3 domains = Bacteria, Archaea, Eukarya based on 16S/18S rRNA.",
+    "Bacteria: Peptidoglycan (β-1,4), Ester lipids, fMet.",
+    "Archaea: Pseudopeptidoglycan (β-1,3), Ether-linked isoprenoid lipids (tetraether monolayers), Met, Eukaryotic-like RNAP.",
+    "Archaea and Eukarya are sister domains; Prokaryote is a grade, not a clade."
+  ]
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "math-calculus-001",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Calculus",
+    "subtopic": "Limits & Continuity",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "development-example",
+    "questionType": "MCQ",
+    "questionText": "Evaluate the limit: lim_{x -> 0} (1 - cos(3x)) / x².",
+    "options": [
+      {
+        "id": "a",
+        "text": "3/2",
+        "isCorrect": false,
+        "explanation": "Did not square the coefficient of x."
+      },
+      {
+        "id": "b",
+        "text": "9/2",
+        "isCorrect": true,
+        "explanation": "Using standard limit lim_{u->0} (1-cos u)/u² = 1/2. Here u = 3x, so (1-cos 3x)/x² = 9 * (1-cos 3x)/(3x)² -> 9 * (1/2) = 9/2."
+      },
+      {
+        "id": "c",
+        "text": "3",
+        "isCorrect": false,
+        "explanation": "Incorrect limit evaluation."
+      },
+      {
+        "id": "d",
+        "text": "9",
+        "isCorrect": false,
+        "explanation": "Forgot the 1/2 factor."
+      }
+    ],
+    "solutionExplanation": "Using L'Hopital's rule or standard trigonometric limit: lim_{x->0} (1-cos kx)/x² = k²/2. For k = 3, the limit evaluates to 3²/2 = 9/2.",
+    "keyFormulae": ["lim_{u->0} (1-cos u)/u² = 1/2", "lim_{x->0} (1-cos kx)/x² = k²/2"],
+    "hints": ["Multiply numerator and denominator by 9 or apply L'Hopital's rule twice."],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "math-calculus-002",
+    "exam": "NEST",
+    "subject": "Mathematics",
+    "topic": "Calculus",
+    "subtopic": "Definite Integrals",
+    "difficulty": "Advanced",
+    "status": "published",
+    "source": "development-example",
+    "questionType": "Numerical",
+    "questionText": "Evaluate the definite integral I = ∫_{0}^{π/2} (sin x) / (sin x + cos x) dx.",
+    "numericalAnswer": {
+      "min": 0.78,
+      "max": 0.79,
+      "exactValue": 0.785,
+      "tolerance": 0.01
+    },
+    "solutionExplanation": "Using King's Property ∫_{a}^{b} f(x) dx = ∫_{a}^{b} f(a+b-x) dx: I = ∫_{0}^{π/2} cos x / (cos x + sin x) dx. Adding both integrals yields 2I = ∫_{0}^{π/2} 1 dx = π/2 => I = π/4 ≈ 0.7854.",
+    "keyFormulae": ["∫_{0}^{a} f(x)dx = ∫_{0}^{a} f(a-x)dx", "I = π/4 ≈ 0.7854"],
+    "hints": ["Apply the property f(x) -> f(π/2 - x) and sum I + I."],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

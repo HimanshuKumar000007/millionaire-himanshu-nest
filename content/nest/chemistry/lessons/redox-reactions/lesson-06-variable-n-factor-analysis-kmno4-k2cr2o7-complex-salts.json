@@ -1,0 +1,59 @@
+{
+  "id": "chem-xi-u7-c7-l06",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VII \u2014 Redox Reactions",
+  "unitNumber": 7,
+  "chapter": "Redox Reactions",
+  "chapterNumber": 7,
+  "chapterSlug": "redox-reactions",
+  "slug": "lesson-06-variable-n-factor-analysis-kmno4-k2cr2o7-complex-salts",
+  "title": "Variable n-Factor Analysis of KMnO\u2084, K\u2082Cr\u2082O\u2087, & Complex Multi-Elemental Salts",
+  "topic": "Variable n-Factors & Complex Salts",
+  "topics": [
+    "KMnO\u2084 across 3 pH Regimes: Acidic (n=5), Neutral/Baeyer's (n=3), Basic (n=1)",
+    "K\u2082Cr\u2082O\u2087 in Acidic Medium (n=6)",
+    "Multi-Elemental Salt Oxidation: FeC\u2082O\u2084 (n=3), Fe\u2082(C\u2082O\u2084)\u2083 (n=6), Cu\u2082S (n=8)",
+    "Disproportionation n-Factor Formula: n_net = (n\u2081 \u00b7 n\u2082) / (n\u2081 + n\u2082)"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "redox-reactions",
+  "quickSummary": "KMnO\u2084 has n=5 in acid, n=3 in neutral, n=1 in strong base. K\u2082Cr\u2082O\u2087 has n=6 in acid. FeC\u2082O\u2084 has n=1+2=3. Disproportionation n_net = (n\u2081 \u00b7 n\u2082) / (n\u2081 + n\u2082).",
+  "summary": "Master variable n-factors of KMnO\u2084 across pH regimes, K\u2082Cr\u2082O\u2087, and multi-elemental salts like FeC\u2082O\u2084.",
+  "conceptBreakdown": [
+    {
+      "heading": "6.1 Potassium Permanganate (KMnO\u2084) Across pH Regimes",
+      "title": "6.1 Potassium Permanganate (KMnO\u2084) Across pH Regimes",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "KMnO\u2084 pH Matrix",
+        "takeaway": "Acidic: n=5 (Mn\u00b2\u207a, E.M.=M/5). Neutral: n=3 (MnO\u2082, E.M.=M/3). Basic: n=1 (MnO\u2084\u00b2\u207b, E.M.=M/1)."
+      },
+      "codeSnippet": "KMnO\u2084 REDOX BEHAVIOR vs pH REGIME\n                     \n1. ACIDIC MEDIUM (pH < 7):\n   MnO\u2084\u207b (+7) + 5e\u207b + 8H\u207a \u2192 Mn\u00b2\u207a (+2) + 4H\u2082O\n   n-factor = |+7 - (+2)| = 5  \u27f9  E.M. = M/5 = 158.04/5 = 31.61 g/eq\n      \n2. NEUTRAL / FAINTLY ALKALINE MEDIUM (pH = 7\u20139, Baeyer's Reagent):\n   MnO\u2084\u207b (+7) + 3e\u207b + 2H\u2082O \u2192 MnO\u2082 (+4) + 4OH\u207b\n   n-factor = |+7 - (+4)| = 3  \u27f9  E.M. = M/3 = 158.04/3 = 52.68 g/eq\n      \n3. STRONGLY BASIC MEDIUM (pH > 12):\n   MnO\u2084\u207b (+7) + e\u207b \u2192 MnO\u2084\u00b2\u207b (+6) (Manganate Ion)\n   n-factor = |+7 - (+6)| = 1  \u27f9  E.M. = M/1 = 158.04 g/eq",
+      "content": "Potassium Permanganate is an exceptional oxidizing agent whose reduction product is governed by solution pH:\n\n1. **Acidic Medium ($\\text{pH} < 7$)**: $\\text{MnO}_4^- (+7) \\rightarrow \\text{Mn}^{2+} (+2) \\implies \\mathbf{n = 5}, \\mathbf{\\text{E.M.} = M/5 = 31.61\\text{ g/eq}}$.\n2. **Neutral / Faintly Basic ($\\text{pH} = 7\\text{--}9$, Baeyer's Reagent)**: $\\text{MnO}_4^- (+7) \\rightarrow \\text{MnO}_2 (+4) \\implies \\mathbf{n = 3}, \\mathbf{\\text{E.M.} = M/3 = 52.68\\text{ g/eq}}$.\n3. **Strongly Basic Medium ($\\text{pH} > 12$)**: $\\text{MnO}_4^- (+7) \\rightarrow \\text{MnO}_4^{2-} (+6) \\implies \\mathbf{n = 1}, \\mathbf{\\text{E.M.} = M/1 = 158.04\\text{ g/eq}}$."
+    },
+    {
+      "heading": "6.2 K\u2082Cr\u2082O\u2087 and Complex Poly-Elemental Salts",
+      "title": "6.2 K\u2082Cr\u2082O\u2087 and Complex Poly-Elemental Salts",
+      "type": "paragraph",
+      "codeSnippet": "n-FACTOR FOR MULTI-ELEMENTAL OXIDATION\n\n\u2022 K\u2082Cr\u2082O\u2087 (in acid): Cr\u2082O\u2087\u00b2\u207b (+6) \u2192 2 Cr\u00b3\u207a (+3)\n  n = 2 atoms \u00d7 |6 - 3| = 6  \u27f9  E.M. = M/6 = 49.03 g/eq\n\n\u2022 Ferrous Oxalate (FeC\u2082O\u2084 \u2192 Fe\u00b3\u207a + 2 CO\u2082):\n  Fe\u00b2\u207a \u2192 Fe\u00b3\u207a (n\u2081 = 1)  PLUS  C\u2082O\u2084\u00b2\u207b \u2192 2 CO\u2082 (n\u2082 = 2)\n  n_net = 1 + 2 = 3  \u27f9  E.M. = M/3\n\n\u2022 Disproportionation: n_net = (n\u2081 \u00b7 n\u2082) / (n\u2081 + n\u2082)",
+      "content": "\u2022 **Potassium Dichromate ($\\text{K}_2\\text{Cr}_2\\text{O}_7$)**: Acts as an oxidant strictly in acidic medium:\n  $$\\text{Cr}_2\\text{O}_7^{2-} (+6) + 14\\text{H}^+ + 6e^- \\rightarrow 2\\text{Cr}^{3+} (+3) + 7\\text{H}_2\\text{O} \\implies \\mathbf{n = 6}, \\mathbf{\\text{E.M.} = M/6 = 49.03\\text{ g/eq}}$$\n\u2022 **Multi-Elemental Salt Oxidation (Ferrous Oxalate, $\\text{FeC}_2\\text{O}_4$)**:\n  - $\\text{Fe}^{2+} \\rightarrow \\text{Fe}^{3+} + e^- \\implies n_1 = 1$\n  - $\\text{C}_2\\text{O}_4^{2-} \\rightarrow 2\\text{CO}_2 + 2e^- \\implies n_2 = 2$\n  - Net $n = n_1 + n_2 = 1 + 2 = \\mathbf{3} \\implies \\mathbf{\\text{E.M.} = M/3}$.\n\u2022 **Disproportionation Formula**: For a single reactant undergoing both oxidation ($n_{\\text{ox}}$) and reduction ($n_{\\text{red}}$):\n  $$\\mathbf{n_{\\text{net}} = \\frac{n_{\\text{ox}} \\cdot n_{\\text{red}}}{n_{\\text{ox}} + n_{\\text{red}}}}$$"
+    }
+  ],
+  "quickRevision": [
+    "KMnO\u2084: n=5 (acid), n=3 (neutral/faint base), n=1 (strong base).",
+    "K\u2082Cr\u2082O\u2087 in acid has n=6 (E.M. = M/6).",
+    "FeC\u2082O\u2084 oxidized to Fe\u00b3\u207a and CO\u2082 has n-factor = 3.",
+    "Disproportionation n-factor = (n\u2081 \u00b7 n\u2082) / (n\u2081 + n\u2082)."
+  ],
+  "keyFormulae": [
+    "n_{\\text{net}} = n_1 + n_2 \\quad (\\text{multi-elemental oxidation})",
+    "n_{\\text{net}} = \\frac{n_1 n_2}{n_1 + n_2} \\quad (\\text{disproportionation})"
+  ]
+}

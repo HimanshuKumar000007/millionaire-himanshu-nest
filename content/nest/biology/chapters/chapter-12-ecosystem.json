@@ -1,0 +1,158 @@
+{
+  "id": "bio-xii-u10-c12",
+  "chapterNumber": 12,
+  "chapterTitle": "Ecosystem",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unitNumber": 10,
+  "unitTitle": "Ecology",
+  "slug": "ecosystem",
+  "estimatedReadingTimeMinutes": 173,
+  "difficulty": "High-Yield",
+  "status": "published",
+  "summary": "Covers foundational principles of ecosystem structure, primary & secondary productivity, detrital decomposition, energy flow dynamics, trophic organization, and ecological pyramids: Ecosystem structural matrix (A.G. Tansley 1935, abiotic & biotic components); Forest vertical stratification (Canopy, Understory, Herb layer, Forest floor); Primary vs Secondary Productivity (GPP vs NPP: NPP = GPP - R, representing usable biomass for heterotrophs); Global biospheric productivity distribution (170 Billion Tonnes total: Terrestrial ecosystems 115 BT [67.6%] vs Oceanic ecosystems 55 BT [32.4%] due to euphotic zone <200m light limits and N/P/Fe nutrient deficiencies; Rainforests/Estuaries highest, Deserts/Abyssal lowest); Five-step decomposition pathway (Fragmentation by detritivores, Leaching of soluble salts, Catabolism by extracellular fungal/bacterial enzymes, Humification forming resistant Humus, and Mineralization releasing inorganic ions); Decomposition regulation (Slow with lignin/chitin/suberin, cold <10°C, and anaerobiosis producing peat; Fast with warm >25°C, moisture, nitrogen/sugars); Energy flow mechanics and thermodynamics (50% PAR at 400-700 nm, 2-10% plant PAR capture [1-5% total]); Lindeman's 10% law (1942, 90% metabolic heat loss R limiting chains to 3-5 trophic levels); Grazing (GFC) vs Detritus (DFC) food chains (GFC dominant in aquatic ecosystems; DFC dominant in terrestrial forests carrying >90% of energy flow); Standing Crop (living biomass dry weight g/m²) vs Standing State (inorganic soil nutrients N, P, K, Ca); Ecological pyramids (Pyramid of Numbers upright in grasslands but inverted in single tree ecosystems; Pyramid of Biomass upright in forests but inverted in open seas due to phytoplankton rapid turnover; Pyramid of Energy ALWAYS UPRIGHT without exception); and Limitations of Eltonian pyramids (assumes simple chains, ignores multi-trophic omnivores, completely excludes decomposers/saprotrophs).",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "id": "sec-12-01",
+      "title": "Ecosystem Structure & Forest Stratification",
+      "topic": "A.G. Tansley, Abiotic & Biotic Matrix, & 4-Layer Forest Stratification",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "An ecosystem integrates abiotic and biotic components. Stratification layers plant species vertically (Canopy, Understory, Herb layer, Forest floor) to optimize light capture."
+      },
+      "codeSnippet": "ECOSYSTEM STRUCTURAL MATRIX\n                                         │\n         ┌───────────────────────────────┴───────────────────────────────┐\n         ▼                                                               ▼\n  ABIOTIC COMPONENTS                                            BIOTIC COMPONENTS\n  ├── Climatic Regime (Light, Temp, Water)                      ├── Producers / Autotrophs (T₁)\n  ├── Inorganic Nutrients (N, P, K, Ca)                         ├── Consumers / Heterotrophs (T₂, T₃, T₄)\n  └── Organic Matrix (Humus, Carbohydrates)                     └── Decomposers / Saprotrophs",
+      "content": "### 1.1 Ecosystem & Stratification\n- **Ecosystem**: Functional unit of nature (*Tansley 1935*).\n- **Forest Stratification**: Canopy $\\rightarrow$ Understory $\\rightarrow$ Herb Layer $\\rightarrow$ Forest Floor."
+    },
+    {
+      "sectionNumber": 2,
+      "id": "sec-12-02",
+      "title": "Primary & Secondary Productivity: GPP vs NPP",
+      "topic": "Gross Primary Productivity, Autotrophic Respiration Losses R, Net Primary Productivity, & Secondary Productivity",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Gross Primary Productivity (GPP) is total photosynthetic carbon fixed. Subtracting autotrophic respiration (R) gives Net Primary Productivity (NPP = GPP - R)."
+      },
+      "codeSnippet": "GROSS vs NET PRIMARY PRODUCTIVITY\n                    \n   GROSS PRIMARY PRODUCTIVITY (GPP) ──► Total rate of organic matter synthesis during photosynthesis.\n                                               │\n   Autotrophic Respiration Losses (R) ◄──────┘\n                                               │\n   NET PRIMARY PRODUCTIVITY (NPP)   ──► Organic biomass remaining available to Heterotrophs.",
+      "content": "### 2.1 Productivity Types\n- **Formula**: $\\text{NPP} = \\text{GPP} - R$.\n- **Heterotrophic Supply**: NPP is the biomass available to consumers.\n- **Secondary Productivity**: Biomass synthesis by consumers."
+    },
+    {
+      "sectionNumber": 3,
+      "id": "sec-12-03",
+      "title": "Global Productivity & Marine Limitations",
+      "topic": "170 Billion Tonnes Biosphere NPP, Land vs Ocean Distribution, Euphotic Zone & Nutrient Deficits",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Total biosphere NPP is 170 Billion Tonnes. Land produces 115 BT (67.6%), while Oceans produce only 55 BT (32.4%) due to light limits (<200 m) and nutrient deficits (N, P, Fe)."
+      },
+      "codeSnippet": "GLOBAL NPP DISTRIBUTION\n                      \n   TERRESTRIAL ECOSYSTEMS (30% Surface Area) ──► Contributes 115 Billion Tonnes (67.6%)\n   OCEANIC ECOSYSTEMS    (70% Surface Area) ──► Contributes ONLY 55 Billion Tonnes (32.4%)",
+      "content": "### 3.1 Global NPP Metrics\n- **Total**: $170\\text{ Billion Tonnes}$.\n- **Land vs Oceans**: Land ($115\\text{ BT}$, $67.6\\%$) vs Oceans ($55\\text{ BT}$, $32.4\\%$).\n- **Extremes**: Tropical rainforests/estuaries highest; Deserts/abyssal lowest."
+    },
+    {
+      "sectionNumber": 4,
+      "id": "sec-12-04",
+      "title": "The 5-Step Decomposition Pathway",
+      "topic": "Fragmentation, Leaching, Catabolism, Humification, & Mineralization",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Decomposition follows 5 steps: Fragmentation by detritivores, Leaching of soluble salts, Catabolism by microbial enzymes, Humification forming resistant Humus, and Mineralization releasing ions."
+      },
+      "codeSnippet": "THE FIVE DECOMPOSITION STEPS\n                                    │\n  1. FRAGMENTATION ──► Detritivores (Earthworms) break detritus into small particles.\n  2. LEACHING      ──► Water-soluble inorganic nutrients sink into soil horizons.\n  3. CATABOLISM    ──► Bacterial & fungal enzymes digest complex organic polymers.\n  4. HUMIFICATION  ──► Formation of dark, amorphous, resistant Humus.\n  5. MINERALIZATION──► Microbial breakdown of humus to release inorganic mineral ions.",
+      "content": "### 4.1 Decomposition Steps\n- **1. Fragmentation**: Detritivores (*earthworms*).\n- **2. Leaching**: Water washes nutrients into soil.\n- **3. Catabolism**: Bacterial/fungal enzymes.\n- **4. Humification**: Forms dark, colloidal **Humus**.\n- **5. Mineralization**: Releases mineral ions ($\\text{Ca}^{2+}, \\text{Mg}^{2+}, \\text{NH}_4^+$)."
+    },
+    {
+      "sectionNumber": 5,
+      "id": "sec-12-05",
+      "title": "Factors Regulating Decomposition & Peat Formation",
+      "topic": "Substrate Chemistry (Lignin, Chitin, Nitrogen), Climatic Variables (Temp, Moisture, Oxygen), & Peat Bogs",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Decomposition is accelerated by warm, moist, aerobic conditions and nitrogen-rich substrates; it is inhibited by cold, lignin/chitin, and anaerobiosis (which forms peat)."
+      },
+      "codeSnippet": "DECOMPOSITION RATE REGULATION\n                                      │\n         ┌────────────────────────────┴────────────────────────────┐\n         ▼                                                         ▼\n   SUBSTRATE CHEMISTRY                                       CLIMATIC REGIME\n   ├── SLOW: Rich in Lignin, Chitin, & Suberin               ├── FAST: Warm (>25°C) & Moist\n   └── FAST: Rich in Nitrogen & Water-Soluble Sugars         └── SLOW: Cold (<10°C) & Anaerobiosis",
+      "content": "### 5.1 Regulators of Decomposition\n- **Substrate**: Lignin/Chitin/Suberin (Slow) vs Nitrogen/Sugars (Fast).\n- **Climate**: Warm, moist, aerobic (Fast) vs Cold & Anaerobic (Slow $\\rightarrow$ **Peat**)."
+    },
+    {
+      "sectionNumber": 6,
+      "id": "sec-12-06",
+      "title": "Energy Flow: Thermodynamics & PAR Capture",
+      "topic": "Unidirectional Energy Flow, 1st & 2nd Laws of Thermodynamics, PAR (400-700 nm), & 2-10% Capture Efficiency",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Energy flow is strictly unidirectional. Plants capture only 2-10% of Photosynthetically Active Radiation (PAR: 400-700 nm), representing 1-5% of total incident sunlight."
+      },
+      "codeSnippet": "SOLAR RADIATION CAPTURE\n                       \n   Incident Solar Radiation ──► 50% is Photosynthetically Active Radiation (PAR: 400–700 nm)\n                                             │\n   Producers capture ONLY 2–10% of PAR (1–5% of Total Incident Radiation)",
+      "content": "### 6.1 Energy Flow & PAR\n- **Thermodynamics**: Unidirectional flow; continuous entropy loss via respiratory heat ($R$).\n- **PAR**: $50\\%$ of incident solar radiation; plants capture **$2\\text{--}10\\%$ of PAR**."
+    },
+    {
+      "sectionNumber": 7,
+      "id": "sec-12-07",
+      "title": "Lindeman's 10% Energy Transfer Law",
+      "topic": "Raymond Lindeman (1942), 10% Trophic Efficiency, 90% Metabolic Loss, & Food Chain Length Limits",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Lindeman's 10% Law states only ~10% of energy transfers to the next trophic level. 90% is lost as metabolic heat (R), capping natural food chains at 3-5 trophic levels."
+      },
+      "codeSnippet": "10% TROPHIC ENERGY PYRAMID\n                      \n   Tertiary Consumer (T₄)   ──►   1 J\n   Secondary Consumer (T₃)  ──►   10 J\n   Primary Consumer (T₂)    ──►   100 J\n   Primary Producer (T₁)    ──►   1,000 J\n   Incident Solar PAR       ──►   100,000 J",
+      "content": "### 7.1 Lindeman's 10% Law\n- **Efficiency**: $\\text{Trophic Efficiency} \\approx 10\\%$.\n- **Calculation**: $1000\\text{ J } (T_1) \\rightarrow 100\\text{ J } (T_2) \\rightarrow 10\\text{ J } (T_3) \\rightarrow 1\\text{ J } (T_4)$.\n- **Chain Limits**: Restricts food chains to $3\\text{--}5\\text{ levels}$."
+    },
+    {
+      "sectionNumber": 8,
+      "id": "sec-12-08",
+      "title": "Grazing vs Detritus Food Chains: GFC vs DFC",
+      "topic": "Trophic Levels (T1-T4), GFC in Aquatic Ecosystems, & DFC in Terrestrial Forests",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Grazing Food Chains (GFC) start with living autotrophs and dominate aquatic biomes. Detritus Food Chains (DFC) start with dead detritus and dominate terrestrial forests (>90% energy flow)."
+      },
+      "codeSnippet": "GRAZING vs DETRITUS FOOD CHAINS\n                       \n   GRAZING FOOD CHAIN (GFC):  Producers (T₁) ──► Herbivores (T₂) ──► Carnivores (T₃)\n                              (Major energy conduit in AQUATIC Ecosystems)\n                              \n   DETRITUS FOOD CHAIN (DFC): Dead Detritus ──► Saprophytic Fungi/Bacteria ──► Detritivores\n                              (Major energy conduit in TERRESTRIAL Ecosystems)",
+      "content": "### 8.1 GFC vs DFC\n- **GFC**: Producers $\\rightarrow$ Herbivores $\\rightarrow$ Carnivores (Dominates **Aquatic**).\n- **DFC**: Detritus $\\rightarrow$ Microbes $\\rightarrow$ Detritivores (Dominates **Terrestrial**)."
+    },
+    {
+      "sectionNumber": 9,
+      "id": "sec-12-09",
+      "title": "Standing Crop vs Standing State",
+      "topic": "Living Biomass (Dry Weight), Inorganic Soil Nutrients (N, P, K, Ca), & Turnover Rates",
+      "readingTimeMinutes": 15,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Standing Crop is the total living organic biomass (dry weight, g/m²) at a specific time. Standing State is the total quantity of abiotic inorganic nutrients (N, P, K, Ca) in the soil."
+      },
+      "codeSnippet": "BIOTIC vs ABIOTIC ECOSYSTEM POOLS\n                         \n   STANDING CROP  ──► Total mass of LIVING BIOMASS (Dry Weight in g/m²)\n                      or total count of living organisms at a specific time.\n                      \n   STANDING STATE ──► Total amount of INORGANIC NUTRIENTS (N, P, K, Ca)\n                      present in the soil / abiotic reservoir at a given time.",
+      "content": "### 9.1 Standing Crop vs State\n- **Standing Crop**: Total **living biomass** (dry weight in $\\text{g/m}^2$).\n- **Standing State**: Total **inorganic nutrients** ($\\text{N, P, K, Ca}$) in soil."
+    },
+    {
+      "sectionNumber": 10,
+      "id": "sec-12-10",
+      "title": "Ecological Pyramids: Numbers, Biomass, & Energy",
+      "topic": "Eltonian Pyramids, Upright vs Inverted Models, Inverted Marine Biomass, & Inverted Tree Numbers",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Numbers pyramid inverts in single tree systems; Biomass pyramid inverts in open oceans (phytoplankton rapid turnover); Energy pyramid is ALWAYS upright without exception."
+      },
+      "codeSnippet": "INVERTED PYRAMIDS EXAMPLES\n                     \n   1. INVERTED BIOMASS (Sea)                  2. INVERTED NUMBERS (Tree)\n   \n      Fishes / T₂ (12 g/m²)                     Hyper-parasites / T₃ (10,000)\n      ─────────────────────────                 ─────────────────────────\n      Phytoplankton / T₁ (4 g/m²)               Insects / T₂ (1,000)\n      ─────────────────                         ───────────────\n                                                Single Tree / T₁ (1)\n                                                ───────",
+      "content": "### 10.1 Ecological Pyramids\n- **Numbers**: Upright (Grassland), Inverted (Single Tree).\n- **Biomass**: Upright (Forest), **Inverted (Open Ocean/Sea)**.\n- **Energy**: **ALWAYS UPRIGHT** without exception."
+    },
+    {
+      "sectionNumber": 11,
+      "id": "sec-12-11",
+      "title": "Limitations of Pyramids & High-Yield NEST Traps",
+      "topic": "Three Pyramidal Limitations, Exclusion of Decomposers, & Master Ecosystem Glossary",
+      "readingTimeMinutes": 16,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Eltonian pyramids assume linear chains, fail for omnivorous species, and completely exclude decomposers. Master ecosystem glossary and 10 NEST diagnostic traps."
+      },
+      "content": "### 11.1 Pyramidal Limitations & Traps\n- **Limitations**: Linear chains only, ignores multi-trophic species, **excludes decomposers**.\n- **Energy Pyramid**: Never inverted in nature.\n- **Marine Biomass**: Inverted due to high phytoplankton turnover."
+    }
+  ]
+}

@@ -1,0 +1,923 @@
+[
+  {
+    "id": "chem-sol-001",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Boiling Point Elevation from Freezing Point Depression",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "An aqueous solution of a non-volatile non-electrolyte solute is prepared. The solution freezes at -0.372\u00b0C. What is the elevation in boiling point (\u0394T_b) for this identical solution? (K_f for water = 1.86 K\u00b7kg/mol; K_b for water = 0.512 K\u00b7kg/mol)",
+    "options": [
+      {
+        "id": "A",
+        "text": "\u0394T_b = 0.1024 K",
+        "isCorrect": true,
+        "explanation": "\u0394T_f = 0.372 K. Molality m = \u0394T_f / K_f = 0.372 / 1.86 = 0.20 m. \u0394T_b = K_b \u00b7 m = 0.512 \u00d7 0.20 = 0.1024 K."
+      },
+      {
+        "id": "B",
+        "text": "\u0394T_b = 0.3720 K",
+        "isCorrect": false,
+        "explanation": "Assumed \u0394T_b equals \u0394T_f."
+      },
+      {
+        "id": "C",
+        "text": "\u0394T_b = 0.0512 K",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      },
+      {
+        "id": "D",
+        "text": "\u0394T_b = 0.2048 K",
+        "isCorrect": false,
+        "explanation": "Multiplied by 2 unnecessarily."
+      }
+    ],
+    "solutionExplanation": "1. Freezing point depression:\n   \u0394T_f = T\u00b0_f - T_f = 0 - (-0.372) = 0.372 K.\n2. Calculate molality (m):\n   \u0394T_f = K_f \u00b7 m \u27f9 m = \u0394T_f / K_f = 0.372 / 1.86 = 0.20 m.\n3. Calculate boiling point elevation (\u0394T_b):\n   \u0394T_b = K_b \u00b7 m = 0.512 \u00d7 0.20 = 0.1024 K.",
+    "keyFormulae": [
+      "m = \\frac{\\Delta T_f}{K_f}, \\quad \\Delta T_b = K_b \\cdot m"
+    ],
+    "hints": [
+      "Use freezing point depression to find molality, then apply molality to boiling point elevation."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-sol-002",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Vapor Phase Mole Fraction Calculation",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "At 300 K, the vapor pressure of pure liquid Benzene (C\u2086H\u2086, M_A = 78 g/mol) is 100 mmHg and pure liquid Toluene (C\u2087H\u2088, M_B = 92 g/mol) is 40 mmHg. An ideal solution is prepared by mixing 78 g of Benzene and 92 g of Toluene. What is the mole fraction of Benzene in the EQUILIBRIUM VAPOR PHASE (y_Benzene) above this solution?",
+    "options": [
+      {
+        "id": "A",
+        "text": "y_Benzene = 0.50",
+        "isCorrect": false,
+        "explanation": "0.50 is the liquid phase mole fraction x_Benzene."
+      },
+      {
+        "id": "B",
+        "text": "y_Benzene = 0.714",
+        "isCorrect": true,
+        "explanation": "n_A = 1.0 mol, n_B = 1.0 mol \u27f9 x_A = 0.50, x_B = 0.50. p_A = 100 \u00d7 0.50 = 50 mmHg, p_B = 40 \u00d7 0.50 = 20 mmHg. P_total = 70 mmHg. y_A = 50 / 70 = 0.714."
+      },
+      {
+        "id": "C",
+        "text": "y_Benzene = 0.286",
+        "isCorrect": false,
+        "explanation": "0.286 is the mole fraction of Toluene in vapor phase."
+      },
+      {
+        "id": "D",
+        "text": "y_Benzene = 0.833",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      }
+    ],
+    "solutionExplanation": "1. Calculate liquid mole fractions (x_A, x_B):\n   n_Benzene = 78 / 78 = 1.0 mol, n_Toluene = 92 / 92 = 1.0 mol\n   x_Benzene = 1.0 / 2.0 = 0.50, x_Toluene = 0.50.\n2. Partial vapor pressures:\n   p_Benzene = p\u00b0_A x_A = 100 \u00d7 0.50 = 50 mmHg\n   p_Toluene = p\u00b0_B x_B = 40 \u00d7 0.50 = 20 mmHg\n   P_total = 50 + 20 = 70 mmHg.\n3. Vapor phase mole fraction (y_Benzene):\n   y_Benzene = p_Benzene / P_total = 50 / 70 = 0.7142 \u2248 0.714.",
+    "keyFormulae": [
+      "y_A = \\frac{p_A^\\circ x_A}{P_{\\text{total}}}"
+    ],
+    "hints": [
+      "Find liquid mole fractions first, then partial pressures, then y_A = p_A / P_total."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-sol-003",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Degree of Dissociation from Osmotic Pressure",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "A 0.01 M aqueous solution of Potassium Ferricyanide K\u2083[Fe(CN)\u2086] exhibits an osmotic pressure of 0.885 atm at 300 K. What is the experimental Van 't Hoff factor (i) and the percentage degree of dissociation (\u03b1) of the complex salt? (R = 0.0821 L\u00b7atm/mol\u00b7K)",
+    "options": [
+      {
+        "id": "A",
+        "text": "i = 3.59; \u03b1 = 86.3%",
+        "isCorrect": true,
+        "explanation": "\u03a0_ideal = 0.01 \u00d7 0.0821 \u00d7 300 = 0.2463 atm. i = 0.885 / 0.2463 = 3.593. n = 4. \u03b1 = (3.593 - 1) / (4 - 1) = 2.593 / 3 = 86.4% \u2248 86.3%."
+      },
+      {
+        "id": "B",
+        "text": "i = 4.00; \u03b1 = 100.0%",
+        "isCorrect": false,
+        "explanation": "Assumed 100% complete dissociation."
+      },
+      {
+        "id": "C",
+        "text": "i = 2.50; \u03b1 = 50.0%",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      },
+      {
+        "id": "D",
+        "text": "i = 3.00; \u03b1 = 66.7%",
+        "isCorrect": false,
+        "explanation": "Used n=3 instead of n=4."
+      }
+    ],
+    "solutionExplanation": "1. Calculate theoretical osmotic pressure (\u03a0_ideal for i=1):\n   \u03a0_ideal = C R T = 0.01 M \u00d7 0.0821 \u00d7 300 = 0.2463 atm.\n2. Calculate experimental Van 't Hoff factor (i):\n   i = \u03a0_exp / \u03a0_ideal = 0.885 atm / 0.2463 atm = 3.593.\n3. Ionization formula for K\u2083[Fe(CN)\u2086] \u2192 3K\u207a + [Fe(CN)\u2086]\u00b3\u207b \u27f9 n = 4 ions:\n   \u03b1 = (i - 1) / (n - 1) = (3.593 - 1) / (4 - 1) = 2.593 / 3 = 0.8643 = 86.4% \u2248 86.3%.",
+    "keyFormulae": [
+      "i = \\frac{\\Pi_{\\text{exp}}}{C R T}, \\quad \\alpha = \\frac{i - 1}{n - 1}"
+    ],
+    "hints": [
+      "Potassium ferricyanide yields 4 ions per formula unit (3 K\u207a and 1 complex anion)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-sol-004",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Degree of Dimerization of Benzoic Acid",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Benzoic Acid (C\u2086H\u2085COOH, M = 122 g/mol) associates into dimeric molecules when dissolved in non-polar Benzene solvent. If 12.2 g of benzoic acid dissolved in 100 g of benzene depresses the freezing point by 2.60 K, what is the degree of association (\u03b2) of benzoic acid? (K_f for benzene = 5.12 K\u00b7kg/mol)",
+    "options": [
+      {
+        "id": "A",
+        "text": "\u03b2 = 0.492 (49.2%)",
+        "isCorrect": false,
+        "explanation": "Did not multiply (1-i) by 2 for dimerization."
+      },
+      {
+        "id": "B",
+        "text": "\u03b2 = 0.984 (98.4%)",
+        "isCorrect": true,
+        "explanation": "m = (12.2 / 122) / 0.10 = 1.0 m. \u0394T_f,calc = 5.12 \u00d7 1.0 = 5.12 K. i = 2.60 / 5.12 = 0.5078. \u03b2 = 2(1 - i) = 2(1 - 0.5078) = 0.984 (98.4%)."
+      },
+      {
+        "id": "C",
+        "text": "\u03b2 = 0.250 (25.0%)",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      },
+      {
+        "id": "D",
+        "text": "\u03b2 = 0.750 (75.0%)",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      }
+    ],
+    "solutionExplanation": "1. Calculate theoretical molality (m_ideal):\n   n_solute = 12.2 / 122 = 0.10 mol, w_solvent = 0.10 kg \u27f9 m_ideal = 0.10 / 0.10 = 1.0 m.\n2. Theoretical freezing point depression (\u0394T_f,ideal):\n   \u0394T_f,ideal = K_f \u00b7 m = 5.12 \u00d7 1.0 = 5.12 K.\n3. Calculate Van 't Hoff factor (i):\n   i = \u0394T_f,exp / \u0394T_f,ideal = 2.60 / 5.12 = 0.5078.\n4. Degree of dimerization (\u03b2 for n=2):\n   i = 1 - \u03b2/2 \u27f9 \u03b2 = 2(1 - i) = 2(1 - 0.5078) = 2(0.4922) = 0.9844 = 98.4%.",
+    "keyFormulae": [
+      "i = 1 - \\frac{\\beta}{2} \\implies \\beta = 2(1 - i)"
+    ],
+    "hints": [
+      "For dimerization (n=2), \u03b2 = 2(1 - i)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-sol-005",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Henry's Law Gas Solubility Calculation",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Henry's Law constant for Nitrogen gas (N\u2082) in water at 293 K is K_H = 7.64 \u00d7 10\u2074 bar. If atmospheric air contains 80 mol % N\u2082 at a total pressure of 1.0 bar, how many millimoles (mmol) of N\u2082 will dissolve in 10 moles of water at 293 K?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.105 mmol",
+        "isCorrect": true,
+        "explanation": "p_N2 = 0.80 bar. x_N2 = 0.80 / (7.64 \u00d7 10\u2074) = 1.047 \u00d7 10\u207b\u2075. n_N2 = 1.047 \u00d7 10\u207b\u2075 \u00d7 10 = 1.047 \u00d7 10\u207b\u2074 mol = 0.105 mmol."
+      },
+      {
+        "id": "B",
+        "text": "1.05 mmol",
+        "isCorrect": false,
+        "explanation": "Off by a factor of 10."
+      },
+      {
+        "id": "C",
+        "text": "0.0105 mmol",
+        "isCorrect": false,
+        "explanation": "Off by a factor of 10."
+      },
+      {
+        "id": "D",
+        "text": "7.64 mmol",
+        "isCorrect": false,
+        "explanation": "Misinterpreted K_H."
+      }
+    ],
+    "solutionExplanation": "1. Partial pressure of N\u2082:\n   p_N2 = x_air \u00d7 P_total = 0.80 \u00d7 1.0 bar = 0.80 bar.\n2. Henry's Law mole fraction of dissolved N\u2082:\n   x_N2 = p_N2 / K_H = 0.80 bar / (7.64 \u00d7 10\u2074 bar) = 1.047 \u00d7 10\u207b\u2075.\n3. Moles of dissolved N\u2082 in 10 moles H\u2082O:\n   x_N2 \u2248 n_N2 / n_H2O \u27f9 n_N2 = (1.047 \u00d7 10\u207b\u2075) \u00d7 10 = 1.047 \u00d7 10\u207b\u2074 mol.\n4. Convert to millimoles (mmol):\n   n_N2 = 1.047 \u00d7 10\u207b\u2074 \u00d7 1000 = 0.1047 mmol \u2248 0.105 mmol.",
+    "keyFormulae": [
+      "x = \\frac{p}{K_H}, \\quad n_{\\text{gas}} = x \\times n_{\\text{solvent}}"
+    ],
+    "hints": [
+      "Calculate partial pressure p_N2 = 0.80 bar, then x = p / K_H, then moles = x \u00d7 10."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-sol-006",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Red Blood Cell Tonicity Dynamics",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What happens to human Red Blood Cells (RBCs) when placed in a 1.5% (w/v) aqueous Sodium Chloride (NaCl) solution?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The solution is hypotonic; RBCs absorb water and burst (Hemolysis).",
+        "isCorrect": false,
+        "explanation": "1.5% is hypertonic, not hypotonic."
+      },
+      {
+        "id": "B",
+        "text": "The solution is hypertonic; RBCs lose water osmotically and shrink (Crenation).",
+        "isCorrect": true,
+        "explanation": "Human RBCs are isotonic with 0.9% NaCl. 1.5% NaCl is hypertonic, causing water to leave the cell and crenate."
+      },
+      {
+        "id": "C",
+        "text": "The solution is isotonic; RBCs remain structurally unchanged.",
+        "isCorrect": false,
+        "explanation": "0.9% NaCl is isotonic, not 1.5%."
+      },
+      {
+        "id": "D",
+        "text": "Sodium chloride enters the RBCs by active transport, dissolving the nucleus.",
+        "isCorrect": false,
+        "explanation": "Mature human RBCs lack nuclei and the response is osmotic water movement."
+      }
+    ],
+    "solutionExplanation": "Human RBCs are isotonic with 0.9% (w/v) NaCl solution. A 1.5% (w/v) NaCl solution is Hypertonic (\u03a0_soln > \u03a0_RBC). Water flows osmotically out of the RBCs into the surrounding solution, causing the cells to shrink and shrivel (Crenation).",
+    "keyFormulae": [
+      "\\text{Hypertonic Solution: } \\Pi_{\\text{soln}} > \\Pi_{\\text{cell}} \\implies \\text{Water flows OUT } (\\text{Crenation})"
+    ],
+    "hints": [
+      "0.9% NaCl is isotonic with RBCs."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-sol-007",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Liquid and Vapor Mole Fractions from Total Pressure",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "An ideal binary liquid solution of A (p\u00b0_A = 400 mmHg) and B (p\u00b0_B = 600 mmHg) is prepared. If the total vapor pressure of the mixture at equilibrium is P_total = 480 mmHg, what is the mole fraction of component A in the LIQUID phase (x_A) and in the VAPOR phase (y_A)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "x_A = 0.60; y_A = 0.50",
+        "isCorrect": true,
+        "explanation": "480 = 400 x_A + 600(1 - x_A) \u27f9 200 x_A = 120 \u27f9 x_A = 0.60. p_A = 240 mmHg. y_A = 240 / 480 = 0.50."
+      },
+      {
+        "id": "B",
+        "text": "x_A = 0.40; y_A = 0.60",
+        "isCorrect": false,
+        "explanation": "Swapped x_A and x_B."
+      },
+      {
+        "id": "C",
+        "text": "x_A = 0.60; y_A = 0.33",
+        "isCorrect": false,
+        "explanation": "Incorrect y_A."
+      },
+      {
+        "id": "D",
+        "text": "x_A = 0.50; y_A = 0.50",
+        "isCorrect": false,
+        "explanation": "Incorrect liquid fraction."
+      }
+    ],
+    "solutionExplanation": "1. Total Pressure equation:\n   P_total = p\u00b0_A x_A + p\u00b0_B (1 - x_A) \u27f9 480 = 400 x_A + 600(1 - x_A)\n   480 = 600 - 200 x_A \u27f9 200 x_A = 120 \u27f9 x_A = 0.60 (and x_B = 0.40).\n2. Partial pressures:\n   p_A = 400 \u00d7 0.60 = 240 mmHg, p_B = 600 \u00d7 0.40 = 240 mmHg.\n3. Vapor phase mole fraction y_A:\n   y_A = p_A / P_total = 240 / 480 = 0.50.",
+    "keyFormulae": [
+      "P_{\\text{total}} = p_A^\\circ x_A + p_B^\\circ (1 - x_A)",
+      "y_A = \\frac{p_A}{P_{\\text{total}}}"
+    ],
+    "hints": [
+      "Solve P_total = p\u00b0_A x_A + p\u00b0_B (1 - x_A) for x_A, then find y_A = p_A / P_total."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-sol-008",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Maximum Boiling Azeotrope Identification",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Which non-ideal binary solution mixture forms a MAXIMUM BOILING AZEOTROPE due to strong negative deviations (\u0394_mix H < 0, \u0394_mix V < 0) from Raoult's Law?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ethanol + Water (95.6% ethanol)",
+        "isCorrect": false,
+        "explanation": "Ethanol + Water shows positive deviation and forms a Minimum Boiling Azeotrope."
+      },
+      {
+        "id": "B",
+        "text": "Nitric Acid (68%) + Water (32%)",
+        "isCorrect": true,
+        "explanation": "Nitric acid + Water shows negative deviation (strong H-bonding) and forms a Maximum Boiling Azeotrope (boiling at 393.5 K)."
+      },
+      {
+        "id": "C",
+        "text": "Acetone + Carbon Disulfide",
+        "isCorrect": false,
+        "explanation": "Shows positive deviation."
+      },
+      {
+        "id": "D",
+        "text": "n-Hexane + n-Heptane",
+        "isCorrect": false,
+        "explanation": "Forms an ideal solution."
+      }
+    ],
+    "solutionExplanation": "Nitric Acid (68%) + Water (32%) forms strong inter-molecular hydrogen bonds (A-B forces stronger than A-A or B-B), resulting in Negative Deviation from Raoult's law. This lowers total vapor pressure, producing a Maximum Boiling Azeotrope that boils at 393.5 K (higher than water 373 K or nitric acid 359 K).",
+    "keyFormulae": [
+      "\\text{Negative Deviation: } \\Delta_{\\text{mix}} H < 0, \\; \\Delta_{\\text{mix}} V < 0 \\implies \\text{Maximum Boiling Azeotrope}"
+    ],
+    "hints": [
+      "Negative deviations lower vapor pressure, elevating boiling point to form maximum boiling azeotropes."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-sol-009",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Freezing Point of Electrolyte Solution",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the approximate freezing point (T_f) of a 0.10 m aqueous solution of Barium Chloride (BaCl\u2082), assuming complete 100% electrolytic dissociation? (K_f for water = 1.86 K\u00b7kg/mol)",
+    "options": [
+      {
+        "id": "A",
+        "text": "-0.186\u00b0C",
+        "isCorrect": false,
+        "explanation": "Calculated for i=1 (non-electrolyte)."
+      },
+      {
+        "id": "B",
+        "text": "-0.372\u00b0C",
+        "isCorrect": false,
+        "explanation": "Calculated for i=2."
+      },
+      {
+        "id": "C",
+        "text": "-0.558\u00b0C",
+        "isCorrect": true,
+        "explanation": "BaCl\u2082 yields n=3 ions. \u0394T_f = 3 \u00d7 1.86 \u00d7 0.10 = 0.558 K. T_f = 0 - 0.558 = -0.558\u00b0C."
+      },
+      {
+        "id": "D",
+        "text": "-0.744\u00b0C",
+        "isCorrect": false,
+        "explanation": "Calculated for i=4."
+      }
+    ],
+    "solutionExplanation": "1. BaCl\u2082 \u2192 Ba\u00b2\u207a + 2Cl\u207b \u27f9 n = 3 ions.\n2. For 100% dissociation (\u03b1 = 1.0), i = n = 3.\n3. Calculate \u0394T_f:\n   \u0394T_f = i \u00b7 K_f \u00b7 m = 3 \u00d7 1.86 \u00d7 0.10 = 0.558 K.\n4. Freezing point T_f:\n   T_f = T\u00b0_f - \u0394T_f = 0.000 - 0.558 = -0.558\u00b0C.",
+    "keyFormulae": [
+      "\\Delta T_f = i \\cdot K_f \\cdot m, \\quad T_f = T_f^\\circ - \\Delta T_f"
+    ],
+    "hints": [
+      "BaCl\u2082 dissociates into 1 Ba\u00b2\u207a and 2 Cl\u207b (n=3)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-sol-010",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Glucose Osmotic Pressure Calculation",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "At 27\u00b0C (300 K), 36.0 g of Glucose (C\u2086H\u2081\u2082O\u2086, M = 180 g/mol) is dissolved in water to make 2.0 Liters of solution. What is the Osmotic Pressure (\u03a0) of this solution in atmospheres? (R = 0.0821 L\u00b7atm/mol\u00b7K)",
+    "options": [
+      {
+        "id": "A",
+        "text": "\u03a0 = 2.46 atm",
+        "isCorrect": false,
+        "explanation": "Calculated for 1.0 L volume instead of 2.0 L."
+      },
+      {
+        "id": "B",
+        "text": "\u03a0 = 1.23 atm",
+        "isCorrect": true,
+        "explanation": "n_B = 36 / 180 = 0.20 mol. C = 0.20 / 2.0 = 0.10 M. \u03a0 = 0.10 \u00d7 0.0821 \u00d7 300 = 2.463 / 2 = 1.2315 \u2248 1.23 atm."
+      },
+      {
+        "id": "C",
+        "text": "\u03a0 = 4.92 atm",
+        "isCorrect": false,
+        "explanation": "Multiplied by 2."
+      },
+      {
+        "id": "D",
+        "text": "\u03a0 = 0.61 atm",
+        "isCorrect": false,
+        "explanation": "Divided by 4."
+      }
+    ],
+    "solutionExplanation": "1. Moles of Glucose (n_B):\n   n_B = 36.0 / 180 = 0.20 mol.\n2. Molarity (C):\n   C = 0.20 mol / 2.0 L = 0.10 M.\n3. Osmotic Pressure (\u03a0 for i=1):\n   \u03a0 = C R T = 0.10 mol/L \u00d7 0.0821 L\u00b7atm/mol\u00b7K \u00d7 300 K = 2.463 / 2 = 1.2315 atm \u2248 1.23 atm.",
+    "keyFormulae": [
+      "\\Pi = C R T = \\frac{w_B R T}{M_B V}"
+    ],
+    "hints": [
+      "Molarity = (36 / 180) / 2.0 = 0.10 M. \u03a0 = 0.10 \u00d7 0.0821 \u00d7 300."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-sol-011",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Temperature-Independent Concentration Units",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following concentration units are strictly INDEPENDENT of changes in solution temperature? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Molality (m)",
+        "isCorrect": true,
+        "explanation": "Defined per kg of solvent (mass-based)."
+      },
+      {
+        "id": "B",
+        "text": "Mole Fraction (x_i)",
+        "isCorrect": true,
+        "explanation": "Ratio of moles (mass-based)."
+      },
+      {
+        "id": "C",
+        "text": "Mass Percentage (% w/w)",
+        "isCorrect": true,
+        "explanation": "Ratio of masses."
+      },
+      {
+        "id": "D",
+        "text": "Molarity (M)",
+        "isCorrect": false,
+        "explanation": "Molarity depends on volume, which expands with temperature."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Molality, Mole Fraction, and Mass Percentage are defined in terms of mass (g/kg), which does not change with temperature.\n\u2022 D is incorrect: Molarity (M = n/V) depends on volume, which changes with thermal expansion (V \u221d T).",
+    "keyFormulae": [
+      "\\text{Temperature-Independent: Molality, Mole Fraction, \\% w/w, ppm}"
+    ],
+    "hints": [
+      "Mass does not change with temperature; volume expands with temperature."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-sol-012",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Henry's Law Facts",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding Henry's Law (p = K_H x) for gas solubility in liquids: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Henry's Law constant K_H increases as temperature increases",
+        "isCorrect": true,
+        "explanation": "K_H rises with temperature."
+      },
+      {
+        "id": "B",
+        "text": "Higher K_H values correspond to LOWER gas solubility at a given partial pressure",
+        "isCorrect": true,
+        "explanation": "x = p / K_H, so larger K_H yields smaller x."
+      },
+      {
+        "id": "C",
+        "text": "Deep-sea divers use helium-diluted air tanks to prevent painful N\u2082 bubble formation ('bends') during ascent",
+        "isCorrect": true,
+        "explanation": "Helium has low solubility in blood, preventing bends."
+      },
+      {
+        "id": "D",
+        "text": "Gas dissolution in liquid is an endothermic process (\u0394_sol H > 0)",
+        "isCorrect": false,
+        "explanation": "Gas dissolution is EXOTHERMIC (\u0394_sol H < 0)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: K_H rises with T, higher K_H means lower solubility, and helium dilution prevents decompression sickness (bends).\n\u2022 D is incorrect: Gas dissolution in liquids is an EXOTHERMIC process (\u0394_sol H < 0), which is why gas solubility decreases as temperature increases.",
+    "keyFormulae": [
+      "p = K_H \\cdot x, \\quad \\Delta_{\\text{sol}} H < 0"
+    ],
+    "hints": [
+      "Gas condensation/dissolution is exothermic."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-sol-013",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Ideal Solution Pairs",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following liquid pairs form IDEAL SOLUTIONS obeying Raoult's Law with \u0394_mix H = 0 and \u0394_mix V = 0? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Benzene and Toluene",
+        "isCorrect": true,
+        "explanation": "Classic ideal solution."
+      },
+      {
+        "id": "B",
+        "text": "n-Hexane and n-Heptane",
+        "isCorrect": true,
+        "explanation": "Classic ideal solution of homologous alkanes."
+      },
+      {
+        "id": "C",
+        "text": "Bromoethane and Chloroethane",
+        "isCorrect": true,
+        "explanation": "Nearly identical haloalkane intermolecular forces."
+      },
+      {
+        "id": "D",
+        "text": "Ethanol and Water",
+        "isCorrect": false,
+        "explanation": "Ethanol + Water forms a non-ideal solution with positive deviation (azeotrope)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Benzene/Toluene, n-Hexane/n-Heptane, and Bromoethane/Chloroethane have nearly identical intermolecular forces (A-B \u2248 A-A \u2248 B-B), forming ideal solutions.\n\u2022 D is incorrect: Ethanol + Water forms a non-ideal solution with positive deviation (forms a minimum-boiling azeotrope).",
+    "keyFormulae": [
+      "\\text{Ideal: } A-B \\approx A-A \\approx B-B \\implies \\Delta H = 0, \\; \\Delta V = 0"
+    ],
+    "hints": [
+      "Look for structurally similar molecules of comparable polarity."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-sol-014",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Positive Deviation Characteristics",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding Non-Ideal Solutions displaying POSITIVE DEVIATIONS from Raoult's Law: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intermolecular adhesive forces A-B are WEAKER than cohesive A-A or B-B forces",
+        "isCorrect": true,
+        "explanation": "Weaker attraction allows easier escape into vapor."
+      },
+      {
+        "id": "B",
+        "text": "Enthalpy of mixing is endothermic (\u0394_mix H > 0)",
+        "isCorrect": true,
+        "explanation": "Bond breaking requires more energy than bond forming."
+      },
+      {
+        "id": "C",
+        "text": "Volume of mixing involves expansion (\u0394_mix V > 0)",
+        "isCorrect": true,
+        "explanation": "Weaker interactions increase intermolecular spacing."
+      },
+      {
+        "id": "D",
+        "text": "They form Maximum Boiling Azeotropes",
+        "isCorrect": false,
+        "explanation": "Positive deviations form MINIMUM Boiling Azeotropes."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Positive deviation means weaker A-B attraction, endothermic mixing (\u0394H > 0), and volume expansion (\u0394V > 0).\n\u2022 D is incorrect: Solutions with positive deviations form MINIMUM Boiling Azeotropes (e.g., 95.6% ethanol).",
+    "keyFormulae": [
+      "\\text{Positive Deviation: } P_{\\text{total}} > \\text{Ideal}, \\; \\Delta_{\\text{mix}} H > 0, \\; \\Delta_{\\text{mix}} V > 0 \\implies \\text{Min. Boiling Azeotrope}"
+    ],
+    "hints": [
+      "Higher vapor pressure corresponds to lower boiling point (minimum boiling azeotrope)."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-sol-015",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Colligative Properties Classification",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following physical properties are classified as COLLIGATIVE PROPERTIES depending strictly on the number of dissolved solute particles? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Relative Lowering of Vapor Pressure (\u0394p / p\u00b0)",
+        "isCorrect": true,
+        "explanation": "Colligative property."
+      },
+      {
+        "id": "B",
+        "text": "Elevation of Boiling Point (\u0394T_b)",
+        "isCorrect": true,
+        "explanation": "Colligative property."
+      },
+      {
+        "id": "C",
+        "text": "Osmotic Pressure (\u03a0)",
+        "isCorrect": true,
+        "explanation": "Colligative property."
+      },
+      {
+        "id": "D",
+        "text": "Refractive Index of the solution",
+        "isCorrect": false,
+        "explanation": "Refractive index depends on chemical composition and polarizability, not a colligative property."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: RLVP, \u0394T_b, \u0394T_f, and Osmotic Pressure (\u03a0) are the four fundamental colligative properties.\n\u2022 D is incorrect: Refractive index is an intensive property that depends on chemical identity, not a colligative property.",
+    "keyFormulae": [
+      "\\text{4 Colligative Properties: RLVP, } \\Delta T_b, \\; \\Delta T_f, \\; \\Pi"
+    ],
+    "hints": [
+      "Colligative properties depend solely on the number of particles."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-sol-016",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Van 't Hoff Factor Limiting Regimes",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding the Van 't Hoff factor (i): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "For solutes undergoing complete dissociation into n ions, i = n",
+        "isCorrect": true,
+        "explanation": "When \u03b1=1, i = 1 + (n-1)(1) = n."
+      },
+      {
+        "id": "B",
+        "text": "For solutes undergoing molecular association (dimerization), i < 1.0",
+        "isCorrect": true,
+        "explanation": "Association decreases particle count."
+      },
+      {
+        "id": "C",
+        "text": "The degree of dissociation \u03b1 is given by \u03b1 = (i - 1) / (n - 1)",
+        "isCorrect": true,
+        "explanation": "Standard dissociation equation."
+      },
+      {
+        "id": "D",
+        "text": "For a non-electrolyte solute like Glucose or Urea, i = 1.0",
+        "isCorrect": true,
+        "explanation": "No dissociation or association."
+      }
+    ],
+    "solutionExplanation": "All four options represent accurate mathematical definitions and limiting regimes for the Van 't Hoff factor (i).",
+    "keyFormulae": [
+      "i = \\frac{\\text{Observed}}{\\text{Calculated}}, \\quad \\alpha = \\frac{i - 1}{n - 1}, \\quad \\beta = \\frac{(1 - i)n}{n - 1}"
+    ],
+    "hints": [
+      "Review Van 't Hoff factor behavior for non-electrolytes, electrolytes, and associating molecules."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-sol-017",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Maximum Colligative Effect Identification",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following 0.10 M aqueous solutions will exhibit the HIGHEST boiling point elevation (\u0394T_b) and LOWEST freezing point (T_f)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.10 M Al\u2082(SO\u2084)\u2083 (assuming complete dissociation)",
+        "isCorrect": true,
+        "explanation": "n = 2 + 3 = 5 \u27f9 i \u00b7 C = 5 \u00d7 0.10 = 0.50 M."
+      },
+      {
+        "id": "B",
+        "text": "0.10 M K\u2084[Fe(CN)\u2086] (assuming complete dissociation)",
+        "isCorrect": true,
+        "explanation": "n = 4 + 1 = 5 \u27f9 i \u00b7 C = 5 \u00d7 0.10 = 0.50 M."
+      },
+      {
+        "id": "C",
+        "text": "0.10 M BaCl\u2082 (assuming complete dissociation)",
+        "isCorrect": false,
+        "explanation": "n = 3 \u27f9 i \u00b7 C = 0.30 M."
+      },
+      {
+        "id": "D",
+        "text": "0.10 M Glucose",
+        "isCorrect": false,
+        "explanation": "n = 1 \u27f9 i \u00b7 C = 0.10 M."
+      }
+    ],
+    "solutionExplanation": "\u2022 Colligative effect \u221d i \u00b7 C.\n\u2022 Option A: Al\u2082(SO\u2084)\u2083 \u2192 2Al\u00b3\u207a + 3SO\u2084\u00b2\u207b \u27f9 n = 5 \u27f9 i \u00b7 C = 5 \u00d7 0.10 = 0.50 M.\n\u2022 Option B: K\u2084[Fe(CN)\u2086] \u2192 4K\u207a + [Fe(CN)\u2086]\u2074\u207b \u27f9 n = 5 \u27f9 i \u00b7 C = 5 \u00d7 0.10 = 0.50 M.\n\u2022 Option C: BaCl\u2082 \u27f9 n=3 \u27f9 i \u00b7 C = 0.30 M.\n\u2022 Option D: Glucose \u27f9 i=1 \u27f9 i \u00b7 C = 0.10 M.\nBoth A and B yield the maximum particle concentration (0.50 M), giving the highest \u0394T_b and lowest T_f.",
+    "keyFormulae": [
+      "\\text{Total Particle Concentration} = i \\cdot C"
+    ],
+    "hints": [
+      "Count total ions produced per formula unit and multiply by molarity."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-sol-018",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Osmosis & Reverse Osmosis Principles",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding Osmosis and Osmotic Pressure (\u03a0): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solvent molecules spontaneously flow across an SPM from lower solute concentration to higher solute concentration",
+        "isCorrect": true,
+        "explanation": "Direction of spontaneous osmosis."
+      },
+      {
+        "id": "B",
+        "text": "Osmotic pressure is preferred over freezing point depression for determining the molar mass of delicate biomolecules like proteins",
+        "isCorrect": true,
+        "explanation": "Measured at room temperature and produces large measurable values."
+      },
+      {
+        "id": "C",
+        "text": "Reverse Osmosis (RO) occurs when applied pressure exceeds osmotic pressure (P > \u03a0), forcing pure water out of saltwater across an SPM",
+        "isCorrect": true,
+        "explanation": "Principle of RO desalination."
+      },
+      {
+        "id": "D",
+        "text": "Human Red Blood Cells shrink (crenate) when placed in a 0.2% (w/v) NaCl solution",
+        "isCorrect": false,
+        "explanation": "0.2% NaCl is hypotonic (<0.9%), causing RBCs to swell and burst (Hemolysis), not shrink."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Solvent flows from dilute to concentrated side, RO requires P > \u03a0, and \u03a0 is ideal for proteins because measurements are at room temp.\n\u2022 D is incorrect: 0.2% NaCl is Hypotonic compared to 0.9% RBC isotonicity; RBCs will absorb water and swell/burst (Hemolysis), NOT shrink.",
+    "keyFormulae": [
+      "\\text{RO Condition: } P_{\\text{ext}} > \\Pi"
+    ],
+    "hints": [
+      "0.2% NaCl is hypotonic compared to 0.9% blood isotonicity."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-sol-019",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Isotonic Solution Pairs Identification",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following pairs of solutions are ISOTONIC (\u03a0\u2081 = \u03a0\u2082) with each other at 25\u00b0C? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.10 M Glucose and 0.10 M Urea",
+        "isCorrect": true,
+        "explanation": "1 \u00d7 0.10 = 0.10 M vs 1 \u00d7 0.10 = 0.10 M (Isotonic)."
+      },
+      {
+        "id": "B",
+        "text": "0.10 M NaCl (assume i=2) and 0.20 M Glucose (i=1)",
+        "isCorrect": true,
+        "explanation": "2 \u00d7 0.10 = 0.20 M vs 1 \u00d7 0.20 = 0.20 M (Isotonic)."
+      },
+      {
+        "id": "C",
+        "text": "0.10 M CaCl\u2082 (assume i=3) and 0.15 M NaCl (i=2)",
+        "isCorrect": true,
+        "explanation": "3 \u00d7 0.10 = 0.30 M vs 2 \u00d7 0.15 = 0.30 M (Isotonic)."
+      },
+      {
+        "id": "D",
+        "text": "0.10 M K\u2082SO\u2084 (i=3) and 0.10 M Glucose (i=1)",
+        "isCorrect": false,
+        "explanation": "3 \u00d7 0.10 = 0.30 M vs 1 \u00d7 0.10 = 0.10 M (Not isotonic)."
+      }
+    ],
+    "solutionExplanation": "Isotonicity requires i\u2081 C\u2081 = i\u2082 C\u2082:\n\u2022 Pair A: 1 \u00d7 0.10 = 0.10 vs 1 \u00d7 0.10 = 0.10 (ISOTONIC).\n\u2022 Pair B: 2 \u00d7 0.10 = 0.20 vs 1 \u00d7 0.20 = 0.20 (ISOTONIC).\n\u2022 Pair C: 3 \u00d7 0.10 = 0.30 vs 2 \u00d7 0.15 = 0.30 (ISOTONIC).\n\u2022 Pair D: 3 \u00d7 0.10 = 0.30 vs 1 \u00d7 0.10 = 0.10 (NOT isotonic).",
+    "keyFormulae": [
+      "\\text{Isotonic Condition: } i_1 C_1 = i_2 C_2"
+    ],
+    "hints": [
+      "Calculate effective particle concentration i \u00d7 C for each solution in the pair."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-sol-020",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Solutions",
+    "subtopic": "Thermodynamic K_b and K_f Formulas",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct thermodynamic formulas for Ebullioscopic (K_b) and Cryoscopic (K_f) constants: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "K_b = (R \u00b7 M_A \u00b7 (T\u00b0_b)\u00b2) / (1000 \u00b7 \u0394_vap H)",
+        "isCorrect": true,
+        "explanation": "Thermodynamic formula for K_b."
+      },
+      {
+        "id": "B",
+        "text": "K_f = (R \u00b7 M_A \u00b7 (T\u00b0_f)\u00b2) / (1000 \u00b7 \u0394_fus H)",
+        "isCorrect": true,
+        "explanation": "Thermodynamic formula for K_f."
+      },
+      {
+        "id": "C",
+        "text": "Units of K_b and K_f are K\u00b7kg/mol",
+        "isCorrect": true,
+        "explanation": "Standard unit."
+      },
+      {
+        "id": "D",
+        "text": "K_b depends strictly on the nature of the dissolved solute rather than the solvent",
+        "isCorrect": false,
+        "explanation": "K_b and K_f depend strictly on the SOLVENT properties."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Thermodynamic formulas for K_b and K_f and their units (K\u00b7kg/mol) are accurate.\n\u2022 D is incorrect: K_b and K_f depend STRICTLY on the nature of the SOLVENT (M_A, T\u00b0, \u0394H), and are completely independent of the solute.",
+    "keyFormulae": [
+      "K_b = \\frac{R \\cdot M_A \\cdot (T_b^\\circ)^2}{1000 \\cdot \\Delta_{\\text{vap}} H}, \\quad K_f = \\frac{R \\cdot M_A \\cdot (T_f^\\circ)^2}{1000 \\cdot \\Delta_{\\text{fus}} H}"
+    ],
+    "hints": [
+      "Ebullioscopic and cryoscopic constants are characteristic of the solvent."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

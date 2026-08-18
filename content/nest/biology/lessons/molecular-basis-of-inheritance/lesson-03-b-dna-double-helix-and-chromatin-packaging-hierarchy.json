@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c5-l03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Molecular Basis of Inheritance",
+  "chapterNumber": 5,
+  "chapterSlug": "molecular-basis-of-inheritance",
+  "slug": "lesson-03-b-dna-double-helix-and-chromatin-packaging-hierarchy",
+  "title": "B-DNA Double Helix & Chromatin Packaging Hierarchy",
+  "topic": "Watson-Crick B-DNA Dimensions, Nucleosome Core, & Solenoid Packaging",
+  "order": 3,
+  "readingTimeMinutes": 15,
+  "estimatedTimeMinutes": 15,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Watson & Crick B-DNA: antiparallel, right-handed, 2.0 nm diameter, 3.4 nm pitch, 10 bp/turn, 0.34 nm rise. Nucleosome: [(H2A-H2B)2 + (H3-H4)2] octamer + 147 bp DNA + Histone H1 linker (167 bp chromatosome). Packaging: 2 nm -> 10 nm beads -> 30 nm solenoid -> 300 nm loops -> 1400 nm chromosome.",
+  "summary": "Watson & Crick B-DNA: antiparallel, right-handed, 2.0 nm diameter, 3.4 nm pitch, 10 bp/turn, 0.34 nm rise. Nucleosome: [(H2A-H2B)2 + (H3-H4)2] octamer + 147 bp DNA + Histone H1 linker (167 bp chromatosome). Packaging: 2 nm -> 10 nm beads -> 30 nm solenoid -> 300 nm loops -> 1400 nm chromosome.",
+  "conceptBreakdown": [
+    {
+      "heading": "B-DNA Double Helix & Chromatin Packaging Hierarchy",
+      "title": "B-DNA Double Helix & Chromatin Packaging Hierarchy",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Watson & Crick (1953) B-DNA model: right-handed, antiparallel double helix (2.0 nm diameter, 3.4 nm pitch, 10 bp/turn, 0.34 nm axial rise). A=T (2 H-bonds) and G≡C (3 H-bonds). Eukaryotic chromatin packaging: 2 m DNA packaged into 6 μm nucleus via nucleosome core octamer (147 bp DNA wrapped 1.65 turns), H1 linker (chromatosome 167 bp), 30 nm solenoid fiber, and metaphase scaffold (1400 nm)."
+      },
+      "codeSnippet": "B-DNA DOUBLE HELIX PARAMETERS\n                         \n   Strand Directionality    ──► Antiparallel strands (5' -> 3' and 3' -> 5')\n   Helical Handedness       ──► Right-handed double helix\n   Helical Diameter         ──► 2.0 nm (20 Å)\n   Helical Pitch (One Turn) ──► 3.4 nm (34 Å)\n   Base Pairs per Turn      ──► 10 base pairs (bp) per turn\n   Axial Rise per Base Pair ──► 0.34 nm (3.4 Å) between adjacent pairs\n   Base Pairing Hydrogen    ──► A = T (2 Hydrogen Bonds);\n   Bond Architecture            G = C (3 Hydrogen Bonds)",
+      "content": "### 3.1 B-DNA Structural Parameters (Watson & Crick, 1953)\n- **Antiparallel Strands**: One strand runs $5' \\rightarrow 3'$, and the complementary strand runs $3' \\rightarrow 5'$.\n- **Right-Handed Helix**: Displays a major groove ($2.2\\text{ nm}$) and a minor groove ($1.2\\text{ nm}$).\n- **Helical Dimensions**: Diameter = $2.0\\text{ nm}$ ($20\\text{ \\AA}$), Pitch = $3.4\\text{ nm}$ ($34\\text{ \\AA}$), Base pairs per turn = $10\\text{ bp}$, Axial rise = $0.34\\text{ nm}$ ($3.4\\text{ \\AA}$). Base pairs stack perpendicularly like steps of a spiral staircase.\n\n### 3.2 Chromatin Packaging Hierarchy in Eukaryotes\n- In human diploid cells, **$2\\text{ meters}$ of DNA** ($\\approx 6.6 \\times 10^9\\text{ bp}$) is packaged into a nucleus of **$6\\ \\mu\\text{m}$ diameter**.\n\n```\n                        NUCLEOSOME CORE PARTICLE ARCHITECTURE\n                        \n    Octameric Histone Core ──► [(H2A-H2B)₂ + (H3-H4)₂]\n    Wrapped DNA Length     ──► 147 base pairs (bp) in 1.65 left-handed superhelical turns\n    Linker DNA             ──► 20--80 bp bound to Histone H1 (= Chromatosome 167 bp)\n```\n\n```\n                        EUKARYOTIC CHROMATIN PACKAGING\n                        \n   Naked DNA (2 nm) ──► 10 nm \"Beads-on-a-String\" Nucleosomes\n                                      │\n   Chromasome Solenoid Fiber (30 nm) ◄── Stabilized by Histone H1\n                                      │\n   Scaffolded Chromatin Loops (300 nm) ──► Metaphase Chromosome (1400 nm)\n```"
+    },
+    {
+      "heading": "Euchromatin vs. Heterochromatin",
+      "title": "Euchromatin vs. Heterochromatin",
+      "type": "paragraph",
+      "content": "Euchromatin is loosely packed, lightly staining 10 nm fiber with active gene transcription; Heterochromatin (constitutive and facultative) is densely packed, darkly staining 30-100 nm fiber that is transcriptionally silent."
+    },
+    {
+      "heading": "Histone Post-Translational Modifications",
+      "title": "Histone Post-Translational Modifications",
+      "type": "paragraph",
+      "content": "Histone tails undergo post-translational modifications (acetylation by HATs neutralizes positive lysine charge, opening chromatin for transcription; methylation by HMTs can activate or repress gene expression)."
+    }
+  ]
+}

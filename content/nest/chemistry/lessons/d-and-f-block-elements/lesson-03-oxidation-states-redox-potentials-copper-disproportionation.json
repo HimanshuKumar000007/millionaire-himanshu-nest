@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u13-c4-l03",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XIII \u2014 d- and f-Block Elements",
+  "unitNumber": 13,
+  "chapter": "d- and f-Block Elements",
+  "chapterNumber": 4,
+  "chapterSlug": "d-and-f-block-elements",
+  "slug": "lesson-03-oxidation-states-redox-potentials-copper-disproportionation",
+  "title": "Oxidation State Energetics (E\u00b0_M\u00b3\u207a/M\u00b2\u207a) & Disproportionation of Cu\u207a",
+  "topic": "Oxidation States & Redox Energetics",
+  "topics": [
+    "3d Series Oxidation States Range (Sc +3 to Mn +2...+7; Maximum OS in periodic table +8 in OsO\u2084, RuO\u2084)",
+    "3.1 Standard Electrode Potentials (E\u00b0_M\u00b2\u207a/M and E\u00b0_M\u00b3\u207a/M\u00b2\u207a Thermodynamic Coupling)",
+    "Redox Stability Analysis: Mn\u00b3\u207a/Mn\u00b2\u207a (+1.57 V oxidant), Cr\u00b3\u207a/Cr\u00b2\u207a (-0.41 V reducer), Fe\u00b3\u207a/Fe\u00b2\u207a (+0.77 V)",
+    "3.2 Disproportionation of Cu\u207a(aq): 2Cu\u207a(aq) \u2500\u2500\u25ba Cu\u00b2\u207a(aq) + Cu(s) (E\u00b0_cell = +0.36 V)",
+    "Hydration Enthalpy Driving Force of Cu\u00b2\u207a (\u0394_hyd H = -2121 kJ/mol vs -581 kJ/mol)"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "d-and-f-block-elements",
+  "quickSummary": "Transition elements show variable oxidation states because (n-1)d and ns energies are close. Maximum in 3d is +7 (MnO\u2084\u207b); maximum in periodic table is +8 (OsO\u2084, RuO\u2084). Mn\u00b3\u207a is a strong oxidant (+1.57 V); Cr\u00b2\u207a is a strong reducer (-0.41 V). Cu\u207a spontaneously disproportionates to Cu\u00b2\u207a and Cu due to huge hydration enthalpy of Cu\u00b2\u207a (-2121 kJ/mol).",
+  "summary": "Master variable oxidation states, redox potential trends, and the hydration-driven disproportionation of Cu\u207a.",
+  "conceptBreakdown": [
+    {
+      "heading": "3. 3d Series Oxidation States & Redox Potentials",
+      "title": "3. 3d Series Oxidation States & Redox Potentials",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Oxidation State Energetics",
+        "takeaway": "Mn shows max OS (+7) in 3d series; Os and Ru show max OS (+8) in periodic table. Mn\u00b3\u207a (+1.57 V) is oxidizing; Cr\u00b2\u207a (-0.41 V) is reducing."
+      },
+      "codeSnippet": "                       $3d$ SERIES OXIDATION STATES\n                       \n   $\\text{Sc}$ (+3)  $\\text{Ti}$ (+2,3,4)  $\\text{V}$ (+2,3,4,5)  $\\text{Cr}$ (+2,3,4,5,6)  $\\mathbf{\\text{Mn} \\text{ (+2,3,4,5,6,+7)}}$\n   $\\text{Fe}$ (+2,3,4,6)  $\\text{Co}$ (+2,3,4)  $\\text{Ni}$ (+2,3,4)  $\\text{Cu}$ (+1,+2)  $\\text{Zn}$ (+2)\n\n                   $E^\\circ_{\\text{M}^{3+}/\\text{M}^{2+}}$ REDOX STABILITY ANALYSIS\n                   \n   $\\mathbf{\\text{Mn}^{3+} / \\text{Mn}^{2+} = +1.57\\text{ V}}$  \u2500\u2500\u25ba Highly Positive: $\\text{Mn}^{3+} (3d^4)$ is a **powerful Oxidizing Agent**\n                                               seeking to reach stable half-filled $\\text{Mn}^{2+} (3d^5)$.\n   $\\mathbf{\\text{Cr}^{3+} / \\text{Cr}^{2+} = -0.41\\text{ V}}$  \u2500\u2500\u25ba Negative: $\\text{Cr}^{2+} (3d^4)$ is a **powerful Reducing Agent**\n                                               spontaneously oxidizing to stable $\\text{Cr}^{3+} (t_{2g}^3)$.\n   $\\mathbf{\\text{Fe}^{3+} / \\text{Fe}^{2+} = +0.77\\text{ V}}$  \u2500\u2500\u25ba Moderate: $\\text{Fe}^{3+} (3d^5)$ is moderately stable relative to $\\text{Fe}^{2+} (3d^6)$.",
+      "content": "Transition elements display variable oxidation states because the energy difference between $(n-1)d$ and $ns$ orbitals is extremely small, allowing both subshells to participate in bond formation.\n- **Maximum OS in 3d series**: +7 in Manganese ($\\text{MnO}_4^-$).\n- **Maximum OS in Periodic Table**: +8 in Osmium ($\\text{OsO}_4$) and Ruthenium ($\\text{RuO}_4$).\n- **Standard Electrode Potential**: Reflects thermodynamic balance $\\Delta_{\\text{total}} H^\\circ = \\Delta_{\\text{sub}} H + \\Delta_i H_1 + \\Delta_i H_2 + \\Delta_{\\text{hyd}} H^\\circ$."
+    },
+    {
+      "heading": "3.2 The Disproportionation of Cu\u207a(aq)",
+      "title": "3.2 The Disproportionation of Cu\u207a(aq)",
+      "type": "paragraph",
+      "codeSnippet": "DISPROPORTIONATION OF Cu\u207a(aq)\n\n2Cu\u207a(aq) \u2500\u2500\u25ba Cu\u00b2\u207a(aq) + Cu(s)    (E\u00b0_cell = +0.36 V)\n\nThermodynamic Energetics:\n\u2022 Hydration Enthalpy of Cu\u00b2\u207a(aq): \u0394_hyd H = -2121 kJ/mol\n\u2022 Hydration Enthalpy of Cu\u207a(aq):  \u0394_hyd H = -581 kJ/mol\n\u2022 2nd Ionization Enthalpy of Cu:  \u0394_i H_2 = +1958 kJ/mol\n\nMassive hydration energy release (-2121 kJ/mol) far exceeds \u0394_i H_2 (+1958 kJ/mol).",
+      "content": "Although $\\text{Cu}^+(aq)$ has a stable $3d^{10}$ configuration, it is thermodynamically unstable in aqueous solution and undergoes rapid disproportionation:\n$$\\mathbf{2\\text{Cu}^+(aq) \\longrightarrow \\text{Cu}^{2+}(aq) + \\text{Cu}(s) \\quad (E^\\circ_{\\text{cell}} = +0.36\\text{ V})}$$\n- **Thermodynamic Reason**: The Hydration Enthalpy of $\\text{Cu}^{2+}(aq)$ ($\\Delta_{\\text{hyd}} H = -2121\\text{ kJ/mol}$) is much more negative than that of $\\text{Cu}^+(aq)$ ($\\Delta_{\\text{hyd}} H = -581\\text{ kJ/mol}$). This massive hydration energy release far outweighs the second ionization enthalpy required to convert $\\text{Cu}^+ \\rightarrow \\text{Cu}^{2+}$ ($+1958\\text{ kJ/mol}$)."
+    }
+  ],
+  "quickRevision": [
+    "Max 3d OS is +7 in MnO\u2084\u207b; Max periodic OS is +8 in OsO\u2084, RuO\u2084.",
+    "Mn\u00b3\u207a/Mn\u00b2\u207a = +1.57 V (Mn\u00b3\u207a is strong oxidant).",
+    "Cr\u00b3\u207a/Cr\u00b2\u207a = -0.41 V (Cr\u00b2\u207a is strong reducer).",
+    "Cu\u207a disproportionates in water: 2Cu\u207a \u2500\u2500\u25ba Cu\u00b2\u207a + Cu (E\u00b0 = +0.36 V).",
+    "High hydration enthalpy of Cu\u00b2\u207a (-2121 kJ/mol) drives Cu\u207a disproportionation."
+  ],
+  "keyFormulae": [
+    "2\\text{Cu}^+(aq) \\longrightarrow \\text{Cu}^{2+}(aq) + \\text{Cu}(s) \\quad (E^\\circ_{\\text{cell}} = +0.36\\text{ V})",
+    "\\Delta_{\\text{hyd}} H(\\text{Cu}^{2+}) = -2121\\text{ kJ/mol}"
+  ]
+}

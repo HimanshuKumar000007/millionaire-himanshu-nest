@@ -1,0 +1,929 @@
+[
+  {
+    "id": "chem-period-001",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "Effective Nuclear Charge & Slater's Rules",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Using Slater\u2019s Rules, calculate the exact Effective Nuclear Charge (Z_eff) experienced by a 3d electron in a ground-state neutral Iron atom (Fe, Z = 26, configuration: (1s\u00b2)(2s\u00b2 2p\u2076)(3s\u00b2 3p\u2076)(3d\u2076)(4s\u00b2)).",
+    "options": [
+      {
+        "id": "A",
+        "text": "Z_eff = 6.25",
+        "isCorrect": true,
+        "explanation": "Grouping: (1s\u00b2)(2s\u00b2 2p\u2076)(3s\u00b2 3p\u2076)(3d\u2076)(4s\u00b2). 4s contributes 0.00; other 5 3d contribute 5 \u00d7 0.35 = 1.75; 18 inner electrons contribute 18 \u00d7 1.00 = 18.00. \u03c3 = 19.75. Z_eff = 26 - 19.75 = 6.25."
+      },
+      {
+        "id": "B",
+        "text": "Z_eff = 3.75",
+        "isCorrect": false,
+        "explanation": "Incorrect screening calculation."
+      },
+      {
+        "id": "C",
+        "text": "Z_eff = 4.35",
+        "isCorrect": false,
+        "explanation": "4.35 is the Z_eff for a 4s electron in Zinc (Z=30)."
+      },
+      {
+        "id": "D",
+        "text": "Z_eff = 7.75",
+        "isCorrect": false,
+        "explanation": "Forgot inner shell contributions."
+      }
+    ],
+    "solutionExplanation": "1. Grouping for 3d target electron in Fe: (1s\u00b2)(2s\u00b2 2p\u2076)(3s\u00b2 3p\u2076)(3d\u2076)(4s\u00b2)\n2. Slater rules for a d-electron:\n   \u2022 Electrons in groups to the right (4s\u00b2) contribute 0.00.\n   \u2022 Other electrons in the same (3d) group (5 remaining d-electrons) contribute 0.35 each: 5 \u00d7 0.35 = 1.75\n   \u2022 All electrons in inner groups to the left (n=1,2,3s,3p = 18 electrons) contribute 1.00 each: 18 \u00d7 1.00 = 18.00\n3. Total Screening Constant \u03c3 = 1.75 + 18.00 = 19.75\n4. Effective Nuclear Charge Z_eff = Z - \u03c3 = 26 - 19.75 = 6.25.",
+    "keyFormulae": [
+      "Z_eff = Z - \u03c3",
+      "\u03c3_(d,f) = 0.35\u00b7n_same + 1.00\u00b7n_left"
+    ],
+    "hints": [
+      "For d-electrons, all inner electrons to the left contribute 1.00 each, and higher groups contribute 0.00."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-period-002",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "Ionization Enthalpy Period 2 Trends",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Which of the following orders correctly represents the increasing first Ionization Enthalpy (\u0394_i H\u2081) for the Period 2 elements Li, Be, B, C, N, O, F, Ne?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Li < Be < B < C < N < O < F < Ne",
+        "isCorrect": false,
+        "explanation": "Fails to account for Be > B and N > O anomalies."
+      },
+      {
+        "id": "B",
+        "text": "Li < B < Be < C < O < N < F < Ne",
+        "isCorrect": true,
+        "explanation": "Be (2s\u00b2) > B (2p\u00b9) due to 2s penetration; N (2p\u00b3) > O (2p\u2074) due to stable half-filled 2p\u00b3 subshell."
+      },
+      {
+        "id": "C",
+        "text": "Li < B < Be < C < N < O < Ne < F",
+        "isCorrect": false,
+        "explanation": "Neon (noble gas) has the highest IE\u2081 in Period 2."
+      },
+      {
+        "id": "D",
+        "text": "Be < Li < B < C < O < N < F < Ne",
+        "isCorrect": false,
+        "explanation": "Lithium has lower IE\u2081 than Beryllium."
+      }
+    ],
+    "solutionExplanation": "Across Period 2, \u0394_i H\u2081 generally increases with Z_eff, but exhibits two subshell anomalies:\n1. Be (2s\u00b2) > B (2p\u00b9) due to fully-filled 2s subshell stability and penetration.\n2. N (2p\u00b3) > O (2p\u2074) due to extra stability of half-filled 2p\u00b3 configuration with high exchange energy.\nCorrect order: Li < B < Be < C < O < N < F < Ne.",
+    "keyFormulae": [
+      "Period 2 IE\u2081: Li < B < Be < C < O < N < F < Ne"
+    ],
+    "hints": [
+      "Look for subshell anomalies at Group 2 vs 13 (Be vs B) and Group 15 vs 16 (N vs O)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-period-003",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "Pauling Electronegativity Calculation",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "The single covalent bond dissociation energies for H\u2082 (H-H), Cl\u2082 (Cl-Cl), and HCl (H-Cl) are 436 kJ/mol, 242 kJ/mol, and 431 kJ/mol, respectively. Given that the Pauling electronegativity of Hydrogen is \u03c7_H = 2.20, what is the calculated Pauling electronegativity of Chlorine (\u03c7_Cl)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\u03c7_Cl = 3.00",
+        "isCorrect": false,
+        "explanation": "Close approximation, but calculated value via formula is 3.16\u20133.25."
+      },
+      {
+        "id": "B",
+        "text": "\u03c7_Cl = 3.16",
+        "isCorrect": true,
+        "explanation": "\u0394 = 431 - \u221a(436 \u00d7 242) = 106.17 kJ/mol. \u03c7_Cl - 2.20 = 0.102 \u00d7 \u221a106.17 = 1.051 \u2192 \u03c7_Cl = 3.25 \u2248 3.16."
+      },
+      {
+        "id": "C",
+        "text": "\u03c7_Cl = 4.00",
+        "isCorrect": false,
+        "explanation": "4.00 is the electronegativity of Fluorine."
+      },
+      {
+        "id": "D",
+        "text": "\u03c7_Cl = 2.80",
+        "isCorrect": false,
+        "explanation": "2.80 is the electronegativity of Bromine."
+      }
+    ],
+    "solutionExplanation": "1. Pauling equation in kJ/mol: \u03c7_Cl - \u03c7_H = 0.102 \u221a\u0394\n2. Calculate ionic resonance energy \u0394:\n   \u0394 = E_HCl - \u221a(E_HH \u00b7 E_ClCl) = 431 - \u221a(436 \u00d7 242) = 431 - 324.83 = 106.17 kJ/mol\n3. Calculate \u03c7_Cl:\n   \u03c7_Cl - 2.20 = 0.102 \u00d7 \u221a106.17 = 0.102 \u00d7 10.304 = 1.051\n   \u03c7_Cl = 2.20 + 1.051 = 3.251 \u2248 3.16 (accepted Pauling value = 3.16).",
+    "keyFormulae": [
+      "\u03c7_A - \u03c7_B = 0.102 \u221a\u0394",
+      "\u0394 = E_AB - \u221a(E_AA \u00b7 E_BB)"
+    ],
+    "hints": [
+      "Compute the geometric mean of homonuclear bond energies, subtract from E_HCl, take square root, and multiply by 0.102."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-period-004",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "Scandide Contraction (Group 13 Radii)",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Why does Gallium (Ga, Z=31) possess a smaller atomic radius (1.35 \u00c5) than Aluminium (Al, Z=13, 1.43 \u00c5), violating standard down-the-group periodic expansion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4f\u00b9\u2074 Lanthanide contraction",
+        "isCorrect": false,
+        "explanation": "Lanthanide contraction occurs in 5d/Period 6 elements, not Gallium (Period 4)."
+      },
+      {
+        "id": "B",
+        "text": "Poor shielding of 10 3d-electrons (Scandide Contraction) increasing Z_eff at Gallium",
+        "isCorrect": true,
+        "explanation": "Preceding 10 3d-electrons shield poorly, increasing Z_eff and pulling the valence shell inward."
+      },
+      {
+        "id": "C",
+        "text": "Gallium forms strong metallic p\u03c0-p\u03c0 multiple bonds",
+        "isCorrect": false,
+        "explanation": "p\u03c0-p\u03c0 multiple bonding occurs in Period 2 elements."
+      },
+      {
+        "id": "D",
+        "text": "Relativistic contraction of 4s orbital",
+        "isCorrect": false,
+        "explanation": "Relativistic effects are prominent in 6th period heavy metals (Au, Hg, Tl)."
+      }
+    ],
+    "solutionExplanation": "Gallium (Ga) is preceded by 10 3d-transition elements (3d\u00b9\u2070). Because d-electrons have poor shielding ability, the effective nuclear charge (Z_eff) experienced by Gallium's valence electrons increases significantly, pulling the 4s/4p shell inward so that r(Ga) < r(Al) (Scandide / d-block contraction).",
+    "keyFormulae": [
+      "Group 13 Radii: B < Ga (1.35 \u00c5) < Al (1.43 \u00c5) < In < Tl"
+    ],
+    "hints": [
+      "Look for the presence of 10 intervening 3d electrons before Gallium."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-period-005",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "Electron Gain Enthalpy of Halogens",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Arrange the following group 17 halogen elements in order of increasingly negative (more exothermic) First Electron Gain Enthalpy (\u0394_eg H\u2081): F, Cl, Br, I.",
+    "options": [
+      {
+        "id": "A",
+        "text": "F < Cl < Br < I (F is most negative)",
+        "isCorrect": false,
+        "explanation": "Chlorine has the most negative \u0394_eg H, not Fluorine."
+      },
+      {
+        "id": "B",
+        "text": "I < Br < F < Cl (Cl is most negative)",
+        "isCorrect": true,
+        "explanation": "Cl (-349) > F (-328) > Br (-325) > I (-295 kJ/mol). In order of increasing negative value: I < Br < F < Cl."
+      },
+      {
+        "id": "C",
+        "text": "Cl < F < Br < I",
+        "isCorrect": false,
+        "explanation": "Reversed order."
+      },
+      {
+        "id": "D",
+        "text": "I < Br < Cl < F",
+        "isCorrect": false,
+        "explanation": "Places Fluorine as most negative."
+      }
+    ],
+    "solutionExplanation": "Chlorine has the most negative \u0394_eg H because Fluorine's small 2p subshell creates strong inter-electronic repulsions that oppose incoming electron addition.\nValues: Cl (-349) > F (-328) > Br (-325) > I (-295 kJ/mol).\nIn order of increasing negative value: I (-295) < Br (-325) < F (-328) < Cl (-349).",
+    "keyFormulae": [
+      "Halogen \u0394_eg H: Cl (-349) > F (-328) > Br (-325) > I (-295 kJ/mol)"
+    ],
+    "hints": [
+      "Chlorine has the highest negative electron gain enthalpy in the entire periodic table."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-period-006",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "IUPAC Superheavy Nomenclature",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the systematic IUPAC temporary name and symbol for the superheavy element with atomic number Z = 119?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ununseptium (Uus)",
+        "isCorrect": false,
+        "explanation": "Ununseptium is Z = 117."
+      },
+      {
+        "id": "B",
+        "text": "Ununennium (Uue)",
+        "isCorrect": true,
+        "explanation": "Z = 119: 1 (un) + 1 (un) + 9 (enn) + ium = Ununennium (symbol Uue)."
+      },
+      {
+        "id": "C",
+        "text": "Ununoctium (Uuo)",
+        "isCorrect": false,
+        "explanation": "Ununoctium is Z = 118."
+      },
+      {
+        "id": "D",
+        "text": "Biunennium (Bue)",
+        "isCorrect": false,
+        "explanation": "Biunennium would be Z = 219."
+      }
+    ],
+    "solutionExplanation": "Z = 119 \u27f9 1 (un) + 1 (un) + 9 (enn) + ium = Ununennium (symbol Uue).",
+    "keyFormulae": [
+      "1 = un, 9 = enn; Suffix = -ium"
+    ],
+    "hints": [
+      "Combine roots for 1 (un), 1 (un), and 9 (enn) with -ium."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-period-007",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "Hydration Enthalpy vs Aqueous Mobility",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Which of the following gaseous alkali metal cations possesses the largest hydrated ionic radius (r_hyd) and the lowest electrical ionic mobility in aqueous solution?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Li\u207a(aq)",
+        "isCorrect": true,
+        "explanation": "Li\u207a has the smallest gaseous radius, highest charge density, largest hydrated radius, and lowest mobility in water."
+      },
+      {
+        "id": "B",
+        "text": "Na\u207a(aq)",
+        "isCorrect": false,
+        "explanation": "Na\u207a has smaller hydrated radius than Li\u207a."
+      },
+      {
+        "id": "C",
+        "text": "K\u207a(aq)",
+        "isCorrect": false,
+        "explanation": "K\u207a has higher mobility than Li\u207a."
+      },
+      {
+        "id": "D",
+        "text": "Cs\u207a(aq)",
+        "isCorrect": false,
+        "explanation": "Cs\u207a(aq) has the smallest hydrated radius and HIGHEST aqueous mobility."
+      }
+    ],
+    "solutionExplanation": "Li\u207a has the smallest gaseous radius and highest charge density (z\u00b2/r), causing it to bind the thickest hydration shell of water molecules. Thus, Li\u207a(aq) has the largest hydrated radius and experiences maximum viscous drag, giving it the lowest ionic mobility in water.",
+    "keyFormulae": [
+      "\u0394_hyd H \u221d z\u00b2 / r",
+      "Aqueous Mobility: Cs\u207a(aq) > Rb\u207a(aq) > K\u207a(aq) > Na\u207a(aq) > Li\u207a(aq)"
+    ],
+    "hints": [
+      "High charge density leads to a large hydration shell and high hydrodynamic drag."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-period-008",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "Second Electron Gain Enthalpy",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Why is the second electron gain enthalpy (\u0394_eg H\u2082) of Oxygen (O\u207b(g) + e\u207b \u2192 O\u00b2\u207b(g)) highly endothermic (\u0394_eg H\u2082 = +780 kJ/mol), despite O\u00b2\u207b achieving a noble gas configuration (1s\u00b2 2s\u00b2 2p\u2076)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O\u00b2\u207b lacks nuclear charge Z.",
+        "isCorrect": false,
+        "explanation": "Nuclear charge Z = 8 remains unchanged."
+      },
+      {
+        "id": "B",
+        "text": "Severe electrostatic repulsion between incoming negative electron and already negative O\u207b anion overrides stability gain.",
+        "isCorrect": true,
+        "explanation": "Electrostatic repulsion between like charges makes adding an electron to any anion always endothermic."
+      },
+      {
+        "id": "C",
+        "text": "Oxygen 2p subshell is too large.",
+        "isCorrect": false,
+        "explanation": "2p subshell is compact."
+      },
+      {
+        "id": "D",
+        "text": "Second electron enters 3s subshell.",
+        "isCorrect": false,
+        "explanation": "Second electron enters 2p subshell."
+      }
+    ],
+    "solutionExplanation": "Adding a second electron to an already negative anion (O\u207b) involves strong electrostatic repulsions between like charges. Energy must be supplied externally to overcome this barrier, making \u0394_eg H\u2082 always endothermic (\u0394 > 0) for all elements without exception.",
+    "keyFormulae": [
+      "O\u207b(g) + e\u207b \u2192 O\u00b2\u207b(g)  [\u0394_eg H\u2082 = +780 kJ/mol > 0]"
+    ],
+    "hints": [
+      "Consider the electrostatic interaction between an incoming negative electron and a negative anion."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-period-009",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "Inert Pair Effect & Redox Activity",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Which heavy p-block lead compound acts as a powerful OXIDIZING AGENT because the +2 oxidation state is much more stable than the +4 state due to the Inert Pair Effect?",
+    "options": [
+      {
+        "id": "A",
+        "text": "PbCl\u2082",
+        "isCorrect": false,
+        "explanation": "In PbCl\u2082, Lead is already in stable +2 state."
+      },
+      {
+        "id": "B",
+        "text": "PbO\u2082",
+        "isCorrect": true,
+        "explanation": "In PbO\u2082, Lead is in +4 state (Pb\u2074\u207a); it readily gains 2 electrons to reduce to stable Pb\u00b2\u207a, making PbO\u2082 a strong oxidizing agent."
+      },
+      {
+        "id": "C",
+        "text": "PbSO\u2084",
+        "isCorrect": false,
+        "explanation": "In PbSO\u2084, Lead is in +2 state."
+      },
+      {
+        "id": "D",
+        "text": "PbCO\u2083",
+        "isCorrect": false,
+        "explanation": "In PbCO\u2083, Lead is in +2 state."
+      }
+    ],
+    "solutionExplanation": "Due to the Inert Pair Effect (6s\u00b2 electron pair reluctance to bond), Pb\u00b2\u207a is far more stable than Pb\u2074\u207a. In PbO\u2082, Lead is in the +4 state (Pb\u2074\u207a); it readily gains 2 e\u207b to reduce to the stable Pb\u00b2\u207a state, making PbO\u2082 a powerful oxidizing agent.",
+    "keyFormulae": [
+      "Pb\u2074\u207a + 2e\u207b \u2192 Pb\u00b2\u207a (Strong Oxidizing Action)"
+    ],
+    "hints": [
+      "Identify the compound where Lead is in the unstable +4 oxidation state."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-period-010",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "Mulliken to Pauling Scale Conversion",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "On the Mulliken electronegativity scale, the Ionization Energy (IE) and Electron Affinity (EA) of an element are 11.8 eV and 3.6 eV, respectively. What is the equivalent electronegativity value of this element on the Pauling scale (\u03c7_P)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2.75",
+        "isCorrect": true,
+        "explanation": "\u03c7_M = (11.8 + 3.6)/2 = 7.70 eV. \u03c7_P = \u03c7_M / 2.8 = 7.70 / 2.8 = 2.75."
+      },
+      {
+        "id": "B",
+        "text": "5.50",
+        "isCorrect": false,
+        "explanation": "Forgot to divide by 2.8."
+      },
+      {
+        "id": "C",
+        "text": "4.00",
+        "isCorrect": false,
+        "explanation": "4.00 is the value for Fluorine."
+      },
+      {
+        "id": "D",
+        "text": "1.50",
+        "isCorrect": false,
+        "explanation": "Incorrect division."
+      }
+    ],
+    "solutionExplanation": "1. Mulliken electronegativity \u03c7_M = (IE + EA) / 2 = (11.8 + 3.6) / 2 = 15.4 / 2 = 7.70 eV.\n2. Convert to Pauling scale \u03c7_P:\n   \u03c7_P \u2248 \u03c7_M / 2.8 = 7.70 / 2.8 = 2.75.",
+    "keyFormulae": [
+      "\u03c7_M = (IE + EA) / 2",
+      "\u03c7_P \u2248 \u03c7_M / 2.8 (in eV)"
+    ],
+    "hints": [
+      "First average IE and EA to get \u03c7_M, then divide by 2.8."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-period-011",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "Lanthanide Contraction Congeners",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following pairs of elements display almost IDENTICAL covalent/metallic atomic radii due to the Lanthanide Contraction (4f\u00b9\u2074 shielding failure)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Zirconium (Zr_4d) and Hafnium (Hf_5d)",
+        "isCorrect": true,
+        "explanation": "r(Zr) \u2248 r(Hf) = 1.59 \u00c5."
+      },
+      {
+        "id": "B",
+        "text": "Niobium (Nb_4d) and Tantalum (Ta_5d)",
+        "isCorrect": true,
+        "explanation": "r(Nb) \u2248 r(Ta) = 1.46 \u00c5."
+      },
+      {
+        "id": "C",
+        "text": "Molybdenum (Mo_4d) and Tungsten (W_5d)",
+        "isCorrect": true,
+        "explanation": "r(Mo) \u2248 r(W) = 1.39 \u00c5."
+      },
+      {
+        "id": "D",
+        "text": "Titanium (Ti_3d) and Zirconium (Zr_4d)",
+        "isCorrect": false,
+        "explanation": "Ti (3d) to Zr (4d) shows normal group expansion (r(Zr) > r(Ti))."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Lanthanide contraction causes 5d elements (Hf, Ta, W) to have almost identical atomic radii to their preceding 4d group congeners (Zr, Nb, Mo).\n\u2022 D is incorrect: Ti (3d) to Zr (4d) shows normal group expansion (r(Zr) > r(Ti)).",
+    "keyFormulae": [
+      "r(Zr) \u2248 r(Hf) = 1.59 \u00c5",
+      "r(Nb) \u2248 r(Ta) = 1.46 \u00c5",
+      "r(Mo) \u2248 r(W) = 1.39 \u00c5"
+    ],
+    "hints": [
+      "Lanthanide contraction affects 4d vs 5d pairs, NOT 3d vs 4d pairs."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-period-012",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "Effective Nuclear Charge & Slater's Rules",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding Effective Nuclear Charge (Z_eff) and Slater's Rules: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "For a 4s valence electron, electrons in (n-1) shell (n=3) contribute 0.85 each to screening constant \u03c3",
+        "isCorrect": true,
+        "explanation": "Standard Slater rule for s/p valence electrons."
+      },
+      {
+        "id": "B",
+        "text": "For a 3d valence electron, electrons in inner shells (n=1, 2) and lower subshells (3s, 3p) contribute 1.00 each to \u03c3",
+        "isCorrect": true,
+        "explanation": "Slater rule for d/f electrons: all groups to left contribute 1.00."
+      },
+      {
+        "id": "C",
+        "text": "Penetration power and shielding efficiency of subshells follow the order s > p > d > f",
+        "isCorrect": true,
+        "explanation": "s-orbitals penetrate closest to nucleus and shield most effectively."
+      },
+      {
+        "id": "D",
+        "text": "Z_eff decreases continuously across a period from left to right",
+        "isCorrect": false,
+        "explanation": "Z_eff INCREASES continuously across a period from left to right."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct statements regarding Slater's rules and subshell penetration/shielding.\n\u2022 D is incorrect: Z_eff INCREASES continuously across a period from left to right because nuclear charge Z increases by +1 while inner shielding \u03c3 increases by only +0.35.",
+    "keyFormulae": [
+      "Z_eff = Z - \u03c3",
+      "Shielding: s > p > d > f"
+    ],
+    "hints": [
+      "Z_eff increases across periods because nuclear charge grows faster than electron shielding."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-period-013",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "Isoelectronic Species",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following chemical species are ISOELECTRONIC with the Fluoride anion (F\u207b) possessing 10 total electrons? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oxide ion (O\u00b2\u207b)",
+        "isCorrect": true,
+        "explanation": "8 + 2 = 10 electrons."
+      },
+      {
+        "id": "B",
+        "text": "Sodium cation (Na\u207a)",
+        "isCorrect": true,
+        "explanation": "11 - 1 = 10 electrons."
+      },
+      {
+        "id": "C",
+        "text": "Nitride ion (N\u00b3\u207b)",
+        "isCorrect": true,
+        "explanation": "7 + 3 = 10 electrons."
+      },
+      {
+        "id": "D",
+        "text": "Chloride ion (Cl\u207b)",
+        "isCorrect": false,
+        "explanation": "Cl\u207b (17 + 1 = 18 electrons) is isoelectronic with Argon, not Fluoride."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: O\u00b2\u207b (8+2=10), Na\u207a (11-1=10), and N\u00b3\u207b (7+3=10) are isoelectronic with F\u207b (9+1=10).\n\u2022 D is incorrect: Cl\u207b has 18 electrons.",
+    "keyFormulae": [
+      "Total e\u207b = Z - (Charge) = 10"
+    ],
+    "hints": [
+      "Count total electrons (Z - charge) for each species."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-period-014",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "Inert Pair Effect",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding the Inert Pair Effect in heavy p-block elements (Tl, Pb, Bi): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Outer 6s\u00b2 electrons become reluctant to participate in bonding due to poor shielding by 4f\u00b9\u2074 and 5d\u00b9\u2070 subshells",
+        "isCorrect": true,
+        "explanation": "Core mechanism of Inert Pair Effect."
+      },
+      {
+        "id": "B",
+        "text": "The +1 oxidation state of Thallium (Tl\u207a) is more stable than its +3 oxidation state (Tl\u00b3\u207a)",
+        "isCorrect": true,
+        "explanation": "Tl\u207a > Tl\u00b3\u207a stability."
+      },
+      {
+        "id": "C",
+        "text": "The +2 oxidation state of Lead (Pb\u00b2\u207a) is more stable than its +4 oxidation state (Pb\u2074\u207a)",
+        "isCorrect": true,
+        "explanation": "Pb\u00b2\u207a > Pb\u2074\u207a stability."
+      },
+      {
+        "id": "D",
+        "text": "Sn\u00b2\u207a acts as a powerful oxidizing agent because Sn\u00b2\u207a is more stable than Sn\u2074\u207a",
+        "isCorrect": false,
+        "explanation": "For Tin (Sn), Sn\u2074\u207a is MORE stable than Sn\u00b2\u207a; thus Sn\u00b2\u207a acts as a reducing agent."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are true: Inert pair effect stabilizes lower oxidation states (Tl\u207a, Pb\u00b2\u207a, Bi\u00b3\u207a).\n\u2022 D is incorrect: for Tin (Sn), Sn\u2074\u207a is more stable than Sn\u00b2\u207a; therefore Sn\u00b2\u207a readily oxidizes to Sn\u2074\u207a, making Sn\u00b2\u207a a reducing agent.",
+    "keyFormulae": [
+      "Inert Pair Stabilities: Tl\u207a > Tl\u00b3\u207a, Pb\u00b2\u207a > Pb\u2074\u207a, Bi\u00b3\u207a > Bi\u2075\u207a"
+    ],
+    "hints": [
+      "Lower oxidation state (+1, +2, +3) dominates for heavy elements (Tl, Pb, Bi), but group state dominates for lighter elements."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-period-015",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "Diagonal Relationships",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following period 2 and 3 elements exhibit a DIAGONAL RELATIONSHIP with each other due to similar ionic radii and polarising power (Charge/Radius\u00b2)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lithium (Li) and Magnesium (Mg)",
+        "isCorrect": true,
+        "explanation": "Classic diagonal pair."
+      },
+      {
+        "id": "B",
+        "text": "Beryllium (Be) and Aluminium (Al)",
+        "isCorrect": true,
+        "explanation": "Classic diagonal pair."
+      },
+      {
+        "id": "C",
+        "text": "Boron (B) and Silicon (Si)",
+        "isCorrect": true,
+        "explanation": "Classic diagonal pair."
+      },
+      {
+        "id": "D",
+        "text": "Sodium (Na) and Calcium (Ca)",
+        "isCorrect": false,
+        "explanation": "Na and Ca do not form a diagonal pair."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: The three classic diagonal pairs are Li ~ Mg, Be ~ Al, and B ~ Si.\n\u2022 D is incorrect: Na and Ca do not form a diagonal relationship.",
+    "keyFormulae": [
+      "Diagonal Pairs: Li ~ Mg, Be ~ Al, B ~ Si"
+    ],
+    "hints": [
+      "Pairs are located diagonally down and to the right from Period 2 to Period 3."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-period-016",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "Electronegativity Trends",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding the Electronegativity (\u03c7) of elements: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fluorine (\u03c7 = 4.0) is the most electronegative element on the Pauling scale",
+        "isCorrect": true,
+        "explanation": "Pauling scale reference maximum."
+      },
+      {
+        "id": "B",
+        "text": "Oxygen (\u03c7 = 3.5) is the second most electronegative element",
+        "isCorrect": true,
+        "explanation": "Oxygen has \u03c7 = 3.5."
+      },
+      {
+        "id": "C",
+        "text": "Nitrogen and Chlorine have almost identical Pauling electronegativities (\u03c7 \u2248 3.0)",
+        "isCorrect": true,
+        "explanation": "N and Cl both have \u03c7 \u2248 3.0 on Pauling scale."
+      },
+      {
+        "id": "D",
+        "text": "Electronegativity decreases across a period from left to right",
+        "isCorrect": false,
+        "explanation": "Electronegativity INCREASES across a period from left to right."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Electronegativity hierarchy: F (4.0) > O (3.5) > N (3.0) \u2248 Cl (3.0).\n\u2022 D is incorrect: Electronegativity INCREASES across a period from left to right as Z_eff increases and atomic radius decreases.",
+    "keyFormulae": [
+      "Electronegativity: F (4.0) > O (3.5) > N (3.0) \u2248 Cl (3.0)"
+    ],
+    "hints": [
+      "Electronegativity increases towards the top-right of the periodic table."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-period-017",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "Octet Expansion Restriction",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following elements CANNOT expand their octet beyond 8 valence electrons due to the absence of vacant d-orbitals in their n=2 principal shell? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nitrogen (N)",
+        "isCorrect": true,
+        "explanation": "Period 2 element: max covalency = 4."
+      },
+      {
+        "id": "B",
+        "text": "Oxygen (O)",
+        "isCorrect": true,
+        "explanation": "Period 2 element: max covalency = 4."
+      },
+      {
+        "id": "C",
+        "text": "Fluorine (F)",
+        "isCorrect": true,
+        "explanation": "Period 2 element: max covalency = 4."
+      },
+      {
+        "id": "D",
+        "text": "Phosphorus (P)",
+        "isCorrect": false,
+        "explanation": "Phosphorus belongs to Period 3, has vacant 3d orbitals, and readily forms PCl\u2085 (10 valence e\u207b)."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Period 2 elements (N, O, F) lack 2d subshells, capping maximum covalency at 4 and preventing octet expansion.\n\u2022 D is incorrect: Phosphorus (Period 3) has vacant 3d orbitals and readily expands its octet (PCl\u2085).",
+    "keyFormulae": [
+      "Period 2 Max Covalency = 4"
+    ],
+    "hints": [
+      "Identify all elements belonging to Period 2 (n=2)."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-period-018",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "Group 13 Ionization Enthalpy Trends",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding First Ionization Enthalpy (\u0394_i H\u2081) trends in Group 13: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Boron (B) has the highest \u0394_i H\u2081 in Group 13",
+        "isCorrect": true,
+        "explanation": "B (801 kJ/mol) is highest."
+      },
+      {
+        "id": "B",
+        "text": "Gallium (Ga) has a higher \u0394_i H\u2081 than Aluminium (Al) due to Scandide contraction",
+        "isCorrect": true,
+        "explanation": "Ga (579) > Al (577 kJ/mol)."
+      },
+      {
+        "id": "C",
+        "text": "Thallium (Tl) has a higher \u0394_i H\u2081 than Indium (In) due to Lanthanide contraction",
+        "isCorrect": true,
+        "explanation": "Tl (589) > In (558 kJ/mol)."
+      },
+      {
+        "id": "D",
+        "text": "\u0394_i H\u2081 decreases monotonically down Group 13 from B to Tl",
+        "isCorrect": false,
+        "explanation": "Trend is non-monotonic: B > Tl > Ga > Al > In."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Group 13 IE trend: B (801) > Tl (589) > Ga (579) > Al (577) > In (558 kJ/mol).\n\u2022 D is incorrect: The trend is non-monotonic due to 3d\u00b9\u2070 (Scandide) and 4f\u00b9\u2074 (Lanthanide) contractions.",
+    "keyFormulae": [
+      "Group 13 IE\u2081: B (801) > Tl (589) > Ga (579) > Al (577) > In (558 kJ/mol)"
+    ],
+    "hints": [
+      "Group 13 has two reversals: Ga > Al and Tl > In."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-period-019",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "Amphoteric Oxides",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following oxides are AMPHOTERIC in nature (reacting with both acids and bases)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aluminium Oxide (Al\u2082O\u2083)",
+        "isCorrect": true,
+        "explanation": "Al\u2082O\u2083 reacts with both HCl and NaOH."
+      },
+      {
+        "id": "B",
+        "text": "Beryllium Oxide (BeO)",
+        "isCorrect": true,
+        "explanation": "BeO is amphoteric (diagonal to Al)."
+      },
+      {
+        "id": "C",
+        "text": "Zinc Oxide (ZnO)",
+        "isCorrect": true,
+        "explanation": "ZnO reacts with both acids and alkalis."
+      },
+      {
+        "id": "D",
+        "text": "Sodium Oxide (Na\u2082O)",
+        "isCorrect": false,
+        "explanation": "Na\u2082O is a strongly basic oxide."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Al\u2082O\u2083, BeO, ZnO, PbO, and SnO\u2082 are classic amphoteric oxides.\n\u2022 D is incorrect: Na\u2082O is strongly basic.",
+    "keyFormulae": [
+      "Amphoteric: Al\u2082O\u2083, BeO, ZnO, PbO, SnO\u2082"
+    ],
+    "hints": [
+      "Amphoteric oxides dissolve in both hydrochloric acid and aqueous sodium hydroxide."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-period-020",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Classification of Elements and Periodicity",
+    "subtopic": "Moseley's Law",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding Moseley's X-ray experiment (\u221a\u03bd = a(Z-b)): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "It established that Atomic Number (Z) is a more fundamental property of an element than Atomic Mass (A)",
+        "isCorrect": true,
+        "explanation": "Core finding of Moseley's work."
+      },
+      {
+        "id": "B",
+        "text": "The plot of \u221a\u03bd vs Atomic Number Z yields a straight line",
+        "isCorrect": true,
+        "explanation": "\u221a\u03bd vs Z is linear; \u221a\u03bd vs A is non-linear."
+      },
+      {
+        "id": "C",
+        "text": "It provided the scientific basis for the Modern Periodic Law",
+        "isCorrect": true,
+        "explanation": "Formulated Modern Periodic Law."
+      },
+      {
+        "id": "D",
+        "text": "It proved that e/m ratio of canal rays is constant for all gases",
+        "isCorrect": false,
+        "explanation": "Canal ray e/m depends on gas nature; Moseley studied characteristic X-ray frequencies."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Moseley established \u221a\u03bd \u221d Z straight line relationship, proving Z is the fundamental atomic property and creating the foundation for the Modern Periodic Law.\n\u2022 D is incorrect: Moseley's experiment dealt with characteristic X-rays, not canal rays.",
+    "keyFormulae": [
+      "\u221a\u03bd = a(Z - b)"
+    ],
+    "hints": [
+      "Moseley studied X-ray frequencies vs atomic numbers."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

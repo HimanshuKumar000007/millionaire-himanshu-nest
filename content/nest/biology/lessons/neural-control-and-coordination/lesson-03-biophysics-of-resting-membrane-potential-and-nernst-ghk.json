@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-19-03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Neural Control and Coordination",
+  "chapterNumber": 19,
+  "chapterSlug": "neural-control-and-coordination",
+  "lessonNumber": 3,
+  "title": "Biophysics of Resting Membrane Potential (Vm) & Nernst/GHK Mechanics",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Hard",
+  "prerequisites": ["Equilibrium thermodynamics", "Primary active transport"],
+  "learningObjectives": [
+    "Identify resting ionic concentrations (Na+, K+, Cl-, A-) across the axolemma",
+    "Calculate equilibrium potentials using the Nernst Equation",
+    "Explain how passive K+ leak channels and the electrogenic Na+/K+ ATPase maintain Vm ≈ -70 mV"
+  ],
+  "content": "An unstimulated neuron maintains a stable negative electrical charge across its plasma membrane termed the **Resting Membrane Potential ($V_m \\approx -70\\text{ mV}$)**, with the inner axoplasmic surface negatively charged relative to the outer extracellular fluid (ECF).\n\n```\n                      RESTING MEMBRANE IONIC GRADIENTS\n                      \n   EXTRACELLULAR FLUID (ECF): High [Na⁺] (~145 mM), High [Cl⁻] (~110 mM)\n   ======================================================================= (Axolemma)\n   AXOPLASM (Cytosol):         High [K⁺] (~140 mM), High [Negatively Charged Proteins]\n\n                     MAINTENANCE OF RESTING POTENTIAL (Vm = -70 mV)\n                                       │\n         ┌─────────────────────────────┴─────────────────────────────┐\n         ▼                                                           ▼\n  DIFFERENTIAL MEMBRANE PERMEABILITY                          Na⁺/K⁺ ATPASE PUMP\n  ├── Axolemma is 20–100× MORE PERMEABLE to K⁺                ├── Active primary transport\n  │   than to Na⁺ at rest (via passive Leak K⁺ Channels).     └── Pumps 3 Na⁺ OUT and\n  └── Impermeable to internal negative proteins (A⁻).             Pumps 2 K⁺ IN per ATP.\n```\n\n### 3.1 Electrochemical Equilibrium & Nernst Equation\n\nThe equilibrium potential ($E_X$) for any single ion species is calculated using the **Nernst Equation** ($T = 37^\\circ\\text{C}$):\n\n$$E_X = \\frac{R T}{z F} \\ln \\left( \\frac{[X]_{\\text{outside}}}{[X]_{\\text{inside}}} \\right) = \\frac{61.5}{z} \\log_{10} \\left( \\frac{[X]_{\\text{outside}}}{[X]_{\\text{inside}}} \\right)$$\n\n- **Potassium Equilibrium ($E_K$)**: $\\approx -90\\text{ mV}$.\n- **Sodium Equilibrium ($E_{Na}$)**: $\\approx +60\\text{ mV}$.\n- **Chloride Equilibrium ($E_{Cl}$)**: $\\approx -70\\text{ mV}$.\n- **Goldman-Hodgkin-Katz (GHK) Equation**: Because resting axolemmal permeability to $\\text{K}^+$ ($P_K$) is $20\\text{--}100\\times$ higher than to $\\text{Na}^+$ ($P_{Na}$), the steady-state resting potential ($V_m \\approx -70\\text{ mV}$) sits far closer to $E_K$ ($-90\\text{ mV}$) than to $E_{Na}$ ($+60\\text{ mV}$).",
+  "conceptBreakdown": [
+    {
+      "heading": "Electrogenic Nature of the Na+/K+ Pump",
+      "explanation": "The Na+/K+ ATPase transports 3 positive charges out for every 2 positive charges brought in per ATP, creating a net outward current that directly hyperpolarizes the membrane by ~3 to 5 mV while sustaining concentration gradients."
+    },
+    {
+      "heading": "Ouabain & Digitalis Inhibition",
+      "explanation": "Cardiac glycosides (Ouabain, Digoxin) specifically bind and inhibit the extracellular alpha-subunit of the Na+/K+ ATPase, dissipating ionic gradients and causing gradual cell depolarization."
+    }
+  ]
+}

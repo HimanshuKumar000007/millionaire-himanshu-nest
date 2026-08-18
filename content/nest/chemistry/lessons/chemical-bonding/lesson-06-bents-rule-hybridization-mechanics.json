@@ -1,0 +1,60 @@
+{
+  "id": "chem-xi-u4-c4-l06",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit IV \u2014 Chemical Bonding and Molecular Structure",
+  "unitNumber": 4,
+  "chapter": "Chemical Bonding and Molecular Structure",
+  "chapterNumber": 4,
+  "chapterSlug": "chemical-bonding",
+  "slug": "lesson-06-bents-rule-hybridization-mechanics",
+  "title": "Bent\u2019s Rule & Hybridization Mechanics: Orbital Mixing & Isomerism",
+  "topic": "Bent's Rule & Hybridization",
+  "topics": [
+    "Bent's Rule Postulate (1961)",
+    "Equatorial (sp\u00b2, 33.3% s) vs Axial (pd, 0% s) Hybrid Positions",
+    "PCl\u2083F\u2082 Geometric Isomerism (Axial Fluorines)",
+    "Participating d-Orbitals in Hybridization (dsp\u00b2, sp\u00b3d, sp\u00b3d\u00b2, sp\u00b3d\u00b3)",
+    "PCl\u2085 Bond Length Disparity (Axial > Equatorial)"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "bents-rule",
+  "quickSummary": "Bent's Rule states more electronegative substituents prefer hybrid orbitals with lower s-character (axial pd in TBP), while lone pairs and multiple bonds prefer higher s-character (equatorial sp\u00b2).",
+  "summary": "Master Bent's Rule, participating d-orbitals in hybrid sets, and TBP axial/equatorial reactivity.",
+  "conceptBreakdown": [
+    {
+      "heading": "6.1 Bent's Rule in TBP (sp\u00b3d) Geometry",
+      "title": "6.1 Bent's Rule in TBP (sp\u00b3d) Geometry",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Bent's Rule",
+        "takeaway": "More electronegative atoms prefer less s-character (axial pd). Lone pairs and double bonds prefer more s-character (equatorial sp\u00b2)."
+      },
+      "codeSnippet": "BENT'S RULE IN TBP GEOMETRY (sp\u00b3d)\n                         \n   Equatorial Positions (sp\u00b2 hybrid): 33.3% s-character \u2500\u2500\u25ba Binds Lone Pairs & Double Bonds\n   Axial Positions      (pd hybrid):   0% s-character   \u2500\u2500\u25ba Binds Electronegative atoms (F, Cl)",
+      "content": "In Trigonal Bipyramidal ($sp^3d$) geometry:\n\u2022 **Equatorial orbitals ($sp^2$)**: $33.3\\%\\ s$-character. Lower energy, hold electron density close $\\rightarrow$ host lone pairs and electropositive groups.\n\u2022 **Axial orbitals ($pd = p_z + d_{z^2}$)**: $0\\%\\ s$-character. Elongated lobes $\\rightarrow$ host highly electronegative atoms ($\\text{F, Cl}$)."
+    },
+    {
+      "heading": "6.2 PCl3F2 Isomerism & Participating d-Orbitals",
+      "title": "6.2 PCl3F2 Isomerism & Participating d-Orbitals",
+      "type": "paragraph",
+      "codeSnippet": "PCl\u2083F\u2082 GEOMETRIC ISOMERISM\n                        \n           Axial Fluorines (0% s-character)\n                 F\n                 \u2502\n      Cl \u2500\u2500\u2500\u2500\u2500\u2500\u2500 P \u2500\u2500\u2500\u2500\u2500\u2500\u2500 Cl   (Equatorial Chlorines: 33.3% s-character)\n                 \u2502\n                 F\n           Axial Fluorines",
+      "content": "\u2022 **Participating Atomic Orbitals**:\n- **$dsp^2$**: $\\mathbf{d_{x^2-y^2}} + s + p_x + p_y$ (Square Planar, e.g. $[\\text{Ni(CN)}_4]^{2-}$)\n- **$sp^3d$**: $s + p_x + p_y + p_z + \\mathbf{d_{z^2}}$ (Trigonal Bipyramidal, e.g. $\\text{PCl}_5$)\n- **$sp^3d^2$**: $s + p_x + p_y + p_z + \\mathbf{d_{x^2-y^2} + d_{z^2}}$ (Octahedral, e.g. $\\text{SF}_6$)\n- **$sp^3d^3$**: $s + p_x + p_y + p_z + \\mathbf{d_{x^2-y^2} + d_{z^2} + d_{xy}}$ (Pentagonal Bipyramidal, e.g. $\\text{IF}_7$)"
+    }
+  ],
+  "quickRevision": [
+    "Bent's Rule: Electronegative atoms in axial (pd), lone pairs in equatorial (sp\u00b2).",
+    "In PCl\u2083F\u2082, both Fluorine atoms occupy axial positions.",
+    "dsp\u00b2 uses d_x\u00b2-y\u00b2; sp\u00b3d uses d_z\u00b2; sp\u00b3d\u00b2 uses d_x\u00b2-y\u00b2 + d_z\u00b2.",
+    "In PCl\u2085, axial bonds (2.14 \u00c5) are longer and weaker than equatorial bonds (2.02 \u00c5)."
+  ],
+  "keyFormulae": [
+    "Equatorial = sp\u00b2 (33.3% s)",
+    "Axial = pd (0% s)"
+  ]
+}

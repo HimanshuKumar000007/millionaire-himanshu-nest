@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u6-c2-l01",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VI — Reproduction",
+  "unitNumber": 6,
+  "chapter": "Human Reproduction",
+  "chapterNumber": 2,
+  "chapterSlug": "human-reproduction",
+  "slug": "lesson-01-male-reproductive-system-anatomy-and-spermatogenesis",
+  "title": "Male Reproductive System & Spermatogenesis",
+  "topic": "Microscopic Anatomy & Spermatogenesis",
+  "order": 1,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Duct pathway: Seminiferous tubules -> Rete testis -> Vasa efferentia -> Epididymis -> Vas deferens -> Ejaculatory duct -> Urethra. Scrotum maintains 2-2.5°C cooler temperature. Sertoli cells form BTB, secrete ABP and Inhibin. Leydig cells secrete Testosterone under LH.",
+  "summary": "Duct pathway: Seminiferous tubules -> Rete testis -> Vasa efferentia -> Epididymis -> Vas deferens -> Ejaculatory duct -> Urethra. Scrotum maintains 2-2.5°C cooler temperature. Sertoli cells form BTB, secrete ABP and Inhibin. Leydig cells secrete Testosterone under LH.",
+  "conceptBreakdown": [
+    {
+      "heading": "Male Reproductive System & Spermatogenesis",
+      "title": "Male Reproductive System & Spermatogenesis",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Duct pathway: Seminiferous tubules -> Rete testis -> Vasa efferentia -> Epididymis -> Vas deferens -> Ejaculatory duct -> Urethra. Scrotum maintains 2-2.5°C cooler temperature. Sertoli cells form the Blood-Testis Barrier (BTB), secrete ABP and Inhibin. Leydig cells secrete Testosterone under LH. Spermatogenesis: Spermatogonia (2n) -> 1° Spermatocyte (2n, 4C) -> Meiosis I -> 2 2° Spermatocytes (n, 2C) -> Meiosis II -> 4 Spermatids (n, C) -> Spermiogenesis -> 4 Spermatozoa (n, C)."
+      },
+      "codeSnippet": "MALE REPRODUCTIVE TRACT PATHWAY\n                                       │\n  Seminiferous Tubules ──► Rete Testis ──► Vasa Efferentia ──► Epididymis (Caput ➔ Cauda)\n                                                                    │\n  Urethral Meatus ◄── Urethra ◄── Ejaculatory Duct ◄── Vas Deferens ┘",
+      "content": "The male reproductive system consists of a pair of Testes, accessory ducts, accessory glands, and external genitalia (Penis).\n\n### 1.1 Microscopic Anatomy of the Testis\n\n```\n                      SEMINIFEROUS TUBULE CROSS-SECTION\n                      \n   Basal Lamina ──► Spermatogonia ($2n$) ──► Primary Spermatocyte ($2n$)\n                                                    │\n   Sertoli Cell Tight Junction (BTB) ───────────────┼─────────────────\n                                                    ▼\n   Lumen ◄── Spermatozoa ($n$) ◄── Spermatid ($n$) ◄── Secondary Spermatocyte ($n$)\n```\n\n- **Scrotal Thermoregulation**: Testes reside outside the abdominal cavity within the Scrotum. This maintains a testicular temperature **$2\\text{--}2.5^\\circ\\text{C}$ lower** than core body temperature ($37^\\circ\\text{C}$), which is mandatory for viable spermatogenesis.\n- **Testicular Lobules & Seminiferous Tubules**: Each testis contains $\\approx 250$ compartments called Testicular Lobules. Each lobule houses $1\\text{--}3$ highly coiled Seminiferous Tubules.\n- **Seminiferous Epithelium Cell Types**:\n  1. **Male Germ Cells (Spermatogonia, $2n$)**: Undergo meiotic division to form spermatozoa.\n  2. **Sertoli Cells (Sustentacular / Nurse Cells)**: Elongated pyramidal cells anchored to the basement membrane.\n  3. **Interstitial Space (Leydig Cells)**: Houses blood vessels and Leydig Cells, which synthesize and secrete **Androgens (Testosterone)** under LH (ICSH) stimulation.\n\n### 1.2 Spermatogenesis Cascade\n\n```\n                        SPERMATOGENESIS FLOW CHART\n                        \n   Spermatogonia Type A ($2n, 2C$) ──[Mitosis]──► Spermatogonia Type B ($2n, 2C$)\n                                                        │\n   Primary Spermatocyte ($2n, 4C$) ◄────────────────────┘ (Enters Meiosis I)\n            │\n   [Meiosis I] ──► 2 Secondary Spermatocytes ($n, 2C$)\n            │\n   [Meiosis II] ──► 4 Spherical Spermatids ($n, C$)\n            │\n   [SPERMIOGENESIS] ──► 4 Functional Motile Spermatozoa ($n, C$)\n```"
+    },
+    {
+      "heading": "Cryptorchidism",
+      "title": "Cryptorchidism",
+      "type": "paragraph",
+      "content": "Failure of one or both testes to descend from the abdominal cavity into the scrotum during the 7th month of fetal development, resulting in sterility due to elevated temperature destroying germ cells."
+    },
+    {
+      "heading": "Pampiniform Venous Plexus Counter-Current Cooling",
+      "title": "Pampiniform Venous Plexus Counter-Current Cooling",
+      "type": "paragraph",
+      "content": "Testicular veins form a network (pampiniform plexus) wrapping around the testicular artery, absorbing heat from arterial blood before it reaches the testis to maintain scrotal hypothermia."
+    }
+  ]
+}

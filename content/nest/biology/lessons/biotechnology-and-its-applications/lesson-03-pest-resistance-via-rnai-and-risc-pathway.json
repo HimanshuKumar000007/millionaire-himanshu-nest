@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u9-c10-l03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit IX — Biotechnology",
+  "unitNumber": 9,
+  "chapter": "Biotechnology and its Applications",
+  "chapterNumber": 10,
+  "chapterSlug": "biotechnology-and-its-applications",
+  "slug": "lesson-03-pest-resistance-via-rnai-and-risc-pathway",
+  "title": "Pest Resistance via RNA Interference (RNAi)",
+  "topic": "Meloidogyne incognita, Transgenic Tobacco, Sense & Anti-Sense RNA, Dicer, & RISC Complex",
+  "order": 3,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "RNA Interference (RNAi): Post-transcriptional gene silencing in eukaryotes. Applied to protect tobacco roots from the root-knot nematode Meloidogyne incognita. Agrobacterium vector introduces nematode-specific DNA producing both Sense and Anti-sense RNA -> forms double-stranded RNA (dsRNA). Ingested dsRNA is cleaved by Dicer into 21-23 bp siRNA, which incorporates into RISC to degrade complementary nematode mRNA, silencing essential genes.",
+  "summary": "RNA Interference (RNAi): Post-transcriptional gene silencing in eukaryotes. Applied to protect tobacco roots from the root-knot nematode Meloidogyne incognita. Agrobacterium vector introduces nematode-specific DNA producing both Sense and Anti-sense RNA -> forms double-stranded RNA (dsRNA). Ingested dsRNA is cleaved by Dicer into 21-23 bp siRNA, which incorporates into RISC to degrade complementary nematode mRNA, silencing essential genes.",
+  "conceptBreakdown": [
+    {
+      "heading": "RNA Interference (RNAi) Molecular Cascade",
+      "title": "RNA Interference (RNAi) Molecular Cascade",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "RNAi operates as a conserved eukaryotic defense against viruses and transposons. Host-delivered RNAi in tobacco expresses dsRNA against Meloidogyne incognita. Ingested dsRNA is diced into siRNA, which guides RISC to degrade target nematode mRNA, preventing parasitic infection."
+      },
+      "codeSnippet": "RNA INTERFERENCE (RNAi) CASCADE\n                        \n   Agrobacterium vector inserts nematode-specific genes into Tobacco Genome\n                                          │\n   Plant transcribes BOTH Sense and Anti-sense RNA\n                                          │\n   Base-pairing forms Double-Stranded RNA (dsRNA) inside plant cells\n                                          │\n   Nematode feeds on transgenic tobacco root tissue ──► Ingests plant dsRNA\n                                          │\n   Endogenous Dicer Enzyme cleaves dsRNA into 21–23 bp siRNA (Small Interfering RNA)\n                                          │\n   siRNA incorporates into RISC (RNA-Induced Silencing Complex)\n                                          │\n   RISC uses single-stranded siRNA to target & DEGRADE complementary Nematode mRNA\n                                          │\n   Specific Nematode Gene Silenced ──► Nematode cannot survive in transgenic host!",
+      "content": "### 3.1 Biological Function of RNAi\n- **Conserved Defense Mechanism**: RNA Interference (RNAi) takes place in all eukaryotic organisms as a method of cellular defense against invading viruses with RNA genomes and mobile genetic elements (**Transposons / Jumping Genes**) that replicate via an RNA intermediate.\n- **Agronomic Challenge**: The nematode ***Meloidogyne incognita*** infects the root system of tobacco plants, inducing large galls / root-knots that severely retard nutrient uptake and cause catastrophic yield collapse.\n\n### 3.2 Molecular Steps in Host-Delivered RNAi Silencing\n1. **Vector Construction & Transformation**: Nematode-specific cDNA sequences are cloned into an *Agrobacterium tumefaciens* Ti plasmid vector under a dual promoter system such that the host plant transcribes **BOTH Sense and Anti-sense RNA strands**.\n2. **Double-Stranded RNA (dsRNA) Formation**: Because the sense and antisense RNA molecules are fully complementary, they hybridize inside the host plant cell cytoplasm, generating trigger **double-stranded RNA (dsRNA)**.\n3. **Ingestion by Nematode**: When *Meloidogyne incognita* larvae feed on the roots of the transgenic tobacco plant, they ingest the plant cell sap containing the trigger dsRNA molecules.\n4. **Dicer Cleavage**: Inside the nematode cytoplasm, the RNase III-family ribonuclease enzyme **Dicer** recognizes and cleaves the long dsRNA duplexes into short **$21\\text{--}23\\text{ base pair}$ Small Interfering RNAs (siRNAs)**.\n5. **RISC Complex Assembly & mRNA Cleavage**:\n   - The siRNAs unwind and incorporate into the multi-protein **RNA-Induced Silencing Complex (RISC)**, containing an **Argonaute (Ago)** catalytic core.\n   - The single-stranded guide siRNA directs RISC to bind the complementary sequence of the essential nematode mRNA.\n   - Argonaute acts as an endoribonuclease, slicing the nematode mRNA and preventing its translation into essential proteins.\n6. **Pathogen Invalidation**: Deprived of essential structural and metabolic enzymes, the parasitic nematode cannot survive or reproduce in the transgenic tobacco host, rendering the crop completely resistant."
+    },
+    {
+      "heading": "Discovery by Fire and Mello (Nobel Prize 2006)",
+      "title": "Discovery by Fire and Mello (Nobel Prize 2006)",
+      "type": "paragraph",
+      "content": "Andrew Fire and Craig Mello discovered RNA interference in the nematode Caenorhabditis elegans (1998), demonstrating that dsRNA is substantially more potent at gene silencing than either sense or antisense RNA alone."
+    },
+    {
+      "heading": "miRNA vs siRNA",
+      "title": "miRNA vs siRNA",
+      "type": "paragraph",
+      "content": "MicroRNAs (miRNAs) are endogenous genome-encoded hairpins that regulate normal developmental gene expression by translational repression; siRNAs are exogenous or transgenic dsRNA fragments causing direct sequence-specific mRNA endonucleolytic cleavage."
+    }
+  ]
+}

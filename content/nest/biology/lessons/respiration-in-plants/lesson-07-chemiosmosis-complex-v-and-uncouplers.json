@@ -1,0 +1,49 @@
+{
+  "id": "bio-xi-u4-c12-l07",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Respiration in Plants",
+  "chapterNumber": 12,
+  "chapterSlug": "respiration-in-plants",
+  "slug": "lesson-07-chemiosmosis-complex-v-and-uncouplers",
+  "title": "Complex V (F₀F₁ ATP Synthase), Chemiosmosis, & Uncouplers",
+  "topic": "Proton-Motive Force, F₀ Rotor vs F₁ Headpiece, Oligomycin, & Uncoupler Energetics",
+  "topics": [
+    "Peter Mitchell's Chemiosmotic Hypothesis (Proton-Motive Force Δp = ΔΨ + ΔpH)",
+    "Complex V Architecture: Hydrophobic F₀ Transmembrane Channel & Hydrophilic F₁ Headpiece",
+    "F₀ Subunit Inhibition by Oligomycin",
+    "Proton-to-ATP Stoichiometry (4 H⁺ per 1 ATP Synthesized & Exported)",
+    "Chemical Uncouplers (2,4-DNP, FCCP) Mechanism & Thermal Energy Dissipation",
+    "Physiological Thermogenesis: Thermogenin (UCP-1) in Brown Adipose Tissue & Floral Heat Plants"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Complex V (F₀F₁ ATP Synthase) couples the exergonic flux of protons from the intermembrane space back into the matrix to ATP synthesis. The F₀ domain forms a membrane rotor channel inhibited by Oligomycin; the F₁ catalytic headpiece (α₃β₃) synthesizes ATP via conformational changes. Translocation of 4 H⁺ (3 H⁺ for F₀ rotation + 1 H⁺ for phosphate import) drives the synthesis of 1 ATP. Uncouplers (2,4-DNP, FCCP, Thermogenin/UCP-1) dissipate the proton gradient without blocking electron flow, causing ETS to accelerate while ATP synthesis falls to zero and energy is lost entirely as heat.",
+  "summary": "Complex V (F₀F₁ ATP Synthase) couples the exergonic flux of protons from the intermembrane space back into the matrix to ATP synthesis. The F₀ domain forms a membrane rotor channel inhibited by Oligomycin; the F₁ catalytic headpiece (α₃β₃) synthesizes ATP via conformational changes. Translocation of 4 H⁺ (3 H⁺ for F₀ rotation + 1 H⁺ for phosphate import) drives the synthesis of 1 ATP. Uncouplers (2,4-DNP, FCCP, Thermogenin/UCP-1) dissipate the proton gradient without blocking electron flow, causing ETS to accelerate while ATP synthesis falls to zero and energy is lost entirely as heat.",
+  "conceptBreakdown": [
+    {
+      "heading": "6.3 Complex V (F₀F₁ ATP Synthase) Architecture & Mechanism",
+      "title": "6.3 Complex V (F₀F₁ ATP Synthase) Architecture & Mechanism",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Complex V uses proton-motive force (4 H⁺ per ATP). F₀ is the transmembrane channel (inhibited by Oligomycin); F₁ is the catalytic matrix headpiece."
+      },
+      "codeSnippet": "CHEMIOSMOTIC PROTON-MOTIVE FORCE (Δp)\n                        \n   INTERMEMBRANE SPACE: High [H⁺] (Acidic pH, Positive Charge)\n                                 │\n           ┌─────────────────────┴─────────────────────┐\n           ▼                                           ▼\n   [F₀ Subunit Rotor]                            [F₁ Headpiece]\n   • Transmembrane channel (a₁b₂c₁₀₋₁₄)           • Catalytic core (α₃β₃)\n   • Protons flow down gradient                  • Synthesizes ATP from ADP + Pᵢ\n   • Inhibited by **Oligomycin**                 • Directed into Matrix\n                                 │\n   MATRIX: Low [H⁺] (Basic pH, Negative Charge) ──► 4 H⁺ Translocated = 1 ATP Synthesized",
+      "content": "Complex V (ATP Synthase) is a rotary molecular motor embedded in the inner mitochondrial membrane that harnesses the **proton-motive force** ($\\Delta p = \\Delta \\Psi + \\Delta \\text{pH}$) established by Complexes I, III, and IV:\n\n- **$\\text{F}_0$ Subunit (Hydrophobic Rotor)**:\n  - A transmembrane proton-conducting pore composed of $a_1$, $b_2$, and a ring of $c_{10-14}$ subunits.\n  - Protons passing through the channel cause the $c$-ring and central $\\gamma$-stalk to rotate relative to the stationary headpiece.\n  - Specifically blocked and inhibited by the antibiotic **Oligomycin**.\n- **$\\text{F}_1$ Subunit (Catalytic Headpiece)**:\n  - A spherical matrix-facing catalytic hexamer ($\\alpha_3 \\beta_3$) linked to the central stalk.\n  - As the central stalk rotates, each $\\beta$-subunit cycles through three conformations: *Open* (ADP/$\\text{P}_i$ binding), *Loose* (catalytic juxtaposition), and *Tight* (ATP synthesis and release).\n- **Proton-to-ATP Ratio**: The translocation of **$4\\text{ H}^+$ ions** ($3\\text{ H}^+$ through $\\text{F}_0$ for rotor rotation $+ 1\\text{ H}^+$ through the phosphate-proton symporter) drives the net synthesis and matrix release of **$1\\text{ ATP}$**."
+    },
+    {
+      "heading": "6.4 Chemical Uncouplers vs. Physiological Thermogenesis",
+      "title": "6.4 Chemical Uncouplers vs. Physiological Thermogenesis",
+      "type": "paragraph",
+      "content": "### Uncoupling Agents and Physiological Thermogenesis\n\n- **Chemical Uncouplers (Protonophores)**:\n  - Examples: **2,4-Dinitrophenol (2,4-DNP)**, Carbonyl cyanide $p$-trifluoromethoxyphenylhydrazone (**FCCP**).\n  - **Mechanism**: Lipophilic weak acids that cross the inner mitochondrial membrane in both protonated and unprotonated states, short-circuiting the proton circuit.\n  - **Physiological Consequence**: The proton gradient collapses to zero. Relieved of proton back-pressure, **electron transport and $\\text{O}_2$ consumption accelerate to maximum rates**, but **ATP synthesis drops to zero**. The released chemical potential energy is dissipated completely as **heat**.\n\n- **Physiological Uncoupler Proteins (UCPs)**:\n  - **Thermogenin (UCP-1)**: A physiological proton-channel protein located in the inner mitochondrial membrane of brown adipose tissue in neonates, hibernating mammals, and thermogenic spadix flowers (*Arum*, *Symplocarpus*).\n  - Allows non-shivering thermogenesis to warm vital organs and volatilize floral aromas for pollinator attraction."
+    }
+  ]
+}

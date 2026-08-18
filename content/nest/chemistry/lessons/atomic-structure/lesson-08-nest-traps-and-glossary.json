@@ -1,0 +1,62 @@
+{
+  "id": "chem-xi-u2-c2-l08",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit II \u2014 Structure of Atom",
+  "unitNumber": 2,
+  "chapter": "Structure of Atom",
+  "chapterNumber": 2,
+  "chapterSlug": "atomic-structure",
+  "slug": "lesson-08-nest-traps-and-glossary",
+  "title": "High-Yield NEST Misconceptions & Master Glossary",
+  "topic": "Exam Traps & Master Glossary",
+  "topics": [
+    "10 High-Yield NEST Atomic Structure Traps",
+    "Total Nodes vs Radial/Angular Distinctions",
+    "3d_z\u00b2 Conical Nodal Surfaces",
+    "Ionization Order of 4s vs 3d Electrons",
+    "48-Term Master Atomic Structure & Quantum Glossary"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "atomic-structure",
+  "quickSummary": "Systematic breakdown of 10 high-yield NEST misconceptions (total nodes = n-1, 3d_z\u00b2 conical nodes, 4s lost before 3d during ionization, intensity vs frequency in photoelectricity) and a 48-term comprehensive master glossary.",
+  "summary": "Master the 10 critical NEST atomic traps and study the 48-term atomic structure and quantum mechanics master glossary.",
+  "conceptBreakdown": [
+    {
+      "heading": "8.1 10 High-Yield NEST Misconceptions & Traps",
+      "title": "8.1 10 High-Yield NEST Misconceptions & Traps",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "NEST Exam Traps",
+        "takeaway": "Total nodes = n-1; 3d_z\u00b2 has 0 planar nodes (2 conical nodes); 4s electrons are lost FIRST in transition metal ionization."
+      },
+      "content": "1. **Total Nodes in Atomic Orbitals**: Total nodes $= \\mathbf{n - 1}$, composed of $(n - l - 1)$ radial nodes and $l$ angular nodes.\n2. **3d_z\u00b2 Nodal Surfaces**: $3d_{z^2}$ has **ZERO planar nodal surfaces** and **two conical nodal surfaces** at $\\theta = 54.74^\\circ$.\n3. **Photoelectric Frequency vs Intensity**: Emission occurs ONLY if $\\nu \\ge \\nu_0$. Light intensity governs photocurrent rate, NOT electron kinetic energy.\n4. **Bohr Model Applicability**: Bohr's model applies strictly to single-electron species ($\\text{H}, \\text{He}^+, \\text{Li}^{2+}, \\text{Be}^{3+}$).\n5. **Ionization Order in Transition Metals**: $4s$ electrons lie at higher spatial radius and are **LOST FIRST during ionization** ($3d^n 4s^2 \\rightarrow 3d^n$).\n6. **Heisenberg Uncertainty in Daily Life**: HUP applies universally, but $\\Delta x \\cdot \\Delta v$ is negligible for macroscopic masses ($m \\gg m_e$).\n7. **Wavefunction $\\psi$ vs $\\psi^2$**: $\\psi$ is wave amplitude (can be positive/negative); probability density is represented by $\\psi^2$ (always $\\ge 0$).\n8. **Bohr Radius Significance**: $a_0$ ($0.529\\text{ \\AA}$) is the **MOST PROBABLE distance** for $1s$, where $4\\pi r^2 R^2$ peaks.\n9. **Orbital Angular Momentum**: Depends strictly on azimuthal quantum number $l$: $L = \\sqrt{l(l+1)}\\hbar$, completely independent of $n$.\n10. **Palladium Ground State**: Palladium undergoes a double $s\\rightarrow d$ shift: $[\\text{Kr}] 4d^{10} 5s^0$ with zero $5s$ valence electrons."
+    },
+    {
+      "heading": "8.2 Master Chemistry Glossary (48 Terms)",
+      "title": "8.2 Master Chemistry Glossary (48 Terms)",
+      "type": "paragraph",
+      "content": "\u2022 **Absorption Spectrum**: Dark lines produced when continuous radiation passes through a cooler gas.\n\u2022 **Angular Node**: Planar or conical surface where angular wavefunction $Y(\\theta,\\phi) = 0$. Count $= l$.\n\u2022 **Anode Rays**: Streams of positive ions whose $e/m$ depends on discharge tube gas.\n\u2022 **Aufbau Principle**: Rule stating subshells fill in order of increasing $(n+l)$ energy values.\n\u2022 **Azimuthal Quantum Number ($l$)**: Determines subshell geometry and orbital angular momentum ($L = \\sqrt{l(l+1)}\\hbar$).\n\u2022 **Balmer Series**: Transitions to $n_1 = 2$, falling in the visible spectrum ($400\\text{--}700\\text{ nm}$).\n\u2022 **Bohr Radius ($a_0$)**: First orbit radius of Hydrogen atom ($a_0 = 0.529177\\text{ \\AA}$).\n\u2022 **Cathode Rays**: Streams of electrons with constant $e/m = 1.7588 \\times 10^{11}\\text{ C/kg}$.\n\u2022 **Compton Effect**: Increase in photon wavelength when scattered by stationary electrons.\n\u2022 **de Broglie Wavelength**: Matter wave wavelength $\\lambda = h/p = h/mv$.\n\u2022 **Degenerate Orbitals**: Orbitals of the same subshell having equal energy in absence of magnetic fields.\n\u2022 **Exchange Energy ($E_{\\text{ex}}$)**: Stabilizing energy from parallel electron swaps: $E_{\\text{ex}} = \\frac{n(n-1)}{2} K$.\n\u2022 **Heisenberg Uncertainty Principle**: Fundamental limit $\\Delta x \\cdot \\Delta p \\ge \\hbar/2$.\n\u2022 **Hund's Multiplicity Rule**: Degenerate orbitals singly occupied with parallel spins before pairing.\n\u2022 **Isodiaphers**: Nuclides with identical neutron excess ($N - Z = A - 2Z$).\n\u2022 **Isoelectronic**: Species possessing identical total numbers of electrons.\n\u2022 **Isosteres**: Species with same number of atoms AND same total electrons.\n\u2022 **Isotones**: Nuclides with identical neutron numbers ($N = A - Z$).\n\u2022 **Lyman Series**: Transitions to $n_1 = 1$, located in the Ultraviolet spectrum.\n\u2022 **Pauli Exclusion Principle**: No two electrons can have identical four quantum numbers.\n\u2022 **Photoelectric Effect**: Ejection of electrons when light of frequency $\\nu \\ge \\nu_0$ strikes a metal.\n\u2022 **Radial Node**: Spherical shell where radial wavefunction $R(r) = 0$. Count $= n - l - 1$.\n\u2022 **Rydberg Constant ($R_H$)**: Spectroscopic constant $R_H = 109677\\text{ cm}^{-1} = 1.09677 \\times 10^7\\text{ m}^{-1}$.\n\u2022 **Schr\u00f6dinger Equation**: Fundamental quantum wave differential equation $\\hat{H}\\psi = E\\psi$.\n\u2022 **Work Function ($\\Phi$)**: Minimum energy to liberate an electron into vacuum ($\\Phi = h\\nu_0$)."
+    }
+  ],
+  "quickRevision": [
+    "Total nodes = n - 1 (Radial = n - l - 1, Angular = l).",
+    "3d_z\u00b2 has 0 planar nodes and 2 conical nodal surfaces.",
+    "4s electrons are lost before 3d during transition metal cation formation.",
+    "Palladium (Z=46) has ground state [Kr] 4d\u00b9\u2070 5s\u2070.",
+    "Orbital angular momentum L = \u221a(l(l+1)) \u210f is independent of n."
+  ],
+  "keyFormulae": [
+    "Total Nodes = n - 1",
+    "Radial Nodes = n - l - 1",
+    "Angular Nodes = l",
+    "L = \u221a(l(l+1)) \u210f",
+    "E_ex = [n(n-1)/2] K"
+  ]
+}

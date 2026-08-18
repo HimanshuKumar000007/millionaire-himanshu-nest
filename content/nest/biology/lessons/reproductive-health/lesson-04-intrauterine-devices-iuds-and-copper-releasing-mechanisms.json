@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u6-c3-l04",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VI — Reproduction",
+  "unitNumber": 6,
+  "chapter": "Reproductive Health",
+  "chapterNumber": 3,
+  "chapterSlug": "reproductive-health",
+  "slug": "lesson-04-intrauterine-devices-iuds-and-copper-releasing-mechanisms",
+  "title": "Intrauterine Devices (IUDs) & Mechanisms",
+  "topic": "Non-Medicated, Copper-Releasing, & Hormone-Releasing IUDs",
+  "order": 4,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "IUD classes: Non-medicated (Lippes loop - macrophage phagocytosis), Copper-releasing (CuT, Cu7, Multiload 375 - Cu2+ suppresses sperm motility/viability), and Hormone-releasing (Progestasert, LNG-20 - atrophic endometrium & thick cervical mucus).",
+  "summary": "IUD classes: Non-medicated (Lippes loop - macrophage phagocytosis), Copper-releasing (CuT, Cu7, Multiload 375 - Cu2+ suppresses sperm motility/viability), and Hormone-releasing (Progestasert, LNG-20 - atrophic endometrium & thick cervical mucus).",
+  "conceptBreakdown": [
+    {
+      "heading": "Intrauterine Devices (IUDs) & Mechanisms",
+      "title": "Intrauterine Devices (IUDs) & Mechanisms",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "IUDs are inserted into the uterine cavity by medical doctors. Three major categories: (1) Non-Medicated: Lippes Loop (attracts macrophages, increases sperm phagocytosis), (2) Copper-Releasing: CuT, Cu7, Multiload 375 (releases Cu2+ to suppress sperm motility, acrosome enzymes, and viability), and (3) Hormone-Releasing: Progestasert, LNG-20 (renders endometrium unsuitable for implantation and thickens cervical mucus)."
+      },
+      "codeSnippet": "IUD CATEGORIES\n                                       │\n         ┌─────────────────────────────┼─────────────────────────────┐\n         ▼                             ▼                             ▼\n  NON-MEDICATED IUDs            COPPER-RELEASING IUDs         HORMONE-RELEASING IUDs\n  ├── Lippes Loop               ├── CuT, Cu7, Multiload 375   ├── Progestasert, LNG-20\n  └── Attracts macrophages;     └── Suppresses sperm motility └── Makes uterus unsuitable for\n      increases phagocytosis        & fertilizing capacity       implantation & cervix thick",
+      "content": "Intrauterine Devices (IUDs) are one of the most widely accepted and popular reversible contraceptive methods in India for spacing pregnancies.\n\n### 4.1 Taxonomy of Intrauterine Devices\n1. **Non-Medicated IUDs**:\n   - *Example*: **Lippes Loop** (double-S shaped non-absorbable polyethylene loop impregnated with barium sulfate for X-ray visualization).\n   - *Mechanism*: Induces a sterile, localized foreign-body inflammatory reaction in the endometrium, attracting macrophages and polymorphonuclear leukocytes that actively phagocytose incoming spermatozoa.\n2. **Copper-Releasing IUDs**:\n   - *Examples*: **CuT, Cu7, Multiload 375** (plastic frame wound with copper wire).\n   - *Mechanism*: Continuously releases $\\text{Cu}^{2+}$ ions into the uterine secretions.\n3. **Hormone-Releasing IUDs**:\n   - *Examples*: **Progestasert, LNG-20** (contains a reservoir of Levonorgestrel).\n   - *Mechanism*: Continuously releases low doses of progestogen locally into the endometrium.\n\n### 4.2 Biochemical Mode of Action of Copper-Releasing IUDs\n\n```\n                     MECHANISM OF COPPER-RELEASING IUDs\n                     \n   IUD releases Cu2+ ions into uterine cavity ──► Suppresses Sperm Motility & Viability\n                                                       │\n   Inhibits Acrosomal Enzymes ◄── Induces Foreign-Body Inflammation (Macrophage Phagocytosis)\n```\n\n- **Biochemical Effects of $\\text{Cu}^{2+}$**:\n  - Inhibits sperm glycolytic enzymes, starving spermatozoa of ATP.\n  - Binds and inactivates acrosomal enzymes (Hyaluronidase and Acrosin), preventing penetration of the corona radiata and Zona Pellucida.\n  - Suppresses flagellar beat frequency, reducing sperm progressive forward motility."
+    },
+    {
+      "heading": "Hormone-Releasing IUD Endometrial Desynchronization",
+      "title": "Hormone-Releasing IUD Endometrial Desynchronization",
+      "type": "paragraph",
+      "content": "LNG-20 secretes 20 micrograms of levonorgestrel per day, suppressing endometrial gland growth (decidual atrophy) and desynchronizing endometrial maturation from ovulation, preventing blastocyst implantation."
+    },
+    {
+      "heading": "Emergency Post-Coital IUD Insertion",
+      "title": "Emergency Post-Coital IUD Insertion",
+      "type": "paragraph",
+      "content": "Insertion of a Copper-IUD within 5 days (120 hours) of unprotected intercourse acts as the most effective emergency post-coital contraceptive with >99% efficacy."
+    }
+  ]
+}

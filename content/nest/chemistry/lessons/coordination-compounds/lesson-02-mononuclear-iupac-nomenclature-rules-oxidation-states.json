@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u14-c5-l02",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XIV \u2014 Coordination Compounds",
+  "unitNumber": 14,
+  "chapter": "Coordination Compounds",
+  "chapterNumber": 5,
+  "chapterSlug": "coordination-compounds",
+  "slug": "lesson-02-mononuclear-iupac-nomenclature-rules-oxidation-states",
+  "title": "Mononuclear IUPAC Nomenclature Rules & Oxidation State Rules",
+  "topic": "IUPAC Nomenclature & Rules",
+  "topics": [
+    "Mononuclear Complex IUPAC Architecture: [Cation] \u2500\u2500\u25ba [Ligands in Alphabetical Order] \u2500\u2500\u25ba [Metal] \u2500\u2500\u25ba [(Oxidation State)]",
+    "Ligand Suffix Conventions (-ido for anionic ligands, standard/special names for neutral ligands: aqua, ammine, carbonyl, nitrosyl)",
+    "Multiplicity Prefixes: Simple (di-, tri-, tetra-) vs Complex (bis-, tris-, tetrakis-)",
+    "Central Metal Naming: Standard name in cationic/neutral vs -ate suffix in anionic complexes (ferrate, cuprate, plumbate, argentate, aurate, stannate)",
+    "Worked IUPAC Examples ([Co(NH\u2083)\u2085(CO\u2083)]Cl, K\u2083[Fe(CN)\u2086], [Pt(NH\u2083)\u2082Cl(NH\u2082CH\u2083)]Cl, [Cr(H\u2082O)\u2084Cl\u2082]\u207a)"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "coordination-compounds",
+  "quickSummary": "IUPAC Naming: Cation named first, then ligands in strict alphabetical order, then central metal with Roman numeral oxidation state in parentheses without space. In anionic complexes, metal ends in -ate. Neutral ligands: aqua (H\u2082O), ammine (NH\u2083), carbonyl (CO), nitrosyl (NO).",
+  "summary": "Master IUPAC naming rules for coordination compounds, alphabetical ligand conventions, metal suffixes, and oxidation state calculations.",
+  "conceptBreakdown": [
+    {
+      "heading": "2. Mononuclear IUPAC Nomenclature Architecture",
+      "title": "2. Mononuclear IUPAC Nomenclature Architecture",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "IUPAC Naming Formula",
+        "takeaway": "[Cation Name] \u2500\u2500\u25ba [Alphabetical Ligands] \u2500\u2500\u25ba [Metal Name (-ate if anionic)] \u2500\u2500\u25ba [(Roman Numeral OS)]"
+      },
+      "codeSnippet": "                      MONONUCLEAR COMPLEX IUPAC NAMING\n                      \n   [ Cation Name ] \u2500\u2500\u25ba [ Ligands in Alphabetical Order ] \u2500\u2500\u25ba [ Metal Name ] \u2500\u2500\u25ba [ (Oxidation State) ]",
+      "content": "1. **Naming Order**: The cation is named first, followed by the anion, regardless of whether the complex ion is cationic or anionic.\n2. **Ligand Naming**: Ligands are named in strict alphabetical order before the central metal.\n   - **Anionic Ligands**: End in *-ido* (e.g., $\\text{Cl}^- \\rightarrow$ chlorido, $\\text{CN}^- \\rightarrow$ cyanido, $\\text{OH}^- \\rightarrow$ hydroxido, $\\text{O}^{2-} \\rightarrow$ oxido, $\\text{ox}^{2-} \\rightarrow$ oxalato).\n   - **Neutral Ligands**: Retain molecular names (Exceptions: $\\text{H}_2\\text{O} \\rightarrow$ aqua, $\\text{NH}_3 \\rightarrow$ ammine, $\\text{CO} \\rightarrow$ carbonyl, $\\text{NO} \\rightarrow$ nitrosyl).\n   - **Prefixes for Multiplicity**: Use *di-, tri-, tetra-* for simple ligands; use *bis-, tris-, tetrakis-* for complex ligands containing numerical prefixes (e.g., ethylenediamine $\\rightarrow$ bis(ethane-1,2-diamine)).\n3. **Central Metal Suffix**:\n   - *Cationic or Neutral Complexes*: Metal retains standard English name (Cobalt, Iron, Copper).\n   - *Anionic Complexes*: Metal ends in **-ate** ($\\text{Fe} \\rightarrow$ ferrate, $\\text{Cu} \\rightarrow$ cuprate, $\\text{Pb} \\rightarrow$ plumbate, $\\text{Ag} \\rightarrow$ argentate, $\\text{Au} \\rightarrow$ aurate, $\\text{Sn} \\rightarrow$ stannate).\n4. **Oxidation State**: Indicated by a Roman numeral in parentheses immediately following the metal name without a space."
+    },
+    {
+      "heading": "2.1 Worked IUPAC Examples",
+      "title": "2.1 Worked IUPAC Examples",
+      "type": "paragraph",
+      "codeSnippet": "                      IUPAC EXAMPLES\n                      \n   $[\\text{Co(NH}_3)_5(\\text{CO}_3)]\\text{Cl}$  \u2500\u2500\u25ba Pentaamminecarbonatocobalt(III) chloride\n   $\\text{K}_3[\\text{Fe(CN)}_6]$        \u2500\u2500\u25ba Potassium hexacyanidoferrate(III)\n   $[\\text{Pt(NH}_3)_2\\text{Cl(NH}_2\\text{CH}_3)]\\text{Cl}$ \u2500\u2500\u25ba Diamminechlorido(methanamine)platinum(II) chloride\n   $[\\text{Cr(H}_2\\text{O})_4\\text{Cl}_2]^+$    \u2500\u2500\u25ba Tetraaquadichloridochromium(III) ion\n   $\\text{K}_4[\\text{Fe(CN)}_6]$        \u2500\u2500\u25ba Potassium hexacyanidoferrate(II)\n   $[\\text{Ni(CO)}_4]$           \u2500\u2500\u25ba Tetracarbonylnickel(0)",
+      "content": "Review the precise spelling, alphabetical priority, and oxidation states in standard IUPAC coordination nomenclature."
+    }
+  ],
+  "quickRevision": [
+    "Cation is named first, then anion.",
+    "Ligands in alphabetical order, irrespective of charge.",
+    "Anionic ligands end in -ido (chlorido, cyanido, hydroxido).",
+    "Neutral ligand exceptions: aqua (H\u2082O), ammine (NH\u2083), carbonyl (CO), nitrosyl (NO).",
+    "Anionic complex metal name takes -ate suffix (ferrate, cuprate, argentate).",
+    "Roman numeral oxidation state in parentheses with no space."
+  ],
+  "keyFormulae": [
+    "\\text{IUPAC: [Cation] + [Ligands (Alphabetical)] + [Metal(-ate)] + [(OS)] + [Anion]}"
+  ]
+}

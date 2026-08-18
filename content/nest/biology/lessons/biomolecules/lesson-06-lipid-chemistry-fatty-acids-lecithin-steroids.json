@@ -1,0 +1,52 @@
+{
+  "id": "bio-xi-u3-c9-l06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Biomolecules",
+  "chapterNumber": 9,
+  "chapterSlug": "biomolecules",
+  "slug": "lesson-06-lipid-chemistry-fatty-acids-lecithin-steroids",
+  "title": "Lipid Chemistry: Fatty Acids, Phospholipids, & Steroids",
+  "topic": "Saturated/Unsaturated Acids, Arachidonic Acid, Lecithin, & CPPP Ring of Cholesterol",
+  "topics": [
+    "Lipid Taxonomy: Simple (Triglycerides/Waxes), Compound (Phospholipids), Derived (Steroids)",
+    "Fatty Acid Saturation Dynamics & Standard Notation ($C:D^\\Delta$)",
+    "Palmitic Acid ($16:0$) vs Stearic Acid ($18:0$)",
+    "Arachidonic Acid ($20:4^{\\Delta 5,8,11,14}$) & Eicosanoid Precursors",
+    "Essential Fatty Acids (Linoleic $\\omega$-6 & Linolenic $\\omega$-3)",
+    "Triglyceride Esterification (Glycerol + 3 Fatty Acids)",
+    "Lecithin (Phosphatidylcholine) Amphipathic Architecture",
+    "Steroids: Cyclopentanoperhydrophenanthrene (CPPP) 17-Carbon Ring System & Cholesterol"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 12,
+  "estimatedTimeMinutes": 12,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Lipids are hydrophobic biomolecules soluble in non-polar organic solvents. Saturated fatty acids (Palmitic 16:0) have no double bonds and higher melting points; unsaturated fatty acids (Arachidonic 20:4) have cis double bonds. Essential fatty acids include Linoleic (18:2) and Linolenic (18:3). Triglycerides are glycerol esters with 3 fatty acids. Lecithin is a membrane phospholipid with glycerol, 2 fatty acids, phosphate, and choline. Cholesterol contains a 17-carbon fused CPPP ring modulating fluidity and steroid hormone synthesis.",
+  "summary": "Lipids are hydrophobic biomolecules soluble in non-polar organic solvents. Saturated fatty acids (Palmitic 16:0) have no double bonds and higher melting points; unsaturated fatty acids (Arachidonic 20:4) have cis double bonds. Essential fatty acids include Linoleic (18:2) and Linolenic (18:3). Triglycerides are glycerol esters with 3 fatty acids. Lecithin is a membrane phospholipid with glycerol, 2 fatty acids, phosphate, and choline. Cholesterol contains a 17-carbon fused CPPP ring modulating fluidity and steroid hormone synthesis.",
+  "conceptBreakdown": [
+    {
+      "heading": "4. Lipid Classification & Fatty Acid Chemistry",
+      "title": "4. Lipid Classification & Fatty Acid Chemistry",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Palmitic = 16:0; Arachidonic = 20:4. Lecithin = Phosphatidylcholine. Cholesterol = 17-carbon CPPP tetracyclic ring."
+      },
+      "codeSnippet": "LIPID CLASSIFICATIONS\n                                       │\n         ┌─────────────────────────────┼─────────────────────────────┐\n         ▼                             ▼                             ▼\n   SIMPLE LIPIDS                 COMPOUND LIPIDS               DERIVED LIPIDS\n(Fatty Acid + Alcohol Esters)   (Fatty Acid + Alcohol + Group) (Hydrolysis Products / Rings)\n ├── Neutral Fats (Triglycerides)├── Phospholipids (Lecithin)    ├── Steroids (Cholesterol)\n └── Waxes (Long-chain alcohol) └── Glycolipids                 └── Terpenes & Carotenoids",
+      "content": "Lipids are water-insoluble, hydrophobic organic compounds soluble in organic solvents (ether, chloroform, benzene).\n\n### Fatty Acid Saturation & Notation ($C:D^\\Delta$)\n• **Saturated Fatty Acids**: No double bonds; tightly packed, higher melting points (solid at room temperature):\n  - **Palmitic Acid**: 16 carbons ($16:0$).\n  - **Stearic Acid**: 18 carbons ($18:0$).\n• **Unsaturated Fatty Acids**: Contain one or more *cis* double bonds; lower melting points (oils):\n  - **Oleic Acid**: 18 carbons, 1 double bond ($18:1^{\\Delta 9}$).\n  - **Arachidonic Acid**: 20 carbons, 4 double bonds ($20:4^{\\Delta 5,8,11,14}$); precursor for prostaglandins and leukotrienes.\n• **Essential Fatty Acids (EFAs)**: Cannot be synthesized by humans; must be obtained from diet:\n  1. **Linoleic Acid** ($18:2^{\\Delta 9,12}$ — $\\omega$-6).\n  2. **Linolenic Acid** ($18:3^{\\Delta 9,12,15}$ — $\\omega$-3)."
+    },
+    {
+      "heading": "4.1 Glycerides, Phospholipids, & Cholesterol",
+      "title": "4.1 Glycerides, Phospholipids, & Cholesterol",
+      "type": "paragraph",
+      "codeSnippet": "LECITHIN MOLECULAR ARCHITECTURE\n                           \n    [ Glycerol Backbone ] ──► Esters to 2 Fatty Acid Tails (Hydrophobic)\n            │\n    [ Phosphate Group ]   ──► Esters to Choline Head ($-\\text{CH}_2-\\text{CH}_2-\\text{N}^+(\\text{CH}_3)_3$) (Hydrophilic)",
+      "content": "• **Triglycerides (Triacylglycerols)**: Esters of 1 molecule of Glycerol ($1,2,3$-trihydroxypropane) and 3 fatty acids linked by ester bonds.\n• **Lecithin (Phosphatidylcholine)**: The predominant structural phospholipid of plasma membranes, consisting of a glycerol backbone esterified to two hydrophobic fatty acid chains, a phosphate group, and a positively charged **Choline** polar head.\n• **Steroids & Cholesterol**: Possess a fused tetracyclic hydrocarbon core: the **Cyclopentanoperhydrophenanthrene (CPPP) ring** (17 carbons in 4 rings: A, B, C, D). **Cholesterol** modulates membrane fluidity and serves as the precursor for bile salts, vitamin D, and steroid hormones (cortisol, aldosterone, testosterone, estrogens)."
+    }
+  ]
+}

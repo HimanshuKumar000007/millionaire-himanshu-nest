@@ -1,0 +1,60 @@
+{
+  "id": "chem-xi-u8-c8-l06",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VIII \u2014 Organic Chemistry: Basic Principles and Techniques",
+  "unitNumber": 8,
+  "chapter": "Organic Chemistry Principles & Techniques",
+  "chapterNumber": 8,
+  "chapterSlug": "organic-chemistry-principles",
+  "slug": "lesson-06-bond-fission-reactive-intermediates",
+  "title": "Bond Fission & Reactive Intermediates: Carbocations, Carbanions, & Free Radicals",
+  "topic": "Reactive Intermediates & Fission",
+  "topics": [
+    "Homolytic Fission (Free Radicals) vs Heterolytic Fission (Carbocation + Carbanion)",
+    "Carbocations (sp\u00b2 Planar, 6e\u207b, Stability: Tropylium > Ph\u2083C\u207a > 3\u00b0 > 2\u00b0 > 1\u00b0 > CH\u2083\u207a)",
+    "Carbocation Rearrangements (1,2-Hydride and 1,2-Methyl Shifts, Neopentyl)",
+    "Carbanions (sp\u00b3 Pyramidal, 8e\u207b, Reversed Stability: CH\u2083\u207b > 1\u00b0 > 2\u00b0 > 3\u00b0)",
+    "Carbon Free Radicals (sp\u00b2 Planar/Pyramidal, 7e\u207b, Paramagnetic, Stability: Ph\u2083C\u2022 > 3\u00b0 > 2\u00b0 > 1\u00b0 > CH\u2083\u2022)"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "organic-chemistry-principles",
+  "quickSummary": "Carbocations: sp\u00b2 planar, 6e\u207b, electrophiles, 3\u00b0>2\u00b0>1\u00b0>CH\u2083\u207a, undergo 1,2-shifts. Carbanions: sp\u00b3 pyramidal, 8e\u207b, nucleophiles, CH\u2083\u207b>1\u00b0>2\u00b0>3\u00b0 (no shifts). Free radicals: 7e\u207b, paramagnetic, 3\u00b0>2\u00b0>1\u00b0>CH\u2083\u207a (no shifts).",
+  "summary": "Master homolytic and heterolytic bond fission, carbocation rearrangements, and relative stabilities of intermediates.",
+  "conceptBreakdown": [
+    {
+      "heading": "6.1 Reactive Intermediates Comparison Matrix",
+      "title": "6.1 Reactive Intermediates Comparison Matrix",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "3 Intermediates",
+        "takeaway": "Carbocation (6e\u207b, sp\u00b2, 3\u00b0>2\u00b0>1\u00b0, 1,2-shifts); Carbanion (8e\u207b, sp\u00b3, CH\u2083\u207b>1\u00b0>2\u00b0>3\u00b0, no shifts); Radical (7e\u207b, sp\u00b2, 3\u00b0>2\u00b0>1\u00b0, no shifts)."
+      },
+      "codeSnippet": "REACTIVE INTERMEDIATES COMPARISON\n\n\u2022 Carbocations (R\u207a): 6 valence e\u207b, sp\u00b2 planar (120\u00b0), Electrophile. Stability: Tropylium > Ph\u2083C\u207a > Allyl \u2248 Benzyl > 3\u00b0 > 2\u00b0 > 1\u00b0 > CH\u2083\u207a. Prone to 1,2-Hydride/Methyl shifts!\n\u2022 Carbanions (R\u207b): 8 valence e\u207b, sp\u00b3 pyramidal (107\u00b0), Nucleophile. Stability: Allyl \u2248 Benzyl > CH\u2083\u207b > 1\u00b0 > 2\u00b0 > 3\u00b0 (Reversed!). No 1,2-shifts.\n\u2022 Free Radicals (R\u2022): 7 valence e\u207b, sp\u00b2 planar, Paramagnetic. Stability: Ph\u2083C\u2022 > Allyl \u2248 Benzyl > 3\u00b0 > 2\u00b0 > 1\u00b0 > CH\u2083\u2022. No 1,2-shifts.",
+      "content": "1. **Carbocations ($\\text{R}^+$)**: Electron-deficient (6 valence electrons, $sp^2$ planar with vacant $p$-orbital). Stabilized by $+I$, $+M$, and hyperconjugation. Readily undergo **1,2-hydride and 1,2-methyl rearrangements** to form more stable $3^\\circ$ ions.\n2. **Carbanions ($\\text{R}^-$)**: Electron-rich (8 valence electrons, $sp^3$ pyramidal with lone pair). Stabilized by $-I$, $-M$, and $s$-character. Stability order is **reversed**: $\\mathbf{\\text{CH}_3^- > 1^\\circ > 2^\\circ > 3^\\circ}$. Do NOT rearrange.\n3. **Carbon Free Radicals ($\\text{R}^\\bullet$)**: Neutral, 7 valence electrons, paramagnetic. Stabilized by hyperconjugation and resonance: $\\mathbf{\\text{Ph}_3\\text{C}^\\bullet > 3^\\circ > 2^\\circ > 1^\\circ > \\text{CH}_3^\\bullet}$."
+    },
+    {
+      "heading": "6.2 Carbocation Rearrangement Mechanism",
+      "title": "6.2 Carbocation Rearrangement Mechanism",
+      "type": "paragraph",
+      "codeSnippet": "CARBOCATION 1,2-METHYL SHIFT\n\nNeopentyl Carbocation (1\u00b0, Unstable):\n(CH\u2083)\u2083C-CH\u2082\u207a \u2500\u2500[1,2-CH\u2083 Shift]\u2500\u2500\u25ba (CH\u2083)\u2082C\u207a-CH\u2082CH\u2083 (2-Methyl-2-butyl Carbocation, 3\u00b0, Highly Stable)",
+      "content": "Carbocations undergo spontaneous intramolecular rearrangements if a more stable carbocation can be produced via a 1,2-shift (*e.g., Neopentyl $1^\\circ$ carbocation undergoes 1,2-methyl shift to form stable $3^\\circ$ 2-methyl-2-butyl carbocation*)."
+    }
+  ],
+  "quickRevision": [
+    "Carbocations have 6 valence electrons and undergo 1,2-shifts.",
+    "Carbanions have 8 valence electrons and do NOT undergo 1,2-shifts.",
+    "Carbanion stability is reversed: CH\u2083\u207b > 1\u00b0 > 2\u00b0 > 3\u00b0.",
+    "Tropylium cation (C\u2087H\u2087\u207a) is aromatic and exceptionally stable."
+  ],
+  "keyFormulae": [
+    "\\text{Carbocation Stability: } 3^\\circ > 2^\\circ > 1^\\circ > \\text{CH}_3^+",
+    "\\text{Carbanion Stability: } \\text{CH}_3^- > 1^\\circ > 2^\\circ > 3^\\circ"
+  ]
+}

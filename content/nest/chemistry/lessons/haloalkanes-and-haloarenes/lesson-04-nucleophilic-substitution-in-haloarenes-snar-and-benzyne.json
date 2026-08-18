@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u15-c6-l04",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XV \u2014 Haloalkanes and Haloarenes",
+  "unitNumber": 15,
+  "chapter": "Haloalkanes and Haloarenes",
+  "chapterNumber": 6,
+  "chapterSlug": "haloalkanes-and-haloarenes",
+  "slug": "lesson-04-nucleophilic-substitution-in-haloarenes-snar-and-benzyne",
+  "title": "Nucleophilic Substitution in Haloarenes: S_NAr & Benzyne Pathways",
+  "topic": "S_NAr & Benzyne Mechanisms",
+  "topics": [
+    "4.1 S_NAr Addition-Elimination Mechanism in Activated Haloarenes",
+    "Meisenheimer Intermediate (Carbanion \u03c3-complex) Resonance Stabilization by o,p-Nitro Groups",
+    "Activation Trajectory for Chlorobenzene (Dow Process 623 K/300 atm \u2500\u2500\u25ba o-Nitro 443 K \u2500\u2500\u25ba 2,4-Dinitro 368 K \u2500\u2500\u25ba Picryl Chloride Warm H\u2082O)",
+    "Why Meta-Nitro Groups Do NOT Activate S_NAr (Negative charge never resides on meta carbon)",
+    "4.2 Elimination-Addition Mechanism via Benzyne Intermediate (NaNH\u2082 / liq. NH\u2083 at -33\u00b0C, Cine Substitution)"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "haloalkanes-and-haloarenes",
+  "quickSummary": "Haloarenes undergo substitution via: 1. S_NAr (Addition-Elimination) when activated by o,p-nitro groups stabilizing the Meisenheimer carbanion intermediate. Dow process requires 623 K/300 atm, but picryl chloride reacts with warm water alone. Meta-nitro groups do not activate. 2. Benzyne pathway (Elimination-Addition) using NaNH\u2082/liq. NH\u2083 at -33\u00b0C via strained benzyne intermediate (lateral sp\u00b2-sp\u00b2 overlap in ring plane), yielding cine substitution.",
+  "summary": "Master S_NAr addition-elimination with Meisenheimer complexes and the benzyne elimination-addition pathway.",
+  "conceptBreakdown": [
+    {
+      "heading": "4.1 S_NAr Addition-Elimination & Meisenheimer Complex",
+      "title": "4.1 S_NAr Addition-Elimination & Meisenheimer Complex",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "S_NAr Activation Trajectory",
+        "takeaway": "o,p-NO\u2082 groups delocalize negative charge into oxygens via -M resonance. Picryl chloride (2,4,6-trinitro) hydrolyzes in warm water alone to Picric Acid!"
+      },
+      "codeSnippet": "                    $S_N\\text{Ar}$ MEISENHEIMER COMPLEX STABILIZATION\n                    \n          Cl  OH                Cl  OH                Cl  OH\n          \u2502 /                   \u2502 /                   \u2502 /\n          \n         /   \\     \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba   / \\\u207b    \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba     /   \\\n        |     |               |   |                 |     |\n         \\___/                 \\ /                   \\___/\n           \u2502                    \u2502                      \u2502\n           N\u207a                   N\u207a                     N\u207a\n         // \\                 // \\                   // \\\n        O    O\u207b              O\u207b   O\u207b                O    O\u207b\n\n                   ACTIVATION TRAJECTORY FOR CHLOROBENZENE\n                   \n   Chlorobenzene \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba $\\text{NaOH, } 623\\text{ K, } 300\\text{ atm}$ (Dow Process) \u2500\u2500\u25ba Phenol\n   *o*-Nitrochlorobenzene \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba $\\text{NaOH, } 443\\text{ K}$ \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba *o*-Nitrophenol\n   2,4-Dinitrochlorobenzene \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba $\\text{Na}_2\\text{CO}_3\\text{/H}_2\\text{O, } 368\\text{ K}$ \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba 2,4-Dinitrophenol\n   2,4,6-Trinitrochlorobenzene (Picryl Chloride)\u25ba **Warm }\\text{H}_2\\text{O alone!** \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba **Picric Acid**",
+      "content": "In $S_N\\text{Ar}$, strong electron-withdrawing groups ($-\\text{NO}_2$) at *ortho* and *para* positions stabilize the negatively charged Meisenheimer Carbanion $\\sigma$-complex.\n- **Why Meta-Nitro Does Not Activate**: The negative charge in the Meisenheimer intermediate never lands on the carbon bearing the $-\\text{NO}_2$ group, losing $-M$ resonance stabilization."
+    },
+    {
+      "heading": "4.2 Benzyne Elimination-Addition Mechanism",
+      "title": "4.2 Benzyne Elimination-Addition Mechanism",
+      "type": "paragraph",
+      "codeSnippet": "                        BENZYNE ELIMINATION-ADDITION\n                        \n   Chlorobenzene \u2500\u2500[$\\text{NaNH}_2/\\text{liq. NH}_3$]\u2500\u2500\u25ba **BENZYNE INTERMEDIATE** \u2500\u2500[$\\text{NH}_3$ Addition]\u2500\u2500\u25ba Aniline\n   (Elimination of $\\text{HCl}$)                        (Contains a formal $\\text{C}\\equiv\\text{C}$ bond)   (Cine Substitution)\n\n                     BENZYNE TRIPLE BOND STRUCTURE\n                     \n   The formal triple bond in Benzyne is formed by the lateral overlap of two **$sp^2$ hybridized orbitals**\n   lying in the plane of the ring, outside the aromatic $\\pi$-system. It is highly strained and reactive!",
+      "content": "Unactivated haloarenes react with ultra-strong bases ($\\text{NaNH}_2 / \\text{liquid NH}_3$ at $-33^\\circ\\text{C}$) via a Benzyne Intermediate, leading to cine substitution."
+    }
+  ],
+  "quickRevision": [
+    "S_NAr proceeds via a negatively charged Meisenheimer carbanion complex.",
+    "o,p-NO\u2082 groups accelerate S_NAr via -M resonance stabilization.",
+    "Picryl chloride converts to Picric Acid with warm water alone.",
+    "Meta-NO\u2082 groups do not stabilize the Meisenheimer carbanion.",
+    "Benzyne intermediate forms by elimination with NaNH\u2082/liq. NH\u2083 (sp\u00b2-sp\u00b2 lateral triple bond)."
+  ],
+  "keyFormulae": [
+    "\\text{Dow Process: } \\text{C}_6\\text{H}_5\\text{Cl} + \\text{NaOH} \\xrightarrow{623\\text{ K, } 300\\text{ atm}} \\text{C}_6\\text{H}_5\\text{OH}",
+    "\\text{Picryl Chloride} + \\text{H}_2\\text{O} \\xrightarrow{\\text{Warm}} \\text{Picric Acid (2,4,6-trinitrophenol)}"
+  ]
+}

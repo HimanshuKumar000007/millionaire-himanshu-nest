@@ -1,0 +1,49 @@
+{
+  "id": "bio-xi-u3-c10-l02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Cell Cycle and Cell Division",
+  "chapterNumber": 10,
+  "chapterSlug": "cell-cycle-and-cell-division",
+  "slug": "lesson-02-molecular-regulation-cyclins-and-cdks",
+  "title": "Molecular Regulation: Cyclins & Cyclin-Dependent Kinases (CDKs)",
+  "topic": "The Cyclin-CDK Catalytic Engine, Cyclin Oscillation, & Downstream Phosphorylation Targets",
+  "topics": [
+    "The Biochemical Engine: Regulatory Cyclins & Catalytic CDKs",
+    "Phase-Specific Cyclin-CDK Complex Transitions",
+    "G1 Progression: Cyclin D + CDK4/CDK6",
+    "G1/S Transition: Cyclin E + CDK2",
+    "S Phase Progression: Cyclin A + CDK2",
+    "G2/M Transition: Cyclin B + CDK1 (CDC2) / MPF Complex"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Cell cycle transitions are driven by Cyclins (regulatory subunits whose concentrations oscillate) and Cyclin-Dependent Kinases (CDKs, catalytic serine/threonine kinases). G1 progression relies on Cyclin D-CDK4/6. G1/S transition requires Cyclin E-CDK2. S-phase replication is driven by Cyclin A-CDK2. Entry into M-phase is propelled by the MPF complex (Cyclin B-CDK1).",
+  "summary": "Cell cycle transitions are driven by Cyclins (regulatory subunits whose concentrations oscillate) and Cyclin-Dependent Kinases (CDKs, catalytic serine/threonine kinases). G1 progression relies on Cyclin D-CDK4/6. G1/S transition requires Cyclin E-CDK2. S-phase replication is driven by Cyclin A-CDK2. Entry into M-phase is propelled by the MPF complex (Cyclin B-CDK1).",
+  "conceptBreakdown": [
+    {
+      "heading": "2. The Cyclin-CDK Biochemical Engine",
+      "title": "2. The Cyclin-CDK Biochemical Engine",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Cyclins are regulatory subunits; CDKs are catalytic kinases. Cyclin B + CDK1 forms MPF (Maturation-Promoting Factor)."
+      },
+      "codeSnippet": "CELL CYCLE CHECKPOINT CONTROL\n                                     │\n     ┌───────────────────────────────┼───────────────────────────────┐\n     ▼                               ▼                               ▼\n  G₁/S CHECKPOINT                 G₂/M CHECKPOINT            SPINDLE ASSEMBLY CHECKPOINT\n (Restriction / START)           (G₂-M Transition)                     (SAC)\n ├── Checks DNA damage & size    ├── Checks DNA replication      ├── Checks kinetochore-spindle\n └── Cyclin D/E + CDK4/2         └── Cyclin B + CDK1 (MPF)           attachment at Metaphase",
+      "content": "Transitions through cell cycle phases are strictly regulated by protein complexes formed by:\n• **Cyclins**: Regulatory proteins whose intracellular levels oscillate systematically throughout the cycle.\n• **Cyclin-Dependent Kinases (CDKs)**: Serine/threonine protein kinases that remain at relatively constant levels but are catalytically active only when bound to their cognate cyclin partner."
+    },
+    {
+      "heading": "2.1 Phase-Specific Cyclin-CDK Matrix",
+      "title": "2.1 Phase-Specific Cyclin-CDK Matrix",
+      "type": "paragraph",
+      "content": "| Cell Cycle Transition | Regulatory Cyclin Subunit | Catalytic CDK Partner | Key Downstream Substrates |\n| :--- | :--- | :--- | :--- |\n| **$G_1$ Phase Progression** | **Cyclin D** (D1, D2, D3) | **CDK4 / CDK6** | Retinoblastoma Protein ($\\text{Rb}$) phosphorylation |\n| **$G_1/S$ Transition** | **Cyclin E** | **CDK2** | $\\text{E2F}$ transcription factor liberation; centrosome duplication |\n| **$S$ Phase Progression** | **Cyclin A** | **CDK2** | DNA pre-replication complex activation (MCM helicase) |\n| **$G_2/M$ Transition** | **Cyclin B** | **CDK1 (CDC2)** | **MPF Complex**; Lamin phosphorylation (nuclear envelope breakdown) |"
+    }
+  ]
+}

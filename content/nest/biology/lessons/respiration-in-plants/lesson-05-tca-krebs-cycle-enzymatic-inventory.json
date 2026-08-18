@@ -1,0 +1,49 @@
+{
+  "id": "bio-xi-u4-c12-l05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Respiration in Plants",
+  "chapterNumber": 12,
+  "chapterSlug": "respiration-in-plants",
+  "slug": "lesson-05-tca-krebs-cycle-enzymatic-inventory",
+  "title": "The Tricarboxylic Acid (TCA / Krebs) Cycle",
+  "topic": "Eight-Step Matrix Cycle, Substrate-Level GTP Synthesis, & Succinate Dehydrogenase",
+  "topics": [
+    "Discovery by Sir Hans Krebs (1937) & Citric Acid / TCA Nomenclature",
+    "Mitochondrial Matrix Localization & Condensation by Citrate Synthase",
+    "Two Decarboxylation Steps (Isocitrate Dehydrogenase & α-Ketoglutarate Dehydrogenase)",
+    "Substrate-Level Phosphorylation at Succinyl-CoA Synthetase (GTP / ATP Yield)",
+    "Inner-Membrane Bound Succinate Dehydrogenase (Complex II) & FADH₂ Generation",
+    "Step-by-Step Enzymatic Inventory Table & Complete 2-Turn Yield per Glucose"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Discovered by Sir Hans Krebs in 1937, the TCA (Citric Acid) cycle oxidizes Acetyl-CoA (2C) by condensing it with Oxaloacetate (4C) in the mitochondrial matrix to form Citrate (6C). Through 8 enzymatic steps, 2 CO₂ molecules are released, generating 3 NADH, 1 FADH₂, and 1 GTP/ATP per turn. Succinate Dehydrogenase (Step 6) is the only membrane-bound TCA enzyme (Complex II). For 1 glucose molecule (2 turns), the net yield is 6 NADH + 2 FADH₂ + 2 GTP (ATP) + 4 CO₂.",
+  "summary": "Discovered by Sir Hans Krebs in 1937, the TCA (Citric Acid) cycle oxidizes Acetyl-CoA (2C) by condensing it with Oxaloacetate (4C) in the mitochondrial matrix to form Citrate (6C). Through 8 enzymatic steps, 2 CO₂ molecules are released, generating 3 NADH, 1 FADH₂, and 1 GTP/ATP per turn. Succinate Dehydrogenase (Step 6) is the only membrane-bound TCA enzyme (Complex II). For 1 glucose molecule (2 turns), the net yield is 6 NADH + 2 FADH₂ + 2 GTP (ATP) + 4 CO₂.",
+  "conceptBreakdown": [
+    {
+      "heading": "5. The TCA (Krebs) Cycle Schematic Flow",
+      "title": "5. The TCA (Krebs) Cycle Schematic Flow",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "TCA cycle operates in the Mitochondrial Matrix (except membrane-bound Succinate Dehydrogenase). 2 turns per glucose yield 6 NADH + 2 FADH₂ + 2 GTP/ATP + 4 CO₂."
+      },
+      "codeSnippet": "TCA CYCLE SCHEMATIC\n                             \n          Acetyl-CoA (2C) + Oxaloacetate (4C)\n                          │\n                   [Citrate Synthase]\n                          │\n                    Citrate (6C) ──► Isocitrate (6C)\n                                         │\n                                [Isocitrate Dehydrogenase]\n                                         │\n    CO₂ + **NADH** ◄─────────────────────┴──► $\\alpha$-Ketoglutarate (5C)\n                                                   │\n                                          [$\\alpha$-KGDH Complex]\n                                                   │\n    CO₂ + **NADH** ◄───────────────────────────────┴──► Succinyl-CoA (4C)\n                                                   │\n                                          [Succinyl-CoA Synthetase]\n                                                   │\n    **GTP / ATP** ◄────────────────────────────────┴──► Succinate (4C)\n                                                   │\n                                          [Succinate Dehydrogenase (Complex II)]\n                                                   │\n    **FADH₂** ◄────────────────────────────────────┴──► Fumarate (4C)\n                                                   │\n                                          [Fumarase]\n                                                   │\n                                                Malate (4C)\n                                                   │\n                                          [Malate Dehydrogenase]\n                                                   │\n    **NADH** ◄─────────────────────────────────────┴──► Oxaloacetate (4C)",
+      "content": "The Tricarboxylic Acid (TCA) cycle (Krebs Cycle / Citric Acid Cycle) is the central catabolic hub located inside the **Mitochondrial Matrix** that completes the oxidation of carbon from carbohydrate, fat, and protein degradation.\n\n- **Initiation**: Acetyl-CoA ($2\\text{C}$) condenses with Oxaloacetic acid (OAA, $4\\text{C}$) to form Citric acid ($6\\text{C}$), catalyzed by **Citrate Synthase** with the consumption of $1\\text{ H}_2\\text{O}$.\n- **Two Oxidative Decarboxylations**:\n  1. **Isocitrate Dehydrogenase**: Converts Isocitrate ($6\\text{C}$) to $\\alpha$-Ketoglutarate ($5\\text{C}$), releasing the first $\\text{CO}_2$ and $1\\text{ NADH}$.\n  2. **$\\alpha$-Ketoglutarate Dehydrogenase**: Converts $\\alpha$-KG ($5\\text{C}$) to Succinyl-CoA ($4\\text{C}$), releasing the second $\\text{CO}_2$ and generating $1\\text{ NADH}$."
+    },
+    {
+      "heading": "5.1 Step-by-Step Enzymatic Inventory of the Krebs Cycle",
+      "title": "5.1 Step-by-Step Enzymatic Inventory of the Krebs Cycle",
+      "type": "paragraph",
+      "content": "### Step-by-Step Enzymatic Inventory of the Krebs Cycle\n\n| Step | Enzyme | Substrate $\\rightarrow$ Product | High-Yield Energy / By-product |\n| :--- | :--- | :--- | :--- |\n| **1** | **Citrate Synthase** | Acetyl-$\\text{CoA}$ ($2\\text{C}$) + $\\text{OAA}$ ($4\\text{C}$) $\\rightarrow$ Citrate ($6\\text{C}$) | Consumes $1\\text{ H}_2\\text{O}$; releases $\\text{CoA-SH}$ |\n| **2** | Aconitase | Citrate $\\rightleftharpoons$ cis-Aconitate $\\rightleftharpoons$ Isocitrate ($6\\text{C}$) | Dehydration followed by rehydration |\n| **3** | **Isocitrate Dehydrogenase** | Isocitrate ($6\\text{C}$) $\\rightarrow$ $\\alpha$-Ketoglutarate ($5\\text{C}$) | **1st $\\text{CO}_2$ released**; **Generates $1\\text{ NADH}$** |\n| **4** | **$\\alpha$-Ketoglutarate Dehydrogenase** | $\\alpha$-Ketoglutarate ($5\\text{C}$) $\\rightarrow$ Succinyl-$\\text{CoA}$ ($4\\text{C}$) | **2nd $\\text{CO}_2$ released**; **Generates $1\\text{ NADH}$** |\n| **5** | **Succinyl-CoA Synthetase** | Succinyl-$\\text{CoA}$ ($4\\text{C}$) $\\rightarrow$ Succinate ($4\\text{C}$) | **Substrate-Level Phosphorylation ($1\\text{ GTP/ATP}$)** |\n| **6** | **Succinate Dehydrogenase** | Succinate ($4\\text{C}$) $\\rightarrow$ Fumarate ($4\\text{C}$) | **Generates $1\\text{ FADH}_2$** *(Bound to Inner Membrane as Complex II)* |\n| **7** | Fumarase | Fumarate ($4\\text{C}$) $\\rightarrow$ L-Malate ($4\\text{C}$) | Hydration reaction (adds $\\text{H}_2\\text{O}$) |\n| **8** | **Malate Dehydrogenase** | L-Malate ($4\\text{C}$) $\\rightarrow$ Oxaloacetate ($4\\text{C}$) | **Generates $1\\text{ NADH}$** |\n\n$$\\mathbf{\\text{Net TCA Yield per Glucose (2 Turns): 2 Acetyl-CoA} \\longrightarrow 6\\text{ NADH} + 2\\text{ FADH}_2 + 2\\text{ GTP (ATP)} + 4\\text{ CO}_2\\uparrow}$$"
+    }
+  ]
+}

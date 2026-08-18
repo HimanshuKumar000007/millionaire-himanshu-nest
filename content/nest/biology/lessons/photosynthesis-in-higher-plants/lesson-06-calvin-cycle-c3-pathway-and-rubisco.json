@@ -1,0 +1,56 @@
+{
+  "id": "bio-xi-u4-c11-l06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Photosynthesis in Higher Plants",
+  "chapterNumber": 11,
+  "chapterSlug": "photosynthesis-in-higher-plants",
+  "slug": "lesson-06-calvin-cycle-c3-pathway-and-rubisco",
+  "title": "The Calvin Cycle (C₃ Pathway) & RuBisCO Enzymology",
+  "topic": "Carboxylation, Reduction, Regeneration, RuBP Acceptor, & Energetic Stoichiometry",
+  "topics": [
+    "Biosynthetic Dark Reactions in Chloroplast Stroma",
+    "Melvin Calvin's Radioactive $^{14}\\text{C}$ Tracing in *Chlorella*",
+    "Phase 1: Carboxylation (5C RuBP + $\\text{CO}_2 \\rightarrow$ 2 $\\times$ 3-PGA via RuBisCO)",
+    "Phase 2: Reduction (3-PGA $\\rightarrow$ 1,3-BPG $\\rightarrow$ G3P Triose-P, Consuming ATP + NADPH)",
+    "Phase 3: Regeneration of RuBP (Transketolase/Aldolase, Consuming ATP)",
+    "Complete Calvin Cycle Stoichiometry ($1\\text{ Glucose} = 6\\text{ CO}_2 + 18\\text{ ATP} + 12\\text{ NADPH}$)"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "The Calvin Cycle (C3 pathway) operates in the stroma across three phases: 1) Carboxylation: RuBP (5C) fixes CO2 catalyzed by RuBisCO to yield two molecules of 3-PGA (3C), 2) Reduction: 3-PGA is converted to G3P triose phosphate, consuming 12 ATP and 12 NADPH per glucose, and 3) Regeneration: G3P rearranges to regenerate 6 RuBP, consuming 6 ATP. Synthesizing 1 mole of glucose requires 6 CO2, 18 ATP, and 12 NADPH.",
+  "summary": "The Calvin Cycle (C3 pathway) operates in the stroma across three phases: 1) Carboxylation: RuBP (5C) fixes CO2 catalyzed by RuBisCO to yield two molecules of 3-PGA (3C), 2) Reduction: 3-PGA is converted to G3P triose phosphate, consuming 12 ATP and 12 NADPH per glucose, and 3) Regeneration: G3P rearranges to regenerate 6 RuBP, consuming 6 ATP. Synthesizing 1 mole of glucose requires 6 CO2, 18 ATP, and 12 NADPH.",
+  "conceptBreakdown": [
+    {
+      "heading": "5. Calvin Cycle ($C_3$) Overview & Three Phases",
+      "title": "5. Calvin Cycle ($C_3$) Overview & Three Phases",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Carboxylation (RuBisCO) -> Reduction (consumes ATP+NADPH) -> Regeneration (consumes ATP). Net per glucose = 6 CO2, 18 ATP, 12 NADPH."
+      },
+      "codeSnippet": "CALVIN CYCLE ($C_3$) PHASES\n                                         │\n         ┌───────────────────────────────┼───────────────────────────────┐\n         ▼                               ▼                               ▼\n  1. CARBOXYLATION                2. REDUCTION                    3. REGENERATION\n  $\\text{CO}_2$ + RuBP ──► 3-PGA  3-PGA ──► Triose Phosphate      G3P/DHAP ──► RuBP\n  (Enzyme: **RuBisCO**)           (Consumes $\\text{ATP} + \\text{NADPH}$) (Consumes $\\text{ATP}$)",
+      "content": "The dark reactions (Biosynthetic Phase) occur in the chloroplast stroma, reducing $\\text{CO}_2$ into hexose sugars using $\\text{ATP}$ and $\\text{NADPH}$ generated in the light reactions."
+    },
+    {
+      "heading": "5.1 Detailed Enzymatic Phases",
+      "title": "5.1 Detailed Enzymatic Phases",
+      "type": "paragraph",
+      "content": "1. **Carboxylation**: Primary fixation of $\\text{CO}_2$ onto the 5-carbon acceptor **Ribulose-1,5-bisphosphate (RuBP)** catalyzed by **RuBisCO** (Ribulose-1,5-bisphosphate carboxylase-oxygenase), producing an unstable 6C intermediate that cleaves into **two molecules of 3-Phosphoglyceric acid (3-PGA)**.\n2. **Reduction**: 3-PGA is phosphorylated by Phosphoglycerate Kinase ($1\\text{ ATP}$) to form 1,3-Bisphosphoglycerate, which is reduced by G3P Dehydrogenase ($1\\text{ NADPH}$) to form **Glyceraldehyde-3-phosphate (G3P)**.\n3. **Regeneration**: Complex sugar rearrangements regenerate 5-carbon RuBP from triose phosphates. Phosphorylation of Ribulose-5-phosphate by Phosphoribulokinase consumes **$1\\text{ ATP}$ per RuBP**."
+    },
+    {
+      "heading": "5.2 Quantitative Stoichiometric Ledger",
+      "title": "5.2 Quantitative Stoichiometric Ledger",
+      "type": "paragraph",
+      "codeSnippet": "CALVIN CYCLE STOICHIOMETRY\n                         \n   1 CO₂ Fixed ──► 2 x 3-PGA ──► 2 x Triose-P ──► 3 ATP + 2 NADPH Consumed\n   \n   FOR 1 MOLE OF GLUCOSE (C₆H₁₂O₆):\n   ├── 6 CO₂ Fixed\n   ├── 18 ATP Hydrolyzed  ($12\\text{ in Reduction} + 6\\text{ in Regeneration}$)\n   └── 12 NADPH Oxidized  ($12\\text{ in Reduction}$)",
+      "content": "• For every molecule of $\\text{CO}_2$ fixed: **$3\\text{ ATP} + 2\\text{ NADPH}$** are consumed.\n• To synthesize **1 mole of Glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$)**, the cycle turns 6 times, requiring **$6\\text{ CO}_2 + 18\\text{ ATP} + 12\\text{ NADPH}$**."
+    }
+  ]
+}

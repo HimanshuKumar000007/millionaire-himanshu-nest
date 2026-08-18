@@ -1,0 +1,60 @@
+{
+  "id": "chem-xi-u7-c7-l05",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VII \u2014 Redox Reactions",
+  "unitNumber": 7,
+  "chapter": "Redox Reactions",
+  "chapterNumber": 7,
+  "chapterSlug": "redox-reactions",
+  "slug": "lesson-05-equivalence-concept-n-factor-mechanics",
+  "title": "Equivalence Concept & n-Factor Mechanics in Redox Systems",
+  "topic": "Chemical Equivalence & n-Factor",
+  "topics": [
+    "Law of Chemical Equivalence (Equivalents of Oxidant = Equivalents of Reductant)",
+    "Definition of n-Factor in Redox Systems (Total ON change per mole of reactant)",
+    "Equivalent Mass = Molar Mass / n-Factor",
+    "Normality = Molarity \u00d7 n-Factor (N = M \u00d7 n)",
+    "n-Factor for Acids, Bases, Salts, and Redox Reagents"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "redox-reactions",
+  "quickSummary": "Equivalents of oxidant = Equivalents of reductant. n-Factor is total ON change per mole of reactant. Equivalent Mass = M / n-factor. Normality = M \u00d7 n.",
+  "summary": "Master the quantitative law of chemical equivalence, equivalent mass, and n-factor mechanics.",
+  "conceptBreakdown": [
+    {
+      "heading": "5.1 The Law of Chemical Equivalence",
+      "title": "5.1 The Law of Chemical Equivalence",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Equivalence Law",
+        "takeaway": "Equivalents of Oxidant = Equivalents of Reductant. n_eq = n \u00d7 n-factor = (w/M) \u00d7 n-factor = N \u00d7 V(L)."
+      },
+      "codeSnippet": "LAW OF CHEMICAL EQUIVALENCE\n\n   Equivalents of Oxidant = Equivalents of Reductant\n   n_eq = (w / M) \u00d7 n-factor = N \u00d7 V_(L)\n   Equivalent Mass (E.M.) = Molar Mass / n-factor\n   Normality (N) = Molarity (M) \u00d7 n-factor",
+      "content": "In stoichiometry, 1 Equivalent of an oxidant reacts completely with 1 Equivalent of a reductant regardless of stoichiometric coefficients:\n$$\\mathbf{\\text{Equivalents of Oxidant} = \\text{Equivalents of Reductant}}$$\n$$\\mathbf{n_{\\text{eq}} = n \\times n\\text{-factor} = \\frac{w}{M} \\times n\\text{-factor} = N \\times V_{(\\text{L})}}$$\n$$\\mathbf{\\text{Equivalent Mass (E.M.)} = \\frac{\\text{Molar Mass } M}{n\\text{-factor}}}$$\n$$\\mathbf{\\text{Normality } N = \\text{Molarity } M \\times n\\text{-factor}}$$"
+    },
+    {
+      "heading": "5.2 General n-Factor Definitions",
+      "title": "5.2 General n-Factor Definitions",
+      "type": "paragraph",
+      "codeSnippet": "n-FACTOR DEFINITIONS MATRIX\n\n\u2022 Acids: Basicity (number of replaceable H\u207a ions, e.g., H\u2082SO\u2084 = 2, H\u2083PO\u2083 = 2, H\u2083PO\u2082 = 1)\n\u2022 Bases: Acidity (number of replaceable OH\u207b ions, e.g., Ca(OH)\u2082 = 2)\n\u2022 Salts: Total positive or negative charge in salt matrix (e.g., Al\u2082(SO\u2084)\u2083 = 6)\n\u2022 Redox Agents: Total change in oxidation number per mole of reactant.",
+      "content": "1. **Acids**: $n = \\text{Basicity}$ (number of $\\text{H}^+$ released per molecule). Note: $\\text{H}_3\\text{PO}_4 = 3$, $\\text{H}_3\\text{PO}_3 = 2$ (one P-H bond), $\\text{H}_3\\text{PO}_2 = 1$ (two P-H bonds).\n2. **Bases**: $n = \\text{Acidity}$ (number of $\\text{OH}^-$ released per molecule).\n3. **Salts**: $n = \\text{Total positive/negative charge}$ (*e.g., $\\text{Al}_2(\\text{SO}_4)_3 \\implies 2 \\times (+3) = 6$*).\n4. **Redox Agents**: $n = \\text{Total change in ON per mole of reactant}$."
+    }
+  ],
+  "quickRevision": [
+    "In every complete reaction: Equivalents of A = Equivalents of B.",
+    "Normality = Molarity \u00d7 n-factor.",
+    "Equivalent Mass = Molar Mass / n-factor.",
+    "For H\u2083PO\u2083, basicity is 2; for H\u2083PO\u2082, basicity is 1."
+  ],
+  "keyFormulae": [
+    "n_{\\text{eq}} = \\frac{w}{M} \\times n\\text{-factor} = N \\times V_{(\\text{L})}",
+    "\\text{E.M.} = \\frac{M}{n\\text{-factor}}"
+  ]
+}

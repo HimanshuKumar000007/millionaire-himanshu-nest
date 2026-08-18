@@ -1,0 +1,61 @@
+{
+  "id": "bio-xi-u1-c1-l07",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit I — Diversity of Living Organisms",
+  "unitNumber": 1,
+  "chapter": "The Living World",
+  "chapterNumber": 1,
+  "chapterSlug": "the-living-world",
+  "slug": "lesson-07-nomenclature-rules",
+  "title": "Nomenclature Rules, Types, & Codes",
+  "topic": "Nomenclature Rules",
+  "topics": [
+    "7.1 Codes of Biological Nomenclature (ICNafp, ICZN, ICNP, ICTV, ICNCP)",
+    "7.2 Universal Rules of Binomial Nomenclature (Linnaean System)",
+    "Principle of Priority Dates & Author Citation",
+    "TAUTONYM VALIDITY (ICZN vs ICNafp)",
+    "7.3 The Nomenclature Type Specimen System (Holotype, Isotype, Paratype, Lectotype, Neotype)"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 6,
+  "estimatedTimeMinutes": 6,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Biological names are regulated by international codes (ICNafp, ICZN, ICNP, ICTV, ICNCP). Binomial names consist of Genus + Specific epithet. Tautonyms are valid in zoology but strictly forbidden in botany. Descriptions are anchored to physical type specimens.",
+  "summary": "Biological names are regulated by international codes (ICNafp, ICZN, ICNP, ICTV, ICNCP). Binomial names consist of Genus + Specific epithet. Tautonyms are valid in zoology but strictly forbidden in botany. Descriptions are anchored to physical type specimens.",
+  "conceptBreakdown": [
+    {
+      "heading": "7. Nomenclature Rules, Types, & Codes",
+      "title": "7. Nomenclature Rules, Types, & Codes",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary Box",
+        "takeaway": "Nomenclature codes regulate scientific naming. Binomial = Genus + Specific Epithet. Botany priority date: May 1, 1753; Zoology: Jan 1, 1758. Tautonyms are valid in zoology (ICZN) but forbidden in botany (ICNafp)."
+      },
+      "content": "7.1 Codes of Biological Nomenclature:\n\nBiological names are regulated by specific international codes:\n• ICNafp: International Code of Nomenclature for algae, fungi, and plants (formerly ICBN).\n• ICZN: International Code of Zoological Nomenclature.\n• ICNP: International Code of Nomenclature of Prokaryotes (formerly ICNB).\n• ICTV: International Committee on Taxonomy of Viruses.\n• ICNCP: International Code of Nomenclature for Cultivated Plants."
+    },
+    {
+      "heading": "7.2 Universal Rules of Binomial Nomenclature (Linnaean System)",
+      "title": "7.2 Universal Rules of Binomial Nomenclature (Linnaean System)",
+      "type": "paragraph",
+      "codeSnippet": "TAUTONYM VALIDITY\n                                │\n         ┌──────────────────────┴──────────────────────┐\n         ▼                                             ▼\n  ZOOLOGY (ICZN)                                BOTANY (ICNafp)\n  VALID / PERMITTED                           STRICTLY FORBIDDEN\n  Example: Panthera panthera                  Example: Rosa rosa (Invalid)\n           Naja naja                                   Malus malus (Invalid)",
+      "content": "• Binomial Structure: Every scientific name consists of two Latinized words: Generic Name (Genus) + Specific Epithet (Species epithet).\n\n• Language: Names are derived from Latin or are Latinized, regardless of their origin, and treated according to Latin grammar.\n\n• Typography: In print, scientific names are italicized (e.g., *Homo sapiens*). When handwritten, the genus name and specific epithet are underlined separately (e.g., <u>Homo</u> <u>sapiens</u>).\n\n• Capitalization: The Generic name must begin with an uppercase letter. The specific epithet must begin with a lowercase letter (e.g., *Mangifera indica*, NOT *Mangifera Indica*).\n\n• Principle of Priority: The valid name for a taxon is the oldest name published after official starting dates:\n  - Botany: May 1, 1753 (Publication of Linnaeus' *Species Plantarum*).\n  - Zoology: January 1, 1758 (Publication of Linnaeus' *Systema Naturae*, 10th Edition).\n\n• Citation of Authority: The name of the author who first validly published the name is appended in roman font (unitalicized) after the specific epithet: *Mangifera indica* Linn. or *Homo sapiens* Linnaeus, 1758.\n\n• Tautonyms: A binomial name in which the generic name and specific epithet are identical in spelling (e.g., *Gorilla gorilla*, *Naja naja*, *Malus malus*). ICZN Rule: Tautonyms are PERMITTED in zoology. ICNafp Rule: Tautonyms are STRICTLY FORBIDDEN in botany.\n\n• Trinomial Nomenclature: Used to designate subspecies in zoology (*Homo sapiens sapiens*, *Panthera leo persica*) or varieties in botany (*Brassica oleracea* var. *botrytis*)."
+    },
+    {
+      "heading": "7.3 The Nomenclature Type Specimen System (Nomenclatural Types)",
+      "title": "7.3 The Nomenclature Type Specimen System (Nomenclatural Types)",
+      "type": "paragraph",
+      "codeSnippet": "NOMENCLATURAL TYPE SPECIMENS\n                                   │\n         ┌─────────────────────────┼─────────────────────────┐\n         ▼                         ▼                         ▼\n     HOLOTYPE                   ISOTYPE                   PARATYPE\n (Primary specimen)        (Exact duplicate)         (Additional cited)\n         │\n         ├─────────────────────────┬─────────────────────────┐\n         ▼                         ▼                         ▼\n     LECTOTYPE                 NEOTYPE                   SYNTYPE\n (Selected from original)   (New type replacement)   (Multiple co-types)",
+      "content": "Taxonomic descriptions must be linked to concrete physical specimens archived in recognized herbaria or museums.\n\n• Holotype: The single physical specimen designated by the original author at the time of publishing the species description as the official nomenclatural type.\n\n• Isotype: An exact duplicate of the holotype collected from the same individual/population, at the same time, by the same collector (common in botanical collections).\n\n• Paratype: Any specimen cited in the original protologue/description other than the holotype or isotype.\n\n• Syntype: Any one of two or more specimens cited by an author when no single holotype was designated in the original publication.\n\n• Lectotype: A specimen chosen from the original collection material to serve as the single nomenclatural type when no holotype was originally designated, or if the original holotype was lost or destroyed.\n\n• Neotype: A replacement specimen chosen to serve as the nomenclatural type when all original material (holotype, isotypes, syntypes) has been lost or destroyed.\n\n• Topotype: A specimen collected from the exact original geographic locality where the original type specimen was obtained."
+    }
+  ],
+  "quickRevision": [
+    "Binomial = Genus (capitalized) + Species (lowercase); italicized in print, underlined separately when handwritten.",
+    "Priority starting dates: Botany May 1, 1753; Zoology Jan 1, 1758.",
+    "Tautonyms (e.g., Naja naja) = Valid in Zoology (ICZN), FORBIDDEN in Botany (ICNafp).",
+    "Types: Holotype (primary), Isotype (duplicate), Lectotype (selected from original), Neotype (replacement)."
+  ]
+}

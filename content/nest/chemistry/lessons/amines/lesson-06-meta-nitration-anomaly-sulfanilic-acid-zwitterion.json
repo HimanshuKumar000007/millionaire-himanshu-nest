@@ -1,0 +1,59 @@
+{
+  "id": "chem-xii-u18-c9-l06",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVIII \u2014 Amines",
+  "unitNumber": 18,
+  "chapter": "Amines",
+  "chapterNumber": 9,
+  "chapterSlug": "amines",
+  "slug": "lesson-06-meta-nitration-anomaly-sulfanilic-acid-zwitterion",
+  "title": "The Anilinium Meta-Nitration Anomaly & Zwitterionic Sulfanilic Acid",
+  "topic": "Meta-Nitration Anomaly & Sulfanilic Acid",
+  "topics": [
+    "6.1 The Aniline Nitration Anomaly: Product Distribution at 288 K (51% p-Nitro, 47% m-Nitro, 2% o-Nitro)",
+    "The Anilinium Ion (Ph-NH\u2083\u207a) Mechanism: In Strong Acid (H\u2082SO\u2084), Protonation converts -NH\u2082 to -I/-M Meta-Director",
+    "6.2 Sulfonation of Aniline with Conc. H\u2082SO\u2084 at 453\u2013473 K yielding Sulfanilic Acid",
+    "Internal Dipolar Zwitterion Structure of Sulfanilic Acid (\u207aH\u2083N-C\u2086H\u2084-SO\u2083\u207b)",
+    "Failure of Friedel-Crafts Alkylation and Acylation on Aniline (Lewis Acid AlCl\u2083 Salt Complex Deactivation)"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "amines",
+  "quickSummary": "Direct nitration of aniline with HNO\u2083/H\u2082SO\u2084 at 288 K yields 51% para, 47% META, and 2% ortho product because strongly acidic medium protonates aniline into the Anilinium ion (Ph-NH\u2083\u207a), a powerful -I/-M meta-director. Sulfonation yields Sulfanilic acid, which exists as a dipolar Zwitterion (\u207aH\u2083N-C\u2086H\u2084-SO\u2083\u207b). Aniline FAILS Friedel-Crafts reactions due to AlCl\u2083 complexation.",
+  "summary": "Master the anilinium meta-nitration mechanism, sulfanilic acid zwitterion structure, and Friedel-Crafts inhibition.",
+  "conceptBreakdown": [
+    {
+      "heading": "6.1 The Anilinium Meta-Nitration Anomaly",
+      "title": "6.1 The Anilinium Meta-Nitration Anomaly",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "47% Meta Product Rationale",
+        "takeaway": "In strong acid, aniline protonates to the Anilinium ion (Ph-NH\u2083\u207a). The positive charge makes it a strong -I/-M meta-director, directing 47% of nitration to the meta position."
+      },
+      "codeSnippet": "                    THE ANILINIUM META-NITRATION MECHANISM\n                    \n   In strongly acidic medium ($\\text{H}_2\\text{SO}_4$), basic aniline undergoes protonation:\n   $$\\text{Ph-NH}_2 + \\text{H}^+ \\rightleftharpoons \\mathbf{\\text{Ph-NH}_3^+ \\text{ (Anilinium Ion)}}$$\n   The **Anilinium Ion ($\\text{Ph-NH}_3^+$)** carries a positive charge on Nitrogen, making it a strong\n   **$-I / -M$ Meta-Director**, directing incoming $\\text{NO}_2^+$ to the *meta* position ($47\\%$)!\n\nProduct Yields: 51% p-Nitroaniline + 47% m-Nitroaniline + 2% o-Nitroaniline",
+      "content": "Direct nitration produces $47\\%$ $m$-nitroaniline because the strongly acidic $\text{H}_2\text{SO}_4$ protonates the basic amino group to $\text{Ph-NH}_3^+$, which deactivates the ring and directs substitution to the meta position."
+    },
+    {
+      "heading": "6.2 Sulfanilic Acid Zwitterion & Friedel-Crafts Failure",
+      "title": "6.2 Sulfanilic Acid Zwitterion & Friedel-Crafts Failure",
+      "type": "paragraph",
+      "codeSnippet": "SULFANILIC ACID ZWITTERION & FRIEDEL-CRAFTS INHIBITION:\n\n\u2022 Sulfonation: Ph-NH\u2082 + H\u2082SO\u2084 \u2500\u2500[453\u2013473 K]\u2500\u2500\u25ba H\u2082N-C\u2086H\u2084-SO\u2083H \u21cb \u207aH\u2083N-C\u2086H\u2084-SO\u2083\u207b (Zwitterion)\n\u2022 Friedel-Crafts Failure: Ph-NH\u2082 + AlCl\u2083 \u2500\u2500\u25ba Ph-NH\u2082\u207a-AlCl\u2083\u207b (Deactivating Complex; FAILS FC!)",
+      "content": "Sulfanilic acid exists as an internal dipolar Zwitterion ($^+\text{H}_3\text{N-C}_6\text{H}_4\text{-SO}_3^-$). Aniline fails Friedel-Crafts alkylation/acylation because the lone pair on $-\text{NH}_2$ binds the Lewis acid catalyst $\text{AlCl}_3$, forming a strongly deactivating complex."
+    }
+  ],
+  "quickRevision": [
+    "Aniline nitration at 288 K yields 51% p, 47% m, 2% o.",
+    "Anilinium ion (Ph-NH\u2083\u207a) is a -I/-M meta-director.",
+    "Sulfanilic acid exists as a dipolar Zwitterion (\u207aH\u2083N-C\u2086H\u2084-SO\u2083\u207b).",
+    "Aniline fails Friedel-Crafts reactions due to AlCl\u2083 complexation."
+  ],
+  "keyFormulae": [
+    "\\text{Aniline Nitration: } 51\\% \\ p\\text{-Nitro} + 47\\% \\ m\\text{-Nitro} + 2\\% \\ o\\text{-Nitro}"
+  ]
+}

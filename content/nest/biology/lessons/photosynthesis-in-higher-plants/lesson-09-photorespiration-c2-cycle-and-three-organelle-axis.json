@@ -1,0 +1,50 @@
+{
+  "id": "bio-xi-u4-c11-l09",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Photosynthesis in Higher Plants",
+  "chapterNumber": 11,
+  "chapterSlug": "photosynthesis-in-higher-plants",
+  "slug": "lesson-09-photorespiration-c2-cycle-and-three-organelle-axis",
+  "title": "Photorespiration (C₂ Cycle) & The Three-Organelle Axis",
+  "topic": "RuBisCO Oxygenase, 25% Carbon Loss, Chloroplast-Peroxisome-Mitochondria Cascade, & Glycine-Serine Reaction",
+  "topics": [
+    "Photorespiration Definition & RuBisCO Oxygenase Dual Activity",
+    "Primary Oxygenation: $\\text{RuBP} + \\text{O}_2 \\rightarrow \\text{3-PGA (3C)} + \\text{2-Phosphoglycolate (2C)}$",
+    "Net Energetic Waste: Consumes ATP and O2, Releases CO2, Produces NO ATP/NADPH (25% Carbon Loss)",
+    "Three-Organelle Cooperative Axis: Chloroplast -> Peroxisome -> Mitochondria",
+    "Peroxisomal Glycolate Oxidase & Catalase Scavenging of $\\text{H}_2\\text{O}_2$",
+    "Mitochondrial Glycine Decarboxylase ($2\\text{ Glycine} \\rightarrow 1\\text{ Serine} + \\text{CO}_2 + \\text{NH}_3 + \\text{NADH}$)",
+    "Return to Chloroplast: Hydroxypyruvate -> Glycerate -> Phosphorylation to 3-PGA"
+  ],
+  "order": 9,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Photorespiration (C2 cycle) is triggered when RuBisCO acts as an oxygenase under low CO2, high O2, and high temperatures, converting RuBP (5C) + O2 into 3-PGA (3C) and toxic 2-phosphoglycolate (2C). The scavenging cascade spans three organelles: Chloroplast (2-phosphoglycolate -> glycolate) -> Peroxisome (glycolate -> glyoxylate + H2O2 -> glycine) -> Mitochondria (2 Glycine -> 1 Serine + CO2 + NH3) -> Peroxisome (serine -> hydroxypyruvate -> glycerate) -> Chloroplast (glycerate + ATP -> 3-PGA). It results in a 25% net loss of fixed carbon without generating ATP or NADPH.",
+  "summary": "Photorespiration (C2 cycle) is triggered when RuBisCO acts as an oxygenase under low CO2, high O2, and high temperatures, converting RuBP (5C) + O2 into 3-PGA (3C) and toxic 2-phosphoglycolate (2C). The scavenging cascade spans three organelles: Chloroplast (2-phosphoglycolate -> glycolate) -> Peroxisome (glycolate -> glyoxylate + H2O2 -> glycine) -> Mitochondria (2 Glycine -> 1 Serine + CO2 + NH3) -> Peroxisome (serine -> hydroxypyruvate -> glycerate) -> Chloroplast (glycerate + ATP -> 3-PGA). It results in a 25% net loss of fixed carbon without generating ATP or NADPH.",
+  "conceptBreakdown": [
+    {
+      "heading": "8. The Photorespiratory C₂ Cycle Framework",
+      "title": "8. The Photorespiratory C₂ Cycle Framework",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "RuBisCO oxygenase produces 3-PGA (3C) + 2-phosphoglycolate (2C). Cooperatively operates across Chloroplast -> Peroxisome -> Mitochondria. 25% fixed carbon is lost as CO2."
+      },
+      "codeSnippet": "PHOTORESPIRATORY THREE-ORGANELLE AXIS\n                        \n   CHLOROPLAST                 PEROXISOME                  MITOCHONDRIA\n   RuBP + O₂                    Glycolate                  Glycine (2C) + Glycine (2C)\n     │                             │                             │\n   2-Phosphoglycolate ──► Glycolate ──► Glyoxylate ──► Glycine ──► Serine (3C) + CO₂ + NH₃\n     ▲                             ▲                             │\n   3-PGA ◄── Glycerate ◄───────────┴── Hydroxypyruvate ◄─────────┘",
+      "content": "Under elevated temperatures and high $\\text{O}_2:\\text{CO}_2$ ratios in $C_3$ plants, RuBisCO functions as an oxygenase:\n$$\\Large \\mathbf{\\text{RuBP (5C)} + \\text{O}_2 \\xrightarrow{\\text{RuBisCO Oxygenase}} \\text{3-PGA (3C)} + \\text{2-Phosphoglycolate (2C)}}$$\n• Results in **$25\\%$ loss of previously fixed carbon**, consumes $\\text{ATP}$ and $\\text{O}_2$, releases $\\text{CO}_2$, and produces **NO $\\text{ATP}$ or $\\text{NADPH}$**."
+    },
+    {
+      "heading": "8.1 Three-Organelle Enzymatic Steps",
+      "title": "8.1 Three-Organelle Enzymatic Steps",
+      "type": "paragraph",
+      "content": "1. **Chloroplast**: 2-Phosphoglycolate is dephosphorylated by phosphoglycolate phosphatase to form **Glycolate (2C)**, exported across the chloroplast envelope.\n2. **Peroxisome**: Glycolate is oxidized by **Glycolate Oxidase** to **Glyoxylate**, producing $\\text{H}_2\\text{O}_2$ (scavenged by **Catalase**). Glutamate-glyoxylate aminotransferase converts glyoxylate to the amino acid **Glycine (2C)**.\n3. **Mitochondria**: Two molecules of Glycine ($2\\text{C} + 2\\text{C}$) are converted by the **Glycine Decarboxylase Multienzyme Complex** into one molecule of **Serine (3C)**:\n   $$\\mathbf{2\\text{ Glycine (2C)} + \\text{NAD}^+ + \\text{H}_2\\text{O} \\longrightarrow 1\\text{ Serine (3C)} + 1\\text{ CO}_2\\uparrow + 1\\text{ NH}_3\\uparrow + 1\\text{ NADH} + \\text{H}^+}$$\n4. **Return Path**: Serine returns to the Peroxisome $\\rightarrow$ converted to Hydroxypyruvate $\\rightarrow$ reduced to Glycerate $\\rightarrow$ re-enters Chloroplast $\\rightarrow$ phosphorylated using **$1\\text{ ATP}$** by Glycerate Kinase to yield **3-PGA** (salvaging $75\\%$ of carbon)."
+    }
+  ]
+}

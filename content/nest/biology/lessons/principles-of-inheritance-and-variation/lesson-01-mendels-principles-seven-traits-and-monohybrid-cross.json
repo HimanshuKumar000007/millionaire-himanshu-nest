@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c4-l01",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Principles of Inheritance and Variation",
+  "chapterNumber": 4,
+  "chapterSlug": "principles-of-inheritance-and-variation",
+  "slug": "lesson-01-mendels-principles-seven-traits-and-monohybrid-cross",
+  "title": "Mendel's Principles, Seven Traits, & Monohybrid Cross",
+  "topic": "Gregor Mendel, Pisum sativum Traits, & Law of Segregation",
+  "order": 1,
+  "readingTimeMinutes": 15,
+  "estimatedTimeMinutes": 15,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Gregor Mendel (1856-1863) analyzed 7 pairs of contrasting traits on Chromosomes 1, 4, 5, 7 of Pisum sativum. Law of Dominance & Law of Segregation (Universal - purity of gametes). Monohybrid cross: F2 Phenotypic ratio 3:1, Genotypic ratio 1:2:1.",
+  "summary": "Gregor Mendel (1856-1863) analyzed 7 pairs of contrasting traits on Chromosomes 1, 4, 5, 7 of Pisum sativum. Law of Dominance & Law of Segregation (Universal - purity of gametes). Monohybrid cross: F2 Phenotypic ratio 3:1, Genotypic ratio 1:2:1.",
+  "conceptBreakdown": [
+    {
+      "heading": "Mendel's Experimental Foundations & Seven Pea Traits",
+      "title": "Mendel's Experimental Foundations & Seven Pea Traits",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Gregor Johann Mendel (1856–1863) conducted hybridization experiments on garden peas (Pisum sativum). Key advantages: bisexual self-pollinating flowers, clear qualitative contrasting traits, and short life cycle. Mendel studied 7 contrasting traits located on Chromosomes 1, 4, 5, and 7. Monohybrid cross yields F2 phenotypic ratio of 3:1 and genotypic ratio of 1:2:1."
+      },
+      "codeSnippet": "MENDEL'S EXPERIMENTAL ADVANTAGES\n                                         │\n         ┌───────────────────────────────┼───────────────────────────────┐\n         ▼                               ▼                               ▼\n  SEVEN CONSTRASTING TRAITS      BISEXUAL / SELF-POLLINATING     SHORT LIFE CYCLE\n  Clear-cut qualitative          Easy to self-fertilize or       Yields large number of\n  either-or characters.          artificially cross-pollinate.   offspring per generation.",
+      "content": "Gregor Johann Mendel established the bedrock of classical genetics through hybridization experiments on garden peas (*Pisum sativum*) from **1856 to 1863**.\n\n### 1.1 The Seven Contrasting Traits of *Pisum sativum*\n\n| Plant Trait | Dominant Character | Recessive Character | Chromosomal Location |\n| :--- | :--- | :--- | :--- |\n| **Stem Height** | Tall ($T$) | Dwarf ($t$) | **Chromosome 4** |\n| **Flower Color** | Violet ($W$) | White ($w$) | **Chromosome 1** |\n| **Flower Position** | Axial ($A$) | Terminal ($a$) | **Chromosome 4** |\n| **Pod Shape** | Inflated / Full ($V$) | Constricted ($v$) | **Chromosome 4** |\n| **Pod Color** | Green ($G$) | Yellow ($g$) | **Chromosome 5** |\n| **Seed Shape** | Round ($R$) | Wrinkled ($r$) | **Chromosome 7** |\n| **Seed Cotyledon Color** | Yellow ($Y$) | Green ($y$) | **Chromosome 1** |\n\n### 1.2 Mendel's Core Laws of Inheritance\n\n```\n                            MENDEL'S THREE LAWS\n                                     │\n     ┌───────────────────────────────┼───────────────────────────────┐\n     ▼                               ▼                               ▼\n1. LAW OF DOMINANCE             2. LAW OF SEGREGATION           3. LAW OF INDEPENDENT ASSORTMENT\nCharacters controlled by        Alleles in a pair segregate     Alleles of two different genes\ndiscrete factors (genes). In    during gamete formation so that segregate independently of one\nheterozygotes, one dominates.   each gamete gets only ONE.      another during meiosis.\n                                *(UNIVERSAL / NO EXCEPTION)*    *(Valid ONLY for unlinked genes)*\n```\n\n### 1.3 Monohybrid Cross Mechanics\n\n$$\\text{Monohybrid Cross: } TT \\text{ (Tall)} \\times tt \\text{ (Dwarf)} \\longrightarrow F_1: Tt \\text{ (Tall)}$$\n\n$$F_1 \\text{ Selfing } (Tt \\times Tt) \\longrightarrow F_2 \\text{ Phenotypic Ratio} = \\mathbf{3:1} \\text{ (3 Tall : 1 Dwarf)}$$\n\n$$F_2 \\text{ Genotypic Ratio} = \\mathbf{1:2:1} \\text{ (1 } TT : 2 Tt : 1 tt)$$"
+    },
+    {
+      "heading": "Emasculation and Bagging Protocol",
+      "title": "Emasculation and Bagging Protocol",
+      "type": "paragraph",
+      "content": "To prevent self-pollination in female parents, anthers are removed before dehiscence using forceps (Emasculation) and covered with a butter paper bag (Bagging) until stigma receptivity is reached."
+    },
+    {
+      "heading": "Universal Purity of Gametes",
+      "title": "Universal Purity of Gametes",
+      "type": "paragraph",
+      "content": "The Law of Segregation is universal and has NO biological exceptions: heterozygous individuals (Tt) segregate pure gametes (50% T and 50% t) during meiotic anaphase I without any blending."
+    }
+  ]
+}

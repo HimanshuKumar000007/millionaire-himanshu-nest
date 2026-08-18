@@ -1,0 +1,61 @@
+{
+  "id": "chem-xi-u6-c6-l03",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VI \u2014 Equilibrium",
+  "unitNumber": 6,
+  "chapter": "Equilibrium",
+  "chapterNumber": 6,
+  "chapterSlug": "equilibrium",
+  "slug": "lesson-03-le-chatelier-principle-perturbations",
+  "title": "Le Chatelier\u2019s Principle: Perturbations, Inert Gas Effects & Shifts",
+  "topic": "Le Chatelier's Principle",
+  "topics": [
+    "Le Chatelier's Principle Definition",
+    "Le Chatelier Response Decision Tree",
+    "Detailed Perturbation Matrix (Concentration, Pressure, Volume, Temperature)",
+    "Inert Gas Addition: Constant Volume vs Constant Pressure",
+    "Role of Catalysts on Equilibrium State"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "le-chatelier",
+  "quickSummary": "Le Chatelier's principle states a system shifts to counteract applied changes. Adding inert gas at constant volume causes NO shift; at constant pressure, it shifts toward more gas moles. Catalysts speed attainment without altering K.",
+  "summary": "Master the complete perturbation decision tree and detailed operational matrix under Le Chatelier's principle.",
+  "conceptBreakdown": [
+    {
+      "heading": "3.1 Le Chatelier Decision Tree & Core Axiom",
+      "title": "3.1 Le Chatelier Decision Tree & Core Axiom",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Le Chatelier's Principle",
+        "takeaway": "If perturbed, equilibrium shifts to minimize the disturbance. Inert gas at const V: NO SHIFT. Catalyst: NO SHIFT."
+      },
+      "codeSnippet": "LE CHATELIER RESPONSE DECISION TREE\n                                         \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                  \u25bc               \u25bc               \u25bc                  \u25bc\nCONCENTRATION       PRESSURE            TEMPERATURE     INERT GAS (Const V)INERT GAS (Const P)\n\u251c\u2500\u2500 Add Reactant \u2500\u2500\u25ba\u251c\u2500\u2500 Increase $P$ \u2500\u2500\u25ba\u251c\u2500\u2500 Increase $T$ \u2500\u2500\u25ba No Effect on      Volume increases \u2500\u2500\u25ba\n\u2502   Shift Right     \u2502   Shifts to FEWER \u2502   Shifts ENDO  \u2502   Equilibrium!   Shifts to MORE\n\u2514\u2500\u2500 Remove Product \u2500\u2524   gaseous moles   \u2514\u2500\u2500 Decrease $T$ \u2500\u2500\u25ba (\u0394n_g unchanged) gaseous moles\n    Shift Right     \u2514\u2500\u2500 Decrease $P$        Shifts EXO                     (\u0394n_g > 0).",
+      "content": "\"If a chemical system at dynamic equilibrium is subjected to a change in concentration, temperature, pressure, or volume, the equilibrium shifts in a direction that counteracts/minimizes the applied perturbation.\""
+    },
+    {
+      "heading": "3.2 Detailed Perturbation Matrix",
+      "title": "3.2 Detailed Perturbation Matrix",
+      "type": "paragraph",
+      "content": "\u2022 **Increase [Reactant]**: Shifts **Forward (Right)** ($Q < K$). $K$ is unchanged.\n\u2022 **Increase [Product]**: Shifts **Backward (Left)** ($Q > K$). $K$ is unchanged.\n\u2022 **Increase Total Pressure ($P$)**: Shifts toward **fewer gaseous moles** ($\\Delta n_g$). $K$ is unchanged.\n\u2022 **Increase Temperature ($T$)**: Shifts in **Endothermic direction** ($\\Delta H > 0$). **ALTERS $K$** ($K \\uparrow$ for Endo, $K \\downarrow$ for Exo).\n\u2022 **Addition of Inert Gas (at Const $V$)**: **NO SHIFT** (partial pressures $P_i$ of reacting gases remain unchanged). $K$ is unchanged.\n\u2022 **Addition of Inert Gas (at Const $P$)**: Shifts toward **greater gaseous moles** ($\\Delta n_g > 0$) because total volume expands, lowering partial pressures. $K$ is unchanged.\n\u2022 **Addition of Catalyst**: **NO SHIFT** (lowers $E_a$ equally for both forward and reverse paths). $K$ is unchanged."
+    }
+  ],
+  "quickRevision": [
+    "Inert gas at const V: No shift in equilibrium position.",
+    "Inert gas at const P: Shifts toward side with more gas moles.",
+    "Increasing pressure shifts toward fewer gas moles.",
+    "Heating favors endothermic direction; cooling favors exothermic direction.",
+    "Only temperature can alter the numerical value of K."
+  ],
+  "keyFormulae": [
+    "Q < K \u27f9 Forward Shift",
+    "Q > K \u27f9 Backward Shift",
+    "Q = K \u27f9 Dynamic Equilibrium"
+  ]
+}

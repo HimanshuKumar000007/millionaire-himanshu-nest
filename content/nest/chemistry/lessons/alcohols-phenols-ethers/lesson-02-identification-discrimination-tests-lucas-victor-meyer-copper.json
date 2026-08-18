@@ -1,0 +1,59 @@
+{
+  "id": "chem-xii-u16-c7-l02",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVI \u2014 Alcohols, Phenols and Ethers",
+  "unitNumber": 16,
+  "chapter": "Alcohols, Phenols and Ethers",
+  "chapterNumber": 7,
+  "chapterSlug": "alcohols-phenols-ethers",
+  "slug": "lesson-02-identification-discrimination-tests-lucas-victor-meyer-copper",
+  "title": "Identification & Discrimination Tests (1\u00b0, 2\u00b0, 3\u00b0 Alcohols)",
+  "topic": "Alcohol Discrimination Tests",
+  "topics": [
+    "2. Diagnostic Test Summary for Primary, Secondary, and Tertiary Alcohols",
+    "2.1 The Lucas Test (Conc. HCl + Anhyd. ZnCl\u2082): Turbidity Speeds (3\u00b0 immediate, 2\u00b0 in 5\u201310 min, 1\u00b0 on heating via S_N1)",
+    "2.2 The Victor Meyer Test (R-B-C Test): 1\u00b0 \u2500\u2500\u25ba Nitrolic Acid (Blood-Red), 2\u00b0 \u2500\u2500\u25ba Pseudonitrol (Blue), 3\u00b0 \u2500\u2500\u25ba Colorless",
+    "2.3 Dehydrogenation Over Hot Copper (Cu at 573 K / 300\u00b0C)",
+    "1\u00b0 Alcohol \u2500\u2500\u25ba Aldehyde + H\u2082, 2\u00b0 Alcohol \u2500\u2500\u25ba Ketone + H\u2082, 3\u00b0 Alcohol \u2500\u2500\u25ba Isobutene (Alkene) + H\u2082O (Dehydration!)"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "alcohols-phenols-ethers",
+  "quickSummary": "Lucas test (Conc. HCl + Anhyd. ZnCl\u2082): 3\u00b0 immediate turbidity, 2\u00b0 in 5\u201310 min, 1\u00b0 only on heating. Victor Meyer test (R-B-C): 1\u00b0 = Blood-Red (nitrolic acid), 2\u00b0 = Blue (pseudonitrol), 3\u00b0 = Colorless. Cu at 573 K: 1\u00b0 \u2500\u2500\u25ba Aldehyde, 2\u00b0 \u2500\u2500\u25ba Ketone, 3\u00b0 \u2500\u2500\u25ba Alkene (Dehydration).",
+  "summary": "Master diagnostic laboratory discrimination tests for primary, secondary, and tertiary alcohols.",
+  "conceptBreakdown": [
+    {
+      "heading": "2. The Lucas & Victor Meyer Discrimination Tests",
+      "title": "2. The Lucas & Victor Meyer Discrimination Tests",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Diagnostic Rules",
+        "takeaway": "Lucas Test: 3\u00b0 immediate, 2\u00b0 in 5\u201310 min, 1\u00b0 only on heating. Victor Meyer: 1\u00b0 = Red, 2\u00b0 = Blue, 3\u00b0 = Colorless (R-B-C)."
+      },
+      "codeSnippet": "                         DIAGNOSTIC TEST SUMMARY\n                                     \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                           \u25bc                           \u25bc\n   LUCAS TEST                  VICTOR MEYER TEST            HOT COPPER CATALYSIS\n   Conc. $\\text{HCl}$ + Anhyd. $\\text{ZnCl}_2$ Red $\\text{P}+\\text{I}_2 \\rightarrow \\text{AgNO}_2 \\rightarrow \\text{HNO}_2$ Vapors passed over $\\text{Cu}$ at $573\\text{ K}$\n   (Turbidity of $\\text{R-Cl}$)  $\\rightarrow \\text{NaOH} \\implies$ **R-B-C Color**  ($1^\\circ/2^\\circ \\to \\text{Carbonyl}$; $3^\\circ \\to \\text{Alkene}$)\n\n                        VICTOR MEYER COLOR MATRIX\n                        \n   1. PRIMARY ($1^\\circ$) ALCOHOL   \u2500\u2500\u25ba Forms Nitrolic Acid   \u2500\u2500\u25ba **BLOOD-RED COLOR**\n   2. SECONDARY ($2^\\circ$) ALCOHOL \u2500\u2500\u25ba Forms Pseudonitrol    \u2500\u2500\u25ba **BLUE COLOR**\n   3. TERTIARY ($3^\\circ$) ALCOHOL  \u2500\u2500\u25ba Lacks $\\alpha$-Hydrogen    \u2500\u2500\u25ba **COLORLESS**",
+      "content": "- **The Lucas Test**: $\\text{R-OH} + \\text{HCl} \\xrightarrow{\\text{Anhyd. }\\text{ZnCl}_2} \\mathbf{\\text{R-Cl} \\downarrow \\text{ (Turbidity)}} + \\text{H}_2\\text{O}$. $3^\\circ$ gives immediate turbidity; $2^\\circ$ in 5\u201310 min; $1^\\circ$ only upon heating.\n- **The Victor Meyer Test**: Alcohol $\\to$ Iodide $\\to$ Nitroalkane $\\to$ Reaction with $\\text{HNO}_2 \\to$ Alkali addition gives Blood-Red ($1^\\circ$), Blue ($2^\\circ$), or Colorless ($3^\\circ$)."
+    },
+    {
+      "heading": "2.3 Dehydrogenation Over Hot Copper (573 K / 300\u00b0C)",
+      "title": "2.3 Dehydrogenation Over Hot Copper (573 K / 300\u00b0C)",
+      "type": "paragraph",
+      "codeSnippet": "DEHYDROGENATION / DEHYDRATION OVER HOT COPPER (573 K):\n\n\u2022 Primary (1\u00b0) Alcohol:   R-CH\u2082OH \u2500\u2500[Cu/573 K]\u2500\u2500\u25ba R-CHO (Aldehyde) + H\u2082 \u2191\n\u2022 Secondary (2\u00b0) Alcohol: R\u2082CHOH  \u2500\u2500[Cu/573 K]\u2500\u2500\u25ba R\u2082C=O (Ketone) + H\u2082 \u2191\n\u2022 Tertiary (3\u00b0) Alcohol:  (CH\u2083)\u2083C-OH \u2500\u2500[Cu/573 K]\u2500\u2500\u25ba (CH\u2083)\u2082C=CH\u2082 (Isobutene) + H\u2082O (DEHYDRATION!)",
+      "content": "Passing vapors over metallic copper at $573\\text{ K}$ dehydrogenates $1^\\circ$ alcohols to aldehydes and $2^\\circ$ alcohols to ketones, but causes **catalytic dehydration** of $3^\\circ$ alcohols into alkenes (e.g., isobutene)."
+    }
+  ],
+  "quickRevision": [
+    "Lucas Test: 3\u00b0 immediate turbidity, 2\u00b0 in 5\u201310 min, 1\u00b0 only upon heating.",
+    "Victor Meyer: 1\u00b0 = Blood-Red (nitrolic acid), 2\u00b0 = Blue (pseudonitrol), 3\u00b0 = Colorless.",
+    "Hot Cu (573 K): 1\u00b0 \u2500\u2500\u25ba Aldehyde + H\u2082, 2\u00b0 \u2500\u2500\u25ba Ketone + H\u2082, 3\u00b0 \u2500\u2500\u25ba Alkene + H\u2082O (dehydration)."
+  ],
+  "keyFormulae": [
+    "\\text{Lucas Reaction: } \\text{R-OH} + \\text{HCl} \\xrightarrow{\\text{Anhyd. }\\text{ZnCl}_2} \\text{R-Cl} \\downarrow + \\text{H}_2\\text{O}",
+    "3^\\circ \\text{ Alcohol} \\xrightarrow{\\text{Cu / } 573\\text{ K}} \\text{Alkene (Dehydration)}"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u13-c4-l01",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XIII \u2014 d- and f-Block Elements",
+  "unitNumber": 13,
+  "chapter": "d- and f-Block Elements",
+  "chapterNumber": 4,
+  "chapterSlug": "d-and-f-block-elements",
+  "slug": "lesson-01-d-block-overview-electronic-configurations-atomization-enthalpies",
+  "title": "d-Block Overview, 3d Electronic Architecture, & Atomization Enthalpies",
+  "topic": "d-Block Overview & Atomization",
+  "topics": [
+    "d-Block Taxonomy & Exclusions (True Transition vs Pseudo-Transition Group 12 Elements: Zn, Cd, Hg)",
+    "General Outer Electronic Configuration ((n-1)d^(1-10) ns^(1-2))",
+    "Ground-State Anomalies in 3d Series (Chromium [Ar] 3d\u2075 4s\u00b9 & Copper [Ar] 3d\u00b9\u2070 4s\u00b9)",
+    "Enthalpy of Atomization (\u0394_a H\u00b0) & Metallic/Covalent Overlap Trends",
+    "The Manganese Anomaly (Mn 3d\u2075 4s\u00b2, 281 kJ/mol dip) & Group 12 Minimal \u0394_a H\u00b0 (Zn 126 kJ/mol)"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "d-and-f-block-elements",
+  "quickSummary": "d-Block elements occupy Groups 3 to 12. Transition elements have partially filled (n-1)d^(1-9) subshells. Zn, Cd, Hg are pseudo-transition elements with d\u00b9\u2070 subshells in all states. High \u0394_a H\u00b0 results from metallic + covalent bonding. Manganese has an anomalously low \u0394_a H\u00b0 (281 kJ/mol) because half-filled 3d\u2075 localizes electrons.",
+  "summary": "Master transition element definitions, ground-state configurations, atomization enthalpy trends, and the manganese anomaly.",
+  "conceptBreakdown": [
+    {
+      "heading": "1. d-Block Overview & Electronic Architecture",
+      "title": "1. d-Block Overview & Electronic Architecture",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Transition Elements Taxonomy",
+        "takeaway": "Transition elements have incomplete d^(1-9) subshells. Group 12 (Zn, Cd, Hg) are non-transition / pseudo-transition elements (d\u00b9\u2070 in ground & all ionic states)."
+      },
+      "codeSnippet": "                         d-BLOCK TAXONOMY & EXCLUSIONS\n                                       \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                                                                   \u25bc\n  TRUE TRANSITION ELEMENTS                                 PSEUDO-TRANSITION ELEMENTS\n  Possess incomplete $(n-1)d^{1-9}$ subshells.            Group 12 ($\\text{Zn, Cd, Hg}$): Possess completely\n  \u251c\u2500\u2500 $3d$ Series: $\\text{Sc } (Z=21) \\rightarrow \\text{Cu } (Z=29)$  filled $d^{10}$ subshells in ground state AND\n  \u2514\u2500\u2500 Displays variable OS, color, & magnetism             all oxidation states ($\\text{Zn}^{2+}: 3d^{10}$).",
+      "content": "The d-Block Elements occupy Groups 3 to 12 of the periodic table, where $(n-1)d$ subshells are progressively filled. A Transition Element is defined as an element possessing partially filled d-orbitals in its neutral ground-state atom or in any of its common oxidation states.\n\n- **General Outer Electronic Configuration**:\n$$\\mathbf{(n-1)d^{1-10} \\, ns^{1-2}}$$\n\n- **Ground-State Anomalies in 3d Series**:\n  - **Chromium ($\\text{Cr}, Z=24$)**: $[\\text{Ar}] 3d^5 4s^1$ (Half-filled $3d^5$ subshell stability)\n  - **Copper ($\\text{Cu}, Z=29$)**: $[\\text{Ar}] 3d^{10} 4s^1$ (Fully-filled $3d^{10}$ subshell stability)"
+    },
+    {
+      "heading": "1.1 Enthalpy of Atomization (\u0394_a H\u00b0) & Metallic Bonding",
+      "title": "1.1 Enthalpy of Atomization (\u0394_a H\u00b0) & Metallic Bonding",
+      "type": "paragraph",
+      "codeSnippet": "                    $3d$ SERIES ENTHALPY OF ATOMIZATION TREND\n                    \n   $\\Delta_a H^\\circ$ (kJ/mol) \u25b2\n                    \u2502         /\\\n                    \u2502        /  \\     /\\\n                    \u2502  Sc\u2500\u2500\u2500/    \\\u2500\u2500\u2500/  \\\n                    \u2502      V     Cr  Fe  \\\n                    \u2502                     \\\u2500\u2500\u2500 Cu \u2500\u2500\u2500 Zn (Lowest $\\Delta_a H^\\circ$)\n                    \u2502             Mn (ANOMALOUS DIP!)\n                    \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25ba $3d$ Element ($Z$)",
+      "content": "Transition metals possess high melting points, boiling points, and high Enthalpies of Atomization ($\\Delta_a H^\\circ$) due to strong metallic bonding resulting from overlapping $ns$ electrons combined with covalent bonding from unpaired $(n-1)d$ electrons.\n\n- **The Manganese Anomaly ($\\text{Mn}, Z=25$)**: Manganese ($3d^5 4s^2$) possesses 5 unpaired d-electrons, yet exhibits an unusually low melting point and low $\\Delta_a H^\\circ$ ($281\\text{ kJ/mol}$).\n  - **Cause**: The stable half-filled $3d^5$ configuration holds its d-electrons tightly localized around individual nuclei, minimizing d-d inter-atomic orbital overlap and reducing covalent character in the metallic lattice.\n- **Group 12 Minimal $\\Delta_a H^\\circ$**: Zinc ($\\text{Zn}, 126\\text{ kJ/mol}$) has no unpaired d-electrons ($3d^{10} 4s^2$); bonding is mediated purely by weak $4s$ electrons."
+    }
+  ],
+  "quickRevision": [
+    "General outer configuration: (n-1)d^(1-10) ns^(1-2).",
+    "Cr is [Ar] 3d\u2075 4s\u00b9; Cu is [Ar] 3d\u00b9\u2070 4s\u00b9.",
+    "Zn, Cd, Hg are pseudo-transition metals (d\u00b9\u2070 in all states).",
+    "Manganese has an anomalously low \u0394_a H\u00b0 (281 kJ/mol) due to tightly localized 3d\u2075 electrons.",
+    "Zinc has the lowest \u0394_a H\u00b0 (126 kJ/mol) due to 0 unpaired d-electrons."
+  ],
+  "keyFormulae": [
+    "\\text{Outer Configuration: } (n-1)d^{1-10} \\, ns^{1-2}",
+    "\\text{Manganese } \\Delta_a H^\\circ = 281\\text{ kJ/mol}, \\quad \\text{Zinc } \\Delta_a H^\\circ = 126\\text{ kJ/mol}"
+  ]
+}

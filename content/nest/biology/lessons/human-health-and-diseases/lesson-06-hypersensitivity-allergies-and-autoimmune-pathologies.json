@@ -1,0 +1,51 @@
+{
+  "id": "bio-xii-u8-c7-l06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VIII — Biology in Human Welfare",
+  "unitNumber": 8,
+  "chapter": "Human Health and Diseases",
+  "chapterNumber": 7,
+  "chapterSlug": "human-health-and-diseases",
+  "slug": "lesson-06-hypersensitivity-allergies-and-autoimmune-pathologies",
+  "title": "Hypersensitivity (Allergies) & Autoimmune Pathologies",
+  "topic": "Type I IgE Allergy Cascade, Histamine/Serotonin, Anaphylaxis, & Autoimmune Breakdown",
+  "order": 6,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Allergies (Type I Hypersensitivity): Allergen triggers IgE production -> binds Fc receptors on Mast cells and Basophils -> allergen cross-linking induces degranulation releasing Histamine and Serotonin (treated with Antihistamines, Adrenaline, Corticosteroids). Autoimmunity: breakdown of self-tolerance (Rheumatoid arthritis, Myasthenia gravis, Hashimoto's thyroiditis, Type 1 diabetes).",
+  "summary": "Allergies (Type I Hypersensitivity): Allergen triggers IgE production -> binds Fc receptors on Mast cells and Basophils -> allergen cross-linking induces degranulation releasing Histamine and Serotonin (treated with Antihistamines, Adrenaline, Corticosteroids). Autoimmunity: breakdown of self-tolerance (Rheumatoid arthritis, Myasthenia gravis, Hashimoto's thyroiditis, Type 1 diabetes).",
+  "conceptBreakdown": [
+    {
+      "heading": "Allergic Hypersensitivity Cascade & Autoimmune Pathologies",
+      "title": "Allergic Hypersensitivity Cascade & Autoimmune Pathologies",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Allergies are exaggerated Type I hypersensitivity responses driven by IgE binding to mast cells, releasing histamine and serotonin. Treatment utilizes antihistamines, epinephrine, and corticosteroids. Autoimmunity arises when immunological self-tolerance fails, causing auto-antibodies and autoreactive T-cells to destroy self-tissues."
+      },
+      "codeSnippet": "ALLERGIC HYPERSENSITIVITY CASCADE\n                         \n   First Exposure to Allergen ──► B-cells produce excess IgE Antibodies\n                                             │\n   IgE binds Fc receptors on Mast Cells and Basophils\n                                             │\n   Re-exposure to Allergen ──► Allergen cross-links IgE ──► Mast Cell Degranulation\n                                             │\n   Releases Vasoactive Amines: Histamine and Serotonin\n                                             │\n   Symptoms: Vasodilation, broncho-spasm, watery eyes, running nose, Anaphylaxis",
+      "content": "### 6.1 Allergic Hypersensitivity (Type I Reaction)\n- **Allergen**: Non-pathogenic environmental antigens (e.g., pollen grains, dust mites, pet dander, penicillin, bee venom).\n- **Molecular Mechanism**:\n  1. **Sensitization Phase**: Initial exposure to allergen induces class-switching in B-lymphocytes to produce high levels of **$\\text{IgE}$ antibodies**.\n  2. **Effector Phase**: $\\text{IgE}$ binds firmly via its constant region to high-affinity $\\text{Fc}\\epsilon\\text{RI}$ receptors on tissue **Mast Cells** and circulating **Basophils**.\n  3. **Degranulation**: Subsequent re-exposure to the allergen causes allergen molecules to cross-link adjacent membrane-bound $\\text{IgE}$ molecules, triggering explosive exocytosis (degranulation) of pre-formed basophilic granules.\n  4. **Chemical Mediators**: Releases **Histamine**, **Serotonin**, leukotrienes, and prostaglandins.\n  5. **Clinical Manifestations**: Peripheral vasodilation, increased capillary permeability (edema), broncho-constriction (asthma), watery eyes, sneezing, and systemic **Anaphylactic Shock** (life-threatening collapse in blood pressure).\n- **Pharmacological Intervention**: **Antihistamines**, **Adrenaline (Epinephrine)**, and **Corticosteroids** rapidly reverse bronchospasm and hypotension.\n\n### 6.2 Autoimmune Diseases (Loss of Self-Tolerance)\n\n```\n                        KEY AUTOIMMUNE DISEASES\n                        \n   1. RHEUMATOID ARTHRITIS ──► Auto-antibodies (Rheumatoid Factor - IgM) attack synovial membranes.\n   2. MYASTHENIA GRAVIS   ──► Auto-antibodies block Nicotinic Acetylcholine Receptors at NMJ.\n   3. TYPE 1 DIABETES     ──► Autoimmune destruction of pancreatic β-cells.\n   4. HASHIMOTO'S DISEASE ──► Auto-antibodies destroy thyroid follicular cells (\"Thyroid Suicide\").\n   5. MULTIPLE SCLEROSIS   ──► Autoimmune destruction of CNS myelin sheaths.\n```"
+    },
+    {
+      "heading": "Central vs Peripheral Tolerance",
+      "title": "Central vs Peripheral Tolerance",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Central tolerance in thymus (AIRE-mediated negative selection) and bone marrow eliminates autoreactive immature lymphocytes; peripheral tolerance (Anergy, Treg suppression) silences escaped autoreactive cells."
+      },
+      "content": "Central tolerance in the thymus eliminates autoreactive T-cell clones through negative selection mediated by the AIRE (Autoimmune Regulator) transcription factor; breakdown in central or peripheral regulatory T-cell (Treg) suppression triggers clinical autoimmune diseases."
+    },
+    {
+      "heading": "Hygiene Hypothesis",
+      "title": "Hygiene Hypothesis",
+      "type": "paragraph",
+      "content": "The hygiene hypothesis suggests that modern sterile environments and reduced childhood exposure to diverse microbes skew immune development toward Th2 responses, increasing the prevalence of asthma and atopic allergies."
+    }
+  ]
+}

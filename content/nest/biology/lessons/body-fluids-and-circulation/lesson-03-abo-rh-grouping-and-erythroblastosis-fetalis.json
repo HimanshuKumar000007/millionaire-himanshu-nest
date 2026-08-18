@@ -1,0 +1,35 @@
+{
+  "id": "bio-xi-u5-c15-l03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Body Fluids and Circulation",
+  "chapterNumber": 15,
+  "chapterSlug": "body-fluids-and-circulation",
+  "slug": "lesson-03-abo-rh-grouping-and-erythroblastosis-fetalis",
+  "title": "ABO & Rh Blood Grouping Systems & Erythroblastosis Fetalis",
+  "topic": "Immunohematology & Rh Incompatibility",
+  "order": 3,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Landsteiner ABO grouping genetics, codominance, universal donor (O) and recipient (AB) rules, and the complete Rh incompatibility cascade (Erythroblastosis Fetalis) with RhoGAM prevention.",
+  "summary": "Landsteiner ABO grouping genetics, codominance, universal donor (O) and recipient (AB) rules, and the complete Rh incompatibility cascade (Erythroblastosis Fetalis) with RhoGAM prevention.",
+  "conceptBreakdown": [
+    {
+      "heading": "ABO & Rh Blood Grouping Systems & Erythroblastosis Fetalis",
+      "title": "ABO & Rh Blood Grouping Systems & Erythroblastosis Fetalis",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "ABO is controlled by I gene (IA, IB, i). Group O is universal donor; Group AB is universal recipient. Erythroblastosis fetalis occurs when an Rh- mother carries a second Rh+ fetus (prevented by RhoGAM anti-D IgG)."
+      },
+      "codeSnippet": "ABO GENETICS & COMPATIBILITY\n                         \n   GENOTYPE        BLOOD GROUP    SURFACE ANTIGEN    PLASMA ANTIBODY    CAN DONATE TO    CAN RECEIVE FROM\n   $I^A I^A / I^A i$    Group A        Antigen A          Anti-B             A, AB            A, O\n   $I^B I^B / I^B i$    Group B        Antigen B          Anti-A             B, AB            B, O\n   $I^A I^B$            Group AB       Antigen A & B      NONE               AB Only          ALL (Recipient)\n   $ii$                 Group O        NONE               Anti-A & Anti-B    ALL (Donor)      O Only",
+      "content": "### 2.1 The ABO Blood Group System (Karl Landsteiner, 1900)\nDetermined by the presence or absence of two surface carbohydrate antigens (**Antigen A** and **Antigen B**) on the RBC membrane, controlled by the $I$ gene ($\\text{ABO}$ locus on chromosome 9) with three alleles ($I^A, I^B, i$). $I^A$ and $I^B$ show codominance ($I^A I^B \\rightarrow \\text{Group AB}$).\n\n### 2.2 The Rh System & Erythroblastosis Fetalis\nThe **Rh Antigen (D Antigen)** is an inherited protein present on the RBC membrane of $\\approx 80\\%$ of humans ($\\text{Rh}^+$ positive). Individuals lacking this antigen are $\\text{Rh}^-$ negative.\n\n```\n                      ERYTHROBLASTOSIS FETALIS CASCADE\n                      \n   Mother ($\\text{Rh}^-$) carrying First $\\text{Rh}^+$ Fetus ──► Fetal $\\text{Rh}^+$ blood leaks into mother during delivery\n                                                                     │\n   Mother produces anti-$\\text{Rh}$ IgG antibodies ◄─────────────────────────┘\n                                     │\n   Second $\\text{Rh}^+$ Pregnancy ──► Maternal anti-$\\text{Rh}$ IgG crosses placenta into fetal circulation\n                                     │\n   Fetal RBC Hemolysis ──► Severe Anemia, Jaundice, & Kernicterus (**Erythroblastosis Fetalis**)\n```\n\n* **Clinical Prevention**: Administering anti-$\\text{Rh}$ antibodies (**RhoGAM / Anti-D Immunoglobulin**) to the $\\text{Rh}^-$ mother immediately after the delivery of the first $\\text{Rh}^+$ child neutralizes fetal $\\text{Rh}^+$ RBCs before maternal sensitization occurs."
+    }
+  ]
+}

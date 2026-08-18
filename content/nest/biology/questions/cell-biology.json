@@ -1,0 +1,88 @@
+[
+  {
+    "id": "bio-cell-001",
+    "exam": "NEST",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Organelles",
+    "difficulty": "Core Foundation",
+    "status": "published",
+    "source": "development-example",
+    "questionType": "MCQ",
+    "questionText": "Which organelle is responsible for the synthesis of lipids and steroidal hormones in animal cells?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rough Endoplasmic Reticulum (RER)",
+        "isCorrect": false,
+        "explanation": "RER is covered with ribosomes and is primarily involved in protein synthesis."
+      },
+      {
+        "id": "b",
+        "text": "Smooth Endoplasmic Reticulum (SER)",
+        "isCorrect": true,
+        "explanation": "SER lacks ribosomes and is the major site for lipid synthesis, phospholipid formation, and steroid hormone synthesis."
+      },
+      {
+        "id": "c",
+        "text": "Golgi Apparatus",
+        "isCorrect": false,
+        "explanation": "Golgi apparatus modifies, sorts, and packages proteins received from the ER."
+      },
+      {
+        "id": "d",
+        "text": "Lysosomes",
+        "isCorrect": false,
+        "explanation": "Lysosomes contain hydrolytic enzymes for intracellular digestion."
+      }
+    ],
+    "solutionExplanation": "The Smooth Endoplasmic Reticulum (SER) is specialized for lipid synthesis, detoxification of drugs/xenobiotics, and synthesis of steroidal hormones (e.g. testosterone, estrogen) in animal cells.",
+    "keyFormulae": ["SER -> Lipid & Steroid Synthesis", "RER -> Protein Synthesis"],
+    "hints": ["Consider which ER type lacks ribosomes."],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "bio-cell-002",
+    "exam": "NEST",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Semi-Autonomous Organelles",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "development-example",
+    "questionType": "MSQ",
+    "questionText": "Which of the following cellular structures possess their own circular DNA molecules and 70S ribosomes? (Select all that apply)",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mitochondria",
+        "isCorrect": true,
+        "explanation": "Mitochondria contain double-stranded circular DNA and 70S ribosomes."
+      },
+      {
+        "id": "b",
+        "text": "Chloroplasts",
+        "isCorrect": true,
+        "explanation": "Chloroplasts possess circular DNA (cpDNA) and 70S ribosomes, reflecting endosymbiotic origins."
+      },
+      {
+        "id": "c",
+        "text": "Nucleolus",
+        "isCorrect": false,
+        "explanation": "Nucleolus is a non-membrane-bound site inside the nucleus for rRNA synthesis."
+      },
+      {
+        "id": "d",
+        "text": "Peroxisomes",
+        "isCorrect": false,
+        "explanation": "Peroxisomes lack DNA and ribosomes; their proteins are imported from cytoplasm."
+      }
+    ],
+    "solutionExplanation": "Mitochondria and Chloroplasts are semi-autonomous organelles containing their own naked circular DNA and 70S ribosomes (similar to prokaryotes). Thus, A and B are correct.",
+    "keyFormulae": ["Endosymbiotic organelles: Mitochondria & Chloroplasts (Circular DNA + 70S ribosomes)"],
+    "hints": ["Recall endosymbiotic theory organelles."],
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

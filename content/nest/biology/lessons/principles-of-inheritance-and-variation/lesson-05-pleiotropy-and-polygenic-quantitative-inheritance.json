@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c4-l05",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Principles of Inheritance and Variation",
+  "chapterNumber": 4,
+  "chapterSlug": "principles-of-inheritance-and-variation",
+  "slug": "lesson-05-pleiotropy-and-polygenic-quantitative-inheritance",
+  "title": "Pleiotropy & Polygenic Quantitative Inheritance",
+  "topic": "Pleiotropy (PKU, Pea Starch) & Polygenic Skin Color (1:6:15:20:15:6:1)",
+  "order": 5,
+  "readingTimeMinutes": 15,
+  "estimatedTimeMinutes": 15,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Pleiotropy: single gene influences multiple phenotypic traits (Phenylketonuria PKU, Starch grain size vs seed shape in peas). Polygenic inheritance: multiple additive genes control a single continuous quantitative trait (Human Skin Color: 3 genes A,B,C yielding 1:6:15:20:15:6:1 distribution in F2).",
+  "summary": "Pleiotropy: single gene influences multiple phenotypic traits (Phenylketonuria PKU, Starch grain size vs seed shape in peas). Polygenic inheritance: multiple additive genes control a single continuous quantitative trait (Human Skin Color: 3 genes A,B,C yielding 1:6:15:20:15:6:1 distribution in F2).",
+  "conceptBreakdown": [
+    {
+      "heading": "Pleiotropy vs. Polygenic Inheritance",
+      "title": "Pleiotropy vs. Polygenic Inheritance",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Pleiotropy occurs when one single gene influences multiple, distinct phenotypic traits (e.g. PKU enzyme mutation causing mental retardation and hypopigmentation; Pea starch Bb gene). Polygenic inheritance occurs when multiple additive gene pairs control a single continuous trait (e.g. Human skin color A, B, C genes yielding a 1:6:15:20:15:6:1 Gaussian distribution across 64 combinations)."
+      },
+      "codeSnippet": "PLEIOTROPY vs POLYGENIC INHERITANCE\n                                       │\n         ┌─────────────────────────────┴─────────────────────────────┐\n         ▼                                                           ▼\n   PLEIOTROPY                                              POLYGENIC INHERITANCE\n   ONE single gene influences MULTIPLE,                    MULTIPLE additive genes control\n   apparently unrelated phenotypic traits.                 a SINGLE continuous trait.\n   ├── Phenylketonuria (PKU)                               ├── Human Skin Color (A, B, C genes)\n   └── Starch grain size vs seed shape in Peas             └── Wheat Kernel Color (1:4:6:4:1)",
+      "content": "### 5.1 Pleiotropy: Single Gene, Multiple Phenotypes\n1. **Phenylketonuria (PKU)**: Mutation in a single autosomal gene encoding **Phenylalanine Hydroxylase (PAH)** prevents conversion of phenylalanine to tyrosine. Clinical pleiotropic symptoms: mental retardation, microcephaly, hair hypopigmentation, and skin eczema.\n2. **Starch Synthesis in Garden Peas (*B* Gene)**:\n   - $BB \\longrightarrow$ Large starch grains $\\rightarrow$ Round seeds.\n   - $bb \\longrightarrow$ Small starch grains $\\rightarrow$ Wrinkled seeds.\n   - $Bb \\longrightarrow$ Intermediate starch grain size (*Incomplete dominance for size*), but Round seeds (*Complete dominance for shape*).\n   - *Conclusion*: Dominance is not an autonomous intrinsic property of a gene, but depends on the specific phenotypic product being assayed!\n\n### 5.2 Polygenic (Quantitative) Inheritance\n\n```\n                      POLYGENIC PHENOTYPIC DISTRIBUTION\n                      \n   Dominant Alleles:     0     1     2     3     4     5     6\n   F2 Ratio:             1  :  6  : 15  : 20  : 15  :  6  :  1  (Total = 64)\n```\n\n- **Human Skin Color (Davenport Additive Model)**: Controlled by 3 additive gene pairs ($A, B, C$).\n  - $AABBCC \\longrightarrow$ Very Dark / Black ($6$ dominant alleles).\n  - $aabbcc \\longrightarrow$ Very Light / White ($0$ dominant alleles).\n  - $AaBbCc \\longrightarrow$ Intermediate / Mulatto ($3$ dominant alleles).\n  - $F_2$ cross of mulattoes ($AaBbCc \\times AaBbCc$) yields $64$ combinations with $7$ phenotypic classes: **$1:6:15:20:15:6:1$**."
+    },
+    {
+      "heading": "Wheat Kernel Color (Nilsson-Ehle Model)",
+      "title": "Wheat Kernel Color (Nilsson-Ehle Model)",
+      "type": "paragraph",
+      "content": "Wheat kernel redness is governed by two polygenic loci (R1, R2); cross of dark red (R1R1R2R2) and white (r1r1r2r2) yields a 1:4:6:4:1 phenotypic ratio across 16 combinations."
+    },
+    {
+      "heading": "Continuous Gaussian Bell-Curve Variation",
+      "title": "Continuous Gaussian Bell-Curve Variation",
+      "type": "paragraph",
+      "content": "Polygenic traits (human height, intelligence, skin color) generate continuous normal distribution curves with intermediate phenotypes being the most abundant and extreme phenotypes rare."
+    }
+  ]
+}

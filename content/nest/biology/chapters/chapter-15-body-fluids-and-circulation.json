@@ -1,0 +1,660 @@
+{
+  "id": "bio-xi-u5-c15-chapter-master",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Body Fluids and Circulation",
+  "chapterNumber": 15,
+  "chapterSlug": "body-fluids-and-circulation",
+  "title": "CHAPTER 15: BODY FLUIDS AND CIRCULATION (NEST & INBO MODULE)",
+  "description": "Comprehensive master module covering Blood Composition, Plasma Proteins, Formed Elements (RBCs, WBC taxonomy, Platelets), ABO & Rh Genetics, Erythroblastosis Fetalis, Blood Coagulation Cascade, Lymph & Lacteals, Myogenic Nodal System, Cardiac Cycle Mechanics (0.8s), Volumetric Bioenergetics (EDV, ESV, SV, CO, Frank-Starling Law), ECG Waveform Analysis, Double Circulation & Portal Systems, Cardiovascular Pathophysiology, High-Yield Traps, Master Glossary, and 20 NEST Practice Questions.",
+  "estimatedTotalTimeMinutes": 145,
+  "totalSections": 11,
+  "totalQuestions": 20,
+  "status": "published",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "id": "sec-15-01",
+      "title": "Composition of Blood: Plasma Proteins & Formed Elements",
+      "topic": "Plasma (55%), Formed Elements (45%), Albumins, Globulins, Fibrinogen, & Serum",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Blood consists of 55% Plasma and 45% Formed Elements. Albumins maintain colloid oncotic pressure (~25 mmHg); Globulins provide immunity (IgG/A/M/D/E); Fibrinogen enables clotting. Serum = Plasma - Clotting Factors."
+      },
+      "codeSnippet": "COMPOSITION OF BLOOD\n                                       │\n         ┌─────────────────────────────┴─────────────────────────────┐\n         ▼                                                           ▼\n   BLOOD PLASMA (55%)                                        FORMED ELEMENTS (45%)\n   ├── Water (90–92%)                                        ├── Erythrocytes (RBCs: 5.0–5.5 Million/mm³)\n   ├── Plasma Proteins (6–8%):                               ├── Leucocytes (WBCs: 6000–8000/mm³)\n   │   ├── Albumins (Osmotic Balance)                        └── Thrombocytes (Platelets: 1.5–3.5 Lakhs/mm³)\n   │   ├── Globulins (Immunity)\n   │   └── Fibrinogen (Clotting)\n   └── Electrolytes, Glucose, Amino Acids",
+      "content": "Blood is a specialized mobile connective tissue consisting of a fluid extracellular matrix called **Plasma** ($55\\%$) in which cellular components, termed **Formed Elements** ($45\\%$), are suspended. Total blood volume in an adult human is approximately **$5\\text{--}6\\text{ Liters}$** ($\\approx 8\\%$ of body weight).\n\n### 1.1 Plasma Proteins & Their Physiological Functions\n1. **Albumins ($60\\%$ of total plasma protein)**: Synthesized by the liver. Maintain **Colloid Osmotic Pressure / Oncotic Pressure ($\\approx 25\\text{ mmHg}$)**, preventing fluid leakage into interstitial spaces.\n2. **Globulins ($36\\%$ of total plasma protein)**:\n   - $\\alpha$- and $\\beta$-Globulins: Transport proteins for lipids, fat-soluble vitamins, and trace minerals (*Transferrin for $\\text{Fe}^{3+}$, Ceruloplasmin for $\\text{Cu}^{2+}$*).\n   - $\\gamma$-Globulins (**Immunoglobulins / Antibodies**): Secreted by plasma B-cells for humoral immunity ($\\text{IgG}, \\text{IgA}, \\text{IgM}, \\text{IgD}, \\text{IgE}$).\n3. **Fibrinogen ($4\\%$ of total plasma protein)**: Soluble clotting factor synthesized by the liver; converted into insoluble fibrin during coagulation.\n4. **Serum Definition**: Plasma devoid of clotting factors ($\\text{Serum} = \\text{Plasma} - \\text{Clotting Factors}$)."
+    },
+    {
+      "sectionNumber": 2,
+      "id": "sec-15-02",
+      "title": "Formed Elements: Erythrocytes, Leucocyte Taxonomy, & Platelets",
+      "topic": "RBC Morphometrics, Granulocytes (Neutrophils, Eosinophils, Basophils), Agranulocytes & Platelets",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "RBCs (5–5.5 M/mm³, 120d lifespan, enucleated). Neutrophils (60–65%, PMN phagocytes), Eosinophils (2–3%, allergy/helminths), Basophils (0.5–1%, histamine/heparin), Monocytes (6–8%, macrophages), Lymphocytes (20–25%, B/T cells), Platelets (1.5–3.5 Lakhs/mm³, megakaryocyte fragments)."
+      },
+      "codeSnippet": "LEUCOCYTE (WBC) TAXONOMY\n                                       │\n         ┌─────────────────────────────┴─────────────────────────────┐\n         ▼                                                           ▼\n    GRANULOCYTES                                               AGRANULOCYTES\n(Lobulated Nuclei + Cytoplasmic Granules)                  (Non-Lobulated Nuclei + No Granules)\n ├── Neutrophils (60–65% - Phagocytic)                      ├── Lymphocytes (20–25% - Immune)\n ├── Eosinophils (2–3% - Allergies/Parasites)               └── Monocytes (6–8% - Macrophages)\n └── Basophils (0.5–1% - Histamine/Heparin)",
+      "content": "### Formed Elements Diagnostic Matrix\n\n| Cell Type | Abundance / Count | Morphological & Nuclear Characteristics | Primary Physiological Role |\n| :--- | :--- | :--- | :--- |\n| **Erythrocytes (RBCs)** | $5.0\\text{--}5.5\\text{ Million/mm}^3$ | Biconcave, enucleated at maturity (lacks mitochondria and ER), non-motile; lifespan $\\approx 120\\text{ days}$ | Transports $\\text{O}_2$ and $\\text{CO}_2$ via Hemoglobin ($12\\text{--}16\\text{ g/100 mL}$); destroyed in Spleen (\"Graveyard of RBCs\") |\n| **Neutrophils** | $60\\text{--}65\\%$ of WBCs | Multilobed nucleus ($3\\text{--}5$ lobes); neutral-staining granules | Polymorphonuclear (PMN) **phagocytes**; first responders to bacterial infections |\n| **Eosinophils** | $2\\text{--}3\\%$ of WBCs | Bilobed nucleus; coarse acidophilic granules staining bright pink/red with Eosin | Resists parasitic infections (*helminths*); mediates allergic hypersensitivity reactions |\n| **Basophils** | $0.5\\text{--}1\\%$ of WBCs | S-shaped / 3-lobed nucleus; coarse basophilic granules staining blue/purple | Secretes **Histamine** (vasodilator), **Serotonin** (vasoconstrictor), and **Heparin** (anticoagulant); mediates inflammation |\n| **Monocytes** | $6\\text{--}8\\%$ of WBCs | Kidney-shaped / Horseshoe-shaped nucleus; abundant agranular cytoplasm | Largest WBC; transforms into tissue **Macrophages** (*e.g., Kupffer cells, Microglia*) for phagocytosis |\n| **Lymphocytes** | $20\\text{--}25\\%$ of WBCs | Large spherical nucleus surrounded by a thin rim of cytoplasm | **B-Lymphocytes** (humoral immunity) and **T-Lymphocytes** (cell-mediated immunity) |\n| **Thrombocytes (Platelets)** | $1.5\\text{--}3.5\\text{ Lakhs/mm}^3$ | Enucleated cell fragments derived from bone marrow **Megakaryocytes**; lifespan $\\approx 7\\text{--}10\\text{ days}$ | Initiates blood clotting by releasing **Thromboplastin** and vasoconstrictor **Serotonin** |"
+    },
+    {
+      "sectionNumber": 3,
+      "id": "sec-15-03",
+      "title": "ABO & Rh Blood Grouping Systems & Erythroblastosis Fetalis",
+      "topic": "Landsteiner ABO Genetics, Codominance, Rh Incompatibility, & RhoGAM Prophylaxis",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "ABO is controlled by I gene (IA, IB, i). Group O is universal donor; Group AB is universal recipient. Erythroblastosis fetalis occurs when an Rh- mother carries a second Rh+ fetus (prevented by RhoGAM anti-D IgG)."
+      },
+      "codeSnippet": "ABO GENETICS & COMPATIBILITY\n                         \n   GENOTYPE        BLOOD GROUP    SURFACE ANTIGEN    PLASMA ANTIBODY    CAN DONATE TO    CAN RECEIVE FROM\n   I^A I^A / I^A i    Group A        Antigen A          Anti-B             A, AB            A, O\n   I^B I^B / I^B i    Group B        Antigen B          Anti-A             B, AB            B, O\n   I^A I^B            Group AB       Antigen A & B      NONE               AB Only          ALL (Recipient)\n   ii                 Group O        NONE               Anti-A & Anti-B    ALL (Donor)      O Only",
+      "content": "### 2.1 The ABO Blood Group System\nDetermined by two surface carbohydrate antigens (**Antigen A** and **Antigen B**) on the RBC membrane, controlled by the $I$ gene with three alleles ($I^A, I^B, i$). $I^A$ and $I^B$ show codominance ($I^A I^B \\rightarrow \\text{Group AB}$).\n\n### 2.2 The Rh System & Erythroblastosis Fetalis\n- The **Rh Antigen (D Antigen)** is present in $\\approx 80\\%$ of humans ($\\text{Rh}^+$).\n- **Erythroblastosis Fetalis Cascade**:\n  1. $\\text{Rh}^-$ Mother carrying first $\\text{Rh}^+$ fetus $\\rightarrow$ fetal $\\text{Rh}^+$ blood leaks into mother during delivery $\\rightarrow$ maternal sensitization produces anti-Rh IgG.\n  2. Second $\\text{Rh}^+$ Pregnancy $\\rightarrow$ maternal anti-Rh IgG crosses placenta $\\rightarrow$ massive fetal RBC hemolysis $\\rightarrow$ severe anemia, jaundice, and kernicterus.\n- **Clinical Prophylaxis**: Administering **RhoGAM (Anti-D Immunoglobulin)** to the mother immediately after the first delivery neutralizes fetal $\\text{Rh}^+$ RBCs before sensitization occurs."
+    },
+    {
+      "sectionNumber": 4,
+      "id": "sec-15-04",
+      "title": "Blood Coagulation Cascade (Clotting Factors & Fibrin Mesh)",
+      "topic": "Extrinsic vs Intrinsic Pathways, Prothrombinase Complex, Thrombin, & Vitamin K",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Extrinsic (Factor III) & Intrinsic (Factor XII) pathways activate Factor X. Prothrombinase complex (Factor Xa, Va, Ca²⁺) converts Prothrombin to Thrombin, which cleaves Fibrinogen to Fibrin. Vitamin K is required for Factors II, VII, IX, X."
+      },
+      "codeSnippet": "BLOOD COAGULATION CASCADE\n                                   │\n         ┌─────────────────────────┴─────────────────────────┐\n         ▼                                                   ▼\nEXTRINSIC PATHWAY (Tissue Injury)                   INTRINSIC PATHWAY (Vascular Contact)\nTraumatized Tissue releases                         Foreign Surface contact activates\nTissue Factor / Factor III                          Factor XII (Hageman Factor)\n         │                                                   │\n         └─────────────────────────┬─────────────────────────┘\n                                   ▼\n                   [ COMMON PATHWAY ACTIVATION ]\n                       Factor X ──► Factor Xa\n                                   │\n              [ Prothrombinase / Thrombokinase Complex ]\n              (Requires Factor Xa, Factor Va, Ca²⁺, Phospholipids)\n                                   │\n             Prothrombin (Factor II) ──► Thrombin (Factor IIa)\n                                   │\n             Fibrinogen (Factor I)  ──► Fibrin Monomer ──[Factor XIIIa + Ca²⁺]──► FIBRIN CLOT",
+      "content": "Blood clotting is an enzymatic cascade converting soluble plasma fibrinogen into an insoluble cross-linked fibrin meshwork.\n\n### Essential Clotting Factors\n- **Factor I**: Fibrinogen\n- **Factor II**: Prothrombin (Vitamin K-dependent)\n- **Factor III**: Tissue Thromboplastin / Tissue Factor\n- **Factor IV**: Calcium Ions ($\\text{Ca}^{2+}$) [Required in almost all cascade steps!]\n- **Factor VIII**: Antihemophilic Factor A (Deficient in Hemophilia A)\n- **Factor IX**: Christmas Factor / Antihemophilic Factor B (Deficient in Hemophilia B)\n- **Factor XIII**: Fibrin Stabilizing Factor (Cross-links fibrin monomers)\n- **Vitamin K Role**: Essential co-factor for hepatic synthesis of **Factors II, VII, IX, and X** (*Mnemonic: 2 + 7 = 9, then 10*)."
+    },
+    {
+      "sectionNumber": 5,
+      "id": "sec-15-05",
+      "title": "Lymph & The Lymphatic System Architecture",
+      "topic": "Tissue Fluid Filtration, Lymph Composition, Lacteals, Chyle, & Subclavian Return",
+      "readingTimeMinutes": 12,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Interstitial fluid filtered from capillaries enters lymphatic capillaries to form Lymph. Lymph lacks RBCs/platelets, has lower proteins, and high lymphocytes. Intestinal Lacteals absorb fat as Chyle."
+      },
+      "codeSnippet": "INTERSTITIAL FLUID vs LYMPH\n                         \n   Capillary Hydrostatic Pressure ──► Fluid filtered out ──► Interstitial Fluid (Tissue Fluid)\n                                                                    │\n   Drained into Lymphatic Capillaries ◄─────────────────────────────┘\n                                   │\n   Transformed into LYMPH ──► Returned to Systemic Veins (Subclavian Veins)",
+      "content": "As blood flows under hydrostatic pressure through tissue capillaries, water and small solutes filter across pores into intercellular spaces, forming **Interstitial Fluid (Tissue Fluid)**.\n\n- **Composition of Lymph**: Colorless fluid identical in electrolytes to plasma, but containing **lower protein concentrations, NO RBCs or platelets**, and **abundant Lymphocytes**.\n- **Specialized Lacteals**: Lymphatic capillaries in intestinal villi (**Lacteals**) absorb digested fats (**Chyle**) as chylomicrons, delivering them to venous circulation via the **Thoracic Duct**."
+    },
+    {
+      "sectionNumber": 6,
+      "id": "sec-15-06",
+      "title": "Human Heart Anatomy, Nodal Conducting System, & Blood Vessels",
+      "topic": "Chambers, Valves, Chordae Tendineae, Myogenic Nodal Pathway, & Vessel Histology",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Heart has 4 chambers, Tricuspid (right) & Bicuspid/Mitral (left) AV valves anchored by Chordae Tendineae. SA Node (pacemaker, 70–75 bpm) -> AV Node (0.1s delay) -> Bundle of His -> Purkinje fibers. Arteries have thick Tunica Media; veins have valves."
+      },
+      "codeSnippet": "NODAL CONDUCTION PATHWAY\n                      \n   SA NODE (Sinu-Atrial Node) ──► AV NODE (Atrioventricular Node)\n   [Upper right Right Atrium]     [Lower left Right Atrium]\n   (Rate: 70–75 bpm)              (Conduction Delay: 0.1 s)\n              │                              │\n              └──────────────┬───────────────┘\n                             ▼\n                    BUNDLE OF HIS (AV Bundle)\n                             │\n            ┌────────────────┴────────────────┐\n            ▼                                 ▼\n   Left Bundle Branch               Right Bundle Branch\n            │                                 │\n            └────────────────┬────────────────┘\n                             ▼\n                    PURKINJE FIBERS (Ventricular Myocardium)",
+      "content": "### 5.1 Valvular Architecture & Myogenic Nodal System\n- **Tricuspid Valve**: 3 cusps between Right Atrium & Right Ventricle.\n- **Bicuspid (Mitral) Valve**: 2 cusps between Left Atrium & Left Ventricle.\n- **Chordae Tendineae**: Tough fibrous cords connecting valve cusps to **Papillary Muscles** to prevent eversion during systole.\n- **SA Node (\"Pacemaker\")**: Generates auto-rhythmic action potentials at $70\\text{--}75\\text{ bpm}$.\n- **AV Node (\"Pacesetter\")**: Imposes a **$0.1\\text{-second}$ conduction delay** to permit complete atrial emptying.\n\n### 5.2 Blood Vessel Histology\n- **Tunica Intima**: Simple squamous endothelium on basement membrane.\n- **Tunica Media**: Smooth muscle & elastic fibers (thick in arteries; thin in veins).\n- **Tunica Externa**: Fibrous collagenous connective tissue.\n- **Capillaries**: Consist **ONLY of Tunica Intima** for rapid diffusion."
+    },
+    {
+      "sectionNumber": 7,
+      "id": "sec-15-07",
+      "title": "The Cardiac Cycle Mechanics, Heart Sounds, & Cardiac Output",
+      "topic": "0.8s Timeline, Joint Diastole, Systole, LUB & DUP, SV, CO, & Frank-Starling Law",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Cardiac cycle lasts 0.8s. LUB = AV valve closure at start of ventricular systole; DUP = Semilunar valve closure at diastole. Stroke Volume = EDV - ESV = 120 - 50 = 70 mL. Cardiac Output = SV × HR ≈ 5.0 L/min."
+      },
+      "codeSnippet": "CARDIAC CYCLE TIMELINE (0.8 s)\n                        \n   0.0 s ─────── Joint Diastole (0.4 s) ─────── 0.4 s ── Atrial Systole (0.1 s) ── 0.5 s\n                                                                                         │\n   0.8 s ◄──────────────── Ventricular Systole (0.3 s) ──────────────────────────────────┘",
+      "content": "### 6.1 Mechanical Phases of the Cardiac Cycle ($0.8\\text{ s}$ at $75\\text{ bpm}$)\n1. **Joint Diastole ($0.4\\text{ s}$)**: 4 chambers relaxed; AV valves open; Semilunar valves closed; $70\\%$ passive ventricular filling.\n2. **Atrial Systole ($0.1\\text{ s}$)**: Atria contract; pumps remaining $30\\%$ blood into ventricles (Atrial Kick), reaching $\\text{EDV} \\approx 120\\text{ mL}$.\n3. **Ventricular Systole ($0.3\\text{ s}$)**: Isovolumetric contraction closes AV valves (**\"LUB\"**); Semilunar valves open, ejecting Stroke Volume ($\\text{SV} \\approx 70\\text{ mL}$).\n4. **Ventricular Diastole ($0.5\\text{ s}$)**: Ventricles relax; Semilunar valves close (**\"DUP\"**).\n\n### 6.2 Cardiac Output Bioenergetics\n$$\\text{Stroke Volume (SV)} = \\text{EDV} - \\text{ESV} = 120\\text{ mL} - 50\\text{ mL} = \\mathbf{70\\text{ mL}}$$\n$$\\text{Cardiac Output (CO)} = \\text{SV} \\times \\text{HR} = 70\\text{ mL} \\times 72\\text{ bpm} \\approx \\mathbf{5040\\text{ mL/min} (5.0\\text{ L/min})}$$\n- **Frank-Starling Law**: Increased venous return (higher $\\text{EDV}$) stretches myocardium, producing a more forceful contraction and larger $\\text{SV}$."
+    },
+    {
+      "sectionNumber": 8,
+      "id": "sec-15-08",
+      "title": "Electrocardiogram (ECG) Waves & Clinical Analysis",
+      "topic": "P Wave, QRS Complex, T Wave, P-R Interval, ST Elevation (STEMI), & Einthoven's Triangle",
+      "readingTimeMinutes": 12,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "P wave = Atrial Depolarization. QRS complex = Ventricular Depolarization (counting QRS gives Heart Rate). T wave = Ventricular Repolarization. ST elevation indicates Myocardial Infarction."
+      },
+      "codeSnippet": "STANDARD ECG WAVEFORM\n                         \n              R\n              /\\\n             /  \\\n      P     /    \\        T\n     /\\    /      \\      /\\\n  ──/  \\──/        \\────/  \\──\n         Q          S",
+      "content": "An **Electrocardiogram (ECG)** is the graphic recording of the electrical potential changes generated by the cardiac conducting system.\n\n### ECG Waveform Interpretation Matrix\n\n| Wave / Segment | Electrophysiological Event | Clinical / Diagnostic Meaning |\n| :--- | :--- | :--- |\n| **P Wave** | **Atrial Depolarization** (spread from SA node across atria) | Precedes atrial contraction; inverted/absent in SA block |\n| **QRS Complex** | **Ventricular Depolarization** (spread through Purkinje fibers) | Triggers ventricular systole. **Counting QRS complexes/min gives Heart Rate!** |\n| **T Wave** | **Ventricular Repolarization** (ventricular recovery) | Marks the end of ventricular systole |\n| **P-R Interval** | Atrial depolarization + AV nodal conduction time | Prolonged ($>0.20\\text{ s}$) in **First-Degree AV Block** |\n| **S-T Segment** | Period when ventricular myocardium is fully depolarized | **ST Elevation** indicates acute **Myocardial Infarction**; ST depression indicates Ischemia |"
+    },
+    {
+      "sectionNumber": 9,
+      "id": "sec-15-09",
+      "title": "Double Circulation & Specialized Portal Systems",
+      "topic": "Pulmonary & Systemic Loops, Hepatic Portal System, & Hypophyseal Portal System",
+      "readingTimeMinutes": 12,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Human circulation is a closed double loop: Pulmonary (RV -> Lungs -> LA) and Systemic (LV -> Body -> RA). Hepatic portal system routes nutrients from gut to liver. Hypophyseal portal routes hormones to anterior pituitary."
+      },
+      "codeSnippet": "DOUBLE CIRCULATION LOOPS\n                                       │\n         ┌─────────────────────────────┴─────────────────────────────┐\n         ▼                                                           ▼\n   PULMONARY CIRCULATION                                      SYSTEMIC CIRCULATION\n   Right Ventricle ──► Pulmonary Artery ──► Lungs             Left Ventricle ──► Main Aorta ──► Body Tissues\n   Lungs ──► Pulmonary Veins ──► Left Atrium                  Tissues ──► Vena Cava ──► Right Atrium",
+      "content": "Human circulation is a **Closed Double Circulation**, preventing mixing of oxygenated and deoxygenated blood.\n\n### 8.1 Specialized Portal Systems\n1. **Hepatic Portal System**: Digestive tract capillaries $\\rightarrow$ **Hepatic Portal Vein** $\\rightarrow$ Liver sinusoids $\\rightarrow$ Hepatic Vein $\\rightarrow$ IVC (delivers absorbed nutrients to the liver before systemic circulation).\n2. **Hypophyseal Portal System**: Hypothalamus capillaries $\\rightarrow$ **Hypophyseal Portal Vein** $\\rightarrow$ Anterior Pituitary (transports releasing/inhibiting hormones directly to adenohypophysis)."
+    },
+    {
+      "sectionNumber": 10,
+      "id": "sec-15-10",
+      "title": "Regulation of Cardiac Activity & Circulatory Pathophysiology",
+      "topic": "Medullary Center, Sympathetic vs Vagus Nerve, Hypertension, Atherosclerosis, CAD, & Infarction",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Cardiovascular center in Medulla Oblongata: Sympathetic nerves (Noradrenaline) increase HR/CO; Parasympathetic (Vagus, Acetylcholine) decreases HR. CAD/Atherosclerosis narrows arteries; Infarction is muscle death; Heart failure is reduced pumping."
+      },
+      "codeSnippet": "NEURO-ENDOCRINE CARDIA CONTROL\n                                     │\n         ┌───────────────────────────┴───────────────────────────┐\n         ▼                                                       ▼\n  AUTONOMIC NERVOUS SYSTEM (ANS)                           ENDOCRINE HORMONES\n  Center: Medulla Oblongata                               ├── Adrenal Medullary Hormones:\n  ├── Sympathetic Nerves (Noradrenaline)                  │   Adrenaline & Noradrenaline\n  │   ──► INCREASES HR, SV, and Cardiac Output            │   ──► Increases HR, contractility, & CO\n  └── Parasympathetic / Vagus Nerve (Acetylcholine)       └── Thyroxine (T4):\n      ──► DECREASES HR, conduction, & CO                       ──► Increases heart rate & sensitivity",
+      "content": "### 9.1 Pathophysiology of Cardiovascular Disorders\n\n| Circulatory Disorder | Etiology & Pathological Mechanism | Clinical & Diagnostic Manifestations |\n| :--- | :--- | :--- |\n| **Hypertension (High Blood Pressure)** | Persistent arterial pressure elevation above normal ($>140/90\\text{ mmHg}$) | Systolic $>140\\text{ mmHg}$ or Diastolic $>90\\text{ mmHg}$ ($120/80$ normal). Leads to heart disease, renal failure, stroke |\n| **Coronary Artery Disease (CAD) / Atherosclerosis** | Deposition of **calcium, fat, cholesterol, and fibrous tissue** in coronary tunica intima | Narrows arterial lumen, restricting myocardial blood supply; main cause of ischemia |\n| **Angina Pectoris** | Transient myocardial ischemia from stenotic coronary blood flow | Acute, crushing substernal chest pain radiating to left arm; triggered by exertion, relieved by rest/nitroglycerin |\n| **Myocardial Infarction (Heart Attack)** | Sudden ischemic necrosis of myocardium due to complete coronary thrombotic occlusion | Severe, persistent chest pain, elevated cardiac troponins ($\\text{cTnT / cTnI}$), and **ST-segment elevation** |\n| **Heart Failure (Congestive)** | Inability of heart to pump blood effectively to meet metabolic demand | Main symptom is **pulmonary congestion** (edema) in left failure; peripheral edema in right failure |\n| **Cardiac Arrest** | Complete cessation of cardiac electrical and mechanical pumping | Heart stops beating entirely; zero cardiac output; loss of consciousness |"
+    },
+    {
+      "sectionNumber": 11,
+      "id": "sec-15-11",
+      "title": "Cardiovascular Master Glossary & High-Yield NEST Traps",
+      "topic": "35+ Definitive Terms & 10 Critical Exam Misconceptions",
+      "readingTimeMinutes": 14,
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Complete glossary covering hematology, clotting factors, cardiac bioenergetics, and 10 high-yield NEST traps."
+      },
+      "content": "### High-Yield NEST Misconceptions & Exam Traps\n\n| Misconception / Trap | Biological Reality | Exam Tip / Context |\n| :--- | :--- | :--- |\n| *\"Heart failure, Heart Attack, and Cardiac Arrest are identical conditions.\"* | **Heart Failure** = reduced pumping capacity; **Heart Attack** = myocardial cell death due to ischemia; **Cardiac Arrest** = complete electrical cessation. | Learn the distinct clinical definitions of all three. |\n| *\"Serum is blood plasma containing extra fibrinogen for fast clotting.\"* | **Serum = Plasma MINUS Clotting Factors**. Serum cannot clot. | Serum lacks Fibrinogen, Prothrombin, and Factors V/VIII. |\n| *\"Counting P waves on an ECG reveals the patient's heart rate.\"* | Counting **QRS complexes** per minute determines heart rate (ventricular contractions). | QRS complex represents ventricular depolarization. |\n| *\"The first heart sound (LUB) is caused by the closure of semilunar valves.\"* | **LUB = Closure of AV valves** (Tricuspid/Bicuspid). **DUP = Closure of Semilunar valves**. | LUB occurs at onset of ventricular systole; DUP at diastole. |\n| *\"Sympathetic stimulation decreases heart rate to conserve cardiac energy.\"* | Sympathetic nerves release Noradrenaline, which **INCREASES heart rate and stroke volume**. | Parasympathetic (Vagus) nerve decreases heart rate. |\n| *\"Erythroblastosis Fetalis occurs when an $\\text{Rh}^+$ mother carries an $\\text{Rh}^-$ fetus.\"* | Occurs when an **$\\text{Rh}^-$ mother carries a SECOND $\\text{Rh}^+$ fetus**. | Maternal anti-$\\text{Rh}$ IgG crosses the placenta to destroy fetal RBCs. |\n| *\"All arteries carry oxygenated blood and all veins carry deoxygenated blood.\"* | **Pulmonary Artery** carries deoxygenated blood to lungs; **Pulmonary Vein** carries oxygenated blood to heart. | Arteries carry blood *away* from heart; Veins carry blood *towards* heart. |\n| *\"Residual Volume and End-Systolic Volume (ESV) are identical parameters.\"* | **RV** is lung air volume after forced expiration ($1200\\text{ mL}$). **ESV** is ventricular blood volume after contraction ($50\\text{ mL}$). | Do not confuse pulmonary volumes with cardiac volumes. |\n| *\"Human heart contraction is neurogenic, initiated by autonomic nerves.\"* | The human heart is **Myogenic**; intrinsic rhythm is generated by the auto-excitable **SA Node**. | Autonomic nerves merely modulate the rate set by the SA node. |\n| *\"Lymph contains high concentrations of red blood cells and platelets.\"* | Lymph **COMPLETELY LACKS RBCs and platelets**. It contains plasma solutes and abundant lymphocytes. | Chyle is lymph carrying absorbed fats from lacteals. |"
+    }
+  ],
+  "chapterCommonMistakes": [
+    "Heart failure, Heart Attack, and Cardiac Arrest are identical conditions (Reality: Heart Failure = reduced pumping; Heart Attack = muscle death from ischemia; Cardiac Arrest = complete electrical stop).",
+    "Serum is blood plasma containing extra fibrinogen (Reality: Serum = Plasma MINUS Clotting Factors; cannot clot).",
+    "Counting P waves on an ECG reveals heart rate (Reality: Counting QRS complexes determines heart rate).",
+    "The first heart sound LUB is caused by semilunar valve closure (Reality: LUB = AV valve closure; DUP = Semilunar valve closure).",
+    "Sympathetic stimulation decreases heart rate (Reality: Sympathetic increases HR and SV; Parasympathetic Vagus decreases HR).",
+    "Erythroblastosis Fetalis occurs when an Rh+ mother carries an Rh- fetus (Reality: Occurs when an Rh- mother carries a second Rh+ fetus).",
+    "All arteries carry oxygenated blood (Reality: Pulmonary Artery carries deoxygenated blood to lungs).",
+    "Residual Volume and End-Systolic Volume are identical (Reality: RV is lung air 1200 mL; ESV is ventricular blood 50 mL).",
+    "Human heart contraction is neurogenic (Reality: Myogenic; initiated by auto-excitable SA node).",
+    "Lymph contains red blood cells (Reality: Completely lacks RBCs and platelets; rich in lymphocytes)."
+  ],
+  "questions": [
+    {
+      "id": "q-bio-c15-001",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "ABO & Rh Blood Group Agglutination Assay",
+      "difficulty": "Easy",
+      "questionText": "An individual with an unknown ABO blood group involved in an accident requires an emergency blood transfusion. A rapid laboratory agglutination assay yields the following results:\n- Sample + Anti-A Serum: NO Agglutination\n- Sample + Anti-B Serum: Agglutination Observed\n- Sample + Anti-D (Rh) Serum: NO Agglutination\nWhat is the precise blood group of this individual, and which blood type can be safely transfused in an emergency?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Blood Group B+; Can receive AB+ blood", "isCorrect": false },
+        { "id": "b", "text": "Blood Group B-; Can receive B- or O- blood", "isCorrect": true },
+        { "id": "c", "text": "Blood Group A-; Can receive A+ blood", "isCorrect": false },
+        { "id": "d", "text": "Blood Group AB-; Can receive AB+ blood", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Agglutination with Anti-B serum confirms the presence of Antigen B. No agglutination with Anti-A serum confirms absence of Antigen A. No agglutination with Anti-D serum confirms the absence of Rh antigen (Rh-). The blood type is B- (B Negative). An Rh- recipient can safely receive blood only from Rh- donors (B- or universal donor O-).",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c15-002",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "Stroke Volume & Cardiac Output Calculation",
+      "difficulty": "Easy",
+      "questionText": "During a cardiac catheterization procedure, a cardiologist measures the following pressure and volume parameters in a patient's left ventricle:\n- End-Diastolic Volume (EDV): 130 mL\n- End-Systolic Volume (ESV): 50 mL\n- Heart Rate (HR): 80 beats/min\nWhat is the patient's Stroke Volume (SV) and total Cardiac Output (CO)?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "SV = 180 mL; CO = 14.4 L/min", "isCorrect": false },
+        { "id": "b", "text": "SV = 80 mL; CO = 6.4 L/min", "isCorrect": true },
+        { "id": "c", "text": "SV = 50 mL; CO = 4.0 L/min", "isCorrect": false },
+        { "id": "d", "text": "SV = 80 mL; CO = 4.0 L/min", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "1. Stroke Volume (SV) = EDV - ESV = 130 mL - 50 mL = 80 mL.\n2. Cardiac Output (CO) = SV × HR = 80 mL × 80 bpm = 6400 mL/min = 6.4 L/min.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c15-003",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "ECG S-T Segment Elevation (STEMI)",
+      "difficulty": "Medium",
+      "questionText": "An ECG trace recorded from an emergency patient suffering from chest pain demonstrates a marked, sustained elevation of the S-T segment above the baseline. What acute clinical condition does this specific ECG abnormality signify?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "First-Degree Atrioventricular Block", "isCorrect": false },
+        { "id": "b", "text": "Acute Myocardial Infarction (Heart Attack)", "isCorrect": true },
+        { "id": "c", "text": "Atrial Fibrillation", "isCorrect": false },
+        { "id": "d", "text": "Ventricular Extrasystole", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "ST-segment elevation (STEMI) on a standard ECG is the diagnostic hallmark of transmural Acute Myocardial Infarction (Heart Attack), indicating acute ischemic necrosis of the ventricular myocardium.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c15-004",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "AV Node 0.1-Second Conduction Delay Purpose",
+      "difficulty": "Medium",
+      "questionText": "What is the physiological purpose of the 0.1-second conduction delay imposed by the Atrioventricular (AV) Node during electrical propagation through the heart?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "To allow the lungs to fully oxygenate pulmonary venous blood", "isCorrect": false },
+        { "id": "b", "text": "To ensure complete atrial contraction and ventricular filling before ventricular systole begins", "isCorrect": true },
+        { "id": "c", "text": "To prevent semilunar valves from opening during atrial diastole", "isCorrect": false },
+        { "id": "d", "text": "To allow Purkinje fibers to synthesize ATP via oxidative phosphorylation", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "The AV node imposes a 0.1-second delay in electrical impulse transmission from atria to ventricles. This ensures that atrial contraction (Atrial Systole) completes its ejection of blood into the ventricles before the ventricles begin their contraction (Ventricular Systole).",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c15-005",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "Plasma Albumin & Colloid Oncotic Pressure",
+      "difficulty": "Medium",
+      "questionText": "A patient with severe liver cirrhosis exhibits a marked drop in blood plasma protein synthesis. Which plasma protein deficiency directly leads to systemic peripheral edema (swelling) in this patient?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Deficiency of Fibrinogen leading to internal hemorrhage", "isCorrect": false },
+        { "id": "b", "text": "Deficiency of Albumin causing a collapse in Colloid Osmotic Pressure (Oncotic Pressure)", "isCorrect": true },
+        { "id": "c", "text": "Deficiency of γ-Globulins causing loss of cellular immunity", "isCorrect": false },
+        { "id": "d", "text": "Deficiency of Prothrombinase causing capillary rupture", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Albumin synthesized by the liver is the primary plasma protein responsible for generating Colloid Osmotic Pressure (~25 mmHg) that retains fluid inside blood capillaries. Loss of albumin reduces oncotic pressure, allowing fluid to leak into interstitial spaces, causing systemic edema.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c15-006",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "Prothrombinase Complex Activation",
+      "difficulty": "Medium",
+      "questionText": "During blood coagulation, which specific plasma enzyme complex converts the inactive zymogen Prothrombin (Factor II) into active Thrombin (Factor IIa) in the presence of Calcium ions (Ca²⁺)?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Hageman Factor (Factor XIIa)", "isCorrect": false },
+        { "id": "b", "text": "Prothrombinase / Thrombokinase Complex", "isCorrect": true },
+        { "id": "c", "text": "Transglutaminase (Factor XIIIa)", "isCorrect": false },
+        { "id": "d", "text": "Plasminogen Activator", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "The common clotting pathway culminates in the assembly of the Prothrombinase (Thrombokinase) Complex (comprising Factor Xa, Factor Va, phospholipids, and Ca²⁺), which converts inactive Prothrombin (Factor II) into active Thrombin (Factor IIa).",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c15-007",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "Hepatic Portal System Anatomy",
+      "difficulty": "Easy",
+      "questionText": "Which blood vessel carries nutrient-rich blood absorbed from the stomach and intestines directly to the liver before it enters systemic circulation?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Hepatic Artery", "isCorrect": false },
+        { "id": "b", "text": "Hepatic Portal Vein", "isCorrect": true },
+        { "id": "c", "text": "Renal Portal Vein", "isCorrect": false },
+        { "id": "d", "text": "Inferior Vena Cava", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "The Hepatic Portal Vein drains blood from the capillary beds of the digestive tract (stomach, intestines, pancreas) and delivers it directly to the capillary sinusoids of the Liver, forming the Hepatic Portal System.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c15-008",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "QRS Complex & Ventricular Systole",
+      "difficulty": "Easy",
+      "questionText": "What electrical event during the cardiac cycle corresponds to the QRS Complex on a standard ECG, and what mechanical event immediately follows it?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Atrial Depolarization; followed by Atrial Systole", "isCorrect": false },
+        { "id": "b", "text": "Ventricular Depolarization; followed by Ventricular Systole", "isCorrect": true },
+        { "id": "c", "text": "Ventricular Repolarization; followed by Joint Diastole", "isCorrect": false },
+        { "id": "d", "text": "Atrial Repolarization; followed by Isovolumetric Relaxation", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "The QRS Complex represents rapid Ventricular Depolarization. Ventricular contraction (Ventricular Systole) begins immediately after the Q wave and continues through the S-T segment.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c15-009",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "Erythroblastosis Fetalis & IgG Placental Crossing",
+      "difficulty": "Medium",
+      "questionText": "An Rh- mother is pregnant with her second Rh+ child. She was not administered RhoGAM (anti-D antibodies) after her first Rh+ pregnancy. Which class of maternal antibodies crosses the placenta to cause Erythroblastosis Fetalis in the fetus?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "IgM antibodies (pentameric)", "isCorrect": false },
+        { "id": "b", "text": "IgA antibodies (dimeric)", "isCorrect": false },
+        { "id": "c", "text": "IgG antibodies (monomeric)", "isCorrect": true },
+        { "id": "d", "text": "IgE antibodies (monomeric)", "isCorrect": false }
+      ],
+      "correctAnswer": "c",
+      "solutionExplanation": "Maternal anti-Rh antibodies produced following sensitization belong to the IgG class. IgG is the ONLY antibody class that can cross the placental barrier via FcRn receptors to enter fetal circulation and destroy fetal Rh+ erythrocytes.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c15-010",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "Chordae Tendineae & Papillary Muscle Function",
+      "difficulty": "Easy",
+      "questionText": "What anatomical structure anchors the cusps of the Tricuspid and Bicuspid AV valves to the papillary muscles in the ventricular walls, preventing valvular prolapse during ventricular systole?",
+      "questionType": "MCQ",
+      "options": [
+        { "id": "a", "text": "Purkinje Fibers", "isCorrect": false },
+        { "id": "b", "text": "Chordae Tendineae", "isCorrect": true },
+        { "id": "c", "text": "Trabeculae Carneae", "isCorrect": false },
+        { "id": "d", "text": "Pectinate Muscles", "isCorrect": false }
+      ],
+      "correctAnswer": "b",
+      "solutionExplanation": "Chordae Tendineae are tough, fibrous cords that connect the free margins of the AV valve cusps (Tricuspid and Mitral) to the Papillary Muscles of the ventricular endocardium, preventing the valves from inverting into the atria during high-pressure ventricular contraction.",
+      "marks": 4,
+      "negativeMarks": 1
+    },
+    {
+      "id": "q-bio-c15-011",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "Formed Elements Characteristics",
+      "difficulty": "Medium",
+      "questionText": "Which of the following statements correctly characterize the Formed Elements of human blood? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Erythrocytes (RBCs) are biconcave, enucleated at maturity, and have an average lifespan of 120 days.", "isCorrect": true },
+        { "id": "b", "text": "Neutrophils are the most abundant WBCs (60–65%) and function as phagocytes.", "isCorrect": true },
+        { "id": "c", "text": "Basophils secrete Histamine, Heparin, and Serotonin to mediate inflammatory responses.", "isCorrect": true },
+        { "id": "d", "text": "Thrombocytes (Platelets) are nucleated cells derived from lymphocytes in the spleen.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: RBCs are biconcave/enucleate (120 d lifespan), Neutrophils are PMN phagocytes (60–65%), and Basophils release histamine/heparin/serotonin. D is incorrect: Platelets are ENUCLEATED cell fragments derived from bone marrow Megakaryocytes (NOT lymphocytes).",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c15-012",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "Cardiac Mechanics & Heart Sounds (LUB/DUP)",
+      "difficulty": "Medium",
+      "questionText": "Select the valid statements regarding human cardiac mechanics and heart sounds: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "The first heart sound ('LUB') is caused by the closure of the Tricuspid and Bicuspid (AV) valves at the start of ventricular systole.", "isCorrect": true },
+        { "id": "b", "text": "The second heart sound ('DUP') is caused by the closure of the Semilunar valves at the start of ventricular diastole.", "isCorrect": true },
+        { "id": "c", "text": "During Joint Diastole, all four heart chambers are relaxed, and blood flows passively from atria into ventricles.", "isCorrect": true },
+        { "id": "d", "text": "Stroke Volume (SV) is defined as the total volume of blood in the heart at the end of diastole (EDV).", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: LUB = AV valve closure; DUP = Semilunar valve closure; Joint Diastole allows passive 70% ventricular filling. D is incorrect: Stroke Volume = EDV - ESV ≈ 70 mL (it is the volume ejected per beat, NOT total volume).",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c15-013",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "Factors Increasing Cardiac Output",
+      "difficulty": "Medium",
+      "questionText": "Which of the following physiological factors INCREASE Cardiac Output (CO)? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Sympathetic nervous stimulation releasing Noradrenaline at the SA Node", "isCorrect": true },
+        { "id": "b", "text": "Secretion of Adrenaline and Noradrenaline from the Adrenal Medulla", "isCorrect": true },
+        { "id": "c", "text": "Parasympathetic stimulation via the Vagus Nerve releasing Acetylcholine", "isCorrect": false },
+        { "id": "d", "text": "An increase in End-Diastolic Volume (EDV) according to the Frank-Starling Law", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "solutionExplanation": "A, B, D are correct: Sympathetic stimulation, adrenal medullary hormones (adrenaline), and increased venous return (EDV) increase HR, contractility, and Stroke Volume, elevating Cardiac Output. C is incorrect: Parasympathetic (Vagus) stimulation DECREASES heart rate and cardiac output.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c15-014",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "Lymph & Lymphatic System Physiology",
+      "difficulty": "Easy",
+      "questionText": "Which of the following statements regarding Lymph and the Lymphatic System are TRUE? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Lymph is a clear fluid containing plasma solutes and abundant lymphocytes, but lacks RBCs and platelets.", "isCorrect": true },
+        { "id": "b", "text": "Dietary fats absorbed by intestinal villi are transported as chyle in specialized lymphatic capillaries called Lacteals.", "isCorrect": true },
+        { "id": "c", "text": "Lymph drains back into the systemic circulation via the Subclavian Veins.", "isCorrect": true },
+        { "id": "d", "text": "Lymphatic vessels contain internal valves to ensure unidirectional fluid flow toward the heart.", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "solutionExplanation": "All options are correct facts regarding lymph composition, fat absorption in lacteals, lymphatic drainage into subclavian veins, and unidirectional lymphatic valves.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c15-015",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "Neuro-Endocrine Regulation of Heart",
+      "difficulty": "Medium",
+      "questionText": "Select the correct options regarding the Regulation of Cardiac Activity: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "The cardiac center is located in the Medulla Oblongata of the brainstem.", "isCorrect": true },
+        { "id": "b", "text": "Sympathetic nervous signals increase heart rate and the strength of ventricular contraction.", "isCorrect": true },
+        { "id": "c", "text": "Parasympathetic signals transmitted via Cranial Nerve X (Vagus) decrease heart rate and conduction speed.", "isCorrect": true },
+        { "id": "d", "text": "Thyroxine hormone from the thyroid gland decreases cardiac sensitivity to catecholamines.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Medulla controls cardiac center; Sympathetic accelerates HR/contractility; Vagus (parasympathetic) slows HR/conduction. D is incorrect: Thyroxine INCREASES heart rate and enhances cardiac sensitivity to catecholamines.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c15-016",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "Pathophysiology of Cardiovascular Disorders",
+      "difficulty": "Hard",
+      "questionText": "Which of the following conditions correctly match their pathophysiological descriptions? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Atherosclerosis → Plaque deposition (calcium, fat, cholesterol) in coronary arteries narrowing the lumen.", "isCorrect": true },
+        { "id": "b", "text": "Angina Pectoris → Transient substernal chest pain caused by acute myocardial ischemia.", "isCorrect": true },
+        { "id": "c", "text": "Heart Failure → Inability of the heart to pump blood effectively, often presenting with pulmonary congestion.", "isCorrect": true },
+        { "id": "d", "text": "Hypertension → Persistent elevation of blood pressure above 140/90 mmHg.", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "solutionExplanation": "All options represent accurate etiology and clinical manifestations of major cardiovascular disorders.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c15-017",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "Vitamin K Dependent Clotting Factors",
+      "difficulty": "Medium",
+      "questionText": "Which clotting factors require Vitamin K for their enzymatic synthesis in the liver? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Factor II (Prothrombin)", "isCorrect": true },
+        { "id": "b", "text": "Factor VII (Proconvertin)", "isCorrect": true },
+        { "id": "c", "text": "Factor IX (Christmas Factor)", "isCorrect": true },
+        { "id": "d", "text": "Factor X (Stuart-Prower Factor)", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "solutionExplanation": "Vitamin K is a required co-factor for the hepatic γ-glutamyl carboxylase enzyme that post-translationally modifies Factors II, VII, IX, and X (mnemonic: 2 + 7 = 9, then 10).",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c15-018",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "Histology of Arteries, Veins, & Capillaries",
+      "difficulty": "Medium",
+      "questionText": "Select the correct statements regarding Blood Vessel Histology: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Arteries possess a significantly thicker, more muscular Tunica Media than veins.", "isCorrect": true },
+        { "id": "b", "text": "Veins contain internal valves to prevent backflow of low-pressure blood.", "isCorrect": true },
+        { "id": "c", "text": "The Tunica Intima is composed of a simple squamous endothelial cell layer.", "isCorrect": true },
+        { "id": "d", "text": "Capillary walls consist of all three layers: Tunica Intima, Tunica Media, and Tunica Externa.", "isCorrect": false }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionExplanation": "A, B, C are correct: Arteries have a thick tunica media; veins have internal valves; tunica intima is endothelium. D is incorrect: Capillaries consist ONLY of a single layer of endothelium (Tunica Intima) on a basement membrane; Tunica Media and Externa are absent.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c15-019",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "ABO Genetics & Immunoglobulin Classes",
+      "difficulty": "Hard",
+      "questionText": "Which of the following features characterize the ABO Blood Group System? (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "Blood Group O individuals are universal donors because their RBCs lack both A and B surface antigens.", "isCorrect": true },
+        { "id": "b", "text": "Blood Group AB individuals are universal recipients because their plasma lacks both Anti-A and Anti-B antibodies.", "isCorrect": true },
+        { "id": "c", "text": "The I^A and I^B alleles display codominance when present together (I^A I^B).", "isCorrect": true },
+        { "id": "d", "text": "Anti-A and Anti-B antibodies are naturally occurring IgM antibodies that do not cross the placenta.", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "solutionExplanation": "All options are correct facts regarding ABO surface antigens, plasma antibodies, codominance, and universal donor/recipient status.",
+      "marks": 4,
+      "negativeMarks": 0
+    },
+    {
+      "id": "q-bio-c15-020",
+      "exam": "NEST",
+      "subject": "Biology",
+      "chapter": "Body Fluids and Circulation",
+      "chapterNumber": 15,
+      "chapterSlug": "body-fluids-and-circulation",
+      "topic": "Nodal Conduction Velocity & Electrophysiology",
+      "difficulty": "Hard",
+      "questionText": "Select the correct options regarding the Human Nodal Conducting System: (Select all that apply)",
+      "questionType": "MSQ",
+      "options": [
+        { "id": "a", "text": "The SA Node is located in the upper right wall of the Right Atrium.", "isCorrect": true },
+        { "id": "b", "text": "The AV Node is located in the lower left corner of the Right Atrium near the atrioventricular septum.", "isCorrect": true },
+        { "id": "c", "text": "Action potential conduction speed is fastest in Purkinje fibers (≈ 4 m/s) and slowest in the AV Node (≈ 0.05 m/s).", "isCorrect": true },
+        { "id": "d", "text": "The AV Bundle (Bundle of His) is the only electrical connection between the atria and ventricles.", "isCorrect": true }
+      ],
+      "correctAnswer": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "solutionExplanation": "All options represent true anatomical and electrophysiological facts regarding the human myogenic conducting system.",
+      "marks": 4,
+      "negativeMarks": 0
+    }
+  ]
+}

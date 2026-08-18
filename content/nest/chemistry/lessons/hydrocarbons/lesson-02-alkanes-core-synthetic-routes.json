@@ -1,0 +1,53 @@
+{
+  "id": "chem-xi-u9-c9-l02",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit IX \u2014 Hydrocarbons",
+  "unitNumber": 9,
+  "chapter": "Hydrocarbons",
+  "chapterNumber": 9,
+  "chapterSlug": "hydrocarbons",
+  "slug": "lesson-02-alkanes-core-synthetic-routes",
+  "title": "Alkanes: Core Synthetic Routes & Reaction Mechanisms",
+  "topic": "Alkane Synthesis",
+  "topics": [
+    "Wurtz Reaction (2RX + 2Na \u2192 R-R in dry ether; Symmetrical alkanes only; Methane cannot be prepared)",
+    "Kolbe's Electrolysis (2RCOOK \u2192 R-R + 2CO\u2082 at Anode; H\u2082 at Cathode; pH rises)",
+    "Corey-House Synthesis (Gilman Reagent R\u2082CuLi + R'X \u2192 R-R'; Unsymmetrical alkanes)",
+    "Decarboxylation with Soda-Lime (RCOONa + NaOH/CaO \u2192 R-H + Na\u2082CO\u2083; 1 carbon less)",
+    "Clemmensen (Zn-Hg/HCl) and Wolff-Kishner (NH\u2082NH\u2082/KOH) Reductions"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "hydrocarbons",
+  "quickSummary": "Wurtz for symmetrical even-carbon alkanes. Kolbe's electrolysis yields R-R at anode. Corey-House (Gilman reagent R\u2082CuLi) synthesizes unsymmetrical alkanes cleanly. Decarboxylation yields alkanes with 1 less carbon.",
+  "summary": "Master core laboratory and industrial synthetic routes for alkanes: Wurtz, Kolbe, Corey-House, and Decarboxylation.",
+  "conceptBreakdown": [
+    {
+      "heading": "2.1 Alkane Preparations Comparison Matrix",
+      "title": "2.1 Alkane Preparations Comparison Matrix",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Synthetic Routes",
+        "takeaway": "Wurtz (even C, symmetrical), Kolbe (anodic R-R + CO\u2082), Corey-House (unsymmetrical R-R'), Decarboxylation (1 less C)."
+      },
+      "codeSnippet": "ALKANE SYNTHETIC ROUTES\n                                        \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                  \u25bc               \u25bc               \u25bc                  \u25bc\nWURTZ REACTION      KOLBE ELECTROLYSIS  COREY-HOUSE     DECARBOXYLATION    DECARBONYLATION\n2RX + 2Na \u2192         Aqueous RCOOK       Gilman Reagent  RCOONa + NaOH      Reductants on\nR-R + 2NaX          at Anode \u2192          R\u2082CuLi + R'X    \u2192 R-H              Aldehydes/Ketones\n(Symmetrical).      R-R + 2CO\u2082.         \u2192 R-R'.         (1 C less).        (Clemmensen/Wolf).",
+      "content": "\u2022 **Wurtz Reaction**: $2\\text{RX} + 2\\text{Na} \\xrightarrow{\\text{dry ether}} R-R + 2\\text{NaX}$. Best for symmetrical alkanes with even carbon counts. Cross-Wurtz gives a mixture of three alkanes. **Methane CANNOT be prepared**.\n\u2022 **Kolbe's Electrolysis**: Electrolysis of aqueous sodium/potassium carboxylates. Free radical oxidation at the **Anode** yields $R-R + 2\\text{CO}_2$; **Cathode** yields $\\text{H}_2$ gas (alkaline $\\text{KOH}$ accumulates around cathode).\n\u2022 **Corey-House Synthesis**: $R_2\\text{CuLi} + R'\\text{X} \\to R-R' + R\\text{Cu} + \\text{LiX}$. Clean coupling of unsymmetrical alkanes via Lithium dialkylcuprates (**Gilman Reagents**).\n\u2022 **Decarboxylation**: $R\\text{COONa} + \\text{NaOH} \\xrightarrow{\\text{CaO}, \\Delta} R-\\text{H} + \\text{Na}_2\\text{CO}_3$. Soda-lime ($\text{NaOH}:\\text{CaO} = 3:1$) yields an alkane with **one carbon less**."
+    }
+  ],
+  "quickRevision": [
+    "Methane cannot be prepared by Wurtz or Kolbe electrolysis.",
+    "Corey-House is ideal for unsymmetrical alkanes.",
+    "In Kolbe electrolysis, R-R and CO\u2082 evolve at the anode; H\u2082 at the cathode.",
+    "Decarboxylation with soda-lime reduces chain length by 1 carbon."
+  ],
+  "keyFormulae": [
+    "\\text{Wurtz: } 2R\\text{X} + 2\\text{Na} \\xrightarrow{\\text{ether}} R-R + 2\\text{NaX}",
+    "\\text{Corey-House: } R_2\\text{CuLi} + R'\\text{X} \\longrightarrow R-R' + R\\text{Cu} + \\text{LiX}"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "chem-xi-u9-c9-l07",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit IX \u2014 Hydrocarbons",
+  "unitNumber": 9,
+  "chapter": "Hydrocarbons",
+  "chapterNumber": 9,
+  "chapterSlug": "hydrocarbons",
+  "slug": "lesson-07-aromaticity-criteria-sear-mechanics-directing-effects",
+  "title": "Aromaticity Criteria (H\u00fcckel\u2019s 4n+2 Rule) & S_EAr Directing Effects",
+  "topic": "Aromaticity & S_EAr Reactions",
+  "topics": [
+    "4 H\u00fcckel Aromaticity Criteria (Cyclic, Planar, Conjugated, (4n+2) \u03c0-electrons)",
+    "Aromatic vs Anti-Aromatic (4n \u03c0-electrons) vs Non-Aromatic (Cyclooctatetraene COT tub shape)",
+    "Electrophilic Aromatic Substitution (S_EAr) 3-Step Mechanism (Arenium Ion / \u03c3-Complex / Wheland Intermediate)",
+    "Key S_EAr Profiles: Nitration (NO\u2082\u207a), Halogenation (X\u207a), Sulfonation (SO\u2083), FC Alkylation (R\u207a), FC Acylation (R-C\u207a=O)",
+    "Directive Influence: Ortho/Para Activators (+M, +I) vs Meta Deactivators (-M, -I)",
+    "The Halogen Anomaly: Halogens are Ortho/Para Directing BUT DEACTIVATING (-I > +M)",
+    "Carcinogenicity of Polycyclic Aromatic Hydrocarbons (PAHs, Diolepoxides)"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "hydrocarbons",
+  "quickSummary": "Aromatic: cyclic, planar, conjugated, (4n+2) \u03c0 e\u207b. Anti-aromatic: 4n \u03c0 e\u207b (unstable). COT is non-aromatic (tub shape). S_EAr rate-limiting step forms the arenium ion (\u03c3-complex). Halogens are ortho/para-directing but deactivating (-I > +M).",
+  "summary": "Master H\u00fcckel's aromaticity rules, S_EAr mechanisms, active electrophiles, directing effects, and the halogen anomaly.",
+  "conceptBreakdown": [
+    {
+      "heading": "7.1 H\u00fcckel's (4n+2) Rule & Anti-Aromaticity",
+      "title": "7.1 H\u00fcckel's (4n+2) Rule & Anti-Aromaticity",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Aromaticity Criteria",
+        "takeaway": "Aromatic: Cyclic, planar, conjugated, (4n+2) \u03c0 e\u207b (Benzene, Tropylium C\u2087H\u2087\u207a, Cyclopentadienyl anion). Anti-aromatic: 4n \u03c0 e\u207b (Cyclobutadiene). Non-aromatic: COT (tub conformation)."
+      },
+      "codeSnippet": "AROMATICITY COMPARISON MATRIX\n\n\u2022 Aromatic Systems (Extraordinarily Stable): Cyclic, planar, conjugated with (4n+2) \u03c0-electrons.\n  Examples: Benzene (6\u03c0 e\u207b, n=1), Tropylium cation (6\u03c0 e\u207b, n=1), Cyclopentadienyl anion (6\u03c0 e\u207b, n=1), Naphthalene (10\u03c0 e\u207b, n=2).\n\u2022 Anti-Aromatic Systems (Extremely Unstable): Cyclic, planar, conjugated with 4n \u03c0-electrons.\n  Example: Cyclobutadiene (4\u03c0 e\u207b, n=1).\n\u2022 Non-Aromatic Systems: Non-cyclic OR non-planar.\n  Example: Cyclooctatetraene (COT, 8\u03c0 e\u207b adopts a non-planar Tub Conformation to avoid anti-aromaticity!).",
+      "content": "To achieve aromatic stabilization, a ring system must be cyclic, fully planar, continuously conjugated across $p$-orbitals, and contain $\\mathbf{(4n+2)\\ \\pi\\text{-electrons}}$ ($n = 0, 1, 2, \\dots \\implies 2, 6, 10, 14$)."
+    },
+    {
+      "heading": "7.2 S_EAr Mechanism, Directing Effects, & The Halogen Anomaly",
+      "title": "7.2 S_EAr Mechanism, Directing Effects, & The Halogen Anomaly",
+      "type": "paragraph",
+      "codeSnippet": "S_EAr PROFILES & HALOGEN ANOMALY\n\n\u2022 Key Electrophiles:\n  \u251c\u2500\u2500 Nitration: Nitronium Ion (NO\u2082\u207a)\n  \u251c\u2500\u2500 Sulfonation: Neutral Sulfur Trioxide (SO\u2083)\n  \u251c\u2500\u2500 Halogenation: Halonium Ion (Cl\u207a / Br\u207a)\n  \u251c\u2500\u2500 FC Alkylation: Carbocation (R\u207a, prone to 1,2-shifts!)\n  \u2514\u2500\u2500 FC Acylation: Acylium Ion (R-C\u207a=O, NO shifts!)\n\n\u2022 The Halogen Anomaly (F, Cl, Br, I):\n  \u251c\u2500\u2500 Inductive Effect (-I > +M) \u2500\u2500\u25ba Deactivates the benzene ring (rate is slower than benzene!)\n  \u2514\u2500\u2500 Resonance Effect (+M)     \u2500\u2500\u25ba Directs incoming electrophile to Ortho and Para positions.\n  Halogens are Ortho/Para-Directing BUT DEACTIVATING!",
+      "content": "\u2022 **Rate-Determining Step**: Attack of electrophile $\\text{E}^+$ on benzene to form the non-aromatic **Arenium Ion / $\\sigma$-Complex / Wheland Intermediate**.\n\u2022 **Halogen Anomaly (CRITICAL NEST TRAP)**: Halogens are the only substituents that are **deactivating** (due to strong $-I$ effect) yet **ortho/para-directing** (due to $+M$ resonance stabilization of the $o,p$-arenium ion)."
+    }
+  ],
+  "quickRevision": [
+    "Tropylium cation (6\u03c0 e\u207b) and Cyclopentadienyl anion (6\u03c0 e\u207b) are aromatic.",
+    "COT assumes a non-planar tub shape and is non-aromatic.",
+    "Sulfonation uses neutral SO\u2083 as the electrophile.",
+    "Halogens are ortho/para-directing but deactivating (-I > +M)."
+  ],
+  "keyFormulae": [
+    "\\text{Aromaticity: } (4n+2)\\ \\pi\\text{-electrons}",
+    "\\text{Halogen Effect: } -I > +M \\implies \\text{Deactivating, } o/p\\text{-directing}"
+  ]
+}

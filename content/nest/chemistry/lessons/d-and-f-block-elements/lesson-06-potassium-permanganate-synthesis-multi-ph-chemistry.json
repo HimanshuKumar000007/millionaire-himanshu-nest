@@ -1,0 +1,62 @@
+{
+  "id": "chem-xii-u13-c4-l06",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XIII \u2014 d- and f-Block Elements",
+  "unitNumber": 13,
+  "chapter": "d- and f-Block Elements",
+  "chapterNumber": 4,
+  "chapterSlug": "d-and-f-block-elements",
+  "slug": "lesson-06-potassium-permanganate-synthesis-multi-ph-chemistry",
+  "title": "Potassium Permanganate (KMnO\u2084): Synthesis & Multi-pH Chemistry",
+  "topic": "Potassium Permanganate Chemistry",
+  "topics": [
+    "Industrial Synthesis from Pyrolusite Ore (MnO\u2082): KOH fusion to K\u2082MnO\u2084 (green) \u2500\u2500\u25ba Oxidation to KMnO\u2084 (purple)",
+    "Manganate (MnO\u2084\u00b2\u207b, green, paramagnetic, 3d\u00b9) vs Permanganate (MnO\u2084\u207b, purple, diamagnetic, 3d\u2070)",
+    "6.1 Multi-pH Oxidizing Behavior: Acidic (n=5, Mn\u00b2\u207a colorless), Neutral/Faintly Alkaline (n=3, MnO\u2082 brown ppt), Strongly Basic (n=1, MnO\u2084\u00b2\u207b green)",
+    "Special Alkaline/Neutral Reactions: Iodide to Iodate (I\u207b \u2500\u2500\u25ba IO\u2083\u207b! NOT I\u2082!) & Thiosulfate to Sulfate (S\u2082O\u2083\u00b2\u207b \u2500\u2500\u25ba SO\u2084\u00b2\u207b)",
+    "Baeyer's Reagent (Cold dilute 1% alkaline KMnO\u2084)"
+  ],
+  "order": 6,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "d-and-f-block-elements",
+  "quickSummary": "KMnO\u2084 is prepared by fusing MnO\u2082 with KOH + O\u2082 to green K\u2082MnO\u2084, followed by electrolytic/acidic oxidation to purple KMnO\u2084. MnO\u2084\u00b2\u207b is green/paramagnetic (3d\u00b9); MnO\u2084\u207b is purple/diamagnetic (3d\u2070). Oxidizing behavior: Acidic (n=5, Mn\u00b2\u207a), Neutral/Faintly Alkaline (n=3, MnO\u2082, converts I\u207b to IO\u2083\u207b iodate), Strongly Basic (n=1, MnO\u2084\u00b2\u207b).",
+  "summary": "Master potassium permanganate synthesis, manganate vs permanganate properties, and pH-dependent redox reactions.",
+  "conceptBreakdown": [
+    {
+      "heading": "6. Potassium Permanganate Synthesis & Structure",
+      "title": "6. Potassium Permanganate Synthesis & Structure",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "KMnO\u2084 Synthesis & Manganate vs Permanganate",
+        "takeaway": "MnO\u2082 + KOH + O\u2082 \u2500\u2500\u25ba K\u2082MnO\u2084 (dark green, 3d\u00b9, paramagnetic) \u2500\u2500\u25ba KMnO\u2084 (intense purple, 3d\u2070, diamagnetic)."
+      },
+      "codeSnippet": "                      POTASSIUM PERMANGANATE SYNTHESIS\n                      \n   1. Pyrolusite Fusion:   $2\\text{MnO}_2 + 4\\text{KOH} + \\text{O}_2 \\xrightarrow{\\Delta} \\mathbf{2\\text{K}_2\\text{MnO}_4 \\text{ (Dark Green)}} + 2\\text{H}_2\\text{O}$\n   2. Oxidation Step:      $3\\text{MnO}_4^{2-} \\text{ (Manganate)} + 4\\text{H}^+ \\longrightarrow \\mathbf{2\\text{MnO}_4^- \\text{ (Purple Permanganate)}} + \\text{MnO}_2 + 2\\text{H}_2\\text{O}$\n                           *(Or via Anodic Electrolytic Oxidation: $\\text{MnO}_4^{2-} \\rightarrow \\text{MnO}_4^- + e^-$)*\n\n                        MANGANATE vs PERMANGANATE\n                        \n   Manganate Ion ($\\text{MnO}_4^{2-}$):    Dark Green, Tetrahedral, Paramagnetic ($3d^1, \\text{Mn} = +6$)\n   Permanganate Ion ($\\text{MnO}_4^-$):    Intense Purple, Tetrahedral, Diamagnetic ($3d^0, \\text{Mn} = +7$)",
+      "content": "Potassium permanganate is industrially synthesized from Pyrolusite ore ($\\text{MnO}_2$):\n1. **Fusion with $\\text{KOH}$ and Air**: $2\\text{MnO}_2 + 4\\text{KOH} + \\text{O}_2 \\longrightarrow 2\\text{K}_2\\text{MnO}_4 + 2\\text{H}_2\\text{O}$.\n2. **Disproportionation / Electrolytic Oxidation**: $3\\text{MnO}_4^{2-} + 4\\text{H}^+ \\longrightarrow 2\\text{MnO}_4^- + \\text{MnO}_2 + 2\\text{H}_2\\text{O}$."
+    },
+    {
+      "heading": "6.1 Oxidizing Behavior Across pH Regimes",
+      "title": "6.1 Oxidizing Behavior Across pH Regimes",
+      "type": "paragraph",
+      "codeSnippet": "OXIDIZING BEHAVIOR ACROSS pH REGIMES\n\n1. ACIDIC MEDIUM (pH < 7, n=5):\n   MnO\u2084\u207b (+7) + 8H\u207a + 5e\u207b \u2500\u2500\u25ba Mn\u00b2\u207a (+2) (Colorless) + 4H\u2082O\n\n2. NEUTRAL / FAINTLY ALKALINE (pH 7-9, n=3):\n   MnO\u2084\u207b (+7) + 2H\u2082O + 3e\u207b \u2500\u2500\u25ba MnO\u2082 (+4) (Brown ppt) + 4OH\u207b\n\n3. STRONGLY BASIC (pH > 12, n=1):\n   MnO\u2084\u207b (+7) + e\u207b \u2500\u2500\u25ba MnO\u2084\u00b2\u207b (+6) (Green Manganate)\n\nSpecial Reactions in Neutral / Faintly Alkaline Medium (n=3):\n\u2022 Iodide to Iodate:       MnO\u2084\u207b + I\u207b + H\u2082O \u2500\u2500\u25ba 2MnO\u2082\u2193 + IO\u2083\u207b (Iodate! NOT I\u2082!)\n\u2022 Thiosulfate to Sulfate: 8MnO\u2084\u207b + 3S\u2082O\u2083\u00b2\u207b + H\u2082O \u2500\u2500\u25ba 8MnO\u2082\u2193 + 6SO\u2084\u00b2\u207b + 2OH\u207b",
+      "content": "- **Acidic Medium ($n=5$)**: $\\text{MnO}_4^- + 8\\text{H}^+ + 5e^- \\longrightarrow \\text{Mn}^{2+} + 4\\text{H}_2\\text{O}$.\n- **Neutral / Faintly Alkaline Medium ($n=3$)**: $\\text{MnO}_4^- + 2\\text{H}_2\\text{O} + 3e^- \\longrightarrow \\text{MnO}_2 + 4\\text{OH}^-$.\n  - **CRITICAL NEST TRAP**: In neutral/alkaline solution, $\\text{I}^-$ is oxidized to **Iodate ($\\text{IO}_3^-$)**, NOT $\\text{I}_2$!\n- **Strongly Basic Medium ($n=1$)**: $\\text{MnO}_4^- + e^- \\longrightarrow \\text{MnO}_4^{2-}$."
+    }
+  ],
+  "quickRevision": [
+    "MnO\u2084\u00b2\u207b is dark green, paramagnetic (3d\u00b9); MnO\u2084\u207b is purple, diamagnetic (3d\u2070).",
+    "Acidic medium: n-factor = 5 (MnO\u2084\u207b \u2500\u2500\u25ba Mn\u00b2\u207a).",
+    "Neutral / faintly alkaline: n-factor = 3 (MnO\u2084\u207b \u2500\u2500\u25ba MnO\u2082 brown ppt).",
+    "In neutral medium: I\u207b is oxidized to IO\u2083\u207b (Iodate!), NOT I\u2082.",
+    "Strongly basic medium: n-factor = 1 (MnO\u2084\u207b \u2500\u2500\u25ba MnO\u2084\u00b2\u207b)."
+  ],
+  "keyFormulae": [
+    "\\text{Acidic: } \\text{MnO}_4^- + 8\\text{H}^+ + 5e^- \\longrightarrow \\text{Mn}^{2+} + 4\\text{H}_2\\text{O} \\quad (n=5)",
+    "\\text{Neutral: } \\text{MnO}_4^- + 2\\text{H}_2\\text{O} + 3e^- \\longrightarrow \\text{MnO}_2 + 4\\text{OH}^- \\quad (n=3)",
+    "\\text{Basic: } \\text{MnO}_4^- + e^- \\longrightarrow \\text{MnO}_4^{2-} \\quad (n=1)"
+  ]
+}

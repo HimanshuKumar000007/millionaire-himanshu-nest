@@ -1,0 +1,62 @@
+{
+  "id": "chem-xii-u14-c5-l05",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XIV \u2014 Coordination Compounds",
+  "unitNumber": 14,
+  "chapter": "Coordination Compounds",
+  "chapterNumber": 5,
+  "chapterSlug": "coordination-compounds",
+  "slug": "lesson-05-valence-bond-theory-hybridization-complex-geometry",
+  "title": "Valence Bond Theory (VBT): Hybridization & Complex Geometry",
+  "topic": "Valence Bond Theory & Hybridization",
+  "topics": [
+    "Linus Pauling's Valence Bond Theory (VBT) Principles & Orbital Hybridization",
+    "CN = 4 (sp\u00b3 Tetrahedral vs dsp\u00b2 Square Planar) and CN = 6 (d\u00b2sp\u00b3 Inner Octahedral vs sp\u00b3d\u00b2 Outer Octahedral)",
+    "Inner Orbital Complexes (d\u00b2sp\u00b3, Low-Spin/Spin-Paired) vs Outer Orbital Complexes (sp\u00b3d\u00b2, High-Spin/Spin-Free)",
+    "VBT Complex Profiles: [Fe(CN)\u2086]\u2074\u207b, [Fe(CN)\u2086]\u00b3\u207b, [FeF\u2086]\u00b3\u207b, [Co(NH\u2083)\u2086]\u00b3\u207a, [CoF\u2086]\u00b3\u207b, [Ni(CN)\u2084]\u00b2\u207b, [NiCl\u2084]\u00b2\u207b, [Ni(CO)\u2084]",
+    "Spin-Only Magnetic Moments (\u03bc_s = \u221a(n(n+2)) BM) across VBT Configurations"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "coordination-compounds",
+  "quickSummary": "VBT uses orbital hybridization: CN=4 is sp\u00b3 (tetrahedral) or dsp\u00b2 (square planar); CN=6 is d\u00b2sp\u00b3 (inner orbital, low-spin) or sp\u00b3d\u00b2 (outer orbital, high-spin). Strong field ligands (CN\u207b, CO, NH\u2083) force electron pairing. [Ni(CO)\u2084] has Ni\u2070 in sp\u00b3 (diamagnetic); [Ni(CN)\u2084]\u00b2\u207b is dsp\u00b2 square planar (diamagnetic); [NiCl\u2084]\u00b2\u207b is sp\u00b3 tetrahedral (paramagnetic, n=2).",
+  "summary": "Master Valence Bond Theory hybridization, inner/outer orbital configurations, geometry predictions, and magnetic moments.",
+  "conceptBreakdown": [
+    {
+      "heading": "5. VBT Hybridization, Geometries, & Spin States",
+      "title": "5. VBT Hybridization, Geometries, & Spin States",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "VBT Hybridization Rules",
+        "takeaway": "CN=4: sp\u00b3 (tetrahedral, 109.5\u00b0) vs dsp\u00b2 (square planar, 90\u00b0). CN=6: d\u00b2sp\u00b3 (inner orbital, low-spin) vs sp\u00b3d\u00b2 (outer orbital, high-spin)."
+      },
+      "codeSnippet": "                       VBT HYBRIDIZATION & GEOMETRY\n                       \n   CN = 4 \u2500\u2500\u25ba $sp^3$ (Tetrahedral, $109.5^\\circ$)  OR  $dsp^2$ (Square Planar, $90^\\circ$)\n   CN = 6 \u2500\u2500\u25ba $d^2sp^3$ (Inner Orbital Octahedral) OR  $sp^3d^2$ (Outer Orbital Octahedral)\n\n                    INNER ORBITAL vs OUTER ORBITAL COMPLEXES\n                    \n   INNER ORBITAL COMPLEX ($d^2sp^3$): Uses **inner $(n-1)d$ orbitals**. Strong field ligands ($\\text{CN}^-, \\text{NH}_3$)\n                                      force electron pairing $\\implies$ **Low-Spin / Spin-Paired**.\n                                      \n   OUTER ORBITAL COMPLEX ($sp^3d^2$): Uses **outer $nd$ orbitals**. Weak field ligands ($\\text{F}^-, \\text{H}_2\\text{O}$)\n                                      cannot force pairing $\\implies$ **High-Spin / Spin-Free**.",
+      "content": "Proposed by Linus Pauling, VBT assumes that the central metal ion provides vacant $d, s, p$ hybrid orbitals to accept lone pairs donated by ligands."
+    },
+    {
+      "heading": "5.1 VBT Complex Profiles Matrix",
+      "title": "5.1 VBT Complex Profiles Matrix",
+      "type": "paragraph",
+      "codeSnippet": "VBT COMPLEX PROFILES MATRIX\n\n\u2022 [Fe(CN)\u2086]\u2074\u207b: Fe\u00b2\u207a (3d\u2076), Strong CN\u207b \u2500\u2500\u25ba d\u00b2sp\u00b3 Inner Octahedral, n=0, Diamagnetic\n\u2022 [Fe(CN)\u2086]\u00b3\u207b: Fe\u00b3\u207a (3d\u2075), Strong CN\u207b \u2500\u2500\u25ba d\u00b2sp\u00b3 Inner Octahedral, n=1, Paramagnetic (1.73 BM)\n\u2022 [FeF\u2086]\u00b3\u207b:    Fe\u00b3\u207a (3d\u2075), Weak F\u207b   \u2500\u2500\u25ba sp\u00b3d\u00b2 Outer Octahedral, n=5, Paramagnetic (5.92 BM)\n\u2022 [Co(NH\u2083)\u2086]\u00b3\u207a: Co\u00b3\u207a (3d\u2076), Strong NH\u2083 \u2500\u2500\u25ba d\u00b2sp\u00b3 Inner Octahedral, n=0, Diamagnetic\n\u2022 [CoF\u2086]\u00b3\u207b:    Co\u00b3\u207a (3d\u2076), Weak F\u207b   \u2500\u2500\u25ba sp\u00b3d\u00b2 Outer Octahedral, n=4, Paramagnetic (4.90 BM)\n\u2022 [Ni(CN)\u2084]\u00b2\u207b: Ni\u00b2\u207a (3d\u2078), Strong CN\u207b \u2500\u2500\u25ba dsp\u00b2 Square Planar, n=0, Diamagnetic\n\u2022 [NiCl\u2084]\u00b2\u207b:   Ni\u00b2\u207a (3d\u2078), Weak Cl\u207b  \u2500\u2500\u25ba sp\u00b3 Tetrahedral, n=2, Paramagnetic (2.83 BM)\n\u2022 [Ni(CO)\u2084]:   Ni\u2070  (3d\u00b9\u2070), Strong CO \u2500\u2500\u25ba sp\u00b3 Tetrahedral, n=0, Diamagnetic",
+      "content": "Review each landmark coordination complex's central metal oxidation state, $d^n$ count, hybridization, geometry, and magnetic properties."
+    }
+  ],
+  "quickRevision": [
+    "CN=4: sp\u00b3 (tetrahedral) or dsp\u00b2 (square planar).",
+    "CN=6: d\u00b2sp\u00b3 (inner, low-spin) or sp\u00b3d\u00b2 (outer, high-spin).",
+    "[Ni(CO)\u2084] is sp\u00b3 tetrahedral and diamagnetic (Ni\u2070 is 3d\u00b9\u2070 4s\u2070).",
+    "[Ni(CN)\u2084]\u00b2\u207b is dsp\u00b2 square planar and diamagnetic.",
+    "[NiCl\u2084]\u00b2\u207b is sp\u00b3 tetrahedral and paramagnetic (n=2, 2.83 BM).",
+    "[Co(NH\u2083)\u2086]\u00b3\u207a is d\u00b2sp\u00b3 diamagnetic; [CoF\u2086]\u00b3\u207b is sp\u00b3d\u00b2 paramagnetic (n=4, 4.90 BM)."
+  ],
+  "keyFormulae": [
+    "\\mu_s = \\sqrt{n(n+2)} \\text{ BM}",
+    "[\\text{Ni(CO)}_4] \\implies \\text{Ni}^0 (3d^{10}) \\implies sp^3 \\text{ Tetrahedral (Diamagnetic)}"
+  ]
+}

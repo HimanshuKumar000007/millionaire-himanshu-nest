@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u10-c11-l03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit X — Ecology",
+  "unitNumber": 10,
+  "chapter": "Organisms and Populations",
+  "chapterNumber": 11,
+  "chapterSlug": "organisms-and-populations",
+  "slug": "lesson-03-logistic-growth-model-s-curve-and-carrying-capacity",
+  "title": "Logistic Growth Model: S-Curve & Carrying Capacity (K)",
+  "topic": "Verhulst-Pearl Logistic Growth, dN/dt = rN(1 - N/K), Sigmoid Curve Phases, & Max Growth Rate at K/2",
+  "order": 3,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Verhulst-Pearl Logistic Growth Model represents realistic density-dependent population growth in finite habitats with Carrying Capacity (K). Differential equation: dN/dt = rN[(K - N)/K], where [(K - N)/K] is Environmental Resistance. Sigmoid (S-shaped) phases: Lag phase -> Acceleration / Log phase -> Deceleration phase -> Asymptote (dN/dt = 0 when N = K). Maximum population growth rate (dN/dt_max) occurs exactly at N = K/2.",
+  "summary": "Verhulst-Pearl Logistic Growth Model represents realistic density-dependent population growth in finite habitats with Carrying Capacity (K). Differential equation: dN/dt = rN[(K - N)/K], where [(K - N)/K] is Environmental Resistance. Sigmoid (S-shaped) phases: Lag phase -> Acceleration / Log phase -> Deceleration phase -> Asymptote (dN/dt = 0 when N = K). Maximum population growth rate (dN/dt_max) occurs exactly at N = K/2.",
+  "conceptBreakdown": [
+    {
+      "heading": "Verhulst-Pearl Logistic Growth Equation & Dynamics",
+      "title": "Verhulst-Pearl Logistic Growth Equation & Dynamics",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "In nature, resources are limiting, leading to logistic growth (dN/dt = rN[(K-N)/K]). Growth follows a sigmoid curve leveling off at the carrying capacity (K), with maximum population productivity occurring at N = K/2."
+      },
+      "codeSnippet": "EXPONENTIAL (J) vs LOGISTIC (S) CURVE\n                       \n            Pop Density (N) ▲             /  <-- Exponential Growth (dN/dt = rN)\n                            │            /\n                            │     K ────/----------------  <-- Carrying Capacity (K)\n                            │          /  /\n                            │         /  /   <-- Logistic Growth\n                            │        /  /        (dN/dt = rN[(K-N)/K])\n                            │  Lag  /  /\n                            └──────┴──┴─────────────────► Time (t)",
+      "content": "### 3.1 Carrying Capacity ($K$) & Environmental Resistance\n- In nature, no habitat has infinite resources to support perpetual exponential growth. Resources are finite, imposing an upper saturation threshold called the **Carrying Capacity ($K$)**.\n- **Carrying Capacity ($K$)**: The maximum population size of a species that a specific ecosystem can sustainably support indefinitely under prevailing environmental conditions.\n\n### 3.2 The Verhulst-Pearl Logistic Differential Equation\n$$\\mathbf{\\frac{dN}{dt} = rN \\left( \\frac{K - N}{K} \\right) = rN \\left( 1 - \\frac{N}{K} \\right)}$$\n- The fractional term $\\left( \\frac{K - N}{K} \\right)$ mathematically represents **Environmental Resistance**:\n  - When $N \\ll K$: $\\left( \\frac{K - N}{K} \\right) \\approx 1 \\implies$ Population grows near-exponentially ($\\frac{dN}{dt} \\approx rN$).\n  - When $N \\rightarrow K$: $\\left( \\frac{K - N}{K} \\right) \\rightarrow 0 \\implies \\frac{dN}{dt} \\rightarrow 0$ (**Asymptote**).\n\n### 3.3 Four Sequential Phases of the Sigmoid (S-Curve)\n1. **Lag Phase**: Initial slow establishment and physiological adaptation to the habitat.\n2. **Log / Acceleration Phase**: Rapid exponential population proliferation as density increases.\n3. **Deceleration Phase**: Growth slows down as resource competition and waste accumulation intensify ($N$ approaches $K$).\n4. **Asymptote Phase**: Equilibrium plateau where birth rate equals death rate ($b = d$), population stabilizes at $N = K$, and net growth rate is zero ($\\frac{dN}{dt} = 0$).\n\n### 3.4 Maximum Population Growth Rate ($N = \\frac{K}{2}$)\n- **HIGH-YIELD EXAM INVARIANT**: The rate of population increase ($\\frac{dN}{dt}$) is **MAXIMIZED** when population density is exactly half of the carrying capacity:\n  $$\\mathbf{N = \\frac{K}{2} \\implies \\left( \\frac{dN}{dt} \\right)_{\\max} = \\frac{rK}{4}}$$\n  - *Trap Alert*: At carrying capacity ($N = K$), the population size is maximized, but the **growth rate is ZERO ($\\frac{dN}{dt} = 0$)**!"
+    },
+    {
+      "heading": "Maximum Sustainable Yield (MSY)",
+      "title": "Maximum Sustainable Yield (MSY)",
+      "type": "paragraph",
+      "content": "In fisheries and wildlife management, harvesting populations at biomass density N = K/2 maximizes the sustainable annual harvest rate (MSY = rK/4) without depleting the breeding stock."
+    },
+    {
+      "heading": "Density-Dependent vs Density-Independent Factors",
+      "title": "Density-Dependent vs Density-Independent Factors",
+      "type": "paragraph",
+      "content": "Density-dependent factors (food competition, contagious diseases, predation) intensify in severity as population density rises; Density-independent factors (floods, fires, volcanic eruptions, frost) inflict mortality regardless of population density."
+    }
+  ]
+}

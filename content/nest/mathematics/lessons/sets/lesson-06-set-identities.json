@@ -1,0 +1,41 @@
+{
+  "id": "math-sets-lesson-06",
+  "exam": "NEST",
+  "subject": "Mathematics",
+  "classLevel": "Class XI",
+  "unit": "Unit 1 — Sets and Functions",
+  "unitNumber": 1,
+  "chapter": "Sets",
+  "chapterNumber": 1,
+  "chapterSlug": "sets",
+  "lessonNumber": 6,
+  "order": 6,
+  "slug": "lesson-06-set-identities",
+  "title": "Set Identities & Mutual Inclusion Proofs",
+  "topic": "Union, intersection & complement of sets",
+  "status": "published",
+  "estimatedTimeMinutes": 5,
+  "readingTimeMinutes": 5,
+  "diagramType": "sets",
+  "quickSummary": "Master table of fundamental set identities and the 2-part mutual inclusion proof method for De Morgan's Laws.",
+  "summary": "Master fundamental Boolean set identities and rigorous mutual inclusion proofs for De Morgan's laws.",
+  "coreConcepts": ["Idempotent", "Commutative", "Associative", "Distributive", "De Morgan's Laws", "Absorption", "Double Complement"],
+  "conceptBreakdown": [
+    {
+      "heading": "6. Master Table of Fundamental Set Identities",
+      "title": "6. Master Table of Fundamental Set Identities",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Proof Methodology",
+        "takeaway": "To establish X = Y in rigorous mathematics, always prove both X ⊆ Y and Y ⊆ X via element-chasing."
+      },
+      "content": "| Law Name | Union Version ($\\cup$) | Intersection Version ($\\cap$) |\n| :--- | :--- | :--- |\n| **Idempotent Laws** | $A \\cup A = A$ | $A \\cap A = A$ |\n| **Identity Laws** | $A \\cup \\emptyset = A$ | $A \\cap U = A$ |\n| **Domination / Annihilation** | $A \\cup U = U$ | $A \\cap \\emptyset = \\emptyset$ |\n| **Commutative Laws** | $A \\cup B = B \\cup A$ | $A \\cap B = B \\cap A$ |\n| **Associative Laws** | $(A \\cup B) \\cup C = A \\cup (B \\cup C)$ | $(A \\cap B) \\cap C = A \\cap (B \\cap C)$ |\n| **Distributive Laws** | $A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)$ | $A \\cap (B \\cup C) = (A \\cap B) \\cup (A \\cap C)$ |\n| **De Morgan's Laws** | $(A \\cup B)' = A' \\cap B'$ | $(A \\cap B)' = A' \\cup B'$ |\n| **Absorption Laws** | $A \\cup (A \\cap B) = A$ | $A \\cap (A \\cup B) = A$ |\n| **Complement Laws** | $A \\cup A' = U$ | $A \\cap A' = \\emptyset$ |\n| **Involution / Double Complement** | $(A')' = A$ | — |\n| **Relative Complement Identities** | $A \\setminus B = A \\cap B'$ | $A \\setminus (B \\cup C) = (A \\setminus B) \\cap (A \\setminus C)$ |"
+    },
+    {
+      "heading": "6.1 Rigorous Proof of De Morgan’s Law",
+      "title": "6.1 Rigorous Proof of De Morgan’s Law",
+      "type": "paragraph",
+      "content": "To prove set equality $(A \\cup B)' = A' \\cap B'$, we must establish mutual inclusion:\n\n1. **PART 1: Show $(A \\cup B)' \\subseteq A' \\cap B'$**\n   - Let $x \\in (A \\cup B)'$ be arbitrary $\\implies x \\notin (A \\cup B) \\implies \\neg(x \\in A \\lor x \\in B) \\implies (x \\notin A) \\land (x \\notin B) \\implies x \\in A' \\cap B'$. Thus $(A \\cup B)' \\subseteq A' \\cap B'$.\n\n2. **PART 2: Show $A' \\cap B' \\subseteq (A \\cup B)'$**\n   - Let $y \\in A' \\cap B'$ be arbitrary $\\implies (y \\in A') \\land (y \\in B') \\implies (y \\notin A) \\land (y \\notin B) \\implies \\neg(y \\in A \\lor y \\in B) \\implies y \\notin (A \\cup B) \\implies y \\in (A \\cup B)'$. Thus $A' \\cap B' \\subseteq (A \\cup B)'$.\n\n**Conclusion**: $(A \\cup B)' = A' \\cap B'$. $\\blacksquare$"
+    }
+  ]
+}

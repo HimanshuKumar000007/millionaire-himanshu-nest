@@ -1,0 +1,64 @@
+{
+  "id": "chem-xi-u5-c5-l08",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit V \u2014 Chemical Thermodynamics",
+  "unitNumber": 5,
+  "chapter": "Chemical Thermodynamics",
+  "chapterNumber": 5,
+  "chapterSlug": "chemical-thermodynamics",
+  "slug": "lesson-08-real-gases-traps-glossary",
+  "title": "Real Gases, van der Waals Equation, NEST Traps & Master Glossary",
+  "topic": "Real Gases, Traps & Glossary",
+  "topics": [
+    "Compressibility Factor (Z = PV_m / RT)",
+    "van der Waals Equation of State ((P + an\u00b2/V\u00b2)(V - nb) = nRT)",
+    "Low Pressure (Z < 1) vs High Pressure (Z > 1) Regimes",
+    "Critical Constants (T_c = 8a/27Rb, P_c = a/27b\u00b2, V_c = 3b, Z_c = 0.375)",
+    "10 High-Yield NEST Traps & 36-Term Master Glossary"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "chemical-thermodynamics",
+  "quickSummary": "Real gases deviate from ideality due to intermolecular attractions (constant a) and finite molecular size (constant b). Includes critical constants (T_c, P_c, V_c, Z_c = 0.375), 10 high-yield NEST traps, and a 36-term master glossary.",
+  "summary": "Master real gas deviations, van der Waals equation regimes, critical state constants, NEST traps, and master definitions.",
+  "conceptBreakdown": [
+    {
+      "heading": "8.1 Real Gas Regimes & van der Waals State Equation",
+      "title": "8.1 Real Gas Regimes & van der Waals State Equation",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "van der Waals Equation",
+        "takeaway": "(P + an\u00b2/V\u00b2)(V - nb) = nRT. Moderate P: Z = 1 - a/(V_m RT) < 1. High P: Z = 1 + Pb/(RT) > 1. H\u2082/He: Z > 1 always."
+      },
+      "codeSnippet": "COMPRESSIBILITY FACTOR (Z)\n   Z = P V_m / (RT)\n   \u251c\u2500\u2500 Z = 1  \u27f9 Ideal Gas\n   \u251c\u2500\u2500 Z < 1  \u27f9 Negative Deviation (Attractive forces 'a' dominate)\n   \u2514\u2500\u2500 Z > 1  \u27f9 Positive Deviation (Co-volume 'b' dominates, e.g. H\u2082, He)",
+      "content": "\u2022 **Critical Constants**:\n$$\\mathbf{T_c = \\frac{8a}{27Rb} \\quad \\vert \\quad P_c = \\frac{a}{27b^2} \\quad \\vert \\quad V_c = 3b \\quad \\vert \\quad Z_c = \\frac{P_c V_c}{R T_c} = \\frac{3}{8} = 0.375}$$\n\u2022 **Boyle Temperature ($T_b$)**: Temperature at which real gas behaves ideally over wide pressure range: $\\mathbf{T_b = \\frac{a}{Rb} = 3.375 T_c}$.\n\u2022 **Inversion Temperature ($T_i$)**: $\\mathbf{T_i = \\frac{2a}{Rb} = 2 T_b}$."
+    },
+    {
+      "heading": "8.2 10 High-Yield NEST Thermodynamics Traps",
+      "title": "8.2 10 High-Yield NEST Thermodynamics Traps",
+      "type": "paragraph",
+      "content": "1. **Free Expansion Entropy**: $\\Delta S_{\\text{sys}} = n R \\ln(V_2/V_1) > 0$ because free expansion is irreversible.\n2. **Universe Entropy**: Spontaneity requires $\\Delta S_{\\text{total}} = \\Delta S_{\\text{sys}} + \\Delta S_{\\text{surr}} > 0$. $\\Delta S_{\\text{sys}}$ can be negative.\n3. **Liquefaction Factor**: Liquefaction depends on **constant $a$** (attraction), NOT $b$.\n4. **Heat Capacity Units**: $C_{p,m} - C_{v,m} = R$ applies to molar heat capacities; $C_p - C_v = nR$ for $n$ moles.\n5. **Adiabatic Cooling**: Reversible adiabatic expansion causes cooling ($T_2 < T_1$).\n6. **Ozone Enthalpy**: $\\Delta_f H^\\circ[\\text{O}_3(g)] = +142.7\\text{ kJ/mol}$ (NOT zero).\n7. **High Pressure Deviation**: Real gases exhibit $Z = 1 + \\frac{Pb}{RT} > 1$ at high pressure.\n8. **Endothermic Spontaneity**: Spontaneous at high $T$ when $\\Delta S > 0$ and $T > \\Delta H / \\Delta S$.\n9. **Speed Order**: $v_{\\text{rms}} > v_{\\text{avg}} > v_{\\text{mp}}$ ($1.225 > 1.128 > 1.000$).\n10. **Third Law Scope**: Applies strictly to perfectly crystalline solids; disordered crystals ($\\text{CO, Ice}$) retain residual entropy."
+    }
+  ],
+  "quickRevision": [
+    "Z = P V_m / (RT).",
+    "Critical compressibility factor Z_c = 3/8 = 0.375.",
+    "Boyle temperature T_b = a / (Rb) = 3.375 T_c.",
+    "Inversion temperature T_i = 2a / (Rb) = 2 T_b.",
+    "Higher 'a' means higher T_c and easier gas liquefaction."
+  ],
+  "keyFormulae": [
+    "(P + a/V_m\u00b2) (V_m - b) = RT",
+    "T_c = 8a / (27Rb)",
+    "P_c = a / (27b\u00b2)",
+    "V_c = 3b",
+    "Z_c = 0.375",
+    "T_b = a / (Rb)"
+  ]
+}

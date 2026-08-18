@@ -1,0 +1,54 @@
+{
+  "id": "chem-xi-u1-c1-l04",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit I \u2014 Some Basic Concepts of Chemistry",
+  "unitNumber": 1,
+  "chapter": "Some Basic Concepts of Chemistry",
+  "chapterNumber": 1,
+  "chapterSlug": "some-basic-concepts-of-chemistry",
+  "slug": "lesson-04-empirical-molecular-formulas-combustion",
+  "title": "Empirical Formulas, Molecular Formulas & Combustion Analysis",
+  "topic": "Empirical & Molecular Formulas",
+  "topics": [
+    "Mass Percentage of Elements",
+    "Formula Determination Cascade",
+    "Integer Multiplier (n = M / EFM)",
+    "Quantitative Combustion Chemistry",
+    "The Combustion Absorption Train"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 7,
+  "estimatedTimeMinutes": 7,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "combustion-analysis",
+  "quickSummary": "Empirical formula gives the simplest atomic ratio, while molecular formula gives actual atom counts. In combustion analysis, anhydrous CaCl\u2082 absorbs water and concentrated KOH absorbs carbon dioxide to calculate elemental percentages.",
+  "summary": "Master the quantitative cascade from combustion tube data to exact molecular formula determination.",
+  "conceptBreakdown": [
+    {
+      "heading": "4. Formula Determination Cascade",
+      "title": "4. Formula Determination Cascade",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Formula Cascade Rule",
+        "takeaway": "Mass % \u2192 Relative Mole Ratio \u2192 Simple Integer Ratio \u2192 Empirical Formula \u2192 n = Molar Mass / EFM \u2192 Molecular Formula = (EF)_n."
+      },
+      "codeSnippet": "FORMULA DETERMINATION CASCADE\n                      \n   Elemental Mass % \u2500\u2500\u25ba Relative Mole Ratio \u2500\u2500\u25ba Simple Whole-Number Ratio \u2500\u2500\u25ba Empirical Formula\n                                                                                  \u2502\n   Molecular Formula ($MF = (EF)_n$) \u25c4\u2500\u2500 $n = \\frac{\\text{Molar Mass}}{\\text{Empirical Mass}}$ \u2518",
+      "content": "\u2022 **Empirical Formula (EF)**: The simplest whole-number ratio of atoms of each element in a compound.\n\u2022 **Molecular Formula (MF)**: The actual number of atoms of each element in a molecule: $\\mathbf{MF = [EF]_n}$.\n\u2022 **Integer Multiplier**: $\\mathbf{n = \\frac{\\text{Molar Mass (M)}}{\\text{Empirical Formula Mass (EFM)}}}$."
+    },
+    {
+      "heading": "4.2 Quantitative Combustion Analysis Chemistry",
+      "title": "4.2 Quantitative Combustion Analysis Chemistry",
+      "type": "paragraph",
+      "content": "For a pure organic compound $\\text{C}_x\\text{H}_y\\text{O}_z$ undergoing complete combustion in excess $\\text{O}_2$:\n\n$$\\text{C}_x\\text{H}_y\\text{O}_z + \\left(x + \\frac{y}{4} - \\frac{z}{2}\\right)\\text{O}_2 \\longrightarrow x \\text{ CO}_2 (g) + \\frac{y}{2} \\text{ H}_2\\text{O} (l)$$\n\n**The Combustion Absorption Train**:\n1. **Absorber 1 (Water)**: Anhydrous $\\text{CaCl}_2$ or $\\text{Mg(ClO}_4)_2$ absorbs $\\text{H}_2\\text{O}$.\n   $$\\% \\text{ Hydrogen} = \\frac{2}{18} \\times \\frac{\\text{Mass of }\\text{H}_2\\text{O}\\text{ collected}}{\\text{Mass of Organic Sample}} \\times 100$$\n\n2. **Absorber 2 (Carbon Dioxide)**: Concentrated $\\text{KOH}$ solution (Ascharite) absorbs $\\text{CO}_2$.\n   $$\\% \\text{ Carbon} = \\frac{12}{44} \\times \\frac{\\text{Mass of }\\text{CO}_2\\text{ collected}}{\\text{Mass of Organic Sample}} \\times 100$$\n\n3. **Oxygen Percentage**:\n   $$\\% \\text{ Oxygen} = 100 - (\\% \\text{ C} + \\% \\text{ H} + \\% \\text{ Other Elements})$$"
+    }
+  ],
+  "quickRevision": [
+    "Molecular Formula = (Empirical Formula) \u00d7 n.",
+    "CaCl2 absorbs H2O; KOH absorbs CO2 in combustion analysis.",
+    "Oxygen % is always calculated by subtraction from 100%."
+  ]
+}

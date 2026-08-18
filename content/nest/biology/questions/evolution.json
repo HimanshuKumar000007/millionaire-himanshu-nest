@@ -1,0 +1,602 @@
+[
+  {
+    "id": "bio-xii-u7-c6-q01",
+    "questionNumber": 1,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Miller-Urey Experiment",
+    "questionText": "In the classical 1953 Miller-Urey experiment, an electric spark discharge (800°C) was applied to a closed gaseous mixture simulating primordial Earth's reducing atmosphere. Which combination of gases was enclosed in the reaction flask, and what specific organic monomers were recovered in the liquid trap?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CH4, NH3, H2O vapor, O2; Fatty acids"
+      },
+      {
+        "id": "B",
+        "text": "CH4, NH3, H2, H2O vapor (in 2:2:1:2 ratio); Amino Acids (Glycine, Alanine, Aspartic Acid)"
+      },
+      {
+        "id": "C",
+        "text": "CO2, N2, H2S, O2; Nucleotides"
+      },
+      {
+        "id": "D",
+        "text": "C6H12O6, O2, N2; Polypeptides"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Miller and Urey enclosed CH4, NH3, H2, and H2O vapor (in a reducing atmosphere without free O2). After 1 week of continuous spark discharge at 800°C, chemical analysis revealed the synthesis of simple amino acids (Glycine, Alanine, and Aspartic Acid)."
+  },
+  {
+    "id": "bio-xii-u7-c6-q02",
+    "questionNumber": 2,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Homology & Divergent Evolution",
+    "questionText": "Comparative anatomical study reveals that the forelimbs of a Human, a Cheetah, a Whale, and a Bat share a common arrangement of humerus, radius, ulna, carpals, and phalanges, despite performing drastically different locomotion functions. How are these structures classified, and what evolutionary pattern do they demonstrate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Analogous structures; Convergent Evolution"
+      },
+      {
+        "id": "B",
+        "text": "Homologous structures; Divergent Evolution"
+      },
+      {
+        "id": "C",
+        "text": "Vestigial structures; Saltation"
+      },
+      {
+        "id": "D",
+        "text": "Parallel structures; Genetic Drift"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Anatomical structures sharing the same embryonic origin and skeletal architecture adapted for different functions are Homologous Structures. They demonstrate Divergent Evolution from a common ancestor."
+  },
+  {
+    "id": "bio-xii-u7-c6-q03",
+    "questionNumber": 3,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Hardy-Weinberg Calculation",
+    "questionText": "In a population genetics survey of an isolated island, the frequency of an autosomal recessive allele causing cystic fibrosis (q) is found to be 0.2 (20%). Assuming the population is in Hardy-Weinberg Equilibrium, what percentage of the population will be phenotypically normal, carrier heterozygotes (2pq)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4%"
+      },
+      {
+        "id": "B",
+        "text": "16%"
+      },
+      {
+        "id": "C",
+        "text": "32%"
+      },
+      {
+        "id": "D",
+        "text": "64%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Given q = 0.2. Since p + q = 1 => p = 1 - 0.2 = 0.8. Carrier frequency = 2pq = 2 x 0.8 x 0.2 = 0.32 = 32%."
+  },
+  {
+    "id": "bio-xii-u7-c6-q04",
+    "questionNumber": 4,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Founder Effect",
+    "questionText": "A small group of 15 religious migrants leaves a large mainland population and establishes a closed, isolated community. By chance, one migrant carries a rare autosomal recessive allele for polydactyly. After six generations, the frequency of polydactyly in the island community is 10 times higher than in the original mainland population. What evolutionary mechanism caused this random shift in allele frequency?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Directional Natural Selection"
+      },
+      {
+        "id": "B",
+        "text": "Founder Effect (a form of Genetic Drift)"
+      },
+      {
+        "id": "C",
+        "text": "Industrial Melanism"
+      },
+      {
+        "id": "D",
+        "text": "Adaptive Radiation via Sympatric Speciation"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The rapid rise of a rare allele in a small isolated population established by a few colonizers is the Founder Effect (a specific form of Genetic Drift)."
+  },
+  {
+    "id": "bio-xii-u7-c6-q05",
+    "questionNumber": 5,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Disruptive Selection",
+    "questionText": "A evolutionary biologist measures the beak size of an isolated seedcracker finch population before and after a severe drought. The data shows that birds with intermediate beak sizes suffered high mortality, whereas birds with either extremely small beaks (efficient for small grass seeds) OR extremely large beaks (efficient for hard woody nuts) survived and reproduced in high numbers. What type of natural selection operates on this population?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stabilizing Selection"
+      },
+      {
+        "id": "B",
+        "text": "Directional Selection"
+      },
+      {
+        "id": "C",
+        "text": "Disruptive / Diversifying Selection"
+      },
+      {
+        "id": "D",
+        "text": "Artificial Selection"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Selection that favors both extreme phenotypes over the intermediate mean phenotype is Disruptive (Diversifying) Selection, splitting a unimodal curve into a bimodal distribution."
+  },
+  {
+    "id": "bio-xii-u7-c6-q06",
+    "questionNumber": 6,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Archaeopteryx Connecting Link",
+    "questionText": "Fossilized skeletal remains of an extinct animal display a mix of reptilian features (jaw teeth, long bony tail, clawed digits) and avian features (feathered wings, furcula/wishbone). What is the name of this famous paleontological transitional connecting link?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Latimeria coelacanth"
+      },
+      {
+        "id": "B",
+        "text": "Archaeopteryx lithographica"
+      },
+      {
+        "id": "C",
+        "text": "Tyrannosaurus rex"
+      },
+      {
+        "id": "D",
+        "text": "Australopithecus afarensis"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Archaeopteryx lithographica is a textbook transitional fossil bridging non-avian reptiles and modern birds, possessing both reptilian teeth/tail/claws and avian feathers/wishbone."
+  },
+  {
+    "id": "bio-xii-u7-c6-q07",
+    "questionNumber": 7,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Homo erectus Cranial Capacity & Fire",
+    "questionText": "Which hominid ancestor lived approximately 1.5 million years ago, possessed a cranial capacity of 900 cc, ate meat, and was the FIRST hominid to discover and utilize FIRE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Homo habilis"
+      },
+      {
+        "id": "B",
+        "text": "Homo erectus"
+      },
+      {
+        "id": "C",
+        "text": "Homo neanderthalensis"
+      },
+      {
+        "id": "D",
+        "text": "Australopithecus"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Homo erectus (~1.5 mya) possessed a cranial capacity of 900 cc, ate meat, stood fully erect, and was the first hominid to master the use of fire."
+  },
+  {
+    "id": "bio-xii-u7-c6-q08",
+    "questionNumber": 8,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Von Baer's Law",
+    "questionText": "Karl Ernst von Baer (1828) critically evaluated Ernst Haeckel's Biogenetic Law ('Ontogeny Recapitulates Phylogeny'). What fundamental observation led von Baer to DEBUNK Haeckel's hypothesis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Embryos of higher animals pass through the adult stages of lower animals."
+      },
+      {
+        "id": "B",
+        "text": "Developing embryos pass through stages resembling the EMBRYOS of adult ancestors, but NEVER pass through the adult stages of other animals."
+      },
+      {
+        "id": "C",
+        "text": "All vertebrate embryos completely lack pharyngeal gill slits."
+      },
+      {
+        "id": "D",
+        "text": "Embryonic development is governed entirely by environmental temperature."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Von Baer disproved Haeckel's law by showing that developing embryos pass through structural stages that resemble the embryos (not adults) of ancestral species. A human embryo develops pharyngeal clefts like a fish embryo, but never adult gills."
+  },
+  {
+    "id": "bio-xii-u7-c6-q09",
+    "questionNumber": 9,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Adaptive Radiation & Convergent Evolution",
+    "questionText": "In Australia, isolated marsupials evolved into diverse ecological forms including Marsupial Moles, Bandicoots, Tasmanians Wolves, and Kangaroos. Simultaneously, placental mammals in North America evolved corresponding analogues (Placental Moles, Anteaters, Wolves). What twin evolutionary phenomena do these two adaptive groups demonstrate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intra-group Adaptive Radiation AND Inter-group Convergent Evolution"
+      },
+      {
+        "id": "B",
+        "text": "Intra-group Genetic Drift AND Inter-group Saltation"
+      },
+      {
+        "id": "C",
+        "text": "Intra-group Lamarckism AND Inter-group Polyploidy"
+      },
+      {
+        "id": "D",
+        "text": "Intra-group Stabilizing Selection AND Inter-group Sympatry"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Marsupials within Australia underwent Adaptive Radiation from a common ancestor. When compared to North American placental mammals occupying similar ecological niches, they demonstrate Convergent Evolution (forming convergent analogues)."
+  },
+  {
+    "id": "bio-xii-u7-c6-q09-alternate",
+    "questionNumber": 10,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "De Vries Mutation Theory vs Darwinism",
+    "questionText": "Hugo de Vries proposed the Mutation Theory of Evolution based on his experiments on the Evening Primrose (Oenothera lamarckiana). How did de Vries' proposed evolutionary driver differ fundamentally from Charles Darwin's proposed driver?",
+    "options": [
+      {
+        "id": "A",
+        "text": "De Vries proposed gradual, continuous variations; Darwin proposed sudden saltation."
+      },
+      {
+        "id": "B",
+        "text": "De Vries proposed large, single-step, random, directionless mutations (Saltation); Darwin proposed slow, continuous, directional variations."
+      },
+      {
+        "id": "C",
+        "text": "De Vries proposed use and disuse of organs; Darwin proposed inheritance of acquired traits."
+      },
+      {
+        "id": "D",
+        "text": "De Vries proposed that evolution occurs only in small isolated islands."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "De Vries proposed that speciation occurs via Saltation (large, single-step, random, directionless mutations). In contrast, Darwin proposed that evolution proceeds gradually through small, continuous, directional variations accumulated by natural selection."
+  },
+  {
+    "id": "bio-xii-u7-c6-q11",
+    "questionNumber": 11,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Primordial Atmosphere Conditions",
+    "questionText": "Which of the following conditions were characteristic of Earth's primordial atmosphere prior to the chemical origin of life?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Complete absence of free molecular oxygen (O2 ABSENT / Reducing Atmosphere)"
+      },
+      {
+        "id": "B",
+        "text": "Abundance of gases including CH4, NH3, H2, and H2O vapor"
+      },
+      {
+        "id": "C",
+        "text": "High ambient temperatures and intense ultraviolet (UV) radiation"
+      },
+      {
+        "id": "D",
+        "text": "Dense ozone (O3) layer blocking solar UV light"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Primordial Earth had a reducing atmosphere lacking free O2, rich in CH4, NH3, H2, and H2O, with high temperatures and UV radiation. D is incorrect: Ozone could not form without free molecular oxygen."
+  },
+  {
+    "id": "bio-xii-u7-c6-q12",
+    "questionNumber": 12,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Homologous Structures",
+    "questionText": "Which of the following paired structures represent valid examples of HOMOLOGOUS organs demonstrating Divergent Evolution?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Forelimbs of Human, Cheetah, Whale, and Bat"
+      },
+      {
+        "id": "B",
+        "text": "Thorns of Bougainvillea and Tendrils of Cucurbita"
+      },
+      {
+        "id": "C",
+        "text": "Wings of a Butterfly and Wings of a Pigeon"
+      },
+      {
+        "id": "D",
+        "text": "Hearts and Brains of different Vertebrates"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "A, B, D are correct: Mammal forelimbs, stems of Bougainvillea (thorn) & Cucurbita (tendril), and vertebrate hearts/brains share common embryonic/anatomical origins (Homology). C is incorrect: Butterfly and bird wings are Analogous structures resulting from convergent evolution."
+  },
+  {
+    "id": "bio-xii-u7-c6-q13",
+    "questionNumber": 13,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Hardy-Weinberg Principle Features",
+    "questionText": "Select the correct options regarding the Hardy-Weinberg Principle (p^2 + 2pq + q^2 = 1):",
+    "options": [
+      {
+        "id": "A",
+        "text": "It assumes an infinitely large, randomly mating population."
+      },
+      {
+        "id": "B",
+        "text": "Gene flow, genetic drift, mutation, genetic recombination, and natural selection disturb the equilibrium."
+      },
+      {
+        "id": "C",
+        "text": "In a population at equilibrium, 2pq represents the frequency of heterozygous individuals (Aa)."
+      },
+      {
+        "id": "D",
+        "text": "Genetic drift alters allele frequencies predictably in very large populations."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: HW requires large randomly mating populations, is disturbed by 5 evolutionary forces, and 2pq equals f(Aa). D is incorrect: Genetic drift operates randomly in SMALL populations, not large ones."
+  },
+  {
+    "id": "bio-xii-u7-c6-q14",
+    "questionNumber": 14,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Hominid Cranial Capacities",
+    "questionText": "Which of the following hominid ancestors correctly match their cranial capacity and physiological traits?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Australopithecus -> 400-500 cc; bipedal walking in African grasslands"
+      },
+      {
+        "id": "B",
+        "text": "Homo habilis -> 650-800 cc; first tool-maker ('Handy Man'), did NOT eat meat"
+      },
+      {
+        "id": "C",
+        "text": "Homo erectus -> 900 cc; ate meat, discovered and used fire"
+      },
+      {
+        "id": "D",
+        "text": "Homo neanderthalensis -> 1400 cc; buried dead with rituals in Near/Central Asia"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "All four options represent accurate evolutionary facts and cranial capacities across the hominid lineage."
+  },
+  {
+    "id": "bio-xii-u7-c6-q15",
+    "questionNumber": 15,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Genetic Drift Properties",
+    "questionText": "Select the valid statements regarding Genetic Drift:",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is a directional force that always increases evolutionary fitness."
+      },
+      {
+        "id": "B",
+        "text": "It represents random, non-directional allele frequency fluctuations occurring in small populations."
+      },
+      {
+        "id": "C",
+        "text": "The Founder Effect occurs when a small isolated group establishes a new population with limited gene diversity."
+      },
+      {
+        "id": "D",
+        "text": "The Bottleneck Effect occurs when a catastrophe drastically reduces population size, randomly altering allele frequencies."
+      }
+    ],
+    "correctAnswer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "B, C, D are correct: Genetic drift is random in small populations, operating via Founder and Bottleneck effects. A is incorrect: Genetic drift is non-directional and random; it does not necessarily increase fitness."
+  },
+  {
+    "id": "bio-xii-u7-c6-q16",
+    "questionNumber": 16,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Directional Selection Examples",
+    "questionText": "Which of the following examples demonstrate Directional Natural Selection?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Industrial Melanism in Biston betularia (peppered moth) in post-industrial England"
+      },
+      {
+        "id": "B",
+        "text": "Evolution of Antibiotic Resistance in bacterial populations exposed to penicillin"
+      },
+      {
+        "id": "C",
+        "text": "Evolution of Pesticide/Herbicide Resistance in agricultural weeds"
+      },
+      {
+        "id": "D",
+        "text": "Human birth weight where intermediate weights (3-4 kg) show highest survival"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Industrial melanism, antibiotic resistance, and pesticide resistance are classic examples of Directional Selection. D is incorrect: Human birth weight is the classic textbook example of Stabilizing Selection."
+  },
+  {
+    "id": "bio-xii-u7-c6-q17",
+    "questionNumber": 17,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Convergent Marsupial-Placental Analogues",
+    "questionText": "Which of the following pairs represent CONVERGENT ANALOGUES between Australian Marsupials and Placental Mammals?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tasmanian Wolf <-> Placental Wolf"
+      },
+      {
+        "id": "B",
+        "text": "Flying Phalanger <-> Flying Squirrel"
+      },
+      {
+        "id": "C",
+        "text": "Marsupial Mole <-> Placental Mole"
+      },
+      {
+        "id": "D",
+        "text": "Kangaroo <-> Human"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Tasmanian Wolf/Placental Wolf, Flying Phalanger/Flying Squirrel, and Marsupial Mole/Placental Mole are convergent analogues resulting from parallel adaptive radiation. D is incorrect: Kangaroos and humans are not convergent analogues."
+  },
+  {
+    "id": "bio-xii-u7-c6-q18",
+    "questionNumber": 18,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Geological Timeline & History of Life",
+    "questionText": "Select the correct statements regarding the geological time scale and evolutionary history:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Mesozoic Era is known as the 'Age of Reptiles'."
+      },
+      {
+        "id": "B",
+        "text": "The Cenozoic Era is known as the 'Age of Mammals and Angiosperms'."
+      },
+      {
+        "id": "C",
+        "text": "Dinosaurs suddenly became extinct approximately 65 million years ago (Cretaceous period)."
+      },
+      {
+        "id": "D",
+        "text": "First cellular forms of life appeared on Earth approximately 4.5 billion years ago."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Mesozoic = Age of Reptiles; Cenozoic = Age of Mammals; Dinosaurs extinct ~65 mya. D is incorrect: Earth formed ~4.5 billion years ago; first cellular life appeared ~2.0 billion years ago."
+  },
+  {
+    "id": "bio-xii-u7-c6-q19",
+    "questionNumber": 19,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Weismann's Germplasm vs Lamarckism",
+    "questionText": "Which of the following observations disproved Lamarck's Theory of Inheritance of Acquired Characters?",
+    "options": [
+      {
+        "id": "A",
+        "text": "August Weismann cutting off tails of white mice for 22 consecutive generations, with all offspring born with full tails."
+      },
+      {
+        "id": "B",
+        "text": "Weismann's Germplasm Theory establishing the separation of Germplasm (heritable) from Somatoplasm (non-heritable)."
+      },
+      {
+        "id": "C",
+        "text": "F.W. Went isolating auxin from oat coleoptile tips."
+      },
+      {
+        "id": "D",
+        "text": "Louis Pasteur's swan-neck flask experiment."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B"
+    ],
+    "explanation": "A and B are correct: August Weismann's 22-generation mouse tail cutting experiment proved somatic changes are not inherited, formulating the Germplasm Theory that debunked Lamarckism. C and D are incorrect: Went isolated auxin; Pasteur debunked spontaneous generation."
+  },
+  {
+    "id": "bio-xii-u7-c6-q20",
+    "questionNumber": 20,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Human Evolution Milestones",
+    "questionText": "Select the correct options regarding human evolutionary milestones:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Homo habilis possessed a cranial capacity of 650-800 cc and was the first hominid tool-maker."
+      },
+      {
+        "id": "B",
+        "text": "Neanderthal Man (1400 cc) lived in Near and Central Asia, used animal hides, and buried their dead with rituals."
+      },
+      {
+        "id": "C",
+        "text": "Pre-historic cave art was developed by modern humans ~18,000 years ago (e.g., Bhimbetka, MP, India)."
+      },
+      {
+        "id": "D",
+        "text": "Agriculture and human civilization arose approximately 100,000 years ago."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: H. habilis (650-800 cc tool-maker), Neanderthals (1400 cc burial rituals), and cave art (18,000 ya) are accurate. D is incorrect: Agriculture and human settlement arose ~10,000 years ago, not 100,000 years ago."
+  }
+]

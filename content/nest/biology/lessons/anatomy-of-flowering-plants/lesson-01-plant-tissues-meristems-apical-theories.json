@@ -1,0 +1,58 @@
+{
+  "id": "bio-xi-u2-c6-l01",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit II — Structural Organization in Plants and Animals",
+  "unitNumber": 2,
+  "chapter": "Anatomy of Flowering Plants",
+  "chapterNumber": 6,
+  "chapterSlug": "anatomy-of-flowering-plants",
+  "slug": "lesson-01-plant-tissues-meristems-apical-theories",
+  "title": "Plant Tissues: Meristems & Apical Organization Theories",
+  "topic": "Position & Origin Classifications, Histogen, Tunica-Corpus, & Quiescent Center",
+  "topics": [
+    "Plant Tissue Definition & Hierarchy",
+    "Meristem Classification by Position (Apical, Intercalary, Lateral)",
+    "Meristem Classification by Origin (Promeristem, Primary, Secondary)",
+    "Meristem Classification by Function (Protoderm, Ground, Procambium)",
+    "Histogen Theory (Hanstein - Dermatogen, Periblem, Plerome)",
+    "Tunica-Corpus Theory (Schmidt - Anticlinal vs Periclinal Planes)",
+    "Quiescent Center Concept (Clowes - Root Apex Stem Cell Reservoir)"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Plant tissues divide into meristematic (actively dividing) and permanent (differentiated). Meristems are classified by position (apical, intercalary, lateral), origin (primary, secondary), and function. Apical organization is governed by Histogen Theory (Dermatogen, Periblem, Plerome), Tunica-Corpus Theory (Tunica anticlinal, Corpus volume), and the Quiescent Center (mitotically inactive stem cell reserve).",
+  "summary": "Plant tissues divide into meristematic (actively dividing) and permanent (differentiated). Meristems are classified by position (apical, intercalary, lateral), origin (primary, secondary), and function. Apical organization is governed by Histogen Theory (Dermatogen, Periblem, Plerome), Tunica-Corpus Theory (Tunica anticlinal, Corpus volume), and the Quiescent Center (mitotically inactive stem cell reserve).",
+  "conceptBreakdown": [
+    {
+      "heading": "1. Plant Tissues: Meristems & Apical Organization",
+      "title": "1. Plant Tissues: Meristems & Apical Organization",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Meristematic cells possess dense cytoplasm and thin primary cellulose walls. Apical and intercalary meristems cause primary linear growth; lateral meristems (vascular and cork cambium) cause secondary girth expansion."
+      },
+      "codeSnippet": "PLANT TISSUES\n                                    │\n         ┌──────────────────────────┴──────────────────────────┐\n         ▼                                                     ▼\n MERISTEMATIC TISSUES                                 PERMANENT TISSUES\n(Active Mitotic Division)                            (Differentiated / Non-Dividing)\n ├── Position: Apical, Intercalary, Lateral           ├── Simple: Parenchyma, Collenchyma, Sclerenchyma\n └── Origin: Primary vs Secondary                     └── Complex: Xylem and Phloem",
+      "content": "Plant anatomy is the study of the internal structural organization of plant organs at the cellular and tissue levels. A **tissue** is defined as a group of morphologically similar or dissimilar cells sharing a common developmental origin and collectively performing a specific physiological function."
+    },
+    {
+      "heading": "1.1 Classification of Meristematic Tissues",
+      "title": "1.1 Classification of Meristematic Tissues",
+      "type": "paragraph",
+      "codeSnippet": "MERISTEM CLASSIFICATIONS\n                                     │\n     ┌───────────────────────────────┼───────────────────────────────┐\n     ▼                               ▼                               ▼\nPOSITION-BASED                  ORIGIN-BASED                    FUNCTION-BASED\n├── Apical Meristem             ├── Promeristem (Embryonic)      ├── Protoderm (Dermal)\n├── Intercalary Meristem        ├── Primary Meristem            ├── Ground Meristem (Cortex)\n└── Lateral Meristem            └── Secondary Meristem          └── Procambium (Vascular)",
+      "content": "Meristems consist of undifferentiated, thin-walled cells with dense cytoplasm, prominent non-vacuolated nuclei, and high metabolic activity.\n\n### 1. Classification by Position\n• **Apical Meristems**: Located at the tips of roots (RAM) and shoots (SAM). Responsible for primary linear extension (**primary growth**).\n• **Intercalary Meristems**: Positioned between regions of mature permanent tissue (e.g., at the base of internodes in grasses). Derived from apical meristem; responsible for internodal elongation and regenerating vegetation grazed by herbivores.\n• **Lateral Meristems**: Arranged parallel to the long axis of organs. Responsible for increasing girth/thickness (**secondary growth**). Includes Vascular Cambium and Cork Cambium (*Phellogen*).\n\n### 2. Classification by Origin\n• **Primary Meristems**: Originate directly from the embryonic promeristem. Retain continuous mitotic activity throughout life (Apical and Intercalary meristems, Intrafascicular cambium).\n• **Secondary Meristems**: Formed later in plant life from mature, permanent tissues through **dedifferentiation** (Interfascicular cambium, Cork cambium / *Phellogen*, Marginal cambium)."
+    },
+    {
+      "heading": "1.2 Theories of Apical Organization",
+      "title": "1.2 Theories of Apical Organization",
+      "type": "paragraph",
+      "codeSnippet": "SHOOT APICAL MERISTEM THEORIES\n                                   │\n         ┌─────────────────────────┴─────────────────────────┐\n         ▼                                                   ▼\n HISTOGEN THEORY (Hanstein, 1868)                    TUNICA-CORPUS THEORY (Schmidt, 1924)\n ├── Dermatogen ──► Epidermis                         ├── Tunica: Outer layers; anticlinal division\n ├── Periblem   ──► Cortex                            │   (Surface area extension)\n └── Plemome    ──► Stele                             └── Corpus: Central core; periclinal division\n                                                          (Volume expansion)",
+      "content": "### Major Apical Organization Models\n1. **Histogen Theory (Hanstein, 1868)**: Postulates that the shoot and root apices comprise three distinct embryonic tissue zones (*histogens*):\n   - **Dermatogen**: Outer single layer giving rise to the Epidermal Tissue System.\n   - **Periblem**: Middle region giving rise to the Cortex (hypodermis, general cortex, endodermis).\n   - **Plerome**: Central core giving rise to the Stele (pericycle, vascular bundles, pith).\n2. **Tunica-Corpus Theory (Schmidt, 1924 - Shoot Apex)**:\n   - **Tunica**: Consists of one or more outer cell layers that divide strictly in an **anticlinal plane** (perpendicular to the surface), expanding surface area.\n   - **Corpus**: A central mass of larger cells beneath the tunica that divide in various planes (**periclinal and anticlinal**) to expand internal tissue volume.\n3. **Quiescent Center Concept (Clowes, 1956 - Root Apex)**:\n   - A hemisphere of inactive, low-mitotic cells containing low amounts of RNA, DNA, and proteins situated between the root cap and active meristematic zone. Acts as a reserve cell reservoir to regenerate damaged meristematic initials."
+    }
+  ]
+}

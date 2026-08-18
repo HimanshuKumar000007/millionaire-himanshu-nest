@@ -1,0 +1,54 @@
+{
+  "id": "bio-xi-u1-c3-l01",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit I — Diversity of Living Organisms",
+  "unitNumber": 1,
+  "chapter": "Plant Kingdom",
+  "chapterNumber": 3,
+  "chapterSlug": "plant-kingdom",
+  "slug": "lesson-01-botanical-systems-taxonomy",
+  "title": "Classificatory Systems in Botany & Modern Taxonomic Toolkit",
+  "topic": "Botanical Classification & Taxonomic Sub-Disciplines",
+  "topics": [
+    "Artificial Classification Systems (Linnaeus Sexual System)",
+    "Natural Systems (Bentham & Hooker Spermatophyta)",
+    "Phylogenetic & Cladistic Systems (Engler, Prantl, APG IV)",
+    "Modern Taxonomic Toolkit (Numerical, Cytotaxonomy, Chemotaxonomy)"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Botanical classification transitioned from artificial systems (Linnaeus' stamen count) to natural systems (Bentham & Hooker) and phylogenetic cladistics (APG IV). Modern taxonomy is supported by Numerical Taxonomy (Phenetics), Cytotaxonomy (Karyotypes), and Chemotaxonomy (Secondary Metabolites).",
+  "summary": "Botanical classification transitioned from artificial systems (Linnaeus' stamen count) to natural systems (Bentham & Hooker) and phylogenetic cladistics (APG IV). Modern taxonomy is supported by Numerical Taxonomy (Phenetics), Cytotaxonomy (Karyotypes), and Chemotaxonomy (Secondary Metabolites).",
+  "conceptBreakdown": [
+    {
+      "heading": "1. Classificatory Systems in Botany & Phylogenetic Trends",
+      "title": "1. Classificatory Systems in Botany & Phylogenetic Trends",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Embryophytes evolved from superficial androecial artificial groupings into natural morphological systems and modern DNA-based phylogenetic cladistics (APG IV)."
+      },
+      "codeSnippet": "BOTANICAL CLASSIFICATORY SYSTEMS\n                                       │\n     ┌─────────────────────────────────┼─────────────────────────────────┐\n     ▼                                 ▼                                 ▼\nARTIFICIAL SYSTEMS              NATURAL SYSTEMS                 PHYLOGENETIC SYSTEMS\n(Linnaeus, 1753)                (Bentham & Hooker, 1862)        (Engler & Prantl / APG IV)\n ├── Sexual System               ├── Gross Morphology            ├── Evolutionary Lineages\n └── Stamen/Androecium           ├── Anatomical Traits           ├── Cladistic Monophyly\n     Count Basis                 └── Embryological Features      └── Molecular DNA Markers",
+      "content": "The classification of Kingdom Plantae (Embryophyta / Metaphyta) has progressed from superficial morphological groupings to cladistic systems reflecting evolutionary lineages (phylogeny). Plants are multicellular, eukaryotic, autotrophic organisms characterized by cellulosic cell walls, photosynthetic plastids containing chlorophylls, and embryonic development protected within maternal tissue (embryophytes)."
+    },
+    {
+      "heading": "1.1 Historical Progression of Botanical Classification Systems",
+      "title": "1.1 Historical Progression of Botanical Classification Systems",
+      "type": "paragraph",
+      "content": "1. **Artificial Systems**:\n- Based on one or a few superficial, observable vegetative or reproductive traits.\n- **Linnaeus’ Sexual System (1753)**: Categorized plants based exclusively on androecial characters (number, length, and arrangement of stamens).\n- **Major Deficiencies**: Grouped distantly related taxa together while separating closely related species based on arbitrary traits; gave equal weightage to vegetative and reproductive characters, failing to recognize that vegetative characters are easily modified by environmental conditions (phenotypic plasticity).\n\n2. **Natural Systems**:\n- Based on overall natural affinities, taking into account all available morphological, anatomical, embryological, phytogeographical, and ultrastructural characters.\n- **Bentham and Hooker’s System (1862–1883)**: Published in *Genera Plantarum*. Classified seed plants (*Spermatophyta*) into Dicotyledonae, Gymnospermae, and Monocotyledonae.\n- **Major Deficiency**: Placed Gymnospermae between Dicotyledonae and Monocotyledonae, failing to recognize the primitive status of gymnosperms relative to all angiosperms.\n\n3. **Phylogenetic Systems**:\n- Based on evolutionary relationships, genetic lineages, and common ancestry. Taxa belonging to the same group are assumed to share a common ancestor (monophyletic origin).\n- **Key contributors**: Eichler (1883), Engler and Prantl (1887–1899), Hutchinson (1926–1934), and modern Angiosperm Phylogeny Group (APG IV, 2016) based on *rbcL*, *atpB*, and 18S rDNA sequencing."
+    },
+    {
+      "heading": "1.2 Sub-Disciplines Supporting Modern Plant Taxonomy",
+      "title": "1.2 Sub-Disciplines Supporting Modern Plant Taxonomy",
+      "type": "paragraph",
+      "codeSnippet": "MODERN TAXONOMIC SUB-DISCIPLINE TOOLKIT\n                                       │\n         ┌─────────────────────────────┼─────────────────────────────┐\n         ▼                             ▼                             ▼\n   NUMERICAL TAXONOMY           CYTOTAXONOMY                  CHEMOTAXONOMY\n  (Phenetics / Computers)     (Karyotype & Chromosomes)     (Chemical Constituents)\n   ├── Equal Character Weight  ├── Chromosome Number         ├── Secondary Metabolites\n   ├── Similarity Coefficients ├── Centromere Position       ├── Amino Acid Sequences\n   └── OTU Matrix Analysis     └── Meiotic Behavior          └── Flavonoids & Terpenes",
+      "content": "• **Numerical Taxonomy (Phenetics)**: Evaluates overall similarity by assigning numbers and codes to hundreds of observable characters simultaneously using computers. Each character is given equal importance without arbitrary bias.\n\n• **Cytotaxonomy**: Utilizes cytological parameters: chromosome number, chromosome morphology (karyotype/idiogram), and meiotic chromosome pairing behavior.\n\n• **Chemotaxonomy**: Uses chemical constituents of plants: secondary metabolites (alkaloids, glucosinolates, flavonoids), crystal structures (calcium oxalate raphides/cystoliths), and protein/DNA sequences."
+    }
+  ]
+}

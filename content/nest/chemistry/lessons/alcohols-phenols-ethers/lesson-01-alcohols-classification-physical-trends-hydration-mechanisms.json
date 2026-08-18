@@ -1,0 +1,62 @@
+{
+  "id": "chem-xii-u16-c7-l01",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVI \u2014 Alcohols, Phenols and Ethers",
+  "unitNumber": 16,
+  "chapter": "Alcohols, Phenols and Ethers",
+  "chapterNumber": 7,
+  "chapterSlug": "alcohols-phenols-ethers",
+  "slug": "lesson-01-alcohols-classification-physical-trends-hydration-mechanisms",
+  "title": "Alcohols: Classification, Physical Trends, & Hydration Mechanisms",
+  "topic": "Alcohol Classification & Hydration",
+  "topics": [
+    "Alcohol Classifications: Primary (1\u00b0), Secondary (2\u00b0), Tertiary (3\u00b0), Polyhydric (Glycols, Glycerol)",
+    "1.1 Physical Properties: Intermolecular Hydrogen Bonding, Boiling Point Trends (1\u00b0 > 2\u00b0 > 3\u00b0 branching effect)",
+    "Water Solubility Dynamics & Hydrophobic Alkyl Chain Expansion",
+    "1.2 Synthetic Hydration Pathways from Alkenes",
+    "Acid-Catalyzed Hydration (H\u207a/H\u2082O, Markovnikov, Carbocation, Prone to Rearrangements)",
+    "Oxymercuration-Demercuration (OMDM, Markovnikov, Cyclic Mercurinium Ion, NO Rearrangements)",
+    "Hydroboration-Oxidation (HBO, Anti-Markovnikov, Syn-Addition of H\u2082O via BH\u2083\u00b7THF)"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "alcohols-phenols-ethers",
+  "quickSummary": "Alcohols contain -OH on sp\u00b3 carbon. BP decreases with branching (1\u00b0 > 2\u00b0 > 3\u00b0) due to lower surface area. Hydration pathways: 1. Acid-catalyzed (Markovnikov, carbocation, rearranges), 2. Oxymercuration-demercuration (OMDM: Markovnikov, no rearrangement), 3. Hydroboration-oxidation (HBO: Anti-Markovnikov, syn-addition of H\u2082O).",
+  "summary": "Master alcohol taxonomy, intermolecular hydrogen bonding trends, and alkene hydration mechanisms.",
+  "conceptBreakdown": [
+    {
+      "heading": "1. Alcohol Classifications & Physical Trends",
+      "title": "1. Alcohol Classifications & Physical Trends",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Alcohol Taxonomy & Boiling Point",
+        "takeaway": "Boiling points: 1\u00b0 > 2\u00b0 > 3\u00b0 due to larger surface area in unbranched chains. Extensive intermolecular H-bonding elevates alcohol boiling points above ethers and alkanes."
+      },
+      "codeSnippet": "                            ALCOHOL CLASSIFICATIONS\n                                       \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                  \u25bc                             \u25bc                  \u25bc\nPRIMARY ($1^\\circ$)     SECONDARY ($2^\\circ$)         TERTIARY ($3^\\circ$)   POLYHYDRIC\n$-\\text{OH}$ on $1^\\circ$ C      $-\\text{OH}$ on $2^\\circ$ C           $-\\text{OH}$ on $3^\\circ$ C        $>1$ $-\\text{OH}$ groups\n($\\text{R-CH}_2\\text{OH}$)     ($\\text{R}_2\\text{CHOH}$)             ($\\text{R}_3\\text{COH}$)           (Glycols, Glycerol)",
+      "content": "Alcohols contain one or more hydroxyl ($-\\text{OH}$) groups attached to $sp^3$-hybridized aliphatic carbon atoms, following the general formula $\\text{C}_n\\text{H}_{2n+1}\\text{OH}$.\n\n**Physical Properties & Hydrogen Bonding:**\n1. **Boiling Point Trends**: Alcohols possess significantly higher boiling points than corresponding alkanes, haloalkanes, or ethers of comparable molecular weight due to extensive Intermolecular Hydrogen Bonding.\n   - *Branching Effect*: For isomeric alcohols, boiling point decreases with increasing chain branching ($\\mathbf{1^\\circ > 2^\\circ > 3^\\circ}$) because spherical branching reduces surface area and weakens van der Waals dispersion forces.\n2. **Water Solubility**: Lower alcohols ($\\text{MeOH, EtOH, PrOH}$) are miscible with water in all proportions via hydrogen bonding with $\\text{H}_2\\text{O}$. Solubility decreases as the hydrophobic alkyl chain ($\\text{R}-$) expands."
+    },
+    {
+      "heading": "1.2 Synthetic Hydration Pathways from Alkenes",
+      "title": "1.2 Synthetic Hydration Pathways from Alkenes",
+      "type": "paragraph",
+      "codeSnippet": "                           ALKENE HYDRATION PATHWAYS\n                                       \u2502\n         \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u253c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n         \u25bc                             \u25bc                             \u25bc\nACID-CATALYZED HYDRATION         OXYMERCURATION-DEMERCURATION     HYDROBORATION-OXIDATION\n($\\text{H}^+ / \\text{H}_2\\text{O}$) ($\\text{OMDM}$)                  ($\\text{HBO}$)\n\u251c\u2500\u2500 Markovnikov addition        \u251c\u2500\u2500 **Markovnikov addition**      \u251c\u2500\u2500 **Anti-Markovnikov addition**\n\u251c\u2500\u2500 **Carbocation Intermediate**   \u251c\u2500\u2500 Cyclic mercurinium ion        \u251c\u2500\u2500 **Syn-addition** of $\\text{H}_2\\text{O}$\n\u2514\u2500\u2500 **PRONE TO REARRANGEMENTS**  \u2514\u2500\u2500 **NO REARRANGEMENTS**        \u2514\u2500\u2500 $\\text{BH}_3\\cdot\\text{THF} \\rightarrow \\text{H}_2\\text{O}_2/\\text{OH}^-$",
+      "content": "Three distinct hydration pathways synthesize alcohols from alkenes:\n- **Acid-Catalyzed Hydration**: Markovnikov addition proceeding via carbocation intermediate; prone to 1,2-hydride/methyl shifts.\n- **Oxymercuration-Demercuration (OMDM)**: Markovnikov addition via cyclic mercurinium ion with NO carbocation rearrangement.\n- **Hydroboration-Oxidation (HBO)**: Anti-Markovnikov syn-addition of water across the double bond without rearrangement."
+    }
+  ],
+  "quickRevision": [
+    "Alcohol BP: 1\u00b0 > 2\u00b0 > 3\u00b0 (branching reduces surface area).",
+    "Acid-catalyzed hydration: Markovnikov + Carbocation rearrangements.",
+    "OMDM: Markovnikov + NO rearrangements (cyclic mercurinium ion).",
+    "HBO: Anti-Markovnikov + Syn-addition of H\u2082O (BH\u2083\u00b7THF, then alkaline H\u2082O\u2082)."
+  ],
+  "keyFormulae": [
+    "\\text{Boiling Point Trend: } 1^\\circ > 2^\\circ > 3^\\circ \\text{ (Isomeric Alcohols)}",
+    "\\text{Alkene Hydration: OMDM (Markovnikov, No Shift)} \\quad \\text{vs} \\quad \\text{HBO (Anti-Markovnikov, Syn)}"
+  ]
+}

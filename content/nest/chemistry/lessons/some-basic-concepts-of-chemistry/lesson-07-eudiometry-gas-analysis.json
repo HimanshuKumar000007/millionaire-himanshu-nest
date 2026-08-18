@@ -1,0 +1,53 @@
+{
+  "id": "chem-xi-u1-c1-l07",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit I \u2014 Some Basic Concepts of Chemistry",
+  "unitNumber": 1,
+  "chapter": "Some Basic Concepts of Chemistry",
+  "chapterNumber": 1,
+  "chapterSlug": "some-basic-concepts-of-chemistry",
+  "slug": "lesson-07-eudiometry-gas-analysis",
+  "title": "Eudiometry & Gas Mixture Analysis",
+  "topic": "Stoichiometry & calculations",
+  "topics": [
+    "Quantitative Gas-Phase Eudiometry",
+    "Selective Chemical Absorbers Reference",
+    "Hydrocarbon Combustion Contraction (\u0394V\u2081)",
+    "KOH Contraction (\u0394V\u2082 = V_CO\u2082)",
+    "6-Step Problem Solving Protocol"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced",
+  "source": "production",
+  "status": "published",
+  "diagramType": "eudiometry",
+  "quickSummary": "Eudiometry analyzes gas combustion and selective volume absorptions. Water vapor condenses to liquid, producing a combustion contraction of \u0394V\u2081 = 1 + y/4 volumes, while passing through KOH produces a contraction of \u0394V\u2082 = x volumes (= V_CO\u2082).",
+  "summary": "Master eudiometric volume contraction formulas and selective chemical absorbers.",
+  "conceptBreakdown": [
+    {
+      "heading": "8. Eudiometry & Selective Chemical Absorbers",
+      "title": "8. Eudiometry & Selective Chemical Absorbers",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Selective Absorbers Reference",
+        "takeaway": "KOH absorbs CO2/SO2; Alkaline Pyrogallol absorbs O2; Turpentine Oil absorbs O3; CaCl2 absorbs H2O; Ammoniacal Cu2Cl2 absorbs CO."
+      },
+      "content": "Eudiometry is the quantitative gas-phase analytical method used to determine molecular formulas of gaseous hydrocarbons and analyze gas mixture compositions through explosion and selective absorption:\n\n\u2022 **$\\text{CO}_2, \\text{SO}_2$** \u2192 Concentrated $\\text{KOH}$ solution\n\u2022 **$\\text{O}_2$** \u2192 Alkaline Pyrogallol solution\n\u2022 **$\\text{H}_2\\text{O}$ vapor** \u2192 Anhydrous $\\text{CaCl}_2$ / $\\text{Mg(ClO}_4)_2$ / Conc. $\\text{H}_2\\text{SO}_4$\n\u2022 **$\\text{CO}$** \u2192 Ammoniacal Cuprous Chloride ($\\text{Cu}_2\\text{Cl}_2$)\n\u2022 **$\\text{O}_3$ (Ozone)** \u2192 Turpentine Oil / Cinnamon Oil\n\u2022 **$\\text{NO}_2$** \u2192 Water ($\\text{H}_2\\text{O}$)\n\u2022 **$\\text{NH}_3$** \u2192 Dilute Acid / Water"
+    },
+    {
+      "heading": "8.1 General Hydrocarbon Combustion Equation in Eudiometry",
+      "title": "8.1 General Hydrocarbon Combustion Equation in Eudiometry",
+      "type": "paragraph",
+      "content": "For a gaseous hydrocarbon $\\text{C}_x\\text{H}_y$ burned in excess $\\text{O}_2$ at constant T and P (where produced $\\text{H}_2\\text{O}$ condenses to liquid with negligible volume):\n\n$$\\text{C}_x\\text{H}_y (g) + \\left(x + \\frac{y}{4}\\right)\\text{O}_2 (g) \\longrightarrow x \\text{ CO}_2 (g) + \\frac{y}{2} \\text{ H}_2\\text{O} (l)$$\n$$\\text{1 Vol} \\quad : \\quad \\left(x + \\frac{y}{4}\\right)\\text{ Vol} \\quad : \\quad x \\text{ Vol} \\quad : \\quad 0 \\text{ Vol (liquid)}$$\n\n\u2022 **Contraction upon Combustion ($\\Delta V_1$)**:\n  $$\\Delta V_1 = V_{\\text{reactants}} - V_{\\text{products}} = \\left(1 + x + \\frac{y}{4}\\right) - x = \\mathbf{1 + \\frac{y}{4} \\text{ Volumes}}$$\n\n\u2022 **Contraction upon KOH Addition ($\\Delta V_2$)**:\n  $$\\Delta V_2 = V_{\\text{CO}_2} = \\mathbf{x \\text{ Volumes}}$$"
+    }
+  ],
+  "quickRevision": [
+    "\u0394V\u2081 (combustion contraction) = 1 + y/4 volumes.",
+    "\u0394V\u2082 (KOH contraction) = x volumes = volume of CO2.",
+    "Pyrogallol absorbs O2; Turpentine absorbs O3."
+  ]
+}

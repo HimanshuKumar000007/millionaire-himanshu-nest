@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u6-c2-l04",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VI — Reproduction",
+  "unitNumber": 6,
+  "chapter": "Human Reproduction",
+  "chapterNumber": 2,
+  "chapterSlug": "human-reproduction",
+  "slug": "lesson-04-oogenesis-and-comparative-gametogenesis-dynamics",
+  "title": "Oogenesis & Gametogenesis Comparative Dynamics",
+  "topic": "Oogenesis Meiotic Arrests & Gametogenesis Comparison",
+  "order": 4,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Spermatogenesis starts at puberty (continuous, 4 motile sperm). Oogenesis starts in fetus, features 2 meiotic arrests (Diplotene I until puberty, Metaphase II until fertilization), yielding 1 ovum + 2-3 polar bodies.",
+  "summary": "Spermatogenesis starts at puberty (continuous, 4 motile sperm). Oogenesis starts in fetus, features 2 meiotic arrests (Diplotene I until puberty, Metaphase II until fertilization), yielding 1 ovum + 2-3 polar bodies.",
+  "conceptBreakdown": [
+    {
+      "heading": "Oogenesis & Gametogenesis Comparative Dynamics",
+      "title": "Oogenesis & Gametogenesis Comparative Dynamics",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Spermatogenesis starts at puberty, is continuous, and yields 4 equal motile spermatozoa without arrest. Oogenesis starts during fetal life (~7 million oogonia), features 2 prolonged meiotic arrests (Diplotene I until puberty, Metaphase II until fertilization), and asymmetric cytokinesis yielding 1 large ovum + 2-3 polar bodies."
+      },
+      "codeSnippet": "GAMETOGENESIS TIMELINE COMPARISON\n                        \n   SPERMATOGENESIS                          OOGENESIS\n   ├── Initiated strictly at **Puberty**.   ├── Initiated during **Fetal Development**.\n   ├── Continuous process throughout life.  ├── Suspended during extended meiotic arrests.\n   ├── Produces **4 equal functional sperm**.└── Produces **1 functional Ovum + Polar Bodies**.",
+      "content": "### 4.1 Oogenesis Meiotic Timeline & Arrests\n\nUnlike spermatogenesis, which begins at puberty, oogenesis is initiated during embryonic fetal life.\n1. **Fetal Stage**: Oogonia ($2n$) multiply by mitosis to form $\\approx 7\\text{ million}$ primary oocytes. Primary oocytes enter Prophase I of Meiosis I but become **arrested at Diplotene (Dictyotene stage)** before birth.\n2. **Puberty to Menopause**: Under monthly gonadotropin stimulation, one primary oocyte completes Meiosis I just prior to ovulation, undergoing **unequal cytokinesis** to yield a large **Secondary Oocyte ($n, 2C$)** and a tiny **First Polar Body ($n, 2C$)**.\n3. **Ovulation & Second Arrest**: The secondary oocyte immediately enters Meiosis II but arrests at **Metaphase II**. It is ovulated in this arrested state.\n4. **Fertilization Trigger**: Meiosis II is completed **ONLY IF** a sperm penetrates the secondary oocyte, triggering asymmetric division into a mature **Ootid / Ovum ($n, C$)** and a **Second Polar Body ($n, C$)**.\n\n### 4.2 Spermatogenesis vs. Oogenesis Comparison\n\n| Parameter | Spermatogenesis | Oogenesis |\n| :--- | :--- | :--- |\n| **Site of Production** | Seminiferous Tubules of Testes | Ovarian Cortex |\n| **Onset Timeline** | Initiated at **Puberty** via GnRH surge | Initiated during **Embryonic Fetal Life** ($\\approx 7\\text{ million}$ oogonia formed) |\n| **Continuity** | Uninterrupted continuous process | Discontinuous; features two prolonged meiotic arrests |\n| **Meiotic Arrest Points** | **None** (Meiosis proceeds to completion) | **Arrest 1:** Prophase I (Diplotene) until Puberty<br>**Arrest 2:** Metaphase II until Fertilization |\n| **Meiotic Division Cytokinesis** | Equal cytokinesis yielding 4 identical Spermatids | **Unequal cytokinesis** yielding 1 large Secondary Oocyte / Ovum and small **Polar Bodies** |\n| **Yield per Meiotic Cycle** | **4 Functional Motile Spermatozoa** | **1 Functional Non-Motile Ovum** $+ 2\\text{--}3$ Polar Bodies |"
+    },
+    {
+      "heading": "Cytoplasmic Conservation in Ovum",
+      "title": "Cytoplasmic Conservation in Ovum",
+      "type": "paragraph",
+      "content": "Asymmetric cytokinesis ensures that virtually all maternal ribosomes, mitochondria, mRNAs, and nutritional macromolecules are concentrated into the single egg cell to sustain the early embryo prior to implantation."
+    },
+    {
+      "heading": "Nuclear DNA Content Calculations",
+      "title": "Nuclear DNA Content Calculations",
+      "type": "paragraph",
+      "content": "Primary Oocyte = 2n, 4C (46 chromosomes, 92 chromatids). Secondary Oocyte = n, 2C (23 chromosomes, 46 chromatids). Mature Ovum = n, C (23 chromosomes, 23 chromatids)."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "bio-xi-u1-c1-l02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit I — Diversity of Living Organisms",
+  "unitNumber": 1,
+  "chapter": "The Living World",
+  "chapterNumber": 1,
+  "chapterSlug": "the-living-world",
+  "slug": "lesson-02-biodiversity",
+  "title": "Biodiversity Scale & Quantitative Measurement",
+  "topic": "Biodiversity Measurement",
+  "topics": [
+    "Global Species Richness & May's Estimate",
+    "Whittaker's Alpha Diversity",
+    "Whittaker's Beta Diversity",
+    "Whittaker's Gamma Diversity",
+    "Species Richness vs Species Evenness",
+    "Shannon-Wiener Index Formula"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 6,
+  "estimatedTimeMinutes": 6,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Biodiversity refers to the totality of genes, species, and ecosystems in a defined region. Approximately 1.7–1.8 million species have been described; Robert May estimates total global richness at ~7 million. Diversity is measured across spatial scales (Alpha, Beta, Gamma) and quantified using models like the Shannon-Wiener Index.",
+  "summary": "Biodiversity refers to the totality of genes, species, and ecosystems in a defined region. Approximately 1.7–1.8 million species have been described; Robert May estimates total global richness at ~7 million. Diversity is measured across spatial scales (Alpha, Beta, Gamma) and quantified using models like the Shannon-Wiener Index.",
+  "conceptBreakdown": [
+    {
+      "heading": "Biodiversity Scale & Quantitative Measurement",
+      "title": "Biodiversity Scale & Quantitative Measurement",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary Box",
+        "takeaway": "Biodiversity encompasses genetic, species, and ecosystem diversity. Currently 1.7-1.8M species are named, while global richness is estimated at 7M by Robert May. Spatial diversity spans Alpha (local), Beta (turnover), and Gamma (regional) scales."
+      },
+      "codeSnippet": "LEVELS OF DIVERSITY MEASUREMENT\n                                       │\n        ┌──────────────────────────────┼──────────────────────────────┐\n        ▼                              ▼                              ▼\n ALPHA (α) DIVERSITY     BETA (β) DIVERSITY       GAMMA (γ) DIVERSITY\n Within a single homogeneous     Species turnover between       Total diversity across an\n local community/habitat         two adjacent ecosystems        entire landscape/region",
+      "content": "Biodiversity (biological diversity) refers to the totality of genes, species, and ecosystems in a defined region. The term was popularized by Edward O. Wilson. Currently, approximately 1.7 to 1.8 million species have been scientifically described and named. Conservative estimates (Robert May) place the total global species richness at roughly 7 million species."
+    },
+    {
+      "heading": "2.1 Geographic Scales of Diversity (Whittaker's Metrics)",
+      "title": "2.1 Geographic Scales of Diversity (Whittaker's Metrics)",
+      "type": "paragraph",
+      "content": "Ecologist Robert H. Whittaker categorized diversity measurement across spatial scales:\n\n• Alpha Diversity ($\\alpha$-diversity): The species richness within a single homogeneous habitat or local community.\n$$\\alpha = S$$\nwhere $S$ is the total number of species recorded in the localized sample area.\n\n• Beta Diversity ($\\beta$-diversity): The degree of change or turnover in species composition along an environmental gradient or between two distinct habitats within a region.\n$$\\beta = \\frac{S_{\\text{total}}}{\\bar{\\alpha}}$$\nwhere $S_{\\text{total}}$ is the combined species richness of both habitats and $\\bar{\\alpha}$ is the mean alpha diversity of the individual habitats.\n\n• Gamma Diversity ($\\gamma$-diversity): The overall species diversity across an entire landscape, regional geographic scale, or biome.\n$$\\gamma \\approx \\alpha_{\\text{mean}} \\times \\beta$$"
+    },
+    {
+      "heading": "2.2 Species Richness vs. Species Evenness",
+      "title": "2.2 Species Richness vs. Species Evenness",
+      "type": "paragraph",
+      "content": "Biological diversity is not defined solely by species counts:\n\n• Species Richness ($S$): The absolute number of different species present in a given area.\n\n• Species Evenness / Equitability ($J'$): The relative abundance of individuals among the species present.\n\nAn ecosystem dominated by 99 individuals of Species A and 1 individual of Species B has high species richness ($S = 2$) but extremely low species evenness. Ecosystem stability and resilience require both high species richness and balanced species evenness, quantified by index models such as the Shannon-Wiener Index ($H'$):\n\n$$H' = -\\sum_{i=1}^{S} p_i \\ln(p_i)$$\n\nwhere $p_i$ is the proportion of individuals belonging to the $i$-th species."
+    }
+  ],
+  "quickRevision": [
+    "Described species = 1.7-1.8 Million; Robert May global estimate = ~7 Million.",
+    "Alpha = Local community ($S$); Beta = Species turnover ($S_{\\text{total}} / \\bar{\\alpha}$); Gamma = Regional landscape ($\\alpha \\times \\beta$).",
+    "Shannon-Wiener Index: $H' = -\\sum_{i=1}^{S} p_i \\ln(p_i)$ evaluates both richness and evenness."
+  ]
+}

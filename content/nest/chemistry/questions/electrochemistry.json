@@ -1,0 +1,922 @@
+[
+  {
+    "id": "chem-elec-001",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Nernst Potential Calculation",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Consider a galvanic cell constructed at 298 K using the following two half-cells: Anode: Cr(s) | Cr\u00b3\u207a(aq, 0.010 M); Cathode: Fe\u00b2\u207a(aq, 0.100 M) | Fe(s). Given standard reduction potentials: E\u00b0(Cr\u00b3\u207a/Cr) = -0.74 V and E\u00b0(Fe\u00b2\u207a/Fe) = -0.44 V. What is the standard cell potential (E\u00b0_cell) and the non-standard cell potential (E_cell) at 298 K?",
+    "options": [
+      {
+        "id": "A",
+        "text": "E\u00b0_cell = +0.300 V; E_cell = +0.310 V",
+        "isCorrect": true,
+        "explanation": "n = 6. E\u00b0_cell = -0.44 - (-0.74) = +0.300 V. Q = (0.010)\u00b2 / (0.100)\u00b3 = 10\u207b\u2074 / 10\u207b\u00b3 = 0.10. E_cell = 0.300 - (0.05916 / 6) log\u2081\u2080(0.10) = 0.300 + 0.00986 = +0.310 V."
+      },
+      {
+        "id": "B",
+        "text": "E\u00b0_cell = +0.300 V; E_cell = +0.290 V",
+        "isCorrect": false,
+        "explanation": "Subtracted log Q term instead of adding."
+      },
+      {
+        "id": "C",
+        "text": "E\u00b0_cell = -1.180 V; E_cell = -1.200 V",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      },
+      {
+        "id": "D",
+        "text": "E\u00b0_cell = +1.180 V; E_cell = +1.170 V",
+        "isCorrect": false,
+        "explanation": "Added standard potentials without considering signs."
+      }
+    ],
+    "solutionExplanation": "1. Balanced cell reaction:\n   2Cr(s) + 3Fe\u00b2\u207a(aq) \u21cc 2Cr\u00b3\u207a(aq) + 3Fe(s) (n = 6 moles of e\u207b).\n2. Standard cell potential:\n   E\u00b0_cell = E\u00b0_cathode - E\u00b0_anode = -0.44 - (-0.74) = +0.300 V.\n3. Reaction quotient Q:\n   Q = [Cr\u00b3\u207a]\u00b2 / [Fe\u00b2\u207a]\u00b3 = (0.010)\u00b2 / (0.100)\u00b3 = 10\u207b\u2074 / 10\u207b\u00b3 = 10\u207b\u00b9 = 0.10.\n4. Nernst Equation:\n   E_cell = E\u00b0_cell - (0.05916 / 6) log\u2081\u2080(10\u207b\u00b9) = +0.300 - (0.00986 \u00d7 -1) = +0.310 V.",
+    "keyFormulae": [
+      "E_{\\text{cell}} = E^\\circ_{\\text{cell}} - \\frac{0.05916}{n} \\log_{10} Q"
+    ],
+    "hints": [
+      "Find n = 6 electrons transferred, calculate Q = [Cr\u00b3\u207a]\u00b2 / [Fe\u00b2\u207a]\u00b3, then apply Nernst equation."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-elec-002",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Gibbs Free Energy and Equilibrium Constant",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "For the cell reaction Cu(s) + 2Ag\u207a(aq) \u21cc Cu\u00b2\u207a(aq) + 2Ag(s), the standard cell potential is E\u00b0_cell = +0.46 V at 298 K. What is the standard Gibbs free energy change (\u0394_r G\u00b0) in kJ/mol and the equilibrium constant (K_eq) at 298 K? (F = 96485 C/mol)",
+    "options": [
+      {
+        "id": "A",
+        "text": "\u0394_r G\u00b0 = -88.77 kJ/mol; K_eq = 3.9 \u00d7 10\u00b9\u2075",
+        "isCorrect": true,
+        "explanation": "n = 2. \u0394G\u00b0 = -2 \u00d7 96485 \u00d7 0.46 = -88766 J/mol = -88.77 kJ/mol. log\u2081\u2080 K_eq = (2 \u00d7 0.46) / 0.05916 = 15.551 \u27f9 K_eq = 3.9 \u00d7 10\u00b9\u2075."
+      },
+      {
+        "id": "B",
+        "text": "\u0394_r G\u00b0 = -44.38 kJ/mol; K_eq = 6.2 \u00d7 10\u2077",
+        "isCorrect": false,
+        "explanation": "Used n=1 instead of n=2."
+      },
+      {
+        "id": "C",
+        "text": "\u0394_r G\u00b0 = +88.77 kJ/mol; K_eq = 2.5 \u00d7 10\u207b\u00b9\u2076",
+        "isCorrect": false,
+        "explanation": "Sign error on \u0394G\u00b0."
+      },
+      {
+        "id": "D",
+        "text": "\u0394_r G\u00b0 = -177.54 kJ/mol; K_eq = 1.5 \u00d7 10\u00b3\u2070",
+        "isCorrect": false,
+        "explanation": "Used n=4."
+      }
+    ],
+    "solutionExplanation": "1. n = 2 moles of electrons transferred.\n2. Standard Gibbs Free Energy:\n   \u0394_r G\u00b0 = -n F E\u00b0_cell = -2 \u00d7 96485 \u00d7 0.46 = -88766 J/mol = -88.77 kJ/mol.\n3. Equilibrium Constant K_eq:\n   log\u2081\u2080 K_eq = (n E\u00b0_cell) / 0.05916 = (2 \u00d7 0.46) / 0.05916 = 0.92 / 0.05916 = 15.551.\n   K_eq = 10\u00b9\u2075\u00b7\u2075\u2075\u00b9 = 3.55 \u00d7 10\u00b9\u2075 \u2248 3.9 \u00d7 10\u00b9\u2075.",
+    "keyFormulae": [
+      "\\Delta_r G^\\circ = -n F E^\\circ_{\\text{cell}}, \\quad \\log_{10} K_{\\text{eq}} = \\frac{n E^\\circ_{\\text{cell}}}{0.05916}"
+    ],
+    "hints": [
+      "\u0394G\u00b0 = -nFE\u00b0 and log K = nE\u00b0/0.05916."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-elec-003",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Conductance, Cell Constant, and Molar Conductivity",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "A resistance cell filled with 0.02 M KCl solution has a resistance of 500 \u03a9 at 298 K. The specific conductivity (\u03ba) of 0.02 M KCl is 2.48 \u00d7 10\u207b\u00b3 S\u00b7cm\u207b\u00b9. When the same cell is filled with 0.005 M CH\u2083COOH solution, the measured resistance is 2000 \u03a9. What is the cell constant (G*) and molar conductivity (\u039b_m) of the acetic acid solution?",
+    "options": [
+      {
+        "id": "A",
+        "text": "G* = 1.24 cm\u207b\u00b9; \u039b_m = 124.0 S\u00b7cm\u00b2/mol",
+        "isCorrect": true,
+        "explanation": "G* = \u03ba \u00d7 R = 2.48 \u00d7 10\u207b\u00b3 \u00d7 500 = 1.24 cm\u207b\u00b9. \u03ba_acid = 1.24 / 2000 = 6.20 \u00d7 10\u207b\u2074 S/cm. \u039b_m = (1000 \u00d7 6.20 \u00d7 10\u207b\u2074) / 0.005 = 124.0 S\u00b7cm\u00b2/mol."
+      },
+      {
+        "id": "B",
+        "text": "G* = 0.248 cm\u207b\u00b9; \u039b_m = 24.8 S\u00b7cm\u00b2/mol",
+        "isCorrect": false,
+        "explanation": "Calculation error in cell constant."
+      },
+      {
+        "id": "C",
+        "text": "G* = 1.24 cm\u207b\u00b9; \u039b_m = 62.0 S\u00b7cm\u00b2/mol",
+        "isCorrect": false,
+        "explanation": "Calculation error in molar conductivity."
+      },
+      {
+        "id": "D",
+        "text": "G* = 2.50 cm\u207b\u00b9; \u039b_m = 248.0 S\u00b7cm\u00b2/mol",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      }
+    ],
+    "solutionExplanation": "1. Calculate Cell Constant (G*):\n   G* = \u03ba \u00d7 R = (2.48 \u00d7 10\u207b\u00b3 S/cm) \u00d7 500 \u03a9 = 1.24 cm\u207b\u00b9.\n2. Calculate conductivity (\u03ba) for 0.005 M CH\u2083COOH:\n   \u03ba = G* / R = 1.24 cm\u207b\u00b9 / 2000 \u03a9 = 6.20 \u00d7 10\u207b\u2074 S/cm.\n3. Calculate Molar Conductivity (\u039b_m):\n   \u039b_m = (1000 \u00d7 \u03ba) / M = (1000 \u00d7 6.20 \u00d7 10\u207b\u2074) / 0.005 = 0.620 / 0.005 = 124.0 S\u00b7cm\u00b2/mol.",
+    "keyFormulae": [
+      "G^* = \\kappa \\cdot R, \\quad \\Lambda_m = \\frac{1000 \\cdot \\kappa}{M}"
+    ],
+    "hints": [
+      "Use the KCl solution to determine the cell constant G* = \u03ba\u00b7R, then find \u03ba and \u039b_m for acetic acid."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-elec-004",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Kohlrausch's Law Degree of Dissociation",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Given limiting ionic conductivities at 298 K: \u03bb\u00b0_m(CH\u2083COO\u207b) = 40.9 S\u00b7cm\u00b2/mol and \u03bb\u00b0_m(H\u207a) = 349.6 S\u00b7cm\u00b2/mol. If a 0.01 M solution of Acetic acid has a measured molar conductivity \u039b_m = 39.05 S\u00b7cm\u00b2/mol, what is its degree of dissociation (\u03b1) and acid dissociation constant (K_a)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\u03b1 = 0.100; K_a = 1.0 \u00d7 10\u207b\u2074",
+        "isCorrect": false,
+        "explanation": "Approximated denominator 1-\u03b1 as 1.0."
+      },
+      {
+        "id": "B",
+        "text": "\u03b1 = 0.100; K_a = 1.11 \u00d7 10\u207b\u2075",
+        "isCorrect": true,
+        "explanation": "\u039b\u00b0_m = 40.9 + 349.6 = 390.5 S\u00b7cm\u00b2/mol. \u03b1 = 39.05 / 390.5 = 0.100. K_a = (0.01 \u00d7 (0.100)\u00b2) / (1 - 0.100) = 1.0 \u00d7 10\u207b\u2074 / 0.90 = 1.11 \u00d7 10\u207b\u2075."
+      },
+      {
+        "id": "C",
+        "text": "\u03b1 = 0.010; K_a = 1.0 \u00d7 10\u207b\u2076",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      },
+      {
+        "id": "D",
+        "text": "\u03b1 = 0.050; K_a = 2.5 \u00d7 10\u207b\u2075",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      }
+    ],
+    "solutionExplanation": "1. Calculate limiting molar conductivity (\u039b\u00b0_m) using Kohlrausch's Law:\n   \u039b\u00b0_m(CH\u2083COOH) = \u03bb\u00b0_m(CH\u2083COO\u207b) + \u03bb\u00b0_m(H\u207a) = 40.9 + 349.6 = 390.5 S\u00b7cm\u00b2/mol.\n2. Calculate degree of dissociation (\u03b1):\n   \u03b1 = \u039b_m / \u039b\u00b0_m = 39.05 / 390.5 = 0.100 (10.0% ionized).\n3. Calculate dissociation constant (K_a):\n   K_a = (C \u03b1\u00b2) / (1 - \u03b1) = (0.01 \u00d7 (0.100)\u00b2) / (1 - 0.100) = (0.01 \u00d7 0.01) / 0.90 = 1.0 \u00d7 10\u207b\u2074 / 0.90 = 1.11 \u00d7 10\u207b\u2075.",
+    "keyFormulae": [
+      "\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^\\circ}, \\quad K_a = \\frac{C \\alpha^2}{1 - \\alpha}"
+    ],
+    "hints": [
+      "Find \u039b\u00b0_m by adding ionic conductivities, calculate \u03b1 = \u039b_m/\u039b\u00b0_m, then apply Ostwald dilution law."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-elec-005",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Faraday's Law Electroplating Time",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "How many minutes (t) are required to electroplate 1.08 grams of Silver (Ag, M = 107.87 g/mol) onto a metallic spoon from an aqueous AgNO\u2083 solution using a steady electric current of 1.50 Amperes? (F = 96485 C/mol)",
+    "options": [
+      {
+        "id": "A",
+        "text": "10.72 minutes",
+        "isCorrect": true,
+        "explanation": "n = 1. t = (w \u00b7 F) / (M \u00b7 I) = (1.08 \u00d7 96485) / (107.87 \u00d7 1.50) = 104203.8 / 161.805 = 644.0 seconds = 10.73 minutes \u2248 10.72 minutes."
+      },
+      {
+        "id": "B",
+        "text": "21.44 minutes",
+        "isCorrect": false,
+        "explanation": "Used n=2 for silver."
+      },
+      {
+        "id": "C",
+        "text": "643.2 minutes",
+        "isCorrect": false,
+        "explanation": "Forgot to divide seconds by 60."
+      },
+      {
+        "id": "D",
+        "text": "5.36 minutes",
+        "isCorrect": false,
+        "explanation": "Divided by 2."
+      }
+    ],
+    "solutionExplanation": "1. Electro-reduction half-reaction:\n   Ag\u207a + e\u207b \u2500\u2500\u25ba Ag(s) \u27f9 n = 1.\n2. Faraday's First Law equation:\n   w = (M \u00b7 I \u00b7 t) / (n \u00b7 F) \u27f9 1.08 = (107.87 \u00d7 1.50 \u00d7 t) / (1 \u00d7 96485).\n3. Solve for t in seconds:\n   t = (1.08 \u00d7 96485) / 161.805 = 644.0 seconds.\n4. Convert to minutes:\n   t = 644.0 / 60 = 10.73 minutes \u2248 10.72 minutes.",
+    "keyFormulae": [
+      "w = \\frac{M \\cdot I \\cdot t}{n \\cdot F}"
+    ],
+    "hints": [
+      "Ag\u207a + e\u207b \u2500\u2500\u25ba Ag (n=1). Find t in seconds, then divide by 60."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-elec-006",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Hydrogen Concentration Cell Potential",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "What is the cell potential (E_cell) at 298 K of a Hydrogen Concentration Cell constructed as follows: Pt(s) | H\u2082(g, 1.0 bar) | H\u207a(aq, pH = 3.0) || H\u207a(aq, pH = 1.0) | H\u2082(g, 1.0 bar) | Pt(s)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "E_cell = +0.118 V",
+        "isCorrect": true,
+        "explanation": "[H\u207a]\u2081 = 10\u207b\u00b3 M, [H\u207a]\u2082 = 10\u207b\u00b9 M. E_cell = 0.05916 \u00d7 log\u2081\u2080(10\u207b\u00b9 / 10\u207b\u00b3) = 0.05916 \u00d7 2 = +0.1183 V \u2248 +0.118 V."
+      },
+      {
+        "id": "B",
+        "text": "E_cell = -0.118 V",
+        "isCorrect": false,
+        "explanation": "Reversed anode and cathode concentrations."
+      },
+      {
+        "id": "C",
+        "text": "E_cell = +0.0591 V",
+        "isCorrect": false,
+        "explanation": "Calculated for \u0394pH = 1 instead of \u0394pH = 2."
+      },
+      {
+        "id": "D",
+        "text": "E_cell = 0.000 V",
+        "isCorrect": false,
+        "explanation": "Assumed cell is at equilibrium."
+      }
+    ],
+    "solutionExplanation": "1. Concentrations of H\u207a:\n   Anode (pH = 3.0 \u27f9 [H\u207a]\u2081 = 10\u207b\u00b3 M)\n   Cathode (pH = 1.0 \u27f9 [H\u207a]\u2082 = 10\u207b\u00b9 M).\n2. Concentration cell potential formula (n=1 per H\u207a):\n   E_cell = 0.05916 \u00d7 log\u2081\u2080([H\u207a]\u2082 / [H\u207a]\u2081) = 0.05916 \u00d7 log\u2081\u2080(10\u207b\u00b9 / 10\u207b\u00b3) = 0.05916 \u00d7 2 = +0.1183 V \u2248 +0.118 V.",
+    "keyFormulae": [
+      "E_{\\text{cell}} = 0.05916 \\times (\\text{pH}_{\\text{anode}} - \\text{pH}_{\\text{cathode}})"
+    ],
+    "hints": [
+      "E_cell = 0.05916 \u00d7 (pH\u2081 - pH\u2082)."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-elec-007",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Lead Storage Battery Discharging Chemistry",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "During the operation of a Lead Storage Battery during vehicle ignition (Discharging), what chemical species are formed at the Anode and Cathode, and what happens to the density of the 38% H\u2082SO\u2084 electrolyte?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anode forms PbO\u2082; Cathode forms Pb; H\u2082SO\u2084 density increases",
+        "isCorrect": false,
+        "explanation": "Reversed reactions and density change."
+      },
+      {
+        "id": "B",
+        "text": "Both Anode and Cathode accumulate solid PbSO\u2084; H\u2082SO\u2084 density DECREASES",
+        "isCorrect": true,
+        "explanation": "Pb + PbO\u2082 + 2H\u2082SO\u2084 \u2500\u2500\u25ba 2PbSO\u2084 + 2H\u2082O. Solid PbSO\u2084 forms at both electrodes and H\u2082SO\u2084 is consumed, reducing density."
+      },
+      {
+        "id": "C",
+        "text": "Anode releases O\u2082 gas; Cathode releases H\u2082 gas; density remains constant",
+        "isCorrect": false,
+        "explanation": "Gas evolution occurs during overcharging, not normal discharging."
+      },
+      {
+        "id": "D",
+        "text": "Anode forms PbSO\u2084; Cathode forms PbO; density increases",
+        "isCorrect": false,
+        "explanation": "Cathode forms PbSO\u2084."
+      }
+    ],
+    "solutionExplanation": "During discharging:\n\u2022 Anode: Pb(s) + SO\u2084\u00b2\u207b \u2500\u2500\u25ba PbSO\u2084(s) + 2e\u207b.\n\u2022 Cathode: PbO\u2082(s) + SO\u2084\u00b2\u207b + 4H\u207a + 2e\u207b \u2500\u2500\u25ba PbSO\u2084(s) + 2H\u2082O.\nBoth electrodes accumulate solid PbSO\u2084(s). Because H\u2082SO\u2084 is consumed and converted to water (2H\u2082SO\u2084 \u2500\u2500\u25ba 2H\u2082O), the density of the H\u2082SO\u2084 electrolyte DECREASES.",
+    "keyFormulae": [
+      "\\text{Pb} + \\text{PbO}_2 + 2\\text{H}_2\\text{SO}_4 \\longrightarrow 2\\text{PbSO}_4 + 2\\text{H}_2\\text{O}"
+    ],
+    "hints": [
+      "Both electrodes convert to PbSO\u2084 and sulfuric acid is consumed."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-elec-008",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Specific Conductivity from Solubility Product",
+    "difficulty": "Hard",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "The solubility product of Silver Chloride at 298 K is K_sp = 1.8 \u00d7 10\u207b\u00b9\u2070. If the limiting molar conductivities are \u03bb\u00b0_m(Ag\u207a) = 62.0 S\u00b7cm\u00b2/mol and \u03bb\u00b0_m(Cl\u207b) = 76.0 S\u00b7cm\u00b2/mol, what is the specific conductivity (\u03ba) of a saturated aqueous solution of AgCl at 298 K?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\u03ba = 1.85 \u00d7 10\u207b\u2076 S/cm",
+        "isCorrect": true,
+        "explanation": "S = \u221a(1.8 \u00d7 10\u207b\u00b9\u2070) = 1.3416 \u00d7 10\u207b\u2075 mol/L. \u039b\u00b0_m = 62.0 + 76.0 = 138.0 S\u00b7cm\u00b2/mol. \u03ba = (138.0 \u00d7 1.3416 \u00d7 10\u207b\u2075) / 1000 = 1.85 \u00d7 10\u207b\u2076 S/cm."
+      },
+      {
+        "id": "B",
+        "text": "\u03ba = 2.48 \u00d7 10\u207b\u00b3 S/cm",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      },
+      {
+        "id": "C",
+        "text": "\u03ba = 1.34 \u00d7 10\u207b\u2075 S/cm",
+        "isCorrect": false,
+        "explanation": "1.34 \u00d7 10\u207b\u2075 is the solubility S, not conductivity \u03ba."
+      },
+      {
+        "id": "D",
+        "text": "\u03ba = 5.20 \u00d7 10\u207b\u2078 S/cm",
+        "isCorrect": false,
+        "explanation": "Calculation error."
+      }
+    ],
+    "solutionExplanation": "1. Calculate molar solubility S:\n   K_sp = S\u00b2 \u27f9 S = \u221a(1.8 \u00d7 10\u207b\u00b9\u2070) = 1.3416 \u00d7 10\u207b\u2075 mol/L.\n2. Calculate limiting molar conductivity (\u039b\u00b0_m):\n   \u039b\u00b0_m(AgCl) = 62.0 + 76.0 = 138.0 S\u00b7cm\u00b2/mol.\n3. Calculate specific conductivity \u03ba:\n   \u039b\u00b0_m = (1000 \u00b7 \u03ba) / S \u27f9 \u03ba = (\u039b\u00b0_m \u00b7 S) / 1000 = (138.0 \u00d7 1.3416 \u00d7 10\u207b\u2075) / 1000 = 1.85 \u00d7 10\u207b\u2076 S/cm.",
+    "keyFormulae": [
+      "S = \\sqrt{K_{sp}}, \\quad \\kappa = \\frac{\\Lambda_m^\\circ \\cdot S}{1000}"
+    ],
+    "hints": [
+      "Find S = \u221aK_sp, \u039b\u00b0_m = \u03bb\u00b0(Ag\u207a) + \u03bb\u00b0(Cl\u207b), then \u03ba = (\u039b\u00b0_m \u00b7 S)/1000."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-elec-009",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Sacrificial Anode for Cathodic Protection",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "Which of the following metals acts as the most effective 'Sacrificial Anode' for Cathodic Protection to prevent the electrochemical corrosion (rusting) of an underground Iron pipeline (Fe\u00b2\u207a/Fe, E\u00b0 = -0.44 V)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Copper (Cu\u00b2\u207a/Cu, E\u00b0 = +0.34 V)",
+        "isCorrect": false,
+        "explanation": "Copper has a more positive reduction potential and would accelerate iron corrosion."
+      },
+      {
+        "id": "B",
+        "text": "Magnesium (Mg\u00b2\u207a/Mg, E\u00b0 = -2.37 V)",
+        "isCorrect": true,
+        "explanation": "Magnesium has a much more negative standard reduction potential (-2.37 V vs -0.44 V), undergoing preferential oxidation as a sacrificial anode."
+      },
+      {
+        "id": "C",
+        "text": "Lead (Pb\u00b2\u207a/Pb, E\u00b0 = -0.13 V)",
+        "isCorrect": false,
+        "explanation": "Lead has a more positive reduction potential than iron."
+      },
+      {
+        "id": "D",
+        "text": "Silver (Ag\u207a/Ag, E\u00b0 = +0.80 V)",
+        "isCorrect": false,
+        "explanation": "Silver accelerates iron rusting."
+      }
+    ],
+    "solutionExplanation": "Sacrificial cathodic protection requires connecting iron to a more electropositive metal with a significantly more negative reduction potential (E\u00b0_red). Magnesium (E\u00b0 = -2.37 V) undergoes preferential oxidation, protecting the iron pipeline (E\u00b0 = -0.44 V). Metals with more positive E\u00b0 (Cu, Ag, Pb) would accelerate iron rusting.",
+    "keyFormulae": [
+      "\\text{Sacrificial Anode: } E^\\circ_{\\text{metal}} < E^\\circ_{\\text{Fe}} \\implies \\text{Oxidizes preferentially}"
+    ],
+    "hints": [
+      "Look for the metal with the most negative standard reduction potential."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-elec-010",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Copper Electro-deposition Mass Calculation",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MCQ",
+    "questionText": "At 298 K, a current of 2.0 A is passed through an aqueous solution of CuSO\u2084 for 30.0 minutes. What mass of Copper (Cu, M = 63.55 g/mol) is deposited at the cathode? (F = 96485 C/mol)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1.185 g",
+        "isCorrect": true,
+        "explanation": "n = 2. q = 2.0 \u00d7 (30 \u00d7 60) = 3600 C. w = (63.55 \u00d7 3600) / (2 \u00d7 96485) = 228780 / 192970 = 1.1855 g \u2248 1.185 g."
+      },
+      {
+        "id": "B",
+        "text": "2.370 g",
+        "isCorrect": false,
+        "explanation": "Used n=1 instead of n=2."
+      },
+      {
+        "id": "C",
+        "text": "0.592 g",
+        "isCorrect": false,
+        "explanation": "Divided by 4."
+      },
+      {
+        "id": "D",
+        "text": "4.740 g",
+        "isCorrect": false,
+        "explanation": "Multiplied by 4."
+      }
+    ],
+    "solutionExplanation": "1. Cathode reaction:\n   Cu\u00b2\u207a + 2e\u207b \u2500\u2500\u25ba Cu(s) \u27f9 n = 2.\n2. Total charge:\n   q = I \u00d7 t = 2.0 A \u00d7 (30 \u00d7 60) s = 3600 C.\n3. Mass deposited using Faraday's First Law:\n   w = (M \u00b7 q) / (n \u00b7 F) = (63.55 \u00d7 3600) / (2 \u00d7 96485) = 228780 / 192970 = 1.1855 g \u2248 1.185 g.",
+    "keyFormulae": [
+      "w = \\frac{M \\cdot I \\cdot t}{n \\cdot F}"
+    ],
+    "hints": [
+      "Cu\u00b2\u207a + 2e\u207b \u2500\u2500\u25ba Cu (n=2). Charge q = 2.0 \u00d7 1800 = 3600 C."
+    ],
+    "marks": 3,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-elec-011",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Thermodynamic Spontaneity Criteria",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following conditions represent SPONTANEOUS electrochemical processes at constant temperature and pressure? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "E_cell > 0",
+        "isCorrect": true,
+        "explanation": "Positive cell potential drives spontaneous electron flow."
+      },
+      {
+        "id": "B",
+        "text": "\u0394_r G < 0",
+        "isCorrect": true,
+        "explanation": "Negative free energy change is standard spontaneity criterion."
+      },
+      {
+        "id": "C",
+        "text": "Reaction Quotient Q < K_eq",
+        "isCorrect": true,
+        "explanation": "System shifts forward spontaneously toward equilibrium."
+      },
+      {
+        "id": "D",
+        "text": "\u0394S_total > 0",
+        "isCorrect": true,
+        "explanation": "Second Law of Thermodynamics criterion."
+      }
+    ],
+    "solutionExplanation": "All four criteria correctly state conditions for thermodynamic spontaneity (E_cell > 0, \u0394G < 0, driving force toward product side Q < K_eq, and positive total universe entropy change \u0394S_total > 0).",
+    "keyFormulae": [
+      "\\text{Spontaneity: } E_{\\text{cell}} > 0, \\; \\Delta_r G < 0, \\; Q < K_{\\text{eq}}, \\; \\Delta S_{\\text{total}} > 0"
+    ],
+    "hints": [
+      "Consider Gibbs free energy, cell potential, reaction quotient, and entropy."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-elec-012",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Mercury Cell Characteristics",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding the Mercury Cell primary battery: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "It utilizes a Zinc-Mercury Amalgam (Zn-Hg) as the anode and a paste of HgO+C as the cathode",
+        "isCorrect": true,
+        "explanation": "Anode and cathode composition."
+      },
+      {
+        "id": "B",
+        "text": "The electrolyte consists of a moist paste of KOH and ZnO",
+        "isCorrect": true,
+        "explanation": "Electrolyte composition."
+      },
+      {
+        "id": "C",
+        "text": "The cell potential remains strictly constant (\u2248 1.35 V) throughout its operational life",
+        "isCorrect": true,
+        "explanation": "Constant 1.35 V potential."
+      },
+      {
+        "id": "D",
+        "text": "The constant cell potential occurs because the overall cell reaction involves no dissolved ions whose concentrations could change over time",
+        "isCorrect": true,
+        "explanation": "Chemical reason for constant voltage."
+      }
+    ],
+    "solutionExplanation": "All four options represent accurate chemical, structural, and electrophysiological properties of the Mercury Cell.",
+    "keyFormulae": [
+      "\\text{Zn(Hg)} + \\text{HgO}(s) \\longrightarrow \\text{ZnO}(s) + \\text{Hg}(l) \\quad (E_{\\text{cell}} = 1.35\\text{ V})"
+    ],
+    "hints": [
+      "The net cell reaction involves only pure solids and liquids."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-elec-013",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Factors Increasing Molar Conductivity",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following factors INCREASE the Molar Conductivity (\u039b_m) of an electrolytic solution? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increasing the temperature of the solution",
+        "isCorrect": true,
+        "explanation": "Higher temperature increases ionic kinetic energy and mobility."
+      },
+      {
+        "id": "B",
+        "text": "Diluting the solution (decreasing solute concentration C)",
+        "isCorrect": true,
+        "explanation": "Dilution decreases inter-ionic resistance and increases ionization degree."
+      },
+      {
+        "id": "C",
+        "text": "Decreasing the inter-ionic electrostatic attractions between ions",
+        "isCorrect": true,
+        "explanation": "Reduces electrophoretic and relaxation drag."
+      },
+      {
+        "id": "D",
+        "text": "Increasing the viscosity of the solvent",
+        "isCorrect": false,
+        "explanation": "Higher viscosity slows down ions, reducing conductivity."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: \u039b_m increases with dilution (C \u2500\u2500\u25ba 0), increasing temperature (increases ion kinetic mobility), and decreasing inter-ionic drag.\n\u2022 D is incorrect: Increasing solvent viscosity DECREASES ionic mobility, lowering \u039b_m (Walden's Rule: \u039b\u00b0_m \u00b7 \u03b7 = constant).",
+    "keyFormulae": [
+      "\\Lambda_m \\propto T, \\quad \\Lambda_m \\propto \\frac{1}{C}, \\quad \\Lambda_m \\propto \\frac{1}{\\eta}"
+    ],
+    "hints": [
+      "Factors that allow ions to move faster or freer increase molar conductivity."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-elec-014",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Fuel Cell Properties",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding the Hydrogen-Oxygen (H\u2082-O\u2082) Fuel Cell: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "It converts the chemical energy of combustion (2H\u2082 + O\u2082 \u2500\u2500\u25ba 2H\u2082O) directly into electrical energy",
+        "isCorrect": true,
+        "explanation": "Direct electrochemical conversion."
+      },
+      {
+        "id": "B",
+        "text": "It operates with a high thermodynamic efficiency (\u2248 70%) compared to conventional thermal power plants (\u2248 40%)",
+        "isCorrect": true,
+        "explanation": "High 70% efficiency."
+      },
+      {
+        "id": "C",
+        "text": "The only chemical product formed is pure water vapor, making it completely non-polluting",
+        "isCorrect": true,
+        "explanation": "Pure water is condensed and reused."
+      },
+      {
+        "id": "D",
+        "text": "The anode reaction involves the reduction of molecular oxygen (O\u2082)",
+        "isCorrect": false,
+        "explanation": "O\u2082 reduction occurs at the CATHODE, not the anode."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: Fuel cells convert combustion energy to electricity at 70% efficiency, producing pure H\u2082O.\n\u2022 D is incorrect: O\u2082 reduction occurs at the CATHODE, not the anode. (H\u2082 oxidation occurs at the anode).",
+    "keyFormulae": [
+      "\\text{Anode: } 2\\text{H}_2 + 4\\text{OH}^- \\longrightarrow 4\\text{H}_2\\text{O} + 4e^-, \\quad \\text{Cathode: } \\text{O}_2 + 2\\text{H}_2\\text{O} + 4e^- \\longrightarrow 4\\text{OH}^-"
+    ],
+    "hints": [
+      "Oxygen is reduced at the cathode; Hydrogen is oxidized at the anode."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-elec-015",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Aqueous NaCl Electrolysis Products",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following chemical species undergo discharge at the CATHODE during the electrolysis of concentrated aqueous Sodium Chloride (NaCl) using inert platinum electrodes? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hydrogen gas (H\u2082)",
+        "isCorrect": true,
+        "explanation": "Liberated at cathode via water reduction."
+      },
+      {
+        "id": "B",
+        "text": "Hydroxide ions (OH\u207b) accumulating in the catholyte solution",
+        "isCorrect": true,
+        "explanation": "Produced alongside H\u2082 gas."
+      },
+      {
+        "id": "C",
+        "text": "Metallic Sodium (Na)",
+        "isCorrect": false,
+        "explanation": "Na\u207a is not reduced in aqueous solution."
+      },
+      {
+        "id": "D",
+        "text": "Chlorine gas (Cl\u2082)",
+        "isCorrect": false,
+        "explanation": "Cl\u2082 is liberated at the ANODE."
+      }
+    ],
+    "solutionExplanation": "\u2022 A and B are correct: At the cathode, water reduction (2H\u2082O + 2e\u207b \u2500\u2500\u25ba H\u2082(g) + 2OH\u207b) occurs preferentially over Na\u207a reduction (E\u00b0_red = -0.83 V > -2.71 V). This releases H\u2082 gas and leaves OH\u207b ions accumulating in the cathode compartment.\n\u2022 C and D are incorrect: Metallic Na is NOT produced in aqueous electrolysis; Cl\u2082 gas is liberated at the Anode.",
+    "keyFormulae": [
+      "2\\text{H}_2\\text{O} + 2e^- \\longrightarrow \\text{H}_2(g) + 2\\text{OH}^-(aq)"
+    ],
+    "hints": [
+      "Water reduction is easier than sodium reduction."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-elec-016",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Kohlrausch's Law Applications",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding Kohlrausch\u2019s Law of Independent Migration of Ions: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "It allows the determination of limiting molar conductivity (\u039b\u00b0_m) for weak electrolytes like CH\u2083COOH",
+        "isCorrect": true,
+        "explanation": "Core application."
+      },
+      {
+        "id": "B",
+        "text": "The degree of dissociation (\u03b1) of a weak electrolyte can be calculated using \u03b1 = \u039b_m / \u039b\u00b0_m",
+        "isCorrect": true,
+        "explanation": "Core application."
+      },
+      {
+        "id": "C",
+        "text": "It can be used to calculate the molar solubility (S) of sparingly soluble salts like AgCl using S = (1000 \u00b7 \u03ba) / \u039b\u00b0_m",
+        "isCorrect": true,
+        "explanation": "Core application."
+      },
+      {
+        "id": "D",
+        "text": "It states that molar conductivity decreases linearly with \u221aC for weak electrolytes",
+        "isCorrect": false,
+        "explanation": "Weak electrolytes show non-linear exponential increases near C \u2500\u2500\u25ba 0."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: These are the three fundamental applications of Kohlrausch's Law.\n\u2022 D is incorrect: Weak electrolytes show non-linear exponential increases in \u039b_m near C \u2500\u2500\u25ba 0 (Debye-H\u00fcckel linear relation applies strictly to strong electrolytes).",
+    "keyFormulae": [
+      "\\Lambda_m^\\circ = \\sum \\nu_i \\lambda_i^\\circ, \\quad \\alpha = \\frac{\\Lambda_m}{\\Lambda_m^\\circ}, \\quad S = \\frac{1000 \\cdot \\kappa}{\\Lambda_m^\\circ}"
+    ],
+    "hints": [
+      "Review the three classic quantitative applications of Kohlrausch's Law."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-elec-017",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Factors Increasing Daniell Cell Potential",
+    "difficulty": "Medium",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following conditions cause an INCREASE in the measured Cell Potential (E_cell) for the Daniell Cell reaction: Zn(s) + Cu\u00b2\u207a(aq) \u21cc Zn\u00b2\u207a(aq) + Cu(s)? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increasing the concentration of Cu\u00b2\u207a(aq) ions",
+        "isCorrect": true,
+        "explanation": "Lowers Q, increasing E_cell."
+      },
+      {
+        "id": "B",
+        "text": "Decreasing the concentration of Zn\u00b2\u207a(aq) ions",
+        "isCorrect": true,
+        "explanation": "Lowers Q, increasing E_cell."
+      },
+      {
+        "id": "C",
+        "text": "Diluting the anode compartment solution with pure water",
+        "isCorrect": true,
+        "explanation": "Diluting anode lowers [Zn\u00b2\u207a], increasing E_cell."
+      },
+      {
+        "id": "D",
+        "text": "Increasing the mass of the solid Zinc electrode",
+        "isCorrect": false,
+        "explanation": "Solid electrodes have unit activity (1.0) and do not affect cell potential."
+      }
+    ],
+    "solutionExplanation": "\u2022 Nernst equation: E_cell = E\u00b0_cell - (0.0591/2) log\u2081\u2080([Zn\u00b2\u207a]/[Cu\u00b2\u207a]).\n\u2022 A, B, C are correct: Increasing [Cu\u00b2\u207a] (denominator) or decreasing [Zn\u00b2\u207a] (numerator) lowers Q, which INCREASES E_cell. Diluting the anode compartment lowers [Zn\u00b2\u207a], raising E_cell.\n\u2022 D is incorrect: Pure solids (Zn, Cu) have unit activity (1.0) and do not alter E_cell.",
+    "keyFormulae": [
+      "E_{\\text{cell}} = E^\\circ_{\\text{cell}} - \\frac{0.05916}{2} \\log_{10} \\left( \\frac{[\\text{Zn}^{2+}]}{[\\text{Cu}^{2+}]} \\right)"
+    ],
+    "hints": [
+      "E_cell increases when Q decreases ([Zn\u00b2\u207a] drops or [Cu\u00b2\u207a] rises)."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-elec-018",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Rusting Electrochemical Mechanism",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding the Electrochemical Mechanism of Rusting of Iron: (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Iron acts as the anodic site undergoing oxidation: Fe(s) \u2500\u2500\u25ba Fe\u00b2\u207a(aq) + 2e\u207b",
+        "isCorrect": true,
+        "explanation": "Anodic oxidation."
+      },
+      {
+        "id": "B",
+        "text": "Dissolved oxygen in water droplets undergoes reduction at the cathodic site: O\u2082 + 4H\u207a + 4e\u207b \u2500\u2500\u25ba 2H\u2082O",
+        "isCorrect": true,
+        "explanation": "Cathodic reduction."
+      },
+      {
+        "id": "C",
+        "text": "Dissolved atmospheric CO\u2082 forms carbonic acid (H\u2082CO\u2083), supplying the necessary H\u207a ions",
+        "isCorrect": true,
+        "explanation": "Role of dissolved CO\u2082."
+      },
+      {
+        "id": "D",
+        "text": "Rust is chemically hydrated ferric oxide (Fe\u2082O\u2083\u00b7xH\u2082O)",
+        "isCorrect": true,
+        "explanation": "Chemical formula of rust."
+      }
+    ],
+    "solutionExplanation": "All four options represent accurate steps and chemical formulas involved in the electrochemical mechanics of iron rusting.",
+    "keyFormulae": [
+      "2\\text{Fe} + \\text{O}_2 + 4\\text{H}^+ \\longrightarrow 2\\text{Fe}^{2+} + 2\\text{H}_2\\text{O} \\implies \\text{Fe}_2\\text{O}_3 \\cdot x\\text{H}_2\\text{O}"
+    ],
+    "hints": [
+      "Rusting is an electrochemical cell operating across iron surface with O\u2082 and H\u2082O."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-elec-019",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Faraday Constant Relationships",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Which of the following relationships correctly connect Faraday's Constant (F \u2248 96485 C/mol) to other fundamental physical constants? (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "F = N_A \u00b7 e (where N_A is Avogadro's number and e is electron charge)",
+        "isCorrect": true,
+        "explanation": "F = 6.022 \u00d7 10\u00b2\u00b3 \u00d7 1.602 \u00d7 10\u207b\u00b9\u2079 C = 96485 C/mol."
+      },
+      {
+        "id": "B",
+        "text": "1 Faraday is the charge required to deposit 1 gram-equivalent of any element during electrolysis",
+        "isCorrect": true,
+        "explanation": "Fundamental electrochemical definition."
+      },
+      {
+        "id": "C",
+        "text": "1 Faraday corresponds to the passage of 6.022 \u00d7 10\u00b2\u00b3 electrons",
+        "isCorrect": true,
+        "explanation": "1 mole of electrons."
+      },
+      {
+        "id": "D",
+        "text": "F = R \u00b7 T \u00b7 ln 2",
+        "isCorrect": false,
+        "explanation": "F is a charge constant, not an ideal gas energy expression."
+      }
+    ],
+    "solutionExplanation": "\u2022 A, B, C are correct: F = N_A e, 1 Faraday deposits 1 equivalent, and 1 F represents 1 mole of e\u207b.\n\u2022 D is incorrect: F is an electrical charge constant, not an ideal gas energy term.",
+    "keyFormulae": [
+      "F = N_A \\cdot e = 96485.3 \\text{ C/mol}"
+    ],
+    "hints": [
+      "Faraday's constant is the total charge of 1 mole of electrons."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "chem-elec-020",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "subtopic": "Standard Hydrogen Electrode Characteristics",
+    "difficulty": "Easy",
+    "status": "published",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding the Standard Hydrogen Electrode (SHE): (Select all that apply)",
+    "options": [
+      {
+        "id": "A",
+        "text": "It consists of a platinum foil coated with platinum black immersed in a 1.0 M H\u207a aqueous solution",
+        "isCorrect": true,
+        "explanation": "Electrode setup."
+      },
+      {
+        "id": "B",
+        "text": "Pure Hydrogen gas is bubbled over the electrode at 1.0 bar pressure",
+        "isCorrect": true,
+        "explanation": "Standard pressure conditions."
+      },
+      {
+        "id": "C",
+        "text": "It can function as both an anode and a cathode depending on the connected half-cell",
+        "isCorrect": true,
+        "explanation": "Reversible electrode."
+      },
+      {
+        "id": "D",
+        "text": "Its standard electrode potential (E\u00b0) is assigned 0.000 V by international convention at all temperatures",
+        "isCorrect": true,
+        "explanation": "Universal standard reference convention."
+      }
+    ],
+    "solutionExplanation": "All four statements represent accurate structural, operational, and thermodynamic facts regarding the Standard Hydrogen Electrode.",
+    "keyFormulae": [
+      "2\\text{H}^+(aq, 1\\text{ M}) + 2e^- \\rightleftharpoons \\text{H}_2(g, 1\\text{ bar}) \\quad (E^\\circ = 0.000\\text{ V})"
+    ],
+    "hints": [
+      "SHE is the universal primary reference electrode."
+    ],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

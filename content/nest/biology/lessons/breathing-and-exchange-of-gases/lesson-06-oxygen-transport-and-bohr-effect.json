@@ -1,0 +1,36 @@
+{
+  "id": "bio-xi-u5-c14-l06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Breathing and Exchange of Gases",
+  "chapterNumber": 14,
+  "chapterSlug": "breathing-and-exchange-of-gases",
+  "slug": "lesson-06-oxygen-transport-and-bohr-effect",
+  "title": "Oxygen Transport Mechanics & The Oxygen-Hemoglobin Curve",
+  "topic": "Oxyhemoglobin Binding, Sigmoidal Curve, P50, Bohr Effect, & Fetal Hb",
+  "order": 6,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "97% O2 is bound to Hemoglobin (Fe²⁺). Curve is Sigmoid (P50 = 26.6 mmHg). Bohr Effect shifts curve RIGHT (high pCO2, low pH, high temp, high 2,3-BPG) to unload O2 at tissues; Fetal Hb (α2γ2) is shifted LEFT.",
+  "summary": "97% O2 is bound to Hemoglobin (Fe²⁺). Curve is Sigmoid (P50 = 26.6 mmHg). Bohr Effect shifts curve RIGHT (high pCO2, low pH, high temp, high 2,3-BPG) to unload O2 at tissues; Fetal Hb (α2γ2) is shifted LEFT.",
+  "conceptBreakdown": [
+    {
+      "heading": "Oxygen Transport Mechanics & The Oxygen-Hemoglobin Curve",
+      "title": "Oxygen Transport Mechanics & The Oxygen-Hemoglobin Curve",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "97% O2 is bound to Hemoglobin (Fe²⁺). Curve is Sigmoid (P50 = 26.6 mmHg). Bohr Effect shifts curve RIGHT (high pCO2, low pH, high temp, high 2,3-BPG) to unload O2 at tissues; Fetal Hb (α2γ2) is shifted LEFT."
+      },
+      "codeSnippet": "OXYGEN-HEMOGLOBIN DISSOCIATION CURVE\n                   \n   100 % ┌───────────────────────────────/------------ ◄── Alveoli (pO2 = 104)\n         │                              /\n    80 % ├─────────────────────────────/   [LEFT SHIFT]\n         │                            /    ├── High pO2, Low pCO2\n    50 % ├.........................../│    ├── Low H+, Low Temp\n         │                          / │    └── High HbF Affinity\n    20 % ├─────────────────────────/  │   [RIGHT SHIFT / BOHR EFFECT]\n         │                        /   │    ├── Low pO2, High pCO2\n       0 └───────────────────────┴────┴──────────────► pO2 (mmHg)\n                                P50   100\n                             (26.6 mmHg)",
+      "content": "Oxygen is transported in blood in two forms:\n1. **Dissolved in Plasma ($3\\%$)**: Due to poor water solubility.\n2. **Bound to Hemoglobin ($97\\%$)**: As Oxyhemoglobin ($\\text{Hb}_4(\\text{O}_2)_4$) inside erythrocytes.\n\n### Hemoglobin Architecture & Delivery\n- Tetramer ($\\text{MW} \\approx 64,500\\text{ Da}$) of two $\\alpha$ and two $\\beta$ globin chains ($\\alpha_2\\beta_2$), each containing a heme group with central $\\text{Fe}^{2+}$.\n- $1\\text{ g of Hb}$ binds up to $1.34\\text{ mL of }\\text{O}_2$. At $15\\text{ g Hb/100 mL}$, oxygen capacity is $\\approx 20\\text{ mL }\\text{O}_2 / 100\\text{ mL blood}$.\n- Under resting conditions, $100\\text{ mL}$ of blood delivers $\\approx 5\\text{ mL of }\\text{O}_2$ to tissues ($25\\%$ extraction ratio).\n\n### 6.1 The Oxygen-Hemoglobin Dissociation Curve & The Bohr Effect\n- **$P_{50}$ Parameter**: Partial pressure of $\\text{O}_2$ at which Hb is $50\\%$ saturated ($P_{50} \\approx 26.6\\text{ mmHg}$).\n- **The Bohr Effect (Right Shift / $\\text{O}_2$ Unloading at Tissues)**: High $p\\text{CO}_2$, high $\\text{H}^+$ (low $\\text{pH}$), high temperature, and elevated $2,3\\text{-BPG}$ stabilize deoxyhemoglobin in its T-state, shifting curve to the RIGHT and releasing $\\text{O}_2$.\n- **Left Shift (Alveolar $\\text{O}_2$ Loading)**: High $p\\text{O}_2$, low $p\\text{CO}_2$, low $\\text{H}^+$ (higher $\\text{pH}$), and cool temperatures stabilize the R-state, promoting $\\text{O}_2$ binding.\n- **Fetal Hemoglobin ($\\text{HbF}, \\alpha_2\\gamma_2$)**: Binds $2,3\\text{-BPG}$ poorly, exhibiting a significantly higher affinity for $\\text{O}_2$ than adult $\\text{HbA}$ (curve shifted LEFT).",
+      "contentMarkdown": "Oxygen is transported in blood in two forms:\n1. **Dissolved in Plasma ($3\\%$)**: Due to poor water solubility.\n2. **Bound to Hemoglobin ($97\\%$)**: As Oxyhemoglobin ($\\text{Hb}_4(\\text{O}_2)_4$) inside erythrocytes.\n\n### Hemoglobin Architecture & Delivery\n- Tetramer ($\\text{MW} \\approx 64,500\\text{ Da}$) of two $\\alpha$ and two $\\beta$ globin chains ($\\alpha_2\\beta_2$), each containing a heme group with central $\\text{Fe}^{2+}$.\n- $1\\text{ g of Hb}$ binds up to $1.34\\text{ mL of }\\text{O}_2$. At $15\\text{ g Hb/100 mL}$, oxygen capacity is $\\approx 20\\text{ mL }\\text{O}_2 / 100\\text{ mL blood}$.\n- Under resting conditions, $100\\text{ mL}$ of blood delivers $\\approx 5\\text{ mL of }\\text{O}_2$ to tissues ($25\\%$ extraction ratio).\n\n### 6.1 The Oxygen-Hemoglobin Dissociation Curve & The Bohr Effect\n- **$P_{50}$ Parameter**: Partial pressure of $\\text{O}_2$ at which Hb is $50\\%$ saturated ($P_{50} \\approx 26.6\\text{ mmHg}$).\n- **The Bohr Effect (Right Shift / $\\text{O}_2$ Unloading at Tissues)**: High $p\\text{CO}_2$, high $\\text{H}^+$ (low $\\text{pH}$), high temperature, and elevated $2,3\\text{-BPG}$ stabilize deoxyhemoglobin in its T-state, shifting curve to the RIGHT and releasing $\\text{O}_2$.\n- **Left Shift (Alveolar $\\text{O}_2$ Loading)**: High $p\\text{O}_2$, low $p\\text{CO}_2$, low $\\text{H}^+$ (higher $\\text{pH}$), and cool temperatures stabilize the R-state, promoting $\\text{O}_2$ binding.\n- **Fetal Hemoglobin ($\\text{HbF}, \\alpha_2\\gamma_2$)**: Binds $2,3\\text{-BPG}$ poorly, exhibiting a significantly higher affinity for $\\text{O}_2$ than adult $\\text{HbA}$ (curve shifted LEFT)."
+    }
+  ]
+}

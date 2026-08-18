@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-18-01",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Locomotion and Movement",
+  "chapterNumber": 18,
+  "chapterSlug": "locomotion-and-movement",
+  "lessonNumber": 1,
+  "title": "Types of Animal Movement: Amoeboid, Ciliary, Flagellar, & Muscular",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Medium",
+  "prerequisites": ["Cell motility", "Cytoskeleton"],
+  "learningObjectives": [
+    "Differentiate Amoeboid, Ciliary, Flagellar, and Muscular movements biochemically",
+    "Identify human cell types and physiological contexts for each movement type",
+    "Understand the role of 9+2 tubulin axonemes and dynein ATPases"
+  ],
+  "content": "Movement is a fundamental property of all living organisms, ranging from intracellular protoplasmic streaming to whole-organism Locomotion (change of geographic location).\n\n```\n                           TYPES OF ANIMAL MOVEMENTS\n                                       │\n     ┌──────────────────┬──────────────┴──────────────┬──────────────────┐\n     ▼                  ▼                             ▼                  ▼\nAMOEBOID MOVEMENT   CILIARY MOVEMENT              FLAGELLAR MOVEMENT   MUSCULAR MOVEMENT\nDriven by micro-   Driven by coordinated wave     Driven by whip-like  Driven by contractile\nfilament streaming  of 9+2 tubulin cilia.         flagellar beat.      myofilaments (actin/\nand pseudopodia.    ├── Respiratory trachea       ├── Spermatozoa      myosin).\n├── Macrophages    ├── Fallopian tubes (Oviduct) └── Choanocytes      ├── Limb locomotion\n└── Leucocytes     └── Paramecium gullet             in Sponges       └── Heart / Gut motility\n```\n\n### 1.1 Comparative Movement Mechanics Matrix\n\n| Movement Type | Structural Basis / Organelle | Biochemical Mechanism | Representative Physiological Context |\n| :--- | :--- | :--- | :--- |\n| **Amoeboid Movement** | **Pseudopodia** formed by protoplasmic streaming | Actin-myosin microfilament polymerization and sol-gel cytoplasmic transitions | Phagocytic **Macrophages** and **Neutrophils** migrating through interstitial tissues; *Amoeba proteus* |\n| **Ciliary Movement** | Thousands of microscopic **Cilia** ($9+2$ axoneme) | Rhythmic, coordinated, metachronal beating driven by ciliary **Dynein ATPase** | Sweeping trapped dust out of the **Tracheal Epithelium**; propelling ova along the **Fallopian Tube (Oviduct)** |\n| **Flagellar Movement** | Long, whip-like **Flagellum** ($9+2$ axoneme) | Undulatory wave propagation driven by dynein-mediated microtubule sliding | Propulsion of **Spermatozoa** in human male reproductive tract; water currents in sponge **Choanocytes** |\n| **Muscular Movement** | Specialized contractile **Muscle Fibers** (myofibrils) | Sliding filament mechanism driven by **Actin-Myosin cross-bridge** interactions | Locomotion of limbs, jaw movements, tongue protrusion, cardiac pumping, intestinal peristalsis |",
+  "conceptBreakdown": [
+    {
+      "heading": "Protoplasmic Streaming & Microfilaments",
+      "explanation": "Amoeboid movement in human phagocytes is driven by rapid assembly (polymerization) and disassembly of actin microfilaments beneath the plasma membrane, facilitating pseudopodial projection and diapedesis across capillary walls."
+    },
+    {
+      "heading": "Ciliary Dynein & Kartagener's Syndrome",
+      "explanation": "Cilia possess outer and inner dynein arms that walk along adjacent tubulin doublets in the 9+2 axoneme. Genetic defects in dynein arms cause Primary Ciliary Dyskinesia (Kartagener's Syndrome), resulting in male infertility (immotile sperm), chronic respiratory infections (immotile tracheal cilia), and situs inversus."
+    }
+  ]
+}

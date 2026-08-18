@@ -1,0 +1,604 @@
+[
+  {
+    "id": "bio-xii-u7-c4-q01",
+    "questionNumber": 1,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Trihybrid Test Cross Mechanics",
+    "questionText": "In garden peas (Pisum sativum), tall stem height (T) is dominant over dwarf (t), round seed shape (R) is dominant over wrinkled (r), and yellow cotyledons (Y) are dominant over green (y). A trihybrid plant heterozygous for all three loci (TtRrYy) is test-crossed with a triple homozygous recessive plant (ttrryy). Assuming all three genes are on different non-homologous chromosomes and undergo independent assortment, what proportion of the test-cross progeny will display a Dwarf, Round-seeded, Green-cotyledon phenotype?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/2"
+      },
+      {
+        "id": "B",
+        "text": "1/4"
+      },
+      {
+        "id": "C",
+        "text": "1/8"
+      },
+      {
+        "id": "D",
+        "text": "1/16"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A trihybrid test cross (TtRrYy × ttrryy) yields 8 distinct phenotypic classes in equal proportions (1/8 each). Probability of Dwarf (tt) = 1/2; Probability of Round (R_) = 1/2; Probability of Green (yy) = 1/2. Total combined probability = 1/2 × 1/2 × 1/2 = 1/8 (12.5%)."
+  },
+  {
+    "id": "bio-xii-u7-c4-q02",
+    "questionNumber": 2,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Linkage & Gene Mapping",
+    "questionText": "In a genetic mapping experiment on Drosophila melanogaster, three X-linked mutant genes are analyzed: black body (b), cinnabar eye (c), and vestigial wing (v). Dihybrid test crosses yield the following recombination frequencies: b to c = 9%, c to v = 9.5%, b to v = 18.5%. What is the correct linear order and relative map distance of these three genes on the X-chromosome?",
+    "options": [
+      {
+        "id": "A",
+        "text": "c - b - v (c-b = 9 cM; b-v = 9.5 cM)"
+      },
+      {
+        "id": "B",
+        "text": "b - c - v (b-c = 9 cM; c-v = 9.5 cM; b-v = 18.5 cM)"
+      },
+      {
+        "id": "C",
+        "text": "b - v - c (b-v = 18.5 cM; v-c = 9 cM)"
+      },
+      {
+        "id": "D",
+        "text": "v - b - c (v-b = 9 cM; b-c = 18.5 cM)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Recombination frequencies are directly additive along linear chromosomes: b to v distance (18.5 cM) equals the sum of b to c (9 cM) + c to v (9.5 cM). Therefore, gene c lies between b and v, yielding the linear map order b - c - v."
+  },
+  {
+    "id": "bio-xii-u7-c4-q03",
+    "questionNumber": 3,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "ABO Blood Group Genetics",
+    "questionText": "A man with Blood Group A (I^A i) whose father was Blood Group O (ii) marries a woman with Blood Group B (I^B i) whose mother was Blood Group O (ii). What are the possible blood groups that can appear in their biological children, and in what phenotypic ratio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All Blood Group AB only"
+      },
+      {
+        "id": "B",
+        "text": "50% Group AB : 50% Group O"
+      },
+      {
+        "id": "C",
+        "text": "25% Group A : 25% Group B : 25% Group AB : 25% Group O"
+      },
+      {
+        "id": "D",
+        "text": "75% Group AB : 25% Group O"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Both parents are heterozygous (I^A i and I^B i). Crossing I^A i × I^B i yields a Punnett square with 4 distinct genotypes in equal proportions: I^A I^B (25% AB), I^A i (25% A), I^B i (25% B), and ii (25% O)."
+  },
+  {
+    "id": "bio-xii-u7-c4-q04",
+    "questionNumber": 4,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Sickle-Cell Anemia Point Mutation",
+    "questionText": "Molecular sequencing of the beta-globin gene in a patient suffering from Sickle-Cell Anemia demonstrates a single nucleotide point mutation at the 6th codon (GAG -> GUG). What specific amino acid substitution occurs in the beta-globin polypeptide, and what type of mutation is this?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Valine is replaced by Glutamic acid; Silent mutation"
+      },
+      {
+        "id": "B",
+        "text": "Glutamic acid is replaced by Valine; Transversion Point Mutation"
+      },
+      {
+        "id": "C",
+        "text": "Lysine is replaced by Glycine; Frameshift mutation"
+      },
+      {
+        "id": "D",
+        "text": "Alanine is replaced by Aspartate; Transition mutation"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Sickle-cell anemia results from a transversion point mutation (A -> T) at the 6th codon of the beta-globin gene (GAG -> GUG). This converts the mRNA codon for Glutamic acid (hydrophilic) into Valine (hydrophobic) at position 6 (Glu6Val)."
+  },
+  {
+    "id": "bio-xii-u7-c4-q05",
+    "questionNumber": 5,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Honeybee Haplodiploidy",
+    "questionText": "In queen honeybees (Apis mellifera), females are diploid (2n = 32) and males (drones) are haploid (n = 16). How do male drones produce functional spermatozoa, and what proportion of a drone's genetic material is transmitted to his worker daughters?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Drones produce sperm by Meiosis; transmit 50% of their genes."
+      },
+      {
+        "id": "B",
+        "text": "Drones produce sperm by Mitosis; transmit 100% of their genetic material to all daughters."
+      },
+      {
+        "id": "C",
+        "text": "Drones produce sperm by Parthenogenesis; transmit 0% of their genes."
+      },
+      {
+        "id": "D",
+        "text": "Drones produce sperm by Amitosis; transmit 25% of their genes."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Honeybee drones are haploid (n=16) and develop via unfertilized eggs (parthenogenesis). Because drones are already haploid, they produce spermatozoa via Mitosis without reduction. Consequently, every drone passes 100% of his genetic material to all his female offspring."
+  },
+  {
+    "id": "bio-xii-u7-c4-q06",
+    "questionNumber": 6,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Klinefelter Syndrome Cytogenetics",
+    "questionText": "Cytogenetic analysis of an infertile male patient reveals a karyotype of 47, XXY. Clinical examination shows tall stature, long limbs, sparse body hair, and noticeable Gynecomastia (breast development). What chromosomal non-disjunction disorder does this patient have, and how many Barr Bodies will be present in his somatic cells?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Down's Syndrome; 0 Barr Bodies"
+      },
+      {
+        "id": "B",
+        "text": "Klinefelter's Syndrome; 1 Barr Body"
+      },
+      {
+        "id": "C",
+        "text": "Turner's Syndrome; 2 Barr Bodies"
+      },
+      {
+        "id": "D",
+        "text": "Edward's Syndrome; 1 Barr Body"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A karyotype of 47, XXY represents Klinefelter's Syndrome. The number of Barr Bodies equals total X chromosomes minus 1 (Barr Bodies = 2 - 1 = 1 Barr Body)."
+  },
+  {
+    "id": "bio-xii-u7-c4-q07",
+    "questionNumber": 7,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Autosomal Recessive PKU Probability",
+    "questionText": "A phenotypically normal couple has a child affected by Phenylketonuria (PKU). What is the probability that their next child will be a phenotypically normal carrier of the PKU allele?",
+    "options": [
+      {
+        "id": "A",
+        "text": "25% (1/4)"
+      },
+      {
+        "id": "B",
+        "text": "50% (1/2)"
+      },
+      {
+        "id": "C",
+        "text": "75% (3/4)"
+      },
+      {
+        "id": "D",
+        "text": "100% (1)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "PKU is an Autosomal Recessive disorder. Both parents must be heterozygous carriers (Pp × Pp), yielding 1 PP : 2 Pp : 1 pp. The probability of a phenotypically normal carrier (Pp) is 2/4 = 50%."
+  },
+  {
+    "id": "bio-xii-u7-c4-q08",
+    "questionNumber": 8,
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "topic": "Pedigree Pattern Analysis",
+    "questionText": "A human geneticist analyzes a pedigree tracing a hereditary neurological disease across four generations. The pedigree reveals that affected males NEVER pass the disease to their sons, but pass it to ALL of their daughters. Affected females pass the disease to 50% of their sons and daughters. What mode of inheritance is this?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Autosomal Recessive"
+      },
+      {
+        "id": "B",
+        "text": "Y-Linked (Holandric)"
+      },
+      {
+        "id": "C",
+        "text": "X-Linked Dominant"
+      },
+      {
+        "id": "D",
+        "text": "Mitochondrial Maternal Inheritance"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "In X-Linked Dominant inheritance: (1) An affected male (X^D Y) passes his mutant X^D to all daughters (making all daughters affected X^D X), and Y to sons (all sons normal XY); (2) An affected heterozygous female (X^D X) passes X^D to 50% of sons and daughters."
+  },
+  {
+    "id": "bio-xii-u7-c4-q09",
+    "questionNumber": 9,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Thalassemia vs Sickle-Cell Anemia",
+    "questionText": "How does Thalassemia differ fundamentally from Sickle-Cell Anemia, despite both being autosomal recessive blood disorders affecting hemoglobin?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Thalassemia is caused by X-linked non-disjunction; Sickle-cell is autosomal."
+      },
+      {
+        "id": "B",
+        "text": "Thalassemia is a QUANTITATIVE disorder (reduced rate of globin chain synthesis); Sickle-cell is a QUALITATIVE disorder (synthesis of structurally abnormal globin chains)."
+      },
+      {
+        "id": "C",
+        "text": "Thalassemia affects only white blood cells; Sickle-cell affects platelets."
+      },
+      {
+        "id": "D",
+        "text": "Thalassemia confers malaria resistance; Sickle-cell causes leukemia."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Thalassemia is a quantitative defect resulting from gene deletions/mutations that reduce the synthesis rate of alpha- or beta-globin chains. Sickle-cell anemia is a qualitative defect where a point mutation produces a structurally abnormal beta-globin polypeptide (Glu6Val)."
+  },
+  {
+    "id": "bio-xii-u7-c4-q10",
+    "questionNumber": 10,
+    "questionType": "MCQ",
+    "difficulty": "Hard",
+    "topic": "Incomplete Dominance Allele Frequencies",
+    "questionText": "In a population of 1000 four o'clock plants (Mirabilis jalapa), flower color displays incomplete dominance (RR = Red, Rr = Pink, rr = White). A field survey counts 360 Red plants, 480 Pink plants, and 160 White plants. What are the allele frequencies of R (p) and r (q) in this population?",
+    "options": [
+      {
+        "id": "A",
+        "text": "p = 0.6; q = 0.4"
+      },
+      {
+        "id": "B",
+        "text": "p = 0.5; q = 0.5"
+      },
+      {
+        "id": "C",
+        "text": "p = 0.36; q = 0.16"
+      },
+      {
+        "id": "D",
+        "text": "p = 0.8; q = 0.2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Total alleles = 2 × 1000 = 2000. Total R alleles = 2(360) + 480 = 720 + 480 = 1200. Frequency p (R) = 1200 / 2000 = 0.6. Frequency q (r) = 1 - 0.6 = 0.4."
+  },
+  {
+    "id": "bio-xii-u7-c4-q11",
+    "questionNumber": 11,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Non-Mendelian Inheritance Deviations",
+    "questionText": "Which of the following genetic traits represent DEVIATIONS from classical Mendelian mono/dihybrid inheritance ratios?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pink flower color in F1 Snapdragons (Antirrhinum majus) demonstrating Incomplete Dominance (1:2:1)."
+      },
+      {
+        "id": "B",
+        "text": "Human ABO Blood Group AB demonstrating Co-dominance (I^A I^B)."
+      },
+      {
+        "id": "C",
+        "text": "Human Skin Color controlled by 3 additive gene pairs demonstrating Polygenic Inheritance."
+      },
+      {
+        "id": "D",
+        "text": "Monohybrid cross of tall (TT) and dwarf (tt) pea plants yielding all tall F1 hybrids."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Incomplete dominance (1:2:1), Co-dominance (I^A I^B), and Polygenic inheritance (1:6:15:20:15:6:1) are classical Non-Mendelian extensions/deviations. D is incorrect: Complete dominance yielding all tall F1 hybrids is a standard Mendelian result."
+  },
+  {
+    "id": "bio-xii-u7-c4-q12",
+    "questionNumber": 12,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Chromosome Theory & Morgan's Experiments",
+    "questionText": "Select the valid statements regarding the Chromosome Theory of Inheritance and T.H. Morgan's work:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sutton and Boveri noted parallel behavior between Mendelian factors (genes) and chromosomes during meiotic division."
+      },
+      {
+        "id": "B",
+        "text": "Morgan used Drosophila melanogaster due to its short 2-week life cycle, clear sexual dimorphism, and simple culture requirements."
+      },
+      {
+        "id": "C",
+        "text": "Recombination frequency between two linked genes is directly proportional to the physical distance separating them on a chromosome."
+      },
+      {
+        "id": "D",
+        "text": "Tightly linked genes undergo 9:3:3:1 independent assortment in dihybrid crosses."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Sutton-Boveri proposed chromosome-gene parallelism, Morgan validated it in Drosophila, and Sturtevant mapped genes using recombination frequencies. D is incorrect: Tightly linked genes do NOT undergo 9:3:3:1 independent assortment; they exhibit high parental phenotypes (~98.7%) and very few recombinants."
+  },
+  {
+    "id": "bio-xii-u7-c4-q13",
+    "questionNumber": 13,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Sex Determination Across Taxa",
+    "questionText": "Which of the following sex determination mechanisms correctly match their representative animal taxa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "XX - XY System (Male Heterogametic) -> Humans, Drosophila"
+      },
+      {
+        "id": "B",
+        "text": "XX - XO System (Male Heterogametic) -> Grasshoppers, Cockroaches"
+      },
+      {
+        "id": "C",
+        "text": "ZZ - ZW System (Female Heterogametic) -> Birds (Aves), Reptiles, Butterflies"
+      },
+      {
+        "id": "D",
+        "text": "Haplodiploidy System -> Honeybees (Apis mellifera), Ants, Wasps"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "All four options represent accurate sex determination systems and their respective animal groups."
+  },
+  {
+    "id": "bio-xii-u7-c4-q14",
+    "questionNumber": 14,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "X-Linked Recessive Inheritance",
+    "questionText": "Select the correct options regarding human X-Linked Recessive disorders (e.g., Hemophilia A, Color Blindness):",
+    "options": [
+      {
+        "id": "A",
+        "text": "Affected males (X^d Y) inherit the mutant X chromosome from their carrier or affected mothers."
+      },
+      {
+        "id": "B",
+        "text": "Females express the disease phenotype only when homozygous recessive (X^d X^d)."
+      },
+      {
+        "id": "C",
+        "text": "An affected father (X^d Y) passes the mutant X chromosome to ALL of his daughters, making them carriers (X^d X)."
+      },
+      {
+        "id": "D",
+        "text": "An affected father passes the mutant X chromosome directly to 50% of his sons."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: X-linked recessive traits show criss-cross inheritance; males need only 1 mutant X, females need 2, and fathers pass X to all daughters. D is incorrect: Fathers pass their Y chromosome to sons, NOT their X chromosome."
+  },
+  {
+    "id": "bio-xii-u7-c4-q15",
+    "questionNumber": 15,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Autosomal Recessive Disorders",
+    "questionText": "Which of the following human genetic diseases are classified as AUTOSOMAL RECESSIVE disorders?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sickle-Cell Anemia"
+      },
+      {
+        "id": "B",
+        "text": "Phenylketonuria (PKU)"
+      },
+      {
+        "id": "C",
+        "text": "beta-Thalassemia"
+      },
+      {
+        "id": "D",
+        "text": "Hemophilia A"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Sickle-cell anemia, PKU, and Thalassemia are autosomal recessive Mendelian disorders. D is incorrect: Hemophilia A is an X-Linked Recessive disorder."
+  },
+  {
+    "id": "bio-xii-u7-c4-q16",
+    "questionNumber": 16,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Down Syndrome Features",
+    "questionText": "Select the correct statements regarding Down's Syndrome (47, XX/XY, +21):",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is an autosomal aneuploidy caused by meiotic non-disjunction yielding Trisomy 21."
+      },
+      {
+        "id": "B",
+        "text": "First clinically described by John Langdon Down in 1866."
+      },
+      {
+        "id": "C",
+        "text": "Affected individuals exhibit a short stature, round head, furrowed tongue, and a single transverse Simian palm crease."
+      },
+      {
+        "id": "D",
+        "text": "It affects males exclusively and causes complete gynecomastia."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Down's syndrome is Trisomy 21, described by Langdon Down, featuring short stature, furrowed tongue, and simian crease. D is incorrect: Down's syndrome is an AUTOSOMAL disorder affecting both males and females with equal frequency."
+  },
+  {
+    "id": "bio-xii-u7-c4-q17",
+    "questionNumber": 17,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Phenylketonuria (PKU) Biochemistry",
+    "questionText": "Which of the following molecular events occur in Phenylketonuria (PKU)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inborn error of metabolism caused by autosomal recessive mutation in the PAH gene."
+      },
+      {
+        "id": "B",
+        "text": "Inability to synthesize the liver enzyme Phenylalanine Hydroxylase."
+      },
+      {
+        "id": "C",
+        "text": "Accumulation of Phenylalanine and its keto-acid derivative Phenylpyruvic Acid in blood and brain."
+      },
+      {
+        "id": "D",
+        "text": "Excessive breakdown of hemoglobin leading to dark black urine."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: PKU is autosomal recessive, lacks Phenylalanine Hydroxylase, and causes accumulation of Phenylalanine/Phenylpyruvic acid leading to mental retardation. D is incorrect: Dark black urine upon air exposure is characteristic of Alkaptonuria (Homogentisic acid oxidase deficiency), NOT PKU."
+  },
+  {
+    "id": "bio-xii-u7-c4-q18",
+    "questionNumber": 18,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Turner Syndrome Cytogenetics",
+    "questionText": "Select the valid statements regarding Turner's Syndrome (45, X0):",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is caused by sex-chromosomal monosomy due to non-disjunction."
+      },
+      {
+        "id": "B",
+        "text": "Affected individuals are phenotypically female but sterile with rudimentary / streak ovaries."
+      },
+      {
+        "id": "C",
+        "text": "Somatic cells contain zero Barr Bodies."
+      },
+      {
+        "id": "D",
+        "text": "Affected individuals possess 47 total chromosomes and exhibit male gynecomastia."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Turner's is monosomy X0 (45 chromosomes), phenotypic female, sterile with streak ovaries, and zero Barr bodies. D is incorrect: 47 chromosomes with gynecomastia characterizes Klinefelter's Syndrome (47, XXY)."
+  },
+  {
+    "id": "bio-xii-u7-c4-q19",
+    "questionNumber": 19,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Multiple Allelism Principles",
+    "questionText": "Which of the following statements regarding Multiple Allelism are TRUE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Multiple alleles can be identified and studied ONLY in a population, not in an individual organism."
+      },
+      {
+        "id": "B",
+        "text": "A single diploid individual can possess at most two alleles for a multiple allelic gene."
+      },
+      {
+        "id": "C",
+        "text": "Human ABO blood grouping is governed by three alleles (I^A, I^B, i)."
+      },
+      {
+        "id": "D",
+        "text": "Multiple alleles arise from multiple independent mutations of a single gene locus over evolutionary time."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "All four options represent accurate genetic principles governing multiple allelism."
+  },
+  {
+    "id": "bio-xii-u7-c4-q20",
+    "questionNumber": 20,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Pedigree Analysis Rules",
+    "questionText": "Select the correct options regarding Pedigree Analysis rules:",
+    "options": [
+      {
+        "id": "A",
+        "text": "An Autosomal Dominant trait does not skip generations; an affected individual must have at least one affected parent."
+      },
+      {
+        "id": "B",
+        "text": "An Autosomal Recessive trait can skip generations; unaffected carrier parents (Aa × Aa) can produce affected offspring (aa)."
+      },
+      {
+        "id": "C",
+        "text": "A double line connecting a male and female symbol represents a Consanguineous Mating (mating between relatives)."
+      },
+      {
+        "id": "D",
+        "text": "Shaded pedigree symbols represent unaffected, healthy homozygous dominant individuals."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Dominant traits do not skip generations, recessive traits can skip, and double lines indicate consanguinity. D is incorrect: Shaded/solid symbols in pedigrees represent AFFECTED individuals carrying the trait, NOT unaffected individuals."
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u9-c9-l04",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit IX — Biotechnology",
+  "unitNumber": 9,
+  "chapter": "Biotechnology: Principles and Processes",
+  "chapterNumber": 9,
+  "chapterSlug": "biotechnology-principles-and-processes",
+  "slug": "lesson-04-insertional-inactivation-and-blue-white-screening",
+  "title": "Insertional Inactivation & Blue-White Screening",
+  "topic": "Dual-Antibiotic Replica Plating, lacZ Inactivation, beta-Galactosidase, & X-Gal Chromogenic Assays",
+  "order": 4,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Selection of recombinants: Dual-antibiotic selection in pBR322 requires replica plating (e.g. Bam HI insertion in tetR -> grows on Ampicillin, dies on Tetracycline). Blue-White Screening (pUC vectors) provides single-plate chromogenic selection: insertion into lacZ gene causes Insertional Inactivation -> recombinant colonies fail to cleave X-Gal and remain WHITE; non-recombinants turn BLUE.",
+  "summary": "Selection of recombinants: Dual-antibiotic selection in pBR322 requires replica plating (e.g. Bam HI insertion in tetR -> grows on Ampicillin, dies on Tetracycline). Blue-White Screening (pUC vectors) provides single-plate chromogenic selection: insertion into lacZ gene causes Insertional Inactivation -> recombinant colonies fail to cleave X-Gal and remain WHITE; non-recombinants turn BLUE.",
+  "conceptBreakdown": [
+    {
+      "heading": "Insertional Inactivation: Dual Antibiotic vs Chromogenic Selection",
+      "title": "Insertional Inactivation: Dual Antibiotic vs Chromogenic Selection",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Insertional inactivation occurs when a foreign DNA fragment disrupts the coding sequence of a selectable marker. In pBR322, inserting DNA at Bam HI inactivates tetR, requiring replica plating. In pUC vectors, inserting DNA into lacZ prevents active beta-galactosidase synthesis, leaving recombinant colonies WHITE on X-Gal agar."
+      },
+      "codeSnippet": "BLUE-WHITE SCREENING MECHANISM\n                      \n   FOREIGN DNA INSERTED INTO lac Z GENE (β-Galactosidase Coding Sequence)\n                                       │\n   ┌───────────────────────────────────┴───────────────────────────────────┐\n   ▼                                                                       ▼\n   NON-RECOMBINANT VECTOR (No Insert)                                RECOMBINANT VECTOR (Foreign Insert)\n   ├── Functional lac Z gene                                         ├── Insertional Inactivation of lac Z\n   ├── Expresses active β-Galactosidase                              ├── Non-functional β-Galactosidase\n   └── Cleaves X-Gal chromogenic substrate ──► BLUE COLONIES         └── Cannot cleave X-Gal ──► WHITE COLONIES",
+      "content": "### 4.1 Classical Dual-Antibiotic Selection (pBR322 Replica Plating)\n- When foreign DNA is ligated into the ***Bam HI*** site of pBR322, the coding sequence of the **$tet^R$ gene** is disrupted (**Insertional Inactivation**).\n- **Plating Results**:\n  1. *Non-transformants* (sensitive to both antibiotics) die on ampicillin plates.\n  2. *Transformants with non-recombinant plasmid* (intact $amp^R$ and $tet^R$) grow on both ampicillin and tetracycline plates.\n  3. *Transformants with RECOMBINANT plasmid* (functional $amp^R$, inactivated $tet^R$) **grow on Ampicillin plates, but DIE when replica-plated onto Tetracycline plates**.\n- **Limitation**: Cumbersome procedure requiring replica plating on two successive agar plates.\n\n### 4.2 Single-Plate Chromogenic Blue-White Screening (pUC Vectors)\n- Vector carries the **$lac\\text{ Z}$ gene**, which encodes the enzyme **$\\beta$-Galactosidase**.\n- The Multiple Cloning Site (MCS) is engineered directly inside the coding region of $lac\\text{ Z}$.\n- Transformed host cells are grown on nutrient agar containing the chromogenic substrate **$\\text{X-Gal}$** ($5$-bromo-$4$-chloro-$3$-indolyl-$\\beta$-D-galactopyranoside) and the inducer **IPTG**:\n  - **Non-Recombinant Vector (Empty Vector)**: Intact $lac\\text{ Z}$ gene produces functional $\\beta$-galactosidase $\\rightarrow$ hydrolyzes $\\text{X-Gal}$ into an insoluble blue indole pigment $\\rightarrow$ **BLUE COLONIES**.\n  - **Recombinant Vector (Foreign Insert Present)**: Foreign gene insertion disrupts the $lac\\text{ Z}$ open reading frame $\\rightarrow$ synthesizes inactive $\\beta$-galactosidase $\\rightarrow$ unable to hydrolyze $\\text{X-Gal}$ $\\rightarrow$ **WHITE COLONIES**."
+    },
+    {
+      "heading": "Alpha-Complementation",
+      "title": "Alpha-Complementation",
+      "type": "paragraph",
+      "content": "Blue-white screening utilizes alpha-complementation: the host E. coli strain (e.g., DH5alpha) synthesizes an omega-peptide missing the N-terminus, while the plasmid encodes the alpha-peptide; together they assemble an active beta-galactosidase tetramer unless interrupted by foreign DNA."
+    },
+    {
+      "heading": "IPTG Function in Induction",
+      "title": "IPTG Function in Induction",
+      "type": "paragraph",
+      "content": "IPTG (Isopropyl beta-D-1-thiogalactopyranoside) acts as a non-metabolizable gratuitous inducer that binds and inactivates the LacI repressor protein, continuously driving transcription from the lac promoter."
+    }
+  ]
+}

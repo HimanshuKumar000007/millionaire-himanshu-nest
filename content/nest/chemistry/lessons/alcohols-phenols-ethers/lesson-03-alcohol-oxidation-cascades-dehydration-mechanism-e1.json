@@ -1,0 +1,60 @@
+{
+  "id": "chem-xii-u16-c7-l03",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVI \u2014 Alcohols, Phenols and Ethers",
+  "unitNumber": 16,
+  "chapter": "Alcohols, Phenols and Ethers",
+  "chapterNumber": 7,
+  "chapterSlug": "alcohols-phenols-ethers",
+  "slug": "lesson-03-alcohol-oxidation-cascades-dehydration-mechanism-e1",
+  "title": "Alcohol Oxidation Cascades & Dehydration Mechanism (E1)",
+  "topic": "Alcohol Oxidation & E1 Dehydration",
+  "topics": [
+    "3.1 Selective Oxidation Reagents: PCC (Pyridinium Chlorochromate) / PDC in CH\u2082Cl\u2082 (Stops at Aldehyde)",
+    "Strong Oxidants: Acidified KMnO\u2084 / Acidified K\u2082Cr\u2082O\u2087 / Jones Reagent (1\u00b0 \u2500\u2500\u25ba Carboxylic Acid, 2\u00b0 \u2500\u2500\u25ba Ketone)",
+    "Oxidation Summary Matrix for 1\u00b0, 2\u00b0, 3\u00b0 Alcohols",
+    "3.2 Acid-Catalyzed Dehydration Mechanism (E1): 3-Step Process (Oxonium ion \u2500\u2500\u25ba Carbocation RDS \u2500\u2500\u25ba Alkene)",
+    "Ease of Dehydration Trend: Tertiary (3\u00b0) > Secondary (2\u00b0) > Primary (1\u00b0)"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "alcohols-phenols-ethers",
+  "quickSummary": "PCC/PDC selectively oxidizes 1\u00b0 alcohols to aldehydes; KMnO\u2084 oxidizes 1\u00b0 alcohols to carboxylic acids. 2\u00b0 alcohols oxidize to ketones; 3\u00b0 alcohols resist mild oxidation (cleave under vigorous conditions). Acid-catalyzed dehydration (conc. H\u2082SO\u2084, 443 K) proceeds via E1 mechanism with carbocation intermediate (ease: 3\u00b0 > 2\u00b0 > 1\u00b0).",
+  "summary": "Master selective alcohol oxidation cascades and the carbocation-driven E1 acid-catalyzed dehydration mechanism.",
+  "conceptBreakdown": [
+    {
+      "heading": "3.1 Selective Oxidation Reagents for Alcohols",
+      "title": "3.1 Selective Oxidation Reagents for Alcohols",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Oxidation Rules",
+        "takeaway": "PCC stops 1\u00b0 oxidation at Aldehydes. KMnO\u2084/H\u207a oxidizes 1\u00b0 all the way to Carboxylic Acids. 2\u00b0 yields Ketones."
+      },
+      "codeSnippet": "                        OXIDATION SUMMARY FOR ALCOHOLS\n                        \n   Primary ($1^\\circ$) \u2500\u2500[PCC / Anhydrous]\u2500\u2500\u25ba Aldehyde ($R\\text{CHO}$) \u2500\u2500[KMnO\u2084 / H\u207a]\u2500\u2500\u25ba Carboxylic Acid ($R\\text{COOH}$)\n   Secondary ($2^\\circ$) \u2500\u2500[PCC or KMnO\u2084]\u2500\u2500\u25ba Ketone ($R_2\\text{C=O}$) (Resistant to further mild oxidation)\n   Tertiary ($3^\\circ$) \u2500\u2500[KMnO\u2084 / H\u207a, \u0394]\u2500\u2500\u25ba Cleaves $\\text{C-C}$ bonds \u2500\u2500\u25ba Mixture of lower Carboxylic Acids",
+      "content": "1. **PCC / PDC**: Mild anhydrous oxidants that selectively convert $1^\\circ$ alcohols to Aldehydes without over-oxidation.\n2. **Acidified $\\text{KMnO}_4$ / $\\text{K}_2\\text{Cr}_2\\text{O}_7$ / Jones Reagent**: Strong oxidants converting $1^\\circ$ alcohols to carboxylic acids and $2^\\circ$ alcohols to ketones."
+    },
+    {
+      "heading": "3.2 Acid-Catalyzed Dehydration Mechanism (E1)",
+      "title": "3.2 Acid-Catalyzed Dehydration Mechanism (E1)",
+      "type": "paragraph",
+      "codeSnippet": "                  ACID-CATALYZED DEHYDRATION MECHANISM\n                  \n   Step 1 (Fast):  $\\text{CH}_3\\text{CH}_2\\text{OH} + \\text{H}^+ \\rightleftharpoons \\mathbf{\\text{CH}_3\\text{CH}_2\\text{-OH}_2^+} \\quad (\\text{Protonated Oxonium Ion})$\n   \n   Step 2 (RDS):   $\\text{CH}_3\\text{CH}_2\\text{-OH}_2^+ \\xrightarrow{\\text{Slow, } -\\text{H}_2\\text{O}} \\mathbf{\\text{CH}_3\\overset{+}{\\text{C}}\\text{H}_2} \\quad (\\mathbf{\\text{Carbocation Intermediate}} )$\n   \n   Step 3 (Fast):  $\\text{CH}_3\\overset{+}{\\text{C}}\\text{H}_2 \\xrightarrow{\\text{Fast, } -\\text{H}^+} \\mathbf{\\text{CH}_2\\text{=CH}_2} \\quad (\\text{Ethene Formation})",
+      "content": "Dehydration of ethanol to ethene by conc. $\\text{H}_2\\text{SO}_4$ at $443\\text{ K}$ ($170^\\circ\\text{C}$) proceeds via a 3-step E1 mechanism. Ease of dehydration is governed by carbocation stability: $\\mathbf{3^\\circ > 2^\\circ > 1^\\circ}$."
+    }
+  ],
+  "quickRevision": [
+    "PCC/PDC oxidizes 1\u00b0 alcohol to Aldehyde only.",
+    "KMnO\u2084/H\u207a oxidizes 1\u00b0 alcohol to Carboxylic Acid.",
+    "2\u00b0 alcohol oxidizes to Ketone.",
+    "Acid-catalyzed dehydration (443 K) is E1 via Carbocation (3\u00b0 > 2\u00b0 > 1\u00b0)."
+  ],
+  "keyFormulae": [
+    "1^\\circ \\text{ Alcohol} \\xrightarrow{\\text{PCC}} \\text{Aldehyde} \\xrightarrow{\\text{KMnO}_4/\\text{H}^+} \\text{Carboxylic Acid}",
+    "\\text{Ease of Dehydration: } 3^\\circ > 2^\\circ > 1^\\circ"
+  ]
+}

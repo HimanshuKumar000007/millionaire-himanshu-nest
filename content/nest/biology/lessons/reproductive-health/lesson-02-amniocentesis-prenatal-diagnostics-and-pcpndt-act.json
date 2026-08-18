@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u6-c3-l02",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VI — Reproduction",
+  "unitNumber": 6,
+  "chapter": "Reproductive Health",
+  "chapterNumber": 3,
+  "chapterSlug": "reproductive-health",
+  "slug": "lesson-02-amniocentesis-prenatal-diagnostics-and-pcpndt-act",
+  "title": "Amniocentesis, Prenatal Diagnostics, & PCPNDT Act",
+  "topic": "Amniocentesis Protocol, Karyotyping, & Legal Regulations",
+  "order": 2,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Amniocentesis: 14-16w gestation, ultrasound-guided needle withdrawal of 10-20 mL amniotic fluid. Cultured fetal cells tested for aneuploidies (Down, Turner, Klinefelter) and inborn metabolic errors (PKU, Sickle Cell). PCPNDT Act 1994 statutory ban on sex determination.",
+  "summary": "Amniocentesis: 14-16w gestation, ultrasound-guided needle withdrawal of 10-20 mL amniotic fluid. Cultured fetal cells tested for aneuploidies (Down, Turner, Klinefelter) and inborn metabolic errors (PKU, Sickle Cell). PCPNDT Act 1994 statutory ban on sex determination.",
+  "conceptBreakdown": [
+    {
+      "heading": "Amniocentesis, Prenatal Diagnostics, & PCPNDT Act",
+      "title": "Amniocentesis, Prenatal Diagnostics, & PCPNDT Act",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Amniocentesis is an invasive fetal diagnostic procedure performed at 14–16 weeks gestation using ultrasound guidance to extract 10–20 mL amniotic fluid. Cultured fetal cells are evaluated for chromosomal abnormalities (Down, Turner, Klinefelter) and inborn metabolic disorders (PKU, Sickle Cell). PCPNDT Act (1994) legally restricts amniocentesis to prevent its misuse for female foeticide."
+      },
+      "codeSnippet": "AMNIOCENTESIS PROCEDURE FLOW\n                        \n   Ultrasound-guided transabdominal needle insertion into Amniotic Sac\n                                     │\n   Withdrawal of ~10-20 mL Amniotic Fluid (contains fetal skin/epithelial cells)\n                                     │\n   Centrifugation ──► Cultured Fetal Cells ──► Karyotyping & Enzymatic Assays",
+      "content": "Amniocentesis is an invasive prenatal diagnostic procedure performed between **14 and 16 weeks** of gestation.\n\n### 2.1 Amniocentesis Procedure & Diagnostic Scope\n\n```\n                        AMNIOCENTESIS DIAGNOSTIC USES\n                                      │\n         ┌────────────────────────────┴────────────────────────────┐\n         ▼                                                         ▼\n  CHROMOSOMAL ABNORMALITIES                                INBORN METABOLIC ERRORS\n  ├── Down Syndrome (Trisomy 21: 47, XX/XY, +21)           ├── Phenylketonuria (PKU)\n  ├── Klinefelter Syndrome (47, XXY)                       ├── Sickle Cell Anemia\n  ├── Turner Syndrome (45, X0)                             ├── Hemophilia\n  └── Edward Syndrome (Trisomy 18)                         └── Albinism / Thalassemia\n```\n\n### 2.2 Legislative Framework: The PCPNDT Act (1994)\n- **Pre-Conception and Pre-Natal Diagnostic Techniques (Prohibition of Sex Selection) Act, 1994**:\n  - Statutory ban on the use of all prenatal diagnostic techniques (Amniocentesis, CVS, Ultrasound) for fetal sex determination.\n  - Enacted to curb female sex-selective abortions and prevent female foeticide.\n  - Punishable with heavy fines, imprisonment, and permanent cancellation of medical practice licenses.\n\n### 2.3 Alternative Prenatal Modalities\n- **Chorionic Villus Sampling (CVS)**: Performed earlier at **10–12 weeks** of gestation by extracting placental trophoblast villi transcervically or transabdominally.\n- **Non-Invasive Prenatal Testing (NIPT)**: Sequencing cell-free fetal DNA (cffDNA) circulating in maternal plasma from 9 weeks onwards, with zero risk of miscarriage."
+    },
+    {
+      "heading": "AFP Biochemical Screening in Amniotic Fluid",
+      "title": "AFP Biochemical Screening in Amniotic Fluid",
+      "type": "paragraph",
+      "content": "Elevated alpha-fetoprotein (AFP) levels in amniotic fluid indicate open neural tube defects (Spina Bifida, Anencephaly), whereas abnormally low AFP levels correlate with Down Syndrome."
+    },
+    {
+      "heading": "Barr Body Cytological Analysis",
+      "title": "Barr Body Cytological Analysis",
+      "type": "paragraph",
+      "content": "Amniotic fluid cells can be stained to detect condensed inactive X-chromosomes (Barr bodies) at the nuclear periphery; normal females have 1 Barr body (46, XX), normal males have 0, and Klinefelter males have 1 (47, XXY)."
+    }
+  ]
+}

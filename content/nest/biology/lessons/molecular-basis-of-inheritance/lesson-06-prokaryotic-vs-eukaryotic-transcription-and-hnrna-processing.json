@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u7-c5-l06",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit VII — Genetics and Evolution",
+  "unitNumber": 7,
+  "chapter": "Molecular Basis of Inheritance",
+  "chapterNumber": 5,
+  "chapterSlug": "molecular-basis-of-inheritance",
+  "slug": "lesson-06-prokaryotic-vs-eukaryotic-transcription-and-hnrna-processing",
+  "title": "Prokaryotic vs Eukaryotic Transcription & hnRNA Processing",
+  "topic": "RNA Polymerases I, II, III, 5'-Capping, 3'-Polyadenylation, & Splicing",
+  "order": 6,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Transcription: 3'->5' template strand copied into 5'->3' RNA. Prokaryotes: single core RNA Pol + Sigma-70 factor (-35/-10 Pribnow). Eukaryotes: RNA Pol I (rRNAs), Pol II (hnRNA/mRNA), Pol III (tRNA, 5S rRNA). hnRNA processing: 5'-Capping (7-mG 5'-5'), 3'-Polyadenylation (200-300 A residues), Splicing (Spliceosome removes introns, joins exons).",
+  "summary": "Transcription: 3'->5' template strand copied into 5'->3' RNA. Prokaryotes: single core RNA Pol + Sigma-70 factor (-35/-10 Pribnow). Eukaryotes: RNA Pol I (rRNAs), Pol II (hnRNA/mRNA), Pol III (tRNA, 5S rRNA). hnRNA processing: 5'-Capping (7-mG 5'-5'), 3'-Polyadenylation (200-300 A residues), Splicing (Spliceosome removes introns, joins exons).",
+  "conceptBreakdown": [
+    {
+      "heading": "Prokaryotic vs Eukaryotic Transcription & hnRNA Processing",
+      "title": "Prokaryotic vs Eukaryotic Transcription & hnRNA Processing",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Transcription converts DNA into RNA. A transcription unit consists of a Promoter, Structural Gene, and Terminator. Prokaryotes use a single RNA polymerase with transient Sigma factor. Eukaryotes have 3 distinct RNA Polymerases (Pol I for rRNAs, Pol II for hnRNA/mRNA, Pol III for tRNA/5S rRNA). Eukaryotic pre-mRNA (hnRNA) undergoes 3 nuclear modifications: 5'-Capping (7-mG), 3'-Poly-A tail, and Splicing via Spliceosomes."
+      },
+      "codeSnippet": "TRANSCRIPTION UNIT ARCHITECTURE\n                          \n   3' ───────────── [ PROMOTER ] ────── [ STRUCTURAL GENE ] ────── [ TERMINATOR ] ───────────── 5' (Template Strand)\n   5' ───────────── [  (-35/-10) ] ────── [  Coding Strand  ] ────── [  (Stop)    ] ───────────── 3' (Coding Strand)\n                                                 │\n                                                 ▼\n                                        5' ── mRNA ── 3'",
+      "content": "### 6.1 Transcription Unit Architecture\n- **Template (Antisense) Strand ($3' \\rightarrow 5'$)**: The strand copied by RNA Polymerase.\n- **Coding (Sense) Strand ($5' \\rightarrow 3'$)**: Has the identical sequence as the synthesized RNA transcript (with $T$ replaced by $U$). Promoters and terminators are designated relative to the coding strand.\n\n### 6.2 Prokaryotic vs. Eukaryotic Transcription Machinery\n\n```\n                     PROKARYOTIC TRANSCRIPTION INITIATION\n                     \n   Core RNA Polymerase (α₂ββ'ω) + Sigma Factor (σ⁷⁰)\n                                       │\n   Binds Promoter Sequences: -35 Region (TTGACA) & -10 Pribnow Box (TATAAT)\n                                       │\n   Unwinds DNA (Open Complex) ──► Discharges σ factor ──► Elongation proceeds\n```\n\n```\n                        EUKARYOTIC RNA POLYMERASE TYPES\n                                       │\n     ┌─────────────────────────────────┼─────────────────────────────────┐\n     ▼                                 ▼                                 ▼\nRNA POLYMERASE I                  RNA POLYMERASE II                 RNA POLYMERASE III\nTranscribes 28S, 18S, 5.8S        Transcribes hnRNA / pre-mRNA      Transcribes tRNA, 5S rRNA,\npre-rRNA in Nucleolus             (Inhibited by α-Amanitin)         and 7SL / snRNA\n```\n\n### 6.3 Post-Transcriptional Processing of Eukaryotic hnRNA\n\n```\n                         hnRNA PROCESSING CASCADE\n                         \n   1. 5'-CAPPING       ──► Addition of 7-Methylguanosine Triphosphate (7-mGPPP)\n                           to 5' end via unusual 5'-5' triphosphate linkage.\n                           \n   2. 3'-POLYADENYLATION► Addition of 200–300 Adenylate residues (Poly-A Tail)\n                           to 3' end catalyzed by Poly-A Polymerase.\n                           \n   3. SPLICING         ──► Removal of non-coding Introns and ligation of coding\n                           Exons catalyzed by the Spliceosome (U1, U2, U4, U5, U6 snRNPs).\n```"
+    },
+    {
+      "heading": "Rho-Dependent vs Rho-Independent Termination",
+      "title": "Rho-Dependent vs Rho-Independent Termination",
+      "type": "paragraph",
+      "content": "In prokaryotes, intrinsic (Rho-independent) termination relies on a GC-rich stem-loop hairpin followed by a poly-U tract; Rho-dependent termination uses the hexameric ATP-dependent RNA helicase Rho (ρ) to unwind RNA-DNA hybrids."
+    },
+    {
+      "heading": "Alternative Splicing and Proteomic Diversity",
+      "title": "Alternative Splicing and Proteomic Diversity",
+      "type": "paragraph",
+      "content": "Alternative splicing allows a single pre-mRNA to assemble exons in diverse combinatorial patterns, enabling ~20,000 human genes to generate over 100,000 distinct functional protein isoforms."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "chem-xi-u2-c2-l07",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit II \u2014 Structure of Atom",
+  "unitNumber": 2,
+  "chapter": "Structure of Atom",
+  "chapterNumber": 2,
+  "chapterSlug": "atomic-structure",
+  "slug": "lesson-07-aufbau-pauli-hund-exchange-energy",
+  "title": "Electronic Fill Rules (Aufbau, Pauli, Hund) & Exchange Energy Dynamics",
+  "topic": "Electronic Configuration & Exchange Stability",
+  "topics": [
+    "Aufbau (n + l) Madelung Rule & Energy Ordering",
+    "Pauli Exclusion Principle",
+    "Hund's Rule of Maximum Multiplicity",
+    "Exchange Energy Formula (E_ex = n(n-1)/2 \u00b7 K)",
+    "Detailed Stability of Half-Filled and Fully-Filled Subshells",
+    "Anomalous Configurations Matrix (Cr, Cu, Nb, Mo, Ru, Rh, Pd, Ag, Pt, Au)"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Advanced Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "aufbau-principle",
+  "quickSummary": "Multi-electron filling is governed by Aufbau (n+l), Pauli Exclusion, and Hund's multiplicity rules. Symmetrical charge distribution and maximum quantum exchange energy (E_ex = n(n-1)/2 \u00b7 K) drive anomalous configurations in Cr, Cu, and Pd.",
+  "summary": "Master the (n+l) rule, Pauli and Hund principles, exchange energy calculations, and anomalous transition metal configurations.",
+  "conceptBreakdown": [
+    {
+      "heading": "7.1 Electron Filling Principles",
+      "title": "7.1 Electron Filling Principles",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Electronic Fill Rules",
+        "takeaway": "Aufbau (n+l energy order), Pauli (no two e\u207b have identical 4 quantum numbers), Hund (singly occupy degenerate orbitals with parallel spins first)."
+      },
+      "content": "1. **Aufbau Principle & $(n+l)$ Madelung Rule**:\n\u2022 Rule 1: Subshells fill in order of increasing $(n+l)$ value (e.g., $4s$ $[4+0=4]$ fills before $3d$ $[3+2=5]$).\n\u2022 Rule 2: If $(n+l)$ is identical, lower $n$ subshell has lower energy and fills first (e.g., $3d$ $[3+2=5]$ fills before $4p$ $[4+1=5]$).\n\n$$\\text{Energy Order: } 1s < 2s < 2p < 3s < 3p < 4s < 3d < 4p < 5s < 4d < 5p < 6s < 4f < 5d < 6p < 7s < 5f < 6d < 7p$$\n\n2. **Pauli Exclusion Principle**: No two electrons in an atom can possess identical sets of all four quantum numbers ($n, l, m_l, m_s$). An orbital holds a maximum of 2 electrons with opposite spins.\n3. **Hund's Rule of Maximum Multiplicity**: Degenerate orbitals are singly occupied with parallel spins before pairing begins."
+    },
+    {
+      "heading": "7.2 Exchange Energy Dynamics & Anomalous Configurations",
+      "title": "7.2 Exchange Energy Dynamics & Anomalous Configurations",
+      "type": "paragraph",
+      "codeSnippet": "EXCHANGE ENERGY COMPARISON (3d\u2074 4s\u00b2 vs 3d\u2075 4s\u00b9)\n                       \n   Configuration 1 (3d\u2074 4s\u00b2): n = 4 \u27f9 E_ex = [4(3)/2] K = 6K\n   Configuration 2 (3d\u2075 4s\u00b9): n = 5 \u27f9 E_ex = [5(4)/2] K = 10K  (4K MORE STABLE!)",
+      "content": "\u2022 **Exchange Energy ($E_{\\text{ex}}$)**: The stabilizing energy released when electrons with parallel spins swap positions among degenerate orbitals:\n\n$$\\mathbf{E_{\\text{ex}} = \\frac{n(n-1)}{2} \\cdot K}$$\n\nwhere $n$ is the number of parallel-spin electrons and $K$ is the exchange constant.\n\n**Anomalous Transition Metal Configurations**:\n\u2022 **Chromium ($\\text{Cr}, Z=24$)**: Predicted $[\\text{Ar}] 3d^4 4s^2 \\longrightarrow$ **Actual $[\\text{Ar}] 3d^5 4s^1$** ($10K$ exchange energy).\n\u2022 **Copper ($\\text{Cu}, Z=29$)**: Predicted $[\\text{Ar}] 3d^9 4s^2 \\longrightarrow$ **Actual $[\\text{Ar}] 3d^{10} 4s^1$** ($20K$ exchange energy).\n\u2022 **Palladium ($\\text{Pd}, Z=46$)**: Predicted $[\\text{Kr}] 4d^8 5s^2 \\longrightarrow$ **Actual $[\\text{Kr}] 4d^{10} 5s^0$** (**Double $s\\rightarrow d$ shift** yielding closed-shell $4d^{10}$).\n\u2022 **Other notable anomalous elements**: $\\text{Nb} (4d^4 5s^1), \\text{Mo} (4d^5 5s^1), \\text{Ru} (4d^7 5s^1), \\text{Rh} (4d^8 5s^1), \\text{Ag} (4d^{10} 5s^1), \\text{Pt} (5d^9 6s^1), \\text{Au} (5d^{10} 6s^1)$."
+    }
+  ],
+  "quickRevision": [
+    "Orbitals fill by (n+l) rule; if tied, lower n fills first.",
+    "Pauli principle limits orbital capacity to 2 electrons with opposite spins.",
+    "Exchange energy E_ex = [n(n-1)/2] \u00b7 K.",
+    "Cr: [Ar] 3d\u2075 4s\u00b9 (half-filled d\u2075, 10K exchange energy).",
+    "Cu: [Ar] 3d\u00b9\u2070 4s\u00b9 (fully-filled d\u00b9\u2070, 20K exchange energy).",
+    "Pd: [Kr] 4d\u00b9\u2070 5s\u2070 (double s\u2192d shift, 0 valence 5s electrons)."
+  ],
+  "keyFormulae": [
+    "(n + l) Madelung Rule",
+    "E_ex = [n(n - 1) / 2] \u00b7 K",
+    "Max electrons in subshell = 2(2l + 1)"
+  ]
+}

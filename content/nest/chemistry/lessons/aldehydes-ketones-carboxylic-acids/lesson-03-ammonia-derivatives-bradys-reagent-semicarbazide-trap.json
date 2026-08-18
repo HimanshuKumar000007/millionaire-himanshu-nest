@@ -1,0 +1,59 @@
+{
+  "id": "chem-xii-u17-c8-l03",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVII \u2014 Aldehydes, Ketones and Carboxylic Acids",
+  "unitNumber": 17,
+  "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+  "chapterNumber": 8,
+  "chapterSlug": "aldehydes-ketones-carboxylic-acids",
+  "slug": "lesson-03-ammonia-derivatives-bradys-reagent-semicarbazide-trap",
+  "title": "Ammonia Derivatives & Brady\u2019s Reagent (2,4-DNP Diagnostic Test)",
+  "topic": "Ammonia Derivatives & Semicarbazide Trap",
+  "topics": [
+    "3. Carbonyl Reaction with Primary Amine Derivatives (H\u2082N-Z) at Controlled pH 3.5",
+    "Ammonia Derivatives Matrix: Hydroxylamine (Oxime), Hydrazine (Hydrazone), Phenylhydrazine, 2,4-DNP, Semicarbazide",
+    "Brady\u2019s Reagent (2,4-Dinitrophenylhydrazine in Methanol/Acid): Universal Yellow/Orange/Red Crystalline Diagnostic",
+    "CRITICAL NEST TRAP: Semicarbazide Nucleophilicity Selection (H\u2082N\u207d\u00b9\u207e-NH-CO-NH\u2082\u207d\u00b2\u207e)",
+    "Resonance Delocalization of the Amide -NH\u2082 rendering it Non-Nucleophilic"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "aldehydes-ketones-carboxylic-acids",
+  "quickSummary": "Carbonyls condense with H\u2082N-Z at pH ~3.5 to form >C=N-Z imine derivatives. Brady's Reagent (2,4-DNP) forms yellow/orange/red crystalline precipitates with all aldehydes and ketones. In semicarbazide (H\u2082N\u207d\u00b9\u207e-NH-CO-NH\u2082\u207d\u00b2\u207e), only NH\u2082\u207d\u00b9\u207e acts as a nucleophile because NH\u2082\u207d\u00b2\u207e is resonance-delocalized into C=O.",
+  "summary": "Master the ammonia derivative condensation matrix, Brady's 2,4-DNP test, and the classic semicarbazide nucleophilicity trap.",
+  "conceptBreakdown": [
+    {
+      "heading": "3. Ammonia Derivatives Matrix & Brady's Reagent",
+      "title": "3. Ammonia Derivatives Matrix & Brady's Reagent",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "pH 3.5 & Condensation Matrix",
+        "takeaway": "Optimal pH is ~3.5. At low pH (<2), amine is protonated and lost as nucleophile; at high pH (>6), carbonyl is not activated. Brady's 2,4-DNP gives colored ppt with all carbonyls."
+      },
+      "codeSnippet": "                          AMMONIA DERIVATIVES MATRIX\n                          \n   REAGENT ($H_2\\text{N-Z}$)         $Z$ GROUP               CONDENSATION PRODUCT\n   Hydroxylamine                     $-\\text{OH}$             **Oxime** ($>\\text{C=N-OH}$)\n   Hydrazine                         $-\\text{NH}_2$           **Hydrazone** ($>\\text{C=N-NH}_2$)\n   Phenylhydrazine                   $-\\text{NHPh}$          **Phenylhydrazone** ($>\\text{C=N-NHPh}$)\n   2,4-Dinitrophenylhydrazine        $-\\text{NH-C}_6\\text{H}_3(\\text{NO}_2)_2$ **2,4-DNP Hydrazone** (Orange/Yellow Ppt)\n   Semicarbazide                     $-\\text{NH-CONH}_2$      **Semicarbazone** ($>\\text{C=N-NH-CONH}_2$)",
+      "content": "Condensation of primary amine derivatives ($H_2\\text{N-Z}$) with carbonyls requires a carefully controlled pH of ~3.5. Brady's reagent (2,4-DNP) is the universal diagnostic test for aldehydes and ketones."
+    },
+    {
+      "heading": "3.1 The Semicarbazide Nucleophilicity Trap",
+      "title": "3.1 The Semicarbazide Nucleophilicity Trap",
+      "type": "paragraph",
+      "codeSnippet": "SEMICARBAZIDE NUCLEOPHILICITY SELECTION:\n\n\u2022 Formula: H\u2082N\u207d\u00b9\u207e-NH-CO-NH\u2082\u207d\u00b2\u207e\n\u2022 NH\u2082\u207d\u00b9\u207e (Hydrazine end): Isolated lone pair \u2500\u2500\u25ba Highly Nucleophilic (Reacts with C=O)\n\u2022 NH\u2082\u207d\u00b2\u207e (Amide end):     Lone pair delocalized into C=O via resonance: \n                          H\u2082N-C(=O)-NH\u2082 \u27f7 H\u2082N-C(O\u207b)=NH\u2082\u207a \u2500\u2500\u25ba NON-NUCLEOPHILIC!",
+      "content": "In semicarbazide, only the hydrazine $-NH_2^{(1)}$ participates in condensation. The amide $-NH_2^{(2)}$ electrons are delocalized into the carbonyl group via resonance and cannot act as a nucleophile."
+    }
+  ],
+  "quickRevision": [
+    "Optimum pH for ammonia derivative condensation is ~3.5.",
+    "2,4-DNP (Brady's reagent) forms yellow/orange/red crystalline ppt with all carbonyls.",
+    "Hydroxylamine forms Oximes; Semicarbazide forms Semicarbazones.",
+    "In semicarbazide, only the hydrazine -NH\u2082 is nucleophilic (amide -NH\u2082 is resonance-delocalized)."
+  ],
+  "keyFormulae": [
+    ">\\text{C=O} + \\text{H}_2\\text{N-Z} \\xrightarrow{\\text{pH } 3.5} >\\text{C=N-Z} + \\text{H}_2\\text{O}"
+  ]
+}

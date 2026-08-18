@@ -1,0 +1,485 @@
+[
+  {
+    "id": "q-bio-c17-001",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "Net Filtration Pressure & Ureteral Obstruction",
+    "difficulty": "Medium",
+    "questionText": "An investigator measures the hydrostatic and oncotic pressures inside the renal corpuscle of a mammalian nephron and obtains the following values:\n- Glomerular Hydrostatic Pressure (GHP): 55 mmHg\n- Blood Colloid Osmotic Pressure (BCOP): 30 mmHg\n- Capsular Hydrostatic Pressure (CHP): 15 mmHg\nWhat is the Net Filtration Pressure (NFP) driving ultrafiltration in this nephron, and what happens to GFR if an obstruction in the ureter raises CHP to 30 mmHg?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "NFP = +10 mmHg; GFR increases", "isCorrect": false },
+      { "id": "b", "text": "NFP = +10 mmHg; GFR drops to zero (NFP = -5 mmHg)", "isCorrect": true },
+      { "id": "c", "text": "NFP = +40 mmHg; GFR decreases slightly", "isCorrect": false },
+      { "id": "d", "text": "NFP = +25 mmHg; GFR remains unchanged", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "1. Initial NFP = GHP - (BCOP + CHP) = 55 - (30 + 15) = +10 mmHg.\n2. If ureteral obstruction raises CHP to 30 mmHg: New NFP = 55 - (30 + 30) = -5 mmHg. Because NFP becomes negative, ultrafiltration ceases and GFR drops to zero.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c17-002",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "NKCC2 Inhibition & Medullary Gradient",
+    "difficulty": "Hard",
+    "questionText": "During a physiological study on urine concentration, a research team blocks the sodium-potassium-2-chloride (NKCC2) symporter in Henle's loop using the loop diuretic Furosemide. What will be the immediate effect on the medullary interstitial osmolar gradient and urine concentration?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Medullary interstitium becomes hypertonic (1800 mOsmol/L); urine becomes highly concentrated", "isCorrect": false },
+      { "id": "b", "text": "Medullary interstitial gradient collapses; kidneys fail to concentrate urine resulting in massive diuresis", "isCorrect": true },
+      { "id": "c", "text": "Aquaporin-2 channels in DCT open continuously; urine volume decreases", "isCorrect": false },
+      { "id": "d", "text": "Renin secretion by JG cells is completely inhibited", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Active transport of NaCl via the NKCC2 symporter in the thick ascending limb is the engine of the Counter-Current Multiplier. Blocking NKCC2 with Furosemide halts NaCl transport into the interstitium, collapsing the medullary gradient (1200 mOsmol/L -> 300 mOsmol/L). Without hypertonic medulla, osmotic water reabsorption from the collecting duct stops, causing profuse, dilute diuresis.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c17-003",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "Juxtaglomerular Cells & RAAS Activation",
+    "difficulty": "Easy",
+    "questionText": "A patient presents with acute hypotension and severe dehydration following cholera infection. Which physiological cascade is immediately triggered by Juxtaglomerular (JG) cells to restore blood pressure and GFR?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Release of ANF → Vasodilation → Increased Na⁺ excretion", "isCorrect": false },
+      { "id": "b", "text": "Release of Renin → Cleaves Angiotensinogen to Angiotensin I → Angiotensin II stimulates Aldosterone", "isCorrect": true },
+      { "id": "c", "text": "Inhibition of ADH → Inactivation of Aquaporin-2 channels", "isCorrect": false },
+      { "id": "d", "text": "Release of Secretin → Bicarbonate secretion in collecting duct", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Hypotension and low GFR stimulate JG cells to secrete Renin. Renin cleaves liver Angiotensinogen -> Angiotensin I, which is converted by ACE to Angiotensin II. Angiotensin II causes systemic vasoconstriction and stimulates the adrenal cortex to release Aldosterone, promoting Na⁺ and water retention to restore BP.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c17-004",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "Podocyte Pedicels & Filtration Slits",
+    "difficulty": "Easy",
+    "questionText": "What specific microanatomical feature of the visceral layer of Bowman's capsule forms the 25 nm wide filtration slits through which blood plasma is ultrafiltered?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Microvilli brush border of cuboidal cells", "isCorrect": false },
+      { "id": "b", "text": "Interdigitating pedicels of Podocytes", "isCorrect": true },
+      { "id": "c", "text": "Endothelial fenestrations of Vasa Recta", "isCorrect": false },
+      { "id": "d", "text": "Suberized Casparian strips", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "The visceral wall of Bowman's capsule contains specialized epithelial cells called Podocytes. Their interdigitating foot processes (Pedicels) wrap around glomerular capillaries, creating 25 nm wide spaces called Filtration Slits (Slit Pores).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c17-005",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "Neurogenic Diabetes Insipidus",
+    "difficulty": "Medium",
+    "questionText": "A 45-year-old patient suffering from head trauma develops damage to the supraoptic and paraventricular nuclei of the hypothalamus. The patient passes 15 Liters of pale, dilute urine daily, but urine biochemical tests reveal complete absence of glucose or proteins. What condition does this patient have?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Diabetes Mellitus Type 1", "isCorrect": false },
+      { "id": "b", "text": "Neurogenic Diabetes Insipidus", "isCorrect": true },
+      { "id": "c", "text": "Chronic Glomerulonephritis", "isCorrect": false },
+      { "id": "d", "text": "Uremic Renal Calculi", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "Damage to hypothalamic nuclei blocks ADH (Vasopressin) synthesis and release. Lack of ADH prevents Aquaporin-2 channel insertion in DCT/CD, leading to inability to reabsorb water and resulting in Neurogenic Diabetes Insipidus (characterized by polyuria of 10–20 L/day dilute, sugar-free urine).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c17-006",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "100% Glucose Reabsorption in PCT",
+    "difficulty": "Easy",
+    "questionText": "Where does 100% of filtered Glucose and Amino acids undergo active reabsorption back into the blood stream under normal physiological conditions?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Descending limb of Henle's loop", "isCorrect": false },
+      { "id": "b", "text": "Proximal Convoluted Tubule (PCT)", "isCorrect": true },
+      { "id": "c", "text": "Distal Convoluted Tubule (DCT)", "isCorrect": false },
+      { "id": "d", "text": "Collecting Duct", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "The PCT (lined by simple cuboidal brush-border epithelium) reabsorbs 100% of essential organic nutrients (Glucose, Amino acids) via secondary active transport (Na⁺ symport) before filtrate reaches Henle's loop.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c17-007",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "Krebs-Henseleit Urea Cycle Organ",
+    "difficulty": "Easy",
+    "questionText": "What is the metabolic function of the Krebs-Henseleit Urea Cycle, and in which organ does it take place?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Converts Uric acid to Ammonia; takes place in Kidneys", "isCorrect": false },
+      { "id": "b", "text": "Converts toxic Ammonia (NH₃) into less toxic Urea; takes place in Liver", "isCorrect": true },
+      { "id": "c", "text": "Converts Glucose to Pyruvate; takes place in Cytosol", "isCorrect": false },
+      { "id": "d", "text": "Converts Fatty acids to Ketone bodies; takes place in Spleen", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "The Krebs-Henseleit Urea Cycle operates in hepatocytes of the Liver. It detoxifies toxic ammonia (NH₃) produced by amino acid deamination by combining it with CO₂ to form Urea, which is released into blood for renal excretion.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c17-008",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "ANF Antagonism to RAAS",
+    "difficulty": "Medium",
+    "questionText": "How does Atrial Natriuretic Factor (ANF) act as a physiological antagonist to the Renin-Angiotensin-Aldosterone System (RAAS)?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "ANF causes severe vasoconstriction and stimulates Renin secretion", "isCorrect": false },
+      { "id": "b", "text": "ANF causes arterial vasodilation, promotes renal Na⁺ excretion (Natriuresis), and inhibits Renin & Aldosterone release", "isCorrect": true },
+      { "id": "c", "text": "ANF inserts Aquaporin-2 channels into collecting ducts to retain water", "isCorrect": false },
+      { "id": "d", "text": "ANF converts Angiotensin I directly to Angiotensin II", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "When high blood volume stretches heart atria, atrial cells release ANF. ANF acts as a direct antagonist to RAAS: it causes vasodilation, inhibits Renin and Aldosterone release, and promotes Na⁺ and water loss (Natriuresis) in urine to lower blood pressure.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c17-009",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "Water Impermeability of Ascending Limb",
+    "difficulty": "Easy",
+    "questionText": "Which region of the nephron is strictly IMPERMEABLE to water molecules regardless of the presence of Antidiuretic Hormone (ADH)?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "Descending limb of Henle's loop", "isCorrect": false },
+      { "id": "b", "text": "Thick Ascending limb of Henle's loop", "isCorrect": true },
+      { "id": "c", "text": "Late Distal Convoluted Tubule", "isCorrect": false },
+      { "id": "d", "text": "Cortical Collecting Duct", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "The Ascending limb of Henle's loop (both thin and thick segments) is completely IMPERMEABLE to water. It actively/passively reabsorbs electrolytes (NaCl), turning the remaining tubular filtrate hypotonic (200 mOsmol/L).",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c17-010",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "Hemodialysis Dialyzing Fluid Concentration Gradient",
+    "difficulty": "Easy",
+    "questionText": "During hemodialysis of a uremic patient, blood drained from a radial artery is mixed with Heparin, passed through coiled cellophane dialyzing tubing, cleared of urea, mixed with Anti-heparin, and returned to a vein. Why do nitrogenous wastes diffuse OUT of the patient's blood into the dialyzing bath?",
+    "questionType": "MCQ",
+    "options": [
+      { "id": "a", "text": "The dialyzing fluid contains high concentration of active urease enzymes.", "isCorrect": false },
+      { "id": "b", "text": "The dialyzing fluid has an electrolyte composition identical to plasma, but contains ZERO nitrogenous wastes.", "isCorrect": true },
+      { "id": "c", "text": "The cellophane tubing actively pumps urea across using ATP.", "isCorrect": false },
+      { "id": "d", "text": "The dialyzing bath is maintained at a temperature of 0°C.", "isCorrect": false }
+    ],
+    "correctAnswer": "b",
+    "solutionExplanation": "The dialyzing fluid matches normal plasma electrolyte and osmotic concentrations, but completely lacks nitrogenous wastes (urea, uric acid, creatinine). This creates a steep concentration gradient, causing urea to diffuse passively out of blood through the semi-permeable cellophane membrane into the dialyzing bath.",
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "q-bio-c17-011",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "Juxtamedullary Nephron Characteristics",
+    "difficulty": "Medium",
+    "questionText": "Which of the following anatomical and functional characteristics correctly distinguish Juxtamedullary Nephrons from Cortical Nephrons? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Juxtamedullary nephrons account for ≈ 15% of human nephrons and possess long Loops of Henle extending deep into the inner medulla.", "isCorrect": true },
+      { "id": "b", "text": "Juxtamedullary nephrons are accompanied by highly developed, hairpin-shaped Vasa Recta capillary loops.", "isCorrect": true },
+      { "id": "c", "text": "Juxtamedullary nephrons are the primary drivers of the Counter-Current Mechanism for concentrating urine.", "isCorrect": true },
+      { "id": "d", "text": "Cortical nephrons lack Bowman's capsules entirely.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Juxtamedullary nephrons (15%) have deep glomeruli, long Henle loops, well-developed Vasa Recta, and drive counter-current concentration. D is incorrect: ALL nephrons (both cortical and juxtamedullary) possess Bowman's capsules.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c17-012",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "Net Filtration Pressure Dynamics",
+    "difficulty": "Medium",
+    "questionText": "Select the valid statements regarding the Net Filtration Pressure (NFP) and ultrafiltration dynamics in human glomeruli: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Glomerular Hydrostatic Pressure (GHP ≈ +60 mmHg) is the primary force promoting filtration into Bowman's capsule.", "isCorrect": true },
+      { "id": "b", "text": "Blood Colloid Osmotic Pressure (BCOP ≈ -32 mmHg) exerted by plasma albumins opposes filtration.", "isCorrect": true },
+      { "id": "c", "text": "Capsular Hydrostatic Pressure (CHP ≈ -18 mmHg) exerted by fluid in Bowman's space opposes filtration.", "isCorrect": true },
+      { "id": "d", "text": "Normal Net Filtration Pressure (NFP) is +10 mmHg, generating a GFR of 125 mL/min (180 L/day).", "isCorrect": true }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "solutionExplanation": "All options correctly state the pressure components (NFP = 60 - [32 + 18] = +10 mmHg) and the resulting normal GFR (125 mL/min).",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c17-013",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "Nitrogenous Waste Taxa & Water Demands",
+    "difficulty": "Medium",
+    "questionText": "Which of the following nitrogenous wastes correctly match their excretory mode and water requirement properties? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Ammonia → Ammonotelism; highly toxic; requires ≈ 500 mL H₂O/g N.", "isCorrect": true },
+      { "id": "b", "text": "Urea → Ureotelism; synthesized in liver via urea cycle; requires ≈ 50 mL H₂O/g N.", "isCorrect": true },
+      { "id": "c", "text": "Uric Acid → Uricotelism; insoluble paste/pellet; requires ≈ 1–5 mL H₂O/g N.", "isCorrect": true },
+      { "id": "d", "text": "Birds, reptiles, and land snails are ureotelic organisms that excrete liquid urine.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Toxicity, synthesis site, and water demands for Ammonia, Urea, and Uric acid are accurate. D is incorrect: Birds, reptiles, and land snails are URICOTELIC (excrete uric acid pellets), NOT ureotelic.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c17-014",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "Tubular Reabsorption along Nephron",
+    "difficulty": "Medium",
+    "questionText": "Select the correct options regarding Tubular Reabsorption along the human nephron: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "The PCT reabsorbs 70–80% of water and electrolytes, and 100% of glucose and amino acids.", "isCorrect": true },
+      { "id": "b", "text": "The descending limb of Henle's loop is permeable to water via Aquaporin-1, rendering the filtrate hypertonic at the bend.", "isCorrect": true },
+      { "id": "c", "text": "The ascending limb of Henle's loop actively reabsorbs NaCl via NKCC2 symporters and is impermeable to water.", "isCorrect": true },
+      { "id": "d", "text": "DCT reabsorption of Na⁺ and water is conditional, regulated by Aldosterone and ADH.", "isCorrect": true }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "solutionExplanation": "All four options represent true physiological facts regarding nephron segmental reabsorption.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c17-015",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "Hormones Elevating Blood Volume & Pressure",
+    "difficulty": "Easy",
+    "questionText": "Which of the following hormones INCREASE renal water or sodium reabsorption to raise blood volume and blood pressure? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Antidiuretic Hormone (ADH / Vasopressin)", "isCorrect": true },
+      { "id": "b", "text": "Aldosterone", "isCorrect": true },
+      { "id": "c", "text": "Angiotensin II", "isCorrect": true },
+      { "id": "d", "text": "Atrial Natriuretic Factor (ANF)", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: ADH inserts Aquaporin-2 (water reabsorption); Aldosterone stimulates Na⁺/H₂O reabsorption in DCT; Angiotensin II triggers vasoconstriction and Aldosterone release. D is incorrect: ANF DECREASES blood volume and pressure by promoting Na⁺ and water loss (Natriuresis).",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c17-016",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "Accessory Excretory Organs in Humans",
+    "difficulty": "Easy",
+    "questionText": "Which accessory excretory organs participate in metabolic waste elimination in humans? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Lungs → Eliminate CO₂ (≈ 18 L/day) and water vapor.", "isCorrect": true },
+      { "id": "b", "text": "Liver → Secretes bilirubin, biliverdin, cholesterol, and drugs in bile.", "isCorrect": true },
+      { "id": "c", "text": "Sweat Glands → Secrete watery fluid containing NaCl, urea, and lactic acid.", "isCorrect": true },
+      { "id": "d", "text": "Spleen → Filters urine directly into the ureter.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Lungs eliminate CO₂, Liver excretes bile pigments/cholesterol, Sweat glands excrete NaCl/urea. D is incorrect: The Spleen destroys aged RBCs; it has no direct connection to ureters or urinary excretion.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c17-017",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "Counter-Current Multiplier & Exchanger System",
+    "difficulty": "Medium",
+    "questionText": "Select the correct options regarding the Counter-Current Mechanism in human kidneys: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "The Loop of Henle functions as a Counter-Current Multiplier.", "isCorrect": true },
+      { "id": "b", "text": "The Vasa Recta functions as a Counter-Current Exchanger that preserves the medullary gradient.", "isCorrect": true },
+      { "id": "c", "text": "The medullary interstitial osmolarity increases progressively from 300 mOsmol/L in cortex to 1200 mOsmol/L in inner medulla.", "isCorrect": true },
+      { "id": "d", "text": "Urea recycling from the lower collecting duct into the medullary interstitium contributes significantly to hyperosmolarity.", "isCorrect": true }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "solutionExplanation": "All options represent accurate principles of the renal counter-current concentration system.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c17-018",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "Renal Pathology & Disorder Etiologies",
+    "difficulty": "Medium",
+    "questionText": "Which of the following renal disorders correctly match their pathological descriptions? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Uremia → Accumulation of toxic levels of urea in blood due to renal failure.", "isCorrect": true },
+      { "id": "b", "text": "Renal Calculi → Crystalline stones composed primarily of Calcium Oxalate deposited in the kidney pelvis.", "isCorrect": true },
+      { "id": "c", "text": "Glomerulonephritis → Inflammation of renal glomeruli often triggered by immune-complex deposition.", "isCorrect": true },
+      { "id": "d", "text": "Diabetes Insipidus → Glucosuria and ketonuria resulting from insulin deficiency.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Uremia, Renal Calculi (calcium oxalate), and Glomerulonephritis descriptions are accurate. D is incorrect: Glucosuria and ketonuria characterize Diabetes Mellitus. Diabetes Insipidus is ADH deficiency causing dilute water diuresis without sugar.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c17-019",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "Micturition Reflex Neural Integration",
+    "difficulty": "Medium",
+    "questionText": "Which of the following events occur during the Micturition Reflex? (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Stretching of urinary bladder wall triggers sensory signals to the spinal cord.", "isCorrect": true },
+      { "id": "b", "text": "Parasympathetic motor signals stimulate contraction of the detrusor smooth muscle of the bladder wall.", "isCorrect": true },
+      { "id": "c", "text": "Internal urethral sphincter (involuntary) and external urethral sphincter (voluntary) relax.", "isCorrect": true },
+      { "id": "d", "text": "Sympathetic nerves contract the bladder wall to force urine out.", "isCorrect": false }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "solutionExplanation": "A, B, C are correct: Stretch receptors trigger spinal reflex; parasympathetic signals contract the detrusor muscle and relax internal/external sphincters. D is incorrect: Sympathetic nerves relax the detrusor muscle to allow filling; Parasympathetic nerves contract the detrusor muscle to cause voiding.",
+    "marks": 4,
+    "negativeMarks": 0
+  },
+  {
+    "id": "q-bio-c17-020",
+    "exam": "NEST",
+    "subject": "Biology",
+    "chapter": "Excretory Products and their Elimination",
+    "chapterNumber": 17,
+    "chapterSlug": "excretory-products-and-their-elimination",
+    "topic": "Hemodialysis Circuit & Anticoagulant Use",
+    "difficulty": "Medium",
+    "questionText": "Select the valid statements regarding Hemodialysis in uremic patients: (Select all that apply)",
+    "questionType": "MSQ",
+    "options": [
+      { "id": "a", "text": "Blood drained from a radial artery is mixed with Heparin before entering the dialyzer.", "isCorrect": true },
+      { "id": "b", "text": "Nitrogenous wastes (urea, uric acid, creatinine) diffuse out of blood across cellophane tubing into the dialyzing bath down a concentration gradient.", "isCorrect": true },
+      { "id": "c", "text": "Dialyzing fluid contains high concentrations of urea to draw out excess plasma water.", "isCorrect": false },
+      { "id": "d", "text": "Anti-heparin is added to cleared blood before returning it to the patient via a vein.", "isCorrect": true }
+    ],
+    "correctAnswer": [
+      "a",
+      "b",
+      "d"
+    ],
+    "solutionExplanation": "A, B, D are correct: Heparin prevents clotting in dialyzer, wastes diffuse into nitrogen-free bath across cellophane, and Anti-heparin neutralizes heparin before venous re-infusion. C is incorrect: Dialyzing fluid contains ZERO urea/nitrogenous wastes so that wastes diffuse out of blood.",
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "id": "chem-xi-u8-c8-l05",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XI",
+  "unit": "Unit VIII \u2014 Organic Chemistry: Basic Principles and Techniques",
+  "unitNumber": 8,
+  "chapter": "Organic Chemistry Principles & Techniques",
+  "chapterNumber": 8,
+  "chapterSlug": "organic-chemistry-principles",
+  "slug": "lesson-05-electronic-displacements-inductive-resonance-hyperconjugation",
+  "title": "Electronic Displacements: Inductive, Electromeric, Resonance, & Hyperconjugation",
+  "topic": "Electronic Displacement Effects",
+  "topics": [
+    "Permanent vs Temporary Electronic Effects",
+    "Inductive Effect (+I and -I Group Hierarchy, Distance Dependence)",
+    "Resonance / Mesomeric Effect (+M and -M Group Hierarchy, Conjugation)",
+    "Electromeric Effect (E, Temporary \u03c0-shift during reagent attack)",
+    "Hyperconjugation (Nathan-Baker Effect / No-Bond Resonance, \u03c3_C-H \u2192 p/\u03c0*)",
+    "Physical Consequences: Alkene Stability vs Heat of Hydrogenation (HoH)"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "organic-chemistry-principles",
+  "quickSummary": "Inductive (I): \u03c3-polarization (permanent). Resonance (M/R): \u03c0-delocalization (permanent). Hyperconjugation (H): \u03c3_C-H to p/\u03c0* (permanent, \u03b1-H count). Electromeric (E): temporary \u03c0-shift. Alkene stability \u221d \u03b1-H; HoH \u221d 1 / Alkene Stability.",
+  "summary": "Master the four electronic displacement effects: Inductive (+I/-I), Resonance (+M/-M), Hyperconjugation, and Electromeric effect.",
+  "conceptBreakdown": [
+    {
+      "heading": "5.1 Inductive & Resonance Effects",
+      "title": "5.1 Inductive & Resonance Effects",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Electronic Hierarchy",
+        "takeaway": "I-Effect (\u03c3-framework, vanishes after 3-4 C atoms); M-Effect (\u03c0/lone pair delocalization across conjugated p-orbitals)."
+      },
+      "codeSnippet": "ELECTRONIC DISPLACEMENT ORDERS\n\n+I Effect (Donating):\n-O\u207b > -COO\u207b > -C(CH\u2083)\u2083 > -CH(CH\u2083)\u2082 > -CH\u2082CH\u2083 > -CH\u2083 > -D > -H\n\n-I Effect (Withdrawing):\n-NF\u2083\u207a > -NR\u2083\u207a > -NH\u2083\u207a > -NO\u2082 > -SO\u2083H > -CN > -CHO > -COOH > -F > -Cl > -Br > -I > -OR > -OH > -C\u2261CH > -NH\u2082 > -Ph > -CH=CH\u2082 > -H\n\n+M / +R Effect (Donating via lone pair):\n-O\u207b > -NH\u2082 > -NHR > -OH > -OR > -NHCOCH\u2083 > -OCOR > -Ph > -Halogens\n\n-M / -R Effect (Withdrawing via conjugated \u03c0):\n-NO\u2082 > -SO\u2083H > -CN > -CHO > -COR > -COOH > -COOR",
+      "content": "\u2022 **Inductive Effect ($I$)**: Permanent, distance-dependent polarisation of a $\\sigma$-bond caused by electronegativity differences along a carbon chain. Vanishes after 3\u20134 carbons.\n\u2022 **Resonance / Mesomeric Effect ($M / R$)**: Permanent delocalization of $\\pi$-electrons or lone pairs through conjugated continuous $p$-orbital systems."
+    },
+    {
+      "heading": "5.2 Hyperconjugation & Heat of Hydrogenation",
+      "title": "5.2 Hyperconjugation & Heat of Hydrogenation",
+      "type": "paragraph",
+      "codeSnippet": "HYPERCONJUGATION & ALKENE STABILITY\n\n\u2022 Number of Hyperconjugative Structures = Number of \u03b1-Hydrogens (\u03b1-H)\n\u2022 Alkene Stability Order: (CH\u2083)\u2082C=C(CH\u2083)\u2082 (12\u03b1H) > CH\u2083CH=C(CH\u2083)\u2082 (9\u03b1H) > (CH\u2083)\u2082C=CH\u2082 (6\u03b1H) > CH\u2083CH=CH\u2082 (3\u03b1H) > CH\u2082=CH\u2082 (0\u03b1H)\n\u2022 Heat of Hydrogenation (HoH) \u221d 1 / Alkene Stability \u221d 1 / (Number of \u03b1-H)",
+      "content": "\u2022 **Hyperconjugation (Nathan-Baker Effect / No-Bond Resonance)**: Delocalization of $\\sigma$-electrons of a $\\text{C}_\\alpha-\\text{H}$ bond attached to an $sp^2$-hybridized carbon into an adjacent vacant $p$-orbital (carbocation), half-filled $p$-orbital (radical), or $\\pi^*$-antibonding orbital (alkene).\n\u2022 **Heat of Hydrogenation (HoH)**: Inversely proportional to alkene stability! Highly substituted alkenes have more $\\alpha$-hydrogens, higher thermodynamic stability, and release **less heat upon hydrogenation**."
+    }
+  ],
+  "quickRevision": [
+    "Inductive, Resonance, and Hyperconjugation are permanent effects.",
+    "Electromeric effect is a temporary effect occurring only during reagent attack.",
+    "Alkene stability increases with the number of \u03b1-hydrogens.",
+    "Heat of Hydrogenation (HoH) is inversely proportional to alkene stability."
+  ],
+  "keyFormulae": [
+    "\\text{Number of Hyperconjugative Canonical Forms} = \\text{Number of } \\alpha\\text{-H}",
+    "\\text{Heat of Hydrogenation (HoH)} \\propto \\frac{1}{\\text{Alkene Stability}} \\propto \\frac{1}{\\alpha\\text{-H count}}"
+  ]
+}

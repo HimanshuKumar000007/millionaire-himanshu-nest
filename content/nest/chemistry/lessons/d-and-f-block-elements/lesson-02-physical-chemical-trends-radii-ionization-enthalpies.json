@@ -1,0 +1,59 @@
+{
+  "id": "chem-xii-u13-c4-l02",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XIII \u2014 d- and f-Block Elements",
+  "unitNumber": 13,
+  "chapter": "d- and f-Block Elements",
+  "chapterNumber": 4,
+  "chapterSlug": "d-and-f-block-elements",
+  "slug": "lesson-02-physical-chemical-trends-radii-ionization-enthalpies",
+  "title": "Physical & Chemical Trends of the 3d First-Row Transition Series",
+  "topic": "3d Series Trends: Radii & Ionization",
+  "topics": [
+    "2.1 Atomic & Ionic Radii Profiles across 3d Series (Sc \u2500\u2500\u25ba Cr decrease, Mn \u2500\u2500\u25ba Ni flat, Cu \u2500\u2500\u25ba Zn increase)",
+    "Shielding Effect vs Effective Nuclear Charge (Z_eff) Balance",
+    "2.2 Ionization Enthalpy (\u0394_i H) Irregularities across 3d Series",
+    "Successive Ionization Anomalies: \u0394_i H_2 (Cr & Cu) and \u0394_i H_3 (Mn & Zn)"
+  ],
+  "order": 2,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "d-and-f-block-elements",
+  "quickSummary": "Atomic radii decrease from Sc to Cr (Z_eff dominates), remain flat from Mn to Ni (shielding balances Z), and increase slightly from Cu to Zn (d\u00b9\u2070 inter-electronic repulsions). \u0394_i H_2 is high for Cr (3d\u2075) and Cu (3d\u00b9\u2070). \u0394_i H_3 is high for Mn (3d\u2075) and Zn (3d\u00b9\u2070).",
+  "summary": "Master 3d atomic and ionic radii trends, effective nuclear charge balance, and second/third ionization enthalpy anomalies.",
+  "conceptBreakdown": [
+    {
+      "heading": "2.1 Atomic & Ionic Radii Profiles",
+      "title": "2.1 Atomic & Ionic Radii Profiles",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "3d Radii Variations",
+        "takeaway": "Sc \u2500\u2500\u25ba Cr radii decrease; Mn \u2500\u2500\u25ba Ni radii remain nearly flat; Cu \u2500\u2500\u25ba Zn radii expand slightly due to d\u00b9\u2070 electron-electron repulsion."
+      },
+      "codeSnippet": "                      $3d$ SERIES ATOMIC RADII TREND\n                      \n   $\\text{Sc} \\rightarrow \\text{Cr}$: Radii **DECREASE** (Increasing $Z_{\\text{eff}}$ overrides $3d$ shielding).\n   $\\text{Mn} \\rightarrow \\text{Ni}$: Radii **REMAIN NEARLY FLAT** ($3d$ electron shielding balances increasing $Z$).\n   $\\text{Cu} \\rightarrow \\text{Zn}$: Radii **INCREASE SLIGHTLY** ($3d^{10}$ inter-electronic repulsions expand lattice).",
+      "content": "Across the 3d transition series, atomic and ionic radii display three distinct regimes:\n1. **$\\text{Sc} \\rightarrow \\text{Cr}$**: Atomic radius decreases rapidly because increasing nuclear charge ($Z_{\\text{eff}}$) pulls the outer electrons inward, overcoming the screening effect of added 3d electrons.\n2. **$\\text{Mn} \\rightarrow \\text{Ni}$**: Atomic radius remains almost constant because the screening effect of 3d electrons almost exactly balances the increase in nuclear charge.\n3. **$\\text{Cu} \\rightarrow \\text{Zn}$**: Atomic radius increases slightly because paired $3d^{10}$ electrons create strong inter-electronic repulsions that expand the electron cloud."
+    },
+    {
+      "heading": "2.2 Ionization Enthalpy (\u0394_i H) Irregularities",
+      "title": "2.2 Ionization Enthalpy (\u0394_i H) Irregularities",
+      "type": "paragraph",
+      "codeSnippet": "                       SUCCESSIVE IONIZATION ANOMALIES\n                       \n   $\\mathbf{\\Delta_i H_2 \\text{ Anomaly (Cr and Cu):}}$\n   \u251c\u2500\u2500 $\\text{Cr}^+ (3d^5) \\rightarrow \\text{Cr}^{2+} (3d^4)$: Unusually HIGH $\\Delta_i H_2$ (Breaks stable half-filled $3d^5$).\n   \u2514\u2500\u2500 $\\text{Cu}^+ (3d^{10}) \\rightarrow \\text{Cu}^{2+} (3d^9)$: Unusually HIGH $\\Delta_i H_2$ (Breaks stable $3d^{10}$).\n   \n   $\\mathbf{\\Delta_i H_3 \\text{ Anomaly (Mn and Zn):}}$\n   \u251c\u2500\u2500 $\\text{Mn}^{2+} (3d^5) \\rightarrow \\text{Mn}^{3+} (3d^4)$: Unusually HIGH $\\Delta_i H_3$ (Breaks stable half-filled $3d^5$).\n   \u2514\u2500\u2500 $\\text{Zn}^{2+} (3d^{10}) \\rightarrow \\text{Zn}^{3+} (3d^9)$: Unusually HIGH $\\Delta_i H_3$ (Breaks stable fully-filled $3d^{10}$).",
+      "content": "Across the 3d series, $\\Delta_i H_1$ increases gradually, but displays specific anomalies in $\\Delta_i H_2$ and $\\Delta_i H_3$ due to the removal of electrons from stable configurations:\n- **$\\Delta_i H_2$ High**: $\\text{Cr}^+$ ($3d^5$) and $\\text{Cu}^+$ ($3d^{10}$).\n- **$\\Delta_i H_3$ High**: $\\text{Mn}^{2+}$ ($3d^5$) and $\\text{Zn}^{2+}$ ($3d^{10}$)."
+    }
+  ],
+  "quickRevision": [
+    "Radii: Sc-Cr decreases, Mn-Ni remains flat, Cu-Zn slightly increases.",
+    "\u0394_i H_2 is exceptionally high for Cr and Cu (disrupts 3d\u2075 and 3d\u00b9\u2070).",
+    "\u0394_i H_3 is exceptionally high for Mn and Zn (disrupts 3d\u2075 and 3d\u00b9\u2070).",
+    "Shielding efficiency: s > p > d > f."
+  ],
+  "keyFormulae": [
+    "\\text{High } \\Delta_i H_2: \\text{Cr}^+ (3d^5), \\ \\text{Cu}^+ (3d^{10})",
+    "\\text{High } \\Delta_i H_3: \\text{Mn}^{2+} (3d^5), \\ \\text{Zn}^{2+} (3d^{10})"
+  ]
+}

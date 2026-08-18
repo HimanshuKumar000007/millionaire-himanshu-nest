@@ -1,0 +1,36 @@
+{
+  "id": "math-sets-lesson-02",
+  "exam": "NEST",
+  "subject": "Mathematics",
+  "classLevel": "Class XI",
+  "unit": "Unit 1 — Sets and Functions",
+  "unitNumber": 1,
+  "chapter": "Sets",
+  "chapterNumber": 1,
+  "chapterSlug": "sets",
+  "lessonNumber": 2,
+  "order": 2,
+  "slug": "lesson-02-interval-topology",
+  "title": "Interval Topology on the Real Line ℝ",
+  "topic": "Sets & representations",
+  "status": "published",
+  "estimatedTimeMinutes": 5,
+  "readingTimeMinutes": 5,
+  "diagramType": "sets",
+  "quickSummary": "Subsets of the real numbers ℝ are represented using open, closed, half-open, and unbounded intervals.",
+  "summary": "Master open, closed, half-open, and unbounded interval topologies on the real line ℝ along with their boundary inclusions.",
+  "coreConcepts": ["Open interval", "Closed interval", "Half-open intervals", "Unbounded intervals"],
+  "conceptBreakdown": [
+    {
+      "heading": "2. Interval Notation on ℝ",
+      "title": "2. Interval Notation on ℝ",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Topology Takeaway",
+        "takeaway": "An open interval with identical endpoints (a, a) = ∅, whereas [a, a] = {a} is a singleton set."
+      },
+      "codeSnippet": "INTERVAL TYPES ON THE REAL LINE\n                                       │\n     ┌──────────────────┬──────────────┴──────────────┬──────────────────┐\n     ▼                  ▼                             ▼                  ▼\nOPEN INTERVAL          CLOSED INTERVAL               HALF-OPEN INTERVAL  UNBOUNDED INTERVAL\n(a, b)                 [a, b]                        (a, b] or [a, b)    (a, ∞) or (-∞, b]\n{x | a < x < b}        {x | a ≤ x ≤ b}               {x | a < x ≤ b}     {x | x > a}",
+      "content": "Subsets of the real numbers $\\mathbb{R}$ are frequently represented using **Interval Notation**. Let $a, b \\in \\mathbb{R}$ with $a < b$:\n\n### Master Interval Classification Table\n\n| Interval Notation | Set-Builder Definition | Boundary Included? | Boundedness |\n| :--- | :--- | :--- | :--- |\n| **Open:** $(a, b)$ | $\\{x \\in \\mathbb{R} \\mid a < x < b\\}$ | Neither $a$ nor $b$ | Bounded |\n| **Closed:** $[a, b]$ | $\\{x \\in \\mathbb{R} \\mid a \\le x \\le b\\}$ | Both $a$ and $b$ | Bounded |\n| **Left-Closed, Right-Open:** $[a, b)$ | $\\{x \\in \\mathbb{R} \\mid a \\le x < b\\}$ | $a$ included, $b$ excluded | Bounded |\n| **Left-Open, Right-Closed:** $(a, b]$ | $\\{x \\in \\mathbb{R} \\mid a < x \\le b\\}$ | $a$ excluded, $b$ included | Bounded |\n| **Unbounded Above:** $[a, \\infty)$ | $\\{x \\in \\mathbb{R} \\mid x \\ge a\\}$ | $a$ included | Unbounded |\n| **Unbounded Below:** $(-\\infty, b)$ | $\\{x \\in \\mathbb{R} \\mid x < b\\}$ | $b$ excluded | Unbounded |\n| **Entire Real Line:** $(-\\infty, \\infty)$ | $\\mathbb{R}$ | None | Unbounded |"
+    }
+  ]
+}

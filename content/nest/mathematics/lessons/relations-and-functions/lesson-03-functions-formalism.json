@@ -1,0 +1,42 @@
+{
+  "id": "math-xi-u1-c2-l03",
+  "exam": "NEST",
+  "subject": "Mathematics",
+  "classLevel": "Class XI",
+  "unit": "Unit 1 — Sets and Functions",
+  "unitNumber": 1,
+  "chapter": "Relations and Functions",
+  "chapterNumber": 2,
+  "chapterSlug": "relations-and-functions",
+  "slug": "lesson-03-functions-formalism",
+  "title": "Mathematical Formalism of Functions",
+  "topic": "Domain, codomain & range",
+  "order": 3,
+  "estimatedTimeMinutes": 5,
+  "readingTimeMinutes": 5,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "diagramType": "relations-and-functions",
+  "quickSummary": "A function f: A → B satisfies Totality (every element in A has an image) and Single-Valuedness (no element in A has multiple images).",
+  "summary": "Master the rigorous definition of functions, totality vs single-valuedness, arrow diagrams, and the geometric Vertical Line Test.",
+  "conceptBreakdown": [
+    {
+      "heading": "3. The Two Structural Axioms of Functions & Arrow Mappings",
+      "title": "3. The Two Structural Axioms of Functions & Arrow Mappings",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Function Criteria",
+        "takeaway": "Totality: ∀x ∈ A, ∃y ∈ B such that (x, y) ∈ f. Single-valuedness: (x, y₁) ∈ f ∧ (x, y₂) ∈ f ⟹ y₁ = y₂."
+      },
+      "codeSnippet": "FUNCTION vs RELATION MAP\n                         \n       VALID FUNCTION (f: A ➔ B)               INVALID FUNCTION (Not a function)\n       \n       Set A          Set B                    Set A          Set B\n       ┌───┐          ┌───┐                    ┌───┐          ┌───┐\n       │ 1 ├─────────►│ a │                    │ 1 ├────┬────►│ a │ (1 maps to 2 elements)\n       │ 2 ├─────┐    │ b │                    │ 2 │    └────►│ b │\n       │ 3 ├────►└───►│ c │                    │ 3 │          │ c │ (3 has NO image!)\n       └───┘          └───┘                    └───┘          └───┘",
+      "content": "A **Function** (or Mapping) $f$ from set $A$ to set $B$, denoted $f: A \\to B$, is a special relation $f \\subseteq A \\times B$ satisfying two non-negotiable structural conditions:\n\n1. **Existence of Image (Totality)**: Every element $x \\in A$ must be related to some element $y \\in B$:\n   $$\\forall x \\in A, \\quad \\exists y \\in B \\quad \\text{such that } (x, y) \\in f$$\n2. **Uniqueness of Image (Single-Valuedness)**: No element $x \\in A$ can be related to more than one element in $B$:\n   $$\\text{If } (x, y_1) \\in f \\quad \\text{and} \\quad (x, y_2) \\in f, \\quad \\text{then } y_1 = y_2$$"
+    },
+    {
+      "heading": "3.1 The Vertical Line Test",
+      "title": "3.1 The Vertical Line Test",
+      "type": "paragraph",
+      "content": "### The Vertical Line Test (Geometric Criterion)\nA curve in the $x$-$y$ plane represents the graph of a real function $y = f(x)$ if and only if **every vertical line $x = c$ (for $c \\in \\text{Dom}(f)$) intersects the curve at EXACTLY ONE point**.\n- If any vertical line intersects the curve at two or more points (e.g. circle $x^2 + y^2 = r^2$), the relation fails single-valuedness and is not a function."
+    }
+  ]
+}

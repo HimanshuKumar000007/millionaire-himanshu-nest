@@ -1,0 +1,47 @@
+{
+  "id": "bio-xii-u10-c11-l04",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XII",
+  "unit": "Unit X — Ecology",
+  "unitNumber": 10,
+  "chapter": "Organisms and Populations",
+  "chapterNumber": 11,
+  "chapterSlug": "organisms-and-populations",
+  "slug": "lesson-04-life-history-strategies-r-selected-vs-k-selected-species",
+  "title": "Life History Strategies: r-Selected vs K-Selected Species",
+  "topic": "Opportunistic Proliferators vs Equilibrium Competitors, Survivorship Curves (Type I, II, III), & Trade-Offs",
+  "order": 4,
+  "readingTimeMinutes": 16,
+  "estimatedTimeMinutes": 16,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Life history strategies: Organisms evolve reproductive adaptations to maximize Darwinian fitness (r). r-Selected species (opportunistic proliferators): Unstable habitats, small body size, short lifespan, produce many small offspring, minimal parental care, Type III survivorship (insects, weeds, oysters). K-Selected species (equilibrium competitors): Stable crowded habitats near K, large body size, long lifespan, produce few large offspring, extensive parental care, Type I survivorship (elephants, primates, humans, trees).",
+  "summary": "Life history strategies: Organisms evolve reproductive adaptations to maximize Darwinian fitness (r). r-Selected species (opportunistic proliferators): Unstable habitats, small body size, short lifespan, produce many small offspring, minimal parental care, Type III survivorship (insects, weeds, oysters). K-Selected species (equilibrium competitors): Stable crowded habitats near K, large body size, long lifespan, produce few large offspring, extensive parental care, Type I survivorship (elephants, primates, humans, trees).",
+  "conceptBreakdown": [
+    {
+      "heading": "Life History Evolution: r-Selection vs K-Selection",
+      "title": "Life History Evolution: r-Selection vs K-Selection",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Organisms evolve distinct life history traits: r-selected species maximize reproductive rate (r) with many small offspring and low care in disturbed habitats; K-selected species maximize competitive ability near carrying capacity (K) with few large offspring and high parental investment."
+      },
+      "codeSnippet": "LIFE HISTORY STRATEGIES\n                                      │\n         ┌────────────────────────────┴────────────────────────────┐\n         ▼                                                         ▼\n   r-SELECTED SPECIES                                        K-SELECTED SPECIES\n   (Opportunistic Proliferators)                             (Equilibrium Competitors)\n   ├── Unstable, unpredictable habitats                      ├── Stable, predictable habitats\n   ├── High r, small body size                               ├── Low r, large body size\n   ├── Produces many small offspring                         ├── Produces few large offspring\n   └── Low/No parental care (Insects, Oysters)               └── High parental care (Elephants, Humans)",
+      "content": "### 4.1 Evolutionary Trade-Offs in Reproduction\n- Natural selection operates on life histories to maximize reproductive output and **Darwinian Fitness (high $r$ value)** within environmental constraints.\n- Energetic limitations create trade-offs between **offspring number vs. offspring size / parental investment**.\n\n### 4.2 Comparative Matrix: $r$-Selection vs. $K$-Selection\n\n| Trait / Feature | $r$-Selected Species (Opportunistic) | $K$-Selected Species (Equilibrium) |\n| :--- | :--- | :--- |\n| **Habitat Type** | Unstable, temporary, unpredictable, disturbed | Stable, permanent, predictable, crowded |\n| **Population Size ($N$)** | Fluctuates wildly (boom-and-bust); often below $K$ | Sustained near carrying capacity ($N \\approx K$) |\n| **Body Size & Lifespan** | Small body size; short, rapid life cycles | Large body size; long, multi-year lifespans |\n| **Reproductive Age** | Early sexual maturity (precocious reproduction) | Delayed sexual maturity; late reproduction |\n| **Offspring Strategy** | Produces **many small offspring** in a single event | Produces **few large offspring** over multiple seasons |\n| **Parental Care** | Absent or minimal | Extensive, high energetic parental investment |\n| **Survivorship Pattern** | **Type III Curve** (heavy early juvenile mortality) | **Type I Curve** (low juvenile mortality; die in old age) |\n| **Representative Taxa** | Insects, annual weeds, marine pelagic fish, oysters | Elephants, primates, whales, humans, climax forest trees |\n\n### 4.3 Ecological Survivorship Curves\n- **Type I (Convex Curve)**: High survivorship throughout early and middle life; mortality increases sharply in old age (*Humans, large mammals*).\n- **Type II (Diagonal / Linear Curve)**: Constant, uniform mortality rate throughout all life stages (*Songbirds, hydra, lizards*).\n- **Type III (Concave Curve)**: Extremely high mortality among juveniles/larvae; the few individuals surviving past youth exhibit high adult longevity (*Oysters, frogs, marine fish, trees*)."
+    },
+    {
+      "heading": "Semelparity vs Iteroparity",
+      "title": "Semelparity vs Iteroparity",
+      "type": "paragraph",
+      "content": "Semelparous species reproduce once in their lifetime and then die (Big Bang reproduction: Pacific Salmon, Bamboo, Agave); Iteroparous species reproduce repeatedly across multiple successive breeding seasons (Birds, Mammals, Perennial trees)."
+    },
+    {
+      "heading": "Grime's CSR Plant Life History Triangle",
+      "title": "Grime's CSR Plant Life History Triangle",
+      "type": "paragraph",
+      "content": "J.P. Grime classified plant strategies into: (1) Competitors (low stress, low disturbance, dense canopies); (2) Stress-tolerators (high stress, low disturbance, e.g., lichens, alpine plants); (3) Ruderals (low stress, high disturbance, rapid weedy colonizers)."
+    }
+  ]
+}

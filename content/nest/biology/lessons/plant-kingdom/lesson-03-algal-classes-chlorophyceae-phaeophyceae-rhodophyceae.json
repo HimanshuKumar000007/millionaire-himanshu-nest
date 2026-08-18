@@ -1,0 +1,56 @@
+{
+  "id": "bio-xi-u1-c3-l03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit I — Diversity of Living Organisms",
+  "unitNumber": 1,
+  "chapter": "Plant Kingdom",
+  "chapterNumber": 3,
+  "chapterSlug": "plant-kingdom",
+  "slug": "lesson-03-algal-classes-chlorophyceae-phaeophyceae-rhodophyceae",
+  "title": "Algal Classes: Chlorophyceae, Phaeophyceae, & Rhodophyceae",
+  "topic": "Comparative Matrix, Chara Sex Organs, & Phycocolloids",
+  "topics": [
+    "Algal Classification (Pigments, Stored Food, Cell Wall)",
+    "Chlorophyceae (Green Algae, Pyrenoids, Starch)",
+    "Phaeophyceae (Brown Algae, Fucoxanthin, Laminarin, Algin)",
+    "Rhodophyceae (Red Algae, r-Phycoerythrin, Floridean Starch, Agar)",
+    "Genus Chara (Stone-Wort, Nucule vs Globule)",
+    "Economic Phycocolloids (Algin, Agar-Agar, Carrageenan)"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Algae are divided into Chlorophyceae (Chl a+b, starch), Phaeophyceae (Chl a+c + fucoxanthin, laminarin/mannitol, algin), and Rhodophyceae (Chl a+d + r-phycoerythrin, floridean starch, no flagella). Chara features superior Nucule (female) and inferior Globule (male).",
+  "summary": "Algae are divided into Chlorophyceae (Chl a+b, starch), Phaeophyceae (Chl a+c + fucoxanthin, laminarin/mannitol, algin), and Rhodophyceae (Chl a+d + r-phycoerythrin, floridean starch, no flagella). Chara features superior Nucule (female) and inferior Globule (male).",
+  "conceptBreakdown": [
+    {
+      "heading": "3. Detailed Comparative Analysis of Algal Classes",
+      "title": "3. Detailed Comparative Analysis of Algal Classes",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Key discriminators: Red algae lack flagella at all stages and use floridean starch; Brown algae use fucoxanthin and laminarin/mannitol; Green algae store true starch in pyrenoids."
+      },
+      "codeSnippet": "ALGAL CLASSIFICATION\n                                       │\n         ┌─────────────────────────────┼─────────────────────────────┐\n         ▼                             ▼                             ▼\n   CHLOROPHYCEAE                 PHAEOPHYCEAE                  RHODOPHYCEAE\n   (Green Algae)                 (Brown Algae)                  (Red Algae)\n  ├── Chl a, b                   ├── Chl a, c + Fucoxanthin     ├── Chl a, d + r-Phycoerythrin\n  ├── Starch (Pyrenoids)         ├── Laminarin / Mannitol       ├── Floridean Starch\n  └── Cellulose Cell Wall        └── Cellulose + Algin          └── Sulfated Phycocolloids",
+      "content": "Algae are classified into three major classes based primarily on pigment composition, stored food reserves, cell wall biochemistry, and flagellar morphology."
+    },
+    {
+      "heading": "3.1 Comprehensive Algal Comparison Matrix",
+      "title": "3.1 Comprehensive Algal Comparison Matrix",
+      "type": "paragraph",
+      "content": "| Parameter | Chlorophyceae (Green Algae) | Phaeophyceae (Brown Algae) | Rhodophyceae (Red Algae) |\n| :--- | :--- | :--- | :--- |\n| **Common Name** | Green Algae | Brown Algae | Red Algae |\n| **Major Pigments** | **Chlorophyll *a*, *b*** | **Chlorophyll *a*, *c***, $\\beta$-carotene, **Fucoxanthin** | **Chlorophyll *a*, *d***, $\\alpha/\\beta$-carotene, **r-Phycoerythrin**, r-Phycocyanin |\n| **Dominant Color** | Grass Green | Olive Green to Dark Brown | Pinkish-Red to Deep Crimson |\n| **Stored Food Reserve** | **Starch** (stored inside **Pyrenoids**) | **Laminarin** ($\\beta$-1,3-glucan) and **D-Mannitol** (sugar alcohol) | **Floridean Starch** (structurally similar to amylopectin and glycogen) |\n| **Cell Wall Biochemistry** | Inner layer of **Cellulose**, outer layer of **Pectose** | Inner layer of **Cellulose**, outer gelatinous coating of **Algin / Alginic Acid** | **Cellulose**, pectin, and **Sulfated Phycocolloids** (Agar, Carrageenan, Funori) |\n| **Flagellar Number & Insertion** | $2\\text{--}8$, Equal, Apical, Smooth (Whiplash) | $2$, **Unequal**, **Lateral**, Heterokont (1 Tinsel + 1 Whiplash) | **COMPLETELY ABSENT** at all stages of life cycle (No motile cells) |\n| **Pyrenoid Architecture** | Present in chloroplasts; consists of a central **protein core** surrounded by a **starch sheath** | Absent or rudimentary | Absent |\n| **Habitat Distribution** | Mostly freshwater ($90\\%$), some marine and terrestrial | Almost exclusively **marine** (cool, littoral coastal waters) | Predominantly **marine** (warm waters; both shallow and deep oceanic depths) |\n| **Representative Taxa** | *Chlamydomonas*, *Volvox*, *Ulothrix*, *Spirogyra*, *Chara* | *Ectocarpus*, *Dictyota*, *Laminaria*, *Sargassum*, *Fucus* | *Polysiphonia*, *Porphyra*, *Gracilaria*, *Gelidium* |"
+    },
+    {
+      "heading": "3.2 High-Yield Specialized Algal Concepts",
+      "title": "3.2 High-Yield Specialized Algal Concepts",
+      "type": "paragraph",
+      "codeSnippet": "CHARA SEX ORGAN POSITION\n                            \n                                   ┌─────────┐\n                                   │ Nucule  │  <-- Female (Upper Position)\n                                   └────┬────┘\n                                        │\n                                   ┌────┴────┐\n                                   │ Globule │  <-- Male (Lower Position)\n                                   └─────────┘",
+      "content": "### A. The Genus Chara (Stone-Wort)\n• **Thallus Structure**: Highly evolved macro-alga encrusted with calcium carbonate and anchored by multicellular branched rhizoids.\n• **Sex Organs**: Exceptionally complex, jacketed, multicellular sex organs:\n- **Female Sex Organ (Nucule / Oogonium)**: Positioned **upper / superior**, covered by 5 spirally coiled tube cells topped by a 5-celled corona.\n- **Male Sex Organ (Globule / Antheridium)**: Positioned **lower / inferior**, spherical yellow/red structure containing 8 curved shield cells and hundreds of branched spermatogenous filaments.\n\n### B. Phycocolloids & Commercial Economic Products\n• **Alginic Acid (Algin)**: Extracted from brown algal cell walls (*Laminaria*, *Sargassum*, *Ascophyllum*); used as a hydrocolloid stabilizer/emulsifier in ice creams, pharmaceuticals, and dental impression materials.\n• **Agar-Agar**: Sulfated galactan hydrocolloid extracted from red algae (*Gelidium*, *Gracilaria*); universal solidifying agent for microbiological culture media and electrophoresis gels.\n• **Carrageenan**: Sulfated galactan polysaccharide extracted from the red alga *Chondrus crispus* (\"Irish Moss\"); used as a clearing and stabilizing agent in dairy products."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "bio-xi-u1-c1-l03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit I — Diversity of Living Organisms",
+  "unitNumber": 1,
+  "chapter": "The Living World",
+  "chapterNumber": 1,
+  "chapterSlug": "the-living-world",
+  "slug": "lesson-03-classification",
+  "title": "Classification Need & Modern Taxonomical Schools",
+  "topic": "Taxonomy & Systematics",
+  "topics": [
+    "Taxonomy vs Systematics Formula",
+    "Four Pillars of Taxonomy",
+    "Phenetics (Numerical Taxonomy)",
+    "Cytotaxonomy & Karyotaxonomy",
+    "Chemotaxonomy",
+    "Cladistics (Monophyletic vs Paraphyletic vs Polyphyletic)"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 5,
+  "estimatedTimeMinutes": 5,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Taxonomy (A.P. de Candolle) provides operational rules for characterization, identification, nomenclature, and classification. Systematics (Linnaeus) incorporates evolutionary history (phylogeny). Modern cladistics recognizes ONLY monophyletic groups as valid clades.",
+  "summary": "Taxonomy (A.P. de Candolle) provides operational rules for characterization, identification, nomenclature, and classification. Systematics (Linnaeus) incorporates evolutionary history (phylogeny). Modern cladistics recognizes ONLY monophyletic groups as valid clades.",
+  "conceptBreakdown": [
+    {
+      "heading": "Card 3.1: Taxonomy vs Systematics & The Four Pillars",
+      "title": "Card 3.1: Taxonomy vs Systematics & The Four Pillars",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Systematics Definition",
+        "takeaway": "Systematics = Taxonomy + Phylogeny + Evolutionary Diversification Analysis. Systematics incorporates evolutionary branching history into the descriptive framework of taxonomy."
+      },
+      "content": "• Taxonomy (Coined by A.P. de Candolle): The science of characterization, identification, nomenclature, and classification of organisms. It provides the descriptive, functional operational framework.\n\n• Systematics (Derived from Latin systema; used by Carl Linnaeus in Systema Naturae): The scientific study of the diversity of organisms and all their evolutionary relationships (phylogeny).\n\nSystematics = Taxonomy + Phylogeny + Evolutionary Diversification Analysis\n\nThe Four Pillars of Taxonomy:\n1. Characterization: Morphological, anatomical, biochemical, molecular, and ecological profiling.\n2. Identification: Comparing an unknown organism’s characteristics against established standards/keys.\n3. Nomenclature: Assigning a standardized scientific name under strict international codes.\n4. Classification: Grouping the organism into a hierarchical system of categories based on shared diagnostic features."
+    },
+    {
+      "heading": "Card 3.2: Modern Schools of Taxonomy",
+      "title": "Card 3.2: Modern Schools of Taxonomy",
+      "type": "paragraph",
+      "content": "Contemporary biological taxonomy relies on four specialized analytical approaches:",
+      "listPills": [
+        {
+          "title": "Phenetics (Numerical Taxonomy)",
+          "text": "Devised by Sneath and Sokal. Evaluates overall morphological similarity without considering evolutionary lineage or ancestral vs. derived traits. Uses computers to assign equal weight to hundreds of observable characters simultaneously, calculating similarity matrices and constructing Phenograms."
+        },
+        {
+          "title": "Cytotaxonomy (Karyotaxonomy)",
+          "text": "Utilizes cytological parameters: chromosome number, chromosome morphology (centromere position: metacentric, submetacentric, acrocentric, telocentric), chromosome behavior during meiotic prophase-I (pachytene pairing, bivalent configuration), and nucleolar organizer regions (NOR)."
+        },
+        {
+          "title": "Chemotaxonomy",
+          "text": "Uses chemical constituents of plants/organisms: secondary metabolites (alkaloids, flavonoids, terpenoids, glucosinolates), amino acid sequences of conserved proteins (e.g., Cytochrome c, Ferredoxin), and DNA/RNA sequence architecture."
+        },
+        {
+          "title": "Cladistics (Phylogenetic Systematics)",
+          "text": "Developed by Willi Hennig. Classifies organisms strictly on the basis of evolutionary branching lineages (clades) verified by shared derived characters (synapomorphies). Monophyletic Clades = Valid (Common ancestor + ALL descendants). Paraphyletic = Invalid (Common ancestor + SOME descendants, e.g. traditional Reptilia excluding Aves). Polyphyletic = Invalid (Distant lineages converging without recent common ancestor)."
+        }
+      ]
+    }
+  ],
+  "quickRevision": [
+    "Systematics = Taxonomy + Phylogeny.",
+    "4 Pillars = Characterization, Identification, Nomenclature, Classification.",
+    "Phenetics = equal weighting; Cytotaxonomy = chromosomes; Chemotaxonomy = secondary metabolites/proteins.",
+    "Cladistics: Monophyletic (VALID), Paraphyletic & Polyphyletic (INVALID)."
+  ]
+}

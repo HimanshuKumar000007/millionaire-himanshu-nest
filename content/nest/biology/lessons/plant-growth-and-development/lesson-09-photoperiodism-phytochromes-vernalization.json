@@ -1,0 +1,36 @@
+{
+  "id": "bio-xi-u4-c13-l09",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Plant — Growth and Development",
+  "chapterNumber": 13,
+  "chapterSlug": "plant-growth-and-development",
+  "slug": "lesson-09-photoperiodism-phytochromes-vernalization",
+  "title": "Photoperiodism, Phytochrome Reversibility, & Vernalization",
+  "topic": "SDP vs LDP vs DNP Night Interruption, Pr/Pfr Interconversions, Florigen (FT), & FLC Epigenetics",
+  "order": 9,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "SDPs are long-night plants (red flash in dark inhibits flowering). Leaves perceive photoperiod via Phytochromes (Pr ⇌ Pfr) and send Florigen (FT protein) to apex. Meristems perceive cold in Vernalization.",
+  "summary": "SDPs are long-night plants (red flash in dark inhibits flowering). Leaves perceive photoperiod via Phytochromes (Pr ⇌ Pfr) and send Florigen (FT protein) to apex. Meristems perceive cold in Vernalization.",
+  "conceptBreakdown": [
+    {
+      "heading": "Photoperiodism, Phytochrome Reversibility, & Vernalization",
+      "title": "Photoperiodism, Phytochrome Reversibility, & Vernalization",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "SDPs are long-night plants (red flash in dark inhibits flowering). Leaves perceive photoperiod via Phytochromes (Pr ⇌ Pfr) and send Florigen (FT protein) to apex. Meristems perceive cold in Vernalization."
+      },
+      "codeSnippet": "PHYTOCHROME REVERSIBILITY\n                        \n               Red Light ($660\\text{ nm}$)\n               ─────────────────────────►\n   P_r (Inactive Form)                     P_fr (Active Form)\n   [Absorbs $660\\text{ nm}$] ◄───────────────────────── [Absorbs $730\\text{ nm}$]\n               Far-Red Light ($730\\text{ nm}$) / Dark Decay\n\n   SHORT-DAY PLANT (SDP):   [   Day   ] [   Uninterrupted Long Night   ] ──► FLOWERING\n                            [   Day   ] [   Night   | Flash |  Night   ] ──► NO FLOWERING\n                            \n   LONG-DAY PLANT (LDP):    [   Day   ] [   Night   | Flash |  Night   ] ──► FLOWERING",
+      "content": "### 9.1 Photoperiodism (Garner & Allard, 1920)\nPhotoperiodism is the physiological response to the relative lengths of light and dark periods regulating flowering.\n- **Short-Day Plants (SDP)**: Require night length exceeding critical duration (*Tobacco, Soybean, Cocklebur*). A brief flash of red light during the night **inhibits** flowering.\n- **Long-Day Plants (LDP)**: Require light exceeding critical duration (*Henbane, Wheat, Radish*). A red flash during night **promotes** flowering.\n- **Day-Neutral Plants (DNP)**: Flowering is independent of photoperiod (*Tomato, Sunflower, Cucumber, Maize*).\n\n### 9.2 Phytochrome Photoreceptor & Florigen\n- **Phytochrome**: Blue-green chromoprotein in leaves. Exists as $\\text{P}_r$ (absorbs $660\\text{ nm}$, inactive) and $\\text{P}_{fr}$ (absorbs $730\\text{ nm}$, biologically active).\n- **Florigen**: Systemic flowering signal (FT protein) synthesized in leaves under inductive photoperiods and transported via phloem to the shoot apex.\n\n### 9.3 Vernalization (Cold Temperature Induction)\n- Requirement for low temperature ($1\\text{--}10^\\circ\\text{C}$) to induce flowering in winter annuals (*Wheat, Barley*) and biennials (*Cabbage, Sugarbeet*).\n- **Perception Site**: Actively dividing meristematic cells (shoot apical meristem or embryo).\n- **Epigenetic Mechanism**: Cold exposure epigenetically silences the floral repressor gene *FLC* (*Flowering Locus C*).",
+      "contentMarkdown": "### 9.1 Photoperiodism (Garner & Allard, 1920)\nPhotoperiodism is the physiological response to the relative lengths of light and dark periods regulating flowering.\n- **Short-Day Plants (SDP)**: Require night length exceeding critical duration (*Tobacco, Soybean, Cocklebur*). A brief flash of red light during the night **inhibits** flowering.\n- **Long-Day Plants (LDP)**: Require light exceeding critical duration (*Henbane, Wheat, Radish*). A red flash during night **promotes** flowering.\n- **Day-Neutral Plants (DNP)**: Flowering is independent of photoperiod (*Tomato, Sunflower, Cucumber, Maize*).\n\n### 9.2 Phytochrome Photoreceptor & Florigen\n- **Phytochrome**: Blue-green chromoprotein in leaves. Exists as $\\text{P}_r$ (absorbs $660\\text{ nm}$, inactive) and $\\text{P}_{fr}$ (absorbs $730\\text{ nm}$, biologically active).\n- **Florigen**: Systemic flowering signal (FT protein) synthesized in leaves under inductive photoperiods and transported via phloem to the shoot apex.\n\n### 9.3 Vernalization (Cold Temperature Induction)\n- Requirement for low temperature ($1\\text{--}10^\\circ\\text{C}$) to induce flowering in winter annuals (*Wheat, Barley*) and biennials (*Cabbage, Sugarbeet*).\n- **Perception Site**: Actively dividing meristematic cells (shoot apical meristem or embryo).\n- **Epigenetic Mechanism**: Cold exposure epigenetically silences the floral repressor gene *FLC* (*Flowering Locus C*)."
+    }
+  ]
+}

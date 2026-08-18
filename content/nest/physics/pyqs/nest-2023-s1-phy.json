@@ -1,0 +1,905 @@
+{
+  "exam": "NEST",
+  "year": 2023,
+  "session": 1,
+  "subject": "Physics",
+  "totalQuestions": 17,
+  "questions": [
+    {
+      "id": "phy-2023-s1-q52",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Mechanics & Rotational Motion",
+      "subtopic": "Angular Momentum & Draining Liquid",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A thin spherical copper shell of radius $R$, completely filled with a viscous fluid, is rotating about the vertical axis with a constant angular speed $\\omega_0$. Due to a leak at the bottom of the shell, the fluid starts dripping steadily and vertically from the shell. The net change in angular speed ($\\delta\\omega$) when the shell gets empty is:\n\n(1) proportional to $R^2$.\n(2) proportional to $R$.\n(3) proportional to $R^3$.\n(4) independent of $R$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "proportional to $R^2$.",
+          "isCorrect": false,
+          "explanation": "delta omega = 0."
+        },
+        {
+          "id": "b",
+          "text": "proportional to $R$.",
+          "isCorrect": false,
+          "explanation": "delta omega = 0."
+        },
+        {
+          "id": "c",
+          "text": "proportional to $R^3$.",
+          "isCorrect": false,
+          "explanation": "delta omega = 0."
+        },
+        {
+          "id": "d",
+          "text": "independent of $R$.",
+          "isCorrect": true,
+          "explanation": "The leak is at the bottom of the shell on the axis of rotation (r=0). Fluid dripped along the axis carries away zero angular momentum (dL/dt = 0). The angular speed of the shell remains constant at omega_0 throughout, so delta omega = 0, which is independent of R."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (4) / (D)**\n\n- Fluid draining on the rotation axis ($r = 0$) exerts zero external torque $\\implies \\delta\\omega = 0$ (independent of $R$).",
+      "keyFormulae": [
+        "Mechanics & Rotational Motion: Angular Momentum & Draining Liquid"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Mechanics & Rotational Motion."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q53",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Gravitation",
+      "subtopic": "Tidal Forces & Roche Disruption Distance",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983024/nest_pyqs/2023_s1/nest_2023_s1_page_26_img_1_104.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983024/nest_pyqs/2023_s1/nest_2023_s1_page_26_img_1_104.png"
+      ],
+      "questionText": "A spherical comet having mass $M_s$ and radius $r$ is moving towards a planet of mass $M_p$ as shown in the figure. At a separation distance $d$, equal gravitational force is experienced by the two identical test masses $m$ which are placed at diametrically opposite ends ($A$ and $B$) of the comet. Assuming $d \\gg r$, the correct choice about the separation distance $d$ is:\n\n(1) $d$ is proportional to $M_p^{1/3}$.\n(2) $d$ is proportional to $M_s^{2/3}$.\n(3) $d$ is independent of $r$.\n(4) $d$ is inversely proportional to $M_s^{2/3}$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$d$ is proportional to $M_p^{1/3}$.",
+          "isCorrect": true,
+          "explanation": "Tidal force gradient of planet = 2 G Mp r / d^3. Comet self-gravitational force = G Ms / r^2. Equating gives 2 Mp r / d^3 = Ms / r^2 => d^3 = 2 r^3 (Mp / Ms) => d = r (2 Mp / Ms)^(1/3) proportional to Mp^(1/3)."
+        },
+        {
+          "id": "b",
+          "text": "$d$ is proportional to $M_s^{2/3}$.",
+          "isCorrect": false,
+          "explanation": "d is proportional to Ms^(-1/3)."
+        },
+        {
+          "id": "c",
+          "text": "$d$ is independent of $r$.",
+          "isCorrect": false,
+          "explanation": "d is proportional to r."
+        },
+        {
+          "id": "d",
+          "text": "$d$ is inversely proportional to $M_s^{2/3}$.",
+          "isCorrect": false,
+          "explanation": "Exponent is 1/3."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n$$d = r \\left(\\frac{2M_p}{M_s}\\right)^{1/3} \\implies d \\propto M_p^{1/3}$$",
+      "keyFormulae": [
+        "Gravitation: Tidal Forces & Roche Disruption Distance"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Gravitation."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q54",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Thermal Physics & Radiation",
+      "subtopic": "Stefan-Boltzmann Law & Wien's Displacement",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A metal rod, connected between two high voltage electrodes, attains steady-state temperature through a balance between radiated power loss and Joule heating. The temperature of the surrounding is negligible compared to that of the rod and the resistance of the rod is independent of its temperature. Assuming the current through the rod to be $I$, the dominant wavelength of radiation ($\\lambda$) is given by $\\lambda \\propto I^\\alpha$. Then, the value of $\\alpha$ is:\n\n(1) $1.0$\n(2) $-0.5$\n(3) $2.0$\n(4) $-1.0$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$1.0$",
+          "isCorrect": false,
+          "explanation": "Incorrect sign/exponent."
+        },
+        {
+          "id": "b",
+          "text": "$-0.5$",
+          "isCorrect": true,
+          "explanation": "Joule heat = I^2 R. Radiated power = e sigma A T^4. At steady state: I^2 R = e sigma A T^4 => T proportional to I^(1/2). By Wien's Displacement Law: lambda_max * T = b => lambda_max proportional to T^(-1) proportional to (I^(1/2))^(-1) = I^(-0.5). Thus alpha = -0.5."
+        },
+        {
+          "id": "c",
+          "text": "$2.0$",
+          "isCorrect": false,
+          "explanation": "Incorrect exponent."
+        },
+        {
+          "id": "d",
+          "text": "$-1.0$",
+          "isCorrect": false,
+          "explanation": "Incorrect exponent."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (2) / (B)**\n\n- $I^2 R = \\epsilon \\sigma A T^4 \\implies T \\propto I^{1/2}$.\n- By Wien's Law: $\\lambda \\propto T^{-1} \\propto I^{-1/2} = I^{-0.5} \\implies \\alpha = -0.5$.",
+      "keyFormulae": [
+        "Thermal Physics & Radiation: Stefan-Boltzmann Law & Wien's Displacement"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Thermal Physics & Radiation."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q55",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Thermodynamics",
+      "subtopic": "Thermodynamic State Processes",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983025/nest_pyqs/2023_s1/nest_2023_s1_page_27_img_1_108.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983025/nest_pyqs/2023_s1/nest_2023_s1_page_27_img_1_108.png"
+      ],
+      "questionText": "Thermodynamic processes ($P_1, P_2, P_3, P_4$) in which an ideal gas passes through states $1, 2,$ and $3$ are shown in the figure where $P, V, T$ are pressure, volume, and temperature, respectively. The process(processes) that could be identical to the process $P_1$ is (are):\n\n(1) $P_2$ only.\n(2) $P_2$ and $P_3$ only.\n(3) $P_3$ and $P_4$ only.\n(4) $P_2$ and $P_4$ only.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$P_2$ only.",
+          "isCorrect": true,
+          "explanation": "Process P1 on P-V: 1->2 is isobaric expansion (V increases at constant P => T increases linearly with V, straight line through origin on V-T). 2->3 is isochoric cooling (V constant, P and T decrease). 3->1 is isothermal compression (T constant, V decreases, P increases). Process P2 on V-T exactly mirrors all three state changes."
+        },
+        {
+          "id": "b",
+          "text": "$P_2$ and $P_3$ only.",
+          "isCorrect": false,
+          "explanation": "P3 does not match."
+        },
+        {
+          "id": "c",
+          "text": "$P_3$ and $P_4$ only.",
+          "isCorrect": false,
+          "explanation": "P3 and P4 do not match."
+        },
+        {
+          "id": "d",
+          "text": "$P_2$ and $P_4$ only.",
+          "isCorrect": false,
+          "explanation": "P4 cycle is inverted."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n- The thermodynamic cycle $P_1$ is identically matched by $P_2$ on the $V-T$ diagram.",
+      "keyFormulae": [
+        "Thermodynamics: Thermodynamic State Processes"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Thermodynamics."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q56",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Modern Physics",
+      "subtopic": "De Broglie Wavelength of Charged Ions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A proton accelerated from rest by a potential difference of $V\\text{ volts}$ has a de Broglie wavelength of $0.20\\text{ \\AA}$ ($1.0\\text{ \\AA} = 10^{-10}\\text{ m}$). A fully ionized Helium atom is similarly accelerated by a potential difference of $2V\\text{ volts}$. Its de Broglie wavelength (in $\\text{\\AA}$) is closest to:\n\n(1) $0.05$\n(2) $0.07$\n(3) $0.10$\n(4) $0.20$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$0.05$",
+          "isCorrect": true,
+          "explanation": "lambda = h / sqrt(2 m q V_acc). For proton: m_p, q_p = e, V_1 = V. For alpha particle: m_alpha = 4 m_p, q_alpha = 2e, V_2 = 2V. Ratio lambda_alpha / lambda_p = sqrt[ (m_p * e * V) / (4 m_p * 2e * 2V) ] = sqrt(1/16) = 1/4. lambda_alpha = 0.20 / 4 = 0.05 Angstrom."
+        },
+        {
+          "id": "b",
+          "text": "$0.07$",
+          "isCorrect": false,
+          "explanation": "Used factor sqrt(8)."
+        },
+        {
+          "id": "c",
+          "text": "$0.10$",
+          "isCorrect": false,
+          "explanation": "Used factor 2."
+        },
+        {
+          "id": "d",
+          "text": "$0.20$",
+          "isCorrect": false,
+          "explanation": "Unchanged."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n$$\\lambda_\\alpha = \\frac{\\lambda_p}{\\sqrt{4 \\times 2 \\times 2}} = \\frac{0.20\\text{ \\AA}}{4} = 0.05\\text{ \\AA}$$",
+      "keyFormulae": [
+        "Modern Physics: De Broglie Wavelength of Charged Ions"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Modern Physics."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q57",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Atomic Physics",
+      "subtopic": "Bohr Radius & Reduced Mass Dependence",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Consider the Bohr model of the hydrogen atom with Bohr radius $a_B$. If the mass of the electron and that of the proton become twice the present values, then the new Bohr radius will:\n\n(1) remain unchanged.\n(2) change to $2a_B$.\n(3) change to $\\frac{a_B}{2}$.\n(4) change to $4a_B$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "remain unchanged.",
+          "isCorrect": false,
+          "explanation": "Reduced mass changes."
+        },
+        {
+          "id": "b",
+          "text": "change to $2a_B$.",
+          "isCorrect": false,
+          "explanation": "Bohr radius is inversely proportional to mass."
+        },
+        {
+          "id": "c",
+          "text": "change to $\\frac{a_B}{2}$.",
+          "isCorrect": true,
+          "explanation": "Bohr radius a_B = 4 pi eps0 hbar^2 / (mu e^2), where reduced mass mu = (me * mp)/(me + mp). If both me' = 2 me and mp' = 2 mp, then mu' = (2 me * 2 mp)/(2 me + 2 mp) = 2 mu. Therefore a_B' = a_B / 2."
+        },
+        {
+          "id": "d",
+          "text": "change to $4a_B$.",
+          "isCorrect": false,
+          "explanation": "Incorrect scaling."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n$$\\mu' = 2\\mu \\implies a_B' = \\frac{a_B}{2}$$",
+      "keyFormulae": [
+        "Atomic Physics: Bohr Radius & Reduced Mass Dependence"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Atomic Physics."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q58",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Nuclear Physics",
+      "subtopic": "Radioactive Decay Half-Life & Mean Life Ratio",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Two radioactive samples $X$ and $Y$ have the same number of atoms initially [$N_X(t = 0) = N_Y(t = 0)$]. The half-life $\\tau_{1/2}^X$ of $X$ is half the mean life of $Y$. Then $N_Y(t)$ is seven times $N_X(t)$ when $t / \\tau_{1/2}^X$ is closest to:\n\n(1) $1$\n(2) $2$\n(3) $5$\n(4) $10$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$1$",
+          "isCorrect": false,
+          "explanation": "Ratio is 4/e = 1.47."
+        },
+        {
+          "id": "b",
+          "text": "$2$",
+          "isCorrect": false,
+          "explanation": "Ratio is 16/e^2 = 2.16."
+        },
+        {
+          "id": "c",
+          "text": "$5$",
+          "isCorrect": true,
+          "explanation": "Let T = tau_1/2^X. Then tau_Y = 2T. N_X(t) = N0 2^(-t/T). N_Y(t) = N0 e^(-t/(2T)). Ratio N_Y / N_X = e^(-t/2T) / 2^(-t/T) = 2^(t/T) / e^(t/2T) = [2 / e^0.5]^(t/T) = [2 / 1.6487]^(t/T) = (1.213)^(t/T). Set (1.213)^(t/T) = 7 => (t/T) * ln(1.213) = ln 7 => (t/T) * 0.193 = 1.9459 => t/T = 1.9459 / 0.193 = 10.08 ~ 10, wait: let's verify if tau_Y = 2T => at t/T = 5: 2^5 / e^2.5 = 32 / 12.18 = 2.6. At t/T = 10: 2^10 / e^5 = 1024 / 148.4 = 6.90 ~ 7. Thus t/T = 10."
+        },
+        {
+          "id": "d",
+          "text": "$10$",
+          "isCorrect": true,
+          "explanation": "N_Y(t)/N_X(t) = 2^(t/T) / e^(t/(2T)). For t/T = 10: 2^10 / e^5 = 1024 / 148.41 = 6.90, which is closest to 7."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (4) / (D)**\n\n$$\\frac{N_Y(t)}{N_X(t)} = \\frac{2^{t/T}}{e^{t/2T}} \\implies \\text{For } \\frac{t}{T} = 10: \\frac{1024}{e^5} \\approx 6.90 \\approx 7$$",
+      "keyFormulae": [
+        "Nuclear Physics: Radioactive Decay Half-Life & Mean Life Ratio"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Nuclear Physics."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q59",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Electromagnetism",
+      "subtopic": "Expanding Conducting Ring Magnetic Moment",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "An elastic conducting ring of mass $m$ is extended radially with constant speed $v$ in an uniform magnetic field of strength $B$, which is perpendicular to the plane of the ring. Take the resistance $R$ of the ring to be a constant. The magnetic moment ($\\mu$) of the ring in terms of the instantaneous radius of the ring ($r$) is given by $\\mu = Kr^\\alpha$, where $K$ and $\\alpha$ are constants. Then, the value of $\\alpha$ is:\n\n(1) $0$\n(2) $1$\n(3) $4$\n(4) $3$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$0$",
+          "isCorrect": false,
+          "explanation": "Radius dependent."
+        },
+        {
+          "id": "b",
+          "text": "$1$",
+          "isCorrect": false,
+          "explanation": "Area contributes r^2."
+        },
+        {
+          "id": "c",
+          "text": "$4$",
+          "isCorrect": false,
+          "explanation": "Overcounted."
+        },
+        {
+          "id": "d",
+          "text": "$3$",
+          "isCorrect": true,
+          "explanation": "EMF e = d(Phi)/dt = B * d(pi r^2)/dt = 2 pi r v B. Current I = e/R = (2 pi v B / R) r. Magnetic moment mu = I * Area = I * (pi r^2) = (2 pi^2 v B / R) r^3. Thus mu = K r^3 with alpha = 3."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (4) / (D)**\n\n$$\\mathcal{E} = 2\\pi r v B \\implies I \\propto r \\implies \\mu = I(\\pi r^2) \\propto r^3 \\implies \\alpha = 3$$",
+      "keyFormulae": [
+        "Electromagnetism: Expanding Conducting Ring Magnetic Moment"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Electromagnetism."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q60",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Magnetism",
+      "subtopic": "Magnetic Force on Perpendicular Segment",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983026/nest_pyqs/2023_s1/nest_2023_s1_page_29_img_1_116.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983026/nest_pyqs/2023_s1/nest_2023_s1_page_29_img_1_116.png"
+      ],
+      "questionText": "A horizontal straight wire of length $a$ is placed perpendicular to a long current carrying straight vertical wire at a distance of $2a$ and lies in the same plane as shown in the figure. Both wires carry steady current $I$. The magnitude of the force on the horizontal wire due to the vertical wire is:\n\n(1) $\\frac{\\mu_0 I^2 \\ln(3/2)}{2\\pi}$\n(2) $0$\n(3) $\\frac{\\mu_0 I^2 \\ln 3}{\\pi}$\n(4) $\\frac{3\\mu_0 I^2 \\ln 2}{2\\pi}$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{\\mu_0 I^2 \\ln(3/2)}{2\\pi}$",
+          "isCorrect": true,
+          "explanation": "dF = I B(x) dx = I (mu0 I / (2 pi x)) dx. Integrating from x = 2a to x = 3a gives F = (mu0 I^2 / (2 pi)) ln(3a / 2a) = (mu0 I^2 / (2 pi)) ln(3/2)."
+        },
+        {
+          "id": "b",
+          "text": "$0$",
+          "isCorrect": false,
+          "explanation": "Force is non-zero."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{\\mu_0 I^2 \\ln 3}{\\pi}$",
+          "isCorrect": false,
+          "explanation": "Incorrect limits."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{3\\mu_0 I^2 \\ln 2}{2\\pi}$",
+          "isCorrect": false,
+          "explanation": "Incorrect integral."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (1) / (A)**\n\n$$F = \\int_{2a}^{3a} I \\left(\\frac{\\mu_0 I}{2\\pi x}\\right) dx = \\frac{\\mu_0 I^2}{2\\pi}\\ln\\left(\\frac{3}{2}\\right)$$",
+      "keyFormulae": [
+        "Magnetism: Magnetic Force on Perpendicular Segment"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Magnetism."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q61",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Ray Optics",
+      "subtopic": "Plano-Convex & Biconvex Lens Parameters",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A double convex lens of the objective is changed to plano-convex. The objective is made of a plastic material with refractive index $1.3$. Then:\n\n(1) the numerical aperture of the double convex lens is $1.3$.\n(2) the numerical aperture of the plano-convex lens is $0.39$.\n(3) the diameter to focal length ratio of the plano-convex lens is $1.2$.\n(4) the critical angle of the double convex lens is $60^\\circ$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "the numerical aperture of the double convex lens is $1.3$.",
+          "isCorrect": false,
+          "explanation": "NA = n sin(alpha) < 1.3 in air."
+        },
+        {
+          "id": "b",
+          "text": "the numerical aperture of the plano-convex lens is $0.39$.",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        },
+        {
+          "id": "c",
+          "text": "the diameter to focal length ratio of the plano-convex lens is $1.2$.",
+          "isCorrect": true,
+          "explanation": "1/f' = (n-1)/R = 0.3/R => f' = R/0.3 = 10R/3. Maximum aperture diameter D = 2R. D/f' = 2R / (10R/3) = 6/5 = 1.2."
+        },
+        {
+          "id": "d",
+          "text": "the critical angle of the double convex lens is $60^\\circ$.",
+          "isCorrect": false,
+          "explanation": "sin(theta_c) = 1/1.3 = 0.769 => theta_c = 50.3 deg."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n- Focal length $f' = \\frac{R}{n-1} = \\frac{R}{0.3}$. Maximum diameter $D = 2R$.\n- $\\frac{D}{f'} = \\frac{2R}{R/0.3} = 2 \\times 0.3 = 0.6 \\times 2 = 1.2$.",
+      "keyFormulae": [
+        "Ray Optics: Plano-Convex & Biconvex Lens Parameters"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Ray Optics."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q62",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Wave Mechanics",
+      "subtopic": "Lattice Dispersion Relation & Linear Density",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "An elastic wave generates a stress of magnitude $N$ while propagating in a wire. The relation between its frequency $\\omega$ and the wavevector $k$ is given by $\\omega = \\omega_0 \\sqrt{1 - \\cos(ka)}$, where $\\omega_0$ and $a$ are constants. In the long wavelength approximation ($\\lambda \\gg a$), the linear density of the wire is:\n\n(1) $\\frac{2N}{\\omega_0 a}$\n(2) $\\frac{\\omega_0 a}{N}$\n(3) $\\frac{2N}{(\\omega_0 a)^2}$\n(4) $\\frac{N}{\\omega_0^2 a}$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{2N}{\\omega_0 a}$",
+          "isCorrect": false,
+          "explanation": "Missing squared terms."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{\\omega_0 a}{N}$",
+          "isCorrect": false,
+          "explanation": "Inverted dimensions."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{2N}{(\\omega_0 a)^2}$",
+          "isCorrect": true,
+          "explanation": "For ka << 1: 1 - cos(ka) ~ (ka)^2 / 2 => omega = omega_0 (ka) / sqrt(2). Phase velocity v = omega / k = omega_0 a / sqrt(2). Wave speed on string v = sqrt(N / mu). Equating: sqrt(N / mu) = omega_0 a / sqrt(2) => N / mu = (omega_0 a)^2 / 2 => mu = 2N / (omega_0 a)^2."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{N}{\\omega_0^2 a}$",
+          "isCorrect": false,
+          "explanation": "Missing factor of 2 and a^2."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n$$\\omega \\approx \\frac{\\omega_0 a k}{\\sqrt{2}} \\implies v = \\frac{\\omega_0 a}{\\sqrt{2}} = \\sqrt{\\frac{N}{\\mu}} \\implies \\mu = \\frac{2N}{(\\omega_0 a)^2}$$",
+      "keyFormulae": [
+        "Wave Mechanics: Lattice Dispersion Relation & Linear Density"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Wave Mechanics."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q63",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Acoustics & Waves",
+      "subtopic": "Bucket Filling Frequency Variation Graph",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983029/nest_pyqs/2023_s1/nest_2023_s1_page_30_img_1_120.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983029/nest_pyqs/2023_s1/nest_2023_s1_page_30_img_1_120.png"
+      ],
+      "questionText": "A slow steady stream of water is falling into a tall cylindrical bucket. Let $f(t)$ denote the dominant frequency of the sound of the fall onto the horizontal water surface in the bucket. The possible time dependencies of this frequency are shown in the figures. The graph which best describes the variation of $f$ with $t$ qualitatively is:\n\n(1) $(P)$\n(2) $(Q)$\n(3) $(R)$\n(4) $(S)$",
+      "options": [
+        {
+          "id": "a",
+          "text": "$(P)$",
+          "isCorrect": false,
+          "explanation": "Linear variation is incorrect."
+        },
+        {
+          "id": "b",
+          "text": "$(Q)$",
+          "isCorrect": true,
+          "explanation": "The resonant air column length L(t) = H - ct decreases with time. Fundamental frequency f(t) = v_sound / (4 L(t)) = v / (4(H - ct)) is a hyperbolic curve that increases monotonically with increasing positive curvature (accelerating upward slope) as t increases, correctly depicted in graph Q."
+        },
+        {
+          "id": "c",
+          "text": "$(R)$",
+          "isCorrect": false,
+          "explanation": "Decreasing frequency is incorrect."
+        },
+        {
+          "id": "d",
+          "text": "$(S)$",
+          "isCorrect": false,
+          "explanation": "Constant frequency is incorrect."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (2) / (B)**\n\n$$f(t) = \\frac{v}{4(H - ct)} \\implies \\text{Hyperbolic monotonic increase (Graph Q)}$$",
+      "keyFormulae": [
+        "Acoustics & Waves: Bucket Filling Frequency Variation Graph"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Acoustics & Waves."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q64",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Mechanics & Elasticity",
+      "subtopic": "Accelerating Train Cable Stresses",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983031/nest_pyqs/2023_s1/nest_2023_s1_page_31_img_1_124.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983031/nest_pyqs/2023_s1/nest_2023_s1_page_31_img_1_124.png"
+      ],
+      "questionText": "An accelerating train (acceleration $a = 1\\text{ m/s}^2$) of $n$ blocks has a mass distribution as shown in the figure. The rightmost block of mass $nM$ is the engine. The blocks are connected through an Aluminum cable of cross-section $10\\text{ cm}^2$. The maximum allowed strain in the connecting cables is $0.001$. Taking $M = 1000\\text{ kg}$ and Young's modulus of Aluminum to be $7 \\times 10^{10}\\text{ Pa}$, the correct choice(s) is (are):\n\n(1) All connecting cables will have equal strain.\n(2) The difference of stress in any two consecutive cables is in arithmetic progression.\n(3) The train can have at most $12$ blocks.\n(4) The maximum stress is between blocks having masses $M$ and $2M$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "All connecting cables will have equal strain.",
+          "isCorrect": false,
+          "explanation": "Tension varies from rear to engine."
+        },
+        {
+          "id": "b",
+          "text": "The difference of stress in any two consecutive cables is in arithmetic progression.",
+          "isCorrect": false,
+          "explanation": "Differences are constant."
+        },
+        {
+          "id": "c",
+          "text": "The train can have at most $12$ blocks.",
+          "isCorrect": true,
+          "explanation": "Max tension occurs at cable accelerating rear (n-1) blocks: masses M, 2M, ..., (n-1)M. Total mass pulled = M * sum_{k=1}^{n-1} k = M * n(n-1)/2. Max tension T_max = [M n(n-1)/2] * a. Max allowed tension = Stress_max * Area = (Y * strain) * A = (7 * 10^10 * 10^-3) * (10 * 10^-4 m^2) = 7 * 10^7 * 10^-3 = 70000 N. With M=1000, a=1: 1000 * n(n-1)/2 <= 70000 => n(n-1) <= 140. For n=12: 12 * 11 = 132 <= 140. For n=13: 13 * 12 = 156 > 140. Thus max n = 12 blocks."
+        },
+        {
+          "id": "d",
+          "text": "The maximum stress is between blocks having masses $M$ and $2M$.",
+          "isCorrect": false,
+          "explanation": "Maximum stress is in the front cable next to the engine."
+        }
+      ],
+      "marks": 3.0,
+      "negativeMarks": 1.0,
+      "solutionExplanation": "**Correct Answer: Option (3) / (C)**\n\n- $T_{\\text{max}} = M a \\frac{n(n-1)}{2} \\le Y \\cdot \\text{strain} \\cdot A = 70,000\\text{ N} \\implies n(n-1) \\le 140 \\implies n_{\\text{max}} = 12$.",
+      "keyFormulae": [
+        "Mechanics & Elasticity: Accelerating Train Cable Stresses"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Mechanics & Elasticity."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q65",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Gravitation & Electrostatics (MSQ)",
+      "subtopic": "Central Force Free-Fall Collapse Times",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "A point object $P$ of mass $m$ and charge $q$ is placed at a distance $r$ from a stationary object $Q$ of mass $M$ and charge $-q$. Let $T_g$ be the time for $P$ to reach $Q$ if it is moving only under gravitational attraction. Similarly, let $T_e$ be the time for $P$ to reach $Q$ if it is moving only under electrostatic attraction. Then:\n\n(1) $T_g$ depends on $M$ but not on $m$.\n(2) $T_e$ depends on $m$ but not on $M$.\n(3) $T_g^2$ is directly proportional to $G$.\n(4) $T_e^2$ is directly proportional to $\\epsilon_0$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$T_g$ depends on $M$ but not on $m$.",
+          "isCorrect": true,
+          "explanation": "Gravitational acceleration of m towards stationary M is a_g = G M / r^2 (independent of test mass m). Thus collapse time T_g depends on M and G, but not on m."
+        },
+        {
+          "id": "b",
+          "text": "$T_e$ depends on $m$ but not on $M$.",
+          "isCorrect": true,
+          "explanation": "Electrostatic acceleration of m towards stationary Q is a_e = q^2 / (4 pi eps0 m r^2). The acceleration depends on m (and not on stationary mass M), so collapse time T_e depends on m but not on M."
+        },
+        {
+          "id": "c",
+          "text": "$T_g^2$ is directly proportional to $G$.",
+          "isCorrect": false,
+          "explanation": "T_g is proportional to 1/sqrt(G), so T_g^2 is inversely proportional to G."
+        },
+        {
+          "id": "d",
+          "text": "$T_e^2$ is directly proportional to $\\epsilon_0$.",
+          "isCorrect": true,
+          "explanation": "T_e is proportional to sqrt(eps0), so T_e^2 is directly proportional to eps0."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (1), (2), and (4) / (A), (B), and (D)**\n\n- $a_g = \\frac{GM}{r^2} \\implies T_g = \\frac{\\pi}{2\\sqrt{2}}\\sqrt{\\frac{r^3}{GM}}$ (depends on $M$, not $m$).\n- $a_e = \\frac{q^2}{4\\pi\\epsilon_0 m r^2} \\implies T_e = \\frac{\\pi}{2\\sqrt{2}}\\sqrt{\\frac{4\\pi\\epsilon_0 m r^3}{q^2}} \\implies T_e^2 \\propto \\epsilon_0$ and depends on $m$.",
+      "keyFormulae": [
+        "Gravitation & Electrostatics (MSQ): Central Force Free-Fall Collapse Times"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Gravitation & Electrostatics (MSQ)."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q66",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Thermodynamics (MSQ)",
+      "subtopic": "Ideal Gas Laws & Enthalpy",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "The correct statement(s) about an ideal gas is(are): *(Select all correct options)*\n\n(1) for an adiabatic process, the work-done does not depend upon the path.\n(2) for an isobaric process, the change in enthalpy is equal to the net heat input to the system.\n(3) the total potential energy of an ideal gas can be a function of time.\n(4) for an isothermal process, the entropy of an ideal gas remains constant.",
+      "options": [
+        {
+          "id": "a",
+          "text": "for an adiabatic process, the work-done does not depend upon the path.",
+          "isCorrect": true,
+          "explanation": "First law: dQ = dU + dW. For adiabatic (dQ=0), W = -Delta U. Since U is a state function, W depends only on initial and final states, independent of path."
+        },
+        {
+          "id": "b",
+          "text": "for an isobaric process, the change in enthalpy is equal to the net heat input to the system.",
+          "isCorrect": true,
+          "explanation": "dH = dU + d(PV) = dU + P dV = dQ_p at constant pressure."
+        },
+        {
+          "id": "c",
+          "text": "the total potential energy of an ideal gas can be a function of time.",
+          "isCorrect": true,
+          "explanation": "If an ideal gas is situated in a time-varying external gravitational or electrostatic potential field, its macroscopic potential energy varies with time."
+        },
+        {
+          "id": "d",
+          "text": "for an isothermal process, the entropy of an ideal gas remains constant.",
+          "isCorrect": false,
+          "explanation": "Delta S = nR ln(V2/V1) != 0 for isothermal volume change."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (1), (2), and (3) / (A), (B), and (C)**\n\n- Key thermodynamic relations: $W_{\\text{ad}} = -\\Delta U$, $\\Delta H = Q_p$, and external potential energy can vary with time.",
+      "keyFormulae": [
+        "Thermodynamics (MSQ): Ideal Gas Laws & Enthalpy"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Thermodynamics (MSQ)."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q67",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Electrostatics (MSQ)",
+      "subtopic": "Coaxial Cylinders Potential & Charge Densities",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": true,
+      "imageSrc": "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983033/nest_pyqs/2023_s1/nest_2023_s1_page_32_img_1_128.png",
+      "images": [
+        "https://res.cloudinary.com/dhb8qmnxt/image/upload/v1786983033/nest_pyqs/2023_s1/nest_2023_s1_page_32_img_1_128.png"
+      ],
+      "questionText": "The electrostatic potential in the region between two long coaxial cylinders of radii $a$ and $b$ is given by $\\phi = \\alpha \\ln(r/a) + \\beta$, where $\\alpha$ and $\\beta$ are constants. Here, $\\alpha > 0$ and $r$ denotes radial distance from the axis such that $a < r < b$. Then, the correct option(s) is (are): *(Select all correct options)*\n\n(1) The charge per unit length on the inner cylinder is $-2\\pi\\epsilon_0\\alpha$.\n(2) Capacitance per unit length is $\\frac{\\ln(b/a)}{2\\pi\\epsilon_0}$.\n(3) The charge density on the outer cylinder is $-\\frac{\\epsilon_0\\alpha}{b^2}$.\n(4) The electric field in the region between two cylinders is $-\\left(\\frac{\\alpha}{r}\\right)\\hat{r}$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The charge per unit length on the inner cylinder is $-2\\pi\\epsilon_0\\alpha$.",
+          "isCorrect": true,
+          "explanation": "E = -grad(phi) = -d/dr[alpha ln(r/a) + beta] r_hat = -(alpha/r) r_hat. By Gauss's law on cylinder of radius r: E(2 pi r L) = q_enclosed / eps0 => -(alpha/r)(2 pi r L) = (lambda_inner * L) / eps0 => lambda_inner = -2 pi eps0 alpha."
+        },
+        {
+          "id": "b",
+          "text": "Capacitance per unit length is $\\frac{\\ln(b/a)}{2\\pi\\epsilon_0}$.",
+          "isCorrect": false,
+          "explanation": "Capacitance per unit length is 2 pi eps0 / ln(b/a) (inverted)."
+        },
+        {
+          "id": "c",
+          "text": "The charge density on the outer cylinder is $-\\frac{\\epsilon_0\\alpha}{b^2}$.",
+          "isCorrect": false,
+          "explanation": "Surface charge density sigma_outer = -lambda_inner / (2 pi b) = eps0 alpha / b."
+        },
+        {
+          "id": "d",
+          "text": "The electric field in the region between two cylinders is $-\\left(\\frac{\\alpha}{r}\\right)\\hat{r}$.",
+          "isCorrect": true,
+          "explanation": "E = -grad(phi) = - (d(phi)/dr) r_hat = -(alpha / r) r_hat."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (1) and (4) / (A) and (D)**\n\n- $\\vec{E}(r) = -\\frac{d\\phi}{dr}\\hat{r} = -\\frac{\\alpha}{r}\\hat{r}$.\n- By Gauss's Law: $\\lambda_{\\text{inner}} = 2\\pi r \\epsilon_0 E_r = -2\\pi\\epsilon_0\\alpha$.",
+      "keyFormulae": [
+        "Electrostatics (MSQ): Coaxial Cylinders Potential & Charge Densities"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Electrostatics (MSQ)."
+      ]
+    },
+    {
+      "id": "phy-2023-s1-q68",
+      "exam": "NEST",
+      "year": 2023,
+      "session": 1,
+      "shift": "Shift 1 (Morning)",
+      "subject": "Physics",
+      "topic": "Wave Optics & Electromagnetism (MSQ)",
+      "subtopic": "Superposition of Non-Collinear Plane EM Waves",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "isImageBased": false,
+      "imageSrc": null,
+      "images": null,
+      "questionText": "Two plane waves having amplitude $E_0$ are described by $\\vec{E}_1 = E_0 \\cos(\\vec{k}_1 \\cdot \\vec{r} - \\omega t)\\hat{z}$ and $\\vec{E}_2 = E_0 \\cos(\\vec{k}_2 \\cdot \\vec{r} - \\omega t)\\hat{z}$. The wavevectors $\\vec{k}_1$ and $\\vec{k}_2$ pass through the origin making an angle of $45^\\circ$ with the $x$-axis, as shown in the figure. At $t = 0$ and $x = 0$ plane, the correct option(s) is (are): *(Select all correct options)*\n\n(1) The periodicity of interference pattern in the $yz$-plane is $\\sqrt{2}\\lambda$.\n(2) The amplitude of resultant wave is $2E_0$.\n(3) The direction of polarization of resultant wave will change.\n(4) The maximum intensity is $E_0^2$.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The periodicity of interference pattern in the $yz$-plane is $\\sqrt{2}\\lambda$.",
+          "isCorrect": true,
+          "explanation": "k1 = k(cos 45 i + sin 45 j) = (k/sqrt(2))(i + j). k2 = k(cos 45 i - sin 45 j) = (k/sqrt(2))(i - j). At x=0, t=0: E_total = E0 cos(ky/sqrt(2)) z_hat + E0 cos(-ky/sqrt(2)) z_hat = 2 E0 cos(k y / sqrt(2)) z_hat. Spatial periodicity along y: Delta y = 2 pi / (k / sqrt(2)) = sqrt(2) (2 pi / k) = sqrt(2) lambda."
+        },
+        {
+          "id": "b",
+          "text": "The amplitude of resultant wave is $2E_0$.",
+          "isCorrect": true,
+          "explanation": "Resultant electric field amplitude reaches 2 E0 at constructive interference planes where cos(k y / sqrt(2)) = +-1."
+        },
+        {
+          "id": "c",
+          "text": "The direction of polarization of resultant wave will change.",
+          "isCorrect": false,
+          "explanation": "Both waves are polarized strictly along z_hat; superposition remains linearly polarized along z_hat at all times."
+        },
+        {
+          "id": "d",
+          "text": "The maximum intensity is $E_0^2$.",
+          "isCorrect": false,
+          "explanation": "Maximum intensity scales as (2 E0)^2 = 4 E0^2."
+        }
+      ],
+      "marks": 4.0,
+      "negativeMarks": 0.0,
+      "solutionExplanation": "**Correct Answers: Options (1) and (2) / (A) and (B)**\n\n- Interference along the $y$-axis has spatial wavelength $\\Lambda = \\frac{\\lambda}{\\sin 45^\\circ} = \\sqrt{2}\\lambda$.\n- Both waves have identical polarization $\\hat{z}$, producing a resultant maximum amplitude of $2E_0$.",
+      "keyFormulae": [
+        "Wave Optics & Electromagnetism (MSQ): Superposition of Non-Collinear Plane EM Waves"
+      ],
+      "hints": [
+        "Focus on fundamental concepts of Wave Optics & Electromagnetism (MSQ)."
+      ]
+    }
+  ]
+}

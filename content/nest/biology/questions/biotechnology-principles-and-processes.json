@@ -1,0 +1,608 @@
+[
+  {
+    "id": "bio-xii-u9-c9-q01",
+    "questionNumber": 1,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "pBR322 Insertional Inactivation Selection",
+    "questionText": "A molecular biologist cleaves a 5.0 kb circular plasmid vector using the restriction endonuclease Bam HI, which has a single unique recognition site within the tet^R gene. The linearized vector is incubated with a 1.5 kb foreign DNA insert that was also digested with Bam HI, in the presence of T4 DNA Ligase. Following transformation of competent, ampicillin-sensitive E. coli cells, what antibiotic selection plating strategy will specifically identify the RECOMBINANT colonies?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Colonies that grow on Ampicillin plates BUT DIE when replica-plated onto Tetracycline plates"
+      },
+      {
+        "id": "B",
+        "text": "Colonies that grow on Tetracycline plates BUT DIE when replica-plated onto Ampicillin plates"
+      },
+      {
+        "id": "C",
+        "text": "Colonies that grow on BOTH Ampicillin and Tetracycline plates simultaneously"
+      },
+      {
+        "id": "D",
+        "text": "Colonies that turn bright blue when grown on X-Gal media"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Inserting the 1.5 kb foreign DNA into the Bam HI site causes Insertional Inactivation of the tet^R gene. The recombinant plasmid retains a functional amp^R gene but has lost tet^R function. Therefore, recombinants will grow on Ampicillin media (selection for transformants), but die when exposed to Tetracycline (screening for insertional inactivation)."
+  },
+  {
+    "id": "bio-xii-u9-c9-q02",
+    "questionNumber": 2,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "PCR Annealing Temperature Error",
+    "questionText": "During PCR amplification of a specific 500 bp target gene, a student mistakenly sets the thermal cycler annealing temperature to 92°C instead of the optimal 55°C. What will be the biochemical outcome of this thermal error?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Taq Polymerase will undergo immediate thermal denaturation and lose activity."
+      },
+      {
+        "id": "B",
+        "text": "Oligonucleotide primers will fail to form hydrogen bonds with the single-stranded template DNA, preventing annealing and halting amplification."
+      },
+      {
+        "id": "C",
+        "text": "DNA synthesis will proceed 10 times faster, producing non-specific amplicon smears."
+      },
+      {
+        "id": "D",
+        "text": "Taq Polymerase will switch to 3' -> 5' reverse transcriptase activity."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Annealing requires a lower temperature (~50–65°C) to allow short oligonucleotide primers to form stable complementary hydrogen bonds with single-stranded template DNA. At 92°C, high thermal kinetic energy prevents hydrogen bond formation, so primers cannot anneal, completely halting PCR amplification."
+  },
+  {
+    "id": "bio-xii-u9-c9-q03",
+    "questionNumber": 3,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "EtBr Staining & Elution",
+    "questionText": "Following enzymatic digestion of genomic DNA, a student performs Agarose Gel Electrophoresis. After staining the gel with Ethidium Bromide (EtBr) and exposing it to Ultraviolet (UV) light, the student observes distinct fluorescent bands. What color do the DNA bands fluoresce under UV light, and what is the process of physically cutting out and extracting these bands called?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bright Blue fluorescence; Process = Spooling"
+      },
+      {
+        "id": "B",
+        "text": "Bright Orange fluorescence; Process = Elution"
+      },
+      {
+        "id": "C",
+        "text": "Dark Purple fluorescence; Process = Annealing"
+      },
+      {
+        "id": "D",
+        "text": "Yellow-Green fluorescence; Process = Transformation"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Ethidium Bromide (EtBr) intercalates between DNA base pairs and fluoresces Bright Orange under UV light. The process of physically cutting out the orange DNA band from the agarose gel and extracting the DNA from the gel matrix is called Elution."
+  },
+  {
+    "id": "bio-xii-u9-c9-q04",
+    "questionNumber": 4,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "First Restriction Endonuclease Hind II",
+    "questionText": "Which specific bacterial strain provided the first isolated restriction endonuclease Hind II, and what is the exact length of the palindromic nucleotide sequence recognized by Hind II?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Escherichia coli RY 13; 4 base pairs"
+      },
+      {
+        "id": "B",
+        "text": "Haemophilus influenzae strain Rd; 6 base pairs"
+      },
+      {
+        "id": "C",
+        "text": "Thermus aquaticus; 8 base pairs"
+      },
+      {
+        "id": "D",
+        "text": "Agrobacterium tumefaciens; 12 base pairs"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Hind II was the first restriction endonuclease discovered (isolated from Haemophilus influenzae strain Rd by Hamilton Smith). It recognizes and cleaves a specific 6 base pair palindromic sequence (5'-GTY|RAC-3')."
+  },
+  {
+    "id": "bio-xii-u9-c9-q05",
+    "questionNumber": 5,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Blue-White Screening lacZ Inactivation",
+    "questionText": "In blue-white chromogenic screening using vectors like pUC19, transformed E. coli cells are plated on media containing X-Gal. Why do RECOMBINANT bacterial colonies appear WHITE rather than blue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Recombinants destroy the X-Gal substrate via secretin enzymes."
+      },
+      {
+        "id": "B",
+        "text": "Insertion of foreign DNA into the lac Z gene causes Insertional Inactivation, producing a non-functional beta-Galactosidase enzyme that cannot cleave X-Gal."
+      },
+      {
+        "id": "C",
+        "text": "Non-recombinants synthesize green fluorescent protein (GFP) that masks blue color."
+      },
+      {
+        "id": "D",
+        "text": "Recombinants lack an origin of replication (ori)."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In pUC19, foreign DNA is inserted into the Multiple Cloning Site located within the lac Z gene (which encodes beta-Galactosidase). Successful insertion disrupts lac Z (Insertional Inactivation), producing a non-functional enzyme. Unable to hydrolyze X-Gal into a blue product, recombinant colonies remain WHITE."
+  },
+  {
+    "id": "bio-xii-u9-c9-q06",
+    "questionNumber": 6,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Biolistics Gene Gun Microparticles",
+    "questionText": "Which physical transformation method uses high-velocity microparticles of Gold or Tungsten coated with foreign DNA to transform plant host cells?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Micro-injection"
+      },
+      {
+        "id": "B",
+        "text": "Biolistics / Gene Gun"
+      },
+      {
+        "id": "C",
+        "text": "Electroporation"
+      },
+      {
+        "id": "D",
+        "text": "Heat-Shock divalent cation treatment"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Biolistics (Gene Gun) is a physical transformation technique where microscopic gold or tungsten particles (1 μm) coated with recombinant DNA are accelerated at ultra-high velocities into target plant cells, penetrating the rigid plant cell wall."
+  },
+  {
+    "id": "bio-xii-u9-c9-q07",
+    "questionNumber": 7,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Rop Gene Function in pBR322",
+    "questionText": "What is the role of the Rop gene in the cloning vector pBR322?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Confers resistance to the antibiotic Ampicillin"
+      },
+      {
+        "id": "B",
+        "text": "Encodes proteins involved in controlling the replication and copy number of the plasmid"
+      },
+      {
+        "id": "C",
+        "text": "Serves as a primary promoter for foreign gene expression"
+      },
+      {
+        "id": "D",
+        "text": "Encodes beta-galactosidase for chromogenic screening"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The Rop gene (Repressor of Priming) in pBR322 encodes a small protein that regulates plasmid replication and maintains the plasmid copy number within the host cell."
+  },
+  {
+    "id": "bio-xii-u9-c9-q08",
+    "questionNumber": 8,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Cell Wall Lysis & Chilled Ethanol Spooling",
+    "questionText": "A biotechnologist isolates genomic DNA from plant tissue. Which enzyme must be added to the cell lysate during initial cell wall digestion, and what reagent is added at the final step to precipitate purified DNA threads out of solution ('spooling')?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lysozyme; Chilled Acetone"
+      },
+      {
+        "id": "B",
+        "text": "Cellulase; Chilled Ethanol"
+      },
+      {
+        "id": "C",
+        "text": "Chitinase; Hot Isopropanol"
+      },
+      {
+        "id": "D",
+        "text": "Ribonuclease; Sodium Hydroxide"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Plant cell walls composed of cellulose are digested using Cellulase. After treating the lysate with RNase and Proteases to remove RNA and proteins, purified DNA is precipitated out of solution by adding Chilled (Ice-Cold) Ethanol, which allows the fine DNA threads to be spooled out."
+  },
+  {
+    "id": "bio-xii-u9-c9-q09",
+    "questionNumber": 9,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Sparged Stirred-Tank Bioreactor Mechanics",
+    "questionText": "How does a Sparged Stirred-Tank Bioreactor differ fundamentally from a Simple Stirred-Tank Bioreactor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A sparged reactor uses magnetic fields instead of motor drives."
+      },
+      {
+        "id": "B",
+        "text": "A sparged reactor features a base sparger ring that bubbles sterile air through the medium, dramatically increasing oxygen transfer surface area."
+      },
+      {
+        "id": "C",
+        "text": "A sparged reactor operates exclusively as a closed batch system without sampling ports."
+      },
+      {
+        "id": "D",
+        "text": "A sparged reactor does not require foam controls or temperature sensors."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A Sparged Stirred-Tank Bioreactor is equipped with a perforated sparger ring at the bottom that continuously bubbles sterile air (O2) through the liquid culture, creating millions of micro-bubbles and dramatically expanding the surface area for oxygen transfer."
+  },
+  {
+    "id": "bio-xii-u9-c9-q10",
+    "questionNumber": 10,
+    "questionType": "MCQ",
+    "difficulty": "Medium",
+    "topic": "Agrobacterium Ti Plasmid T-DNA",
+    "questionText": "Why is Agrobacterium tumefaciens described as 'Nature's Genetic Engineer' in plant biotechnology?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It naturally synthesizes penicillin to kill plant viruses."
+      },
+      {
+        "id": "B",
+        "text": "It naturally transfers a specific DNA segment (T-DNA) from its Tumor-Inducing (Ti) plasmid into host plant nuclear genomes."
+      },
+      {
+        "id": "C",
+        "text": "It fixes atmospheric nitrogen inside monocot leaf stomata."
+      },
+      {
+        "id": "D",
+        "text": "It produces heat-stable Taq Polymerase for plant PCR reactions."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Agrobacterium tumefaciens naturally infects dicotyledonous plants by delivering a specific segment of its Ti (Tumor-Inducing) plasmid, called the T-DNA, into host plant cells, where it integrates stably into the plant nuclear genome."
+  },
+  {
+    "id": "bio-xii-u9-c9-q11",
+    "questionNumber": 11,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Cloning Vector Essential Features",
+    "questionText": "Which of the following features represent essential requirements for a functional Plasmid Cloning Vector?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Origin of Replication (ori) that controls plasmid copy number"
+      },
+      {
+        "id": "B",
+        "text": "Unique Restriction Enzyme Recognition Sites within the Multiple Cloning Site (MCS)"
+      },
+      {
+        "id": "C",
+        "text": "Selectable Marker Genes (e.g., amp^R, tet^R) to distinguish transformants from non-transformants"
+      },
+      {
+        "id": "D",
+        "text": "High molecular weight (>500 kb) to prevent entry into bacterial cells"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: A vector requires an ori sequence, unique restriction sites, and selectable marker genes. D is incorrect: Vectors require low molecular weight (small size) for easy isolation and host cell transformation."
+  },
+  {
+    "id": "bio-xii-u9-c9-q12",
+    "questionNumber": 12,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Restriction Endonucleases Properties",
+    "questionText": "Select the valid statements regarding Restriction Endonucleases:",
+    "options": [
+      {
+        "id": "A",
+        "text": "They recognize specific 4 to 8-bp palindromic nucleotide sequences in double-stranded DNA."
+      },
+      {
+        "id": "B",
+        "text": "Cleavage at positions slightly away from the center of a palindrome yields sticky/cohesive overhangs."
+      },
+      {
+        "id": "C",
+        "text": "They were discovered as a natural bacterial defense mechanism against bacteriophage infection."
+      },
+      {
+        "id": "D",
+        "text": "They cleave single-stranded RNA molecules during translation initiation."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Restriction endonucleases recognize palindromic dsDNA, generate sticky overhangs via staggered cuts, and serve as bacterial innate antiviral defense. D is incorrect: They cut double-stranded DNA, not single-stranded RNA."
+  },
+  {
+    "id": "bio-xii-u9-c9-q13",
+    "questionNumber": 13,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "PCR Steps and Parameters",
+    "questionText": "Which of the following statements correctly describe the Polymerase Chain Reaction (PCR)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The three thermal steps are Denaturation (94°C), Annealing (55°C), and Extension (72°C)."
+      },
+      {
+        "id": "B",
+        "text": "Taq Polymerase is isolated from the thermophilic bacterium Thermus aquaticus."
+      },
+      {
+        "id": "C",
+        "text": "Primers bind complementary 3' ends of the single-stranded template DNA during the Annealing step."
+      },
+      {
+        "id": "D",
+        "text": "After 30 cycles, a single target DNA sequence is amplified approximately 1 billion times (2^30)."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "All four statements accurately describe PCR steps, Taq polymerase origin, annealing kinetics, and 2^N exponential amplification yield."
+  },
+  {
+    "id": "bio-xii-u9-c9-q14",
+    "questionNumber": 14,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Agarose Gel Electrophoresis Principles",
+    "questionText": "Select the correct options regarding Agarose Gel Electrophoresis of DNA:",
+    "options": [
+      {
+        "id": "A",
+        "text": "DNA fragments carry a net negative charge due to phosphate groups and migrate toward the positive Anode (+)."
+      },
+      {
+        "id": "B",
+        "text": "Smaller DNA fragments experience less sieving resistance and travel further through the gel matrix than larger fragments."
+      },
+      {
+        "id": "C",
+        "text": "DNA bands are visualized under UV light after staining with Ethidium Bromide (EtBr)."
+      },
+      {
+        "id": "D",
+        "text": "Ethidium Bromide-stained DNA fluoresces as bright orange bands under UV radiation."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "All four options represent true biophysical principles and visualization steps of agarose gel electrophoresis."
+  },
+  {
+    "id": "bio-xii-u9-c9-q15",
+    "questionNumber": 15,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Transformation Methods & Host Matching",
+    "questionText": "Which of the following transformation techniques are matched with their appropriate target host cells?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Divalent cation (Ca2+) treatment + Heat Shock (42°C) -> Bacterial cells (E. coli)"
+      },
+      {
+        "id": "B",
+        "text": "Micro-injection using glass micropipettes -> Animal cells (zygote nucleus)"
+      },
+      {
+        "id": "C",
+        "text": "Biolistics / Gene Gun bombardment with gold microparticles -> Plant cells"
+      },
+      {
+        "id": "D",
+        "text": "Disarmed Retroviral Vectors -> Cultured Mammalian cells"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "All four options correctly pair gene transfer modalities with their primary biological host targets."
+  },
+  {
+    "id": "bio-xii-u9-c9-q16",
+    "questionNumber": 16,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Downstream Processing Components",
+    "questionText": "Which of the following components are included in Downstream Processing (DSP)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Expression of the recombinant gene inside a continuous-culture bioreactor"
+      },
+      {
+        "id": "B",
+        "text": "Separation of expressed recombinant protein from biomass"
+      },
+      {
+        "id": "C",
+        "text": "Purification of recombinant protein product to high homogeneity"
+      },
+      {
+        "id": "D",
+        "text": "Formulation of product with suitable stabilizers/preservatives and Quality Control (QC) testing"
+      }
+    ],
+    "correctAnswer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "B, C, D are correct: Downstream Processing (DSP) comprises post-harvest Separation, Purification, Formulation, and Quality Control (QC) testing. A is incorrect: Gene expression inside the bioreactor is part of Upstream Processing / Fermentation."
+  },
+  {
+    "id": "bio-xii-u9-c9-q17",
+    "questionNumber": 17,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "pBR322 Structure & Markers",
+    "questionText": "Select the correct statements regarding plasmid pBR322:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insertion of foreign DNA at the Bam HI site causes insertional inactivation of the tet^R gene."
+      },
+      {
+        "id": "B",
+        "text": "Insertion of foreign DNA at the Pst I site causes insertional inactivation of the amp^R gene."
+      },
+      {
+        "id": "C",
+        "text": "Transformants carrying a recombinant plasmid inserted at Bam HI will grow on Ampicillin media but die on Tetracycline media."
+      },
+      {
+        "id": "D",
+        "text": "pBR322 contains an ori sequence that controls plasmid replication and copy number."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "All four statements accurately describe the restriction sites, insertional inactivation consequences, and functional sequences of pBR322."
+  },
+  {
+    "id": "bio-xii-u9-c9-q18",
+    "questionNumber": 18,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Cell Wall Lytic Enzymes",
+    "questionText": "Which of the following enzymes are used to lyse specific cell walls during genomic DNA isolation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lysozyme -> Bacterial cell walls"
+      },
+      {
+        "id": "B",
+        "text": "Cellulase -> Plant cell walls"
+      },
+      {
+        "id": "C",
+        "text": "Chitinase -> Fungal cell walls"
+      },
+      {
+        "id": "D",
+        "text": "Deoxyribonuclease (DNase) -> Purified DNA recovery"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A, B, C are correct: Lysozyme (peptidoglycan), Cellulase (cellulose), and Chitinase (chitin) digest bacterial, plant, and fungal cell walls. D is incorrect: DNase degrades DNA and would destroy the DNA being isolated."
+  },
+  {
+    "id": "bio-xii-u9-c9-q19",
+    "questionNumber": 19,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Bioreactor Monitored Parameters",
+    "questionText": "Which of the following factors are continuously monitored and controlled inside an industrial Bioreactor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Temperature and pH"
+      },
+      {
+        "id": "B",
+        "text": "Dissolved Oxygen (DO) levels"
+      },
+      {
+        "id": "C",
+        "text": "Agitation speed and Foam accumulation"
+      },
+      {
+        "id": "D",
+        "text": "Substrate / Nutrient concentrations"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "Bioreactors are equipped with automated control systems regulating temperature, pH, dissolved oxygen, agitation, foam levels, and nutrient feed rates to maintain optimal cell growth."
+  },
+  {
+    "id": "bio-xii-u9-c9-q20",
+    "questionNumber": 20,
+    "questionType": "MSQ",
+    "difficulty": "Hard",
+    "topic": "Blue-White Screening lacZ Mechanics",
+    "questionText": "Select the valid statements regarding Blue-White Screening (Insertional Inactivation of lac Z):",
+    "options": [
+      {
+        "id": "A",
+        "text": "The vector carries a lac Z gene encoding beta-Galactosidase."
+      },
+      {
+        "id": "B",
+        "text": "Insertion of foreign DNA into lac Z disrupts beta-Galactosidase expression."
+      },
+      {
+        "id": "C",
+        "text": "Recombinant colonies fail to hydrolyze X-Gal and appear WHITE."
+      },
+      {
+        "id": "D",
+        "text": "Non-recombinant colonies produce functional beta-Galactosidase, hydrolyze X-Gal, and appear BLUE."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "All four options correctly outline the molecular mechanics and chromogenic colony outcomes of blue-white screening."
+  }
+]

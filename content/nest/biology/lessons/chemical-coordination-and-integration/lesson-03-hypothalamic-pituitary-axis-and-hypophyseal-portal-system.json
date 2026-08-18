@@ -1,0 +1,33 @@
+{
+  "id": "les-bio-20-03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit V — Human Physiology",
+  "unitNumber": 5,
+  "chapter": "Chemical Coordination and Integration",
+  "chapterNumber": 20,
+  "chapterSlug": "chemical-coordination-and-integration",
+  "lessonNumber": 3,
+  "title": "Hypothalamus-Pituitary Axis & Hypophyseal Portal System",
+  "readingTimeMinutes": 14,
+  "status": "published",
+  "difficulty": "Medium",
+  "prerequisites": ["Brain neuroanatomy", "Vascular portal systems"],
+  "learningObjectives": [
+    "Differentiate the Hypophyseal Portal System from the Neurosecretory Axonal Tract",
+    "Identify hypothalamic Releasing Hormones (GnRH, TRH, CRH, GHRH) and Inhibiting Hormones (Somatostatin, PIH)",
+    "Explain neuroendocrine feedback integration at the median eminence"
+  ],
+  "content": "The Hypothalamus is the basal master component of the diencephalon, linking the central nervous system to the endocrine system.\n\n```\n                      HYPOTHALAMIC-PITUITARY AXIS\n                                   │\n         ┌─────────────────────────┴─────────────────────────┐\n         ▼                                                   ▼\n   HYPOPHYSEAL PORTAL SYSTEM                           NEUROHYPOPHYSEAL TRACT\n   (Vascular Connection to Anterior Pituitary)         (Axonal Transport to Posterior Pituitary)\n   ├── Secretes Releasing Hormones (GnRH, TRH, CRH, GHRH)├── Synthesizes Oxytocin & Vasopressin (ADH)\n   └── Secretes Inhibiting Hormones (Somatostatin, PIH)  └── Stored & released from Pars Nervosa\n```\n\n### 3.1 Hypothalamic Releasing and Inhibiting Hormones\n1. **Releasing Hormones (RH)**: Carried via the hypophyseal portal circulation to stimulate specific adenohypophyseal cell populations:\n   - **GnRH (Gonadotropin Releasing Hormone)**: Stimulates FSH and LH secretion.\n   - **TRH (Thyrotropin Releasing Hormone)**: Stimulates TSH and Prolactin secretion.\n   - **CRH (Corticotropin Releasing Hormone)**: Stimulates ACTH secretion.\n   - **GHRH (Growth Hormone Releasing Hormone)**: Stimulates GH secretion.\n2. **Inhibiting Hormones (IH)**:\n   - **Somatostatin (GHIH / Growth Hormone Inhibiting Hormone)**: Inhibits Growth Hormone, TSH, insulin, and glucagon secretion.\n   - **Prolactin Inhibiting Hormone (PIH / Dopamine)**: Continuously suppresses prolactin release from anterior pituitary lactotrophs.",
+  "conceptBreakdown": [
+    {
+      "heading": "Portal Circulation Advantage",
+      "explanation": "The hypophyseal portal system delivers hypothalamic neurohormones directly to the adenohypophysis at high concentrations without undergoing massive dilution in systemic circulatory blood volume."
+    },
+    {
+      "heading": "Dopaminergic Disinhibition of Prolactin",
+      "explanation": "If the pituitary stalk is transected, all anterior pituitary hormones decrease due to loss of releasing hormones EXCEPT Prolactin, which dramatically increases because it is released from tonic hypothalamic Dopamine (PIH) inhibition."
+    }
+  ]
+}

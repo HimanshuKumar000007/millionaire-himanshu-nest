@@ -1,0 +1,60 @@
+{
+  "id": "chem-xii-u18-c9-l04",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVIII \u2014 Amines",
+  "unitNumber": 18,
+  "chapter": "Amines",
+  "chapterNumber": 9,
+  "chapterSlug": "amines",
+  "slug": "lesson-04-diagnostic-tests-hinsberg-carbylamine-nitrous-acid",
+  "title": "Diagnostic Identification Tests (1\u00b0, 2\u00b0, 3\u00b0 Amines)",
+  "topic": "Amine Identification Matrix",
+  "topics": [
+    "4. Discrimination Matrix for Primary, Secondary, and Tertiary Amines",
+    "4.1 Hinsberg Test (Benzenesulfonyl chloride, Ph-SO\u2082Cl + NaOH): 1\u00b0 Soluble, 2\u00b0 Insoluble, 3\u00b0 No Reaction",
+    "4.2 Carbylamine Test (CHCl\u2083 + alc. KOH, \u0394): Diagnostic Foul-Smelling Isocyanide (R-NC) for 1\u00b0 Amines Only (Electrophile: :CCl\u2082)",
+    "4.3 Nitrous Acid Test (HNO\u2082 at 0\u20135\u00b0C): 1\u00b0 Aliphatic \u2500\u2500\u25ba N\u2082 \u2191 + Alcohols; 2\u00b0 \u2500\u2500\u25ba Yellow Oily N-Nitrosamine; 3\u00b0 \u2500\u2500\u25ba Nitrite Salt",
+    "Liebermann Nitroso Reaction for Secondary Amines"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 9,
+  "estimatedTimeMinutes": 9,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "amines",
+  "quickSummary": "Hinsberg test (Ph-SO\u2082Cl): 1\u00b0 sulfonamide is SOLUBLE in NaOH; 2\u00b0 sulfonamide is INSOLUBLE in NaOH; 3\u00b0 does not react. Carbylamine test (CHCl\u2083 + KOH) yields foul-smelling isocyanides (R-NC) for 1\u00b0 amines only (electrophile: :CCl\u2082). Nitrous acid (HNO\u2082) releases N\u2082 gas from 1\u00b0 aliphatic amines and forms yellow oily N-nitrosamines from 2\u00b0 amines.",
+  "summary": "Master diagnostic identification tests and separation protocols for primary, secondary, and tertiary amines.",
+  "conceptBreakdown": [
+    {
+      "heading": "4. Diagnostic Tests Matrix for Amines",
+      "title": "4. Diagnostic Tests Matrix for Amines",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Discrimination Rules",
+        "takeaway": "Hinsberg: 1\u00b0 = Soluble in NaOH; 2\u00b0 = Insoluble in NaOH; 3\u00b0 = No reaction. Carbylamine: 1\u00b0 only = Foul isocyanide (R-NC). HNO\u2082: 1\u00b0 = N\u2082 \u2191; 2\u00b0 = Yellow oily nitrosamine."
+      },
+      "codeSnippet": "                        AMINE IDENTIFICATION TESTS\n                                     \u2502\n     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u252c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n     \u25bc                  \u25bc                         \u25bc                  \u25bc\nHINSBERG TEST          CARBYLAMINE TEST          NITROUS ACID TEST   LIEBERMANN NITROSO\nBenzenesulfonyl        $\\text{CHCl}_3 + \\text{KOH}$ ($\\Delta$)      $\\text{HNO}_2$ at $0\\text{--}5^\\circ\\text{C}$       $2^\\circ$ Amines yield\nchloride ($\\text{Ph-SO}_2\\text{Cl}$). Diagnostic for $1^\\circ$      $1^\\circ \\to \\text{N}_2 \\uparrow$; $2^\\circ \\to$   yellow oily\n$1^\\circ \\to \\text{Soluble in base}$. amines ($\\text{R-NC}$ foul odor). Nitrosamine.          $N$-nitrosamines.",
+      "content": "- **Hinsberg Test**: $1^\\circ$ amine forms $N$-alkylbenzenesulfonamide with an acidic $\text{N-H}$ (soluble in $\text{NaOH}$); $2^\\circ$ amine forms $N,N$-dialkylbenzenesulfonamide lacking $\text{N-H}$ (insoluble in $\text{NaOH}$); $3^\\circ$ amine does not react.\n- **Carbylamine Test**: Heated with $\text{CHCl}_3$ and alcoholic $\text{KOH}$, $1^\\circ$ aliphatic and aromatic amines form intensely foul-smelling isocyanides ($R\text{-NC}$). Electrophile is Dichlorocarbene ($:\text{CCl}_2$)."
+    },
+    {
+      "heading": "4.3 Nitrous Acid Test (0\u20135\u00b0C)",
+      "title": "4.3 Nitrous Acid Test (0\u20135\u00b0C)",
+      "type": "paragraph",
+      "codeSnippet": "NITROUS ACID (HNO\u2082 = NaNO\u2082 + HCl at 0\u20135\u00b0C) BEHAVIOR:\n\n\u2022 1\u00b0 Aliphatic Amine: R-NH\u2082 + HNO\u2082 \u2500\u2500\u25ba [R-N\u2082\u207aCl\u207b] \u2500\u2500\u25ba N\u2082 \u2191 + Mixture of Alcohols/Alkenes\n\u2022 1\u00b0 Aromatic Amine:  Ph-NH\u2082 + HNO\u2082 \u2500\u2500\u25ba Ph-N\u2082\u207aCl\u207b (Stable Arenediazonium Salt at 0\u20135\u00b0C)\n\u2022 2\u00b0 Amine:           R\u2082NH + HNO\u2082  \u2500\u2500\u25ba R\u2082N-N=O (Yellow Oily Insoluble N-Nitrosamine)\n\u2022 3\u00b0 Amine:           R\u2083N + HNO\u2082   \u2500\u2500\u25ba R\u2083NH\u207a NO\u2082\u207b (Water-Soluble Nitrite Salt)",
+      "content": "Reaction with $\text{HNO}_2$ at $0\text{--}5^\\circ\text{C}$ gives distinct diagnostic outputs for $1^\\circ, 2^\\circ, 3^\\circ$ amines and distinguishes aliphatic from aromatic $1^\\circ$ amines."
+    }
+  ],
+  "quickRevision": [
+    "Hinsberg: 1\u00b0 = soluble in NaOH; 2\u00b0 = insoluble in NaOH; 3\u00b0 = no reaction.",
+    "Carbylamine test is positive ONLY for 1\u00b0 amines (foul R-NC).",
+    "Active electrophile in carbylamine test is :CCl\u2082 (dichlorocarbene).",
+    "1\u00b0 aliphatic amines release N\u2082 gas with HNO\u2082.",
+    "2\u00b0 amines form yellow oily N-nitrosamines with HNO\u2082."
+  ],
+  "keyFormulae": [
+    "R\\text{-NH}_2 + \\text{CHCl}_3 + 3\\text{KOH} \\xrightarrow{\\Delta} R\\text{-NC (Foul Isocyanide)} + 3\\text{KCl} + 3\\text{H}_2\\text{O}"
+  ]
+}

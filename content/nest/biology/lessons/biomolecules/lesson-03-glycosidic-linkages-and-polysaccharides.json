@@ -1,0 +1,51 @@
+{
+  "id": "bio-xi-u3-c9-l03",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Biomolecules",
+  "chapterNumber": 9,
+  "chapterSlug": "biomolecules",
+  "slug": "lesson-03-glycosidic-linkages-and-polysaccharides",
+  "title": "Glycosidic Bond Linkages, Reducing Sugars, & Polysaccharides",
+  "topic": "Maltose, Lactose, Sucrose, Starch (Amylose/Amylopectin), Glycogen, Cellulose, & Inulin",
+  "topics": [
+    "Glycosidic Bond Condensation Synthesis",
+    "Disaccharide Architectures: Maltose ($\\alpha$-1,4), Lactose ($\\beta$-1,4), Sucrose ($\\alpha,\\beta$-1,2 Non-Reducing)",
+    "Reducing vs Non-Reducing Sugars (Benedict's / Fehling's Cuprous Reduction)",
+    "Starch Components: Helical Amylose (Iodine Blue-Black) vs Branched Amylopectin ($\\alpha$-1,4 + $\\alpha$-1,6)",
+    "Glycogen Hyper-Branched Architecture",
+    "Cellulose Linear $\\beta$-1,4 Glucan Chains (Negative Iodine Test)",
+    "Chitin (N-acetylglucosamine $\\beta$-1,4) & Inulin (Fructose $\\beta$-2,1 for GFR Measurement)"
+  ],
+  "order": 3,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Glycosidic bonds join sugars via dehydration. Maltose (α-1,4) and Lactose (β-1,4) are reducing sugars; Sucrose (α,β-1,2) is non-reducing because both anomeric carbons are locked. Starch contains unbranched helical Amylose (traps I2 for blue-black color) and branched Amylopectin (α-1,4 and α-1,6). Glycogen is animal starch with frequent α-1,6 branches. Cellulose has unbranched linear β-1,4 chains (negative iodine test). Chitin is a NAG polymer; Inulin is a fructose polymer used to measure GFR.",
+  "summary": "Glycosidic bonds join sugars via dehydration. Maltose (α-1,4) and Lactose (β-1,4) are reducing sugars; Sucrose (α,β-1,2) is non-reducing because both anomeric carbons are locked. Starch contains unbranched helical Amylose (traps I2 for blue-black color) and branched Amylopectin (α-1,4 and α-1,6). Glycogen is animal starch with frequent α-1,6 branches. Cellulose has unbranched linear β-1,4 chains (negative iodine test). Chitin is a NAG polymer; Inulin is a fructose polymer used to measure GFR.",
+  "conceptBreakdown": [
+    {
+      "heading": "2.2 Glycosidic Linkages & Disaccharide Properties",
+      "title": "2.2 Glycosidic Linkages & Disaccharide Properties",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Maltose & Lactose = Reducing. Sucrose = Non-reducing (anomeric C1 and C2 locked in α,β-1,2 bond). Starch amylose traps iodine; cellulose does NOT."
+      },
+      "codeSnippet": "DISACCHARIDE LINKAGE ARCHITECTURE\n                        \n   MALTOSE:  $\\alpha$-$\\text{D}$-Glucose + $\\alpha$-$\\text{D}$-Glucose   ──► $\\alpha$-(1 $\\rightarrow$ 4) Glycosidic Bond (Reducing)\n   LACTOSE:  $\\beta$-$\\text{D}$-Galactose + $\\beta$-$\\text{D}$-Glucose  ──► $\\beta$-(1 $\\rightarrow$ 4) Glycosidic Bond (Reducing)\n   SUCROSE:  $\\alpha$-$\\text{D}$-Glucose + $\\beta$-$\\text{D}$-Fructose  ──► $\\alpha$,$\\beta$-(1 $\\rightarrow$ 2) Glycosidic Bond (NON-REDUCING)",
+      "content": "• **Reducing Sugars**: Possess a free anomeric aldehyde or ketone group capable of reducing alkaline cupric ions ($\\text{Cu}^{2+}$) to red cuprous oxide ($\\text{Cu}_2\\text{O}$) precipitate in Benedict's and Fehling's tests (*e.g., all monosaccharides, Maltose, Lactose, Cellobiose*).\n• **Non-Reducing Sugars**: Both anomeric carbons are locked inside the glycosidic bond (*e.g., Sucrose, Trehalose*)."
+    },
+    {
+      "heading": "2.3 Polysaccharide Chemistry & Structural Diversity",
+      "title": "2.3 Polysaccharide Chemistry & Structural Diversity",
+      "type": "paragraph",
+      "codeSnippet": "HOMOPOLYSACCHARIDE STRUCTURAL DIVERSITY\n                                         │\n         ┌───────────────────────────────┼───────────────────────────────┐\n         ▼                               ▼                               ▼\n      STARCH                          GLYCOGEN                        CELLULOSE\n (Storage in Plants)             (Storage in Animals/Fungi)       (Structural Plant Walls)\n ├── Amylose (Linear $\\alpha$-1,4) ├── Hyper-branched $\\alpha$-1,4       └── Unbranched Linear $\\beta$-1,4\n └── Amylopectin (Branched          with $\\alpha$-1,6 branch points       glucan chains (H-bonded\n     $\\alpha$-1,4 & $\\alpha$-1,6)       every 8–12 glucose units          microfibril sheets)",
+      "content": "1. **Starch (Plant Storage)**:\n   - **Amylose (15–20%)**: Unbranched linear chain with $\\alpha$-(1 $\\rightarrow$ 4) bonds. Forms a secondary helical coil that traps iodine ($\\text{I}_2$) molecules inside its lumen to produce a **deep blue-black color**.\n   - **Amylopectin (80–85%)**: Branched polymer with $\\alpha$-(1 $\\rightarrow$ 4) linear chains and $\\alpha$-(1 $\\rightarrow$ 6) branch points every 24–30 glucose residues.\n2. **Glycogen ('Animal Starch')**: Highly branched storage polymer in liver and muscle. Features $\\alpha$-(1 $\\rightarrow$ 4) linear bonds and $\\alpha$-(1 $\\rightarrow$ 6) branch points every 8–12 glucose units (stains red-violet with iodine).\n3. **Cellulose (Plant Cell Walls)**: Linear, unbranched structural homopolymer of $\\beta$-$\\text{D}$-glucose linked by $\\beta$-(1 $\\rightarrow$ 4) bonds. Parallel chains form rigid hydrogen-bonded microfibrils. *Lacks helical coils; gives a NEGATIVE iodine test*.\n4. **Chitin**: Structural homopolymer of N-acetylglucosamine (NAG) linked by $\\beta$-(1 $\\rightarrow$ 4) bonds (arthropod exoskeletons and fungal walls).\n5. **Inulin**: Linear storage homopolymer of fructose linked by $\\beta$-(2 $\\rightarrow$ 1) bonds (*Dahlia tubers*). Freely filtered by glomeruli without reabsorption; used to measure **Glomerular Filtration Rate (GFR)**."
+    }
+  ]
+}

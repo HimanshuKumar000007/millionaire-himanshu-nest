@@ -1,0 +1,49 @@
+{
+  "id": "bio-xi-u4-c12-l04",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit IV — Plant Physiology",
+  "unitNumber": 4,
+  "chapter": "Respiration in Plants",
+  "chapterNumber": 12,
+  "chapterSlug": "respiration-in-plants",
+  "slug": "lesson-04-link-reaction-and-pdc-complex",
+  "title": "The Link Reaction: Pyruvate Dehydrogenase Complex (PDC)",
+  "topic": "Mitochondrial Matrix Localization, Oxidative Decarboxylation, & 5 Co-enzymes",
+  "topics": [
+    "Active Pyruvate Translocation from Cytosol into Mitochondrial Matrix",
+    "Oxidative Decarboxylation of Pyruvate to Acetyl-CoA (The Gateway Step)",
+    "Pyruvate Dehydrogenase Complex Multi-Enzyme Architecture (E₁, E₂, E₃)",
+    "Five Essential Co-enzymes: TPP (B₁), Lipoamide, CoA-SH (B₅), FAD (B₂), NAD⁺ (B₃)",
+    "Link Reaction Stoichiometry per Glucose Molecule (2 Acetyl-CoA + 2 NADH + 2 CO₂)"
+  ],
+  "order": 4,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Under aerobic conditions, pyruvate produced in the cytosol is transported into the mitochondrial matrix, where it undergoes oxidative decarboxylation via the Pyruvate Dehydrogenase Complex (PDC). This irreversible link reaction converts 2 pyruvate molecules into 2 Acetyl-CoA (2C), releasing 2 CO₂ and generating 2 NADH + 2 H⁺. The multi-enzyme PDC complex requires 5 coordinated co-enzymes: TPP (B₁), Lipoic acid, Coenzyme A (B₅), FAD (B₂), and NAD⁺ (B₃).",
+  "summary": "Under aerobic conditions, pyruvate produced in the cytosol is transported into the mitochondrial matrix, where it undergoes oxidative decarboxylation via the Pyruvate Dehydrogenase Complex (PDC). This irreversible link reaction converts 2 pyruvate molecules into 2 Acetyl-CoA (2C), releasing 2 CO₂ and generating 2 NADH + 2 H⁺. The multi-enzyme PDC complex requires 5 coordinated co-enzymes: TPP (B₁), Lipoic acid, Coenzyme A (B₅), FAD (B₂), and NAD⁺ (B₃).",
+  "conceptBreakdown": [
+    {
+      "heading": "4. The Link Reaction (Oxidative Decarboxylation of Pyruvate)",
+      "title": "4. The Link Reaction (Oxidative Decarboxylation of Pyruvate)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Link reaction occurs strictly in the Mitochondrial Matrix via PDC. Converts 2 Pyruvate (3C) ➔ 2 Acetyl-CoA (2C) + 2 CO₂ + 2 NADH + 2 H⁺. Requires 5 B-vitamin coenzymes."
+      },
+      "codeSnippet": "PYRUVATE DEHYDROGENASE COMPLEX (PDC)\n                      \n   2 Pyruvate (3C) + 2 CoA-SH + 2 NAD⁺ ──[PDC Complex]──► 2 Acetyl-CoA (2C) + 2 CO₂ ↑ + 2 NADH + 2 H⁺",
+      "content": "Under aerobic conditions, pyruvate produced in the cytosol is actively symported across the inner mitochondrial membrane into the **Mitochondrial Matrix** via a pyruvate-proton carrier.\n\n- In the matrix, pyruvate undergoes **oxidative decarboxylation** catalyzed by the multi-enzyme **Pyruvate Dehydrogenase Complex (PDC)**.\n- This irreversible link reaction bridges cytosolic glycolysis to the mitochondrial Tricarboxylic Acid (TCA) cycle by generating **Acetyl-CoA** ($2\\text{C}$), the universal 2-carbon substrate for Krebs oxidation.\n- Per glucose molecule ($2\\text{ pyruvate}$), the link reaction releases the first **$2\\text{ CO}_2$ molecules** and produces **$2\\text{ NADH} + 2\\text{ H}^+$**."
+    },
+    {
+      "heading": "4.1 Five Essential Co-enzymes of PDC",
+      "title": "4.1 Five Essential Co-enzymes of PDC",
+      "type": "paragraph",
+      "codeSnippet": "PDC CO-ENZYME REQUIREMENT\n                        \n   The multi-enzyme PDC complex requires **5 essential co-enzymes**:\n   1. Thiamine Pyrophosphate (TPP / Vitamin B₁)\n   2. Lipoic Acid / Lipoamide\n   3. Coenzyme A (CoA-SH / Vitamin B₅)\n   4. Flavin Adenine Dinucleotide (FAD / Vitamin B₂)\n   5. Nicotinamide Adenine Dinucleotide (NAD⁺ / Vitamin B₃)",
+      "content": "The catalytic cycle of the PDC multi-enzyme complex involves three distinct enzymes ($E_1$ Pyruvate Dehydrogenase, $E_2$ Dihydrolipoyl Transacetylase, $E_3$ Dihydrolipoyl Dehydrogenase) and requires 5 coordinated cofactors:\n\n1. **Thiamine Pyrophosphate (TPP)**: Derived from Vitamin $B_1$ (Thiamine); binds and decarboxylates pyruvate to form hydroxyethyl-TPP on $E_1$.\n2. **Lipoic Acid / Lipoamide**: Acts as an electron carrier and long swinging arm on $E_2$, accepting the acetyl group from TPP.\n3. **Coenzyme A (CoA-SH)**: Derived from Vitamin $B_5$ (Pantothenic acid); receives the acetyl group from lipoamide to form high-energy Acetyl-CoA.\n4. **Flavin Adenine Dinucleotide (FAD)**: Derived from Vitamin $B_2$ (Riboflavin); bound to $E_3$, re-oxidizes the reduced dithiol form of lipoamide back to its disulfide state, forming $\\text{FADH}_2$.\n5. **Nicotinamide Adenine Dinucleotide (NAD⁺)**: Derived from Vitamin $B_3$ (Niacin); acts as the **terminal electron acceptor** of the complex, oxidizing $\\text{FADH}_2$ back to $\\text{FAD}$ and releasing free $\\mathbf{\\text{NADH} + \\text{H}^+}$ into the matrix."
+    }
+  ]
+}

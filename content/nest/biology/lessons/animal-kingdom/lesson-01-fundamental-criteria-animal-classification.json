@@ -1,0 +1,48 @@
+{
+  "id": "bio-xi-u1-c4-l01",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit I — Diversity of Living Organisms",
+  "unitNumber": 1,
+  "chapter": "Animal Kingdom",
+  "chapterNumber": 4,
+  "chapterSlug": "animal-kingdom",
+  "slug": "lesson-01-fundamental-criteria-animal-classification",
+  "title": "Fundamental Criteria for Animal Classification & Body Symmetry",
+  "topic": "Levels of Organization, Body Symmetry, & Cephalization",
+  "topics": [
+    "Levels of Organization (Cellular, Tissue, Organ, Organ-System)",
+    "Body Symmetry (Asymmetry, Radial, Biradial, Bilateral)",
+    "Cephalization & Anterior Specialization",
+    "Open vs Closed Circulatory Systems",
+    "Complete vs Incomplete Digestive Tracts"
+  ],
+  "order": 1,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Core Foundation",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Animal classification is established on structural hierarchy (cellular to organ-system level) and body symmetry (asymmetrical sponges, radial cnidarians/echinoderm adults, and bilateral bilateria with cephalization).",
+  "summary": "Animal classification is established on structural hierarchy (cellular to organ-system level) and body symmetry (asymmetrical sponges, radial cnidarians/echinoderm adults, and bilateral bilateria with cephalization).",
+  "conceptBreakdown": [
+    {
+      "heading": "1. Fundamental Criteria for Animal Classification",
+      "title": "1. Fundamental Criteria for Animal Classification",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Metazoans are classified using 5 fundamental architectural pillars: Level of organization, Body symmetry, Germ layers, Coelom origin, and Embryonic blastopore fate."
+      },
+      "codeSnippet": "BASIS OF ANIMAL CLASSIFICATION\n                                     │\n     ┌──────────────────┬────────────┼────────────┬──────────────────┐\n     ▼                  ▼            ▼            ▼                  ▼\nLevels of          Body         Germ         Coelom Type       Embryonic\nOrganization       Symmetry     Layers       & Origin          Development\n├── Cellular       ├── Asymmetry ├── Diploblastic ├── Acoelomate  ├── Cleavage Pattern\n├── Tissue         ├── Radial   └── Triploblastic ├── Pseudocoelomate ├── Blastopore Fate\n├── Organ          └── Bilateral                 └── Eucoelomate   └── Metamerism\n└── Organ-System                                   (Schizo/Entero)",
+      "content": "Metazoan classification relies on fundamental structural, developmental, and architectural parameters that establish evolutionary relationships across phyla."
+    },
+    {
+      "heading": "1.1 Structural Organization & Body Symmetry",
+      "title": "1.1 Structural Organization & Body Symmetry",
+      "type": "paragraph",
+      "content": "### 1. Levels of Body Organization\n• **Cellular Level**: Loose cell aggregates exhibiting minimal functional division of labor; true tissues and nerve nets are absent (e.g., *Porifera*).\n• **Tissue Level**: Cells performing similar functions are arranged into coordinated structural tissues (e.g., *Cnidaria*, *Ctenophora*).\n• **Organ Level**: Tissues assemble into functional organs dedicated to specialized physiological tasks (e.g., *Platyhelminthes*).\n• **Organ-System Level**: Specialized organs integrate into complex physiological systems (digestive, circulatory, nervous, excretory) (e.g., *Aschelminthes* through *Chordata*).\n\n### 2. Patterns of Body Symmetry\n• **Asymmetry**: No single plane passing through the central axis divides the body into equal halves (e.g., most sponges, adult gastropod molluscs with shell torsion).\n• **Radial Symmetry**: Any longitudinal plane passing through the central axis divides the organism into identical halves (e.g., *Cnidaria*, *Ctenophora*, adult *Echinodermata*).\n• **Biradial Symmetry**: Body can be divided into identical halves by only **two vertical planes** (e.g., *Ctenophora* due to paired tentacles and ciliated comb rows).\n• **Bilateral Symmetry**: Body can be divided into identical left and right halves along only **one single median sagittal plane** (e.g., *Platyhelminthes* through *Chordata*).\n  - **Cephalization**: Bilateral symmetry is evolutionary linked with cephalization—the concentration of sensory receptors, interneurons, and mouth parts at the leading anterior end."
+    }
+  ]
+}

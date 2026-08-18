@@ -1,0 +1,64 @@
+{
+  "id": "bio-xi-u3-c9-l07",
+  "exam": "NEST",
+  "subject": "Biology",
+  "classLevel": "Class XI",
+  "unit": "Unit III — Cell: Structure and Function",
+  "unitNumber": 3,
+  "chapter": "Biomolecules",
+  "chapterNumber": 9,
+  "chapterSlug": "biomolecules",
+  "slug": "lesson-07-nucleic-acid-architecture-chargaff-and-b-dna",
+  "title": "Nucleic Acid Architecture, Chargaff's Rules, & Double-Helical Polymorphism",
+  "topic": "Purines/Pyrimidines, 3',5'-Phosphodiester Linkage, B-DNA Geometry, & A/B/Z Forms",
+  "topics": [
+    "Nucleotide Components (Nitrogenous Base, Pentose Sugar, Phosphate Group)",
+    "Purines (Adenine, Guanine) vs Pyrimidines (Cytosine, Thymine, Uracil)",
+    "Nucleoside ($\\beta$-N-Glycosidic Bond) vs Nucleotide (5'-Phosphoester Bond)",
+    "3',5'-Phosphodiester Backbone Bridges",
+    "Chargaff's Rules ($[A]=[T], [G]=[C]$, Double-Stranded DNA Exclusivity)",
+    "B-DNA Watson-Crick Double Helix (2.0 nm Diameter, 3.4 nm Pitch, 10 bp/Turn, 0.34 nm Rise)",
+    "Hydrogen Bonding ($A=T$ 2 bonds; $G\\equiv C$ 3 bonds)",
+    "DNA Polymorphism: A-DNA (11 bp, Dehydrated) vs B-DNA (10 bp, Hydrated) vs Z-DNA (12 bp, Left-Handed Zig-Zag)"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 14,
+  "estimatedTimeMinutes": 14,
+  "difficulty": "High-Yield",
+  "source": "production",
+  "status": "published",
+  "quickSummary": "Nucleotides comprise a nitrogenous base (Purines A/G, Pyrimidines C/T/U), pentose sugar, and phosphate group joined by 3',5'-phosphodiester bonds. Double-stranded DNA strictly obeys Chargaff's rules ([A]=[T], [G]=[C]). Standard B-DNA is a right-handed double helix with 2.0 nm diameter, 3.4 nm pitch (10 bp/turn), 0.34 nm axial rise, and A=T (2 H-bonds) / G≡C (3 H-bonds). Z-DNA is an alternating left-handed zig-zag helix with 12 bp/turn.",
+  "summary": "Nucleotides comprise a nitrogenous base (Purines A/G, Pyrimidines C/T/U), pentose sugar, and phosphate group joined by 3',5'-phosphodiester bonds. Double-stranded DNA strictly obeys Chargaff's rules ([A]=[T], [G]=[C]). Standard B-DNA is a right-handed double helix with 2.0 nm diameter, 3.4 nm pitch (10 bp/turn), 0.34 nm axial rise, and A=T (2 H-bonds) / G≡C (3 H-bonds). Z-DNA is an alternating left-handed zig-zag helix with 12 bp/turn.",
+  "conceptBreakdown": [
+    {
+      "heading": "5. Nucleic Acid Monomers & Base Chemistry",
+      "title": "5. Nucleic Acid Monomers & Base Chemistry",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Quick Section Summary",
+        "takeaway": "Nucleoside = Base + Sugar. Nucleotide = Nucleoside + Phosphate. B-DNA = 2.0 nm diameter, 3.4 nm pitch, 10 bp/turn, 0.34 nm rise. Z-DNA = Left-handed zig-zag (12 bp/turn)."
+      },
+      "codeSnippet": "NUCLEOTIDE COMPONENTS\n                                     │\n         ┌───────────────────────────┼───────────────────────────┐\n         ▼                           ▼                           ▼\n  NITROGENOUS BASE              PENTOSE SUGAR              PHOSPHATE GROUP\n  ├── Purines (A, G)            ├── $\\text{D}$-Ribose (RNA) └── Phosphoric Acid ($\\text{H}_3\\text{PO}_4$)\n  └── Pyrimidines (C, T, U)     └── $2'$-Deoxyribose (DNA)      Esters to $5'$-OH",
+      "content": "Nucleic acids (DNA and RNA) are linear unbranched polymers of nucleotides.\n\n### Nitrogenous Bases\n• **Purines (9-Membered Double Ring)**: **Adenine** (6-aminopurine) and **Guanine** (2-amino-6-oxypurine).\n• **Pyrimidines (6-Membered Single Ring)**: **Cytosine** (2-oxy-4-aminopyrimidine), **Thymine** (2,4-dioxy-5-methylpyrimidine in DNA), and **Uracil** (2,4-dioxypyrimidine in RNA).\n\n### Molecular Equations\n$$\\text{Nucleoside} = \\text{Nitrogenous Base} + \\text{Pentose Sugar (via } \\beta\\text{-}N\\text{-Glycosidic Bond)}$$\n$$\\text{Nucleotide} = \\text{Nucleoside} + \\text{Phosphate Group (via } 5'\\text{-Phosphoester Bond)}$$"
+    },
+    {
+      "heading": "5.1 Phosphodiester Linkages & Chargaff's Rules",
+      "title": "5.1 Phosphodiester Linkages & Chargaff's Rules",
+      "type": "paragraph",
+      "content": "• **Phosphodiester Bond**: Nucleotides polymerize linearly by linking the 3'-hydroxyl ($-\\text{OH}$) group of one sugar to the 5'-phosphate group of the next sugar via a **3',5'-phosphodiester bridge**.\n• **Chargaff’s Rules (1950 — Applies EXCLUSIVELY to Double-Stranded DNA)**:\n  1. $[\\text{A}] + [\\text{G}] = [\\text{T}] + [\\text{C}]$ (Total Purines = Total Pyrimidines).\n  2. $[\\text{A}] = [\\text{T}]$ and $[\\text{G}] = [\\text{C}]$.\n  3. Base ratio $\\frac{[\\text{A}]+[\\text{T}]}{[\\text{G}]+[\\text{C}]}$ is constant for a given species (*$<1$ in GC-rich species; $>1$ in AT-rich species*)."
+    },
+    {
+      "heading": "5.2 B-DNA Double Helix Parameters (Watson & Crick, 1953)",
+      "title": "5.2 B-DNA Double Helix Parameters (Watson & Crick, 1953)",
+      "type": "paragraph",
+      "codeSnippet": "DNA DOUBLE HELIX DIAGRAM\n                          \n               5' ── P ─ Sugar ─ A ═ T ─ Sugar ─ P ── 3'\n                        │                    │\n               3' ── P ─ Sugar ─ G ≡ C ─ Sugar ─ P ── 5'\n                        │                    │\n                        └────── 2.0 nm ──────┘",
+      "content": "• **Strand Directionality**: Two antiparallel strands ($5'\\rightarrow 3'$ and $3'\\rightarrow 5'$).\n• **Helical Diameter**: $2.0\\text{ nm}$ ($20\\ \\text{\\AA}$).\n• **Pitch (One Full $360^\\circ$ Turn)**: $3.4\\text{ nm}$ ($34\\ \\text{\\AA}$).\n• **Base Pairs per Turn**: **10 bp per turn**.\n• **Axial Rise per Base Pair**: $0.34\\text{ nm}$ ($3.4\\ \\text{\\AA}$).\n• **Hydrogen Bonds**: $\\text{A} = \\text{T}$ (2 H-bonds); $\\text{G} \\equiv \\text{C}$ (3 H-bonds)."
+    },
+    {
+      "heading": "5.3 Structural Polymorphism of DNA (A, B, Z Forms)",
+      "title": "5.3 Structural Polymorphism of DNA (A, B, Z Forms)",
+      "type": "paragraph",
+      "content": "| Parameter | $A$-DNA | $B$-DNA (Physiological) | $Z$-DNA |\n| :--- | :--- | :--- | :--- |\n| **Helical Handedness** | **Right-handed** | **Right-handed** | **Left-handed** |\n| **Helical Diameter** | $2.3\\text{ nm}$ ($23\\ \\text{\\AA}$) | $2.0\\text{ nm}$ ($20\\ \\text{\\AA}$) | $1.8\\text{ nm}$ ($18\\ \\text{\\AA}$) |\n| **Base Pairs per Turn** | **$11\\text{ bp}$** | **$10\\text{ bp}$** ($10.5\\text{ bp}$ in solution) | **$12\\text{ bp}$** ($6$ dinucleotide dimers) |\n| **Helical Pitch / Turn** | $2.8\\text{ nm}$ ($28\\ \\text{\\AA}$) | $3.4\\text{ nm}$ ($34\\ \\text{\\AA}$) | $4.5\\text{ nm}$ ($45\\ \\text{\\AA}$) |\n| **Sugar Puckering** | $\\text{C}-3'$ endo | $\\text{C}-2'$ endo | Alternating $\\text{C}-2'$ endo / $\\text{C}-3'$ endo |\n| **Backbone Geometry** | Smooth right-handed ribbon | Smooth right-handed ribbon | **Zig-Zag left-handed ribbon** |\n| **Condition** | Dehydrated DNA fibers | Physiological hydrated state | Alternating purine-pyrimidine sequence ($\\text{poly(dG-dC)}$) under high salt |"
+    }
+  ]
+}

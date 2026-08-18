@@ -1,0 +1,68 @@
+[
+  {
+    "id": "phy-kinematics-001",
+    "exam": "NEST",
+    "subject": "Physics",
+    "topic": "Kinematics & Motion in 1D",
+    "subtopic": "Uniformly Accelerated Motion",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "development-example",
+    "questionType": "MCQ",
+    "questionText": "A particle moves along a straight line such that its displacement x at time t is given by x = t³ - 6t² + 9t + 4. At what time t is the acceleration of the particle equal to zero?",
+    "options": [
+      {
+        "id": "a",
+        "text": "t = 1 s",
+        "isCorrect": false,
+        "explanation": "At t = 1 s, a = 6(1) - 12 = -6 m/s²."
+      },
+      {
+        "id": "b",
+        "text": "t = 2 s",
+        "isCorrect": true,
+        "explanation": "Velocity v = dx/dt = 3t² - 12t + 9. Acceleration a = dv/dt = 6t - 12. Setting a = 0 gives 6t = 12 => t = 2 s."
+      },
+      {
+        "id": "c",
+        "text": "t = 3 s",
+        "isCorrect": false,
+        "explanation": "At t = 3 s, a = 6(3) - 12 = +6 m/s²."
+      },
+      {
+        "id": "d",
+        "text": "t = 4 s",
+        "isCorrect": false,
+        "explanation": "At t = 4 s, a = 6(4) - 12 = +12 m/s²."
+      }
+    ],
+    "solutionExplanation": "Differentiate displacement x(t) twice with respect to time. The first derivative gives velocity v = 3t² - 12t + 9. The second derivative gives acceleration a = 6t - 12. Equating a = 0 yields t = 2 seconds.",
+    "keyFormulae": ["v = dx/dt", "a = dv/dt = d²x/dt²"],
+    "hints": ["Compute the second derivative of x with respect to t."],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "phy-kinematics-002",
+    "exam": "NEST",
+    "subject": "Physics",
+    "topic": "Kinematics & Motion in 1D",
+    "subtopic": "Free Fall under Gravity",
+    "difficulty": "Core Foundation",
+    "status": "published",
+    "source": "development-example",
+    "questionType": "Numerical",
+    "questionText": "A ball is dropped from rest from the top of a tower of height 45 m. Taking g = 10 m/s², find the time taken in seconds for the ball to reach the ground.",
+    "numericalAnswer": {
+      "min": 2.9,
+      "max": 3.1,
+      "exactValue": 3.0,
+      "tolerance": 0.1
+    },
+    "solutionExplanation": "Using the kinematic formula h = ut + ½gt² with initial velocity u = 0, we have 45 = ½(10)t² = 5t². Solving for t² gives t² = 9 => t = 3 s.",
+    "keyFormulae": ["h = ut + ½gt²"],
+    "hints": ["Use the equation of motion h = ½gt² since u = 0."],
+    "marks": 4,
+    "negativeMarks": 0
+  }
+]

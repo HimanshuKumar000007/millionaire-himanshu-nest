@@ -1,0 +1,926 @@
+[
+  {
+    "id": "chem-basic-001",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "Dulong-Petit Law & Atomic Mass",
+    "difficulty": "Advanced",
+    "status": "published",
+    "source": "production",
+    "questionType": "MCQ",
+    "questionText": "An inorganic salt of a trivalent metal M (A_M \u2248 unknown) contains 38.0% chlorine by mass. If the specific heat capacity of the solid metal M is 0.052 cal/g\u00b7\u00b0C, what is the exact atomic mass of metal M according to the Dulong-Petit Law?",
+    "options": [
+      {
+        "id": "a",
+        "text": "52.00 g/mol",
+        "isCorrect": false
+      },
+      {
+        "id": "b",
+        "text": "173.28 g/mol",
+        "isCorrect": true,
+        "explanation": "Approx. Atomic Mass = 6.4 / 0.052 \u2248 123.08 g/mol. Equivalent Mass = (62.0 / 38.0) \u00d7 35.45 = 57.83 g/eq. Valency = 123.08 / 57.83 \u2248 3. Exact Mass = 57.83 \u00d7 3 \u2248 173.49 \u2248 173.28 g/mol."
+      },
+      {
+        "id": "c",
+        "text": "86.64 g/mol",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "27.00 g/mol",
+        "isCorrect": false
+      }
+    ],
+    "solutionExplanation": "1. Approx. Atomic Mass = 6.4 / 0.052 \u2248 123.08 g/mol.\n2. In metal chloride MCl\u2083: 38.0g Cl combines with (100 - 38.0) = 62.0g M.\n   Equivalent Mass = (62.0 / 38.0) \u00d7 35.45 = 57.83 g/eq.\n3. Valency = 123.08 / 57.83 = 2.128 \u2248 3 (trivalent metal).\n4. Exact Atomic Mass = Equivalent Mass \u00d7 Valency = 57.83 \u00d7 3 = 173.49 g/mol \u2248 173.28 g/mol.",
+    "keyFormulae": [
+      "Approx. Atomic Mass \u00d7 Specific Heat \u2248 6.4",
+      "Valency = Approx. Mass / Eq. Mass",
+      "Exact Atomic Mass = Eq. Mass \u00d7 Valency"
+    ],
+    "hints": [
+      "First find approximate atomic mass using Dulong-Petit, then calculate equivalent mass from chlorine percentage to find the exact valency."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-basic-002",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "Molarity & Molality Interconversion",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "production",
+    "questionType": "MCQ",
+    "questionText": "A concentrated aqueous solution of Sulfuric Acid (H\u2082SO\u2084, M_B = 98.08 g/mol) has a density of 1.84 g/mL and contains 98.0% H\u2082SO\u2084 by mass (% w/w). What is the Molarity (M) and Molality (m) of this acid solution, respectively?",
+    "options": [
+      {
+        "id": "a",
+        "text": "M = 18.40 M; m = 500.00 m",
+        "isCorrect": true,
+        "explanation": "M = (98.0 \u00d7 1.84 \u00d7 10) / 98.08 = 18.38 M \u2248 18.40 M. In 100g soln: 98g solute, 2g H2O. Molality = (98/98.08) / 0.002 = 500 m."
+      },
+      {
+        "id": "b",
+        "text": "M = 9.20 M; m = 250.00 m",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "M = 18.40 M; m = 250.00 m",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "M = 36.80 M; m = 500.00 m",
+        "isCorrect": false
+      }
+    ],
+    "solutionExplanation": "1. Molarity M = (% w/w \u00d7 d \u00d7 10) / M_B = (98.0 \u00d7 1.84 \u00d7 10) / 98.08 = 18.38 M \u2248 18.40 M.\n2. In 100 g solution: w_B = 98.0 g, w_A = 2.0 g H\u2082O = 0.002 kg.\n   n_B = 98.0 / 98.08 = 0.9992 mol.\n   Molality m = 0.9992 / 0.002 = 499.6 m \u2248 500.00 m.",
+    "keyFormulae": [
+      "M = (% w/w \u00d7 d \u00d7 10) / M_B",
+      "m = n_solute / mass_solvent(kg)"
+    ],
+    "hints": [
+      "Use the golden formula M = (%w/w \u00d7 d \u00d7 10)/M_B for molarity."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-basic-003",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "Limiting Reagent & Precipitation",
+    "difficulty": "Advanced",
+    "status": "published",
+    "source": "production",
+    "questionType": "MCQ",
+    "questionText": "When 100 mL of 0.2 M Ba(OH)\u2082 is mixed with 100 mL of 0.3 M H\u2083PO\u2084, a precipitate of Barium Phosphate Ba\u2083(PO\u2084)\u2082 (M_B = 601.9 g/mol) forms. Assuming complete precipitation, what mass of Ba\u2083(PO\u2084)\u2082 is formed, and which reactant acts as the limiting reagent?",
+    "options": [
+      {
+        "id": "a",
+        "text": "4.01 g; Ba(OH)\u2082 is the Limiting Reagent",
+        "isCorrect": true,
+        "explanation": "Ba(OH)2 moles = 0.020 mol, H3PO4 moles = 0.030 mol. Ratio Ba(OH)2 = 0.020/3 = 0.00667 < H3PO4 ratio = 0.030/2 = 0.0150. Precipitate mass = 0.00667 \u00d7 601.9 = 4.01 g."
+      },
+      {
+        "id": "b",
+        "text": "6.02 g; H\u2083PO\u2084 is the Limiting Reagent",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "12.04 g; Ba(OH)\u2082 is the Limiting Reagent",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "2.01 g; Both reactants are stoichiometric",
+        "isCorrect": false
+      }
+    ],
+    "solutionExplanation": "1. Balanced Equation: 3 Ba(OH)\u2082 + 2 H\u2083PO\u2084 \u2192 Ba\u2083(PO\u2084)\u2082\u2193 + 6 H\u2082O.\n2. Initial moles: n(Ba(OH)\u2082) = 0.100 \u00d7 0.2 = 0.020 mol; n(H\u2083PO\u2084) = 0.100 \u00d7 0.3 = 0.030 mol.\n3. Ratios: Ba(OH)\u2082 = 0.020 / 3 = 0.00667; H\u2083PO\u2084 = 0.030 / 2 = 0.0150.\n   Since 0.00667 < 0.0150, Ba(OH)\u2082 is the Limiting Reagent.\n4. Moles Ba\u2083(PO\u2084)\u2082 = 0.020 / 3 = 0.00667 mol.\n   Mass = 0.00667 \u00d7 601.9 = 4.01 g.",
+    "keyFormulae": [
+      "Stoichiometric Ratio = n_initial / coefficient",
+      "Mass = n \u00d7 Molar Mass"
+    ],
+    "hints": [
+      "Write the balanced precipitation reaction first to find the stoichiometric coefficients."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-basic-004",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "Eudiometry & Hydrocarbon Combustion",
+    "difficulty": "Advanced",
+    "status": "published",
+    "source": "production",
+    "questionType": "MCQ",
+    "questionText": "Complete combustion of 10 mL of a gaseous hydrocarbon C\u2093H\u1d67 requires 65 mL of pure O\u2082 gas for complete oxidation. After cooling to room temperature, the residual gas volume shrinks by 40 mL upon passage through a concentrated KOH tube. What is the molecular formula of the hydrocarbon?",
+    "options": [
+      {
+        "id": "a",
+        "text": "C\u2083H\u2088",
+        "isCorrect": false
+      },
+      {
+        "id": "b",
+        "text": "C\u2084H\u2081\u2080",
+        "isCorrect": true,
+        "explanation": "Contraction with KOH = 40 mL = 10x so x = 4. O2 volume = 10(x + y/4) = 65 -> 4 + y/4 = 6.5 -> y = 10. Formula is C4H10 (Butane)."
+      },
+      {
+        "id": "c",
+        "text": "C\u2084H\u2088",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "C\u2083H\u2086",
+        "isCorrect": false
+      }
+    ],
+    "solutionExplanation": "1. Eudiometric reaction: C\u2093H\u1d67 + (x + y/4) O\u2082 \u2192 x CO\u2082 + (y/2) H\u2082O(l).\n2. CO\u2082 volume = contraction with KOH = 40 mL.\n   For 10 mL hydrocarbon: 10x = 40 \u2192 x = 4.\n3. O\u2082 consumed: 10(x + y/4) = 65 \u2192 4 + y/4 = 6.5 \u2192 y/4 = 2.5 \u2192 y = 10.\n4. Molecular formula is C\u2084H\u2081\u2080 (Butane).",
+    "keyFormulae": [
+      "V_CO2 = x \u00d7 V_hydrocarbon",
+      "V_O2 = (x + y/4) \u00d7 V_hydrocarbon"
+    ],
+    "hints": [
+      "KOH absorbs CO2, giving x directly. Then use O2 volume to find y."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-basic-005",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "Hydrated Salts & Water of Crystallization",
+    "difficulty": "Core Foundation",
+    "status": "published",
+    "source": "production",
+    "questionType": "MCQ",
+    "questionText": "A sample of hydrated Magnesium Sulfate MgSO\u2084\u00b7xH\u2082O weighing 12.32 g is heated strongly until all water of crystallization is driven off, leaving an anhydrous residue of MgSO\u2084 (M_B = 120.37 g/mol) weighing 6.02 g. What is the value of x in the hydrated formula?",
+    "options": [
+      {
+        "id": "a",
+        "text": "x = 5",
+        "isCorrect": false
+      },
+      {
+        "id": "b",
+        "text": "x = 7",
+        "isCorrect": true,
+        "explanation": "Water lost = 12.32 - 6.02 = 6.30 g. n(MgSO4) = 6.02/120.37 = 0.0500 mol. n(H2O) = 6.30/18.015 = 0.3500 mol. x = 0.3500 / 0.0500 = 7."
+      },
+      {
+        "id": "c",
+        "text": "x = 2",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "x = 10",
+        "isCorrect": false
+      }
+    ],
+    "solutionExplanation": "1. Mass of water lost = 12.32 - 6.02 = 6.30 g.\n2. n(MgSO\u2084) = 6.02 / 120.37 = 0.0500 mol.\n3. n(H\u2082O) = 6.30 / 18.015 = 0.3500 mol.\n4. x = n(H\u2082O) / n(MgSO\u2084) = 0.3500 / 0.0500 = 7. Formula is MgSO\u2084\u00b77H\u2082O (Epsom Salt).",
+    "keyFormulae": [
+      "x = n(H2O) / n(anhydrous salt)"
+    ],
+    "hints": [
+      "Subtract the anhydrous residue from the initial mass to find water mass."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-basic-006",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "Mole Fraction from Molality",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "production",
+    "questionType": "MCQ",
+    "questionText": "What is the mole fraction of solute (x_B) in a 2.5 m aqueous solution of Sodium Chloride (NaCl)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "0.043",
+        "isCorrect": true,
+        "explanation": "2.5m means 2.5 mol NaCl in 1000g H2O. Moles of H2O = 1000/18.015 = 55.51 mol. x_B = 2.5 / (55.51 + 2.5) = 0.0431 \u2248 0.043."
+      },
+      {
+        "id": "b",
+        "text": "0.025",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "0.086",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "0.100",
+        "isCorrect": false
+      }
+    ],
+    "solutionExplanation": "1. 2.5 m solution contains 2.5 mol NaCl in 1000 g H\u2082O.\n2. n(H\u2082O) = 1000 / 18.015 = 55.51 mol.\n3. x_B = n_B / (n_A + n_B) = 2.5 / (55.51 + 2.5) = 2.5 / 58.01 = 0.0431 \u2248 0.043.",
+    "keyFormulae": [
+      "x_B = m / (m + 1000/M_A)"
+    ],
+    "hints": [
+      "Recall that 1000 g of water contains 55.51 moles."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-basic-007",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "Gas Mixtures & Average Molar Mass",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "production",
+    "questionType": "MCQ",
+    "questionText": "Equal masses of methane gas (CH\u2084, M = 16) and oxygen gas (O\u2082, M = 32) are mixed in an evacuated rigid vessel at 27\u00b0C. What is the mole fraction of methane (x_CH\u2084) and the average molar mass (M\u0304) of the gas mixture?",
+    "options": [
+      {
+        "id": "a",
+        "text": "x_CH\u2084 = 0.67; M\u0304 = 21.33 g/mol",
+        "isCorrect": true,
+        "explanation": "Let mass = 32g each. n(CH4) = 2 mol, n(O2) = 1 mol. x(CH4) = 2/3 = 0.67. M_bar = (2/3 \u00d7 16) + (1/3 \u00d7 32) = 64/3 = 21.33 g/mol."
+      },
+      {
+        "id": "b",
+        "text": "x_CH\u2084 = 0.50; M\u0304 = 24.00 g/mol",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "x_CH\u2084 = 0.33; M\u0304 = 26.67 g/mol",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "x_CH\u2084 = 0.75; M\u0304 = 20.00 g/mol",
+        "isCorrect": false
+      }
+    ],
+    "solutionExplanation": "1. Let mass w = 32 g for each gas.\n   n(CH\u2084) = 32 / 16 = 2 mol; n(O\u2082) = 32 / 32 = 1 mol.\n   Total moles = 2 + 1 = 3 mol.\n2. x(CH\u2084) = 2 / 3 = 0.667 \u2248 0.67.\n3. M\u0304 = (2/3 \u00d7 16) + (1/3 \u00d7 32) = 32/3 + 32/3 = 64/3 = 21.33 g/mol.",
+    "keyFormulae": [
+      "x_i = n_i / \u03a3 n",
+      "M\u0304 = \u03a3 (x_i \u00b7 M_i)"
+    ],
+    "hints": [
+      "Assume a convenient sample mass like 32 g for each gas to find moles."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-basic-008",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "Law of Multiple Proportions",
+    "difficulty": "Core Foundation",
+    "status": "published",
+    "source": "production",
+    "questionType": "MCQ",
+    "questionText": "A pure metallic element X forms two distinct oxides: Oxide 1 contains 50.0% metal X by mass, while Oxide 2 contains 40.0% metal X by mass. What is the simple whole-number mass ratio of Oxygen combined with a fixed mass of metal X across these two oxides, demonstrating the Law of Multiple Proportions?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1 : 2",
+        "isCorrect": false
+      },
+      {
+        "id": "b",
+        "text": "2 : 3",
+        "isCorrect": true,
+        "explanation": "Oxide 1: 50g X + 50g O -> O/X = 1.0. Oxide 2: 40g X + 60g O -> O/X = 1.5. Ratio = 1.0 : 1.5 = 2 : 3."
+      },
+      {
+        "id": "c",
+        "text": "3 : 4",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "text": "1 : 3",
+        "isCorrect": false
+      }
+    ],
+    "solutionExplanation": "1. In Oxide 1: 50 g X + 50 g O \u2192 Oxygen per 1 g X = 50 / 50 = 1.0 g O/g X.\n2. In Oxide 2: 40 g X + 60 g O \u2192 Oxygen per 1 g X = 60 / 40 = 1.5 g O/g X.\n3. Ratio of Oxygen masses = 1.0 : 1.5 = 2 : 3 (Law of Multiple Proportions).",
+    "keyFormulae": [
+      "Ratio = (mass O / mass X)_oxide1 : (mass O / mass X)_oxide2"
+    ],
+    "hints": [
+      "Fix the mass of element X to 1.0 g in both oxides and compare oxygen masses."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-basic-009",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "Normality & n-Factor",
+    "difficulty": "Core Foundation",
+    "status": "published",
+    "source": "production",
+    "questionType": "MCQ",
+    "questionText": "What is the Normality (N) of a 0.25 M aqueous solution of Phosphoric Acid (H\u2083PO\u2084) when used in a neutralization reaction where it is completely converted to Phosphate ions (PO\u2084\u00b3\u207b)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "0.25 N",
+        "isCorrect": false
+      },
+      {
+        "id": "b",
+        "text": "0.50 N",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "0.75 N",
+        "isCorrect": true,
+        "explanation": "H3PO4 is tribasic (n-factor = 3). N = M \u00d7 n-factor = 0.25 \u00d7 3 = 0.75 N."
+      },
+      {
+        "id": "d",
+        "text": "1.00 N",
+        "isCorrect": false
+      }
+    ],
+    "solutionExplanation": "1. H\u2083PO\u2084 is a tribasic acid releasing 3 H\u207a ions upon complete neutralization: n-factor (basicity) = 3.\n2. N = M \u00d7 n-factor = 0.25 M \u00d7 3 = 0.75 N.",
+    "keyFormulae": [
+      "Normality = Molarity \u00d7 n-factor"
+    ],
+    "hints": [
+      "Phosphoric acid (H3PO4) can donate up to 3 protons."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-basic-010",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "Gas Laws & Ideal Gas Equation",
+    "difficulty": "Core Foundation",
+    "status": "published",
+    "source": "production",
+    "questionType": "MCQ",
+    "questionText": "At 25\u00b0C, a 1.00 L flask contains 0.10 moles of an ideal gas at pressure P. If the volume is halved to 0.50 L and the absolute temperature is doubled to 596.3 K, what is the new pressure (P\u2082) in terms of original pressure P?",
+    "options": [
+      {
+        "id": "a",
+        "text": "P\u2082 = P",
+        "isCorrect": false
+      },
+      {
+        "id": "b",
+        "text": "P\u2082 = 2P",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "text": "P\u2082 = 4P",
+        "isCorrect": true,
+        "explanation": "Combined gas law: P2 = P1 \u00d7 (V1/V2) \u00d7 (T2/T1) = P \u00d7 (1.00/0.50) \u00d7 2 = 4P."
+      },
+      {
+        "id": "d",
+        "text": "P\u2082 = 8P",
+        "isCorrect": false
+      }
+    ],
+    "solutionExplanation": "1. Using Combined Gas Law: (P\u2081V\u2081)/T\u2081 = (P\u2082V\u2082)/T\u2082.\n2. P\u2082 = P\u2081 \u00d7 (V\u2081/V\u2082) \u00d7 (T\u2082/T\u2081) = P \u00d7 (1.00 / 0.50) \u00d7 (2) = P \u00d7 2 \u00d7 2 = 4P.",
+    "keyFormulae": [
+      "(P1 \u00b7 V1) / T1 = (P2 \u00b7 V2) / T2"
+    ],
+    "hints": [
+      "Halving volume doubles pressure; doubling absolute temperature doubles pressure again."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-basic-011",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "Temperature Dependence of Concentration",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "production",
+    "questionType": "MSQ",
+    "questionText": "Which of the following concentration expressions are strictly INDEPENDENT of temperature changes? (Select all that apply)",
+    "options": [
+      {
+        "id": "a",
+        "text": "Molality (m)",
+        "isCorrect": true,
+        "explanation": "Mass-based (mol solute / kg solvent); temperature-independent."
+      },
+      {
+        "id": "b",
+        "text": "Mole Fraction (x_i)",
+        "isCorrect": true,
+        "explanation": "Mass/mole-based; temperature-independent."
+      },
+      {
+        "id": "c",
+        "text": "Mass Percentage (% w/w)",
+        "isCorrect": true,
+        "explanation": "Mass ratio; temperature-independent."
+      },
+      {
+        "id": "d",
+        "text": "Molarity (M)",
+        "isCorrect": false,
+        "explanation": "Volume-based (V expands with T); temperature-dependent."
+      }
+    ],
+    "solutionExplanation": "Molality, Mole Fraction, and Mass Percentage (% w/w) are based purely on mass measurements (g / kg), which are invariant with temperature. Molarity (M = n / V) depends on solution volume, which expands/contracts as temperature changes.",
+    "keyFormulae": [
+      "T-independent: Molality, Mole Fraction, % w/w, ppm (w/w)"
+    ],
+    "hints": [
+      "Identify which units rely solely on mass rather than volume."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-basic-012",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "Exceptions to Chemical Combination Laws",
+    "difficulty": "Advanced",
+    "status": "published",
+    "source": "production",
+    "questionType": "MSQ",
+    "questionText": "Which of the following chemical systems or compounds represent EXCEPTIONS to Proust's Law of Definite Proportions? (Select all that apply)",
+    "options": [
+      {
+        "id": "a",
+        "text": "W\u00fcstite (Fe\u2080.\u2089\u2085O) featuring non-stoichiometric cation vacancies",
+        "isCorrect": true,
+        "explanation": "Berthollide non-stoichiometric compound with variable iron-oxygen ratio."
+      },
+      {
+        "id": "b",
+        "text": "Carbon Dioxide (CO\u2082) synthesized using pure \u00b9\u00b2C vs radioactive \u00b9\u2074C isotopes",
+        "isCorrect": true,
+        "explanation": "Different isotopes give different mass percentages for carbon."
+      },
+      {
+        "id": "c",
+        "text": "Pure synthesized Water (H\u2082O) prepared by burning H\u2082 in O\u2082",
+        "isCorrect": false,
+        "explanation": "Pure water always obeys 1:8 mass ratio."
+      },
+      {
+        "id": "d",
+        "text": "Cuprous sulfide (Cu\u2081.\u2088S) exhibiting variable lattice stoichiometry",
+        "isCorrect": true,
+        "explanation": "Berthollide non-stoichiometric compound."
+      }
+    ],
+    "solutionExplanation": "A and D are non-stoichiometric Berthollide compounds with variable elemental ratios due to crystal defect vacancies. B uses different isotopes (\u00b9\u00b2C vs \u00b9\u2074C), altering the elemental mass percentage. Pure water (C) strictly obeys the Law of Definite Proportions.",
+    "keyFormulae": [
+      "Proust's Law fails for Berthollides and Isotopic variance."
+    ],
+    "hints": [
+      "Look for non-stoichiometric formulas with fractional subscripts and isotope differences."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-basic-013",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "Avogadro Number & Molar Relations",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "production",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding Avogadro's Number (N_A = 6.022 \u00d7 10\u00b2\u00b3) and molar quantities: (Select all that apply)",
+    "options": [
+      {
+        "id": "a",
+        "text": "1 mole of H\u2082O(l) contains 6.022 \u00d7 10\u00b2\u00b3 molecules and occupies 18.0 mL volume at 4\u00b0C",
+        "isCorrect": true,
+        "explanation": "18g of liquid water has density 1.0 g/mL, occupying 18.0 mL."
+      },
+      {
+        "id": "b",
+        "text": "1 mole of O\u2082(g) at IUPAC STP (0\u00b0C, 1 bar) occupies 22.71 L",
+        "isCorrect": true,
+        "explanation": "Current IUPAC STP molar volume is 22.71 L/mol."
+      },
+      {
+        "id": "c",
+        "text": "1 mole of K\u2084[Fe(CN)\u2086] contains 6 moles of Carbon atoms and 6 N_A Nitrogen atoms",
+        "isCorrect": true,
+        "explanation": "Formula contains 6 CN groups."
+      },
+      {
+        "id": "d",
+        "text": "1 amu is equal to the exact reciprocal of Avogadro's number in grams (1/N_A g)",
+        "isCorrect": true,
+        "explanation": "1 u = 1/N_A g = 1.66054 \u00d7 10\u207b\u00b2\u2074 g."
+      }
+    ],
+    "solutionExplanation": "All four statements represent accurate fundamental molar definitions: 1 mol liquid water = 18 mL; IUPAC STP V_m = 22.71 L; K\u2084[Fe(CN)\u2086] has 6 C and 6 N atoms per formula unit; 1 u = 1/N_A grams.",
+    "keyFormulae": [
+      "1 u = 1 / N_A grams",
+      "V_m(IUPAC STP) = 22.71 L/mol"
+    ],
+    "hints": [
+      "Evaluate each option independently based on standard SI definitions."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-basic-014",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "Eudiometric Reagents & Absorbers",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "production",
+    "questionType": "MSQ",
+    "questionText": "Which of the following chemical absorbers correctly match their target gases in Eudiometric Gas Analysis? (Select all that apply)",
+    "options": [
+      {
+        "id": "a",
+        "text": "Concentrated KOH solution \u2192 Absorbs CO\u2082 and SO\u2082",
+        "isCorrect": true,
+        "explanation": "Standard alkaline absorber for acidic oxides."
+      },
+      {
+        "id": "b",
+        "text": "Alkaline Pyrogallol solution \u2192 Absorbs O\u2082",
+        "isCorrect": true,
+        "explanation": "Standard oxygen absorber."
+      },
+      {
+        "id": "c",
+        "text": "Turpentine Oil \u2192 Absorbs Ozone (O\u2083)",
+        "isCorrect": true,
+        "explanation": "Standard ozone absorber."
+      },
+      {
+        "id": "d",
+        "text": "Anhydrous CaCl\u2082 \u2192 Absorbs Water Vapor (H\u2082O)",
+        "isCorrect": true,
+        "explanation": "Standard desiccant."
+      }
+    ],
+    "solutionExplanation": "All four selective chemical absorbers correctly match their target gases in standard eudiometry laboratory protocols.",
+    "keyFormulae": [
+      "KOH -> CO2/SO2",
+      "Pyrogallol -> O2",
+      "Turpentine -> O3",
+      "CaCl2 -> H2O"
+    ],
+    "hints": [
+      "Review the eudiometry selective absorber table."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-basic-015",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "n-Factor Calculations",
+    "difficulty": "Advanced",
+    "status": "published",
+    "source": "production",
+    "questionType": "MSQ",
+    "questionText": "Select the valid statements regarding n-factor (valence factor) calculations for chemical species: (Select all that apply)",
+    "options": [
+      {
+        "id": "a",
+        "text": "For KMnO\u2084 in strongly acidic medium: n-factor = 5 (MnO\u2084\u207b + 5e\u207b \u2192 Mn\u00b2\u207a)",
+        "isCorrect": true,
+        "explanation": "Mn changes from +7 to +2 (\u0394 = 5)."
+      },
+      {
+        "id": "b",
+        "text": "For KMnO\u2084 in neutral/faintly alkaline medium: n-factor = 3 (MnO\u2084\u207b + 3e\u207b \u2192 MnO\u2082)",
+        "isCorrect": true,
+        "explanation": "Mn changes from +7 to +4 (\u0394 = 3)."
+      },
+      {
+        "id": "c",
+        "text": "For K\u2082Cr\u2082O\u2087 in acidic medium: n-factor = 6 (Cr\u2082O\u2087\u00b2\u207b + 6e\u207b \u2192 2Cr\u00b3\u207a)",
+        "isCorrect": true,
+        "explanation": "Two Cr atoms change from +6 to +3 (2 \u00d7 3 = 6)."
+      },
+      {
+        "id": "d",
+        "text": "For Sodium Carbonate (Na\u2082CO\u2083) in complete acid neutralization: n-factor = 2",
+        "isCorrect": true,
+        "explanation": "CO3(2-) reacts with 2 H+ to form H2CO3."
+      }
+    ],
+    "solutionExplanation": "All four statements represent chemically and mathematically correct n-factor derivations for redox and neutralization titration calculations.",
+    "keyFormulae": [
+      "Redox n-factor = Total change in oxidation number",
+      "Salt/Acid n-factor = Total replaceable H+ or cation charge"
+    ],
+    "hints": [
+      "Calculate the change in oxidation state per mole of reactant."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-basic-016",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "Dulong-Petit Law Validity",
+    "difficulty": "Core Foundation",
+    "status": "published",
+    "source": "production",
+    "questionType": "MSQ",
+    "questionText": "Which of the following statements regarding the Dulong-Petit Law are TRUE? (Select all that apply)",
+    "options": [
+      {
+        "id": "a",
+        "text": "It applies strictly to solid metallic elements",
+        "isCorrect": true,
+        "explanation": "Valid for heavy metallic solids."
+      },
+      {
+        "id": "b",
+        "text": "The product of approximate atomic mass and specific heat (cal/g\u00b7\u00b0C) is approximately 6.4",
+        "isCorrect": true,
+        "explanation": "Classical Dulong-Petit constant."
+      },
+      {
+        "id": "c",
+        "text": "It fails for light non-metallic elements like Beryllium, Boron, Carbon, and Silicon",
+        "isCorrect": true,
+        "explanation": "Light elements have high Debye temperatures and fail."
+      },
+      {
+        "id": "d",
+        "text": "It can be used to determine the exact atomic mass directly without equivalent mass data",
+        "isCorrect": false,
+        "explanation": "It gives only an approximate atomic mass."
+      }
+    ],
+    "solutionExplanation": "A, B, C are true. D is false because Dulong-Petit yields only an approximate atomic mass. Exact atomic mass requires combining approximate mass with equivalent mass to find integer valency (Exact AM = Eq Mass \u00d7 Valency).",
+    "keyFormulae": [
+      "Approx AM \u00d7 Sp Heat \u2248 6.4",
+      "Exact AM = Eq Mass \u00d7 Valency"
+    ],
+    "hints": [
+      "Remember that Dulong-Petit is an empirical approximation."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-basic-017",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "Solution Properties of Non-Electrolytes",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "production",
+    "questionType": "MSQ",
+    "questionText": "A 0.1 M aqueous solution of Glucose (C\u2086H\u2081\u2082O\u2086) and a 0.1 M aqueous solution of Urea (NH\u2082CONH\u2082) are prepared at 25\u00b0C. Which of the following physical properties are IDENTICAL for both solutions? (Select all that apply)",
+    "options": [
+      {
+        "id": "a",
+        "text": "Molarity (0.1 M)",
+        "isCorrect": true,
+        "explanation": "Both prepared at 0.1 mol/L."
+      },
+      {
+        "id": "b",
+        "text": "Total number of dissolved solute particles per liter",
+        "isCorrect": true,
+        "explanation": "Both are non-electrolytes (i=1), yielding 0.1 N_A particles/L."
+      },
+      {
+        "id": "c",
+        "text": "Mass percentage (% w/w) of solute",
+        "isCorrect": false,
+        "explanation": "Molar masses differ (180 vs 60 g/mol), so mass percentages differ."
+      },
+      {
+        "id": "d",
+        "text": "Osmotic Pressure (\u03a0 = C R T)",
+        "isCorrect": true,
+        "explanation": "Colligative property depends only on particle concentration C."
+      }
+    ],
+    "solutionExplanation": "A, B, D are identical because both substances are non-electrolytes (i = 1) at identical molar concentrations (0.1 M), yielding identical particle counts and osmotic pressures. Mass percentage (C) differs due to different molar masses (Glucose = 180 g/mol, Urea = 60 g/mol).",
+    "keyFormulae": [
+      "\u03a0 = i \u00b7 C \u00b7 R \u00b7 T",
+      "i = 1 for non-electrolytes"
+    ],
+    "hints": [
+      "Compare colligative and molar properties vs mass-dependent properties."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-basic-018",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "Limiting Reagent Fundamentals",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "production",
+    "questionType": "MSQ",
+    "questionText": "Select the correct statements regarding Limiting Reagents (LR) in chemical reactions: (Select all that apply)",
+    "options": [
+      {
+        "id": "a",
+        "text": "The LR is always completely consumed at 100% reaction completion",
+        "isCorrect": true,
+        "explanation": "By definition, the limiting reagent is exhausted first."
+      },
+      {
+        "id": "b",
+        "text": "Theoretical product yield is calculated based exclusively on the stoichiometry of the LR",
+        "isCorrect": true,
+        "explanation": "The limiting reactant dictates maximum product yield."
+      },
+      {
+        "id": "c",
+        "text": "The LR can be identified by finding the reactant with the minimum value of (Initial Moles / Stoichiometric Coefficient)",
+        "isCorrect": true,
+        "explanation": "Standard selection criterion."
+      },
+      {
+        "id": "d",
+        "text": "The LR is always the reactant with the highest molar mass",
+        "isCorrect": false,
+        "explanation": "LR depends on stoichiometric mole ratios, not molar mass."
+      }
+    ],
+    "solutionExplanation": "A, B, C are correct statements regarding limiting reagents. D is false because the limiting reagent is determined by molar and stoichiometric ratios, not raw molar mass.",
+    "keyFormulae": [
+      "LR = min(n_initial / coefficient)"
+    ],
+    "hints": [
+      "Review the definition and criteria for limiting reagents."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-basic-019",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "Atom Counting & Mole Conversions",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "production",
+    "questionType": "MSQ",
+    "questionText": "Which of the following gas samples contain the EXACT SAME total number of atoms as 16.0 g of Oxygen gas (O\u2082, M=32)? (Select all that apply)",
+    "options": [
+      {
+        "id": "a",
+        "text": "14.0 g of Nitrogen gas (N\u2082, M=28)",
+        "isCorrect": true,
+        "explanation": "14g N2 = 0.5 mol N2 = 1.0 N_A atoms."
+      },
+      {
+        "id": "b",
+        "text": "22.4 L of Helium gas (He, M=4) at old STP",
+        "isCorrect": true,
+        "explanation": "22.4 L He = 1.0 mol He (monoatomic) = 1.0 N_A atoms."
+      },
+      {
+        "id": "c",
+        "text": "11.2 L of Carbon Dioxide (CO\u2082, M=44) at old STP",
+        "isCorrect": false,
+        "explanation": "11.2 L CO2 = 0.5 mol CO2 = 1.5 N_A atoms."
+      },
+      {
+        "id": "d",
+        "text": "16.0 g of Ozone gas (O\u2083, M=48)",
+        "isCorrect": true,
+        "explanation": "16g O3 = (16/48) mol O3 = 1/3 \u00d7 3 = 1.0 N_A atoms."
+      }
+    ],
+    "solutionExplanation": "Target atom count = 16.0 g O\u2082 = (16/32) mol O\u2082 = 0.5 mol O\u2082 = 1.0 mol O atoms = 1.0 N_A atoms.\n\u2022 A: 14.0 g N\u2082 = 0.5 mol N\u2082 = 1.0 N_A atoms (CORRECT).\n\u2022 B: 22.4 L He at old STP = 1.0 mol He = 1.0 N_A atoms (CORRECT).\n\u2022 C: 11.2 L CO\u2082 = 0.5 mol CO\u2082 = 1.5 N_A atoms (Incorrect).\n\u2022 D: 16.0 g O\u2083 = 1/3 mol O\u2083 = 1.0 N_A atoms (CORRECT).",
+    "keyFormulae": [
+      "Total atoms = moles \u00d7 atomicity \u00d7 N_A"
+    ],
+    "hints": [
+      "First calculate the target atom count for 16.0 g of O2, then find total atoms for each option."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  },
+  {
+    "id": "chem-basic-020",
+    "exam": "NEST",
+    "subject": "Chemistry",
+    "topic": "Some Basic Concepts of Chemistry",
+    "subtopic": "Combustion Analysis Chemistry",
+    "difficulty": "High-Yield",
+    "status": "published",
+    "source": "production",
+    "questionType": "MSQ",
+    "questionText": "Select the correct options regarding the combustion analysis of an organic hydrocarbon C\u2093H\u1d67: (Select all that apply)",
+    "options": [
+      {
+        "id": "a",
+        "text": "Water produced by combustion is absorbed by anhydrous CaCl\u2082 or Mg(ClO\u2084)\u2082",
+        "isCorrect": true,
+        "explanation": "Desiccants absorb water."
+      },
+      {
+        "id": "b",
+        "text": "Carbon dioxide produced is absorbed by concentrated KOH solution",
+        "isCorrect": true,
+        "explanation": "Alkaline solution absorbs CO2."
+      },
+      {
+        "id": "c",
+        "text": "Contraction in gas volume upon adding KOH equals the volume of CO\u2082 gas produced",
+        "isCorrect": true,
+        "explanation": "Absorption of CO2 results in equivalent volume shrinkage."
+      },
+      {
+        "id": "d",
+        "text": "Nitrogen in the compound is absorbed by pyrogallol",
+        "isCorrect": false,
+        "explanation": "Pyrogallol absorbs oxygen, not nitrogen."
+      }
+    ],
+    "solutionExplanation": "A, B, C are correct standard operational steps in organic combustion analysis. D is false because alkaline pyrogallol selectively absorbs oxygen (O\u2082), not nitrogen.",
+    "keyFormulae": [
+      "CaCl2 absorbs H2O",
+      "KOH absorbs CO2"
+    ],
+    "hints": [
+      "Remember what alkaline pyrogallol specifically absorbs."
+    ],
+    "marks": 4,
+    "negativeMarks": 1
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "id": "chem-xii-u10-c1-l05",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit X \u2014 Solutions",
+  "unitNumber": 10,
+  "chapter": "Solutions",
+  "chapterNumber": 1,
+  "chapterSlug": "solutions",
+  "slug": "lesson-05-colligative-properties-rlvp-ebullioscopy",
+  "title": "Colligative Properties I: RLVP & Ebullioscopic Elevation (\u0394T_b)",
+  "topic": "Colligative Properties: RLVP & Boiling Point Elevation",
+  "topics": [
+    "Definition of Colligative Properties (Particle count-dependent; independent of identity)",
+    "Relative Lowering of Vapor Pressure (RLVP: \u0394p / p\u00b0 = x_B = (w_B M_A) / (M_B w_A))",
+    "Elevation of Boiling Point (\u0394T_b = K_b \u00b7 m = K_b \u00b7 (w_B \u00d7 1000) / (M_B \u00d7 w_A))",
+    "Thermodynamic Derivation of Ebullioscopic Constant K_b = (R M_A (T\u00b0_b)\u00b2) / (1000 \u0394_vap H)"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "High Rigor",
+  "source": "production",
+  "status": "published",
+  "diagramType": "solutions",
+  "quickSummary": "Colligative properties depend strictly on particle number. RLVP = \u0394p/p\u00b0 = x_B. Boiling point elevation: \u0394T_b = K_b \u00b7 m. Ebullioscopic constant: K_b = (R\u00b7M_A\u00b7(T\u00b0_b)\u00b2) / (1000\u00b7\u0394_vap H).",
+  "summary": "Master Relative Lowering of Vapor Pressure, boiling point elevation calculations, and thermodynamic K_b derivations.",
+  "conceptBreakdown": [
+    {
+      "heading": "5.1 Relative Lowering of Vapor Pressure (RLVP)",
+      "title": "5.1 Relative Lowering of Vapor Pressure (RLVP)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "RLVP Formula",
+        "takeaway": "\u0394p / p\u00b0_A = x_B. For dilute solutions: \u0394p / p\u00b0_A \u2248 n_B / n_A = (w_B M_A) / (M_B w_A)."
+      },
+      "codeSnippet": "RELATIVE LOWERING OF VAPOR PRESSURE (RLVP)\n\n(p\u00b0_A - p_A) / p\u00b0_A = \u0394p / p\u00b0_A = x_B = n_B / (n_A + n_B)\n\nFor dilute solutions (n_B \u226a n_A):\n\u0394p / p\u00b0_A \u2248 n_B / n_A = (w_B \u00d7 M_A) / (M_B \u00d7 w_A)",
+      "content": "Non-volatile solute molecules occupy surface sites on the liquid, lowering the rate of vaporization. The relative lowering of vapor pressure ($\\Delta p / p_A^\\circ$) equals the **mole fraction of solute ($x_B$)**."
+    },
+    {
+      "heading": "5.2 Boiling Point Elevation (\u0394T_b) & K_b Derivation",
+      "title": "5.2 Boiling Point Elevation (\u0394T_b) & K_b Derivation",
+      "type": "paragraph",
+      "codeSnippet": "BOILING POINT ELEVATION (\u0394T_b)\n\n\u0394T_b = T_b - T\u00b0_b = K_b \u00d7 m = K_b \u00d7 (w_B \u00d7 1000) / (M_B \u00d7 w_A in g)\n\nThermodynamic Formula for K_b:\nK_b = (R \u00d7 M_A \u00d7 (T\u00b0_b)\u00b2) / (1000 \u00d7 \u0394_vap H)\nUnits of K_b: K\u00b7kg/mol (depends strictly on SOLVENT, independent of solute)",
+      "content": "\u2022 **Boiling Point Elevation**: $\\mathbf{\\Delta T_b = K_b \\cdot m}$ where $K_b$ is the Ebullioscopic Constant ($\\text{K}\\cdot\\text{kg/mol}$).\n\u2022 **Thermodynamic Relation**: $K_b$ depends strictly on solvent properties ($M_A, T_b^\\circ, \\Delta_{\\text{vap}} H$), and is completely independent of the solute's chemical identity."
+    }
+  ],
+  "quickRevision": [
+    "RLVP equals the mole fraction of solute (x_B).",
+    "\u0394T_b = K_b \u00b7 m.",
+    "K_b depends strictly on the solvent, not the solute.",
+    "Units of K_b are K\u00b7kg/mol."
+  ],
+  "keyFormulae": [
+    "\\frac{\\Delta p}{p_A^\\circ} = x_B = \\frac{w_B \\cdot M_A}{M_B \\cdot w_A}",
+    "\\Delta T_b = K_b \\cdot m, \\quad K_b = \\frac{R \\cdot M_A \\cdot (T_b^\\circ)^2}{1000 \\cdot \\Delta_{\\text{vap}} H}"
+  ]
+}

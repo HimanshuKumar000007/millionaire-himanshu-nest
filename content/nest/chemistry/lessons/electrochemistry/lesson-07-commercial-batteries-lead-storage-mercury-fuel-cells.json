@@ -1,0 +1,58 @@
+{
+  "id": "chem-xii-u11-c2-l07",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XI \u2014 Electrochemistry",
+  "unitNumber": 11,
+  "chapter": "Electrochemistry",
+  "chapterNumber": 2,
+  "chapterSlug": "electrochemistry",
+  "slug": "lesson-07-commercial-batteries-lead-storage-mercury-fuel-cells",
+  "title": "Primary & Secondary Batteries (Lead Storage & Mercury Cell)",
+  "topic": "Commercial Batteries & Fuel Cells",
+  "topics": [
+    "Primary Batteries: Dry Cell (1.5 V) vs Mercury Cell (1.35 V constant voltage because zero dissolved ions in overall reaction)",
+    "Secondary Batteries: Lead Storage Battery (Discharging/Recharging chemistry, H\u2082SO\u2084 density changes)",
+    "Hydrogen-Oxygen (H\u2082-O\u2082) Fuel Cells (High 70% efficiency, pure condensed water product)"
+  ],
+  "order": 7,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "electrochemistry",
+  "quickSummary": "Primary: Non-rechargeable. Mercury cell delivers constant 1.35 V (no dissolved ions in reaction). Lead storage battery (secondary): Discharging produces PbSO\u2084 and consumes H\u2082SO\u2084 (density drops from 1.30 g/mL); recharging reverses this. H\u2082-O\u2082 fuel cells have 70% efficiency.",
+  "summary": "Master commercial battery chemistry, discharging/recharging reactions, and fuel cell operating mechanics.",
+  "conceptBreakdown": [
+    {
+      "heading": "7.1 Primary Batteries: Dry Cell vs. Mercury Cell",
+      "title": "7.1 Primary Batteries: Dry Cell vs. Mercury Cell",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Mercury Cell Constant Voltage",
+        "takeaway": "Overall: Zn(Hg) + HgO(s) \u2500\u2500\u25ba ZnO(s) + Hg(l). Contains ZERO dissolved ions, so potential remains strictly 1.35 V throughout its life."
+      },
+      "codeSnippet": "MERCURY CELL CHEMISTRY\n\n\u2022 Anode:   Zn-Hg Amalgam\n\u2022 Cathode: Paste of HgO + C\n\u2022 Electrolyte: Moist paste of KOH + ZnO\n\u2022 Net Reaction: Zn(Hg) + HgO(s) \u2500\u2500\u25ba ZnO(s) + Hg(l)  (E_cell = 1.35 V CONSTANT!)",
+      "content": "\u2022 **Dry Cell / Leclanch\u00e9 ($1.5\\text{ V}$)**: Zinc anode, Carbon cathode with $\\text{MnO}_2/\\text{C}$, $\\text{NH}_4\\text{Cl}/\\text{ZnCl}_2$ electrolyte.\n\u2022 **Mercury Cell ($1.35\\text{ V}$)**: The overall cell reaction involves only solid and liquid pure substances with **zero dissolved ions**, providing a constant $1.35\\text{ V}$ output."
+    },
+    {
+      "heading": "7.2 Lead Storage Battery & H\u2082-O\u2082 Fuel Cells",
+      "title": "7.2 Lead Storage Battery & H\u2082-O\u2082 Fuel Cells",
+      "type": "paragraph",
+      "codeSnippet": "LEAD STORAGE BATTERY DISCHARGING\n\n\u2022 Anode:   Pb(s) + SO\u2084\u00b2\u207b(aq) \u2500\u2500\u25ba PbSO\u2084(s) + 2e\u207b\n\u2022 Cathode: PbO\u2082(s) + SO\u2084\u00b2\u207b(aq) + 4H\u207a(aq) + 2e\u207b \u2500\u2500\u25ba PbSO\u2084(s) + 2H\u2082O(l)\n\u2022 Net:     Pb(s) + PbO\u2082(s) + 2H\u2082SO\u2084(aq) \u2500\u2500\u25ba 2PbSO\u2084(s) + 2H\u2082O(l)\n  (H\u2082SO\u2084 consumed \u27f9 Electrolyte density DECREASES! Recharging regenerates H\u2082SO\u2084)",
+      "content": "\u2022 **Lead Storage Battery**: Discharging consumes $\\text{H}_2\\text{SO}_4$, dropping density from $1.30\\text{ g/mL}$; recharging reverses the reaction.\n\u2022 **$\\text{H}_2\\text{-O}_2$ Fuel Cell**: Converts fuel combustion directly into electrical energy with $\\mathbf{\\approx 70\\%\\ \\text{efficiency}}$, producing pure $\\text{H}_2\\text{O}$."
+    }
+  ],
+  "quickRevision": [
+    "Mercury cell voltage stays constant at 1.35 V (no dissolved ions).",
+    "Lead storage battery: Discharging consumes H\u2082SO\u2084 (density drops).",
+    "Recharging lead battery deposits Pb at anode and PbO\u2082 at cathode.",
+    "Fuel cells have ~70% thermodynamic efficiency."
+  ],
+  "keyFormulae": [
+    "\\text{Discharging: } \\text{Pb} + \\text{PbO}_2 + 2\\text{H}_2\\text{SO}_4 \\longrightarrow 2\\text{PbSO}_4 + 2\\text{H}_2\\text{O}",
+    "\\text{Fuel Cell Net: } 2\\text{H}_2(g) + \\text{O}_2(g) \\longrightarrow 2\\text{H}_2\\text{O}(l)"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "chem-xii-u19-c10-l08",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XIX \u2014 Biomolecules",
+  "unitNumber": 19,
+  "chapter": "Biomolecules",
+  "chapterNumber": 10,
+  "chapterSlug": "biomolecules-chemistry",
+  "slug": "lesson-08-nucleic-acids-10-traps-master-glossary",
+  "title": "Nucleic Acids (DNA/RNA), 10 Traps, & Master Glossary",
+  "topic": "Nucleic Acids & Master Glossary",
+  "topics": [
+    "9. Nucleic Acids Architecture: Nucleosides (Base + Sugar) vs Nucleotides (Base + Sugar + 5'-Phosphate)",
+    "Purines (Adenine, Guanine) vs Pyrimidines (Cytosine, Thymine in DNA, Uracil in RNA)",
+    "DNA (2'-Deoxyribose, Thymine, Double Helix, Alkali Stable) vs RNA (D-Ribose with 2'-OH, Uracil, Alkali Labile)",
+    "3',5'-Phosphodiester Bridge Linkages in Nucleic Acid Polymers",
+    "10. High-Yield NEST Misconceptions & Traps Table (All 10 Items)",
+    "11. Master Glossary for Biomolecules Chemistry (All 63 Definitions)"
+  ],
+  "order": 8,
+  "readingTimeMinutes": 10,
+  "estimatedTimeMinutes": 10,
+  "difficulty": "Comprehensive Review",
+  "source": "production",
+  "status": "published",
+  "diagramType": "biomolecules-chemistry",
+  "quickSummary": "Nucleotides are linked by 3',5'-phosphodiester bonds. Purines are Adenine and Guanine; Pyrimidines are Cytosine, Thymine (DNA), and Uracil (RNA). DNA contains 2'-deoxyribose and is alkali-stable; RNA contains D-ribose with a reactive 2'-OH making it alkali-labile. Review all 10 high-yield NEST traps and the complete 63-term master glossary.",
+  "summary": "Master nucleic acid structural biochemistry, 10 NEST traps, and the master glossary.",
+  "conceptBreakdown": [
+    {
+      "heading": "9. Nucleic Acids Structure (DNA vs RNA)",
+      "title": "9. Nucleic Acids Structure (DNA vs RNA)",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "DNA vs RNA Comparison",
+        "takeaway": "DNA: 2'-deoxyribose, Thymine, double-stranded, alkali stable. RNA: D-ribose (2'-OH), Uracil, single-stranded, alkali labile."
+      },
+      "codeSnippet": "                          DNA vs RNA STRUCTURAL COMPARISON\n                          \n   PARAMETER             DNA (Deoxyribonucleic Acid)          RNA (Ribonucleic Acid)\n   Pentose Sugar         $2'$-Deoxy-$\\text{D}$-ribose           $\\text{D}$-Ribose (contains reactive $2'-\\text{OH}$)\n   Pyrimidine Bases      Cytosine ($\\text{C}$) and **Thymine ($\\text{T}$)** Cytosine ($\\text{C}$) and **Uracil ($\\text{U}$)**\n   Secondary Structure   Double-stranded right-handed helix   Single-stranded (folds into hairpins)\n   Alkaline Stability    Highly stable to alkali              Hydrolyzed by alkali due to $2'-\\text{OH}$",
+      "content": "Nucleotides polymerize linearly by joining the 3'-hydroxyl of one pentose sugar to the 5'-phosphate group of the next via a 3',5'-Phosphodiester Linkage."
+    },
+    {
+      "heading": "10. 10 High-Yield NEST Traps & Master Glossary",
+      "title": "10. 10 High-Yield NEST Traps & Master Glossary",
+      "type": "paragraph",
+      "codeSnippet": "10 NEST BIOMOLECULES TRAPS SUMMARY:\n\n1. Sucrose is a NON-REDUCING sugar (both anomeric carbons locked in glycosidic bond).\n2. Glycine is the ONLY ACHIRAL standard amino acid.\n3. Denaturation destroys 2\u00b0, 3\u00b0, 4\u00b0 structures but leaves PRIMARY (1\u00b0) peptide bonds INTACT.\n4. Fructose reduces Fehling's/Tollens' due to alkaline enolization (Lobry de Bruyn-Ekenstein).\n5. Vitamin B\u2081\u2082 is a water-soluble vitamin that is STORED in the liver for several years.\n6. Cellulose gives a NEGATIVE iodine test (no helical coils to trap I\u2082).\n7. Natural amino acids in proteins belong strictly to the L-configuration.\n8. DNA lacks 2'-OH (2'-deoxyribose); RNA contains 2'-OH making it alkali-labile.\n9. Invert sugar is LEVOROTATORY (-19.85\u00b0) due to fructose levorotation (-92.4\u00b0).\n10. Vitamin K deficiency causes delayed blood clotting; Vitamin C deficiency causes Scurvy.",
+      "content": "Review all 10 high-yield traps and the complete 63-term master glossary before taking the 20-question self-assessment module."
+    }
+  ],
+  "quickRevision": [
+    "Nucleoside = Base + Pentose Sugar.",
+    "Nucleotide = Nucleoside + 5'-Phosphate.",
+    "Purines: Adenine (A), Guanine (G); Pyrimidines: Cytosine (C), Thymine (T), Uracil (U).",
+    "Adjacent nucleotides linked by 3',5'-phosphodiester bonds.",
+    "All 10 NEST traps and 63 master glossary terms reviewed."
+  ],
+  "keyFormulae": [
+    "\\text{Nucleotide Polymerization: } 3'\\text{-OH} + 5'\\text{-Phosphate} \\longrightarrow 3',5'\\text{-Phosphodiester Bridge} + \\text{H}_2\\text{O}"
+  ]
+}

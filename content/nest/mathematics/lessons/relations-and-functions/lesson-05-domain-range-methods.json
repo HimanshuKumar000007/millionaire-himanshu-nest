@@ -1,0 +1,42 @@
+{
+  "id": "math-xi-u1-c2-l05",
+  "exam": "NEST",
+  "subject": "Mathematics",
+  "classLevel": "Class XI",
+  "unit": "Unit 1 — Sets and Functions",
+  "unitNumber": 1,
+  "chapter": "Relations and Functions",
+  "chapterNumber": 2,
+  "chapterSlug": "relations-and-functions",
+  "slug": "lesson-05-domain-range-methods",
+  "title": "Domain & Range Determination Methods",
+  "topic": "Domain, codomain & range",
+  "order": 5,
+  "estimatedTimeMinutes": 6,
+  "readingTimeMinutes": 6,
+  "difficulty": "Advanced",
+  "source": "production",
+  "status": "published",
+  "diagramType": "relations-and-functions",
+  "quickSummary": "Systematic domain exclusion rules (Denominator, Radical, Logarithm, Inverse Trig) and 4-tier range toolkit (Inversion, Quadratic D ≥ 0, Monotonicity, AM-GM).",
+  "summary": "Master algebraic and analytical methods to determine the maximal domain and range of real functions.",
+  "conceptBreakdown": [
+    {
+      "heading": "5. Systematic Domain Determination Rules",
+      "title": "5. Systematic Domain Determination Rules",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Domain Exclusions",
+        "takeaway": "Denominator Q(x) ≠ 0; Radical √(g(x)) requires g(x) ≥ 0; Logarithm log_b(a) requires a > 0, b > 0, b ≠ 1; Inverse trig requires -1 ≤ g(x) ≤ 1."
+      },
+      "codeSnippet": "DOMAIN EXCLUSION RULES\n                                    │\n     ┌──────────────────┬───────────┴───────────┬──────────────────┐\n     ▼                  ▼                       ▼                  ▼\nDENOMINATOR RULE       RADICAL RULE            LOGARITHMIC RULE   INVERSE TRIG RULE\nP(x)/Q(x)              √(g(x))                 log_{b(x)} [a(x)]  sin⁻¹[g(x)] / cos⁻¹[g(x)]\nRequire Q(x) ≠ 0.      Require g(x) ≥ 0.       Require a(x) > 0,  Require -1 ≤ g(x) ≤ 1.\n                                               b(x) > 0, b(x) ≠ 1.",
+      "content": "To find the domain of real-valued functions:\n\n- **Algebraic Combinations**:\n  $$\\mathbf{\\text{Dom}(f \\pm g) = \\text{Dom}(f) \\cap \\text{Dom}(g)}$$\n  $$\\mathbf{\\text{Dom}(f / g) = (\\text{Dom}(f) \\cap \\text{Dom}(g)) \\setminus \\{x \\mid g(x) = 0\\}}$$"
+    },
+    {
+      "heading": "5.1 Range Determination Toolkit",
+      "title": "5.1 Range Determination Toolkit",
+      "type": "paragraph",
+      "content": "1. **Method 1: Algebraic Inversion ($x$ in terms of $y$)**: Express $x = g(y)$, then find the domain of $g(y)$ with respect to $y$, ensuring $x \\in \\text{Dom}(f)$.\n2. **Method 2: Quadratic Rational Forms ($y = \\frac{a_1 x^2 + b_1 x + c_1}{a_2 x^2 + b_2 x + c_2}$)**: Rearrange into a quadratic in $x$: $(a_1 - y a_2) x^2 + (b_1 - y b_2) x + (c_1 - y c_2) = 0$. Since $x \\in \\mathbb{R}$, require $\\mathbf{D \\ge 0}$.\n3. **Method 3: Monotonicity & Calculus Bounds**: If $f(x)$ is continuous and monotonic on $[a, b]$, then $\\text{Rng}(f) = [\\min(f(a), f(b)), \\max(f(a), f(b))]$.\n4. **Method 4: Classical Inequalities (AM-GM)**: For non-negative reals, $\\frac{a+b}{2} \\ge \\sqrt{ab}$."
+    }
+  ]
+}

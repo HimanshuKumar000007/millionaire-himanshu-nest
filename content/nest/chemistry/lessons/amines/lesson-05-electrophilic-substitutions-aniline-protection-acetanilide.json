@@ -1,0 +1,52 @@
+{
+  "id": "chem-xii-u18-c9-l05",
+  "exam": "NEST",
+  "subject": "Chemistry",
+  "classLevel": "Class XII",
+  "unit": "Unit XVIII \u2014 Amines",
+  "unitNumber": 18,
+  "chapter": "Amines",
+  "chapterNumber": 9,
+  "chapterSlug": "amines",
+  "slug": "lesson-05-electrophilic-substitutions-aniline-protection-acetanilide",
+  "title": "Electrophilic Aromatic Substitutions of Aniline & Protection Strategies",
+  "topic": "Aniline Electrophilic Substitutions & Protection",
+  "topics": [
+    "5. Aniline Powerful +M Activating & Ortho/Para-Directing Effect",
+    "Direct Bromination: Reaction with Bromine Water (Br\u2082/H\u2082O) yielding 2,4,6-Tribromoaniline (White Precipitate)",
+    "Protection Strategy: Acetylation with Acetic Anhydride in Pyridine to form Acetanilide (Ph-NHCOCH\u2083)",
+    "Mechanism of Protection: Lone Pair Delocalization into Amide Carbonyl Moderating Ring Activation",
+    "Regioselective Synthesis of 4-Bromoaniline via Protected Intermediate & Acid Hydrolysis"
+  ],
+  "order": 5,
+  "readingTimeMinutes": 8,
+  "estimatedTimeMinutes": 8,
+  "difficulty": "Moderate",
+  "source": "production",
+  "status": "published",
+  "diagramType": "amines",
+  "quickSummary": "The -NH\u2082 group in aniline is so strongly activating that reaction with bromine water causes complete polybromination to 2,4,6-tribromoaniline (white ppt). To obtain monobromo derivatives, the -NH\u2082 group is protected by acetylation with acetic anhydride to Acetanilide (Ph-NHCOCH\u2083), which moderates ring activation by delocalizing nitrogen lone pair into the carbonyl.",
+  "summary": "Master aniline ring activation, polybromination behavior, and acetylation protection protocols.",
+  "conceptBreakdown": [
+    {
+      "heading": "5. Direct Bromination vs Acetylation Protection",
+      "title": "5. Direct Bromination vs Acetylation Protection",
+      "type": "paragraph",
+      "summaryBox": {
+        "title": "Aniline Protection Protocol",
+        "takeaway": "Bromine water gives 2,4,6-tribromoaniline white ppt. To prepare p-bromoaniline, protect -NH\u2082 as acetanilide (Ph-NHCOCH\u2083), brominate, then hydrolyze."
+      },
+      "codeSnippet": "                        ANILINE PROTECTION & REGIOSELECTIVITY\n                        \n   Direct Bromination ($\\text{Br}_2/\\text{H}_2\\text{O}$) \u2500\u2500\u25ba **2,4,6-Tribromoaniline \\downarrow (White Precipitate)**\n   \n   PROTECTION ROUTE (To prepare $p$-monobromoaniline):\n   $\\text{Ph-NH}_2 \\xrightarrow{(\\text{CH}_3\\text{CO})_2\\text{O} / \\text{Pyridine}} \\mathbf{\\text{Ph-NHCOCH}_3 \\text{ (Acetanilide)}} \\xrightarrow{\\text{Br}_2/\\text{AcOH}} \\text{4-Bromoacetanilide} \\xrightarrow{\\text{H}_3\\text{O}^+} \\mathbf{\\text{4-Bromoaniline}}$",
+      "content": "Due to the intense $+M$ activation of $-\text{NH}_2$, direct bromination with $\text{Br}_2/\text{H}_2\text{O}$ yields $2,4,6$-tribromoaniline. Acetylation converts $-\text{NH}_2$ into $-\text{NHCOCH}_3$, where the lone pair is resonance-delocalized into the carbonyl oxygen, moderating activation to allow clean mono-substitution."
+    }
+  ],
+  "quickRevision": [
+    "Bromine water + aniline yields 2,4,6-tribromoaniline (white ppt).",
+    "Acetylation of aniline gives Acetanilide (Ph-NHCOCH\u2083).",
+    "Acetanilide moderates activation by carbonyl resonance delocalization.",
+    "Hydrolysis of 4-bromoacetanilide with H\u2083O\u207a yields 4-bromoaniline."
+  ],
+  "keyFormulae": [
+    "\\text{Ph-NH}_2 + 3\\text{Br}_2(aq) \\longrightarrow 2,4,6\\text{-Tribromoaniline} \\downarrow \\text{ (White Ppt)} + 3\\text{HBr}"
+  ]
+}
