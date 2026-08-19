@@ -98,6 +98,16 @@ export const authService = {
     return res;
   },
 
+  /** Sign in with Google OAuth */
+  async signInWithGoogle() {
+    return supabase.auth.signInWithOAuth({
+      provider: "google",
+      options: {
+        redirectTo: typeof window !== "undefined" ? `${window.location.origin}/dashboard` : undefined,
+      },
+    });
+  },
+
   /** Send magic link */
   async sendMagicLink(email: string) {
     return supabase.auth.signInWithOtp({ email });

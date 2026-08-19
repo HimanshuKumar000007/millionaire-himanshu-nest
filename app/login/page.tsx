@@ -201,27 +201,19 @@ function LoginFormContent() {
     }
   };
 
-  const handleGoogleAuth = () => {
+  const handleGoogleAuth = async () => {
     setError(null);
     setIsLoading(true);
-    const guestEmail = "aspirant@nestsmartprep.in";
-    const guestName = "NEST Aspirant";
-    if (mode === "login") {
-      login(guestEmail);
-    } else {
-      signup(guestName, guestEmail);
+    try {
+      const { error } = await authService.signInWithGoogle();
+      if (error) {
+        setIsLoading(false);
+        setError(error.message || "Failed to initiate Google sign-in. Please try email and password.");
+      }
+    } catch (err: any) {
+      setIsLoading(false);
+      setError(err?.message || "Google sign-in error. Please use email and password.");
     }
-    const token = `nest_tk_${btoa(guestEmail)}_${Date.now()}`;
-    localStorage.setItem("NEST_TOKEN", token);
-    localStorage.setItem("currentUser", guestName);
-    localStorage.setItem("nest_user_name", guestName);
-    localStorage.setItem("nest_user_email", guestEmail);
-    
-    const redirect = searchParams?.get("redirect");
-    const target = redirect ? decodeURIComponent(redirect) : "/dashboard";
-    setTimeout(() => {
-      window.location.replace(target);
-    }, 300);
   };
 
   return (

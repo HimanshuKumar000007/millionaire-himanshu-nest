@@ -31,8 +31,8 @@ export function SettingsView({ onBackToDashboard, onOpenAuthModal }: SettingsVie
   const { user, isLoggedIn } = useAuth();
 
   // User details state
-  const [userName, setUserName] = useState<string>("Ankit Kumar");
-  const [emailId, setEmailId] = useState<string>("ankit.kumar@example.com");
+  const [userName, setUserName] = useState<string>("SciPrep Aspirant");
+  const [emailId, setEmailId] = useState<string>("student@sciprep.in");
   const [isPro, setIsPro] = useState<boolean>(false);
   const [upgradeModalOpen, setUpgradeModalOpen] = useState<boolean>(false);
 
