@@ -35,7 +35,9 @@ function safeSet(key: string, value: unknown) {
 async function getUserId(): Promise<string | null> {
   try {
     const { data } = await supabase.auth.getUser();
-    return data?.user?.id ?? null;
+    if (data?.user?.id) return data.user.id;
+    const { data: sessionData } = await supabase.auth.getSession();
+    return sessionData?.session?.user?.id ?? null;
   } catch {
     return null;
   }
