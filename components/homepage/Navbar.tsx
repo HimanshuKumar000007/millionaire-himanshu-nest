@@ -8,15 +8,34 @@ import { Sheet } from "@/components/ui/sheet";
 import { ArrowRight, Menu, LogIn, Sparkles } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
+import { useRouter } from "next/navigation";
+
 interface NavbarProps {
-  onOpenAssessment: () => void;
+  onOpenAssessment?: () => void;
   onOpenLogin?: () => void;
 }
 
 export function Navbar({ onOpenAssessment, onOpenLogin }: NavbarProps) {
+  const router = useRouter();
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeLink, setActiveLink] = useState<string>("/");
+
+  const handleAssessmentClick = () => {
+    if (onOpenAssessment) {
+      onOpenAssessment();
+    } else {
+      router.push("/assessment");
+    }
+  };
+
+  const handleLoginClick = () => {
+    if (onOpenLogin) {
+      onOpenLogin();
+    } else {
+      router.push("/login");
+    }
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,6 +51,7 @@ export function Navbar({ onOpenAssessment, onOpenLogin }: NavbarProps) {
     { label: "Smart Lessons", href: "/#smart-lessons" },
     { label: "PYQs", href: "/#pyqs" },
     { label: "Mock Tests", href: "/#mock-tests" },
+    { label: "Blog", href: "/blog" },
     { label: "About", href: "/about" },
   ];
 
@@ -91,13 +111,13 @@ export function Navbar({ onOpenAssessment, onOpenLogin }: NavbarProps) {
             <Button
               variant="ghost"
               size="sm"
-              onClick={onOpenLogin || onOpenAssessment}
+              onClick={handleLoginClick}
               className="text-[#6B7280] hover:text-[#111827] text-xs font-semibold hover:bg-gray-100/50 transition-colors"
             >
               <LogIn className="h-3.5 w-3.5 mr-1.5" /> Log in
             </Button>
             <Button
-              onClick={onOpenAssessment}
+              onClick={handleAssessmentClick}
               size="sm"
               className="bg-[#4F46E5] hover:bg-[#3730A3] text-white shadow-md shadow-indigo-500/20 hover:shadow-lg hover:shadow-indigo-500/30 hover:scale-[1.02] text-xs font-bold px-4 transition-all group"
             >
@@ -167,8 +187,7 @@ export function Navbar({ onOpenAssessment, onOpenLogin }: NavbarProps) {
                   variant="outline"
                   onClick={() => {
                     setMobileMenuOpen(false);
-                    if (onOpenLogin) onOpenLogin();
-                    else onOpenAssessment();
+                    handleLoginClick();
                   }}
                   className="w-full justify-center py-5 text-sm font-semibold border-gray-200 hover:bg-gray-50 transition-colors"
                 >
@@ -177,7 +196,7 @@ export function Navbar({ onOpenAssessment, onOpenLogin }: NavbarProps) {
                 <Button
                   onClick={() => {
                     setMobileMenuOpen(false);
-                    onOpenAssessment();
+                    handleAssessmentClick();
                   }}
                   className="w-full justify-center py-5 text-sm font-bold bg-[#4F46E5] hover:bg-[#3730A3] shadow-md shadow-indigo-500/20 transition-all"
                 >

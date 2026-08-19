@@ -76,6 +76,7 @@ export function Footer() {
                 Company
               </h4>
               <ul className="space-y-3 text-sm font-semibold">
+                <li><a href="/blog" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">NEST Blog & Guides</a></li>
                 <li><a href="/about" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">About SciPrep</a></li>
                 <li><a href="/contact" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">Contact Support</a></li>
               </ul>
