@@ -17,7 +17,7 @@
 
 import { supabase } from "@/lib/supabase/client";
 import { STORAGE_KEYS } from "@/lib/services/progressOrchestrator.service";
-import { broadcastProgressUpdate } from "@/lib/services/progressOrchestrator.service";
+import { broadcastProgressUpdate, progressOrchestratorService } from "@/lib/services/progressOrchestrator.service";
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -200,21 +200,17 @@ export async function pushPracticeAttempt(
   }).catch(() => {});
 }
 
-export async function pushMockAttempt(attemptId: string): Promise<void> {
+export async function pushMockAttempt(attemptId: string, explicitAttemptData?: any): Promise<void> {
   const uid = await getUserId();
   const email = getUserEmail();
   if (!uid && !email) return;
 
-  const store = safeGet<Record<string, {
-    id?: string; title?: string; nestMeritScore?: number; rawScore?: number;
-    evalMarks?: number; evalScore?: number; totalMarks?: number; accuracy?: number; percentile?: number;
-    completedAt?: string; subjectBreakdown?: unknown; questionResults?: unknown;
-  }>>(STORAGE_KEYS.MOCK_ATTEMPTS, {});
-
-  const attempt = store[attemptId];
+  const store = safeGet<Record<string, any>>(STORAGE_KEYS.MOCK_ATTEMPTS, {});
+  const attempt = explicitAttemptData || store[attemptId];
   if (!attempt) return;
 
   const title = attempt.title ?? attempt.id ?? attemptId;
+  const mockKey = attempt.mockId ?? attemptId;
 
   try {
     await supabase
@@ -222,6 +218,7 @@ export async function pushMockAttempt(attemptId: string): Promise<void> {
       .upsert({
         user_id: uid,
         email: email,
+        mock_key: mockKey,
         title: title,
         score: attempt.nestMeritScore ?? attempt.evalScore ?? attempt.rawScore ?? 0,
         total_marks: attempt.evalMarks ?? attempt.totalMarks ?? 180,
@@ -230,6 +227,7 @@ export async function pushMockAttempt(attemptId: string): Promise<void> {
         percentile: attempt.percentile ?? 0,
         subject_breakdown: attempt.subjectBreakdown ?? null,
         question_results: attempt.questionResults ?? null,
+        attempt_data: attempt,
         status: "COMPLETED",
         completed_at: attempt.completedAt ?? new Date().toISOString(),
       }, { onConflict: "user_id,title", ignoreDuplicates: false });
@@ -245,6 +243,7 @@ export async function pushMockAttempt(attemptId: string): Promise<void> {
       userId: uid,
       type: "MOCK_ATTEMPT",
       payload: {
+        mockId: mockKey,
         title,
         score: attempt.nestMeritScore ?? attempt.evalScore ?? attempt.rawScore ?? 0,
         totalMarks: attempt.evalMarks ?? attempt.totalMarks ?? 180,
@@ -253,6 +252,7 @@ export async function pushMockAttempt(attemptId: string): Promise<void> {
         percentile: attempt.percentile ?? 0,
         subjectBreakdown: attempt.subjectBreakdown ?? null,
         questionResults: attempt.questionResults ?? null,
+        attemptData: attempt,
         completedAt: attempt.completedAt ?? new Date().toISOString(),
       },
     }),
@@ -313,7 +313,7 @@ export async function pushAllLocalData(): Promise<void> {
   const targetCollege = localStorage.getItem("nest_user_target") || "NISER Bhubaneswar";
   const isPro = localStorage.getItem("nest_user_is_pro") === "true";
 
-  // 1. Bulk Sync via Server API (handles all data types reliably)
+  // 1. Bulk Sync via Server API
   fetch("/api/sync", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -359,6 +359,7 @@ export async function pushAllLocalData(): Promise<void> {
   const mockRows = Object.entries(mockStore).map(([id, attempt]) => ({
     user_id: uid,
     email: email,
+    mock_key: attempt.mockId ?? id,
     title: attempt.title ?? attempt.id ?? id,
     score: attempt.nestMeritScore ?? attempt.evalScore ?? attempt.rawScore ?? 0,
     total_marks: attempt.evalMarks ?? attempt.totalMarks ?? 180,
@@ -367,6 +368,7 @@ export async function pushAllLocalData(): Promise<void> {
     percentile: attempt.percentile ?? 0,
     subject_breakdown: attempt.subjectBreakdown ?? null,
     question_results: attempt.questionResults ?? null,
+    attempt_data: attempt,
     status: "COMPLETED",
     completed_at: attempt.completedAt ?? new Date().toISOString(),
   }));
@@ -391,7 +393,6 @@ export async function pullAllAndRestore(clearExisting: boolean = false): Promise
   }
 
   try {
-    // 1. Fetch from comprehensive server API
     const res = await fetch(`/api/sync?email=${encodeURIComponent(email || "")}&userId=${encodeURIComponent(uid || "")}`);
     const json = await res.json();
 
@@ -411,29 +412,29 @@ export async function pullAllAndRestore(clearExisting: boolean = false): Promise
       } = json.data;
 
       // Restore Lessons
-      if (Object.keys(lessonProgress || {}).length > 0) {
+      if (lessonProgress && Object.keys(lessonProgress).length > 0) {
         const local = safeGet<Record<string, any>>(STORAGE_KEYS.LESSON_PROGRESS, {});
         safeSet(STORAGE_KEYS.LESSON_PROGRESS, { ...local, ...lessonProgress });
       }
 
       // Restore PYQs
-      if (Object.keys(pyqAttempts || {}).length > 0) {
+      if (pyqAttempts && Object.keys(pyqAttempts).length > 0) {
         const local = safeGet<Record<string, any>>(STORAGE_KEYS.PYQ_ATTEMPTS, {});
         safeSet(STORAGE_KEYS.PYQ_ATTEMPTS, { ...local, ...pyqAttempts });
       }
 
       // Restore Practice
-      if (Object.keys(practiceEvals || {}).length > 0) {
+      if (practiceEvals && Object.keys(practiceEvals).length > 0) {
         const local = safeGet<Record<string, any>>(STORAGE_KEYS.PRACTICE_EVALS, {});
         safeSet(STORAGE_KEYS.PRACTICE_EVALS, { ...local, ...practiceEvals });
       }
-      if (Object.keys(practiceAnswers || {}).length > 0) {
+      if (practiceAnswers && Object.keys(practiceAnswers).length > 0) {
         const local = safeGet<Record<string, any>>(STORAGE_KEYS.PRACTICE_ANSWERS, {});
         safeSet(STORAGE_KEYS.PRACTICE_ANSWERS, { ...local, ...practiceAnswers });
       }
 
       // Restore Mocks
-      if (Object.keys(mockAttempts || {}).length > 0) {
+      if (mockAttempts && Object.keys(mockAttempts).length > 0) {
         const local = safeGet<Record<string, any>>(STORAGE_KEYS.MOCK_ATTEMPTS, {});
         safeSet(STORAGE_KEYS.MOCK_ATTEMPTS, { ...local, ...mockAttempts });
       }
@@ -480,5 +481,6 @@ export async function pullAllAndRestore(clearExisting: boolean = false): Promise
     console.warn("[Sync] Server API pull warning:", err);
   }
 
+  progressOrchestratorService.invalidateCache();
   broadcastProgressUpdate();
 }

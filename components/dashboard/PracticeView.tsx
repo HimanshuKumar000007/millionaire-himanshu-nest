@@ -47,26 +47,9 @@ export function PracticeView({ onBackToDashboard }: PracticeViewProps) {
   // Bookmarks set of question IDs
   const [bookmarks, setBookmarks] = useState<Set<string>>(new Set());
 
-  // Load persistent state directly from cloud / Supabase
+  // Load persistent state from localStorage and listen to cloud sync
   useEffect(() => {
-    const loadState = async () => {
-      try {
-        const email = localStorage.getItem("nest_user_email") || "";
-        const userId = localStorage.getItem("nest_user_id") || "";
-        if (email || userId) {
-          const res = await fetch(`/api/sync?email=${encodeURIComponent(email)}&userId=${encodeURIComponent(userId)}`);
-          const json = await res.json();
-          if (json.success && json.data) {
-            if (json.data.practiceEvals) setEvaluations(json.data.practiceEvals);
-            if (json.data.practiceAnswers) setUserAnswers(json.data.practiceAnswers);
-            if (json.data.practiceBookmarks) setBookmarks(new Set(json.data.practiceBookmarks));
-            return;
-          }
-        }
-      } catch (e) {
-        console.warn("[PracticeView] Error fetching cloud state:", e);
-      }
-
+    const loadState = () => {
       try {
         const savedEvaluations = localStorage.getItem("nest_smartprep_practice_evaluations");
         if (savedEvaluations) setEvaluations(JSON.parse(savedEvaluations));

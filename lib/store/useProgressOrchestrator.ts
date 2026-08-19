@@ -13,17 +13,9 @@ export function useProgressOrchestrator() {
     progressOrchestratorService.getLiveDashboardSummary()
   );
 
-  const refresh = useCallback(async () => {
+  const refresh = useCallback(() => {
     progressOrchestratorService.invalidateCache();
-    const email = typeof window !== "undefined" ? localStorage.getItem("nest_user_email") || "" : "";
-    const userId = typeof window !== "undefined" ? localStorage.getItem("nest_user_id") || "" : "";
-    
-    if (email || userId) {
-      const liveData = await progressOrchestratorService.fetchLiveDashboardSummary(email, userId);
-      setData(liveData);
-    } else {
-      setData(progressOrchestratorService.getLiveDashboardSummary());
-    }
+    setData(progressOrchestratorService.getLiveDashboardSummary());
   }, []);
 
   useEffect(() => {

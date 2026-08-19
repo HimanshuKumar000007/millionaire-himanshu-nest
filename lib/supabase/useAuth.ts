@@ -63,6 +63,7 @@ export function useAuth(): AuthState {
           name: fullName || (email ? email.split("@")[0] : "Aspirant"),
           email,
         });
+        pullAllAndRestore().catch(() => {});
       }
       setLoading(false);
     });

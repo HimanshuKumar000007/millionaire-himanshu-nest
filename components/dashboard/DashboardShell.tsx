@@ -63,13 +63,9 @@ export function DashboardShell() {
   React.useEffect(() => {
     const email = userEmail || (typeof window !== "undefined" ? localStorage.getItem("nest_user_email") : null);
     if (isLoggedIn || email) {
-      pullAllAndRestore()
-        .then(() => {
-          pushAllLocalData().catch(() => {});
-        })
-        .catch((err) => {
-          console.warn("[DashboardShell] Cloud sync notice:", err);
-        });
+      pullAllAndRestore().catch((err) => {
+        console.warn("[DashboardShell] Cloud sync notice:", err);
+      });
     }
   }, [isLoggedIn, userEmail]);
 

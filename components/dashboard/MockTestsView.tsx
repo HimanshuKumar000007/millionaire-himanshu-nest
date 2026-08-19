@@ -100,7 +100,6 @@ export function MockTestsView({
 
   // Attempt results: mockId -> attempt summary
   const [attemptsMap, setAttemptsMap] = useState<Record<string, any>>({});
-  const [submittedAttempt, setSubmittedAttempt] = useState<any>(null);
 
   // SciPrep PRO Gating State
   const [isProUser, setIsProUser] = useState<boolean>(false);
@@ -120,22 +119,7 @@ export function MockTestsView({
   }, []);
 
   useEffect(() => {
-    const loadAttempts = async () => {
-      try {
-        const email = localStorage.getItem("nest_user_email") || "";
-        const userId = localStorage.getItem("nest_user_id") || "";
-        if (email || userId) {
-          const res = await fetch(`/api/sync?email=${encodeURIComponent(email)}&userId=${encodeURIComponent(userId)}`);
-          const json = await res.json();
-          if (json.success && json.data?.mockAttempts) {
-            setAttemptsMap(json.data.mockAttempts);
-            return;
-          }
-        }
-      } catch (e) {
-        console.warn("Failed fetching cloud mock data:", e);
-      }
-
+    const loadAttempts = () => {
       try {
         const savedAttempts = localStorage.getItem("nest_smartprep_mock_attempts");
         if (savedAttempts) setAttemptsMap(JSON.parse(savedAttempts));
@@ -214,7 +198,6 @@ export function MockTestsView({
         setCurrentQIndex(0);
         setUserAnswers({});
         setIsSubmitted(false);
-        setSubmittedAttempt(null);
         setShowSubmitModal(false);
         setReviewFilter("ALL");
         setReviewSubjectFilter("ALL");
@@ -468,15 +451,13 @@ export function MockTestsView({
       };
 
       setAttemptsMap(nextAttemptsMap);
-      setSubmittedAttempt(attemptData);
       setIsSubmitted(true);
       setShowSubmitModal(false);
 
       try {
         localStorage.setItem("nest_smartprep_mock_attempts", JSON.stringify(nextAttemptsMap));
         broadcastProgressUpdate();
-        pushMockAttempt(activeMock.id).catch(() => {});
-        pushAllLocalData().catch(() => {});
+        pushMockAttempt(activeMock.id, attemptData).catch(() => {});
       } catch (e) {
         console.warn("Failed saving mock attempt:", e);
       }
@@ -536,8 +517,6 @@ export function MockTestsView({
 
     if (currentQIndex < activeMock.questions.length - 1) {
       navigateToQuestion(currentQIndex + 1);
-    } else {
-      setShowSubmitModal(true);
     }
   };
 
@@ -630,7 +609,7 @@ export function MockTestsView({
 
   // Current question data
   const currentQ: ContentQuestion | undefined = activeMock?.questions[currentQIndex];
-  const currentAttempt = submittedAttempt || (activeMock ? (attemptsMap[activeMock.id] || Object.values(attemptsMap).find((m: any) => m.mockId === activeMock.id || m.title === activeMock.title)) : null);
+  const currentAttempt = activeMock ? attemptsMap[activeMock.id] : null;
 
   // =========================================================================
   // VIEW 1: MOCK TEST CATALOG / LOBBY
@@ -1746,19 +1725,10 @@ export function MockTestsView({
                 <Button
                   size="sm"
                   onClick={handleSaveAndNext}
-                  className="h-9 bg-gray-900 hover:bg-gray-800 text-white font-black text-[11px] sm:text-xs rounded-xl px-3 sm:px-5 shadow-xs transition-all shrink-0"
+                  className="h-9 bg-gray-900 hover:bg-amber-600 text-white font-black text-[11px] sm:text-xs rounded-xl px-3 sm:px-5 shadow-xs transition-all shrink-0"
                 >
                   <span>Save & Next</span>
                   <ChevronRight className="h-3.5 w-3.5 ml-0.5" />
-                </Button>
-
-                <Button
-                  size="sm"
-                  onClick={() => setShowSubmitModal(true)}
-                  className="h-9 bg-emerald-600 hover:bg-emerald-700 text-white font-black text-[11px] sm:text-xs rounded-xl px-3 sm:px-4 shadow-xs transition-all shrink-0"
-                >
-                  <span>Submit</span>
-                  <Check className="h-3.5 w-3.5 ml-0.5" />
                 </Button>
               </div>
             </div>

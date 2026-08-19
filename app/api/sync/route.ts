@@ -67,20 +67,29 @@ export async function GET(req: NextRequest) {
 
     const mockAttempts: Record<string, any> = {};
     (mockData || []).forEach((row) => {
-      const key = row.title;
-      if (!key) return;
-      mockAttempts[key] = {
-        id: key,
-        title: key,
-        nestMeritScore: row.nest_merit_score ?? row.score ?? 0,
-        rawScore: row.score ?? 0,
-        evalMarks: row.total_marks ?? 180,
-        accuracy: row.accuracy_percentage ?? 0,
-        percentile: row.percentile ?? 0,
+      const mockKey = row.mock_key || row.title || row.id;
+      if (!mockKey) return;
+
+      const attemptObj = row.attempt_data || {
+        mockId: mockKey,
+        id: mockKey,
+        title: row.title || mockKey,
+        nestMeritScore: Number(row.nest_merit_score ?? row.score ?? 0),
+        rawScore: Number(row.score ?? 0),
+        evalScore: Number(row.nest_merit_score ?? row.score ?? 0),
+        evalMarks: Number(row.total_marks ?? 180),
+        totalMarks: Number(row.total_marks ?? 180),
+        accuracy: Number(row.accuracy_percentage ?? 0),
+        percentile: Number(row.percentile ?? 0),
         subjectBreakdown: row.subject_breakdown,
         questionResults: row.question_results,
         completedAt: row.completed_at || row.created_at,
       };
+
+      mockAttempts[mockKey] = attemptObj;
+      if (row.title && row.title !== mockKey) {
+        mockAttempts[row.title] = attemptObj;
+      }
     });
 
     // 4. Fetch Bookmarks
@@ -175,12 +184,14 @@ export async function POST(req: NextRequest) {
         }, { onConflict: "user_id,question_key" });
       }
     } else if (type === "MOCK_ATTEMPT") {
-      const { title, score, totalMarks, accuracy, nestMeritScore, percentile, subjectBreakdown, questionResults, completedAt } = payload || {};
-      if (title) {
+      const { mockId, title, score, totalMarks, accuracy, nestMeritScore, percentile, subjectBreakdown, questionResults, completedAt, attemptData } = payload || {};
+      const mockKey = mockId || title;
+      if (mockKey) {
         await supabase.from("mock_test_attempts").upsert({
           user_id: safeUserId,
           email: email,
-          title: title,
+          mock_key: mockKey,
+          title: title || mockKey,
           score: score ?? nestMeritScore ?? 0,
           total_marks: totalMarks ?? 180,
           accuracy_percentage: accuracy ?? 0,
@@ -188,6 +199,7 @@ export async function POST(req: NextRequest) {
           percentile: percentile ?? 0,
           subject_breakdown: subjectBreakdown ?? null,
           question_results: questionResults ?? null,
+          attempt_data: attemptData ?? payload ?? null,
           status: "COMPLETED",
           completed_at: completedAt ?? new Date().toISOString(),
         }, { onConflict: "user_id,title" });
@@ -243,10 +255,11 @@ export async function POST(req: NextRequest) {
       }
 
       // 3. Bulk Mocks
-      const mockRows = Object.entries(mockAttempts).map(([title, val]: [string, any]) => ({
+      const mockRows = Object.entries(mockAttempts).map(([key, val]: [string, any]) => ({
         user_id: safeUserId,
         email: email,
-        title: val.title || title,
+        mock_key: key,
+        title: val.title || key,
         score: val.nestMeritScore ?? val.rawScore ?? val.score ?? 0,
         total_marks: val.evalMarks ?? val.totalMarks ?? 180,
         accuracy_percentage: val.accuracy ?? 0,
@@ -254,6 +267,7 @@ export async function POST(req: NextRequest) {
         percentile: val.percentile ?? 0,
         subject_breakdown: val.subjectBreakdown ?? null,
         question_results: val.questionResults ?? null,
+        attempt_data: val,
         status: "COMPLETED",
         completed_at: val.completedAt ?? new Date().toISOString(),
       }));
