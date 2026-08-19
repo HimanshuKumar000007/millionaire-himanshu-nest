@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /dashboard/
+Disallow: /onboarding/
+Disallow: /reset-password/
+Disallow: /forgot-password/
+
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /dashboard/
+Disallow: /onboarding/
+Disallow: /reset-password/
+Disallow: /forgot-password/
+
+Sitemap: https://sciprep.in/sitemap.xml
+Host: https://sciprep.in
