@@ -77,11 +77,12 @@ export function setPlanLocally(plan: "FREE" | "PRO"): void {
   }).catch(() => {});
 }
 
-export function getCurrentUser(): { name: string; email: string } {
-  if (typeof window === "undefined") return { name: "Aspirant", email: "" };
+export function getCurrentUser(): { name: string; email: string; id: string } {
+  if (typeof window === "undefined") return { name: "Aspirant", email: "", id: "guest" };
   const name = localStorage.getItem(AUTH_KEYS.NAME) || localStorage.getItem(AUTH_KEYS.CURRENT_USER) || "Aspirant";
-  const email = localStorage.getItem(AUTH_KEYS.EMAIL) || "";
-  return { name, email };
+  const email = localStorage.getItem(AUTH_KEYS.EMAIL) || localStorage.getItem("currentUser") || "";
+  const id = localStorage.getItem("nest_user_id") || "guest";
+  return { name, email, id };
 }
 
 /**

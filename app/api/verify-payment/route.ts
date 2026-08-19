@@ -41,9 +41,11 @@ export async function POST(req: NextRequest) {
 
     const effectivePlan = getEffectivePlan(planId);
 
-    // Save payment log & upgrade user in Supabase in background
+    // Save payment log & upgrade user in Supabase in background (safe against UUID mismatch)
     try {
-      if (userId && userId !== "guest") {
+      const isValidUUID = typeof userId === "string" && /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(userId);
+
+      if (isValidUUID) {
         await supabase
           .from("user_settings")
           .upsert({
@@ -51,10 +53,26 @@ export async function POST(req: NextRequest) {
             plan: "PRO",
             updated_at: new Date().toISOString(),
           });
+      } else if (email) {
+        const { data: foundUser } = await supabase
+          .from("user_settings")
+          .select("user_id")
+          .eq("email", email)
+          .maybeSingle();
+
+        if (foundUser?.user_id) {
+          await supabase
+            .from("user_settings")
+            .update({
+              plan: "PRO",
+              updated_at: new Date().toISOString(),
+            })
+            .eq("user_id", foundUser.user_id);
+        }
       }
 
       await supabase.from("payments").insert({
-        user_id: userId && userId !== "guest" ? userId : null,
+        user_id: isValidUUID ? userId : null,
         email: email || null,
         plan_id: planId,
         razorpay_order_id,
@@ -65,7 +83,7 @@ export async function POST(req: NextRequest) {
         status: "captured",
       });
     } catch (dbErr) {
-      console.error("[Verify-Payment DB record warning]:", dbErr);
+      console.warn("[Verify-Payment DB record warning]:", dbErr);
     }
 
     return NextResponse.json({
