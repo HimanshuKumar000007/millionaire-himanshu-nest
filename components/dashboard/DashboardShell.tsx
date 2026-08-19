@@ -31,6 +31,7 @@ import { WeakAreasView } from "@/components/dashboard/WeakAreasView";
 import { RoadmapView } from "@/components/dashboard/RoadmapView";
 import { SettingsView } from "@/components/dashboard/SettingsView";
 import { ProfileView } from "@/components/dashboard/ProfileView";
+import { SubscriptionView } from "@/components/dashboard/SubscriptionView";
 import { AuthModal } from "@/components/auth/AuthModal";
 
 import { useProgressOrchestrator } from "@/lib/store/useProgressOrchestrator";
@@ -344,6 +345,14 @@ export function DashboardShell() {
                   <ProfileView
                     onBackToDashboard={() => setActiveSection("dashboard")}
                     onNavigateToSection={(sec) => setActiveSection(sec as DashboardSection)}
+                  />
+                </motion.div>
+              )}
+
+              {activeSection === "subscription" && (
+                <motion.div key="subscription-view" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+                  <SubscriptionView
+                    onBackToDashboard={() => setActiveSection("dashboard")}
                   />
                 </motion.div>
               )}

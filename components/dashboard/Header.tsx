@@ -241,6 +241,18 @@ export function Header({
                   suppressHydrationWarning
                   onClick={() => {
                     setProfileDropdownOpen(false);
+                    onNavigateToSection && onNavigateToSection("subscription");
+                  }}
+                  className="w-full px-3.5 py-2 text-xs font-bold text-gray-700 hover:bg-indigo-50 hover:text-[#4F46E5] flex items-center gap-2 transition-colors cursor-pointer"
+                >
+                  <Crown className="h-3.5 w-3.5 text-amber-500" />
+                  <span>PRO Membership</span>
+                </button>
+
+                <button
+                  suppressHydrationWarning
+                  onClick={() => {
+                    setProfileDropdownOpen(false);
                     onNavigateToSection && onNavigateToSection("settings");
                   }}
                   className="w-full px-3.5 py-2 text-xs font-bold text-gray-700 hover:bg-indigo-50 hover:text-[#4F46E5] flex items-center gap-2 transition-colors cursor-pointer"

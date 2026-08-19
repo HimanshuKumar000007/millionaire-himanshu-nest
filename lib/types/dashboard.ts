@@ -10,7 +10,8 @@ export type DashboardSection =
   | "planner"
   | "topic-tests"
   | "settings"
-  | "profile";
+  | "profile"
+  | "subscription";
 
 export interface SubjectScore {
   subject: "Physics" | "Chemistry" | "Biology" | "Mathematics";

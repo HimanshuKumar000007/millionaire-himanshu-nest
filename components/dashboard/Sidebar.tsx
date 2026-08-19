@@ -98,6 +98,7 @@ export function Sidebar({ isPro: propIsPro, activeSection = "dashboard", onSelec
     {
       group: "ACCOUNT",
       items: [
+        { id: "subscription", label: "PRO Membership", icon: Crown },
         { id: "profile", label: "Profile", icon: User },
         { id: "settings", label: "Settings", icon: Settings },
       ],
