@@ -19,7 +19,8 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { pushSettings } from "@/lib/supabase/sync.service";
+import { pushAllLocalData } from "@/lib/supabase/sync.service";
+import { broadcastProgressUpdate } from "@/lib/services/progressOrchestrator.service";
 
 interface ProfileViewProps {
   onBackToDashboard: () => void;
@@ -27,14 +28,14 @@ interface ProfileViewProps {
 }
 
 export function ProfileView({ onBackToDashboard, onNavigateToSection }: ProfileViewProps) {
-  const [userName, setUserName] = useState<string>("Ankit Kumar");
+  const [userName, setUserName] = useState<string>("SciPrep Aspirant");
   const [userTarget, setUserTarget] = useState<string>("AIR < 10 (NISER Bhubaneswar)");
-  const [targetYear, setTargetYear] = useState<string>("2027");
+  const [targetYear, setTargetYear] = useState<string>("2026");
   const [isEditing, setIsEditing] = useState<boolean>(false);
 
   useEffect(() => {
     try {
-      const savedName = localStorage.getItem("nest_user_name");
+      const savedName = localStorage.getItem("nest_user_name") || localStorage.getItem("currentUser");
       const savedTarget = localStorage.getItem("nest_user_target");
       if (savedName) setUserName(savedName);
       if (savedTarget) setUserTarget(savedTarget);
@@ -46,9 +47,11 @@ export function ProfileView({ onBackToDashboard, onNavigateToSection }: ProfileV
   const handleSaveProfile = () => {
     try {
       localStorage.setItem("nest_user_name", userName);
+      localStorage.setItem("currentUser", userName);
       localStorage.setItem("nest_user_target", userTarget);
       setIsEditing(false);
-      pushSettings().catch(() => {});
+      pushAllLocalData().catch(() => {});
+      broadcastProgressUpdate();
     } catch (e) {
       console.error(e);
     }

@@ -1,12 +1,18 @@
 "use client";
 /**
  * sync.service.ts
- * Dual-Channel Bidirectional sync between localStorage, Next.js /api/sync, and Supabase.
+ * Dual-Channel Bidirectional sync for ALL student application data.
  *
- * Strategy:
- *   - WRITE: every local write fires a background Supabase client upsert AND /api/sync POST.
- *   - RESTORE: on login/mount, pull all Supabase rows via /api/sync + Supabase client and merge into localStorage.
- *   - IDENTIFIER: synchronizes by authenticated User ID and Account Email so all devices (PC, Phone, Tablet) match 100%.
+ * Synchronizes:
+ *   1. PYQ Question Attempts
+ *   2. CBT Full Mock Test Results & Diagnostics
+ *   3. Daily / Topic Practice Evaluations & Answers
+ *   4. Smart Lessons Progress & Completion
+ *   5. Starred / Bookmarked Questions (PYQs & Practice)
+ *   6. Diagnostic Assessment Results & Strengths/Weaknesses
+ *   7. Roadmap Calendar & Signup Milestones
+ *   8. Onboarding Selections (Target College, Year, Exam)
+ *   9. User Profile, Display Name & SciPrep PRO Status
  */
 
 import { supabase } from "@/lib/supabase/client";
@@ -26,7 +32,7 @@ function safeGet<T>(key: string, def: T): T {
 
 function safeSet(key: string, value: unknown) {
   try {
-    localStorage.setItem(key, JSON.stringify(value));
+    localStorage.setItem(key, typeof value === "string" ? value : JSON.stringify(value));
   } catch {
     // storage quota exceeded — ignore
   }
@@ -59,6 +65,11 @@ export function clearLocalProgress(): void {
     STORAGE_KEYS.PRACTICE_ANSWERS,
     STORAGE_KEYS.PRACTICE_BOOKMARKS,
     STORAGE_KEYS.ASSESSMENT_RESULT,
+    "nest_smartprep_signup_date",
+    "nest-smartprep-onboarding",
+    "nest_target_exam",
+    "nest_target_score",
+    "nest_user_target",
   ];
   keys.forEach((k) => {
     try {
@@ -91,7 +102,6 @@ export async function pushLessonProgress(): Promise<void> {
 
   if (rows.length === 0) return;
 
-  // 1. Direct Supabase
   try {
     await supabase
       .from("user_progress")
@@ -100,7 +110,6 @@ export async function pushLessonProgress(): Promise<void> {
     console.warn("[Sync] user_progress error:", e);
   }
 
-  // 2. Server API
   fetch("/api/sync", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -121,7 +130,6 @@ export async function pushPYQAttempt(
   const email = getUserEmail();
   if (!uid && !email) return;
 
-  // 1. Direct Supabase
   try {
     await supabase
       .from("question_attempts")
@@ -141,7 +149,6 @@ export async function pushPYQAttempt(
     console.warn("[Sync] question_attempts error:", e);
   }
 
-  // 2. Server API
   fetch("/api/sync", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -162,7 +169,6 @@ export async function pushPracticeAttempt(
   const email = getUserEmail();
   if (!uid && !email) return;
 
-  // 1. Direct Supabase
   try {
     await supabase
       .from("question_attempts")
@@ -182,7 +188,6 @@ export async function pushPracticeAttempt(
     console.warn("[Sync] practice question_attempts error:", e);
   }
 
-  // 2. Server API
   fetch("/api/sync", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -211,7 +216,6 @@ export async function pushMockAttempt(attemptId: string): Promise<void> {
 
   const title = attempt.title ?? attempt.id ?? attemptId;
 
-  // 1. Direct Supabase
   try {
     await supabase
       .from("mock_test_attempts")
@@ -233,7 +237,6 @@ export async function pushMockAttempt(attemptId: string): Promise<void> {
     console.warn("[Sync] mock_test_attempts error:", e);
   }
 
-  // 2. Server API
   fetch("/api/sync", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -292,37 +295,6 @@ export async function pushBookmarks(): Promise<void> {
   }
 }
 
-export async function pushSettings(): Promise<void> {
-  const uid = await getUserId();
-  const email = getUserEmail();
-  if (!uid && !email) return;
-
-  const targetExam = "NEST 2026";
-  const targetScore = 150;
-  const isPro = localStorage.getItem("nest_user_is_pro") === "true";
-
-  try {
-    await supabase
-      .from("user_settings")
-      .upsert({
-        user_id: uid,
-        email: email,
-        target_exam: targetExam,
-        target_score: targetScore,
-        updated_at: new Date().toISOString(),
-      }, { onConflict: "user_id", ignoreDuplicates: false });
-
-    if (isPro && uid) {
-      await supabase
-        .from("profiles")
-        .update({ is_pro: true })
-        .eq("id", uid);
-    }
-  } catch (e) {
-    console.warn("[Sync] settings error:", e);
-  }
-}
-
 export async function pushAllLocalData(): Promise<void> {
   const uid = await getUserId();
   const email = getUserEmail();
@@ -332,8 +304,16 @@ export async function pushAllLocalData(): Promise<void> {
   const practiceStore = safeGet<Record<string, any>>(STORAGE_KEYS.PRACTICE_EVALS, {});
   const mockStore = safeGet<Record<string, any>>(STORAGE_KEYS.MOCK_ATTEMPTS, {});
   const lessonStore = safeGet<Record<string, any>>(STORAGE_KEYS.LESSON_PROGRESS, {});
+  const assessmentResult = safeGet<any>(STORAGE_KEYS.ASSESSMENT_RESULT, null);
+  const onboardingData = safeGet<any>("nest-smartprep-onboarding", null);
 
-  // Call Server API for Bulk Sync
+  const userName = localStorage.getItem("nest_user_name") || localStorage.getItem("currentUser") || null;
+  const targetExam = localStorage.getItem("nest_target_exam") || "NEST 2026";
+  const targetScore = Number(localStorage.getItem("nest_target_score")) || 150;
+  const targetCollege = localStorage.getItem("nest_user_target") || "NISER Bhubaneswar";
+  const isPro = localStorage.getItem("nest_user_is_pro") === "true";
+
+  // 1. Bulk Sync via Server API (handles all data types reliably)
   fetch("/api/sync", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -346,11 +326,18 @@ export async function pushAllLocalData(): Promise<void> {
         practiceEvals: practiceStore,
         mockAttempts: mockStore,
         lessonProgress: lessonStore,
+        assessmentResults: assessmentResult,
+        onboardingData: onboardingData,
+        userName,
+        targetExam,
+        targetScore,
+        targetCollege,
+        isPro,
       },
     }),
   }).catch(() => {});
 
-  // Also push via direct Supabase Client
+  // 2. Direct Supabase Client Push
   const pyqRows = Object.entries(pyqStore).map(([key, val]) => ({
     user_id: uid,
     email: email,
@@ -390,7 +377,6 @@ export async function pushAllLocalData(): Promise<void> {
   }
 
   await pushBookmarks();
-  await pushSettings();
 }
 
 // ── PULL (Supabase & API → localStorage) ────────────────────────────────────
@@ -405,196 +391,94 @@ export async function pullAllAndRestore(clearExisting: boolean = false): Promise
   }
 
   try {
-    // 1. Fetch from high-reliability server API
+    // 1. Fetch from comprehensive server API
     const res = await fetch(`/api/sync?email=${encodeURIComponent(email || "")}&userId=${encodeURIComponent(uid || "")}`);
     const json = await res.json();
 
     if (json.success && json.data) {
-      const { lessonProgress, pyqAttempts, practiceEvals, mockAttempts, pyqBookmarks, practiceBookmarks } = json.data;
+      const {
+        lessonProgress,
+        pyqAttempts,
+        practiceEvals,
+        practiceAnswers,
+        mockAttempts,
+        pyqBookmarks,
+        practiceBookmarks,
+        userSettings,
+        profile,
+        onboardingData,
+        assessmentResults,
+      } = json.data;
 
+      // Restore Lessons
       if (Object.keys(lessonProgress || {}).length > 0) {
         const local = safeGet<Record<string, any>>(STORAGE_KEYS.LESSON_PROGRESS, {});
         safeSet(STORAGE_KEYS.LESSON_PROGRESS, { ...local, ...lessonProgress });
       }
 
+      // Restore PYQs
       if (Object.keys(pyqAttempts || {}).length > 0) {
         const local = safeGet<Record<string, any>>(STORAGE_KEYS.PYQ_ATTEMPTS, {});
         safeSet(STORAGE_KEYS.PYQ_ATTEMPTS, { ...local, ...pyqAttempts });
       }
 
+      // Restore Practice
       if (Object.keys(practiceEvals || {}).length > 0) {
         const local = safeGet<Record<string, any>>(STORAGE_KEYS.PRACTICE_EVALS, {});
         safeSet(STORAGE_KEYS.PRACTICE_EVALS, { ...local, ...practiceEvals });
       }
+      if (Object.keys(practiceAnswers || {}).length > 0) {
+        const local = safeGet<Record<string, any>>(STORAGE_KEYS.PRACTICE_ANSWERS, {});
+        safeSet(STORAGE_KEYS.PRACTICE_ANSWERS, { ...local, ...practiceAnswers });
+      }
 
+      // Restore Mocks
       if (Object.keys(mockAttempts || {}).length > 0) {
         const local = safeGet<Record<string, any>>(STORAGE_KEYS.MOCK_ATTEMPTS, {});
         safeSet(STORAGE_KEYS.MOCK_ATTEMPTS, { ...local, ...mockAttempts });
       }
 
+      // Restore Bookmarks
       if (Array.isArray(pyqBookmarks) && pyqBookmarks.length > 0) {
         safeSet(STORAGE_KEYS.PYQ_BOOKMARKS, pyqBookmarks);
       }
-
       if (Array.isArray(practiceBookmarks) && practiceBookmarks.length > 0) {
         safeSet(STORAGE_KEYS.PRACTICE_BOOKMARKS, practiceBookmarks);
+      }
+
+      // Restore Assessment
+      if (assessmentResults) {
+        safeSet(STORAGE_KEYS.ASSESSMENT_RESULT, assessmentResults);
+      }
+
+      // Restore Onboarding
+      if (onboardingData) {
+        safeSet("nest-smartprep-onboarding", onboardingData);
+      }
+
+      // Restore User Settings & Profile
+      if (userSettings) {
+        if (userSettings.name) {
+          localStorage.setItem("nest_user_name", userSettings.name);
+          localStorage.setItem("currentUser", userSettings.name);
+        }
+        if (userSettings.target_exam) localStorage.setItem("nest_target_exam", userSettings.target_exam);
+        if (userSettings.target_score) localStorage.setItem("nest_target_score", String(userSettings.target_score));
+        if (userSettings.target_college) localStorage.setItem("nest_user_target", userSettings.target_college);
+        if (userSettings.is_pro) localStorage.setItem("nest_user_is_pro", "true");
+      }
+
+      if (profile) {
+        if (profile.full_name) {
+          localStorage.setItem("nest_user_name", profile.full_name);
+          localStorage.setItem("currentUser", profile.full_name);
+        }
+        if (profile.is_pro) localStorage.setItem("nest_user_is_pro", "true");
       }
     }
   } catch (err) {
     console.warn("[Sync] Server API pull warning:", err);
   }
 
-  // 2. Also run direct Supabase queries if user id is available
-  if (uid) {
-    await Promise.all([
-      pullLessonProgress(uid),
-      pullPYQAttempts(uid),
-      pullPracticeAttempts(uid),
-      pullMockAttempts(uid),
-      pullBookmarks(uid),
-      pullSettings(uid),
-    ]).catch(() => {});
-  }
-
   broadcastProgressUpdate();
-}
-
-async function pullLessonProgress(uid: string) {
-  const { data, error } = await supabase
-    .from("user_progress")
-    .select("lesson_key, is_completed, progress_percentage, title, last_studied_at")
-    .eq("user_id", uid)
-    .not("lesson_key", "is", null);
-
-  if (error || !data?.length) return;
-
-  const local = safeGet<Record<string, unknown>>(STORAGE_KEYS.LESSON_PROGRESS, {});
-  data.forEach((row) => {
-    if (!row.lesson_key) return;
-    local[row.lesson_key] = {
-      completed: row.is_completed,
-      progressPercent: row.progress_percentage,
-      title: row.title,
-      updatedAt: row.last_studied_at,
-    };
-  });
-  safeSet(STORAGE_KEYS.LESSON_PROGRESS, local);
-}
-
-async function pullPYQAttempts(uid: string) {
-  const { data, error } = await supabase
-    .from("question_attempts")
-    .select("question_key, is_correct, selected_option, subject, topic, attempted_at")
-    .eq("user_id", uid)
-    .eq("source", "pyq")
-    .not("question_key", "is", null);
-
-  if (error || !data?.length) return;
-
-  const local = safeGet<Record<string, unknown>>(STORAGE_KEYS.PYQ_ATTEMPTS, {});
-  data.forEach((row) => {
-    if (!row.question_key) return;
-    local[row.question_key] = {
-      isCorrect: row.is_correct,
-      selectedOption: row.selected_option,
-      score: row.is_correct ? 3 : -1,
-      subject: row.subject,
-      topic: row.topic,
-      attemptedAt: row.attempted_at,
-    };
-  });
-  safeSet(STORAGE_KEYS.PYQ_ATTEMPTS, local);
-}
-
-async function pullPracticeAttempts(uid: string) {
-  const { data, error } = await supabase
-    .from("question_attempts")
-    .select("question_key, is_correct, selected_option, subject, topic, attempted_at")
-    .eq("user_id", uid)
-    .eq("source", "practice")
-    .not("question_key", "is", null);
-
-  if (error || !data?.length) return;
-
-  const local = safeGet<Record<string, unknown>>(STORAGE_KEYS.PRACTICE_EVALS, {});
-  data.forEach((row) => {
-    if (!row.question_key) return;
-    local[row.question_key] = {
-      isCorrect: row.is_correct,
-      selectedOption: row.selected_option,
-      subject: row.subject,
-      topic: row.topic,
-      attemptedAt: row.attempted_at,
-    };
-  });
-  safeSet(STORAGE_KEYS.PRACTICE_EVALS, local);
-}
-
-async function pullMockAttempts(uid: string) {
-  const { data, error } = await supabase
-    .from("mock_test_attempts")
-    .select("title, score, total_marks, accuracy_percentage, nest_merit_score, percentile, subject_breakdown, question_results, completed_at")
-    .eq("user_id", uid)
-    .eq("status", "COMPLETED")
-    .not("title", "is", null);
-
-  if (error || !data?.length) return;
-
-  const local = safeGet<Record<string, unknown>>(STORAGE_KEYS.MOCK_ATTEMPTS, {});
-  data.forEach((row) => {
-    if (!row.title) return;
-    local[row.title] = {
-      id: row.title,
-      title: row.title,
-      nestMeritScore: row.nest_merit_score,
-      rawScore: row.score,
-      evalMarks: row.total_marks,
-      accuracy: row.accuracy_percentage,
-      percentile: row.percentile,
-      subjectBreakdown: row.subject_breakdown,
-      questionResults: row.question_results,
-      completedAt: row.completed_at,
-    };
-  });
-  safeSet(STORAGE_KEYS.MOCK_ATTEMPTS, local);
-}
-
-async function pullBookmarks(uid: string) {
-  const { data, error } = await supabase
-    .from("bookmarks")
-    .select("question_key, source")
-    .eq("user_id", uid)
-    .not("question_key", "is", null);
-
-  if (error || !data?.length) return;
-
-  const pyqBookmarks: string[] = [];
-  const practiceBookmarks: string[] = [];
-
-  data.forEach((row) => {
-    if (!row.question_key) return;
-    if (row.source === "practice") {
-      practiceBookmarks.push(row.question_key);
-    } else {
-      pyqBookmarks.push(row.question_key);
-    }
-  });
-
-  if (pyqBookmarks.length > 0) safeSet(STORAGE_KEYS.PYQ_BOOKMARKS, pyqBookmarks);
-  if (practiceBookmarks.length > 0) safeSet(STORAGE_KEYS.PRACTICE_BOOKMARKS, practiceBookmarks);
-}
-
-async function pullSettings(uid: string) {
-  const { data, error } = await supabase
-    .from("user_settings")
-    .select("target_exam, target_score")
-    .eq("user_id", uid)
-    .maybeSingle();
-
-  if (error || !data) return;
-
-  if (typeof window !== "undefined") {
-    if (data.target_exam) localStorage.setItem("nest_target_exam", data.target_exam);
-    if (data.target_score) localStorage.setItem("nest_target_score", String(data.target_score));
-  }
 }

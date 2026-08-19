@@ -39,6 +39,7 @@ export async function GET(req: NextRequest) {
 
     const pyqAttempts: Record<string, any> = {};
     const practiceEvals: Record<string, any> = {};
+    const practiceAnswers: Record<string, any> = {};
 
     (qData || []).forEach((row) => {
       if (!row.question_key) return;
@@ -52,6 +53,7 @@ export async function GET(req: NextRequest) {
       };
       if (row.source === "practice") {
         practiceEvals[row.question_key] = item;
+        if (row.selected_option) practiceAnswers[row.question_key] = row.selected_option;
       } else {
         pyqAttempts[row.question_key] = item;
       }
@@ -95,11 +97,16 @@ export async function GET(req: NextRequest) {
       else pyqBookmarks.push(row.question_key);
     });
 
-    // 5. Fetch Settings / Plan
+    // 5. Fetch Settings, Profile, Onboarding, Assessment & App State
     let sQuery = supabase.from("user_settings").select("*");
     if (email) sQuery = sQuery.or(`email.eq.${email},user_id.eq.${userId || "00000000-0000-0000-0000-000000000000"}`);
     else sQuery = sQuery.eq("user_id", userId);
     const { data: sData } = await sQuery.maybeSingle();
+
+    let pQuery = supabase.from("profiles").select("*");
+    if (email) pQuery = pQuery.or(`email.eq.${email},id.eq.${userId || "00000000-0000-0000-0000-000000000000"}`);
+    else pQuery = pQuery.eq("id", userId);
+    const { data: pData } = await pQuery.maybeSingle();
 
     return NextResponse.json({
       success: true,
@@ -107,10 +114,15 @@ export async function GET(req: NextRequest) {
         lessonProgress,
         pyqAttempts,
         practiceEvals,
+        practiceAnswers,
         mockAttempts,
         pyqBookmarks,
         practiceBookmarks,
         userSettings: sData || null,
+        profile: pData || null,
+        onboardingData: sData?.onboarding_data || null,
+        assessmentResults: sData?.assessment_data || null,
+        appState: sData?.app_state || null,
       },
     });
   } catch (error: any) {
@@ -181,7 +193,20 @@ export async function POST(req: NextRequest) {
         }, { onConflict: "user_id,title" });
       }
     } else if (type === "BULK_SYNC") {
-      const { pyqAttempts = {}, mockAttempts = {}, lessonProgress = {}, practiceEvals = {} } = payload || {};
+      const {
+        pyqAttempts = {},
+        mockAttempts = {},
+        lessonProgress = {},
+        practiceEvals = {},
+        assessmentResults = null,
+        onboardingData = null,
+        userSettings = null,
+        userName = null,
+        targetExam = "NEST 2026",
+        targetScore = 150,
+        targetCollege = "NISER Bhubaneswar",
+        isPro = false,
+      } = payload || {};
 
       // 1. Bulk PYQs
       const pyqRows = Object.entries(pyqAttempts).map(([key, val]: [string, any]) => ({
@@ -249,6 +274,31 @@ export async function POST(req: NextRequest) {
       }));
       if (lessonRows.length > 0) {
         await supabase.from("user_progress").upsert(lessonRows, { onConflict: "user_id,lesson_key" });
+      }
+
+      // 5. User Settings, Onboarding, Assessment & App State
+      if (safeUserId || email) {
+        await supabase.from("user_settings").upsert({
+          user_id: safeUserId,
+          email: email,
+          name: userName ?? undefined,
+          target_exam: targetExam,
+          target_score: targetScore,
+          target_college: targetCollege,
+          is_pro: !!isPro,
+          onboarding_data: onboardingData,
+          assessment_data: assessmentResults,
+          app_state: payload,
+          updated_at: new Date().toISOString(),
+        }, { onConflict: "user_id" });
+
+        if (safeUserId) {
+          await supabase.from("profiles").update({
+            full_name: userName ?? undefined,
+            is_pro: !!isPro,
+            updated_at: new Date().toISOString(),
+          }).eq("id", safeUserId);
+        }
       }
     }
 

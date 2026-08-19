@@ -27,6 +27,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import { useOnboardingStore } from "@/lib/store/useOnboardingStore";
+import { pushAllLocalData } from "@/lib/supabase/sync.service";
 
 interface Question {
   id: number;
@@ -120,6 +121,21 @@ export default function AssessmentPage() {
     if (currentQIndex < ASSESSMENT_QUESTIONS.length - 1) {
       setCurrentQIndex((prev) => prev + 1);
     } else {
+      const correct = ASSESSMENT_QUESTIONS.reduce((acc, q) => {
+        return answers[q.id] === q.correctIndex ? acc + 1 : acc;
+      }, 0);
+      const accPct = Math.round((correct / ASSESSMENT_QUESTIONS.length) * 100);
+      const resultPayload = {
+        correctCount: correct,
+        totalQuestions: ASSESSMENT_QUESTIONS.length,
+        accuracy: accPct,
+        answers,
+        completedAt: new Date().toISOString(),
+      };
+      try {
+        localStorage.setItem("nest_smartprep_assessment_results", JSON.stringify(resultPayload));
+        pushAllLocalData().catch(() => {});
+      } catch {}
       setCurrentStep("report");
     }
   };
