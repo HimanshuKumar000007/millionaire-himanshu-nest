@@ -39,9 +39,13 @@ import {
   Maximize2,
   ShieldCheck,
   TrendingDown,
+  Lock,
+  Crown,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { isPro } from "@/lib/auth/authGuard";
+import { UpgradeModal } from "@/components/shared/UpgradeModal";
 import { ContentPYQItem, ContentQuestion, ResolvedContentMock } from "@/lib/types/content";
 import { SubjectType } from "@/lib/types/common";
 import { questionEvaluationService } from "@/lib/services/questionEvaluation.service";
@@ -522,6 +526,23 @@ export function PYQModuleView({
   const [mockAttempts, setMockAttempts] = useState<Record<string, any>>({});
   const [bookmarks, setBookmarks] = useState<Set<string>>(new Set());
 
+  // SciPrep PRO Gating State
+  const [isProUser, setIsProUser] = useState<boolean>(false);
+  const [upgradeModalOpen, setUpgradeModalOpen] = useState<boolean>(false);
+  const [upgradeContext, setUpgradeContext] = useState<{ title: string; desc: string }>({
+    title: "Unlock NEST PYQ Archives",
+    desc: "Free tier includes 1 PYQ Paper (NEST 2024). Upgrade to SciPrep PRO to unlock all 2018–2024 official PYQs with comprehensive step-by-step solutions."
+  });
+
+  useEffect(() => {
+    setIsProUser(isPro());
+    const handlePlanUpdate = () => {
+      setIsProUser(isPro());
+    };
+    window.addEventListener("nest_plan_updated", handlePlanUpdate);
+    return () => window.removeEventListener("nest_plan_updated", handlePlanUpdate);
+  }, []);
+
   // Load saved attempts on mount
   useEffect(() => {
     try {
@@ -583,7 +604,16 @@ export function PYQModuleView({
   }, [subjectGroups]);
 
   // Launch mock test in true full screen CBT mode
-  const handleStartPYQCBT = async (mockId: string) => {
+  const handleStartPYQCBT = async (mockId: string, isLocked: boolean = false, pyqTitle?: string) => {
+    if (isLocked) {
+      setUpgradeContext({
+        title: pyqTitle ? `Unlock ${pyqTitle}` : "Unlock NEST PYQ Archives",
+        desc: "Free tier includes 1 PYQ Paper (NEST 2024). Upgrade to SciPrep PRO to unlock all 2018–2024 official PYQs with comprehensive step-by-step solutions."
+      });
+      setUpgradeModalOpen(true);
+      return;
+    }
+
     try {
       setIsStartingMock(true);
       const res = await fetch(`/api/content/mocks?id=${mockId}&resolve=true`);
@@ -1803,13 +1833,18 @@ export function PYQModuleView({
 
           {/* Year Mocks Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            {filteredYearMocks.map((mock) => {
+            {filteredYearMocks.map((mock, index) => {
               const attempt = mock.mockId ? mockAttempts[mock.mockId] : null;
+              const isLocked = !isProUser && index > 0;
 
               return (
                 <div
                   key={mock.id}
-                  className="bg-white rounded-3xl p-6 border border-gray-100 shadow-2xs hover:shadow-md hover:border-purple-200 transition-all duration-200 flex flex-col justify-between space-y-4 group"
+                  className={`bg-white rounded-3xl p-6 border shadow-2xs transition-all duration-200 flex flex-col justify-between space-y-4 group ${
+                    isLocked
+                      ? "border-amber-200/80 bg-linear-to-b from-white to-amber-50/20 hover:border-amber-300"
+                      : "border-gray-100 hover:shadow-md hover:border-purple-200"
+                  }`}
                 >
                   <div className="space-y-3">
                     {/* Header Badges */}
@@ -1823,20 +1858,26 @@ export function PYQModuleView({
                         </span>
                       </div>
 
-                      {attempt ? (
+                      {isLocked ? (
+                        <Badge className="bg-gradient-to-r from-amber-500 to-amber-600 text-white font-black text-[10px] px-2 py-0.5 rounded-md flex items-center gap-1 shadow-2xs">
+                          <Lock className="h-3 w-3" /> PRO ARCHIVE
+                        </Badge>
+                      ) : attempt ? (
                         <span className="text-[10px] font-extrabold px-2.5 py-0.5 rounded-lg bg-emerald-50 text-emerald-700 border border-emerald-200 flex items-center gap-1">
                           <CheckCircle2 className="h-3 w-3" /> Score: {attempt.evalScore || attempt.totalScore} / 180
                         </span>
                       ) : (
-                        <span className="text-[10px] font-bold text-gray-400 bg-gray-50 px-2 py-0.5 rounded-md border border-gray-100">
-                          Unattempted
+                        <span className="text-[10px] font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200">
+                          Free PYQ Paper
                         </span>
                       )}
                     </div>
 
                     {/* Title & Description */}
                     <div>
-                      <h3 className="text-base font-black text-gray-900 group-hover:text-purple-600 transition-colors leading-snug">
+                      <h3 className={`text-base font-black transition-colors leading-snug ${
+                        isLocked ? "text-gray-800 group-hover:text-amber-600" : "text-gray-900 group-hover:text-purple-600"
+                      }`}>
                         {mock.title}
                       </h3>
                       <p className="text-xs text-gray-500 font-medium mt-1 leading-relaxed">
@@ -1877,11 +1918,25 @@ export function PYQModuleView({
 
                   {/* Actions */}
                   <div className="pt-3 border-t border-gray-100 flex items-center gap-2">
-                    {mock.formatType === "CBT" ? (
+                    {isLocked ? (
+                      <Button
+                        onClick={() => {
+                          setUpgradeContext({
+                            title: `Unlock NEST ${mock.year} Official PYQs`,
+                            desc: "Free tier includes 1 PYQ Paper (NEST 2024). Upgrade to SciPrep PRO to unlock all 2018–2024 official PYQs with comprehensive step-by-step solutions."
+                          });
+                          setUpgradeModalOpen(true);
+                        }}
+                        className="w-full h-9 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-black text-xs rounded-xl shadow-xs transition-all flex items-center justify-center gap-1.5 cursor-pointer"
+                      >
+                        <Lock className="h-3.5 w-3.5" />
+                        <span>Unlock NEST {mock.year} with PRO 👑</span>
+                      </Button>
+                    ) : mock.formatType === "CBT" ? (
                       <>
                         <Button
                           disabled={isStartingMock}
-                          onClick={() => mock.mockId && handleStartPYQCBT(mock.mockId)}
+                          onClick={() => mock.mockId && handleStartPYQCBT(mock.mockId, false, mock.title)}
                           className="flex-1 h-9 bg-purple-600 hover:bg-purple-700 text-white font-black text-xs rounded-xl shadow-2xs cursor-pointer"
                         >
                           <PlayCircle className="mr-1.5 h-4 w-4" /> Start CBT Mock Test
@@ -2240,6 +2295,14 @@ export function PYQModuleView({
           </div>
         </div>
       )}
+
+      {/* Global Upgrade Paywall Modal */}
+      <UpgradeModal
+        isOpen={upgradeModalOpen}
+        onClose={() => setUpgradeModalOpen(false)}
+        featureTitle={upgradeContext.title}
+        featureDescription={upgradeContext.desc}
+      />
     </div>
   );
 }

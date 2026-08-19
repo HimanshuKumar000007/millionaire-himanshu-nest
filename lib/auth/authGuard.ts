@@ -49,6 +49,34 @@ export function isPro(): boolean {
   return getPlan() === "PRO";
 }
 
+/**
+ * Updates the user's plan in localStorage and dispatches a global update event.
+ * Also synchronizes with Supabase if the user is authenticated.
+ */
+export function setPlanLocally(plan: "FREE" | "PRO"): void {
+  if (typeof window === "undefined") return;
+  const isProBool = plan === "PRO";
+  localStorage.setItem(AUTH_KEYS.PLAN, plan);
+  localStorage.setItem(AUTH_KEYS.IS_PRO, String(isProBool));
+  localStorage.setItem(AUTH_KEYS.PLAN_SYNCED_AT, String(Date.now()));
+
+  // Dispatch custom event so all active views re-render
+  window.dispatchEvent(new CustomEvent("nest_plan_updated", { detail: { plan, isPro: isProBool } }));
+
+  // Background sync with Supabase
+  supabase.auth.getSession().then(({ data: { session } }) => {
+    if (session?.user?.id) {
+      void supabase
+        .from("user_settings")
+        .upsert({
+          user_id: session.user.id,
+          plan: plan,
+          updated_at: new Date().toISOString(),
+        });
+    }
+  }).catch(() => {});
+}
+
 export function getCurrentUser(): { name: string; email: string } {
   if (typeof window === "undefined") return { name: "Aspirant", email: "" };
   const name = localStorage.getItem(AUTH_KEYS.NAME) || localStorage.getItem(AUTH_KEYS.CURRENT_USER) || "Aspirant";
@@ -103,14 +131,14 @@ export async function refreshPlanFromServer(): Promise<string> {
     // Fetch user_settings from Supabase
     const { data, error } = await supabase
       .from("user_settings")
-      .select("name, is_pro, email")
+      .select("name, plan, email")
       .eq("user_id", session.user.id)
       .single();
 
     if (!error && data) {
-      const plan = data.is_pro ? "PRO" : "FREE";
+      const plan = data.plan?.toUpperCase() === "PRO" ? "PRO" : "FREE";
       localStorage.setItem(AUTH_KEYS.PLAN, plan);
-      localStorage.setItem(AUTH_KEYS.IS_PRO, String(data.is_pro));
+      localStorage.setItem(AUTH_KEYS.IS_PRO, String(plan === "PRO"));
       if (data.name) {
         localStorage.setItem(AUTH_KEYS.NAME, data.name);
         localStorage.setItem(AUTH_KEYS.CURRENT_USER, data.name);

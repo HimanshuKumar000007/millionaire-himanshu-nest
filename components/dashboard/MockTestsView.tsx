@@ -34,9 +34,13 @@ import {
   TrendingDown,
   XCircle,
   LayoutGrid,
+  Lock,
+  Crown,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { isPro } from "@/lib/auth/authGuard";
+import { UpgradeModal } from "@/components/shared/UpgradeModal";
 import {
   ContentMockDefinition,
   ResolvedContentMock,
@@ -97,6 +101,23 @@ export function MockTestsView({
   // Attempt results: mockId -> attempt summary
   const [attemptsMap, setAttemptsMap] = useState<Record<string, any>>({});
 
+  // SciPrep PRO Gating State
+  const [isProUser, setIsProUser] = useState<boolean>(false);
+  const [upgradeModalOpen, setUpgradeModalOpen] = useState<boolean>(false);
+  const [upgradeContext, setUpgradeContext] = useState<{ title: string; desc: string }>({
+    title: "Unlock NEST Full CBT Mocks",
+    desc: "Free members can attempt 1 Full Mock. Upgrade to SciPrep PRO to access all 10+ full-length CBT mock simulators with AI error diagnostics."
+  });
+
+  useEffect(() => {
+    setIsProUser(isPro());
+    const handlePlanUpdate = () => {
+      setIsProUser(isPro());
+    };
+    window.addEventListener("nest_plan_updated", handlePlanUpdate);
+    return () => window.removeEventListener("nest_plan_updated", handlePlanUpdate);
+  }, []);
+
   useEffect(() => {
     try {
       const savedAttempts = localStorage.getItem("nest_smartprep_mock_attempts");
@@ -150,7 +171,16 @@ export function MockTestsView({
   }, [subjectGroups]);
 
   // Launch mock test in full CBT mode
-  const handleStartMock = async (mockId: string) => {
+  const handleStartMock = async (mockId: string, isLocked: boolean = false, mockTitle?: string) => {
+    if (isLocked) {
+      setUpgradeContext({
+        title: mockTitle ? `Unlock ${mockTitle}` : "Unlock Full CBT Mock",
+        desc: "Free tier includes 1 Full Mock Test. Upgrade to SciPrep PRO to unlock all 10+ full-length CBT mock simulators with detailed AI diagnostics."
+      });
+      setUpgradeModalOpen(true);
+      return;
+    }
+
     try {
       setIsStartingMock(true);
       const res = await fetch(`/api/content/mocks?id=${mockId}&resolve=true`);
@@ -682,13 +712,18 @@ export function MockTestsView({
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {filteredMocks.map((mock) => {
+            {filteredMocks.map((mock, index) => {
               const attempt = attemptsMap[mock.id];
+              const isLocked = !isProUser && index > 0;
 
               return (
                 <div
                   key={mock.id}
-                  className="bg-white rounded-3xl p-5 border border-gray-100 shadow-2xs hover:shadow-md hover:border-amber-200 transition-all duration-200 flex flex-col justify-between space-y-4 group"
+                  className={`bg-white rounded-3xl p-5 border shadow-2xs transition-all duration-200 flex flex-col justify-between space-y-4 group ${
+                    isLocked
+                      ? "border-amber-200/80 bg-linear-to-b from-white to-amber-50/20 hover:border-amber-300"
+                      : "border-gray-100 hover:shadow-md hover:border-indigo-200"
+                  }`}
                 >
                   <div className="space-y-3">
                     <div className="flex items-center justify-between">
@@ -704,19 +739,25 @@ export function MockTestsView({
                         </span>
                       </div>
 
-                      {attempt ? (
+                      {isLocked ? (
+                        <Badge className="bg-gradient-to-r from-amber-500 to-amber-600 text-white font-black text-[10px] px-2 py-0.5 rounded-md flex items-center gap-1 shadow-2xs">
+                          <Lock className="h-3 w-3" /> PRO TIER
+                        </Badge>
+                      ) : attempt ? (
                         <span className="text-[10px] font-black text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200 flex items-center gap-1">
                           <CheckCircle2 className="h-3 w-3" /> Score: {attempt.nestMeritScore || attempt.rawScore}/{attempt.evalMarks || attempt.totalMarks}
                         </span>
                       ) : (
-                        <span className="text-[10px] font-semibold text-gray-400 bg-gray-50 px-2 py-0.5 rounded-md">
-                          Unattempted
+                        <span className="text-[10px] font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded-md">
+                          Free Mock
                         </span>
                       )}
                     </div>
 
                     <div>
-                      <h3 className="text-sm font-extrabold text-gray-900 group-hover:text-amber-600 transition-colors leading-snug">
+                      <h3 className={`text-sm font-extrabold transition-colors leading-snug ${
+                        isLocked ? "text-gray-800 group-hover:text-amber-600" : "text-gray-900 group-hover:text-[#4F46E5]"
+                      }`}>
                         {mock.title}
                       </h3>
                       <div className="flex items-center gap-2 text-[11px] font-semibold text-gray-500 mt-2">
@@ -747,23 +788,41 @@ export function MockTestsView({
                   </div>
 
                   <div className="pt-2">
-                    <Button
-                      disabled={isStartingMock}
-                      onClick={() => handleStartMock(mock.id)}
-                      className="w-full h-9 bg-gray-900 hover:bg-amber-600 text-white font-bold text-xs rounded-xl shadow-xs transition-all flex items-center justify-center gap-2"
-                    >
-                      {attempt ? (
-                        <>Re-take CBT Mock <RotateCcw className="h-3.5 w-3.5" /></>
-                      ) : (
-                        <>Launch CBT Mock <PlayCircle className="h-3.5 w-3.5" /></>
-                      )}
-                    </Button>
+                    {isLocked ? (
+                      <Button
+                        onClick={() => handleStartMock(mock.id, true, mock.title)}
+                        className="w-full h-9 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-black text-xs rounded-xl shadow-xs transition-all flex items-center justify-center gap-1.5 cursor-pointer"
+                      >
+                        <Lock className="h-3.5 w-3.5" />
+                        <span>Unlock with PRO 👑</span>
+                      </Button>
+                    ) : (
+                      <Button
+                        disabled={isStartingMock}
+                        onClick={() => handleStartMock(mock.id, false, mock.title)}
+                        className="w-full h-9 bg-gray-900 hover:bg-[#4F46E5] text-white font-bold text-xs rounded-xl shadow-xs transition-all flex items-center justify-center gap-2 cursor-pointer"
+                      >
+                        {attempt ? (
+                          <>Re-take CBT Mock <RotateCcw className="h-3.5 w-3.5" /></>
+                        ) : (
+                          <>Launch CBT Mock <PlayCircle className="h-3.5 w-3.5" /></>
+                        )}
+                      </Button>
+                    )}
                   </div>
                 </div>
               );
             })}
           </div>
         )}
+
+        {/* Global Upgrade Paywall Modal */}
+        <UpgradeModal
+          isOpen={upgradeModalOpen}
+          onClose={() => setUpgradeModalOpen(false)}
+          featureTitle={upgradeContext.title}
+          featureDescription={upgradeContext.desc}
+        />
       </div>
     );
   }

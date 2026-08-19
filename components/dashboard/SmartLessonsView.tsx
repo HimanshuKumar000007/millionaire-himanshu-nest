@@ -19,9 +19,13 @@ import {
   FolderTree,
   LayoutGrid,
   BookMarked,
+  Lock,
+  Crown,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { isPro } from "@/lib/auth/authGuard";
+import { UpgradeModal } from "@/components/shared/UpgradeModal";
 import { SubjectScore } from "@/lib/types/dashboard";
 import {
   ContentLesson,
@@ -60,6 +64,23 @@ export function SmartLessonsView({
   const [progressMap, setProgressMap] = useState<Record<string, StudentLessonProgress>>({});
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [noticeMessage, setNoticeMessage] = useState<string | null>(null);
+
+  // SciPrep PRO Gating State
+  const [isProUser, setIsProUser] = useState<boolean>(false);
+  const [upgradeModalOpen, setUpgradeModalOpen] = useState<boolean>(false);
+  const [upgradeContext, setUpgradeContext] = useState<{ title: string; desc: string }>({
+    title: "Unlock Full Smart Lessons Archive",
+    desc: "Free tier includes 1 Free Smart Lesson per subject. Upgrade to SciPrep PRO to unlock all 100+ chapter smart notes, high-yield interactive diagrams, and concept quizzes."
+  });
+
+  useEffect(() => {
+    setIsProUser(isPro());
+    const handlePlanUpdate = () => {
+      setIsProUser(isPro());
+    };
+    window.addEventListener("nest_plan_updated", handlePlanUpdate);
+    return () => window.removeEventListener("nest_plan_updated", handlePlanUpdate);
+  }, []);
 
   const refreshProgressOnly = useCallback(() => {
     const loadedProgress = lessonProgressService.getAllLessonProgress();
@@ -261,7 +282,16 @@ export function SmartLessonsView({
     filteredChapters[0] ||
     syllabusChapters[0];
 
-  const handleStartChapter = (chapter: FlatSyllabusChapter) => {
+  const handleStartChapter = (chapter: FlatSyllabusChapter, isLocked: boolean = false) => {
+    if (isLocked) {
+      setUpgradeContext({
+        title: `Unlock Chapter: ${chapter.chapterTitle}`,
+        desc: `Free tier includes 1 Free Smart Lesson per subject. Upgrade to SciPrep PRO to unlock "${chapter.chapterTitle}" (${chapter.subject}) and all 100+ chapter smart notes, high-yield interactive diagrams, and concept quizzes.`
+      });
+      setUpgradeModalOpen(true);
+      return;
+    }
+
     const matchingLesson = findMatchingLesson(chapter);
     const targetSlug = chapter.slug || matchingLesson?.chapterSlug || matchingLesson?.slug;
 
@@ -737,26 +767,36 @@ export function SmartLessonsView({
 
                             {/* Button */}
                             <div className="pt-2">
-                              <Button
-                                onClick={() => handleStartChapter(chapter)}
-                                className={`w-full h-9 font-bold text-xs rounded-xl shadow-2xs transition-all ${
-                                  !hasContent
-                                    ? "bg-amber-50 hover:bg-amber-100 text-amber-700 border border-amber-200"
-                                    : "bg-[#4F46E5] hover:bg-indigo-700 text-white"
-                                }`}
-                              >
-                                {hasContent ? (
-                                  completed ? (
-                                    <>Review Lesson <Check className="ml-1.5 h-3.5 w-3.5" /></>
-                                  ) : status === "In Progress" ? (
-                                    <>Resume Smart Lesson <PlayCircle className="ml-1.5 h-3.5 w-3.5" /></>
+                              {(!isProUser && Number(chapter.chapterNumber) > 1 && Number(chapter.unitNumber) > 1) ? (
+                                <Button
+                                  onClick={() => handleStartChapter(chapter, true)}
+                                  className="w-full h-9 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-black text-xs rounded-xl shadow-xs transition-all flex items-center justify-center gap-1.5 cursor-pointer"
+                                >
+                                  <Lock className="h-3.5 w-3.5" />
+                                  <span>Unlock Chapter with PRO 👑</span>
+                                </Button>
+                              ) : (
+                                <Button
+                                  onClick={() => handleStartChapter(chapter, false)}
+                                  className={`w-full h-9 font-bold text-xs rounded-xl shadow-2xs transition-all ${
+                                    !hasContent
+                                      ? "bg-amber-50 hover:bg-amber-100 text-amber-700 border border-amber-200"
+                                      : "bg-[#4F46E5] hover:bg-indigo-700 text-white"
+                                  }`}
+                                >
+                                  {hasContent ? (
+                                    completed ? (
+                                      <>Review Lesson <Check className="ml-1.5 h-3.5 w-3.5" /></>
+                                    ) : status === "In Progress" ? (
+                                      <>Resume Smart Lesson <PlayCircle className="ml-1.5 h-3.5 w-3.5" /></>
+                                    ) : (
+                                      <>Start Smart Lesson <ArrowRight className="ml-1.5 h-3.5 w-3.5" /></>
+                                    )
                                   ) : (
-                                    <>Start Smart Lesson <ArrowRight className="ml-1.5 h-3.5 w-3.5" /></>
-                                  )
-                                ) : (
-                                  <>Coming Soon — Content Being Prepared</>
-                                )}
-                              </Button>
+                                    <>Coming Soon — Content Being Prepared</>
+                                  )}
+                                </Button>
+                              )}
                             </div>
                           </div>
                         );
@@ -774,11 +814,16 @@ export function SmartLessonsView({
           {filteredChapters.map((chapter) => {
             const matchingModules = findAllMatchingLessons(chapter);
             const { status, percent, completed, hasContent } = getProgressStatus(chapter);
+            const isLocked = !isProUser && Number(chapter.chapterNumber) > 1 && Number(chapter.unitNumber) > 1;
 
             return (
               <div
                 key={chapter.id}
-                className="bg-white rounded-3xl p-6 border border-gray-100 shadow-2xs hover:shadow-md transition-all duration-200 flex flex-col justify-between space-y-5 group"
+                className={`bg-white rounded-3xl p-6 border shadow-2xs transition-all duration-200 flex flex-col justify-between space-y-5 group ${
+                  isLocked
+                    ? "border-amber-200/80 bg-linear-to-b from-white to-amber-50/20 hover:border-amber-300"
+                    : "border-gray-100 hover:shadow-md"
+                }`}
               >
                 <div className="space-y-3.5">
                   {/* Top Metadata Header: Subject Pill + Unit Title */}
@@ -796,16 +841,26 @@ export function SmartLessonsView({
                       </span>
                     </div>
 
-                    {!hasContent && (
+                    {isLocked ? (
+                      <Badge className="bg-gradient-to-r from-amber-500 to-amber-600 text-white font-black text-[9px] px-2 py-0.5 rounded-md flex items-center gap-1 shadow-2xs">
+                        <Lock className="h-2.5 w-2.5" /> PRO NOTE
+                      </Badge>
+                    ) : !hasContent ? (
                       <span className="text-[9px] bg-amber-50 text-amber-700 font-bold px-2 py-0.5 rounded-md border border-amber-200 shrink-0">
                         Coming Soon
+                      </span>
+                    ) : (
+                      <span className="text-[9px] bg-emerald-50 text-emerald-700 font-bold px-2 py-0.5 rounded-md border border-emerald-200 shrink-0">
+                        Free Note
                       </span>
                     )}
                   </div>
 
                   {/* Chapter Title */}
                   <div>
-                    <h3 className="text-base font-black text-gray-900 group-hover:text-[#4F46E5] transition-colors leading-snug">
+                    <h3 className={`text-base font-black transition-colors leading-snug ${
+                      isLocked ? "text-gray-800 group-hover:text-amber-600" : "text-gray-900 group-hover:text-[#4F46E5]"
+                    }`}>
                       {chapter.chapterTitle}
                     </h3>
                     <div className="flex items-center gap-2 text-[11px] font-semibold text-gray-400 mt-1">
@@ -832,6 +887,10 @@ export function SmartLessonsView({
                             suppressHydrationWarning
                             onClick={(e) => {
                               e.stopPropagation();
+                              if (isLocked) {
+                                handleStartChapter(chapter, true);
+                                return;
+                              }
                               if (m.chapterSlug) {
                                 setActiveChapterSubject(m.subject || chapter.subject);
                                 setActiveChapterSlug(m.chapterSlug);
@@ -892,32 +951,50 @@ export function SmartLessonsView({
 
                 {/* Card Action Button */}
                 <div className="pt-2">
-                  <Button
-                    onClick={() => handleStartChapter(chapter)}
-                    className={`w-full h-10 font-bold text-xs rounded-xl shadow-2xs transition-all ${
-                      !hasContent
-                        ? "bg-amber-50 hover:bg-amber-100 text-amber-700 border border-amber-200"
-                        : "bg-[#4F46E5] hover:bg-indigo-700 text-white"
-                    }`}
-                  >
-                    {hasContent ? (
-                      completed ? (
-                        <>Review Lesson <Check className="ml-1.5 h-3.5 w-3.5" /></>
-                      ) : status === "In Progress" ? (
-                        <>Resume Smart Lesson <PlayCircle className="ml-1.5 h-3.5 w-3.5" /></>
+                  {isLocked ? (
+                    <Button
+                      onClick={() => handleStartChapter(chapter, true)}
+                      className="w-full h-10 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-black text-xs rounded-xl shadow-xs transition-all flex items-center justify-center gap-1.5 cursor-pointer"
+                    >
+                      <Lock className="h-3.5 w-3.5" />
+                      <span>Unlock Chapter with PRO 👑</span>
+                    </Button>
+                  ) : (
+                    <Button
+                      onClick={() => handleStartChapter(chapter, false)}
+                      className={`w-full h-10 font-bold text-xs rounded-xl shadow-2xs transition-all ${
+                        !hasContent
+                          ? "bg-amber-50 hover:bg-amber-100 text-amber-700 border border-amber-200"
+                          : "bg-[#4F46E5] hover:bg-indigo-700 text-white"
+                      }`}
+                    >
+                      {hasContent ? (
+                        completed ? (
+                          <>Review Lesson <Check className="ml-1.5 h-3.5 w-3.5" /></>
+                        ) : status === "In Progress" ? (
+                          <>Resume Smart Lesson <PlayCircle className="ml-1.5 h-3.5 w-3.5" /></>
+                        ) : (
+                          <>Start Smart Lesson <ArrowRight className="ml-1.5 h-3.5 w-3.5" /></>
+                        )
                       ) : (
-                        <>Start Smart Lesson <ArrowRight className="ml-1.5 h-3.5 w-3.5" /></>
-                      )
-                    ) : (
-                      <>Coming Soon — Content Being Prepared</>
-                    )}
-                  </Button>
+                        <>Coming Soon — Content Being Prepared</>
+                      )}
+                    </Button>
+                  )}
                 </div>
               </div>
             );
           })}
         </div>
       )}
+
+      {/* Global Upgrade Paywall Modal */}
+      <UpgradeModal
+        isOpen={upgradeModalOpen}
+        onClose={() => setUpgradeModalOpen(false)}
+        featureTitle={upgradeContext.title}
+        featureDescription={upgradeContext.desc}
+      />
     </div>
   );
 }

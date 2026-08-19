@@ -2,11 +2,14 @@
 
 import * as React from "react";
 import Link from "next/link";
-import { Search, Bell, ChevronDown, Menu, Cloud, CloudOff, LogIn, LogOut, User, Settings } from "lucide-react";
+import { Search, Bell, ChevronDown, Menu, Cloud, CloudOff, LogIn, LogOut, User, Settings, Crown } from "lucide-react";
 import { Logo } from "@/components/shared/Logo";
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 import { useRouter } from "next/navigation";
 import { authService } from "@/lib/supabase/auth.service";
+import { isPro as checkIsPro } from "@/lib/auth/authGuard";
+import { UpgradeModal } from "@/components/shared/UpgradeModal";
 
 interface HeaderProps {
   userName?: string;
@@ -33,7 +36,16 @@ export function Header({
 }: HeaderProps) {
   const router = useRouter();
   const [profileDropdownOpen, setProfileDropdownOpen] = React.useState(false);
+  const [isProUser, setIsProUser] = React.useState(false);
+  const [upgradeModalOpen, setUpgradeModalOpen] = React.useState(false);
   const nameToDisplay = userName || "Aspirant";
+
+  React.useEffect(() => {
+    setIsProUser(checkIsPro());
+    const handler = () => setIsProUser(checkIsPro());
+    window.addEventListener("nest_plan_updated", handler);
+    return () => window.removeEventListener("nest_plan_updated", handler);
+  }, []);
 
   const handleHeaderLogout = async () => {
     if (window.confirm("Are you sure you want to log out?")) {
@@ -161,6 +173,23 @@ export function Header({
             <span className="absolute top-2 right-2 h-2 w-2 rounded-full bg-[#4F46E5]" />
           </button>
 
+          {/* Plan Badge or Upgrade Button */}
+          {isProUser ? (
+            <div className="flex items-center gap-1 px-2.5 py-1 rounded-xl bg-amber-50 border border-amber-200 text-amber-900 text-xs font-black shadow-2xs">
+              <Crown className="h-3.5 w-3.5 text-amber-500 fill-amber-400" />
+              <span>PRO</span>
+            </div>
+          ) : (
+            <Button
+              size="sm"
+              onClick={() => setUpgradeModalOpen(true)}
+              className="h-8 bg-gradient-to-r from-amber-500 to-[#4F46E5] hover:from-amber-600 hover:to-indigo-700 text-white text-xs font-black rounded-xl shadow-2xs gap-1 cursor-pointer"
+            >
+              <Crown className="h-3.5 w-3.5 text-amber-200 fill-amber-200" />
+              <span>Upgrade</span>
+            </Button>
+          )}
+
           {/* Profile Pill & Dropdown */}
           <div className="relative">
             <button
@@ -172,9 +201,20 @@ export function Header({
                 {nameToDisplay.charAt(0)}
               </div>
               <div className="hidden xl:block text-left">
-                <span className="text-xs font-extrabold text-gray-900 block leading-tight">
-                  {nameToDisplay}
-                </span>
+                <div className="flex items-center gap-1.5">
+                  <span className="text-xs font-extrabold text-gray-900 block leading-tight">
+                    {nameToDisplay}
+                  </span>
+                  {isProUser ? (
+                    <Badge className="bg-amber-100 text-amber-800 border-amber-200 text-[9px] font-black px-1 py-0">
+                      PRO
+                    </Badge>
+                  ) : (
+                    <Badge variant="outline" className="text-gray-400 text-[9px] px-1 py-0">
+                      FREE
+                    </Badge>
+                  )}
+                </div>
                 <span className="text-[10px] text-gray-400 font-semibold block">
                   NEST 2027 Aspirant
                 </span>
@@ -209,6 +249,20 @@ export function Header({
                   <span>Account Settings</span>
                 </button>
 
+                {!isProUser && (
+                  <button
+                    suppressHydrationWarning
+                    onClick={() => {
+                      setProfileDropdownOpen(false);
+                      setUpgradeModalOpen(true);
+                    }}
+                    className="w-full px-3.5 py-2 text-xs font-black text-amber-600 hover:bg-amber-50 flex items-center gap-2 transition-colors cursor-pointer"
+                  >
+                    <Crown className="h-3.5 w-3.5" />
+                    <span>Upgrade to PRO</span>
+                  </button>
+                )}
+
                 <div className="my-1 border-t border-gray-100" />
 
                 <button
@@ -227,6 +281,12 @@ export function Header({
           </div>
         </div>
       </div>
+
+      {/* Global Upgrade Modal */}
+      <UpgradeModal
+        isOpen={upgradeModalOpen}
+        onClose={() => setUpgradeModalOpen(false)}
+      />
     </header>
   );
 }

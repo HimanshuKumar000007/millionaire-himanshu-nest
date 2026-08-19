@@ -18,6 +18,8 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { useAuth } from "@/lib/supabase/useAuth";
 import { authService } from "@/lib/supabase/auth.service";
+import { isPro as checkIsPro, setPlanLocally, getPlan } from "@/lib/auth/authGuard";
+import { UpgradeModal } from "@/components/shared/UpgradeModal";
 
 interface SettingsViewProps {
   onBackToDashboard: () => void;
@@ -31,11 +33,13 @@ export function SettingsView({ onBackToDashboard, onOpenAuthModal }: SettingsVie
   // User details state
   const [userName, setUserName] = useState<string>("Ankit Kumar");
   const [emailId, setEmailId] = useState<string>("ankit.kumar@example.com");
-  const [isPro, setIsPro] = useState<boolean>(true);
+  const [isPro, setIsPro] = useState<boolean>(false);
+  const [upgradeModalOpen, setUpgradeModalOpen] = useState<boolean>(false);
 
   // Load saved user info from localStorage or Supabase
   useEffect(() => {
     try {
+      setIsPro(checkIsPro());
       if (user?.email) {
         setEmailId(user.email);
         const nameFromMeta = user.user_metadata?.full_name;
@@ -46,11 +50,13 @@ export function SettingsView({ onBackToDashboard, onOpenAuthModal }: SettingsVie
         if (savedName) setUserName(savedName);
         if (savedEmail) setEmailId(savedEmail);
       }
-      const savedPro = localStorage.getItem("nest_user_is_pro");
-      if (savedPro !== null) setIsPro(savedPro === "true");
     } catch (e) {
       console.warn("Could not read user settings from storage:", e);
     }
+
+    const handler = () => setIsPro(checkIsPro());
+    window.addEventListener("nest_plan_updated", handler);
+    return () => window.removeEventListener("nest_plan_updated", handler);
   }, [user]);
 
   const handleLogout = async () => {
@@ -166,48 +172,55 @@ export function SettingsView({ onBackToDashboard, onOpenAuthModal }: SettingsVie
           <label className="text-xs font-bold text-gray-400 uppercase tracking-wider flex items-center gap-1.5">
             <Crown className="h-3.5 w-3.5 text-amber-500" /> Subscription Plan
           </label>
-          <div className="p-4 bg-gray-50 rounded-2xl border border-gray-200/80 flex items-center justify-between">
+          <div className="p-4 bg-gray-50 rounded-2xl border border-gray-200/80 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div className="flex items-center gap-3">
-              <div className={`h-9 w-9 rounded-xl flex items-center justify-center ${
-                isPro ? "bg-amber-100 text-amber-700" : "bg-gray-200 text-gray-600"
+              <div className={`h-10 w-10 rounded-xl flex items-center justify-center shrink-0 ${
+                isPro ? "bg-amber-100 text-amber-700 shadow-2xs" : "bg-gray-200 text-gray-600"
               }`}>
-                <Crown className="h-5 w-5" />
+                <Crown className="h-5 w-5 fill-current" />
               </div>
               <div>
                 <div className="flex items-center gap-2">
                   <span className="text-sm font-black text-gray-900">
-                    {isPro ? "SciPrep Pro" : "Free Plan"}
+                    {isPro ? "SciPrep PRO All-Access" : "Free Plan"}
                   </span>
                   {isPro ? (
-                    <Badge className="bg-emerald-100 text-emerald-800 border-emerald-200 text-[10px] font-black">
-                      <CheckCircle2 className="h-3 w-3 mr-1" /> Active
+                    <Badge className="bg-gradient-to-r from-amber-500 to-amber-600 text-white font-black text-[10px] px-2 py-0.5 shadow-2xs">
+                      <Crown className="h-3 w-3 mr-1 fill-amber-200" /> PRO ACTIVE
                     </Badge>
                   ) : (
-                    <Badge variant="outline" className="text-gray-500 text-[10px]">
-                      Not Pro
+                    <Badge variant="outline" className="text-gray-500 text-[10px] font-bold">
+                      1 Mock • 1 PYQ • 1 Note
                     </Badge>
                   )}
                 </div>
-                <p className="text-[11px] text-gray-500 font-medium">
+                <p className="text-[11px] text-gray-500 font-medium mt-0.5">
                   {isPro
-                    ? "Full access to all 2018–2025 official PYQs, CBT simulators & solutions"
-                    : "Basic access to sample questions"}
+                    ? "Full unrestricted access to all 10+ Mocks, 2018–2024 PYQs, 100+ Notes & AI Diagnostics."
+                    : "Basic access to 1 Mock, 1 PYQ paper, and 1 chapter note."}
                 </p>
               </div>
             </div>
 
-            <button
-              onClick={() => {
-                const nextState = !isPro;
-                setIsPro(nextState);
-                try {
-                  localStorage.setItem("nest_user_is_pro", String(nextState));
-                } catch (e) {}
-              }}
-              className="text-xs font-bold text-purple-600 hover:text-purple-700 bg-white border border-gray-200 hover:border-purple-200 px-3 py-1.5 rounded-xl shadow-2xs transition-all cursor-pointer"
-            >
-              {isPro ? "Plan: Pro" : "Upgrade to Pro"}
-            </button>
+            <div className="flex items-center gap-2">
+              {!isPro ? (
+                <button
+                  onClick={() => setUpgradeModalOpen(true)}
+                  className="w-full sm:w-auto text-xs font-black text-white bg-gradient-to-r from-amber-500 to-[#4F46E5] hover:from-amber-600 hover:to-indigo-700 px-4 py-2 rounded-xl shadow-xs transition-all cursor-pointer flex items-center justify-center gap-1.5"
+                >
+                  <Crown className="h-3.5 w-3.5 text-amber-200 fill-amber-200" />
+                  <span>Upgrade to PRO</span>
+                </button>
+              ) : (
+                <button
+                  onClick={() => setPlanLocally("FREE")}
+                  className="w-full sm:w-auto text-xs font-bold text-gray-500 hover:text-gray-700 bg-white border border-gray-200 px-3 py-2 rounded-xl transition-all cursor-pointer"
+                  title="Switch to Free Tier for testing"
+                >
+                  Switch to Free
+                </button>
+              )}
+            </div>
           </div>
         </div>
 
@@ -221,6 +234,12 @@ export function SettingsView({ onBackToDashboard, onOpenAuthModal }: SettingsVie
           </Button>
         </div>
       </div>
+
+      {/* Global Upgrade Modal */}
+      <UpgradeModal
+        isOpen={upgradeModalOpen}
+        onClose={() => setUpgradeModalOpen(false)}
+      />
     </div>
   );
 }
