@@ -524,6 +524,7 @@ export function PYQModuleView({
   // Student Attempt State Maps
   const [pyqAttempts, setPyqAttempts] = useState<Record<string, any>>({});
   const [mockAttempts, setMockAttempts] = useState<Record<string, any>>({});
+  const [submittedAttempt, setSubmittedAttempt] = useState<any>(null);
   const [bookmarks, setBookmarks] = useState<Set<string>>(new Set());
 
   // SciPrep PRO Gating State
@@ -648,6 +649,7 @@ export function PYQModuleView({
         setCurrentQIndex(0);
         setUserAnswers({});
         setIsSubmitted(false);
+        setSubmittedAttempt(null);
         setShowSubmitModal(false);
         setReviewFilter("ALL");
         setReviewSubjectFilter("ALL");
@@ -813,6 +815,8 @@ export function PYQModuleView({
 
     if (currentQIndex < activeMock.questions.length - 1) {
       navigateToQuestion(currentQIndex + 1);
+    } else {
+      setShowSubmitModal(true);
     }
   };
 
@@ -964,6 +968,7 @@ export function PYQModuleView({
 
       setMockAttempts(updatedAttempts);
       setPyqAttempts(updatedPyqs);
+      setSubmittedAttempt(attemptSummary);
       setIsSubmitted(true);
       setShowSubmitModal(false);
 
@@ -1103,7 +1108,7 @@ export function PYQModuleView({
   if (viewState === "CBT_EXAM" && activeMock) {
     const currentQ = activeMock.questions[currentQIndex];
     const currentAns = userAnswers[currentQ?.id];
-    const currentAttempt = mockAttempts[activeMock.id];
+    const currentAttempt = submittedAttempt || mockAttempts[activeMock.id] || Object.values(mockAttempts).find((m: any) => m.mockId === activeMock.id || m.id === activeMock.id || m.title === activeMock.title);
 
     // POST-EXAM SCORECARD & DETAILED REVIEW MODE
     if (isSubmitted && currentAttempt) {
@@ -1591,6 +1596,15 @@ export function PYQModuleView({
                     <span>Save & Next</span>
                     <ChevronRight className="h-4 w-4 ml-1" />
                   </Button>
+
+                  <Button
+                    size="sm"
+                    onClick={() => setShowSubmitModal(true)}
+                    className="h-9 px-3 sm:px-4 bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs rounded-xl shadow-xs"
+                  >
+                    <span>Submit</span>
+                    <Check className="ml-1 h-3.5 w-3.5" />
+                  </Button>
                 </div>
               </div>
             </div>
@@ -1742,6 +1756,132 @@ export function PYQModuleView({
                 >
                   Confirm Submission
                 </Button>
+              </div>
+            </div>
+          </div>
+        )}
+        {/* Mobile Slide-Up Question Palette Drawer */}
+        {isMobilePaletteOpen && (
+          <div className="fixed inset-0 z-60 bg-black/60 backdrop-blur-xs md:hidden flex flex-col justify-end animate-in fade-in duration-200">
+            <div className="bg-white rounded-t-3xl max-h-[85vh] flex flex-col overflow-hidden shadow-2xl animate-in slide-in-from-bottom duration-300">
+              {/* Drawer Header */}
+              <div className="p-4 border-b border-gray-100 flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <div className="h-8 w-8 rounded-xl bg-purple-50 text-purple-700 flex items-center justify-center font-bold">
+                    <LayoutGrid className="h-4 w-4" />
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-black text-gray-900">Question Palette</h3>
+                    <span className="text-[11px] text-gray-500 font-semibold">
+                      {activeSubject} Section ({subjectGroups[activeSubject]?.length || 0} Questions)
+                    </span>
+                  </div>
+                </div>
+                <button
+                  onClick={() => setIsMobilePaletteOpen(false)}
+                  className="h-8 w-8 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center text-gray-600"
+                >
+                  <X className="h-4 w-4" />
+                </button>
+              </div>
+
+              {/* Subject Filter Pills inside Mobile Drawer */}
+              <div className="px-4 py-2 border-b border-gray-100 flex items-center gap-1.5 overflow-x-auto scrollbar-none bg-gray-50">
+                {availableSubjects.map((subj) => {
+                  const isActive = activeSubject === subj;
+                  return (
+                    <button
+                      key={subj}
+                      onClick={() => handleSubjectTabClick(subj)}
+                      className={`px-3 py-1 rounded-xl text-xs font-black shrink-0 transition-all ${
+                        isActive
+                          ? "bg-gray-900 text-white"
+                          : "bg-white text-gray-600 border border-gray-200"
+                      }`}
+                    >
+                      {subj}
+                    </button>
+                  );
+                })}
+              </div>
+
+              {/* Drawer Body */}
+              <div className="p-4 overflow-y-auto space-y-4">
+                {/* Legend Box */}
+                <div className="p-3 rounded-2xl bg-gray-50 border border-gray-200 grid grid-cols-2 gap-2 text-[11px] font-bold">
+                  <div className="flex items-center gap-1.5">
+                    <span className="h-4.5 w-4.5 rounded bg-emerald-500 text-white flex items-center justify-center text-[9px] font-black shrink-0">
+                      {paletteStats.answered}
+                    </span>
+                    <span className="text-gray-700">Answered</span>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <span className="h-4.5 w-4.5 rounded bg-red-500 text-white flex items-center justify-center text-[9px] font-black shrink-0">
+                      {paletteStats.notAnswered}
+                    </span>
+                    <span className="text-gray-700">Not Answered</span>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <span className="h-4.5 w-4.5 rounded bg-purple-600 text-white flex items-center justify-center text-[9px] font-black shrink-0">
+                      {paletteStats.marked}
+                    </span>
+                    <span className="text-gray-700">Marked Review</span>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <span className="h-4.5 w-4.5 rounded bg-purple-600 text-white flex items-center justify-center text-[9px] font-black shrink-0">
+                      {paletteStats.answeredAndMarked}
+                    </span>
+                    <span className="text-gray-700">Ans & Marked</span>
+                  </div>
+                </div>
+
+                {/* Mobile Palette Grid */}
+                <div className="grid grid-cols-5 gap-2">
+                  {activeMock.questions.map((q, idx) => {
+                    if (q.subject !== activeSubject) return null;
+                    const isCurrent = idx === currentQIndex;
+                    const status = questionStatuses[q.id] || "not_visited";
+
+                    let btnStyle = "bg-white border-gray-300 text-gray-600 hover:bg-gray-100";
+                    if (status === "answered") {
+                      btnStyle = "bg-emerald-500 text-white border-emerald-600 shadow-2xs";
+                    } else if (status === "not_answered") {
+                      btnStyle = "bg-red-500 text-white border-red-600 shadow-2xs";
+                    } else if (status === "marked_for_review") {
+                      btnStyle = "bg-purple-600 text-white border-purple-700 shadow-2xs";
+                    } else if (status === "answered_and_marked") {
+                      btnStyle = "bg-purple-600 text-white border-purple-700 shadow-2xs ring-2 ring-emerald-400";
+                    }
+
+                    return (
+                      <button
+                        key={q.id}
+                        onClick={() => {
+                          navigateToQuestion(idx);
+                          setIsMobilePaletteOpen(false);
+                        }}
+                        className={`h-9 rounded-xl text-xs font-black transition-all relative flex items-center justify-center border ${btnStyle} ${
+                          isCurrent ? "ring-3 ring-purple-500 scale-105 z-10" : ""
+                        }`}
+                      >
+                        {idx + 1}
+                      </button>
+                    );
+                  })}
+                </div>
+
+                {/* Direct Mobile Submit Button in Drawer */}
+                <div className="pt-2 border-t border-gray-100">
+                  <Button
+                    onClick={() => {
+                      setIsMobilePaletteOpen(false);
+                      setShowSubmitModal(true);
+                    }}
+                    className="w-full h-10 bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs rounded-xl shadow-xs"
+                  >
+                    Submit Final Test <Check className="ml-1.5 h-4 w-4" />
+                  </Button>
+                </div>
               </div>
             </div>
           </div>
