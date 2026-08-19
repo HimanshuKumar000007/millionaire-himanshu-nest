@@ -14,6 +14,7 @@ export function useProgressOrchestrator() {
   );
 
   const refresh = useCallback(() => {
+    progressOrchestratorService.invalidateCache();
     setData(progressOrchestratorService.getLiveDashboardSummary());
   }, []);
 

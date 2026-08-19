@@ -47,20 +47,26 @@ export function PracticeView({ onBackToDashboard }: PracticeViewProps) {
   // Bookmarks set of question IDs
   const [bookmarks, setBookmarks] = useState<Set<string>>(new Set());
 
-  // Load persistent state from localStorage
+  // Load persistent state from localStorage and listen to cloud sync
   useEffect(() => {
-    try {
-      const savedEvaluations = localStorage.getItem("nest_smartprep_practice_evaluations");
-      if (savedEvaluations) setEvaluations(JSON.parse(savedEvaluations));
+    const loadState = () => {
+      try {
+        const savedEvaluations = localStorage.getItem("nest_smartprep_practice_evaluations");
+        if (savedEvaluations) setEvaluations(JSON.parse(savedEvaluations));
 
-      const savedAnswers = localStorage.getItem("nest_smartprep_practice_answers");
-      if (savedAnswers) setUserAnswers(JSON.parse(savedAnswers));
+        const savedAnswers = localStorage.getItem("nest_smartprep_practice_answers");
+        if (savedAnswers) setUserAnswers(JSON.parse(savedAnswers));
 
-      const savedBookmarks = localStorage.getItem("nest_smartprep_practice_bookmarks");
-      if (savedBookmarks) setBookmarks(new Set(JSON.parse(savedBookmarks)));
-    } catch (e) {
-      console.warn("[PracticeView] Error loading local state:", e);
-    }
+        const savedBookmarks = localStorage.getItem("nest_smartprep_practice_bookmarks");
+        if (savedBookmarks) setBookmarks(new Set(JSON.parse(savedBookmarks)));
+      } catch (e) {
+        console.warn("[PracticeView] Error loading local state:", e);
+      }
+    };
+
+    loadState();
+    window.addEventListener("nest_smartprep_progress_updated", loadState);
+    return () => window.removeEventListener("nest_smartprep_progress_updated", loadState);
   }, []);
 
   const fetchQuestions = useCallback(async () => {

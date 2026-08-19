@@ -543,20 +543,26 @@ export function PYQModuleView({
     return () => window.removeEventListener("nest_plan_updated", handlePlanUpdate);
   }, []);
 
-  // Load saved attempts on mount
+  // Load saved attempts on mount and when cloud sync restores
   useEffect(() => {
-    try {
-      const savedPyqAttempts = localStorage.getItem("nest_smartprep_pyq_attempts");
-      if (savedPyqAttempts) setPyqAttempts(JSON.parse(savedPyqAttempts));
+    const loadAttempts = () => {
+      try {
+        const savedPyqAttempts = localStorage.getItem("nest_smartprep_pyq_attempts");
+        if (savedPyqAttempts) setPyqAttempts(JSON.parse(savedPyqAttempts));
 
-      const savedMockAttempts = localStorage.getItem("nest_smartprep_mock_attempts");
-      if (savedMockAttempts) setMockAttempts(JSON.parse(savedMockAttempts));
+        const savedMockAttempts = localStorage.getItem("nest_smartprep_mock_attempts");
+        if (savedMockAttempts) setMockAttempts(JSON.parse(savedMockAttempts));
 
-      const savedBookmarks = localStorage.getItem("nest_smartprep_pyq_bookmarks");
-      if (savedBookmarks) setBookmarks(new Set(JSON.parse(savedBookmarks)));
-    } catch (e) {
-      console.warn("Failed loading PYQ data:", e);
-    }
+        const savedBookmarks = localStorage.getItem("nest_smartprep_pyq_bookmarks");
+        if (savedBookmarks) setBookmarks(new Set(JSON.parse(savedBookmarks)));
+      } catch (e) {
+        console.warn("Failed loading PYQ data:", e);
+      }
+    };
+
+    loadAttempts();
+    window.addEventListener("nest_smartprep_progress_updated", loadAttempts);
+    return () => window.removeEventListener("nest_smartprep_progress_updated", loadAttempts);
   }, []);
 
   // Filtered Topics

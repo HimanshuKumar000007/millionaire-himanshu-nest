@@ -119,12 +119,18 @@ export function MockTestsView({
   }, []);
 
   useEffect(() => {
-    try {
-      const savedAttempts = localStorage.getItem("nest_smartprep_mock_attempts");
-      if (savedAttempts) setAttemptsMap(JSON.parse(savedAttempts));
-    } catch (e) {
-      console.warn("Failed loading mock attempts:", e);
-    }
+    const loadAttempts = () => {
+      try {
+        const savedAttempts = localStorage.getItem("nest_smartprep_mock_attempts");
+        if (savedAttempts) setAttemptsMap(JSON.parse(savedAttempts));
+      } catch (e) {
+        console.warn("Failed loading mock attempts:", e);
+      }
+    };
+
+    loadAttempts();
+    window.addEventListener("nest_smartprep_progress_updated", loadAttempts);
+    return () => window.removeEventListener("nest_smartprep_progress_updated", loadAttempts);
   }, []);
 
   const fetchMocks = useCallback(async () => {
