@@ -354,30 +354,146 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   );
 }
 
-// Simple helper to convert markdown syntax to styled HTML
-function formatMarkdownToHtml(markdown: string): string {
-  let html = markdown
-    // Headings
-    .replace(/^## (.*$)/gim, '<h2 class="text-2xl sm:text-3xl font-black text-gray-900 mt-8 mb-4 tracking-tight border-b border-gray-100 pb-2">$1</h2>')
-    .replace(/^### (.*$)/gim, '<h3 class="text-lg sm:text-xl font-black text-gray-900 mt-6 mb-3 tracking-tight">$1</h3>')
-    // Bold
-    .replace(/\*\*(.*?)\*\*/g, '<strong class="font-black text-gray-900">$1</strong>')
-    // Italic
-    .replace(/\*(.*?)\*/g, '<em class="italic text-gray-700">$1</em>')
-    // Blockquote
-    .replace(/^> \[!IMPORTANT\]\n> (.*$)/gim, '<div class="p-4 rounded-2xl bg-amber-50 border-l-4 border-amber-500 text-amber-900 text-xs sm:text-sm font-medium my-4">$1</div>')
-    .replace(/^> (.*$)/gim, '<blockquote class="p-4 rounded-2xl bg-indigo-50/70 border-l-4 border-indigo-600 text-indigo-900 text-xs sm:text-sm italic my-4">$1</blockquote>')
-    // Unordered lists
-    .replace(/^\- (.*$)/gim, '<li class="text-gray-700 ml-4 list-disc text-sm sm:text-base mb-1.5">$1</li>')
-    // Ordered lists
-    .replace(/^\d+\. (.*$)/gim, '<li class="text-gray-700 ml-4 list-decimal text-sm sm:text-base mb-1.5">$1</li>')
-    // Horizontal rule
-    .replace(/^---$/gim, '<hr class="my-8 border-gray-200" />');
+// Helper to format LaTeX math formulas to clean HTML
+function formatMathSymbols(str: string): string {
+  return str
+    .replace(/\\Delta/g, "Δ")
+    .replace(/\\text\{([^}]+)\}/g, "$1")
+    .replace(/\\ln/g, "ln")
+    .replace(/\\times/g, "×")
+    .replace(/\\ge/g, "≥")
+    .replace(/\\le/g, "≤")
+    .replace(/\\circ/g, "°")
+    .replace(/\\pm/g, "±")
+    .replace(/\^\\circ/g, "°")
+    .replace(/\_\{([^}]+)\}/g, "<sub>$1</sub>")
+    .replace(/\_([a-zA-Z0-9])/g, "<sub>$1</sub>");
+}
 
-  // Convert markdown tables
-  html = html.replace(/\|(.+)\|/g, (match) => {
-    return match;
+// Complete Markdown & Table parser for Blog Articles
+function formatMarkdownToHtml(markdown: string): string {
+  // 1. Math Display Blocks ($$...$$)
+  let out = markdown.replace(/\$\$([\s\S]*?)\$\$/g, (_, math) => {
+    return `<div class="my-5 py-3.5 px-5 rounded-2xl bg-indigo-50/80 border border-indigo-200/80 text-center font-mono text-sm font-bold text-indigo-950 shadow-2xs">${formatMathSymbols(math.trim())}</div>`;
   });
 
-  return html;
+  // 2. Inline Math ($...$)
+  out = out.replace(/\$([^$\n]+)\$/g, (_, math) => {
+    return `<span class="font-mono text-xs font-bold text-indigo-900 bg-indigo-50/90 px-1.5 py-0.5 rounded border border-indigo-200/60">${formatMathSymbols(math.trim())}</span>`;
+  });
+
+  // 3. Process Tables
+  const lines = out.split("\n");
+  const resultLines: string[] = [];
+  let inTable = false;
+  let tableRows: string[] = [];
+
+  const renderTable = (rows: string[]): string => {
+    if (rows.length < 2) return rows.join("\n");
+    const headerCells = rows[0]
+      .split("|")
+      .map((c) => c.trim())
+      .filter((c) => c.length > 0);
+    const bodyRows = rows.slice(2);
+
+    const ths = headerCells
+      .map(
+        (h) =>
+          `<th class="py-3.5 px-4 font-black text-gray-900 border-b border-gray-200 text-xs uppercase tracking-wider bg-gray-50/90">${h}</th>`
+      )
+      .join("");
+
+    const trs = bodyRows
+      .map((row) => {
+        const cells = row
+          .split("|")
+          .map((c) => c.trim())
+          .filter((c) => c.length > 0);
+        const tds = cells
+          .map((cell, idx) => {
+            const isFirst = idx === 0;
+            return `<td class="py-3.5 px-4 text-xs sm:text-sm ${
+              isFirst ? "font-black text-gray-900" : "text-gray-600"
+            }">${cell}</td>`;
+          })
+          .join("");
+        return `<tr class="border-b border-gray-100 hover:bg-indigo-50/20 transition-colors">${tds}</tr>`;
+      })
+      .join("");
+
+    return `<div class="overflow-x-auto my-8 rounded-2xl border border-gray-200 shadow-2xs"><table class="w-full text-left border-collapse bg-white"><thead class="border-b border-gray-200"><tr>${ths}</tr></thead><tbody class="divide-y divide-gray-100">${trs}</tbody></table></div>`;
+  };
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].trim();
+    if (line.startsWith("|") && line.endsWith("|")) {
+      inTable = true;
+      tableRows.push(line);
+    } else {
+      if (inTable) {
+        resultLines.push(renderTable(tableRows));
+        inTable = false;
+        tableRows = [];
+      }
+      resultLines.push(lines[i]);
+    }
+  }
+  if (inTable) {
+    resultLines.push(renderTable(tableRows));
+  }
+
+  out = resultLines.join("\n");
+
+  // 4. Alerts & Blockquotes
+  out = out.replace(
+    /^>\s*\[!IMPORTANT\]\s*\n^>\s*(.*$)/gim,
+    '<div class="my-6 p-5 rounded-2xl bg-amber-50/90 border-l-4 border-amber-500 text-amber-950 shadow-2xs space-y-1"><div class="flex items-center gap-1.5 font-black text-xs uppercase tracking-wider text-amber-800">⚠️ Pro Tip</div><div class="text-xs sm:text-sm leading-relaxed">$1</div></div>'
+  );
+  out = out.replace(
+    /^>\s*(.*$)/gim,
+    '<blockquote class="my-5 p-4 rounded-2xl bg-indigo-50/60 border-l-4 border-indigo-600 text-indigo-950 italic text-xs sm:text-sm leading-relaxed">$1</blockquote>'
+  );
+
+  // 5. Headings
+  out = out.replace(
+    /^##\s+(.*$)/gim,
+    '<h2 class="text-2xl sm:text-3xl font-black text-gray-900 mt-10 mb-4 tracking-tight border-b border-gray-100 pb-2.5">$1</h2>'
+  );
+  out = out.replace(
+    /^###\s+(.*$)/gim,
+    '<h3 class="text-lg sm:text-xl font-black text-gray-900 mt-8 mb-3 tracking-tight text-indigo-950">$1</h3>'
+  );
+
+  // 6. Bold & Italic
+  out = out.replace(/\*\*(.*?)\*\*/g, '<strong class="font-black text-gray-900">$1</strong>');
+  out = out.replace(/\*(.*?)\*/g, '<em class="italic text-gray-700">$1</em>');
+
+  // 7. Lists
+  out = out.replace(/^\-\s+(.*$)/gim, '<li class="text-gray-700 ml-4 list-disc text-sm sm:text-base mb-1.5">$1</li>');
+  out = out.replace(/^(\d+)\.\s+(.*$)/gim, '<li class="text-gray-700 ml-4 list-decimal text-sm sm:text-base mb-1.5">$2</li>');
+
+  // 8. Horizontal rules
+  out = out.replace(/^---$/gim, '<hr class="my-8 border-gray-200" />');
+
+  // 9. Paragraphs
+  const paragraphs = out.split(/\n\s*\n/);
+  out = paragraphs
+    .map((p) => {
+      const trimmed = p.trim();
+      if (!trimmed) return "";
+      if (
+        trimmed.startsWith("<h") ||
+        trimmed.startsWith("<div") ||
+        trimmed.startsWith("<table") ||
+        trimmed.startsWith("<blockquote") ||
+        trimmed.startsWith("<hr") ||
+        trimmed.startsWith("<li")
+      ) {
+        return trimmed;
+      }
+      return `<p class="text-sm sm:text-base text-gray-700 leading-relaxed my-3.5">${trimmed}</p>`;
+    })
+    .join("\n");
+
+  return out;
 }
