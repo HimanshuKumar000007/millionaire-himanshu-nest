@@ -282,11 +282,17 @@ export function SmartLessonsView({
     filteredChapters[0] ||
     syllabusChapters[0];
 
-  const handleStartChapter = (chapter: FlatSyllabusChapter, isLocked: boolean = false) => {
+  const isChapterFree = (chapter: FlatSyllabusChapter) => {
+    return Number(chapter.unitNumber) === 1 && Number(chapter.chapterNumber) === 1 && chapter.classLevel === "Class XI";
+  };
+
+  const handleStartChapter = (chapter: FlatSyllabusChapter, forceLock?: boolean) => {
+    const isLocked = forceLock ?? (!isProUser && !isChapterFree(chapter));
+
     if (isLocked) {
       setUpgradeContext({
-        title: `Unlock Chapter: ${chapter.chapterTitle}`,
-        desc: `Free tier includes 1 Free Smart Lesson per subject. Upgrade to SciPrep PRO to unlock "${chapter.chapterTitle}" (${chapter.subject}) and all 100+ chapter smart notes, high-yield interactive diagrams, and concept quizzes.`
+        title: `Unlock Chapter ${chapter.chapterNumber}: ${chapter.chapterTitle}`,
+        desc: `Only Unit 1 Chapter 1 is available on the Free plan. Upgrade to SciPrep PRO to unlock "${chapter.chapterTitle}" (${chapter.subject} • ${chapter.classLevel}) and all 100+ chapter smart notes, diagrams, and quizzes.`
       });
       setUpgradeModalOpen(true);
       return;
@@ -679,11 +685,17 @@ export function SmartLessonsView({
                       {unit.chapters.map((chapter) => {
                         const matchingModules = findAllMatchingLessons(chapter);
                         const { status, percent, completed, hasContent } = getProgressStatus(chapter);
+                        const isFree = isChapterFree(chapter);
+                        const isLocked = !isProUser && !isFree;
 
                         return (
                           <div
                             key={chapter.id}
-                            className="bg-white rounded-2xl p-5 border border-gray-100 shadow-2xs hover:shadow-md transition-all flex flex-col justify-between space-y-4 group"
+                            className={`bg-white rounded-2xl p-5 border shadow-2xs hover:shadow-md transition-all flex flex-col justify-between space-y-4 group ${
+                              isLocked
+                                ? "border-amber-200/80 bg-gradient-to-b from-white to-amber-50/20"
+                                : "border-gray-100"
+                            }`}
                           >
                             <div className="space-y-3">
                               {/* Chapter Header */}
@@ -692,7 +704,15 @@ export function SmartLessonsView({
                                   Chapter {chapter.chapterNumber}
                                 </span>
 
-                                {!hasContent ? (
+                                {isLocked ? (
+                                  <Badge className="bg-gradient-to-r from-amber-500 to-amber-600 text-white font-black text-[9px] px-2 py-0.5 rounded-md flex items-center gap-1 shadow-2xs">
+                                    <Lock className="h-2.5 w-2.5" /> PRO LESSON
+                                  </Badge>
+                                ) : isFree ? (
+                                  <Badge className="bg-emerald-50 text-emerald-700 border border-emerald-200 font-extrabold text-[9px] px-2 py-0.5 rounded-md">
+                                    FREE SAMPLE
+                                  </Badge>
+                                ) : !hasContent ? (
                                   <span className="text-[9px] bg-amber-50 text-amber-700 font-bold px-2 py-0.5 rounded-md border border-amber-200">
                                     Coming Soon
                                   </span>
@@ -767,7 +787,7 @@ export function SmartLessonsView({
 
                             {/* Button */}
                             <div className="pt-2">
-                              {(!isProUser && Number(chapter.chapterNumber) > 1 && Number(chapter.unitNumber) > 1) ? (
+                              {isLocked ? (
                                 <Button
                                   onClick={() => handleStartChapter(chapter, true)}
                                   className="w-full h-9 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-black text-xs rounded-xl shadow-xs transition-all flex items-center justify-center gap-1.5 cursor-pointer"
@@ -781,7 +801,7 @@ export function SmartLessonsView({
                                   className={`w-full h-9 font-bold text-xs rounded-xl shadow-2xs transition-all ${
                                     !hasContent
                                       ? "bg-amber-50 hover:bg-amber-100 text-amber-700 border border-amber-200"
-                                      : "bg-[#4F46E5] hover:bg-indigo-700 text-white"
+                                      : "bg-[#4F46E5] hover:bg-indigo-700 text-white cursor-pointer"
                                   }`}
                                 >
                                   {hasContent ? (
@@ -814,14 +834,15 @@ export function SmartLessonsView({
           {filteredChapters.map((chapter) => {
             const matchingModules = findAllMatchingLessons(chapter);
             const { status, percent, completed, hasContent } = getProgressStatus(chapter);
-            const isLocked = !isProUser && Number(chapter.chapterNumber) > 1 && Number(chapter.unitNumber) > 1;
+            const isFree = isChapterFree(chapter);
+            const isLocked = !isProUser && !isFree;
 
             return (
               <div
                 key={chapter.id}
                 className={`bg-white rounded-3xl p-6 border shadow-2xs transition-all duration-200 flex flex-col justify-between space-y-5 group ${
                   isLocked
-                    ? "border-amber-200/80 bg-linear-to-b from-white to-amber-50/20 hover:border-amber-300"
+                    ? "border-amber-200/80 bg-gradient-to-b from-white to-amber-50/20 hover:border-amber-300"
                     : "border-gray-100 hover:shadow-md"
                 }`}
               >
@@ -843,7 +864,11 @@ export function SmartLessonsView({
 
                     {isLocked ? (
                       <Badge className="bg-gradient-to-r from-amber-500 to-amber-600 text-white font-black text-[9px] px-2 py-0.5 rounded-md flex items-center gap-1 shadow-2xs">
-                        <Lock className="h-2.5 w-2.5" /> PRO NOTE
+                        <Lock className="h-2.5 w-2.5" /> PRO LESSON
+                      </Badge>
+                    ) : isFree ? (
+                      <Badge className="bg-emerald-50 text-emerald-700 border border-emerald-200 font-extrabold text-[9px] px-2 py-0.5 rounded-md">
+                        FREE SAMPLE
                       </Badge>
                     ) : !hasContent ? (
                       <span className="text-[9px] bg-amber-50 text-amber-700 font-bold px-2 py-0.5 rounded-md border border-amber-200 shrink-0">
