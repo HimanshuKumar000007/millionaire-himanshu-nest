@@ -20,6 +20,29 @@ import { getToken } from "@/lib/auth/authGuard";
 
 export default function HomePage() {
   const router = useRouter();
+  const [isCheckingAuth, setIsCheckingAuth] = React.useState(true);
+
+  // Auto-redirect to dashboard if user is already logged in (like IISER SmartPrep)
+  React.useEffect(() => {
+    const checkAndRedirect = () => {
+      const token = getToken();
+      if (token) {
+        window.location.replace("/dashboard");
+        return;
+      }
+      setIsCheckingAuth(false);
+    };
+
+    checkAndRedirect();
+
+    // Listen for Back/Forward cache navigation
+    const handlePageShow = () => {
+      checkAndRedirect();
+    };
+
+    window.addEventListener("pageshow", handlePageShow);
+    return () => window.removeEventListener("pageshow", handlePageShow);
+  }, []);
 
   const handleOpenAssessment = () => {
     const token = getToken();
@@ -38,6 +61,17 @@ export default function HomePage() {
       router.push("/login");
     }
   };
+
+  if (isCheckingAuth) {
+    return (
+      <div className="min-h-screen bg-[#F8FAFC] flex items-center justify-center">
+        <div className="flex flex-col items-center gap-3">
+          <div className="h-8 w-8 rounded-full border-2 border-[#4F46E5] border-t-transparent animate-spin" />
+          <p className="text-xs text-gray-400 font-medium">Loading SciPrep…</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen flex flex-col bg-[#F7F8FC] text-[#111827]">

@@ -47,12 +47,20 @@ function LoginFormContent() {
 
   // Auto-redirect if already logged in (like IISER SmartPrep)
   useEffect(() => {
-    const token = getToken();
-    if (token) {
-      const redirect = searchParams?.get("redirect");
-      const target = redirect ? decodeURIComponent(redirect) : "/dashboard";
-      window.location.replace(target);
-    }
+    const checkAndRedirect = () => {
+      const token = getToken();
+      if (token) {
+        const redirect = searchParams?.get("redirect");
+        const target = redirect ? decodeURIComponent(redirect) : "/dashboard";
+        window.location.replace(target);
+      }
+    };
+
+    checkAndRedirect();
+
+    const handlePageShow = () => checkAndRedirect();
+    window.addEventListener("pageshow", handlePageShow);
+    return () => window.removeEventListener("pageshow", handlePageShow);
   }, [searchParams]);
 
   // Password Strength Score (0 to 4)
