@@ -665,55 +665,6 @@ export class ProgressOrchestratorService {
       });
     }
 
-    // If student has no attempts or fewer than 3 weak areas, fill with top high-yield NEST topics
-    if (weakAreas.length < 3) {
-      const benchmarkWeakAreas: WeakArea[] = [
-        {
-          id: "wa-bench-1",
-          subject: "Biology",
-          topic: "The Living World & Taxonomy",
-          accuracy: 0,
-          priority: "High Priority",
-          recommendedAction: "Review Characteristics of Life & Taxonomy",
-          actionType: "lesson",
-        },
-        {
-          id: "wa-bench-2",
-          subject: "Chemistry",
-          topic: "Some Basic Concepts of Chemistry",
-          accuracy: 0,
-          priority: "High Priority",
-          recommendedAction: "Practice Mole Concept & Stoichiometry PYQs",
-          actionType: "pyq",
-        },
-        {
-          id: "wa-bench-3",
-          subject: "Physics",
-          topic: "Units and Measurements",
-          accuracy: 0,
-          priority: "Needs Attention",
-          recommendedAction: "Review Dimensional Analysis Blueprint",
-          actionType: "lesson",
-        },
-        {
-          id: "wa-bench-4",
-          subject: "Mathematics",
-          topic: "Sets, Relations & Functions",
-          accuracy: 0,
-          priority: "Needs Attention",
-          recommendedAction: "Practice Functions & Domain Mastery",
-          actionType: "pyq",
-        },
-      ];
-
-      for (const bench of benchmarkWeakAreas) {
-        if (weakAreas.length >= 3) break;
-        if (!weakAreas.some((w) => w.topic.toLowerCase() === bench.topic.toLowerCase())) {
-          weakAreas.push(bench);
-        }
-      }
-    }
-
     // -- 13. PERFORMANCE TREND ------------------------------------------------
     const performanceTrend: PerformancePoint[] = mockHistory.length > 0
       ? mockHistory.map((m, i) => ({

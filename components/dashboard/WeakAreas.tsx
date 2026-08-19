@@ -27,8 +27,12 @@ export function WeakAreas({ weakAreas, onActionClick }: WeakAreasProps) {
 
       <div className="space-y-3">
         {weakAreas.length === 0 ? (
-          <div className="p-5 text-center text-xs text-gray-500 bg-gray-50/60 border border-gray-100 rounded-xl font-medium">
-            No critical weak areas detected. Complete more PYQs to update insights.
+          <div className="p-6 text-center text-xs text-gray-500 bg-gray-50/60 border border-gray-100 rounded-2xl font-medium space-y-2">
+            <div className="w-8 h-8 rounded-full bg-indigo-50 text-[#4F46E5] flex items-center justify-center mx-auto">
+              <Target className="h-4 w-4" />
+            </div>
+            <p className="font-bold text-gray-700">No weak areas identified yet 🎯</p>
+            <p className="text-[11px] text-gray-400">Complete a mock test or PYQ paper to discover your personalized diagnostic gaps.</p>
           </div>
         ) : (
           weakAreas.map((area) => (
