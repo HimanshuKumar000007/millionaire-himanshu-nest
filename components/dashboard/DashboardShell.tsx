@@ -61,7 +61,8 @@ export function DashboardShell() {
 
   // Sync real cloud data with Supabase on mount and auth change
   React.useEffect(() => {
-    if (isLoggedIn) {
+    const email = userEmail || (typeof window !== "undefined" ? localStorage.getItem("nest_user_email") : null);
+    if (isLoggedIn || email) {
       pullAllAndRestore()
         .then(() => {
           pushAllLocalData().catch(() => {});
@@ -70,7 +71,7 @@ export function DashboardShell() {
           console.warn("[DashboardShell] Cloud sync notice:", err);
         });
     }
-  }, [isLoggedIn]);
+  }, [isLoggedIn, userEmail]);
 
   const handleStartAssessment = () => {
     // Navigate directly to the assessment engine page

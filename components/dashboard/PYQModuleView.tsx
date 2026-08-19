@@ -50,7 +50,7 @@ import { ContentPYQItem, ContentQuestion, ResolvedContentMock } from "@/lib/type
 import { SubjectType } from "@/lib/types/common";
 import { questionEvaluationService } from "@/lib/services/questionEvaluation.service";
 import { broadcastProgressUpdate } from "@/lib/services/progressOrchestrator.service";
-import { pushMockAttempt, pushPYQAttempt } from "@/lib/supabase/sync.service";
+import { pushMockAttempt, pushPYQAttempt, pushAllLocalData } from "@/lib/supabase/sync.service";
 import { CustomMarkdownRenderer } from "@/components/dashboard/CustomMarkdownRenderer";
 
 interface PYQModuleViewProps {
@@ -949,6 +949,7 @@ export function PYQModuleView({
         localStorage.setItem("nest_smartprep_pyq_attempts", JSON.stringify(updatedPyqs));
         broadcastProgressUpdate();
         pushMockAttempt(activeMock.id).catch(() => {});
+        pushAllLocalData().catch(() => {});
       } catch (e) {
         console.warn("Failed persisting mock attempt:", e);
       }

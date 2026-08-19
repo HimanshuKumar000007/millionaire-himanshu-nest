@@ -49,7 +49,7 @@ import {
 import { SubjectType } from "@/lib/types/common";
 import { questionEvaluationService } from "@/lib/services/questionEvaluation.service";
 import { broadcastProgressUpdate } from "@/lib/services/progressOrchestrator.service";
-import { pushMockAttempt } from "@/lib/supabase/sync.service";
+import { pushMockAttempt, pushAllLocalData } from "@/lib/supabase/sync.service";
 import { CustomMarkdownRenderer } from "@/components/dashboard/CustomMarkdownRenderer";
 
 interface MockTestsViewProps {
@@ -452,6 +452,7 @@ export function MockTestsView({
         localStorage.setItem("nest_smartprep_mock_attempts", JSON.stringify(nextAttemptsMap));
         broadcastProgressUpdate();
         pushMockAttempt(activeMock.id).catch(() => {});
+        pushAllLocalData().catch(() => {});
       } catch (e) {
         console.warn("Failed saving mock attempt:", e);
       }
