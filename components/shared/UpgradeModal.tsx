@@ -1,6 +1,7 @@
 "use client";
 
 import * as React from "react";
+import { createPortal } from "react-dom";
 import { motion, AnimatePresence } from "motion/react";
 import {
   Crown,
@@ -13,7 +14,6 @@ import {
   BookOpen,
   ArrowRight,
   ShieldCheck,
-  Lock,
   CreditCard,
   Loader2,
   AlertCircle,
@@ -56,10 +56,15 @@ export function UpgradeModal({
   featureTitle = "Unlock Full SciPrep PRO",
   featureDescription = "Upgrade to access all full-length CBT mocks, complete 2018–2024 PYQ archives, and 100+ chapter smart lessons.",
 }: UpgradeModalProps) {
+  const [mounted, setMounted] = React.useState(false);
   const [selectedPlanId, setSelectedPlanId] = React.useState<"monthly" | "six_month" | "annual">("six_month");
   const [isProcessing, setIsProcessing] = React.useState(false);
   const [errorMessage, setErrorMessage] = React.useState<string | null>(null);
   const [paymentSuccess, setPaymentSuccess] = React.useState(false);
+
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // Load Razorpay on modal open
   React.useEffect(() => {
@@ -67,10 +72,17 @@ export function UpgradeModal({
       loadRazorpayScript();
       setPaymentSuccess(false);
       setErrorMessage(null);
+      // Lock body scroll when modal is open
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
     }
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [isOpen]);
 
-  if (!isOpen) return null;
+  if (!isOpen || !mounted) return null;
 
   const currentPlan: SubscriptionPlan = SUBSCRIPTION_PLANS[selectedPlanId];
 
@@ -210,28 +222,28 @@ export function UpgradeModal({
     },
   ];
 
-  return (
+  const modalContent = (
     <AnimatePresence>
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 overflow-y-auto">
-        {/* Backdrop */}
+      <div className="fixed inset-0 z-[999999] flex items-center justify-center p-3 sm:p-6 overflow-y-auto isolate bg-slate-950/80 backdrop-blur-md">
+        {/* Backdrop overlay */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           onClick={onClose}
-          className="fixed inset-0 bg-slate-950/75 backdrop-blur-md"
+          className="fixed inset-0 -z-10"
         />
 
-        {/* Modal Container */}
+        {/* Modal Dialog Card */}
         <motion.div
-          initial={{ opacity: 0, scale: 0.95, y: 20 }}
+          initial={{ opacity: 0, scale: 0.95, y: 15 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
-          exit={{ opacity: 0, scale: 0.95, y: 20 }}
+          exit={{ opacity: 0, scale: 0.95, y: 15 }}
           transition={{ duration: 0.25, ease: "easeOut" }}
-          className="relative w-full max-w-2xl bg-white rounded-3xl shadow-2xl border border-gray-100 overflow-hidden z-10 my-auto"
+          className="relative w-full max-w-2xl bg-white rounded-3xl shadow-2xl border border-gray-100 overflow-hidden my-auto max-h-[92vh] flex flex-col z-20"
         >
           {paymentSuccess ? (
-            <div className="p-8 sm:p-12 text-center space-y-4">
+            <div className="p-8 sm:p-12 text-center space-y-4 my-auto">
               <div className="h-16 w-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto animate-bounce">
                 <CheckCircle2 className="h-10 w-10" />
               </div>
@@ -242,7 +254,7 @@ export function UpgradeModal({
               <div className="pt-4">
                 <Button
                   onClick={onClose}
-                  className="bg-[#4F46E5] hover:bg-indigo-700 text-white font-bold text-xs px-6 py-2 rounded-xl"
+                  className="bg-[#4F46E5] hover:bg-indigo-700 text-white font-bold text-xs px-6 py-2 rounded-xl cursor-pointer"
                 >
                   Start Practicing Now →
                 </Button>
@@ -251,7 +263,7 @@ export function UpgradeModal({
           ) : (
             <>
               {/* Top Banner with Crown */}
-              <div className="bg-gradient-to-r from-amber-500 via-indigo-600 to-purple-600 p-6 sm:p-8 text-white relative overflow-hidden">
+              <div className="bg-gradient-to-r from-amber-500 via-indigo-600 to-purple-600 p-6 sm:p-8 text-white relative overflow-hidden shrink-0">
                 {/* Ambient Accents */}
                 <div className="absolute top-0 right-0 -mr-12 -mt-12 w-48 h-48 rounded-full bg-white/10 blur-2xl pointer-events-none" />
                 <div className="absolute bottom-0 left-0 -ml-12 -mb-12 w-48 h-48 rounded-full bg-amber-400/20 blur-2xl pointer-events-none" />
@@ -259,7 +271,7 @@ export function UpgradeModal({
                 {/* Close Button */}
                 <button
                   onClick={onClose}
-                  className="absolute top-4 right-4 h-8 w-8 rounded-full bg-white/20 hover:bg-white/30 text-white flex items-center justify-center transition-colors cursor-pointer"
+                  className="absolute top-4 right-4 h-8 w-8 rounded-full bg-white/20 hover:bg-white/30 text-white flex items-center justify-center transition-colors cursor-pointer z-30"
                   aria-label="Close"
                 >
                   <X className="h-4 w-4" />
@@ -280,8 +292,8 @@ export function UpgradeModal({
                 </div>
               </div>
 
-              {/* Modal Body */}
-              <div className="p-6 sm:p-8 space-y-6">
+              {/* Modal Body - Scrollable */}
+              <div className="p-6 sm:p-8 space-y-6 overflow-y-auto">
                 {/* Error Banner if any */}
                 {errorMessage && (
                   <div className="p-3.5 rounded-2xl bg-red-50 border border-red-200 text-red-700 text-xs flex items-center gap-2">
@@ -331,7 +343,7 @@ export function UpgradeModal({
                       onClick={() => setSelectedPlanId("monthly")}
                       className={`p-3.5 rounded-2xl border-2 transition-all cursor-pointer relative flex flex-col justify-between ${
                         selectedPlanId === "monthly"
-                          ? "border-[#4F46E5] bg-indigo-50/60 shadow-xs"
+                          ? "border-[#4F46E5] bg-indigo-50/60 shadow-xs ring-2 ring-[#4F46E5]/20"
                           : "border-gray-200 hover:border-gray-300 bg-white"
                       }`}
                     >
@@ -354,7 +366,7 @@ export function UpgradeModal({
                       onClick={() => setSelectedPlanId("six_month")}
                       className={`p-3.5 rounded-2xl border-2 transition-all cursor-pointer relative flex flex-col justify-between ${
                         selectedPlanId === "six_month"
-                          ? "border-[#4F46E5] bg-indigo-50/60 shadow-xs"
+                          ? "border-[#4F46E5] bg-indigo-50/60 shadow-xs ring-2 ring-[#4F46E5]/20"
                           : "border-gray-200 hover:border-gray-300 bg-white"
                       }`}
                     >
@@ -383,7 +395,7 @@ export function UpgradeModal({
                       onClick={() => setSelectedPlanId("annual")}
                       className={`p-3.5 rounded-2xl border-2 transition-all cursor-pointer relative flex flex-col justify-between ${
                         selectedPlanId === "annual"
-                          ? "border-[#4F46E5] bg-indigo-50/60 shadow-xs"
+                          ? "border-[#4F46E5] bg-indigo-50/60 shadow-xs ring-2 ring-[#4F46E5]/20"
                           : "border-gray-200 hover:border-gray-300 bg-white"
                       }`}
                     >
@@ -450,4 +462,6 @@ export function UpgradeModal({
       </div>
     </AnimatePresence>
   );
+
+  return createPortal(modalContent, document.body);
 }
