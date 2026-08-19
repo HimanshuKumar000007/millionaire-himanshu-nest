@@ -22,7 +22,7 @@ import {
 import { useOnboardingStore } from "@/lib/store/useOnboardingStore";
 import { authService } from "@/lib/supabase/auth.service";
 import { getToken, refreshPlanFromServer } from "@/lib/auth/authGuard";
-import { pullAllAndRestore, pushAllLocalData } from "@/lib/supabase/sync.service";
+import { pullAllAndRestore, pushAllLocalData, clearLocalProgress } from "@/lib/supabase/sync.service";
 
 function LoginFormContent() {
   const router = useRouter();
@@ -108,8 +108,11 @@ function LoginFormContent() {
       }
       localStorage.setItem("nest_user_email", cleanEmail);
 
+      // Purge stale local storage from other accounts/guests on this device
+      clearLocalProgress();
+
       await refreshPlanFromServer().catch(() => {});
-      await pullAllAndRestore().catch(() => {});
+      await pullAllAndRestore(true).catch(() => {});
       setSuccess("Login successful! Loading your dashboard...");
       
       const redirect = searchParams?.get("redirect");

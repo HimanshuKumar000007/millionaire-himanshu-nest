@@ -131,6 +131,14 @@ export const authService = {
       localStorage.removeItem("nest_user_email");
       localStorage.removeItem("nest_user_is_pro");
       localStorage.removeItem("nest-smartprep-onboarding");
+      localStorage.removeItem("nest_smartprep_lesson_progress");
+      localStorage.removeItem("nest_smartprep_mock_attempts");
+      localStorage.removeItem("nest_smartprep_pyq_attempts");
+      localStorage.removeItem("nest_smartprep_pyq_bookmarks");
+      localStorage.removeItem("nest_smartprep_practice_evaluations");
+      localStorage.removeItem("nest_smartprep_practice_answers");
+      localStorage.removeItem("nest_smartprep_practice_bookmarks");
+      localStorage.removeItem("nest_smartprep_assessment_results");
     } catch (e) {
       console.warn("Local storage cleanup warning:", e);
     }

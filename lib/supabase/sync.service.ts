@@ -41,6 +41,25 @@ async function getUserId(): Promise<string | null> {
   }
 }
 
+export function clearLocalProgress(): void {
+  if (typeof window === "undefined") return;
+  const keys = [
+    STORAGE_KEYS.LESSON_PROGRESS,
+    STORAGE_KEYS.MOCK_ATTEMPTS,
+    STORAGE_KEYS.PYQ_ATTEMPTS,
+    STORAGE_KEYS.PYQ_BOOKMARKS,
+    STORAGE_KEYS.PRACTICE_EVALS,
+    STORAGE_KEYS.PRACTICE_ANSWERS,
+    STORAGE_KEYS.PRACTICE_BOOKMARKS,
+    STORAGE_KEYS.ASSESSMENT_RESULT,
+  ];
+  keys.forEach((k) => {
+    try {
+      localStorage.removeItem(k);
+    } catch {}
+  });
+}
+
 // ── PUSH (local → Supabase) ──────────────────────────────────────────────────
 
 export async function pushLessonProgress(): Promise<void> {
@@ -84,7 +103,6 @@ export async function pushPYQAttempt(
     .upsert({
       user_id: uid,
       question_key: questionKey,
-      question_id: "00000000-0000-0000-0000-000000000000", // placeholder when no UUID
       is_correct: payload.isCorrect,
       selected_option: payload.selectedOption ?? null,
       subject: payload.subject ?? null,
@@ -110,7 +128,6 @@ export async function pushPracticeAttempt(
     .upsert({
       user_id: uid,
       question_key: questionKey,
-      question_id: "00000000-0000-0000-0000-000000000000",
       is_correct: payload.isCorrect,
       selected_option: payload.selectedOption ?? null,
       subject: payload.subject ?? null,
@@ -141,7 +158,6 @@ export async function pushMockAttempt(attemptId: string): Promise<void> {
     .from("mock_test_attempts")
     .upsert({
       user_id: uid,
-      mock_test_id: "00000000-0000-0000-0000-000000000000",
       title: attempt.title ?? attempt.id ?? attemptId,
       score: attempt.nestMeritScore ?? attempt.evalScore ?? attempt.rawScore ?? 0,
       total_marks: attempt.evalMarks ?? attempt.totalMarks ?? 180,
@@ -217,7 +233,6 @@ export async function pushAllLocalData(): Promise<void> {
   const pyqRows = Object.entries(pyqStore).map(([key, val]) => ({
     user_id: uid,
     question_key: key,
-    question_id: "00000000-0000-0000-0000-000000000000",
     is_correct: val.isCorrect,
     selected_option: val.selectedOption ?? null,
     subject: val.subject ?? null,
@@ -237,7 +252,6 @@ export async function pushAllLocalData(): Promise<void> {
   const practiceRows = Object.entries(practiceStore).map(([key, val]) => ({
     user_id: uid,
     question_key: key,
-    question_id: "00000000-0000-0000-0000-000000000000",
     is_correct: val.isCorrect,
     selected_option: val.selectedOption ?? null,
     subject: val.subject ?? null,
@@ -254,7 +268,6 @@ export async function pushAllLocalData(): Promise<void> {
   const mockStore = safeGet<Record<string, any>>(STORAGE_KEYS.MOCK_ATTEMPTS, {});
   const mockRows = Object.entries(mockStore).map(([id, attempt]) => ({
     user_id: uid,
-    mock_test_id: "00000000-0000-0000-0000-000000000000",
     title: attempt.title ?? attempt.id ?? id,
     score: attempt.nestMeritScore ?? attempt.evalScore ?? attempt.rawScore ?? 0,
     total_marks: attempt.evalMarks ?? attempt.totalMarks ?? 180,
@@ -277,9 +290,13 @@ export async function pushAllLocalData(): Promise<void> {
 
 // ── PULL (Supabase → localStorage) ──────────────────────────────────────────
 
-export async function pullAllAndRestore(): Promise<void> {
+export async function pullAllAndRestore(clearExisting: boolean = false): Promise<void> {
   const uid = await getUserId();
   if (!uid) return;
+
+  if (clearExisting) {
+    clearLocalProgress();
+  }
 
   await Promise.all([
     pullLessonProgress(uid),
@@ -331,6 +348,7 @@ async function pullPYQAttempts(uid: string) {
     local[row.question_key] = {
       isCorrect: row.is_correct,
       selectedOption: row.selected_option,
+      score: row.is_correct ? 3 : -1,
       subject: row.subject,
       topic: row.topic,
       attemptedAt: row.attempted_at,
