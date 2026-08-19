@@ -94,10 +94,18 @@ function LoginFormContent() {
 
     try {
       const res = await authService.signIn(cleanEmail, password);
+      if (res.error) {
+        setIsLoading(false);
+        setError(res.error.message || "Invalid email or password. Please check your credentials or create a new account.");
+        return;
+      }
+
       login(cleanEmail);
       
-      const token = res?.data?.session?.access_token || `nest_tk_${btoa(cleanEmail)}_${Date.now()}`;
-      localStorage.setItem("NEST_TOKEN", token);
+      const token = res.data?.session?.access_token;
+      if (token) {
+        localStorage.setItem("NEST_TOKEN", token);
+      }
       localStorage.setItem("nest_user_email", cleanEmail);
 
       await refreshPlanFromServer().catch(() => {});
@@ -110,13 +118,9 @@ function LoginFormContent() {
       setTimeout(() => {
         window.location.replace(target);
       }, 300);
-    } catch {
-      login(cleanEmail);
-      const fallbackToken = `nest_tk_${btoa(cleanEmail)}_${Date.now()}`;
-      localStorage.setItem("NEST_TOKEN", fallbackToken);
-      localStorage.setItem("nest_user_email", cleanEmail);
-      await pullAllAndRestore().catch(() => {});
-      window.location.replace("/dashboard");
+    } catch (err: any) {
+      setIsLoading(false);
+      setError(err?.message || "Invalid email or password. Please check your credentials.");
     }
   };
 
@@ -165,10 +169,18 @@ function LoginFormContent() {
 
     try {
       const res = await authService.signUp(cleanEmail, password, cleanName);
+      if (res.error) {
+        setIsLoading(false);
+        setError(res.error.message || "Failed to create account. Please try again.");
+        return;
+      }
+
       signup(cleanName, cleanEmail);
 
-      const token = res?.data?.session?.access_token || `nest_tk_${btoa(cleanEmail)}_${Date.now()}`;
-      localStorage.setItem("NEST_TOKEN", token);
+      const token = res.data?.session?.access_token;
+      if (token) {
+        localStorage.setItem("NEST_TOKEN", token);
+      }
       localStorage.setItem("NEST_PLAN", "FREE");
       localStorage.setItem("currentUser", cleanName);
       localStorage.setItem("nest_user_name", cleanName);
@@ -183,14 +195,9 @@ function LoginFormContent() {
       setTimeout(() => {
         window.location.replace(target);
       }, 300);
-    } catch {
-      signup(cleanName, cleanEmail);
-      const fallbackToken = `nest_tk_${btoa(cleanEmail)}_${Date.now()}`;
-      localStorage.setItem("NEST_TOKEN", fallbackToken);
-      localStorage.setItem("currentUser", cleanName);
-      localStorage.setItem("nest_user_name", cleanName);
-      localStorage.setItem("nest_user_email", cleanEmail);
-      window.location.replace("/dashboard");
+    } catch (err: any) {
+      setIsLoading(false);
+      setError(err?.message || "Failed to create account. Please try again.");
     }
   };
 

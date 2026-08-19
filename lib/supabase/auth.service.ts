@@ -20,13 +20,18 @@ export const authService = {
       res.error = e;
     }
 
-    // Always store auth credentials and tokens locally so user is immediately logged in
-    const token = res.data?.session?.access_token || `nest_tk_${btoa(email)}_${Date.now()}`;
-    localStorage.setItem("NEST_TOKEN", token);
-    localStorage.setItem("NEST_PLAN", "FREE");
-    localStorage.setItem("currentUser", name);
-    localStorage.setItem("nest_user_name", name);
-    localStorage.setItem("nest_user_email", email);
+    if (res.error) {
+      return res;
+    }
+
+    // Only store auth credentials and tokens if signup succeeded
+    if (res.data?.session?.access_token) {
+      localStorage.setItem("NEST_TOKEN", res.data.session.access_token);
+      localStorage.setItem("NEST_PLAN", "FREE");
+      localStorage.setItem("currentUser", name);
+      localStorage.setItem("nest_user_name", name);
+      localStorage.setItem("nest_user_email", email);
+    }
 
     if (res.data?.user) {
       try {
@@ -56,7 +61,14 @@ export const authService = {
       res.error = e;
     }
 
-    const token = res.data?.session?.access_token || `nest_tk_${btoa(email)}_${Date.now()}`;
+    if (res.error || !res.data?.session) {
+      return {
+        data: null,
+        error: res.error || new Error("Invalid email or password. Please check your credentials or create a new account."),
+      };
+    }
+
+    const token = res.data.session.access_token;
     localStorage.setItem("NEST_TOKEN", token);
     localStorage.setItem("nest_user_email", email);
 
@@ -69,13 +81,13 @@ export const authService = {
       try {
         const { data: settings } = await supabase
           .from("user_settings")
-          .select("name, is_pro")
+          .select("name, is_pro, plan")
           .eq("user_id", res.data.user.id)
-          .single();
+          .maybeSingle();
         if (settings) {
-          const plan = settings.is_pro ? "PRO" : "FREE";
+          const plan = (settings.plan?.toUpperCase() === "PRO" || settings.is_pro) ? "PRO" : "FREE";
           localStorage.setItem("NEST_PLAN", plan);
-          localStorage.setItem("nest_user_is_pro", String(settings.is_pro));
+          localStorage.setItem("nest_user_is_pro", String(plan === "PRO"));
           if (settings.name) {
             localStorage.setItem("currentUser", settings.name);
             localStorage.setItem("nest_user_name", settings.name);

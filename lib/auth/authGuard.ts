@@ -22,14 +22,6 @@ export function getToken(): string | null {
   const token = localStorage.getItem(AUTH_KEYS.TOKEN);
   if (token) return token;
 
-  // Fallback: If user has an email or existing session stored, synthesize token and persist
-  const email = localStorage.getItem(AUTH_KEYS.EMAIL) || localStorage.getItem("currentUser");
-  if (email) {
-    const fallbackToken = `nest_tk_${btoa(email)}_${Date.now()}`;
-    localStorage.setItem(AUTH_KEYS.TOKEN, fallbackToken);
-    return fallbackToken;
-  }
-
   const legacyToken = localStorage.getItem("nest_auth_token") || localStorage.getItem("nest_user_session");
   if (legacyToken) {
     localStorage.setItem(AUTH_KEYS.TOKEN, legacyToken);
