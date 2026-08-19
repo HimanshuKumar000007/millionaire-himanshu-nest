@@ -55,10 +55,18 @@ export class ProgressOrchestratorService {
     } catch {
       return defaultValue;
     }
-  }
-
-  /** Returns fully live, typed, honest dashboard summary. Memoized per 250ms. */
-  public getLiveDashboardSummary(): NestDashboardSummary {
+  }  /** Returns fully live, typed, honest dashboard summary. Memoized per 250ms. */
+  public getLiveDashboardSummary(storeOverrides?: {
+    lessonStore?: Record<string, LessonRecord>;
+    mockAttempts?: Record<string, MockAttempt>;
+    pyqAttempts?: Record<string, PYQAttempt>;
+    pyqBookmarks?: string[];
+    practiceEvals?: Record<string, PracticeEval>;
+    practiceBookmarks?: string[];
+  }): NestDashboardSummary {
+    if (storeOverrides) {
+      return this._compute(storeOverrides);
+    }
     const now = Date.now();
     if (_cachedSummary && now - _cacheTimestamp < CACHE_TTL_MS) {
       return _cachedSummary;
@@ -69,30 +77,62 @@ export class ProgressOrchestratorService {
     return result;
   }
 
-  /** Invalidate cache � call after writing to localStorage. */
+  /** Fetch live dashboard summary directly from Supabase / API */
+  public async fetchLiveDashboardSummary(email: string, userId: string): Promise<NestDashboardSummary> {
+    try {
+      const res = await fetch(`/api/sync?email=${encodeURIComponent(email || "")}&userId=${encodeURIComponent(userId || "")}`);
+      const json = await res.json();
+      if (json.success && json.data) {
+        const { lessonProgress, pyqAttempts, practiceEvals, mockAttempts, pyqBookmarks, practiceBookmarks } = json.data;
+        const result = this._compute({
+          lessonStore: lessonProgress || {},
+          mockAttempts: mockAttempts || {},
+          pyqAttempts: pyqAttempts || {},
+          pyqBookmarks: pyqBookmarks || [],
+          practiceEvals: practiceEvals || {},
+          practiceBookmarks: practiceBookmarks || [],
+        });
+        _cachedSummary = result;
+        _cacheTimestamp = Date.now();
+        return result;
+      }
+    } catch (e) {
+      console.warn("[ProgressOrchestrator] fetchLiveDashboardSummary fallback:", e);
+    }
+    return this.getLiveDashboardSummary();
+  }
+
+  /** Invalidate cache — call after writing to localStorage. */
   public invalidateCache(): void {
     _cachedSummary = null;
     _cacheTimestamp = 0;
   }
 
-  private _compute(): NestDashboardSummary {
+  private _compute(storeOverrides?: {
+    lessonStore?: Record<string, LessonRecord>;
+    mockAttempts?: Record<string, MockAttempt>;
+    pyqAttempts?: Record<string, PYQAttempt>;
+    pyqBookmarks?: string[];
+    practiceEvals?: Record<string, PracticeEval>;
+    practiceBookmarks?: string[];
+  }): NestDashboardSummary {
     // -- Load all stores ------------------------------------------------------
-    const lessonStore = this.getLocalJson<Record<string, LessonRecord>>(
+    const lessonStore = storeOverrides?.lessonStore || this.getLocalJson<Record<string, LessonRecord>>(
       STORAGE_KEYS.LESSON_PROGRESS, {}
     );
-    const mockAttempts = this.getLocalJson<Record<string, MockAttempt>>(
+    const mockAttempts = storeOverrides?.mockAttempts || this.getLocalJson<Record<string, MockAttempt>>(
       STORAGE_KEYS.MOCK_ATTEMPTS, {}
     );
-    const pyqAttempts = this.getLocalJson<Record<string, PYQAttempt>>(
+    const pyqAttempts = storeOverrides?.pyqAttempts || this.getLocalJson<Record<string, PYQAttempt>>(
       STORAGE_KEYS.PYQ_ATTEMPTS, {}
     );
-    const pyqBookmarks = this.getLocalJson<string[]>(
+    const pyqBookmarks = storeOverrides?.pyqBookmarks || this.getLocalJson<string[]>(
       STORAGE_KEYS.PYQ_BOOKMARKS, []
     );
-    const practiceEvals = this.getLocalJson<Record<string, PracticeEval>>(
+    const practiceEvals = storeOverrides?.practiceEvals || this.getLocalJson<Record<string, PracticeEval>>(
       STORAGE_KEYS.PRACTICE_EVALS, {}
     );
-    const practiceBookmarks = this.getLocalJson<string[]>(
+    const practiceBookmarks = storeOverrides?.practiceBookmarks || this.getLocalJson<string[]>(
       STORAGE_KEYS.PRACTICE_BOOKMARKS, []
     );
 

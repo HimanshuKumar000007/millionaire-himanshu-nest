@@ -119,7 +119,22 @@ export function MockTestsView({
   }, []);
 
   useEffect(() => {
-    const loadAttempts = () => {
+    const loadAttempts = async () => {
+      try {
+        const email = localStorage.getItem("nest_user_email") || "";
+        const userId = localStorage.getItem("nest_user_id") || "";
+        if (email || userId) {
+          const res = await fetch(`/api/sync?email=${encodeURIComponent(email)}&userId=${encodeURIComponent(userId)}`);
+          const json = await res.json();
+          if (json.success && json.data?.mockAttempts) {
+            setAttemptsMap(json.data.mockAttempts);
+            return;
+          }
+        }
+      } catch (e) {
+        console.warn("Failed fetching cloud mock data:", e);
+      }
+
       try {
         const savedAttempts = localStorage.getItem("nest_smartprep_mock_attempts");
         if (savedAttempts) setAttemptsMap(JSON.parse(savedAttempts));

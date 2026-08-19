@@ -543,9 +543,26 @@ export function PYQModuleView({
     return () => window.removeEventListener("nest_plan_updated", handlePlanUpdate);
   }, []);
 
-  // Load saved attempts on mount and when cloud sync restores
+  // Load saved attempts on mount and when cloud sync restores (Direct Cloud Source of Truth)
   useEffect(() => {
-    const loadAttempts = () => {
+    const loadAttempts = async () => {
+      try {
+        const email = localStorage.getItem("nest_user_email") || "";
+        const userId = localStorage.getItem("nest_user_id") || "";
+        if (email || userId) {
+          const res = await fetch(`/api/sync?email=${encodeURIComponent(email)}&userId=${encodeURIComponent(userId)}`);
+          const json = await res.json();
+          if (json.success && json.data) {
+            if (json.data.pyqAttempts) setPyqAttempts(json.data.pyqAttempts);
+            if (json.data.mockAttempts) setMockAttempts(json.data.mockAttempts);
+            if (json.data.pyqBookmarks) setBookmarks(new Set(json.data.pyqBookmarks));
+            return;
+          }
+        }
+      } catch (e) {
+        console.warn("Failed fetching cloud PYQ data:", e);
+      }
+
       try {
         const savedPyqAttempts = localStorage.getItem("nest_smartprep_pyq_attempts");
         if (savedPyqAttempts) setPyqAttempts(JSON.parse(savedPyqAttempts));
