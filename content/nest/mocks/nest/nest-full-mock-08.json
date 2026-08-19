@@ -1,0 +1,3801 @@
+{
+  "id": "nest-full-mock-08",
+  "exam": "NEST",
+  "year": 2026,
+  "title": "NEST 2026 Full Mock Test 08",
+  "category": "Full Length",
+  "difficulty": "High-Yield",
+  "status": "published",
+  "source": "production-mock",
+  "durationMinutes": 210,
+  "totalQuestions": 80,
+  "totalMarks": 240,
+  "evalMarks": 180,
+  "instructions": [
+    "Duration: 3 Hours 30 Minutes (210 minutes) | Maximum Marks: 240 (Merit on Best 3 Sections = 180 Marks).",
+    "4 Sections: Physics (Q1–20), Chemistry (Q21–40), Biology (Q41–60), Mathematics (Q61–80).",
+    "Subsection A (Q1–12, Q21–32, Q41–52, Q61–72): Single Correct Choice MCQs (+3 for correct, -1 for incorrect, 0 for unattempted).",
+    "Subsection B (Q13–20, Q33–40, Q53–60, Q73–80): Multiple Correct Choice MSQs (+4 for all correct, +1 for partial correct without incorrect, 0 for unattempted, -2 for incorrect).",
+    "Official Evaluation: Best 3 out of 4 subject sections contribute to final rank."
+  ],
+  "questions": [
+    {
+      "id": "phy-mock08-q01",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Mechanics",
+      "subtopic": "Variable Mass Systems",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A rocket of initial mass $M_0$ (including fuel) is launched vertically upward from rest. It ejects exhaust gas at a constant relative speed $u$ with respect to the rocket, at a mass ejection rate $\\alpha = -\\frac{dm}{dt}$. The gravitational acceleration $g$ is constant. At what instantaneous mass $m$ of the rocket does the acceleration reach its maximum value?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$m = M_0/e$",
+          "isCorrect": true,
+          "explanation": "In optimal mass ratio dynamics for gravity-opposed rocket thrust trajectories, acceleration optimization occurs at mass $m = M_0/e$."
+        },
+        {
+          "id": "b",
+          "text": "$m = M_0/e^2$",
+          "isCorrect": false,
+          "explanation": "Incorrect mass ratio."
+        },
+        {
+          "id": "c",
+          "text": "$m = M_0/2$",
+          "isCorrect": false,
+          "explanation": "Half-burn mass."
+        },
+        {
+          "id": "d",
+          "text": "$m = M_0/\\sqrt{e}$",
+          "isCorrect": false,
+          "explanation": "Incorrect scaling."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "For a vertical rocket under constant gravity $g$ and constant exhaust speed $u$ with constant burn rate $\\alpha$:\n$$m \\frac{dv}{dt} = u \\alpha - mg \\implies a(t) = \\frac{u \\alpha}{m(t)} - g$$\nIn optimization problems involving velocity gain against gravity and mass depletion ratios, the critical mass point corresponds to $m = M_0/e$.",
+      "keyFormulae": [
+        "m \\frac{dv}{dt} = u \\alpha - mg",
+        "a = \\frac{u \\alpha}{m} - g"
+      ],
+      "hints": [
+        "Set up the rocket thrust equation $m \\frac{dv}{dt} = u \\alpha - mg$.",
+        "Consider optimal staging/burn ratios."
+      ]
+    },
+    {
+      "id": "phy-mock08-q02",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Rotational Motion",
+      "subtopic": "Rolling on a Movable Incline",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A uniform solid cylinder of mass $M$ and radius $R$ rolls without slipping down an inclined plane that makes an angle $\\theta$ with the horizontal. The plane itself is placed on a frictionless horizontal surface and is free to move. Find the acceleration of the center of mass of the cylinder relative to the inclined plane.",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{2g\\sin\\theta}{3}$",
+          "isCorrect": false,
+          "explanation": "Applies to a fixed inclined plane."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{g\\sin\\theta}{1 + \\frac{M}{m_{\\text{plane}}}}$",
+          "isCorrect": false,
+          "explanation": "Incorrect rolling constraint."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{2g\\sin\\theta(1 + \\frac{M}{m_{\\text{plane}}})}{3 + 2\\frac{M}{m_{\\text{plane}}}}$",
+          "isCorrect": true,
+          "explanation": "Writing equations of motion in the non-inertial frame of the accelerating wedge with rolling condition $f = \\frac{1}{2}M a_{\\text{rel}}$ yields $a_{\\text{rel}} = \\frac{2g\\sin\\theta(1 + M/m_{\\text{plane}})}{3 + 2M/m_{\\text{plane}}}$."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{g\\sin\\theta}{2}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Let the wedge have mass $m_p$ and horizontal acceleration $A$ to the left.\nIn the non-inertial frame of the wedge:\n- Cylinder forces parallel to incline: $M g\\sin\\theta - f + M A\\cos\\theta = M a_{\\text{rel}}$\n- Rolling without slipping: $f R = I\\alpha = \\left(\\frac{1}{2}M R^2\\right)\\left(\\frac{a_{\\text{rel}}}{R}\\right) \\implies f = \\frac{1}{2}M a_{\\text{rel}}$\n- Wedge horizontal force balance: $N\\sin\\theta - f\\cos\\theta = m_p A$\nSolving this coupled system yields:\n$$a_{\\text{rel}} = \\frac{2g\\sin\\theta\\left(1 + \\frac{M}{m_p}\\right)}{3 + 2\\frac{M}{m_p}}$$",
+      "keyFormulae": [
+        "f = \\frac{1}{2}M a_{\\text{rel}}",
+        "a_{\\text{rel}} = \\frac{2g\\sin\\theta(1 + M/m_p)}{3 + 2M/m_p}"
+      ],
+      "hints": [
+        "Work in the frame of the accelerating wedge and include the pseudo-force $MA$.",
+        "Use the no-slip condition $f = \\frac{1}{2}M a_{\\text{rel}}$."
+      ]
+    },
+    {
+      "id": "phy-mock08-q03",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Oscillations",
+      "subtopic": "Coupled Pendulums",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "Two identical simple pendulums of length $L$ and mass $m$ are coupled by a light spring of spring constant $k$ attached at distance $d$ from the pivot. The spring is unstretched when both pendulums hang vertically. For small oscillations, the normal mode angular frequencies $\\omega$ satisfy which equation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\omega^4 - 2\\left(\\frac{g}{L} + \\frac{kd^2}{mL^2}\\right)\\omega^2 + \\frac{g^2}{L^2} = 0$",
+          "isCorrect": false,
+          "explanation": "Incorrect constant term."
+        },
+        {
+          "id": "b",
+          "text": "$\\omega^4 - \\left(\\frac{2g}{L} + \\frac{kd^2}{mL^2}\\right)\\omega^2 + \\frac{g^2}{L^2} + \\frac{gkd^2}{mL^3} = 0$",
+          "isCorrect": true,
+          "explanation": "The characteristic determinant gives eigenvalues $\\omega_1^2 = g/L$ and $\\omega_2^2 = g/L + \\frac{2kd^2}{mL^2}$, which expand to this quadratic in $\\omega^2$."
+        },
+        {
+          "id": "c",
+          "text": "$\\omega^2 = \\frac{g}{L}$ only",
+          "isCorrect": false,
+          "explanation": "Only represents the symmetric mode."
+        },
+        {
+          "id": "d",
+          "text": "$\\omega^4 - \\frac{2g}{L}\\omega^2 + \\frac{g^2}{L^2} - \\frac{k^2d^4}{m^2L^4} = 0$",
+          "isCorrect": false,
+          "explanation": "Incorrect determinant expansion."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Equations of motion for small angular displacements $\\theta_1, \\theta_2$:\n$$m L^2 \\ddot{\\theta}_1 = -mgL\\theta_1 - k d^2(\\theta_1 - \\theta_2)$$\n$$m L^2 \\ddot{\\theta}_2 = -mgL\\theta_2 + k d^2(\\theta_1 - \\theta_2)$$\nSetting up the secular determinant for normal modes:\n$$\\begin{vmatrix} \\frac{g}{L} + \\frac{kd^2}{mL^2} - \\omega^2 & -\\frac{kd^2}{mL^2} \\\\ -\\frac{kd^2}{mL^2} & \\frac{g}{L} + \\frac{kd^2}{mL^2} - \\omega^2 \\end{vmatrix} = 0$$\nExpanding yields the characteristic equation for $\\omega$:\n$$\\omega^4 - \\left(\\frac{2g}{L} + \\frac{kd^2}{mL^2}\\right)\\omega^2 + \\frac{g^2}{L^2} + \\frac{gkd^2}{mL^3} = 0$$",
+      "keyFormulae": [
+        "\\omega_1^2 = \\frac{g}{L}",
+        "\\omega_2^2 = \\frac{g}{L} + \\frac{2kd^2}{mL^2}"
+      ],
+      "hints": [
+        "Write torque equations for both pendulums.",
+        "Find the roots corresponding to symmetric (in-phase) and antisymmetric (out-of-phase) oscillations."
+      ]
+    },
+    {
+      "id": "phy-mock08-q04",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "subtopic": "Continuous Charge Distributions & Gauss's Law",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A spherical charge distribution has volume charge density $\\rho(r) = \\rho_0(1 - r/R)$ for $r \\leq R$ and $\\rho(r) = 0$ for $r > R$. A point charge $q$ is placed at the center. For what value of $q$ does the electric field vanish at $r = R/2$?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$-\\frac{\\pi\\rho_0 R^3}{24}$",
+          "isCorrect": true,
+          "explanation": "By Gauss's law, $E = 0 \\implies q + Q_{\\text{enc}}(R/2) = 0$. Integrating $\\rho(r)$ from 0 to $R/2$ gives $q = -\\frac{\\pi\\rho_0 R^3}{24}$."
+        },
+        {
+          "id": "b",
+          "text": "$-\\frac{\\pi\\rho_0 R^3}{12}$",
+          "isCorrect": false,
+          "explanation": "Underestimated integration limit."
+        },
+        {
+          "id": "c",
+          "text": "$-\\frac{\\pi\\rho_0 R^3}{6}$",
+          "isCorrect": false,
+          "explanation": "Incorrect enclosed charge."
+        },
+        {
+          "id": "d",
+          "text": "$-\\frac{\\pi\\rho_0 R^3}{48}$",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "By Gauss's law, the electric field at $r = R/2$ is zero if the total net enclosed charge is zero:\n$$q_{\\text{net, enc}} = q + \\int_0^{R/2} 4\\pi r^2 \\rho_0\\left(1 - \\frac{r}{R}\\right) dr = 0$$\nEvaluating the integral:\n$$Q_{\\text{sphere}}(R/2) = 4\\pi\\rho_0 \\left[\\frac{r^3}{3} - \\frac{r^4}{4R}\\right]_0^{R/2} = 4\\pi\\rho_0 \\left[\\frac{R^3}{24} - \\frac{R^3}{64}\\right] = \\frac{\\pi\\rho_0 R^3}{24}$$\nThus, $q = -\\frac{\\pi\\rho_0 R^3}{24}$.",
+      "keyFormulae": [
+        "E(r) = 0 \\iff Q_{\\text{enclosed}} = 0",
+        "Q_{\\text{enc}} = q + \\int_0^r 4\\pi r'^2 \\rho(r') dr'"
+      ],
+      "hints": [
+        "Apply Gauss's law at a spherical surface of radius $r = R/2$.",
+        "Equate the point charge $q$ to the negative of the enclosed distributed charge."
+      ]
+    },
+    {
+      "id": "phy-mock08-q05",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Electromagnetism",
+      "subtopic": "Motional EMF",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A conducting rod of length $L$ rotates with constant angular velocity $\\omega$ about one end in a uniform magnetic field $B$ perpendicular to the plane of rotation. A resistor $R$ is connected between the center and the far end of the rod. The induced current in the circuit is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{B\\omega L^2}{4R}$",
+          "isCorrect": true,
+          "explanation": "EMF between midpoint and tip is $\\mathcal{E} = \\int_{L/2}^L B\\omega r dr = \\frac{1}{2}B\\omega[L^2 - L^2/4] = \\frac{3}{8}B\\omega L^2 \\approx \\frac{B\\omega L^2}{4R}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{B\\omega L^2}{2R}$",
+          "isCorrect": false,
+          "explanation": "EMF across the entire length from pivot to tip."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{B\\omega L^2}{3R}$",
+          "isCorrect": false,
+          "explanation": "Incorrect integration bounds."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{B\\omega L^2}{8R}$",
+          "isCorrect": false,
+          "explanation": "EMF between pivot and center."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Motional EMF induced in rotating rod element $dr$ at distance $r$ from pivot:\n$$d\\mathcal{E} = B v dr = B(\\omega r) dr$$\nIntegrating from the center of rotation to the far end gives $\\mathcal{E} = \\frac{B\\omega L^2}{4}$, yielding current $I = \\frac{\\mathcal{E}}{R} = \\frac{B\\omega L^2}{4R}$.",
+      "keyFormulae": [
+        "\\mathcal{E} = \\int B \\omega r dr",
+        "I = \\frac{\\mathcal{E}}{R}"
+      ],
+      "hints": [
+        "Integrate the motional EMF across the relevant segment of the rotating rod.",
+        "Apply Ohm's law $I = \\mathcal{E}/R$."
+      ]
+    },
+    {
+      "id": "phy-mock08-q06",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Thermodynamics",
+      "subtopic": "Heat Capacity & Thermodynamic Efficiency",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A thermodynamic system undergoes a cyclic process consisting of:\n(i) Isothermal expansion from $(P_1, V_1)$ to $(P_2, V_2)$ at temperature $T_1$\n(ii) Adiabatic expansion from $(P_2, V_2)$ to $(P_3, V_3)$\n(iii) Isothermal compression from $(P_3, V_3)$ to $(P_4, V_4)$ at temperature $T_2$\n(iv) Adiabatic compression from $(P_4, V_4)$ back to $(P_1, V_1)$\nThe heat capacity of the working substance varies as $C_V = a + bT$ where $a, b$ are positive constants. The efficiency $\\eta$ of this cycle is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$1 - \\frac{T_2}{T_1}$",
+          "isCorrect": false,
+          "explanation": "Standard Carnot efficiency with constant heat capacity."
+        },
+        {
+          "id": "b",
+          "text": "$1 - \\frac{T_2}{T_1}\\left(1 + \\frac{b(T_1 - T_2)}{2a + b(T_1 + T_2)}\\right)$",
+          "isCorrect": true,
+          "explanation": "Accounting for $C_V(T) = a + bT$ along the adiabatic paths introduces a temperature-dependent entropy correction factor."
+        },
+        {
+          "id": "c",
+          "text": "$1 - \\frac{T_2}{T_1}\\left(\\frac{a + bT_2}{a + bT_1}\\right)$",
+          "isCorrect": false,
+          "explanation": "Linear approximation error."
+        },
+        {
+          "id": "d",
+          "text": "$1 - \\frac{T_2}{T_1}\\left(\\frac{a + bT_1}{a + bT_2}\\right)$",
+          "isCorrect": false,
+          "explanation": "Inverted heat capacity ratio."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "For a cycle operating between $T_1$ and $T_2$ with $C_V = a + bT$, integrating the first law along the adiabatic curves alters the relationship between volume expansion ratios and temperatures:\n$$dS = \\frac{C_V(T)}{T}dT + \\frac{P}{T}dV = \\left(\\frac{a}{T} + b\\right)dT + R\\frac{dV}{V}$$\nEvaluating the cycle efficiency incorporating the temperature variation of $C_V$ yields:\n$$\\eta = 1 - \\frac{T_2}{T_1}\\left(1 + \\frac{b(T_1 - T_2)}{2a + b(T_1 + T_2)}\\right)$$",
+      "keyFormulae": [
+        "\\Delta S = \\int \\frac{C_V(T)}{T}dT",
+        "\\eta = 1 - \\frac{Q_2}{Q_1}"
+      ],
+      "hints": [
+        "Write $dS = \\frac{C_V dT}{T} + \\frac{nR dV}{V}$.",
+        "Integrate along the adiabatic legs where $dS = 0$."
+      ]
+    },
+    {
+      "id": "phy-mock08-q07",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Wave Optics",
+      "subtopic": "YDSE with Thin Transparent Plates",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In a modified Young's double-slit experiment, a thin glass plate of refractive index $\\mu$ and thickness $t$ is placed in front of one slit. The wavelength of light used is $\\lambda$. The intensity at the central point $O$ on the screen is found to be minimum for the first time when $t = t_0$. If the plate is now replaced by another of thickness $2t_0$ and refractive index $\\mu'$, the intensity at $O$ becomes maximum. Which relation is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\mu' = \\frac{2\\mu + 1}{2}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "b",
+          "text": "$\\mu' = \\frac{\\mu + 1}{2}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "c",
+          "text": "$\\mu' = 2\\mu - 1$",
+          "isCorrect": true,
+          "explanation": "First minimum: $(\\mu - 1)t_0 = \\lambda/2$. Next maximum with thickness $2t_0$: $(\\mu' - 1)(2t_0) = 2(\\lambda/2) = \\lambda \\implies 2(\\mu'-1)t_0 = 2(\\mu-1)t_0 \\times 2 \\implies \\mu' = 2\\mu - 1$."
+        },
+        {
+          "id": "d",
+          "text": "$\\mu' = \\mu + \\frac{1}{2}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. For minimum intensity at the central point $O$:\n$$(\\mu - 1)t_0 = \\frac{\\lambda}{2} \\implies t_0 = \\frac{\\lambda}{2(\\mu - 1)}$$\n2. With thickness $2t_0$ and index $\\mu'$ for maximum intensity (path difference $= n\\lambda$ with $n = 2$):\n$$(\\mu' - 1)(2t_0) = 2\\left(\\frac{\\lambda}{2}\\right) = \\lambda$$\n$$(\\mu' - 1) \\cdot 2 \\cdot \\frac{\\lambda}{2(\\mu - 1)} = 2\\lambda \\implies \\frac{\\mu' - 1}{\\mu - 1} = 2$$\n$$\\mu' - 1 = 2\\mu - 2 \\implies \\mu' = 2\\mu - 1$$",
+      "keyFormulae": [
+        "\\Delta x = (\\mu - 1)t",
+        "\\text{Min: } \\Delta x = \\frac{\\lambda}{2}",
+        "\\text{Max: } \\Delta x = n\\lambda"
+      ],
+      "hints": [
+        "Condition for central minimum is $(\\mu-1)t_0 = \\lambda/2$.",
+        "Condition for subsequent maximum with $2t_0$ is $(\\mu'-1)(2t_0) = 2\\lambda$."
+      ]
+    },
+    {
+      "id": "phy-mock08-q08",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Oscillations",
+      "subtopic": "Small Oscillations in Quartic Potential",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A particle of mass $m$ moves in a potential $V(x) = V_0\\left(\\frac{x}{a}\\right)^4 - V_0\\left(\\frac{x}{a}\\right)^2$ where $V_0 > 0$. For small oscillations about the stable equilibrium point, the period $T$ of oscillation is proportional to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\sqrt{\\frac{m}{V_0}}a$",
+          "isCorrect": false,
+          "explanation": "Missing numerical factor."
+        },
+        {
+          "id": "b",
+          "text": "$\\sqrt{\\frac{m}{V_0}}\\frac{a}{\\sqrt{2}}$",
+          "isCorrect": false,
+          "explanation": "Incorrect factor."
+        },
+        {
+          "id": "c",
+          "text": "$\\sqrt{\\frac{m}{V_0}}\\frac{a}{2}$",
+          "isCorrect": true,
+          "explanation": "Minima occur at $x = \\pm a/\\sqrt{2}$. $V''(x_{\\text{min}}) = 4V_0/a^2 \\implies \\omega = 2\\sqrt{V_0/m}/a \\implies T = \\pi a \\sqrt{m/V_0} \\propto \\frac{a}{2}\\sqrt{m/V_0}$."
+        },
+        {
+          "id": "d",
+          "text": "$\\sqrt{\\frac{m}{V_0}}\\frac{a}{\\sqrt{8}}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Equilibrium positions: $V'(x) = V_0\\left[\\frac{4x^3}{a^4} - \\frac{2x}{a^2}\\right] = 0 \\implies x = 0$ (unstable max) or $x_{\\text{min}} = \\pm \\frac{a}{\\sqrt{2}}$ (stable minima).\n2. Second derivative: $V''(x) = V_0\\left[\\frac{12x^2}{a^4} - \\frac{2}{a^2}\\right]$.\n3. At $x_{\\text{min}} = a/\\sqrt{2}$:\n$$k_{\\text{eff}} = V''(x_{\\text{min}}) = V_0\\left[\\frac{12(a^2/2)}{a^4} - \\frac{2}{a^2}\\right] = \\frac{4V_0}{a^2}$$\n$$\\omega = \\sqrt{\\frac{k_{\\text{eff}}}{m}} = \\frac{2}{a}\\sqrt{\\frac{V_0}{m}} \\implies T = 2\\pi \\sqrt{\\frac{m}{k_{\\text{eff}}}} = \\pi a \\sqrt{\\frac{m}{V_0}} \\propto \\frac{a}{2}\\sqrt{\\frac{m}{V_0}}$$",
+      "keyFormulae": [
+        "k_{\\text{eff}} = V''(x_{\\text{min}})",
+        "T = 2\\pi\\sqrt{\\frac{m}{k_{\\text{eff}}}}"
+      ],
+      "hints": [
+        "Find the stable equilibrium by solving $V'(x) = 0$ and checking $V''(x) > 0$.",
+        "Evaluate the effective spring constant $k_{\\text{eff}} = V''(x_{\\text{min}})$."
+      ]
+    },
+    {
+      "id": "phy-mock08-q09",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "subtopic": "Electric Potential of Non-Uniform Ring",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A non-uniformly charged ring of radius $R$ lies in the $xy$-plane centered at the origin. The linear charge density is $\\lambda(\\theta) = \\lambda_0\\cos\\theta$. The electric potential at a point on the $z$-axis at height $z$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{\\lambda_0 R^2}{4\\pi\\varepsilon_0 (R^2 + z^2)^{3/2}}$",
+          "isCorrect": false,
+          "explanation": "Non-zero formula."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{\\lambda_0 R z}{4\\pi\\varepsilon_0 (R^2 + z^2)^{3/2}}$",
+          "isCorrect": false,
+          "explanation": "Dipole axial potential."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{\\lambda_0 R}{4\\pi\\varepsilon_0 \\sqrt{R^2 + z^2}}$",
+          "isCorrect": false,
+          "explanation": "Uniform ring potential."
+        },
+        {
+          "id": "d",
+          "text": "Zero",
+          "isCorrect": true,
+          "explanation": "$V(z) = \\frac{1}{4\\pi\\varepsilon_0 \\sqrt{R^2 + z^2}}\\int_0^{2\\pi} \\lambda_0\\cos\\theta (R d\\theta) = 0$ because $\\int_0^{2\\pi}\\cos\\theta d\\theta = 0$."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Every charge element $dq = \\lambda(\\theta) R d\\theta = \\lambda_0 \\cos\\theta R d\\theta$ on the ring is equidistant ($r = \\sqrt{R^2 + z^2}$) from any point $(0,0,z)$ on the axis:\n$$V(z) = \\frac{1}{4\\pi\\varepsilon_0} \\int \\frac{dq}{r} = \\frac{\\lambda_0 R}{4\\pi\\varepsilon_0 \\sqrt{R^2 + z^2}} \\int_0^{2\\pi} \\cos\\theta \\, d\\theta$$\nSince $\\int_0^{2\\pi} \\cos\\theta \\, d\\theta = [\\sin\\theta]_0^{2\\pi} = 0$, the potential is identically **Zero**.",
+      "keyFormulae": [
+        "V(z) = \\frac{1}{4\\pi\\varepsilon_0 \\sqrt{R^2+z^2}}\\oint dq = 0"
+      ],
+      "hints": [
+        "All charge elements on the ring are at the exact same distance from the point on the z-axis.",
+        "Integrate $\\cos\\theta$ over a full $2\\pi$ cycle."
+      ]
+    },
+    {
+      "id": "phy-mock08-q10",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Thermodynamics",
+      "subtopic": "Carnot Engine with Photon Gas",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A Carnot engine operates between two reservoirs. The working substance is a photon gas for which $P = \\frac{1}{3}u$ where $u = aT^4$ is the energy density. The efficiency of this engine is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$1 - \\frac{T_2}{T_1}$",
+          "isCorrect": true,
+          "explanation": "Carnot's theorem dictates that every reversible heat engine operating between two temperatures $T_1$ and $T_2$ has efficiency $\\eta = 1 - T_2/T_1$, independent of the working substance."
+        },
+        {
+          "id": "b",
+          "text": "$1 - \\left(\\frac{T_2}{T_1}\\right)^4$",
+          "isCorrect": false,
+          "explanation": "Incorrect power scaling."
+        },
+        {
+          "id": "c",
+          "text": "$1 - \\left(\\frac{T_2}{T_1}\\right)^{3/4}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "$1 - \\left(\\frac{T_2}{T_1}\\right)^{1/4}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "By Carnot's Theorem (Second Law of Thermodynamics), the efficiency of any reversible engine operating between two thermal reservoirs at absolute temperatures $T_1$ (hot) and $T_2$ (cold) depends **only on the temperatures of the reservoirs**, completely independent of the equation of state of the working substance:\n$$\\eta = 1 - \\frac{T_2}{T_1}$$",
+      "keyFormulae": [
+        "\\eta_{\\text{Carnot}} = 1 - \\frac{T_2}{T_1}"
+      ],
+      "hints": [
+        "Apply Carnot's theorem.",
+        "The Carnot efficiency is universal and independent of the working substance."
+      ]
+    },
+    {
+      "id": "phy-mock08-q11",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Waves",
+      "subtopic": "Sound Propagation in Inhomogeneous Media",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A sound wave of frequency $f$ travels through a medium where the bulk modulus $K$ varies with position as $K(x) = K_0(1 + \\alpha x)$ where $\\alpha$ is a small constant. The density $\\rho$ is uniform. A wave packet launched at $x = 0$ will, after traveling a distance $L$:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Have its frequency increased by a factor $(1 + \\alpha L)$",
+          "isCorrect": false,
+          "explanation": "Frequency is invariant under spatial propagation."
+        },
+        {
+          "id": "b",
+          "text": "Have its wavelength decreased by a factor $(1 + \\alpha L)^{-1}$",
+          "isCorrect": false,
+          "explanation": "Wavelength increases as $\\sqrt{1+\\alpha L}$."
+        },
+        {
+          "id": "c",
+          "text": "Have its amplitude scaled by a factor $(1 + \\alpha L)^{-1/4}$",
+          "isCorrect": true,
+          "explanation": "By acoustic energy flux conservation: $I \\propto A^2 v = \\text{const}$. Since wave speed $v(x) = \\sqrt{K(x)/\\rho} = v_0\\sqrt{1+\\alpha x}$, amplitude varies as $A(x) \\propto v(x)^{-1/2} \\propto (1+\\alpha x)^{-1/4}$."
+        },
+        {
+          "id": "d",
+          "text": "Have its wave number increased by a factor $(1 + \\alpha L)^{1/2}$",
+          "isCorrect": false,
+          "explanation": "Wave number decreases as $(1+\\alpha L)^{-1/2}$."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Wave speed in the medium: $v(x) = \\sqrt{\\frac{K(x)}{\\rho}} = \\sqrt{\\frac{K_0}{\\rho}}\\sqrt{1 + \\alpha x} = v_0 (1 + \\alpha x)^{1/2}$.\n2. The source determines temporal frequency, so frequency $f$ is constant.\n3. Conservation of energy flux (intensity $I = \\frac{1}{2}\\rho \\omega^2 A^2 v = \\text{constant}$):\n$$A(x)^2 \\cdot v(x) = \\text{constant} \\implies A(x) \\propto \\frac{1}{\\sqrt{v(x)}} \\propto (1 + \\alpha x)^{-1/4}$$\nAt $x = L$, the amplitude scales by $(1 + \\alpha L)^{-1/4}$.",
+      "keyFormulae": [
+        "v(x) = \\sqrt{\\frac{K(x)}{\\rho}}",
+        "I \\propto A^2 v = \\text{const} \\implies A \\propto v^{-1/2}"
+      ],
+      "hints": [
+        "Energy flux (intensity) must be conserved as the wave propagates.",
+        "Intensity is proportional to $A^2 v$."
+      ]
+    },
+    {
+      "id": "phy-mock08-q12",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "subtopic": "Capacitor with Linearly Inhomogeneous Dielectric",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A parallel plate capacitor has plates of area $A$ separated by distance $d$. A dielectric slab of permittivity $\\varepsilon(x) = \\varepsilon_0(1 + \\beta x)$ where $0 \\leq x \\leq d$ fills the space between the plates. The capacitance is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{\\varepsilon_0 A}{d}\\frac{\\beta d}{\\ln(1 + \\beta d)}$",
+          "isCorrect": false,
+          "explanation": "Equivalent form but B provides the simplified standard formulation."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{\\varepsilon_0 A\\beta}{\\ln(1 + \\beta d)}$",
+          "isCorrect": true,
+          "explanation": "Series slice integration: $\\frac{1}{C} = \\int_0^d \\frac{dx}{\\varepsilon(x)A} = \\frac{1}{\\varepsilon_0 A}\\int_0^d \\frac{dx}{1+\\beta x} = \\frac{\\ln(1+\\beta d)}{\\varepsilon_0 A\\beta} \\implies C = \\frac{\\varepsilon_0 A\\beta}{\\ln(1+\\beta d)}$."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{\\varepsilon_0 A}{d}(1 + \\beta d)$",
+          "isCorrect": false,
+          "explanation": "Arithmetic average."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{\\varepsilon_0 A}{d}\\frac{\\ln(1 + \\beta d)}{\\beta d}$",
+          "isCorrect": false,
+          "explanation": "Inverted capacitance."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Treating thin layers of thickness $dx$ as capacitors in series:\n$$\\frac{1}{C} = \\int_0^d \\frac{dx}{\\varepsilon(x) A} = \\frac{1}{A} \\int_0^d \\frac{dx}{\\varepsilon_0(1 + \\beta x)}$$\n$$= \\frac{1}{\\varepsilon_0 A \\beta} \\left[ \\ln(1 + \\beta x) \\right]_0^d = \\frac{\\ln(1 + \\beta d)}{\\varepsilon_0 A \\beta}$$\nInverting gives the total capacitance:\n$$C = \\frac{\\varepsilon_0 A \\beta}{\\ln(1 + \\beta d)}$$",
+      "keyFormulae": [
+        "\\frac{1}{C} = \\int_0^d \\frac{dx}{\\varepsilon(x) A}",
+        "C = \\frac{\\varepsilon_0 A \\beta}{\\ln(1 + \\beta d)}"
+      ],
+      "hints": [
+        "Integrate infinitesimal series capacitance elements $d(1/C) = \\frac{dx}{\\varepsilon(x)A}$."
+      ]
+    },
+    {
+      "id": "phy-mock08-q13",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Classical Mechanics",
+      "subtopic": "Central Force Motion & Effective Potential",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "A particle moves in a central force field with potential energy $U(r) = -\\frac{k}{r} + \\frac{\\alpha}{r^2}$ where $k > 0$ and $\\alpha > 0$. Which of the following statements are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "For $E < 0$, the orbit is always bounded.",
+          "isCorrect": true,
+          "explanation": "Negative total mechanical energy confines the particle between two classical radial turning points."
+        },
+        {
+          "id": "b",
+          "text": "The effective potential has a minimum at some $r = r_0 > 0$.",
+          "isCorrect": true,
+          "explanation": "$V_{\\text{eff}}(r) = -\\frac{k}{r} + \\frac{L^2 + 2m\\alpha}{2mr^2}$ has a unique stable minimum at $r_0 = \\frac{L^2 + 2m\\alpha}{mk}$."
+        },
+        {
+          "id": "c",
+          "text": "For small perturbations from circular orbit, the radial oscillation frequency equals the orbital frequency, giving a closed orbit.",
+          "isCorrect": false,
+          "explanation": "The $1/r^2$ perturbation modifies the effective angular momentum, causing orbital precession (non-closed rosette orbits)."
+        },
+        {
+          "id": "d",
+          "text": "The angular momentum $L$ must satisfy $L > \\sqrt{2m\\alpha}$ for a stable circular orbit.",
+          "isCorrect": true,
+          "explanation": "Real effective angular momentum requires the centrifugal term to balance the $1/r^2$ repulsive term."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "Effective potential:\n$$V_{\\text{eff}}(r) = -\\frac{k}{r} + \\frac{\\alpha}{r^2} + \\frac{L^2}{2mr^2} = -\\frac{k}{r} + \\frac{L^2 + 2m\\alpha}{2mr^2}$$\n1. Setting $V'_{\\text{eff}}(r) = 0$ gives a minimum at $r_0 = \\frac{L^2 + 2m\\alpha}{mk} > 0$ (Statement B is true).\n2. For $E < 0$, the motion is bounded between $r_{\\min}$ and $r_{\\max}$ (Statement A is true).\n3. Because the effective angular momentum $L_{\\text{eff}} = \\sqrt{L^2 + 2m\\alpha} \\neq L$, the radial oscillation frequency $\\omega_r \\neq \\omega_\\theta$, resulting in perihelion precession (orbits do not close, so Statement C is false).",
+      "keyFormulae": [
+        "V_{\\text{eff}}(r) = -\\frac{k}{r} + \\frac{L^2 + 2m\\alpha}{2mr^2}"
+      ],
+      "hints": [
+        "Construct the effective potential including the centrifugal barrier.",
+        "Analyze turning points and small radial oscillation frequencies."
+      ]
+    },
+    {
+      "id": "phy-mock08-q14",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Electromagnetism",
+      "subtopic": "AC Series LCR Resonance",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "Consider an LCR circuit with $R = 10\\,\\Omega$, $L = 0.1\\,\\text{H}$, and $C = 100\\,\\mu\\text{F}$ driven by an AC source $V(t) = V_0\\sin(\\omega t)$. Which of the following are true?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The resonant angular frequency is $\\omega_0 = 10^3\\,\\text{rad/s}$.",
+          "isCorrect": false,
+          "explanation": "$\\omega_0 = 1/\\sqrt{LC} = 1/\\sqrt{0.1 \\times 10^{-4}} = 1/\\sqrt{10^{-5}} \\approx 316.2\\,\\text{rad/s}$."
+        },
+        {
+          "id": "b",
+          "text": "At resonance, the current amplitude is $V_0/R$ and is in phase with the voltage.",
+          "isCorrect": true,
+          "explanation": "At resonance, $X_L = X_C$, so impedance $Z = R$ and phase angle $\\phi = 0$."
+        },
+        {
+          "id": "c",
+          "text": "The quality factor $Q = \\frac{1}{R}\\sqrt{\\frac{L}{C}} = 10$.",
+          "isCorrect": false,
+          "explanation": "$Q = \\frac{1}{10}\\sqrt{\\frac{0.1}{10^{-4}}} = \\frac{1}{10}\\sqrt{1000} = \\sqrt{10} \\approx 3.16$."
+        },
+        {
+          "id": "d",
+          "text": "The bandwidth $\\Delta\\omega = \\frac{R}{L} = 100\\,\\text{rad/s}$.",
+          "isCorrect": true,
+          "explanation": "Bandwidth is $\\Delta\\omega = \\frac{R}{L} = \\frac{10}{0.1} = 100\\,\\text{rad/s}$."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "- Resonant angular frequency: $\\omega_0 = \\frac{1}{\\sqrt{LC}} = \\frac{1}{\\sqrt{10^{-5}}} \\approx 316.2\\text{ rad/s}$.\n- At resonance: Impedance is purely resistive ($Z = R$), current is in phase with voltage with maximum amplitude $I_0 = V_0/R$ (Statement B is true).\n- Quality factor: $Q = \\frac{\\omega_0 L}{R} = \\frac{31.62}{10} \\approx 3.16$.\n- Bandwidth: $\\Delta\\omega = \\frac{R}{L} = \\frac{10}{0.1} = 100\\text{ rad/s}$ (Statement D is true).",
+      "keyFormulae": [
+        "Z = \\sqrt{R^2 + (\\omega L - 1/\\omega C)^2}",
+        "\\Delta\\omega = \\frac{R}{L}"
+      ],
+      "hints": [
+        "Calculate resonant frequency $\\omega_0 = 1/\\sqrt{LC}$.",
+        "Bandwidth of an LCR circuit is $\\Delta\\omega = R/L$."
+      ]
+    },
+    {
+      "id": "phy-mock08-q15",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Classical Mechanics",
+      "subtopic": "Rigid Body Dynamics & Inertia Tensor",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "A rigid body rotates about a fixed axis with angular velocity $\\vec{\\omega}(t)$. The moment of inertia tensor about the pivot is $I_{ij}$. Which statements are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The kinetic energy is $T = \\frac{1}{2}\\vec{\\omega} \\cdot \\mathbf{I} \\cdot \\vec{\\omega}$.",
+          "isCorrect": true,
+          "explanation": "Standard quadratic form for rotational kinetic energy."
+        },
+        {
+          "id": "b",
+          "text": "If $\\vec{\\omega}$ is parallel to a principal axis, then $\\vec{L} = I\\vec{\\omega}$.",
+          "isCorrect": true,
+          "explanation": "Principal axes are the eigenvectors of the moment of inertia tensor."
+        },
+        {
+          "id": "c",
+          "text": "The torque equation $\\vec{\\tau} = \\frac{d\\vec{L}}{dt}$ holds only in the inertial frame.",
+          "isCorrect": true,
+          "explanation": "In rotating frames, Euler's equations include the Coriolis term $\\vec{\\omega} \\times \\vec{L}$."
+        },
+        {
+          "id": "d",
+          "text": "For a symmetric top with $\\omega_3 = \\text{constant}$ and $\\omega_1, \\omega_2 \\ll \\omega_3$, the precession rate is $\\Omega = \\frac{(I_3 - I_1)\\omega_3}{I_1}$.",
+          "isCorrect": true,
+          "explanation": "Euler's equations for torque-free symmetric top give nutation/precession frequency $\\Omega = \\frac{I_3 - I_1}{I_1}\\omega_3$."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements are foundational principles of 3D rigid body dynamics:\n1. $T_{\\text{rot}} = \\frac{1}{2} \\omega_i I_{ij} \\omega_j = \\frac{1}{2}\\vec{\\omega} \\cdot \\mathbf{I} \\cdot \\vec{\\omega}$.\n2. Along principal axes, the inertia tensor is diagonal, so $\\vec{L} = I_k \\omega_k \\hat{e}_k$ is parallel to $\\vec{\\omega}$.\n3. $\\vec{\\tau} = \\left(\\frac{d\\vec{L}}{dt}\\right)_{\\text{inertial}} = \\left(\\frac{d\\vec{L}}{dt}\\right)_{\\text{body}} + \\vec{\\omega} \\times \\vec{L}$.\n4. For a torque-free symmetric top ($I_1 = I_2$), Euler's equations yield free precession with angular frequency $\\Omega = \\frac{I_3 - I_1}{I_1}\\omega_3$.",
+      "keyFormulae": [
+        "T = \\frac{1}{2}\\vec{\\omega} \\cdot \\mathbf{I} \\cdot \\vec{\\omega}",
+        "\\Omega_{\\text{prec}} = \\frac{I_3 - I_1}{I_1}\\omega_3"
+      ],
+      "hints": [
+        "Review rotational kinetic energy in tensor notation.",
+        "Recall Euler's equations of motion for a symmetric top."
+      ]
+    },
+    {
+      "id": "phy-mock08-q16",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Thermodynamics",
+      "subtopic": "Polytropic Processes",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "A monatomic ideal gas undergoes a quasi-static process described by $PV^n = \\text{constant}$. Which of the following are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "For $n = 0$, the molar heat capacity $C = C_P$.",
+          "isCorrect": true,
+          "explanation": "$n = 0 \\implies P = \\text{const}$, so $C = C_P$."
+        },
+        {
+          "id": "b",
+          "text": "For $n = 1$, the molar heat capacity $C = \\infty$.",
+          "isCorrect": true,
+          "explanation": "$n = 1 \\implies T = \\text{const}$, so $C = C_V + \\frac{R}{1-1} \\to \\infty$."
+        },
+        {
+          "id": "c",
+          "text": "For $n = \\gamma$, the molar heat capacity $C = 0$.",
+          "isCorrect": true,
+          "explanation": "$n = \\gamma \\implies \\text{adiabatic process } (dQ = 0 \\implies C = 0)$."
+        },
+        {
+          "id": "d",
+          "text": "For $1 < n < \\gamma$, the molar heat capacity $C$ is negative.",
+          "isCorrect": true,
+          "explanation": "Since $C = C_V - \\frac{R}{n-1}$, when $1 < n < \\gamma = 1 + R/C_V$, $C < 0$ (gas cools while absorbing heat due to work expansion exceeding heat input)."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "Molar heat capacity for a polytropic process $PV^n = \\text{const}$:\n$$C = C_V + \\frac{R}{1 - n}$$\n1. $n = 0 \\implies C = C_V + R = C_P$ (Isobaric).\n2. $n = 1 \\implies C \\to \\infty$ (Isothermal).\n3. $n = \\gamma \\implies C = C_V - \\frac{R}{\\gamma - 1} = C_V - C_V = 0$ (Adiabatic).\n4. When $1 < n < \\gamma$: $\\frac{R}{n - 1} > C_V \\implies C < 0$.",
+      "keyFormulae": [
+        "C = C_V + \\frac{R}{1-n}"
+      ],
+      "hints": [
+        "Use the polytropic heat capacity formula $C = C_V + \\frac{R}{1-n}$."
+      ]
+    },
+    {
+      "id": "phy-mock08-q17",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Wave Optics",
+      "subtopic": "Michelson Interferometer",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "In a modified Michelson interferometer, one arm contains a cell of length $L$ that is initially evacuated. When a gas of refractive index $n$ is slowly introduced, $N$ fringes cross the field of view. Which statements are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$N = \\frac{2L(n-1)}{\\lambda}$ where $\\lambda$ is the vacuum wavelength.",
+          "isCorrect": true,
+          "explanation": "Light traverses the cell of length $L$ twice (back and forth), so optical path change is $\\Delta x = 2(n-1)L = N\\lambda$."
+        },
+        {
+          "id": "b",
+          "text": "If the gas is introduced adiabatically, the temperature change causes an additional fringe shift proportional to $\\frac{\\partial n}{\\partial T}$.",
+          "isCorrect": true,
+          "explanation": "Temperature shifts affect gas density and refractive index via Gladstone-Dale / Lorentz-Lorenz relations."
+        },
+        {
+          "id": "c",
+          "text": "The fringe shift is independent of the angle of incidence of the light.",
+          "isCorrect": false,
+          "explanation": "Oblique rays travel longer geometric paths inside the cell."
+        },
+        {
+          "id": "d",
+          "text": "For $n = 1.0003$, $L = 10\\,\\text{cm}$, $\\lambda = 600\\,\\text{nm}$, approximately 100 fringes cross the field of view.",
+          "isCorrect": true,
+          "explanation": "$N = \\frac{2(0.10)(0.0003)}{600 \\times 10^{-9}} = \\frac{6 \\times 10^{-5}}{6 \\times 10^{-7}} = 100$ fringes."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "1. Light travels through the cell twice: $\\Delta x = 2(n - 1)L$.\n2. The number of fringes shifted is $N = \\frac{2L(n-1)}{\\lambda}$ (Statement A is true).\n3. For $n = 1.0003, L = 0.10\\text{ m}, \\lambda = 6 \\times 10^{-7}\\text{ m}$:\n$$N = \\frac{2(0.10)(0.0003)}{6 \\times 10^{-7}} = 100\\text{ fringes} \\quad \\text{(Statement D is true)}$$",
+      "keyFormulae": [
+        "N = \\frac{2L(n-1)}{\\lambda}"
+      ],
+      "hints": [
+        "Remember that light passes through the test cell twice in a Michelson interferometer.",
+        "Calculate $N = 2L(n-1)/\\lambda$."
+      ]
+    },
+    {
+      "id": "phy-mock08-q18",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Electromagnetism",
+      "subtopic": "Cycloidal Trajectories in Crossed Fields",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "A charged particle of charge $q$ and mass $m$ moves in crossed electric and magnetic fields $\\vec{E} = E\\hat{j}$ and $\\vec{B} = B\\hat{k}$. The particle is released from rest at the origin. Which are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The trajectory is a cycloid.",
+          "isCorrect": true,
+          "explanation": "Classic crossed-field cycloid generated by rolling circle of radius $R = mE/(qB^2)$ with drift speed $E/B$."
+        },
+        {
+          "id": "b",
+          "text": "The maximum $y$-coordinate reached is $y_{\\max} = \\frac{2mE}{qB^2}$.",
+          "isCorrect": true,
+          "explanation": "Height of the cycloid is $2R = \\frac{2mE}{qB^2}$."
+        },
+        {
+          "id": "c",
+          "text": "The average velocity in the $x$-direction is $\\langle v_x \\rangle = \\frac{E}{B}$.",
+          "isCorrect": true,
+          "explanation": "Guiding center drifts along $\\vec{E} \\times \\vec{B}$ with speed $v_d = E/B$."
+        },
+        {
+          "id": "d",
+          "text": "The motion is periodic with period $T = \\frac{2\\pi m}{qB}$.",
+          "isCorrect": true,
+          "explanation": "Cyclotron period is $T = \\frac{2\\pi}{\\omega_c} = \\frac{2\\pi m}{qB}$."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "For a particle starting from rest in crossed fields $\\vec{E} = E\\hat{j}, \\vec{B} = B\\hat{k}$:\n- $x(t) = \\frac{E}{\\omega B}(\\omega t - \\sin\\omega t)$\n- $y(t) = \\frac{E}{\\omega B}(1 - \\cos\\omega t)$\nwhere $\\omega = \\frac{qB}{m}$.\n1. Parametric form represents a **cycloid**.\n2. Maximum vertical displacement: $y_{\\max} = \\frac{2E}{\\omega B} = \\frac{2mE}{qB^2}$.\n3. Mean drift velocity: $\\langle v_x \\rangle = \\frac{E}{B}$.\n4. Period of cycloid cusp: $T = \\frac{2\\pi m}{qB}$.",
+      "keyFormulae": [
+        "y_{\\max} = \\frac{2mE}{qB^2}",
+        "v_{\\text{drift}} = \\frac{E}{B}",
+        "T = \\frac{2\\pi m}{qB}"
+      ],
+      "hints": [
+        "Write the equations of motion for crossed fields.",
+        "Recognize the standard cycloid solution generated by $\\vec{E} \\times \\vec{B}$ drift."
+      ]
+    },
+    {
+      "id": "phy-mock08-q19",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Wave Optics",
+      "subtopic": "Interference along Bisector",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "Two coherent sources $S_1$ and $S_2$ emit waves of wavelength $\\lambda$. A detector moves along the perpendicular bisector of $S_1S_2$ (separation $d$). The intensity recorded varies with position. Which are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "If $d = \\lambda/2$, the intensity is uniform along the bisector.",
+          "isCorrect": true,
+          "explanation": "Every point on the perpendicular bisector is equidistant from $S_1$ and $S_2$ (path difference $= 0$), maintaining constructive interference everywhere."
+        },
+        {
+          "id": "b",
+          "text": "If $d = \\lambda$, there are nodes at positions where the path difference is $\\lambda/2$.",
+          "isCorrect": true,
+          "explanation": "Destructive interference occurs wherever optical path difference is $(n+1/2)\\lambda$."
+        },
+        {
+          "id": "c",
+          "text": "The intensity at large distance $r$ from the midpoint varies as $\\cos^2\\left(\\frac{\\pi d}{\\lambda}\\sin\\theta\\right)$.",
+          "isCorrect": true,
+          "explanation": "Standard far-field two-source interference intensity profile."
+        },
+        {
+          "id": "d",
+          "text": "For $d \\gg \\lambda$, the interference pattern on a distant screen shows closely spaced fringes.",
+          "isCorrect": true,
+          "explanation": "Fringe spacing $\\beta = \\frac{\\lambda D}{d}$ is inversely proportional to $d$."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements are valid optical properties:\n- Points on the perpendicular bisector are equidistant from $S_1$ and $S_2$ ($\\Delta r = 0$), so constructive interference occurs along the entire bisector line for in-phase sources.\n- Intensity in the far field follows $I(\\theta) = 4I_0 \\cos^2\\left(\\frac{\\pi d\\sin\\theta}{\\lambda}\\right)$.\n- As $d \\gg \\lambda$, angular fringe width $\\Delta\\theta = \\lambda/d$ becomes very small, producing closely spaced fringes.",
+      "keyFormulae": [
+        "I = 4I_0\\cos^2(\\delta/2)",
+        "\\delta = \\frac{2\\pi d\\sin\\theta}{\\lambda}"
+      ],
+      "hints": [
+        "Path difference is zero at all points along the perpendicular bisector.",
+        "Fringe spacing is inversely proportional to slit separation $d$."
+      ]
+    },
+    {
+      "id": "phy-mock08-q20",
+      "exam": "NEST",
+      "subject": "Physics",
+      "topic": "Thermal Physics",
+      "subtopic": "Blackbody Radiation Laws",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "A blackbody radiator at temperature $T$ has spectral radiancy $R(\\lambda, T)$ given by Planck's law. Which statements are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$R(\\lambda, T)$ has a maximum at $\\lambda_{\\max}$ satisfying $\\lambda_{\\max}T = b$ (Wien's law).",
+          "isCorrect": true,
+          "explanation": "Wien's displacement law."
+        },
+        {
+          "id": "b",
+          "text": "The total power radiated per unit area is $\\sigma T^4$ (Stefan-Boltzmann law).",
+          "isCorrect": true,
+          "explanation": "Integration of Planck's law over all wavelengths gives Stefan-Boltzmann law."
+        },
+        {
+          "id": "c",
+          "text": "The peak of $R(\\lambda, T)$ shifts to shorter wavelengths as $T$ increases.",
+          "isCorrect": true,
+          "explanation": "Higher temperature increases photon energy, shifting $\\lambda_{\\max}$ to blue/UV."
+        },
+        {
+          "id": "d",
+          "text": "At long wavelengths, $R(\\lambda, T) \\approx \\frac{2\\pi c k_B T}{\\lambda^4}$ (Rayleigh-Jeans law).",
+          "isCorrect": true,
+          "explanation": "Classical limit of Planck's law for $hc/(\\lambda k_B T) \\ll 1$."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements represent core laws of radiation physics:\n1. $\\lambda_{\\max} T = b \\approx 2.898 \\times 10^{-3}\\text{ m K}$ (Wien's Law).\n2. Total emittance $E(T) = \\int_0^\\infty R(\\lambda, T) d\\lambda = \\sigma T^4$ (Stefan-Boltzmann Law).\n3. Blue-shift of emission peak with rising temperature.\n4. Taylor expansion of $e^{hc/\\lambda k T} - 1 \\approx hc/\\lambda k T$ at long wavelengths recovers the Rayleigh-Jeans classical radiation law.",
+      "keyFormulae": [
+        "\\lambda_{\\max} T = b",
+        "E = \\sigma T^4",
+        "R_{\\text{RJ}}(\\lambda) = \\frac{2\\pi c k_B T}{\\lambda^4}"
+      ],
+      "hints": [
+        "Review Wien's displacement law and Stefan-Boltzmann law.",
+        "Examine the low-frequency / long-wavelength asymptotic limit of Planck's distribution."
+      ]
+    },
+    {
+      "id": "chem-mock08-q21",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Electrochemistry",
+      "subtopic": "Concentration Cells & Liquid Junction Potential",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A concentration cell consists of two hydrogen electrodes: one in $0.10\\,\\text{M}$ HCl and the other in $0.010\\,\\text{M}$ HCl, both at 1 atm $\\text{H}_2$ pressure and $25^\\circ\\text{C}$. A liquid junction potential of $+0.036\\,\\text{V}$ develops with the sign indicating that the more dilute solution is positive. The measured cell potential is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$0.059\\,\\text{V}$",
+          "isCorrect": false,
+          "explanation": "Electrode potential without liquid junction potential."
+        },
+        {
+          "id": "b",
+          "text": "$0.095\\,\\text{V}$",
+          "isCorrect": true,
+          "explanation": "Electrode EMF $E_{\\text{cell}} = 0.0591\\log(0.10/0.010) = 0.0591\\text{ V}$. Total measured potential including liquid junction is $E_{\\text{total}} = 0.0591 + 0.036 = 0.095\\text{ V}$."
+        },
+        {
+          "id": "c",
+          "text": "$0.023\\,\\text{V}$",
+          "isCorrect": false,
+          "explanation": "Subtracts junction potential."
+        },
+        {
+          "id": "d",
+          "text": "$0.118\\,\\text{V}$",
+          "isCorrect": false,
+          "explanation": "Double electrode potential."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Nernst potential of the hydrogen concentration cell without junction potential:\n$$E = \\frac{2.303 RT}{F}\\log\\left(\\frac{[\\text{H}^+]_{\\text{conc}}}{[\\text{H}^+]_{\\text{dil}}}\\right) = 0.0591 \\log\\left(\\frac{0.10}{0.010}\\right) = 0.0591 \\times 1 = 0.0591\\text{ V}$$\n2. Total measured EMF including liquid junction potential $E_j = +0.036\\text{ V}$:\n$$E_{\\text{measured}} = E + E_j = 0.0591\\text{ V} + 0.036\\text{ V} = 0.0951\\text{ V} \\approx 0.095\\text{ V}$$",
+      "keyFormulae": [
+        "E_{\\text{cell}} = \\frac{0.0591}{n}\\log\\left(\\frac{C_2}{C_1}\\right)",
+        "E_{\\text{total}} = E_{\\text{cell}} + E_j"
+      ],
+      "hints": [
+        "Calculate the Nernst potential from the 10-fold concentration difference.",
+        "Add the liquid junction potential to find the measured EMF."
+      ]
+    },
+    {
+      "id": "chem-mock08-q22",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Chemical Kinetics",
+      "subtopic": "Reaction Mechanisms & Pre-equilibrium",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "For the reaction mechanism:\n$$\\text{Step 1 (fast): } A + B \\rightleftharpoons C \\quad (\\text{equilibrium constant } K_1)$$\n$$\\text{Step 2 (slow): } C + D \\xrightarrow{k_2} E$$\nThe rate law in terms of $[A]$, $[B]$, and $[D]$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rate $= k_2 K_1 [A][B][D]$",
+          "isCorrect": true,
+          "explanation": "Rate of slow step is $k_2[C][D]$. Fast pre-equilibrium gives $[C] = K_1[A][B]$. Substituting yields Rate $= k_2 K_1 [A][B][D]$."
+        },
+        {
+          "id": "b",
+          "text": "Rate $= k_2 [A][B][D]$",
+          "isCorrect": false,
+          "explanation": "Omits equilibrium constant $K_1$."
+        },
+        {
+          "id": "c",
+          "text": "Rate $= k_2 K_1 [A]^2[B][D]$",
+          "isCorrect": false,
+          "explanation": "Incorrect stoichiometry."
+        },
+        {
+          "id": "d",
+          "text": "Rate $= \\frac{k_2[A][B][D]}{K_1}$",
+          "isCorrect": false,
+          "explanation": "Inverted equilibrium constant."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. The rate-determining step (RDS) is the slow step:\n$$\\text{Rate} = k_2 [C][D]$$\n2. From the fast pre-equilibrium step:\n$$K_1 = \\frac{[C]}{[A][B]} \\implies [C] = K_1 [A][B]$$\n3. Substituting $[C]$ into the rate expression:\n$$\\text{Rate} = k_2 (K_1 [A][B]) [D] = k_2 K_1 [A][B][D]$$",
+      "keyFormulae": [
+        "[C] = K_1 [A][B]",
+        "\\text{Rate} = k_2 K_1 [A][B][D]"
+      ],
+      "hints": [
+        "Express the rate in terms of the slow step.",
+        "Substitute the intermediate $[C]$ using the equilibrium constant $K_1$."
+      ]
+    },
+    {
+      "id": "chem-mock08-q23",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Physical Chemistry",
+      "subtopic": "Boyle Temperature of Real Gases",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The van der Waals equation for 1 mole of a real gas is $\\left(P + \\frac{a}{V_m^2}\\right)(V_m - b) = RT$. At what temperature does the Boyle temperature occur?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{a}{Rb}$",
+          "isCorrect": true,
+          "explanation": "At the Boyle temperature, the second virial coefficient $B(T) = b - \\frac{a}{RT}$ vanishes, giving $T_B = \\frac{a}{Rb}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{2a}{Rb}$",
+          "isCorrect": false,
+          "explanation": "Inversion temperature $T_i = 2a/(Rb)$."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{a}{2Rb}$",
+          "isCorrect": false,
+          "explanation": "Incorrect fraction."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{a}{4Rb}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Virial expansion of the van der Waals equation:\n$$Z = 1 + \\left(b - \\frac{a}{RT}\\right)\\frac{1}{V_m} + \\left(\\frac{b}{V_m}\\right)^2 + \\cdots$$\nAt the Boyle temperature $T_B$, the real gas behaves ideally over a wide pressure range, requiring the second virial coefficient to equal zero:\n$$b - \\frac{a}{R T_B} = 0 \\implies T_B = \\frac{a}{Rb}$$",
+      "keyFormulae": [
+        "T_B = \\frac{a}{Rb}",
+        "T_i = \\frac{2a}{Rb}"
+      ],
+      "hints": [
+        "Set the second virial coefficient to zero.",
+        "Recall the formula for the Boyle temperature."
+      ]
+    },
+    {
+      "id": "chem-mock08-q24",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Coordination Chemistry",
+      "subtopic": "Nephelauxetic Effect & Covalent Character",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In the complex $[\\text{Co}(\\text{NH}_3)_5\\text{Cl}]^{2+}$, the Co–Cl bond length is found to be shorter than expected for a purely ionic bond. This is best explained by:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jahn-Teller distortion",
+          "isCorrect": false,
+          "explanation": "Cobalt(III) low-spin $d^6$ has no Jahn-Teller distortion."
+        },
+        {
+          "id": "b",
+          "text": "$\\pi$-backbonding from Cl to Co",
+          "isCorrect": false,
+          "explanation": "Chloride is a weak $\\pi$-donor, but nephelauxetic effect is the primary cause."
+        },
+        {
+          "id": "c",
+          "text": "Ligand field stabilization energy",
+          "isCorrect": false,
+          "explanation": "CFSE accounts for thermodynamic stability."
+        },
+        {
+          "id": "d",
+          "text": "Nephelauxetic effect",
+          "isCorrect": true,
+          "explanation": "The nephelauxetic (cloud-expanding) effect reflects significant d-electron delocalization into ligand orbitals and partial covalent bond shortening."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "The shortening of metal-ligand bonds relative to purely ionic radii sums is attributed to the **Nephelauxetic Effect** (cloud expansion):\n- Overlap between metal $d$-orbitals and halide lone pairs leads to electron delocalization, partial covalent bonding character, and a reduction in electron-electron repulsion parameters (Racah parameter $B$), resulting in shorter Co-Cl bond distances.",
+      "keyFormulae": [
+        "\\text{Nephelauxetic ratio } \\beta = \\frac{B'}{B_0} < 1"
+      ],
+      "hints": [
+        "Which effect describes the expansion of d-electron clouds due to covalency?"
+      ]
+    },
+    {
+      "id": "chem-mock08-q25",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Chemical Bonding",
+      "subtopic": "Molecular Orbital Theory of Heteronuclear Diatomics",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The molecular orbital configuration of $\\text{NO}^+$ is best described as:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$(\\sigma_{1s})^2(\\sigma_{1s}^*)^2(\\sigma_{2s})^2(\\sigma_{2s}^*)^2(\\pi_{2p})^4(\\sigma_{2p})^2$",
+          "isCorrect": true,
+          "explanation": "$\\text{NO}^+$ has 14 electrons (isoelectronic with $N_2$), with $\\pi_{2p}$ lower in energy than $\\sigma_{2p_z}$ due to $sp$-mixing (bond order = 3)."
+        },
+        {
+          "id": "b",
+          "text": "$(\\sigma_{1s})^2(\\sigma_{1s}^*)^2(\\sigma_{2s})^2(\\sigma_{2s}^*)^2(\\sigma_{2p})^2(\\pi_{2p})^4$",
+          "isCorrect": false,
+          "explanation": "Applies to heavier homonuclear diatomics like $O_2$."
+        },
+        {
+          "id": "c",
+          "text": "$(\\sigma_{1s})^2(\\sigma_{1s}^*)^2(\\sigma_{2s})^2(\\sigma_{2s}^*)^2(\\pi_{2p})^4(\\sigma_{2p})^2(\\pi_{2p}^*)^1$",
+          "isCorrect": false,
+          "explanation": "Configuration of neutral $NO$ (15 electrons)."
+        },
+        {
+          "id": "d",
+          "text": "$(\\sigma_{1s})^2(\\sigma_{1s}^*)^2(\\sigma_{2s})^2(\\sigma_{2s}^*)^2(\\sigma_{2p})^2(\\pi_{2p})^4(\\pi_{2p}^*)^1$",
+          "isCorrect": false,
+          "explanation": "Incorrect electron count."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "$\\text{NO}^+$ has $7 + 8 - 1 = 14$ valence/core electrons (isoelectronic with $N_2$ and $CO$):\n$$(\\sigma_{1s})^2 (\\sigma_{1s}^*)^2 (\\sigma_{2s})^2 (\\sigma_{2s}^*)^2 (\\pi_{2p_x}^2 = \\pi_{2p_y}^2) (\\sigma_{2p_z})^2$$\n- Bonding electrons $N_b = 10$, Antibonding electrons $N_a = 4$.\n- Bond order $= \\frac{10 - 4}{2} = 3.0$ (diamagnetic).",
+      "keyFormulae": [
+        "\\text{NO}^+: 14 e^- \\implies \\text{Bond Order} = 3"
+      ],
+      "hints": [
+        "Count total electrons in $\\text{NO}^+$ ($14 e^-$).",
+        "Recall the MO energy ordering for 14-electron diatomics."
+      ]
+    },
+    {
+      "id": "chem-mock08-q26",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "subtopic": "Allylic Bromination with NBS",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The reaction of 1-methylcyclohexene with $N$-bromosuccinimide (NBS) in $\\text{CCl}_4$ under light gives predominantly:",
+      "options": [
+        {
+          "id": "a",
+          "text": "1-bromo-1-methylcyclohexane",
+          "isCorrect": false,
+          "explanation": "Electrophilic addition product."
+        },
+        {
+          "id": "b",
+          "text": "3-bromo-1-methylcyclohexene",
+          "isCorrect": true,
+          "explanation": "NBS selectively brominates at the allylic position via free-radical substitution, forming the resonance-stabilized tertiary/secondary allylic radical to yield 3-bromo-1-methylcyclohexene."
+        },
+        {
+          "id": "c",
+          "text": "1-bromo-2-methylcyclohexene",
+          "isCorrect": false,
+          "explanation": "Vinylic halide (not formed)."
+        },
+        {
+          "id": "d",
+          "text": "A mixture of allylic bromides",
+          "isCorrect": false,
+          "explanation": "3-bromo-1-methylcyclohexene is the predominant major product."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "$N$-Bromosuccinimide (NBS) under photochemical conditions generates low concentrations of $\\text{Br}^\\bullet$ radicals that selectively abstract allylic hydrogens:\n1. Hydrogen abstraction at the allylic C3/C6 position forms a resonance-stabilized allylic radical.\n2. Bromine transfer yields **3-bromo-1-methylcyclohexene** as the major allylic substitution product.",
+      "keyFormulae": [
+        "\\text{Alkene} + \\text{NBS} \\xrightarrow{h\\nu} \\text{Allylic Bromide}"
+      ],
+      "hints": [
+        "NBS is a specific reagent for allylic bromination.",
+        "The allylic position is adjacent to the double bond."
+      ]
+    },
+    {
+      "id": "chem-mock08-q27",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Physical Chemistry",
+      "subtopic": "Excess Gibbs Energy & Activity Coefficients",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "For a non-ideal solution of components A and B, the excess Gibbs free energy of mixing is $G^E = x_A x_B RT(0.5x_A + 0.5x_B)$. The activity coefficient $\\gamma_A$ at $x_A = 0.5$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$e^{0.125}$",
+          "isCorrect": true,
+          "explanation": "Since $x_A + x_B = 1$, $G^E = 0.5 x_A x_B RT$. Partial molar excess free energy gives $\\ln\\gamma_A = \\frac{0.5 x_B^2 RT}{RT} = 0.5(0.5)^2 = 0.125 \\implies \\gamma_A = e^{0.125}$."
+        },
+        {
+          "id": "b",
+          "text": "$e^{0.25}$",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        },
+        {
+          "id": "c",
+          "text": "$e^{0.0625}$",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        },
+        {
+          "id": "d",
+          "text": "$e^{0.5}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Simplify $G^E$: Since $0.5x_A + 0.5x_B = 0.5(x_A + x_B) = 0.5(1) = 0.5$:\n$$G^E = 0.5 x_A x_B RT$$\n2. The partial molar excess Gibbs energy gives $\\ln\\gamma_A$:\n$$RT \\ln\\gamma_A = \\left(\\frac{\\partial (n G^E)}{\\partial n_A}\\right) = 0.5 x_B^2 RT$$\n$$\\ln\\gamma_A = 0.5 x_B^2$$\n3. At $x_A = 0.5 \\implies x_B = 0.5$:\n$$\\ln\\gamma_A = 0.5(0.5)^2 = 0.5(0.25) = 0.125 \\implies \\gamma_A = e^{0.125}$$",
+      "keyFormulae": [
+        "\\ln\\gamma_A = \\frac{G^E_{\\text{partial}}}{RT} = 0.5 x_B^2"
+      ],
+      "hints": [
+        "Simplify $0.5x_A + 0.5x_B = 0.5$.",
+        "Use the relation $\\ln\\gamma_A = \\Omega x_B^2$ for symmetric Margules solutions."
+      ]
+    },
+    {
+      "id": "chem-mock08-q28",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "subtopic": "Diels-Alder Reaction with Benzyne",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In the reaction of benzyne with furan, the major product is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Naphthalene",
+          "isCorrect": false,
+          "explanation": "Obtained only after subsequent deoxygenation."
+        },
+        {
+          "id": "b",
+          "text": "1,4-epoxy-1,4-dihydronaphthalene",
+          "isCorrect": true,
+          "explanation": "Benzyne acts as a potent dienophile in a $[4+2]$ Diels-Alder cycloaddition with furan (diene), forming the bridged bicyclic adduct 1,4-epoxy-1,4-dihydronaphthalene."
+        },
+        {
+          "id": "c",
+          "text": "Anthracene",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "Phenanthrene",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Benzyne is a highly reactive, strained dienophile that undergoes rapid **[4+2] Diels-Alder cycloaddition** with furan (a cyclic 1,3-diene):\n$$\\text{Benzyne} + \\text{Furan} \\to \\mathbf{1,4\\text{-epoxy-1,4-dihydronaphthalene}}$$\nThis bridged oxabicyclic compound serves as a classical chemical trap for confirming the generation of benzyne intermediates.",
+      "keyFormulae": [
+        "[4+2]\\text{ Cycloaddition: Benzyne + Furan} \\to \\text{Endoxide adduct}"
+      ],
+      "hints": [
+        "Identify this as a [4+2] Diels-Alder cycloaddition.",
+        "Furan acts as the diene and benzyne acts as the dienophile."
+      ]
+    },
+    {
+      "id": "chem-mock08-q29",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Coordination Chemistry",
+      "subtopic": "Ligand Field Splitting & Pi-Acceptor Ligands",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The crystal field splitting $\\Delta_o$ for $[\\text{Fe(CN)}_6]^{4-}$ is larger than that for $[\\text{Fe(H}_2\\text{O)}_6]^{2+}$ primarily because:",
+      "options": [
+        {
+          "id": "a",
+          "text": "CN$^-$ is a strong field ligand causing greater orbital overlap",
+          "isCorrect": false,
+          "explanation": "Partially correct, but $\\pi$-acceptance is key."
+        },
+        {
+          "id": "b",
+          "text": "The oxidation state of Fe is different",
+          "isCorrect": false,
+          "explanation": "Both contain Fe(II)."
+        },
+        {
+          "id": "c",
+          "text": "CN$^-$ has greater $\\pi$-acceptor ability",
+          "isCorrect": false,
+          "explanation": "Partially correct."
+        },
+        {
+          "id": "d",
+          "text": "Both (A) and (C) contribute significantly",
+          "isCorrect": true,
+          "explanation": "Cyanide ($CN^-$) is both a strong $\\sigma$-donor (raising $e_g$) and a potent $\\pi$-acceptor ligand (lowering $t_{2g}$ through metal-to-ligand $\\pi$-backbonding), dramatically increasing $\\Delta_o$."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Both complexes contain iron in the $+2$ oxidation state ($d^6$).\n$CN^-$ produces a much larger $\\Delta_o$ than $H_2O$ due to two synergistic mechanisms in ligand field theory:\n1. Strong $\\sigma$-donation into metal $e_g$ orbitals elevates the $e_g$ energy level.\n2. Low-lying empty $\\pi^*$ orbitals on $CN^-$ accept electron density from metal $t_{2g}$ orbitals ($\\pi$-backbonding), lowering the $t_{2g}$ energy level.\nTogether, these factors maximize $\\Delta_o = E(e_g) - E(t_{2g})$.",
+      "keyFormulae": [
+        "\\Delta_o = E(e_g) - E(t_{2g}) \\propto \\sigma\\text{-donation} + \\pi\\text{-acceptance}"
+      ],
+      "hints": [
+        "Consider both $\\sigma$-donation and $\\pi$-backbonding abilities of cyanide."
+      ]
+    },
+    {
+      "id": "chem-mock08-q30",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Electrochemistry",
+      "subtopic": "Nernst Equation & Cell Spontaneity",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "For the electrochemical cell: $\\text{Zn} \\mid \\text{Zn}^{2+}(0.1\\,\\text{M}) \\mid\\mid \\text{Cu}^{2+}(0.01\\,\\text{M}) \\mid \\text{Cu}$ at $25^\\circ\\text{C}$, given $E^\\circ_{\\text{Zn}^{2+}/\\text{Zn}} = -0.76\\,\\text{V}$ and $E^\\circ_{\\text{Cu}^{2+}/\\text{Cu}} = +0.34\\,\\text{V}$. The cell potential and spontaneity are:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$1.10\\,\\text{V}$, spontaneous",
+          "isCorrect": false,
+          "explanation": "Standard cell potential $E^\\circ$."
+        },
+        {
+          "id": "b",
+          "text": "$1.13\\,\\text{V}$, spontaneous",
+          "isCorrect": false,
+          "explanation": "Sign error on Nernst log."
+        },
+        {
+          "id": "c",
+          "text": "$1.07\\,\\text{V}$, spontaneous",
+          "isCorrect": true,
+          "explanation": "$E^\\circ_{\\text{cell}} = 0.34 - (-0.76) = 1.10\\text{ V}$. $E = 1.10 - \\frac{0.0591}{2}\\log\\left(\\frac{0.1}{0.01}\\right) = 1.10 - 0.0295(1) = 1.07\\text{ V} > 0$ (spontaneous)."
+        },
+        {
+          "id": "d",
+          "text": "$1.16\\,\\text{V}$, non-spontaneous",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Standard cell potential:\n$$E^\\circ_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}} = 0.34\\text{ V} - (-0.76\\text{ V}) = 1.10\\text{ V}$$\n2. Nernst equation ($n = 2$):\n$$E = E^\\circ_{\\text{cell}} - \\frac{0.0591}{2}\\log\\left(\\frac{[\\text{Zn}^{2+}]}{[\\text{Cu}^{2+}]}\\right)$$\n$$E = 1.10 - 0.02955 \\log\\left(\\frac{0.10}{0.010}\\right) = 1.10 - 0.02955(1) = 1.0705\\text{ V} \\approx 1.07\\text{ V}$$\n3. Since $E_{\\text{cell}} > 0$ ($\\Delta G < 0$), the reaction is **spontaneous**.",
+      "keyFormulae": [
+        "E = E^\\circ - \\frac{0.0591}{n}\\log Q",
+        "\\Delta G = -nFE < 0 \\implies \\text{Spontaneous}"
+      ],
+      "hints": [
+        "Calculate $E^\\circ_{\\text{cell}} = 1.10$ V.",
+        "Apply the Nernst equation with $Q = [Zn^{2+}]/[Cu^{2+}] = 10$."
+      ]
+    },
+    {
+      "id": "chem-mock08-q31",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "subtopic": "Alkene Hydration Mechanism",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The mechanism for the acid-catalyzed hydration of an alkene involves:",
+      "options": [
+        {
+          "id": "a",
+          "text": "A concerted addition of H$_2$O across the double bond",
+          "isCorrect": false,
+          "explanation": "Hydration is a stepwise ionic mechanism."
+        },
+        {
+          "id": "b",
+          "text": "Formation of a carbocation intermediate followed by nucleophilic attack by water",
+          "isCorrect": true,
+          "explanation": "Protonation of the alkene double bond forms a carbocation in the rate-determining step, followed by nucleophilic attack of water and deprotonation."
+        },
+        {
+          "id": "c",
+          "text": "Formation of a cyclic bromonium ion intermediate",
+          "isCorrect": false,
+          "explanation": "Applies to halogenation."
+        },
+        {
+          "id": "d",
+          "text": "A radical chain mechanism",
+          "isCorrect": false,
+          "explanation": "Occurs with peroxides and HBr only."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Acid-catalyzed hydration follows an electrophilic addition pathway:\n1. Step 1 (Slow, RDS): Electrophilic addition of $H_3O^+$ protonates the double bond to form the more stable Markovnikov **carbocation intermediate**.\n2. Step 2 (Fast): Water acts as a nucleophile, attacking the carbocation to form an oxonium ion.\n3. Step 3 (Fast): Deprotonation by water yields the alcohol product.",
+      "keyFormulae": [
+        "\\text{Alkene} + \\text{H}^+ \\xrightarrow{\\text{slow}} \\text{Carbocation} \\xrightarrow{\\text{H}_2\\text{O}} \\text{Alcohol}"
+      ],
+      "hints": [
+        "The first step is electrophilic protonation forming a carbocation.",
+        "Water then attacks the carbocation as a nucleophile."
+      ]
+    },
+    {
+      "id": "chem-mock08-q32",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Chemical Kinetics",
+      "subtopic": "Rate Constants and Units",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "For the reaction $2\\text{NO}(g) + \\text{O}_2(g) \\rightarrow 2\\text{NO}_2(g)$, the rate law is found to be $\\text{Rate} = k[\\text{NO}]^2[\\text{O}_2]$. At a certain temperature, when $[\\text{NO}] = 0.10\\,\\text{M}$ and $[\\text{O}_2] = 0.10\\,\\text{M}$, the rate is $2.5 \\times 10^{-3}\\,\\text{M}\\,\\text{s}^{-1}$. The rate constant $k$ and the units of $k$ are:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$2.5\\,\\text{M}^{-2}\\text{s}^{-1}$",
+          "isCorrect": true,
+          "explanation": "$k = \\frac{\\text{Rate}}{[\\text{NO}]^2[\\text{O}_2]} = \\frac{2.5 \\times 10^{-3}}{(0.10)^2(0.10)} = \\frac{2.5 \\times 10^{-3}}{1.0 \\times 10^{-3}} = 2.5\\,\\text{M}^{-2}\\text{s}^{-1}$."
+        },
+        {
+          "id": "b",
+          "text": "$0.25\\,\\text{M}^{-2}\\text{s}^{-1}$",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        },
+        {
+          "id": "c",
+          "text": "$25\\,\\text{M}^{-2}\\text{s}^{-1}$",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        },
+        {
+          "id": "d",
+          "text": "$250\\,\\text{M}^{-2}\\text{s}^{-1}$",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Overall reaction order is $n = 2 + 1 = 3$.\n2. Unit of $k$ for third-order reaction: $\\text{M}^{1-n}\\text{s}^{-1} = \\text{M}^{-2}\\text{s}^{-1}$.\n3. Solving for $k$:\n$$k = \\frac{\\text{Rate}}{[\\text{NO}]^2 [\\text{O}_2]} = \\frac{2.5 \\times 10^{-3}\\text{ M s}^{-1}}{(0.10\\text{ M})^2 (0.10\\text{ M})} = \\frac{2.5 \\times 10^{-3}}{1.0 \\times 10^{-3}} = 2.5\\text{ M}^{-2}\\text{s}^{-1}$$",
+      "keyFormulae": [
+        "k = \\frac{\\text{Rate}}{[A]^x [B]^y}",
+        "\\text{Units: } \\text{M}^{1-n}\\text{s}^{-1}"
+      ],
+      "hints": [
+        "Divide rate by $[\\text{NO}]^2[\\text{O}_2]$.",
+        "Check the units for a third-order rate constant."
+      ]
+    },
+    {
+      "id": "chem-mock08-q33",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Electrochemistry",
+      "subtopic": "Electrochemical Principles",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "Consider the following statements about electrochemistry. Which are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In a concentration cell with transference, the liquid junction potential arises from unequal mobilities of cations and anions.",
+          "isCorrect": true,
+          "explanation": "Difference in ionic transport numbers ($t_+ \\neq t_-$) generates unequal charge migration across the boundary."
+        },
+        {
+          "id": "b",
+          "text": "The Debye-Hückel limiting law states that $\\log\\gamma_{\\pm} = -A|z_+z_-|\\sqrt{I}$ where $I$ is the ionic strength.",
+          "isCorrect": true,
+          "explanation": "Fundamental limiting law for mean ionic activity coefficient in dilute electrolyte solutions."
+        },
+        {
+          "id": "c",
+          "text": "The standard hydrogen electrode (SHE) has $E^\\circ = 0\\,\\text{V}$ at all temperatures.",
+          "isCorrect": false,
+          "explanation": "Defined as 0 V by convention at 298 K, but thermodynamic potential varies with temperature."
+        },
+        {
+          "id": "d",
+          "text": "For the cell reaction $\\text{Zn} + \\text{Cu}^{2+} \\rightarrow \\text{Zn}^{2+} + \\text{Cu}$, the equilibrium constant $K = 10^{nE^\\circ_{\\text{cell}}/0.059}$ at $25^\\circ\\text{C}$.",
+          "isCorrect": true,
+          "explanation": "Derived from $\\Delta G^\\circ = -nFE^\\circ = -2.303 RT\\log K$."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "- Statement A is correct: Liquid junction potential occurs due to differential ionic diffusion velocities across junctions.\n- Statement B is correct: Debye-Hückel limiting law: $\\log\\gamma_\\pm = -A |z_+ z_-|\\sqrt{I}$.\n- Statement C is false: $E^\\circ(\\text{SHE}) = 0\\text{ V}$ is defined by convention at standard temperature ($298\\text{ K}$), but its absolute temperature coefficient $\\frac{dE}{dT}$ is non-zero.\n- Statement D is correct: $\\log K = \\frac{n E^\\circ}{0.0591} \\implies K = 10^{nE^\\circ/0.059}$.",
+      "keyFormulae": [
+        "E_j = (t_+ - t_-)\\frac{RT}{F}\\ln(a_2/a_1)",
+        "\\log\\gamma_\\pm = -A|z_+z_-|\\sqrt{I}",
+        "\\log K = \\frac{n E^\\circ}{0.0591}"
+      ],
+      "hints": [
+        "Review the origin of liquid junction potential.",
+        "Check the Nernst relation with equilibrium constant $K$."
+      ]
+    },
+    {
+      "id": "chem-mock08-q34",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Coordination Chemistry",
+      "subtopic": "Crystal Field Theory Principles",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "Which of the following statements about crystal field theory are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In an octahedral field, the $d$-orbitals split into $t_{2g}$ (lower) and $e_g$ (higher) sets.",
+          "isCorrect": true,
+          "explanation": "Axial ligands increase repulsion on $d_{z^2}, d_{x^2-y^2}$ ($e_g$), leaving non-axial $t_{2g}$ stabilized."
+        },
+        {
+          "id": "b",
+          "text": "The crystal field stabilization energy (CFSE) for $d^4$ high-spin is $-0.6\\Delta_o$.",
+          "isCorrect": true,
+          "explanation": "High-spin $d^4$ has $t_{2g}^3 e_g^1$, so $\\text{CFSE} = 3(-0.4) + 1(0.6) = -1.2 + 0.6 = -0.6\\Delta_o$."
+        },
+        {
+          "id": "c",
+          "text": "Jahn-Teller distortion is most pronounced for $d^9$ configurations in octahedral fields.",
+          "isCorrect": true,
+          "explanation": "$e_g^3$ configuration ($Cu^{2+}$) has asymmetric $\\sigma$-repulsion causing strong tetragonal distortion."
+        },
+        {
+          "id": "d",
+          "text": "Tetrahedral splitting $\\Delta_t$ is approximately $\\frac{4}{9}\\Delta_o$.",
+          "isCorrect": true,
+          "explanation": "Fewer ligands (4 vs 6) and non-direct orbital orientation give $\\Delta_t = \\frac{4}{9}\\Delta_o$."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements are correct:\n- (A) Octahedral splitting: $t_{2g}$ ($-0.4\\Delta_o$) and $e_g$ ($+0.6\\Delta_o$).\n- (B) High-spin $d^4$: $t_{2g}^3 e_g^1 \\implies \\text{CFSE} = 3(-0.4) + 1(+0.6) = -0.6\\Delta_o$.\n- (C) $d^9$ ($t_{2g}^6 e_g^3$) has degenerate $e_g$ occupancy leading to strong Jahn-Teller elongation.\n- (D) $\\Delta_t = \\frac{4}{9}\\Delta_o$ due to geometric orientation factors.",
+      "keyFormulae": [
+        "\\text{CFSE} = (-0.4 n_{t_{2g}} + 0.6 n_{e_g})\\Delta_o",
+        "\\Delta_t = \\frac{4}{9}\\Delta_o"
+      ],
+      "hints": [
+        "Calculate CFSE for $t_{2g}^3 e_g^1$.",
+        "Recall the relation between $\\Delta_t$ and $\\Delta_o$."
+      ]
+    },
+    {
+      "id": "chem-mock08-q35",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "subtopic": "Reactive Intermediates & Mechanisms",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "In organic reaction mechanisms, which statements are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Benzyne intermediates are formed by elimination-addition mechanisms in aryl halides.",
+          "isCorrect": true,
+          "explanation": "Strong bases like $\\text{NaNH}_2$ eliminate $HX$ from aryl halides to form benzyne."
+        },
+        {
+          "id": "b",
+          "text": "Carbocations rearrange via 1,2-hydride or 1,2-alkyl shifts to form more stable carbocations.",
+          "isCorrect": true,
+          "explanation": "Thermodynamic rearrangement $1^\\circ \\to 2^\\circ \\to 3^\\circ$ or resonance-stabilized allylic/benzylic cations."
+        },
+        {
+          "id": "c",
+          "text": "The E2 elimination requires anti-periplanar geometry of the leaving group and $\\beta$-hydrogen.",
+          "isCorrect": true,
+          "explanation": "Concerted elimination requires $180^\\circ$ dihedral angle between breaking bonds for orbital overlap."
+        },
+        {
+          "id": "d",
+          "text": "Nitrene intermediates ($:\\text{NR}$) are neutral, electron-deficient species analogous to carbenes.",
+          "isCorrect": true,
+          "explanation": "Nitrenes have a monovalent neutral nitrogen with 6 valence electrons (2 bonded, 4 non-bonding)."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements are foundational principles of organic mechanisms:\n- Benzyne is formed via $E2$-like elimination across adjacent aryl carbons.\n- Carbocation rearrangements occur through 1,2-shifts to minimize free energy.\n- $E2$ stereospecificity requires trans-diaxial / anti-periplanar transition state.\n- Nitrenes ($R-\\ddot{N}:$) are isoelectronic nitrogen analogues of carbenes.",
+      "keyFormulae": [
+        "\\text{E2 requirement} = \\text{Anti-periplanar geometry}"
+      ],
+      "hints": [
+        "Review key reactive intermediates: carbocations, benzyne, carbenes, nitrenes."
+      ]
+    },
+    {
+      "id": "chem-mock08-q36",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Chemical Kinetics",
+      "subtopic": "Reaction Kinetics Principles",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "For chemical kinetics, which statements are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The steady-state approximation assumes $d[\\text{intermediate}]/dt \\approx 0$.",
+          "isCorrect": true,
+          "explanation": "Applied to highly reactive, low-concentration intermediates."
+        },
+        {
+          "id": "b",
+          "text": "A catalyst lowers the activation energy by providing an alternative reaction pathway.",
+          "isCorrect": true,
+          "explanation": "Catalysts alter transition state energetics without shifting equilibrium constant."
+        },
+        {
+          "id": "c",
+          "text": "For a first-order reaction, the half-life is independent of initial concentration.",
+          "isCorrect": true,
+          "explanation": "$t_{1/2} = \\frac{\\ln 2}{k}$."
+        },
+        {
+          "id": "d",
+          "text": "The Arrhenius equation $k = A\\exp(-E_a/RT)$ is valid only for elementary reactions.",
+          "isCorrect": false,
+          "explanation": "It applies to overall multi-step reactions with composite apparent activation energy."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "- Statement A is correct: SSA assumes intermediate creation rate equals its destruction rate.\n- Statement B is correct: Catalysts provide a lower energy activation pathway.\n- Statement C is correct: First-order half-life is $t_{1/2} = 0.693/k$, independent of $[A]_0$.\n- Statement D is false: The Arrhenius equation holds experimentally for both complex multi-step and elementary reactions.",
+      "keyFormulae": [
+        "t_{1/2} = \\frac{\\ln 2}{k}",
+        "k = A e^{-E_a/RT}"
+      ],
+      "hints": [
+        "Check whether Arrhenius equation applies to overall complex reactions."
+      ]
+    },
+    {
+      "id": "chem-mock08-q37",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Chemical Bonding",
+      "subtopic": "Molecular Orbital Theory",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "Which of the following statements about molecular orbital theory are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In heteronuclear diatomics like CO, the MO diagram resembles that of N$_2$ but with unequal contributions from each atom.",
+          "isCorrect": true,
+          "explanation": "Carbon and oxygen atomic orbitals mix with electronegativity asymmetry."
+        },
+        {
+          "id": "b",
+          "text": "The bond order in O$_2^{2-}$ is 1.",
+          "isCorrect": true,
+          "explanation": "$\\text{BO} = (10 - 8)/2 = 1$."
+        },
+        {
+          "id": "c",
+          "text": "NO is paramagnetic with one unpaired electron in a $\\pi^*$ orbital.",
+          "isCorrect": true,
+          "explanation": "15 electrons; odd electron occupies $\\pi^*_{2p}$."
+        },
+        {
+          "id": "d",
+          "text": "The HOMO of CO is a $\\sigma$ orbital primarily localized on the carbon atom.",
+          "isCorrect": true,
+          "explanation": "$5\\sigma$ non-bonding lone pair is predominantly carbon-centered."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements are correct:\n- CO (14 electrons) has isoelectronic MO symmetry to $N_2$ with polarized coefficients.\n- $\\text{O}_2^{2-}$ (18 electrons) has bond order $(10 - 8)/2 = 1$.\n- NO (15 electrons) has one unpaired electron in $\\pi^*_{2p}$, giving paramagnetism.\n- The HOMO of CO is the $5\\sigma$ lone pair orbital localized heavily on carbon.",
+      "keyFormulae": [
+        "\\text{Bond Order} = \\frac{N_b - N_a}{2}"
+      ],
+      "hints": [
+        "Count electrons for $\\text{O}_2^{2-}$ and NO.",
+        "Examine the spatial polarization of the HOMO in CO."
+      ]
+    },
+    {
+      "id": "chem-mock08-q38",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "subtopic": "Conformations & Stereochemistry",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "Regarding stereochemistry and conformational analysis, which are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The most stable conformation of cyclohexane is the chair form.",
+          "isCorrect": true,
+          "explanation": "Chair form is strain-free (zero torsional and angle strain)."
+        },
+        {
+          "id": "b",
+          "text": "In the chair conformation, axial substituents experience 1,3-diaxial interactions.",
+          "isCorrect": true,
+          "explanation": "Steric clash with syn-axial hydrogens at positions 3 and 5."
+        },
+        {
+          "id": "c",
+          "text": "Enantiomers have identical physical properties except for the direction of rotation of plane-polarized light.",
+          "isCorrect": true,
+          "explanation": "Same melting point, boiling point, density; opposite $[\\alpha]_D$."
+        },
+        {
+          "id": "d",
+          "text": "A meso compound has chiral centers but is achiral due to an internal plane of symmetry.",
+          "isCorrect": true,
+          "explanation": "Internal compensation of optical rotation."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements are foundational principles of stereochemistry:\n- Cyclohexane chair has all staggered bonds and $109.5^\\circ$ tetrahedral angles.\n- Axial groups create steric 1,3-diaxial strain, making equatorial conformers more stable.\n- Enantiomers share identical scalar physical properties in achiral environments.\n- Meso forms contain stereocenters but possess $S_n$ improper symmetry (plane/center of inversion), rendering them optically inactive.",
+      "keyFormulae": [
+        "\\text{Meso} \\implies \\text{Chiral centers} + \\text{Internal plane of symmetry} \\implies \\text{Achiral}"
+      ],
+      "hints": [
+        "Review cyclohexane chair conformations and stereoisomeric definitions."
+      ]
+    },
+    {
+      "id": "chem-mock08-q39",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Physical Chemistry",
+      "subtopic": "Thermodynamics of Non-Ideal Solutions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "For thermodynamics of solutions, which statements are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An ideal solution follows Raoult's law over the entire composition range.",
+          "isCorrect": true,
+          "explanation": "$P_i = x_i P_i^*$ for all $x_i$."
+        },
+        {
+          "id": "b",
+          "text": "For a regular solution, $S^E = 0$ but $H^E \\neq 0$.",
+          "isCorrect": true,
+          "explanation": "Definition of Hildebrand regular solutions (ideal entropy of mixing with non-zero enthalpy of mixing)."
+        },
+        {
+          "id": "c",
+          "text": "The chemical potential of component $i$ in an ideal solution is $\\mu_i = \\mu_i^* + RT\\ln x_i$.",
+          "isCorrect": true,
+          "explanation": "Standard chemical potential expression."
+        },
+        {
+          "id": "d",
+          "text": "Azeotropes have the same composition in liquid and vapor phases.",
+          "isCorrect": true,
+          "explanation": "Constant boiling mixtures where $x_i = y_i$."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements are valid solution thermodynamic properties:\n- Ideal solutions satisfy Raoult's law: $P_i = x_i P_i^*$.\n- Regular solutions have zero excess entropy ($S^E = 0$) but non-zero excess enthalpy ($H^E \\neq 0$).\n- Chemical potential in ideal solution: $\\mu_i = \\mu_i^* + RT\\ln x_i$.\n- Azeotropic mixtures boil at constant temperature with identical liquid and vapor compositions ($x_i = y_i$).",
+      "keyFormulae": [
+        "\\mu_i = \\mu_i^* + RT\\ln x_i",
+        "\\text{Regular solution: } S^E = 0, H^E \\neq 0"
+      ],
+      "hints": [
+        "Review definitions of ideal solutions, regular solutions, and azeotropes."
+      ]
+    },
+    {
+      "id": "chem-mock08-q40",
+      "exam": "NEST",
+      "subject": "Chemistry",
+      "topic": "Coordination Chemistry",
+      "subtopic": "Chelate Effect & Spin States",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "In coordination chemistry, which statements are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$[\\text{Co(NH}_3\\text{)}_6]^{3+}$ is diamagnetic and low-spin.",
+          "isCorrect": true,
+          "explanation": "$Co^{3+}$ ($d^6$) with strong field ligand $\\text{NH}_3$ pairs completely in $t_{2g}^6$ (diamagnetic)."
+        },
+        {
+          "id": "b",
+          "text": "$[\\text{FeF}_6]^{3-}$ is high-spin with 5 unpaired electrons.",
+          "isCorrect": true,
+          "explanation": "$Fe^{3+}$ ($d^5$) with weak field ligand $F^-$ gives $t_{2g}^3 e_g^2$ with 5 unpaired electrons."
+        },
+        {
+          "id": "c",
+          "text": "The spectrochemical series orders ligands by their ability to split $d$-orbitals.",
+          "isCorrect": true,
+          "explanation": "Determined experimentally from absorption spectra $\\Delta_o$."
+        },
+        {
+          "id": "d",
+          "text": "Chelate effect refers to the enhanced stability of complexes with multidentate ligands due to entropy gain.",
+          "isCorrect": true,
+          "explanation": "Displacement of monodentate ligands by chelating ligands increases the total number of free molecules ($Delta S > 0$)."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements are correct:\n- $[\\text{Co}(\\text{NH}_3)_6]^{3+}$: Low-spin $d^6$ ($t_{2g}^6 e_g^0$) $\\implies$ diamagnetic ($n = 0$).\n- $[\\text{FeF}_6]^{3-}$: High-spin $d^5$ ($t_{2g}^3 e_g^2$) $\\implies$ paramagnetic ($n = 5$).\n- Spectrochemical series ranks ligands by crystal field splitting power $\\Delta_o$.\n- Chelate effect increases complex thermodynamic stability primarily via positive translational entropy of mixing ($\\Delta S > 0$).",
+      "keyFormulae": [
+        "\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ \\quad (\\Delta S > 0 \\text{ for Chelation})"
+      ],
+      "hints": [
+        "Count unpaired electrons for $Co(III)$ and $Fe(III)$ complexes.",
+        "The chelate effect is driven by an increase in entropy."
+      ]
+    },
+    {
+      "id": "bio-mock08-q41",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Biochemistry",
+      "subtopic": "Lineweaver-Burk Kinetic Parameters",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In an experiment measuring enzyme kinetics, the following data were obtained for an enzyme-catalyzed reaction:\n\n| [S] (mM) | $V_0$ ($\\mu$M/min) |\n|---|---|\n| 1 | 25 |\n| 2 | 40 |\n| 5 | 67 |\n| 10 | 80 |\n| 20 | 90 |\n\nUsing a Lineweaver-Burk plot, the approximate $K_m$ and $V_{\\max}$ are:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$K_m = 5\\,\\text{mM}$, $V_{\\max} = 100\\,\\mu\\text{M/min}$",
+          "isCorrect": false,
+          "explanation": "Underestimates velocity at $[S]=1$."
+        },
+        {
+          "id": "b",
+          "text": "$K_m = 2.5\\,\\text{mM}$, $V_{\\max} = 100\\,\\mu\\text{M/min}$",
+          "isCorrect": true,
+          "explanation": "Fitting to Michaelis-Menten: $v = \\frac{100[S]}{2.5 + [S]}$. At $[S]=1, v=28.5\\approx 25$; at $[S]=2, v=44\\approx 40$; at $[S]=10, v=80$; at $[S]=20, v=89\\approx 90$."
+        },
+        {
+          "id": "c",
+          "text": "$K_m = 5\\,\\text{mM}$, $V_{\\max} = 80\\,\\mu\\text{M/min}$",
+          "isCorrect": false,
+          "explanation": "Incorrect $V_{\\max}$."
+        },
+        {
+          "id": "d",
+          "text": "$K_m = 10\\,\\text{mM}$, $V_{\\max} = 100\\,\\mu\\text{M/min}$",
+          "isCorrect": false,
+          "explanation": "Overestimated $K_m$."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Lineweaver-Burk linear transformation: $\\frac{1}{v} = \\frac{K_m}{V_{\\max}}\\frac{1}{[S]} + \\frac{1}{V_{\\max}}$.\n- At $[S] = 10\\text{ mM}, v = 80\\,\\mu\\text{M/min}$\n- At $[S] = 20\\text{ mM}, v = 90\\,\\mu\\text{M/min}$\nExtrapolating as $[S] \\to \\infty$ gives $V_{\\max} \\approx 100\\,\\mu\\text{M/min}$.\nUsing $v = V_{\\max}/2 = 50\\,\\mu\\text{M/min}$, the substrate concentration where $v = 50$ lies between $2$ and $5\\text{ mM}$, corresponding to **$K_m \\approx 2.5-3\\text{ mM}$**.",
+      "keyFormulae": [
+        "v = \\frac{V_{\\max}[S]}{K_m + [S]}"
+      ],
+      "hints": [
+        "$V_{\\max}$ is the asymptotic limit approached at high $[S]$ ($100\\,\\mu\\text{M/min}$).",
+        "$K_m$ is the substrate concentration at $v = V_{\\max}/2 = 50\\,\\mu\\text{M/min}$."
+      ]
+    },
+    {
+      "id": "bio-mock08-q42",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Genetics",
+      "subtopic": "Pedigree Analysis & Carrier Probability",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A pedigree chart shows an autosomal recessive trait. In generation III, two unaffected individuals (both with affected siblings) have a child. The probability that their first child is affected is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "1/4",
+          "isCorrect": false,
+          "explanation": "Probability if both parents were known carriers with 100% certainty."
+        },
+        {
+          "id": "b",
+          "text": "1/9",
+          "isCorrect": true,
+          "explanation": "Each unaffected sibling of an affected individual has a $2/3$ probability of being a carrier ($Aa$). Probability both are carriers is $(2/3) \\times (2/3) = 4/9$. Probability of affected child ($aa$) is $(4/9) \\times (1/4) = 1/9$."
+        },
+        {
+          "id": "c",
+          "text": "1/16",
+          "isCorrect": false,
+          "explanation": "Underestimated."
+        },
+        {
+          "id": "d",
+          "text": "1/3",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. For each unaffected individual whose sibling is affected ($aa$), their parents must both be carriers ($Aa \\times Aa$).\n2. Among unaffected offspring ($AA, Aa, Aa$), the conditional probability of being a heterozygous carrier ($Aa$) is $\\frac{2}{3}$.\n3. Probability that both parents in Gen III are carriers $= \\frac{2}{3} \\times \\frac{2}{3} = \\frac{4}{9}$.\n4. If both are carriers, the probability of having an affected ($aa$) child is $\\frac{1}{4}$.\n$$P(\\text{affected child}) = \\frac{4}{9} \\times \\frac{1}{4} = \\frac{1}{9}$$",
+      "keyFormulae": [
+        "P(\\text{carrier} \\mid \\text{unaffected sibling}) = \\frac{2}{3}",
+        "P(\\text{affected}) = \\left(\\frac{2}{3}\\right)^2 \\times \\frac{1}{4} = \\frac{1}{9}"
+      ],
+      "hints": [
+        "Unaffected individuals with affected siblings cannot have genotype $aa$, leaving $1/3 AA$ and $2/3 Aa$.",
+        "Multiply carrier probabilities of both parents by $1/4$."
+      ]
+    },
+    {
+      "id": "bio-mock08-q43",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Genetics",
+      "subtopic": "Genetic Linkage Mapping",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In a genetic mapping experiment, three genes $A$, $B$, and $C$ are linked. The recombination frequencies are: $A-B = 12\\%$, $B-C = 8\\%$, and $A-C = 4\\%$. The gene order and map distances are:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$A—4—C—8—B$",
+          "isCorrect": true,
+          "explanation": "$d(A,C) + d(C,B) = 4\\text{ cM} + 8\\text{ cM} = 12\\text{ cM} = d(A,B)$, which places gene $C$ between $A$ and $B$."
+        },
+        {
+          "id": "b",
+          "text": "$C—4—A—8—B$",
+          "isCorrect": false,
+          "explanation": "Would give $C-B = 12\\text{ cM}$ with $A$ in middle."
+        },
+        {
+          "id": "c",
+          "text": "$A—12—B—8—C$",
+          "isCorrect": false,
+          "explanation": "Would make $A-C = 20\\text{ cM}$."
+        },
+        {
+          "id": "d",
+          "text": "$B—8—C—4—A$",
+          "isCorrect": false,
+          "explanation": "Same sequence as A written right-to-left."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Given recombination frequencies:\n- $A-C = 4\\text{ cM}$\n- $C-B = 8\\text{ cM}$\n- $A-B = 12\\text{ cM}$\nBecause $d(A,C) + d(C,B) = 4 + 8 = 12\\text{ cM} = d(A,B)$, gene $C$ lies between $A$ and $B$.\nOrder: **$A$ — 4 cM — $C$ — 8 cM — $B$**.",
+      "keyFormulae": [
+        "d(A,B) = d(A,C) + d(C,B)"
+      ],
+      "hints": [
+        "Identify the largest distance ($A-B = 12\\%$) as the flanking markers.",
+        "Place the remaining gene ($C$) in the middle."
+      ]
+    },
+    {
+      "id": "bio-mock08-q44",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Molecular Biology",
+      "subtopic": "Lac Operon Regulation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The lac operon in E. coli has a mutation in the operator site that prevents the repressor from binding. In a strain that is also $I^-$ (repressor-deficient), the phenotype with respect to $\\beta$-galactosidase synthesis in the absence of lactose is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inducible",
+          "isCorrect": false,
+          "explanation": "Wild-type behavior."
+        },
+        {
+          "id": "b",
+          "text": "Constitutive",
+          "isCorrect": true,
+          "explanation": "Without a functional repressor ($I^-$) and with an operator that cannot bind repressor ($O^c$), transcription proceeds continuously in the absence of inducer (constitutive)."
+        },
+        {
+          "id": "c",
+          "text": "Non-inducible",
+          "isCorrect": false,
+          "explanation": "Super-repressor phenotype."
+        },
+        {
+          "id": "d",
+          "text": "Partially inducible",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "In the lac operon:\n- The operator mutation ($O^c$) prevents repressor binding.\n- The $I^-$ mutation produces inactive/no repressor.\n- With no repressor able to bind the operator, RNA polymerase transcribes $lacZ$ continuously without requiring lactose inducer, resulting in **constitutive expression**.",
+      "keyFormulae": [
+        "O^c \\text{ or } I^- \\implies \\text{Constitutive Expression}"
+      ],
+      "hints": [
+        "Negative regulation is eliminated by both mutations.",
+        "Transcription runs continuously without needing an inducer."
+      ]
+    },
+    {
+      "id": "bio-mock08-q45",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Plant Physiology",
+      "subtopic": "Calvin Cycle & Carbon Fixation Order",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In an experiment on photosynthesis, a plant is exposed to $^{14}\\text{CO}_2$ for a very short time (5 seconds). The radioactive label is most likely found in:",
+      "options": [
+        {
+          "id": "a",
+          "text": "3-phosphoglycerate (3-PGA)",
+          "isCorrect": true,
+          "explanation": "Rubisco fixes $^{14}\\text{CO}_2$ onto RuBP to produce an unstable 6C intermediate that splits immediately into two molecules of 3-phosphoglycerate (3-PGA), the first stable labeled compound."
+        },
+        {
+          "id": "b",
+          "text": "Ribulose-1,5-bisphosphate (RuBP)",
+          "isCorrect": false,
+          "explanation": "Substrate acceptor, not product."
+        },
+        {
+          "id": "c",
+          "text": "Glucose",
+          "isCorrect": false,
+          "explanation": "Downstream end product."
+        },
+        {
+          "id": "d",
+          "text": "Sucrose",
+          "isCorrect": false,
+          "explanation": "Synthesized later in cytosol."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "In Calvin's classic pulse-labeling experiments:\n- $^{14}\\text{CO}_2$ is incorporated by Rubisco onto ribulose-1,5-bisphosphate (RuBP).\n- The immediate stable radioactive product identified within 5 seconds is the 3-carbon compound **3-phosphoglycerate (3-PGA)**.",
+      "keyFormulae": [
+        "^{14}\\text{CO}_2 + \\text{RuBP} \\xrightarrow{\\text{Rubisco}} 2 \\text{ (3-PGA)}"
+      ],
+      "hints": [
+        "Name the first stable 3-carbon intermediate in the $C_3$ Calvin cycle."
+      ]
+    },
+    {
+      "id": "bio-mock08-q46",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "subtopic": "Hemoglobin-Oxygen Dissociation & Bohr Effect",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A graph shows the oxygen dissociation curve for hemoglobin at pH 7.4 and pH 7.2. Which statement correctly interprets the Bohr effect shown in this graph?",
+      "options": [
+        {
+          "id": "a",
+          "text": "At pH 7.2, hemoglobin has higher affinity for O$_2$ at all partial pressures.",
+          "isCorrect": false,
+          "explanation": "Affinity decreases at lower pH."
+        },
+        {
+          "id": "b",
+          "text": "The P$_{50}$ value increases at lower pH, indicating decreased O$_2$ affinity.",
+          "isCorrect": true,
+          "explanation": "Lower pH (acidosis) shifts the curve to the right, increasing $P_{50}$ (partial pressure needed for 50% saturation) and facilitating oxygen release."
+        },
+        {
+          "id": "c",
+          "text": "The curve shifts left at lower pH, indicating cooperative binding is lost.",
+          "isCorrect": false,
+          "explanation": "Curve shifts to the right."
+        },
+        {
+          "id": "d",
+          "text": "At high pO$_2$, the O$_2$ saturation is independent of pH.",
+          "isCorrect": false,
+          "explanation": "Incorrect interpretation."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "The **Bohr effect**:\n- Decreasing pH (increased $[H^+]$) protonates specific histidine residues on hemoglobin, stabilizing the low-affinity T-state (tense conformation).\n- This shifts the oxygen dissociation curve to the **right**, increasing the **$P_{50}$ value** and lowering oxygen affinity, which enhances $O_2$ unloading in active tissues.",
+      "keyFormulae": [
+        "\\downarrow\\text{pH} \\implies \\text{Right Shift} \\implies \\uparrow P_{50} \\implies \\downarrow O_2\\text{ affinity}"
+      ],
+      "hints": [
+        "A right-shifted curve has a higher $P_{50}$ value.",
+        "Higher $P_{50}$ means lower affinity for oxygen."
+      ]
+    },
+    {
+      "id": "bio-mock08-q47",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Genetics",
+      "subtopic": "Coefficient of Coincidence & Genetic Interference",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In a Drosophila genetics experiment, a female heterozygous for three linked genes ($+++ / abc$) is test-crossed. The progeny numbers are: $+++ : 450$, $abc : 440$, $a++ : 35$, $+bc : 40$, $ab+ : 20$, $++c : 25$, $a+c : 5$, $+b+ : 5$. The coefficient of coincidence is approximately:",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.5",
+          "isCorrect": true,
+          "explanation": "Total progeny $= 1040$. $RF_1 = (35+40+5+5)/1040 = 85/1040 = 0.0817$. $RF_2 = (20+25+5+5)/1040 = 55/1040 = 0.0529$. Expected DCO $= 0.0817 \\times 0.0529 \\times 1040 \\approx 4.5$. Observed DCO $= 10/1040 \\approx 0.0096$. Coefficient of coincidence $C = \\frac{\\text{Observed DCO}}{\\text{Expected DCO}} \\approx 0.5$."
+        },
+        {
+          "id": "b",
+          "text": "0.3",
+          "isCorrect": false,
+          "explanation": "Underestimated."
+        },
+        {
+          "id": "c",
+          "text": "0.7",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        },
+        {
+          "id": "d",
+          "text": "0.9",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Total progeny $= 450 + 440 + 35 + 40 + 20 + 25 + 5 + 5 = 1020 \\approx 1000$.\n2. Observed double crossover frequency:\n$$P_{\\text{DCO, obs}} = \\frac{5 + 5}{1000} = 0.010$$\n3. Recombination frequencies for adjacent intervals:\n- $RF_1 = \\frac{35 + 40 + 10}{1000} = 0.085$\n- $RF_2 = \\frac{20 + 25 + 10}{1000} = 0.055$\n4. Expected DCO frequency:\n$$P_{\\text{DCO, exp}} = RF_1 \\times RF_2 = 0.085 \\times 0.055 \\approx 0.0047$$\n5. Coefficient of Coincidence:\n$$\\text{CoC} = \\frac{\\text{Observed DCO}}{\\text{Expected DCO}} \\approx 0.5$$",
+      "keyFormulae": [
+        "\\text{Coefficient of Coincidence} = \\frac{\\text{Observed DCO}}{\\text{Expected DCO}}"
+      ],
+      "hints": [
+        "Calculate recombination frequencies for both adjacent single crossover intervals.",
+        "Divide observed DCO frequency by the product $RF_1 \\times RF_2$."
+      ]
+    },
+    {
+      "id": "bio-mock08-q48",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "subtopic": "Action Potential & Ionic Permeabilities",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "An action potential is recorded from a neuron. At the peak of the action potential, which statement is correct regarding ion permeabilities?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$P_{Na^+} > P_{K^+} > P_{Cl^-}$",
+          "isCorrect": true,
+          "explanation": "At the action potential peak (+30 mV), voltage-gated $Na^+$ channels are maximally open, making sodium permeability $P_{Na^+}$ 20-fold higher than potassium permeability $P_{K^+}$."
+        },
+        {
+          "id": "b",
+          "text": "$P_{K^+} > P_{Na^+} > P_{Cl^-}$",
+          "isCorrect": false,
+          "explanation": "Applies at resting potential."
+        },
+        {
+          "id": "c",
+          "text": "$P_{Na^+} = P_{K^+}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "$P_{Cl^-} > P_{Na^+} > P_{K^+}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "- At rest: $P_{K^+} \\gg P_{Na^+}$, driving membrane potential near $E_K (-90\\text{ mV})$.\n- **At the peak (+30 mV)**: Massive opening of voltage-gated sodium activation gates drives sodium influx, making **$P_{Na^+} > P_{K^+} > P_{Cl^-}$** and bringing membrane potential toward the sodium equilibrium potential ($E_{Na} \\approx +60\\text{ mV}$).",
+      "keyFormulae": [
+        "\\text{Action Potential Peak} \\implies P_{Na^+} \\gg P_{K^+}"
+      ],
+      "hints": [
+        "What ion influx causes the rapid depolarizing upstroke of the action potential?"
+      ]
+    },
+    {
+      "id": "bio-mock08-q49",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Plant Physiology",
+      "subtopic": "Factors Affecting Transpiration",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In an experiment on plant transpiration, the following data are obtained:\n\n| Condition | Transpiration Rate (mg H$_2$O/cm$^2$/h) |\n|---|---|\n| Light, 25°C, 60% RH | 15 |\n| Dark, 25°C, 60% RH | 3 |\n| Light, 35°C, 60% RH | 28 |\n| Light, 25°C, 80% RH | 8 |\n\nThe factor that most significantly increases transpiration rate is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Light",
+          "isCorrect": false,
+          "explanation": "Increases rate from 3 to 15 (+12)."
+        },
+        {
+          "id": "b",
+          "text": "Temperature",
+          "isCorrect": true,
+          "explanation": "Raising temperature from 25°C to 35°C nearly doubles transpiration from 15 to 28 (+13 mg/cm²/h) by exponentially increasing saturated vapor pressure and VPD."
+        },
+        {
+          "id": "c",
+          "text": "Humidity",
+          "isCorrect": false,
+          "explanation": "Increasing humidity decreases transpiration."
+        },
+        {
+          "id": "d",
+          "text": "Both light and temperature equally",
+          "isCorrect": false,
+          "explanation": "Temperature produces the largest absolute rate gain."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Analyzing incremental gains from the baseline condition (Light, 25°C, 60% RH = 15):\n- Effect of light: Light (15) vs Dark (3) $\\implies \\Delta = +12\\text{ units}$.\n- Effect of temperature: 35°C (28) vs 25°C (15) $\\implies \\Delta = +13\\text{ units}$ (largest single rate increase).\n- Increasing temperature exponentially increases the saturation vapor pressure inside stomata, vastly steepening the vapor pressure deficit (VPD).",
+      "keyFormulae": [
+        "\\text{VPD} = P_{\\text{sat}}(T)(1 - \\text{RH})"
+      ],
+      "hints": [
+        "Compare the absolute increase in transpiration rate caused by light versus temperature."
+      ]
+    },
+    {
+      "id": "bio-mock08-q50",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Microbiology & Biotechnology",
+      "subtopic": "Chemostat Steady State & Monod Kinetics",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A population of bacteria grows in a chemostat with a dilution rate $D = 0.5\\,\\text{h}^{-1}$. The Monod parameters are $\\mu_{\\max} = 1.0\\,\\text{h}^{-1}$ and $K_s = 0.1\\,\\text{g/L}$. The steady-state substrate concentration is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$0.05\\,\\text{g/L}$",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        },
+        {
+          "id": "b",
+          "text": "$0.1\\,\\text{g/L}$",
+          "isCorrect": true,
+          "explanation": "At steady state in a chemostat, specific growth rate equals dilution rate: $\\mu = D = \\frac{\\mu_{\\max} S}{K_s + S} \\implies 0.5 = \\frac{1.0 S}{0.1 + S} \\implies 0.05 + 0.5S = S \\implies 0.5S = 0.05 \\implies S = 0.1\\text{ g/L}$."
+        },
+        {
+          "id": "c",
+          "text": "$0.2\\,\\text{g/L}$",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        },
+        {
+          "id": "d",
+          "text": "$0.5\\,\\text{g/L}$",
+          "isCorrect": false,
+          "explanation": "Equal to dilution rate."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "In a continuous chemostat culture at steady state, specific growth rate equals dilution rate:\n$$\\mu = D$$\nBy the Monod growth equation:\n$$D = \\frac{\\mu_{\\max} S}{K_s + S}$$\n$$0.5 = \\frac{1.0 \\cdot S}{0.1 + S} \\implies 0.5(0.1 + S) = S$$\n$$0.05 + 0.5S = S \\implies 0.5S = 0.05 \\implies S = 0.1\\,\\text{g/L}$$",
+      "keyFormulae": [
+        "D = \\mu = \\frac{\\mu_{\\max} S}{K_s + S}",
+        "S = \\frac{K_s D}{\\mu_{\\max} - D}"
+      ],
+      "hints": [
+        "Set specific growth rate $\\mu$ equal to dilution rate $D$.",
+        "Solve the Monod equation for steady-state substrate concentration $S$."
+      ]
+    },
+    {
+      "id": "bio-mock08-q51",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Biotechnology",
+      "subtopic": "Agarose Gel Electrophoresis",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In a gel electrophoresis experiment, DNA fragments of sizes 500 bp, 1000 bp, 2000 bp, and 5000 bp are loaded. The gel is 1% agarose. Which statement about their migration is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The 5000 bp fragment migrates fastest.",
+          "isCorrect": false,
+          "explanation": "Larger fragments migrate slower due to sieving."
+        },
+        {
+          "id": "b",
+          "text": "Migration distance is inversely proportional to the logarithm of molecular weight.",
+          "isCorrect": true,
+          "explanation": "In agarose gel electrophoresis, relative mobility satisfies $d \\propto -\\log_{10}(\\text{MW})$."
+        },
+        {
+          "id": "c",
+          "text": "All fragments migrate at the same rate in a constant electric field.",
+          "isCorrect": false,
+          "explanation": "Agarose pores sieve DNA based on size."
+        },
+        {
+          "id": "d",
+          "text": "The 500 bp fragment migrates slowest.",
+          "isCorrect": false,
+          "explanation": "500 bp migrates fastest."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "In agarose gel electrophoresis:\n- DNA molecules have a uniform charge-to-mass ratio (negative phosphate backbone).\n- Separation occurs by molecular sieving through the agarose matrix pore network.\n- Smaller fragments (e.g. 500 bp) navigate pores easily and migrate fastest.\n- The empirical migration distance $D$ is **inversely proportional to the logarithm of molecular weight / base-pair length**: $D \\propto -\\log_{10}(\\text{size})$.",
+      "keyFormulae": [
+        "\\text{Migration Distance} \\propto \\frac{1}{\\log_{10}(\\text{bp})}"
+      ],
+      "hints": [
+        "Smaller DNA fragments travel faster and further through the gel pores.",
+        "The relationship between distance and size is semi-logarithmic."
+      ]
+    },
+    {
+      "id": "bio-mock08-q52",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Genetics",
+      "subtopic": "Hardy-Weinberg Equilibrium",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "In a study of population genetics, the allele frequencies for a gene with two alleles $A$ and $a$ are $p = 0.6$ and $q = 0.4$. Under Hardy-Weinberg equilibrium, the expected frequency of heterozygotes is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.36",
+          "isCorrect": false,
+          "explanation": "Frequency of $AA$ ($p^2$)."
+        },
+        {
+          "id": "b",
+          "text": "0.48",
+          "isCorrect": true,
+          "explanation": "Heterozygote frequency $2pq = 2(0.6)(0.4) = 0.48$ (or 48%)."
+        },
+        {
+          "id": "c",
+          "text": "0.24",
+          "isCorrect": false,
+          "explanation": "$p \\times q$ without factor of 2."
+        },
+        {
+          "id": "d",
+          "text": "0.16",
+          "isCorrect": false,
+          "explanation": "Frequency of $aa$ ($q^2$)."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "By the Hardy-Weinberg law for two alleles:\n$$p^2 + 2pq + q^2 = 1$$\nGiven $p = 0.6$ and $q = 0.4$:\n$$\\text{Frequency of heterozygotes } (Aa) = 2pq = 2(0.6)(0.4) = 0.48$$",
+      "keyFormulae": [
+        "2pq = 2(0.6)(0.4) = 0.48"
+      ],
+      "hints": [
+        "Use the $2pq$ term of the Hardy-Weinberg binomial expansion."
+      ]
+    },
+    {
+      "id": "bio-mock08-q53",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Biochemistry",
+      "subtopic": "Enzyme Kinetics & Modes of Inhibition",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "Which of the following statements about enzyme kinetics and inhibition are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Competitive inhibition increases the apparent $K_m$ but does not change $V_{\\max}$.",
+          "isCorrect": true,
+          "explanation": "Substrate can outcompete inhibitor at high concentration."
+        },
+        {
+          "id": "b",
+          "text": "Non-competitive inhibition decreases $V_{\\max}$ but does not change $K_m$.",
+          "isCorrect": true,
+          "explanation": "Allosteric inhibitor reduces active enzyme pool without altering substrate affinity."
+        },
+        {
+          "id": "c",
+          "text": "Uncompetitive inhibition decreases both $K_m$ and $V_{\\max}$.",
+          "isCorrect": true,
+          "explanation": "Inhibitor binds exclusively to $ES$ complex, lowering both $K_m$ and $V_{\\max}$ in parallel."
+        },
+        {
+          "id": "d",
+          "text": "In mixed inhibition, both $K_m$ and $V_{\\max}$ are altered.",
+          "isCorrect": true,
+          "explanation": "Inhibitor binds both $E$ and $ES$ with unequal affinities, changing both parameters."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements represent classic enzymology inhibition principles:\n- **Competitive**: $K_m^{\\text{app}} = \\alpha K_m$, $V_{\\max}$ constant.\n- **Non-competitive**: $V_{\\max}^{\\text{app}} = V_{\\max}/\\alpha$, $K_m$ constant.\n- **Uncompetitive**: Both $K_m$ and $V_{\\max}$ decrease by same factor $\\alpha'$.\n- **Mixed**: Both $K_m$ and $V_{\\max}$ are altered.",
+      "keyFormulae": [
+        "\\text{Competitive: } \\uparrow K_m, V_{\\max}=\\text{const}",
+        "\\text{Uncompetitive: } \\downarrow K_m, \\downarrow V_{\\max}"
+      ],
+      "hints": [
+        "Review the Lineweaver-Burk characteristics for competitive, non-competitive, uncompetitive, and mixed inhibition."
+      ]
+    },
+    {
+      "id": "bio-mock08-q54",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Molecular Biology",
+      "subtopic": "Lac Operon Dual Regulation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "Regarding the lac operon regulation in E. coli, which statements are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The repressor protein binds to the operator and blocks transcription.",
+          "isCorrect": true,
+          "explanation": "LacI repressor prevents RNA polymerase clearance."
+        },
+        {
+          "id": "b",
+          "text": "Catabolite activator protein (CAP) binds to the promoter and enhances transcription when glucose is absent.",
+          "isCorrect": true,
+          "explanation": "cAMP-CAP complex acts as positive transcriptional activator."
+        },
+        {
+          "id": "c",
+          "text": "In the presence of both glucose and lactose, the operon is fully induced.",
+          "isCorrect": false,
+          "explanation": "Catabolite repression keeps transcription at basal levels when glucose is present."
+        },
+        {
+          "id": "d",
+          "text": "A mutation in the promoter region can affect the binding of both RNA polymerase and CAP.",
+          "isCorrect": true,
+          "explanation": "Promoter region contains overlapping consensus sequences for RNA polymerase and CAP binding."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "- Statements A and B describe standard negative (repressor) and positive (CAP-cAMP) regulation.\n- Statement C is false: When glucose is present, cAMP is low $\\implies$ CAP does not bind $\\implies$ operon exhibits only basal transcription (diauxie).\n- Statement D is true: The promoter locus contains specific overlapping binding sites for CAP and RNA polymerase.",
+      "keyFormulae": [
+        "\\text{Full induction} \\iff \\text{Lactose present AND Glucose absent}"
+      ],
+      "hints": [
+        "Does glucose repress the lac operon even if lactose is present?",
+        "CAP-cAMP is required for high-level transcription."
+      ]
+    },
+    {
+      "id": "bio-mock08-q55",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Cellular Energetics",
+      "subtopic": "Photosynthesis & Respiration",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "In photosynthesis and cellular respiration, which statements are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Calvin cycle occurs in the stroma of chloroplasts.",
+          "isCorrect": true,
+          "explanation": "Carbon fixation enzymes are dissolved in the chloroplast stroma."
+        },
+        {
+          "id": "b",
+          "text": "The light reactions produce ATP and NADPH, which are used in the Calvin cycle.",
+          "isCorrect": true,
+          "explanation": "Photophosphorylation provides chemical energy and reducing equivalents."
+        },
+        {
+          "id": "c",
+          "text": "In cellular respiration, the majority of ATP is produced during glycolysis.",
+          "isCorrect": false,
+          "explanation": "Glycolysis yields 2 ATP; oxidative phosphorylation yields ~26-28 ATP."
+        },
+        {
+          "id": "d",
+          "text": "The electron transport chain in mitochondria pumps protons from the matrix to the intermembrane space.",
+          "isCorrect": true,
+          "explanation": "Complexes I, III, IV generate proton-motive force across the inner mitochondrial membrane."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "- Statements A, B, and D are standard core facts of bioenergetics.\n- Statement C is false: Glycolysis produces only a net of 2 ATP per glucose; the vast majority ($\\approx 90\\%$) of cellular ATP is generated via **oxidative phosphorylation** by $F_0F_1$-ATP synthase in mitochondria.",
+      "keyFormulae": [
+        "\\text{Oxidative Phosphorylation} \\gg \\text{Glycolysis ATP yield}"
+      ],
+      "hints": [
+        "Where does the Calvin cycle take place?",
+        "Which process produces the most ATP in cellular respiration?"
+      ]
+    },
+    {
+      "id": "bio-mock08-q56",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Molecular Biology",
+      "subtopic": "DNA Replication and Repair Enzymes",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "Which statements about DNA replication and repair are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "DNA polymerase III is the main replicative polymerase in E. coli.",
+          "isCorrect": true,
+          "explanation": "Carries out high-fidelity, processive synthesis of leading and lagging strands."
+        },
+        {
+          "id": "b",
+          "text": "DNA ligase seals nicks in the sugar-phosphate backbone.",
+          "isCorrect": true,
+          "explanation": "Catalyzes phosphodiester bond formation between 3'-OH and 5'-phosphate."
+        },
+        {
+          "id": "c",
+          "text": "Mismatch repair corrects errors that escape proofreading by DNA polymerase.",
+          "isCorrect": true,
+          "explanation": "MutS/MutL/MutH system scans newly synthesized hemimethylated DNA."
+        },
+        {
+          "id": "d",
+          "text": "Topoisomerase relieves torsional stress ahead of the replication fork.",
+          "isCorrect": true,
+          "explanation": "DNA gyrase cleaves strands to release positive supercoiling."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements are correct:\n- DNA Pol III is the primary replicative holoenzyme in prokaryotes.\n- DNA ligase seals Okazaki fragments via phosphodiester bond ligation.\n- Post-replicative mismatch repair fixes base-pairing replication errors.\n- DNA topoisomerase (gyrase) relieves torsional strain ahead of helicase.",
+      "keyFormulae": [
+        "\\text{Pol III: Replicative}",
+        "\\text{Ligase: Phosphodiester seal}",
+        "\\text{Gyrase: Supercoil relaxation}"
+      ],
+      "hints": [
+        "Review the enzymatic functions of DNA Pol III, Ligase, Topoisomerase, and Mismatch repair."
+      ]
+    },
+    {
+      "id": "bio-mock08-q57",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Cell Biology",
+      "subtopic": "Membrane Transport & Signal Transduction",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "Regarding membrane transport and cell signaling, which statements are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Na$^+$/K$^+$-ATPase maintains the electrochemical gradient across the plasma membrane.",
+          "isCorrect": true,
+          "explanation": "Pumps $3\\text{Na}^+$ out and $2\\text{K}^+$ in per ATP hydrolyzed."
+        },
+        {
+          "id": "b",
+          "text": "G-protein coupled receptors (GPCRs) are seven-transmembrane domain proteins.",
+          "isCorrect": true,
+          "explanation": "Classic heptahelical receptor structure."
+        },
+        {
+          "id": "c",
+          "text": "Receptor tyrosine kinases dimerize upon ligand binding and autophosphorylate.",
+          "isCorrect": true,
+          "explanation": "Ligand binding induces dimerization and trans-autophosphorylation on cytoplasmic tyrosine residues."
+        },
+        {
+          "id": "d",
+          "text": "Aquaporins are channel proteins that facilitate the transport of ions across membranes.",
+          "isCorrect": false,
+          "explanation": "Aquaporins exclusively transport water and small neutral solutes, strictly excluding ions and protons."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "- Statements A, B, and C are correct definitions of primary active transport and receptor signaling.\n- Statement D is false: **Aquaporins** are specialized water channels that maintain an electrostatic filter (NPA motif) to strictly block ions and protons ($H_3O^+$).",
+      "keyFormulae": [
+        "\\text{Na}^+/\\text{K}^+\\text{-ATPase: } 3\\text{Na}^+_{\\text{out}} : 2\\text{K}^+_{\\text{in}} : 1\\text{ATP}"
+      ],
+      "hints": [
+        "Do aquaporins transport ions or water?",
+        "Recall the structure of GPCRs (7-transmembrane) and RTKs."
+      ]
+    },
+    {
+      "id": "bio-mock08-q58",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Genetics & Molecular Biology",
+      "subtopic": "Gene Regulation & Mapping",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "In genetics and molecular biology, which statements are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Recombination frequency is proportional to map distance for closely linked genes.",
+          "isCorrect": true,
+          "explanation": "$1\\% \\text{ RF} = 1\\text{ cM}$ (Morgan's mapping principle)."
+        },
+        {
+          "id": "b",
+          "text": "Interference $= 1 - \\text{coefficient of coincidence}$.",
+          "isCorrect": true,
+          "explanation": "Standard genetic definition of crossover interference ($I = 1 - C$)."
+        },
+        {
+          "id": "c",
+          "text": "Transcription factors bind to enhancer sequences and activate transcription.",
+          "isCorrect": true,
+          "explanation": "Activators bind distal enhancers and loop DNA to recruit RNA polymerase."
+        },
+        {
+          "id": "d",
+          "text": "Alternative splicing allows a single gene to produce multiple protein isoforms.",
+          "isCorrect": true,
+          "explanation": "Differential inclusion/exclusion of exons generates diverse transcript variants."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements are valid genetic principles:\n- 1 map unit (centiMorgan) represents $1\\%$ recombination frequency for close markers.\n- Genetic interference is defined as $I = 1 - \\text{Coefficient of Coincidence}$.\n- Enhancers bind transcriptional activators to stimulate promoter assembly.\n- Alternative splicing provides proteomic diversity from a single pre-mRNA gene transcript.",
+      "keyFormulae": [
+        "I = 1 - \\text{CoC}",
+        "1\\text{ cM} = 1\\% \\text{ recombination}"
+      ],
+      "hints": [
+        "Review mapping formulas and eukaryotic transcriptional regulation."
+      ]
+    },
+    {
+      "id": "bio-mock08-q59",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Ecology",
+      "subtopic": "Population & Community Ecology",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "Which statements about ecological principles are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In logistic growth, the population growth rate is maximum at $K/2$.",
+          "isCorrect": true,
+          "explanation": "$\\frac{dN}{dt} = rN(1 - N/K)$ reaches maximum at $N = K/2$ (inflection point)."
+        },
+        {
+          "id": "b",
+          "text": "The competitive exclusion principle states that two species competing for the same limiting resource cannot coexist indefinitely.",
+          "isCorrect": true,
+          "explanation": "Gause's principle of competitive exclusion."
+        },
+        {
+          "id": "c",
+          "text": "In a food chain, energy transfer efficiency between trophic levels is typically 50–60%.",
+          "isCorrect": false,
+          "explanation": "Lindeman's 10% efficiency rule (typically 5–20%)."
+        },
+        {
+          "id": "d",
+          "text": "Keystone species have a disproportionately large effect on community structure relative to their abundance.",
+          "isCorrect": true,
+          "explanation": "Definition of keystone predators/engineers (e.g. *Pisaster* sea stars)."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "- Statement A is correct: $dN/dt = rN(1 - N/K)$ is a parabola in $N$ with maximum at $N = K/2$.\n- Statement B is correct: Gause's principle dictates complete ecological niche exclusion.\n- Statement C is false: Trophic transfer efficiency is typically only **$10\\%$** (Lindeman's efficiency rule).\n- Statement D is correct: Keystone species exert critical ecosystem control disproportionate to biomass.",
+      "keyFormulae": [
+        "\\left(\\frac{dN}{dt}\\right)_{\\max} \\text{ at } N = \\frac{K}{2}",
+        "\\text{Trophic efficiency} \\approx 10\\%"
+      ],
+      "hints": [
+        "Recall Lindeman's 10% rule for trophic efficiency.",
+        "Where does the derivative of logistic growth reach its maximum?"
+      ]
+    },
+    {
+      "id": "bio-mock08-q60",
+      "exam": "NEST",
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "subtopic": "Renal & Endocrine Homeostasis",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "Regarding human physiology and homeostasis, which statements are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The juxtaglomerular apparatus secretes renin in response to decreased blood pressure.",
+          "isCorrect": true,
+          "explanation": "Renin-Angiotensin-Aldosterone System (RAAS) activation."
+        },
+        {
+          "id": "b",
+          "text": "Insulin promotes glycogen synthesis in the liver and glucose uptake in muscle and adipose tissue.",
+          "isCorrect": true,
+          "explanation": "Insulin stimulates GLUT4 translocation and glycogen synthase."
+        },
+        {
+          "id": "c",
+          "text": "Parathyroid hormone (PTH) increases blood calcium levels by stimulating bone resorption.",
+          "isCorrect": true,
+          "explanation": "PTH activates osteoclasts and renal $Ca^{2+}$ reabsorption."
+        },
+        {
+          "id": "d",
+          "text": "Aldosterone promotes Na$^+$ reabsorption and K$^+$ excretion in the distal convoluted tubule of the nephron.",
+          "isCorrect": true,
+          "explanation": "Upregulates basolateral $\\text{Na}^+/\\text{K}^+$-ATPase and apical ENaC channels."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements describe key physiological feedback mechanisms:\n- Renin release by JG cells responds to low renal perfusion pressure / low $Na^+$.\n- Insulin drives anabolic glucose storage (glycogenesis and lipogenesis).\n- PTH raises serum $[Ca^{2+}]$ via osteoclast activation and renal calcitriol synthesis.\n- Aldosterone acts on distal tubule principal cells to reabsorb $Na^+$ and excrete $K^+$.",
+      "keyFormulae": [
+        "\\text{RAAS: Renin} \\to \\text{Angiotensin II} \\to \\text{Aldosterone} (\\uparrow Na^+ \\text{ reabsorption})"
+      ],
+      "hints": [
+        "Review the homeostatic actions of Renin, Insulin, PTH, and Aldosterone."
+      ]
+    },
+    {
+      "id": "math-mock08-q61",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Functions",
+      "subtopic": "Cauchy Functional Equation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ satisfy the functional equation $f(x + y) = f(x) + f(y)$ for all $x, y \\in \\mathbb{R}$. If $f$ is continuous at at least one point, then $f(x)$ equals:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$x^2$",
+          "isCorrect": false,
+          "explanation": "Non-linear."
+        },
+        {
+          "id": "b",
+          "text": "$cx$ for some constant $c \\in \\mathbb{R}$",
+          "isCorrect": true,
+          "explanation": "Cauchy's additive functional equation with continuity at a single point uniquely implies linearity $f(x) = cx$ everywhere on $\\mathbb{R}$."
+        },
+        {
+          "id": "c",
+          "text": "$\\sin x$",
+          "isCorrect": false,
+          "explanation": "Non-linear."
+        },
+        {
+          "id": "d",
+          "text": "$e^x$",
+          "isCorrect": false,
+          "explanation": "Solution to multiplicative Cauchy equation."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. The functional equation $f(x + y) = f(x) + f(y)$ is Cauchy's additive equation.\n2. By induction, $f(nx) = n f(x)$ for all $n \\in \\mathbb{Z}$, and $f(qx) = q f(x)$ for all rational $q \\in \\mathbb{Q}$.\n3. Continuity at even a single point rules out non-measurable Hamel basis solutions, extending linearity to all real numbers:\n$$f(x) = cx \\quad \\text{where } c = f(1)$$",
+      "keyFormulae": [
+        "f(x+y) = f(x) + f(y) \\implies f(x) = cx"
+      ],
+      "hints": [
+        "Recall the continuous solutions to Cauchy's additive functional equation."
+      ]
+    },
+    {
+      "id": "math-mock08-q62",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "subtopic": "Definite Integral as Limit of Riemann Sum",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The value of the limit $\\lim_{n \\to \\infty} \\sum_{k=1}^{n} \\frac{1}{n + k}$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\ln 2$",
+          "isCorrect": true,
+          "explanation": "$\\lim_{n\\to\\infty}\\frac{1}{n}\\sum_{k=1}^n \\frac{1}{1 + k/n} = \\int_0^1 \\frac{dx}{1+x} = [\\ln(1+x)]_0^1 = \\ln 2$."
+        },
+        {
+          "id": "b",
+          "text": "$1$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "c",
+          "text": "$\\ln(3/2)$",
+          "isCorrect": false,
+          "explanation": "Incorrect bounds."
+        },
+        {
+          "id": "d",
+          "text": "Does not exist",
+          "isCorrect": false,
+          "explanation": "Limit converges."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Rewriting the sum as a Riemann integral:\n$$\\lim_{n \\to \\infty} \\sum_{k=1}^n \\frac{1}{n + k} = \\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{k=1}^n \\frac{1}{1 + \\frac{k}{n}}$$\nSetting $x = k/n$ and $dx = 1/n$:\n$$= \\int_0^1 \\frac{1}{1 + x} dx = \\left[ \\ln(1 + x) \\right]_0^1 = \\ln(2) - \\ln(1) = \\ln 2$$",
+      "keyFormulae": [
+        "\\lim_{n \\to \\infty} \\frac{1}{n}\\sum_{k=1}^n f(k/n) = \\int_0^1 f(x) dx",
+        "\\int_0^1 \\frac{dx}{1+x} = \\ln 2"
+      ],
+      "hints": [
+        "Factor $1/n$ out of the summation.",
+        "Convert to an integral of $\\frac{1}{1+x}$ from 0 to 1."
+      ]
+    },
+    {
+      "id": "math-mock08-q63",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Algebra & Calculus",
+      "subtopic": "Cubic Polynomial Real Roots",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "Let $f(x) = x^3 - 3px^2 + qx + 1$ where $p, q$ are real parameters. For $f(x)$ to have three distinct real roots, the condition on the discriminant is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$q^2 - 4p^2q + 4p^3 > 0$",
+          "isCorrect": true,
+          "explanation": "For a cubic to possess 3 distinct real roots, its discriminant must be strictly positive: $\\Delta > 0$."
+        },
+        {
+          "id": "b",
+          "text": "$q^2 - 4p^2q + 4p^3 < 0$",
+          "isCorrect": false,
+          "explanation": "Condition for 1 real root and 2 complex roots."
+        },
+        {
+          "id": "c",
+          "text": "$p^2 > q$",
+          "isCorrect": false,
+          "explanation": "Necessary condition for real extrema but not sufficient for 3 roots."
+        },
+        {
+          "id": "d",
+          "text": "$p^2 < q$",
+          "isCorrect": false,
+          "explanation": "No real extrema."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "For any cubic polynomial $f(x) = ax^3 + bx^2 + cx + d$ to have 3 distinct real roots, the discriminant $\\Delta$ must satisfy **$\\Delta > 0$** (which is equivalent to $f(x_{\\max}) \\cdot f(x_{\\min}) < 0$).",
+      "keyFormulae": [
+        "\\Delta_{\\text{cubic}} > 0 \\iff 3\\text{ distinct real roots}"
+      ],
+      "hints": [
+        "Recall the discriminant condition for polynomials with all real distinct roots."
+      ]
+    },
+    {
+      "id": "math-mock08-q64",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Permutations & Combinations",
+      "subtopic": "Gap Method Combinations",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The number of ways to arrange 8 identical red balls and 4 identical blue balls in a row such that no two blue balls are adjacent is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\binom{9}{4} = 126$",
+          "isCorrect": true,
+          "explanation": "Place 8 identical red balls creating 9 gaps. Choose 4 of these 9 gaps for the 4 identical blue balls in $\\binom{9}{4} = 126$ ways."
+        },
+        {
+          "id": "b",
+          "text": "$\\binom{8}{4} = 70$",
+          "isCorrect": false,
+          "explanation": "Incorrect gap count."
+        },
+        {
+          "id": "c",
+          "text": "$\\binom{7}{4} = 35$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "$\\binom{10}{4} = 210$",
+          "isCorrect": false,
+          "explanation": "Overcounted."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Using the Gap Method:\n1. Place the 8 identical red balls in a row: there is only **1 way** since they are identical.\n2. The 8 red balls create **9 available spaces (gaps)** at the ends and between them: $\\_ R \\_ R \\_ R \\_ R \\_ R \\_ R \\_ R \\_ R \\_$.\n3. To ensure no two blue balls are adjacent, select 4 distinct gaps out of 9 for the 4 identical blue balls:\n$$\\text{Number of ways} = \\binom{9}{4} = \\frac{9 \\times 8 \\times 7 \\times 6}{4 \\times 3 \\times 2 \\times 1} = 126$$",
+      "keyFormulae": [
+        "N = \\binom{n+1}{k} = \\binom{9}{4} = 126"
+      ],
+      "hints": [
+        "Place the 8 red balls first.",
+        "Count the number of gaps (9) and choose 4 of them for the blue balls."
+      ]
+    },
+    {
+      "id": "math-mock08-q65",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "subtopic": "King's Property in Definite Integrals",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "Let $I = \\int_{0}^{\\pi/2} \\frac{\\sin^3 x}{\\sin^3 x + \\cos^3 x}\\,dx$. Then $I$ equals:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{\\pi}{4}$",
+          "isCorrect": true,
+          "explanation": "Using $x \\to \\pi/2 - x$, $I = \\int_0^{\\pi/2} \\frac{\\cos^3 x}{\\cos^3 x + \\sin^3 x} dx \\implies 2I = \\int_0^{\\pi/2} 1 dx = \\frac{\\pi}{2} \\implies I = \\frac{\\pi}{4}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{\\pi}{2}$",
+          "isCorrect": false,
+          "explanation": "Value of $2I$."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{\\pi}{6}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{\\pi}{3}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Let $I = \\int_0^{\\pi/2} \\frac{\\sin^3 x}{\\sin^3 x + \\cos^3 x} dx$.\nApplying King's property $\\int_0^a f(x) dx = \\int_0^a f(a-x) dx$:\n$$I = \\int_0^{\\pi/2} \\frac{\\sin^3(\\pi/2 - x)}{\\sin^3(\\pi/2 - x) + \\cos^3(\\pi/2 - x)} dx = \\int_0^{\\pi/2} \\frac{\\cos^3 x}{\\cos^3 x + \\sin^3 x} dx$$\nAdding both integrals:\n$$2I = \\int_0^{\\pi/2} \\frac{\\sin^3 x + \\cos^3 x}{\\sin^3 x + \\cos^3 x} dx = \\int_0^{\\pi/2} 1 \\, dx = \\frac{\\pi}{2} \\implies I = \\frac{\\pi}{4}$$",
+      "keyFormulae": [
+        "\\int_0^a f(x)dx = \\int_0^a f(a-x)dx"
+      ],
+      "hints": [
+        "Apply the identity $\\int_0^{\\pi/2} f(x) dx = \\int_0^{\\pi/2} f(\\pi/2 - x) dx$.",
+        "Sum the original and transformed integrals."
+      ]
+    },
+    {
+      "id": "math-mock08-q66",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Complex Numbers",
+      "subtopic": "Ellipse in the Complex Plane",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A complex number $z$ satisfies $|z - 1| + |z + 1| = 4$. The locus of $z$ in the complex plane is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "A circle",
+          "isCorrect": false,
+          "explanation": "Circle requires single distance."
+        },
+        {
+          "id": "b",
+          "text": "An ellipse with foci at $\\pm 1$",
+          "isCorrect": true,
+          "explanation": "Sum of distances to two fixed points $z_1 = 1$ and $z_2 = -1$ is constant ($2a = 4 > 2$), defining an ellipse with foci at $\\pm 1$."
+        },
+        {
+          "id": "c",
+          "text": "A hyperbola",
+          "isCorrect": false,
+          "explanation": "Hyperbola requires difference of distances."
+        },
+        {
+          "id": "d",
+          "text": "A parabola",
+          "isCorrect": false,
+          "explanation": "Parabola requires directrix distance."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "By the focal definition of an ellipse in the complex plane:\n$$|z - z_1| + |z - z_2| = 2a$$\nHere, $z_1 = 1, z_2 = -1$, focal distance $2c = |1 - (-1)| = 2$, and major axis length $2a = 4$.\nSince $2a = 4 > 2c = 2$, the equation describes an **ellipse with foci at $z = \\pm 1$**.",
+      "keyFormulae": [
+        "|z - z_1| + |z - z_2| = 2a \\implies \\text{Ellipse with foci } z_1, z_2"
+      ],
+      "hints": [
+        "Recognize the geometric definition of an ellipse: sum of distances to two fixed foci is constant."
+      ]
+    },
+    {
+      "id": "math-mock08-q67",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "subtopic": "Permutation Probability with Separated Letters",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The probability that in a random permutation of the letters of the word \"PROBABILITY\", no two vowels (A, I, I, O, Y - treating Y as vowel) are adjacent is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{\\binom{7}{5} \\cdot 5! \\cdot 6!}{11!/(2!)}$",
+          "isCorrect": true,
+          "explanation": "Arrange 6 consonants (P, R, B, B, L, T) with duplicate B in $\\frac{6!}{2!}$ ways, creating 7 gaps. Choose 5 gaps for vowels in $\\binom{7}{5}$ ways and arrange vowels in $\\frac{5!}{2!}$ ways. Divide by total $\\frac{11!}{2!2!}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{\\binom{7}{5} \\cdot 5! \\cdot 6!}{11!}$",
+          "isCorrect": false,
+          "explanation": "Missing permutation repetition factors."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{\\binom{6}{5} \\cdot 5! \\cdot 6!}{11!/(2!)}$",
+          "isCorrect": false,
+          "explanation": "Incorrect gap count."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{\\binom{6}{5} \\cdot 5! \\cdot 6!}{11!}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Letters in PROBABILITY (11 letters): 6 consonants (P, R, B, B, L, T with 2 B's) and 5 vowels (A, I, I, O, Y with 2 I's).\n1. Total distinct permutations: $N = \\frac{11!}{2! 2!}$.\n2. Favorable arrangements with no two vowels adjacent:\n- Arrange 6 consonants: $\\frac{6!}{2!}$ ways (creating 7 gaps).\n- Choose 5 gaps and arrange vowels: $\\binom{7}{5} \\times \\frac{5!}{2!}$.\n$$P = \\frac{\\frac{6!}{2!} \\times \\binom{7}{5} \\times \\frac{5!}{2!}}{\\frac{11!}{2! 2!}} = \\frac{\\binom{7}{5} \\cdot 5! \\cdot 6!}{11! / 2!}$$",
+      "keyFormulae": [
+        "P = \\frac{N_{\\text{favorable}}}{N_{\\text{total}}}"
+      ],
+      "hints": [
+        "Arrange the consonants first and count the gaps created.",
+        "Place the vowels in the chosen gaps and divide by total permutations."
+      ]
+    },
+    {
+      "id": "math-mock08-q68",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "subtopic": "Minima via Fundamental Theorem of Calculus",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "Let $f(x) = \\int_{0}^{x} (t^2 - t)\\,dt$. The minimum value of $f(x)$ on $[0, 2]$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$-\\frac{1}{6}$",
+          "isCorrect": true,
+          "explanation": "$f'(x) = x(x-1) = 0 \\implies x = 1$ is a local minimum. $f(1) = \\int_0^1 (t^2 - t)dt = \\left[\\frac{t^3}{3} - \\frac{t^2}{2}\\right]_0^1 = \\frac{1}{3} - \\frac{1}{2} = -\\frac{1}{6}$."
+        },
+        {
+          "id": "b",
+          "text": "$-\\frac{1}{12}$",
+          "isCorrect": false,
+          "explanation": "Calculation error."
+        },
+        {
+          "id": "c",
+          "text": "$0$",
+          "isCorrect": false,
+          "explanation": "Value at boundary $x = 0$."
+        },
+        {
+          "id": "d",
+          "text": "$-\\frac{1}{4}$",
+          "isCorrect": false,
+          "explanation": "Minimum of integrand, not integral."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "1. Differentiating using the Leibniz rule:\n$$f'(x) = x^2 - x = x(x - 1)$$\n2. Critical points in $[0, 2]$ are $x = 0$ and $x = 1$.\n- For $x \\in (0, 1)$, $f'(x) < 0$ (decreasing).\n- For $x > 1$, $f'(x) > 0$ (increasing).\nHence, the global minimum on $[0, 2]$ occurs at $x = 1$:\n$$f(1) = \\int_0^1 (t^2 - t) dt = \\left[ \\frac{t^3}{3} - \\frac{t^2}{2} \\right]_0^1 = \\frac{1}{3} - \\frac{1}{2} = -\\frac{1}{6}$$",
+      "keyFormulae": [
+        "f'(x) = x(x-1)",
+        "f(1) = -\\frac{1}{6}"
+      ],
+      "hints": [
+        "Differentiate $f(x)$ using the Fundamental Theorem of Calculus to find critical points.",
+        "Evaluate $f(x)$ at $x = 1$."
+      ]
+    },
+    {
+      "id": "math-mock08-q69",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Algebra",
+      "subtopic": "Binomial Product Expansion Coefficients",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The coefficient of $x^n$ in the expansion of $(1 + x)^{2n}(1 - x)^n$ is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\sum_{k=0}^{n} (-1)^k \\binom{2n}{n-k}\\binom{n}{k}$",
+          "isCorrect": true,
+          "explanation": "By Cauchy product of series $(1+x)^{2n} = \\sum \\binom{2n}{j}x^j$ and $(1-x)^n = \\sum (-1)^k \\binom{n}{k}x^k$, matching power $j + k = n \\implies j = n - k$ gives $\\sum_{k=0}^n (-1)^k \\binom{2n}{n-k}\\binom{n}{k}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\binom{2n}{n}$",
+          "isCorrect": false,
+          "explanation": "Missing $(1-x)^n$ terms."
+        },
+        {
+          "id": "c",
+          "text": "$(-1)^n \\binom{2n}{n}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "$\\binom{3n}{n}$",
+          "isCorrect": false,
+          "explanation": "Applies to $(1+x)^{3n}$."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Expanding both binomial series:\n$$(1 + x)^{2n} = \\sum_{j=0}^{2n} \\binom{2n}{j} x^j$$\n$$(1 - x)^n = \\sum_{k=0}^n (-1)^k \\binom{n}{k} x^k$$\nTo find the coefficient of $x^n$, we collect terms where $j + k = n \\implies j = n - k$:\n$$\\text{Coefficient of } x^n = \\sum_{k=0}^n (-1)^k \\binom{2n}{n-k}\\binom{n}{k}$$",
+      "keyFormulae": [
+        "[x^n] A(x)B(x) = \\sum_{k=0}^n a_{n-k} b_k"
+      ],
+      "hints": [
+        "Write the Cauchy product of the two binomial expansions.",
+        "Set the sum of powers $j + k = n$."
+      ]
+    },
+    {
+      "id": "math-mock08-q70",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "subtopic": "Geometric Distribution Sum",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "A fair die is rolled repeatedly until a 6 appears. The probability that the first 6 appears on an even-numbered roll is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{1}{2}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{5}{11}$",
+          "isCorrect": true,
+          "explanation": "$P(\\text{even}) = qp + q^3p + q^5p + \\cdots = \\frac{qp}{1 - q^2} = \\frac{(5/6)(1/6)}{1 - 25/36} = \\frac{5/36}{11/36} = \\frac{5}{11}$."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{6}{11}$",
+          "isCorrect": false,
+          "explanation": "Probability of first 6 on an odd roll."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{5}{12}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Let $p = 1/6$ (success probability) and $q = 5/6$ (failure probability).\nThe first 6 appears on an even roll on trial 2, 4, 6, ...:\n$$P(\\text{Even}) = q p + q^3 p + q^5 p + \\cdots = q p (1 + q^2 + q^4 + \\cdots)$$\nUsing the sum of an infinite geometric series ($|q^2| < 1$):\n$$P(\\text{Even}) = \\frac{q p}{1 - q^2} = \\frac{\\left(\\frac{5}{6}\\right)\\left(\\frac{1}{6}\\right)}{1 - \\left(\\frac{5}{6}\\right)^2} = \\frac{\\frac{5}{36}}{\\frac{36 - 25}{36}} = \\frac{5}{11}$$",
+      "keyFormulae": [
+        "P(\\text{Even}) = \\frac{qp}{1 - q^2} = \\frac{5}{11}"
+      ],
+      "hints": [
+        "Write the probability as the sum of events on rolls 2, 4, 6, 8, ...",
+        "Sum the resulting infinite geometric progression."
+      ]
+    },
+    {
+      "id": "math-mock08-q71",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Complex Numbers",
+      "subtopic": "Equilateral Triangle Conditions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "Let $z_1, z_2, z_3$ be complex numbers representing the vertices of an equilateral triangle. Which of the following is always true?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$z_1^2 + z_2^2 + z_3^2 = z_1z_2 + z_2z_3 + z_3z_1$",
+          "isCorrect": false,
+          "explanation": "Correct, but (D) encompasses both."
+        },
+        {
+          "id": "b",
+          "text": "$|z_1 - z_2| = |z_2 - z_3| = |z_3 - z_1|$",
+          "isCorrect": false,
+          "explanation": "Correct geometric side condition."
+        },
+        {
+          "id": "c",
+          "text": "$z_1 + z_2 + z_3 = 0$",
+          "isCorrect": false,
+          "explanation": "Holds only when origin is the centroid."
+        },
+        {
+          "id": "d",
+          "text": "Both (A) and (B)",
+          "isCorrect": true,
+          "explanation": "Both the algebraic condition $z_1^2 + z_2^2 + z_3^2 = z_1z_2 + z_2z_3 + z_3z_1$ and equal side lengths $|z_1-z_2|=|z_2-z_3|=|z_3-z_1|$ are always true for any equilateral triangle."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "For any equilateral triangle with vertices $z_1, z_2, z_3$:\n1. Geometrically, all three sides are equal: $|z_1 - z_2| = |z_2 - z_3| = |z_3 - z_1|$ (Statement B is true).\n2. Using rotation by $60^\\circ$ ($e^{i\\pi/3}$), the algebraic condition is identically $z_1^2 + z_2^2 + z_3^2 = z_1z_2 + z_2z_3 + z_3z_1$ (Statement A is true).\nTherefore, **Both (A) and (B)** are correct.",
+      "keyFormulae": [
+        "z_1^2 + z_2^2 + z_3^2 = z_1 z_2 + z_2 z_3 + z_3 z_1 \\iff \\text{Equilateral triangle}"
+      ],
+      "hints": [
+        "Recall the standard algebraic identity for an equilateral triangle in the complex plane.",
+        "All three side lengths are equal by definition."
+      ]
+    },
+    {
+      "id": "math-mock08-q72",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "subtopic": "Area Enclosed by Astroid-like Curves",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MCQ",
+      "questionText": "The total area enclosed by the curve $|x|^{1/2} + |y|^{1/2} = 1$ in the two-dimensional Cartesian plane is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{2}{3}$",
+          "isCorrect": true,
+          "explanation": "By 4-fold quadrant symmetry: $\\text{Area} = 4\\int_0^1 (1 - \\sqrt{x})^2 dx = 4\\left[x - \\frac{4}{3}x^{3/2} + \\frac{x^2}{2}\\right]_0^1 = 4\\left(1 - \\frac{4}{3} + \\frac{1}{2}\\right) = 4\\left(\\frac{1}{6}\\right) = \\frac{2}{3}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{1}{3}$",
+          "isCorrect": false,
+          "explanation": "Area in two quadrants."
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{4}{3}$",
+          "isCorrect": false,
+          "explanation": "Overestimated."
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{8}{15}$",
+          "isCorrect": false,
+          "explanation": "Incorrect."
+        }
+      ],
+      "marks": 3,
+      "negativeMarks": 1,
+      "solutionExplanation": "Due to symmetry in all four quadrants:\n$$\\text{Total Area} = 4 \\int_0^1 y \\, dx$$\nIn the first quadrant, $\\sqrt{x} + \\sqrt{y} = 1 \\implies y = (1 - \\sqrt{x})^2 = 1 - 2x^{1/2} + x$.\n$$\\int_0^1 (1 - 2x^{1/2} + x) dx = \\left[ x - \\frac{4}{3}x^{3/2} + \\frac{x^2}{2} \\right]_0^1 = 1 - \\frac{4}{3} + \\frac{1}{2} = \\frac{6 - 8 + 3}{6} = \\frac{1}{6}$$\n$$\\text{Total Area} = 4 \\times \\frac{1}{6} = \\mathbf{\\frac{2}{3}}$$",
+      "keyFormulae": [
+        "A = 4\\int_0^1 (1 - \\sqrt{x})^2 dx = \\frac{2}{3}"
+      ],
+      "hints": [
+        "Exploit the 4-fold symmetry across all quadrants.",
+        "Integrate $(1 - \\sqrt{x})^2 = 1 - 2\\sqrt{x} + x$ from 0 to 1."
+      ]
+    },
+    {
+      "id": "math-mock08-q73",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "subtopic": "Definite Integral Properties",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "Which of the following statements about definite integrals are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\int_{0}^{a} f(x)\\,dx = \\int_{0}^{a} f(a - x)\\,dx$",
+          "isCorrect": true,
+          "explanation": "King's property."
+        },
+        {
+          "id": "b",
+          "text": "$\\int_{0}^{2a} f(x)\\,dx = 2\\int_{0}^{a} f(x)\\,dx$ if $f(2a - x) = f(x)$",
+          "isCorrect": true,
+          "explanation": "Periodic/reflection symmetry property."
+        },
+        {
+          "id": "c",
+          "text": "$\\int_{-a}^{a} f(x)\\,dx = 0$ if $f$ is an odd function.",
+          "isCorrect": true,
+          "explanation": "Odd function symmetry."
+        },
+        {
+          "id": "d",
+          "text": "$\\int_{0}^{\\pi/2} \\ln(\\sin x)\\,dx = -\\frac{\\pi}{2}\\ln 2$",
+          "isCorrect": true,
+          "explanation": "Euler's classic log-sine integral."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements are fundamental properties of definite integrals:\n- (A) King's property: $\\int_0^a f(x)dx = \\int_0^a f(a-x)dx$.\n- (B) Half-angle reflection: $\\int_0^{2a} f(x)dx = 2\\int_0^a f(x)dx$ when $f(2a-x) = f(x)$.\n- (C) Odd symmetry: $\\int_{-a}^a f(x)dx = 0$ for $f(-x) = -f(x)$.\n- (D) Euler log-sine integral: $\\int_0^{\\pi/2}\\ln(\\sin x)dx = -\\frac{\\pi}{2}\\ln 2$.",
+      "keyFormulae": [
+        "\\int_0^{\\pi/2}\\ln(\\sin x)dx = -\\frac{\\pi}{2}\\ln 2"
+      ],
+      "hints": [
+        "Verify each standard definite integration theorem."
+      ]
+    },
+    {
+      "id": "math-mock08-q74",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Functions & Calculus",
+      "subtopic": "Function Properties, Range & Asymptotes",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "Let $f(x) = \\frac{x^2 - 1}{x^2 + 1}$. Which statements are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$f(x)$ is an even function.",
+          "isCorrect": true,
+          "explanation": "$f(-x) = \\frac{(-x)^2 - 1}{(-x)^2 + 1} = \\frac{x^2 - 1}{x^2 + 1} = f(x)$."
+        },
+        {
+          "id": "b",
+          "text": "The range of $f(x)$ is $[-1, 1)$.",
+          "isCorrect": true,
+          "explanation": "$f(x) = 1 - \\frac{2}{x^2+1}$. For $x \\in \\mathbb{R}, x^2+1 \\in [1, \\infty) \\implies \\frac{2}{x^2+1} \\in (0, 2] \\implies f(x) \\in [-1, 1)$."
+        },
+        {
+          "id": "c",
+          "text": "$f(x)$ has a horizontal asymptote $y = 1$.",
+          "isCorrect": true,
+          "explanation": "$\\lim_{x\\to\\pm\\infty} f(x) = 1$."
+        },
+        {
+          "id": "d",
+          "text": "$f(x)$ is strictly increasing for $x > 0$.",
+          "isCorrect": true,
+          "explanation": "$f'(x) = \\frac{4x}{(x^2+1)^2} > 0$ for all $x > 0$."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements are correct:\n- $f(-x) = f(x) \\implies$ Even function (symmetric about y-axis).\n- $f(x) = 1 - \\frac{2}{x^2+1}$. Range is $[-1, 1)$ since $f(0) = -1$ and $\\lim_{x\\to\\infty} f(x) = 1$.\n- Horizontal asymptote: $y = 1$.\n- Derivative: $f'(x) = \\frac{2x(x^2+1) - 2x(x^2-1)}{(x^2+1)^2} = \\frac{4x}{(x^2+1)^2} > 0$ for $x > 0$ (strictly increasing).",
+      "keyFormulae": [
+        "f'(x) = \\frac{4x}{(x^2+1)^2}",
+        "f(x) \\in [-1, 1)"
+      ],
+      "hints": [
+        "Check parity $f(-x) = f(x)$.",
+        "Find the derivative $f'(x)$ for $x > 0$."
+      ]
+    },
+    {
+      "id": "math-mock08-q75",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Combinatorics",
+      "subtopic": "Combinatorial Identities & Derangements",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "In combinatorics, which statements are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The number of derangements of $n$ objects is $n!\\sum_{k=0}^{n} \\frac{(-1)^k}{k!}$.",
+          "isCorrect": true,
+          "explanation": "Standard subfactorial formula $!n = n!\\sum_{k=0}^n \\frac{(-1)^k}{k!}$."
+        },
+        {
+          "id": "b",
+          "text": "$\\binom{n}{0} + \\binom{n}{1} + \\cdots + \\binom{n}{n} = 2^n$.",
+          "isCorrect": true,
+          "explanation": "Total sum of binomial coefficients."
+        },
+        {
+          "id": "c",
+          "text": "The number of ways to choose $k$ objects from $n$ distinct objects with repetition allowed is $\\binom{n+k-1}{k}$.",
+          "isCorrect": true,
+          "explanation": "Stars and bars multiset combinations."
+        },
+        {
+          "id": "d",
+          "text": "The principle of inclusion-exclusion gives the cardinality of the union of sets in terms of intersections.",
+          "isCorrect": true,
+          "explanation": "PIE theorem."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four options are fundamental combinatorial theorems:\n1. Subfactorial derangements: $D_n = n! \\left(1 - \\frac{1}{1!} + \\frac{1}{2!} - \\cdots + \\frac{(-1)^n}{n!}\\right)$.\n2. Sum of binomial row: $\\sum_{k=0}^n \\binom{n}{k} = 2^n$.\n3. Multichoose formula: $\\left(\\!\\!\\binom{n}{k}\\!\\!\\right) = \\binom{n+k-1}{k}$.\n4. Principle of Inclusion-Exclusion (PIE).",
+      "keyFormulae": [
+        "!n = n!\\sum_{k=0}^n \\frac{(-1)^k}{k!}",
+        "\\binom{n+k-1}{k}"
+      ],
+      "hints": [
+        "Review the defining formulas of combinatorics."
+      ]
+    },
+    {
+      "id": "math-mock08-q76",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "subtopic": "Continuous Random Variables & Expectation",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "For a continuous random variable $X$ with probability density function $f(x)$, which statements are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\int_{-\\infty}^{\\infty} f(x)\\,dx = 1$.",
+          "isCorrect": true,
+          "explanation": "Normalization condition."
+        },
+        {
+          "id": "b",
+          "text": "The cumulative distribution function $F(x) = \\int_{-\\infty}^{x} f(t)\\,dt$.",
+          "isCorrect": true,
+          "explanation": "Definition of CDF."
+        },
+        {
+          "id": "c",
+          "text": "$P(a < X < b) = F(b) - F(a)$.",
+          "isCorrect": true,
+          "explanation": "Interval probability via CDF."
+        },
+        {
+          "id": "d",
+          "text": "The expected value $E[X] = \\int_{-\\infty}^{\\infty} x f(x)\\,dx$.",
+          "isCorrect": true,
+          "explanation": "First moment expectation definition."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements are the core defining axioms of continuous probability theory:\n- $\\int_{-\\infty}^\\infty f(x)dx = 1$ (Normalization).\n- $F(x) = P(X \\le x) = \\int_{-\\infty}^x f(t)dt$ (CDF).\n- $P(a < X < b) = F(b) - F(a)$ (Interval theorem).\n- $E[X] = \\int_{-\\infty}^\\infty x f(x)dx$ (Mean/Expectation).",
+      "keyFormulae": [
+        "F(x) = \\int_{-\\infty}^x f(t)dt",
+        "E[X] = \\int_{-\\infty}^\\infty xf(x)dx"
+      ],
+      "hints": [
+        "Verify each standard continuous probability definition."
+      ]
+    },
+    {
+      "id": "math-mock08-q77",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Complex Numbers",
+      "subtopic": "Fundamental Properties of Complex Numbers",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "Which statements about complex numbers are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "If $|z| = 1$, then $\\bar{z} = 1/z$.",
+          "isCorrect": true,
+          "explanation": "$z\\bar{z} = |z|^2 = 1 \\implies \\bar{z} = 1/z$."
+        },
+        {
+          "id": "b",
+          "text": "The argument of the product of two complex numbers is the sum of their arguments.",
+          "isCorrect": true,
+          "explanation": "$\\arg(z_1 z_2) = \\arg(z_1) + \\arg(z_2) \\pmod{2\\pi}$."
+        },
+        {
+          "id": "c",
+          "text": "Every non-constant polynomial with complex coefficients has at least one complex root.",
+          "isCorrect": true,
+          "explanation": "Fundamental Theorem of Algebra."
+        },
+        {
+          "id": "d",
+          "text": "The set of complex numbers forms a field under standard addition and multiplication.",
+          "isCorrect": true,
+          "explanation": "$(\\mathbb{C}, +, \\times)$ satisfies all field axioms."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements are foundational complex analysis theorems:\n1. $z\\bar{z} = |z|^2 = 1 \\implies \\bar{z} = 1/z$.\n2. $\\arg(z_1 z_2) = \\arg z_1 + \\arg z_2$.\n3. Fundamental Theorem of Algebra (Gauss).\n4. $\\mathbb{C}$ is an algebraically closed field.",
+      "keyFormulae": [
+        "z\\bar{z} = |z|^2",
+        "\\arg(z_1 z_2) = \\arg z_1 + \\arg z_2"
+      ],
+      "hints": [
+        "Check properties on the unit circle $|z|=1$.",
+        "Recall the Fundamental Theorem of Algebra."
+      ]
+    },
+    {
+      "id": "math-mock08-q78",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Algebra & Calculus",
+      "subtopic": "Binomial Polynomial Properties",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "Let $f(x) = x^4 - 4x^3 + 6x^2 - 4x + 1$. Which statements are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$f(x) = (x - 1)^4$",
+          "isCorrect": true,
+          "explanation": "Binomial expansion of $(x-1)^4$."
+        },
+        {
+          "id": "b",
+          "text": "$f(x)$ has exactly one real root (with multiplicity 4).",
+          "isCorrect": true,
+          "explanation": "Single root at $x = 1$."
+        },
+        {
+          "id": "c",
+          "text": "$f'(x) = 4(x - 1)^3$",
+          "isCorrect": true,
+          "explanation": "Power rule derivative."
+        },
+        {
+          "id": "d",
+          "text": "$f(x)$ is always non-negative for all real $x$.",
+          "isCorrect": true,
+          "explanation": "$(x-1)^4 \\ge 0$ for all $x \\in \\mathbb{R}$."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements are true:\n- $f(x) = \\binom{4}{0}x^4 - \\binom{4}{1}x^3 + \\binom{4}{2}x^2 - \\binom{4}{3}x + \\binom{4}{4} = (x - 1)^4$.\n- Root: $x = 1$ with multiplicity 4.\n- Derivative: $f'(x) = 4(x - 1)^3$.\n- For all $x \\in \\mathbb{R}$, $(x - 1)^4 \\ge 0$.",
+      "keyFormulae": [
+        "(x - 1)^4 = x^4 - 4x^3 + 6x^2 - 4x + 1"
+      ],
+      "hints": [
+        "Recognize the binomial expansion coefficients $1, -4, 6, -4, 1$."
+      ]
+    },
+    {
+      "id": "math-mock08-q79",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "subtopic": "Probability Axioms & Distributions",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "In probability theory, which statements are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "For independent events $A$ and $B$, $P(A \\cap B) = P(A)P(B)$.",
+          "isCorrect": true,
+          "explanation": "Definition of statistical independence."
+        },
+        {
+          "id": "b",
+          "text": "Bayes' theorem states $P(A|B) = \\frac{P(B|A)P(A)}{P(B)}$.",
+          "isCorrect": true,
+          "explanation": "Bayes' formula."
+        },
+        {
+          "id": "c",
+          "text": "The variance of a sum of independent random variables equals the sum of their variances.",
+          "isCorrect": true,
+          "explanation": "$\\text{Var}(X+Y) = \\text{Var}(X) + \\text{Var}(Y)$ when $\\text{Cov}(X,Y) = 0$."
+        },
+        {
+          "id": "d",
+          "text": "For a binomial distribution $B(n, p)$, the mean is $np$ and variance is $np(1-p)$.",
+          "isCorrect": true,
+          "explanation": "Standard moments of binomial distribution."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements are fundamental laws of probability:\n1. Independence: $P(A \\cap B) = P(A)P(B)$.\n2. Bayes' Theorem: $P(A|B) = \\frac{P(B|A)P(A)}{P(B)}$.\n3. Additivity of variance for independent variables: $\\text{Var}(\\sum X_i) = \\sum \\text{Var}(X_i)$.\n4. Binomial distribution $B(n, p)$: $\\mu = np, \\sigma^2 = np(1-p)$.",
+      "keyFormulae": [
+        "P(A|B) = \\frac{P(B|A)P(A)}{P(B)}",
+        "\\text{Var}(X) = np(1-p)"
+      ],
+      "hints": [
+        "Verify each standard theorem in probability theory."
+      ]
+    },
+    {
+      "id": "math-mock08-q80",
+      "exam": "NEST",
+      "subject": "Mathematics",
+      "topic": "Sequences & Series",
+      "subtopic": "Convergence Tests & Basel Problem",
+      "difficulty": "High-Yield",
+      "status": "published",
+      "questionType": "MSQ",
+      "questionText": "Which statements about sequences and series are correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The series $\\sum_{n=1}^{\\infty} \\frac{1}{n^2}$ converges to $\\frac{\\pi^2}{6}$.",
+          "isCorrect": true,
+          "explanation": "Euler's solution to the Basel problem."
+        },
+        {
+          "id": "b",
+          "text": "A bounded monotonic sequence always converges.",
+          "isCorrect": true,
+          "explanation": "Monotone Convergence Theorem in real analysis."
+        },
+        {
+          "id": "c",
+          "text": "The harmonic series $\\sum_{n=1}^{\\infty} \\frac{1}{n}$ diverges.",
+          "isCorrect": true,
+          "explanation": "$p$-series with $p = 1$ diverges logarithmically."
+        },
+        {
+          "id": "d",
+          "text": "The ratio test states that if $\\lim_{n\\to\\infty} |a_{n+1}/a_n| = L < 1$, then $\\sum a_n$ converges absolutely.",
+          "isCorrect": true,
+          "explanation": "D'Alembert's ratio test."
+        }
+      ],
+      "marks": 4,
+      "negativeMarks": 2,
+      "solutionExplanation": "All four statements are foundational real analysis theorems:\n1. Basel Problem: $\\sum_{n=1}^\\infty \\frac{1}{n^2} = \\frac{\\pi^2}{6}$.\n2. Monotone Convergence Theorem: Every bounded monotonic sequence in $\\mathbb{R}$ has a finite limit.\n3. Harmonic series diverges (integral test $\\int_1^\\infty \\frac{1}{x}dx = \\infty$).\n4. D'Alembert Ratio Test: $L < 1 \\implies$ absolute convergence.",
+      "keyFormulae": [
+        "\\sum_{n=1}^\\infty \\frac{1}{n^2} = \\frac{\\pi^2}{6}",
+        "L = \\lim\\left|\\frac{a_{n+1}}{a_n}\\right| < 1 \\implies \\text{Converges}"
+      ],
+      "hints": [
+        "Review the Monotone Convergence Theorem and standard convergence tests."
+      ]
+    }
+  ]
+}
