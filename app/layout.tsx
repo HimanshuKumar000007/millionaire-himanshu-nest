@@ -70,6 +70,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://sciprep.in',
   },
+  verification: {
+    google: 'googleec5a9ca46fd461da',
+  },
   category: 'Education',
 };
 
