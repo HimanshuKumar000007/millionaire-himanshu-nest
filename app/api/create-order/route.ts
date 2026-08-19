@@ -5,8 +5,8 @@ import { getEffectivePlan } from "@/lib/payment/plans";
 export const dynamic = "force-dynamic";
 
 const razorpay = new Razorpay({
-  key_id: process.env.RAZORPAY_KEY_ID || "rzp_test_TRUy5H8A8WKDNm",
-  key_secret: process.env.RAZORPAY_KEY_SECRET || "2RHQoo6poMXEaGyx7YOCgrY1",
+  key_id: process.env.RAZORPAY_KEY_ID || "rzp_live_TRW5i6BZ16XicD",
+  key_secret: process.env.RAZORPAY_KEY_SECRET || "0YOWF0HGPri34sKKFiuqnR91",
 });
 
 export async function POST(req: NextRequest) {
@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Invalid plan selected" }, { status: 400 });
     }
 
-    const keyId = process.env.RAZORPAY_KEY_ID || "rzp_test_TRUy5H8A8WKDNm";
+    const keyId = process.env.RAZORPAY_KEY_ID || "rzp_live_TRW5i6BZ16XicD";
     const amountInPaise = plan.price * 100;
 
     const options = {

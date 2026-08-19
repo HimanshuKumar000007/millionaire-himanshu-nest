@@ -24,7 +24,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const secret = process.env.RAZORPAY_KEY_SECRET || "2RHQoo6poMXEaGyx7YOCgrY1";
+    const secret = process.env.RAZORPAY_KEY_SECRET || "0YOWF0HGPri34sKKFiuqnR91";
     const signPayload = `${razorpay_order_id}|${razorpay_payment_id}`;
     const expectedSignature = crypto
       .createHmac("sha256", secret)

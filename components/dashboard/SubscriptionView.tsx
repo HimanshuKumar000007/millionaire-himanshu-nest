@@ -98,7 +98,7 @@ export function SubscriptionView({ onBackToDashboard }: SubscriptionViewProps) {
 
       // 2. Open Razorpay Checkout Modal
       const options = {
-        key: orderData.key || "rzp_test_TRUy5H8A8WKDNm",
+        key: orderData.key || "rzp_live_TRW5i6BZ16XicD",
         amount: orderData.amount,
         currency: orderData.currency || "INR",
         order_id: orderData.order_id,

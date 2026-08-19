@@ -126,7 +126,7 @@ export function UpgradeModal({
 
       // 2. Configure Razorpay Checkout options
       const options = {
-        key: orderData.key || "rzp_test_TRUy5H8A8WKDNm",
+        key: orderData.key || "rzp_live_TRW5i6BZ16XicD",
         amount: orderData.amount,
         currency: orderData.currency || "INR",
         name: "SciPrep",
@@ -455,26 +455,13 @@ export function UpgradeModal({
                     )}
                   </Button>
 
-                  {/* Test Mode Helper Strip */}
-                  <div className="p-3 bg-amber-50/80 rounded-xl border border-amber-200/80 flex items-start gap-2 text-amber-900 text-[11px] leading-relaxed">
-                    <Info className="h-4 w-4 text-amber-600 shrink-0 mt-0.5" />
-                    <div>
-                      <strong className="font-bold">Test Mode Instructions:</strong> In the Razorpay popup, select UPI or Netbanking &amp; click <strong>&quot;Success&quot;</strong> to simulate real payment. Or click the 1-click test button below:
-                    </div>
-                  </div>
-
                   <div className="flex items-center justify-between text-[11px] text-gray-400 font-medium px-1">
-                    <span className="flex items-center gap-1 text-emerald-700 font-bold">
-                      <ShieldCheck className="h-3.5 w-3.5 text-emerald-600" /> Razorpay Test Gateway Active
+                    <span className="flex items-center gap-1.5 text-emerald-700 font-bold">
+                      <ShieldCheck className="h-4 w-4 text-emerald-600" /> 256-Bit SSL Encrypted • Razorpay Secured
                     </span>
-                    <button
-                      onClick={handleInstantBypass}
-                      className="text-[11px] text-[#4F46E5] hover:text-indigo-800 font-black flex items-center gap-1 cursor-pointer bg-indigo-50 px-2.5 py-1 rounded-lg border border-indigo-200"
-                      title="For testing without payment"
-                    >
-                      <Zap className="h-3 w-3 text-amber-500 fill-amber-500" />
-                      <span>Instant Test Bypass ⚡</span>
-                    </button>
+                    <span className="text-[10px] text-gray-400">
+                      Instant PRO Activation
+                    </span>
                   </div>
                 </div>
               </div>
