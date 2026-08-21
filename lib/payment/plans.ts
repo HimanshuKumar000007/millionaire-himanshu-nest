@@ -27,7 +27,7 @@ export const SUBSCRIPTION_PLANS: Record<string, SubscriptionPlan> = {
     description: "Flexible access for quick revision and focused 30-day exam prep.",
     features: [
       "All 10+ Full-Length NEST CBT Pattern Mocks",
-      "Unlimited Official 2018–2024 PYQ Papers with Solutions",
+      "Unlimited Official 2018–2025 PYQ Papers with Solutions",
       "100+ Chapter Smart Lessons & High-Yield Notes",
       "Interactive Multi-Step Concept Explanations",
       "AI Diagnostic Error Breakdown & Weak-Area Insights",
@@ -48,7 +48,7 @@ export const SUBSCRIPTION_PLANS: Record<string, SubscriptionPlan> = {
     description: "Best choice for comprehensive semester-long NEST 2026/2027 prep.",
     features: [
       "All 10+ Full-Length NEST CBT Pattern Mocks",
-      "Unlimited Official 2018–2024 PYQ Papers with Solutions",
+      "Unlimited Official 2018–2025 PYQ Papers with Solutions",
       "100+ Chapter Smart Lessons & High-Yield Notes",
       "Interactive Multi-Step Concept Explanations",
       "AI Diagnostic Error Breakdown & Weak-Area Insights",
@@ -72,7 +72,7 @@ export const SUBSCRIPTION_PLANS: Record<string, SubscriptionPlan> = {
     description: "Complete peace of mind for the entire admission and counseling cycle.",
     features: [
       "All 10+ Full-Length NEST CBT Pattern Mocks",
-      "Unlimited Official 2018–2024 PYQ Papers with Solutions",
+      "Unlimited Official 2018–2025 PYQ Papers with Solutions",
       "100+ Chapter Smart Lessons & High-Yield Notes",
       "Interactive Multi-Step Concept Explanations",
       "AI Diagnostic Error Breakdown & Weak-Area Insights",
