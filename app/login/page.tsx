@@ -45,7 +45,7 @@ function LoginFormContent() {
   const [success, setSuccess] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
 
-  // Auto-redirect if already logged in (like IISER SmartPrep)
+  // Auto-redirect if already logged in
   useEffect(() => {
     const checkAndRedirect = () => {
       const token = getToken();

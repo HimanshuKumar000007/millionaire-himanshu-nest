@@ -23,7 +23,7 @@ export default function HomePage() {
   const router = useRouter();
   const [isCheckingAuth, setIsCheckingAuth] = React.useState(true);
 
-  // Auto-redirect to dashboard if user is already logged in (like IISER SmartPrep)
+  // Auto-redirect to dashboard if user is already logged in
   React.useEffect(() => {
     const checkAndRedirect = () => {
       const token = getToken();

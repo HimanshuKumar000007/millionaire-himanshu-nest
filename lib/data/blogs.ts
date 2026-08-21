@@ -20,12 +20,12 @@ export interface BlogPost {
 export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "introducing-sciprep-nest-study-material-platform-launch",
-    title: "Introducing SciPrep.in: India's Dedicated Smart Preparation Platform for NEST (NISER & CEBS) — From the Creators of IISER SmartPrep",
-    excerpt: "Announcing the launch of SciPrep.in — the specialized smart preparation platform engineered specifically for NEST aspirants targeting NISER Bhubaneswar and UM-DAE CEBS Mumbai. Built with the proven pedagogical engine of IISER SmartPrep.",
+    title: "Introducing SciPrep.in: India's Dedicated Smart Preparation Platform for NEST (NISER & CEBS)",
+    excerpt: "Announcing the launch of SciPrep.in — the specialized smart preparation platform engineered specifically for NEST aspirants targeting NISER Bhubaneswar and UM-DAE CEBS Mumbai. Built with authentic PYQs, CBT mocks, and AI diagnostics.",
     category: "News & Announcements",
     author: {
       name: "Aman Sharma",
-      role: "Founder & Academic Lead, SciPrep & IISER SmartPrep",
+      role: "Founder & Academic Lead, SciPrep",
       avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
     },
     publishedAt: "2026-08-21",
@@ -36,7 +36,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "SciPrep.in",
       "NEST study material",
       "sciprep nest",
-      "iiser smart prep nest",
+      "nest preparation platform",
       "NISER Bhubaneswar preparation",
       "UM-DAE CEBS study notes",
       "free NEST mock tests",
@@ -46,8 +46,8 @@ export const BLOG_POSTS: BlogPost[] = [
     ],
     faqs: [
       {
-        question: "How does SciPrep.in relate to IISER SmartPrep?",
-        answer: "SciPrep.in is built by the same core academic and technology team behind IISER SmartPrep. While IISER SmartPrep is specialized for the IISER Aptitude Test (IAT), SciPrep.in is purpose-built from the ground up for the National Entrance Screening Test (NEST), accounting for NEST's unique Best-3-of-4 scoring rule, mandatory Section-wise Minimum Admissible Score (SMAS), and research-level question depth.",
+        question: "What is the mission and methodology behind SciPrep.in?",
+        answer: "SciPrep.in is purpose-built from the ground up for the National Entrance Screening Test (NEST), accounting for NEST's unique Best-3-of-4 scoring rule, mandatory Section-wise Minimum Admissible Score (SMAS), and research-level question depth.",
       },
       {
         question: "What study materials and resources are available on SciPrep.in?",
@@ -83,14 +83,11 @@ Today, we are thrilled to officially announce the launch of **[SciPrep.in](https
 
 ---
 
-## 1. The Story Behind SciPrep.in: From IISER SmartPrep to NEST
+## 1. The Story Behind SciPrep.in: Dedicated Focus on NEST
 
-When we launched **IISER SmartPrep**, our mission was clear: replace bloated coaching modules with focused, intelligent, and authentic preparation tailored specifically for the IISER Aptitude Test (IAT). The impact was incredible — helping thousands of science students master concepts, conquer exam pacing, and secure dream seats across IISER campuses and IISc Bangalore.
+When designing **SciPrep.in**, our mission was clear: replace bloated coaching modules with focused, intelligent, and authentic preparation tailored specifically for pure science entrance examinations. We wanted to build an ecosystem that helps science students master concepts from first principles, conquer exam pacing, and secure dream seats across NISER Bhubaneswar and UM-DAE CEBS Mumbai.
 
-However, our community kept asking one question:
-> *"Can you build the exact same smart preparation ecosystem for NEST and NISER?"*
-
-The truth is, **NEST is an entirely different beast compared to JEE, NEET, or even IAT**. You cannot simply copy-paste generic test series and expect students to succeed. NEST requires a platform designed from first principles around its unique scoring mathematics and conceptual rigor.
+The truth is, **NEST is an entirely different beast compared to JEE or NEET**. You cannot simply copy-paste generic test series and expect students to succeed. NEST requires a platform designed from first principles around its unique scoring mathematics and conceptual rigor.
 
 That is why we spent months engineering **[SciPrep.in](https://sciprep.in)**.
 

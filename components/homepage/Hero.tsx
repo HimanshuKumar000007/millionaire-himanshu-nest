@@ -79,7 +79,7 @@ export function Hero({ onOpenAssessment }: HeroProps) {
               className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-50 border border-indigo-100 text-[#4F46E5] text-xs font-bold tracking-wide uppercase shadow-sm shadow-indigo-900/5 hover:shadow-md transition-shadow cursor-default"
             >
               <Sparkles className="h-3.5 w-3.5 text-indigo-600" />
-              <span>NEST Preparation • From the Creators of IISER SmartPrep</span>
+              <span>NEST Preparation • NISER &amp; UM-DAE CEBS</span>
             </motion.div>
 
             <motion.h1

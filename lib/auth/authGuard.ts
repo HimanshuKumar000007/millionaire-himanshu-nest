@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * authGuard.ts — Authentication & Plan helpers based on IISER SmartPrep structure.
+ * authGuard.ts — Authentication & Plan helpers for SciPrep.
  * Single source of truth for token access, plan status, and route guarding.
  */
 

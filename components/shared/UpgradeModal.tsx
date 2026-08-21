@@ -61,7 +61,7 @@ export function UpgradeModal({
   isOpen,
   onClose,
   featureTitle = "Unlock Full SciPrep PRO",
-  featureDescription = "Upgrade to access all full-length CBT mocks, complete 2018–2025 PYQ archives, and 100+ chapter smart lessons.",
+  featureDescription = "Upgrade to access all full-length CBT mocks, complete 2018–2024 PYQ archives, and 100+ chapter smart lessons.",
 }: UpgradeModalProps) {
   const [mounted, setMounted] = React.useState(false);
   const [selectedPlanId, setSelectedPlanId] = React.useState<"monthly" | "six_month" | "annual">("six_month");
@@ -220,7 +220,7 @@ export function UpgradeModal({
     },
     {
       icon: FileText,
-      title: "Complete 2018–2025 Official PYQ Papers",
+      title: "Complete 2018–2024 Official PYQ Papers",
       desc: "Every single past exam shift with question-by-question step solutions.",
     },
     {
@@ -262,7 +262,7 @@ export function UpgradeModal({
               </div>
               <h3 className="text-2xl font-black text-gray-900">Welcome to SciPrep PRO! 👑</h3>
               <p className="text-sm text-gray-600 max-w-md mx-auto">
-                Your payment of <strong className="text-gray-900">₹{currentPlan.price}</strong> has been confirmed. All 10+ Full Mocks, 2018–2025 PYQs, and 100+ Notes are now unlocked!
+                Your payment of <strong className="text-gray-900">₹{currentPlan.price}</strong> has been confirmed. All 10+ Full Mocks, 2018–2024 PYQs, and 100+ Notes are now unlocked!
               </p>
               <div className="pt-4">
                 <Button

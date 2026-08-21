@@ -50,7 +50,7 @@ export function AnnouncementBanner({ onOpenAssessment }: AnnouncementBannerProps
               </span>
 
               <span className="text-white/95 font-semibold">
-                <strong className="text-white font-extrabold">SciPrep.in</strong> is live! India's dedicated preparation hub for NEST (NISER &amp; CEBS) — from the team behind <span className="underline decoration-indigo-300 underline-offset-2 font-bold">IISER SmartPrep</span>.
+                <strong className="text-white font-extrabold">SciPrep.in</strong> is live! India&apos;s dedicated preparation hub for NEST (NISER &amp; CEBS) with smart lessons, PYQs &amp; CBT mocks.
               </span>
 
               <div className="inline-flex items-center gap-2">
