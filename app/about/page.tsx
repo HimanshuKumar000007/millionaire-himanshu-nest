@@ -4,6 +4,7 @@ import * as React from "react";
 import Link from "next/link";
 import { motion, type Variants } from "motion/react";
 import { Logo } from "@/components/shared/Logo";
+import { AnnouncementBanner } from "@/components/shared/AnnouncementBanner";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
@@ -124,6 +125,9 @@ export default function AboutPage() {
 
   return (
     <div className="min-h-screen flex flex-col bg-[#F7F8FC] text-[#111827]">
+      {/* Top Announcement Bar */}
+      <AnnouncementBanner />
+
       {/* Top Navigation */}
       <header className="sticky top-0 z-40 w-full bg-white/80 backdrop-blur-xl border-b border-gray-200/60 shadow-xs py-3.5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">

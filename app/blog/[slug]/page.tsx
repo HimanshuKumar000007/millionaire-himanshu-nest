@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { BLOG_POSTS } from "@/lib/data/blogs";
+import { AnnouncementBanner } from "@/components/shared/AnnouncementBanner";
 import { Navbar } from "@/components/homepage/Navbar";
 import { Footer } from "@/components/homepage/Footer";
 import { BlogPostClient } from "@/components/blog/BlogPostClient";
@@ -157,6 +158,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+
+      {/* Top Announcement Bar */}
+      <AnnouncementBanner />
 
       {/* Header */}
       <Navbar />

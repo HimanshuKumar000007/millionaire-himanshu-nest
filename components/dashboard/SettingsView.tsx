@@ -31,8 +31,8 @@ export function SettingsView({ onBackToDashboard, onOpenAuthModal }: SettingsVie
   const { user, isLoggedIn } = useAuth();
 
   // User details state
-  const [userName, setUserName] = useState<string>("SciPrep Aspirant");
-  const [emailId, setEmailId] = useState<string>("student@sciprep.in");
+  const [userName, setUserName] = useState<string>("Guest Aspirant");
+  const [emailId, setEmailId] = useState<string>("Local Storage Mode (Not Signed In)");
   const [isPro, setIsPro] = useState<boolean>(false);
   const [upgradeModalOpen, setUpgradeModalOpen] = useState<boolean>(false);
 
@@ -43,12 +43,21 @@ export function SettingsView({ onBackToDashboard, onOpenAuthModal }: SettingsVie
       if (user?.email) {
         setEmailId(user.email);
         const nameFromMeta = user.user_metadata?.full_name;
-        if (nameFromMeta) setUserName(nameFromMeta);
+        if (nameFromMeta) {
+          setUserName(nameFromMeta);
+        } else {
+          const savedName = localStorage.getItem("nest_user_name") || localStorage.getItem("currentUser");
+          if (savedName) setUserName(savedName);
+        }
       } else {
-        const savedName = localStorage.getItem("nest_user_name");
+        const savedName = localStorage.getItem("nest_user_name") || localStorage.getItem("currentUser");
         const savedEmail = localStorage.getItem("nest_user_email");
         if (savedName) setUserName(savedName);
-        if (savedEmail) setEmailId(savedEmail);
+        if (savedEmail) {
+          setEmailId(savedEmail);
+        } else {
+          setEmailId("Local Storage Mode (Not Signed In)");
+        }
       }
     } catch (e) {
       console.warn("Could not read user settings from storage:", e);
@@ -87,7 +96,7 @@ export function SettingsView({ onBackToDashboard, onOpenAuthModal }: SettingsVie
             Account Settings
           </h1>
           <p className="text-xs text-gray-500 font-medium">
-            Manage your account credentials, subscription plan, and cloud sync.
+            Account credentials, cloud backup status, and membership tier.
           </p>
         </div>
       </div>
@@ -127,7 +136,7 @@ export function SettingsView({ onBackToDashboard, onOpenAuthModal }: SettingsVie
           <Button
             size="sm"
             onClick={onOpenAuthModal}
-            className="h-8 bg-[#4F46E5] hover:bg-indigo-700 text-white text-xs font-bold rounded-xl shadow-2xs shrink-0"
+            className="h-8 bg-[#4F46E5] hover:bg-indigo-700 text-white text-xs font-bold rounded-xl shadow-2xs shrink-0 cursor-pointer"
           >
             <LogIn className="h-3.5 w-3.5 mr-1" /> Sign In
           </Button>
@@ -139,7 +148,7 @@ export function SettingsView({ onBackToDashboard, onOpenAuthModal }: SettingsVie
         {/* User Avatar + Name Row */}
         <div className="flex items-center gap-4 pb-6 border-b border-gray-100">
           <div className="h-16 w-16 rounded-2xl bg-gradient-to-tr from-purple-600 to-indigo-600 text-white flex items-center justify-center text-xl font-black shadow-md shrink-0">
-            {userName ? userName.slice(0, 2).toUpperCase() : "AK"}
+            {userName && userName !== "Guest Aspirant" ? userName.slice(0, 2).toUpperCase() : "GA"}
           </div>
           <div>
             <h2 className="text-lg font-black text-gray-900">{userName}</h2>
@@ -170,7 +179,7 @@ export function SettingsView({ onBackToDashboard, onOpenAuthModal }: SettingsVie
         {/* 3. Plan (Pro or Not) */}
         <div className="space-y-1.5">
           <label className="text-xs font-bold text-gray-400 uppercase tracking-wider flex items-center gap-1.5">
-            <Crown className="h-3.5 w-3.5 text-amber-500" /> Subscription Plan
+            <Crown className="h-3.5 w-3.5 text-amber-500" /> Membership Tier
           </label>
           <div className="p-4 bg-gray-50 rounded-2xl border border-gray-200/80 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div className="flex items-center gap-3">
@@ -196,7 +205,7 @@ export function SettingsView({ onBackToDashboard, onOpenAuthModal }: SettingsVie
                 </div>
                 <p className="text-[11px] text-gray-500 font-medium mt-0.5">
                   {isPro
-                    ? "Full unrestricted access to all 10+ Mocks, 2018–2024 PYQs, 100+ Notes & AI Diagnostics."
+                    ? "Full unrestricted access to all 10+ Mocks, 2018–2025 PYQs with derivations, 100+ Notes & AI Diagnostics."
                     : "Basic access to 1 Mock, 1 PYQ paper, and 1 chapter note."}
                 </p>
               </div>

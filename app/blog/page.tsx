@@ -2,6 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { BLOG_POSTS } from "@/lib/data/blogs";
+import { AnnouncementBanner } from "@/components/shared/AnnouncementBanner";
 import { Navbar } from "@/components/homepage/Navbar";
 import { Footer } from "@/components/homepage/Footer";
 import { BlogIndexClient } from "@/components/blog/BlogIndexClient";
@@ -74,6 +75,9 @@ export default function BlogIndexPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+
+      {/* Top Announcement Bar */}
+      <AnnouncementBanner />
 
       {/* Header Navigation */}
       <Navbar />

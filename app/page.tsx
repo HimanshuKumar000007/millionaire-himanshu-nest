@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import { useRouter } from "next/navigation";
+import { AnnouncementBanner } from "@/components/shared/AnnouncementBanner";
 import { Navbar } from "@/components/homepage/Navbar";
 import { Hero } from "@/components/homepage/Hero";
 import { TrustStrip } from "@/components/homepage/TrustStrip";
@@ -75,6 +76,9 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen flex flex-col bg-[#F7F8FC] text-[#111827]">
+      {/* Top Announcement Bar */}
+      <AnnouncementBanner onOpenAssessment={handleOpenAssessment} />
+
       {/* Sticky Navbar */}
       <Navbar onOpenAssessment={handleOpenAssessment} onOpenLogin={handleOpenLogin} />
 

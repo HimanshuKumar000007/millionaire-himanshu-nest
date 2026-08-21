@@ -30,6 +30,7 @@ interface BlogIndexClientProps {
 
 const CATEGORIES = [
   "All Guides",
+  "News & Announcements",
   "Strategy & Roadmap",
   "Exam Pattern & Cutoffs",
   "College Insights",
