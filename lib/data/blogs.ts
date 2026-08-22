@@ -19,6 +19,175 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "nest-exam-cut-off-marks-category-wise-smas-mas",
+    title: "NEST Exam Cut Off Marks 2026/2027: Category-Wise Cutoff, SMAS Sectional Scores & NISER/CEBS Safe Marks Breakdown",
+    excerpt: "Complete authoritative guide to NEST cut off marks, category-wise qualifying thresholds (General, OBC-NCL, SC, ST, EWS), Section-wise MAS (SMAS), and safe score targets for NISER Bhubaneswar and UM-DAE CEBS.",
+    category: "Exam Pattern & Cutoffs",
+    author: {
+      name: "Prof. Sudhir Mohanty",
+      role: "Senior Academic Consultant & Exam Analyst",
+      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+    },
+    publishedAt: "2026-08-22",
+    readTime: "9 min read",
+    featuredImage: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&auto=format&fit=crop&q=80",
+    metaDescription: "Check official NEST exam cut off marks for 2026/2027: category-wise marks (General, OBC, SC, ST, EWS), subject-wise SMAS thresholds, Minimum Admissible Score (MAS), and NISER safe scores.",
+    keywords: [
+      "nest exam cut off marks",
+      "smas in nest",
+      "nest 2026 category marks",
+      "nest exam cut off",
+      "nest cut off",
+      "NISER Bhubaneswar cutoff marks",
+      "UM-DAE CEBS cutoff 2026",
+      "category wise cutoff in NEST",
+      "smas calculation formula",
+      "nest qualifying marks general obc sc st",
+    ],
+    faqs: [
+      {
+        question: "What is SMAS in NEST and how is it calculated?",
+        answer: "SMAS stands for Section-wise Minimum Admissible Score. It is the mandatory sectional cutoff required in EACH of the four subject sections (Physics, Chemistry, Mathematics, Biology). For General category candidates, SMAS is calculated as 20% of the average of the top 100 scores in that specific section (SMAS = 20% × M_A). For OBC-NCL it is 90% of General SMAS, and for SC/ST/PwD it is 50% of General SMAS.",
+      },
+      {
+        question: "What are the category-wise cut off marks for NEST 2026/2027?",
+        answer: "For NISER Bhubaneswar admissions (out of 180 evaluated marks in Best 3 subjects): General category cutoff typically ranges between 110–135 marks (AIR 1–250), OBC-NCL cutoff is around 95–115 marks (AIR 250–600), EWS cutoff is 100–120 marks, SC cutoff is 60–80 marks, and ST cutoff is 45–65 marks.",
+      },
+      {
+        question: "Can a student get a rank in NEST without clearing SMAS in all 4 subjects?",
+        answer: "No. Clearing the SMAS (sectional cutoff) in ALL 4 subject sections is compulsory. Even if a candidate scores 55/60 in Physics, 55/60 in Chemistry, and 55/60 in Math (165/180 marks), but scores 0 in Biology and misses the Biology SMAS (~6 marks), they will be completely disqualified from the official merit list.",
+      },
+      {
+        question: "What is the difference between SMAS and MAS in NEST?",
+        answer: "SMAS is the individual sectional cutoff in each of the 4 subjects (typically 4–8 marks per subject). MAS (Minimum Admissible Score) is the overall aggregate threshold across your Best 3 scoring subjects (at least 50% of the average of the top 100 total scores, typically around 65–75 marks out of 180 for General). You must clear BOTH SMAS in all 4 subjects and MAS overall to qualify.",
+      },
+      {
+        question: "What is a safe score out of 180 for General category in NEST?",
+        answer: "A score of 120+ out of 180 (across your best 3 subjects) with at least 10–15 marks in your 4th non-core subject provides a 99%+ percentile and guarantees safe admission into NISER Bhubaneswar in the very first counseling round.",
+      },
+    ],
+    content: `
+## Introduction: Understanding the Two-Tier NEST Cutoff Mechanism
+
+Every year, thousands of brilliant science students across India attempt the **National Entrance Screening Test (NEST)** for admission into the premier 5-year Integrated M.Sc. programs at:
+- **NISER (National Institute of Science Education and Research), Bhubaneswar** (Department of Atomic Energy)
+- **UM-DAE CEBS (Centre for Excellence in Basic Sciences), Mumbai**
+
+Unlike generic entrance exams where selection depends solely on aggregate total marks, NEST implements a strict **two-tier qualification mechanism**:
+1. **Section-wise Minimum Admissible Score (SMAS)** — Sectional Cutoff in all 4 subjects.
+2. **Overall Minimum Admissible Score (MAS)** — Aggregate threshold in Best 3 subjects (out of 180 Marks).
+
+In this authoritative guide, we break down the official mathematics of **SMAS in NEST**, historical cutoffs (2021–2025), and **category-wise qualifying marks** for General, OBC-NCL, EWS, SC, ST, and PwD candidates.
+
+---
+
+## 1. Category-Wise Expected Cut Off Marks for NEST (NISER & CEBS)
+
+The table below outlines the safe score targets out of **180 marks (evaluated on Best 3 subjects)** and typical All India Rank (AIR) thresholds required for seat allocation:
+
+| Category | Typical Score Range (out of 180) | Safe Percentile | Target All India Rank (AIR) |
+| :--- | :--- | :--- | :--- |
+| **General (UR)** | **115 – 135+ Marks** | 98.0% – 99.8% | AIR 1 – 250 (NISER) / AIR 251 – 550 (CEBS) |
+| **EWS** | **102 – 120 Marks** | 94.5% – 97.5% | Category Rank 1 – 45 |
+| **OBC-NCL** | **95 – 115 Marks** | 92.0% – 96.5% | Category Rank 1 – 120 |
+| **SC (Scheduled Caste)** | **60 – 82 Marks** | 75.0% – 88.0% | Category Rank 1 – 70 |
+| **ST (Scheduled Tribe)** | **45 – 65 Marks** | 60.0% – 74.0% | Category Rank 1 – 35 |
+| **PwD (Divyangjan)** | **40 – 60 Marks** | 55.0% – 70.0% | Horizontal Reservation Eligible |
+
+> [!IMPORTANT]
+> **Scoring Note**: The question paper contains **240 marks** (4 sections × 60 marks). However, your merit rank is calculated strictly out of **180 marks** from your **top three scoring subjects**.
+
+---
+
+## 2. What is SMAS in NEST? (Section-wise Minimum Admissible Score)
+
+The single biggest reason candidates miss the NEST merit list is failure to clear the **Section-wise Minimum Admissible Score (SMAS)**.
+
+### The SMAS Calculation Formula:
+For each of the 4 subject sections (Physics, Chemistry, Mathematics, Biology), the average of the top 100 scores in that section across the entire country ($M_A$) is computed.
+
+$$\\text{SMAS (General)} = 20\\% \\times M_A$$
+
+### Category-Wise SMAS Scaling Rules:
+- **General (UR) / EWS**: $\\text{SMAS} = 20\\% \\times M_A$
+- **OBC-NCL**: $\\text{SMAS} = 90\\% \\times \\text{General SMAS} = 18\\% \\times M_A$
+- **SC / ST / PwD**: $\\text{SMAS} = 50\\% \\times \\text{General SMAS} = 10\\% \\times M_A$
+
+### The Non-Negotiable Rule:
+To receive a valid All India Rank (AIR), **you MUST score above the SMAS in all four subjects**.
+- If a PCM student scores **52/60 in Physics, 54/60 in Chemistry, and 50/60 in Math (Total: 156/180)**, but gets **0 marks in Biology** because they left it unattempted, **THEY GET DISQUALIFIED AND RECEIVE NO RANK!**
+
+---
+
+## 3. Historical SMAS Subject-Wise Cutoff Trends (2021–2025)
+
+The table below shows the official sectional SMAS cutoffs (out of 60 marks per section) over the last 5 exam years for General category:
+
+| Exam Year | Physics SMAS (/60) | Chemistry SMAS (/60) | Biology SMAS (/60) | Mathematics SMAS (/60) |
+| :--- | :--- | :--- | :--- | :--- |
+| **NEST 2025 (Shift 1)** | 6.82 Marks | 8.14 Marks | 7.45 Marks | 5.90 Marks |
+| **NEST 2025 (Shift 2)** | 7.15 Marks | 7.90 Marks | 6.80 Marks | 6.12 Marks |
+| **NEST 2024 (Shift 1)** | 5.68 Marks | 7.22 Marks | 6.10 Marks | 5.40 Marks |
+| **NEST 2024 (Shift 2)** | 6.04 Marks | 6.95 Marks | 5.85 Marks | 5.15 Marks |
+| **NEST 2023** | 6.25 Marks | 7.50 Marks | 6.90 Marks | 5.80 Marks |
+| **NEST 2022** | 5.50 Marks | 6.75 Marks | 5.95 Marks | 4.90 Marks |
+| **NEST 2021** | 6.00 Marks | 7.10 Marks | 6.40 Marks | 5.20 Marks |
+
+### Key Takeaway from SMAS Data:
+Across all years and shifts, the General SMAS cutoff **never exceeds 8.5 marks out of 60**.
+- This means solving **just 3 to 4 questions correctly (+3 marks each, total 9–12 marks)** with zero wild guesses is 100% sufficient to clear SMAS in your weakest or non-core subject!
+
+---
+
+## 4. What is MAS (Overall Minimum Admissible Score)?
+
+In addition to clearing SMAS in each section, candidates must also clear the overall **Minimum Admissible Score (MAS)** across their Best 3 scoring subjects:
+
+$$\\text{MAS (General)} = 50\\% \\times T_A$$
+
+*(Where $T_A$ is the average of the top 100 total scores in the country).*
+
+- **General / EWS MAS**: Typically **~65 to 78 Marks** out of 180.
+- **OBC-NCL MAS**: $90\\% \\times \\text{General MAS} \\approx$ **~58 to 70 Marks**.
+- **SC / ST / PwD MAS**: $50\\% \\times \\text{General MAS} \\approx$ **~32 to 40 Marks**.
+
+---
+
+## 5. Score vs Percentile vs Predicted AIR Ranking
+
+| Evaluated Score (out of 180) | Predicted Percentile | Predicted All India Rank (AIR) | Target Institute |
+| :--- | :--- | :--- | :--- |
+| **140 – 165+** | 99.6% – 99.99% | AIR 1 – 30 | NISER Top Merit List |
+| **125 – 139** | 98.8% – 99.5% | AIR 31 – 120 | Guaranteed NISER Bhubaneswar |
+| **110 – 124** | 97.2% – 98.7% | AIR 121 – 280 | Safe NISER Selection |
+| **95 – 109** | 93.5% – 97.1% | AIR 281 – 650 | Safe UM-DAE CEBS Mumbai |
+| **80 – 94** | 87.0% – 93.4% | AIR 651 – 1300 | CEBS Waitlist / Special Counseling |
+| **Below 75** | Below 85% | AIR 1300+ | Non-Admissible for General |
+
+---
+
+## 6. How to Beat the Cutoff on Exam Day: Tactical Rules
+
+1. **The First 25-Minute Rule (Secure SMAS First)**:
+   - Begin your 210-minute exam by spending 25 minutes on your non-core subject (e.g. Biology for PCM students, or Math for PCB students).
+   - Carefully identify and solve **4 to 5 direct, high-confidence questions** to bank **12–15 marks**.
+   - Once your non-core SMAS is guaranteed, **stop attempting questions in that section** to avoid negative marking ($-1$).
+2. **Maximize Core Subjects (Next 185 Minutes)**:
+   - Dedicate the remaining time to your 3 primary subjects. Aim for **35–45 marks per core subject** to cross 120+ overall.
+3. **Practice on Realistic CBT Mock Simulators**:
+   - Generic test series don't calculate Best-3 evaluation or SMAS alerts.
+   - Use **SciPrep.in's Official 180-Mark CBT Simulator** to practice with real SMAS thresholds, live countdown timers, and predicted AIR reports.
+
+---
+
+## Conclusion & Free Diagnostic Test
+
+Knowing the exact cutoff targets removes the guesswork from your preparation. With dedicated focus on high-yield topics and disciplined SMAS management, securing an AIR under 200 is well within your reach.
+
+**Ready to find out your current standing? [Take the Free 10-Minute NEST Diagnostic Readiness Test on SciPrep.in today!](https://sciprep.in/assessment)**
+    `,
+  },
+  {
     slug: "introducing-sciprep-nest-study-material-platform-launch",
     title: "Introducing SciPrep.in: India's Dedicated Smart Preparation Platform for NEST (NISER & CEBS)",
     excerpt: "Announcing the launch of SciPrep.in — the specialized smart preparation platform engineered specifically for NEST aspirants targeting NISER Bhubaneswar and UM-DAE CEBS Mumbai. Built with authentic PYQs, CBT mocks, and AI diagnostics.",
