@@ -41,8 +41,8 @@ export function SmartLessonsSection({ onOpenAssessment }: SmartLessonsSectionPro
         >
           <SectionHeading
             badge="High-Yield Concept Modules"
-            title="Learn the concept. Then apply it."
-            subtitle="Focused lessons designed to help you understand important concepts without getting lost in unnecessary content."
+            title="Focused lessons built for competitive exams."
+            subtitle="15-minute concept modules covering high-yield formulas, diagrammatic insights, NEST PYQ connections, and common exam traps."
           />
         </motion.div>
 
@@ -73,10 +73,10 @@ export function SmartLessonsSection({ onOpenAssessment }: SmartLessonsSectionPro
 
             <motion.div variants={itemVariants} className="space-y-3">
               {[
-                "Concise 15-minute focused modules",
+                "15-minute focused modules",
                 "High-yield formulas & diagrammatic insights",
-                "NEST PYQ Connections tagged directly to concepts",
-                "Important terminology & common trap points highlighted",
+                "NEST PYQ connections tagged directly to concepts",
+                "Common traps & quick revision notes",
               ].map((feature, i) => (
                 <motion.div 
                   key={i} 

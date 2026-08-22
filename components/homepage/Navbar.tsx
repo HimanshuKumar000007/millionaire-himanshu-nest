@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { Logo } from "@/components/shared/Logo";
 import { Button } from "@/components/ui/button";
 import { Sheet } from "@/components/ui/sheet";
-import { ArrowRight, Menu, LogIn, Sparkles, TrendingUp, X } from "lucide-react";
+import { ArrowRight, Menu, LogIn, Sparkles } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
 import { useRouter } from "next/navigation";
@@ -21,7 +21,6 @@ export function Navbar({ onOpenAssessment, onOpenLogin }: NavbarProps) {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeLink, setActiveLink] = useState<string>("/");
-  const [announcementVisible, setAnnouncementVisible] = useState(true);
 
   const handleNavLinkClick = (e: React.MouseEvent, href: string) => {
     if (href === "/dashboard") {
@@ -95,52 +94,8 @@ export function Navbar({ onOpenAssessment, onOpenLogin }: NavbarProps) {
     { label: "Prep Guides", href: "/blog" },
     { label: "About", href: "/about" },
   ];
-
   return (
     <>
-      {/* Announcement Strip */}
-      <AnimatePresence>
-        {announcementVisible && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.3 }}
-            className="bg-indigo-600 text-white text-xs font-semibold overflow-hidden"
-          >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 flex items-center justify-between gap-4">
-              <div className="flex items-center gap-2 flex-1 min-w-0">
-                <TrendingUp className="h-3.5 w-3.5 text-indigo-200 shrink-0" />
-                <div className="overflow-hidden">
-                  <motion.p
-                    animate={{ x: [0, -10, 0] }}
-                    transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-                    className="truncate text-indigo-50"
-                  >
-                    🔥 NEST 2025 Results Released — Check NISER & CEBS Category-wise SMAS Cutoff Analysis on SciPrep
-                  </motion.p>
-                </div>
-              </div>
-              <div className="flex items-center gap-3 shrink-0">
-                <a
-                  href="/blog"
-                  className="hidden sm:inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-white/15 hover:bg-white/25 text-white text-[11px] font-bold transition-colors"
-                >
-                  Read Analysis <ArrowRight className="h-3 w-3" />
-                </a>
-                <button
-                  onClick={() => setAnnouncementVisible(false)}
-                  className="p-0.5 rounded hover:bg-white/20 transition-colors cursor-pointer"
-                  aria-label="Dismiss"
-                >
-                  <X className="h-3.5 w-3.5 text-indigo-200" />
-                </button>
-              </div>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
-
       <motion.header
         initial={{ y: -100 }}
         animate={{ y: 0 }}

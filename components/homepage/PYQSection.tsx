@@ -113,8 +113,8 @@ export function PYQSection({ onOpenAssessment }: PYQSectionProps) {
           <SectionHeading
             badge="Authentic NEST Questions"
             badgeVariant="default"
-            title="Practice the questions that matter."
-            subtitle="Use previous-year questions to understand patterns, test your concepts, and build exam familiarity."
+            title="Practice the questions that actually prepare you for NEST."
+            subtitle="Solve official previous-year questions with chapter tagging, step-by-step concept breakdowns, and real-time accuracy insights."
           />
         </motion.div>
 

@@ -3,7 +3,7 @@
 import * as React from "react";
 import { useRef } from "react";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Sparkles, Compass, ShieldCheck, Zap, Clock, Target } from "lucide-react";
+import { ArrowRight, Compass, ShieldCheck, Clock, Target } from "lucide-react";
 import { motion, useInView, type Variants } from "motion/react";
 
 interface FinalCTAProps {
@@ -13,70 +13,46 @@ interface FinalCTAProps {
 const featurePills = [
   { icon: ShieldCheck, label: "Free to start", color: "text-emerald-400" },
   { icon: Clock, label: "Under 3 minutes", color: "text-indigo-400" },
-  { icon: Target, label: "Instant NEST score", color: "text-purple-400" },
+  { icon: Target, label: "Personalized NEST score", color: "text-violet-400" },
 ];
 
 export function FinalCTA({ onOpenAssessment }: FinalCTAProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
-  const headingText = "Your NEST preparation starts with knowing where you stand.";
-  const words = headingText.split(" ");
+  const words = "Stop guessing. Start preparing with a plan.".split(" ");
 
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: { staggerChildren: 0.07, delayChildren: 0.2 },
-    },
+    visible: { opacity: 1, transition: { staggerChildren: 0.065, delayChildren: 0.2 } },
   };
-
   const wordVariants: Variants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { type: "spring", damping: 12, stiffness: 100 } },
+    hidden: { opacity: 0, y: 18 },
+    visible: { opacity: 1, y: 0, transition: { type: "spring", damping: 14, stiffness: 100 } },
   };
 
   return (
     <section ref={ref} className="relative py-20 sm:py-32 bg-slate-950 text-white overflow-hidden">
-      {/* Grid texture */}
-      <div className="absolute inset-0 opacity-[0.025]" style={{
-        backgroundImage: "linear-gradient(rgba(255,255,255,.5) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.5) 1px,transparent 1px)",
-        backgroundSize: "40px 40px"
-      }} />
-
-      {/* Centered spotlight */}
+      <div className="absolute inset-0 opacity-[0.025]" style={{ backgroundImage: "linear-gradient(rgba(255,255,255,.5) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.5) 1px,transparent 1px)", backgroundSize: "40px 40px" }} />
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-        <div className="w-[700px] h-[500px] bg-indigo-600/20 rounded-full blur-[100px]" />
+        <div className="w-[600px] h-[400px] bg-indigo-600/15 rounded-full blur-[90px]" />
       </div>
-
-      {/* Animated orbs */}
       <motion.div
-        animate={{ y: [0, -30, 0], opacity: [0.15, 0.3, 0.15], scale: [1, 1.1, 1] }}
-        transition={{ repeat: Infinity, duration: 8, ease: "easeInOut" }}
-        className="absolute top-1/4 left-1/5 w-72 h-72 bg-indigo-500/15 rounded-full blur-3xl"
-      />
-      <motion.div
-        animate={{ y: [0, 40, 0], opacity: [0.08, 0.2, 0.08], scale: [1, 1.2, 1] }}
-        transition={{ repeat: Infinity, duration: 10, ease: "easeInOut", delay: 1 }}
-        className="absolute bottom-1/4 right-1/5 w-96 h-96 bg-purple-500/15 rounded-full blur-3xl"
+        animate={{ y: [0, -20, 0], opacity: [0.1, 0.2, 0.1] }}
+        transition={{ repeat: Infinity, duration: 9, ease: "easeInOut" }}
+        className="absolute top-1/4 left-1/5 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"
       />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-8 relative z-10">
-
-        {/* Eyebrow badge */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-          transition={{ duration: 0.6 }}
+          initial={{ opacity: 0, y: 16 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.5 }}
           className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-bold uppercase tracking-wider"
         >
-          <motion.div animate={{ rotate: [0, 15, -15, 0] }} transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}>
-            <Sparkles className="h-3.5 w-3.5 text-indigo-400" />
-          </motion.div>
-          <span>Start Free Today — No Credit Card</span>
+          Take the first step today
         </motion.div>
 
-        {/* Headline */}
         <motion.h2
           variants={containerVariants}
           initial="hidden"
@@ -84,36 +60,29 @@ export function FinalCTA({ onOpenAssessment }: FinalCTAProps) {
           className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight flex flex-wrap justify-center gap-x-3 gap-y-1"
         >
           {words.map((word, i) => (
-            <motion.span key={i} variants={wordVariants} className="inline-block">
-              {word}
-            </motion.span>
+            <motion.span key={i} variants={wordVariants} className="inline-block">{word}</motion.span>
           ))}
         </motion.h2>
 
-        {/* Subtext */}
         <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
+          initial={{ opacity: 0, y: 16 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6, delay: 0.55 }}
           className="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto font-normal leading-relaxed"
         >
-          Take the free assessment and discover what you should focus on next to build a confident, high-scoring NEST preparation strategy — powered by SciPrep&apos;s SMAS-aware analytics.
+          Take the free SciPrep assessment and discover what to focus on next.
         </motion.p>
 
-        {/* Feature pills */}
         <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
-          transition={{ duration: 0.5, delay: 0.7 }}
+          initial={{ opacity: 0, y: 8 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.45, delay: 0.65 }}
           className="flex flex-wrap items-center justify-center gap-3"
         >
           {featurePills.map((pill, i) => {
             const Icon = pill.icon;
             return (
-              <div
-                key={i}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs font-semibold text-slate-300"
-              >
+              <div key={i} className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs font-medium text-slate-300">
                 <Icon className={`h-3.5 w-3.5 ${pill.color}`} />
                 {pill.label}
               </div>
@@ -121,36 +90,20 @@ export function FinalCTA({ onOpenAssessment }: FinalCTAProps) {
           })}
         </motion.div>
 
-        {/* CTA Buttons */}
         <motion.div
-          initial={{ opacity: 0, scale: 0.92 }}
-          animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.92 }}
-          transition={{ duration: 0.6, delay: 0.8 }}
+          initial={{ opacity: 0, scale: 0.94 }}
+          animate={isInView ? { opacity: 1, scale: 1 } : {}}
+          transition={{ duration: 0.5, delay: 0.75 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2"
         >
-          <div className="relative w-full sm:w-auto group">
-            {/* Animated ring pulse */}
-            <motion.div
-              animate={{ scale: [1, 1.08, 1], opacity: [0.4, 0.7, 0.4] }}
-              transition={{ repeat: Infinity, duration: 2.5, ease: "easeInOut" }}
-              className="absolute -inset-1 bg-indigo-500/30 rounded-2xl blur-md pointer-events-none"
-            />
-            <Button
-              onClick={onOpenAssessment}
-              size="xl"
-              className="relative w-full sm:w-auto z-10 bg-indigo-600 hover:bg-indigo-500 text-white border-0 shadow-lg shadow-indigo-500/30 rounded-xl font-bold text-base transition-all"
-            >
-              <Zap className="mr-2 h-5 w-5 text-indigo-200" />
-              Start Free Assessment
-              <motion.div
-                animate={{ x: [0, 4, 0] }}
-                transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
-              >
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </motion.div>
-            </Button>
-          </div>
-
+          <Button
+            onClick={onOpenAssessment}
+            size="xl"
+            className="relative w-full sm:w-auto bg-indigo-600 hover:bg-indigo-500 text-white border-0 shadow-lg shadow-indigo-500/25 rounded-xl font-bold text-base transition-all group"
+          >
+            Start Free Assessment
+            <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+          </Button>
           <a href="#how-it-works" className="w-full sm:w-auto">
             <Button
               variant="outline"
@@ -162,6 +115,15 @@ export function FinalCTA({ onOpenAssessment }: FinalCTAProps) {
             </Button>
           </a>
         </motion.div>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={isInView ? { opacity: 1 } : {}}
+          transition={{ duration: 0.5, delay: 0.9 }}
+          className="text-xs text-slate-500 font-medium"
+        >
+          Free to start • No credit card required
+        </motion.p>
       </div>
     </section>
   );

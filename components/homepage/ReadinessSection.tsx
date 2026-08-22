@@ -123,10 +123,10 @@ export function ReadinessSection({ onOpenAssessment }: ReadinessSectionProps) {
     <section className="py-16 sm:py-24 bg-[#F7F8FC] border-b border-gray-200/80 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          badge="Readiness Analytics Engine"
+          badge="Readiness Analytics"
           badgeVariant="default"
           title="Know where you stand before exam day."
-          subtitle="SciPrep turns your practice and test performance into a simple readiness picture, helping you identify what needs attention next."
+          subtitle="SciPrep doesn't just show your score. It tells you what to do next — turning diagnostic telemetry into targeted preparation steps."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">

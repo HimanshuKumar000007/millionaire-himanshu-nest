@@ -91,8 +91,8 @@ export function MockTestSection({ onOpenAssessment }: MockTestSectionProps) {
         <SectionHeading
           badge="Realistic Timed Simulation"
           badgeVariant="success"
-          title="Practice before exam day feels real."
-          subtitle="Train with realistic timed practice and understand how you perform under pressure."
+          title="Practice under real exam conditions."
+          subtitle="Full-length NEST simulations with authentic 180-mark structure, sectional timing, and comprehensive subject-wise speed analysis."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
@@ -262,7 +262,7 @@ export function MockTestSection({ onOpenAssessment }: MockTestSectionProps) {
                   className="rounded-md w-full sm:w-auto"
                 >
                   <Button onClick={onOpenAssessment} size="lg" className="w-full sm:w-auto bg-[#4F46E5] hover:bg-[#3730A3] transition-colors">
-                    <Play className="h-4 w-4 mr-2 fill-current" /> Start Mock Preview
+                    <Play className="h-4 w-4 mr-2 fill-current" /> Take a Free Mock
                   </Button>
                 </motion.div>
               </div>

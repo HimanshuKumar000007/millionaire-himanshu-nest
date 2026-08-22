@@ -98,8 +98,8 @@ export function Footer() {
         {/* Footer Bottom Bar */}
         <motion.div variants={itemVariants} className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-400 font-medium">
           <p>© 2026 SciPrep. All rights reserved.</p>
-          <p className="text-center sm:text-right max-w-md">
-            Disclaimer: SciPrep is an independent educational platform. NEST is conducted by NISER Bhubaneswar & UM-DAE CEBS Mumbai.
+          <p className="text-center sm:text-right max-w-xl text-slate-400 leading-relaxed">
+            SciPrep is an independent educational platform and is not affiliated with NISER Bhubaneswar, UM-DAE CEBS Mumbai, or the NEST examination authorities.
           </p>
         </motion.div>
       </motion.div>

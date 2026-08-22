@@ -218,7 +218,7 @@ export function PerformanceSection({ onOpenAssessment }: PerformanceSectionProps
               </p>
 
               <div className="p-3 rounded-xl bg-white/10 border border-white/10 text-xs text-indigo-200">
-                ⚡ <strong>Estimated Gain:</strong> +12 to +16 marks in Section 1
+                🎯 <strong>Recommended Action:</strong> Review → Practice PYQs → Retest
               </div>
 
               <Button onClick={onOpenAssessment} className="w-full bg-[#4F46E5] hover:bg-[#3730A3] transition-colors group" size="lg">
