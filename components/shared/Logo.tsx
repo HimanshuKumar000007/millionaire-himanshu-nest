@@ -54,7 +54,7 @@ export function Logo({
               theme === "dark" ? "text-slate-400" : "text-gray-400"
             )}
           >
-            IISER • NEST • ISI • CMI
+            NISER • UM-DAE CEBS (NEST)
           </span>
         </div>
       )}

@@ -136,10 +136,10 @@ export function DiagnosticQuiz({ onOpenEnroll, onOpenTrial }: DiagnosticQuizProp
             Instant Science Diagnostic Mini-Check
           </div>
           <h2 className="font-heading font-extrabold text-2xl sm:text-4xl text-white tracking-tight mb-2">
-            Test Your <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">IISER / NEST Intuition</span>
+            Test Your <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">NEST (NISER / CEBS) Intuition</span>
           </h2>
           <p className="text-xs sm:text-sm text-slate-300">
-            3 curated high-concept benchmark problems to evaluate your scientific analytical readiness.
+            3 curated high-concept benchmark problems to evaluate your scientific analytical readiness for NEST.
           </p>
         </div>
 
@@ -248,23 +248,23 @@ export function DiagnosticQuiz({ onOpenEnroll, onOpenTrial }: DiagnosticQuizProp
               </h3>
               <p className="text-xs text-slate-400 max-w-md mx-auto mb-6">
                 {score === 3
-                  ? 'Outstanding scientific intuition! You are on track for a Top 200 AIR in IAT / NEST.'
+                  ? 'Outstanding scientific intuition! You are on track for a Top 100 AIR in NEST (NISER & CEBS).'
                   : score === 2
-                  ? 'Strong foundational grip! Polishing multi-concept questions will push you into top IISER rank ranges.'
-                  : 'Good effort! Focused concept-building will help you quickly build momentum for 2026.'}
+                  ? 'Strong foundational grip! Polishing multi-concept chemistry & physics questions will push you into top NISER rank ranges.'
+                  : 'Good effort! Focused concept-building and SMAS cutoff practice will help you build momentum for NEST.'}
               </p>
 
               <div className="p-4 rounded-2xl bg-white/5 border border-white/5 max-w-sm mx-auto mb-6 text-xs text-left space-y-2">
                 <div className="flex justify-between">
-                  <span className="text-slate-400">Estimated IAT Percentile:</span>
+                  <span className="text-slate-400">Estimated NEST Percentile:</span>
                   <span className="font-bold text-cyan-300">
-                    {score === 3 ? '99.4%' : score === 2 ? '94.2%' : '82.5%'}
+                    {score === 3 ? '99.6%' : score === 2 ? '94.8%' : '83.2%'}
                   </span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-slate-400">Target Institute Allotment:</span>
                   <span className="font-bold text-emerald-400">
-                    {score === 3 ? 'IISER Pune / IISc' : score === 2 ? 'IISER Kolkata / Mohali' : 'IISER TVM / Bhopal'}
+                    {score === 3 ? 'NISER Bhubaneswar (Top Rank)' : score === 2 ? 'UM-DAE CEBS Mumbai' : 'NISER / CEBS Merit List'}
                   </span>
                 </div>
               </div>

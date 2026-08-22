@@ -15,32 +15,32 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "SciPrep Academy — Crack IISER (IAT), NEST, ISI, CMI & IISc",
+  title: "SciPrep — Smart Preparation for NEST (NISER & UM-DAE CEBS)",
   description:
-    "India's premier science entrance exam preparation platform. Learn from IISER & IIT alumni with live 2-way classes, All-India Test Series, and 24/7 doubt resolution.",
+    "India's dedicated preparation platform for NEST (National Entrance Screening Test). Master PCMB with high-yield Smart Notes, 100% authentic TCS-iON CBT Mocks, 15+ years solved PYQs, and 24/7 AI Science Mentor.",
   keywords: [
-    "IISER Aptitude Test",
-    "IAT 2026",
     "NEST 2026",
-    "NISER Preparation",
-    "ISI Entrance Exam",
-    "CMI Math Prep",
-    "SciAstra alternative",
-    "Prep4IISER",
-    "IISc BS Research",
-    "Indian Science Entrance"
+    "NEST 2027",
+    "National Entrance Screening Test",
+    "NISER Bhubaneswar Preparation",
+    "UM-DAE CEBS Mumbai",
+    "NEST PYQ Papers",
+    "NEST Mock Tests",
+    "NEST CBT Simulator",
+    "NEST SMAS Cutoff",
+    "NEST Smart Notes"
   ],
   openGraph: {
-    title: "SciPrep Academy — India's #1 Science Entrance Prep",
+    title: "SciPrep — Dedicated NEST (NISER & CEBS) Preparation Platform",
     description:
-      "Join 10,000+ students cracking IISER, NEST, ISI & CMI with India's top science mentors.",
+      "Crack NEST with authentic TCS-iON CBT mock tests, high-yield smart notes, solved PYQs, and 24/7 AI Science Mentor.",
     type: "website",
     locale: "en_IN",
   },
   twitter: {
     card: "summary_large_image",
-    title: "SciPrep Academy — Crack IISER, NEST & ISI",
-    description: "Transform your passion for science into a research career at India's top institutes.",
+    title: "SciPrep — Crack NEST for NISER & UM-DAE CEBS",
+    description: "Transform your passion for pure sciences into admission at NISER Bhubaneswar & UM-DAE CEBS Mumbai.",
   },
 };
 
@@ -52,20 +52,20 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
-    name: "SciPrep Academy",
-    description: "India's premier coaching and mentorship platform for IISER IAT, NEST, ISI, and CMI examinations.",
-    url: "https://sciprep.academy",
+    name: "SciPrep",
+    description: "India's dedicated coaching and mentorship platform for the NEST examination (NISER Bhubaneswar & UM-DAE CEBS Mumbai).",
+    url: "https://sciprep.in",
     sameAs: [
       "https://youtube.com/@sciprep",
-      "https://t.me/sciprep_iiser",
+      "https://t.me/sciprep_nest",
       "https://instagram.com/sciprep"
     ],
     offers: {
       "@type": "AggregateOffer",
       priceCurrency: "INR",
       lowPrice: "0",
-      highPrice: "19999",
-      offerCount: "6"
+      highPrice: "5999",
+      offerCount: "4"
     }
   };
 

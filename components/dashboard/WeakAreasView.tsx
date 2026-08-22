@@ -187,7 +187,7 @@ export function WeakAreasView({
       </div>
 
       {!hasData ? (
-        /* Empty / Fresh User State (Like IISER Project) */
+        /* Empty / Fresh User State */
         <div className="bg-white p-8 sm:p-12 rounded-3xl border border-gray-200/80 shadow-2xs text-center space-y-6 max-w-2xl mx-auto my-4">
           <div className="h-16 w-16 bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl border border-indigo-100 flex items-center justify-center mx-auto text-[#4F46E5] shadow-xs">
             <Brain className="h-8 w-8" />

@@ -1350,7 +1350,7 @@ export default function RelationsAndFunctionsDiagram({ onClose }: RelationsAndFu
                   7
                 </span>
                 <div>
-                  <h3 className="text-base font-black text-gray-900">7 High-Yield NEST &amp; IISER Examination Traps</h3>
+                  <h3 className="text-base font-black text-gray-900">7 High-Yield NEST Examination Traps</h3>
                   <p className="text-[11px] text-gray-500 font-semibold">Principal Square Roots · √(x²) = |x| · Composite Domains · GIF Jump Discontinuities</p>
                 </div>
               </div>

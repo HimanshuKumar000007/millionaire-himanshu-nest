@@ -38,7 +38,7 @@ export function WhyChooseUs({ onOpenTrial, onOpenEnroll }: WhyChooseUsProps) {
       icon: Trophy,
       title: 'Real TCS-iON CBT Mode Full Mocks',
       tag: 'Exact Exam Simulation',
-      desc: 'The exact visual layout, countdown timer mechanics, question palette (Answered / Review / Unvisited), and sectional cutoff scoring used in official IAT and NEST examination centers.',
+      desc: 'The exact visual layout, countdown timer mechanics, question palette (Answered / Review / Unvisited), and sectional cutoff scoring used in official NEST examination centers.',
       badge: '100% Real Software',
       color: 'from-purple-500 to-indigo-500',
     },
@@ -62,15 +62,15 @@ export function WhyChooseUs({ onOpenTrial, onOpenEnroll }: WhyChooseUsProps) {
       icon: Layers,
       title: '250+ Chapter-wise & Topic Mocks',
       tag: 'Granular Mastery',
-      desc: 'Test your understanding right after finishing a topic with targeted chapter-wise tests. Progress from foundational concept checks to Olympiad-grade multi-correct problems.',
+      desc: 'Test your understanding right after finishing a topic with targeted chapter-wise tests. Progress from foundational concept checks to high-rigor NEST-level multi-concept problems.',
       badge: 'PCMB All Chapters',
       color: 'from-emerald-500 to-cyan-500',
     },
     {
       icon: BookMarked,
-      title: '15+ Years Solved PYQ Archive',
+      title: '15+ Years Solved NEST PYQ Archive',
       tag: 'Verified Answer Keys',
-      desc: 'Complete collection of past 15-year IAT, NEST, ISI, CMI, and KVPY papers with thoroughly verified step-by-step logic, difficulty classifications, and high-frequency recurring patterns.',
+      desc: 'Complete collection of past 15-year NEST papers with thoroughly verified step-by-step logic, difficulty classifications, and high-frequency recurring patterns for NISER and CEBS.',
       badge: '15-Year Solved',
       color: 'from-rose-500 to-pink-500',
     },
@@ -92,18 +92,18 @@ export function WhyChooseUs({ onOpenTrial, onOpenEnroll }: WhyChooseUsProps) {
             <div>
               <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-xs font-semibold text-indigo-300 mb-4">
                 <Target className="w-3.5 h-3.5 text-cyan-400" />
-                <span>The SciPrep Precision Advantage</span>
+                <span>The SciPrep NEST Precision Advantage</span>
               </div>
 
               <h2 className="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl text-white tracking-tight leading-tight mb-5">
                 Stop wasting hours on passive video lectures.{' '}
                 <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
-                  Practice is what cracks IISER & NEST.
+                  Practice is what cracks NISER & CEBS (NEST).
                 </span>
               </h2>
 
               <p className="text-slate-300 text-sm sm:text-base leading-relaxed mb-6">
-                Science entrances demand <strong className="text-white">deep analytical intuition</strong>, speed under pressure, and active recall. Our self-paced toolkit pairs high-yield Smart Notes with TCS-iON CBT Mocks and a 24/7 AI Mentor.
+                NEST demands <strong className="text-white">deep analytical problem solving</strong>, SMAS sectional cutoff clearance, and high speed. Our self-paced toolkit pairs high-yield Smart Notes with exact TCS-iON CBT Mocks and a 24/7 AI Mentor.
               </p>
 
               <div className="flex items-center gap-4">
@@ -112,7 +112,7 @@ export function WhyChooseUs({ onOpenTrial, onOpenEnroll }: WhyChooseUsProps) {
                   className="px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-sm shadow-lg shadow-indigo-600/30 transition-all cursor-pointer flex items-center gap-2"
                 >
                   <Sparkles className="w-4 h-4 text-cyan-300" />
-                  <span>Try Free CBT Mock & Smart Notes</span>
+                  <span>Try Free NEST CBT Mock & Smart Notes</span>
                   <ArrowRight className="w-4 h-4" />
                 </button>
               </div>
@@ -128,7 +128,7 @@ export function WhyChooseUs({ onOpenTrial, onOpenEnroll }: WhyChooseUsProps) {
               <div className="space-y-3 text-xs">
                 <div className="grid grid-cols-2 gap-2 pb-2 border-b border-white/5 font-semibold">
                   <span className="text-slate-400">Traditional 3-Hr Lectures</span>
-                  <span className="text-indigo-300 font-bold">SciPrep Academy</span>
+                  <span className="text-indigo-300 font-bold">SciPrep NEST</span>
                 </div>
 
                 <div className="grid grid-cols-2 gap-2 pb-2 border-b border-white/5 text-[11px]">
@@ -160,7 +160,7 @@ export function WhyChooseUs({ onOpenTrial, onOpenEnroll }: WhyChooseUsProps) {
                   </div>
                   <div className="flex items-start gap-1.5 text-slate-200">
                     <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 flex-shrink-0 mt-0.5" />
-                    <span className="font-semibold text-white">100% Real IAT, NEST, ISI & CMI PYQs</span>
+                    <span className="font-semibold text-white">100% Real NEST Past Papers & Cutoff Drills</span>
                   </div>
                 </div>
               </div>

@@ -62,7 +62,7 @@ export function AnnouncementBanner({ onOpenAssessment, onGetAccess }: Announceme
                 New Batch Alert
               </span>
               <span className="text-slate-300 font-medium">
-                IAT &amp; NEST 2026 Smart Notes, CBT Mocks &amp; 24/7 AI Mentor are <strong className="text-white font-bold">Live</strong>. • Instant Access Available
+                NEST 2026/2027 Smart Notes, CBT Mocks &amp; 24/7 AI Mentor are <strong className="text-white font-bold">Live</strong>. • Instant Access Available
               </span>
               <button
                 onClick={handleAction}

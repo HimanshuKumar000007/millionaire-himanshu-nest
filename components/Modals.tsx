@@ -35,7 +35,7 @@ export function TrialModal({ isOpen, onClose }: TrialModalProps) {
     name: '',
     phone: '',
     email: '',
-    exam: 'IAT (IISER)',
+    exam: 'NEST 2026 (NISER & CEBS)',
     stream: 'PCM',
     grade: 'Class 12',
   });
@@ -79,15 +79,15 @@ export function TrialModal({ isOpen, onClose }: TrialModalProps) {
           <div>
             <div className="flex items-center gap-2 mb-2">
               <span className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 flex items-center gap-1">
-                <Sparkles className="w-3 h-3 text-cyan-300" /> Instant Free Diagnostic Pack
+                <Sparkles className="w-3 h-3 text-cyan-300" /> Instant Free NEST Diagnostic Pack
               </span>
             </div>
 
             <h3 className="text-2xl font-bold text-white mb-2 font-heading">
-              Get Free Smart Notes & CBT Mocks
+              Get Free NEST Smart Notes & CBT Mocks
             </h3>
             <p className="text-xs text-slate-300 mb-6">
-              Instant access to 2 full CBT Mocks, 5 Quick Mocks, sample PCMB Smart Notes & 24/7 AI Mentor queries.
+              Instant access to 2 full NEST CBT Mocks, 5 Quick Mocks, sample PCMB Smart Notes & 24/7 AI Mentor queries.
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-4">
@@ -144,10 +144,8 @@ export function TrialModal({ isOpen, onClose }: TrialModalProps) {
                     onChange={(e) => setFormData({ ...formData, exam: e.target.value })}
                     className="w-full px-2.5 py-2 rounded-xl bg-[#1A1A2E] border border-white/10 text-xs text-white"
                   >
-                    <option value="IAT (IISER)">IAT (IISER)</option>
-                    <option value="NEST (NISER)">NEST (NISER)</option>
-                    <option value="ISI / CMI">ISI / CMI</option>
-                    <option value="IISc BS">IISc BS</option>
+                    <option value="NEST 2026 (NISER & CEBS)">NEST 2026 (NISER & CEBS)</option>
+                    <option value="NEST 2027 (Foundation)">NEST 2027 (Foundation)</option>
                   </select>
                 </div>
 
@@ -261,30 +259,30 @@ export function VideoModal({ isOpen, onClose }: VideoModalProps) {
       quote: 'SciPrep completely changed my accuracy and speed under exam conditions.',
     },
     {
-      student: 'Ananya Sharma',
-      rank: 'AIR 12 • IAT 2025',
-      institute: 'IISER Pune (BS-MS Dual Degree)',
-      videoTitle: 'PCM student to 48/60 in Biology: Self-Paced Smart Notes Strategy',
+      student: 'Kavya Murthy',
+      rank: 'AIR 11 • NEST 2025',
+      institute: 'UM-DAE CEBS Mumbai (Chemical Sciences)',
+      videoTitle: 'PCM student clearing Biology SMAS cutoff: Self-Paced Smart Notes Strategy',
       duration: '18:45 mins',
       tips: [
         'Relied solely on SciPrep Biology Smart Notes for Math Students',
         'Clarified night doubts instantly using 24/7 AI Science Mentor',
-        'Practiced 50+ Full TCS-iON CBT Mocks before actual IAT day',
+        'Practiced 35+ Full TCS-iON CBT Mocks before actual NEST day',
       ],
       quote: 'No passive video lectures. Pure active testing and high-yield notes.',
     },
     {
-      student: 'Rohan Sen',
-      rank: 'AIR 8 • ISI B.Stat 2025',
-      institute: 'Indian Statistical Institute Kolkata',
-      videoTitle: 'Cracking Objective UGA & Subjective UGB with PYQs & Proof Notes',
+      student: 'Priyanshu Das',
+      rank: 'AIR 9 • NEST 2025',
+      institute: 'NISER Bhubaneswar (Physical Sciences)',
+      videoTitle: 'Balancing Class 12 Boards & NEST Preparation with 15-Year PYQs',
       duration: '22:10 mins',
       tips: [
-        'Writing rigorous proofs line-by-line using proof template sheets',
-        'Deep dive into 20-year solved ISI & CMI question archives',
-        'Used AI Math Mentor for step-by-step theorem hints',
+        'Solving high-rigor Physics and Chemistry multi-concept questions',
+        'Deep dive into 15-year solved NEST question archives',
+        'Used AI Science Mentor for instant derivation and step-by-step logic',
       ],
-      quote: 'The CBT Mocks and PYQ archives are gold standard for serious math aspirants.',
+      quote: 'The CBT Mocks and PYQ archives are gold standard for serious NEST aspirants.',
     },
   ];
 
@@ -379,7 +377,7 @@ interface EnrollModalProps {
   onClose: () => void;
 }
 
-export function EnrollModal({ isOpen, courseName = 'IAT 2026 Complete Prep Suite', onClose }: EnrollModalProps) {
+export function EnrollModal({ isOpen, courseName = 'NEST 2026 Complete Prep Suite', onClose }: EnrollModalProps) {
   const [coupon, setCoupon] = useState('');
   const [discountApplied, setDiscountApplied] = useState(false);
   const [step, setStep] = useState<'details' | 'success'>('details');
@@ -514,13 +512,13 @@ export function EnrollModal({ isOpen, courseName = 'IAT 2026 Complete Prep Suite
               Access Granted!
             </h3>
             <p className="text-xs text-slate-300 max-w-sm mx-auto mb-6">
-              Congratulations on taking the strategic leap toward IISER & NISER. Your access to <strong className="text-cyan-300">{courseName}</strong> is now live.
+              Congratulations on taking the strategic leap toward NISER & CEBS. Your access to <strong className="text-cyan-300">{courseName}</strong> is now live.
             </p>
 
             <div className="p-4 rounded-2xl bg-white/5 border border-white/5 max-w-xs mx-auto mb-6 text-xs text-left space-y-2">
               <div className="flex justify-between">
                 <span className="text-slate-400">Student ID:</span>
-                <span className="font-mono font-bold text-indigo-300">IAT2026-ENG-9104</span>
+                <span className="font-mono font-bold text-indigo-300">NEST2026-ENG-9104</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-slate-400">CBT Portal:</span>

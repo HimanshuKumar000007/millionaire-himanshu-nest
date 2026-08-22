@@ -79,7 +79,7 @@ export function PlatformPreview() {
         );
       } else if (sampleQuery.includes('PYQ')) {
         setAiResponse(
-          'IAT 2023 Physics PYQ Analysis: Question 14 tested the rotational kinetic energy ratio of a rolling sphere vs cylinder. Formula: K_rot / K_total = (k² / R²) / (1 + k² / R²). For solid sphere: 2/7 (28.5%). For solid cylinder: 1/3 (33.3%). Recurring trend: Appears in 4 out of the last 6 IAT papers!'
+          'NEST 2023 Physics PYQ Analysis: Question 14 tested the rotational kinetic energy ratio of a rolling sphere vs cylinder. Formula: K_rot / K_total = (k² / R²) / (1 + k² / R²). For solid sphere: 2/7 (28.5%). For solid cylinder: 1/3 (33.3%). Recurring trend: Appears in 4 out of the last 6 NEST papers!'
         );
       } else {
         setAiResponse(
@@ -163,7 +163,7 @@ export function PlatformPreview() {
               <div className="w-3 h-3 rounded-full bg-amber-500/80" />
               <div className="w-3 h-3 rounded-full bg-emerald-500/80" />
               <span className="text-xs text-slate-500 ml-2 font-mono hidden sm:inline">
-                sciprep.academy/cbt-portal/iat-full-mock-04
+                sciprep.in/cbt-portal/nest-full-mock-04
               </span>
             </div>
 
@@ -210,7 +210,7 @@ export function PlatformPreview() {
                     <div className="p-6 flex-1 flex flex-col justify-between space-y-6">
                       <div className="space-y-4">
                         <div className="text-xs font-mono text-cyan-400 bg-cyan-950/30 p-2.5 rounded-xl border border-cyan-500/20 inline-block">
-                          IAT 2024 Pattern • Mechanics & Non-Conservative Forces
+                          NEST 2024 Pattern • Mechanics & Non-Conservative Forces
                         </div>
                         <p className="text-sm sm:text-base text-slate-100 leading-relaxed font-medium">
                           A block of mass <strong className="text-white">m = 2 kg</strong> is released from rest on an inclined plane of inclination <strong className="text-white">θ = 30°</strong>. The coefficient of friction varies with distance <strong className="text-white">x</strong> along the incline as <strong className="text-white">μ(x) = 0.2x</strong>. Find the maximum distance travelled by the block before it momentarily comes to rest. (Take g = 10 m/s²)
@@ -366,7 +366,7 @@ export function PlatformPreview() {
                         </h3>
                       </div>
                       <span className="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-semibold border border-emerald-500/30">
-                        High Yield: 4-6 Qs in IAT/NEST
+                        High Yield: 4-6 Qs in NEST
                       </span>
                     </div>
 
@@ -451,10 +451,10 @@ export function PlatformPreview() {
 
                     <div className="p-3.5 rounded-xl bg-indigo-950/30 border border-indigo-500/20 text-xs space-y-1">
                       <div className="font-bold text-white flex items-center gap-1.5">
-                        <Check className="w-3.5 h-3.5 text-emerald-400" /> 15-Year Solved PYQ Cross-Linked
+                        <Check className="w-3.5 h-3.5 text-emerald-400" /> 15-Year Solved NEST PYQ Cross-Linked
                       </div>
                       <p className="text-[11px] text-slate-400">
-                        Every formula in the Smart Notes links directly to past IISER IAT & NEST questions where it was tested.
+                        Every formula in the Smart Notes links directly to past NEST questions where it was tested.
                       </p>
                     </div>
                   </div>
@@ -482,7 +482,7 @@ export function PlatformPreview() {
                           <div className="text-xs font-bold text-white">SciPrep AI Science Mentor</div>
                           <div className="text-[10px] text-emerald-400 flex items-center gap-1">
                             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                            Active 24/7 • Trained on IAT/NEST & Olympiads
+                            Active 24/7 • Trained on NEST & Pure Science Curricula
                           </div>
                         </div>
                       </div>
@@ -522,7 +522,7 @@ export function PlatformPreview() {
                     <div className="p-3 bg-[#12121A] border-t border-white/10 flex items-center gap-2">
                       <input
                         type="text"
-                        placeholder="Ask any PCMB doubt or PYQ concept..."
+                        placeholder="Ask any PCMB doubt or NEST PYQ concept..."
                         className="flex-1 bg-black/40 border border-white/10 rounded-xl px-3 py-2 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500"
                         value={aiQuestion}
                         onChange={(e) => setAiQuestion(e.target.value)}
@@ -546,16 +546,16 @@ export function PlatformPreview() {
                     </h4>
                     <div className="space-y-2 text-xs">
                       <button
-                        onClick={() => handleAskMentor('Explain Markovnikov addition and carbocation stability for IAT')}
+                        onClick={() => handleAskMentor('Explain Markovnikov addition and carbocation stability for NEST')}
                         className="w-full text-left p-2.5 rounded-xl bg-[#12121A] hover:bg-indigo-950/40 border border-white/5 hover:border-indigo-500/30 text-slate-300 transition-colors cursor-pointer"
                       >
                         🧪 Markovnikov & Carbocation Stability
                       </button>
                       <button
-                        onClick={() => handleAskMentor('Breakdown IAT 2023 Physics PYQ Question on Rotational Energy')}
+                        onClick={() => handleAskMentor('Breakdown NEST 2023 Physics PYQ Question on Rotational Energy')}
                         className="w-full text-left p-2.5 rounded-xl bg-[#12121A] hover:bg-indigo-950/40 border border-white/5 hover:border-indigo-500/30 text-slate-300 transition-colors cursor-pointer"
                       >
-                        🎯 IAT 2023 Rotational Mechanics PYQ Breakdown
+                        🎯 NEST 2023 Rotational Mechanics PYQ Breakdown
                       </button>
                       <button
                         onClick={() => handleAskMentor('What happens to YDSE fringe width when immersed in liquid μ?')}

@@ -19,7 +19,7 @@ export default function HomePage() {
   const [trialOpen, setTrialOpen] = useState(false);
   const [videoOpen, setVideoOpen] = useState(false);
   const [enrollOpen, setEnrollOpen] = useState(false);
-  const [selectedCourse, setSelectedCourse] = useState('IAT 2026 Achievers Batch');
+  const [selectedCourse, setSelectedCourse] = useState('NEST 2026 Complete Prep Suite');
 
   const handleOpenEnroll = (courseName?: string) => {
     if (courseName) {

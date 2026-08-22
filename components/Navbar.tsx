@@ -49,31 +49,31 @@ export function Navbar({ onOpenEnroll, onOpenTrial }: NavbarProps) {
 
   const courseList = [
     {
-      title: 'IAT 2026 Complete Prep Suite',
-      subtitle: 'Smart Notes, CBT Mocks & 24/7 AI Mentor',
+      title: 'NEST 2026 Complete Prep Suite',
+      subtitle: 'Smart Notes, 80+ CBT Mocks & 24/7 AI Mentor',
       badge: 'Bestseller',
       badgeColor: 'bg-amber-500/20 text-amber-300 border-amber-500/30',
       href: '#pricing',
     },
     {
-      title: 'NEST 2026 CBT & PYQ Pack',
-      subtitle: 'NISER & CEBS Mocks, Smart Notes & AI Mentor',
+      title: 'NEST All-India CBT Test Series',
+      subtitle: '35 Full Mocks, Quick Sprints & SMAS Analytics',
       badge: 'Popular',
       badgeColor: 'bg-cyan-500/20 text-cyan-300 border-cyan-500/30',
       href: '#pricing',
     },
     {
-      title: 'ISI & CMI Math PYQ & Mocks',
-      subtitle: 'Proof-writing notes & Olympiad chapter tests',
-      badge: 'Specialized',
-      badgeColor: 'bg-purple-500/20 text-purple-300 border-purple-500/30',
+      title: 'NEST Smart Notes & 15-Yr PYQs',
+      subtitle: 'PCMB Mindmaps & Solved Previous Year Vault',
+      badge: 'High Yield',
+      badgeColor: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30',
       href: '#pricing',
     },
     {
-      title: 'All-India CBT Test Series (AITS)',
-      subtitle: 'Full Mocks, Quick Sprints & Chapter Tests',
-      badge: '150+ Mocks',
-      badgeColor: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30',
+      title: '24/7 AI Science Mentor Pro',
+      subtitle: 'Instant Doubt Solving & SMAS Cutoff Diagnostics',
+      badge: 'AI Powered',
+      badgeColor: 'bg-purple-500/20 text-purple-300 border-purple-500/30',
       href: '#pricing',
     },
   ];
@@ -87,11 +87,11 @@ export function Navbar({ onOpenEnroll, onOpenTrial }: NavbarProps) {
             <Flame className="w-3 h-3 text-amber-400 fill-amber-400" /> New Batch Alert
           </span>
           <span className="font-medium text-slate-200">
-            IAT & NEST 2026 Smart Notes, CBT Mocks & 24/7 AI Mentor are <strong className="text-white font-bold">Live</strong>.
+            NEST 2026/2027 Smart Notes, CBT Mocks & 24/7 AI Mentor are <strong className="text-white font-bold">Live</strong>.
           </span>
           <span className="hidden sm:inline text-indigo-300 font-semibold">• Instant Access Available</span>
           <button
-            onClick={() => onOpenEnroll('IAT 2026 Complete Prep Suite')}
+            onClick={() => onOpenEnroll('NEST 2026 Complete Prep Suite')}
             className="text-indigo-400 hover:text-indigo-200 underline font-semibold ml-1 cursor-pointer transition-colors inline-flex items-center gap-0.5"
           >
             Get Instant Access <ArrowRight className="w-3 h-3 inline" />
@@ -121,11 +121,11 @@ export function Navbar({ onOpenEnroll, onOpenTrial }: NavbarProps) {
                   SciPrep
                 </span>
                 <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
-                  Academy
+                  NEST
                 </span>
               </div>
               <span className="text-[10px] text-slate-400 tracking-wide -mt-0.5">
-                IISER • NEST • ISI • CMI
+                NISER Bhubaneswar • UM-DAE CEBS Mumbai
               </span>
             </div>
           </a>

@@ -27,24 +27,24 @@ export function Pricing({ onOpenEnroll, onOpenTrial }: PricingProps) {
   const plans = [
     {
       id: 'starter',
-      name: 'Free Diagnostic Pack',
+      name: 'Free NEST Diagnostic Pack',
       badge: 'Free Access',
       badgeColor: 'bg-white/10 text-slate-300 border-white/10',
       price: '₹0',
       period: 'Forever free',
-      description: 'Test-drive our TCS-iON simulator, try 5 Quick Mocks, and download sample Smart Notes.',
+      description: 'Test-drive our NEST TCS-iON simulator, try 5 Quick Mocks, and download sample Smart Notes.',
       popular: false,
       features: [
-        '2 Full-Length IAT & NEST CBT Benchmark Mocks',
+        '2 Full-Length NEST CBT Benchmark Mocks',
         '5 Quick Mocks (15-min speed drills)',
         'Sample PCMB Smart Notes & Organic Cheat Sheets',
         '20 AI Science Mentor query credits',
-        'All-India Rank Percentile Estimation',
+        'NEST All-India Rank & SMAS Cutoff Estimation',
       ],
       notIncluded: [
         'Full 400+ Smart Notes & Mindmap Library',
         'Full 150+ CBT & Chapter-wise Mock Archive',
-        '15-Year Solved PYQ Complete Vault',
+        '15-Year Solved NEST PYQ Complete Vault',
         'Unlimited 24/7 AI Mentor Access',
       ],
       ctaText: 'Start Free Sample Access',
@@ -52,22 +52,22 @@ export function Pricing({ onOpenEnroll, onOpenTrial }: PricingProps) {
     },
     {
       id: 'champion',
-      name: 'Complete Achiever Suite 2026',
+      name: 'NEST Complete Achiever Suite 2026',
       badge: 'Flagship • 88% Choose This',
       badgeColor: 'bg-gradient-to-r from-amber-500/20 to-orange-500/20 text-amber-300 border-amber-500/40',
       price: billingCycle === 'annual' ? '₹5,999' : '₹1,199',
       period: billingCycle === 'annual' ? 'One-time (Valid Till Exam)' : '/month',
       oneTimePrice: billingCycle === 'annual' ? '₹5,999 full access' : '₹1,199 / mo',
-      description: 'The definitive all-in-one preparation ecosystem: Smart Notes, CBT Mocks, Quick Mocks, PYQs & 24/7 AI Mentor.',
+      description: 'The definitive all-in-one NEST preparation ecosystem: Smart Notes, CBT Mocks, Quick Mocks, PYQs & 24/7 AI Mentor.',
       popular: true,
       features: [
         'Complete PCMB High-Yield Smart Notes & Mindmaps (400+ sheets)',
-        '50 Full-Length CBT Mode Mocks with TCS-iON interface',
+        '35 Full-Length NEST CBT Mode Mocks with TCS-iON interface',
         '60 Quick Mocks (15/30 min sprints) + 120 Chapter Tests',
-        '15-Year Solved PYQs (IAT, NEST, ISI, CMI, KVPY) with verified keys',
+        '15-Year Solved NEST PYQ Vault with verified keys & step solutions',
         'Unlimited 24/7 AI Science Mentor (Instant derivations & doubt solving)',
         'Special "Biology for Math Students" & "Math for Bio Students" kits',
-        'Real-time All-India Rank (AIR) & Topic Weakness Analytics',
+        'Real-time All-India Rank (AIR) & SMAS Sectional Cutoff Analytics',
       ],
       notIncluded: [],
       ctaText: 'Get Complete Achiever Suite',
@@ -75,28 +75,28 @@ export function Pricing({ onOpenEnroll, onOpenTrial }: PricingProps) {
     },
     {
       id: 'aits-only',
-      name: 'All-India CBT Test Series (AITS)',
+      name: 'NEST All-India CBT Test Series (AITS)',
       badge: 'Test Takers Only',
       badgeColor: 'bg-purple-500/20 text-purple-300 border-purple-500/30',
       price: billingCycle === 'annual' ? '₹2,499' : '₹699',
       period: billingCycle === 'annual' ? 'One-time (Valid Till Exam)' : '/month',
       oneTimePrice: billingCycle === 'annual' ? '₹2,499 full access' : '₹699 / mo',
-      description: 'Engineered for aspirants who only require extensive CBT Mocks, Quick Mocks, and PYQ tests.',
+      description: 'Engineered for NEST aspirants who only require extensive CBT Mocks, Quick Mocks, and PYQ tests.',
       popular: false,
       features: [
-        '40 Full-Length CBT Mode Mocks (IAT & NEST exact replica)',
+        '35 Full-Length NEST CBT Mode Mocks (exact TCS-iON replica)',
         '60 Quick Mocks (15/30 min speed drills)',
         '100+ Chapter-wise Part Tests for targeted PCMB drill',
-        '10-Year Solved PYQ Mock Test Series',
-        'AI Time-Management & Question Selection Diagnostics',
+        '15-Year Solved NEST PYQ Mock Test Series',
+        'SMAS (Section-wise Minimum Admissible Score) Diagnostics',
         'Step-by-step verified written solutions for all test questions',
-        'AIR Leaderboard benchmark against 10,000+ science peers',
+        'AIR Leaderboard benchmark against 10,000+ NEST peers',
       ],
       notIncluded: [
         'Full PCMB Smart Notes & Theory Mindmaps',
         'Unlimited 24/7 AI Mentor Pro',
       ],
-      ctaText: 'Enroll in AITS Test Series',
+      ctaText: 'Enroll in NEST Test Series',
       ctaAction: 'enroll',
     },
   ];
@@ -112,13 +112,13 @@ export function Pricing({ onOpenEnroll, onOpenTrial }: PricingProps) {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-xs font-semibold text-indigo-300 mb-3">
             <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
-            Transparent & Affordable Study Packages
+            Transparent & Affordable NEST Packages
           </div>
           <h2 className="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl text-white tracking-tight mb-4">
-            Invest in Your <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">Science Entrance Rank</span>
+            Invest in Your <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">NEST (NISER / CEBS) Rank</span>
           </h2>
           <p className="text-slate-300 text-base sm:text-lg">
-            No overpriced lecture subscriptions. Pay once for high-yield Smart Notes, authentic TCS-iON CBT Mocks, and a 24/7 AI Mentor.
+            No overpriced lecture subscriptions. Pay once for high-yield NEST Smart Notes, authentic TCS-iON CBT Mocks, and a 24/7 AI Mentor.
           </p>
 
           {/* Billing Cycle Switch */}

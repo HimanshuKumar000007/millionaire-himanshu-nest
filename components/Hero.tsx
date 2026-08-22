@@ -47,7 +47,7 @@ const mockChartData = [
 
 export function Hero({ onOpenTrial, onOpenVideo, onOpenEnroll }: HeroProps) {
   // Kinetic typography words
-  const titleLine1 = "Master IISER, NEST, ISI & CMI";
+  const titleLine1 = "Master NEST 2026/2027";
   const titleLine2 = "with Smart Notes & 24/7 AI Mentor";
 
   return (
@@ -77,9 +77,9 @@ export function Hero({ onOpenTrial, onOpenVideo, onOpenEnroll }: HeroProps) {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
               </span>
-              <span>2026 Test Series & Smart Notes Live</span>
+              <span>2026/2027 NEST Test Series & Smart Notes Live</span>
               <span className="text-slate-500">•</span>
-              <span className="text-cyan-400 font-medium">100% Real TCS-iON CBT Interface</span>
+              <span className="text-cyan-400 font-medium">100% Real NEST TCS-iON Interface</span>
             </motion.div>
 
             {/* Kinetic Main Headline */}
@@ -113,7 +113,7 @@ export function Hero({ onOpenTrial, onOpenVideo, onOpenEnroll }: HeroProps) {
               transition={{ duration: 0.6, delay: 0.35, ease: [0.22, 1, 0.36, 1] }}
               className="text-lg sm:text-xl text-slate-300 leading-relaxed max-w-2xl mb-6 font-normal"
             >
-              Master high-yield science concepts without wasting hours in passive lectures. Prepare for <strong className="text-indigo-300 font-semibold">IISER, NISER, ISI, CMI & IISc</strong> with high-yield <strong className="text-white font-semibold">Smart Notes</strong>, exact <strong className="text-white font-semibold">CBT Mode Full Mocks</strong>, <strong className="text-white font-semibold">Quick Mocks</strong>, <strong className="text-white font-semibold">Chapter-wise Mocks</strong>, 15+ years solved <strong className="text-white font-semibold">PYQs</strong>, and an instant <strong className="text-cyan-300 font-semibold">24/7 AI Mentor</strong>.
+              Master high-yield science concepts without wasting hours in passive lectures. Prepare for <strong className="text-indigo-300 font-semibold">NISER Bhubaneswar & UM-DAE CEBS Mumbai</strong> with high-yield <strong className="text-white font-semibold">Smart Notes</strong>, exact <strong className="text-white font-semibold">NEST CBT Mode Full Mocks</strong>, <strong className="text-white font-semibold">Quick Mocks</strong>, <strong className="text-white font-semibold">SMAS Chapter Tests</strong>, 15+ years solved <strong className="text-white font-semibold">NEST PYQs</strong>, and an instant <strong className="text-cyan-300 font-semibold">24/7 AI Mentor</strong>.
             </motion.p>
 
             {/* Value Proposition Pills */}
@@ -192,7 +192,7 @@ export function Hero({ onOpenTrial, onOpenVideo, onOpenEnroll }: HeroProps) {
 
               <div className="flex flex-col">
                 <span className="text-base font-extrabold text-emerald-400 font-heading">540+</span>
-                <span className="text-xs text-slate-400">IISER/NISER Selections</span>
+                <span className="text-xs text-slate-400">NISER & CEBS Selections</span>
               </div>
 
               <div className="flex flex-col">
@@ -275,16 +275,16 @@ export function Hero({ onOpenTrial, onOpenVideo, onOpenEnroll }: HeroProps) {
                       CBT Mock Analytics
                     </div>
                     <div className="text-base font-bold text-white flex items-center gap-2">
-                      <span>IAT Full Mock Progression</span>
+                      <span>NEST Full Mock Progression</span>
                       <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex items-center gap-1">
-                        <TrendingUp className="w-3 h-3" /> +104 Marks
+                        <TrendingUp className="w-3 h-3" /> +82 Marks
                       </span>
                     </div>
                   </div>
 
                   <div className="text-right">
                     <div className="text-xs text-slate-400">Target Score</div>
-                    <div className="text-sm font-bold text-indigo-400">198 / 240</div>
+                    <div className="text-sm font-bold text-indigo-400">165 / 180</div>
                   </div>
                 </div>
 
@@ -321,9 +321,9 @@ export function Hero({ onOpenTrial, onOpenVideo, onOpenEnroll }: HeroProps) {
                           if (active && payload && payload.length) {
                             return (
                               <div className="p-2.5 rounded-xl bg-[#0E0E17]/95 border border-white/10 text-xs shadow-xl backdrop-blur-md">
-                                <div className="font-semibold text-slate-300">{label} (CBT Full Mock)</div>
+                                <div className="font-semibold text-slate-300">{label} (NEST CBT Mock)</div>
                                 <div className="text-indigo-400 font-bold mt-1">
-                                  Your Score: {payload[0]?.value} / 240
+                                  Your Score: {payload[0]?.value} / 180
                                 </div>
                                 <div className="text-cyan-400 font-medium text-[11px]">
                                   AIR 50 Benchmark: {payload[1]?.value}

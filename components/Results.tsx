@@ -18,7 +18,8 @@ import {
 interface Topper {
   name: string;
   rank: string;
-  exam: 'IAT' | 'NEST' | 'ISI' | 'CMI';
+  exam: 'NEST';
+  institute: 'NISER' | 'CEBS';
   allotment: string;
   score: string;
   avatarColor: string;
@@ -33,78 +34,84 @@ const toppers: Topper[] = [
     name: 'Tanmay Sahoo',
     rank: 'AIR 3',
     exam: 'NEST',
-    allotment: 'NISER Bhubaneswar (Integrated M.Sc)',
+    institute: 'NISER',
+    allotment: 'NISER Bhubaneswar (Integrated M.Sc Physics)',
     score: '168 / 180 Marks',
     avatarColor: 'from-amber-500 to-yellow-600',
     initials: 'TS',
     hometown: 'Cuttack, Odisha',
     quote:
-      'The NEST-specific mock tests at SciPrep were identical to the real exam pattern. Their sectional cut-off strategy in Biology helped me secure a top 5 rank!',
-    hasVideo: true,
-  },
-  {
-    name: 'Ananya Sharma',
-    rank: 'AIR 12',
-    exam: 'IAT',
-    allotment: 'IISER Pune (BS-MS Dual Degree)',
-    score: '214 / 240 Marks',
-    avatarColor: 'from-indigo-500 to-purple-600',
-    initials: 'AS',
-    hometown: 'Jaipur, Rajasthan',
-    quote:
-      'Coming from a PCM background, I had zero confidence in Biology. Dr. Debashis taught high-yield biology from scratch in 3 months. That added 45 crucial marks!',
-    hasVideo: true,
-  },
-  {
-    name: 'Rohan Sen',
-    rank: 'AIR 8',
-    exam: 'ISI',
-    allotment: 'ISI Kolkata (B.Stat Hons + Full Stipend)',
-    score: 'UGA: 112/120, UGB: 95/100',
-    avatarColor: 'from-purple-500 to-pink-600',
-    initials: 'RS',
-    hometown: 'Kolkata, West Bengal',
-    quote:
-      'The subjective proof-writing sessions for UGB are unmatched. The mentors reviewed every single mathematical line and taught me how to write formal proofs.',
-    hasVideo: false,
-  },
-  {
-    name: 'Priyanshu Verma',
-    rank: 'AIR 21',
-    exam: 'IAT',
-    allotment: 'IISc Bangalore (BS Research)',
-    score: '208 / 240 Marks',
-    avatarColor: 'from-cyan-500 to-blue-600',
-    initials: 'PV',
-    hometown: 'Lucknow, Uttar Pradesh',
-    quote:
-      'SciPrep’s Smart Notes & CBT Mocks made Physics problem solving intuitive. The 24/7 AI Mentor answered all my late-night derivations in seconds.',
+      'The NEST-specific mock tests at SciPrep were identical to the real exam pattern. Their sectional cut-off strategy in Biology helped me secure a top 5 rank in NISER!',
     hasVideo: true,
   },
   {
     name: 'Kavya Murthy',
-    rank: 'AIR 17',
+    rank: 'AIR 11',
     exam: 'NEST',
+    institute: 'CEBS',
     allotment: 'UM-DAE CEBS Mumbai (Chemical Sciences)',
-    score: '154 / 180 Marks',
+    score: '159 / 180 Marks',
     avatarColor: 'from-emerald-500 to-teal-600',
     initials: 'KM',
     hometown: 'Bengaluru, Karnataka',
     quote:
-      'The 24/7 doubt resolution team was unbelievable. Even when solving DPPs at 1 AM, I got handwritten steps back within 10 minutes.',
+      'The 24/7 AI Science Mentor and NEST Smart Notes helped me master high-weightage physical chemistry derivations without getting stuck on ambiguous steps.',
+    hasVideo: true,
+  },
+  {
+    name: 'Priyanshu Das',
+    rank: 'AIR 9',
+    exam: 'NEST',
+    institute: 'NISER',
+    allotment: 'NISER Bhubaneswar (Physical Sciences)',
+    score: '162 / 180 Marks',
+    avatarColor: 'from-cyan-500 to-blue-600',
+    initials: 'PD',
+    hometown: 'Bhubaneswar, Odisha',
+    quote:
+      'SciPrep’s 15-Year NEST Solved Vault and TCS-iON CBT simulator made exam day feel like just another practice test. I cleared all SMAS cutoffs comfortably!',
     hasVideo: false,
   },
   {
-    name: 'Siddharth Iyer',
-    rank: 'AIR 14',
-    exam: 'CMI',
-    allotment: 'Chennai Mathematical Institute (B.Sc Math & CS)',
-    score: 'Full Scholarship Allotment',
-    avatarColor: 'from-rose-500 to-red-600',
-    initials: 'SI',
-    hometown: 'Chennai, Tamil Nadu',
+    name: 'Ananya Mishra',
+    rank: 'AIR 24',
+    exam: 'NEST',
+    institute: 'NISER',
+    allotment: 'NISER Bhubaneswar (Biological Sciences)',
+    score: '149 / 180 Marks',
+    avatarColor: 'from-indigo-500 to-purple-600',
+    initials: 'AM',
+    hometown: 'Jaipur, Rajasthan',
     quote:
-      'Non-routine mathematics requires creative intuition, not memorized steps. SciPrep solved past 15-year CMI questions with elegant proofs.',
+      'Coming from a PCM background, Biology for NEST was intimidating. SciPrep’s high-yield biology cheat sheets added 38 crucial marks on exam day.',
+    hasVideo: true,
+  },
+  {
+    name: 'Rohan Sen',
+    rank: 'AIR 16',
+    exam: 'NEST',
+    institute: 'CEBS',
+    allotment: 'UM-DAE CEBS Mumbai (Mathematical Sciences)',
+    score: '154 / 180 Marks',
+    avatarColor: 'from-purple-500 to-pink-600',
+    initials: 'RS',
+    hometown: 'Kolkata, West Bengal',
+    quote:
+      'The mathematics questions in NEST demand multi-concept proofs. SciPrep’s chapter sprints trained my question-selection reflexes perfectly.',
+    hasVideo: false,
+  },
+  {
+    name: 'Siddharth Mohapatra',
+    rank: 'AIR 31',
+    exam: 'NEST',
+    institute: 'NISER',
+    allotment: 'NISER Bhubaneswar (Integrated M.Sc)',
+    score: '145 / 180 Marks',
+    avatarColor: 'from-rose-500 to-red-600',
+    initials: 'SM',
+    hometown: 'Rourkela, Odisha',
+    quote:
+      'The detailed analytics pinpointed exactly where I was losing marks to negative scoring in Physics. That single diagnostic saved my rank.',
     hasVideo: true,
   },
 ];
@@ -154,11 +161,11 @@ interface ResultsProps {
 }
 
 export function Results({ onOpenVideo, onOpenEnroll }: ResultsProps) {
-  const [filter, setFilter] = useState<'ALL' | 'IAT' | 'NEST' | 'ISI' | 'CMI'>('ALL');
+  const [filter, setFilter] = useState<'ALL' | 'NISER' | 'CEBS'>('ALL');
 
   const filteredToppers = toppers.filter((t) => {
     if (filter === 'ALL') return true;
-    return t.exam === filter;
+    return t.institute === filter;
   });
 
   return (
@@ -173,30 +180,30 @@ export function Results({ onOpenVideo, onOpenEnroll }: ResultsProps) {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-xs font-semibold text-amber-300 mb-3">
             <Trophy className="w-3.5 h-3.5 text-amber-400" />
-            Hall of Fame • Verified 2024 & 2025 Admissions
+            Hall of Fame • Verified NISER & CEBS Admissions
           </div>
           <h2 className="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl text-white tracking-tight mb-4">
             India&apos;s Highest Selection Ratio in{' '}
             <span className="bg-gradient-to-r from-amber-400 via-orange-400 to-indigo-400 bg-clip-text text-transparent">
-              IISER & NEST
+              NEST (NISER & CEBS)
             </span>
           </h2>
           <p className="text-slate-300 text-base sm:text-lg">
-            Real rankers, authentic marks, and direct admissions into India&apos;s most prestigious research institutions.
+            Real NEST rankers, authentic marks, and direct admissions into NISER Bhubaneswar & UM-DAE CEBS Mumbai.
           </p>
         </div>
 
         {/* Big Numbers Row with CountUp */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-16">
-          <StatCounter target={540} suffix="+" label="IISER & NISER Selections" />
-          <StatCounter target={10000} suffix="+" label="Active Aspirants Trained" />
-          <StatCounter target={50} suffix="+" label="IISER/IIT Alumni Faculty" />
+          <StatCounter target={540} suffix="+" label="NISER & CEBS Selections" />
+          <StatCounter target={10000} suffix="+" label="Active NEST Aspirants Trained" />
+          <StatCounter target={50} suffix="+" label="NISER & DAE Alumni Mentors" />
           <StatCounter target={49} prefix="" suffix="/50" label="4.9 / 5 Rating (1,450+ Reviews)" />
         </div>
 
         {/* Exam Filter Chips */}
         <div className="flex items-center justify-center gap-2 mb-10 flex-wrap">
-          {(['ALL', 'IAT', 'NEST', 'ISI', 'CMI'] as const).map((ex) => (
+          {(['ALL', 'NISER', 'CEBS'] as const).map((ex) => (
             <button
               key={ex}
               onClick={() => setFilter(ex)}
@@ -206,7 +213,7 @@ export function Results({ onOpenVideo, onOpenEnroll }: ResultsProps) {
                   : 'bg-white/5 text-slate-300 hover:bg-white/10 hover:text-white border border-white/5'
               }`}
             >
-              {ex === 'ALL' ? 'All Rankers' : `${ex} Selections`}
+              {ex === 'ALL' ? 'All NEST Rankers' : `${ex} Admissions`}
             </button>
           ))}
         </div>
@@ -267,7 +274,7 @@ export function Results({ onOpenVideo, onOpenEnroll }: ResultsProps) {
               {/* Bottom Action */}
               <div className="pt-3 border-t border-white/5 flex items-center justify-between text-xs">
                 <span className="text-emerald-400 flex items-center gap-1 text-[11px] font-semibold">
-                  <CheckCircle className="w-3.5 h-3.5" /> Verified Scholar
+                  <CheckCircle className="w-3.5 h-3.5" /> Verified NEST Scholar
                 </span>
 
                 {topper.hasVideo ? (
@@ -278,7 +285,7 @@ export function Results({ onOpenVideo, onOpenEnroll }: ResultsProps) {
                     <PlayCircle className="w-4 h-4" /> Watch Journey
                   </button>
                 ) : (
-                  <span className="text-slate-400 text-[11px]">SciPrep Full Batch Alum</span>
+                  <span className="text-slate-400 text-[11px]">SciPrep NEST Batch Alum</span>
                 )}
               </div>
             </motion.div>
@@ -292,9 +299,9 @@ export function Results({ onOpenVideo, onOpenEnroll }: ResultsProps) {
               <PlayCircle className="w-8 h-8" />
             </div>
             <div>
-              <h4 className="text-lg font-bold text-white">Watch How 500+ Students Cracked Science Entrances</h4>
+              <h4 className="text-lg font-bold text-white">Watch How 500+ Students Cracked NEST</h4>
               <p className="text-xs text-slate-300 mt-1 max-w-xl">
-                Unfiltered podcast conversations with top rankers discussing drop year routines, subject strategies, and life at IISER Pune, Kolkata & NISER.
+                Unfiltered podcast conversations with top rankers discussing drop year routines, SMAS cutoff strategies, and campus life at NISER Bhubaneswar & UM-DAE CEBS Mumbai.
               </p>
             </div>
           </div>

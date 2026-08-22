@@ -41,16 +41,16 @@ export function Footer({ onOpenTrial, onOpenEnroll }: FooterProps) {
               </div>
               <div className="flex flex-col">
                 <span className="font-heading font-extrabold text-lg tracking-tight text-white">
-                  SciPrep Academy
+                  SciPrep NEST
                 </span>
                 <span className="text-[10px] text-indigo-400 font-semibold tracking-wider uppercase">
-                  India&apos;s Premier Science Entrance Platform
+                  Dedicated NEST Exam Preparation Platform
                 </span>
               </div>
             </a>
 
             <p className="text-xs text-slate-400 leading-relaxed max-w-sm">
-              Empowering the next generation of Indian scientists, physicists, mathematicians, and researchers with first-principles learning for IISER, NISER, ISI, CMI, and IISc.
+              Empowering the next generation of Indian basic science researchers with first-principles self-paced learning for NISER Bhubaneswar & UM-DAE CEBS Mumbai via NEST.
             </p>
 
             {/* Social Icons */}
@@ -105,7 +105,7 @@ export function Footer({ onOpenTrial, onOpenEnroll }: FooterProps) {
             <div className="pt-2 space-y-1 text-[11px] text-slate-500">
               <div className="flex items-center gap-1.5">
                 <MapPin className="w-3.5 h-3.5 text-indigo-400" />
-                <span>Academic HQ: IISc Innovation Corridor, Bengaluru & New Delhi</span>
+                <span>Academic Office: DAE Innovation Corridor, Bhubaneswar & New Delhi</span>
               </div>
               <div className="flex items-center gap-1.5">
                 <Phone className="w-3.5 h-3.5 text-cyan-400" />
@@ -117,60 +117,51 @@ export function Footer({ onOpenTrial, onOpenEnroll }: FooterProps) {
           {/* Column 3: Flagship Courses */}
           <div className="space-y-3">
             <h4 className="font-bold text-white text-xs uppercase tracking-wider">
-              Flagship Programs
+              Study Packages
             </h4>
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#courses"
+                  href="#pricing"
                   className="hover:text-white transition-colors flex items-center justify-between group"
                 >
-                  <span>IAT 2026 Achievers</span>
+                  <span>NEST 2026 Complete Suite</span>
                   <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </a>
               </li>
               <li>
                 <a
-                  href="#courses"
+                  href="#pricing"
                   className="hover:text-white transition-colors flex items-center justify-between group"
                 >
-                  <span>NEST 2026 Super-30</span>
+                  <span>NEST All-India CBT Mocks</span>
                   <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </a>
               </li>
               <li>
                 <a
-                  href="#courses"
+                  href="#pricing"
                   className="hover:text-white transition-colors flex items-center justify-between group"
                 >
-                  <span>ISI & CMI Pure Mathematics</span>
+                  <span>NEST Smart Notes & Mindmaps</span>
                   <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </a>
               </li>
               <li>
                 <a
-                  href="#courses"
+                  href="#pricing"
                   className="hover:text-white transition-colors flex items-center justify-between group"
                 >
-                  <span>All-India Test Series (AITS)</span>
+                  <span>15-Year Solved NEST PYQs</span>
                   <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </a>
               </li>
               <li>
                 <a
-                  href="#courses"
+                  href="#pricing"
                   className="hover:text-white transition-colors flex items-center justify-between group"
                 >
-                  <span>2-Year Integrated Foundation</span>
-                  <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#courses"
-                  className="hover:text-white transition-colors flex items-center justify-between group"
-                >
-                  <span>1-on-1 Scholar Mentorship</span>
+                  <span>24/7 AI Science Mentor Pro</span>
                   <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </a>
               </li>
@@ -180,22 +171,12 @@ export function Footer({ onOpenTrial, onOpenEnroll }: FooterProps) {
           {/* Column 4: Science Institutes */}
           <div className="space-y-3">
             <h4 className="font-bold text-white text-xs uppercase tracking-wider">
-              Institutes & Exams
+              Target Institutes (NEST)
             </h4>
             <ul className="space-y-2">
               <li>
                 <a href="#results" className="hover:text-white transition-colors">
-                  IISER Pune (IAT)
-                </a>
-              </li>
-              <li>
-                <a href="#results" className="hover:text-white transition-colors">
-                  IISER Kolkata & Mohali
-                </a>
-              </li>
-              <li>
-                <a href="#results" className="hover:text-white transition-colors">
-                  NISER Bhubaneswar (NEST)
+                  NISER Bhubaneswar (Main)
                 </a>
               </li>
               <li>
@@ -205,12 +186,22 @@ export function Footer({ onOpenTrial, onOpenEnroll }: FooterProps) {
               </li>
               <li>
                 <a href="#results" className="hover:text-white transition-colors">
-                  IISc Bangalore (BS Research)
+                  NISER Physical Sciences
                 </a>
               </li>
               <li>
                 <a href="#results" className="hover:text-white transition-colors">
-                  ISI Kolkata & CMI Chennai
+                  NISER Chemical Sciences
+                </a>
+              </li>
+              <li>
+                <a href="#results" className="hover:text-white transition-colors">
+                  NISER Biological Sciences
+                </a>
+              </li>
+              <li>
+                <a href="#results" className="hover:text-white transition-colors">
+                  NISER Mathematical Sciences
                 </a>
               </li>
             </ul>
@@ -227,7 +218,7 @@ export function Footer({ onOpenTrial, onOpenEnroll }: FooterProps) {
                   onClick={onOpenTrial}
                   className="hover:text-white transition-colors text-left"
                 >
-                  Free IAT Diagnostic Mock
+                  Free NEST Diagnostic Mock
                 </button>
               </li>
               <li>
@@ -240,7 +231,7 @@ export function Footer({ onOpenTrial, onOpenEnroll }: FooterProps) {
               </li>
               <li>
                 <a href="#quiz" className="hover:text-white transition-colors">
-                  Science Readiness Quiz
+                  NEST Science Readiness Quiz
                 </a>
               </li>
               <li>
