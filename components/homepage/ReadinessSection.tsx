@@ -2,12 +2,21 @@
 
 import * as React from "react";
 import { useState, useRef, useEffect } from "react";
-import { SectionHeading } from "@/components/shared/SectionHeading";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { Activity, ArrowRight, AlertTriangle, ChevronRight } from "lucide-react";
+import {
+  Activity,
+  ArrowRight,
+  AlertTriangle,
+  ChevronRight,
+  Target,
+  Sparkles,
+  TrendingUp,
+  BookOpen,
+  Compass,
+} from "lucide-react";
 import { motion, useInView, animate, AnimatePresence } from "motion/react";
 
 interface ReadinessSectionProps {
@@ -60,109 +69,156 @@ function AnimatedProgress({ value, className }: { value: number; className?: str
 }
 
 export function ReadinessSection({ onOpenAssessment }: ReadinessSectionProps) {
-  const [selectedSubject, setSelectedSubject] = useState<"Physics" | "Chemistry" | "Biology" | "Mathematics">("Biology");
+  const [selectedSubject, setSelectedSubject] = useState<
+    "Physics" | "Chemistry" | "Biology" | "Mathematics"
+  >("Biology");
 
   const subjectDetails = {
     Physics: {
       readiness: 82,
-      status: "On Track",
-      color: "indigo",
-      opportunity: "Physics — Work, Energy & Power",
+      status: "Safe SMAS",
+      barColor: "bg-indigo-600",
+      pillBg: "bg-indigo-50 text-indigo-700 border-indigo-200",
+      opportunity: "Work, Energy & Power — Rotational Dynamics",
+      expectedBoost: "+6 pts",
       priority: "Medium",
       topics: [
-        { name: "Units and Measurements", accuracy: 88, status: "Mastered" },
-        { name: "Motion in a Straight Line", accuracy: 84, status: "Mastered" },
-        { name: "Laws of Motion", accuracy: 79, status: "Good" },
-        { name: "Work, Energy and Power", accuracy: 64, status: "Priority Review" },
-      ]
+        { name: "Units & Dimensional Analysis", accuracy: 88, weightage: "High", status: "Mastered" },
+        { name: "Kinematics & Motion in 2D", accuracy: 84, weightage: "Core", status: "Mastered" },
+        { name: "Laws of Motion & Friction", accuracy: 79, weightage: "High", status: "Good" },
+        { name: "Work, Energy & Power", accuracy: 64, weightage: "High Weightage", status: "Priority Review" },
+      ],
     },
     Chemistry: {
       readiness: 75,
-      status: "On Track",
-      color: "blue",
+      status: "Safe SMAS",
+      barColor: "bg-cyan-600",
+      pillBg: "bg-cyan-50 text-cyan-800 border-cyan-200",
       opportunity: "Physical Chemistry — Chemical Thermodynamics",
+      expectedBoost: "+5 pts",
       priority: "Medium",
       topics: [
-        { name: "Some Basic Concepts of Chemistry", accuracy: 82, status: "Mastered" },
-        { name: "Structure of Atom", accuracy: 78, status: "Good" },
-        { name: "Classification of Elements", accuracy: 73, status: "Good" },
-        { name: "Chemical Thermodynamics", accuracy: 61, status: "Priority Review" },
-      ]
+        { name: "Mole Concept & Stoichiometry", accuracy: 82, weightage: "Core", status: "Mastered" },
+        { name: "Structure of Atom & Orbitals", accuracy: 78, weightage: "High", status: "Good" },
+        { name: "Periodic Trends & Bonding", accuracy: 73, weightage: "High", status: "Good" },
+        { name: "Chemical Thermodynamics", accuracy: 61, weightage: "High Weightage", status: "Priority Review" },
+      ],
     },
     Biology: {
       readiness: 69,
       status: "Needs Focus",
-      color: "emerald",
-      opportunity: "Biology — Biological Classification",
+      barColor: "bg-rose-500",
+      pillBg: "bg-rose-50 text-rose-800 border-rose-200",
+      opportunity: "Biological Classification & Linkage Genetics",
+      expectedBoost: "+8 pts",
       priority: "High",
       topics: [
-        { name: "The Living World", accuracy: 76, status: "Good" },
-        { name: "Biological Classification", accuracy: 72, status: "Good" },
-        { name: "Plant Kingdom", accuracy: 66, status: "Needs Practice" },
-        { name: "Animal Kingdom", accuracy: 58, status: "Priority Focus" },
-      ]
+        { name: "The Living World & Taxonomy", accuracy: 76, weightage: "Core", status: "Good" },
+        { name: "Biological Classification", accuracy: 72, weightage: "High", status: "Good" },
+        { name: "Plant Kingdom & Morpho", accuracy: 66, weightage: "High Weightage", status: "Needs Practice" },
+        { name: "Animal Kingdom & Cell Cycle", accuracy: 58, weightage: "High Weightage", status: "Priority Focus" },
+      ],
     },
     Mathematics: {
       readiness: 77,
-      status: "On Track",
-      color: "purple",
-      opportunity: "Calculus — Limits and Derivatives",
+      status: "Safe SMAS",
+      barColor: "bg-violet-600",
+      pillBg: "bg-violet-50 text-violet-800 border-violet-200",
+      opportunity: "Calculus — Limits & Definite Integrals",
+      expectedBoost: "+6 pts",
       priority: "Medium",
       topics: [
-        { name: "Sets and Functions", accuracy: 85, status: "Mastered" },
-        { name: "Complex Numbers and Quadratic Equations", accuracy: 81, status: "Mastered" },
-        { name: "Permutations and Combinations", accuracy: 74, status: "Good" },
-        { name: "Limits and Derivatives", accuracy: 63, status: "Priority Review" },
-      ]
-    }
+        { name: "Sets, Relations & Functions", accuracy: 85, weightage: "Core", status: "Mastered" },
+        { name: "Complex Numbers & Quadratics", accuracy: 81, weightage: "High", status: "Mastered" },
+        { name: "Permutations & Combinations", accuracy: 74, weightage: "High", status: "Good" },
+        { name: "Limits, Continuity & Derivatives", accuracy: 63, weightage: "High Weightage", status: "Priority Review" },
+      ],
+    },
   };
 
   const currentData = subjectDetails[selectedSubject];
 
   return (
-    <section className="py-16 sm:py-24 bg-[#F7F8FC] border-b border-gray-200/80 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading
-          badge="Readiness Analytics"
-          badgeVariant="default"
-          title="Know where you stand before exam day."
-          subtitle="SciPrep doesn't just show your score. It tells you what to do next — turning diagnostic telemetry into targeted preparation steps."
-        />
+    <section className="py-20 sm:py-28 bg-[#F8FAFC] border-b border-slate-200/80 overflow-hidden relative">
+      {/* Blueprint grid texture */}
+      <div
+        className="absolute inset-0 opacity-[0.035]"
+        style={{
+          backgroundImage:
+            "linear-gradient(rgba(15,23,42,.4) 1px,transparent 1px),linear-gradient(90deg,rgba(15,23,42,.4) 1px,transparent 1px)",
+          backgroundSize: "32px 32px",
+        }}
+      />
+      <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-indigo-500/5 rounded-full blur-[100px] pointer-events-none" />
 
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        {/* Section Header */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
+          className="text-center mb-14"
+        >
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 border border-indigo-200/80 text-indigo-700 text-xs font-bold uppercase tracking-wider mb-4">
+            <Activity className="h-3.5 w-3.5 text-indigo-600" /> Readiness Analytics &amp; SMAS Diagnostics
+          </div>
+          <h2 className="text-3xl sm:text-4xl lg:text-[46px] font-black text-slate-950 tracking-tight leading-tight max-w-3xl mx-auto">
+            Know exactly where you stand,
+            <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600">
+              long before exam day.
+            </span>
+          </h2>
+          <p className="mt-4 text-base sm:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed font-normal">
+            SciPrep doesn&apos;t just show a raw score. It analyzes your diagnostic telemetry against official NISER &amp; CEBS cutoff thresholds, showing you what to improve next.
+          </p>
+        </motion.div>
+
+        {/* 2-Column Diagnostic Architecture */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           
-          {/* Left Column: Overall Readiness Overview Widget */}
-          <motion.div 
-            initial={{ opacity: 0, x: -50 }}
+          {/* Left Column: Overall Readiness & Subject Matrix (5 cols) */}
+          <motion.div
+            initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6, ease: "easeOut" }}
             className="lg:col-span-5 space-y-6"
           >
-            <Card className="p-6 sm:p-7 bg-white border-gray-200 shadow-md transition-all hover:shadow-lg">
-              <div className="flex items-center justify-between pb-4 border-b border-gray-100">
-                <span className="text-xs font-bold uppercase tracking-wider text-gray-500">
+            <Card className="p-6 sm:p-7 bg-white border-slate-200/90 shadow-sm rounded-3xl space-y-6 hover:shadow-md transition-all">
+              
+              {/* Overall Index Banner */}
+              <div className="flex items-center justify-between pb-4 border-b border-slate-100">
+                <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
                   OVERALL NEST READINESS
                 </span>
-                <Badge variant="success" className="px-2.5 py-1">
-                  <Activity className="h-3 w-3 mr-1" /> On Track
-                </Badge>
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-[11px] font-bold">
+                  <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                  On Track (Top 5%)
+                </span>
               </div>
 
-              <div className="py-6 text-center space-y-2">
+              {/* Gauge Score Display */}
+              <div className="py-2 text-center space-y-2">
                 <div className="inline-flex items-baseline justify-center gap-1.5">
-                  <span className="text-5xl sm:text-6xl font-black tracking-tight text-[#111827]">
-                    <Counter from={0} to={74} duration={2} />
+                  <span className="text-5xl sm:text-6xl font-black tracking-tight text-slate-900 tabular-nums">
+                    <Counter from={0} to={74} duration={1.8} />
                   </span>
-                  <span className="text-lg font-bold text-gray-400">/ 100</span>
+                  <span className="text-xl font-bold text-slate-400">/ 100</span>
                 </div>
-                <p className="text-xs font-semibold text-[#6B7280]">
-                  Target Readiness Range: 75+ for High NISER/CEBS Qualification
+                <p className="text-xs font-semibold text-slate-500 max-w-xs mx-auto">
+                  Target Readiness Range: <strong className="text-slate-800">75+</strong> for High NISER / CEBS Qualification
                 </p>
               </div>
 
-              {/* Subject Readiness Progress Bars */}
-              <div className="space-y-3.5 pt-2 border-t border-gray-100">
+              {/* 4 Interactive Subject Selectors */}
+              <div className="space-y-2.5 pt-2 border-t border-slate-100">
+                <div className="flex items-center justify-between text-xs font-bold text-slate-700">
+                  <span>Subject Readiness Matrix</span>
+                  <span className="text-[11px] text-slate-400 font-normal">Click to inspect topics</span>
+                </div>
+
                 {(Object.keys(subjectDetails) as Array<keyof typeof subjectDetails>).map((subj) => {
                   const data = subjectDetails[subj];
                   const isSelected = selectedSubject === subj;
@@ -172,91 +228,102 @@ export function ReadinessSection({ onOpenAssessment }: ReadinessSectionProps) {
                       whileTap={{ scale: 0.99 }}
                       key={subj}
                       onClick={() => setSelectedSubject(subj)}
-                      className={`p-3 rounded-xl border transition-all cursor-pointer ${
+                      className={`p-3.5 rounded-2xl border transition-all cursor-pointer ${
                         isSelected
-                          ? "bg-indigo-50/80 border-[#4F46E5] ring-1 ring-indigo-500/30"
-                          : "bg-gray-50/80 border-gray-100 hover:bg-gray-100"
+                          ? "bg-indigo-50/80 border-indigo-500 ring-2 ring-indigo-500/20 shadow-xs"
+                          : "bg-slate-50/80 border-slate-100 hover:bg-white hover:border-slate-200"
                       }`}
                     >
-                      <div className="flex items-center justify-between text-xs font-bold text-gray-800 mb-1.5">
+                      <div className="flex items-center justify-between text-xs font-bold text-slate-800 mb-1.5">
                         <span className="flex items-center gap-2">
-                          <span className={`h-2 w-2 rounded-full transition-colors ${isSelected ? "bg-[#4F46E5]" : "bg-gray-400"}`} />
-                          {subj}
+                          <span className={`h-2.5 w-2.5 rounded-full ${data.barColor}`} />
+                          <span className={isSelected ? "text-indigo-950 font-black" : "text-slate-700"}>
+                            {subj}
+                          </span>
                         </span>
-                        <span className="font-mono text-gray-900"><Counter from={0} to={data.readiness} />%</span>
+                        <div className="flex items-center gap-2 font-mono">
+                          <span className="text-[10px] text-slate-400 uppercase font-semibold">
+                            {data.status}
+                          </span>
+                          <span className="font-black text-slate-900">
+                            <Counter from={0} to={data.readiness} />%
+                          </span>
+                        </div>
                       </div>
-                      <AnimatedProgress value={data.readiness} className="h-2" />
+                      <AnimatedProgress value={data.readiness} className="h-1.5" />
                     </motion.div>
                   );
                 })}
               </div>
 
-              {/* Biggest Opportunity Highlight Box */}
-              <motion.div 
-                whileHover={{ scale: 1.02 }}
-                className="mt-6 p-4 rounded-xl bg-amber-50/80 border border-amber-200 space-y-2 transition-all shadow-sm hover:shadow-md"
+              {/* Biggest Opportunity Box */}
+              <motion.div
+                whileHover={{ scale: 1.01 }}
+                className="mt-4 p-4 rounded-2xl bg-amber-50/90 border border-amber-200/90 space-y-2 transition-all shadow-2xs"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold uppercase tracking-wider text-amber-900 flex items-center gap-1.5">
-                    <motion.div
-                      animate={{ scale: [1, 1.2, 1] }}
-                      transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
-                    >
-                      <AlertTriangle className="h-4 w-4 text-amber-600" />
-                    </motion.div>
-                    Biggest Opportunity
+                    <AlertTriangle className="h-4 w-4 text-amber-600" />
+                    Highest Leverage Opportunity
                   </span>
-                  <Badge variant="warning" className="text-[10px]">
+                  <span className="text-[10px] font-bold bg-amber-200/60 text-amber-900 px-2 py-0.5 rounded-md">
                     Priority: High
-                  </Badge>
+                  </span>
                 </div>
                 <p className="text-sm font-extrabold text-amber-950">
                   {currentData.opportunity}
                 </p>
-                <button
-                  onClick={onOpenAssessment}
-                  className="text-xs font-bold text-amber-900 hover:text-amber-950 flex items-center gap-1 pt-1 transition-colors"
-                >
-                  Review Topic Diagnostics <ChevronRight className="h-3.5 w-3.5" />
-                </button>
+                <div className="flex items-center justify-between pt-1 text-xs">
+                  <span className="text-amber-800 font-medium">
+                    Expected Delta: <strong className="text-emerald-700 font-mono font-bold">{currentData.expectedBoost}</strong>
+                  </span>
+                  <button
+                    onClick={onOpenAssessment}
+                    className="text-xs font-bold text-indigo-700 hover:text-indigo-900 flex items-center gap-1 transition-colors cursor-pointer"
+                  >
+                    Open Diagnostic <ChevronRight className="h-3.5 w-3.5" />
+                  </button>
+                </div>
               </motion.div>
             </Card>
           </motion.div>
 
-          {/* Right Column: Deep Topic Inspector for Selected Subject */}
-          <motion.div 
-            initial={{ opacity: 0, x: 50 }}
+          {/* Right Column: Deep Topic Inspector (7 cols) */}
+          <motion.div
+            initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+            transition={{ duration: 0.6, ease: "easeOut", delay: 0.15 }}
             className="lg:col-span-7 space-y-6"
           >
-            <Card className="p-6 sm:p-7 bg-white border-gray-200 shadow-md">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-5 border-b border-gray-100">
+            <Card className="p-6 sm:p-8 bg-white border-slate-200/90 shadow-sm rounded-3xl space-y-6">
+              
+              {/* Subject Inspector Header */}
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-5 border-b border-slate-100">
                 <div>
                   <div className="flex items-center gap-2">
-                    <Badge variant="default" className="text-xs font-bold">
+                    <Badge variant="default" className="text-xs font-bold bg-indigo-600 text-white">
                       {selectedSubject} Analysis
                     </Badge>
-                    <span className="text-xs text-gray-400 font-mono">
+                    <span className="text-xs text-emerald-700 font-bold bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
                       {currentData.readiness}% Subject Readiness
                     </span>
                   </div>
-                  <h3 className="text-2xl font-extrabold text-[#111827] mt-1">
-                    Topic Level Accuracy & Readiness
+                  <h3 className="text-2xl font-black text-slate-900 mt-1">
+                    Topic Level Accuracy &amp; Weightage
                   </h3>
                 </div>
 
-                {/* Subject Switch Tabs */}
-                <div className="flex items-center gap-1 bg-slate-100 p-1 rounded-lg">
+                {/* Filter Pill Tabs */}
+                <div className="flex items-center gap-1 bg-slate-100 p-1 rounded-xl">
                   {(Object.keys(subjectDetails) as Array<keyof typeof subjectDetails>).map((subj) => (
                     <button
                       key={subj}
                       onClick={() => setSelectedSubject(subj)}
-                      className={`px-2.5 py-1 text-xs font-bold rounded-md transition-all ${
+                      className={`px-3 py-1.5 text-xs font-bold rounded-lg transition-all cursor-pointer ${
                         selectedSubject === subj
-                          ? "bg-white text-[#4F46E5] shadow-2xs"
-                          : "text-gray-600 hover:text-gray-900"
+                          ? "bg-white text-indigo-700 shadow-2xs"
+                          : "text-slate-600 hover:text-slate-900"
                       }`}
                     >
                       {subj.substring(0, 3)}
@@ -266,7 +333,7 @@ export function ReadinessSection({ onOpenAssessment }: ReadinessSectionProps) {
               </div>
 
               {/* Topics Breakdown List */}
-              <div className="py-4 space-y-3 overflow-hidden">
+              <div className="py-2 space-y-3 overflow-hidden">
                 <AnimatePresence mode="popLayout">
                   {currentData.topics.map((tp, idx) => (
                     <motion.div
@@ -275,21 +342,38 @@ export function ReadinessSection({ onOpenAssessment }: ReadinessSectionProps) {
                       animate={{ opacity: 1, x: 0 }}
                       exit={{ opacity: 0, scale: 0.95 }}
                       transition={{ duration: 0.3, delay: idx * 0.05 }}
-                      className="p-4 rounded-xl border border-gray-100 bg-[#F7F8FC] hover:bg-white hover:border-gray-200 transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-xs hover:shadow-sm group cursor-pointer"
+                      className="p-4 rounded-2xl border border-slate-100 bg-slate-50/80 hover:bg-white hover:border-slate-200 transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-2xs group"
                     >
-                      <div className="space-y-1">
-                        <span className="text-sm font-bold text-[#111827] block group-hover:text-[#4F46E5] transition-colors">
-                          {tp.name}
-                        </span>
+                      <div className="space-y-1.5 flex-1">
                         <div className="flex items-center gap-2">
-                          <AnimatedProgress value={tp.accuracy} className="h-1.5 w-32" />
-                          <span className="text-xs font-mono font-bold text-gray-700">
+                          <span className="text-sm font-black text-slate-900 block group-hover:text-indigo-600 transition-colors">
+                            {tp.name}
+                          </span>
+                          <span className="text-[10px] font-bold text-slate-500 bg-white border border-slate-200 px-2 py-0.5 rounded-full">
+                            {tp.weightage}
+                          </span>
+                        </div>
+                        
+                        <div className="flex items-center gap-3">
+                          <div className="w-32 bg-slate-200 h-1.5 rounded-full overflow-hidden">
+                            <div
+                              className={`h-full ${
+                                tp.accuracy >= 80
+                                  ? "bg-emerald-500"
+                                  : tp.accuracy >= 70
+                                  ? "bg-indigo-600"
+                                  : "bg-amber-500"
+                              } rounded-full`}
+                              style={{ width: `${tp.accuracy}%` }}
+                            />
+                          </div>
+                          <span className="text-xs font-mono font-bold text-slate-700">
                             {tp.accuracy}% Accuracy
                           </span>
                         </div>
                       </div>
 
-                      <div className="flex items-center gap-2">
+                      <div className="flex items-center gap-2 shrink-0">
                         <Badge
                           variant={
                             tp.accuracy >= 80
@@ -298,14 +382,14 @@ export function ReadinessSection({ onOpenAssessment }: ReadinessSectionProps) {
                               ? "default"
                               : "warning"
                           }
-                          className="text-xs"
+                          className="text-xs font-bold"
                         >
                           {tp.status}
                         </Badge>
                         <button
                           onClick={onOpenAssessment}
-                          className="p-1.5 rounded-lg bg-white border border-gray-200 text-gray-700 hover:text-[#4F46E5] hover:border-indigo-200 transition-colors"
-                          title="Practice Topic"
+                          className="p-2 rounded-xl bg-white border border-slate-200 text-slate-700 hover:text-indigo-600 hover:border-indigo-200 hover:shadow-sm transition-all cursor-pointer"
+                          title="Practice Topic PYQs"
                         >
                           <ChevronRight className="h-4 w-4" />
                         </button>
@@ -315,13 +399,17 @@ export function ReadinessSection({ onOpenAssessment }: ReadinessSectionProps) {
                 </AnimatePresence>
               </div>
 
-              {/* CTA footer */}
-              <div className="pt-4 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3">
+              {/* Actionable Footer */}
+              <div className="pt-4 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-4">
                 <span className="text-xs text-slate-500 font-medium">
                   Calibrated against 8 years of official NEST SMAS cutoff benchmarks.
                 </span>
-                <Button onClick={onOpenAssessment} size="sm" className="w-full sm:w-auto bg-indigo-600 hover:bg-indigo-700 text-white font-bold transition-all shadow-xs">
-                  See My Readiness Index <ArrowRight className="ml-1.5 h-3.5 w-3.5" />
+                <Button
+                  onClick={onOpenAssessment}
+                  size="default"
+                  className="w-full sm:w-auto bg-indigo-600 hover:bg-indigo-700 text-white font-bold transition-all shadow-md px-5"
+                >
+                  See My Readiness Index <ArrowRight className="ml-1.5 h-4 w-4" />
                 </Button>
               </div>
             </Card>
