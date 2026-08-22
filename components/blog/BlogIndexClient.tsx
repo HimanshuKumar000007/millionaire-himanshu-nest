@@ -2,6 +2,8 @@
 
 import React, { useState, useMemo } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { getToken } from "@/lib/auth/authGuard";
 import { BlogPost } from "@/lib/data/blogs";
 import {
   BookOpen,
@@ -38,6 +40,25 @@ const CATEGORIES = [
 ] as const;
 
 export function BlogIndexClient({ initialPosts }: BlogIndexClientProps) {
+  const router = useRouter();
+
+  const handleAssessmentClick = () => {
+    const token = getToken();
+    if (token) {
+      router.push("/dashboard");
+    } else {
+      router.push("/login?mode=signup&redirect=%2Fdashboard");
+    }
+  };
+
+  const handleDashboardClick = () => {
+    const token = getToken();
+    if (token) {
+      router.push("/dashboard");
+    } else {
+      router.push("/login?redirect=%2Fdashboard");
+    }
+  };
   const [selectedCategory, setSelectedCategory] = useState<string>("All Guides");
   const [searchQuery, setSearchQuery] = useState<string>("");
 
@@ -348,19 +369,19 @@ export function BlogIndexClient({ initialPosts }: BlogIndexClientProps) {
             Find out your predicted percentile, conceptual weak spots, and subject readiness across Physics, Chemistry, Biology, and Math before exam day.
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
-            <Link href="/assessment">
-              <Button className="bg-white text-indigo-900 hover:bg-gray-100 font-black text-xs sm:text-sm px-6 h-11 rounded-xl shadow-md gap-2">
-                Take Free Diagnostic Assessment <ArrowRight className="h-4 w-4" />
-              </Button>
-            </Link>
-            <Link href="/dashboard">
-              <Button
-                variant="outline"
-                className="border-white/30 bg-white/5 text-white hover:bg-white/10 font-bold text-xs sm:text-sm px-6 h-11 rounded-xl"
-              >
-                Explore CBT Mocks & PYQs
-              </Button>
-            </Link>
+            <Button
+              onClick={handleAssessmentClick}
+              className="bg-white text-indigo-900 hover:bg-gray-100 font-black text-xs sm:text-sm px-6 h-11 rounded-xl shadow-md gap-2 cursor-pointer"
+            >
+              Take Free Diagnostic Assessment <ArrowRight className="h-4 w-4" />
+            </Button>
+            <Button
+              onClick={handleDashboardClick}
+              variant="outline"
+              className="border-white/30 bg-white/5 text-white hover:bg-white/10 font-bold text-xs sm:text-sm px-6 h-11 rounded-xl cursor-pointer"
+            >
+              Explore CBT Mocks & PYQs
+            </Button>
           </div>
         </div>
       </section>

@@ -2,6 +2,8 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { getToken } from "@/lib/auth/authGuard";
 import { BlogPost } from "@/lib/data/blogs";
 import {
   Calendar,
@@ -36,6 +38,25 @@ interface BlogPostClientProps {
 }
 
 export function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
+  const router = useRouter();
+
+  const handleAssessmentClick = () => {
+    const token = getToken();
+    if (token) {
+      router.push("/dashboard");
+    } else {
+      router.push("/login?mode=signup&redirect=%2Fdashboard");
+    }
+  };
+
+  const handleDashboardClick = () => {
+    const token = getToken();
+    if (token) {
+      router.push("/dashboard");
+    } else {
+      router.push("/login?redirect=%2Fdashboard");
+    }
+  };
   const [copied, setCopied] = useState(false);
   const [activeHeading, setActiveHeading] = useState<string>("");
   const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
@@ -271,19 +292,19 @@ export function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
                 Experience the exact 180-mark evaluation engine, best-3 score calculation, and 2018–2025 PYQ archive on SciPrep.
               </p>
               <div className="flex flex-wrap gap-3 pt-2">
-                <Link href="/assessment">
-                  <Button className="bg-white text-indigo-900 hover:bg-gray-100 font-black text-xs sm:text-sm px-5 h-10 rounded-xl shadow-md gap-1.5">
-                    Start Free Diagnostic Assessment <ArrowRight className="h-4 w-4" />
-                  </Button>
-                </Link>
-                <Link href="/dashboard">
-                  <Button
-                    variant="outline"
-                    className="border-white/30 bg-white/5 text-white hover:bg-white/10 font-bold text-xs sm:text-sm px-5 h-10 rounded-xl"
-                  >
-                    Open Student Dashboard
-                  </Button>
-                </Link>
+                <Button
+                  onClick={handleAssessmentClick}
+                  className="bg-white text-indigo-900 hover:bg-gray-100 font-black text-xs sm:text-sm px-5 h-10 rounded-xl shadow-md gap-1.5 cursor-pointer"
+                >
+                  Start Free Diagnostic Assessment <ArrowRight className="h-4 w-4" />
+                </Button>
+                <Button
+                  onClick={handleDashboardClick}
+                  variant="outline"
+                  className="border-white/30 bg-white/5 text-white hover:bg-white/10 font-bold text-xs sm:text-sm px-5 h-10 rounded-xl cursor-pointer"
+                >
+                  Open Student Dashboard
+                </Button>
               </div>
             </div>
           </section>
