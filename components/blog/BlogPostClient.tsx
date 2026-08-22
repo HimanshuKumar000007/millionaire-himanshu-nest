@@ -180,63 +180,6 @@ export function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
             <p className="text-sm sm:text-base text-gray-600 font-medium leading-relaxed">
               {post.excerpt}
             </p>
-
-            {/* Author Byline & Social Share Bar */}
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-5 border-t border-gray-100">
-              <div className="flex items-center gap-3">
-                <img
-                  src={post.author.avatar}
-                  alt={post.author.name}
-                  className="h-11 w-11 rounded-full object-cover border-2 border-indigo-200 shadow-2xs"
-                />
-                <div>
-                  <div className="text-xs sm:text-sm font-black text-gray-900 flex items-center gap-1">
-                    {post.author.name}
-                    <span className="text-indigo-600 text-xs font-bold" title="Verified Academic Author">✓ Verified Educator</span>
-                  </div>
-                  <div className="text-[11px] text-gray-500 font-medium">
-                    {post.author.role}
-                  </div>
-                </div>
-              </div>
-
-              {/* Share Buttons */}
-              <div className="flex items-center gap-2">
-                <button
-                  onClick={handleCopyLink}
-                  className="p-2 rounded-xl bg-gray-50 hover:bg-gray-100 text-gray-600 border border-gray-200 text-xs font-bold flex items-center gap-1.5 transition-colors cursor-pointer"
-                  title="Copy Guide Link"
-                >
-                  {copied ? (
-                    <>
-                      <Check className="h-3.5 w-3.5 text-emerald-600" />
-                      <span className="text-emerald-600">Copied!</span>
-                    </>
-                  ) : (
-                    <>
-                      <Copy className="h-3.5 w-3.5 text-gray-500" />
-                      <span className="hidden sm:inline">Copy Link</span>
-                    </>
-                  )}
-                </button>
-
-                <button
-                  onClick={shareOnTwitter}
-                  className="p-2 rounded-xl bg-gray-50 hover:bg-sky-50 hover:text-sky-600 text-gray-600 border border-gray-200 transition-colors cursor-pointer"
-                  title="Share on X (Twitter)"
-                >
-                  <Twitter className="h-3.5 w-3.5" />
-                </button>
-
-                <button
-                  onClick={shareOnWhatsApp}
-                  className="p-2 rounded-xl bg-gray-50 hover:bg-emerald-50 hover:text-emerald-600 text-gray-600 border border-gray-200 transition-colors cursor-pointer"
-                  title="Share on WhatsApp"
-                >
-                  <MessageCircle className="h-3.5 w-3.5" />
-                </button>
-              </div>
-            </div>
           </header>
 
           {/* Featured Image */}

@@ -228,20 +228,10 @@ export function BlogIndexClient({ initialPosts }: BlogIndexClientProps) {
               </div>
 
               <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-                <div className="flex items-center gap-3">
-                  <img
-                    src={featuredPost.author.avatar}
-                    alt={featuredPost.author.name}
-                    className="h-10 w-10 rounded-full object-cover border-2 border-indigo-200"
-                  />
-                  <div>
-                    <div className="text-xs sm:text-sm font-black text-gray-900">
-                      {featuredPost.author.name}
-                    </div>
-                    <div className="text-[11px] text-gray-500 font-medium">
-                      {featuredPost.author.role}
-                    </div>
-                  </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-xs font-bold text-gray-500 flex items-center gap-1.5">
+                    <BookOpen className="h-3.5 w-3.5 text-indigo-600" /> Official Study Masterclass
+                  </span>
                 </div>
 
                 <Link href={`/blog/${featuredPost.slug}`}>
@@ -345,16 +335,9 @@ export function BlogIndexClient({ initialPosts }: BlogIndexClientProps) {
                   </div>
 
                   <div className="px-6 pb-6 pt-3 border-t border-gray-100 flex items-center justify-between">
-                    <div className="flex items-center gap-2.5">
-                      <img
-                        src={post.author.avatar}
-                        alt={post.author.name}
-                        className="h-7 w-7 rounded-full object-cover border border-gray-200"
-                      />
-                      <span className="text-xs font-bold text-gray-700 truncate max-w-[120px]">
-                        {post.author.name}
-                      </span>
-                    </div>
+                    <span className="text-[11px] font-bold text-gray-500 flex items-center gap-1.5">
+                      <GraduationCap className="h-3.5 w-3.5 text-indigo-600" /> Study Guide
+                    </span>
 
                     <Link href={`/blog/${post.slug}`}>
                       <span className="text-xs font-bold text-indigo-600 hover:text-indigo-800 flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">
