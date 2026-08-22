@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { getToken } from "@/lib/auth/authGuard";
@@ -10,28 +10,30 @@ import {
   Clock,
   ArrowRight,
   ArrowLeft,
-  Share2,
-  Bookmark,
   CheckCircle2,
   Sparkles,
   HelpCircle,
-  Award,
   BookOpen,
   Target,
-  FlaskConical,
   Copy,
   Check,
   Twitter,
-  Linkedin,
   MessageCircle,
   ChevronDown,
+  ChevronUp,
   ListOrdered,
   Flame,
   GraduationCap,
+  Share2,
+  Bookmark,
+  Compass,
+  BarChart3,
+  Layers,
+  Zap,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { motion, useScroll, useSpring } from "motion/react";
+import { motion, useScroll, useSpring, AnimatePresence } from "motion/react";
 
 interface BlogPostClientProps {
   post: BlogPost;
@@ -58,20 +60,37 @@ export function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
       router.push("/login?redirect=%2Fdashboard");
     }
   };
+
   const [copied, setCopied] = useState(false);
   const [activeHeading, setActiveHeading] = useState<string>("");
   const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
+  const [showFloatingNav, setShowFloatingNav] = useState(false);
+  const [fontSizeMode, setFontSizeMode] = useState<"normal" | "large">("normal");
 
   // Scroll reading progress
-  const { scrollYProgress } = useScroll();
+  const { scrollYProgress, scrollY } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
-    stiffness: 100,
+    stiffness: 120,
     damping: 30,
     restDelta: 0.001,
   });
 
+  const [progressPercent, setProgressPercent] = useState(0);
+
+  useEffect(() => {
+    return scrollYProgress.on("change", (v) => {
+      setProgressPercent(Math.round(v * 100));
+    });
+  }, [scrollYProgress]);
+
+  useEffect(() => {
+    return scrollY.on("change", (latest) => {
+      setShowFloatingNav(latest > 350);
+    });
+  }, [scrollY]);
+
   // Extract H2 headings for Table of Contents
-  const headings = React.useMemo(() => {
+  const headings = useMemo(() => {
     const regex = /^##\s+(.*$)/gim;
     const matches = [];
     let match;
@@ -92,7 +111,7 @@ export function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
       const headingElements = headings.map((h) =>
         document.getElementById(h.id)
       );
-      const scrollPosition = window.scrollY + 120;
+      const scrollPosition = window.scrollY + 140;
 
       for (let i = headingElements.length - 1; i >= 0; i--) {
         const el = headingElements[i];
@@ -115,19 +134,9 @@ export function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
     }
   };
 
-  const shareOnTwitter = () => {
+  const scrollToTop = () => {
     if (typeof window !== "undefined") {
-      const url = encodeURIComponent(window.location.href);
-      const text = encodeURIComponent(`Check out this NEST guide: "${post.title}" on @SciPrep`);
-      window.open(`https://twitter.com/intent/tweet?url=${url}&text=${text}`, "_blank");
-    }
-  };
-
-  const shareOnWhatsApp = () => {
-    if (typeof window !== "undefined") {
-      const url = encodeURIComponent(window.location.href);
-      const text = encodeURIComponent(`Must read NEST preparation guide: ${post.title}\n${url}`);
-      window.open(`https://api.whatsapp.com/send?text=${text}`, "_blank");
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
   };
 
@@ -135,9 +144,53 @@ export function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
     <>
       {/* Top Fixed Reading Progress Indicator */}
       <motion.div
-        className="fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-500 origin-left z-50"
+        className="fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-500 origin-left z-50 shadow-sm"
         style={{ scaleX }}
       />
+
+      {/* Floating Minimalist Top Reader Bar */}
+      <AnimatePresence>
+        {showFloatingNav && (
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            className="fixed top-0 left-0 right-0 z-40 bg-white/90 backdrop-blur-md border-b border-gray-200/80 shadow-xs px-4 sm:px-8 py-2.5 flex items-center justify-between transition-all"
+          >
+            <div className="flex items-center gap-3 max-w-xl truncate">
+              <Link
+                href="/blog"
+                className="text-xs font-bold text-gray-500 hover:text-indigo-600 flex items-center gap-1 shrink-0 transition-colors"
+              >
+                <ArrowLeft className="h-3.5 w-3.5" /> All Guides
+              </Link>
+              <span className="text-gray-300">|</span>
+              <span className="text-xs font-black text-gray-900 truncate">
+                {post.title}
+              </span>
+            </div>
+
+            <div className="flex items-center gap-2.5 shrink-0">
+              <span className="hidden sm:inline-block text-[11px] font-bold text-gray-500 bg-gray-100 px-2 py-0.5 rounded-full">
+                {progressPercent}% read
+              </span>
+              <button
+                onClick={handleCopyLink}
+                className="p-1.5 rounded-xl bg-gray-50 hover:bg-gray-100 text-gray-600 border border-gray-200 text-xs font-bold transition-colors cursor-pointer"
+                title="Copy Link"
+              >
+                {copied ? <Check className="h-3.5 w-3.5 text-emerald-600" /> : <Copy className="h-3.5 w-3.5 text-gray-500" />}
+              </button>
+              <Button
+                onClick={handleAssessmentClick}
+                className="bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-black px-3.5 h-8 shadow-xs cursor-pointer gap-1"
+              >
+                <Flame className="h-3 w-3 text-amber-300" /> Free Test
+              </Button>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
         {/* Main Article Body (8 Columns on desktop) */}
@@ -194,23 +247,48 @@ export function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
                   PCBM Sectional Evaluation
                 </span>
               </div>
-              <button
-                onClick={handleCopyLink}
-                className="px-3 py-1.5 rounded-xl bg-gray-50 hover:bg-gray-100 text-gray-700 border border-gray-200 font-bold flex items-center gap-1.5 transition-colors cursor-pointer"
-                title="Copy Link to Clipboard"
-              >
-                {copied ? (
-                  <>
-                    <Check className="h-3.5 w-3.5 text-emerald-600" />
-                    <span className="text-emerald-600">Link Copied!</span>
-                  </>
-                ) : (
-                  <>
-                    <Copy className="h-3.5 w-3.5 text-gray-500" />
-                    <span>Copy Link</span>
-                  </>
-                )}
-              </button>
+              
+              <div className="flex items-center gap-2">
+                {/* Font Size Toggle */}
+                <div className="flex items-center rounded-xl bg-gray-50 border border-gray-200 p-0.5 text-xs font-bold text-gray-600">
+                  <button
+                    onClick={() => setFontSizeMode("normal")}
+                    className={`px-2 py-1 rounded-lg transition-all ${
+                      fontSizeMode === "normal" ? "bg-white text-indigo-600 shadow-2xs font-black" : "hover:text-gray-900"
+                    }`}
+                    title="Standard Font Size"
+                  >
+                    A
+                  </button>
+                  <button
+                    onClick={() => setFontSizeMode("large")}
+                    className={`px-2 py-1 rounded-lg transition-all ${
+                      fontSizeMode === "large" ? "bg-white text-indigo-600 shadow-2xs font-black text-sm" : "hover:text-gray-900"
+                    }`}
+                    title="Comfortable Reading Size"
+                  >
+                    A+
+                  </button>
+                </div>
+
+                <button
+                  onClick={handleCopyLink}
+                  className="px-3 py-1.5 rounded-xl bg-gray-50 hover:bg-gray-100 text-gray-700 border border-gray-200 font-bold flex items-center gap-1.5 transition-colors cursor-pointer"
+                  title="Copy Link to Clipboard"
+                >
+                  {copied ? (
+                    <>
+                      <Check className="h-3.5 w-3.5 text-emerald-600" />
+                      <span className="text-emerald-600">Link Copied!</span>
+                    </>
+                  ) : (
+                    <>
+                      <Copy className="h-3.5 w-3.5 text-gray-500" />
+                      <span>Copy Link</span>
+                    </>
+                  )}
+                </button>
+              </div>
             </div>
           </header>
 
@@ -268,9 +346,13 @@ export function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
           </div>
 
           {/* Article Body Content */}
-          <article className="bg-white rounded-3xl p-6 sm:p-10 border border-gray-200/80 shadow-[0_8px_30px_rgb(0,0,0,0.04)] space-y-6 text-gray-800 leading-relaxed text-sm sm:text-base font-normal">
+          <article
+            className={`bg-white rounded-3xl p-6 sm:p-10 border border-gray-200/80 shadow-[0_8px_30px_rgb(0,0,0,0.04)] space-y-6 text-slate-800 leading-relaxed ${
+              fontSizeMode === "large" ? "text-base sm:text-lg" : "text-sm sm:text-[16.5px]"
+            } font-normal`}
+          >
             <div
-              className="space-y-6"
+              className="space-y-6 article-content"
               dangerouslySetInnerHTML={{
                 __html: formatMarkdownToHtml(post.content),
               }}
@@ -441,6 +523,22 @@ export function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
           </div>
         </div>
       </div>
+
+      {/* Floating Back to Top Button */}
+      <AnimatePresence>
+        {showFloatingNav && (
+          <motion.button
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.8 }}
+            onClick={scrollToTop}
+            className="fixed bottom-6 right-6 z-40 p-3 rounded-full bg-slate-900 text-white shadow-xl hover:bg-indigo-600 transition-all cursor-pointer border border-white/20"
+            title="Back to Top"
+          >
+            <ChevronUp className="h-5 w-5" />
+          </motion.button>
+        )}
+      </AnimatePresence>
     </>
   );
 }
@@ -464,12 +562,12 @@ function formatMathSymbols(str: string): string {
 function formatMarkdownToHtml(markdown: string): string {
   // 1. Math Display Blocks ($$...$$)
   let out = markdown.replace(/\$\$([\s\S]*?)\$\$/g, (_, math) => {
-    return `<div class="my-5 py-3.5 px-5 rounded-2xl bg-indigo-50/80 border border-indigo-200/80 text-center font-mono text-sm font-bold text-indigo-950 shadow-2xs">${formatMathSymbols(math.trim())}</div>`;
+    return `<div class="my-6 py-4 px-6 rounded-2xl bg-slate-950 border border-slate-800 text-center font-mono text-sm sm:text-base font-bold text-indigo-300 shadow-md overflow-x-auto"><span class="text-[10px] font-sans font-bold uppercase tracking-widest text-indigo-400 block mb-1">📐 Equation / Mathematical Derivation</span>${formatMathSymbols(math.trim())}</div>`;
   });
 
   // 2. Inline Math ($...$)
   out = out.replace(/\$([^$\n]+)\$/g, (_, math) => {
-    return `<span class="font-mono text-xs font-bold text-indigo-900 bg-indigo-50/90 px-1.5 py-0.5 rounded border border-indigo-200/60">${formatMathSymbols(math.trim())}</span>`;
+    return `<span class="font-mono text-xs font-bold text-indigo-900 bg-indigo-50/95 px-2 py-0.5 rounded-md border border-indigo-200/80 shadow-2xs">${formatMathSymbols(math.trim())}</span>`;
   });
 
   // 3. Process Tables
@@ -489,7 +587,7 @@ function formatMarkdownToHtml(markdown: string): string {
     const ths = headerCells
       .map(
         (h) =>
-          `<th class="py-3.5 px-4 font-black text-gray-900 border-b border-gray-200 text-xs uppercase tracking-wider bg-gray-50/90">${h}</th>`
+          `<th class="py-3.5 px-4 font-black text-white border-b border-slate-800 text-xs uppercase tracking-wider bg-slate-900">${h}</th>`
       )
       .join("");
 
@@ -503,15 +601,15 @@ function formatMarkdownToHtml(markdown: string): string {
           .map((cell, idx) => {
             const isFirst = idx === 0;
             return `<td class="py-3.5 px-4 text-xs sm:text-sm ${
-              isFirst ? "font-black text-gray-900" : "text-gray-600"
+              isFirst ? "font-black text-gray-900 bg-slate-50/50" : "text-gray-600"
             }">${cell}</td>`;
           })
           .join("");
-        return `<tr class="border-b border-gray-100 hover:bg-indigo-50/20 transition-colors">${tds}</tr>`;
+        return `<tr class="border-b border-gray-100 hover:bg-indigo-50/30 transition-colors">${tds}</tr>`;
       })
       .join("");
 
-    return `<div class="overflow-x-auto my-8 rounded-2xl border border-gray-200 shadow-2xs"><table class="w-full text-left border-collapse bg-white"><thead class="border-b border-gray-200"><tr>${ths}</tr></thead><tbody class="divide-y divide-gray-100">${trs}</tbody></table></div>`;
+    return `<div class="overflow-x-auto my-8 rounded-2xl border border-gray-200 shadow-sm"><table class="w-full text-left border-collapse bg-white"><thead class="border-b border-gray-200"><tr>${ths}</tr></thead><tbody class="divide-y divide-gray-100">${trs}</tbody></table></div>`;
   };
 
   for (let i = 0; i < lines.length; i++) {
@@ -537,11 +635,11 @@ function formatMarkdownToHtml(markdown: string): string {
   // 4. Alerts & Blockquotes
   out = out.replace(
     /^>\s*\[!IMPORTANT\]\s*\n^>\s*(.*$)/gim,
-    '<div class="my-6 p-5 rounded-2xl bg-amber-50/90 border-l-4 border-amber-500 text-amber-950 shadow-2xs space-y-1"><div class="flex items-center gap-1.5 font-black text-xs uppercase tracking-wider text-amber-800">⚠️ Pro Tip</div><div class="text-xs sm:text-sm leading-relaxed">$1</div></div>'
+    '<div class="my-6 p-5 sm:p-6 rounded-2xl bg-amber-50/90 border-l-4 border-amber-500 text-amber-950 shadow-sm space-y-1.5"><div class="flex items-center gap-1.5 font-black text-xs uppercase tracking-wider text-amber-800">⚠️ Critical Examination Requirement</div><div class="text-xs sm:text-sm leading-relaxed font-medium">$1</div></div>'
   );
   out = out.replace(
     /^>\s*(.*$)/gim,
-    '<blockquote class="my-5 p-4 rounded-2xl bg-indigo-50/60 border-l-4 border-indigo-600 text-indigo-950 italic text-xs sm:text-sm leading-relaxed">$1</blockquote>'
+    '<blockquote class="my-6 p-5 sm:p-6 rounded-2xl bg-indigo-50/60 border-l-4 border-indigo-600 text-indigo-950 italic text-xs sm:text-sm leading-relaxed font-medium">$1</blockquote>'
   );
 
   // 5. Headings with IDs for TOC Anchor Jump Links
@@ -551,7 +649,7 @@ function formatMarkdownToHtml(markdown: string): string {
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/(^-|-$)/g, "");
-    return `<h2 id="${id}" class="text-2xl sm:text-3xl font-black text-gray-900 mt-10 mb-4 tracking-tight border-b border-gray-100 pb-2.5 scroll-mt-24">${text}</h2>`;
+    return `<h2 id="${id}" class="text-xl sm:text-2xl font-black text-gray-900 mt-10 mb-4 tracking-tight border-b border-gray-100 pb-3 scroll-mt-28 flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-indigo-600 inline-block"></span><span>${text}</span></h2>`;
   });
 
   out = out.replace(/^###\s+(.*$)/gim, (_, heading) => {
@@ -560,7 +658,7 @@ function formatMarkdownToHtml(markdown: string): string {
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/(^-|-$)/g, "");
-    return `<h3 id="${id}" class="text-lg sm:text-xl font-black text-gray-900 mt-8 mb-3 tracking-tight text-indigo-950 scroll-mt-24">${text}</h3>`;
+    return `<h3 id="${id}" class="text-base sm:text-lg font-black text-indigo-950 mt-8 mb-3 tracking-tight scroll-mt-28">${text}</h3>`;
   });
 
   // 6. Bold & Italic
@@ -568,11 +666,11 @@ function formatMarkdownToHtml(markdown: string): string {
   out = out.replace(/\*(.*?)\*/g, '<em class="italic text-gray-700">$1</em>');
 
   // 7. Lists
-  out = out.replace(/^\-\s+(.*$)/gim, '<li class="text-gray-700 ml-4 list-disc text-sm sm:text-base mb-1.5">$1</li>');
-  out = out.replace(/^(\d+)\.\s+(.*$)/gim, '<li class="text-gray-700 ml-4 list-decimal text-sm sm:text-base mb-1.5">$2</li>');
+  out = out.replace(/^\-\s+(.*$)/gim, '<li class="text-slate-700 ml-4 list-disc text-sm sm:text-[15.5px] leading-relaxed mb-2 font-medium">$1</li>');
+  out = out.replace(/^(\d+)\.\s+(.*$)/gim, '<li class="text-slate-700 ml-4 list-decimal text-sm sm:text-[15.5px] leading-relaxed mb-2 font-medium">$2</li>');
 
   // 8. Horizontal rules
-  out = out.replace(/^---$/gim, '<hr class="my-8 border-gray-200" />');
+  out = out.replace(/^---$/gim, '<hr class="my-10 border-gray-200" />');
 
   // 9. Paragraphs
   const paragraphs = out.split(/\n\s*\n/);
@@ -590,7 +688,7 @@ function formatMarkdownToHtml(markdown: string): string {
       ) {
         return trimmed;
       }
-      return `<p class="text-sm sm:text-base text-gray-700 leading-relaxed my-3.5">${trimmed}</p>`;
+      return `<p class="text-slate-700 leading-[1.8] my-4 font-normal">${trimmed}</p>`;
     })
     .join("\n");
 
