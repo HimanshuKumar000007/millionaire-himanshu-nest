@@ -167,21 +167,6 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
       {/* Article Content Wrapper */}
       <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 w-full">
-        {/* Breadcrumb Navigation */}
-        <nav className="flex items-center gap-2 text-xs font-semibold text-gray-500 mb-8">
-          <Link href="/" className="hover:text-indigo-600 transition-colors">
-            Home
-          </Link>
-          <span>/</span>
-          <Link href="/blog" className="hover:text-indigo-600 transition-colors">
-            Blog
-          </Link>
-          <span>/</span>
-          <span className="text-gray-900 font-bold truncate max-w-xs sm:max-w-md">
-            {post.title}
-          </span>
-        </nav>
-
         {/* Client Interactive Reader Component */}
         <BlogPostClient post={post} relatedPosts={relatedPosts} />
       </main>
