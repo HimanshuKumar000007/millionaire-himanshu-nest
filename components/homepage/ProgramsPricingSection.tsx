@@ -351,30 +351,6 @@ export function ProgramsPricingSection({ onOpenAssessment, onSelectPlan }: Progr
           </AnimatePresence>
         </div>
 
-        {/* Bottom Banner Card: Study Roadmap */}
-        <div className="rounded-2xl bg-[#0E1124] border border-indigo-500/20 p-5 sm:p-6 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-4">
-            <div className="h-12 w-12 rounded-2xl bg-indigo-500/15 border border-indigo-500/30 text-indigo-400 flex items-center justify-center shrink-0">
-              <BookOpen className="h-6 w-6" />
-            </div>
-            <div>
-              <h4 className="text-sm sm:text-base font-bold text-white">
-                Need a customized Smart Notes + Mock Test study roadmap?
-              </h4>
-              <p className="text-xs text-slate-400 mt-0.5">
-                Whether you are in PCM, PCB, or dropping a year, our academic team will configure the optimal mock schedule for you.
-              </p>
-            </div>
-          </div>
-
-          <Button
-            onClick={onOpenAssessment}
-            className="w-full sm:w-auto bg-[#141830] hover:bg-[#1A2040] text-cyan-300 border border-cyan-500/30 hover:border-cyan-400/60 text-xs sm:text-sm font-bold px-5 py-3 rounded-xl transition-all shrink-0 cursor-pointer flex items-center gap-2"
-          >
-            <Sparkles className="h-4 w-4 text-cyan-400" />
-            <span>Try Free Diagnostic CBT Mock</span>
-          </Button>
-        </div>
       </div>
     </section>
   );

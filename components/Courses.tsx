@@ -414,28 +414,6 @@ export function Courses({ onOpenEnroll, onOpenTrial }: CoursesProps) {
           })}
         </div>
 
-        {/* Bottom Banner for Custom Diagnostic Consultation */}
-        <div className="mt-12 p-6 rounded-3xl glass-panel border border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 bg-gradient-to-r from-indigo-950/40 via-[#12121A] to-purple-950/40">
-          <div className="flex items-center gap-3.5">
-            <div className="w-12 h-12 rounded-2xl bg-indigo-500/20 text-indigo-400 border border-indigo-500/30 flex items-center justify-center">
-              <BookMarked className="w-6 h-6" />
-            </div>
-            <div>
-              <h4 className="text-base font-bold text-white">Need a customized Smart Notes + Mock Test study roadmap?</h4>
-              <p className="text-xs text-slate-300">
-                Whether you are in PCM, PCB, or dropping a year, our academic team will configure the optimal mock schedule for you.
-              </p>
-            </div>
-          </div>
-          <button
-            onClick={onOpenTrial}
-            className="whitespace-nowrap px-5 py-2.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-semibold text-xs border border-white/15 transition-all cursor-pointer flex items-center gap-2"
-          >
-            <Sparkles className="w-4 h-4 text-cyan-300" />
-            Try Free Diagnostic CBT Mock
-          </button>
-        </div>
-
       </div>
 
       {/* Course Detailed Syllabus & Blueprint Modal */}
