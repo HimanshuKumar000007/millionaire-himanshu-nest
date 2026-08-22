@@ -181,7 +181,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className="bg-[#F7F8FC] text-[#111827] antialiased selection:bg-indigo-100 selection:text-indigo-900 min-h-screen flex flex-col font-sans"
+        className="bg-[#07080F] text-slate-100 antialiased selection:bg-indigo-500/30 selection:text-white min-h-screen flex flex-col font-sans"
         suppressHydrationWarning
       >
         {children}
