@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import { Navbar } from '@/components/Navbar';
 import { Hero } from '@/components/Hero';
 import { TrustedBy } from '@/components/TrustedBy';
-import { Courses } from '@/components/Courses';
 import { WhyChooseUs } from '@/components/WhyChooseUs';
 import { Results } from '@/components/Results';
 import { PlatformPreview } from '@/components/PlatformPreview';
@@ -54,12 +53,6 @@ export default function HomePage() {
 
       {/* Marquee: Target Science Institutes */}
       <TrustedBy />
-
-      {/* Flagship Course Programs (Bento Grid) */}
-      <Courses
-        onOpenEnroll={handleOpenEnroll}
-        onOpenTrial={handleOpenTrial}
-      />
 
       {/* Why Choose SciPrep (Split View) */}
       <WhyChooseUs

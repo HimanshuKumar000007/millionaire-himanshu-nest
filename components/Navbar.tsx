@@ -38,7 +38,7 @@ export function Navbar({ onOpenEnroll, onOpenTrial }: NavbarProps) {
   }, []);
 
   const navLinks = [
-    { name: 'Courses', href: '#courses', hasDropdown: true },
+    { name: 'Study Packages', href: '#pricing', hasDropdown: true },
     { name: 'Why SciPrep', href: '#why-us' },
     { name: 'Results (AIR)', href: '#results' },
     { name: 'Platform', href: '#platform' },
@@ -53,28 +53,28 @@ export function Navbar({ onOpenEnroll, onOpenTrial }: NavbarProps) {
       subtitle: 'Smart Notes, CBT Mocks & 24/7 AI Mentor',
       badge: 'Bestseller',
       badgeColor: 'bg-amber-500/20 text-amber-300 border-amber-500/30',
-      href: '#courses',
+      href: '#pricing',
     },
     {
       title: 'NEST 2026 CBT & PYQ Pack',
       subtitle: 'NISER & CEBS Mocks, Smart Notes & AI Mentor',
       badge: 'Popular',
       badgeColor: 'bg-cyan-500/20 text-cyan-300 border-cyan-500/30',
-      href: '#courses',
+      href: '#pricing',
     },
     {
       title: 'ISI & CMI Math PYQ & Mocks',
       subtitle: 'Proof-writing notes & Olympiad chapter tests',
       badge: 'Specialized',
       badgeColor: 'bg-purple-500/20 text-purple-300 border-purple-500/30',
-      href: '#courses',
+      href: '#pricing',
     },
     {
       title: 'All-India CBT Test Series (AITS)',
       subtitle: 'Full Mocks, Quick Sprints & Chapter Tests',
       badge: '150+ Mocks',
       badgeColor: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30',
-      href: '#courses',
+      href: '#pricing',
     },
   ];
 
