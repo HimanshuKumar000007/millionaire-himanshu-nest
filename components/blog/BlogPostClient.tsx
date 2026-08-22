@@ -217,7 +217,7 @@ export function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
                 <GraduationCap className="h-3.5 w-3.5 mr-1 text-indigo-600" /> {post.category}
               </Badge>
               <Badge variant="outline" className="text-emerald-700 bg-emerald-50/80 border-emerald-200 text-[11px] font-bold">
-                ✓ NEST 2026/2027 Verified
+                ✓ NEST 2027 Verified
               </Badge>
               <span className="text-xs text-gray-400 font-semibold">•</span>
               <span className="text-xs text-gray-500 font-semibold flex items-center gap-1">

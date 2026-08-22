@@ -89,7 +89,7 @@ export function Hero({ onOpenAssessment }: HeroProps) {
               className="inline-flex items-center gap-2 pl-1 pr-3.5 py-1 rounded-full bg-white border border-slate-200 shadow-sm text-xs font-semibold cursor-default"
             >
               <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-indigo-600 text-white text-[10px] font-black uppercase tracking-wide">
-                NEST 2026
+                NEST 2027
               </span>
               <span className="text-slate-600">India&apos;s focused NEST preparation platform</span>
             </motion.div>

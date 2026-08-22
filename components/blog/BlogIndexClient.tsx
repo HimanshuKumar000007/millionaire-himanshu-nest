@@ -304,7 +304,7 @@ export function BlogIndexClient({ initialPosts }: BlogIndexClientProps) {
                   NISER & CEBS Exam Analytics
                 </span>
                 <span className="bg-indigo-600/90 backdrop-blur-md px-2.5 py-1 rounded-lg">
-                  2026/2027 Pattern
+                  2027 Pattern
                 </span>
               </div>
             </div>
