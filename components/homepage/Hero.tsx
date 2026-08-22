@@ -1,343 +1,350 @@
 "use client";
 
 import * as React from "react";
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { ScientificBackground } from "@/components/shared/ScientificBackground";
-import { ArrowRight, TrendingUp, AlertTriangle, Target, Activity, ShieldCheck, Compass, Star, Users } from "lucide-react";
-import { motion, useInView } from "motion/react";
+import {
+  Sparkles,
+  ArrowRight,
+  Play,
+  CheckCircle2,
+  Star,
+  Bot,
+  Trophy,
+  TrendingUp,
+  LineChart,
+} from "lucide-react";
+import { motion } from "motion/react";
 
 interface HeroProps {
   onOpenAssessment: () => void;
+  onWatchInsights?: () => void;
 }
 
-const avatarInitials = ["A", "R", "S", "P", "M"];
-const avatarColors = ["bg-indigo-500", "bg-violet-500", "bg-emerald-500", "bg-amber-500", "bg-rose-500"];
-
-export function Hero({ onOpenAssessment }: HeroProps) {
-  const [activeSubject, setActiveSubject] = useState<"Physics" | "Chemistry" | "Biology" | "Mathematics">("Physics");
-  const [missionTasks, setMissionTasks] = useState([
-    { id: 1, title: "Physics — Wave Optics Revision", done: true },
-    { id: 2, title: "Solve 15 NEST Biology PYQs", done: false },
-    { id: 3, title: "Chemistry Mock Diagnostic", done: false },
-  ]);
-
-  const subjectData = {
-    Physics: { score: 82, bar: "from-indigo-500 to-indigo-400", weakTopic: "Rotational Dynamics" },
-    Chemistry: { score: 75, bar: "from-blue-500 to-cyan-400", weakTopic: "Electrochemistry" },
-    Biology: { score: 69, bar: "from-emerald-500 to-teal-400", weakTopic: "Cellular Respiration" },
-    Mathematics: { score: 77, bar: "from-purple-500 to-violet-400", weakTopic: "Definite Integrals" },
+export function Hero({ onOpenAssessment, onWatchInsights }: HeroProps) {
+  const handleScrollToPrograms = () => {
+    const el = document.getElementById("study-programs");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
-  const toggleTask = (id: number) => {
-    setMissionTasks(tasks => tasks.map(t => t.id === id ? { ...t, done: !t.done } : t));
+  const handleWatchRankers = () => {
+    if (onWatchInsights) {
+      onWatchInsights();
+    } else {
+      const el = document.getElementById("hall-of-fame");
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }
   };
 
-  const sectionRef = useRef<HTMLDivElement>(null);
-  const isInView = useInView(sectionRef, { once: true, margin: "-100px" });
-  const [displayScore, setDisplayScore] = useState(0);
-  const [studentCount, setStudentCount] = useState(0);
-
-  useEffect(() => {
-    if (!isInView) return;
-    let start = 0;
-    const end = 74;
-    const duration = 1400;
-    const startTime = performance.now();
-    const animate = (currentTime: number) => {
-      const elapsed = currentTime - startTime;
-      const progress = Math.min(elapsed / duration, 1);
-      const easeProgress = 1 - Math.pow(1 - progress, 4);
-      setDisplayScore(Math.floor(easeProgress * end));
-      if (progress < 1) requestAnimationFrame(animate);
-    };
-    requestAnimationFrame(animate);
-
-    const countEnd = 2400;
-    const countDuration = 1800;
-    const countStart = performance.now();
-    const animateCount = (currentTime: number) => {
-      const elapsed = currentTime - countStart;
-      const progress = Math.min(elapsed / countDuration, 1);
-      const easeProgress = 1 - Math.pow(1 - progress, 3);
-      setStudentCount(Math.floor(easeProgress * countEnd));
-      if (progress < 1) requestAnimationFrame(animateCount);
-    };
-    requestAnimationFrame(animateCount);
-  }, [isInView]);
+  const featurePills = [
+    "Smart High-Yield Notes",
+    "TCS-iON CBT Full Mocks",
+    "15-Min Quick Mocks",
+    "Chapter-wise Practice",
+    "15+ Years Solved PYQs",
+    "24/7 AI Science Mentor",
+  ];
 
   return (
-    <section ref={sectionRef} className="relative pt-8 pb-16 md:pt-14 md:pb-28 overflow-hidden">
-      <ScientificBackground />
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-[-5%] left-[15%] w-[500px] h-[500px] bg-indigo-500/6 rounded-full blur-[100px]" />
-        <div className="absolute bottom-[0%] right-[5%] w-[350px] h-[350px] bg-violet-500/5 rounded-full blur-[80px]" />
-      </div>
+    <section className="relative pt-6 pb-16 md:pt-10 md:pb-24 overflow-hidden bg-[#07080F]">
+      {/* Dark Scientific Grid Background */}
+      <div className="absolute inset-0 bg-dark-grid opacity-35 pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-10 items-center">
+      {/* Radial Ambient Glows */}
+      <div className="absolute top-1/4 left-1/10 w-[550px] h-[550px] bg-indigo-600/10 rounded-full blur-[140px] pointer-events-none" />
+      <div className="absolute top-1/3 right-1/10 w-[600px] h-[600px] bg-purple-600/10 rounded-full blur-[160px] pointer-events-none" />
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 w-[800px] h-[300px] bg-cyan-600/5 rounded-full blur-[120px] pointer-events-none" />
 
-          {/* Left Column */}
-          <div className="lg:col-span-6 space-y-7 text-left">
-
-            {/* Eyebrow badge */}
-            <motion.div
-              initial={{ y: -10, opacity: 0 }}
-              animate={isInView ? { y: 0, opacity: 1 } : {}}
-              transition={{ duration: 0.45, ease: "easeOut" }}
-              className="inline-flex items-center gap-2 pl-1 pr-3.5 py-1 rounded-full bg-white border border-slate-200 shadow-sm text-xs font-semibold cursor-default"
-            >
-              <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-indigo-600 text-white text-[10px] font-black uppercase tracking-wide">
-                NEST 2027
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+          {/* Left Column (Hero Copy & CTAs) */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            className="lg:col-span-7 space-y-6 text-left"
+          >
+            {/* Top Pill Badge */}
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#0F1326] border border-indigo-500/25 text-xs font-semibold text-slate-300 shadow-sm">
+              <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_8px_#34d399]" />
+              <span className="text-slate-300 font-medium">
+                2026 Test Series &amp; Smart Notes Live
               </span>
-              <span className="text-slate-600">India&apos;s focused NEST preparation platform</span>
-            </motion.div>
+              <span className="text-slate-600">•</span>
+              <span className="text-cyan-400 font-bold">100% Real TCS-iON CBT Interface</span>
+            </div>
 
-            {/* H1 */}
-            <motion.h1
-              initial={{ y: 24, opacity: 0 }}
-              animate={isInView ? { y: 0, opacity: 1 } : {}}
-              transition={{ duration: 0.6, delay: 0.08, ease: "easeOut" }}
-              className="text-5xl sm:text-6xl lg:text-[68px] font-black tracking-[-0.04em] text-slate-950 leading-[1.04]"
-            >
-              Know Where
+            {/* Main Headline */}
+            <h1 className="text-4xl sm:text-5xl lg:text-[58px] font-black tracking-[-0.03em] text-white leading-[1.08]">
+              Master IISER, NEST, ISI &amp; CMI
               <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600">
-                You Stand in NEST.
+              <span className="bg-gradient-to-r from-[#6366F1] via-[#A855F7] to-[#38BDF8] bg-clip-text text-transparent">
+                with Smart Notes &amp; 24/7 AI Mentor
               </span>
-            </motion.h1>
+            </h1>
 
-            {/* Supporting copy */}
-            <motion.p
-              initial={{ y: 20, opacity: 0 }}
-              animate={isInView ? { y: 0, opacity: 1 } : {}}
-              transition={{ duration: 0.6, delay: 0.18, ease: "easeOut" }}
-              className="text-base sm:text-lg text-slate-500 leading-relaxed max-w-lg font-normal"
-            >
-              SciPrep combines focused NEST lessons, authentic PYQs, realistic 180-mark mock tests, and performance analytics into one structured preparation system.
-            </motion.p>
+            {/* Subtitle */}
+            <p className="text-base sm:text-[17px] text-slate-300 leading-relaxed font-normal max-w-2xl">
+              Master high-yield science concepts without wasting hours in passive lectures. Prepare
+              for <strong className="text-white font-semibold">IISER, NISER, ISI, CMI &amp; IISc</strong> with
+              high-yield <strong className="text-white font-semibold">Smart Notes</strong>, exact{" "}
+              <strong className="text-white font-semibold">CBT Mode Full Mocks</strong>,{" "}
+              <strong className="text-white font-semibold">Quick Mocks</strong>,{" "}
+              <strong className="text-white font-semibold">Chapter-wise Mocks</strong>, 15+ years
+              solved <strong className="text-white font-semibold">PYQs</strong>, and an instant{" "}
+              <strong className="text-cyan-400 font-semibold">24/7 AI Mentor</strong>.
+            </p>
 
-            {/* Social proof */}
-            <motion.div
-              initial={{ opacity: 0, y: 8 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.45, delay: 0.28 }}
-              className="flex items-center gap-3"
-            >
-              <div className="flex -space-x-2">
-                {avatarInitials.map((init, i) => (
-                  <div key={i} className={`h-7 w-7 rounded-full ${avatarColors[i]} border-2 border-white flex items-center justify-center text-[10px] text-white font-black shadow-sm`}>
-                    {init}
-                  </div>
-                ))}
-              </div>
-              <div className="text-xs font-medium text-slate-500">
-                <span className="font-black text-slate-900">{studentCount.toLocaleString()}+</span> aspirants preparing
-              </div>
-              <div className="hidden sm:flex items-center gap-1 text-xs font-bold text-amber-700 bg-amber-50 px-2 py-0.5 rounded-full border border-amber-200">
-                <Star className="h-3 w-3 fill-amber-400 text-amber-400" />
-                4.9
-              </div>
-            </motion.div>
+            {/* 6 Feature Chips (2 rows x 3) */}
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5 pt-1">
+              {featurePills.map((pill) => (
+                <div
+                  key={pill}
+                  className="flex items-center gap-2 px-3 py-2 rounded-xl bg-[#0F1222]/80 border border-slate-800/90 text-xs font-semibold text-slate-300 hover:border-slate-700 hover:text-white transition-colors"
+                >
+                  <CheckCircle2 className="h-3.5 w-3.5 text-cyan-400 shrink-0" />
+                  <span className="truncate">{pill}</span>
+                </div>
+              ))}
+            </div>
 
-            {/* CTAs */}
-            <motion.div
-              initial={{ y: 18, opacity: 0 }}
-              animate={isInView ? { y: 0, opacity: 1 } : {}}
-              transition={{ duration: 0.55, delay: 0.32, ease: "easeOut" }}
-              className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3"
-            >
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-2">
               <Button
                 onClick={onOpenAssessment}
                 size="xl"
-                className="bg-indigo-600 hover:bg-indigo-700 text-white shadow-md shadow-indigo-500/25 hover:shadow-lg hover:shadow-indigo-500/30 text-base font-bold transition-all group"
+                className="bg-gradient-to-r from-[#4F46E5] to-[#7C3AED] hover:from-[#4338CA] hover:to-[#6D28D9] text-white shadow-lg shadow-indigo-600/30 text-sm sm:text-base font-bold py-6 px-7 rounded-xl transition-all group cursor-pointer border border-indigo-400/30 hover:scale-[1.01]"
               >
-                Start Free Assessment
+                <Sparkles className="h-4 w-4 mr-2 text-cyan-300" />
+                <span>Try Free CBT Mock &amp; Smart Notes</span>
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <a href="#how-it-works" className="block w-full sm:w-auto">
-                <Button
-                  variant="outline"
-                  size="xl"
-                  className="w-full sm:w-auto border-slate-200 text-slate-700 hover:bg-slate-50 hover:border-slate-300 text-base font-semibold transition-all bg-white/70"
-                >
-                  <Compass className="mr-2 h-4 w-4 text-indigo-500" />
-                  Explore NEST Prep
-                </Button>
-              </a>
-            </motion.div>
 
-            {/* Trust strip */}
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={isInView ? { opacity: 1 } : {}}
-              transition={{ duration: 0.5, delay: 0.5 }}
-              className="flex flex-wrap items-center gap-y-1.5 gap-x-5 text-xs font-medium text-slate-500"
-            >
-              <span className="flex items-center gap-1.5">
-                <ShieldCheck className="h-3.5 w-3.5 text-emerald-500" /> Free to start
-              </span>
-              <span className="text-slate-300">·</span>
-              <span className="flex items-center gap-1.5">
-                <Target className="h-3.5 w-3.5 text-indigo-500" /> Personalized preparation
-              </span>
-              <span className="text-slate-300">·</span>
-              <span className="flex items-center gap-1.5">
-                <Users className="h-3.5 w-3.5 text-violet-500" /> Built specifically for NEST
-              </span>
-            </motion.div>
-          </div>
-
-          {/* Right Column: High-Impact Simplified Product Mockup */}
-          <motion.div
-            initial={{ x: 40, opacity: 0 }}
-            animate={isInView ? { x: 0, opacity: 1 } : {}}
-            transition={{ duration: 0.7, delay: 0.25, ease: "easeOut" }}
-            className="lg:col-span-6 relative"
-          >
-            {/* Ambient Backlight Glow */}
-            <div className="absolute -inset-4 rounded-3xl bg-gradient-to-r from-indigo-500/15 via-violet-500/10 to-emerald-500/10 blur-2xl pointer-events-none" />
-
-            {/* Main Mockup Card Container */}
-            <div className="relative mx-auto max-w-lg lg:max-w-none rounded-3xl border border-slate-200/90 bg-white/95 backdrop-blur-md p-6 sm:p-7 shadow-[0_20px_50px_rgba(15,23,42,0.08),0_4px_16px_rgba(79,70,229,0.06)] ring-1 ring-slate-900/5 transition-all">
-
-              {/* Browser Header Bar */}
-              <div className="flex items-center justify-between pb-4 mb-5 border-b border-slate-100">
-                <div className="flex items-center gap-2">
-                  <div className="flex gap-1.5">
-                    <div className="w-2.5 h-2.5 rounded-full bg-rose-400" />
-                    <div className="w-2.5 h-2.5 rounded-full bg-amber-400" />
-                    <div className="w-2.5 h-2.5 rounded-full bg-emerald-400" />
-                  </div>
-                  <span className="text-xs font-mono text-slate-400 ml-2">app.sciprep.in/readiness</span>
-                </div>
-
-                <div className="flex items-center gap-2">
-                  <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-[11px] font-bold">
-                    <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                    SMAS Active
-                  </span>
-                </div>
-              </div>
-
-              {/* Dashboard Content Grid */}
-              <div className="space-y-4">
-
-                {/* Primary Hero Score Widget */}
-                <div className="relative bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 text-white rounded-2xl p-5 sm:p-6 flex items-center justify-between overflow-hidden shadow-md">
-                  <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]" />
-                  <div className="relative z-10 space-y-1">
-                    <span className="text-[11px] font-bold text-indigo-300 uppercase tracking-wider block">
-                      NEST Readiness Index
-                    </span>
-                    <div className="flex items-baseline gap-2">
-                      <span className="text-4xl sm:text-5xl font-black text-white tracking-tight tabular-nums">
-                        {displayScore}
-                      </span>
-                      <span className="text-sm font-bold text-indigo-300">/ 100</span>
-                      <span className="text-xs text-emerald-400 font-bold ml-2 inline-flex items-center">
-                        <TrendingUp className="h-3.5 w-3.5 mr-1" /> On Track
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="hidden sm:block text-right relative z-10">
-                    <div className="text-[11px] text-indigo-300 font-semibold uppercase tracking-wider">Target Admission</div>
-                    <div className="text-base font-extrabold text-white">NISER &amp; CEBS 2027</div>
-                    <div className="text-xs text-emerald-400 font-bold mt-0.5">Top 5% Benchmark</div>
-                  </div>
-                </div>
-
-                {/* 2 Focused Subject Metric Bars */}
-                <div className="space-y-2.5 pt-1">
-                  <div className="flex items-center justify-between text-xs font-bold text-slate-700">
-                    <span>Subject Telemetry</span>
-                    <span className="text-slate-400 text-[11px] font-medium">Best-3 Evaluation</span>
-                  </div>
-
-                  <div className="space-y-2">
-                    <div className="p-3 rounded-xl bg-slate-50 border border-slate-100">
-                      <div className="flex items-center justify-between text-xs font-bold text-slate-800 mb-1.5">
-                        <span className="flex items-center gap-2">
-                          <span className="h-2 w-2 rounded-full bg-indigo-600" />
-                          Physics — Wave Optics &amp; Mechanics
-                        </span>
-                        <span className="font-mono text-indigo-600 font-black">82%</span>
-                      </div>
-                      <div className="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden">
-                        <motion.div
-                          initial={{ width: "0%" }}
-                          animate={isInView ? { width: "82%" } : { width: "0%" }}
-                          transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
-                          className="h-full bg-indigo-600 rounded-full"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="p-3 rounded-xl bg-slate-50 border border-slate-100">
-                      <div className="flex items-center justify-between text-xs font-bold text-slate-800 mb-1.5">
-                        <span className="flex items-center gap-2">
-                          <span className="h-2 w-2 rounded-full bg-rose-500" />
-                          Biology — Cell Biology &amp; Genetics
-                        </span>
-                        <span className="font-mono text-rose-600 font-black">69%</span>
-                      </div>
-                      <div className="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden">
-                        <motion.div
-                          initial={{ width: "0%" }}
-                          animate={isInView ? { width: "69%" } : { width: "0%" }}
-                          transition={{ duration: 1, delay: 0.55, ease: "easeOut" }}
-                          className="h-full bg-rose-500 rounded-full"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Priority Action Card */}
-                <div className="p-3.5 rounded-xl bg-indigo-50/70 border border-indigo-100/90 flex items-center justify-between text-xs">
-                  <div className="flex items-center gap-2.5">
-                    <div className="h-7 w-7 rounded-lg bg-indigo-600 text-white flex items-center justify-center shrink-0">
-                      <Target className="h-3.5 w-3.5" />
-                    </div>
-                    <div>
-                      <span className="text-[10px] uppercase font-bold text-indigo-600 block">Immediate Focus</span>
-                      <span className="font-bold text-slate-900">Solve 15 NEST Biology PYQs</span>
-                    </div>
-                  </div>
-                  <span className="text-[11px] font-bold text-indigo-700 bg-white px-2 py-0.5 rounded-md border border-indigo-200">
-                    +6 pts gain
-                  </span>
-                </div>
-
-              </div>
-
+              <Button
+                onClick={handleWatchRankers}
+                variant="outline"
+                size="xl"
+                className="bg-[#0F1222] hover:bg-[#161B33] text-slate-200 border-slate-800 hover:border-slate-700 text-sm sm:text-base font-semibold py-6 px-6 rounded-xl transition-all cursor-pointer flex items-center justify-center gap-2"
+              >
+                <Play className="h-4 w-4 text-indigo-400 fill-indigo-400/20" />
+                <span>Watch Ranker Insights</span>
+              </Button>
             </div>
 
-            {/* Subtle Floating Micro Badges */}
-            <motion.div
-              initial={{ opacity: 0, y: 15 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.5, delay: 0.7 }}
-              className="absolute -top-3 -right-2 sm:-right-4 bg-white border border-slate-200 shadow-md rounded-xl p-2.5 flex items-center gap-2 text-xs font-bold text-emerald-800"
-            >
-              <div className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
-              <span>+8% Physics Accuracy</span>
-            </motion.div>
+            {/* Bottom Stats Row */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6 border-t border-slate-800/80">
+              <div className="space-y-0.5">
+                <div className="flex items-center gap-1">
+                  <div className="flex text-amber-400">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="h-3.5 w-3.5 fill-amber-400" />
+                    ))}
+                  </div>
+                  <span className="text-sm font-black text-white ml-1">4.9/5</span>
+                </div>
+                <p className="text-[11px] text-slate-400">1,450+ Student Reviews</p>
+              </div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 15 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.5, delay: 0.85 }}
-              className="absolute -bottom-3 -left-2 sm:-left-4 bg-white border border-slate-200 shadow-md rounded-xl p-2.5 flex items-center gap-2 text-xs font-bold text-slate-800"
-            >
-              <Activity className="h-3.5 w-3.5 text-indigo-600" />
-              <span>180-Mark CBT Format</span>
-            </motion.div>
+              <div className="space-y-0.5">
+                <div className="text-lg font-black text-white">10,000+</div>
+                <p className="text-[11px] text-slate-400">Aspirants Practicing</p>
+              </div>
 
+              <div className="space-y-0.5">
+                <div className="text-lg font-black text-emerald-400">540+</div>
+                <p className="text-[11px] text-slate-400">IISER/NISER Selections</p>
+              </div>
+
+              <div className="space-y-0.5">
+                <div className="text-lg font-black text-cyan-400">24/7</div>
+                <p className="text-[11px] text-slate-400">AI Science Mentor</p>
+              </div>
+            </div>
           </motion.div>
 
+          {/* Right Column (Interactive Visual Telemetry Mockup) */}
+          <motion.div
+            initial={{ opacity: 0, x: 30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
+            className="lg:col-span-5 relative"
+          >
+            {/* Ambient Backlight Glow */}
+            <div className="absolute -inset-2 rounded-3xl bg-gradient-to-tr from-indigo-500/20 via-purple-500/15 to-cyan-500/15 blur-2xl pointer-events-none" />
+
+            <div className="relative space-y-3.5">
+              {/* Top Row: AI Mentor Card (Left) & Tanmay Sahoo Card (Right) */}
+              <div className="grid grid-cols-1 sm:grid-cols-12 gap-3.5">
+                {/* 24/7 AI Mentor Card (7 cols) */}
+                <div className="sm:col-span-7 rounded-2xl bg-[#0D1021]/95 border border-indigo-500/25 p-4 space-y-3 shadow-xl backdrop-blur-md">
+                  <div className="flex items-center justify-between">
+                    <span className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-cyan-500/10 border border-cyan-400/30 text-cyan-300 text-[10px] font-bold uppercase tracking-wider">
+                      <span className="h-1.5 w-1.5 rounded-full bg-cyan-400 animate-pulse" />
+                      24/7 AI MENTOR
+                    </span>
+                    <Bot className="h-4 w-4 text-indigo-400" />
+                  </div>
+
+                  <div className="text-xs font-semibold text-slate-200 bg-slate-900/80 p-2 rounded-lg border border-slate-800">
+                    &ldquo;Explain photo-electric effect cutoff frequency &amp; work function&rdquo;
+                  </div>
+
+                  <div className="p-2.5 rounded-lg bg-indigo-950/40 border border-indigo-500/20 space-y-1.5 text-[11px]">
+                    <div className="flex items-center gap-1 text-cyan-300 font-bold text-[10px]">
+                      <Sparkles className="h-3 w-3 text-cyan-400" /> Step-by-Step Logic:
+                    </div>
+                    <p className="font-mono text-slate-300 text-[11px] leading-tight">
+                      $E = h\nu = \Phi + K_{`{max}`}$. When $K_{`{max}`} = 0$, threshold frequency $\nu_0 = \Phi / h$.
+                    </p>
+                  </div>
+
+                  <div className="flex items-center justify-between text-[10px] pt-1 text-slate-400 border-t border-slate-800/80">
+                    <span>Instant Response Time</span>
+                    <span className="text-emerald-400 font-mono font-bold">&lt; 1.2 seconds</span>
+                  </div>
+                </div>
+
+                {/* Tanmay Sahoo Card (5 cols) */}
+                <div className="sm:col-span-5 rounded-2xl bg-[#0D1021]/95 border border-amber-500/25 p-4 space-y-2.5 shadow-xl backdrop-blur-md flex flex-col justify-between">
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <div className="h-7 w-7 rounded-lg bg-amber-500/20 text-amber-400 border border-amber-500/30 flex items-center justify-center">
+                        <Trophy className="h-3.5 w-3.5" />
+                      </div>
+                      <span className="px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 text-[10px] font-black uppercase">
+                        AIR 3 • NEST
+                      </span>
+                    </div>
+
+                    <div className="text-xs font-black text-white">Tanmay Sahoo</div>
+                    <div className="text-[10px] text-slate-400">NISER Bhubaneswar &apos;25</div>
+                  </div>
+
+                  <p className="text-[11px] text-slate-300 italic leading-relaxed border-l-2 border-amber-400/60 pl-2">
+                    &ldquo;SciPrep&apos;s CBT Mocks &amp; Smart Notes were identical to the real NEST...&rdquo;
+                  </p>
+                </div>
+              </div>
+
+              {/* Bottom Card: CBT MOCK ANALYTICS with Glowing Trajectory Chart */}
+              <div className="rounded-2xl bg-[#0D1021]/95 border border-slate-800 p-5 space-y-4 shadow-2xl backdrop-blur-md">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
+                      CBT MOCK ANALYTICS
+                    </span>
+                    <div className="flex items-center gap-2 mt-0.5">
+                      <span className="text-sm font-bold text-white">IAT Full Mock Progression</span>
+                      <span className="inline-flex items-center gap-0.5 px-2 py-0.5 rounded-full bg-emerald-500/20 border border-emerald-500/30 text-emerald-300 text-[10px] font-bold">
+                        <TrendingUp className="h-3 w-3" /> +104 Marks
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="text-right">
+                    <span className="text-[10px] text-slate-400 block">Target Score</span>
+                    <span className="text-sm font-black text-cyan-300">198 / 240</span>
+                  </div>
+                </div>
+
+                {/* Interactive Glowing Progression Chart */}
+                <div className="relative pt-2">
+                  <div className="h-36 w-full relative">
+                    {/* SVG Graphic with Gradient Fill and Glowing Lines */}
+                    <svg viewBox="0 0 400 130" className="w-full h-full overflow-visible">
+                      <defs>
+                        <linearGradient id="blueGlowArea" x1="0" y1="0" x2="0" y2="1">
+                          <stop offset="0%" stopColor="#38BDF8" stopOpacity="0.35" />
+                          <stop offset="100%" stopColor="#38BDF8" stopOpacity="0.0" />
+                        </linearGradient>
+                        <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                          <feGaussianBlur stdDeviation="3" result="blur" />
+                          <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                        </filter>
+                      </defs>
+
+                      {/* Horizontal Grid lines */}
+                      <line x1="30" y1="15" x2="385" y2="15" stroke="rgba(255,255,255,0.06)" strokeDasharray="3 3" />
+                      <line x1="30" y1="45" x2="385" y2="45" stroke="rgba(255,255,255,0.06)" strokeDasharray="3 3" />
+                      <line x1="30" y1="75" x2="385" y2="75" stroke="rgba(255,255,255,0.06)" strokeDasharray="3 3" />
+                      <line x1="30" y1="105" x2="385" y2="105" stroke="rgba(255,255,255,0.06)" strokeDasharray="3 3" />
+
+                      {/* Y-axis Labels */}
+                      <text x="5" y="18" fill="#64748B" fontSize="9" fontFamily="monospace">220</text>
+                      <text x="5" y="48" fill="#64748B" fontSize="9" fontFamily="monospace">180</text>
+                      <text x="5" y="78" fill="#64748B" fontSize="9" fontFamily="monospace">140</text>
+                      <text x="5" y="108" fill="#64748B" fontSize="9" fontFamily="monospace">100</text>
+
+                      {/* AIR 50 Benchmark Line (Dashed Cyan) */}
+                      <path
+                        d="M 40 45 C 100 42, 200 35, 380 20"
+                        fill="none"
+                        stroke="#06B6D4"
+                        strokeWidth="1.5"
+                        strokeDasharray="4 4"
+                        opacity="0.7"
+                      />
+
+                      {/* User Trajectory Gradient Fill Area */}
+                      <path
+                        d="M 40 108 C 100 95, 180 75, 260 50 C 320 32, 360 22, 380 18 L 380 120 L 40 120 Z"
+                        fill="url(#blueGlowArea)"
+                      />
+
+                      {/* User Trajectory Glowing Line */}
+                      <path
+                        d="M 40 108 C 100 95, 180 75, 260 50 C 320 32, 360 22, 380 18"
+                        fill="none"
+                        stroke="#38BDF8"
+                        strokeWidth="3"
+                        filter="url(#glow)"
+                      />
+
+                      {/* Target point indicator */}
+                      <circle cx="380" cy="18" r="4.5" fill="#38BDF8" className="animate-ping opacity-75" />
+                      <circle cx="380" cy="18" r="3.5" fill="#FFFFFF" stroke="#0284C7" strokeWidth="2" />
+                    </svg>
+
+                    {/* X-axis Labels */}
+                    <div className="flex justify-between px-7 text-[10px] font-mono text-slate-400 mt-1">
+                      <span>W1</span>
+                      <span>W3</span>
+                      <span>W5</span>
+                      <span>W7</span>
+                      <span>W9</span>
+                      <span>W12</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Footer / Legend and Diagnostic Action */}
+                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 pt-2 border-t border-slate-800 text-[11px]">
+                  <div className="flex items-center gap-3">
+                    <span className="flex items-center gap-1.5 text-slate-300 font-medium">
+                      <span className="h-2 w-2 rounded-full bg-[#38BDF8] shadow-[0_0_6px_#38bdf8]" />
+                      Your Trajectory
+                    </span>
+                    <span className="flex items-center gap-1.5 text-slate-400 font-medium">
+                      <span className="h-2 w-2 rounded-full border border-dashed border-cyan-400" />
+                      AIR 50 Benchmark
+                    </span>
+                  </div>
+
+                  <button
+                    onClick={onOpenAssessment}
+                    className="inline-flex items-center gap-1 text-cyan-300 hover:text-cyan-200 font-bold transition-colors cursor-pointer"
+                  >
+                    <span>Take Free Diagnostic CBT Mock</span>
+                    <ArrowRight className="h-3 w-3" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </motion.div>
         </div>
       </div>
     </section>

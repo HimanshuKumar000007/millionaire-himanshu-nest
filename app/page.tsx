@@ -6,16 +6,10 @@ import { AnnouncementBanner } from "@/components/shared/AnnouncementBanner";
 import { Navbar } from "@/components/homepage/Navbar";
 import { Hero } from "@/components/homepage/Hero";
 import { TrustStrip } from "@/components/homepage/TrustStrip";
-import { ProblemSection } from "@/components/homepage/ProblemSection";
-import { PreparationSystem } from "@/components/homepage/PreparationSystem";
-import { ReadinessSection } from "@/components/homepage/ReadinessSection";
-import { SmartLessonsSection } from "@/components/homepage/SmartLessonsSection";
-import { PYQSection } from "@/components/homepage/PYQSection";
-import { MockTestSection } from "@/components/homepage/MockTestSection";
-import { PerformanceSection } from "@/components/homepage/PerformanceSection";
-import { RoadmapSection } from "@/components/homepage/RoadmapSection";
-import { WhySmartPrep } from "@/components/homepage/WhySmartPrep";
-import { FinalCTA } from "@/components/homepage/FinalCTA";
+import { PrecisionAdvantage } from "@/components/homepage/PrecisionAdvantage";
+import { ProgramsPricingSection } from "@/components/homepage/ProgramsPricingSection";
+import { HallOfFameSection } from "@/components/homepage/HallOfFameSection";
+import { FAQSection } from "@/components/homepage/FAQSection";
 import { Footer } from "@/components/homepage/Footer";
 import { getToken } from "@/lib/auth/authGuard";
 
@@ -48,9 +42,9 @@ export default function HomePage() {
   const handleOpenAssessment = () => {
     const token = getToken();
     if (token) {
-      router.push("/dashboard");
+      router.push("/assessment");
     } else {
-      router.push("/login?mode=signup&redirect=%2Fdashboard");
+      router.push("/login?mode=signup&redirect=%2Fassessment");
     }
   };
 
@@ -63,42 +57,72 @@ export default function HomePage() {
     }
   };
 
+  const handleEnrollNow = () => {
+    const el = document.getElementById("study-programs");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    } else {
+      handleOpenAssessment();
+    }
+  };
+
   if (isCheckingAuth) {
     return (
-      <div className="min-h-screen bg-[#F8FAFC] flex items-center justify-center">
+      <div className="min-h-screen bg-[#07080F] flex items-center justify-center">
         <div className="flex flex-col items-center gap-3">
-          <div className="h-8 w-8 rounded-full border-2 border-[#4F46E5] border-t-transparent animate-spin" />
-          <p className="text-xs text-gray-400 font-medium">Loading SciPrep…</p>
+          <div className="h-8 w-8 rounded-full border-2 border-indigo-500 border-t-transparent animate-spin" />
+          <p className="text-xs text-slate-400 font-medium font-mono">Loading SciPrep Academy…</p>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#F7F8FC] text-[#111827]">
-      {/* Top Announcement Bar */}
-      <AnnouncementBanner onOpenAssessment={handleOpenAssessment} />
+    <div className="min-h-screen flex flex-col bg-[#07080F] text-slate-100 selection:bg-indigo-500/30 selection:text-white">
+      {/* 1. Top Announcement Bar */}
+      <AnnouncementBanner onOpenAssessment={handleEnrollNow} onGetAccess={handleEnrollNow} />
 
-      {/* Sticky Navbar */}
-      <Navbar onOpenAssessment={handleOpenAssessment} onOpenLogin={handleOpenLogin} />
+      {/* 2. Sticky Navbar */}
+      <Navbar
+        onOpenAssessment={handleOpenAssessment}
+        onOpenLogin={handleOpenLogin}
+        onEnrollNow={handleEnrollNow}
+      />
 
-      {/* Main Flow */}
+      {/* 3. Main Landing Flow */}
       <main className="flex-1">
-        <Hero onOpenAssessment={handleOpenAssessment} />
+        {/* Section 1: Hero with 24/7 AI Mentor, AIR 3 Card & IAT Mock Progression Chart */}
+        <Hero
+          onOpenAssessment={handleOpenAssessment}
+          onWatchInsights={() => {
+            const el = document.getElementById("hall-of-fame");
+            if (el) el.scrollIntoView({ behavior: "smooth" });
+          }}
+        />
+
+        {/* Section 2: Gateway to India's Elite Scientific Institutions Marquee Strip */}
         <TrustStrip />
-        <ProblemSection />
-        <PreparationSystem />
-        <ReadinessSection onOpenAssessment={handleOpenAssessment} />
-        <SmartLessonsSection onOpenAssessment={handleOpenAssessment} />
-        <PYQSection onOpenAssessment={handleOpenAssessment} />
-        <MockTestSection onOpenAssessment={handleOpenAssessment} />
-        <PerformanceSection onOpenAssessment={handleOpenAssessment} />
-        <RoadmapSection onOpenAssessment={handleOpenAssessment} />
-        <WhySmartPrep />
-        <FinalCTA onOpenAssessment={handleOpenAssessment} />
+
+        {/* Section 3: The SciPrep Precision Advantage (Head-to-Head + 6 Feature Cards) */}
+        <PrecisionAdvantage
+          onOpenAssessment={handleOpenAssessment}
+          onExploreDemo={handleOpenAssessment}
+        />
+
+        {/* Section 4: Study Material Engineered for Science Ranks (Pricing & Programs) */}
+        <ProgramsPricingSection
+          onOpenAssessment={handleOpenAssessment}
+          onSelectPlan={handleEnrollNow}
+        />
+
+        {/* Section 5: Hall of Fame (Selection Ratio & Verified Rankers) */}
+        <HallOfFameSection />
+
+        {/* Section 6: FAQ Section */}
+        <FAQSection />
       </main>
 
-      {/* Footer */}
+      {/* 4. Footer */}
       <Footer />
     </div>
   );
