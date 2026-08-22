@@ -5,11 +5,11 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Sparkles, CheckCircle2, Flame, UserCheck } from 'lucide-react';
 
 const notifications = [
-  { name: 'Aditya K.', city: 'Cuttack', action: 'enrolled in NEST 2026 Complete Suite', time: '2m ago' },
-  { name: 'Shreya M.', city: 'Kolkata', action: 'cleared Biology SMAS Cutoff on CBT Mock 4', time: '4m ago' },
-  { name: 'Rohan P.', city: 'Bhubaneswar', action: 'scored 162/180 on NEST Full CBT Mock', time: '7m ago' },
-  { name: 'Megha S.', city: 'Mumbai', action: 'downloaded 15-Year Solved NEST PYQ Vault', time: '11m ago' },
-  { name: 'Kabir V.', city: 'Jaipur', action: 'joined NEST All-India Test Series (AITS)', time: '14m ago' },
+  { name: 'Aditya K.', city: 'Pune', action: 'enrolled in IAT 2026 Achievers Batch', time: '2m ago' },
+  { name: 'Shreya M.', city: 'Kolkata', action: 'booked Free 1-on-1 Academic Counseling', time: '4m ago' },
+  { name: 'Rohan P.', city: 'Bhubaneswar', action: 'scored 94% on Science Diagnostic Mock', time: '7m ago' },
+  { name: 'Megha S.', city: 'Bengaluru', action: 'enrolled in NEST Super-30 Intensive', time: '11m ago' },
+  { name: 'Kabir V.', city: 'Jaipur', action: 'joined All-India Test Series (AITS)', time: '14m ago' },
 ];
 
 export function LiveNotificationToast() {

@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
 import { motion, AnimatePresence } from 'motion/react';
 import {
   Atom,
@@ -17,9 +16,7 @@ import {
   PhoneCall,
   GraduationCap,
   ArrowRight,
-  Flame,
-  LogIn,
-  UserPlus
+  Flame
 } from 'lucide-react';
 
 interface NavbarProps {
@@ -41,7 +38,7 @@ export function Navbar({ onOpenEnroll, onOpenTrial }: NavbarProps) {
   }, []);
 
   const navLinks = [
-    { name: 'Study Packages', href: '#pricing', hasDropdown: true },
+    { name: 'Courses', href: '#courses', hasDropdown: true },
     { name: 'Why SciPrep', href: '#why-us' },
     { name: 'Results (AIR)', href: '#results' },
     { name: 'Platform', href: '#platform' },
@@ -52,32 +49,32 @@ export function Navbar({ onOpenEnroll, onOpenTrial }: NavbarProps) {
 
   const courseList = [
     {
-      title: 'NEST 2026 Complete Prep Suite',
-      subtitle: 'Smart Notes, 80+ CBT Mocks & 24/7 AI Mentor',
+      title: 'IAT 2026 Complete Prep Suite',
+      subtitle: 'Smart Notes, CBT Mocks & 24/7 AI Mentor',
       badge: 'Bestseller',
       badgeColor: 'bg-amber-500/20 text-amber-300 border-amber-500/30',
-      href: '#pricing',
+      href: '#courses',
     },
     {
-      title: 'NEST All-India CBT Test Series',
-      subtitle: '35 Full Mocks, Quick Sprints & SMAS Analytics',
+      title: 'NEST 2026 CBT & PYQ Pack',
+      subtitle: 'NISER & CEBS Mocks, Smart Notes & AI Mentor',
       badge: 'Popular',
       badgeColor: 'bg-cyan-500/20 text-cyan-300 border-cyan-500/30',
-      href: '#pricing',
+      href: '#courses',
     },
     {
-      title: 'NEST Smart Notes & 15-Yr PYQs',
-      subtitle: 'PCMB Mindmaps & Solved Previous Year Vault',
-      badge: 'High Yield',
-      badgeColor: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30',
-      href: '#pricing',
-    },
-    {
-      title: '24/7 AI Science Mentor Pro',
-      subtitle: 'Instant Doubt Solving & SMAS Cutoff Diagnostics',
-      badge: 'AI Powered',
+      title: 'ISI & CMI Math PYQ & Mocks',
+      subtitle: 'Proof-writing notes & Olympiad chapter tests',
+      badge: 'Specialized',
       badgeColor: 'bg-purple-500/20 text-purple-300 border-purple-500/30',
-      href: '#pricing',
+      href: '#courses',
+    },
+    {
+      title: 'All-India CBT Test Series (AITS)',
+      subtitle: 'Full Mocks, Quick Sprints & Chapter Tests',
+      badge: '150+ Mocks',
+      badgeColor: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30',
+      href: '#courses',
     },
   ];
 
@@ -85,27 +82,20 @@ export function Navbar({ onOpenEnroll, onOpenTrial }: NavbarProps) {
     <>
       {/* Top Batch Alert Bar */}
       <div className="bg-gradient-to-r from-indigo-950/80 via-purple-950/80 to-slate-950 border-b border-indigo-500/20 text-xs py-2 px-4 text-center relative z-50">
-        <div className="max-w-7xl mx-auto flex items-center justify-center gap-2.5 flex-wrap text-slate-300">
+        <div className="max-w-7xl mx-auto flex items-center justify-center gap-2 flex-wrap text-slate-300">
           <span className="inline-flex items-center gap-1 bg-indigo-500/20 text-indigo-300 font-semibold px-2 py-0.5 rounded-full border border-indigo-500/30 text-[11px]">
             <Flame className="w-3 h-3 text-amber-400 fill-amber-400" /> New Batch Alert
           </span>
           <span className="font-medium text-slate-200">
-            NEST 2026/2027 Smart Notes, CBT Mocks & 24/7 AI Mentor are <strong className="text-white font-bold">Live</strong>.
+            IAT & NEST 2026 Smart Notes, CBT Mocks & 24/7 AI Mentor are <strong className="text-white font-bold">Live</strong>.
           </span>
           <span className="hidden sm:inline text-indigo-300 font-semibold">• Instant Access Available</span>
-          <Link
-            href="/signup"
+          <button
+            onClick={() => onOpenEnroll('IAT 2026 Complete Prep Suite')}
             className="text-indigo-400 hover:text-indigo-200 underline font-semibold ml-1 cursor-pointer transition-colors inline-flex items-center gap-0.5"
           >
-            Create Free Account <ArrowRight className="w-3 h-3 inline" />
-          </Link>
-          <span className="text-slate-500 hidden md:inline">|</span>
-          <Link
-            href="/login"
-            className="text-slate-300 hover:text-white font-semibold transition-colors hidden md:inline-flex items-center gap-1"
-          >
-            <LogIn className="w-3 h-3 text-indigo-400" /> Student Login
-          </Link>
+            Get Instant Access <ArrowRight className="w-3 h-3 inline" />
+          </button>
         </div>
       </div>
 
@@ -131,11 +121,11 @@ export function Navbar({ onOpenEnroll, onOpenTrial }: NavbarProps) {
                   SciPrep
                 </span>
                 <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
-                  NEST
+                  Academy
                 </span>
               </div>
               <span className="text-[10px] text-slate-400 tracking-wide -mt-0.5">
-                NISER Bhubaneswar • UM-DAE CEBS Mumbai
+                IISER • NEST • ISI • CMI
               </span>
             </div>
           </a>
@@ -228,49 +218,35 @@ export function Navbar({ onOpenEnroll, onOpenTrial }: NavbarProps) {
           </nav>
 
           {/* Right Action CTAs */}
-          <div className="hidden sm:flex items-center gap-2.5">
-            <Link
-              href="/login"
-              className="px-3.5 py-2 text-xs sm:text-sm font-semibold text-slate-300 hover:text-white hover:bg-white/5 rounded-xl transition-all border border-transparent hover:border-white/10 flex items-center gap-1.5"
+          <div className="hidden sm:flex items-center gap-3">
+            <button
+              onClick={onOpenTrial}
+              className="px-4 py-2 text-sm font-medium text-slate-200 hover:text-white hover:bg-white/5 rounded-xl transition-all border border-transparent hover:border-white/10 cursor-pointer flex items-center gap-1.5"
             >
-              <LogIn className="w-4 h-4 text-indigo-400" />
-              <span>Log In</span>
-            </Link>
-
-            <Link
-              href="/signup"
-              className="relative group overflow-hidden rounded-xl p-[1px] font-semibold text-xs sm:text-sm shadow-lg shadow-indigo-500/20 active:scale-[0.98] transition-transform"
-            >
-              <span className="absolute inset-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-500 group-hover:opacity-100 transition-opacity"></span>
-              <span className="relative flex items-center gap-1.5 px-3.5 py-2 rounded-[11px] bg-[#0E0E17] group-hover:bg-opacity-80 text-white transition-all">
-                <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
-                <span>Sign Up Free</span>
-                <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
-              </span>
-            </Link>
+              <Sparkles className="w-4 h-4 text-cyan-400" />
+              <span>Free Diagnostic</span>
+            </button>
 
             <button
               onClick={() => onOpenEnroll()}
-              className="px-3.5 py-2 text-xs font-semibold rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white transition-all shadow-md shadow-indigo-600/25 cursor-pointer"
+              className="relative group overflow-hidden rounded-xl p-[1px] font-semibold text-sm cursor-pointer shadow-lg shadow-indigo-500/20 active:scale-[0.98] transition-transform"
             >
-              Enroll
+              <span className="absolute inset-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-500 group-hover:opacity-100 transition-opacity"></span>
+              <span className="relative flex items-center gap-1.5 px-4 py-2 rounded-[11px] bg-[#0E0E17] group-hover:bg-opacity-80 text-white transition-all">
+                <span>Enroll Now</span>
+                <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+              </span>
             </button>
           </div>
 
           {/* Mobile Hamburger Button */}
           <div className="flex lg:hidden items-center gap-2">
-            <Link
-              href="/login"
-              className="px-3 py-1.5 text-xs font-semibold rounded-lg bg-white/10 text-white border border-white/10"
+            <button
+              onClick={() => onOpenEnroll()}
+              className="px-3 py-1.5 text-xs font-semibold rounded-lg bg-indigo-600 text-white sm:hidden"
             >
-              Log In
-            </Link>
-            <Link
-              href="/signup"
-              className="px-3 py-1.5 text-xs font-semibold rounded-lg bg-indigo-600 text-white"
-            >
-              Sign Up
-            </Link>
+              Enroll
+            </button>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="p-2 rounded-xl text-slate-300 hover:text-white hover:bg-white/5 transition-colors border border-white/5"
@@ -320,31 +296,25 @@ export function Navbar({ onOpenEnroll, onOpenTrial }: NavbarProps) {
                 </div>
 
                 <div className="pt-3 flex flex-col gap-2.5">
-                  <Link
-                    href="/login"
-                    onClick={() => setMobileMenuOpen(false)}
+                  <button
+                    onClick={() => {
+                      setMobileMenuOpen(false);
+                      onOpenTrial();
+                    }}
                     className="w-full py-2.5 rounded-xl border border-white/10 bg-white/5 text-sm font-semibold text-white flex items-center justify-center gap-2"
                   >
-                    <LogIn className="w-4 h-4 text-indigo-400" />
-                    <span>Log In to Student Portal</span>
-                  </Link>
-                  <Link
-                    href="/signup"
-                    onClick={() => setMobileMenuOpen(false)}
-                    className="w-full py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 via-purple-600 to-cyan-600 text-sm font-semibold text-white shadow-lg shadow-indigo-500/25 flex items-center justify-center gap-2"
-                  >
-                    <UserPlus className="w-4 h-4" />
-                    <span>Create Free Account / Sign Up</span>
-                    <ArrowRight className="w-4 h-4" />
-                  </Link>
+                    <Sparkles className="w-4 h-4 text-cyan-400" />
+                    Take Free Diagnostic Test
+                  </button>
                   <button
                     onClick={() => {
                       setMobileMenuOpen(false);
                       onOpenEnroll();
                     }}
-                    className="w-full py-2 text-xs font-semibold text-slate-400 hover:text-white transition-colors"
+                    className="w-full py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 via-purple-600 to-cyan-600 text-sm font-semibold text-white shadow-lg shadow-indigo-500/25 flex items-center justify-center gap-2"
                   >
-                    View All Batch Pricing &amp; Plans →
+                    Enroll in 2026 Batches
+                    <ArrowRight className="w-4 h-4" />
                   </button>
                 </div>
               </div>

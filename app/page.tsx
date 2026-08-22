@@ -1,120 +1,105 @@
-'use client';
+"use client";
 
-import React, { useState } from 'react';
-import { Navbar } from '@/components/Navbar';
-import { Hero } from '@/components/Hero';
-import { TrustedBy } from '@/components/TrustedBy';
-import { WhyChooseUs } from '@/components/WhyChooseUs';
-import { Results } from '@/components/Results';
-import { PlatformPreview } from '@/components/PlatformPreview';
-import { DiagnosticQuiz } from '@/components/DiagnosticQuiz';
-import { Pricing } from '@/components/Pricing';
-import { FAQ } from '@/components/FAQ';
-import { FinalCTA } from '@/components/FinalCTA';
-import { Footer } from '@/components/Footer';
-import { TrialModal, VideoModal, EnrollModal } from '@/components/Modals';
-import { LiveNotificationToast } from '@/components/LiveNotificationToast';
+import * as React from "react";
+import { useRouter } from "next/navigation";
+import { AnnouncementBanner } from "@/components/shared/AnnouncementBanner";
+import { Navbar } from "@/components/homepage/Navbar";
+import { Hero } from "@/components/homepage/Hero";
+import { TrustStrip } from "@/components/homepage/TrustStrip";
+import { ProblemSection } from "@/components/homepage/ProblemSection";
+import { PreparationSystem } from "@/components/homepage/PreparationSystem";
+import { ReadinessSection } from "@/components/homepage/ReadinessSection";
+import { SmartLessonsSection } from "@/components/homepage/SmartLessonsSection";
+import { PYQSection } from "@/components/homepage/PYQSection";
+import { MockTestSection } from "@/components/homepage/MockTestSection";
+import { PerformanceSection } from "@/components/homepage/PerformanceSection";
+import { RoadmapSection } from "@/components/homepage/RoadmapSection";
+import { WhySmartPrep } from "@/components/homepage/WhySmartPrep";
+import { FinalCTA } from "@/components/homepage/FinalCTA";
+import { Footer } from "@/components/homepage/Footer";
+import { getToken } from "@/lib/auth/authGuard";
 
 export default function HomePage() {
-  const [trialOpen, setTrialOpen] = useState(false);
-  const [videoOpen, setVideoOpen] = useState(false);
-  const [enrollOpen, setEnrollOpen] = useState(false);
-  const [selectedCourse, setSelectedCourse] = useState('NEST 2026 Complete Prep Suite');
+  const router = useRouter();
+  const [isCheckingAuth, setIsCheckingAuth] = React.useState(true);
 
-  const handleOpenEnroll = (courseName?: string) => {
-    if (courseName) {
-      setSelectedCourse(courseName);
+  // Auto-redirect to dashboard if user is already logged in
+  React.useEffect(() => {
+    const checkAndRedirect = () => {
+      const token = getToken();
+      if (token) {
+        window.location.replace("/dashboard");
+        return;
+      }
+      setIsCheckingAuth(false);
+    };
+
+    checkAndRedirect();
+
+    // Listen for Back/Forward cache navigation
+    const handlePageShow = () => {
+      checkAndRedirect();
+    };
+
+    window.addEventListener("pageshow", handlePageShow);
+    return () => window.removeEventListener("pageshow", handlePageShow);
+  }, []);
+
+  const handleOpenAssessment = () => {
+    const token = getToken();
+    if (token) {
+      router.push("/dashboard");
+    } else {
+      router.push("/login?mode=signup&redirect=%2Fdashboard");
     }
-    setEnrollOpen(true);
   };
 
-  const handleOpenTrial = () => {
-    setTrialOpen(true);
+  const handleOpenLogin = () => {
+    const token = getToken();
+    if (token) {
+      router.push("/dashboard");
+    } else {
+      router.push("/login");
+    }
   };
 
-  const handleOpenVideo = () => {
-    setVideoOpen(true);
-  };
+  if (isCheckingAuth) {
+    return (
+      <div className="min-h-screen bg-[#F8FAFC] flex items-center justify-center">
+        <div className="flex flex-col items-center gap-3">
+          <div className="h-8 w-8 rounded-full border-2 border-[#4F46E5] border-t-transparent animate-spin" />
+          <p className="text-xs text-gray-400 font-medium">Loading SciPrep…</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
-    <div className="min-h-screen bg-[#0A0A0F] text-[#F8FAFC] overflow-x-hidden selection:bg-indigo-500/30 selection:text-indigo-200">
-      {/* Sticky Top Navigation */}
-      <Navbar
-        onOpenEnroll={handleOpenEnroll}
-        onOpenTrial={handleOpenTrial}
-      />
+    <div className="min-h-screen flex flex-col bg-[#F7F8FC] text-[#111827]">
+      {/* Top Announcement Bar */}
+      <AnnouncementBanner onOpenAssessment={handleOpenAssessment} />
 
-      {/* Hero Section */}
-      <Hero
-        onOpenTrial={handleOpenTrial}
-        onOpenVideo={handleOpenVideo}
-        onOpenEnroll={handleOpenEnroll}
-      />
+      {/* Sticky Navbar */}
+      <Navbar onOpenAssessment={handleOpenAssessment} onOpenLogin={handleOpenLogin} />
 
-      {/* Marquee: Target Science Institutes */}
-      <TrustedBy />
+      {/* Main Flow */}
+      <main className="flex-1">
+        <Hero onOpenAssessment={handleOpenAssessment} />
+        <TrustStrip />
+        <ProblemSection />
+        <PreparationSystem />
+        <ReadinessSection onOpenAssessment={handleOpenAssessment} />
+        <SmartLessonsSection onOpenAssessment={handleOpenAssessment} />
+        <PYQSection onOpenAssessment={handleOpenAssessment} />
+        <MockTestSection onOpenAssessment={handleOpenAssessment} />
+        <PerformanceSection onOpenAssessment={handleOpenAssessment} />
+        <RoadmapSection onOpenAssessment={handleOpenAssessment} />
+        <WhySmartPrep />
+        <FinalCTA onOpenAssessment={handleOpenAssessment} />
+      </main>
 
-      {/* Why Choose SciPrep (Split View) */}
-      <WhyChooseUs
-        onOpenTrial={handleOpenTrial}
-        onOpenEnroll={() => handleOpenEnroll()}
-      />
-
-      {/* Results, AIR Ranks & Wall of Fame */}
-      <Results
-        onOpenVideo={handleOpenVideo}
-        onOpenEnroll={() => handleOpenEnroll()}
-      />
-
-      {/* Interactive Command Center & Learning Platform Simulation */}
-      <PlatformPreview />
-
-      {/* Instant Science Diagnostic Assessment Quiz */}
-      <DiagnosticQuiz
-        onOpenEnroll={() => handleOpenEnroll()}
-        onOpenTrial={handleOpenTrial}
-      />
-
-      {/* 3-Tier Transparent Pricing */}
-      <Pricing
-        onOpenEnroll={handleOpenEnroll}
-        onOpenTrial={handleOpenTrial}
-      />
-
-      {/* Accordion FAQ with Filter */}
-      <FAQ onOpenTrial={handleOpenTrial} />
-
-      {/* Final Immersive Batch Countdown CTA */}
-      <FinalCTA
-        onOpenTrial={handleOpenTrial}
-        onOpenEnroll={() => handleOpenEnroll()}
-      />
-
-      {/* Comprehensive Footer */}
-      <Footer
-        onOpenTrial={handleOpenTrial}
-        onOpenEnroll={handleOpenEnroll}
-      />
-
-      {/* Modals */}
-      <TrialModal
-        isOpen={trialOpen}
-        onClose={() => setTrialOpen(false)}
-      />
-
-      <VideoModal
-        isOpen={videoOpen}
-        onClose={() => setVideoOpen(false)}
-      />
-
-      <EnrollModal
-        isOpen={enrollOpen}
-        courseName={selectedCourse}
-        onClose={() => setEnrollOpen(false)}
-      />
-
-      {/* Subtle Live Toast Notifications */}
-      <LiveNotificationToast />
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }

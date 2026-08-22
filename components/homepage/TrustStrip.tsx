@@ -1,151 +1,120 @@
 "use client";
 
 import * as React from "react";
-import { Crown } from "lucide-react";
+import { useRef } from "react";
+import { useInView } from "motion/react";
 
-interface Institution {
-  name: string;
-  exam: string;
-  sub: string;
-  initials: string;
-  avatarBg: string;
-  badgeStyle: string;
-}
-
-const institutions: Institution[] = [
-  {
-    name: "IISc Bangalore",
-    exam: "IAT",
-    sub: "Rank #1 University in India • Bengaluru",
-    initials: "IIS",
-    avatarBg: "bg-amber-500/20 text-amber-300 border-amber-500/30",
-    badgeStyle: "bg-amber-500/15 text-amber-300 border-amber-500/30",
-  },
-  {
-    name: "IISER Pune",
-    exam: "IAT (IISER Aptitude Test)",
-    sub: "Premier Research Hub • Pune",
-    initials: "IP",
-    avatarBg: "bg-indigo-500/20 text-indigo-300 border-indigo-500/30",
-    badgeStyle: "bg-indigo-500/15 text-indigo-300 border-indigo-500/30",
-  },
-  {
-    name: "NISER Bhubaneswar",
-    exam: "NEST Entrance Exam",
-    sub: "Dept. of Atomic Energy • Bhubaneswar",
-    initials: "NIS",
-    avatarBg: "bg-teal-500/20 text-teal-300 border-teal-500/30",
-    badgeStyle: "bg-teal-500/15 text-teal-300 border-teal-500/30",
-  },
-  {
-    name: "ISI Kolkata",
-    exam: "ISI Entrance Exam",
-    sub: "Global Mecca for Pure Math & Stats • Kolkata",
-    initials: "ISI",
-    avatarBg: "bg-purple-500/20 text-purple-300 border-purple-500/30",
-    badgeStyle: "bg-purple-500/15 text-purple-300 border-purple-500/30",
-  },
-  {
-    name: "CMI Chennai",
-    exam: "CMI Entrance Exam",
-    sub: "Center of Mathematical & CS • Chennai",
-    initials: "CMI",
-    avatarBg: "bg-emerald-500/20 text-emerald-300 border-emerald-500/30",
-    badgeStyle: "bg-emerald-500/15 text-emerald-300 border-emerald-500/30",
-  },
-  {
-    name: "IISER Kolkata",
-    exam: "IAT (IISER Aptitude Test)",
-    sub: "Pioneering Center of Biological Sciences • Kolkata",
-    initials: "IK",
-    avatarBg: "bg-blue-500/20 text-blue-300 border-blue-500/30",
-    badgeStyle: "bg-blue-500/15 text-blue-300 border-blue-500/30",
-  },
-  {
-    name: "UM-DAE CEBS Mumbai",
-    exam: "NEST Entrance Exam",
-    sub: "Atomic Energy Centre • Mumbai",
-    initials: "CEB",
-    avatarBg: "bg-rose-500/20 text-rose-300 border-rose-500/30",
-    badgeStyle: "bg-rose-500/15 text-rose-300 border-rose-500/30",
-  },
-  {
-    name: "IISER Mohali",
-    exam: "IAT Exam",
-    sub: "Quantum & Biophysics Hub • Mohali",
-    initials: "IM",
-    avatarBg: "bg-sky-500/20 text-sky-300 border-sky-500/30",
-    badgeStyle: "bg-sky-500/15 text-sky-300 border-sky-500/30",
-  },
-  {
-    name: "IISER Bhopal",
-    exam: "IAT Exam",
-    sub: "Only IISER with Engineering Sciences • Bhopal",
-    initials: "IB",
-    avatarBg: "bg-violet-500/20 text-violet-300 border-violet-500/30",
-    badgeStyle: "bg-violet-500/15 text-violet-300 border-violet-500/30",
-  },
-  {
-    name: "IISER TVM",
-    exam: "IAT Exam",
-    sub: "Ecology & Materials Science • Thiruvananthapuram",
-    initials: "IT",
-    avatarBg: "bg-teal-500/20 text-teal-300 border-teal-500/30",
-    badgeStyle: "bg-teal-500/15 text-teal-300 border-teal-500/30",
-  },
+const stats = [
+  { number: "2,400+", label: "NEST Aspirants", sub: "actively preparing" },
+  { number: "8 Years", label: "PYQ Coverage", sub: "2018 through 2025" },
+  { number: "9", label: "Subject Masterclasses", sub: "Physics · Chem · Bio · Math" },
+  { number: "180", label: "Mark Simulation", sub: "full CBT-format mock tests" },
 ];
 
+const ticker = [
+  "NEST-Focused Preparation",
+  "Physics",
+  "Chemistry",
+  "Biology",
+  "Mathematics",
+  "PYQ Practice",
+  "Mock Tests",
+  "SMAS Analytics",
+  "NISER Bhubaneswar",
+  "UM-DAE CEBS Mumbai",
+];
+
+function StatCounter({ to, suffix = "", prefix = "" }: { to: number; suffix?: string; prefix?: string }) {
+  const [val, setVal] = React.useState(0);
+  const ref = React.useRef(null);
+  const isInView = useInView(ref, { once: true });
+
+  React.useEffect(() => {
+    if (!isInView) return;
+    let start = 0;
+    const duration = 1400;
+    const startTime = performance.now();
+    const animate = (currentTime: number) => {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const easeProgress = 1 - Math.pow(1 - progress, 3);
+      setVal(Math.floor(easeProgress * to));
+      if (progress < 1) requestAnimationFrame(animate);
+    };
+    requestAnimationFrame(animate);
+  }, [isInView, to]);
+
+  return <span ref={ref}>{prefix}{val.toLocaleString()}{suffix}</span>;
+}
+
 export function TrustStrip() {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-60px" });
+
   return (
-    <section className="bg-[#080911] border-y border-slate-800/80 py-8 overflow-hidden relative">
-      {/* Background Subtle Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-r from-indigo-950/20 via-slate-900/10 to-purple-950/20 pointer-events-none" />
+    <section ref={ref} className="bg-slate-950 text-white py-12 sm:py-16 overflow-hidden relative">
+      <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "linear-gradient(rgba(255,255,255,.5) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.5) 1px,transparent 1px)", backgroundSize: "40px 40px" }} />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-24 bg-indigo-600/12 blur-3xl pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center mb-6">
-        <div className="inline-flex items-center gap-1.5 text-xs font-extrabold uppercase tracking-widest text-indigo-400 mb-1.5">
-          <Crown className="h-3.5 w-3.5 text-amber-400 fill-amber-400/20" />
-          <span>GATEWAY TO INDIA&apos;S ELITE SCIENTIFIC INSTITUTIONS</span>
-        </div>
-        <p className="text-xs sm:text-sm text-slate-400 max-w-2xl mx-auto font-normal">
-          Our curriculum is engineered strictly for admissions into premier research universities across India
-        </p>
-      </div>
-
-      {/* Infinite Scrolling Marquee */}
-      <div className="relative overflow-hidden w-full">
-        {/* Left and Right Fade Gradients */}
-        <div className="absolute inset-y-0 left-0 w-24 sm:w-36 bg-gradient-to-r from-[#080911] to-transparent z-10 pointer-events-none" />
-        <div className="absolute inset-y-0 right-0 w-24 sm:w-36 bg-gradient-to-l from-[#080911] to-transparent z-10 pointer-events-none" />
-
-        <div className="flex animate-marquee hover:[animation-play-state:paused] whitespace-nowrap">
-          {[...institutions, ...institutions].map((item, idx) => (
-            <div
-              key={`${item.name}-${idx}`}
-              className="inline-flex items-center gap-3 bg-[#0E1120] border border-slate-800/90 hover:border-indigo-500/40 px-4 py-3 rounded-xl mx-2 shadow-sm transition-all hover:bg-[#13172C] cursor-default shrink-0"
-            >
-              {/* Avatar Initials Badge */}
-              <div
-                className={`h-8 w-8 rounded-lg flex items-center justify-center font-black text-xs border ${item.avatarBg}`}
-              >
-                {item.initials}
-              </div>
-
-              {/* Institution Info */}
-              <div className="text-left">
-                <div className="flex items-center gap-2">
-                  <span className="text-xs font-bold text-white">{item.name}</span>
-                  <span
-                    className={`px-1.5 py-0.5 rounded text-[9px] font-bold border ${item.badgeStyle}`}
-                  >
-                    {item.exam}
-                  </span>
-                </div>
-                <div className="text-[10.5px] text-slate-400 mt-0.5">{item.sub}</div>
-              </div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        {/* Stat grid */}
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 pb-8 border-b border-white/[0.07]">
+          <div className="text-center transition-all duration-700">
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight text-white tabular-nums leading-none mb-1">
+              <StatCounter to={2400} suffix="+" />
             </div>
-          ))}
+            <div className="text-sm font-bold text-slate-200">NEST Aspirants</div>
+            <div className="text-[11px] text-slate-500 font-medium mt-0.5">actively preparing</div>
+          </div>
+
+          <div className="text-center transition-all duration-700">
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight text-white tabular-nums leading-none mb-1">
+              <StatCounter to={8} suffix=" Years" />
+            </div>
+            <div className="text-sm font-bold text-slate-200">PYQ Coverage</div>
+            <div className="text-[11px] text-slate-500 font-medium mt-0.5">2018 through 2025</div>
+          </div>
+
+          <div className="text-center transition-all duration-700">
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight text-white tabular-nums leading-none mb-1">
+              <StatCounter to={9} />
+            </div>
+            <div className="text-sm font-bold text-slate-200">Subject Masterclasses</div>
+            <div className="text-[11px] text-slate-500 font-medium mt-0.5">Physics · Chem · Bio · Math</div>
+          </div>
+
+          <div className="text-center transition-all duration-700">
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight text-white tabular-nums leading-none mb-1">
+              <StatCounter to={180} />
+            </div>
+            <div className="text-sm font-bold text-slate-200">Mark Simulation</div>
+            <div className="text-[11px] text-slate-500 font-medium mt-0.5">full CBT-format mock tests</div>
+          </div>
+        </div>
+
+        {/* Subtitle */}
+        <p className={`text-center text-xs text-slate-500 font-medium pt-5 pb-2 transition-all duration-700 ${isInView ? "opacity-100" : "opacity-0"}`} style={{ transitionDelay: "400ms" }}>
+          Focused preparation for NISER &amp; CEBS entrance examinations.
+        </p>
+
+        {/* Ticker */}
+        <div className="relative mt-2 overflow-hidden">
+          <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-slate-950 to-transparent z-10 pointer-events-none" />
+          <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-slate-950 to-transparent z-10 pointer-events-none" />
+          <div className="flex">
+            <div className="flex whitespace-nowrap gap-5 pr-5" style={{ animation: "scrollLeft 28s linear infinite" }}>
+              {[...ticker, ...ticker].map((item, i) => (
+                <div key={i} className="flex items-center gap-2 bg-white/[0.04] border border-white/[0.07] px-3 py-1.5 rounded-full text-slate-400 text-[11px] font-medium hover:text-slate-200 transition-colors cursor-default">
+                  <div className="h-1.5 w-1.5 rounded-full bg-indigo-400 shrink-0" />
+                  {item}
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
+
+      <style>{`@keyframes scrollLeft { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }`}</style>
     </section>
   );
 }

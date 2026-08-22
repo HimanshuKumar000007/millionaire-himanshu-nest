@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import Link from 'next/link';
 import { motion } from 'motion/react';
 import {
   Sparkles,
@@ -20,8 +19,7 @@ import {
   Zap,
   BookOpen,
   HelpCircle,
-  Layers,
-  LogIn
+  Layers
 } from 'lucide-react';
 import {
   AreaChart,
@@ -49,7 +47,7 @@ const mockChartData = [
 
 export function Hero({ onOpenTrial, onOpenVideo, onOpenEnroll }: HeroProps) {
   // Kinetic typography words
-  const titleLine1 = "Master NEST 2026/2027";
+  const titleLine1 = "Master IISER, NEST, ISI & CMI";
   const titleLine2 = "with Smart Notes & 24/7 AI Mentor";
 
   return (
@@ -79,9 +77,9 @@ export function Hero({ onOpenTrial, onOpenVideo, onOpenEnroll }: HeroProps) {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
               </span>
-              <span>2026/2027 NEST Test Series & Smart Notes Live</span>
+              <span>2026 Test Series & Smart Notes Live</span>
               <span className="text-slate-500">•</span>
-              <span className="text-cyan-400 font-medium">100% Real NEST TCS-iON Interface</span>
+              <span className="text-cyan-400 font-medium">100% Real TCS-iON CBT Interface</span>
             </motion.div>
 
             {/* Kinetic Main Headline */}
@@ -115,7 +113,7 @@ export function Hero({ onOpenTrial, onOpenVideo, onOpenEnroll }: HeroProps) {
               transition={{ duration: 0.6, delay: 0.35, ease: [0.22, 1, 0.36, 1] }}
               className="text-lg sm:text-xl text-slate-300 leading-relaxed max-w-2xl mb-6 font-normal"
             >
-              Master high-yield science concepts without wasting hours in passive lectures. Prepare for <strong className="text-indigo-300 font-semibold">NISER Bhubaneswar & UM-DAE CEBS Mumbai</strong> with high-yield <strong className="text-white font-semibold">Smart Notes</strong>, exact <strong className="text-white font-semibold">NEST CBT Mode Full Mocks</strong>, <strong className="text-white font-semibold">Quick Mocks</strong>, <strong className="text-white font-semibold">SMAS Chapter Tests</strong>, 15+ years solved <strong className="text-white font-semibold">NEST PYQs</strong>, and an instant <strong className="text-cyan-300 font-semibold">24/7 AI Mentor</strong>.
+              Master high-yield science concepts without wasting hours in passive lectures. Prepare for <strong className="text-indigo-300 font-semibold">IISER, NISER, ISI, CMI & IISc</strong> with high-yield <strong className="text-white font-semibold">Smart Notes</strong>, exact <strong className="text-white font-semibold">CBT Mode Full Mocks</strong>, <strong className="text-white font-semibold">Quick Mocks</strong>, <strong className="text-white font-semibold">Chapter-wise Mocks</strong>, 15+ years solved <strong className="text-white font-semibold">PYQs</strong>, and an instant <strong className="text-cyan-300 font-semibold">24/7 AI Mentor</strong>.
             </motion.p>
 
             {/* Value Proposition Pills */}
@@ -148,39 +146,26 @@ export function Hero({ onOpenTrial, onOpenVideo, onOpenEnroll }: HeroProps) {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.45, ease: [0.22, 1, 0.36, 1] }}
-              className="space-y-4 mb-10"
+              className="flex flex-wrap items-center gap-4 w-full sm:w-auto mb-10"
             >
-              <div className="flex flex-wrap items-center gap-4 w-full sm:w-auto">
-                {/* Primary CTA */}
-                <Link
-                  href="/signup"
-                  className="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-600 hover:from-indigo-500 hover:to-purple-500 text-white font-semibold text-base shadow-xl shadow-indigo-500/25 hover:shadow-indigo-500/40 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 flex items-center justify-center gap-2.5 cursor-pointer group border border-indigo-400/30"
-                >
-                  <Sparkles className="w-5 h-5 text-cyan-300 group-hover:rotate-12 transition-transform" />
-                  <span>Try Free CBT Mock &amp; Smart Notes</span>
-                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </Link>
+              {/* Primary CTA */}
+              <button
+                onClick={onOpenTrial}
+                className="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-600 hover:from-indigo-500 hover:to-purple-500 text-white font-semibold text-base shadow-xl shadow-indigo-500/25 hover:shadow-indigo-500/40 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 flex items-center justify-center gap-2.5 cursor-pointer group border border-indigo-400/30"
+              >
+                <Sparkles className="w-5 h-5 text-cyan-300 group-hover:rotate-12 transition-transform" />
+                <span>Try Free CBT Mock & Smart Notes</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </button>
 
-                {/* Secondary CTA */}
-                <button
-                  onClick={onOpenVideo}
-                  className="w-full sm:w-auto px-6 py-3.5 rounded-xl glass-card text-slate-200 hover:text-white hover:bg-white/10 font-semibold text-base border border-white/10 hover:border-white/20 transition-all duration-200 flex items-center justify-center gap-2.5 cursor-pointer group"
-                >
-                  <PlayCircle className="w-5 h-5 text-indigo-400 group-hover:scale-110 transition-transform" />
-                  <span>Watch Ranker Insights</span>
-                </button>
-              </div>
-
-              {/* Login Link for existing students */}
-              <div className="flex items-center gap-2 text-xs text-slate-400">
-                <span>Already an enrolled aspirant?</span>
-                <Link
-                  href="/login"
-                  className="text-indigo-400 hover:text-indigo-300 font-bold underline inline-flex items-center gap-1 transition-colors"
-                >
-                  <LogIn className="w-3 h-3" /> Log In to Student Dashboard →
-                </Link>
-              </div>
+              {/* Secondary CTA */}
+              <button
+                onClick={onOpenVideo}
+                className="w-full sm:w-auto px-6 py-3.5 rounded-xl glass-card text-slate-200 hover:text-white hover:bg-white/10 font-semibold text-base border border-white/10 hover:border-white/20 transition-all duration-200 flex items-center justify-center gap-2.5 cursor-pointer group"
+              >
+                <PlayCircle className="w-5 h-5 text-indigo-400 group-hover:scale-110 transition-transform" />
+                <span>Watch Ranker Insights</span>
+              </button>
             </motion.div>
 
             {/* Social Proof Bar */}
@@ -207,7 +192,7 @@ export function Hero({ onOpenTrial, onOpenVideo, onOpenEnroll }: HeroProps) {
 
               <div className="flex flex-col">
                 <span className="text-base font-extrabold text-emerald-400 font-heading">540+</span>
-                <span className="text-xs text-slate-400">NISER & CEBS Selections</span>
+                <span className="text-xs text-slate-400">IISER/NISER Selections</span>
               </div>
 
               <div className="flex flex-col">
@@ -290,16 +275,16 @@ export function Hero({ onOpenTrial, onOpenVideo, onOpenEnroll }: HeroProps) {
                       CBT Mock Analytics
                     </div>
                     <div className="text-base font-bold text-white flex items-center gap-2">
-                      <span>NEST Full Mock Progression</span>
+                      <span>IAT Full Mock Progression</span>
                       <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex items-center gap-1">
-                        <TrendingUp className="w-3 h-3" /> +82 Marks
+                        <TrendingUp className="w-3 h-3" /> +104 Marks
                       </span>
                     </div>
                   </div>
 
                   <div className="text-right">
                     <div className="text-xs text-slate-400">Target Score</div>
-                    <div className="text-sm font-bold text-indigo-400">165 / 180</div>
+                    <div className="text-sm font-bold text-indigo-400">198 / 240</div>
                   </div>
                 </div>
 
@@ -336,9 +321,9 @@ export function Hero({ onOpenTrial, onOpenVideo, onOpenEnroll }: HeroProps) {
                           if (active && payload && payload.length) {
                             return (
                               <div className="p-2.5 rounded-xl bg-[#0E0E17]/95 border border-white/10 text-xs shadow-xl backdrop-blur-md">
-                                <div className="font-semibold text-slate-300">{label} (NEST CBT Mock)</div>
+                                <div className="font-semibold text-slate-300">{label} (CBT Full Mock)</div>
                                 <div className="text-indigo-400 font-bold mt-1">
-                                  Your Score: {payload[0]?.value} / 180
+                                  Your Score: {payload[0]?.value} / 240
                                 </div>
                                 <div className="text-cyan-400 font-medium text-[11px]">
                                   AIR 50 Benchmark: {payload[1]?.value}
@@ -380,12 +365,12 @@ export function Hero({ onOpenTrial, onOpenVideo, onOpenEnroll }: HeroProps) {
                     </span>
                   </div>
 
-                  <Link
-                    href="/signup"
+                  <button
+                    onClick={onOpenTrial}
                     className="text-indigo-400 hover:text-indigo-300 font-semibold flex items-center gap-1 transition-colors cursor-pointer"
                   >
                     Take Free Diagnostic CBT Mock →
-                  </Link>
+                  </button>
                 </div>
               </div>
 

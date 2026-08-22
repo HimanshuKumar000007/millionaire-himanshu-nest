@@ -1,9 +1,8 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
 import { motion } from 'motion/react';
-import { Sparkles, PhoneCall, ArrowRight, ShieldCheck, Clock, Flame, Bot, FileText, LogIn } from 'lucide-react';
+import { Sparkles, PhoneCall, ArrowRight, ShieldCheck, Clock, Flame, Bot, FileText } from 'lucide-react';
 
 interface FinalCTAProps {
   onOpenTrial: () => void;
@@ -49,19 +48,19 @@ export function FinalCTA({ onOpenTrial, onOpenEnroll }: FinalCTAProps) {
         {/* Urgent Early Access Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/20 border border-amber-500/30 text-amber-300 text-xs font-bold mb-8 shadow-lg shadow-amber-500/10">
           <Flame className="w-4 h-4 fill-amber-400 text-amber-400" />
-          <span>NEST 2026/2027 Achievers Suite • Instant Activation & Study Access</span>
+          <span>2026 Achievers Suite • Instant Activation & Study Access</span>
         </div>
 
         {/* Headline */}
         <h2 className="font-heading font-extrabold text-3xl sm:text-5xl md:text-6xl text-white tracking-tight leading-tight mb-6">
-          Ready to Crack NEST & Secure Admission at{' '}
+          Ready to Crack India&apos;s Top{' '}
           <span className="bg-gradient-to-r from-indigo-400 via-purple-300 to-cyan-400 bg-clip-text text-transparent">
-            NISER & UM-DAE CEBS?
+            Science Entrance Exams?
           </span>
         </h2>
 
         <p className="text-base sm:text-xl text-slate-300 max-w-2xl mx-auto mb-10 leading-relaxed font-normal">
-          Power your preparation with high-yield <strong className="text-white">NEST Smart Notes</strong>, full-length <strong className="text-white">TCS-iON CBT Mocks</strong>, <strong className="text-white">Quick Drills</strong>, 15-Year NEST PYQs, and an instant <strong className="text-cyan-300">24/7 AI Science Mentor</strong>.
+          Power your preparation with high-yield <strong className="text-white">Smart Notes</strong>, full-length <strong className="text-white">CBT Mode Mocks</strong>, <strong className="text-white">Quick Drills</strong>, 15-Year PYQs, and an instant <strong className="text-cyan-300">24/7 AI Science Mentor</strong>.
         </p>
 
         {/* Countdown Timer Block */}
@@ -99,14 +98,14 @@ export function FinalCTA({ onOpenTrial, onOpenEnroll }: FinalCTAProps) {
         </div>
 
         {/* CTA Buttons */}
-        <div className="flex flex-wrap items-center justify-center gap-4 max-w-md mx-auto mb-6">
-          <Link
-            href="/signup"
+        <div className="flex flex-wrap items-center justify-center gap-4 max-w-md mx-auto mb-10">
+          <button
+            onClick={onOpenTrial}
             className="w-full sm:w-auto flex-1 px-8 py-4 rounded-2xl bg-white hover:bg-slate-100 text-slate-950 font-bold text-base shadow-2xl hover:scale-[1.02] active:scale-[0.98] transition-all cursor-pointer flex items-center justify-center gap-2"
           >
             <Sparkles className="w-5 h-5 text-indigo-600" />
-            <span>Try Free CBT Mock &amp; Notes</span>
-          </Link>
+            <span>Try Free CBT Mock & Notes</span>
+          </button>
 
           <button
             onClick={onOpenEnroll}
@@ -115,16 +114,6 @@ export function FinalCTA({ onOpenTrial, onOpenEnroll }: FinalCTAProps) {
             <ArrowRight className="w-5 h-5 text-cyan-400" />
             <span>Unlock Complete Suite</span>
           </button>
-        </div>
-
-        {/* Existing student login hint */}
-        <div className="mb-10 text-center">
-          <Link
-            href="/login"
-            className="text-xs text-indigo-300 hover:text-white font-semibold underline inline-flex items-center gap-1 transition-colors"
-          >
-            <LogIn className="w-3.5 h-3.5" /> Already registered? Log in to student portal →
-          </Link>
         </div>
 
         {/* Footnote reassurance */}

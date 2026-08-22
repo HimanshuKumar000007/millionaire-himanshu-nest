@@ -15,37 +15,37 @@ const faqs: FAQItem[] = [
     category: 'features',
     question: 'Why does SciPrep provide Smart Notes & CBT Mocks instead of live lectures?',
     answer:
-      'The NEST entrance exam is not cracked by passively watching 3-hour video streams. It demands rigorous active recall, high-speed multi-concept problem solving, and intensive exam simulation. SciPrep provides concise, high-yield Smart Notes for rapid concept revision, full-length TCS-iON CBT Mocks, Quick Mocks (15/30 mins), Chapter-wise Mocks, 15-Year NEST PYQs, and an instant 24/7 AI Science Mentor for round-the-clock doubts.',
+      'Science entrance exams like IAT and NEST are not cracked by passively watching 3-hour video streams. They demand rigorous active recall, high-speed problem solving, and intensive exam simulation. SciPrep provides concise, high-yield Smart Notes for rapid concept revision, full-length TCS-iON CBT Mocks, Quick Mocks (15/30 mins), Chapter-wise Mocks, 15-Year PYQs, and an instant 24/7 AI Science Mentor for round-the-clock doubts.',
   },
   {
     category: 'pcmb',
-    question: 'I had PCM in 11th & 12th. Can I crack NEST (NISER & CEBS) without Biology background?',
+    question: 'I had PCM in 11th & 12th. Can I crack IISER Aptitude Test (IAT) without Biology background?',
     answer:
-      'Yes, absolutely! In NEST, your overall ranking is calculated from your top 3 subject scores (Physics, Chemistry, and Math/Bio), while requiring basic SMAS sectional cutoff clearance across all sections. SciPrep includes dedicated "High-Yield Biology Smart Notes & Chapter Mocks for Math Students", breaking down high-frequency NCERT genetics, physiology, and cell biology concepts to easily clear SMAS cutoff and secure a top NISER rank.',
+      'Yes, absolutely! Over 60% of top rankers in IISER Pune and Kolkata come from pure PCM or PCB backgrounds. In IAT, attempting all 4 subjects gives you a massive scoring advantage. SciPrep includes dedicated "High-Yield Biology Smart Notes & Chapter Mocks for Math Students", breaking down high-frequency NCERT genetics, physiology, and cell biology concepts without fluff.',
   },
   {
     category: 'features',
     question: 'How does the 24/7 AI Science Mentor work?',
     answer:
-      'Our AI Mentor is specialized in Physics, Chemistry, Mathematics, and Biology for NEST and science competitions. You can ask any question, formula derivation, mechanism step, or NEST PYQ problem at any time of day or night. It returns verified first-principles step-by-step logic and formula references in under 2 seconds.',
+      'Our AI Mentor is specialized in Physics, Chemistry, Mathematics, and Biology for IAT, NEST, ISI, and Olympiads. You can ask any question, formula derivation, mechanism step, or PYQ problem at any time of day or night. It returns verified first-principles step-by-step logic and formula references in under 2 seconds.',
   },
   {
     category: 'features',
     question: 'What is the difference between CBT Full Mocks, Quick Mocks, and Chapter Mocks?',
     answer:
-      'CBT Full Mocks are exact full-length simulations on the TCS-iON replica software with authentic NEST negative marking. Chapter-wise Mocks allow you to test your mastery immediately after reviewing a topic Smart Note. Quick Mocks are 15-to-30-minute rapid test sprints designed to build speed and eliminate negative marking.',
+      'CBT Full Mocks are exact 3-hour 60-question simulations on the TCS-iON replica software. Chapter-wise Mocks allow you to test your mastery immediately after reviewing a topic Smart Note. Quick Mocks are 15-to-30-minute rapid test sprints designed to build speed and eliminate negative marking.',
   },
   {
     category: 'eligibility',
-    question: 'What is the exact eligibility criteria for NEST 2026/2027?',
+    question: 'What is the exact eligibility criteria for IAT 2026 and NEST 2026?',
     answer:
-      'For NEST (NISER Bhubaneswar & UM-DAE CEBS Mumbai): Candidates must have passed Class 12 with at least three subjects among Biology, Chemistry, Mathematics, and Physics with a minimum 60% aggregate (55% for SC/ST/PwD) and born on or after August 1, 2005 (with category relaxations).',
+      'For IAT: Candidates who have passed Class 12 with at least three subjects among Biology, Chemistry, Mathematics, and Physics with minimum 60% aggregate (55% for SC/ST/PwD). For NEST (NISER/CEBS): Minimum 60% aggregate in Class 12 and born on or after August 1, 2005 (relaxations applicable for reserved categories).',
   },
   {
     category: 'pcmb',
-    question: 'How does NEST scoring and SMAS/MAS cutoffs work?',
+    question: 'How does NEST scoring work? Do I need to attempt all 4 sections?',
     answer:
-      'In NEST, the question paper comprises 4 sections: Biology, Chemistry, Mathematics, and Physics. To qualify for the merit list, you must clear the Section-wise Minimum Admissible Score (SMAS) in all 4 subjects, while your overall rank score is computed from your BEST 3 subjects (total 150/180 marks). Our CBT Mocks simulate this exact scoring algorithm.',
+      'In NEST, the question paper comprises 4 sections: Biology, Chemistry, Mathematics, and Physics (each 50 marks). To be in the merit list, you must clear Section-wise Minimum Admissible Percentile (SMAP) in all 4 subjects, but your final merit score is calculated from the BEST 3 subjects (total 150 marks). Our CBT Mocks simulate this exact scoring algorithm.',
   },
   {
     category: 'features',
@@ -164,7 +164,7 @@ export function FAQ({ onOpenTrial }: FAQProps) {
             </div>
             <div>
               <div className="text-sm font-bold text-white">Have a specific question about your subject roadmap?</div>
-              <div className="text-xs text-slate-400">Speak directly with a NISER / CEBS academic mentor.</div>
+              <div className="text-xs text-slate-400">Speak directly with an IISER academic counselor.</div>
             </div>
           </div>
 

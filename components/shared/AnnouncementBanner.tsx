@@ -1,44 +1,30 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { ArrowRight, X, Flame } from "lucide-react";
+import Link from "next/link";
+import { ArrowRight, X } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
 interface AnnouncementBannerProps {
   onOpenAssessment?: () => void;
-  onGetAccess?: () => void;
 }
 
-export function AnnouncementBanner({ onOpenAssessment, onGetAccess }: AnnouncementBannerProps) {
+export function AnnouncementBanner({ onOpenAssessment }: AnnouncementBannerProps) {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    const isDismissed = localStorage.getItem("sciprep_2026_batch_alert_dismissed");
+    const isDismissed = localStorage.getItem("sciprep_launch_banner_dismissed");
     if (!isDismissed) {
       setIsVisible(true);
     }
   }, []);
 
-  const handleDismiss = (e: React.MouseEvent) => {
-    e.stopPropagation();
+  const handleDismiss = () => {
     setIsVisible(false);
     try {
-      localStorage.setItem("sciprep_2026_batch_alert_dismissed", "true");
+      localStorage.setItem("sciprep_launch_banner_dismissed", "true");
     } catch {
-      // Ignore storage errors
-    }
-  };
-
-  const handleAction = () => {
-    if (onGetAccess) {
-      onGetAccess();
-    } else if (onOpenAssessment) {
-      onOpenAssessment();
-    } else {
-      const el = document.getElementById("study-programs");
-      if (el) {
-        el.scrollIntoView({ behavior: "smooth" });
-      }
+      // Ignore storage errors in private browsing
     }
   };
 
@@ -50,32 +36,26 @@ export function AnnouncementBanner({ onOpenAssessment, onGetAccess }: Announceme
           animate={{ height: "auto", opacity: 1 }}
           exit={{ height: 0, opacity: 0 }}
           transition={{ duration: 0.3, ease: "easeOut" }}
-          className="relative bg-gradient-to-r from-[#170C2A] via-[#21113F] to-[#120B24] border-b border-purple-500/20 overflow-hidden z-50 text-xs text-slate-200"
+          className="relative bg-indigo-50/90 border-b border-indigo-100/80 overflow-hidden z-50"
         >
-          {/* Subtle top glow line */}
-          <div className="absolute top-0 inset-x-0 h-[1px] bg-gradient-to-r from-transparent via-purple-400/50 to-transparent" />
-
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-between gap-3">
-            <div className="flex-1 flex flex-wrap items-center justify-center sm:justify-start gap-x-2.5 gap-y-1">
-              <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-purple-500/20 border border-purple-400/30 text-purple-200 font-bold text-[11px] uppercase tracking-wide">
-                <Flame className="h-3 w-3 text-amber-400 fill-amber-400 animate-pulse" />
-                New Batch Alert
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-between gap-4">
+            <div className="flex-1 flex flex-wrap items-center justify-center sm:justify-start gap-x-3 gap-y-1 text-xs">
+              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-indigo-600 text-white font-bold text-[10px] uppercase tracking-wide">
+                NEW
               </span>
-              <span className="text-slate-300 font-medium">
-                NEST 2026/2027 Smart Notes, CBT Mocks &amp; 24/7 AI Mentor are <strong className="text-white font-bold">Live</strong>. • Instant Access Available
+              <span className="text-slate-700 font-medium">
+                NEST 2025 Results Released — Category-wise SMAS Cutoff Analysis now available.
               </span>
-              <button
-                onClick={handleAction}
-                className="inline-flex items-center gap-1 text-purple-300 hover:text-white font-bold underline underline-offset-4 decoration-purple-400/60 hover:decoration-white transition-all cursor-pointer group ml-1"
+              <Link
+                href="/blog/nest-exam-cut-off-marks-category-wise-smas-mas"
+                className="inline-flex items-center gap-1 text-indigo-600 hover:text-indigo-800 font-semibold text-xs transition-colors"
               >
-                <span>Get Instant Access</span>
-                <ArrowRight className="h-3 w-3 group-hover:translate-x-0.5 transition-transform" />
-              </button>
+                Read Analysis <ArrowRight className="h-3 w-3" />
+              </Link>
             </div>
-
             <button
               onClick={handleDismiss}
-              className="p-1 rounded-md text-slate-400 hover:text-white hover:bg-white/10 transition-colors shrink-0 cursor-pointer"
+              className="p-1 rounded text-slate-400 hover:text-slate-700 hover:bg-indigo-100 transition-colors shrink-0 cursor-pointer"
               aria-label="Dismiss announcement"
             >
               <X className="h-3.5 w-3.5" />

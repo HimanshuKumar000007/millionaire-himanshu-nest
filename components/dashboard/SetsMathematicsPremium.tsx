@@ -1534,7 +1534,7 @@ export default function SetsMathematicsPremium({ onClose }: SetsMathematicsPremi
                   7
                 </span>
                 <div>
-                  <h3 className="text-base font-black text-gray-900">10 High-Yield NEST Examination Traps</h3>
+                  <h3 className="text-base font-black text-gray-900">10 High-Yield NEST &amp; IISER Examination Traps</h3>
                   <p className="text-[11px] text-gray-500 font-semibold">Common Pitfalls · Cancellation Failures · Power Set Non-Distributivity</p>
                 </div>
               </div>
