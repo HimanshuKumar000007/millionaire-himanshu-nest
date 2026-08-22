@@ -28,6 +28,7 @@ import {
 } from "lucide-react";
 import { useOnboardingStore } from "@/lib/store/useOnboardingStore";
 import { pushAllLocalData } from "@/lib/supabase/sync.service";
+import { getToken } from "@/lib/auth/authGuard";
 
 interface Question {
   id: number;
@@ -101,8 +102,11 @@ export default function AssessmentPage() {
   const { user, isLoggedIn, logout } = useOnboardingStore();
 
   React.useEffect(() => {
-    router.replace("/dashboard");
-  }, [router]);
+    const token = getToken();
+    if (!token) {
+      window.location.replace("/login?mode=signup&redirect=%2Fassessment");
+    }
+  }, []);
 
   const [currentStep, setCurrentStep] = useState<"intro" | "quiz" | "report">("intro");
   const [currentQIndex, setCurrentQIndex] = useState(0);
