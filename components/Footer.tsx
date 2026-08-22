@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import {
   Orbit,
   Youtube,
@@ -12,7 +13,9 @@ import {
   Phone,
   MapPin,
   Heart,
-  ArrowUpRight
+  ArrowUpRight,
+  LogIn,
+  UserPlus
 } from 'lucide-react';
 
 interface FooterProps {
@@ -207,27 +210,37 @@ export function Footer({ onOpenTrial, onOpenEnroll }: FooterProps) {
             </ul>
           </div>
 
-          {/* Column 5: Free Resources & Support */}
+          {/* Column 5: Student Portal & Free Resources */}
           <div className="space-y-3">
             <h4 className="font-bold text-white text-xs uppercase tracking-wider">
-              Free Resources
+              Student Portal
             </h4>
             <ul className="space-y-2">
               <li>
-                <button
-                  onClick={onOpenTrial}
-                  className="hover:text-white transition-colors text-left"
+                <Link
+                  href="/login"
+                  className="hover:text-white transition-colors text-left flex items-center gap-1.5 text-indigo-300 font-semibold"
                 >
-                  Free NEST Diagnostic Mock
-                </button>
+                  <LogIn className="w-3 h-3" />
+                  <span>Student Log In</span>
+                </Link>
               </li>
               <li>
-                <button
-                  onClick={onOpenTrial}
+                <Link
+                  href="/signup"
+                  className="hover:text-white transition-colors text-left flex items-center gap-1.5 text-cyan-300 font-semibold"
+                >
+                  <UserPlus className="w-3 h-3" />
+                  <span>Create Free Account</span>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/dashboard"
                   className="hover:text-white transition-colors text-left"
                 >
-                  Biology for PCM Formula Kit
-                </button>
+                  Student Dashboard
+                </Link>
               </li>
               <li>
                 <a href="#quiz" className="hover:text-white transition-colors">
@@ -235,19 +248,19 @@ export function Footer({ onOpenTrial, onOpenEnroll }: FooterProps) {
                 </a>
               </li>
               <li>
-                <a href="#faq" className="hover:text-white transition-colors">
-                  Refund Policy (7 Days)
-                </a>
+                <Link href="/terms" className="hover:text-white transition-colors">
+                  Terms of Service
+                </Link>
               </li>
               <li>
-                <a href="#faq" className="hover:text-white transition-colors">
-                  Terms of Service & Privacy
-                </a>
+                <Link href="/privacy" className="hover:text-white transition-colors">
+                  Privacy Policy
+                </Link>
               </li>
               <li>
-                <a href="#why-us" className="hover:text-white transition-colors">
-                  Faculty & Mentors Directory
-                </a>
+                <Link href="/contact" className="hover:text-white transition-colors">
+                  Support Desk
+                </Link>
               </li>
             </ul>
           </div>

@@ -1,8 +1,9 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { motion } from 'motion/react';
-import { Sparkles, PhoneCall, ArrowRight, ShieldCheck, Clock, Flame, Bot, FileText } from 'lucide-react';
+import { Sparkles, PhoneCall, ArrowRight, ShieldCheck, Clock, Flame, Bot, FileText, LogIn } from 'lucide-react';
 
 interface FinalCTAProps {
   onOpenTrial: () => void;
@@ -98,14 +99,14 @@ export function FinalCTA({ onOpenTrial, onOpenEnroll }: FinalCTAProps) {
         </div>
 
         {/* CTA Buttons */}
-        <div className="flex flex-wrap items-center justify-center gap-4 max-w-md mx-auto mb-10">
-          <button
-            onClick={onOpenTrial}
+        <div className="flex flex-wrap items-center justify-center gap-4 max-w-md mx-auto mb-6">
+          <Link
+            href="/signup"
             className="w-full sm:w-auto flex-1 px-8 py-4 rounded-2xl bg-white hover:bg-slate-100 text-slate-950 font-bold text-base shadow-2xl hover:scale-[1.02] active:scale-[0.98] transition-all cursor-pointer flex items-center justify-center gap-2"
           >
             <Sparkles className="w-5 h-5 text-indigo-600" />
-            <span>Try Free CBT Mock & Notes</span>
-          </button>
+            <span>Try Free CBT Mock &amp; Notes</span>
+          </Link>
 
           <button
             onClick={onOpenEnroll}
@@ -114,6 +115,16 @@ export function FinalCTA({ onOpenTrial, onOpenEnroll }: FinalCTAProps) {
             <ArrowRight className="w-5 h-5 text-cyan-400" />
             <span>Unlock Complete Suite</span>
           </button>
+        </div>
+
+        {/* Existing student login hint */}
+        <div className="mb-10 text-center">
+          <Link
+            href="/login"
+            className="text-xs text-indigo-300 hover:text-white font-semibold underline inline-flex items-center gap-1 transition-colors"
+          >
+            <LogIn className="w-3.5 h-3.5" /> Already registered? Log in to student portal →
+          </Link>
         </div>
 
         {/* Footnote reassurance */}

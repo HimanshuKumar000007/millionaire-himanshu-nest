@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { motion, AnimatePresence } from 'motion/react';
 import {
   Atom,
@@ -16,7 +17,9 @@ import {
   PhoneCall,
   GraduationCap,
   ArrowRight,
-  Flame
+  Flame,
+  LogIn,
+  UserPlus
 } from 'lucide-react';
 
 interface NavbarProps {
@@ -82,7 +85,7 @@ export function Navbar({ onOpenEnroll, onOpenTrial }: NavbarProps) {
     <>
       {/* Top Batch Alert Bar */}
       <div className="bg-gradient-to-r from-indigo-950/80 via-purple-950/80 to-slate-950 border-b border-indigo-500/20 text-xs py-2 px-4 text-center relative z-50">
-        <div className="max-w-7xl mx-auto flex items-center justify-center gap-2 flex-wrap text-slate-300">
+        <div className="max-w-7xl mx-auto flex items-center justify-center gap-2.5 flex-wrap text-slate-300">
           <span className="inline-flex items-center gap-1 bg-indigo-500/20 text-indigo-300 font-semibold px-2 py-0.5 rounded-full border border-indigo-500/30 text-[11px]">
             <Flame className="w-3 h-3 text-amber-400 fill-amber-400" /> New Batch Alert
           </span>
@@ -90,12 +93,19 @@ export function Navbar({ onOpenEnroll, onOpenTrial }: NavbarProps) {
             NEST 2026/2027 Smart Notes, CBT Mocks & 24/7 AI Mentor are <strong className="text-white font-bold">Live</strong>.
           </span>
           <span className="hidden sm:inline text-indigo-300 font-semibold">• Instant Access Available</span>
-          <button
-            onClick={() => onOpenEnroll('NEST 2026 Complete Prep Suite')}
+          <Link
+            href="/signup"
             className="text-indigo-400 hover:text-indigo-200 underline font-semibold ml-1 cursor-pointer transition-colors inline-flex items-center gap-0.5"
           >
-            Get Instant Access <ArrowRight className="w-3 h-3 inline" />
-          </button>
+            Create Free Account <ArrowRight className="w-3 h-3 inline" />
+          </Link>
+          <span className="text-slate-500 hidden md:inline">|</span>
+          <Link
+            href="/login"
+            className="text-slate-300 hover:text-white font-semibold transition-colors hidden md:inline-flex items-center gap-1"
+          >
+            <LogIn className="w-3 h-3 text-indigo-400" /> Student Login
+          </Link>
         </div>
       </div>
 
@@ -218,35 +228,49 @@ export function Navbar({ onOpenEnroll, onOpenTrial }: NavbarProps) {
           </nav>
 
           {/* Right Action CTAs */}
-          <div className="hidden sm:flex items-center gap-3">
-            <button
-              onClick={onOpenTrial}
-              className="px-4 py-2 text-sm font-medium text-slate-200 hover:text-white hover:bg-white/5 rounded-xl transition-all border border-transparent hover:border-white/10 cursor-pointer flex items-center gap-1.5"
+          <div className="hidden sm:flex items-center gap-2.5">
+            <Link
+              href="/login"
+              className="px-3.5 py-2 text-xs sm:text-sm font-semibold text-slate-300 hover:text-white hover:bg-white/5 rounded-xl transition-all border border-transparent hover:border-white/10 flex items-center gap-1.5"
             >
-              <Sparkles className="w-4 h-4 text-cyan-400" />
-              <span>Free Diagnostic</span>
-            </button>
+              <LogIn className="w-4 h-4 text-indigo-400" />
+              <span>Log In</span>
+            </Link>
+
+            <Link
+              href="/signup"
+              className="relative group overflow-hidden rounded-xl p-[1px] font-semibold text-xs sm:text-sm shadow-lg shadow-indigo-500/20 active:scale-[0.98] transition-transform"
+            >
+              <span className="absolute inset-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-500 group-hover:opacity-100 transition-opacity"></span>
+              <span className="relative flex items-center gap-1.5 px-3.5 py-2 rounded-[11px] bg-[#0E0E17] group-hover:bg-opacity-80 text-white transition-all">
+                <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
+                <span>Sign Up Free</span>
+                <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+              </span>
+            </Link>
 
             <button
               onClick={() => onOpenEnroll()}
-              className="relative group overflow-hidden rounded-xl p-[1px] font-semibold text-sm cursor-pointer shadow-lg shadow-indigo-500/20 active:scale-[0.98] transition-transform"
+              className="px-3.5 py-2 text-xs font-semibold rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white transition-all shadow-md shadow-indigo-600/25 cursor-pointer"
             >
-              <span className="absolute inset-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-500 group-hover:opacity-100 transition-opacity"></span>
-              <span className="relative flex items-center gap-1.5 px-4 py-2 rounded-[11px] bg-[#0E0E17] group-hover:bg-opacity-80 text-white transition-all">
-                <span>Enroll Now</span>
-                <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
-              </span>
+              Enroll
             </button>
           </div>
 
           {/* Mobile Hamburger Button */}
           <div className="flex lg:hidden items-center gap-2">
-            <button
-              onClick={() => onOpenEnroll()}
-              className="px-3 py-1.5 text-xs font-semibold rounded-lg bg-indigo-600 text-white sm:hidden"
+            <Link
+              href="/login"
+              className="px-3 py-1.5 text-xs font-semibold rounded-lg bg-white/10 text-white border border-white/10"
             >
-              Enroll
-            </button>
+              Log In
+            </Link>
+            <Link
+              href="/signup"
+              className="px-3 py-1.5 text-xs font-semibold rounded-lg bg-indigo-600 text-white"
+            >
+              Sign Up
+            </Link>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="p-2 rounded-xl text-slate-300 hover:text-white hover:bg-white/5 transition-colors border border-white/5"
@@ -296,25 +320,31 @@ export function Navbar({ onOpenEnroll, onOpenTrial }: NavbarProps) {
                 </div>
 
                 <div className="pt-3 flex flex-col gap-2.5">
-                  <button
-                    onClick={() => {
-                      setMobileMenuOpen(false);
-                      onOpenTrial();
-                    }}
+                  <Link
+                    href="/login"
+                    onClick={() => setMobileMenuOpen(false)}
                     className="w-full py-2.5 rounded-xl border border-white/10 bg-white/5 text-sm font-semibold text-white flex items-center justify-center gap-2"
                   >
-                    <Sparkles className="w-4 h-4 text-cyan-400" />
-                    Take Free Diagnostic Test
-                  </button>
+                    <LogIn className="w-4 h-4 text-indigo-400" />
+                    <span>Log In to Student Portal</span>
+                  </Link>
+                  <Link
+                    href="/signup"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="w-full py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 via-purple-600 to-cyan-600 text-sm font-semibold text-white shadow-lg shadow-indigo-500/25 flex items-center justify-center gap-2"
+                  >
+                    <UserPlus className="w-4 h-4" />
+                    <span>Create Free Account / Sign Up</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </Link>
                   <button
                     onClick={() => {
                       setMobileMenuOpen(false);
                       onOpenEnroll();
                     }}
-                    className="w-full py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 via-purple-600 to-cyan-600 text-sm font-semibold text-white shadow-lg shadow-indigo-500/25 flex items-center justify-center gap-2"
+                    className="w-full py-2 text-xs font-semibold text-slate-400 hover:text-white transition-colors"
                   >
-                    Enroll in 2026 Batches
-                    <ArrowRight className="w-4 h-4" />
+                    View All Batch Pricing &amp; Plans →
                   </button>
                 </div>
               </div>

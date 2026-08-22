@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { motion, AnimatePresence } from 'motion/react';
 import {
   Sparkles,
@@ -272,17 +273,18 @@ export function DiagnosticQuiz({ onOpenEnroll, onOpenTrial }: DiagnosticQuizProp
               <div className="flex flex-wrap items-center justify-center gap-3">
                 <button
                   onClick={handleRestart}
-                  className="px-4 py-2 rounded-xl glass-panel text-xs text-slate-300 hover:text-white flex items-center gap-1.5"
+                  className="px-4 py-2 rounded-xl glass-panel text-xs text-slate-300 hover:text-white flex items-center gap-1.5 cursor-pointer"
                 >
                   <RotateCcw className="w-3.5 h-3.5" /> Retry Quiz
                 </button>
-                <button
-                  onClick={onOpenTrial}
-                  className="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs flex items-center gap-1.5 shadow-lg shadow-indigo-600/30"
+                <Link
+                  href="/signup"
+                  className="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs flex items-center gap-1.5 shadow-lg shadow-indigo-600/30 transition-all hover:scale-[1.02]"
                 >
                   <Sparkles className="w-4 h-4 text-cyan-300" />
-                  Get Full 60-Question Free Mock
-                </button>
+                  <span>Get Full 60-Question Free Mock</span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </Link>
               </div>
             </div>
           )}

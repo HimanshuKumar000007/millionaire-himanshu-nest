@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import { motion } from 'motion/react';
 import {
   Sparkles,
@@ -19,7 +20,8 @@ import {
   Zap,
   BookOpen,
   HelpCircle,
-  Layers
+  Layers,
+  LogIn
 } from 'lucide-react';
 import {
   AreaChart,
@@ -146,26 +148,39 @@ export function Hero({ onOpenTrial, onOpenVideo, onOpenEnroll }: HeroProps) {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.45, ease: [0.22, 1, 0.36, 1] }}
-              className="flex flex-wrap items-center gap-4 w-full sm:w-auto mb-10"
+              className="space-y-4 mb-10"
             >
-              {/* Primary CTA */}
-              <button
-                onClick={onOpenTrial}
-                className="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-600 hover:from-indigo-500 hover:to-purple-500 text-white font-semibold text-base shadow-xl shadow-indigo-500/25 hover:shadow-indigo-500/40 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 flex items-center justify-center gap-2.5 cursor-pointer group border border-indigo-400/30"
-              >
-                <Sparkles className="w-5 h-5 text-cyan-300 group-hover:rotate-12 transition-transform" />
-                <span>Try Free CBT Mock & Smart Notes</span>
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </button>
+              <div className="flex flex-wrap items-center gap-4 w-full sm:w-auto">
+                {/* Primary CTA */}
+                <Link
+                  href="/signup"
+                  className="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-600 hover:from-indigo-500 hover:to-purple-500 text-white font-semibold text-base shadow-xl shadow-indigo-500/25 hover:shadow-indigo-500/40 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 flex items-center justify-center gap-2.5 cursor-pointer group border border-indigo-400/30"
+                >
+                  <Sparkles className="w-5 h-5 text-cyan-300 group-hover:rotate-12 transition-transform" />
+                  <span>Try Free CBT Mock &amp; Smart Notes</span>
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </Link>
 
-              {/* Secondary CTA */}
-              <button
-                onClick={onOpenVideo}
-                className="w-full sm:w-auto px-6 py-3.5 rounded-xl glass-card text-slate-200 hover:text-white hover:bg-white/10 font-semibold text-base border border-white/10 hover:border-white/20 transition-all duration-200 flex items-center justify-center gap-2.5 cursor-pointer group"
-              >
-                <PlayCircle className="w-5 h-5 text-indigo-400 group-hover:scale-110 transition-transform" />
-                <span>Watch Ranker Insights</span>
-              </button>
+                {/* Secondary CTA */}
+                <button
+                  onClick={onOpenVideo}
+                  className="w-full sm:w-auto px-6 py-3.5 rounded-xl glass-card text-slate-200 hover:text-white hover:bg-white/10 font-semibold text-base border border-white/10 hover:border-white/20 transition-all duration-200 flex items-center justify-center gap-2.5 cursor-pointer group"
+                >
+                  <PlayCircle className="w-5 h-5 text-indigo-400 group-hover:scale-110 transition-transform" />
+                  <span>Watch Ranker Insights</span>
+                </button>
+              </div>
+
+              {/* Login Link for existing students */}
+              <div className="flex items-center gap-2 text-xs text-slate-400">
+                <span>Already an enrolled aspirant?</span>
+                <Link
+                  href="/login"
+                  className="text-indigo-400 hover:text-indigo-300 font-bold underline inline-flex items-center gap-1 transition-colors"
+                >
+                  <LogIn className="w-3 h-3" /> Log In to Student Dashboard →
+                </Link>
+              </div>
             </motion.div>
 
             {/* Social Proof Bar */}
@@ -365,12 +380,12 @@ export function Hero({ onOpenTrial, onOpenVideo, onOpenEnroll }: HeroProps) {
                     </span>
                   </div>
 
-                  <button
-                    onClick={onOpenTrial}
+                  <Link
+                    href="/signup"
                     className="text-indigo-400 hover:text-indigo-300 font-semibold flex items-center gap-1 transition-colors cursor-pointer"
                   >
                     Take Free Diagnostic CBT Mock →
-                  </button>
+                  </Link>
                 </div>
               </div>
 

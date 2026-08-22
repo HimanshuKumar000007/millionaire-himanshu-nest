@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { motion } from 'motion/react';
 import {
   FileText,
@@ -107,14 +108,14 @@ export function WhyChooseUs({ onOpenTrial, onOpenEnroll }: WhyChooseUsProps) {
               </p>
 
               <div className="flex items-center gap-4">
-                <button
-                  onClick={onOpenTrial}
+                <Link
+                  href="/signup"
                   className="px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-sm shadow-lg shadow-indigo-600/30 transition-all cursor-pointer flex items-center gap-2"
                 >
                   <Sparkles className="w-4 h-4 text-cyan-300" />
-                  <span>Try Free NEST CBT Mock & Smart Notes</span>
+                  <span>Try Free NEST CBT Mock &amp; Smart Notes</span>
                   <ArrowRight className="w-4 h-4" />
-                </button>
+                </Link>
               </div>
             </div>
 
@@ -219,15 +220,13 @@ export function WhyChooseUs({ onOpenTrial, onOpenEnroll }: WhyChooseUsProps) {
                           <span className="text-cyan-400 font-semibold flex items-center gap-1">
                             <Zap className="w-3.5 h-3.5" /> Included in all 2026 Achiever test suites
                           </span>
-                          <button
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              onOpenTrial();
-                            }}
+                          <Link
+                            href="/signup"
+                            onClick={(e) => e.stopPropagation()}
                             className="text-white hover:text-indigo-300 font-semibold underline cursor-pointer"
                           >
                             Explore Free Demo →
-                          </button>
+                          </Link>
                         </motion.div>
                       )}
                     </div>

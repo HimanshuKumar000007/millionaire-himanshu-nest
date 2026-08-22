@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { motion } from 'motion/react';
 import {
   Check,
@@ -13,7 +14,8 @@ import {
   Star,
   FileText,
   Trophy,
-  Bot
+  Bot,
+  LogIn
 } from 'lucide-react';
 
 interface PricingProps {
@@ -228,26 +230,43 @@ export function Pricing({ onOpenEnroll, onOpenTrial }: PricingProps) {
 
               {/* Bottom CTA Button */}
               <div>
-                <button
-                  onClick={() => {
-                    if (plan.ctaAction === 'trial') {
-                      onOpenTrial();
-                    } else {
-                      onOpenEnroll(plan.name);
-                    }
-                  }}
-                  className={`w-full py-3.5 rounded-xl font-bold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 cursor-pointer shadow-lg ${
-                    plan.popular
-                      ? 'bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-600 hover:from-indigo-500 hover:to-purple-500 text-white shadow-indigo-600/30 hover:scale-[1.02]'
-                      : 'bg-white/10 hover:bg-white/15 text-white border border-white/15'
-                  }`}
-                >
-                  <span>{plan.ctaText}</span>
-                  <ArrowRight className="w-4 h-4" />
-                </button>
+                {plan.ctaAction === 'trial' ? (
+                  <Link
+                    href="/signup"
+                    className="w-full py-3.5 rounded-xl font-bold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 cursor-pointer shadow-lg bg-white/10 hover:bg-white/15 text-white border border-white/15"
+                  >
+                    <span>{plan.ctaText}</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </Link>
+                ) : (
+                  <button
+                    onClick={() => onOpenEnroll(plan.name)}
+                    className={`w-full py-3.5 rounded-xl font-bold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 cursor-pointer shadow-lg ${
+                      plan.popular
+                        ? 'bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-600 hover:from-indigo-500 hover:to-purple-500 text-white shadow-indigo-600/30 hover:scale-[1.02]'
+                        : 'bg-white/10 hover:bg-white/15 text-white border border-white/15'
+                    }`}
+                  >
+                    <span>{plan.ctaText}</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </button>
+                )}
               </div>
             </motion.div>
           ))}
+        </div>
+
+        {/* Existing Student Direct Login Hint */}
+        <div className="mt-8 text-center">
+          <p className="text-xs text-slate-400">
+            Already have an active NEST subscription or account?{' '}
+            <Link
+              href="/login"
+              className="text-indigo-400 hover:text-indigo-300 font-bold underline inline-flex items-center gap-1 transition-colors"
+            >
+              <LogIn className="w-3.5 h-3.5" /> Log In to Access Your Dashboard →
+            </Link>
+          </p>
         </div>
 
         {/* Trust Badges Row */}

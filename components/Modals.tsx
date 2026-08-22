@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { motion, AnimatePresence } from 'motion/react';
 import {
   Sparkles,
@@ -20,7 +21,8 @@ import {
   Video,
   Clock,
   FileText,
-  Bot
+  Bot,
+  LogIn
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
@@ -193,6 +195,13 @@ export function TrialModal({ isOpen, onClose }: TrialModalProps) {
               <div className="text-[11px] text-center text-slate-500">
                 🔒 No payment required. Portal login credentials dispatched instantly.
               </div>
+
+              <div className="flex items-center justify-center gap-2 text-[11px] text-slate-400 pt-1">
+                <span>Prefer direct access?</span>
+                <Link href="/signup" onClick={onClose} className="text-indigo-400 font-bold hover:underline">
+                  Create Full Account / Sign Up →
+                </Link>
+              </div>
             </form>
           </div>
         ) : (
@@ -223,12 +232,23 @@ export function TrialModal({ isOpen, onClose }: TrialModalProps) {
               </div>
             </div>
 
-            <button
-              onClick={handleReset}
-              className="px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs transition-colors cursor-pointer"
-            >
-              Start Free CBT Mock Test
-            </button>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-2.5">
+              <Link
+                href="/signup"
+                onClick={handleReset}
+                className="w-full sm:w-auto px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs transition-colors cursor-pointer flex items-center justify-center gap-1.5"
+              >
+                <span>Launch Full Free Dashboard</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+              <Link
+                href="/login"
+                onClick={handleReset}
+                className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white font-semibold text-xs transition-colors"
+              >
+                Log In
+              </Link>
+            </div>
           </div>
         )}
       </motion.div>
@@ -530,12 +550,14 @@ export function EnrollModal({ isOpen, courseName = 'NEST 2026 Complete Prep Suit
               </div>
             </div>
 
-            <button
+            <Link
+              href="/dashboard"
               onClick={onClose}
-              className="px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs cursor-pointer"
+              className="inline-flex items-center gap-1.5 px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs cursor-pointer shadow-lg shadow-indigo-600/30 transition-all hover:scale-[1.02]"
             >
-              Launch CBT Practice Dashboard
-            </button>
+              <span>Launch CBT Practice Dashboard</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
           </div>
         )}
       </motion.div>
