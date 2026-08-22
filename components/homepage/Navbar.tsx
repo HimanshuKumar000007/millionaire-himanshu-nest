@@ -9,6 +9,7 @@ import { ArrowRight, Menu, LogIn, Sparkles } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
 import { useRouter } from "next/navigation";
+import { getToken } from "@/lib/auth/authGuard";
 
 interface NavbarProps {
   onOpenAssessment?: () => void;
@@ -21,11 +22,45 @@ export function Navbar({ onOpenAssessment, onOpenLogin }: NavbarProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeLink, setActiveLink] = useState<string>("/");
 
+  const handleNavLinkClick = (e: React.MouseEvent, href: string) => {
+    if (href === "/dashboard") {
+      e.preventDefault();
+      const token = getToken();
+      if (token) {
+        router.push("/dashboard");
+      } else {
+        router.push("/login?redirect=%2Fdashboard");
+      }
+      return;
+    }
+    setActiveLink(href);
+  };
+
+  const handleMobileNavLinkClick = (e: React.MouseEvent, href: string) => {
+    setMobileMenuOpen(false);
+    if (href === "/dashboard") {
+      e.preventDefault();
+      const token = getToken();
+      if (token) {
+        router.push("/dashboard");
+      } else {
+        router.push("/login?redirect=%2Fdashboard");
+      }
+      return;
+    }
+    setActiveLink(href);
+  };
+
   const handleAssessmentClick = () => {
     if (onOpenAssessment) {
       onOpenAssessment();
     } else {
-      router.push("/assessment");
+      const token = getToken();
+      if (token) {
+        router.push("/dashboard");
+      } else {
+        router.push("/login?mode=signup&redirect=%2Fdashboard");
+      }
     }
   };
 
@@ -33,7 +68,12 @@ export function Navbar({ onOpenAssessment, onOpenLogin }: NavbarProps) {
     if (onOpenLogin) {
       onOpenLogin();
     } else {
-      router.push("/login");
+      const token = getToken();
+      if (token) {
+        router.push("/dashboard");
+      } else {
+        router.push("/login?redirect=%2Fdashboard");
+      }
     }
   };
 
@@ -85,7 +125,7 @@ export function Navbar({ onOpenAssessment, onOpenLogin }: NavbarProps) {
                 <a
                   key={link.label}
                   href={link.href}
-                  onClick={() => setActiveLink(link.href)}
+                  onClick={(e) => handleNavLinkClick(e, link.href)}
                   className={`relative px-3.5 py-1.5 text-xs font-semibold rounded-full transition-all duration-300 ${
                     isActive 
                       ? "text-[#111827]" 
@@ -158,10 +198,7 @@ export function Navbar({ onOpenAssessment, onOpenLogin }: NavbarProps) {
                       transition={{ delay: i * 0.05 }}
                       key={link.label}
                       href={link.href}
-                      onClick={() => {
-                        setActiveLink(link.href);
-                        setMobileMenuOpen(false);
-                      }}
+                      onClick={(e) => handleMobileNavLinkClick(e, link.href)}
                       className={`block py-3 px-4 text-sm font-semibold rounded-xl transition-all ${
                         isActive
                           ? "bg-indigo-50 text-indigo-700"

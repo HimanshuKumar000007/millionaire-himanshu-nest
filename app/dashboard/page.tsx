@@ -23,7 +23,10 @@ export default function DashboardPage() {
     const token = getToken();
     if (!token) {
       setIsAuthenticated(false);
-      router.replace("/login?redirect=%2Fdashboard");
+      const currentTarget = typeof window !== "undefined"
+        ? window.location.pathname + window.location.search
+        : "/dashboard";
+      router.replace(`/login?redirect=${encodeURIComponent(currentTarget)}`);
     } else {
       setIsAuthenticated(true);
     }
