@@ -1,129 +1,127 @@
-"use client";
+'use client';
 
-import * as React from "react";
-import { useRouter } from "next/navigation";
-import { AnnouncementBanner } from "@/components/shared/AnnouncementBanner";
-import { Navbar } from "@/components/homepage/Navbar";
-import { Hero } from "@/components/homepage/Hero";
-import { TrustStrip } from "@/components/homepage/TrustStrip";
-import { PrecisionAdvantage } from "@/components/homepage/PrecisionAdvantage";
-import { ProgramsPricingSection } from "@/components/homepage/ProgramsPricingSection";
-import { HallOfFameSection } from "@/components/homepage/HallOfFameSection";
-import { FAQSection } from "@/components/homepage/FAQSection";
-import { Footer } from "@/components/homepage/Footer";
-import { getToken } from "@/lib/auth/authGuard";
+import React, { useState } from 'react';
+import { Navbar } from '@/components/Navbar';
+import { Hero } from '@/components/Hero';
+import { TrustedBy } from '@/components/TrustedBy';
+import { Courses } from '@/components/Courses';
+import { WhyChooseUs } from '@/components/WhyChooseUs';
+import { Results } from '@/components/Results';
+import { PlatformPreview } from '@/components/PlatformPreview';
+import { DiagnosticQuiz } from '@/components/DiagnosticQuiz';
+import { Pricing } from '@/components/Pricing';
+import { FAQ } from '@/components/FAQ';
+import { FinalCTA } from '@/components/FinalCTA';
+import { Footer } from '@/components/Footer';
+import { TrialModal, VideoModal, EnrollModal } from '@/components/Modals';
+import { LiveNotificationToast } from '@/components/LiveNotificationToast';
 
 export default function HomePage() {
-  const router = useRouter();
-  const [isCheckingAuth, setIsCheckingAuth] = React.useState(true);
+  const [trialOpen, setTrialOpen] = useState(false);
+  const [videoOpen, setVideoOpen] = useState(false);
+  const [enrollOpen, setEnrollOpen] = useState(false);
+  const [selectedCourse, setSelectedCourse] = useState('IAT 2026 Achievers Batch');
 
-  // Auto-redirect to dashboard if user is already logged in
-  React.useEffect(() => {
-    const checkAndRedirect = () => {
-      const token = getToken();
-      if (token) {
-        window.location.replace("/dashboard");
-        return;
-      }
-      setIsCheckingAuth(false);
-    };
-
-    checkAndRedirect();
-
-    // Listen for Back/Forward cache navigation
-    const handlePageShow = () => {
-      checkAndRedirect();
-    };
-
-    window.addEventListener("pageshow", handlePageShow);
-    return () => window.removeEventListener("pageshow", handlePageShow);
-  }, []);
-
-  const handleOpenAssessment = () => {
-    const token = getToken();
-    if (token) {
-      router.push("/assessment");
-    } else {
-      router.push("/login?mode=signup&redirect=%2Fassessment");
+  const handleOpenEnroll = (courseName?: string) => {
+    if (courseName) {
+      setSelectedCourse(courseName);
     }
+    setEnrollOpen(true);
   };
 
-  const handleOpenLogin = () => {
-    const token = getToken();
-    if (token) {
-      router.push("/dashboard");
-    } else {
-      router.push("/login");
-    }
+  const handleOpenTrial = () => {
+    setTrialOpen(true);
   };
 
-  const handleEnrollNow = () => {
-    const el = document.getElementById("study-programs");
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth" });
-    } else {
-      handleOpenAssessment();
-    }
+  const handleOpenVideo = () => {
+    setVideoOpen(true);
   };
-
-  if (isCheckingAuth) {
-    return (
-      <div className="min-h-screen bg-[#07080F] flex items-center justify-center">
-        <div className="flex flex-col items-center gap-3">
-          <div className="h-8 w-8 rounded-full border-2 border-indigo-500 border-t-transparent animate-spin" />
-          <p className="text-xs text-slate-400 font-medium font-mono">Loading SciPrep Academy…</p>
-        </div>
-      </div>
-    );
-  }
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#07080F] text-slate-100 selection:bg-indigo-500/30 selection:text-white">
-      {/* 1. Top Announcement Bar */}
-      <AnnouncementBanner onOpenAssessment={handleEnrollNow} onGetAccess={handleEnrollNow} />
-
-      {/* 2. Sticky Navbar */}
+    <div className="min-h-screen bg-[#0A0A0F] text-[#F8FAFC] overflow-x-hidden selection:bg-indigo-500/30 selection:text-indigo-200">
+      {/* Sticky Top Navigation */}
       <Navbar
-        onOpenAssessment={handleOpenAssessment}
-        onOpenLogin={handleOpenLogin}
-        onEnrollNow={handleEnrollNow}
+        onOpenEnroll={handleOpenEnroll}
+        onOpenTrial={handleOpenTrial}
       />
 
-      {/* 3. Main Landing Flow */}
-      <main className="flex-1">
-        {/* Section 1: Hero with 24/7 AI Mentor, AIR 3 Card & IAT Mock Progression Chart */}
-        <Hero
-          onOpenAssessment={handleOpenAssessment}
-          onWatchInsights={() => {
-            const el = document.getElementById("hall-of-fame");
-            if (el) el.scrollIntoView({ behavior: "smooth" });
-          }}
-        />
+      {/* Hero Section */}
+      <Hero
+        onOpenTrial={handleOpenTrial}
+        onOpenVideo={handleOpenVideo}
+        onOpenEnroll={handleOpenEnroll}
+      />
 
-        {/* Section 2: Gateway to India's Elite Scientific Institutions Marquee Strip */}
-        <TrustStrip />
+      {/* Marquee: Target Science Institutes */}
+      <TrustedBy />
 
-        {/* Section 3: The SciPrep Precision Advantage (Head-to-Head + 6 Feature Cards) */}
-        <PrecisionAdvantage
-          onOpenAssessment={handleOpenAssessment}
-          onExploreDemo={handleOpenAssessment}
-        />
+      {/* Flagship Course Programs (Bento Grid) */}
+      <Courses
+        onOpenEnroll={handleOpenEnroll}
+        onOpenTrial={handleOpenTrial}
+      />
 
-        {/* Section 4: Study Material Engineered for Science Ranks (Pricing & Programs) */}
-        <ProgramsPricingSection
-          onOpenAssessment={handleOpenAssessment}
-          onSelectPlan={handleEnrollNow}
-        />
+      {/* Why Choose SciPrep (Split View) */}
+      <WhyChooseUs
+        onOpenTrial={handleOpenTrial}
+        onOpenEnroll={() => handleOpenEnroll()}
+      />
 
-        {/* Section 5: Hall of Fame (Selection Ratio & Verified Rankers) */}
-        <HallOfFameSection />
+      {/* Results, AIR Ranks & Wall of Fame */}
+      <Results
+        onOpenVideo={handleOpenVideo}
+        onOpenEnroll={() => handleOpenEnroll()}
+      />
 
-        {/* Section 6: FAQ Section */}
-        <FAQSection />
-      </main>
+      {/* Interactive Command Center & Learning Platform Simulation */}
+      <PlatformPreview />
 
-      {/* 4. Footer */}
-      <Footer />
+      {/* Instant Science Diagnostic Assessment Quiz */}
+      <DiagnosticQuiz
+        onOpenEnroll={() => handleOpenEnroll()}
+        onOpenTrial={handleOpenTrial}
+      />
+
+      {/* 3-Tier Transparent Pricing */}
+      <Pricing
+        onOpenEnroll={handleOpenEnroll}
+        onOpenTrial={handleOpenTrial}
+      />
+
+      {/* Accordion FAQ with Filter */}
+      <FAQ onOpenTrial={handleOpenTrial} />
+
+      {/* Final Immersive Batch Countdown CTA */}
+      <FinalCTA
+        onOpenTrial={handleOpenTrial}
+        onOpenEnroll={() => handleOpenEnroll()}
+      />
+
+      {/* Comprehensive Footer */}
+      <Footer
+        onOpenTrial={handleOpenTrial}
+        onOpenEnroll={handleOpenEnroll}
+      />
+
+      {/* Modals */}
+      <TrialModal
+        isOpen={trialOpen}
+        onClose={() => setTrialOpen(false)}
+      />
+
+      <VideoModal
+        isOpen={videoOpen}
+        onClose={() => setVideoOpen(false)}
+      />
+
+      <EnrollModal
+        isOpen={enrollOpen}
+        courseName={selectedCourse}
+        onClose={() => setEnrollOpen(false)}
+      />
+
+      {/* Subtle Live Toast Notifications */}
+      <LiveNotificationToast />
     </div>
   );
 }
