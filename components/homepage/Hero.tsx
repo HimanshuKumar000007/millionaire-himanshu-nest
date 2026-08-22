@@ -104,7 +104,7 @@ export function Hero({ onOpenAssessment }: HeroProps) {
               Know Where
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600">
-                You Stand.
+                You Stand in NEST.
               </span>
             </motion.h1>
 
