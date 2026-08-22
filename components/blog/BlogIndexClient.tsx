@@ -81,36 +81,49 @@ export function BlogIndexClient({ initialPosts }: BlogIndexClientProps) {
 
   return (
     <div className="space-y-12">
-      {/* Hero Header */}
+      {/* Educational Knowledge Hub Header */}
       <div className="relative rounded-3xl bg-gradient-to-br from-white via-indigo-50/40 to-purple-50/30 p-6 sm:p-10 border border-gray-200/80 shadow-2xs overflow-hidden">
         {/* Subtle Decorative Background Elements */}
         <div className="absolute top-0 right-0 -mr-16 -mt-16 w-80 h-80 bg-indigo-200/20 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute bottom-0 left-1/3 -mb-12 w-64 h-64 bg-purple-200/20 rounded-full blur-2xl pointer-events-none" />
 
-        <div className="relative z-10 max-w-3xl space-y-4">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/90 backdrop-blur-md border border-indigo-100 shadow-2xs text-xs font-bold text-indigo-800">
-            <Sparkles className="h-3.5 w-3.5 text-indigo-600 animate-pulse" />
-            <span>Official NISER & CEBS Exam Preparation Hub</span>
+        <div className="relative z-10 max-w-4xl space-y-4">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/95 backdrop-blur-md border border-indigo-100 shadow-2xs text-xs font-black text-indigo-900">
+            <GraduationCap className="h-4 w-4 text-indigo-600" />
+            <span>SciPrep Academic Resource & Strategy Center</span>
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-black text-gray-900 tracking-tight leading-tight">
-            Crack NEST with{" "}
+            NEST Preparation Library &{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600">
-              High-Authority Guides
+              Academic Blueprints
             </span>
           </h1>
 
-          <p className="text-base sm:text-lg text-gray-600 font-medium leading-relaxed max-w-2xl">
-            In-depth strategies, multi-year PYQ frequency breakdowns, MAS cutoff calculations, and direct reports on life & research at NISER and CEBS.
+          <p className="text-base sm:text-lg text-gray-600 font-medium leading-relaxed max-w-3xl">
+            Peer-reviewed syllabus guides, official category-wise SMAS cutoff algorithms, multi-year PYQ frequency breakdowns, and scientific scoring strategies for NISER Bhubaneswar & UM-DAE CEBS Mumbai.
           </p>
 
+          {/* Academic Trust Tags */}
+          <div className="flex flex-wrap gap-2.5 pt-1 text-xs font-bold text-gray-700">
+            <span className="bg-white/80 border border-gray-200/90 px-3 py-1 rounded-full flex items-center gap-1.5 shadow-2xs">
+              <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600" /> DAE / NISER Syllabus Aligned
+            </span>
+            <span className="bg-white/80 border border-gray-200/90 px-3 py-1 rounded-full flex items-center gap-1.5 shadow-2xs">
+              <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600" /> Best 3 of 4 Scoring Mathematics
+            </span>
+            <span className="bg-white/80 border border-gray-200/90 px-3 py-1 rounded-full flex items-center gap-1.5 shadow-2xs">
+              <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600" /> 2018–2025 Solved PYQ Archive
+            </span>
+          </div>
+
           {/* Live Search & Filter Bar */}
-          <div className="pt-2 flex flex-col sm:flex-row gap-3 items-stretch sm:items-center max-w-xl">
+          <div className="pt-3 flex flex-col sm:flex-row gap-3 items-stretch sm:items-center max-w-2xl">
             <div className="relative flex-1">
               <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
               <input
                 type="text"
-                placeholder="Search topics (e.g. Cutoff, PYQ, NISER, Physics)..."
+                placeholder="Search study guides, topics, syllabus, or cutoffs (e.g. SMAS, Optics, Genetics, NISER)..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-10 pr-9 py-2.5 bg-white rounded-2xl border border-gray-200 text-xs sm:text-sm font-medium text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all shadow-2xs"
@@ -124,11 +137,12 @@ export function BlogIndexClient({ initialPosts }: BlogIndexClientProps) {
                 </button>
               )}
             </div>
-            <Link href="/assessment">
-              <Button className="bg-indigo-600 hover:bg-indigo-700 text-white rounded-2xl text-xs font-bold px-5 h-10 shadow-sm shadow-indigo-600/20 gap-1.5 shrink-0">
-                <Flame className="h-3.5 w-3.5 text-amber-300" /> Free Diagnostic Test
-              </Button>
-            </Link>
+            <Button
+              onClick={handleAssessmentClick}
+              className="bg-indigo-600 hover:bg-indigo-700 text-white rounded-2xl text-xs font-bold px-5 h-10 shadow-sm shadow-indigo-600/20 gap-1.5 shrink-0 cursor-pointer"
+            >
+              <Flame className="h-3.5 w-3.5 text-amber-300" /> Free Diagnostic Test
+            </Button>
           </div>
         </div>
       </div>

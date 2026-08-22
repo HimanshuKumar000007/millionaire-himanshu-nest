@@ -91,7 +91,7 @@ export function Navbar({ onOpenAssessment, onOpenLogin }: NavbarProps) {
     { label: "Smart Lessons", href: "/#smart-lessons" },
     { label: "PYQs", href: "/#pyqs" },
     { label: "Mock Tests", href: "/#mock-tests" },
-    { label: "Blog", href: "/blog" },
+    { label: "Prep Guides", href: "/blog" },
     { label: "About", href: "/about" },
   ];
 

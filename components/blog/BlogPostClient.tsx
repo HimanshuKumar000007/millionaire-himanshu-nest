@@ -27,6 +27,7 @@ import {
   ChevronDown,
   ListOrdered,
   Flame,
+  GraduationCap,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -141,11 +142,27 @@ export function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
         {/* Main Article Body (8 Columns on desktop) */}
         <div className="lg:col-span-8 space-y-8">
+          {/* Breadcrumb Navigation */}
+          <nav className="flex items-center gap-2 text-xs font-bold text-gray-500 overflow-x-auto pb-1">
+            <Link href="/" className="hover:text-indigo-600 transition-colors">
+              Home
+            </Link>
+            <span className="text-gray-300">/</span>
+            <Link href="/blog" className="hover:text-indigo-600 transition-colors">
+              Academic Guides
+            </Link>
+            <span className="text-gray-300">/</span>
+            <span className="text-indigo-600 truncate max-w-[200px] sm:max-w-xs">{post.category}</span>
+          </nav>
+
           {/* Article Header */}
           <header className="space-y-5 bg-white rounded-3xl p-6 sm:p-10 border border-gray-200/80 shadow-2xs">
             <div className="flex flex-wrap items-center gap-2.5">
               <Badge className="bg-indigo-50 text-indigo-700 font-extrabold text-xs px-3 py-1 border border-indigo-200">
-                {post.category}
+                <GraduationCap className="h-3.5 w-3.5 mr-1 text-indigo-600" /> {post.category}
+              </Badge>
+              <Badge variant="outline" className="text-emerald-700 bg-emerald-50/70 border-emerald-200 text-[10px] font-bold">
+                ✓ NEST 2026/2027 Syllabus Verified
               </Badge>
               <span className="text-xs text-gray-500 font-semibold flex items-center gap-1">
                 <Clock className="h-3.5 w-3.5 text-gray-400" /> {post.readTime}
@@ -175,7 +192,7 @@ export function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
                 <div>
                   <div className="text-xs sm:text-sm font-black text-gray-900 flex items-center gap-1">
                     {post.author.name}
-                    <span className="text-indigo-600 text-xs" title="Verified Author">✓</span>
+                    <span className="text-indigo-600 text-xs font-bold" title="Verified Academic Author">✓ Verified Educator</span>
                   </div>
                   <div className="text-[11px] text-gray-500 font-medium">
                     {post.author.role}
@@ -187,8 +204,8 @@ export function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
               <div className="flex items-center gap-2">
                 <button
                   onClick={handleCopyLink}
-                  className="p-2 rounded-xl bg-gray-50 hover:bg-gray-100 text-gray-600 border border-gray-200 text-xs font-bold flex items-center gap-1.5 transition-colors"
-                  title="Copy Article Link"
+                  className="p-2 rounded-xl bg-gray-50 hover:bg-gray-100 text-gray-600 border border-gray-200 text-xs font-bold flex items-center gap-1.5 transition-colors cursor-pointer"
+                  title="Copy Guide Link"
                 >
                   {copied ? (
                     <>
@@ -198,14 +215,14 @@ export function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
                   ) : (
                     <>
                       <Copy className="h-3.5 w-3.5 text-gray-500" />
-                      <span className="hidden sm:inline">Copy</span>
+                      <span className="hidden sm:inline">Copy Link</span>
                     </>
                   )}
                 </button>
 
                 <button
                   onClick={shareOnTwitter}
-                  className="p-2 rounded-xl bg-gray-50 hover:bg-sky-50 hover:text-sky-600 text-gray-600 border border-gray-200 transition-colors"
+                  className="p-2 rounded-xl bg-gray-50 hover:bg-sky-50 hover:text-sky-600 text-gray-600 border border-gray-200 transition-colors cursor-pointer"
                   title="Share on X (Twitter)"
                 >
                   <Twitter className="h-3.5 w-3.5" />
@@ -213,7 +230,7 @@ export function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
 
                 <button
                   onClick={shareOnWhatsApp}
-                  className="p-2 rounded-xl bg-gray-50 hover:bg-emerald-50 hover:text-emerald-600 text-gray-600 border border-gray-200 transition-colors"
+                  className="p-2 rounded-xl bg-gray-50 hover:bg-emerald-50 hover:text-emerald-600 text-gray-600 border border-gray-200 transition-colors cursor-pointer"
                   title="Share on WhatsApp"
                 >
                   <MessageCircle className="h-3.5 w-3.5" />
@@ -351,7 +368,7 @@ export function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
               <div className="flex items-center gap-2 pb-3 border-b border-gray-100">
                 <ListOrdered className="h-4 w-4 text-indigo-600" />
                 <h4 className="text-xs font-black text-gray-900 uppercase tracking-wider">
-                  Table of Contents
+                  Study Module Outline
                 </h4>
               </div>
               <nav className="space-y-1.5">
@@ -378,19 +395,20 @@ export function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
           {/* Quick Readiness Tool Box */}
           <div className="rounded-3xl bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 p-6 border border-indigo-100 shadow-2xs space-y-4">
             <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-indigo-600 text-white text-[10px] font-black uppercase tracking-wider">
-              <Flame className="h-3 w-3" /> Free Tool
+              <GraduationCap className="h-3.5 w-3.5" /> Assessment Suite
             </div>
             <h4 className="text-base font-black text-gray-900 leading-tight">
               Test Your Real NEST AIR Readiness
             </h4>
             <p className="text-xs text-gray-600 leading-relaxed">
-              Take our 10-minute diagnostic assessment to identify your weak spots across Physics, Chemistry, Biology, and Math.
+              Take our diagnostic assessment to benchmark your speed, accuracy, and SMAS clearance across Physics, Chemistry, Biology, and Math.
             </p>
-            <Link href="/assessment" className="block">
-              <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold shadow-sm">
-                Start Diagnostic Test <ArrowRight className="h-3 w-3 ml-1" />
-              </Button>
-            </Link>
+            <Button
+              onClick={handleAssessmentClick}
+              className="w-full bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold shadow-sm cursor-pointer"
+            >
+              Start Diagnostic Assessment <ArrowRight className="h-3.5 w-3.5 ml-1" />
+            </Button>
           </div>
         </div>
       </div>
