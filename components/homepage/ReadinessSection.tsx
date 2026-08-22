@@ -316,12 +316,12 @@ export function ReadinessSection({ onOpenAssessment }: ReadinessSectionProps) {
               </div>
 
               {/* CTA footer */}
-              <div className="pt-4 border-t border-gray-100 flex items-center justify-between">
-                <span className="text-xs text-[#6B7280]">
-                  Evaluated using previous 10 NEST paper benchmarks
+              <div className="pt-4 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3">
+                <span className="text-xs text-slate-500 font-medium">
+                  Calibrated against 8 years of official NEST SMAS cutoff benchmarks.
                 </span>
-                <Button onClick={onOpenAssessment} size="sm" className="bg-[#4F46E5] hover:bg-[#3730A3] transition-colors">
-                  Start Free Diagnostic <ArrowRight className="ml-1.5 h-3.5 w-3.5" />
+                <Button onClick={onOpenAssessment} size="sm" className="w-full sm:w-auto bg-indigo-600 hover:bg-indigo-700 text-white font-bold transition-all shadow-xs">
+                  See My Readiness Index <ArrowRight className="ml-1.5 h-3.5 w-3.5" />
                 </Button>
               </div>
             </Card>

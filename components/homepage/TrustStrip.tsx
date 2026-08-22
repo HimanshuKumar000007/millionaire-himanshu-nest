@@ -24,6 +24,29 @@ const ticker = [
   "UM-DAE CEBS Mumbai",
 ];
 
+function StatCounter({ to, suffix = "", prefix = "" }: { to: number; suffix?: string; prefix?: string }) {
+  const [val, setVal] = React.useState(0);
+  const ref = React.useRef(null);
+  const isInView = useInView(ref, { once: true });
+
+  React.useEffect(() => {
+    if (!isInView) return;
+    let start = 0;
+    const duration = 1400;
+    const startTime = performance.now();
+    const animate = (currentTime: number) => {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const easeProgress = 1 - Math.pow(1 - progress, 3);
+      setVal(Math.floor(easeProgress * to));
+      if (progress < 1) requestAnimationFrame(animate);
+    };
+    requestAnimationFrame(animate);
+  }, [isInView, to]);
+
+  return <span ref={ref}>{prefix}{val.toLocaleString()}{suffix}</span>;
+}
+
 export function TrustStrip() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-60px" });
@@ -36,19 +59,37 @@ export function TrustStrip() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Stat grid */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 pb-8 border-b border-white/[0.07]">
-          {stats.map((stat, i) => (
-            <div
-              key={i}
-              className={`text-center transition-all duration-700 ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
-              style={{ transitionDelay: `${i * 90}ms` }}
-            >
-              <div className="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight text-white tabular-nums leading-none mb-1">
-                {stat.number}
-              </div>
-              <div className="text-sm font-bold text-slate-200">{stat.label}</div>
-              <div className="text-[11px] text-slate-500 font-medium mt-0.5">{stat.sub}</div>
+          <div className="text-center transition-all duration-700">
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight text-white tabular-nums leading-none mb-1">
+              <StatCounter to={2400} suffix="+" />
             </div>
-          ))}
+            <div className="text-sm font-bold text-slate-200">NEST Aspirants</div>
+            <div className="text-[11px] text-slate-500 font-medium mt-0.5">actively preparing</div>
+          </div>
+
+          <div className="text-center transition-all duration-700">
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight text-white tabular-nums leading-none mb-1">
+              <StatCounter to={8} suffix=" Years" />
+            </div>
+            <div className="text-sm font-bold text-slate-200">PYQ Coverage</div>
+            <div className="text-[11px] text-slate-500 font-medium mt-0.5">2018 through 2025</div>
+          </div>
+
+          <div className="text-center transition-all duration-700">
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight text-white tabular-nums leading-none mb-1">
+              <StatCounter to={9} />
+            </div>
+            <div className="text-sm font-bold text-slate-200">Subject Masterclasses</div>
+            <div className="text-[11px] text-slate-500 font-medium mt-0.5">Physics · Chem · Bio · Math</div>
+          </div>
+
+          <div className="text-center transition-all duration-700">
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight text-white tabular-nums leading-none mb-1">
+              <StatCounter to={180} />
+            </div>
+            <div className="text-sm font-bold text-slate-200">Mark Simulation</div>
+            <div className="text-[11px] text-slate-500 font-medium mt-0.5">full CBT-format mock tests</div>
+          </div>
         </div>
 
         {/* Subtitle */}

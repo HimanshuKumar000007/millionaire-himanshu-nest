@@ -217,23 +217,26 @@ export function MockTestSection({ onOpenAssessment }: MockTestSectionProps) {
                     </div>
                   </div>
 
-                  {/* Small Indicators Bar (Requirement) */}
-                  <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 flex flex-wrap items-center justify-between gap-4 text-xs font-semibold">
-                    <div className="flex items-center gap-2 text-gray-700">
-                      <Clock className="h-4 w-4 text-[#4F46E5]" />
-                      <span>Time Management Efficiency: <strong>{currentMock.timeEfficiency}</strong></span>
+                  {/* Live Simulation Indicator Bar */}
+                  <div className="p-4 rounded-2xl bg-slate-900 text-white border border-slate-800 flex flex-wrap items-center justify-between gap-4 text-xs font-semibold">
+                    <div className="flex items-center gap-2.5">
+                      <div className="h-2.5 w-2.5 rounded-full bg-emerald-400 animate-pulse" />
+                      <span className="font-mono text-emerald-300 font-bold">LIVE CBT SIMULATOR</span>
+                      <span className="text-slate-600">|</span>
+                      <span className="font-mono text-slate-300">Time Left: <strong className="text-white">02:44:18</strong></span>
                     </div>
 
-                    <div className="flex items-center gap-2 text-gray-700">
-                      <CheckCircle2 className="h-4 w-4 text-emerald-600" />
-                      <span>Questions Attempted: <strong>{currentMock.attempted}</strong></span>
+                    <div className="flex items-center gap-3 text-[11px] font-mono">
+                      <span className="text-emerald-400">42 Answered</span>
+                      <span className="text-amber-400">6 Marked</span>
+                      <span className="text-slate-400">12 Unvisited</span>
                     </div>
                   </div>
 
                   {/* Included Sections Tag Pills */}
                   <div>
-                    <span className="text-xs font-bold text-gray-500 uppercase tracking-wider block mb-2">
-                      Sections Covered
+                    <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block mb-2">
+                      Sectional Breakdown (180 Marks Total)
                     </span>
                     <div className="flex flex-wrap gap-2">
                       {currentMock.subjects.map((s, i) => (
@@ -242,7 +245,7 @@ export function MockTestSection({ onOpenAssessment }: MockTestSectionProps) {
                           animate={{ opacity: 1, scale: 1 }}
                           transition={{ delay: i * 0.1 }}
                           key={s} 
-                          className="px-3 py-1 rounded-lg bg-gray-100 text-xs font-semibold text-gray-800"
+                          className="px-3 py-1.5 rounded-xl bg-slate-100 border border-slate-200 text-xs font-bold text-slate-800"
                         >
                           {s}
                         </motion.span>
@@ -252,19 +255,13 @@ export function MockTestSection({ onOpenAssessment }: MockTestSectionProps) {
                 </motion.div>
               </AnimatePresence>
 
-              <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-gray-100">
-                <span className="text-xs text-gray-400">
-                  Includes detailed subject-wise speed analysis upon completion.
+              <div className="pt-4 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-slate-100">
+                <span className="text-xs text-slate-500 font-medium">
+                  Instant SMAS scorecard &amp; topic error analysis generated immediately upon submission.
                 </span>
-                <motion.div
-                  animate={{ boxShadow: ["0px 0px 0px rgba(79,70,229,0)", "0px 0px 15px rgba(79,70,229,0.5)", "0px 0px 0px rgba(79,70,229,0)"] }}
-                  transition={{ repeat: Infinity, duration: 2.5 }}
-                  className="rounded-md w-full sm:w-auto"
-                >
-                  <Button onClick={onOpenAssessment} size="lg" className="w-full sm:w-auto bg-[#4F46E5] hover:bg-[#3730A3] transition-colors">
-                    <Play className="h-4 w-4 mr-2 fill-current" /> Take a Free Mock
-                  </Button>
-                </motion.div>
+                <Button onClick={onOpenAssessment} size="lg" className="w-full sm:w-auto bg-indigo-600 hover:bg-indigo-700 text-white font-bold transition-all shadow-md">
+                  <Play className="h-4 w-4 mr-2 fill-current" /> Take a Timed CBT Mock
+                </Button>
               </div>
 
             </Card>
