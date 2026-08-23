@@ -61,32 +61,35 @@ export function Footer() {
           <motion.div variants={itemVariants} className="md:col-span-7 grid grid-cols-2 sm:grid-cols-3 gap-8">
             <div className="space-y-4">
               <h4 className="text-xs font-extrabold text-gray-900 uppercase tracking-widest">
-                Product
+                Platform
               </h4>
               <ul className="space-y-3 text-sm font-semibold">
-                <li><a href="#smart-lessons" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">Smart Lessons</a></li>
-                <li><a href="#pyqs" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">PYQ Practice</a></li>
-                <li><a href="#mock-tests" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">Mock Tests</a></li>
-                <li><a href="#how-it-works" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">Performance Insights</a></li>
+                <li><a href="/nest-pyq-chapter-wise" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">Chapter-Wise PYQs</a></li>
+                <li><a href="/#smart-lessons" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">Smart Lessons</a></li>
+                <li><a href="/#mock-tests" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">Mock Test Series</a></li>
+                <li><a href="/#how-it-works" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">Performance Analytics</a></li>
               </ul>
             </div>
 
             <div className="space-y-4">
               <h4 className="text-xs font-extrabold text-gray-900 uppercase tracking-widest">
-                Company
+                NEST Resources
               </h4>
               <ul className="space-y-3 text-sm font-semibold">
-                <li><a href="/blog" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">NEST Blog & Guides</a></li>
+                <li><a href="/nest-marking-scheme-negative-marking" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">Marking Scheme & SMAS</a></li>
+                <li><a href="/niser-stipend-inspire-scholarship-fees" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">NISER Stipend & Fees</a></li>
+                <li><a href="/blog/nest-exam-cut-off-marks-category-wise-smas-mas" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">Category Cutoffs</a></li>
+                <li><a href="/blog" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">All Strategy Guides</a></li>
+              </ul>
+            </div>
+
+            <div className="space-y-4">
+              <h4 className="text-xs font-extrabold text-gray-900 uppercase tracking-widest">
+                Company & Legal
+              </h4>
+              <ul className="space-y-3 text-sm font-semibold">
                 <li><a href="/about" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">About SciPrep</a></li>
                 <li><a href="/contact" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">Contact Support</a></li>
-              </ul>
-            </div>
-
-            <div className="space-y-4">
-              <h4 className="text-xs font-extrabold text-gray-900 uppercase tracking-widest">
-                Legal
-              </h4>
-              <ul className="space-y-3 text-sm font-semibold">
                 <li><a href="/privacy" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">Privacy Policy</a></li>
                 <li><a href="/terms" className="text-gray-500 hover:text-indigo-600 hover:translate-x-1 transition-all inline-block">Terms of Service</a></li>
               </ul>

@@ -89,7 +89,7 @@ export function Navbar({ onOpenAssessment, onOpenLogin }: NavbarProps) {
     { label: "Home", href: "/" },
     { label: "Dashboard", href: "/dashboard", isLive: true },
     { label: "Smart Lessons", href: "/#smart-lessons" },
-    { label: "PYQs", href: "/#pyqs" },
+    { label: "Chapter PYQs", href: "/nest-pyq-chapter-wise" },
     { label: "Mock Tests", href: "/#mock-tests" },
     { label: "Prep Guides", href: "/blog" },
     { label: "About", href: "/about" },
