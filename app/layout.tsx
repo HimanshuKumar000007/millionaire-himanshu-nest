@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Plus_Jakarta_Sans, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
+import { MixpanelPageView } from '@/components/analytics/MixpanelPageView';
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ['latin'],
@@ -221,6 +222,7 @@ export default function RootLayout({
 mixpanel.init('${process.env.NEXT_PUBLIC_MIXPANEL_TOKEN || '44f5581631654066b2f69107c4d5f9e7'}', {
   autocapture: true,
   record_sessions_percent: 100,
+  track_pageview: true,
 });`,
           }}
         />
@@ -229,6 +231,7 @@ mixpanel.init('${process.env.NEXT_PUBLIC_MIXPANEL_TOKEN || '44f5581631654066b2f6
         className="bg-[#F7F8FC] text-[#111827] antialiased selection:bg-indigo-100 selection:text-indigo-900 min-h-screen flex flex-col font-sans"
         suppressHydrationWarning
       >
+        <MixpanelPageView />
         {children}
       </body>
     </html>
