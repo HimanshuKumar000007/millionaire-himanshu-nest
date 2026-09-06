@@ -12,7 +12,7 @@ export async function POST(req: NextRequest) {
       razorpay_order_id,
       razorpay_payment_id,
       razorpay_signature,
-      planId = "six_month",
+      planId = "annual",
       email,
       userId,
     } = body;

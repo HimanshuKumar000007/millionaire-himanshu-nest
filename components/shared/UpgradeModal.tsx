@@ -64,7 +64,7 @@ export function UpgradeModal({
   featureDescription = "Upgrade to access all full-length CBT mocks, complete 2018–2024 PYQ archives, and 100+ chapter smart lessons.",
 }: UpgradeModalProps) {
   const [mounted, setMounted] = React.useState(false);
-  const [selectedPlanId, setSelectedPlanId] = React.useState<"monthly" | "six_month" | "annual">("six_month");
+  const [selectedPlanId, setSelectedPlanId] = React.useState<"annual">("annual");
   const [isProcessing, setIsProcessing] = React.useState(false);
   const [errorMessage, setErrorMessage] = React.useState<string | null>(null);
   const [paymentSuccess, setPaymentSuccess] = React.useState(false);
@@ -345,92 +345,31 @@ export function UpgradeModal({
                   </div>
                 </div>
 
-                {/* 3-Tier Pricing Selector (Like IISER Project) */}
-                <div className="space-y-2">
-                  <span className="text-xs font-black uppercase tracking-wider text-gray-400 block">
-                    Choose Your Subscription Plan:
-                  </span>
-                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                    {/* Plan 1: Monthly ₹399 */}
-                    <div
-                      onClick={() => setSelectedPlanId("monthly")}
-                      className={`p-3.5 rounded-2xl border-2 transition-all cursor-pointer relative flex flex-col justify-between ${
-                        selectedPlanId === "monthly"
-                          ? "border-[#4F46E5] bg-indigo-50/60 shadow-xs ring-2 ring-[#4F46E5]/20"
-                          : "border-gray-200 hover:border-gray-300 bg-white"
-                      }`}
-                    >
-                      <div className="space-y-1">
-                        <span className="text-xs font-extrabold text-gray-900 block">
-                          Pro Monthly
-                        </span>
-                        <div className="flex items-baseline gap-1">
-                          <span className="text-xl font-black text-gray-900">₹399</span>
-                          <span className="text-[10px] text-gray-500 font-medium">/ 30 days</span>
-                        </div>
-                        <p className="text-[10px] text-gray-500 font-medium leading-tight">
-                          Quick 1-month crash practice.
-                        </p>
-                      </div>
+                {/* Single 1-Year All-Access Plan Card */}
+                <div className="p-4 rounded-2xl border-2 border-[#4F46E5] bg-linear-to-r from-indigo-50/90 to-purple-50/60 shadow-xs relative flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                  <div className="space-y-1">
+                    <div className="flex items-center gap-2">
+                      <span className="text-sm font-black text-gray-900">
+                        1-Year All-Access Membership
+                      </span>
+                      <Badge className="bg-amber-500 text-white font-black text-[9px] px-2 py-0.5 shadow-2xs">
+                        SPECIAL LAUNCH OFFER 🔥
+                      </Badge>
                     </div>
+                    <p className="text-xs text-gray-600 font-medium">
+                      Full 365 days unlimited access to all 10+ CBT mocks, 2018–2025 PYQs, and 100+ chapter smart lessons.
+                    </p>
+                  </div>
 
-                    {/* Plan 2: 6 Months ₹499 (Most Popular) */}
-                    <div
-                      onClick={() => setSelectedPlanId("six_month")}
-                      className={`p-3.5 rounded-2xl border-2 transition-all cursor-pointer relative flex flex-col justify-between ${
-                        selectedPlanId === "six_month"
-                          ? "border-[#4F46E5] bg-indigo-50/60 shadow-xs ring-2 ring-[#4F46E5]/20"
-                          : "border-gray-200 hover:border-gray-300 bg-white"
-                      }`}
-                    >
-                      <div className="absolute -top-2.5 right-2">
-                        <Badge className="bg-amber-500 text-white font-black text-[8px] px-1.5 py-0 shadow-2xs">
-                          MOST POPULAR
-                        </Badge>
-                      </div>
-                      <div className="space-y-1">
-                        <span className="text-xs font-extrabold text-gray-900 block">
-                          Pro Premium
-                        </span>
-                        <div className="flex items-baseline gap-1">
-                          <span className="text-xl font-black text-gray-900">₹499</span>
-                          <span className="text-[10px] text-gray-400 line-through">₹999</span>
-                          <span className="text-[10px] text-gray-500 font-medium">/ 6 mos</span>
-                        </div>
-                        <p className="text-[10px] text-emerald-700 font-bold leading-tight">
-                          Save ₹1,895 vs monthly
-                        </p>
-                      </div>
+                  <div className="flex items-baseline sm:flex-col sm:items-end gap-2 sm:gap-0 shrink-0">
+                    <div className="flex items-baseline gap-1.5">
+                      <span className="text-3xl font-black text-gray-900">₹299</span>
+                      <span className="text-xs text-gray-400 line-through">₹999</span>
+                      <span className="text-xs text-gray-500 font-bold">/ 1 year</span>
                     </div>
-
-                    {/* Plan 3: Annual ₹899 (Best Value) */}
-                    <div
-                      onClick={() => setSelectedPlanId("annual")}
-                      className={`p-3.5 rounded-2xl border-2 transition-all cursor-pointer relative flex flex-col justify-between ${
-                        selectedPlanId === "annual"
-                          ? "border-[#4F46E5] bg-indigo-50/60 shadow-xs ring-2 ring-[#4F46E5]/20"
-                          : "border-gray-200 hover:border-gray-300 bg-white"
-                      }`}
-                    >
-                      <div className="absolute -top-2.5 right-2">
-                        <Badge className="bg-purple-600 text-white font-black text-[8px] px-1.5 py-0 shadow-2xs">
-                          BEST VALUE
-                        </Badge>
-                      </div>
-                      <div className="space-y-1">
-                        <span className="text-xs font-extrabold text-gray-900 block">
-                          Pro Annual
-                        </span>
-                        <div className="flex items-baseline gap-1">
-                          <span className="text-xl font-black text-gray-900">₹899</span>
-                          <span className="text-[10px] text-gray-400 line-through">₹1,499</span>
-                          <span className="text-[10px] text-gray-500 font-medium">/ 1 yr</span>
-                        </div>
-                        <p className="text-[10px] text-emerald-700 font-bold leading-tight">
-                          Full 365 days access
-                        </p>
-                      </div>
-                    </div>
+                    <span className="text-[11px] text-emerald-700 font-black">
+                      Save ₹700 (70% OFF)
+                    </span>
                   </div>
                 </div>
 

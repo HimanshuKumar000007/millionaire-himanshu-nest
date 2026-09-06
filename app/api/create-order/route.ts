@@ -12,7 +12,7 @@ const razorpay = new Razorpay({
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json().catch(() => ({}));
-    const { planId = "six_month", email, userId } = body;
+    const { planId = "annual", email, userId } = body;
 
     const plan = getEffectivePlan(planId);
     if (!plan) {

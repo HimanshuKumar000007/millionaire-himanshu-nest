@@ -46,7 +46,7 @@ function loadRazorpayScript(): Promise<boolean> {
 }
 
 export function SubscriptionView({ onBackToDashboard }: SubscriptionViewProps) {
-  const [selectedPlanId, setSelectedPlanId] = useState<"monthly" | "six_month" | "annual">("six_month");
+  const [selectedPlanId, setSelectedPlanId] = useState<"annual">("annual");
   const [isProUser, setIsProUser] = useState<boolean>(false);
   const [isProcessing, setIsProcessing] = useState<boolean>(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
@@ -63,7 +63,7 @@ export function SubscriptionView({ onBackToDashboard }: SubscriptionViewProps) {
     return () => window.removeEventListener("nest_plan_updated", handlePlanUpdate);
   }, []);
 
-  const handleSubscribe = async (planId: "monthly" | "six_month" | "annual") => {
+  const handleSubscribe = async (planId: "annual" = "annual") => {
     setSelectedPlanId(planId);
     setIsProcessing(true);
     setErrorMessage(null);
@@ -163,8 +163,6 @@ export function SubscriptionView({ onBackToDashboard }: SubscriptionViewProps) {
   };
 
   const plans = [
-    SUBSCRIPTION_PLANS.monthly,
-    SUBSCRIPTION_PLANS.six_month,
     SUBSCRIPTION_PLANS.annual,
   ];
 
@@ -231,8 +229,8 @@ export function SubscriptionView({ onBackToDashboard }: SubscriptionViewProps) {
         </div>
       )}
 
-      {/* Pricing Cards Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {/* Pricing Card */}
+      <div className="max-w-xl mx-auto w-full">
         {plans.map((plan) => {
           const isSelected = selectedPlanId === plan.id;
           const isPopular = plan.popular;
