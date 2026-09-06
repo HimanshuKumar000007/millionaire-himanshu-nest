@@ -15,6 +15,7 @@ import { MockTestSection } from "@/components/homepage/MockTestSection";
 import { PerformanceSection } from "@/components/homepage/PerformanceSection";
 import { RoadmapSection } from "@/components/homepage/RoadmapSection";
 import { WhySmartPrep } from "@/components/homepage/WhySmartPrep";
+import { FAQSection } from "@/components/homepage/FAQSection";
 import { FinalCTA } from "@/components/homepage/FinalCTA";
 import { Footer } from "@/components/homepage/Footer";
 import { getToken } from "@/lib/auth/authGuard";
@@ -95,6 +96,7 @@ export default function HomePage() {
         <PerformanceSection onOpenAssessment={handleOpenAssessment} />
         <RoadmapSection onOpenAssessment={handleOpenAssessment} />
         <WhySmartPrep />
+        <FAQSection onOpenAssessment={handleOpenAssessment} />
         <FinalCTA onOpenAssessment={handleOpenAssessment} />
       </main>
 

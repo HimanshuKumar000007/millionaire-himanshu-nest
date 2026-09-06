@@ -92,6 +92,7 @@ export function Navbar({ onOpenAssessment, onOpenLogin }: NavbarProps) {
     { label: "Chapter PYQs", href: "/nest-pyq-chapter-wise" },
     { label: "Mock Tests", href: "/#mock-tests" },
     { label: "Prep Guides", href: "/blog" },
+    { label: "FAQs", href: "/#faqs" },
     { label: "About", href: "/about" },
   ];
   return (
